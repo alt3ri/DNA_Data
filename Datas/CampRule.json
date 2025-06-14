@@ -1,0 +1,56 @@
+{
+  "Monster": {
+    "CampKey": "Monster",
+    "Monster": 1,
+    "Player": 0,
+    "DefenceCore": 0,
+    "NPC": 2,
+    "Neutral": 2,
+    "Hostile": 0
+  },
+  "Player": {
+    "CampKey": "Player",
+    "Monster": 0,
+    "Player": 1,
+    "DefenceCore": 2,
+    "NPC": 2,
+    "Neutral": 2,
+    "Hostile": 0
+  },
+  "DefenceCore": {
+    "CampKey": "DefenceCore",
+    "Monster": 0,
+    "Player": 2,
+    "DefenceCore": 1,
+    "NPC": 2,
+    "Neutral": 2,
+    "Hostile": 0
+  },
+  "NPC": {
+    "CampKey": "NPC",
+    "Monster": 2,
+    "Player": 2,
+    "DefenceCore": 2,
+    "NPC": 1,
+    "Neutral": 2,
+    "Hostile": 0
+  },
+  "Neutral": {
+    "CampKey": "Neutral",
+    "Monster": 2,
+    "Player": 2,
+    "DefenceCore": 2,
+    "NPC": 2,
+    "Neutral": 2,
+    "Hostile": 2
+  },
+  "Hostile": {
+    "CampKey": "Hostile",
+    "Monster": 0,
+    "Player": 0,
+    "DefenceCore": 0,
+    "NPC": 0,
+    "Neutral": 2,
+    "Hostile": 0
+  }
+}

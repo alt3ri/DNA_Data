@@ -1,0 +1,292 @@
+{
+  "1": {
+    "UnitId": 1,
+    "UnitBPPath": "/Game/BluePrints/Combat/MechanismSummon/BP_MechanismSummon_Test1.BP_MechanismSummon_Test1"
+  },
+  "10001": {
+    "UnitId": 10001,
+    "UnitBPPath": "/Game/BluePrints/Combat/MechanismSummon/Player/BP_Nvzhu_Summon.BP_Nvzhu_Summon",
+    "DisableBuff": true
+  },
+  "310201": {
+    "UnitId": 310201,
+    "ModelId": 310201,
+    "UnitBPPath": "/Game/BluePrints/Combat/MechanismSummon/Player/BP_Xier_Funnel.BP_Xier_Funnel",
+    "BluePrintParams": {
+      "FunnelClass": 0,
+      "InfoLaserLength": 1000,
+      "Grade6BuffDamageRate": 1.6
+    },
+    "DisableBuff": true
+  },
+  "310202": {
+    "UnitId": 310202,
+    "ModelId": 310202,
+    "UnitBPPath": "/Game/BluePrints/Combat/MechanismSummon/Player/BP_Xier_Funnel.BP_Xier_Funnel",
+    "BluePrintParams": {
+      "FunnelClass": 1,
+      "InfoLaserLength": 1000,
+      "Grade6BuffDamageRate": 1.6
+    },
+    "DisableBuff": true
+  },
+  "310303": {
+    "UnitId": 310303,
+    "UnitBPPath": "/Game/BluePrints/Combat/MechanismSummon/Player/BP_Yeer_Summoned02.BP_Yeer_Summoned02",
+    "DelayDestroyTime": 1,
+    "DamageSource": true,
+    "DisableBuff": true
+  },
+  "420201": {
+    "UnitId": 420201,
+    "BattleRoleId": 420201,
+    "UnitBPPath": "/Game/BluePrints/Combat/MechanismSummon/Player/BP_Landi_Skill01_Summon.BP_Landi_Skill01_Summon",
+    "DelayDestroyTime": 1,
+    "DisableBuff": true
+  },
+  "430101": {
+    "UnitId": 430101,
+    "UnitBPPath": "/Game/BluePrints/Combat/MechanismSummon/Player/BP_Xibi_Summon.BP_Xibi_Summon",
+    "BluePrintParams": {
+      "MaxLinkNum": 10
+    },
+    "DelayDestroyTime": 2,
+    "IsShowJumpWord": true,
+    "BloodUIParmas": {
+      "ActiveCommonUI": 1
+    },
+    "IsSeekEnemyEnable": true,
+    "DisableBuff": true
+  },
+  "600101": {
+    "UnitId": 600101,
+    "UnitBPPath": "/Game/BluePrints/Combat/MechanismSummon/Monster/BP_6Jichong_Skill01.BP_6Jichong_Skill01",
+    "BluePrintParams": {
+      "BuffId": 600101,
+      "SkillEffectIdEnter": 600106,
+      "SkillEffectIdExit": 600107
+    }
+  },
+  "600501": {
+    "UnitId": 600501,
+    "UnitBPPath": "/Game/BluePrints/Combat/MechanismSummon/Monster/BP_Gr_Longcao_Field01.BP_Gr_Longcao_Field01",
+    "BluePrintParams": {
+      "SkillEffectId": 600505
+    }
+  },
+  "850061": {
+    "UnitId": 850061,
+    "UnitBPPath": "/Game/BluePrints/Combat/MechanismSummon/Monster/BP_Boss_Xibi_Skill06_Field02.BP_Boss_Xibi_Skill06_Field02",
+    "BluePrintParams": {
+      "DamageInterval": 0.25,
+      "SkillEffectId": 8500168
+    }
+  },
+  "850062": {
+    "UnitId": 850062,
+    "UnitBPPath": "/Game/BluePrints/Combat/MechanismSummon/Monster/BP_Boss_Xibi_Skill06_Field03.BP_Boss_Xibi_Skill06_Field03",
+    "BluePrintParams": {
+      "DamageInterval": 0.25,
+      "SkillEffectId": 8500169
+    }
+  },
+  "850063": {
+    "UnitId": 850063,
+    "UnitBPPath": "/Game/BluePrints/Combat/MechanismSummon/Monster/BP_Boss_Xibi_Skill06_Field04.BP_Boss_Xibi_Skill06_Field04",
+    "BluePrintParams": {
+      "DamageInterval": 0.25,
+      "SkillEffectId": 8500195
+    }
+  },
+  "850064": {
+    "UnitId": 850064,
+    "UnitBPPath": "/Game/BluePrints/Combat/MechanismSummon/Monster/BP_Boss_Xibi_Skill06_Field05.BP_Boss_Xibi_Skill06_Field05",
+    "BluePrintParams": {
+      "DamageInterval": 0.25,
+      "SkillEffectId": 8500197
+    }
+  },
+  "850065": {
+    "UnitId": 850065,
+    "UnitBPPath": "/Game/BluePrints/Combat/MechanismSummon/Monster/BP_Boss_Xibi_Skill06_Field06.BP_Boss_Xibi_Skill06_Field06",
+    "BluePrintParams": {
+      "DamageInterval": 0.25,
+      "SkillEffectId": 8500199
+    }
+  },
+  "850281": {
+    "UnitId": 850281,
+    "UnitBPPath": "/Game/BluePrints/Combat/MechanismSummon/Monster/BP_Boss_Saiqi_Skill08.BP_Boss_Saiqi_Skill08",
+    "BluePrintParams": {
+      "BuffId": 850204,
+      "SkillEffectIdEnter": 8502125,
+      "SkillEffectIdExit": 8502126
+    }
+  },
+  "850291": {
+    "UnitId": 850291,
+    "UnitBPPath": "/Game/BluePrints/Combat/MechanismSummon/Monster/BP_Boss_Saiqi_Shield.BP_Boss_Saiqi_Shield"
+  },
+  "850311": {
+    "UnitId": 850311,
+    "BattleRoleId": 8503011,
+    "UnitBPPath": "/Game/BluePrints/Combat/MechanismSummon/Monster/BP_Boss_Shijingzhe_JointFoot_L.BP_Boss_Shijingzhe_JointFoot_L",
+    "IsShowJumpWord": true,
+    "BloodUIParmas": [
+      {
+        "ActiveCommonUI": 1
+      },
+      {
+        "Offset": [
+          "X = -75",
+          "Y = 0",
+          "Z = -150"
+        ]
+      },
+      {
+        "ShowLevel": false
+      },
+      {
+        "ScaleRateX": 2
+      },
+      {
+        "ScaleRateY": 1.5
+      }
+    ]
+  },
+  "850312": {
+    "UnitId": 850312,
+    "BattleRoleId": 8503011,
+    "UnitBPPath": "/Game/BluePrints/Combat/MechanismSummon/Monster/BP_Boss_Shijingzhe_JointArm_L.BP_Boss_Shijingzhe_JointArm_L",
+    "IsShowJumpWord": true,
+    "BloodUIParmas": {
+      "ActiveCommonUI": 1,
+      "Offset": {
+        "X": -70,
+        "Y": -50,
+        "Z": -150
+      },
+      "ShowLevel": false,
+      "ScaleRateX": 2,
+      "ScaleRateY": 1.5
+    }
+  },
+  "850313": {
+    "UnitId": 850313,
+    "BattleRoleId": 8503011,
+    "UnitBPPath": "/Game/BluePrints/Combat/MechanismSummon/Monster/BP_Boss_Shijingzhe_JointFoot_R.BP_Boss_Shijingzhe_JointFoot_R",
+    "IsShowJumpWord": true,
+    "BloodUIParmas": [
+      {
+        "ActiveCommonUI": 1
+      },
+      {
+        "Offset": [
+          "X = -75",
+          "Y = 0",
+          "Z = -150"
+        ]
+      },
+      {
+        "ShowLevel": false
+      },
+      {
+        "ScaleRateX": 2
+      },
+      {
+        "ScaleRateY": 1.5
+      }
+    ]
+  },
+  "850314": {
+    "UnitId": 850314,
+    "BattleRoleId": 8503011,
+    "UnitBPPath": "/Game/BluePrints/Combat/MechanismSummon/Monster/BP_Boss_Shijingzhe_JointArm_R.BP_Boss_Shijingzhe_JointArm_R",
+    "IsShowJumpWord": true,
+    "BloodUIParmas": {
+      "ActiveCommonUI": 1,
+      "Offset": {
+        "X": -70,
+        "Y": 50,
+        "Z": -150
+      },
+      "ShowLevel": false,
+      "ScaleRateX": 2,
+      "ScaleRateY": 1.5
+    }
+  },
+  "850315": {
+    "UnitId": 850315,
+    "BattleRoleId": 8503011,
+    "UnitBPPath": "/Game/BluePrints/Combat/MechanismSummon/Monster/BP_Boss_Shijingzhe_Skill15Sign.BP_Boss_Shijingzhe_Skill15Sign",
+    "BloodUIParmas": {
+      "ActiveCommonUI": 0
+    }
+  },
+  "850401": {
+    "UnitId": 850401,
+    "UnitBPPath": "/Game/BluePrints/Combat/MechanismSummon/Monster/BP_Boss_Saiqi02_Skill13.BP_Boss_Saiqi02_Skill13",
+    "BluePrintParams": {
+      "BuffId": 850404,
+      "SkillEffectIdEnter": 850433,
+      "SkillEffectIdExit": 850434
+    }
+  },
+  "850402": {
+    "UnitId": 850402,
+    "BattleRoleId": 40004,
+    "UnitBPPath": "/Game/BluePrints/Combat/MechanismSummon/Monster/BP_Boss_Saiqi02_Standing.BP_Boss_Saiqi02_Standing",
+    "IsShowJumpWord": true,
+    "BloodUIParmas": {
+      "ActiveCommonUI": 1,
+      "HeightOffset": 100
+    }
+  },
+  "850403": {
+    "UnitId": 850403,
+    "UnitBPPath": "/Game/BluePrints/Combat/MechanismSummon/Monster/BP_Boss_Saiqi02_Shield.BP_Boss_Saiqi02_Shield"
+  },
+  "850404": {
+    "UnitId": 850404,
+    "UnitBPPath": "/Game/BluePrints/Combat/MechanismSummon/Monster/BP_Boss_Saiqi02_Shield.BP_Boss_Saiqi02_Shield",
+    "BluePrintParams": {
+      "Yaw": 180
+    }
+  },
+  "850501": {
+    "UnitId": 850501,
+    "UnitBPPath": "/Game/BluePrints/Combat/MechanismSummon/Monster/BP_Boss_Lianhuo_Skill08_Field.BP_Boss_Lianhuo_Skill08_Field",
+    "BluePrintParams": {
+      "DamageInterval": 0.25,
+      "SkillEffectId": 850537
+    }
+  },
+  "900301": {
+    "UnitId": 900301,
+    "UnitBPPath": "/Game/BluePrints/Combat/MechanismSummon/Monster/BP_Strong_Poison_FieldCreature.BP_Strong_Poison_FieldCreature",
+    "BluePrintParams": {
+      "SkillEffectId": 600000302
+    }
+  },
+  "900501": {
+    "UnitId": 900501,
+    "UnitBPPath": "/Game/BluePrints/Combat/MechanismSummon/Monster/BP_Strong_Blood_FieldCreature.BP_Strong_Blood_FieldCreature",
+    "BluePrintParams": {
+      "SkillEffectId": 600000502,
+      "SkillEffectId2": 600000503,
+      "SkillEffectId3": 600000504
+    }
+  },
+  "900701": {
+    "UnitId": 900701,
+    "UnitBPPath": "/Game/BluePrints/Combat/MechanismSummon/Monster/BP_Strong_Shield_Creature.BP_Strong_Shield_Creature",
+    "BluePrintParams": {
+      "SkillEffectId": 600000702,
+      "SkillEffectId2": 600000703
+    }
+  },
+  "10106001": {
+    "UnitId": 10106001,
+    "UnitBPPath": "/Game/BluePrints/Combat/MechanismSummon/Player/BP_Rou_10106001.BP_Rou_10106001"
+  }
+}

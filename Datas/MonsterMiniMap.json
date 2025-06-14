@@ -1,0 +1,30 @@
+[
+  {
+    "MiniMapId": 1,
+    "MiniMapIcon": "/Game/UI/Texture/Dynamic/Atlas/Map/T_Map_Enemy.T_Map_Enemy",
+    "Priority": 10
+  },
+  {
+    "MiniMapId": 2,
+    "MiniMapIcon": "/Game/UI/Texture/Dynamic/Atlas/Map/T_Map_SpecialEnemy.T_Map_SpecialEnemy",
+    "MiniMapIconNoDirection": true,
+    "Priority": 5
+  },
+  {
+    "MiniMapId": 3,
+    "MiniMapIcon": "/Game/UI/Texture/Dynamic/Atlas/Map/T_Map_Rescue_Elite.T_Map_Rescue_Elite",
+    "MiniMapIconNoDirection": true,
+    "Priority": 2
+  },
+  {
+    "MiniMapId": 4,
+    "MiniMapIcon": "/Game/UI/Texture/Dynamic/Atlas/Map/T_Map_Boss.T_Map_Boss",
+    "MiniMapIconNoDirection": true,
+    "Priority": 1
+  },
+  {
+    "MiniMapId": 5,
+    "MiniMapIcon": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_TreasureHunter.T_Gp_TreasureHunter",
+    "Priority": 5
+  }
+]

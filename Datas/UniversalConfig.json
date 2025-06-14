@@ -1,0 +1,414 @@
+{
+  "101": {
+    "UniversalConfigId": 101,
+    "IfStartStoryMode": 1,
+    "IfChangeESC": 1,
+    "IfInitPlayer": true,
+    "IfWaitDead": 1,
+    "SetPlayerTransform": "QuestPoint_IcelakeHunting_Defence",
+    "RegionDataType": {},
+    "PlayBlackScreen": [
+      0.5,
+      1,
+      0.5
+    ],
+    "FinishBlackScreen": true,
+    "FinishBlackScreenFadeIn": true,
+    "FinishBlackScreenFadeOut": true
+  },
+  "102": {
+    "UniversalConfigId": 102,
+    "IfStartStoryMode": 1,
+    "IfChangeESC": 1,
+    "IfInitPlayer": true,
+    "IfDestoryPhantom": 1,
+    "DisableBattleWheel": true,
+    "HideBattlePet": true
+  },
+  "103": {
+    "UniversalConfigId": 103,
+    "IfStartStoryMode": 1,
+    "IfChangeESC": 1,
+    "IfInitPlayer": true,
+    "IfDestoryPhantom": 1,
+    "DisableBattleWheel": true,
+    "HideBattlePet": true
+  },
+  "104": {
+    "UniversalConfigId": 104,
+    "IsBossBattle": true,
+    "IfStartStoryMode": 1,
+    "IfChangeESC": 1,
+    "IfInitPlayer": true,
+    "RegionDataType": [
+      "All"
+    ],
+    "IfDestoryPhantom": 1,
+    "DisableBattleWheel": true,
+    "HideBattlePet": true
+  },
+  "105": {
+    "UniversalConfigId": 105,
+    "IsBossBattle": true,
+    "IfStartStoryMode": 1,
+    "IfChangeESC": 1,
+    "IfInitPlayer": true,
+    "IfWaitDead": 1,
+    "RegionDataType": [
+      "All"
+    ],
+    "IfDestoryPhantom": 1,
+    "DisableBattleWheel": true,
+    "HideBattlePet": true
+  },
+  "106": {
+    "UniversalConfigId": 106,
+    "IfStartStoryMode": 1,
+    "IfChangeESC": 1,
+    "IfInitPlayer": true,
+    "SetPlayerTransform": "QuestPoint_SaiqiWalkStart",
+    "IfDestoryPhantom": 1,
+    "DisableBattleWheel": true,
+    "HideBattlePet": true,
+    "PlayBlackScreen": [
+      0.5,
+      1,
+      0.5
+    ]
+  },
+  "107": {
+    "UniversalConfigId": 107,
+    "IfStartStoryMode": 1,
+    "IfChangeESC": 1,
+    "IfInitPlayer": true,
+    "IfWaitDead": 1,
+    "SetPlayerTransform": "QuestPoint_SaiqiWalk_GetCamera",
+    "IfDestoryPhantom": 1,
+    "DisableBattleWheel": true,
+    "HideBattlePet": true,
+    "PlayBlackScreen": [
+      0.5,
+      1,
+      0.5
+    ]
+  },
+  "109": {
+    "UniversalConfigId": 109,
+    "IfStartStoryMode": 1,
+    "RegionDataType": [
+      "All"
+    ]
+  },
+  "110": {
+    "UniversalConfigId": 110,
+    "IsBossBattle": true,
+    "IfStartStoryMode": 1,
+    "IfChangeESC": 1,
+    "IfInitPlayer": true,
+    "IfWaitDead": 1,
+    "SetPlayerTransform": "QuestPoint_ShijingzheBossBattle"
+  },
+  "111": {
+    "UniversalConfigId": 111,
+    "IsBossBattle": true,
+    "IfStartStoryMode": 1,
+    "IfChangeESC": 1,
+    "IfInitPlayer": true,
+    "IfWaitDead": 1,
+    "RegionDataType": [
+      "All"
+    ]
+  },
+  "112": {
+    "UniversalConfigId": 112,
+    "IfStartStoryMode": 1,
+    "IfChangeESC": 1,
+    "IfInitPlayer": true,
+    "IfWaitDead": 1,
+    "RegionDataType": [
+      "All"
+    ]
+  },
+  "113": {
+    "UniversalConfigId": 113,
+    "IfStartStoryMode": 1,
+    "IfChangeESC": 1,
+    "IfInitPlayer": true,
+    "IfWaitDead": 1,
+    "RegionDataType": [
+      "RDT_QuestData",
+      "RDT_CommonData",
+      "RDT_None"
+    ],
+    "IfInActiveInteractive": [
+      {
+        "Type": "On"
+      }
+    ]
+  },
+  "114": {
+    "UniversalConfigId": 114,
+    "IfStartStoryMode": 1,
+    "IfChangeESC": 1,
+    "IfInitPlayer": true,
+    "IfWaitDead": 1,
+    "RegionDataType": [
+      "RDT_QuestData",
+      "RDT_CommonData",
+      "RDT_None"
+    ],
+    "IfInActiveInteractive": [
+      {
+        "Type": "On"
+      }
+    ]
+  },
+  "1001": {
+    "UniversalConfigId": 1001,
+    "IsBossBattle": true,
+    "IfStartStoryMode": 1,
+    "IfChangeESC": 1,
+    "IfInitPlayer": true,
+    "IfWaitDead": 1,
+    "SetPlayerTransform": "Point1",
+    "IfInActiveInteractive": {
+      "Type": "Part",
+      "Id": {}
+    },
+    "IfDestoryPhantom": 1,
+    "DisableBattleWheel": true,
+    "HideBattlePet": true,
+    "PlayBlackScreen": [
+      0.5,
+      1,
+      0.5
+    ]
+  },
+  "1003": {
+    "UniversalConfigId": 1003,
+    "IsBossBattle": true,
+    "IfStartStoryMode": 1,
+    "IfChangeESC": 1,
+    "IfWaitDead": 1,
+    "SetPlayerTransform": "QuestPoint_LizhanBossBattle",
+    "RegionDataType": [
+      "RDT_RarelyData",
+      "RDT_CommonData"
+    ],
+    "IfDestoryPhantom": 1,
+    "DisableBattleWheel": true,
+    "HideBattlePet": true,
+    "PlayBlackScreen": {},
+    "FinishBlackScreenFadeIn": true,
+    "FinishBlackScreenFadeOut": true
+  },
+  "1004": {
+    "UniversalConfigId": 1004,
+    "IfStartStoryMode": 1,
+    "IfChangeESC": 1,
+    "IfWaitDead": 1,
+    "SetPlayerTransform": "BP_TargetPoint110104",
+    "RegionDataType": [
+      "RDT_RarelyData",
+      "RDT_CommonData"
+    ],
+    "PlayBlackScreen": [
+      0.5,
+      1,
+      0.5
+    ]
+  },
+  "1005": {
+    "UniversalConfigId": 1005,
+    "IfStartStoryMode": 1,
+    "IfChangeESC": 1,
+    "IfWaitDead": 1,
+    "RegionDataType": [
+      "RDT_RarelyData",
+      "RDT_CommonData"
+    ]
+  },
+  "1006": {
+    "UniversalConfigId": 1006,
+    "IsBossBattle": true,
+    "IfStartStoryMode": 1,
+    "IfChangeESC": 1,
+    "IfWaitDead": 1,
+    "RegionDataType": [
+      "RDT_RarelyData",
+      "RDT_CommonData"
+    ]
+  },
+  "1007": {
+    "UniversalConfigId": 1007,
+    "IsBossBattle": true,
+    "IfStartStoryMode": 1,
+    "IfChangeESC": 1,
+    "IfInitPlayer": true,
+    "IfWaitDead": 1,
+    "RegionDataType": [
+      "RDT_RarelyData",
+      "RDT_CommonData"
+    ],
+    "IfDestoryPhantom": 1,
+    "DisableBattleWheel": true,
+    "HideBattlePet": true
+  },
+  "1008": {
+    "UniversalConfigId": 1008,
+    "IfStartStoryMode": 1,
+    "IfChangeESC": 1,
+    "IfInitPlayer": true,
+    "IfWaitDead": 1,
+    "RegionDataType": [
+      "RDT_RarelyData",
+      "RDT_CommonData"
+    ],
+    "PlayBlackScreen": {},
+    "FinishBlackScreenFadeIn": true,
+    "FinishBlackScreenFadeOut": true
+  },
+  "1009": {
+    "UniversalConfigId": 1009,
+    "IfStartStoryMode": 1,
+    "IfChangeESC": 1,
+    "IfWaitDead": 1,
+    "RegionDataType": [
+      "RDT_QuestData",
+      "RDT_CommonData",
+      "RDT_None"
+    ]
+  },
+  "1010": {
+    "UniversalConfigId": 1010,
+    "IfStartStoryMode": 1,
+    "IfChangeESC": 1,
+    "IfInitPlayer": true,
+    "IfWaitDead": 1,
+    "RegionDataType": [
+      "RDT_RarelyData",
+      "RDT_CommonData"
+    ],
+    "IfDestoryPhantom": 1,
+    "DisableBattleWheel": true,
+    "HideBattlePet": true,
+    "PlayBlackScreen": [
+      0,
+      1,
+      0.5
+    ],
+    "FinishBlackScreenFadeOut": true
+  },
+  "1011": {
+    "UniversalConfigId": 1011,
+    "IfStartStoryMode": 1,
+    "IfChangeESC": 1,
+    "IfInitPlayer": true,
+    "IfWaitDead": 1,
+    "SetPlayerTransform": "QuestPoint_LizhanBossBattle",
+    "RegionDataType": [
+      "RDT_RarelyData",
+      "RDT_CommonData"
+    ],
+    "IfDestoryPhantom": 1,
+    "DisableBattleWheel": true,
+    "HideBattlePet": true,
+    "PlayBlackScreen": [
+      0,
+      1,
+      0.5
+    ]
+  },
+  "1012": {
+    "UniversalConfigId": 1012,
+    "IfStartStoryMode": 1,
+    "IfChangeESC": 1,
+    "IfInitPlayer": true,
+    "IfWaitDead": 1,
+    "RegionDataType": [
+      "RDT_RarelyData",
+      "RDT_CommonData"
+    ]
+  },
+  "1013": {
+    "UniversalConfigId": 1013,
+    "IfStartStoryMode": 1,
+    "IfChangeESC": 1,
+    "IfInitPlayer": true,
+    "IfWaitDead": 1,
+    "RegionDataType": [
+      "All"
+    ]
+  },
+  "1014": {
+    "UniversalConfigId": 1014,
+    "IfStartStoryMode": 1,
+    "IfChangeESC": 1,
+    "IfInitPlayer": true,
+    "IfWaitDead": 1,
+    "RegionDataType": [
+      "RDT_RarelyData",
+      "RDT_CommonData"
+    ],
+    "IfDestoryPhantom": 1,
+    "DisableBattleWheel": true,
+    "HideBattlePet": true
+  },
+  "1015": {
+    "UniversalConfigId": 1015,
+    "IsBossBattle": true,
+    "IfStartStoryMode": 1,
+    "IfChangeESC": 1,
+    "IfInitPlayer": true,
+    "IfWaitDead": 1,
+    "RegionDataType": [
+      "RDT_RarelyData",
+      "RDT_CommonData"
+    ]
+  },
+  "1016": {
+    "UniversalConfigId": 1016,
+    "IfStartStoryMode": 1,
+    "IfChangeESC": 1,
+    "IfInitPlayer": true,
+    "IfWaitDead": 1,
+    "RegionDataType": [
+      "RDT_RarelyData",
+      "RDT_CommonData"
+    ],
+    "IfDestoryPhantom": 1,
+    "DisableBattleWheel": true,
+    "HideBattlePet": true,
+    "PlayBlackScreen": [
+      0.5,
+      1,
+      0.5
+    ],
+    "FinishBlackScreenFadeIn": true
+  },
+  "1017": {
+    "UniversalConfigId": 1017,
+    "IfStartStoryMode": 1,
+    "IfChangeESC": 1,
+    "IfInitPlayer": true,
+    "IfWaitDead": 1,
+    "RegionDataType": [
+      "RDT_RarelyData",
+      "RDT_CommonData"
+    ],
+    "IfDestoryPhantom": 1,
+    "DisableBattleWheel": true,
+    "HideBattlePet": true,
+    "PlayBlackScreen": {}
+  },
+  "1018": {
+    "UniversalConfigId": 1018,
+    "IfStartStoryMode": 1,
+    "IfChangeESC": 1,
+    "IfInitPlayer": true,
+    "IfWaitDead": 1,
+    "RegionDataType": [
+      "All"
+    ]
+  }
+}

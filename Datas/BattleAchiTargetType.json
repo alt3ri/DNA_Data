@@ -1,0 +1,520 @@
+{
+  "1": {
+    "Id": 1,
+    "TargetType": "BluePrintTrigger"
+  },
+  "1001": {
+    "Id": 1001,
+    "TargetType": "Heal",
+    "Args": [
+      {
+        "DamageType": [
+          "Default"
+        ]
+      }
+    ]
+  },
+  "1010": {
+    "Id": 1010,
+    "TargetType": "Damage",
+    "Args": {
+      "DamageType": {}
+    }
+  },
+  "1011": {
+    "Id": 1011,
+    "TargetType": "Damage",
+    "Args": {
+      "DamageType": {}
+    }
+  },
+  "1012": {
+    "Id": 1012,
+    "TargetType": "Damage",
+    "Args": {
+      "DamageType": {}
+    }
+  },
+  "1013": {
+    "Id": 1013,
+    "TargetType": "Damage",
+    "Args": {
+      "DamageType": {}
+    }
+  },
+  "1014": {
+    "Id": 1014,
+    "TargetType": "Damage",
+    "Args": {
+      "DamageType": {}
+    }
+  },
+  "1015": {
+    "Id": 1015,
+    "TargetType": "Damage",
+    "Args": {
+      "DamageType": {}
+    }
+  },
+  "1016": {
+    "Id": 1016,
+    "TargetType": "Damage",
+    "Args": {
+      "DamageType": {}
+    }
+  },
+  "1017": {
+    "Id": 1017,
+    "TargetType": "Damage",
+    "Args": {
+      "DamageType": {}
+    }
+  },
+  "1018": {
+    "Id": 1018,
+    "TargetType": "Damage",
+    "Args": {
+      "DamageType": {}
+    }
+  },
+  "1021": {
+    "Id": 1021,
+    "TargetType": "Heal",
+    "Args": [
+      {
+        "DamageType": [
+          "Default"
+        ]
+      }
+    ]
+  },
+  "1022": {
+    "Id": 1022,
+    "TargetType": "Damage",
+    "Args": {
+      "DamageTag": {}
+    }
+  },
+  "1023": {
+    "Id": 1023,
+    "TargetType": "Damage",
+    "Args": {
+      "DamageTag": {}
+    }
+  },
+  "1024": {
+    "Id": 1024,
+    "TargetType": "Damage",
+    "Args": {
+      "DamageTag": {}
+    }
+  },
+  "1025": {
+    "Id": 1025,
+    "TargetType": "Damage",
+    "Args": {
+      "DamageTag": {}
+    }
+  },
+  "1026": {
+    "Id": 1026,
+    "TargetType": "Damage",
+    "Args": {
+      "DamageTag": {}
+    }
+  },
+  "1027": {
+    "Id": 1027,
+    "TargetType": "Damage",
+    "Args": {
+      "DamageTag": {}
+    }
+  },
+  "2000": {
+    "Id": 2000,
+    "TargetType": "OnTargetKilled"
+  },
+  "2001": {
+    "Id": 2001,
+    "TargetType": "OnTargetKilled",
+    "Args": {
+      "Tag": {}
+    }
+  },
+  "2002": {
+    "Id": 2002,
+    "TargetType": "OnTargetKilled",
+    "Args": {
+      "Tag": {}
+    }
+  },
+  "2003": {
+    "Id": 2003,
+    "TargetType": "OnTargetKilled",
+    "Args": {
+      "Tag": {}
+    }
+  },
+  "2004": {
+    "Id": 2004,
+    "TargetType": "OnTargetKilled",
+    "Args": {
+      "Tag": {}
+    }
+  },
+  "2005": {
+    "Id": 2005,
+    "TargetType": "OnTargetKilled",
+    "Args": {
+      "Tag": {}
+    }
+  },
+  "2011": {
+    "Id": 2011,
+    "TargetType": "OnTargetKilled",
+    "Args": {
+      "SkillType": {}
+    }
+  },
+  "2012": {
+    "Id": 2012,
+    "TargetType": "OnTargetKilled",
+    "Args": {
+      "SkillType": {}
+    }
+  },
+  "2013": {
+    "Id": 2013,
+    "TargetType": "OnTargetKilled",
+    "Args": [
+      {
+        "SkillType": [
+          "FallAttack"
+        ]
+      }
+    ]
+  },
+  "2014": {
+    "Id": 2014,
+    "TargetType": "OnTargetKilled",
+    "Args": {
+      "SkillType": {}
+    }
+  },
+  "2015": {
+    "Id": 2015,
+    "TargetType": "OnTargetKilled",
+    "Args": {
+      "SkillType": {}
+    }
+  },
+  "2016": {
+    "Id": 2016,
+    "TargetType": "OnTargetKilled",
+    "Args": {
+      "DamageTag": {}
+    }
+  },
+  "2017": {
+    "Id": 2017,
+    "TargetType": "OnTargetKilled",
+    "Args": {
+      "DamageTag": {}
+    }
+  },
+  "2021": {
+    "Id": 2021,
+    "TargetType": "LimitTimeKillMonster",
+    "Args": [
+      {
+        "LimitTime": 3
+      }
+    ]
+  },
+  "2022": {
+    "Id": 2022,
+    "TargetType": "LimitTimeUseNormalSkill",
+    "Args": [
+      {
+        "LimitTime": 3
+      }
+    ]
+  },
+  "2023": {
+    "Id": 2023,
+    "TargetType": "LimitTimeUseUltraSkill",
+    "Args": {
+      "LimitTime": 6
+    }
+  },
+  "2024": {
+    "Id": 2024,
+    "TargetType": "LimitTimeAddBuff",
+    "Args": {
+      "LimitTime": 3,
+      "BuffType": {}
+    }
+  },
+  "2031": {
+    "Id": 2031,
+    "TargetType": "PlayerUseNormalSkill"
+  },
+  "2032": {
+    "Id": 2032,
+    "TargetType": "PlayerUseUltraSkill"
+  },
+  "2041": {
+    "Id": 2041,
+    "TargetType": "BluePrintTrigger"
+  },
+  "2042": {
+    "Id": 2042,
+    "TargetType": "BluePrintTrigger"
+  },
+  "2043": {
+    "Id": 2043,
+    "TargetType": "BluePrintTrigger"
+  },
+  "2044": {
+    "Id": 2044,
+    "TargetType": "BluePrintTrigger"
+  },
+  "2045": {
+    "Id": 2045,
+    "TargetType": "BluePrintTrigger"
+  },
+  "2046": {
+    "Id": 2046,
+    "TargetType": "BluePrintTrigger"
+  },
+  "2047": {
+    "Id": 2047,
+    "TargetType": "BluePrintTrigger"
+  },
+  "2051": {
+    "Id": 2051,
+    "TargetType": "OnTargetKilled",
+    "Args": {
+      "UnitId": {}
+    }
+  },
+  "2052": {
+    "Id": 2052,
+    "TargetType": "BluePrintTrigger"
+  },
+  "2053": {
+    "Id": 2053,
+    "TargetType": "OnMonsterAddedBuff",
+    "Args": {
+      "BuffType": {},
+      "CampFilter": "Monster"
+    }
+  },
+  "3001": {
+    "Id": 3001,
+    "TargetType": "DamageOnDefeated",
+    "Args": {
+      "ExceptSkillType": {}
+    }
+  },
+  "3011": {
+    "Id": 3011,
+    "TargetType": "AddOverEnergyShield"
+  },
+  "3012": {
+    "Id": 3012,
+    "TargetType": "OnRecoverTeammate"
+  },
+  "3021": {
+    "Id": 3021,
+    "TargetType": "PlayerMove",
+    "CombatConditionId": 34
+  },
+  "3031": {
+    "Id": 3031,
+    "TargetType": "OnBuffRemovedFromTarget",
+    "Args": {
+      "CampFilter": "Enemy",
+      "BuffType": {}
+    }
+  },
+  "3032": {
+    "Id": 3032,
+    "TargetType": "OnBuffRemovedFromTarget",
+    "Args": {
+      "CampFilter": "Enemy",
+      "BuffType": {}
+    }
+  },
+  "3033": {
+    "Id": 3033,
+    "TargetType": "OnBuffRemovedFromTarget",
+    "Args": {
+      "CampFilter": "Enemy",
+      "BuffType": {}
+    }
+  },
+  "3034": {
+    "Id": 3034,
+    "TargetType": "OnBuffRemovedFromTarget",
+    "Args": {
+      "CampFilter": "Enemy",
+      "BuffType": {}
+    }
+  },
+  "3035": {
+    "Id": 3035,
+    "TargetType": "OnBuffRemovedFromTarget",
+    "Args": {
+      "CampFilter": "Enemy",
+      "BuffType": {}
+    }
+  },
+  "3036": {
+    "Id": 3036,
+    "TargetType": "OnBuffRemovedFromTarget",
+    "Args": {
+      "CampFilter": "Enemy",
+      "BuffType": {}
+    }
+  },
+  "3041": {
+    "Id": 3041,
+    "TargetType": "OnAddPhantom"
+  },
+  "3042": {
+    "Id": 3042,
+    "TargetType": "Damage",
+    "RoleIdConstraints": [
+      {
+        "AllPhantom": 1
+      }
+    ]
+  },
+  "3043": {
+    "Id": 3043,
+    "TargetType": "Heal",
+    "Args": [
+      {
+        "DamageType": [
+          "Default"
+        ]
+      }
+    ],
+    "RoleIdConstraints": [
+      {
+        "AllPhantom": 1
+      }
+    ]
+  },
+  "3044": {
+    "Id": 3044,
+    "TargetType": "Damaged",
+    "RoleIdConstraints": [
+      {
+        "AllPhantom": 1
+      }
+    ]
+  },
+  "4001": {
+    "Id": 4001,
+    "TargetType": "OnAddBuffToOther",
+    "Args": {
+      "BuffType": {}
+    },
+    "RoleIdConstraints": {
+      "CharacterId": {}
+    }
+  },
+  "4011": {
+    "Id": 4011,
+    "TargetType": "OnAddSp",
+    "Args": {
+      "Reason": 0
+    },
+    "RoleIdConstraints": {
+      "CharacterId": {}
+    }
+  },
+  "4021": {
+    "Id": 4021,
+    "TargetType": "OnTargetKilled",
+    "RoleIdConstraints": {
+      "CharacterId": {}
+    },
+    "CombatConditionId": 20
+  },
+  "4031": {
+    "Id": 4031,
+    "TargetType": "OnTagChanged",
+    "Args": {
+      "Tags": {}
+    },
+    "RoleIdConstraints": {
+      "CharacterId": {}
+    }
+  },
+  "4041": {
+    "Id": 4041,
+    "TargetType": "OnTargetKilled",
+    "Args": [
+      {
+        "SkillType": [
+          "FallAttack"
+        ]
+      }
+    ],
+    "RoleIdConstraints": {
+      "CharacterId": {}
+    }
+  },
+  "4051": {
+    "Id": 4051,
+    "TargetType": "PlayerMove",
+    "RoleIdConstraints": {
+      "CharacterId": {}
+    },
+    "CombatConditionId": 510103
+  },
+  "4061": {
+    "Id": 4061,
+    "TargetType": "PlayerMove",
+    "RoleIdConstraints": {
+      "CharacterId": {}
+    },
+    "CombatConditionId": 35
+  },
+  "5001": {
+    "Id": 5001,
+    "TargetType": "OnFinishHardBoss"
+  },
+  "5011": {
+    "Id": 5011,
+    "TargetType": "OnDungeonEndWithoutPhantom"
+  },
+  "5021": {
+    "Id": 5021,
+    "TargetType": "OnDungeonEndWithoutPhantom"
+  },
+  "5031": {
+    "Id": 5031,
+    "TargetType": "OnTargetKilled",
+    "TopProgressLimit": true
+  },
+  "5041": {
+    "Id": 5041,
+    "TargetType": "ClearWithoutPhantomAndDamaged"
+  },
+  "5051": {
+    "Id": 5051,
+    "TargetType": "BluePrintTrigger"
+  },
+  "5052": {
+    "Id": 5052,
+    "TargetType": "BluePrintTrigger"
+  },
+  "5053": {
+    "Id": 5053,
+    "TargetType": "BluePrintTrigger"
+  }
+}

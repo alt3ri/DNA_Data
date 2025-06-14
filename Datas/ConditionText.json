@@ -1,0 +1,148 @@
+{
+  "PlayerLevelMin": {
+    "ConditionType": "PlayerLevelMin",
+    "ConditionLogic": "S",
+    "AutoTrigger": true,
+    "ConditionName": "UI_QUEST_CONDITION_PLAYERLEVEL"
+  },
+  "PlayerLevelMax": {
+    "ConditionType": "PlayerLevelMax",
+    "ConditionLogic": "S",
+    "AutoTrigger": true
+  },
+  "QuestChain": {
+    "ConditionType": "QuestChain",
+    "ConditionLogic": "S",
+    "AutoTrigger": true,
+    "ConditionName": "UI_QUEST_CONDITION_FINISHQUEST"
+  },
+  "HaveResource": {
+    "ConditionType": "HaveResource",
+    "ConditionLogic": "S",
+    "AutoTrigger": true
+  },
+  "Quest": {
+    "ConditionType": "Quest",
+    "ConditionLogic": "S",
+    "AutoTrigger": true
+  },
+  "MechanismState": {
+    "ConditionType": "MechanismState",
+    "ConditionLogic": "DS",
+    "AutoTrigger": true
+  },
+  "Impression": {
+    "ConditionType": "Impression",
+    "ConditionLogic": "S",
+    "AutoTrigger": true
+  },
+  "SubRegionType": {
+    "ConditionType": "SubRegionType",
+    "ConditionLogic": "S",
+    "AutoTrigger": true
+  },
+  "DungeonComplete": {
+    "ConditionType": "DungeonComplete",
+    "ConditionLogic": "S",
+    "AutoTrigger": true
+  },
+  "ConstantBool": {
+    "ConditionType": "ConstantBool",
+    "ConditionLogic": "S"
+  },
+  "IsSpecialQuest": {
+    "ConditionType": "IsSpecialQuest"
+  },
+  "AvatarStatus": {
+    "ConditionType": "AvatarStatus",
+    "ConditionLogic": "S",
+    "AutoTrigger": true
+  },
+  "TestClientCon": {
+    "ConditionType": "TestClientCon",
+    "ConditionLogic": "C"
+  },
+  "InStoryMode": {
+    "ConditionType": "InStoryMode",
+    "ConditionLogic": "C",
+    "AutoTrigger": true
+  },
+  "InDungeon": {
+    "ConditionType": "InDungeon",
+    "ConditionLogic": "S",
+    "AutoTrigger": true
+  },
+  "InHardBossDifficulty": {
+    "ConditionType": "InHardBossDifficulty",
+    "ConditionLogic": "S",
+    "AutoTrigger": true
+  },
+  "CurrentCharId": {
+    "ConditionType": "CurrentCharId",
+    "ConditionLogic": "S",
+    "AutoTrigger": true
+  },
+  "OwnCharIdAndLevel": {
+    "ConditionType": "OwnCharIdAndLevel",
+    "ConditionLogic": "S",
+    "AutoTrigger": true
+  },
+  "DynamicEventCompleteTimes": {
+    "ConditionType": "DynamicEventCompleteTimes",
+    "ConditionLogic": "S",
+    "AutoTrigger": true
+  },
+  "ExploreGroup": {
+    "ConditionType": "ExploreGroup",
+    "ConditionLogic": "S",
+    "AutoTrigger": true
+  },
+  "ImprShopUnlock": {
+    "ConditionType": "ImprShopUnlock",
+    "ConditionLogic": "S",
+    "AutoTrigger": true
+  },
+  "RougeLikePreAward": {
+    "ConditionType": "RougeLikePreAward",
+    "ConditionLogic": "S",
+    "AutoTrigger": true
+  },
+  "RougeLikeGroupMin": {
+    "ConditionType": "RougeLikeGroupMin",
+    "ConditionLogic": "S",
+    "AutoTrigger": true
+  },
+  "RougeLikeGroupMax": {
+    "ConditionType": "RougeLikeGroupMax",
+    "ConditionLogic": "S",
+    "AutoTrigger": true
+  },
+  "RougeLikeDifficulty": {
+    "ConditionType": "RougeLikeDifficulty",
+    "ConditionLogic": "S",
+    "AutoTrigger": true
+  },
+  "RougeLikePassRoom": {
+    "ConditionType": "RougeLikePassRoom",
+    "ConditionLogic": "S",
+    "AutoTrigger": true
+  },
+  "CharEquipRarityLevelModCount": {
+    "ConditionType": "CharEquipRarityLevelModCount",
+    "ConditionLogic": "S",
+    "AutoTrigger": true
+  },
+  "DailyLoginEnd": {
+    "ConditionType": "DailyLoginEnd",
+    "ConditionLogic": "S"
+  },
+  "PhaseQuestEnd": {
+    "ConditionType": "PhaseQuestEnd",
+    "ConditionLogic": "S"
+  },
+  "EquipPetId": {
+    "ConditionType": "EquipPetId",
+    "ConditionLogic": "S",
+    "AutoTrigger": true
+  }
+}

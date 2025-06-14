@@ -1,0 +1,907 @@
+{
+  "99": {
+    "Id": 99,
+    "ConfirmText": "UI_MECHANISM_101",
+    "InteractiveFailMsg": "UI_Mechanism_CannotEnterPaotai",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Mechanism"
+  },
+  "100": {
+    "Id": 100,
+    "ConfirmText": "UI_MECHANISM_100",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Box"
+  },
+  "101": {
+    "Id": 101,
+    "ConfirmText": "UI_MECHANISM_101",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Mechanism"
+  },
+  "102": {
+    "Id": 102,
+    "ConfirmText": "UI_MECHANISM_102",
+    "InteractiveFailMsg": "UI_INTERACTIVE_FAILMSG",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Mechanism",
+    "TriggerInterAnim": "Interactive_01_Montage",
+    "AutoRotate": true
+  },
+  "103": {
+    "Id": 103,
+    "ConfirmText": "UI_MECHANISM_103",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Mechanism"
+  },
+  "104": {
+    "Id": 104,
+    "ConfirmText": "UI_MECHANISM_104",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Survey"
+  },
+  "105": {
+    "Id": 105,
+    "ConfirmText": "UI_MECHANISM_105",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Leave"
+  },
+  "106": {
+    "Id": 106,
+    "ConfirmText": "UI_MECHANISM_106",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Mechanism"
+  },
+  "107": {
+    "Id": 107,
+    "ConfirmText": "UI_MECHANISM_107",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Mechanism"
+  },
+  "108": {
+    "Id": 108,
+    "ConfirmText": "UI_MECHANISM_108",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Mechanism"
+  },
+  "109": {
+    "Id": 109,
+    "ConfirmText": "UI_MECHANISM_109",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Mechanism"
+  },
+  "110": {
+    "Id": 110,
+    "ConfirmText": "UI_MECHANISM_110",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Mechanism"
+  },
+  "111": {
+    "Id": 111,
+    "ConfirmText": "UI_MECHANISM_111",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Mechanism"
+  },
+  "113": {
+    "Id": 113,
+    "ConfirmText": "UI_MECHANISM_113",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Position"
+  },
+  "114": {
+    "Id": 114,
+    "ConfirmText": "UI_MECHANISM_114",
+    "InteractivePriority": 1,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Pick"
+  },
+  "115": {
+    "Id": 115,
+    "ConfirmText": "UI_MECHANISM_115",
+    "InteractivePriority": 1,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Pick"
+  },
+  "116": {
+    "Id": 116,
+    "ConfirmText": "UI_MECHANISM_116",
+    "InteractivePriority": 1,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Pick"
+  },
+  "117": {
+    "Id": 117,
+    "ConfirmText": "UI_MECHANISM_117",
+    "InteractivePriority": 1,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Pick"
+  },
+  "118": {
+    "Id": 118,
+    "ConfirmText": "UI_MECHANISM_118",
+    "InteractivePriority": 1,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Pick"
+  },
+  "119": {
+    "Id": 119,
+    "ConfirmText": "UI_MECHANISM_119",
+    "InteractivePriority": 2,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Talk"
+  },
+  "200": {
+    "Id": 200,
+    "ConfirmText": "UI_DUNGEON_DES_TRAINING_11",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Training"
+  },
+  "201": {
+    "Id": 201,
+    "ConfirmText": "UI_DUNGEON_PETDEFENCE_INTERACT",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Mechanism"
+  },
+  "900": {
+    "Id": 900,
+    "ConfirmText": "UI_ENERGYSUPPLY_100",
+    "InteractiveFailMsg": "UI_INTERACTIVE_FAILMSG",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Mechanism",
+    "TriggerInterAnim": "Interactive_01_Montage",
+    "AutoRotate": true
+  },
+  "901": {
+    "Id": 901,
+    "ConfirmText": "INTERACTIVE_SEAT",
+    "InteractiveFailMsg": "UI_INTERACTIVE_FAILMSG",
+    "InteractivePriority": 1,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Sit",
+    "TriggerInterAnim": "Interactive_Sit",
+    "InteractiveTag": "Seating"
+  },
+  "902": {
+    "Id": 902,
+    "ConfirmText": "INTERACTIVE_SEAT",
+    "InteractiveFailMsg": "UI_INTERACTIVE_FAILMSG",
+    "InteractivePriority": 1,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Sit",
+    "TriggerInterAnim": "Interactive_Sit_01",
+    "InteractiveTag": "Seating"
+  },
+  "903": {
+    "Id": 903,
+    "ConfirmText": "UI_CONFIRM_BREAKCODE",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Mechanism"
+  },
+  "904": {
+    "Id": 904,
+    "ConfirmText": "TARGET_DUNGEON_101",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Survey"
+  },
+  "905": {
+    "Id": 905,
+    "ConfirmText": "DUNGEON_SABOTAGE_109",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Mechanism"
+  },
+  "906": {
+    "Id": 906,
+    "ConfirmText": "DUNGEON_TRAINING_103",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Mechanism"
+  },
+  "907": {
+    "Id": 907,
+    "ConfirmText": "TARGET_DUNGEON_100",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Mechanism"
+  },
+  "908": {
+    "Id": 908,
+    "ConfirmText": "UI_MECHANISM_100",
+    "InteractiveCondition": 6,
+    "InteractiveFailDialogue": [
+      {
+        "TalkId": 602005
+      }
+    ],
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Box"
+  },
+  "909": {
+    "Id": 909,
+    "ConfirmText": "UI_MECHANISM_100",
+    "InteractiveCondition": 21,
+    "InteractiveFailMsg": "UI_INTERACTIVE_CONDITION_909",
+    "InteractiveFailDialogue": [
+      {
+        "TalkId": 602005
+      }
+    ],
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Box"
+  },
+  "910": {
+    "Id": 910,
+    "ConfirmText": "UI_MECHANISM_100",
+    "InteractiveCondition": 22,
+    "InteractiveFailMsg": "UI_INTERACTIVE_CONDITION_910",
+    "InteractiveFailDialogue": [
+      {
+        "TalkId": 602005
+      }
+    ],
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Box"
+  },
+  "911": {
+    "Id": 911,
+    "ConfirmText": "TARGET_DUNGEON_106",
+    "InteractiveCondition": 9,
+    "InteractiveFailMsg": "DUNGEON_HIJACK_102",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Car"
+  },
+  "912": {
+    "Id": 912,
+    "ConfirmText": "TARGET_DUNGEON_106",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Car"
+  },
+  "913": {
+    "Id": 913,
+    "ConfirmText": "TARGET_DUNGEON_106",
+    "InteractiveCondition": 9,
+    "InteractiveFailMsg": "DUNGEON_HIJACK_101",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Car"
+  },
+  "914": {
+    "Id": 914,
+    "InteractiveRadius": 300,
+    "InteractiveAngle": 360,
+    "PlayerFaceAngle": 360,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Pick",
+    "TriggerInterAnim": "Interactive_01_Montage",
+    "AutoRotate": true
+  },
+  "915": {
+    "Id": 915,
+    "ConfirmText": "UI_Harvest_100",
+    "InteractiveRadius": 300,
+    "InteractiveAngle": 360,
+    "PlayerFaceAngle": 360,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Pick"
+  },
+  "917": {
+    "Id": 917,
+    "ConfirmText": "UI_PowerSeat",
+    "InteractiveFailMsg": "UI_INTERACTIVE_FAILMSG",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Sit",
+    "TriggerInterAnim": "Interactive_Sit",
+    "InteractiveTag": "Seating"
+  },
+  "10410": {
+    "Id": 10410,
+    "ConfirmText": "UI_MECHANISM_10410",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Survey"
+  },
+  "10411": {
+    "Id": 10411,
+    "ConfirmText": "UI_MECHANISM_10411",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Survey"
+  },
+  "10412": {
+    "Id": 10412,
+    "ConfirmText": "UI_MECHANISM_10412",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Survey"
+  },
+  "10413": {
+    "Id": 10413,
+    "ConfirmText": "UI_MECHANISM_10413",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Survey"
+  },
+  "10414": {
+    "Id": 10414,
+    "ConfirmText": "UI_MECHANISM_10414",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Survey"
+  },
+  "10415": {
+    "Id": 10415,
+    "ConfirmText": "UI_MECHANISM_10415",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Survey"
+  },
+  "10416": {
+    "Id": 10416,
+    "ConfirmText": "UI_MECHANISM_10416",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Survey"
+  },
+  "10417": {
+    "Id": 10417,
+    "ConfirmText": "UI_MECHANISM_10417",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Survey"
+  },
+  "10418": {
+    "Id": 10418,
+    "ConfirmText": "UI_MECHANISM_10418",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Survey"
+  },
+  "10419": {
+    "Id": 10419,
+    "ConfirmText": "UI_MECHANISM_10419",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Survey"
+  },
+  "10420": {
+    "Id": 10420,
+    "ConfirmText": "UI_MECHANISM_10420",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Survey"
+  },
+  "10421": {
+    "Id": 10421,
+    "ConfirmText": "UI_MECHANISM_10421",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Survey"
+  },
+  "10422": {
+    "Id": 10422,
+    "ConfirmText": "UI_MECHANISM_10422",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Survey"
+  },
+  "10423": {
+    "Id": 10423,
+    "ConfirmText": "UI_MECHANISM_10423",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Survey"
+  },
+  "10424": {
+    "Id": 10424,
+    "ConfirmText": "UI_MECHANISM_10424",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Survey"
+  },
+  "10425": {
+    "Id": 10425,
+    "ConfirmText": "UI_MECHANISM_10425",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Survey"
+  },
+  "10426": {
+    "Id": 10426,
+    "ConfirmText": "UI_MECHANISM_10426",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Survey"
+  },
+  "10427": {
+    "Id": 10427,
+    "ConfirmText": "UI_MECHANISM_10427",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Survey"
+  },
+  "10428": {
+    "Id": 10428,
+    "ConfirmText": "UI_MECHANISM_10428",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Survey"
+  },
+  "10429": {
+    "Id": 10429,
+    "ConfirmText": "UI_MECHANISM_10429",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Survey"
+  },
+  "10430": {
+    "Id": 10430,
+    "ConfirmText": "UI_MECHANISM_10430",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Survey"
+  },
+  "10431": {
+    "Id": 10431,
+    "ConfirmText": "UI_MECHANISM_10431",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Survey"
+  },
+  "10432": {
+    "Id": 10432,
+    "ConfirmText": "UI_MECHANISM_10432",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Survey"
+  },
+  "10433": {
+    "Id": 10433,
+    "ConfirmText": "UI_MECHANISM_10433",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Survey"
+  },
+  "10434": {
+    "Id": 10434,
+    "ConfirmText": "UI_MECHANISM_10434",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Survey"
+  },
+  "10435": {
+    "Id": 10435,
+    "ConfirmText": "UI_MECHANISM_10435",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Survey"
+  },
+  "10436": {
+    "Id": 10436,
+    "ConfirmText": "UI_MECHANISM_10436",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Survey"
+  },
+  "10437": {
+    "Id": 10437,
+    "ConfirmText": "UI_MECHANISM_10437",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Survey"
+  },
+  "10438": {
+    "Id": 10438,
+    "ConfirmText": "UI_MECHANISM_10438",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Survey"
+  },
+  "10439": {
+    "Id": 10439,
+    "ConfirmText": "UI_MECHANISM_10439",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Survey"
+  },
+  "10440": {
+    "Id": 10440,
+    "ConfirmText": "UI_MECHANISM_10440",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Survey"
+  },
+  "10441": {
+    "Id": 10441,
+    "ConfirmText": "UI_MECHANISM_10441",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Survey"
+  },
+  "10442": {
+    "Id": 10442,
+    "ConfirmText": "UI_MECHANISM_10442",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Survey"
+  },
+  "10443": {
+    "Id": 10443,
+    "ConfirmText": "UI_MECHANISM_10443",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Survey"
+  },
+  "10444": {
+    "Id": 10444,
+    "ConfirmText": "UI_MECHANISM_10444",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Survey"
+  },
+  "10445": {
+    "Id": 10445,
+    "ConfirmText": "UI_MECHANISM_10445",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Survey"
+  },
+  "10446": {
+    "Id": 10446,
+    "ConfirmText": "UI_MECHANISM_10446",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Survey"
+  },
+  "10447": {
+    "Id": 10447,
+    "ConfirmText": "UI_MECHANISM_10447",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Survey"
+  },
+  "10448": {
+    "Id": 10448,
+    "ConfirmText": "UI_MECHANISM_10448",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Survey"
+  },
+  "10449": {
+    "Id": 10449,
+    "ConfirmText": "UI_MECHANISM_10449",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Survey"
+  },
+  "10450": {
+    "Id": 10450,
+    "ConfirmText": "UI_MECHANISM_10450",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Survey"
+  },
+  "10451": {
+    "Id": 10451,
+    "ConfirmText": "UI_MECHANISM_10451",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Survey"
+  },
+  "10452": {
+    "Id": 10452,
+    "ConfirmText": "DROP_QUEST_GUN",
+    "InteractiveRadius": 300,
+    "InteractiveAngle": 360,
+    "PlayerFaceAngle": 360,
+    "InteractivePriority": 2,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Pick"
+  },
+  "10453": {
+    "Id": 10453,
+    "ConfirmText": "DROP_QUEST_DIAOXIANG",
+    "InteractiveRadius": 300,
+    "InteractivePriority": 2,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Survey"
+  },
+  "10454": {
+    "Id": 10454,
+    "ConfirmText": "DROP_QUEST_LEAVECAVE",
+    "InteractiveRadius": 300,
+    "InteractivePriority": 2,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Leave"
+  },
+  "10455": {
+    "Id": 10455,
+    "ConfirmText": "UI_WEAPON_NAME_10103",
+    "InteractiveRadius": 100,
+    "InteractivePriority": 2,
+    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Sword_Zhuiyi.T_Head_Sword_Zhuiyi"
+  },
+  "10456": {
+    "Id": 10456,
+    "ConfirmText": "UI_Observe_Storm",
+    "InteractiveRadius": 100,
+    "InteractivePriority": 2,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Survey"
+  },
+  "10457": {
+    "Id": 10457,
+    "ConfirmText": "DROP_QUEST_MUBEI",
+    "InteractiveRadius": 300,
+    "InteractiveAngle": 360,
+    "PlayerFaceAngle": 360,
+    "InteractivePriority": 2,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Pick"
+  },
+  "10458": {
+    "Id": 10458,
+    "ConfirmText": "UI_MECHANISM_10458",
+    "InteractivePriority": 2,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Survey"
+  },
+  "10459": {
+    "Id": 10459,
+    "ConfirmText": "UI_MECHANISM_10459",
+    "InteractivePriority": 2,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Survey"
+  },
+  "10460": {
+    "Id": 10460,
+    "ConfirmText": "UI_MECHANISM_10460",
+    "InteractivePriority": 2,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Survey"
+  },
+  "10461": {
+    "Id": 10461,
+    "ConfirmText": "UI_MECHANISM_10461",
+    "InteractiveRadius": 300,
+    "InteractiveAngle": 120,
+    "InteractivePriority": 2,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Survey"
+  },
+  "10462": {
+    "Id": 10462,
+    "ConfirmText": "UI_MECHANISM_10462",
+    "InteractiveRadius": 300,
+    "InteractiveAngle": 180,
+    "InteractivePriority": 2,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Survey"
+  },
+  "10463": {
+    "Id": 10463,
+    "ConfirmText": "UI_MECHANISM_10463",
+    "InteractiveRadius": 500,
+    "InteractiveAngle": 240,
+    "InteractivePriority": 2,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Survey"
+  },
+  "10464": {
+    "Id": 10464,
+    "ConfirmText": "DROP_QUEST_GOTOEX01",
+    "InteractiveRadius": 300,
+    "InteractiveAngle": 120,
+    "InteractivePriority": 2,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Talk"
+  },
+  "20001": {
+    "Id": 20001,
+    "ConfirmText": "BATTLE_RECOVERY_LONGPRESSHELP",
+    "InteractiveFailMsg": "BATTLE_RECOVERY_TEAMMATESTAYDEAD",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Rescue"
+  },
+  "20002": {
+    "Id": 20002,
+    "ConfirmText": "BATTLE_RECOVERY_LONGPRESSHELP",
+    "InteractiveFailMsg": "BATTLE_RECOVERY_TEAMMATESTAYDEAD",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Rescue"
+  },
+  "60000": {
+    "Id": 60000,
+    "ConfirmText": "UI_CONFIRM_OPENSHOP",
+    "InteractiveRadius": 300,
+    "InteractivePriority": 3,
+    "Icon": "/Game/UI/UI_PNG/Common/Icon/Icon_Entrance_Store"
+  },
+  "70000": {
+    "Id": 70000,
+    "ConfirmText": "UI_EXPLORE_BOX_1",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Box"
+  },
+  "70001": {
+    "Id": 70001,
+    "ConfirmText": "UI_EXPLORE_BOX_2",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Excavation"
+  },
+  "70002": {
+    "Id": 70002,
+    "ConfirmText": "UI_MECHANISM_100",
+    "InteractiveCondition": 70000,
+    "InteractiveFailMsg": "UI_EXPLORE_KEY",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Key"
+  },
+  "70003": {
+    "Id": 70003,
+    "ConfirmText": "UI_MECHANISM_100",
+    "InteractiveCondition": 70001,
+    "InteractiveFailMsg": "UI_EXPLORE_KEY",
+    "InteractiveFailDialogue": {
+      "TalkId": 608001,
+      "BranchId": 1
+    },
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Key"
+  },
+  "70008": {
+    "Id": 70008,
+    "ConfirmText": "UI_EXPLORE_BOX_3",
+    "InteractiveCondition": 70006,
+    "InteractiveFailMsg": "UI_EXPLORE_STONE",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Survey"
+  },
+  "70009": {
+    "Id": 70009,
+    "ConfirmText": "UI_EXPLORE_BOX_4",
+    "InteractiveCondition": 70007,
+    "InteractiveFailMsg": "UI_EXPLORE_STONE_2",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Survey"
+  },
+  "80001": {
+    "Id": 80001,
+    "ConfirmText": "UI_DynInteract_1",
+    "InteractiveRadius": 250,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Survey"
+  },
+  "80002": {
+    "Id": 80002,
+    "ConfirmText": "UI_DynInteract_2",
+    "InteractiveRadius": 400,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Mechanism"
+  },
+  "90000": {
+    "Id": 90000,
+    "ConfirmText": "HARDBOSS_OPENMECHANISM_1",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Mechanism"
+  },
+  "90100": {
+    "Id": 90100,
+    "ConfirmText": "UI_MECHANISM_113",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Position"
+  },
+  "90200": {
+    "Id": 90200,
+    "ConfirmText": "UI_CONFIRM_90200",
+    "InteractiveRadius": 350,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Leave"
+  },
+  "90201": {
+    "Id": 90201,
+    "ConfirmText": "UI_CONFIRM_90201",
+    "InteractiveRadius": 350,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Leave"
+  },
+  "90202": {
+    "Id": 90202,
+    "ConfirmText": "UI_CONFIRM_90202",
+    "InteractiveRadius": 350,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Leave"
+  },
+  "90203": {
+    "Id": 90203,
+    "ConfirmText": "UI_CONFIRM_90203",
+    "InteractiveRadius": 350,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Leave"
+  },
+  "90204": {
+    "Id": 90204,
+    "ConfirmText": "UI_CONFIRM_90204",
+    "InteractiveRadius": 350,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Leave"
+  },
+  "90205": {
+    "Id": 90205,
+    "ConfirmText": "UI_CONFIRM_90205",
+    "InteractiveRadius": 350,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Talk"
+  },
+  "90301": {
+    "Id": 90301,
+    "ConfirmText": "UI_DUNGEON_DES_TRAINING_1",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Mechanism"
+  },
+  "91501": {
+    "Id": 91501,
+    "ConfirmText": "RESOURCE_NAME_4010001",
+    "InteractiveRadius": 300,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Pick"
+  },
+  "91502": {
+    "Id": 91502,
+    "ConfirmText": "RESOURCE_NAME_4010002",
+    "InteractiveRadius": 300,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Pick"
+  },
+  "91503": {
+    "Id": 91503,
+    "ConfirmText": "RESOURCE_NAME_4010003",
+    "InteractiveRadius": 300,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Pick"
+  },
+  "91504": {
+    "Id": 91504,
+    "ConfirmText": "RESOURCE_NAME_4010004",
+    "InteractiveRadius": 300,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Pick"
+  },
+  "91505": {
+    "Id": 91505,
+    "ConfirmText": "RESOURCE_NAME_4020005",
+    "InteractiveRadius": 300,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Pick"
+  },
+  "91506": {
+    "Id": 91506,
+    "ConfirmText": "RESOURCE_NAME_4010006",
+    "InteractiveRadius": 300,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Pick"
+  },
+  "91507": {
+    "Id": 91507,
+    "ConfirmText": "RESOURCE_NAME_4010007",
+    "InteractiveRadius": 300,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Pick"
+  },
+  "91508": {
+    "Id": 91508,
+    "ConfirmText": "RESOURCE_NAME_4010008",
+    "InteractiveRadius": 300,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Pick"
+  },
+  "91509": {
+    "Id": 91509,
+    "ConfirmText": "RESOURCE_NAME_4020002",
+    "InteractiveRadius": 300,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Pick"
+  },
+  "91510": {
+    "Id": 91510,
+    "ConfirmText": "RESOURCE_NAME_4020003",
+    "InteractiveRadius": 300,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Pick"
+  },
+  "91511": {
+    "Id": 91511,
+    "ConfirmText": "RESOURCE_NAME_4020004",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Pick"
+  },
+  "91512": {
+    "Id": 91512,
+    "ConfirmText": "RESOURCE_NAME_4010005",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Pick"
+  },
+  "91513": {
+    "Id": 91513,
+    "ConfirmText": "RESOURCE_NAME_4020001",
+    "InteractiveRadius": 300,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Pick"
+  },
+  "99999": {
+    "Id": 99999,
+    "ConfirmText": "UI_CONFIRM_PETCAPTURE",
+    "InteractiveRadius": 200,
+    "InteractivePriority": 3,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Pick"
+  },
+  "100001": {
+    "Id": 100001,
+    "ConfirmText": "UI_CONFIRM_OPENMAP",
+    "InteractiveRadius": 300,
+    "InteractivePriority": 3,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Position"
+  },
+  "100002": {
+    "Id": 100002,
+    "ConfirmText": "UI_CONFIRM_OPENSHOP",
+    "InteractiveFailMsg": "UI_Unlock_Des_Shop",
+    "InteractiveRadius": 300,
+    "InteractivePriority": 3,
+    "Icon": "/Game/UI/UI_PNG/Common/Icon/Icon_Entrance_Store"
+  },
+  "100003": {
+    "Id": 100003,
+    "ConfirmText": "UI_FORGING_START",
+    "InteractiveRadius": 300,
+    "InteractivePriority": 3,
+    "Icon": "/Game/UI/UI_PNG/Common/Icon/Icon_Entrance_Forging"
+  },
+  "100004": {
+    "Id": 100004,
+    "InteractiveFailMsg": "UI_INTERACTIVE_FAILMSG",
+    "InteractiveRadius": 300,
+    "InteractivePriority": 2,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Talk"
+  },
+  "100005": {
+    "Id": 100005,
+    "ConfirmText": "UI_PickupExplore1",
+    "InteractiveRadius": 300,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Pick"
+  },
+  "100006": {
+    "Id": 100006,
+    "ConfirmText": "UI_MECHANISM_105",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Leave"
+  },
+  "100007": {
+    "Id": 100007,
+    "ConfirmText": "UI_MECHANISM_107",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Mechanism"
+  },
+  "100008": {
+    "Id": 100008,
+    "ConfirmText": "UI_MECHANISM_106",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Mechanism"
+  },
+  "100009": {
+    "Id": 100009,
+    "ConfirmText": "UI_Interact_Test",
+    "InteractiveRadius": 1500,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Talk"
+  },
+  "100010": {
+    "Id": 100010,
+    "ConfirmText": "MAIN_UI_GACHA",
+    "InteractiveRadius": 800,
+    "InteractivePriority": 3,
+    "Icon": "/Game/UI/UI_PNG/Common/Icon/Icon_Entrance_Gacha"
+  },
+  "100011": {
+    "Id": 100011,
+    "ConfirmText": "NpcBiography_UI_Probe",
+    "InteractiveRadius": 300,
+    "InteractivePriority": 1,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Check"
+  },
+  "100012": {
+    "Id": 100012,
+    "ConfirmText": "NpcBiography_UI_Probe",
+    "InteractiveRadius": 300,
+    "InteractivePriority": 1,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Lock"
+  },
+  "100013": {
+    "Id": 100013,
+    "ConfirmText": "MAIN_UI_ACHIEVEMENT",
+    "InteractiveRadius": 2000,
+    "InteractivePriority": 3,
+    "Icon": "/Game/UI/UI_PNG/Common/Icon/Icon_Entrance_Achievement"
+  },
+  "100014": {
+    "Id": 100014,
+    "ConfirmText": "UI_CONFIRM_PLAY",
+    "InteractiveRadius": 300,
+    "InteractivePriority": 3,
+    "Icon": "/Game/UI/UI_PNG/Common/Icon/Icon_Entrance_Pve"
+  },
+  "100015": {
+    "Id": 100015,
+    "ConfirmText": "UI_PickupExplore2",
+    "InteractiveRadius": 300,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Pick"
+  },
+  "100016": {
+    "Id": 100016,
+    "ConfirmText": "UI_Carhorn",
+    "InteractiveRadius": 300,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Mechanism"
+  },
+  "100017": {
+    "Id": 100017,
+    "ConfirmText": "UI_PickupExplore3",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Box"
+  },
+  "100018": {
+    "Id": 100018,
+    "ConfirmText": "UI_PickupExplore4",
+    "InteractiveRadius": 300,
+    "InteractivePriority": 1,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Survey"
+  },
+  "100019": {
+    "Id": 100019,
+    "ConfirmText": "UI_PickupExplore5",
+    "InteractiveRadius": 300,
+    "InteractivePriority": 1,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Survey"
+  },
+  "100020": {
+    "Id": 100020,
+    "ConfirmText": "DROP_QUEST_LOCKEDDOOR",
+    "InteractiveRadius": 300,
+    "InteractivePriority": 1,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Survey"
+  },
+  "100021": {
+    "Id": 100021,
+    "ConfirmText": "DROP_QUEST_DIG",
+    "InteractiveRadius": 300,
+    "InteractivePriority": 1,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Excavation"
+  },
+  "100022": {
+    "Id": 100022,
+    "ConfirmText": "UI_PickupExplore1",
+    "InteractiveRadius": 100,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Pick"
+  }
+}

@@ -1,0 +1,497 @@
+[
+  {
+    "DynQuestId": 1,
+    "DynName": "DynQuest_DaJie_Title",
+    "StoryPath": "DynStory\\\\Village/DaJie.story",
+    "UnlockCondition": 100103,
+    "Chance": 20,
+    "RegionId": 1001,
+    "DayLimit": false,
+    "CompleteNum": -1,
+    "TriggerBoxID": 1590179,
+    "FailTriggerBoxID": 1590178,
+    "DynCD": [
+      43200,
+      3600
+    ],
+    "Reward": [
+      51003
+    ]
+  },
+  {
+    "DynQuestId": 2,
+    "DynName": "DynQuest_VillageSave_Title",
+    "StoryPath": "DynStory\\\\Village/Save.story",
+    "UnlockCondition": 100103,
+    "Chance": 25,
+    "RegionId": 1001,
+    "DayLimit": false,
+    "CompleteNum": -1,
+    "TriggerBoxID": 1590147,
+    "FailTriggerBoxID": 1590171,
+    "DynCD": [
+      43200,
+      3600
+    ],
+    "Reward": [
+      51003
+    ]
+  },
+  {
+    "DynQuestId": 3,
+    "DynName": "DynQuest_VillageMuTong_Title",
+    "StoryPath": "DynStory\\\\Village/MuTong.story",
+    "UnlockCondition": 100103,
+    "Chance": 25,
+    "RegionId": 1001,
+    "DayLimit": false,
+    "CompleteNum": -1,
+    "TriggerBoxID": 1590152,
+    "FailTriggerBoxID": 1590153,
+    "DynCD": [
+      43200,
+      3600
+    ],
+    "Reward": [
+      51003
+    ]
+  },
+  {
+    "DynQuestId": 4,
+    "DynName": "DynQuest_VillageGrass_Title",
+    "StoryPath": "DynStory\\\\Village/Grass.story",
+    "UnlockCondition": 100103,
+    "Chance": 25,
+    "RegionId": 1001,
+    "DayLimit": false,
+    "CompleteNum": -1,
+    "TriggerBoxID": 1590158,
+    "FailTriggerBoxID": 1590165,
+    "DynCD": [
+      43200,
+      3600
+    ],
+    "Reward": [
+      51003
+    ]
+  },
+  {
+    "DynQuestId": 5,
+    "DynName": "DynQuest_BalconyHuishoulaixi_Title",
+    "StoryPath": "DynStory\\\\Balcony\\\\Huishoulaixi.story",
+    "UnlockCondition": 100103,
+    "Chance": 20,
+    "RegionId": 1001,
+    "DayLimit": false,
+    "CompleteNum": -1,
+    "TriggerBoxID": 1570091,
+    "FailTriggerBoxID": 1570092,
+    "DynCD": [
+      43200,
+      3600
+    ],
+    "Reward": [
+      51003
+    ]
+  },
+  {
+    "DynQuestId": 6,
+    "DynName": "DynQuest_IcelakeCityCat_Title",
+    "StoryPath": "DynStory\\\\IcelakeCity\\\\Cat.story",
+    "UnlockCondition": 100202,
+    "Chance": 35,
+    "RegionId": 1011,
+    "DayLimit": true,
+    "CompleteNum": -1,
+    "TriggerBoxID": 1190405,
+    "FailTriggerBoxID": 1190452,
+    "DynCD": [
+      28800,
+      7200
+    ],
+    "Reward": [
+      51004
+    ]
+  },
+  {
+    "DynQuestId": 7,
+    "DynName": "DynQuest_IcelakeCityGaokong_Title",
+    "StoryPath": "DynStory\\\\IcelakeCity\\\\Gaokong.story",
+    "UnlockCondition": 100202,
+    "Chance": 15,
+    "RegionId": 1011,
+    "DayLimit": false,
+    "CompleteNum": -1,
+    "TriggerBoxID": 1190502,
+    "FailTriggerBoxID": 1190503,
+    "DynCD": [
+      43200,
+      3600
+    ],
+    "Reward": [
+      51003
+    ]
+  },
+  {
+    "DynQuestId": 8,
+    "DynName": "DynQuest_PoorZhuomicang_Title",
+    "StoryPath": "DynStory\\\\IcelakeCity\\\\Zhuomicang.story",
+    "UnlockCondition": 100202,
+    "Chance": 25,
+    "RegionId": 1011,
+    "DayLimit": false,
+    "CompleteNum": -1,
+    "TriggerBoxID": 1190499,
+    "FailTriggerBoxID": 1190500,
+    "DynCD": [
+      43200,
+      3600
+    ],
+    "Reward": [
+      51003
+    ]
+  },
+  {
+    "DynQuestId": 9,
+    "DynName": "DynQuest_IcelakeCityStealCar_Title",
+    "StoryPath": "DynStory\\\\IcelakeCity\\\\StealCar.story",
+    "UnlockCondition": 100202,
+    "Chance": 35,
+    "RegionId": 1011,
+    "DayLimit": true,
+    "CompleteNum": -1,
+    "TriggerBoxID": 1190546,
+    "FailTriggerBoxID": 1190547,
+    "DynCD": [
+      28800,
+      7200
+    ],
+    "Reward": [
+      51004
+    ]
+  },
+  {
+    "DynQuestId": 10,
+    "DynName": "DynQuest_IcelakeCityJianxiu_Title",
+    "StoryPath": "DynStory\\\\IcelakeCity\\\\Fixmachine.story",
+    "UnlockCondition": 100202,
+    "Chance": 35,
+    "RegionId": 1011,
+    "DayLimit": true,
+    "CompleteNum": -1,
+    "TriggerBoxID": 1190713,
+    "FailTriggerBoxID": 1190714,
+    "DynCD": [
+      28800,
+      7200
+    ],
+    "Reward": [
+      51004
+    ]
+  },
+  {
+    "DynQuestId": 11,
+    "DynName": "DynQuest_VillageSave_Title",
+    "StoryPath": "DynStory\\\\Trafficway\\\\Save.story",
+    "UnlockCondition": 100202,
+    "Chance": 25,
+    "RegionId": 1011,
+    "DayLimit": false,
+    "CompleteNum": -1,
+    "TriggerBoxID": 1180526,
+    "FailTriggerBoxID": 1180527,
+    "DynCD": [
+      43200,
+      3600
+    ],
+    "Reward": [
+      51003
+    ]
+  },
+  {
+    "DynQuestId": 12,
+    "DynName": "DynQuest_TrafficwayYichan_Title",
+    "StoryPath": "DynStory\\\\Trafficway\\\\Shouyuerendeyichan.story",
+    "UnlockCondition": 100202,
+    "Chance": 35,
+    "RegionId": 1011,
+    "DayLimit": true,
+    "CompleteNum": -1,
+    "TriggerBoxID": 1180420,
+    "FailTriggerBoxID": 1180421,
+    "DynCD": [
+      28800,
+      7200
+    ],
+    "Reward": [
+      51004
+    ]
+  },
+  {
+    "DynQuestId": 13,
+    "DynName": "DynQuest_TrafficwayDaomaidaomai_Title",
+    "StoryPath": "DynStory\\\\Trafficway\\\\Daomaidaomai.story",
+    "UnlockCondition": 100202,
+    "Chance": 35,
+    "RegionId": 1011,
+    "DayLimit": true,
+    "CompleteNum": -1,
+    "TriggerBoxID": 1180414,
+    "FailTriggerBoxID": 1180415,
+    "DynCD": [
+      28800,
+      7200
+    ],
+    "Reward": [
+      51004
+    ]
+  },
+  {
+    "DynQuestId": 14,
+    "DynName": "DynQuest_DaJie_Title",
+    "StoryPath": "DynStory\\\\KuangKeng\\\\DaJie.story",
+    "UnlockCondition": 100203,
+    "Chance": 20,
+    "RegionId": 1013,
+    "DayLimit": false,
+    "CompleteNum": -1,
+    "TriggerBoxID": 1270067,
+    "FailTriggerBoxID": 1270069,
+    "DynCD": [
+      43200,
+      3600
+    ],
+    "Reward": [
+      51003
+    ]
+  },
+  {
+    "DynQuestId": 15,
+    "DynName": "DynQuest_Protectjiaojiao_Title",
+    "StoryPath": "DynStory\\\\Balcony\\\\Protectjiaojiao.story",
+    "UnlockCondition": 100103,
+    "Chance": 25,
+    "RegionId": 1001,
+    "DayLimit": false,
+    "CompleteNum": -1,
+    "TriggerBoxID": 1570102,
+    "FailTriggerBoxID": 1570103,
+    "DynCD": [
+      43200,
+      3600
+    ],
+    "Reward": [
+      51003
+    ]
+  },
+  {
+    "DynQuestId": 16,
+    "DynName": "DynQuest_BalconyHeiTao_Title",
+    "StoryPath": "DynStory\\\\Balcony\\\\Heitaodehuiyi.story",
+    "UnlockCondition": 100103,
+    "Chance": 40,
+    "RegionId": 1001,
+    "DayLimit": false,
+    "CompleteNum": 1,
+    "TriggerBoxID": 1570096,
+    "FailTriggerBoxID": 1570097,
+    "DynCD": [
+      43200,
+      3600
+    ],
+    "Reward": [
+      51003
+    ]
+  },
+  null,
+  {
+    "DynQuestId": 18,
+    "DynName": "DynQuest_TrafficwayProtectwuzi_Title",
+    "StoryPath": "DynStory/Trafficway/Protectwuzi.story",
+    "UnlockCondition": 100202,
+    "Chance": 35,
+    "RegionId": 1011,
+    "DayLimit": true,
+    "CompleteNum": -1,
+    "TriggerBoxID": 1180495,
+    "FailTriggerBoxID": 1180496,
+    "DynCD": [
+      28800,
+      7200
+    ],
+    "Reward": [
+      51004
+    ]
+  },
+  {
+    "DynQuestId": 19,
+    "DynName": "DynQuest_DaJie_Title",
+    "StoryPath": "DynStory\\\\Icelake\\\\DaJie.story",
+    "UnlockCondition": 100202,
+    "Chance": 15,
+    "RegionId": 1011,
+    "DayLimit": false,
+    "CompleteNum": -1,
+    "TriggerBoxID": 1240322,
+    "FailTriggerBoxID": 1240323,
+    "DynCD": [
+      43200,
+      3600
+    ],
+    "Reward": [
+      51003
+    ]
+  },
+  {
+    "DynQuestId": 20,
+    "DynName": "DynQuest_DaJie_Title",
+    "StoryPath": "DynStory\\\\Icelake\\\\DaJie2.story",
+    "UnlockCondition": 100202,
+    "Chance": 15,
+    "RegionId": 1011,
+    "DayLimit": false,
+    "CompleteNum": -1,
+    "TriggerBoxID": 1240335,
+    "FailTriggerBoxID": 1240336,
+    "DynCD": [
+      43200,
+      3600
+    ],
+    "Reward": [
+      51003
+    ]
+  },
+  {
+    "DynQuestId": 21,
+    "DynName": "DynQuest_IcelakePet_Title",
+    "StoryPath": "DynStory/Icelake/Pet.story",
+    "UnlockCondition": 100202,
+    "Chance": 35,
+    "RegionId": 1011,
+    "DayLimit": false,
+    "CompleteNum": 1,
+    "TriggerBoxID": 1240331,
+    "FailTriggerBoxID": 1240332,
+    "DynCD": [
+      43200,
+      3600
+    ],
+    "Reward": [
+      51003
+    ]
+  },
+  {
+    "DynQuestId": 22,
+    "DynName": "DynQuest_BalconyHuishoulaixi_Title",
+    "StoryPath": "DynStory/KuangKeng/Huishoulaixi.story",
+    "UnlockCondition": 100203,
+    "Chance": 20,
+    "RegionId": 1013,
+    "DayLimit": false,
+    "CompleteNum": -1,
+    "TriggerBoxID": 1310057,
+    "FailTriggerBoxID": 1310058,
+    "DynCD": [
+      43200,
+      3600
+    ],
+    "Reward": [
+      51003
+    ]
+  },
+  {
+    "DynQuestId": 23,
+    "DynName": "DynQuest_BalconyHuishoulaixi_Title",
+    "StoryPath": "DynStory/Sew/Huishoulaixi.story",
+    "UnlockCondition": 100202,
+    "Chance": 20,
+    "RegionId": 1017,
+    "DayLimit": false,
+    "CompleteNum": -1,
+    "TriggerBoxID": 1720179,
+    "FailTriggerBoxID": 1720180,
+    "DynCD": [
+      43200,
+      3600
+    ],
+    "Reward": [
+      51003
+    ]
+  },
+  {
+    "DynQuestId": 24,
+    "DynName": "DynQuest_DaJie_Title",
+    "StoryPath": "DynStory/Sew/DaJie.story",
+    "UnlockCondition": 100202,
+    "Chance": 20,
+    "RegionId": 1017,
+    "DayLimit": false,
+    "CompleteNum": -1,
+    "TriggerBoxID": 1720182,
+    "FailTriggerBoxID": 1720183,
+    "DynCD": [
+      43200,
+      3600
+    ],
+    "Reward": [
+      51003
+    ]
+  },
+  {
+    "DynQuestId": 25,
+    "DynName": "DynQuest_SewXunbao_Title",
+    "StoryPath": "DynStory/Sew/Xunbao.story",
+    "UnlockCondition": 100202,
+    "Chance": 35,
+    "RegionId": 1017,
+    "DayLimit": false,
+    "CompleteNum": -1,
+    "TriggerBoxID": 1730076,
+    "FailTriggerBoxID": 1730077,
+    "DynCD": [
+      43200,
+      3600
+    ],
+    "Reward": [
+      51003
+    ]
+  },
+  {
+    "DynQuestId": 26,
+    "DynName": "DynQuest_FortDecapitate_Title",
+    "StoryPath": "DynStory/Fort/Decapitate.story",
+    "UnlockCondition": 110108,
+    "Chance": 35,
+    "RegionId": 1021,
+    "DayLimit": false,
+    "CompleteNum": -1,
+    "TriggerBoxID": 1640319,
+    "FailTriggerBoxID": 1640320,
+    "DynCD": [
+      43200,
+      3600
+    ],
+    "Reward": [
+      51003
+    ]
+  },
+  {
+    "DynQuestId": 27,
+    "DynName": "DynQuest_FortHuishou_Title",
+    "StoryPath": "DynStory/Fort/Huishou.story",
+    "UnlockCondition": 110108,
+    "Chance": 25,
+    "RegionId": 1021,
+    "DayLimit": false,
+    "CompleteNum": -1,
+    "TriggerBoxID": 1650293,
+    "FailTriggerBoxID": 1650294,
+    "DynCD": [
+      43200,
+      3600
+    ],
+    "Reward": [
+      51003
+    ]
+  }
+]

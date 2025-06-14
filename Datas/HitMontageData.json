@@ -1,0 +1,330 @@
+{
+  "NoHitOrDie": {
+    "HitMontageId": "NoHitOrDie"
+  },
+  "RoleDefault": {
+    "HitMontageId": "RoleDefault",
+    "LightHitMontage": [
+      "LightHit1",
+      "LightHit2"
+    ],
+    "HitFlyMontage": [
+      "HitFly"
+    ],
+    "DeadMontage": [
+      "Die"
+    ]
+  },
+  "MonDisarmTest": {
+    "HitMontageId": "MonDisarmTest",
+    "EnableRagdollHitFly": true,
+    "RagdollHitFlyGetUpTime": 0.5,
+    "RagdollHitFlyBeginTime": 0.25,
+    "RagdollHitFlyBoneName": "pelvis",
+    "HitAddtiveDuration": 0.46,
+    "LightHitMontage": [
+      "LightHit1",
+      "LightHit2"
+    ],
+    "LightHitRangedMontage": [
+      "LightHitRanged"
+    ],
+    "HeavyHitMontage": [
+      "HeavyHit"
+    ],
+    "HitFlyMontage": [
+      "HitFly"
+    ],
+    "DisarmHitMontage": [
+      "DisarmHit"
+    ],
+    "DeadMontage": [
+      "Die"
+    ],
+    "DeadHitFlyMontage": [
+      "HitFlyDie"
+    ],
+    "DeadDissolveTime": 2
+  },
+  "MonDefault": {
+    "HitMontageId": "MonDefault",
+    "EnableRagdollHitFly": true,
+    "RagdollHitFlyGetUpTime": 0.5,
+    "RagdollHitFlyBeginTime": 0.25,
+    "RagdollHitFlyBoneName": "pelvis",
+    "HitAddtiveDuration": 0.46,
+    "LightHitMontage": [
+      "LightHit1",
+      "LightHit2"
+    ],
+    "LightHitRangedMontage": [
+      "LightHitRanged"
+    ],
+    "HeavyHitMontage": [
+      "HeavyHit"
+    ],
+    "HitFlyMontage": [
+      "HitFly"
+    ],
+    "DisarmHitMontage": [
+      "DisarmHit"
+    ],
+    "DeadMontage": [
+      "Die"
+    ],
+    "DeadHitFlyMontage": [
+      "HitFlyDie"
+    ],
+    "DeadDissolveTime": 2
+  },
+  "MonNoRagdoll": {
+    "HitMontageId": "MonNoRagdoll",
+    "HitAddtiveDuration": 0.46,
+    "LightHitMontage": [
+      "LightHit1",
+      "LightHit2"
+    ],
+    "LightHitRangedMontage": [
+      "LightHitRanged"
+    ],
+    "HeavyHitMontage": [
+      "HeavyHit"
+    ],
+    "DeadMontage": [
+      "Die"
+    ],
+    "DeadDissolveTime": 2
+  },
+  "MonGRLongcao": {
+    "HitMontageId": "MonGRLongcao",
+    "EnableRagdollHitFly": true,
+    "RagdollHitFlyGetUpTime": 0.5,
+    "RagdollHitFlyBeginTime": 0.25,
+    "RagdollHitFlyBoneName": "pelvis",
+    "HitAddtiveDuration": 0.46,
+    "LightHitMontage": [
+      "LightHit1",
+      "LightHit2"
+    ],
+    "LightHitRangedMontage": [
+      "LightHitRanged"
+    ],
+    "HeavyHitMontage": [
+      "HeavyHit"
+    ],
+    "HitFlyMontage": [
+      "HitFly"
+    ],
+    "ConditionHitMontage": {
+      "600501": "LightHit3"
+    },
+    "DeadMontage": [
+      "Die"
+    ],
+    "DeadHitFlyMontage": [
+      "HitFlyDie"
+    ],
+    "DeadDissolveTime": 2
+  },
+  "MonJTHealRobot": {
+    "HitMontageId": "MonJTHealRobot",
+    "HitAddtiveDuration": 0.46,
+    "LightHitMontage": [
+      "LightHit1",
+      "LightHit2"
+    ],
+    "DeadMontage": [
+      "Die"
+    ],
+    "DeadDissolveTime": 1
+  },
+  "MonJTBlastRobot": {
+    "HitMontageId": "MonJTBlastRobot",
+    "HitAddtiveDuration": 0.46,
+    "LightHitMontage": {},
+    "DeadMontage": [
+      "Die"
+    ],
+    "DeadDissolveTime": 2,
+    "SPDeadDissolveTime": [
+      {
+        "KillSelf": 0
+      }
+    ]
+  },
+  "MonSQBaozha": {
+    "HitMontageId": "MonSQBaozha",
+    "EnableRagdollHitFly": true,
+    "RagdollHitFlyGetUpTime": 0.5,
+    "RagdollHitFlyBeginTime": 0.25,
+    "RagdollHitFlyBoneName": "pelvis",
+    "HitAddtiveDuration": 0.46,
+    "LightHitMontage": [
+      "LightHit1",
+      "LightHit2"
+    ],
+    "LightHitRangedMontage": [
+      "LightHitRanged"
+    ],
+    "HeavyHitMontage": [
+      "HeavyHit"
+    ],
+    "HitFlyMontage": [
+      "HitFly"
+    ],
+    "DisarmHitMontage": [
+      "DisarmHit"
+    ],
+    "DeadMontage": [
+      "Die"
+    ],
+    "DeadHitFlyMontage": [
+      "HitFlyDie"
+    ],
+    "DeadDissolveTime": 2,
+    "SPDeadDissolveTime": [
+      {
+        "KillSelf": 0
+      }
+    ]
+  },
+  "MonNEDajie": {
+    "HitMontageId": "MonNEDajie",
+    "HitAddtiveDuration": 0.46,
+    "LightHitMontage": [
+      "LightHit1",
+      "LightHit2"
+    ],
+    "HeavyHitMontage": {},
+    "DeadMontage": [
+      "Die"
+    ],
+    "DeadDissolveTime": 2
+  },
+  "MonNEHaer": {
+    "HitMontageId": "MonNEHaer",
+    "EnableRagdollHitFly": true,
+    "RagdollHitFlyGetUpTime": 0.5,
+    "RagdollHitFlyBeginTime": 0.25,
+    "RagdollHitFlyBoneName": "pelvis",
+    "HitAddtiveDuration": 0.46,
+    "LightHitMontage": [
+      "LightHit1",
+      "LightHit2"
+    ],
+    "LightHitRangedMontage": [
+      "LightHitRanged"
+    ],
+    "HeavyHitMontage": [
+      "HeavyHit"
+    ],
+    "HitFlyMontage": [
+      "HitFly"
+    ],
+    "DisarmHitMontage": [
+      "DisarmHit"
+    ],
+    "DeadMontage": {},
+    "DeadHitFlyMontage": [
+      "HitFlyDie"
+    ],
+    "DeadDissolveTime": 2
+  },
+  "BossXibi": {
+    "HitMontageId": "BossXibi",
+    "HitAddtiveDuration": 0.3,
+    "LightHitMontage": [
+      "HitLight"
+    ]
+  },
+  "BossXibiHard": {
+    "HitMontageId": "BossXibiHard",
+    "HitAddtiveDuration": 0.3,
+    "LightHitMontage": [
+      "HitLight"
+    ],
+    "DeadMontage": [
+      "Die"
+    ],
+    "DeadDissolveTime": 1
+  },
+  "BossLizhan": {
+    "HitMontageId": "BossLizhan",
+    "HitAddtiveDuration": 0.3,
+    "LightHitMontage": [
+      "HitLight"
+    ],
+    "DeadMontage": [
+      "Die"
+    ],
+    "DeadDissolveTime": 1
+  },
+  "BossSaiqi": {
+    "HitMontageId": "BossSaiqi",
+    "HitAddtiveDuration": 0.3,
+    "HitAddtiveDirection": 1,
+    "LightHitMontage": {},
+    "ConditionHitMontage": {
+      "850205": "LightHit2",
+      "850206": "LightHit2",
+      "850207": "LightHit1",
+      "850208": "LightHit1"
+    },
+    "DeadMontage": [
+      "Die"
+    ],
+    "DeadDissolveTime": 1
+  },
+  "BossShijingzhe": {
+    "HitMontageId": "BossShijingzhe",
+    "NotRotateWhenHit": true,
+    "HitAddtiveDuration": 0.3,
+    "HitAddtiveCoolDown": 0.5,
+    "LightHitMontage": {},
+    "ConditionHitMontage": {
+      "850301": "LightHit1",
+      "850302": "LightHit2",
+      "850303": "LightHit3",
+      "850304": "LightHit4"
+    },
+    "DeadMontage": [
+      "Die"
+    ],
+    "DeadDissolveTime": 1
+  },
+  "BossLianhuo": {
+    "HitMontageId": "BossLianhuo",
+    "HitAddtiveDuration": 0.3,
+    "HitAddtiveDirection": 1,
+    "LightHitMontage": {},
+    "DeadMontage": [
+      "Die"
+    ],
+    "DeadDissolveTime": 1
+  },
+  "BossNvzhu": {
+    "HitMontageId": "BossNvzhu",
+    "HitAddtiveDuration": 0.3,
+    "LightHitMontage": [
+      "LightHit1",
+      "LightHit2"
+    ],
+    "DeadMontage": [
+      "Die"
+    ],
+    "DeadDissolveTime": 1
+  },
+  "OnlyDieWithDissolve": {
+    "HitMontageId": "OnlyDieWithDissolve",
+    "DeadMontage": [
+      "Die"
+    ],
+    "DeadDissolveTime": 1.25
+  },
+  "OnlyDieNoDissolve": {
+    "HitMontageId": "OnlyDieNoDissolve",
+    "DeadMontage": [
+      "Die"
+    ]
+  }
+}

@@ -1,0 +1,1647 @@
+{
+  "1001": {
+    "KawaiiId": 1001,
+    "KawaiiType": "hair",
+    "KawaiiParament": {
+      "LevelEnter": [
+        {
+          "Stiffness": 0.6
+        },
+        {
+          "Damping": 0.8
+        },
+        {
+          "WordDampingLocation": 0.9
+        },
+        {
+          "WordDampingRotation": 0.5
+        },
+        {
+          "LimitAngle": 0
+        },
+        {
+          "Width": 5
+        },
+        {
+          "Radius": 3
+        }
+      ],
+      "Idle": [
+        {
+          "Stiffness": 0.6
+        },
+        {
+          "Damping": 0.8
+        },
+        {
+          "WordDampingLocation": 0.9
+        },
+        {
+          "WordDampingRotation": 0.5
+        },
+        {
+          "LimitAngle": 0
+        },
+        {
+          "Width": 5
+        },
+        {
+          "Radius": 3
+        }
+      ],
+      "RunStart": [
+        {
+          "Stiffness": 0.6
+        },
+        {
+          "Damping": 0.8
+        },
+        {
+          "WordDampingLocation": 0.9
+        },
+        {
+          "WordDampingRotation": 0.5
+        },
+        {
+          "LimitAngle": 0
+        },
+        {
+          "Width": 5
+        },
+        {
+          "Radius": 3
+        }
+      ],
+      "RunLoop": {
+        "Stiffness": 0.65,
+        "Damping": 0.9,
+        "WordDampingLocation": 0.9,
+        "WordDampingRotation": 0.5,
+        "LimitAngle": 0,
+        "Width": 5,
+        "Radius": 3
+      },
+      "RunStop": [
+        {
+          "Stiffness": 0.8
+        },
+        {
+          "Damping": 0.8
+        },
+        {
+          "WordDampingLocation": 0.9
+        },
+        {
+          "WordDampingRotation": 0.5
+        },
+        {
+          "LimitAngle": 0
+        },
+        {
+          "Width": 5
+        },
+        {
+          "Radius": 3
+        }
+      ],
+      "StartSlide": [
+        {
+          "Stiffness": 0.6
+        },
+        {
+          "Damping": 0.8
+        },
+        {
+          "WordDampingLocation": 0.9
+        },
+        {
+          "WordDampingRotation": 0.5
+        },
+        {
+          "LimitAngle": 0
+        },
+        {
+          "Width": 5
+        },
+        {
+          "Radius": 3
+        }
+      ],
+      "SlideToIdle": [
+        {
+          "Stiffness": 0.6
+        },
+        {
+          "Damping": 0.8
+        },
+        {
+          "WordDampingLocation": 0.9
+        },
+        {
+          "WordDampingRotation": 0.5
+        },
+        {
+          "LimitAngle": 0
+        },
+        {
+          "Width": 5
+        },
+        {
+          "Radius": 3
+        }
+      ],
+      "EnterJump": {
+        "Stiffness": 0.7,
+        "Damping": 0.8,
+        "WordDampingLocation": 0.9,
+        "WordDampingRotation": 0.5,
+        "LimitAngle": 0,
+        "Width": 5,
+        "Radius": 3
+      },
+      "EnterSecJump": [
+        {
+          "Stiffness": 0.7
+        },
+        {
+          "Damping": 0.9
+        },
+        {
+          "WordDampingLocation": 0.9
+        },
+        {
+          "WordDampingRotation": 0.5
+        },
+        {
+          "LimitAngle": 0
+        },
+        {
+          "Width": 5
+        },
+        {
+          "Radius": 3
+        }
+      ],
+      "InAir": [
+        {
+          "Stiffness": 0.7
+        },
+        {
+          "Damping": 0.9
+        },
+        {
+          "WordDampingLocation": 0.9
+        },
+        {
+          "WordDampingRotation": 0.5
+        },
+        {
+          "LimitAngle": 0
+        },
+        {
+          "Width": 5
+        },
+        {
+          "Radius": 3
+        }
+      ],
+      "Land": [
+        {
+          "Stiffness": 0.8
+        },
+        {
+          "Damping": 0.8
+        },
+        {
+          "WordDampingLocation": 0.9
+        },
+        {
+          "WordDampingRotation": 0.5
+        },
+        {
+          "LimitAngle": 0
+        },
+        {
+          "Width": 5
+        },
+        {
+          "Radius": 3
+        }
+      ]
+    }
+  },
+  "1002": {
+    "KawaiiId": 1002,
+    "KawaiiType": "cloak",
+    "KawaiiParament": {
+      "LevelEnter": {
+        "Stiffness": 0.8,
+        "Damping": 0.8,
+        "WordDampingLocation": 0.7,
+        "WordDampingRotation": 0.5,
+        "LimitAngle": 0,
+        "Width": 5,
+        "Radius": 3
+      },
+      "Idle": [
+        {
+          "Stiffness": 0.8
+        },
+        {
+          "Damping": 0.8
+        },
+        {
+          "WordDampingLocation": 0.9
+        },
+        {
+          "WordDampingRotation": 0.5
+        },
+        {
+          "LimitAngle": 0
+        },
+        {
+          "Width": 5
+        },
+        {
+          "Radius": 3
+        }
+      ],
+      "RunStart": [
+        {
+          "Stiffness": 0.8
+        },
+        {
+          "Damping": 0.8
+        },
+        {
+          "WordDampingLocation": 0.9
+        },
+        {
+          "WordDampingRotation": 0.5
+        },
+        {
+          "LimitAngle": 0
+        },
+        {
+          "Width": 5
+        },
+        {
+          "Radius": 3
+        }
+      ],
+      "RunLoop": [
+        {
+          "Stiffness": 0.8
+        },
+        {
+          "Damping": 0.8
+        },
+        {
+          "WordDampingLocation": 0.9
+        },
+        {
+          "WordDampingRotation": 0.5
+        },
+        {
+          "LimitAngle": 0
+        },
+        {
+          "Width": 5
+        },
+        {
+          "Radius": 3
+        }
+      ],
+      "RunStop": [
+        {
+          "Stiffness": 0.8
+        },
+        {
+          "Damping": 0.8
+        },
+        {
+          "WordDampingLocation": 0.9
+        },
+        {
+          "WordDampingRotation": 0.5
+        },
+        {
+          "LimitAngle": 0
+        },
+        {
+          "Width": 5
+        },
+        {
+          "Radius": 3
+        }
+      ],
+      "StartSlide": [
+        {
+          "Stiffness": 0.8
+        },
+        {
+          "Damping": 0.8
+        },
+        {
+          "WordDampingLocation": 0.9
+        },
+        {
+          "WordDampingRotation": 0.5
+        },
+        {
+          "LimitAngle": 0
+        },
+        {
+          "Width": 5
+        },
+        {
+          "Radius": 3
+        }
+      ],
+      "SlideToIdle": [
+        {
+          "Stiffness": 0.8
+        },
+        {
+          "Damping": 0.8
+        },
+        {
+          "WordDampingLocation": 0.9
+        },
+        {
+          "WordDampingRotation": 0.5
+        },
+        {
+          "LimitAngle": 0
+        },
+        {
+          "Width": 5
+        },
+        {
+          "Radius": 3
+        }
+      ],
+      "EnterJump": {
+        "Stiffness": 0.6,
+        "Damping": 0.8,
+        "WordDampingLocation": 0.7,
+        "WordDampingRotation": 0.5,
+        "LimitAngle": 0,
+        "Width": 5,
+        "Radius": 3
+      },
+      "EnterSecJump": {
+        "Stiffness": 0.5,
+        "Damping": 0.8,
+        "WordDampingLocation": 0.7,
+        "WordDampingRotation": 0.5,
+        "LimitAngle": 0,
+        "Width": 5,
+        "Radius": 3
+      },
+      "InAir": {
+        "Stiffness": 0.5,
+        "Damping": 0.7,
+        "WordDampingLocation": 0.7,
+        "WordDampingRotation": 0.5,
+        "LimitAngle": 0,
+        "Width": 5,
+        "Radius": 3
+      },
+      "Land": [
+        {
+          "Stiffness": 0.8
+        },
+        {
+          "Damping": 0.9
+        },
+        {
+          "WordDampingLocation": 0.9
+        },
+        {
+          "WordDampingRotation": 0.5
+        },
+        {
+          "LimitAngle": 0
+        },
+        {
+          "Width": 5
+        },
+        {
+          "Radius": 3
+        }
+      ]
+    }
+  },
+  "1003": {
+    "KawaiiId": 1003,
+    "KawaiiType": "skirt",
+    "KawaiiParament": {
+      "LevelEnter": [
+        {
+          "Stiffness": 0.8
+        },
+        {
+          "Damping": 0.8
+        },
+        {
+          "WordDampingLocation": 0.9
+        },
+        {
+          "WordDampingRotation": 0.5
+        },
+        {
+          "LimitAngle": 0
+        },
+        {
+          "Width": 5
+        },
+        {
+          "Radius": 3
+        }
+      ],
+      "Idle": [
+        {
+          "Stiffness": 0.8
+        },
+        {
+          "Damping": 0.8
+        },
+        {
+          "WordDampingLocation": 0.9
+        },
+        {
+          "WordDampingRotation": 0.5
+        },
+        {
+          "LimitAngle": 0
+        },
+        {
+          "Width": 5
+        },
+        {
+          "Radius": 3
+        }
+      ],
+      "RunStart": [
+        {
+          "Stiffness": 0.8
+        },
+        {
+          "Damping": 0.8
+        },
+        {
+          "WordDampingLocation": 0.9
+        },
+        {
+          "WordDampingRotation": 0.5
+        },
+        {
+          "LimitAngle": 0
+        },
+        {
+          "Width": 5
+        },
+        {
+          "Radius": 3
+        }
+      ],
+      "RunLoop": [
+        {
+          "Stiffness": 0.8
+        },
+        {
+          "Damping": 0.8
+        },
+        {
+          "WordDampingLocation": 0.9
+        },
+        {
+          "WordDampingRotation": 0.5
+        },
+        {
+          "LimitAngle": 0
+        },
+        {
+          "Width": 5
+        },
+        {
+          "Radius": 3
+        }
+      ],
+      "RunStop": [
+        {
+          "Stiffness": 0.8
+        },
+        {
+          "Damping": 0.8
+        },
+        {
+          "WordDampingLocation": 0.9
+        },
+        {
+          "WordDampingRotation": 0.5
+        },
+        {
+          "LimitAngle": 0
+        },
+        {
+          "Width": 5
+        },
+        {
+          "Radius": 3
+        }
+      ],
+      "StartSlide": [
+        {
+          "Stiffness": 0.8
+        },
+        {
+          "Damping": 0.8
+        },
+        {
+          "WordDampingLocation": 0.9
+        },
+        {
+          "WordDampingRotation": 0.5
+        },
+        {
+          "LimitAngle": 0
+        },
+        {
+          "Width": 5
+        },
+        {
+          "Radius": 3
+        }
+      ],
+      "SlideToIdle": [
+        {
+          "Stiffness": 0.8
+        },
+        {
+          "Damping": 0.8
+        },
+        {
+          "WordDampingLocation": 0.9
+        },
+        {
+          "WordDampingRotation": 0.5
+        },
+        {
+          "LimitAngle": 0
+        },
+        {
+          "Width": 5
+        },
+        {
+          "Radius": 3
+        }
+      ],
+      "EnterJump": [
+        {
+          "Stiffness": 0.8
+        },
+        {
+          "Damping": 0.8
+        },
+        {
+          "WordDampingLocation": 0.9
+        },
+        {
+          "WordDampingRotation": 0.5
+        },
+        {
+          "LimitAngle": 0
+        },
+        {
+          "Width": 5
+        },
+        {
+          "Radius": 3
+        }
+      ],
+      "EnterSecJump": [
+        {
+          "Stiffness": 0.8
+        },
+        {
+          "Damping": 0.8
+        },
+        {
+          "WordDampingLocation": 0.9
+        },
+        {
+          "WordDampingRotation": 0.5
+        },
+        {
+          "LimitAngle": 0
+        },
+        {
+          "Width": 5
+        },
+        {
+          "Radius": 3
+        }
+      ],
+      "InAir": [
+        {
+          "Stiffness": 0.8
+        },
+        {
+          "Damping": 0.8
+        },
+        {
+          "WordDampingLocation": 0.9
+        },
+        {
+          "WordDampingRotation": 0.5
+        },
+        {
+          "LimitAngle": 0
+        },
+        {
+          "Width": 5
+        },
+        {
+          "Radius": 3
+        }
+      ],
+      "Land": [
+        {
+          "Stiffness": 0.8
+        },
+        {
+          "Damping": 0.8
+        },
+        {
+          "WordDampingLocation": 0.9
+        },
+        {
+          "WordDampingRotation": 0.5
+        },
+        {
+          "LimitAngle": 0
+        },
+        {
+          "Width": 5
+        },
+        {
+          "Radius": 3
+        }
+      ]
+    }
+  },
+  "1004": {
+    "KawaiiId": 1004,
+    "KawaiiType": "hair",
+    "KawaiiParament": {
+      "LevelEnter": [
+        {
+          "Stiffness": 0.8
+        },
+        {
+          "Damping": 0.1
+        },
+        {
+          "WordDampingLocation": 0.9
+        },
+        {
+          "WordDampingRotation": 0.5
+        },
+        {
+          "LimitAngle": 0
+        },
+        {
+          "Width": 5
+        },
+        {
+          "Radius": 3
+        }
+      ],
+      "Idle": [
+        {
+          "Stiffness": 0.8
+        },
+        {
+          "Damping": 0.1
+        },
+        {
+          "WordDampingLocation": 0.9
+        },
+        {
+          "WordDampingRotation": 0.5
+        },
+        {
+          "LimitAngle": 0
+        },
+        {
+          "Width": 5
+        },
+        {
+          "Radius": 3
+        }
+      ],
+      "RunStart": [
+        {
+          "Stiffness": 0.8
+        },
+        {
+          "Damping": 0.1
+        },
+        {
+          "WordDampingLocation": 0.9
+        },
+        {
+          "WordDampingRotation": 0.5
+        },
+        {
+          "LimitAngle": 0
+        },
+        {
+          "Width": 5
+        },
+        {
+          "Radius": 3
+        }
+      ],
+      "RunLoop": [
+        {
+          "Stiffness": 0.8
+        },
+        {
+          "Damping": 0.1
+        },
+        {
+          "WordDampingLocation": 0.9
+        },
+        {
+          "WordDampingRotation": 0.5
+        },
+        {
+          "LimitAngle": 0
+        },
+        {
+          "Width": 5
+        },
+        {
+          "Radius": 3
+        }
+      ],
+      "RunStop": [
+        {
+          "Stiffness": 0.8
+        },
+        {
+          "Damping": 0.1
+        },
+        {
+          "WordDampingLocation": 0.9
+        },
+        {
+          "WordDampingRotation": 0.5
+        },
+        {
+          "LimitAngle": 0
+        },
+        {
+          "Width": 5
+        },
+        {
+          "Radius": 3
+        }
+      ],
+      "StartSlide": [
+        {
+          "Stiffness": 0.8
+        },
+        {
+          "Damping": 0.1
+        },
+        {
+          "WordDampingLocation": 0.9
+        },
+        {
+          "WordDampingRotation": 0.5
+        },
+        {
+          "LimitAngle": 0
+        },
+        {
+          "Width": 5
+        },
+        {
+          "Radius": 3
+        }
+      ],
+      "SlideToIdle": [
+        {
+          "Stiffness": 0.8
+        },
+        {
+          "Damping": 0.1
+        },
+        {
+          "WordDampingLocation": 0.9
+        },
+        {
+          "WordDampingRotation": 0.5
+        },
+        {
+          "LimitAngle": 0
+        },
+        {
+          "Width": 5
+        },
+        {
+          "Radius": 3
+        }
+      ],
+      "EnterJump": [
+        {
+          "Stiffness": 0.8
+        },
+        {
+          "Damping": 0.1
+        },
+        {
+          "WordDampingLocation": 0.9
+        },
+        {
+          "WordDampingRotation": 0.5
+        },
+        {
+          "LimitAngle": 0
+        },
+        {
+          "Width": 5
+        },
+        {
+          "Radius": 3
+        }
+      ],
+      "EnterSecJump": [
+        {
+          "Stiffness": 0.8
+        },
+        {
+          "Damping": 0.1
+        },
+        {
+          "WordDampingLocation": 0.9
+        },
+        {
+          "WordDampingRotation": 0.5
+        },
+        {
+          "LimitAngle": 0
+        },
+        {
+          "Width": 5
+        },
+        {
+          "Radius": 3
+        }
+      ],
+      "InAir": [
+        {
+          "Stiffness": 0.8
+        },
+        {
+          "Damping": 0.1
+        },
+        {
+          "WordDampingLocation": 0.9
+        },
+        {
+          "WordDampingRotation": 0.5
+        },
+        {
+          "LimitAngle": 0
+        },
+        {
+          "Width": 5
+        },
+        {
+          "Radius": 3
+        }
+      ],
+      "Land": [
+        {
+          "Stiffness": 0.8
+        },
+        {
+          "Damping": 0.1
+        },
+        {
+          "WordDampingLocation": 0.9
+        },
+        {
+          "WordDampingRotation": 0.5
+        },
+        {
+          "LimitAngle": 0
+        },
+        {
+          "Width": 5
+        },
+        {
+          "Radius": 3
+        }
+      ]
+    }
+  },
+  "1005": {
+    "KawaiiId": 1005,
+    "KawaiiType": "cloak",
+    "KawaiiParament": {
+      "LevelEnter": [
+        {
+          "Stiffness": 0.3
+        },
+        {
+          "Damping": 0.6
+        },
+        {
+          "WordDampingLocation": 0.9
+        },
+        {
+          "WordDampingRotation": 0.5
+        },
+        {
+          "LimitAngle": 0
+        },
+        {
+          "Width": 5
+        },
+        {
+          "Radius": 3
+        }
+      ],
+      "Idle": [
+        {
+          "Stiffness": 0.3
+        },
+        {
+          "Damping": 0.6
+        },
+        {
+          "WordDampingLocation": 0.9
+        },
+        {
+          "WordDampingRotation": 0.5
+        },
+        {
+          "LimitAngle": 0
+        },
+        {
+          "Width": 5
+        },
+        {
+          "Radius": 3
+        }
+      ],
+      "RunStart": [
+        {
+          "Stiffness": 0.3
+        },
+        {
+          "Damping": 0.6
+        },
+        {
+          "WordDampingLocation": 0.9
+        },
+        {
+          "WordDampingRotation": 0.5
+        },
+        {
+          "LimitAngle": 0
+        },
+        {
+          "Width": 5
+        },
+        {
+          "Radius": 3
+        }
+      ],
+      "RunLoop": {
+        "Stiffness": 0.3,
+        "Damping": 0.6,
+        "WordDampingLocation": 0.8,
+        "WordDampingRotation": 0.5,
+        "LimitAngle": 0,
+        "Width": 5,
+        "Radius": 3
+      },
+      "RunStop": [
+        {
+          "Stiffness": 0.3
+        },
+        {
+          "Damping": 0.6
+        },
+        {
+          "WordDampingLocation": 0.9
+        },
+        {
+          "WordDampingRotation": 0.5
+        },
+        {
+          "LimitAngle": 0
+        },
+        {
+          "Width": 5
+        },
+        {
+          "Radius": 3
+        }
+      ],
+      "StartSlide": {
+        "Stiffness": 0.3,
+        "Damping": 0.6,
+        "WordDampingLocation": 0.7,
+        "WordDampingRotation": 0.5,
+        "LimitAngle": 0,
+        "Width": 5,
+        "Radius": 3
+      },
+      "SlideToIdle": [
+        {
+          "Stiffness": 0.3
+        },
+        {
+          "Damping": 0.6
+        },
+        {
+          "WordDampingLocation": 0.9
+        },
+        {
+          "WordDampingRotation": 0.5
+        },
+        {
+          "LimitAngle": 0
+        },
+        {
+          "Width": 5
+        },
+        {
+          "Radius": 3
+        }
+      ],
+      "EnterJump": [
+        {
+          "Stiffness": 0.3
+        },
+        {
+          "Damping": 0.6
+        },
+        {
+          "WordDampingLocation": 0.9
+        },
+        {
+          "WordDampingRotation": 0.5
+        },
+        {
+          "LimitAngle": 0
+        },
+        {
+          "Width": 5
+        },
+        {
+          "Radius": 3
+        }
+      ],
+      "EnterSecJump": [
+        {
+          "Stiffness": 0.3
+        },
+        {
+          "Damping": 0.6
+        },
+        {
+          "WordDampingLocation": 0.9
+        },
+        {
+          "WordDampingRotation": 0.5
+        },
+        {
+          "LimitAngle": 0
+        },
+        {
+          "Width": 5
+        },
+        {
+          "Radius": 3
+        }
+      ],
+      "InAir": {
+        "Stiffness": 0.5,
+        "Damping": 0.7,
+        "WordDampingLocation": 0.8,
+        "WordDampingRotation": 0.5,
+        "LimitAngle": 0,
+        "Width": 5,
+        "Radius": 3
+      },
+      "Land": {
+        "Stiffness": 0.3,
+        "Damping": 0.7,
+        "WordDampingLocation": 0.9,
+        "WordDampingRotation": 0.5,
+        "LimitAngle": 0,
+        "Width": 5,
+        "Radius": 3
+      }
+    }
+  },
+  "1006": {
+    "KawaiiId": 1006,
+    "KawaiiType": "hair",
+    "KawaiiParament": {
+      "LevelEnter": [
+        {
+          "Stiffness": 0.8
+        },
+        {
+          "Damping": 0.8
+        },
+        {
+          "WordDampingLocation": 0.9
+        },
+        {
+          "WordDampingRotation": 0.5
+        },
+        {
+          "LimitAngle": 0
+        },
+        {
+          "Width": 5
+        },
+        {
+          "Radius": 3
+        }
+      ],
+      "Idle": [
+        {
+          "Stiffness": 0.8
+        },
+        {
+          "Damping": 0.8
+        },
+        {
+          "WordDampingLocation": 0.9
+        },
+        {
+          "WordDampingRotation": 0.5
+        },
+        {
+          "LimitAngle": 0
+        },
+        {
+          "Width": 5
+        },
+        {
+          "Radius": 3
+        }
+      ],
+      "RunStart": [
+        {
+          "Stiffness": 0.8
+        },
+        {
+          "Damping": 0.8
+        },
+        {
+          "WordDampingLocation": 0.9
+        },
+        {
+          "WordDampingRotation": 0.5
+        },
+        {
+          "LimitAngle": 0
+        },
+        {
+          "Width": 5
+        },
+        {
+          "Radius": 3
+        }
+      ],
+      "RunLoop": [
+        {
+          "Stiffness": 0.8
+        },
+        {
+          "Damping": 0.8
+        },
+        {
+          "WordDampingLocation": 0.9
+        },
+        {
+          "WordDampingRotation": 0.5
+        },
+        {
+          "LimitAngle": 0
+        },
+        {
+          "Width": 5
+        },
+        {
+          "Radius": 3
+        }
+      ],
+      "RunStop": [
+        {
+          "Stiffness": 0.8
+        },
+        {
+          "Damping": 0.9
+        },
+        {
+          "WordDampingLocation": 0.9
+        },
+        {
+          "WordDampingRotation": 0.5
+        },
+        {
+          "LimitAngle": 0
+        },
+        {
+          "Width": 5
+        },
+        {
+          "Radius": 3
+        }
+      ],
+      "StartSlide": [
+        {
+          "Stiffness": 0.8
+        },
+        {
+          "Damping": 0.8
+        },
+        {
+          "WordDampingLocation": 0.9
+        },
+        {
+          "WordDampingRotation": 0.5
+        },
+        {
+          "LimitAngle": 0
+        },
+        {
+          "Width": 5
+        },
+        {
+          "Radius": 3
+        }
+      ],
+      "SlideToIdle": [
+        {
+          "Stiffness": 0.8
+        },
+        {
+          "Damping": 0.8
+        },
+        {
+          "WordDampingLocation": 0.9
+        },
+        {
+          "WordDampingRotation": 0.5
+        },
+        {
+          "LimitAngle": 0
+        },
+        {
+          "Width": 5
+        },
+        {
+          "Radius": 3
+        }
+      ],
+      "EnterJump": [
+        {
+          "Stiffness": 0.8
+        },
+        {
+          "Damping": 0.8
+        },
+        {
+          "WordDampingLocation": 0.9
+        },
+        {
+          "WordDampingRotation": 0.5
+        },
+        {
+          "LimitAngle": 0
+        },
+        {
+          "Width": 5
+        },
+        {
+          "Radius": 3
+        }
+      ],
+      "EnterSecJump": [
+        {
+          "Stiffness": 0.8
+        },
+        {
+          "Damping": 0.8
+        },
+        {
+          "WordDampingLocation": 0.9
+        },
+        {
+          "WordDampingRotation": 0.5
+        },
+        {
+          "LimitAngle": 0
+        },
+        {
+          "Width": 5
+        },
+        {
+          "Radius": 3
+        }
+      ],
+      "InAir": {
+        "Stiffness": 0.9,
+        "Damping": 0.9,
+        "WordDampingLocation": 0.9,
+        "WordDampingRotation": 0.5,
+        "LimitAngle": 0,
+        "Width": 5,
+        "Radius": 3
+      },
+      "Land": [
+        {
+          "Stiffness": 0.8
+        },
+        {
+          "Damping": 0.8
+        },
+        {
+          "WordDampingLocation": 0.9
+        },
+        {
+          "WordDampingRotation": 0.5
+        },
+        {
+          "LimitAngle": 0
+        },
+        {
+          "Width": 5
+        },
+        {
+          "Radius": 3
+        }
+      ]
+    }
+  },
+  "1007": {
+    "KawaiiId": 1007,
+    "KawaiiType": "cloak",
+    "KawaiiParament": {
+      "LevelEnter": [
+        {
+          "Stiffness": 0.6
+        },
+        {
+          "Damping": 0.8
+        },
+        {
+          "WordDampingLocation": 0.9
+        },
+        {
+          "WordDampingRotation": 0.5
+        },
+        {
+          "LimitAngle": 0
+        },
+        {
+          "Width": 5
+        },
+        {
+          "Radius": 3
+        }
+      ],
+      "Idle": [
+        {
+          "Stiffness": 0.6
+        },
+        {
+          "Damping": 0.8
+        },
+        {
+          "WordDampingLocation": 0.9
+        },
+        {
+          "WordDampingRotation": 0.5
+        },
+        {
+          "LimitAngle": 0
+        },
+        {
+          "Width": 5
+        },
+        {
+          "Radius": 3
+        }
+      ],
+      "RunStart": [
+        {
+          "Stiffness": 0.6
+        },
+        {
+          "Damping": 0.8
+        },
+        {
+          "WordDampingLocation": 0.9
+        },
+        {
+          "WordDampingRotation": 0.5
+        },
+        {
+          "LimitAngle": 0
+        },
+        {
+          "Width": 5
+        },
+        {
+          "Radius": 3
+        }
+      ],
+      "RunLoop": [
+        {
+          "Stiffness": 0.6
+        },
+        {
+          "Damping": 0.8
+        },
+        {
+          "WordDampingLocation": 0.9
+        },
+        {
+          "WordDampingRotation": 0.5
+        },
+        {
+          "LimitAngle": 0
+        },
+        {
+          "Width": 5
+        },
+        {
+          "Radius": 3
+        }
+      ],
+      "RunStop": [
+        {
+          "Stiffness": 0.6
+        },
+        {
+          "Damping": 0.8
+        },
+        {
+          "WordDampingLocation": 0.9
+        },
+        {
+          "WordDampingRotation": 0.5
+        },
+        {
+          "LimitAngle": 0
+        },
+        {
+          "Width": 5
+        },
+        {
+          "Radius": 3
+        }
+      ],
+      "StartSlide": [
+        {
+          "Stiffness": 0.6
+        },
+        {
+          "Damping": 0.8
+        },
+        {
+          "WordDampingLocation": 0.9
+        },
+        {
+          "WordDampingRotation": 0.5
+        },
+        {
+          "LimitAngle": 0
+        },
+        {
+          "Width": 5
+        },
+        {
+          "Radius": 3
+        }
+      ],
+      "SlideToIdle": [
+        {
+          "Stiffness": 0.6
+        },
+        {
+          "Damping": 0.8
+        },
+        {
+          "WordDampingLocation": 0.9
+        },
+        {
+          "WordDampingRotation": 0.5
+        },
+        {
+          "LimitAngle": 0
+        },
+        {
+          "Width": 5
+        },
+        {
+          "Radius": 3
+        }
+      ],
+      "EnterJump": [
+        {
+          "Stiffness": 0.6
+        },
+        {
+          "Damping": 0.8
+        },
+        {
+          "WordDampingLocation": 0.9
+        },
+        {
+          "WordDampingRotation": 0.5
+        },
+        {
+          "LimitAngle": 0
+        },
+        {
+          "Width": 5
+        },
+        {
+          "Radius": 3
+        }
+      ],
+      "EnterSecJump": [
+        {
+          "Stiffness": 0.6
+        },
+        {
+          "Damping": 0.8
+        },
+        {
+          "WordDampingLocation": 0.9
+        },
+        {
+          "WordDampingRotation": 0.5
+        },
+        {
+          "LimitAngle": 0
+        },
+        {
+          "Width": 5
+        },
+        {
+          "Radius": 3
+        }
+      ],
+      "InAir": {
+        "Stiffness": 0.6,
+        "Damping": 0.7,
+        "WordDampingLocation": 0.9,
+        "WordDampingRotation": 0.5,
+        "LimitAngle": 0,
+        "Width": 5,
+        "Radius": 3
+      },
+      "Land": [
+        {
+          "Stiffness": 0.6
+        },
+        {
+          "Damping": 0.8
+        },
+        {
+          "WordDampingLocation": 0.9
+        },
+        {
+          "WordDampingRotation": 0.5
+        },
+        {
+          "LimitAngle": 0
+        },
+        {
+          "Width": 5
+        },
+        {
+          "Radius": 3
+        }
+      ]
+    }
+  }
+}

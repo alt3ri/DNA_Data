@@ -1,0 +1,337 @@
+{
+  "90601": {
+    "DungeonId": 90601,
+    "RoundTime": 180,
+    "MonsterFirstSpawnId": [
+      506
+    ],
+    "LoopRule": {},
+    "MonsterSpawnId": [
+      [
+        502
+      ],
+      [
+        503
+      ],
+      [
+        504
+      ],
+      [
+        505
+      ],
+      [
+        506
+      ]
+    ],
+    "MonsterSpawnDelay": 20,
+    "SpLoopRule": [
+      1
+    ],
+    "SpMonster": [
+      [
+        "SpMonsterSpawnId = T.RT_10",
+        "SpMonsterSpawnTime = 80"
+      ]
+    ],
+    "ButcherMonsterId": 8501002,
+    "ButcherMonsterSpawnMinWave": 2,
+    "ButcherMonsterSpawnProbability": [
+      0,
+      0
+    ],
+    "BuffDescribe": {
+      "5000016": "20%"
+    }
+  },
+  "90602": {
+    "DungeonId": 90602,
+    "RoundTime": 180,
+    "MonsterFirstSpawnId": [
+      501
+    ],
+    "LoopRule": [
+      1,
+      2
+    ],
+    "MonsterSpawnId": [
+      [
+        502
+      ],
+      [
+        503
+      ],
+      [
+        504
+      ],
+      [
+        505
+      ],
+      [
+        506
+      ]
+    ],
+    "MonsterSpawnDelay": 20,
+    "SpLoopRule": [
+      1
+    ],
+    "SpMonster": [
+      [
+        "SpMonsterSpawnId = T.RT_10",
+        "SpMonsterSpawnTime = 80"
+      ]
+    ],
+    "ButcherMonsterId": 8501002,
+    "ButcherMonsterSpawnMinWave": 2,
+    "ButcherMonsterSpawnProbability": [
+      0,
+      0
+    ],
+    "BuffDescribe": [
+      "20%",
+      "1",
+      "20%"
+    ]
+  },
+  "90603": {
+    "DungeonId": 90603,
+    "RoundTime": 180,
+    "MonsterFirstSpawnId": [
+      501
+    ],
+    "LoopRule": [
+      1,
+      2
+    ],
+    "MonsterSpawnId": [
+      [
+        502
+      ],
+      [
+        503
+      ],
+      [
+        504
+      ],
+      [
+        505
+      ],
+      [
+        506
+      ]
+    ],
+    "MonsterSpawnDelay": 20,
+    "SpLoopRule": [
+      1
+    ],
+    "SpMonster": [
+      [
+        "SpMonsterSpawnId = T.RT_10",
+        "SpMonsterSpawnTime = 80"
+      ]
+    ],
+    "ButcherMonsterId": 8501002,
+    "ButcherMonsterSpawnMinWave": 3,
+    "ButcherMonsterSpawnProbability": {},
+    "BuffDescribe": [
+      "20%",
+      "1",
+      "20%"
+    ]
+  },
+  "90604": {
+    "DungeonId": 90604,
+    "RoundTime": 180,
+    "MonsterFirstSpawnId": [
+      501
+    ],
+    "LoopRule": [
+      1,
+      2
+    ],
+    "MonsterSpawnId": [
+      [
+        502
+      ],
+      [
+        503
+      ],
+      [
+        504
+      ],
+      [
+        505
+      ],
+      [
+        506
+      ]
+    ],
+    "MonsterSpawnDelay": 20,
+    "SpLoopRule": [
+      1
+    ],
+    "SpMonster": [
+      [
+        "SpMonsterSpawnId = T.RT_10",
+        "SpMonsterSpawnTime = 80"
+      ]
+    ],
+    "ButcherMonsterId": 8501002,
+    "ButcherMonsterSpawnMinWave": 2,
+    "ButcherMonsterSpawnProbability": [
+      0.8,
+      0.2
+    ],
+    "BuffDescribe": [
+      "20%",
+      "1",
+      "20%"
+    ]
+  },
+  "90605": {
+    "DungeonId": 90605,
+    "RoundTime": 180,
+    "MonsterFirstSpawnId": [
+      501
+    ],
+    "LoopRule": [
+      1,
+      2
+    ],
+    "MonsterSpawnId": [
+      [
+        502
+      ],
+      [
+        503
+      ],
+      [
+        504
+      ],
+      [
+        505
+      ],
+      [
+        506
+      ]
+    ],
+    "MonsterSpawnDelay": 20,
+    "SpLoopRule": [
+      1
+    ],
+    "SpMonster": [
+      [
+        "SpMonsterSpawnId = T.RT_10",
+        "SpMonsterSpawnTime = 80"
+      ]
+    ],
+    "ButcherMonsterId": 8501002,
+    "ButcherMonsterSpawnMinWave": 2,
+    "ButcherMonsterSpawnProbability": [
+      0.8,
+      0.2
+    ],
+    "BuffDescribe": [
+      "20%",
+      "1",
+      "20%"
+    ]
+  },
+  "90606": {
+    "DungeonId": 90606,
+    "RoundTime": 180,
+    "MonsterFirstSpawnId": [
+      501
+    ],
+    "LoopRule": [
+      1,
+      2
+    ],
+    "MonsterSpawnId": [
+      [
+        502
+      ],
+      [
+        503
+      ],
+      [
+        504
+      ],
+      [
+        505
+      ],
+      [
+        506
+      ]
+    ],
+    "MonsterSpawnDelay": 20,
+    "SpLoopRule": [
+      1
+    ],
+    "SpMonster": [
+      [
+        "SpMonsterSpawnId = T.RT_10",
+        "SpMonsterSpawnTime = 80"
+      ]
+    ],
+    "ButcherMonsterId": 8501002,
+    "ButcherMonsterSpawnMinWave": 2,
+    "ButcherMonsterSpawnProbability": [
+      0.8,
+      0.2
+    ],
+    "BuffDescribe": [
+      "20%",
+      "1",
+      "20%"
+    ]
+  },
+  "90607": {
+    "DungeonId": 90607,
+    "RoundTime": 180,
+    "MonsterFirstSpawnId": [
+      501
+    ],
+    "LoopRule": [
+      1,
+      2
+    ],
+    "MonsterSpawnId": [
+      [
+        502
+      ],
+      [
+        503
+      ],
+      [
+        504
+      ],
+      [
+        505
+      ],
+      [
+        506
+      ]
+    ],
+    "MonsterSpawnDelay": 20,
+    "SpLoopRule": [
+      1
+    ],
+    "SpMonster": [
+      [
+        "SpMonsterSpawnId = T.RT_10",
+        "SpMonsterSpawnTime = 80"
+      ]
+    ],
+    "ButcherMonsterId": 8501002,
+    "ButcherMonsterSpawnMinWave": 2,
+    "ButcherMonsterSpawnProbability": [
+      0.8,
+      0.2
+    ],
+    "BuffDescribe": [
+      "20%",
+      "1",
+      "20%"
+    ]
+  }
+}

@@ -1,0 +1,7468 @@
+{
+  "101": {
+    "BattleRoleId": 101,
+    "Attribute": "Default",
+    "MaxHp": 2000000,
+    "DEF": 300,
+    "MaxES": 1000,
+    "ATK": 10,
+    "TN": 150,
+    "MaxTN": 150,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CannotBePushed": 1,
+    "CollisionLevel": 999,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "102": {
+    "BattleRoleId": 102,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 2000000,
+    "DEF": 300,
+    "MaxES": 1000,
+    "ATK": 0.1,
+    "TN": 150,
+    "MaxTN": 150,
+    "TNResistance": 1,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 10,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "103": {
+    "BattleRoleId": 103,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 2000,
+    "DEF": 200,
+    "MaxES": 2000,
+    "ATK": 20,
+    "TN": 70,
+    "MaxTN": 70,
+    "TNResistance": 1,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 10,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "104": {
+    "BattleRoleId": 104,
+    "Attribute": "Default",
+    "MaxHp": 1000000000,
+    "DEF": 0,
+    "MaxES": 0,
+    "ATK": 10,
+    "TN": 99999,
+    "MaxTN": 99999,
+    "TNResistance": 0,
+    "TNRecoverS": 10000,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 999,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "114": {
+    "BattleRoleId": 114,
+    "SkillList": [
+      700301,
+      700302,
+      700303,
+      700304,
+      700305,
+      700311,
+      700306,
+      700307
+    ],
+    "Attribute": "Default",
+    "MaxHp": 36,
+    "DEF": 75,
+    "MaxES": 36,
+    "ESRecoverTime": 5,
+    "ESRecoverRate": 0.05,
+    "ESRecoverValue": 15,
+    "MaxOverShield": 1000,
+    "ATK": 3.3,
+    "TN": 150,
+    "MaxTN": 150,
+    "TNResistance": 1,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 10,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ],
+    "BTBattleParams": [
+      {
+        "MinAttackRange": 800
+      },
+      {
+        "MaxAttackRange": 1200
+      }
+    ]
+  },
+  "115": {
+    "BattleRoleId": 115,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 100,
+    "DEF": 300,
+    "MaxES": 180,
+    "ESRecoverTime": 5,
+    "ESRecoverRate": 0.05,
+    "ESRecoverValue": 15,
+    "MaxOverShield": 1000,
+    "ATK": 15,
+    "TN": 250,
+    "MaxTN": 250,
+    "TNResistance": 1,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 99,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "116": {
+    "BattleRoleId": 116,
+    "SkillList": [
+      850011,
+      850012,
+      850013,
+      850014,
+      850015,
+      850016,
+      850017,
+      850018,
+      850019,
+      850020,
+      850021,
+      850022,
+      850023,
+      850024,
+      850025,
+      6000010,
+      6000013
+    ],
+    "Attribute": "Default",
+    "MaxHp": 5000,
+    "DEF": 300,
+    "MaxES": 0,
+    "ATK": 10,
+    "TN": 6000,
+    "MaxTN": 6000,
+    "TNResistance": 1,
+    "TNRecoverS": 20,
+    "TNRecoverTimeB": 7,
+    "TNRecoverTimeZ": 0.5,
+    "BossTNToZeroRecoverSpeed": 600,
+    "DeductToughnessHit": [
+      "LightHit",
+      "LightHit",
+      "LightHit"
+    ],
+    "CannotBePushed": 1,
+    "CollisionLevel": 999,
+    "MaxHpLevelGrow": "MaxHpElite",
+    "DEFLevelGrow": "DEFElite",
+    "MaxESLevelGrow": "MaxESElite",
+    "ATKLevelGrow": "ATKElite",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 500
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ],
+    "BTBattleParams": [
+      {
+        "TimerKey": 270
+      }
+    ]
+  },
+  "117": {
+    "BattleRoleId": 117,
+    "SkillList": [
+      900601,
+      900602,
+      900603,
+      900604,
+      900605,
+      900606,
+      900607,
+      6000010
+    ],
+    "Attribute": "Default",
+    "MaxHp": 300,
+    "DEF": 300,
+    "MaxES": 200,
+    "ESRecoverTime": 5,
+    "ESRecoverRate": 0.05,
+    "ESRecoverValue": 15,
+    "MaxOverShield": 1000,
+    "ATK": 15,
+    "TN": 300,
+    "MaxTN": 300,
+    "TNResistance": 0.2,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 99,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "118": {
+    "BattleRoleId": 118,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 15000,
+    "DEF": 300,
+    "MaxES": 0,
+    "ATK": 1,
+    "TN": 6000,
+    "MaxTN": 6000,
+    "TNResistance": 1,
+    "TNRecoverS": 0,
+    "TNRecoverTimeB": 10,
+    "TNRecoverTimeZ": 1.5,
+    "BossTNToZeroRecoverSpeed": 600,
+    "DeductToughnessHit": [
+      "LightHit",
+      "LightHit",
+      "LightHit",
+      "LightHit"
+    ],
+    "CollisionLevel": 999,
+    "MaxHpLevelGrow": "MaxHpElite",
+    "DEFLevelGrow": "DEFElite",
+    "MaxESLevelGrow": "MaxESElite",
+    "ATKLevelGrow": "ATKElite",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 300
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 1000
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "119": {
+    "BattleRoleId": 119,
+    "SkillList": [
+      700301,
+      700302,
+      700303,
+      700304,
+      700305,
+      700311,
+      700306,
+      700307
+    ],
+    "Attribute": "Default",
+    "MaxHp": 36,
+    "DEF": 75,
+    "MaxES": 36,
+    "ESRecoverTime": 5,
+    "ESRecoverRate": 0.05,
+    "ESRecoverValue": 15,
+    "MaxOverShield": 1000,
+    "ATK": 3.3,
+    "TN": 120,
+    "MaxTN": 120,
+    "TNResistance": 1,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 10,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ],
+    "BTBattleParams": [
+      {
+        "MinAttackRange": 800
+      },
+      {
+        "MaxAttackRange": 1200
+      }
+    ]
+  },
+  "120": {
+    "BattleRoleId": 120,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 36,
+    "DEF": 75,
+    "MaxES": 36,
+    "ESRecoverTime": 5,
+    "ESRecoverRate": 0.05,
+    "ESRecoverValue": 15,
+    "MaxOverShield": 1000,
+    "ATK": 3.3,
+    "TN": 100,
+    "MaxTN": 100,
+    "TNResistance": 1,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 10,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ],
+    "BTBattleParams": [
+      {
+        "MinAttackRange": 1200
+      },
+      {
+        "MaxAttackRange": 1600
+      }
+    ]
+  },
+  "121": {
+    "BattleRoleId": 121,
+    "SkillList": [
+      900301,
+      900302,
+      900303,
+      900304,
+      900305,
+      900306,
+      6000010
+    ],
+    "Attribute": "Default",
+    "MaxHp": 300,
+    "DEF": 300,
+    "MaxES": 200,
+    "ESRecoverTime": 5,
+    "ESRecoverRate": 0.05,
+    "ESRecoverValue": 15,
+    "MaxOverShield": 1000,
+    "ATK": 15,
+    "TN": 300,
+    "MaxTN": 300,
+    "TNResistance": 0.2,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 99,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "122": {
+    "BattleRoleId": 122,
+    "SkillList": [
+      900501,
+      900502,
+      900503,
+      900504,
+      900505,
+      6000010
+    ],
+    "Attribute": "Default",
+    "MaxHp": 300,
+    "DEF": 300,
+    "MaxES": 200,
+    "ESRecoverTime": 5,
+    "ESRecoverRate": 0.05,
+    "ESRecoverValue": 15,
+    "MaxOverShield": 1000,
+    "ATK": 15,
+    "TN": 300,
+    "MaxTN": 300,
+    "TNResistance": 0.2,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 99,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "123": {
+    "BattleRoleId": 123,
+    "SkillList": [
+      850101,
+      850102,
+      850103,
+      850104,
+      850105,
+      850101,
+      850107,
+      850101,
+      850101,
+      850110,
+      850111,
+      850112,
+      850101,
+      850114,
+      850101,
+      850101,
+      850101,
+      850101,
+      6000010,
+      6000013
+    ],
+    "Attribute": "Default",
+    "MaxHp": 1600,
+    "DEF": 300,
+    "MaxES": 0,
+    "ATK": 30,
+    "TN": 1000,
+    "MaxTN": 1000,
+    "TNResistance": 1,
+    "TNRecoverS": 10,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.5,
+    "DeductToughnessHit": [
+      "LightHit"
+    ],
+    "CollisionLevel": 999,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 500
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "124": {
+    "BattleRoleId": 124,
+    "SkillList": [
+      850011,
+      850012,
+      850013,
+      850014,
+      850015,
+      850016,
+      850017,
+      850018,
+      850019,
+      850020,
+      850021,
+      850022,
+      850023,
+      850024,
+      850025,
+      6000010,
+      6000013
+    ],
+    "Attribute": "Default",
+    "MaxHp": 7500,
+    "DEF": 300,
+    "MaxES": 0,
+    "ATK": 10,
+    "TN": 6000,
+    "MaxTN": 6000,
+    "TNResistance": 1,
+    "TNRecoverS": 20,
+    "TNRecoverTimeB": 7,
+    "TNRecoverTimeZ": 0.5,
+    "BossTNToZeroRecoverSpeed": 600,
+    "DeductToughnessHit": [
+      "LightHit",
+      "LightHit",
+      "LightHit"
+    ],
+    "CannotBePushed": 1,
+    "CollisionLevel": 999,
+    "MaxHpLevelGrow": "MaxHpElite",
+    "DEFLevelGrow": "DEFElite",
+    "MaxESLevelGrow": "MaxESElite",
+    "ATKLevelGrow": "ATKElite",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 500
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ],
+    "BTBattleParams": [
+      {
+        "TimerKey": 270
+      }
+    ]
+  },
+  "125": {
+    "BattleRoleId": 125,
+    "SkillList": [
+      850011,
+      850012,
+      850013,
+      850014,
+      850015,
+      850016,
+      850017,
+      850018,
+      850019,
+      850020,
+      850021,
+      850022,
+      850023,
+      850024,
+      850025,
+      6000010,
+      6000013
+    ],
+    "Attribute": "Default",
+    "MaxHp": 10000,
+    "DEF": 300,
+    "MaxES": 0,
+    "ATK": 10,
+    "TN": 6000,
+    "MaxTN": 6000,
+    "TNResistance": 1,
+    "TNRecoverS": 20,
+    "TNRecoverTimeB": 8,
+    "TNRecoverTimeZ": 0.5,
+    "BossTNToZeroRecoverSpeed": 600,
+    "DeductToughnessHit": [
+      "LightHit",
+      "LightHit",
+      "LightHit"
+    ],
+    "CannotBePushed": 1,
+    "CollisionLevel": 999,
+    "MaxHpLevelGrow": "MaxHpElite",
+    "DEFLevelGrow": "DEFElite",
+    "MaxESLevelGrow": "MaxESElite",
+    "ATKLevelGrow": "ATKElite",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 500
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ],
+    "BTBattleParams": [
+      {
+        "TimerKey": 270
+      }
+    ]
+  },
+  "126": {
+    "BattleRoleId": 126,
+    "SkillList": [
+      850011,
+      850012,
+      850013,
+      850014,
+      850015,
+      850016,
+      850017,
+      850018,
+      850019,
+      850020,
+      850021,
+      850022,
+      850023,
+      850024,
+      850025,
+      6000010,
+      6000013
+    ],
+    "Attribute": "Default",
+    "MaxHp": 13000,
+    "DEF": 300,
+    "MaxES": 0,
+    "ATK": 10,
+    "TN": 6000,
+    "MaxTN": 6000,
+    "TNResistance": 1,
+    "TNRecoverS": 20,
+    "TNRecoverTimeB": 8,
+    "TNRecoverTimeZ": 0.5,
+    "BossTNToZeroRecoverSpeed": 600,
+    "DeductToughnessHit": [
+      "LightHit",
+      "LightHit",
+      "LightHit"
+    ],
+    "CannotBePushed": 1,
+    "CollisionLevel": 999,
+    "MaxHpLevelGrow": "MaxHpElite",
+    "DEFLevelGrow": "DEFElite",
+    "MaxESLevelGrow": "MaxESElite",
+    "ATKLevelGrow": "ATKElite",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 500
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ],
+    "BTBattleParams": [
+      {
+        "TimerKey": 270
+      }
+    ]
+  },
+  "127": {
+    "BattleRoleId": 127,
+    "SkillList": [
+      850011,
+      850012,
+      850013,
+      850014,
+      850015,
+      850016,
+      850017,
+      850018,
+      850019,
+      850020,
+      850021,
+      850022,
+      850023,
+      850024,
+      850025,
+      6000010,
+      6000013
+    ],
+    "Attribute": "Default",
+    "MaxHp": 20000,
+    "DEF": 300,
+    "MaxES": 0,
+    "ATK": 10,
+    "TN": 6000,
+    "MaxTN": 6000,
+    "TNResistance": 1,
+    "TNRecoverS": 20,
+    "TNRecoverTimeB": 9,
+    "TNRecoverTimeZ": 0.5,
+    "BossTNToZeroRecoverSpeed": 600,
+    "DeductToughnessHit": [
+      "LightHit",
+      "LightHit",
+      "LightHit"
+    ],
+    "CannotBePushed": 1,
+    "CollisionLevel": 999,
+    "MaxHpLevelGrow": "MaxHpElite",
+    "DEFLevelGrow": "DEFElite",
+    "MaxESLevelGrow": "MaxESElite",
+    "ATKLevelGrow": "ATKElite",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 500
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ],
+    "BTBattleParams": [
+      {
+        "TimerKey": 270
+      }
+    ]
+  },
+  "10001": {
+    "BattleRoleId": 10001,
+    "Attribute": "Default",
+    "MaxHp": 1,
+    "DEF": 0,
+    "MaxES": 0,
+    "ATK": 0,
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon"
+  },
+  "10701": {
+    "BattleRoleId": 10701,
+    "Attribute": "Default",
+    "MaxHp": 70,
+    "DEF": 0,
+    "MaxES": 0,
+    "ATK": 50,
+    "TN": 70,
+    "MaxTN": 70,
+    "TNResistance": 1,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 3,
+    "CollisionLevel": 999,
+    "MaxHpLevelGrow": "MaxHpTrapA",
+    "DEFLevelGrow": "DEFTrapA",
+    "MaxESLevelGrow": "MaxESTrapA",
+    "ATKLevelGrow": "ATKTrapA",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "11701": {
+    "BattleRoleId": 11701,
+    "Attribute": "Default",
+    "MaxHp": 5000,
+    "BreakCount": -1,
+    "DEF": 0,
+    "MaxES": 0,
+    "ATK": 0,
+    "TN": 70,
+    "MaxTN": 70,
+    "TNResistance": 1,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 3,
+    "CollisionLevel": 999,
+    "MaxHpLevelGrow": "MaxHpTrapA",
+    "DEFLevelGrow": "DEFTrapA",
+    "MaxESLevelGrow": "MaxESTrapA",
+    "ATKLevelGrow": "ATKTrapA",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "39001": {
+    "BattleRoleId": 39001,
+    "Attribute": "Default",
+    "MaxHp": 1500,
+    "DEF": 0,
+    "MaxES": 500,
+    "ESRecoverTime": 5,
+    "ESRecoverRate": 0.03,
+    "ESRecoverValue": 30,
+    "ATK": 0,
+    "TN": 70,
+    "MaxTN": 70,
+    "TNResistance": 1,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 3,
+    "CollisionLevel": 999,
+    "MaxHpLevelGrow": "MaxHpTrapB",
+    "DEFLevelGrow": "DEFTrapB",
+    "MaxESLevelGrow": "MaxESTrapB",
+    "ATKLevelGrow": "ATKTrapB",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "39002": {
+    "BattleRoleId": 39002,
+    "Attribute": "Default",
+    "MaxHp": 70,
+    "DEF": 0,
+    "MaxES": 0,
+    "ATK": 10,
+    "TN": 70,
+    "MaxTN": 70,
+    "TNResistance": 1,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 3,
+    "CollisionLevel": 999,
+    "MaxHpLevelGrow": "MaxHpTrapA",
+    "DEFLevelGrow": "DEFTrapA",
+    "MaxESLevelGrow": "MaxESTrapA",
+    "ATKLevelGrow": "ATKTrapA",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "39003": {
+    "BattleRoleId": 39003,
+    "Attribute": "Default",
+    "MaxHp": 70,
+    "DEF": 0,
+    "MaxES": 0,
+    "ATK": 5,
+    "TN": 70,
+    "MaxTN": 70,
+    "TNResistance": 1,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 3,
+    "CollisionLevel": 999,
+    "MaxHpLevelGrow": "MaxHpTrapA",
+    "DEFLevelGrow": "DEFTrapA",
+    "MaxESLevelGrow": "MaxESTrapA",
+    "ATKLevelGrow": "ATKTrapA",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "39004": {
+    "BattleRoleId": 39004,
+    "Attribute": "Default",
+    "MaxHp": 70,
+    "DEF": 0,
+    "MaxES": 0,
+    "ATK": 5,
+    "TN": 70,
+    "MaxTN": 70,
+    "TNResistance": 1,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 3,
+    "CollisionLevel": 999,
+    "MaxHpLevelGrow": "MaxHpTrapA",
+    "DEFLevelGrow": "DEFTrapA",
+    "MaxESLevelGrow": "MaxESTrapA",
+    "ATKLevelGrow": "ATKTrapA",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "39005": {
+    "BattleRoleId": 39005,
+    "Attribute": "Default",
+    "MaxHp": 10,
+    "DEF": 0,
+    "MaxES": 0,
+    "ATK": 20,
+    "TN": 70,
+    "MaxTN": 70,
+    "TNResistance": 1,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 3,
+    "CollisionLevel": 999,
+    "MaxHpLevelGrow": "MaxHpTrapA",
+    "DEFLevelGrow": "DEFTrapA",
+    "MaxESLevelGrow": "MaxESTrapA",
+    "ATKLevelGrow": "ATKTrapA",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "39006": {
+    "BattleRoleId": 39006,
+    "Attribute": "Default",
+    "MaxHp": 9999,
+    "DEF": 0,
+    "MaxES": 0,
+    "ATK": 80,
+    "TN": 70,
+    "MaxTN": 70,
+    "TNResistance": 1,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 3,
+    "CollisionLevel": 999,
+    "MaxHpLevelGrow": "MaxHpTrapA",
+    "DEFLevelGrow": "DEFTrapA",
+    "MaxESLevelGrow": "MaxESTrapA",
+    "ATKLevelGrow": "ATKTrapA",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "39007": {
+    "BattleRoleId": 39007,
+    "Attribute": "Default",
+    "MaxHp": 1,
+    "DEF": 0,
+    "MaxES": 0,
+    "ATK": 0,
+    "TN": 70,
+    "MaxTN": 70,
+    "TNResistance": 1,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 3,
+    "CollisionLevel": 999,
+    "MaxHpLevelGrow": "MaxHpTrapA",
+    "DEFLevelGrow": "DEFTrapA",
+    "MaxESLevelGrow": "MaxESTrapA",
+    "ATKLevelGrow": "ATKTrapA",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "39008": {
+    "BattleRoleId": 39008,
+    "Attribute": "Default",
+    "MaxHp": 1500,
+    "DEF": 0,
+    "MaxES": 500,
+    "ESRecoverTime": 5,
+    "ESRecoverRate": 0.03,
+    "ESRecoverValue": 30,
+    "ATK": 0,
+    "TN": 70,
+    "MaxTN": 70,
+    "TNResistance": 1,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 3,
+    "CollisionLevel": 999,
+    "MaxHpLevelGrow": "MaxHpTrapB",
+    "DEFLevelGrow": "DEFTrapB",
+    "MaxESLevelGrow": "MaxESTrapB",
+    "ATKLevelGrow": "ATKTrapB",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "39009": {
+    "BattleRoleId": 39009,
+    "Attribute": "Default",
+    "MaxHp": 1,
+    "DEF": 0,
+    "MaxES": 0,
+    "ATK": 15,
+    "TN": 70,
+    "MaxTN": 70,
+    "TNResistance": 1,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 3,
+    "CollisionLevel": 999,
+    "MaxHpLevelGrow": "MaxHpTrapA",
+    "DEFLevelGrow": "DEFTrapA",
+    "MaxESLevelGrow": "MaxESTrapA",
+    "ATKLevelGrow": "ATKTrapA",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "39010": {
+    "BattleRoleId": 39010,
+    "Attribute": "Default",
+    "MaxHp": 6000,
+    "DEF": 0,
+    "MaxES": 0,
+    "ATK": 0,
+    "TN": 70,
+    "MaxTN": 70,
+    "TNResistance": 1,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 3,
+    "CollisionLevel": 999,
+    "MaxHpLevelGrow": "MaxHpTrapB",
+    "DEFLevelGrow": "DEFTrapB",
+    "MaxESLevelGrow": "MaxESTrapB",
+    "ATKLevelGrow": "ATKTrapB",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "39011": {
+    "BattleRoleId": 39011,
+    "Attribute": "Default",
+    "MaxHp": 5000,
+    "BreakCount": -1,
+    "DEF": 0,
+    "MaxES": 0,
+    "ATK": 0,
+    "TN": 600,
+    "MaxTN": 600,
+    "TNResistance": 1,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 3,
+    "CollisionLevel": 999,
+    "MaxHpLevelGrow": "MaxHpTrapA",
+    "DEFLevelGrow": "DEFTrapA",
+    "MaxESLevelGrow": "MaxESTrapA",
+    "ATKLevelGrow": "ATKTrapA",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "39012": {
+    "BattleRoleId": 39012,
+    "Attribute": "Default",
+    "MaxHp": 1286,
+    "DEF": 0,
+    "MaxES": 0,
+    "ATK": 0,
+    "TN": 70,
+    "MaxTN": 70,
+    "TNResistance": 1,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 3,
+    "CollisionLevel": 999,
+    "MaxHpLevelGrow": "MaxHpTrapA",
+    "DEFLevelGrow": "DEFTrapA",
+    "MaxESLevelGrow": "MaxESTrapA",
+    "ATKLevelGrow": "ATKTrapA",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "39013": {
+    "BattleRoleId": 39013,
+    "Attribute": "Default",
+    "MaxHp": 20,
+    "DEF": 0,
+    "MaxES": 10,
+    "ESRecoverTime": 3,
+    "ESRecoverRate": 0.03,
+    "ESRecoverValue": 30,
+    "ATK": 15,
+    "TN": 70,
+    "MaxTN": 70,
+    "TNResistance": 1,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 3,
+    "CollisionLevel": 999,
+    "MaxHpLevelGrow": "MaxHpTrapA",
+    "DEFLevelGrow": "DEFTrapA",
+    "MaxESLevelGrow": "MaxESTrapA",
+    "ATKLevelGrow": "ATKTrapA",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "39014": {
+    "BattleRoleId": 39014,
+    "Attribute": "Default",
+    "MaxHp": 6000,
+    "DEF": 0,
+    "MaxES": 0,
+    "ATK": 0,
+    "TN": 70,
+    "MaxTN": 70,
+    "TNResistance": 1,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 3,
+    "CollisionLevel": 999,
+    "MaxHpLevelGrow": "MaxHpTrapA",
+    "DEFLevelGrow": "DEFTrapA",
+    "MaxESLevelGrow": "MaxESTrapA",
+    "ATKLevelGrow": "ATKTrapA",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "39016": {
+    "BattleRoleId": 39016,
+    "Attribute": "Default",
+    "MaxHp": 9999,
+    "DEF": 0,
+    "MaxES": 0,
+    "ATK": 80,
+    "TN": 70,
+    "MaxTN": 70,
+    "TNResistance": 1,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 3,
+    "CollisionLevel": 999,
+    "MaxHpLevelGrow": "MaxHpTrapA",
+    "DEFLevelGrow": "DEFTrapA",
+    "MaxESLevelGrow": "MaxESTrapA",
+    "ATKLevelGrow": "ATKTrapA",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "40001": {
+    "BattleRoleId": 40001,
+    "Attribute": "Default",
+    "MaxHp": 1,
+    "BreakCount": 1,
+    "DEF": 0,
+    "MaxES": 0,
+    "ATK": 0,
+    "TN": 70,
+    "MaxTN": 70,
+    "TNResistance": 1,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 3,
+    "CollisionLevel": 999,
+    "MaxHpLevelGrow": "MaxHpTrapA",
+    "DEFLevelGrow": "DEFTrapA",
+    "MaxESLevelGrow": "MaxESTrapA",
+    "ATKLevelGrow": "ATKTrapA",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "40002": {
+    "BattleRoleId": 40002,
+    "Attribute": "Default",
+    "MaxHp": 270,
+    "DEF": 0,
+    "MaxES": 0,
+    "ATK": 0,
+    "TN": 70,
+    "MaxTN": 70,
+    "TNResistance": 1,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 3,
+    "CollisionLevel": 999,
+    "MaxHpLevelGrow": "MaxHpTrapA",
+    "DEFLevelGrow": "DEFTrapA",
+    "MaxESLevelGrow": "MaxESTrapA",
+    "ATKLevelGrow": "ATKTrapA",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "40003": {
+    "BattleRoleId": 40003,
+    "Attribute": "Default",
+    "MaxHp": 1000,
+    "DEF": 0,
+    "MaxES": 0,
+    "ATK": 0,
+    "TN": 70,
+    "MaxTN": 70,
+    "TNResistance": 1,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 3,
+    "CollisionLevel": 999,
+    "MaxHpLevelGrow": "MaxHpTrapA",
+    "DEFLevelGrow": "DEFTrapA",
+    "MaxESLevelGrow": "MaxESTrapA",
+    "ATKLevelGrow": "ATKTrapA",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "40004": {
+    "BattleRoleId": 40004,
+    "Attribute": "Default",
+    "MaxHp": 2000,
+    "DEF": 0,
+    "MaxES": 0,
+    "ATK": 0,
+    "TN": 70,
+    "MaxTN": 70,
+    "TNResistance": 1,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 3,
+    "CollisionLevel": 999,
+    "MaxHpLevelGrow": "MaxHpTrapA",
+    "DEFLevelGrow": "DEFTrapA",
+    "MaxESLevelGrow": "MaxESTrapA",
+    "ATKLevelGrow": "ATKTrapA",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "41001": {
+    "BattleRoleId": 41001,
+    "Attribute": "Default",
+    "MaxHp": 5000,
+    "BreakCount": -1,
+    "DEF": 0,
+    "MaxES": 0,
+    "ATK": 0,
+    "TN": 100,
+    "MaxTN": 100,
+    "TNResistance": 1,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 3,
+    "CollisionLevel": 999,
+    "MaxHpLevelGrow": "MaxHpTrapA",
+    "DEFLevelGrow": "DEFTrapA",
+    "MaxESLevelGrow": "MaxESTrapA",
+    "ATKLevelGrow": "ATKTrapA",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "41002": {
+    "BattleRoleId": 41002,
+    "Attribute": "Default",
+    "MaxHp": 5000,
+    "BreakCount": -1,
+    "DEF": 0,
+    "MaxES": 0,
+    "ATK": 0,
+    "TN": 200,
+    "MaxTN": 200,
+    "TNResistance": 1,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 3,
+    "CollisionLevel": 999,
+    "MaxHpLevelGrow": "MaxHpTrapA",
+    "DEFLevelGrow": "DEFTrapA",
+    "MaxESLevelGrow": "MaxESTrapA",
+    "ATKLevelGrow": "ATKTrapA",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "49001": {
+    "BattleRoleId": 49001,
+    "Attribute": "Default",
+    "MaxHp": 931,
+    "DEF": 0,
+    "MaxES": 0,
+    "ATK": 0,
+    "TN": 70,
+    "MaxTN": 70,
+    "TNResistance": 1,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 3,
+    "CollisionLevel": 999,
+    "MaxHpLevelGrow": "MaxHpTrapB",
+    "DEFLevelGrow": "DEFTrapB",
+    "MaxESLevelGrow": "MaxESTrapB",
+    "ATKLevelGrow": "ATKTrapB",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "49002": {
+    "BattleRoleId": 49002,
+    "Attribute": "Default",
+    "MaxHp": 931,
+    "DEF": 0,
+    "MaxES": 0,
+    "ATK": 0,
+    "TN": 70,
+    "MaxTN": 70,
+    "TNResistance": 1,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 3,
+    "CollisionLevel": 999,
+    "MaxHpLevelGrow": "MaxHpTrapB",
+    "DEFLevelGrow": "DEFTrapB",
+    "MaxESLevelGrow": "MaxESTrapB",
+    "ATKLevelGrow": "ATKTrapB",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "49003": {
+    "BattleRoleId": 49003,
+    "Attribute": "Default",
+    "MaxHp": 931,
+    "DEF": 0,
+    "MaxES": 0,
+    "ATK": 0,
+    "TN": 70,
+    "MaxTN": 70,
+    "TNResistance": 1,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 3,
+    "CollisionLevel": 999,
+    "MaxHpLevelGrow": "MaxHpTrapB",
+    "DEFLevelGrow": "DEFTrapB",
+    "MaxESLevelGrow": "MaxESTrapB",
+    "ATKLevelGrow": "ATKTrapB",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "110201": {
+    "BattleRoleId": 110201,
+    "SkillList": {},
+    "Attribute": "Dark",
+    "MaxHp": 300,
+    "DEF": 300,
+    "MaxES": 0,
+    "ATK": 30,
+    "TN": 70,
+    "MaxTN": 70,
+    "TNResistance": 1,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 3,
+    "CollisionLevel": 100,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "117011": {
+    "BattleRoleId": 117011,
+    "Attribute": "Default",
+    "MaxHp": 5000,
+    "BreakCount": -1,
+    "DEF": 0,
+    "MaxES": 0,
+    "ATK": 0,
+    "TN": 3000,
+    "MaxTN": 3000,
+    "TNResistance": 1,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 3,
+    "CollisionLevel": 999,
+    "MaxHpLevelGrow": "MaxHpTrapA",
+    "DEFLevelGrow": "DEFTrapA",
+    "MaxESLevelGrow": "MaxESTrapA",
+    "ATKLevelGrow": "ATKTrapA",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "180101": {
+    "BattleRoleId": 180101,
+    "Attribute": "Light",
+    "MaxHp": 300,
+    "DEF": 300,
+    "MaxES": 0,
+    "ATK": 30,
+    "TN": 70,
+    "MaxTN": 70,
+    "TNResistance": 1,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 3,
+    "CollisionLevel": 100,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "210101": {
+    "BattleRoleId": 210101,
+    "SkillList": {},
+    "Attribute": "Water",
+    "MaxHp": 300,
+    "DEF": 300,
+    "MaxES": 0,
+    "ATK": 30,
+    "TN": 70,
+    "MaxTN": 70,
+    "TNResistance": 1,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 3,
+    "CollisionLevel": 100,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "230101": {
+    "BattleRoleId": 230101,
+    "SkillList": {},
+    "Attribute": "Water",
+    "MaxHp": 300,
+    "DEF": 300,
+    "MaxES": 0,
+    "ATK": 30,
+    "TN": 70,
+    "MaxTN": 70,
+    "TNResistance": 1,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 3,
+    "CollisionLevel": 100,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "240101": {
+    "BattleRoleId": 240101,
+    "SkillList": {},
+    "Attribute": "Water",
+    "MaxHp": 300,
+    "DEF": 300,
+    "MaxES": 0,
+    "ATK": 30,
+    "TN": 70,
+    "MaxTN": 70,
+    "TNResistance": 1,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 3,
+    "CollisionLevel": 100,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "310201": {
+    "BattleRoleId": 310201,
+    "Attribute": "Wind",
+    "MaxHp": 300,
+    "DEF": 300,
+    "MaxES": 0,
+    "ATK": 30,
+    "TN": 70,
+    "MaxTN": 70,
+    "TNResistance": 1,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 3,
+    "CollisionLevel": 100,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "390071": {
+    "BattleRoleId": 390071,
+    "Attribute": "Default",
+    "MaxHp": 500,
+    "DEF": 300,
+    "MaxES": 500,
+    "ATK": 2,
+    "TN": 70,
+    "MaxTN": 70,
+    "TNResistance": 1,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 3,
+    "CollisionLevel": 999,
+    "MaxHpLevelGrow": "MaxHpTrapA",
+    "DEFLevelGrow": "DEFTrapA",
+    "MaxESLevelGrow": "MaxESTrapA",
+    "ATKLevelGrow": "ATKTrapA",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "410101": {
+    "BattleRoleId": 410101,
+    "SkillList": {},
+    "Attribute": "Thunder",
+    "MaxHp": 300,
+    "DEF": 300,
+    "MaxES": 0,
+    "ATK": 30,
+    "TN": 70,
+    "MaxTN": 70,
+    "TNResistance": 1,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 3,
+    "CollisionLevel": 100,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "420101": {
+    "BattleRoleId": 420101,
+    "SkillList": {},
+    "Attribute": "Thunder",
+    "MaxHp": 1000,
+    "DEF": 300,
+    "MaxES": 0,
+    "ATK": 30,
+    "TN": 70,
+    "MaxTN": 70,
+    "TNResistance": 1,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 3,
+    "CollisionLevel": 100,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "420201": {
+    "BattleRoleId": 420201,
+    "Attribute": "Thunder",
+    "MaxHp": 1000,
+    "DEF": 300,
+    "MaxES": 0,
+    "ATK": 30,
+    "TN": 70,
+    "MaxTN": 70,
+    "TNResistance": 1,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 3,
+    "CollisionLevel": 100,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "510101": {
+    "BattleRoleId": 510101,
+    "Attribute": "Wind",
+    "MaxHp": 300,
+    "DEF": 300,
+    "MaxES": 0,
+    "ATK": 30,
+    "TN": 70,
+    "MaxTN": 70,
+    "TNResistance": 1,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 3,
+    "CollisionLevel": 100,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "530101": {
+    "BattleRoleId": 530101,
+    "Attribute": "Wind",
+    "MaxHp": 300,
+    "DEF": 300,
+    "MaxES": 0,
+    "ATK": 30,
+    "TN": 70,
+    "MaxTN": 70,
+    "TNResistance": 1,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 3,
+    "CollisionLevel": 100,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "6001001": {
+    "BattleRoleId": 6001001,
+    "SkillList": [
+      600101,
+      600102,
+      600103,
+      600111,
+      600104
+    ],
+    "Attribute": "Default",
+    "MaxHp": 65,
+    "DEF": 75,
+    "MaxES": 0,
+    "MaxOverShield": 1000,
+    "ATK": 11.1,
+    "TN": 150,
+    "MaxTN": 150,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 20,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "6001002": {
+    "BattleRoleId": 6001002,
+    "SkillList": [
+      600101,
+      600102,
+      600111
+    ],
+    "Attribute": "Default",
+    "MaxHp": 120,
+    "DEF": 300,
+    "MaxES": 120,
+    "ESRecoverTime": 5,
+    "ESRecoverRate": 0.05,
+    "ESRecoverValue": 15,
+    "MaxOverShield": 1000,
+    "ATK": 11.1,
+    "TN": 150,
+    "MaxTN": 150,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 20,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "6001005": {
+    "BattleRoleId": 6001005,
+    "SkillList": [
+      600101,
+      600102,
+      600111
+    ],
+    "Attribute": "Default",
+    "MaxHp": 50,
+    "DEF": 120,
+    "MaxES": 0,
+    "MaxOverShield": 1000,
+    "ATK": 21,
+    "TN": 150,
+    "MaxTN": 150,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 20,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "6001011": {
+    "BattleRoleId": 6001011,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 1000,
+    "DEF": 300,
+    "MaxES": 1000,
+    "ESRecoverTime": 5,
+    "ESRecoverRate": 0.05,
+    "ESRecoverValue": 15,
+    "MaxOverShield": 1000,
+    "ATK": 15,
+    "TN": 600,
+    "MaxTN": 600,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 99,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "6001012": {
+    "BattleRoleId": 6001012,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 243,
+    "DEF": 300,
+    "MaxES": 0,
+    "MaxOverShield": 1000,
+    "ATK": 24.5,
+    "TN": 600,
+    "MaxTN": 600,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 99,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "6001013": {
+    "BattleRoleId": 6001013,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 243,
+    "DEF": 300,
+    "MaxES": 0,
+    "MaxOverShield": 1000,
+    "ATK": 23,
+    "TN": 600,
+    "MaxTN": 600,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 99,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "6001014": {
+    "BattleRoleId": 6001014,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 243,
+    "DEF": 300,
+    "MaxES": 0,
+    "MaxOverShield": 1000,
+    "ATK": 26,
+    "TN": 600,
+    "MaxTN": 600,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 99,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "6001015": {
+    "BattleRoleId": 6001015,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 1000,
+    "DEF": 300,
+    "MaxES": 0,
+    "MaxOverShield": 1000,
+    "ATK": 15,
+    "TN": 600,
+    "MaxTN": 600,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 99,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "6001016": {
+    "BattleRoleId": 6001016,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 243,
+    "DEF": 300,
+    "MaxES": 0,
+    "MaxOverShield": 1000,
+    "ATK": 24.8,
+    "TN": 600,
+    "MaxTN": 600,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 99,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "6001017": {
+    "BattleRoleId": 6001017,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 1000,
+    "DEF": 300,
+    "MaxES": 1000,
+    "ESRecoverTime": 5,
+    "ESRecoverRate": 0.05,
+    "ESRecoverValue": 15,
+    "MaxOverShield": 1000,
+    "ATK": 15,
+    "TN": 600,
+    "MaxTN": 600,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 99,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "6001018": {
+    "BattleRoleId": 6001018,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 243,
+    "DEF": 300,
+    "MaxES": 0,
+    "MaxOverShield": 1000,
+    "ATK": 33.3,
+    "TN": 600,
+    "MaxTN": 600,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 99,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "6001101": {
+    "BattleRoleId": 6001101,
+    "SkillList": [
+      600101,
+      600102,
+      600103,
+      600111,
+      600104
+    ],
+    "Attribute": "Default",
+    "MaxHp": 65,
+    "DEF": 75,
+    "MaxES": 0,
+    "MaxOverShield": 1000,
+    "ATK": 11.1,
+    "TN": 150,
+    "MaxTN": 150,
+    "TNResistance": 1,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 20,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "6002001": {
+    "BattleRoleId": 6002001,
+    "SkillList": [
+      600201,
+      600202,
+      600203,
+      600211,
+      600204,
+      600205
+    ],
+    "Attribute": "Default",
+    "MaxHp": 65,
+    "DEF": 75,
+    "MaxES": 0,
+    "MaxOverShield": 1000,
+    "ATK": 3.3,
+    "TN": 150,
+    "MaxTN": 150,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 10,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ],
+    "BTBattleParams": [
+      {
+        "MinAttackRange": 1200
+      },
+      {
+        "MaxAttackRange": 1600
+      }
+    ]
+  },
+  "6002011": {
+    "BattleRoleId": 6002011,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 203,
+    "DEF": 300,
+    "MaxES": 0,
+    "MaxOverShield": 1000,
+    "ATK": 23.8,
+    "TN": 600,
+    "MaxTN": 600,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 99,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ],
+    "BTBattleParams": [
+      {
+        "MinAttackRange": 1200
+      },
+      {
+        "MaxAttackRange": 1600
+      }
+    ]
+  },
+  "6002012": {
+    "BattleRoleId": 6002012,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 600,
+    "DEF": 300,
+    "MaxES": 1000,
+    "ESRecoverTime": 5,
+    "ESRecoverRate": 0.05,
+    "ESRecoverValue": 15,
+    "MaxOverShield": 1000,
+    "ATK": 21,
+    "TN": 600,
+    "MaxTN": 600,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 99,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ],
+    "BTBattleParams": [
+      {
+        "MinAttackRange": 1200
+      },
+      {
+        "MaxAttackRange": 1600
+      }
+    ]
+  },
+  "6002013": {
+    "BattleRoleId": 6002013,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 600,
+    "DEF": 300,
+    "MaxES": 1000,
+    "ESRecoverTime": 5,
+    "ESRecoverRate": 0.05,
+    "ESRecoverValue": 15,
+    "MaxOverShield": 1000,
+    "ATK": 21,
+    "TN": 600,
+    "MaxTN": 600,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 99,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ],
+    "BTBattleParams": [
+      {
+        "MinAttackRange": 1200
+      },
+      {
+        "MaxAttackRange": 1600
+      }
+    ]
+  },
+  "6002014": {
+    "BattleRoleId": 6002014,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 600,
+    "DEF": 300,
+    "MaxES": 1000,
+    "ESRecoverTime": 5,
+    "ESRecoverRate": 0.05,
+    "ESRecoverValue": 15,
+    "MaxOverShield": 1000,
+    "ATK": 21,
+    "TN": 600,
+    "MaxTN": 600,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 99,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ],
+    "BTBattleParams": [
+      {
+        "MinAttackRange": 1200
+      },
+      {
+        "MaxAttackRange": 1600
+      }
+    ]
+  },
+  "6002015": {
+    "BattleRoleId": 6002015,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 203,
+    "DEF": 300,
+    "MaxES": 0,
+    "MaxOverShield": 1000,
+    "ATK": 27.5,
+    "TN": 600,
+    "MaxTN": 600,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 99,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ],
+    "BTBattleParams": [
+      {
+        "MinAttackRange": 1200
+      },
+      {
+        "MaxAttackRange": 1600
+      }
+    ]
+  },
+  "6002016": {
+    "BattleRoleId": 6002016,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 203,
+    "DEF": 300,
+    "MaxES": 0,
+    "MaxOverShield": 1000,
+    "ATK": 26.3,
+    "TN": 600,
+    "MaxTN": 600,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 99,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ],
+    "BTBattleParams": [
+      {
+        "MinAttackRange": 1200
+      },
+      {
+        "MaxAttackRange": 1600
+      }
+    ]
+  },
+  "6002017": {
+    "BattleRoleId": 6002017,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 203,
+    "DEF": 300,
+    "MaxES": 0,
+    "MaxOverShield": 1000,
+    "ATK": 29.4,
+    "TN": 600,
+    "MaxTN": 600,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 99,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ],
+    "BTBattleParams": [
+      {
+        "MinAttackRange": 1200
+      },
+      {
+        "MaxAttackRange": 1600
+      }
+    ]
+  },
+  "6002018": {
+    "BattleRoleId": 6002018,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 203,
+    "DEF": 300,
+    "MaxES": 0,
+    "MaxOverShield": 1000,
+    "ATK": 35.3,
+    "TN": 600,
+    "MaxTN": 600,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 99,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ],
+    "BTBattleParams": [
+      {
+        "MinAttackRange": 1200
+      },
+      {
+        "MaxAttackRange": 1600
+      }
+    ]
+  },
+  "6002101": {
+    "BattleRoleId": 6002101,
+    "SkillList": [
+      600201,
+      600202,
+      600203,
+      600211,
+      600204,
+      600205
+    ],
+    "Attribute": "Default",
+    "MaxHp": 65,
+    "DEF": 75,
+    "MaxES": 0,
+    "MaxOverShield": 1000,
+    "ATK": 3.3,
+    "TN": 150,
+    "MaxTN": 150,
+    "TNResistance": 1,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 10,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ],
+    "BTBattleParams": [
+      {
+        "MinAttackRange": 1200
+      },
+      {
+        "MaxAttackRange": 1600
+      }
+    ]
+  },
+  "6003001": {
+    "BattleRoleId": 6003001,
+    "SkillList": [
+      600301,
+      600302,
+      600303,
+      600311
+    ],
+    "Attribute": "Default",
+    "MaxHp": 65,
+    "DEF": 75,
+    "MaxES": 0,
+    "MaxOverShield": 1000,
+    "ATK": 3.3,
+    "TN": 150,
+    "MaxTN": 150,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CannotBePushed": 1,
+    "CollisionLevel": 10,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      },
+      {
+        "MaxSpeedFly": 400
+      },
+      {
+        "MaxAccelerationFly": 2048
+      }
+    ],
+    "BTBattleParams": [
+      {
+        "MaxAttackRange": 1000
+      }
+    ]
+  },
+  "6003101": {
+    "BattleRoleId": 6003101,
+    "SkillList": [
+      600301,
+      600302,
+      600303,
+      600311
+    ],
+    "Attribute": "Default",
+    "MaxHp": 1,
+    "DEF": 0,
+    "MaxES": 0,
+    "MaxOverShield": 1000,
+    "ATK": 3.3,
+    "TN": 150,
+    "MaxTN": 150,
+    "TNResistance": 1,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CannotBePushed": 1,
+    "CollisionLevel": 999,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      },
+      {
+        "MaxSpeedFly": 400
+      },
+      {
+        "MaxAccelerationFly": 2048
+      }
+    ],
+    "BTBattleParams": [
+      {
+        "MaxAttackRange": 1000
+      }
+    ]
+  },
+  "6004001": {
+    "BattleRoleId": 6004001,
+    "SkillList": [
+      600401,
+      600402,
+      600403,
+      600404,
+      600411,
+      6000014
+    ],
+    "Attribute": "Default",
+    "MaxHp": 114,
+    "DEF": 128,
+    "MaxES": 0,
+    "MaxOverShield": 1000,
+    "ATK": 20,
+    "TN": 300,
+    "MaxTN": 300,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 40,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "6004013": {
+    "BattleRoleId": 6004013,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 162,
+    "DEF": 300,
+    "MaxES": 0,
+    "MaxOverShield": 1000,
+    "ATK": 23,
+    "TN": 600,
+    "MaxTN": 600,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 99,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "6004101": {
+    "BattleRoleId": 6004101,
+    "SkillList": [
+      600401,
+      600402,
+      600403,
+      600404,
+      600411,
+      6000014
+    ],
+    "Attribute": "Default",
+    "MaxHp": 1,
+    "DEF": 0,
+    "MaxES": 0,
+    "MaxOverShield": 1000,
+    "ATK": 20,
+    "TN": 300,
+    "MaxTN": 300,
+    "TNResistance": 1,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 40,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "6004102": {
+    "BattleRoleId": 6004102,
+    "SkillList": [
+      600401,
+      600402,
+      600403,
+      600404,
+      600411,
+      6000014
+    ],
+    "Attribute": "Default",
+    "MaxHp": 195,
+    "DEF": 75,
+    "MaxES": 0,
+    "MaxOverShield": 1000,
+    "ATK": 20,
+    "TN": 300,
+    "MaxTN": 300,
+    "TNResistance": 1,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 40,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "6005001": {
+    "BattleRoleId": 6005001,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 65,
+    "DEF": 75,
+    "MaxES": 0,
+    "MaxOverShield": 1000,
+    "ATK": 3.3,
+    "TN": 600,
+    "MaxTN": 600,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CannotBePushed": 1,
+    "CollisionLevel": 10,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      },
+      {
+        "MaxSpeedFly": 400
+      },
+      {
+        "MaxAccelerationFly": 2048
+      }
+    ],
+    "BTBattleParams": [
+      {
+        "MaxAttackRange": 1000
+      }
+    ]
+  },
+  "6005101": {
+    "BattleRoleId": 6005101,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 99999999,
+    "DEF": 2000000000,
+    "MaxES": 0,
+    "MaxOverShield": 1000,
+    "ATK": 3.3,
+    "TN": 1,
+    "MaxTN": 1,
+    "TNResistance": 1,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CannotBePushed": 1,
+    "CollisionLevel": 999,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      },
+      {
+        "MaxSpeedFly": 400
+      },
+      {
+        "MaxAccelerationFly": 2048
+      }
+    ]
+  },
+  "6011001": {
+    "BattleRoleId": 6011001,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 65,
+    "DEF": 75,
+    "MaxES": 0,
+    "MaxOverShield": 1000,
+    "ATK": 11.1,
+    "TN": 150,
+    "MaxTN": 150,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 20,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "6012001": {
+    "BattleRoleId": 6012001,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 65,
+    "DEF": 75,
+    "MaxES": 0,
+    "MaxOverShield": 1000,
+    "ATK": 3.3,
+    "TN": 150,
+    "MaxTN": 150,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 10,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ],
+    "BTBattleParams": [
+      {
+        "MinAttackRange": 1200
+      },
+      {
+        "MaxAttackRange": 1600
+      }
+    ]
+  },
+  "6013001": {
+    "BattleRoleId": 6013001,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 65,
+    "DEF": 75,
+    "MaxES": 0,
+    "MaxOverShield": 1000,
+    "ATK": 3.3,
+    "TN": 150,
+    "MaxTN": 150,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CannotBePushed": 1,
+    "CollisionLevel": 10,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ],
+    "BTBattleParams": [
+      {
+        "MaxAttackRange": 1000
+      }
+    ]
+  },
+  "6014001": {
+    "BattleRoleId": 6014001,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 114,
+    "DEF": 128,
+    "MaxES": 0,
+    "MaxOverShield": 1000,
+    "ATK": 20,
+    "TN": 300,
+    "MaxTN": 300,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 40,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "7001001": {
+    "BattleRoleId": 7001001,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 36,
+    "DEF": 75,
+    "MaxES": 36,
+    "ESRecoverTime": 5,
+    "ESRecoverRate": 0.05,
+    "ESRecoverValue": 15,
+    "MaxOverShield": 1000,
+    "ATK": 3.3,
+    "TN": 150,
+    "MaxTN": 150,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 10,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ],
+    "BTBattleParams": [
+      {
+        "MinAttackRange": 1200
+      },
+      {
+        "MaxAttackRange": 1600
+      }
+    ]
+  },
+  "7001005": {
+    "BattleRoleId": 7001005,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 279,
+    "DEF": 300,
+    "MaxES": 279,
+    "ESRecoverTime": 5,
+    "ESRecoverRate": 0.05,
+    "ESRecoverValue": 15,
+    "MaxOverShield": 1000,
+    "ATK": 11.7,
+    "TN": 600,
+    "MaxTN": 600,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CannotBePushed": 1,
+    "CollisionLevel": 99,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ],
+    "BTBattleParams": [
+      {
+        "MinAttackRange": 1200
+      },
+      {
+        "MaxAttackRange": 1600
+      }
+    ]
+  },
+  "7001006": {
+    "BattleRoleId": 7001006,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 279,
+    "DEF": 300,
+    "MaxES": 279,
+    "ESRecoverTime": 5,
+    "ESRecoverRate": 0.05,
+    "ESRecoverValue": 15,
+    "MaxOverShield": 1000,
+    "ATK": 11.7,
+    "TN": 70,
+    "MaxTN": 70,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 99,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ],
+    "BTBattleParams": [
+      {
+        "MinAttackRange": 1200
+      },
+      {
+        "MaxAttackRange": 1600
+      }
+    ]
+  },
+  "7001011": {
+    "BattleRoleId": 7001011,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 135,
+    "DEF": 300,
+    "MaxES": 135,
+    "ESRecoverTime": 5,
+    "ESRecoverRate": 0.05,
+    "ESRecoverValue": 15,
+    "MaxOverShield": 1000,
+    "ATK": 23.9,
+    "TN": 600,
+    "MaxTN": 600,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 99,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ],
+    "BTBattleParams": [
+      {
+        "MinAttackRange": 1200
+      },
+      {
+        "MaxAttackRange": 1600
+      }
+    ]
+  },
+  "7001012": {
+    "BattleRoleId": 7001012,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 600,
+    "DEF": 300,
+    "MaxES": 1000,
+    "ESRecoverTime": 5,
+    "ESRecoverRate": 0.05,
+    "ESRecoverValue": 15,
+    "MaxOverShield": 1000,
+    "ATK": 21,
+    "TN": 600,
+    "MaxTN": 600,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 99,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ],
+    "BTBattleParams": [
+      {
+        "MinAttackRange": 1200
+      },
+      {
+        "MaxAttackRange": 1600
+      }
+    ]
+  },
+  "7001013": {
+    "BattleRoleId": 7001013,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 600,
+    "DEF": 300,
+    "MaxES": 1000,
+    "ESRecoverTime": 5,
+    "ESRecoverRate": 0.05,
+    "ESRecoverValue": 15,
+    "MaxOverShield": 1000,
+    "ATK": 21,
+    "TN": 600,
+    "MaxTN": 600,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 99,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ],
+    "BTBattleParams": [
+      {
+        "MinAttackRange": 1200
+      },
+      {
+        "MaxAttackRange": 1600
+      }
+    ]
+  },
+  "7001014": {
+    "BattleRoleId": 7001014,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 600,
+    "DEF": 300,
+    "MaxES": 1000,
+    "ESRecoverTime": 5,
+    "ESRecoverRate": 0.05,
+    "ESRecoverValue": 15,
+    "MaxOverShield": 1000,
+    "ATK": 21,
+    "TN": 600,
+    "MaxTN": 600,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 99,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ],
+    "BTBattleParams": [
+      {
+        "MinAttackRange": 1200
+      },
+      {
+        "MaxAttackRange": 1600
+      }
+    ]
+  },
+  "7001015": {
+    "BattleRoleId": 7001015,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 135,
+    "DEF": 300,
+    "MaxES": 135,
+    "ESRecoverTime": 5,
+    "ESRecoverRate": 0.05,
+    "ESRecoverValue": 15,
+    "MaxOverShield": 1000,
+    "ATK": 27.5,
+    "TN": 600,
+    "MaxTN": 600,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 99,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ],
+    "BTBattleParams": [
+      {
+        "MinAttackRange": 1200
+      },
+      {
+        "MaxAttackRange": 1600
+      }
+    ]
+  },
+  "7001016": {
+    "BattleRoleId": 7001016,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 135,
+    "DEF": 300,
+    "MaxES": 135,
+    "ESRecoverTime": 5,
+    "ESRecoverRate": 0.05,
+    "ESRecoverValue": 15,
+    "MaxOverShield": 1000,
+    "ATK": 26.3,
+    "TN": 600,
+    "MaxTN": 600,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 99,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ],
+    "BTBattleParams": [
+      {
+        "MinAttackRange": 1200
+      },
+      {
+        "MaxAttackRange": 1600
+      }
+    ]
+  },
+  "7001017": {
+    "BattleRoleId": 7001017,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 135,
+    "DEF": 300,
+    "MaxES": 135,
+    "ESRecoverTime": 5,
+    "ESRecoverRate": 0.05,
+    "ESRecoverValue": 15,
+    "MaxOverShield": 1000,
+    "ATK": 29.4,
+    "TN": 600,
+    "MaxTN": 600,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 99,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ],
+    "BTBattleParams": [
+      {
+        "MinAttackRange": 1200
+      },
+      {
+        "MaxAttackRange": 1600
+      }
+    ]
+  },
+  "7001018": {
+    "BattleRoleId": 7001018,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 135,
+    "DEF": 300,
+    "MaxES": 135,
+    "ESRecoverTime": 5,
+    "ESRecoverRate": 0.05,
+    "ESRecoverValue": 15,
+    "MaxOverShield": 1000,
+    "ATK": 35.3,
+    "TN": 600,
+    "MaxTN": 600,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 99,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ],
+    "BTBattleParams": [
+      {
+        "MinAttackRange": 1200
+      },
+      {
+        "MaxAttackRange": 1600
+      }
+    ]
+  },
+  "7002001": {
+    "BattleRoleId": 7002001,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 36,
+    "DEF": 75,
+    "MaxES": 36,
+    "ESRecoverTime": 5,
+    "ESRecoverRate": 0.05,
+    "ESRecoverValue": 15,
+    "MaxOverShield": 1000,
+    "ATK": 11.1,
+    "TN": 150,
+    "MaxTN": 150,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 20,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "7002005": {
+    "BattleRoleId": 7002005,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 279,
+    "DEF": 300,
+    "MaxES": 279,
+    "ESRecoverTime": 5,
+    "ESRecoverRate": 0.05,
+    "ESRecoverValue": 15,
+    "MaxOverShield": 1000,
+    "ATK": 22.2,
+    "TN": 600,
+    "MaxTN": 600,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CannotBePushed": 1,
+    "CollisionLevel": 99,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "7002011": {
+    "BattleRoleId": 7002011,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 162,
+    "DEF": 300,
+    "MaxES": 162,
+    "ESRecoverTime": 5,
+    "ESRecoverRate": 0.05,
+    "ESRecoverValue": 15,
+    "MaxOverShield": 1000,
+    "ATK": 22.5,
+    "TN": 600,
+    "MaxTN": 600,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 99,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "7002012": {
+    "BattleRoleId": 7002012,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 162,
+    "DEF": 300,
+    "MaxES": 162,
+    "ESRecoverTime": 5,
+    "ESRecoverRate": 0.05,
+    "ESRecoverValue": 15,
+    "MaxOverShield": 1000,
+    "ATK": 24.5,
+    "TN": 600,
+    "MaxTN": 600,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 99,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "7002013": {
+    "BattleRoleId": 7002013,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 162,
+    "DEF": 300,
+    "MaxES": 162,
+    "ESRecoverTime": 5,
+    "ESRecoverRate": 0.05,
+    "ESRecoverValue": 15,
+    "MaxOverShield": 1000,
+    "ATK": 23,
+    "TN": 600,
+    "MaxTN": 600,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 99,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "7002014": {
+    "BattleRoleId": 7002014,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 162,
+    "DEF": 300,
+    "MaxES": 162,
+    "ESRecoverTime": 5,
+    "ESRecoverRate": 0.05,
+    "ESRecoverValue": 15,
+    "MaxOverShield": 1000,
+    "ATK": 26,
+    "TN": 600,
+    "MaxTN": 600,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 99,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "7002015": {
+    "BattleRoleId": 7002015,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 1000,
+    "DEF": 300,
+    "MaxES": 0,
+    "MaxOverShield": 1000,
+    "ATK": 15,
+    "TN": 600,
+    "MaxTN": 600,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 99,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "7002016": {
+    "BattleRoleId": 7002016,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 162,
+    "DEF": 300,
+    "MaxES": 162,
+    "ESRecoverTime": 5,
+    "ESRecoverRate": 0.05,
+    "ESRecoverValue": 15,
+    "MaxOverShield": 1000,
+    "ATK": 24.8,
+    "TN": 600,
+    "MaxTN": 600,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 99,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "7002017": {
+    "BattleRoleId": 7002017,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 1000,
+    "DEF": 300,
+    "MaxES": 1000,
+    "ESRecoverTime": 5,
+    "ESRecoverRate": 0.05,
+    "ESRecoverValue": 15,
+    "MaxOverShield": 1000,
+    "ATK": 15,
+    "TN": 600,
+    "MaxTN": 600,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 99,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "7002018": {
+    "BattleRoleId": 7002018,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 162,
+    "DEF": 300,
+    "MaxES": 162,
+    "ESRecoverTime": 5,
+    "ESRecoverRate": 0.05,
+    "ESRecoverValue": 15,
+    "MaxOverShield": 1000,
+    "ATK": 33.3,
+    "TN": 600,
+    "MaxTN": 600,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 99,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "7003001": {
+    "BattleRoleId": 7003001,
+    "SkillList": [
+      700301,
+      700302,
+      700303,
+      700304,
+      700305,
+      700311,
+      700306,
+      700307
+    ],
+    "Attribute": "Default",
+    "MaxHp": 36,
+    "DEF": 75,
+    "MaxES": 36,
+    "ESRecoverTime": 5,
+    "ESRecoverRate": 0.05,
+    "ESRecoverValue": 15,
+    "MaxOverShield": 1000,
+    "ATK": 3.3,
+    "TN": 150,
+    "MaxTN": 150,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 10,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ],
+    "BTBattleParams": [
+      {
+        "MinAttackRange": 800
+      },
+      {
+        "MaxAttackRange": 1200
+      }
+    ]
+  },
+  "7003005": {
+    "BattleRoleId": 7003005,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 279,
+    "DEF": 300,
+    "MaxES": 279,
+    "ESRecoverTime": 5,
+    "ESRecoverRate": 0.05,
+    "ESRecoverValue": 15,
+    "MaxOverShield": 1000,
+    "ATK": 11.7,
+    "TN": 600,
+    "MaxTN": 600,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CannotBePushed": 1,
+    "CollisionLevel": 99,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ],
+    "BTBattleParams": [
+      {
+        "MinAttackRange": 800
+      },
+      {
+        "MaxAttackRange": 1200
+      }
+    ]
+  },
+  "7003011": {
+    "BattleRoleId": 7003011,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 135,
+    "DEF": 300,
+    "MaxES": 135,
+    "ESRecoverTime": 5,
+    "ESRecoverRate": 0.05,
+    "ESRecoverValue": 15,
+    "MaxOverShield": 1000,
+    "ATK": 23.9,
+    "TN": 600,
+    "MaxTN": 600,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 99,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ],
+    "BTBattleParams": [
+      {
+        "MinAttackRange": 800
+      },
+      {
+        "MaxAttackRange": 1200
+      }
+    ]
+  },
+  "7003012": {
+    "BattleRoleId": 7003012,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 600,
+    "DEF": 300,
+    "MaxES": 1000,
+    "ESRecoverTime": 5,
+    "ESRecoverRate": 0.05,
+    "ESRecoverValue": 15,
+    "MaxOverShield": 1000,
+    "ATK": 21,
+    "TN": 600,
+    "MaxTN": 600,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 99,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ],
+    "BTBattleParams": [
+      {
+        "MinAttackRange": 800
+      },
+      {
+        "MaxAttackRange": 1200
+      }
+    ]
+  },
+  "7003013": {
+    "BattleRoleId": 7003013,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 600,
+    "DEF": 300,
+    "MaxES": 1000,
+    "ESRecoverTime": 5,
+    "ESRecoverRate": 0.05,
+    "ESRecoverValue": 15,
+    "MaxOverShield": 1000,
+    "ATK": 21,
+    "TN": 600,
+    "MaxTN": 600,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 99,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ],
+    "BTBattleParams": [
+      {
+        "MinAttackRange": 800
+      },
+      {
+        "MaxAttackRange": 1200
+      }
+    ]
+  },
+  "7003014": {
+    "BattleRoleId": 7003014,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 600,
+    "DEF": 300,
+    "MaxES": 1000,
+    "ESRecoverTime": 5,
+    "ESRecoverRate": 0.05,
+    "ESRecoverValue": 15,
+    "MaxOverShield": 1000,
+    "ATK": 21,
+    "TN": 600,
+    "MaxTN": 600,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 99,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ],
+    "BTBattleParams": [
+      {
+        "MinAttackRange": 800
+      },
+      {
+        "MaxAttackRange": 1200
+      }
+    ]
+  },
+  "7003015": {
+    "BattleRoleId": 7003015,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 135,
+    "DEF": 300,
+    "MaxES": 135,
+    "ESRecoverTime": 5,
+    "ESRecoverRate": 0.05,
+    "ESRecoverValue": 15,
+    "MaxOverShield": 1000,
+    "ATK": 27.5,
+    "TN": 600,
+    "MaxTN": 600,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 99,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ],
+    "BTBattleParams": [
+      {
+        "MinAttackRange": 800
+      },
+      {
+        "MaxAttackRange": 1200
+      }
+    ]
+  },
+  "7003016": {
+    "BattleRoleId": 7003016,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 135,
+    "DEF": 300,
+    "MaxES": 135,
+    "ESRecoverTime": 5,
+    "ESRecoverRate": 0.05,
+    "ESRecoverValue": 15,
+    "MaxOverShield": 1000,
+    "ATK": 26.3,
+    "TN": 600,
+    "MaxTN": 600,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 99,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ],
+    "BTBattleParams": [
+      {
+        "MinAttackRange": 800
+      },
+      {
+        "MaxAttackRange": 1200
+      }
+    ]
+  },
+  "7003017": {
+    "BattleRoleId": 7003017,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 135,
+    "DEF": 300,
+    "MaxES": 135,
+    "ESRecoverTime": 5,
+    "ESRecoverRate": 0.05,
+    "ESRecoverValue": 15,
+    "MaxOverShield": 1000,
+    "ATK": 29.4,
+    "TN": 600,
+    "MaxTN": 600,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 99,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ],
+    "BTBattleParams": [
+      {
+        "MinAttackRange": 800
+      },
+      {
+        "MaxAttackRange": 1200
+      }
+    ]
+  },
+  "7003018": {
+    "BattleRoleId": 7003018,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 135,
+    "DEF": 300,
+    "MaxES": 135,
+    "ESRecoverTime": 5,
+    "ESRecoverRate": 0.05,
+    "ESRecoverValue": 15,
+    "MaxOverShield": 1000,
+    "ATK": 35.3,
+    "TN": 600,
+    "MaxTN": 600,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 99,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ],
+    "BTBattleParams": [
+      {
+        "MinAttackRange": 800
+      },
+      {
+        "MaxAttackRange": 1200
+      }
+    ]
+  },
+  "7004001": {
+    "BattleRoleId": 7004001,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 66,
+    "DEF": 128,
+    "MaxES": 66,
+    "ESRecoverTime": 5,
+    "ESRecoverRate": 0.05,
+    "ESRecoverValue": 15,
+    "MaxOverShield": 1000,
+    "ATK": 17,
+    "TN": 300,
+    "MaxTN": 300,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 40,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "7004012": {
+    "BattleRoleId": 7004012,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 162,
+    "DEF": 300,
+    "MaxES": 162,
+    "ESRecoverTime": 5,
+    "ESRecoverRate": 0.05,
+    "ESRecoverValue": 15,
+    "MaxOverShield": 1000,
+    "ATK": 24.5,
+    "TN": 600,
+    "MaxTN": 600,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 99,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "7004101": {
+    "BattleRoleId": 7004101,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 66,
+    "DEF": 128,
+    "MaxES": 66,
+    "ESRecoverTime": 5,
+    "ESRecoverRate": 0.05,
+    "ESRecoverValue": 15,
+    "MaxOverShield": 1000,
+    "ATK": 17,
+    "TN": 300,
+    "MaxTN": 300,
+    "TNResistance": 1,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 40,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "7006001": {
+    "BattleRoleId": 7006001,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 500,
+    "DEF": 75,
+    "MaxES": 200,
+    "ESRecoverTime": 5,
+    "ESRecoverRate": 0.05,
+    "ESRecoverValue": 15,
+    "MaxOverShield": 1000,
+    "ATK": 15,
+    "TN": 150,
+    "MaxTN": 150,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 10,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "7007001": {
+    "BattleRoleId": 7007001,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 200,
+    "DEF": 0,
+    "MaxES": 0,
+    "MaxOverShield": 1000,
+    "ATK": 60,
+    "TN": 100,
+    "MaxTN": 100,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 10,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "7007002": {
+    "BattleRoleId": 7007002,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 15,
+    "DEF": 0,
+    "MaxES": 0,
+    "MaxOverShield": 1000,
+    "ATK": 60,
+    "TN": 150,
+    "MaxTN": 150,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 10,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "7007101": {
+    "BattleRoleId": 7007101,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 15,
+    "DEF": 0,
+    "MaxES": 0,
+    "MaxOverShield": 1000,
+    "ATK": 60,
+    "TN": 150,
+    "MaxTN": 150,
+    "TNResistance": 1,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 10,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "7008001": {
+    "BattleRoleId": 7008001,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 91,
+    "DEF": 200,
+    "MaxES": 91,
+    "ESRecoverTime": 5,
+    "ESRecoverRate": 0.05,
+    "ESRecoverValue": 15,
+    "MaxOverShield": 1000,
+    "ATK": 22,
+    "TN": 600,
+    "MaxTN": 600,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 99,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "7011001": {
+    "BattleRoleId": 7011001,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 36,
+    "DEF": 75,
+    "MaxES": 36,
+    "ESRecoverTime": 5,
+    "ESRecoverRate": 0.05,
+    "ESRecoverValue": 15,
+    "MaxOverShield": 1000,
+    "ATK": 3.3,
+    "TN": 150,
+    "MaxTN": 150,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 10,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ],
+    "BTBattleParams": [
+      {
+        "MinAttackRange": 1200
+      },
+      {
+        "MaxAttackRange": 1600
+      }
+    ]
+  },
+  "7012001": {
+    "BattleRoleId": 7012001,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 36,
+    "DEF": 75,
+    "MaxES": 36,
+    "ESRecoverTime": 5,
+    "ESRecoverRate": 0.05,
+    "ESRecoverValue": 15,
+    "MaxOverShield": 1000,
+    "ATK": 11.1,
+    "TN": 150,
+    "MaxTN": 150,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 20,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "7013001": {
+    "BattleRoleId": 7013001,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 36,
+    "DEF": 75,
+    "MaxES": 36,
+    "ESRecoverTime": 5,
+    "ESRecoverRate": 0.05,
+    "ESRecoverValue": 15,
+    "MaxOverShield": 1000,
+    "ATK": 3.3,
+    "TN": 150,
+    "MaxTN": 150,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 99,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ],
+    "BTBattleParams": [
+      {
+        "MinAttackRange": 800
+      },
+      {
+        "MaxAttackRange": 1200
+      }
+    ]
+  },
+  "7014001": {
+    "BattleRoleId": 7014001,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 66,
+    "DEF": 128,
+    "MaxES": 66,
+    "ESRecoverTime": 5,
+    "ESRecoverRate": 0.05,
+    "ESRecoverValue": 15,
+    "MaxOverShield": 1000,
+    "ATK": 17,
+    "TN": 300,
+    "MaxTN": 300,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 99,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ],
+    "BTBattleParams": [
+      {
+        "MinAttackRange": 800
+      },
+      {
+        "MaxAttackRange": 1200
+      }
+    ]
+  },
+  "8001001": {
+    "BattleRoleId": 8001001,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 40,
+    "DEF": 300,
+    "MaxES": 160,
+    "ESRecoverTime": 5,
+    "ESRecoverRate": 0.05,
+    "ESRecoverValue": 15,
+    "MaxOverShield": 1000,
+    "ATK": 0.7,
+    "TN": 150,
+    "MaxTN": 150,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 3,
+    "CollisionLevel": 10,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ],
+    "BTBattleParams": [
+      {
+        "MinAttackRange": 1200
+      },
+      {
+        "MaxAttackRange": 1600
+      }
+    ]
+  },
+  "8002001": {
+    "BattleRoleId": 8002001,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 40,
+    "DEF": 300,
+    "MaxES": 40,
+    "ESRecoverTime": 5,
+    "ESRecoverRate": 0.05,
+    "ESRecoverValue": 15,
+    "MaxOverShield": 1000,
+    "ATK": 70,
+    "TN": 150,
+    "MaxTN": 150,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 3,
+    "CollisionLevel": 20,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "8003001": {
+    "BattleRoleId": 8003001,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 120,
+    "DEF": 300,
+    "MaxES": 120,
+    "ESRecoverTime": 5,
+    "ESRecoverRate": 0.05,
+    "ESRecoverValue": 15,
+    "MaxOverShield": 1000,
+    "ATK": 25,
+    "TN": 150,
+    "MaxTN": 150,
+    "TNResistance": 3,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 3,
+    "CollisionLevel": 10,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ],
+    "BTBattleParams": [
+      {
+        "MaxAttackRange": 1000
+      }
+    ]
+  },
+  "8500001": {
+    "BattleRoleId": 8500001,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 15000,
+    "DEF": 0,
+    "MaxES": 0,
+    "ATK": 15,
+    "TN": 1150,
+    "MaxTN": 1150,
+    "TNResistance": 1,
+    "TNRecoverS": 20,
+    "TNRecoverTimeB": 10,
+    "TNRecoverTimeZ": 0.5,
+    "BossTNToZeroRecoverSpeed": 200,
+    "DeductToughnessHit": [
+      "LightHit",
+      "LightHit",
+      "LightHit"
+    ],
+    "CannotBePushed": 1,
+    "CollisionLevel": 999,
+    "MaxHpLevelGrow": "MaxHpElite",
+    "DEFLevelGrow": "DEFElite",
+    "MaxESLevelGrow": "MaxESElite",
+    "ATKLevelGrow": "ATKElite",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 500
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "8500002": {
+    "BattleRoleId": 8500002,
+    "SkillList": [
+      850011,
+      850012,
+      850013,
+      850014,
+      850015,
+      850016,
+      850017,
+      850018,
+      850019,
+      850020,
+      850021,
+      850022,
+      850023,
+      850024,
+      850025,
+      6000010,
+      6000013
+    ],
+    "Attribute": "Default",
+    "MaxHp": 15000,
+    "DEF": 200,
+    "MaxES": 0,
+    "ATK": 10,
+    "TN": 6000,
+    "MaxTN": 6000,
+    "TNResistance": 1,
+    "TNRecoverS": 20,
+    "TNRecoverTimeB": 10,
+    "TNRecoverTimeZ": 0.5,
+    "BossTNToZeroRecoverSpeed": 600,
+    "DeductToughnessHit": [
+      "LightHit",
+      "LightHit",
+      "LightHit"
+    ],
+    "CannotBePushed": 1,
+    "CollisionLevel": 999,
+    "MaxHpLevelGrow": "MaxHpElite",
+    "DEFLevelGrow": "DEFElite",
+    "MaxESLevelGrow": "MaxESElite",
+    "ATKLevelGrow": "ATKElite",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 500
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ],
+    "BTBattleParams": [
+      {
+        "TimerKey": 270
+      }
+    ]
+  },
+  "8501001": {
+    "BattleRoleId": 8501001,
+    "SkillList": [
+      850101,
+      850102,
+      850103,
+      850104,
+      850105,
+      850101,
+      850107,
+      850101,
+      850101,
+      850110,
+      850111,
+      850112,
+      850101,
+      850114,
+      850101,
+      850101,
+      850101,
+      850101,
+      6000010,
+      6000013
+    ],
+    "Attribute": "Default",
+    "MaxHp": 10000,
+    "DEF": 0,
+    "MaxES": 0,
+    "ATK": 15,
+    "TN": 2500,
+    "MaxTN": 2500,
+    "TNResistance": 1,
+    "TNRecoverS": 20,
+    "TNRecoverTimeB": 10,
+    "TNRecoverTimeZ": 0.5,
+    "BossTNToZeroRecoverSpeed": 350,
+    "DeductToughnessHit": [
+      "LightHit",
+      "LightHit",
+      "LightHit"
+    ],
+    "CannotBePushed": 1,
+    "CollisionLevel": 999,
+    "MaxHpLevelGrow": "MaxHpElite",
+    "DEFLevelGrow": "DEFElite",
+    "MaxESLevelGrow": "MaxESElite",
+    "ATKLevelGrow": "ATKElite",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 500
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "8501002": {
+    "BattleRoleId": 8501002,
+    "SkillList": [
+      850101,
+      850102,
+      850103,
+      850104,
+      850105,
+      850101,
+      850107,
+      850101,
+      850101,
+      850110,
+      850111,
+      850112,
+      850101,
+      850114,
+      850101,
+      850101,
+      850101,
+      850101,
+      6000010,
+      6000013
+    ],
+    "Attribute": "Default",
+    "MaxHp": 500,
+    "DEF": 300,
+    "MaxES": 0,
+    "ATK": 30,
+    "TN": 1000,
+    "MaxTN": 1000,
+    "TNResistance": 1,
+    "TNRecoverS": 10,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.5,
+    "DeductToughnessHit": [
+      "LightHit"
+    ],
+    "CannotBePushed": 1,
+    "CollisionLevel": 999,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 500
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "8501003": {
+    "BattleRoleId": 8501003,
+    "SkillList": [
+      850101,
+      850102,
+      850103,
+      850104,
+      850105,
+      850101,
+      850107,
+      850101,
+      850101,
+      850110,
+      850111,
+      850112,
+      850101,
+      850114,
+      850101,
+      850101,
+      850101,
+      850101,
+      6000010,
+      6000013
+    ],
+    "Attribute": "Default",
+    "MaxHp": 15000,
+    "DEF": 0,
+    "MaxES": 0,
+    "ATK": 15,
+    "TN": 2000,
+    "MaxTN": 2000,
+    "TNResistance": 1,
+    "TNRecoverS": 20,
+    "TNRecoverTimeB": 10,
+    "TNRecoverTimeZ": 0.5,
+    "BossTNToZeroRecoverSpeed": 200,
+    "DeductToughnessHit": [
+      "LightHit",
+      "LightHit",
+      "LightHit"
+    ],
+    "CannotBePushed": 1,
+    "CollisionLevel": 999,
+    "MaxHpLevelGrow": "MaxHpElite",
+    "DEFLevelGrow": "DEFElite",
+    "MaxESLevelGrow": "MaxESElite",
+    "ATKLevelGrow": "ATKElite",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 500
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "8501004": {
+    "BattleRoleId": 8501004,
+    "SkillList": [
+      850101,
+      850102,
+      850103,
+      850104,
+      850105,
+      850101,
+      850107,
+      850101,
+      850101,
+      850110,
+      850111,
+      850112,
+      850101,
+      850114,
+      850101,
+      850101,
+      850101,
+      850101,
+      6000010,
+      6000013
+    ],
+    "Attribute": "Default",
+    "MaxHp": 500,
+    "DEF": 0,
+    "MaxES": 0,
+    "ATK": 15,
+    "TN": 1000,
+    "MaxTN": 1000,
+    "TNResistance": 1,
+    "TNRecoverS": 10,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.5,
+    "DeductToughnessHit": [
+      "LightHit"
+    ],
+    "CannotBePushed": 1,
+    "CollisionLevel": 999,
+    "MaxHpLevelGrow": "MaxHpElite",
+    "DEFLevelGrow": "DEFElite",
+    "MaxESLevelGrow": "MaxESElite",
+    "ATKLevelGrow": "ATKElite",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 500
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "8502001": {
+    "BattleRoleId": 8502001,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 15000,
+    "DEF": 0,
+    "MaxES": 0,
+    "ATK": 24,
+    "TN": 4500,
+    "MaxTN": 4500,
+    "TNResistance": 1,
+    "TNRecoverS": 0,
+    "TNRecoverTimeB": 10,
+    "TNRecoverTimeZ": 1.5,
+    "BossTNToZeroRecoverSpeed": 450,
+    "DeductToughnessHit": [
+      "LightHit",
+      "LightHit",
+      "LightHit",
+      "LightHit"
+    ],
+    "CannotBePushed": 1,
+    "CollisionLevel": 999,
+    "MaxHpLevelGrow": "MaxHpElite",
+    "DEFLevelGrow": "DEFElite",
+    "MaxESLevelGrow": "MaxESElite",
+    "ATKLevelGrow": "ATKElite",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 500
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "8502002": {
+    "BattleRoleId": 8502002,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 15000,
+    "DEF": 300,
+    "MaxES": 0,
+    "ATK": 24,
+    "TN": 9000,
+    "MaxTN": 9000,
+    "TNResistance": 1,
+    "TNRecoverS": 0,
+    "TNRecoverTimeB": 10,
+    "TNRecoverTimeZ": 1.5,
+    "BossTNToZeroRecoverSpeed": 900,
+    "DeductToughnessHit": [
+      "LightHit",
+      "LightHit",
+      "LightHit",
+      "LightHit"
+    ],
+    "CannotBePushed": 1,
+    "CollisionLevel": 999,
+    "MaxHpLevelGrow": "MaxHpElite",
+    "DEFLevelGrow": "DEFElite",
+    "MaxESLevelGrow": "MaxESElite",
+    "ATKLevelGrow": "ATKElite",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 500
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "8503001": {
+    "BattleRoleId": 8503001,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 15000,
+    "DEF": 0,
+    "MaxES": 0,
+    "ATK": 30,
+    "TN": 99999,
+    "MaxTN": 99999,
+    "TNResistance": 0.001,
+    "TNRecoverS": 0,
+    "TNRecoverTimeB": 10,
+    "TNRecoverTimeZ": 1.5,
+    "BossTNToZeroRecoverSpeed": 1,
+    "DeductToughnessHit": [
+      "LightHit"
+    ],
+    "CannotBePushed": 1,
+    "CollisionLevel": 999,
+    "MaxHpLevelGrow": "MaxHpElite",
+    "DEFLevelGrow": "DEFElite",
+    "MaxESLevelGrow": "MaxESElite",
+    "ATKLevelGrow": "ATKElite",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 300
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 1000
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "8503002": {
+    "BattleRoleId": 8503002,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 15000,
+    "DEF": 129,
+    "MaxES": 0,
+    "ATK": 30,
+    "TN": 6000,
+    "MaxTN": 6000,
+    "TNResistance": 1,
+    "TNRecoverS": 0,
+    "TNRecoverTimeB": 10,
+    "TNRecoverTimeZ": 1.5,
+    "BossTNToZeroRecoverSpeed": 600,
+    "DeductToughnessHit": [
+      "LightHit",
+      "LightHit",
+      "LightHit",
+      "LightHit"
+    ],
+    "CannotBePushed": 1,
+    "CollisionLevel": 999,
+    "MaxHpLevelGrow": "MaxHpElite",
+    "DEFLevelGrow": "DEFElite",
+    "MaxESLevelGrow": "MaxESElite",
+    "ATKLevelGrow": "ATKElite",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 300
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 1000
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "8503011": {
+    "BattleRoleId": 8503011,
+    "Attribute": "Default",
+    "MaxHp": 2000,
+    "DEF": 0,
+    "MaxES": 0,
+    "ATK": 0,
+    "CannotBePushed": 1,
+    "CollisionLevel": 999,
+    "MaxHpLevelGrow": "MaxHpElite",
+    "DEFLevelGrow": "DEFElite",
+    "MaxESLevelGrow": "MaxESElite",
+    "ATKLevelGrow": "ATKElite",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "8503012": {
+    "BattleRoleId": 8503012,
+    "Attribute": "Default",
+    "MaxHp": 99999,
+    "DEF": 0,
+    "MaxES": 0,
+    "ATK": 0,
+    "CannotBePushed": 1,
+    "CollisionLevel": 999,
+    "MaxHpLevelGrow": "MaxHpElite",
+    "DEFLevelGrow": "DEFElite",
+    "MaxESLevelGrow": "MaxESElite",
+    "ATKLevelGrow": "ATKElite",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "8504001": {
+    "BattleRoleId": 8504001,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 27000,
+    "DEF": 0,
+    "MaxES": 0,
+    "ATK": 30,
+    "TN": 99999,
+    "MaxTN": 3000,
+    "TNResistance": 1,
+    "TNRecoverS": 1000,
+    "TNRecoverTimeB": 10,
+    "TNRecoverTimeZ": 1.5,
+    "BossTNToZeroRecoverSpeed": 600,
+    "CannotBePushed": 1,
+    "CollisionLevel": 999,
+    "MaxHpLevelGrow": "MaxHpElite",
+    "DEFLevelGrow": "DEFElite",
+    "MaxESLevelGrow": "MaxESElite",
+    "ATKLevelGrow": "ATKElite",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": {
+      "MaxSpeedWalk": 75,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 500,
+      "MaxAccelerationRun": 3000,
+      "MaxSpeedFly": 800,
+      "MaxAccelerationFly": 2048
+    }
+  },
+  "8504002": {
+    "BattleRoleId": 8504002,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 2700,
+    "DEF": 0,
+    "MaxES": 0,
+    "ATK": 30,
+    "TN": 99999,
+    "MaxTN": 3000,
+    "TNResistance": 1,
+    "TNRecoverS": 1000,
+    "TNRecoverTimeB": 10,
+    "TNRecoverTimeZ": 1.5,
+    "CannotBePushed": 1,
+    "CollisionLevel": 999,
+    "MaxHpLevelGrow": "MaxHpElite",
+    "DEFLevelGrow": "DEFElite",
+    "MaxESLevelGrow": "MaxESElite",
+    "ATKLevelGrow": "ATKElite",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 500,
+      "MaxAccelerationRun": 3000,
+      "MaxSpeedFly": 800,
+      "MaxAccelerationFly": 2048
+    }
+  },
+  "8505001": {
+    "BattleRoleId": 8505001,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 15000,
+    "DEF": 300,
+    "MaxES": 0,
+    "ATK": 24,
+    "TN": 4500,
+    "MaxTN": 4500,
+    "TNResistance": 1,
+    "TNRecoverS": 0,
+    "TNRecoverTimeB": 10,
+    "TNRecoverTimeZ": 1.5,
+    "BossTNToZeroRecoverSpeed": 450,
+    "DeductToughnessHit": [
+      "LightHit",
+      "LightHit",
+      "LightHit",
+      "LightHit"
+    ],
+    "CannotBePushed": 1,
+    "CollisionLevel": 999,
+    "MaxHpLevelGrow": "MaxHpElite",
+    "DEFLevelGrow": "DEFElite",
+    "MaxESLevelGrow": "MaxESElite",
+    "ATKLevelGrow": "ATKElite",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 500
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "8506001": {
+    "BattleRoleId": 8506001,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 2500,
+    "DEF": 0,
+    "MaxES": 0,
+    "ATK": 8,
+    "TN": 2500,
+    "MaxTN": 2500,
+    "TNResistance": 1,
+    "TNRecoverS": 0,
+    "TNRecoverTimeB": 10,
+    "TNRecoverTimeZ": 1.5,
+    "CannotBePushed": 1,
+    "CollisionLevel": 999,
+    "MaxHpLevelGrow": "MaxHpElite",
+    "DEFLevelGrow": "DEFElite",
+    "MaxESLevelGrow": "MaxESElite",
+    "ATKLevelGrow": "ATKElite",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 100
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 500
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "8507001": {
+    "BattleRoleId": 8507001,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 2500,
+    "DEF": 0,
+    "MaxES": 0,
+    "ATK": 8,
+    "TN": 2500,
+    "MaxTN": 2500,
+    "TNResistance": 1,
+    "TNRecoverS": 0,
+    "TNRecoverTimeB": 10,
+    "TNRecoverTimeZ": 1.5,
+    "CannotBePushed": 1,
+    "CollisionLevel": 999,
+    "MaxHpLevelGrow": "MaxHpElite",
+    "DEFLevelGrow": "DEFElite",
+    "MaxESLevelGrow": "MaxESElite",
+    "ATKLevelGrow": "ATKElite",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 100
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 500
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "9003001": {
+    "BattleRoleId": 9003001,
+    "SkillList": [
+      900301,
+      900302,
+      900303,
+      900304,
+      900305,
+      900306,
+      6000010
+    ],
+    "Attribute": "Default",
+    "MaxHp": 162,
+    "DEF": 300,
+    "MaxES": 162,
+    "ESRecoverTime": 5,
+    "ESRecoverRate": 0.05,
+    "ESRecoverValue": 15,
+    "MaxOverShield": 1000,
+    "ATK": 26.7,
+    "TN": 300,
+    "MaxTN": 300,
+    "TNResistance": 0.2,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 99,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "9004001": {
+    "BattleRoleId": 9004001,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 162,
+    "DEF": 300,
+    "MaxES": 162,
+    "ESRecoverTime": 5,
+    "ESRecoverRate": 0.05,
+    "ESRecoverValue": 15,
+    "MaxOverShield": 1000,
+    "ATK": 26.7,
+    "TN": 300,
+    "MaxTN": 300,
+    "TNResistance": 0.2,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CannotBePushed": 1,
+    "CollisionLevel": 999,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "9005001": {
+    "BattleRoleId": 9005001,
+    "SkillList": [
+      900501,
+      900502,
+      900503,
+      900504,
+      900505,
+      6000010
+    ],
+    "Attribute": "Default",
+    "MaxHp": 162,
+    "DEF": 300,
+    "MaxES": 162,
+    "ESRecoverTime": 5,
+    "ESRecoverRate": 0.05,
+    "ESRecoverValue": 15,
+    "MaxOverShield": 1000,
+    "ATK": 26.7,
+    "TN": 300,
+    "MaxTN": 300,
+    "TNResistance": 0.2,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 99,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "9006001": {
+    "BattleRoleId": 9006001,
+    "SkillList": [
+      900601,
+      900602,
+      900603,
+      900604,
+      900605,
+      900606,
+      900607,
+      6000010
+    ],
+    "Attribute": "Default",
+    "MaxHp": 162,
+    "DEF": 300,
+    "MaxES": 162,
+    "ESRecoverTime": 5,
+    "ESRecoverRate": 0.05,
+    "ESRecoverValue": 15,
+    "MaxOverShield": 1000,
+    "ATK": 26.7,
+    "TN": 300,
+    "MaxTN": 300,
+    "TNResistance": 0.2,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 99,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "9006002": {
+    "BattleRoleId": 9006002,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 1,
+    "BreakCount": 1,
+    "DEF": 200,
+    "MaxES": 0,
+    "MaxOverShield": 1000,
+    "ATK": 12,
+    "TN": 300,
+    "MaxTN": 300,
+    "TNResistance": 0.2,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CannotBePushed": 1,
+    "CollisionLevel": 999,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 400
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "9500001": {
+    "BattleRoleId": 9500001,
+    "SkillList": [
+      950001,
+      950002,
+      950003,
+      950004,
+      950005,
+      950006,
+      6000010
+    ],
+    "Attribute": "Default",
+    "MaxHp": 1000,
+    "DEF": 0,
+    "MaxES": 0,
+    "MaxOverShield": 1000,
+    "ATK": 20,
+    "TN": 300,
+    "MaxTN": 300,
+    "TNResistance": 0.2,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CannotBePushed": 1,
+    "CollisionLevel": 99,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 600
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "9500002": {
+    "BattleRoleId": 9500002,
+    "SkillList": [
+      950001,
+      950002,
+      950003,
+      950004,
+      950005,
+      950006,
+      6000010
+    ],
+    "Attribute": "Default",
+    "MaxHp": 1000,
+    "DEF": 0,
+    "MaxES": 0,
+    "MaxOverShield": 1000,
+    "ATK": 20,
+    "TN": 300,
+    "MaxTN": 300,
+    "TNResistance": 0.2,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CannotBePushed": 1,
+    "CollisionLevel": 99,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 600
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ],
+    "BTBattleParams": {
+      "TimerKey": 30
+    }
+  },
+  "9500003": {
+    "BattleRoleId": 9500003,
+    "SkillList": [
+      950001,
+      950002,
+      950003,
+      950004,
+      950005,
+      950006,
+      6000010
+    ],
+    "Attribute": "Default",
+    "MaxHp": 1000,
+    "DEF": 0,
+    "MaxES": 0,
+    "MaxOverShield": 1000,
+    "ATK": 20,
+    "TN": 300,
+    "MaxTN": 300,
+    "TNResistance": 0.2,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CannotBePushed": 1,
+    "CollisionLevel": 99,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 600
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ],
+    "BTBattleParams": {
+      "TimerKey": 60
+    }
+  },
+  "9501001": {
+    "BattleRoleId": 9501001,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 450,
+    "DEF": 75,
+    "MaxES": 0,
+    "ESRecoverTime": 5,
+    "ESRecoverRate": 0.05,
+    "ESRecoverValue": 15,
+    "MaxOverShield": 1000,
+    "ATK": 5,
+    "TN": 100,
+    "MaxTN": 1200,
+    "TNResistance": 1,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CannotBePushed": 1,
+    "CollisionLevel": 999,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 500
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "9501002": {
+    "BattleRoleId": 9501002,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 450,
+    "DEF": 75,
+    "MaxES": 0,
+    "ESRecoverTime": 5,
+    "ESRecoverRate": 0.05,
+    "ESRecoverValue": 15,
+    "MaxOverShield": 1000,
+    "ATK": 5,
+    "TN": 100,
+    "MaxTN": 1200,
+    "TNResistance": 1,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CannotBePushed": 1,
+    "CollisionLevel": 999,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 500
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "9501003": {
+    "BattleRoleId": 9501003,
+    "SkillList": {},
+    "Attribute": "Default",
+    "MaxHp": 200,
+    "DEF": 75,
+    "MaxES": 0,
+    "ESRecoverTime": 5,
+    "ESRecoverRate": 0.05,
+    "ESRecoverValue": 15,
+    "MaxOverShield": 1000,
+    "ATK": 5,
+    "TN": 100,
+    "MaxTN": 1200,
+    "TNResistance": 1,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 999,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 150
+      },
+      {
+        "MaxAccelerationWalk": 3000
+      },
+      {
+        "MaxSpeedRun": 500
+      },
+      {
+        "MaxAccelerationRun": 3000
+      }
+    ]
+  },
+  "9801001": {
+    "BattleRoleId": 9801001,
+    "Attribute": "Default",
+    "MaxHp": 65,
+    "DEF": 75,
+    "MaxES": 0,
+    "MaxOverShield": 1000,
+    "ATK": 11.1,
+    "TN": 150,
+    "MaxTN": 150,
+    "TNResistance": 1,
+    "TNRecoverS": 2,
+    "TNRecoverTimeB": 5,
+    "TNRecoverTimeZ": 0.2,
+    "CollisionLevel": 20,
+    "MaxHpLevelGrow": "MaxHpMon",
+    "DEFLevelGrow": "DEFMon",
+    "MaxESLevelGrow": "MaxESMon",
+    "ATKLevelGrow": "ATKMon",
+    "RougeMaxHpLevelGrow": "RougeMaxHpMon",
+    "RougeDEFLevelGrow": "RougeDEFMon",
+    "RougeMaxESLevelGrow": "RougeMaxESMon",
+    "RougeATKLevelGrow": "RougeATKMon",
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 700,
+      "MaxAccelerationRun": 3000
+    }
+  }
+}

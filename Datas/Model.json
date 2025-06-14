@@ -1,0 +1,3174 @@
+{
+  "1": {
+    "ModelId": 1,
+    "CloakMeshPath": "Asset/Char/Player/Char001_Heitao_J/Mesh/Heitao_Cloak_SM.Heitao_Cloak_SM",
+    "KawaiiIdList": [
+      1001,
+      1002,
+      1003
+    ],
+    "SkeletonMeshPath": "Asset/Char/Player/Char001_Heitao_J/Mesh/HeiTao_SM.HeiTao_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Player/Heitao/ABP_Heitao_Art.ABP_Heitao_Art_C'",
+    "MontageFolder": "/Game/Asset/Char/Player/Char001_Heitao_J/Animation/Montage/",
+    "MontagePrefix": "Heitao_",
+    "StandId": "001",
+    "HitMontageRule": "RoleDefault",
+    "DamageFXSockets": [
+      "neck_01",
+      "spine_01",
+      "spine_02",
+      "upperarm_l",
+      "upperarm_r"
+    ],
+    "AssistSockets": [
+      "neck_01",
+      "spine_01",
+      "spine_02",
+      "upperarm_l",
+      "upperarm_r"
+    ],
+    "RunStopStartTime": 0.23,
+    "HeadScale": 0.96
+  },
+  "2": {
+    "ModelId": 2,
+    "SkeletonMeshPath": "Asset/Char/Player/Char000_AnimTest/Mesh/Ceshi_WP_SM.Ceshi_WP_SM"
+  },
+  "3": {
+    "ModelId": 3,
+    "SkeletonMeshPath": "Asset/Char/Player/Char000_AnimTest/Mesh/Ceshi_WP_Ranged_SM.Ceshi_WP_Ranged_SM"
+  },
+  "10": {
+    "ModelId": 10,
+    "SkeletonMeshPath": "Asset/Char/Npc/Npc_Hostage/Mesh/Npc_Hostage_SM.Npc_Hostage_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Player/WeitaM/ABP_WeitaM.ABP_WeitaM_C'",
+    "MontageFolder": "/Game/Asset/Char/Player/NPC005_WeitaM/Animation/Montage/",
+    "MontagePrefix": "WeitaM_",
+    "HitMontageRule": "RoleDefault",
+    "RunStopStartTime": 0.16,
+    "FootType": "bootHeavy"
+  },
+  "30": {
+    "ModelId": 30,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Weapon/Condemn/Condemn_Aisi/Mesh/Condemn_Aisi.Condemn_Aisi"
+  },
+  "101": {
+    "ModelId": 101,
+    "CloakMeshPath": "Asset/Char/Player/NPC001_Nvzhu/Mesh/Nvzhu_Cloak_SM.Nvzhu_Cloak_SM",
+    "SkeletonMeshPath": "Asset/Char/Player/NPC001_Nvzhu/Mesh/Nvzhu_SM.Nvzhu_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Player/Nvzhu/ABP_Nvzhu.ABP_Nvzhu_C'",
+    "MontageFolder": "/Game/Asset/Char/Player/NPC001_Nvzhu/Animation/Montage/",
+    "MontagePrefix": "Nvzhu_",
+    "HitMontageRule": "RoleDefault",
+    "RunStopStartTime": 0.23,
+    "HeadScale": 0.95,
+    "FootType": "barefeetMid"
+  },
+  "104": {
+    "ModelId": 104,
+    "CloakMeshPath": "Asset/Char/Player/NPC005_WeitaM/Mesh/WeitaM_Cloak_SM.WeitaM_Cloak_SM",
+    "SkeletonMeshPath": "Asset/Char/Player/NPC005_WeitaM/Mesh/WeitaM_SM.WeitaM_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Player/WeitaM/ABP_WeitaM.ABP_WeitaM_C'",
+    "MontageFolder": "/Game/Asset/Char/Player/NPC005_WeitaM/Animation/Montage/",
+    "MontagePrefix": "WeitaM_",
+    "HitMontageRule": "RoleDefault",
+    "RunStopStartTime": 0.16,
+    "ModelScale": 1.02,
+    "HeadScale": 0.98,
+    "FootType": "bootLight"
+  },
+  "114": {
+    "ModelId": 114,
+    "SkeletonMeshPath": "Asset/Char/Monster/JT_Ranger/Mesh/JT_Ranger_SM.JT_Ranger_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Monster/Jt_Ranger/ABP_Mon_Jt_Ranger.ABP_Mon_Jt_Ranger_C'",
+    "MontageFolder": "/Game/Asset/Char/Monster/Jt_Ranger01/Animation/Montage/",
+    "MontagePrefix": "Jt_Ranger_",
+    "BehaviorMontageGroupIdList": [
+      7003
+    ],
+    "HitMontageRule": "MonDisarmTest",
+    "DamageFXSockets": [
+      "hit1",
+      "hit2"
+    ],
+    "AssistSockets": [
+      "hit1",
+      "hit2"
+    ],
+    "MoveParameters": [
+      {
+        "HitFlyMinTime": 0
+      },
+      {
+        "TurnIPMinAngle": 30
+      },
+      {
+        "TurnIP180Threshold": 90
+      }
+    ],
+    "BehaviorMontageGroupId": 7003
+  },
+  "115": {
+    "ModelId": 115,
+    "SkeletonMeshPath": "Asset/Char/Monster/JT_Ranger/Mesh/JT_Ranger_SM.JT_Ranger_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Monster/Jt_Ranger/ABP_Mon_Jt_Ranger01.ABP_Mon_JT_Ranger01_C'",
+    "MontageFolder": "/Game/Asset/Char/Monster/Jt_Ranger01/Animation/Montage/",
+    "MontagePrefix": "JT_Ranger_",
+    "BehaviorMontageGroupIdList": [
+      7003
+    ],
+    "HitMontageRule": "MonDefault",
+    "DamageFXSockets": [
+      "hit1",
+      "hit2"
+    ],
+    "AssistSockets": [
+      "hit1",
+      "hit2"
+    ],
+    "MoveParameters": [
+      {
+        "HitFlyMinTime": 0
+      },
+      {
+        "TurnIPMinAngle": 30
+      },
+      {
+        "TurnIP180Threshold": 90
+      }
+    ],
+    "BehaviorMontageGroupId": 7003
+  },
+  "116": {
+    "ModelId": 116,
+    "SkeletonMeshPath": "Asset/Char/Monster/JT_Juji/Mesh/JT_Juji_SM.JT_Juji_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Monster/Jt_Juji/ABP_Mon_JT_Juji01.ABP_Mon_JT_Juji01_C'",
+    "MontageFolder": "/Game/Asset/Char/Monster/JT_Juji01/Animation/Montage/",
+    "MontagePrefix": "JT_Juji_",
+    "BehaviorMontageGroupIdList": [
+      7001
+    ],
+    "HitMontageRule": "MonDefault",
+    "DamageFXSockets": [
+      "hit1"
+    ],
+    "AssistSockets": [
+      "hit1"
+    ],
+    "MoveParameters": [
+      {
+        "HitFlyMinTime": 0
+      },
+      {
+        "TurnIPMinAngle": 30
+      },
+      {
+        "TurnIP180Threshold": 90
+      }
+    ],
+    "BehaviorMontageGroupId": 7001
+  },
+  "201": {
+    "ModelId": 201,
+    "SkeletonMeshPath": "Asset/Char/Npc/Npc_Awa/Mesh/Npc_Awa_SM.Npc_Awa_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Player/BattleNPC/Awa/ABP_Awa.ABP_Awa_C'",
+    "MontageFolder": "/Game/Asset/Char/Npc/Npc_Awa/Animation/Montage/",
+    "MontagePrefix": "Awa_",
+    "HitMontageRule": "RoleDefault",
+    "DamageFXSockets": [
+      "neck_01",
+      "spine_01",
+      "spine_02",
+      "upperarm_l",
+      "upperarm_r"
+    ],
+    "AssistSockets": [
+      "neck_01",
+      "spine_01",
+      "spine_02",
+      "upperarm_l",
+      "upperarm_r"
+    ],
+    "RunStopStartTime": 0.13,
+    "FootType": "bootHeavy"
+  },
+  "202": {
+    "ModelId": 202,
+    "SkeletonMeshPath": "Asset/Char/Npc/NPC_Dafu/Mesh/Dafu_SM.Dafu_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Player/BattleNPC/Dafu/ABP_Dafu.ABP_Dafu_C'",
+    "MontageFolder": "/Game/Asset/Char/Npc/NPC_Dafu/Animation/Montage/",
+    "MontagePrefix": "Dafu_",
+    "HitMontageRule": "RoleDefault",
+    "DamageFXSockets": [
+      "neck_01",
+      "spine_01",
+      "spine_02",
+      "upperarm_l",
+      "upperarm_r"
+    ],
+    "AssistSockets": [
+      "neck_01",
+      "spine_01",
+      "spine_02",
+      "upperarm_l",
+      "upperarm_r"
+    ],
+    "RunStopStartTime": 0.18,
+    "ModelScale": 0.94,
+    "FootType": "heeledHeavy"
+  },
+  "301": {
+    "ModelId": 301,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Part/Show/Mesh/Kaorou_Show01_SM.Kaorou_Show01_SM"
+  },
+  "302": {
+    "ModelId": 302,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Part/Show/Mesh/Kaorou_Show02_SM.Kaorou_Show02_SM"
+  },
+  "303": {
+    "ModelId": 303,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Part/Show/Mesh/SaoZhou_Show01_SM.SaoZhou_Show01_SM"
+  },
+  "304": {
+    "ModelId": 304,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Part/Show/Mesh/SaoZhou_Show01_SM.SaoZhou_Show01_SM"
+  },
+  "305": {
+    "ModelId": 305,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Part/Show/Mesh/Show_Mimic01_SM.Show_Mimic01_SM"
+  },
+  "306": {
+    "ModelId": 306,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Part/Show/Mesh/Bed_Show01_SM.Bed_Show01_SM"
+  },
+  "401": {
+    "ModelId": 401,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Pet/Pet006_Zisha/Mesh/Pet_Zisha_SM.Pet_Zisha_SM"
+  },
+  "402": {
+    "ModelId": 402,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Pet/Pet001_Yuyi/Mesh/Pet_Yuyi_SM.Pet_Yuyi_SM"
+  },
+  "403": {
+    "ModelId": 403,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Pet/Pet002_Dahuo/Mesh/Pet_Dahuo_SM.Pet_Dahuo_SM"
+  },
+  "404": {
+    "ModelId": 404,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Pet/Pet004_Zhamao/Mesh/Pet_Zhamao_SM.Pet_Zhamao_SM"
+  },
+  "405": {
+    "ModelId": 405,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Pet/Pet003_Yaoye/Mesh/Pet_Yaoye_SM.Pet_Yaoye_SM"
+  },
+  "406": {
+    "ModelId": 406,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Pet/Pet005_Shanling/Mesh/Pet_Shanling_SM.Pet_Shanling_SM"
+  },
+  "491": {
+    "ModelId": 491,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Pet/Pet010_HealRobot/Mesh/Pet_HealRobot_SM.Pet_HealRobot_SM"
+  },
+  "492": {
+    "ModelId": 492,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Pet/Pet011_BlastRobot/Mesh/Pet_BlastRobot_SM.Pet_BlastRobot_SM"
+  },
+  "900": {
+    "ModelId": 900,
+    "SkeletonMeshPath": "Asset/Scene/EN001_Prologue/Common/Mesh/SM_LightPedestal_02.SM_LightPedestal_02"
+  },
+  "901": {
+    "ModelId": 901,
+    "SkeletonMeshPath": "Asset/Scene/EN001_Prologue/Common/Chest01/Mesh/SM_Village_Chest01_SM.SM_Village_Chest01_SM"
+  },
+  "902": {
+    "ModelId": 902,
+    "SkeletonMeshPath": "Asset/Scene/EN001_Prologue/Clouds/Mesh/SM_Clo_Cliff01"
+  },
+  "905": {
+    "ModelId": 905,
+    "SkeletonMeshPath": "Asset/Scene/common/BreakableItems/Mesh/SM_TempGem.SM_TempGem"
+  },
+  "906": {
+    "ModelId": 906,
+    "SkeletonMeshPath": "Asset/Scene/EN001_Prologue/Common/Chest/Mesh/SM_Bujixiang_SM.SM_Bujixiang_SM"
+  },
+  "907": {
+    "ModelId": 907,
+    "SkeletonMeshPath": "Asset/Scene/common/InterProps/Mesh/IP_Ail_Chest01_SM.IP_Ail_Chest01_SM"
+  },
+  "908": {
+    "ModelId": 908,
+    "SkeletonMeshPath": "Asset/Scene/common/InterProps/Mesh/SM_IP_Tele01A.SM_IP_Tele01A"
+  },
+  "910": {
+    "ModelId": 910,
+    "SkeletonMeshPath": "Asset/Scene/common/InterProps/Mesh/IP_Vil_Chest01_SM.IP_Vil_Chest01_SM"
+  },
+  "911": {
+    "ModelId": 911,
+    "SkeletonMeshPath": "Asset/Scene/common/InterProps/Mesh/IP_Prol_Chest02_SM.IP_Prol_Chest02_SM"
+  },
+  "912": {
+    "ModelId": 912,
+    "SkeletonMeshPath": "Asset/Scene/common/InterProps/Mesh/IP_Prol_Chest03_SM.IP_Prol_Chest03_SM"
+  },
+  "913": {
+    "ModelId": 913,
+    "SkeletonMeshPath": "Asset/Scene/common/InterProps/Mesh/IP_Prol_Chest01_SM.IP_Prol_Chest01_SM"
+  },
+  "914": {
+    "ModelId": 914,
+    "SkeletonMeshPath": "Asset/Scene/EN001_Prologue/Common/Porp/Quarry_Dev01/Mesh/Quarry_Dev01_SM.Quarry_Dev01_SM"
+  },
+  "915": {
+    "ModelId": 915,
+    "SkeletonMeshPath": "Asset/Scene/common/BreakableItems/Mesh/Chest04_Vat_Mesh.Chest04_Vat_Mesh"
+  },
+  "916": {
+    "ModelId": 916,
+    "SkeletonMeshPath": "Asset/Scene/EN002_Imperial/Ailan/Mesh/SM_Ail_Cha02.SM_Ail_Cha02"
+  },
+  "917": {
+    "ModelId": 917,
+    "SkeletonMeshPath": "Asset/Scene/EN002_Imperial/Quarry/Mesh/SM_Qua_Ore08.SM_Qua_Ore08"
+  },
+  "918": {
+    "ModelId": 918,
+    "SkeletonMeshPath": "Asset/Scene/EN001_Prologue/Common/Porp/Chest/Mesh/SM_Bujixiang_SM.SM_Bujixiang_SM"
+  },
+  "919": {
+    "ModelId": 919,
+    "SkeletonMeshPath": "Asset/Scene/EN003_EXPart/Fortress/Mesh/SM_Fort_Dev01.SM_Fort_Dev01"
+  },
+  "920": {
+    "ModelId": 920,
+    "SkeletonMeshPath": "Asset/Scene/EN003_EXPart/Fortress/Mesh/SM_Fort_Mod06H.SM_Fort_Mod06H"
+  },
+  "921": {
+    "ModelId": 921,
+    "SkeletonMeshPath": "Asset/Scene/EN002_Imperial/Ailan/Mesh/SM_Ail_Rock01.SM_Ail_Rock01"
+  },
+  "922": {
+    "ModelId": 922,
+    "SkeletonMeshPath": "Asset/Scene/EN001_Prologue/Common/Porp/Shouwei/Mesh/Shouwei_Jaohui_SM.Shouwei_Jaohui_SM"
+  },
+  "923": {
+    "ModelId": 923,
+    "SkeletonMeshPath": "Asset/Scene/EN001_Prologue/Common/Porp/Tanceqi/Mesh/SM_Common_Tanceqi01.SM_Common_Tanceqi01"
+  },
+  "924": {
+    "ModelId": 924,
+    "SkeletonMeshPath": "Asset/Scene/EN001_Prologue/Common/Porp/Ailan_Car03/Mesh/Ailan_Car03_SM.Ailan_Car03_SM"
+  },
+  "925": {
+    "ModelId": 925,
+    "SkeletonMeshPath": "Asset/Scene/common/Mesh/SM_Com_Ste02.SM_Com_Ste02"
+  },
+  "926": {
+    "ModelId": 926,
+    "SkeletonMeshPath": "Asset/Scene/common/Mesh/SM_Com_Grass01C.SM_Com_Grass01C"
+  },
+  "927": {
+    "ModelId": 927,
+    "SkeletonMeshPath": "Asset/Scene/EN001_Prologue/Common/Mesh/SM_Common_Gear02.SM_Common_Gear02"
+  },
+  "928": {
+    "ModelId": 928,
+    "SkeletonMeshPath": "Asset/Scene/common/BreakableItems/Mesh/Chest05_Vat_Mesh.Chest05_Vat_Mesh"
+  },
+  "929": {
+    "ModelId": 929,
+    "SkeletonMeshPath": "Asset/Scene/common/BreakableItems/Mesh/Chest06_Vat_Mesh.Chest06_Vat_Mesh"
+  },
+  "930": {
+    "ModelId": 930,
+    "SkeletonMeshPath": "Asset/Scene/common/BreakableItems/Mesh/Chest07_Vat_Mesh.Chest07_Vat_Mesh"
+  },
+  "931": {
+    "ModelId": 931,
+    "SkeletonMeshPath": "Asset/Scene/common/InterProps/Mesh/IP_Com_Hay02A_SM.IP_Com_Hay02A_SM"
+  },
+  "999": {
+    "ModelId": 999,
+    "SkeletonMeshPath": "Asset/Scene/Layout/StaticCreatorMesh/TriggerMechanism_Mesh.TriggerMechanism_Mesh",
+    "DamageFXSockets": [
+      "hit1"
+    ],
+    "AssistSockets": [
+      "hit1"
+    ]
+  },
+  "1101": {
+    "ModelId": 1101,
+    "CloakMeshPath": "Asset/Char/Player/Char001_Heitao_J/Mesh/Heitao_Cloak_SM.Heitao_Cloak_SM",
+    "KawaiiIdList": [
+      1001,
+      1002,
+      1003
+    ],
+    "SkeletonMeshPath": "Asset/Char/Player/Char001_Heitao_J/Mesh/Heitao_SM.Heitao_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Player/Heitao/ABP_Heitao_New.ABP_Heitao_New_C'",
+    "MontageFolder": "/Game/Asset/Char/Player/Char001_Heitao_J/Animation/Montage/",
+    "MontagePrefix": "Heitao_",
+    "StandId": "001",
+    "HitMontageRule": "RoleDefault",
+    "DamageFXSockets": [
+      "neck_01",
+      "spine_01",
+      "spine_02",
+      "upperarm_l",
+      "upperarm_r"
+    ],
+    "AssistSockets": [
+      "neck_01",
+      "spine_01",
+      "spine_02",
+      "upperarm_l",
+      "upperarm_r"
+    ],
+    "RunStopStartTime": 0.23,
+    "WeaponScale": 1,
+    "HeadScale": 0.96,
+    "UnbindSocketOffset": {},
+    "FootType": "heeledMid"
+  },
+  "1102": {
+    "ModelId": 1102,
+    "SkeletonMeshPath": "Asset/Char/Player/Char018_Aote/Mesh/Aote_SM.Aote_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Player/Aote/ABP_Aote.ABP_Aote_C'",
+    "MontageFolder": "/Game/Asset/Char/Player/Char018_Aote/Animation/Montage/",
+    "MontagePrefix": "Aote_",
+    "StandId": "001",
+    "HitMontageRule": "RoleDefault",
+    "DamageFXSockets": [
+      "neck_01",
+      "spine_01",
+      "spine_02",
+      "upperarm_l",
+      "upperarm_r"
+    ],
+    "AssistSockets": [
+      "neck_01",
+      "spine_01",
+      "spine_02",
+      "upperarm_l",
+      "upperarm_r"
+    ],
+    "RunStopStartTime": 0.23,
+    "FootType": "bootHeavy"
+  },
+  "1801": {
+    "ModelId": 1801,
+    "SkeletonMeshPath": "Asset/Char/Player/Char019_Feina/Mesh/Feina_SM.Feina_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Player/Feina/ABP_Feina.ABP_Feina_C'",
+    "MontageFolder": "/Game/Asset/Char/Player/Char019_Feina/Animation/Montage/",
+    "MontagePrefix": "Feina_",
+    "StandId": "001",
+    "HitMontageRule": "RoleDefault",
+    "DamageFXSockets": [
+      "neck_01",
+      "spine_01",
+      "spine_02",
+      "upperarm_l",
+      "upperarm_r"
+    ],
+    "AssistSockets": [
+      "neck_01",
+      "spine_01",
+      "spine_02",
+      "upperarm_l",
+      "upperarm_r"
+    ],
+    "RunStopStartTime": 0.23,
+    "ModelScale": 0.9,
+    "WeaponScale": 0.9,
+    "FootType": "barefeetMid"
+  },
+  "2101": {
+    "ModelId": 2101,
+    "CloakMeshPath": "Asset/Char/Player/Char005_Shuimu/Mesh/Shuimu_Cloak_SM.Shuimu_Cloak_SM",
+    "KawaiiIdList": {},
+    "SkeletonMeshPath": "Asset/Char/Player/Char005_Shuimu/Mesh/Shuimu_SM.Shuimu_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Player/Shuimu/ABP_Shuimu.ABP_Shuimu_C'",
+    "MontageFolder": "/Game/Asset/Char/Player/Char005_Shuimu/Animation/Montage/",
+    "MontagePrefix": "ShuiMu_",
+    "StandId": "005",
+    "HitMontageRule": "RoleDefault",
+    "DamageFXSockets": [
+      "neck_01",
+      "spine_01",
+      "spine_02",
+      "upperarm_l",
+      "upperarm_r"
+    ],
+    "AssistSockets": [
+      "neck_01",
+      "spine_01",
+      "spine_02",
+      "upperarm_l",
+      "upperarm_r"
+    ],
+    "RunStopStartTime": 0.23,
+    "ModelScale": 1.03,
+    "WeaponScale": 1.03,
+    "HeadScale": 0.98,
+    "FootType": "heeledMid"
+  },
+  "2301": {
+    "ModelId": 2301,
+    "SkeletonMeshPath": "Asset/Char/Player/Char004_Zhangyu/Mesh/Zhangyu_SM.Zhangyu_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Player/Zhangyu/ABP_ZhangYu.ABP_ZhangYu_C'",
+    "MontageFolder": "/Game/Asset/Char/Player/Char004_Zhangyu/Animation/Montage/",
+    "MontagePrefix": "Zhangyu_",
+    "StandId": "004",
+    "HitMontageRule": "RoleDefault",
+    "DamageFXSockets": [
+      "neck_01",
+      "spine_01",
+      "spine_02",
+      "upperarm_l",
+      "upperarm_r"
+    ],
+    "AssistSockets": [
+      "neck_01",
+      "spine_01",
+      "spine_02",
+      "upperarm_l",
+      "upperarm_r"
+    ],
+    "RunStopStartTime": 0.23,
+    "WeaponScale": 0.8,
+    "HeadScale": 0.96,
+    "FootType": "heeledLight"
+  },
+  "2401": {
+    "ModelId": 2401,
+    "SkeletonMeshPath": "Asset/Char/Player/Char015_Baiheng/Mesh/Baiheng_SM.Baiheng_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Player/Baiheng/ABP_Baiheng.ABP_Baiheng_C'",
+    "MontageFolder": "/Game/Asset/Char/Player/Char015_Baiheng/Animation/Montage/",
+    "MontagePrefix": "Baiheng_",
+    "StandId": "004",
+    "HitMontageRule": "RoleDefault",
+    "DamageFXSockets": [
+      "neck_01",
+      "spine_01",
+      "spine_02",
+      "upperarm_l",
+      "upperarm_r"
+    ],
+    "AssistSockets": [
+      "neck_01",
+      "spine_01",
+      "spine_02",
+      "upperarm_l",
+      "upperarm_r"
+    ],
+    "RunStopStartTime": 0.18,
+    "WeaponScale": 1.1,
+    "HeadScale": 1.01,
+    "HandScale": 0.9,
+    "ModelTag": [
+      "FresnelColor"
+    ],
+    "FootType": "heeledHeavy"
+  },
+  "3101": {
+    "ModelId": 3101,
+    "SkeletonMeshPath": "Asset/Char/Player/Char011_Linen/Mesh/Linen_SM.Linen_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Player/Linen/ABP_Linen.ABP_Linen_C'",
+    "MontageFolder": "/Game/Asset/Char/Player/Char011_Linen/Animation/Montage/",
+    "MontagePrefix": "Linen_",
+    "StandId": "006",
+    "HitMontageRule": "RoleDefault",
+    "DamageFXSockets": [
+      "neck_01",
+      "spine_01",
+      "spine_02",
+      "upperarm_l",
+      "upperarm_r"
+    ],
+    "AssistSockets": [
+      "neck_01",
+      "spine_01",
+      "spine_02",
+      "upperarm_l",
+      "upperarm_r"
+    ],
+    "RunStopStartTime": 0.18,
+    "WeaponScale": 1.1,
+    "HandScale": 0.9,
+    "FootType": "heeledHeavy"
+  },
+  "3102": {
+    "ModelId": 3102,
+    "SkeletonMeshPath": "Asset/Char/Player/Char023_Xier/Mesh/Xier_SM.Xier_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Player/Xier/ABP_Xier.ABP_Xier_C'",
+    "MontageFolder": "/Game/Asset/Char/Player/Char023_Xier/Animation/Montage/",
+    "MontagePrefix": "Xier_",
+    "StandId": "006",
+    "HitMontageRule": "RoleDefault",
+    "DamageFXSockets": [
+      "neck_01",
+      "spine_01",
+      "spine_02",
+      "upperarm_l",
+      "upperarm_r"
+    ],
+    "AssistSockets": [
+      "neck_01",
+      "spine_01",
+      "spine_02",
+      "upperarm_l",
+      "upperarm_r"
+    ],
+    "RunStopStartTime": 0.18,
+    "WeaponScale": 1,
+    "HeadScale": 1.07,
+    "HandScale": 0.9,
+    "FootType": "heeledHeavy"
+  },
+  "3103": {
+    "ModelId": 3103,
+    "SkeletonMeshPath": "Asset/Char/Player/Char017_Yeer/Mesh/Yeer_SM.Yeer_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Player/Yeer/ABP_Yeer.ABP_Yeer_C'",
+    "MontageFolder": "/Game/Asset/Char/Player/Char017_Yeer/Animation/Montage/",
+    "MontagePrefix": "Yeer_",
+    "StandId": "007",
+    "HitMontageRule": "RoleDefault",
+    "DamageFXSockets": [
+      "neck_01",
+      "spine_01",
+      "spine_02",
+      "upperarm_l",
+      "upperarm_r"
+    ],
+    "AssistSockets": [
+      "neck_01",
+      "spine_01",
+      "spine_02",
+      "upperarm_l",
+      "upperarm_r"
+    ],
+    "RunStopStartTime": 0.16,
+    "ModelScale": 0.85,
+    "WeaponScale": 0.85,
+    "FootType": "bootLight"
+  },
+  "3201": {
+    "ModelId": 3201,
+    "CloakMeshPath": "Asset/Char/Player/Char006_Haier/Mesh/Haier_Cloak_SM.Haier_Cloak_SM",
+    "KawaiiIdList": {},
+    "SkeletonMeshPath": "Asset/Char/Player/Char006_Haier/Mesh/Haier_SM.Haier_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Player/Haier/ABP_Haier.ABP_Haier_C'",
+    "MontageFolder": "/Game/Asset/Char/Player/Char006_Haier/Animation/Montage/",
+    "MontagePrefix": "Haier_",
+    "StandId": "006",
+    "HitMontageRule": "RoleDefault",
+    "DamageFXSockets": [
+      "neck_01",
+      "spine_01",
+      "spine_02",
+      "upperarm_l",
+      "upperarm_r"
+    ],
+    "AssistSockets": [
+      "neck_01",
+      "spine_01",
+      "spine_02",
+      "upperarm_l",
+      "upperarm_r"
+    ],
+    "RunStopStartTime": 0.18,
+    "WeaponScale": 1.1,
+    "HeadScale": 0.97,
+    "FootType": "heeledHeavy"
+  },
+  "3301": {
+    "ModelId": 3301,
+    "SkeletonMeshPath": "Asset/Char/Player/Char024_Maer/Mesh/Maer_SM.Maer_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Player/Maer/ABP_Maer.ABP_Maer_C'",
+    "MontageFolder": "/Game/Asset/Char/Player/Char024_Maer/Animation/Montage/",
+    "MontagePrefix": "Maer_",
+    "StandId": "006",
+    "HitMontageRule": "RoleDefault",
+    "DamageFXSockets": [
+      "neck_01",
+      "spine_01",
+      "spine_02",
+      "upperarm_l",
+      "upperarm_r"
+    ],
+    "AssistSockets": [
+      "neck_01",
+      "spine_01",
+      "spine_02",
+      "upperarm_l",
+      "upperarm_r"
+    ],
+    "RunStopStartTime": 0.23,
+    "ModelScale": 0.95,
+    "WeaponScale": 0.95,
+    "HeadScale": 0.95,
+    "FootType": "heeledMid"
+  },
+  "4101": {
+    "ModelId": 4101,
+    "SkeletonMeshPath": "Asset/Char/Player/Char007_Baonu/Mesh/Baonu_SM.Baonu_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Player/Baonu/ABP_Baonu.ABP_Baonu_C'",
+    "MontageFolder": "/Game/Asset/Char/Player/Char007_Baonu/Animation/Montage/",
+    "MontagePrefix": "Baonu_",
+    "StandId": "007",
+    "HitMontageRule": "RoleDefault",
+    "DamageFXSockets": [
+      "neck_01",
+      "spine_01",
+      "spine_02",
+      "upperarm_l",
+      "upperarm_r"
+    ],
+    "AssistSockets": [
+      "neck_01",
+      "spine_01",
+      "spine_02",
+      "upperarm_l",
+      "upperarm_r"
+    ],
+    "RunStopStartTime": 0.23,
+    "FootType": "heeledLight"
+  },
+  "4201": {
+    "ModelId": 4201,
+    "SkeletonMeshPath": "Asset/Char/Player/Char008_Yuming/Mesh/Yuming_SM.Yuming_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Player/Yuming/ABP_Yuming.ABP_Yuming_C'",
+    "MontageFolder": "/Game/Asset/Char/Player/Char008_Yuming/Animation/Montage/",
+    "MontagePrefix": "Yuming_",
+    "StandId": "008",
+    "HitMontageRule": "RoleDefault",
+    "DamageFXSockets": [
+      "neck_01",
+      "spine_01",
+      "spine_02",
+      "upperarm_l",
+      "upperarm_r"
+    ],
+    "AssistSockets": [
+      "neck_01",
+      "spine_01",
+      "spine_02",
+      "upperarm_l",
+      "upperarm_r"
+    ],
+    "RunStopStartTime": 0.13,
+    "WeaponScale": 1.2,
+    "FootType": "bootHeavy"
+  },
+  "4202": {
+    "ModelId": 4202,
+    "SkeletonMeshPath": "Asset/Char/Player/Char012_Landi/Mesh/Landi_SM.Landi_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Player/Landi/ABP_Landi.ABP_Landi_C'",
+    "MontageFolder": "/Game/Asset/Char/Player/Char012_Landi/Animation/Montage/",
+    "MontagePrefix": "Landi_",
+    "StandId": "012",
+    "HitMontageRule": "RoleDefault",
+    "DamageFXSockets": [
+      "neck_01",
+      "spine_01",
+      "spine_02",
+      "upperarm_l",
+      "upperarm_r"
+    ],
+    "AssistSockets": [
+      "neck_01",
+      "spine_01",
+      "spine_02",
+      "upperarm_l",
+      "upperarm_r"
+    ],
+    "RunStopStartTime": 0.13,
+    "WeaponScale": 1.2,
+    "FootType": "bootHeavy"
+  },
+  "4301": {
+    "ModelId": 4301,
+    "SkeletonMeshPath": "Asset/Char/Player/Char009_Xibi/Mesh/Xibi_SM.Xibi_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Player/Xibi/ABP_Xibi.ABP_Xibi_C'",
+    "MontageFolder": "/Game/Asset/Char/Player/Char009_Xibi/Animation/Montage/",
+    "MontagePrefix": "Xibi_",
+    "StandId": "009",
+    "HitMontageRule": "RoleDefault",
+    "DamageFXSockets": [
+      "neck_01",
+      "spine_01",
+      "spine_02",
+      "upperarm_l",
+      "upperarm_r"
+    ],
+    "AssistSockets": [
+      "neck_01",
+      "spine_01",
+      "spine_02",
+      "upperarm_l",
+      "upperarm_r"
+    ],
+    "RunStopStartTime": 0.18,
+    "WeaponScale": 1.1,
+    "HandScale": 0.9,
+    "FootType": "heeledHeavy"
+  },
+  "5101": {
+    "ModelId": 5101,
+    "SkeletonMeshPath": "Asset/Char/Player/Char021_Songlu/Mesh/Songlu_SM.Songlu_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Player/Songlu/ABP_Songlu.ABP_Songlu_C'",
+    "MontageFolder": "/Game/Asset/Char/Player/Char021_Songlu/Animation/Montage/",
+    "MontagePrefix": "Songlu_",
+    "StandId": "007",
+    "HitMontageRule": "RoleDefault",
+    "DamageFXSockets": [
+      "neck_01",
+      "spine_01",
+      "spine_02",
+      "upperarm_l",
+      "upperarm_r"
+    ],
+    "AssistSockets": [
+      "neck_01",
+      "spine_01",
+      "spine_02",
+      "upperarm_l",
+      "upperarm_r"
+    ],
+    "RunStopStartTime": 0.23,
+    "WeaponScale": 0.8,
+    "HeadScale": 0.98,
+    "FootType": "heeledLight"
+  },
+  "5301": {
+    "ModelId": 5301,
+    "AccessoryMeshPath": "Asset/Char/Player/Char010_Saiqi/Mesh/Saiqi_Part01_SM.Saiqi_Part01_SM",
+    "SkeletonMeshPath": "Asset/Char/Player/Char010_Saiqi/Mesh/Saiqi_SM.Saiqi_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Player/Saiqi/ABP_Saiqi.ABP_Saiqi_C'",
+    "MontageFolder": "/Game/Asset/Char/Player/Char010_Saiqi/Animation/Montage/",
+    "MontagePrefix": "Saiqi_",
+    "StandId": "010",
+    "HitMontageRule": "RoleDefault",
+    "DamageFXSockets": [
+      "neck_01",
+      "spine_01",
+      "spine_02",
+      "upperarm_l",
+      "upperarm_r"
+    ],
+    "AssistSockets": [
+      "neck_01",
+      "spine_01",
+      "spine_02",
+      "upperarm_l",
+      "upperarm_r"
+    ],
+    "RunStopStartTime": 0.23,
+    "WeaponScale": 1,
+    "HeadScale": 0.98,
+    "ModelTag": [
+      "FresnelColor"
+    ],
+    "FootType": "heeledMid"
+  },
+  "9031": {
+    "ModelId": 9031,
+    "SkeletonMeshPath": "AssetDesign/Item/Door/BP_Yinbimen_Prologue"
+  },
+  "9032": {
+    "ModelId": 9032,
+    "SkeletonMeshPath": "Asset/Scene/EN002_Imperial/Ailan/Mesh/SM_Sana_Door01A"
+  },
+  "9141": {
+    "ModelId": 9141,
+    "SkeletonMeshPath": "Asset/Scene/EN001_Prologue/Common/Mesh/SM_Kongzhitai_01.SM_Kongzhitai_01"
+  },
+  "9142": {
+    "ModelId": 9142,
+    "SkeletonMeshPath": "Asset/Scene/EN002_Imperial/Ailan/Mesh/SM_Sew_Dev03B.SM_Sew_Dev03B"
+  },
+  "9241": {
+    "ModelId": 9241,
+    "SkeletonMeshPath": "Asset/Scene/EN003_EXPart/Fortress/Mesh/SM_Fort_Mod01.SM_Fort_Mod01"
+  },
+  "10001": {
+    "ModelId": 10001,
+    "CloakMeshPath": "Asset/Char/Player/NPC001_Nvzhu/Mesh/Nvzhu_Cloak_SM.Nvzhu_Cloak_SM",
+    "SkeletonMeshPath": "Asset/Char/Player/NPC001_Nvzhu/Mesh/Nvzhu_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/ZhujueNpc/Nvzhu/ABP_Npc_Nvzhu.ABP_Npc_Nvzhu_C'",
+    "MontageFolder": "/Game/Asset/Char/Player/NPC001_Nvzhu/Animation/Montage/",
+    "MontagePrefix": "Nvzhu_",
+    "HitMontageRule": "RoleDefault",
+    "DamageFXSockets": [
+      "hit1",
+      "hit2"
+    ],
+    "AssistSockets": [
+      "hit1",
+      "hit2"
+    ],
+    "HeadScale": 0.95,
+    "FootType": "barefeetMid"
+  },
+  "10002": {
+    "ModelId": 10002,
+    "CloakMeshPath": "Asset/Char/Player/Char001_Heitao_J/Mesh/Heitao_Cloak_SM.Heitao_Cloak_SM",
+    "SkeletonMeshPath": "Asset/Char/Player/Char001_Heitao_J/Mesh/HeiTao_SM.HeiTao_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/CharacterNpc/HeiTao/ABP_NPC_Heitao.ABP_NPC_Heitao_C'",
+    "MontageFolder": "/Game/Asset/Char/Player/Char001_Heitao_J/Animation/Montage/",
+    "MontagePrefix": "Heitao_",
+    "HitMontageRule": "RoleDefault",
+    "HeadScale": 0.96,
+    "FootType": "heeledMid"
+  },
+  "10003": {
+    "ModelId": 10003,
+    "SkeletonMeshPath": "Asset/Char/Player/Char009_Xibi/Mesh/Xibi_SM.Xibi_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/CharacterNpc/Xibi/ABP_NPC_Xibi.ABP_NPC_Xibi_C'",
+    "MontageFolder": "/Game/Asset/Char/Player/Char009_Xibi/Animation/Montage/",
+    "MontagePrefix": "Xibi_",
+    "FootType": "heeledHeavy"
+  },
+  "10005": {
+    "ModelId": 10005,
+    "SkeletonMeshPath": "Asset/Char/Player/Char012_Landi/Mesh/Landi_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/CharacterNpc/Landi/ABP_NPC_Landi.ABP_NPC_Landi_C'",
+    "MontageFolder": "/Game/Asset/Char/Player/Char012_Landi/Animation/Montage/",
+    "MontagePrefix": "Landi_",
+    "FootType": "bootHeavy"
+  },
+  "10006": {
+    "ModelId": 10006,
+    "SkeletonMeshPath": "Asset/Char/Npc/Npc_Bai_Tongxun/Mesh/Tongxunyuan_SM.Tongxunyuan_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/BaiNpc/Bai/ABP_Bai.ABP_Bai_C'",
+    "MontageFolder": "/Game/Asset/Char/Npc/Npc_Bai_Tongxun/Animation/Montage/",
+    "MontagePrefix": "Npc_Bai_Tongxun_",
+    "HeadScale": 0.97,
+    "FootType": "heeledLight"
+  },
+  "10007": {
+    "ModelId": 10007,
+    "SkeletonMeshPath": "Asset/Char/Player/Char010_Saiqi/Mesh/Saiqi_SM.Saiqi_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/CharacterNpc/Saiqi/ABP_NPC_Saiqi.ABP_NPC_Saiqi_C'",
+    "MontageFolder": "/Game/Asset/Char/Player/Char010_Saiqi/Animation/Montage/",
+    "MontagePrefix": "Saiqi_",
+    "HeadScale": 0.98,
+    "FootType": "heeledMid"
+  },
+  "10008": {
+    "ModelId": 10008,
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/ZhujueNpc/Weita_M/ABP_NPC_Weita_M.ABP_NPC_Weita_M_C'",
+    "MontageFolder": "/Game/Asset/Char/Player/NPC005_WeitaM/Animation/Montage/",
+    "MontagePrefix": "WeitaM_",
+    "ModelScale": 1.02,
+    "HeadScale": 0.98,
+    "FootType": "bootHeavy"
+  },
+  "10009": {
+    "ModelId": 10009,
+    "SkeletonMeshPath": "Asset/Char/Player/Char006_Haier/Mesh/Haier_SM.Haier_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/Test/NervousWoman/ABP_NervousWoman.ABP_NervousWoman_C'",
+    "FootType": "heeledMid"
+  },
+  "10010": {
+    "ModelId": 10010,
+    "SkeletonMeshPath": "Asset/Char/Player/Char019_Feina/Mesh/Feina_SM.Feina_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/CharacterNpc/Feena/ABP_NPC_Feina.ABP_NPC_Feina_C'",
+    "MontageFolder": "/Game/Asset/Char/Player/Char019_Feina/Animation/Montage/",
+    "MontagePrefix": "Feina_",
+    "ModelScale": 0.9,
+    "FootType": "heeledLight"
+  },
+  "10011": {
+    "ModelId": 10011,
+    "SkeletonMeshPath": "Asset/Char/Npc/Npc_Bai_Duanzao/Mesh/Bai_Duanzao_SM.Bai_Duanzao_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/BaiNpc/Bai_Duanzao_NPC200024/ABP_Bai_Duanzao_NPC200024.ABP_Bai_Duanzao_NPC200024_C'",
+    "MontageFolder": "/Game/Asset/Char/Npc/Npc_Bai_Duanzao/Animation/Montage/",
+    "MontagePrefix": "Npc_Bai_Duanzao_",
+    "FootType": "heeledLight"
+  },
+  "10012": {
+    "ModelId": 10012,
+    "SkeletonMeshPath": "Asset/Char/Player/Char014_Kami/Mesh/Kami_SM.Kami_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/CharacterNpc/Kamila/ABP_NPC_Kami.ABP_NPC_Kami_C'",
+    "MontageFolder": "/Game/Asset/Char/Player/Char014_Kami/Animation/Montage/",
+    "MontagePrefix": "Kami_",
+    "FootType": "heeledHeavy"
+  },
+  "10013": {
+    "ModelId": 10013,
+    "SkeletonMeshPath": "Asset/Char/Monster/JT_Pizhuo/Mesh/JT_Pizhuo_SM.JT_Pizhuo_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/TalkMonster/ABP_NPC_JT_Pizhuo_Gun.ABP_NPC_JT_Pizhuo_Gun_C'",
+    "FootType": "bootHeavy"
+  },
+  "10014": {
+    "ModelId": 10014,
+    "SkeletonMeshPath": "Asset/Char/Monster/JT_Tuji/Mesh/JT_Tuji_SM.JT_Tuji_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/TalkMonster/ABP_NPC_JT_Tuji.ABP_NPC_JT_Tuji_C'",
+    "FootType": "bootHeavy"
+  },
+  "10015": {
+    "ModelId": 10015,
+    "SkeletonMeshPath": "Asset/Char/Player/Char008_Yuming/Mesh/Yuming_SM.Yuming_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/Test/Chapter01(LinShi)/ABP_LurenAoge.ABP_LurenAoge_C'",
+    "FootType": "bootHeavy"
+  },
+  "10016": {
+    "ModelId": 10016,
+    "SkeletonMeshPath": "Asset/Char/Player/Char007_Baonu/Mesh/Baonu_SM.Baonu_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/Test/NervousOldMan/ABP_NervousOldMan.ABP_NervousOldMan_C'"
+  },
+  "10017": {
+    "ModelId": 10017,
+    "SkeletonMeshPath": "Asset/Char/Player/Char012_Landi/Mesh/Landi_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/Test/EnLiKe/ABP_Enlike.ABP_Enlike_C'",
+    "MontageFolder": "/Game/Asset/Char/Player/Char012_Landi/Animation/Montage/",
+    "MontagePrefix": "Landi_",
+    "FootType": "bootHeavy"
+  },
+  "10018": {
+    "ModelId": 10018,
+    "SkeletonMeshPath": "Asset/Char/Player/Char018_Aote/Mesh/Aote_SM.Aote_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/Test/Chapter01(LinShi)/ABP_LurenAoge.ABP_LurenAoge_C'",
+    "FootType": "bootHeavy"
+  },
+  "10019": {
+    "ModelId": 10019,
+    "SkeletonMeshPath": "Asset/Char/Player/Char018_Aote/Mesh/Aote_SM.Aote_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/CharacterNpc/OutSide/ABP_NPC_Aote.ABP_NPC_Aote_C'",
+    "MontageFolder": "/Game/Asset/Char/Player/Char018_Aote/Animation/Montage/",
+    "MontagePrefix": "Aote_",
+    "FootType": "bootHeavy"
+  },
+  "10020": {
+    "ModelId": 10020,
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/TalkMonster/ABP_NPC_JT_Mid_M.ABP_NPC_JT_Mid_M_C'",
+    "MontageFolder": "/Game/Asset/Char/Monster/Common/Animation/JT_Mid_M/Montage/NPC_Inter/",
+    "MontagePrefix": "JT_Mid_M_"
+  },
+  "10021": {
+    "ModelId": 10021,
+    "SkeletonMeshPath": "Asset/Char/Player/Char012_Landi/Mesh/Landi_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/Test/Chapter01(LinShi)/ABP_LurenLandi.ABP_LurenLandi_C'",
+    "FootType": "bootHeavy"
+  },
+  "10022": {
+    "ModelId": 10022,
+    "SkeletonMeshPath": "Asset/Char/Player/Char012_Landi/Mesh/Landi_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/Test/Boy/ABP_Boy.ABP_Boy_C'"
+  },
+  "10023": {
+    "ModelId": 10023,
+    "SkeletonMeshPath": "Asset/Char/Player/Char011_Linen/Mesh/Linen_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/CharacterNpc/Linen/ABP_NPC_Linen.ABP_NPC_Linen_C'",
+    "FootType": "heeledHeavy"
+  },
+  "10024": {
+    "ModelId": 10024,
+    "SkeletonMeshPath": "Asset/Char/Npc/NPC_Jt_Shaonian/Mesh/Jt_Shaonian01_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/Test/Body/ABP_NPC_Body.ABP_NPC_Body_C'"
+  },
+  "10025": {
+    "ModelId": 10025,
+    "SkeletonMeshPath": "Asset/Char/Player/Char006_Haier/Mesh/Haier_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/Test/GloomyGirl/ABP_Npc_GloomyGirl.ABP_Npc_GloomyGirl_C'",
+    "FootType": "heeledMid"
+  },
+  "10027": {
+    "ModelId": 10027,
+    "SkeletonMeshPath": "Asset/Char/Monster/GR_Baotu/Mesh/GR_Baotu_SM.GR_Baotu_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/TalkMonster/Monster/Baotu/ABP_NPC_Baotu.ABP_NPC_Baotu_C'",
+    "MontageFolder": "/Game/Asset/Char/Monster/GR_Baotu/Animation/Montage/",
+    "MontagePrefix": "GR_Baotu_"
+  },
+  "10028": {
+    "ModelId": 10028,
+    "SkeletonMeshPath": "Asset/Char/Monster/JT_Ranger/Mesh/JT_Ranger_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/TalkMonster/Monster/Baozhakuang/ABP_Baozhakuang.ABP_Baozhakuang_C'",
+    "MontageFolder": "/Game/Asset/Char/Monster/JT_Ranger/Animation/Montage/",
+    "MontagePrefix": "JT_Ranger_",
+    "FootType": "bootHeavy"
+  },
+  "10029": {
+    "ModelId": 10029,
+    "SkeletonMeshPath": "Asset/Char/Monster/JT_Ranger/Mesh/JT_Ranger_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/TalkMonster/Monster/Qizhashi/ABP_Qizhashi.ABP_Qizhashi_C'",
+    "MontageFolder": "/Game/Asset/Char/Monster/JT_Ranger/Animation/Montage/",
+    "MontagePrefix": "JT_Ranger_",
+    "FootType": "bootHeavy"
+  },
+  "10030": {
+    "ModelId": 10030,
+    "SkeletonMeshPath": "Asset/Char/Monster/JT_Ranger/Mesh/JT_Ranger_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/TalkMonster/Monster/Wanjujia/ABP_Wanjujia.ABP_Wanjujia_C'",
+    "MontageFolder": "/Game/Asset/Char/Monster/JT_Ranger/Animation/Montage/",
+    "MontagePrefix": "JT_Ranger_",
+    "FootType": "bootHeavy"
+  },
+  "10031": {
+    "ModelId": 10031,
+    "SkeletonMeshPath": "Asset/Char/Npc/Npc_Bai_Tongxun/Mesh/Tongxunyuan_SM.Tongxunyuan_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/BaiNpc/Bai/ABP_BaiConfident.ABP_BaiConfident_C'",
+    "MontageFolder": "/Game/Asset/Char/Npc/Npc_Bai_Tongxun/Animation/Montage/",
+    "MontagePrefix": "Npc_Bai_Tongxun_",
+    "FootType": "heeledLight"
+  },
+  "10032": {
+    "ModelId": 10032,
+    "SkeletonMeshPath": "Asset/Char/Npc/NPC_Dafu/Mesh/Dafu_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/CharacterNpc/Dafu/ABP_NPC_Dafu.ABP_NPC_Dafu_C'",
+    "MontageFolder": "/Game/Asset/Char/Npc/NPC_Dafu/Animation/Montage/",
+    "MontagePrefix": "Dafu_",
+    "ModelScale": 0.94,
+    "HandScale": 0.9,
+    "FootType": "heeledLight"
+  },
+  "10033": {
+    "ModelId": 10033,
+    "SkeletonMeshPath": "Asset/Char/Npc/Npc_Awa/Mesh/Npc_Awa_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/CharacterNpc/Awa/ABP_NPC_Awa.ABP_NPC_Awa_C'",
+    "MontageFolder": "/Game/Asset/Char/Npc/Npc_Awa/Animation/Montage/",
+    "MontagePrefix": "NPC_Awa_",
+    "FootType": "heeledLight"
+  },
+  "10034": {
+    "ModelId": 10034,
+    "SkeletonMeshPath": "Asset/Char/Npc/Npc_Fuer/Mesh/Npc_Fuer_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/CharacterNpc/Fuer/ABP_NPC_Fuer.ABP_NPC_Fuer_C'",
+    "MontageFolder": "/Game/Asset/Char/Npc/Npc_Awa/Animation/Montage/",
+    "MontagePrefix": "NPC_Awa_",
+    "FootType": "heeledLight"
+  },
+  "10035": {
+    "ModelId": 10035,
+    "SkeletonMeshPath": "Asset/Char/Npc/Npc_Falu/Mesh/Npc_Falu_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/CharacterNpc/Falu/ABP_NPC_Falu.ABP_NPC_Falu_C'",
+    "MontageFolder": "/Game/Asset/Char/Npc/Npc_Falu/Animation/Montage/",
+    "MontagePrefix": "Falu_",
+    "FootType": "heeledLight"
+  },
+  "10036": {
+    "ModelId": 10036,
+    "SkeletonMeshPath": "Asset/Char/Player/Char028_Kajia/Mesh/Kajia01_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/CharacterNpc/Kajia/ABP_NPC_Kajia.ABP_NPC_Kajia_C'",
+    "MontageFolder": "/Game/Asset/Char/Player/Char028_Kajia/Animation/Montage/",
+    "MontagePrefix": "Kajia_",
+    "FootType": "heeledLight"
+  },
+  "10037": {
+    "ModelId": 10037,
+    "SkeletonMeshPath": "Asset/Char/Npc/Npc_Weiji/Mesh/Npc_Weiji_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/CharacterNpc/Weiji/ABP_NPC_Weiji.ABP_NPC_Weiji_C'",
+    "MontageFolder": "/Game/Asset/Char/Npc/Npc_Weiji/Animation/Montage/",
+    "MontagePrefix": "Weiji_",
+    "FootType": "heeledLight"
+  },
+  "10038": {
+    "ModelId": 10038,
+    "CloakMeshPath": "Asset/Char/Player/NPC005_WeitaM/Mesh/WeitaM_Cloak_SM",
+    "SkeletonMeshPath": "Asset/Char/Player/NPC005_WeitaM/Mesh/WeitaM_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/ZhujueNpc/Weita_M/ABP_NPC_Weita_M.ABP_NPC_Weita_M_C'",
+    "MontageFolder": "/Game/Asset/Char/Player/NPC005_WeitaM/Animation/Montage/",
+    "MontagePrefix": "WeitaM_",
+    "ModelScale": 1.02,
+    "HeadScale": 0.98,
+    "FootType": "heeledLight"
+  },
+  "10039": {
+    "ModelId": 10039,
+    "CloakMeshPath": "Asset/Char/Player/Char006_Haier/Mesh/Haier_Cloak_SM.Haier_Cloak_SM",
+    "SkeletonMeshPath": "Asset/Char/Player/Char006_Haier/Mesh/Haier_SM.Haier_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/CharacterNpc/Haier/ABP_NPC_Haier.ABP_NPC_Haier_C'",
+    "MontageFolder": "/Game/Asset/Char/Player/Char006_Haier/Animation/Montage/",
+    "MontagePrefix": "Haier_",
+    "HeadScale": 0.97,
+    "ModelTag": [
+      "NpcLady"
+    ],
+    "FootType": "heeledHeavy"
+  },
+  "10040": {
+    "ModelId": 10040,
+    "SkeletonMeshPath": "Asset/Char/Player/Char028_Kajia/Mesh/Kajia02_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/CharacterNpc/Kajia2/ABP_NPC_Kajia2.ABP_NPC_Kajia2_C'",
+    "MontageFolder": "/Game/Asset/Char/Player/Char028_Kajia/Animation/Montage/",
+    "MontagePrefix": "Kajia_",
+    "FootType": "heeledLight"
+  },
+  "10041": {
+    "ModelId": 10041,
+    "MontageFolder": "/Game/Asset/Char/Player/Char010_Saiqi/Animation/Montage/",
+    "MontagePrefix": "Saiqi_",
+    "FootType": "heeledMid"
+  },
+  "10042": {
+    "ModelId": 10042,
+    "SkeletonMeshPath": "Asset/Char/Monster/Boss01_Saiqi01/Mesh/BossSaiqi_SM.BossSaiqi_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/CharacterNpc/Saiqi/ABP_NPC_saiqiboss2.ABP_NPC_saiqiboss2'",
+    "MontageFolder": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/",
+    "MontagePrefix": "BossSaiqi_"
+  },
+  "10043": {
+    "ModelId": 10043,
+    "SkeletonMeshPath": "Asset/Char/Player/Char020_Lise/Mesh/Lise_SM.Lise_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/CharacterNpc/Lise/ABP_NPC_Lise.ABP_NPC_Lise'",
+    "MontageFolder": "/Game/Asset/Char/Player/Char020_Lise/Animation/Montage/",
+    "MontagePrefix": "Lise_"
+  },
+  "10044": {
+    "ModelId": 10044,
+    "SkeletonMeshPath": "Asset/Scene/common/Mesh/SM_Com_Bag02.SM_Com_Bag02"
+  },
+  "10045": {
+    "ModelId": 10045,
+    "SkeletonMeshPath": "Asset/Char/Player/Char024_Maer/Mesh/Maer_SM.Maer_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/CharacterNpc/Maerjie/ABP_NPC_Maer.ABP_NPC_Maer_C'",
+    "MontageFolder": "/Game/Asset/Char/Player/Char024_Maer/Animation/Montage/",
+    "MontagePrefix": "Maer_",
+    "StandId": "006",
+    "HitMontageRule": "RoleDefault",
+    "DamageFXSockets": [
+      "neck_01",
+      "spine_01",
+      "spine_02",
+      "upperarm_l",
+      "upperarm_r"
+    ],
+    "AssistSockets": [
+      "neck_01",
+      "spine_01",
+      "spine_02",
+      "upperarm_l",
+      "upperarm_r"
+    ],
+    "RunStopStartTime": 0.23,
+    "ModelScale": 0.95,
+    "HeadScale": 0.95,
+    "FootType": "heeledMid"
+  },
+  "10046": {
+    "ModelId": 10046,
+    "SkeletonMeshPath": "Asset/Scene/EN000_Home/Mesh/SM_Home_Box01.SM_Home_Box01"
+  },
+  "10047": {
+    "ModelId": 10047,
+    "SkeletonMeshPath": "Asset/Scene/EN000_Home/Mesh/Prop/Bar_Canju03_candao_SM.Bar_Canju03_candao_SM"
+  },
+  "10048": {
+    "ModelId": 10048,
+    "SkeletonMeshPath": "Asset/Char/Npc/NPC_Enli/Mesh/NPC_Enli_SM.NPC_Enli_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/Custom/Base/ABP_ZNM_Custom.ABP_ZNM_Custom_C'",
+    "MontageFolder": "/Game/Asset/Char/Npc/Npc_Custom/CM_Zhongnian/Animation/Montage/",
+    "MontagePrefix": "Npc_Zhongnian_M_"
+  },
+  "10049": {
+    "ModelId": 10049,
+    "SkeletonMeshPath": "Asset/Char/Monster/NE_Villiger/Mesh/NE_Villiger01_SM.NE_Villiger01_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/ABP_NPC_Haer_Body.ABP_NPC_Haer_Body'",
+    "MontageFolder": "/Game/Asset/Char/Monster/NE_Villiger/Animation/Montage/",
+    "MontagePrefix": "NE_Villiger_",
+    "BehaviorMontageGroupIdList": [
+      9501
+    ],
+    "HitMontageRule": "MonNEHaer",
+    "DamageFXSockets": [
+      "hit1"
+    ],
+    "AssistSockets": [
+      "hit1"
+    ],
+    "BehaviorMontageGroupId": 9501
+  },
+  "10050": {
+    "ModelId": 10050,
+    "SkeletonMeshPath": "Asset/Char/Npc/NPC_Dafu/Mesh/Dafu_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/ZhujueNpc/Weita_M/ABP_NPC_Weita_M.ABP_NPC_Weita_M_C'",
+    "MontageFolder": "/Game/Asset/Char/Player/NPC005_WeitaM/Animation/Montage/",
+    "MontagePrefix": "WeitaM_",
+    "HandScale": 0.9,
+    "FootType": "heeledLight"
+  },
+  "10051": {
+    "ModelId": 10051,
+    "SkeletonMeshPath": "Asset/Char/Npc/NPC_JT_Mec/Mesh/NPC_JT_Mec01_SM.NPC_JT_Mec01_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/NPC_JT_Mec/ABP_NPC_JTMec01.ABP_NPC_JTMec01'",
+    "MontageFolder": "/Game/Asset/Char/Npc/NPC_JT_Mec/Animation/Montage/",
+    "MontagePrefix": "NPC_JTMec01_",
+    "ModelScale": 0.5
+  },
+  "30001": {
+    "ModelId": 30001
+  },
+  "30002": {
+    "ModelId": 30002,
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/Custom/Base/ABP_LNM_Custom.ABP_LNM_Custom_C'",
+    "MontageFolder": "/Game/Asset/Char/Npc/Npc_Custom/CM_Laonian/Animation/Montage/",
+    "MontagePrefix": "Npc_Laonian_M_",
+    "CMNPCDefaultSpeakOral": "AnimMontage'/Game/Asset/Char/Npc/Npc_Custom/CM_Laonian/Animation/Montage/Interactive/Npc_Laonian_Speak_Talk01_Montage.Npc_Laonian_Speak_Talk01_Montage'"
+  },
+  "30003": {
+    "ModelId": 30003,
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/Custom/Base/ABP_LNF_Custom.ABP_LNF_Custom_C'",
+    "MontageFolder": "/Game/Asset/Char/Npc/Npc_Custom/CM_Laonian/Animation/Montage/",
+    "MontagePrefix": "Npc_Laonian_F_",
+    "FootType": "heeledMid"
+  },
+  "30004": {
+    "ModelId": 30004,
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/Custom/Base/ABP_ZNM_Custom.ABP_ZNM_Custom_C'",
+    "MontageFolder": "/Game/Asset/Char/Npc/Npc_Custom/CM_Zhongnian/Animation/Montage/",
+    "MontagePrefix": "Npc_Zhongnian_M_",
+    "FootType": "bootHeavy",
+    "CMNPCDefaultSpeakOral": "AnimMontage'/Game/Asset/Char/Npc/Npc_Custom/CM_Laonian/Animation/Montage/Interactive/Npc_Laonian_Speak_Talk01_Montage.Npc_Laonian_Speak_Talk01_Montage'"
+  },
+  "30005": {
+    "ModelId": 30005,
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/Custom/Base/ABP_ZNF_Custom.ABP_ZNF_Custom_C'",
+    "MontageFolder": "/Game/Asset/Char/Npc/Npc_Custom/CM_Zhongnian/Animation/Montage/",
+    "MontagePrefix": "Npc_Zhongnian_F_",
+    "FootType": "heeledMid",
+    "CMNPCDefaultSpeakOral": "AnimMontage'/Game/Asset/Char/Npc/Npc_Custom/CM_Laonian/Animation/Montage/Interactive/Npc_Laonian_Speak_Talk01_Montage.Npc_Laonian_Speak_Talk01_Montage'"
+  },
+  "30006": {
+    "ModelId": 30006,
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/Custom/Base/ABP_QNM_Custom.ABP_QNM_Custom_C'",
+    "MontageFolder": "/Game/Asset/Char/Npc/Npc_Custom/CM_Qingnian/Animation/Montage/",
+    "MontagePrefix": "Npc_Qingnian_M_",
+    "FootType": "bootHeavy",
+    "CMNPCDefaultSpeakOral": "AnimMontage'/Game/Asset/Char/Npc/Npc_Custom/CM_Laonian/Animation/Montage/Interactive/Npc_Laonian_Speak_Talk01_Montage.Npc_Laonian_Speak_Talk01_Montage'"
+  },
+  "30007": {
+    "ModelId": 30007,
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/Custom/Base/ABP_QNF_Custom.ABP_QNF_Custom_C'",
+    "MontageFolder": "/Game/Asset/Char/Npc/Npc_Custom/CM_Qingnian/Animation/Montage/",
+    "MontagePrefix": "Npc_Qingnian_F_",
+    "FootType": "heeledMid",
+    "CMNPCDefaultSpeakOral": "AnimMontage'/Game/Asset/Char/Npc/Npc_Custom/CM_Laonian/Animation/Montage/Interactive/Npc_Laonian_Speak_Talk01_Montage.Npc_Laonian_Speak_Talk01_Montage'"
+  },
+  "30008": {
+    "ModelId": 30008,
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/Custom/Base/ABP_YN_Custom.ABP_YN_Custom_C'",
+    "MontageFolder": "/Game/Asset/Char/Npc/Npc_Custom/CM_Younian/Animation/Montage/",
+    "MontagePrefix": "Npc_Younian_"
+  },
+  "30009": {
+    "ModelId": 30009,
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/Custom/Base/ABP_YN_Custom.ABP_YN_Custom_C'",
+    "MontageFolder": "/Game/Asset/Char/Npc/Npc_Custom/CM_Younian/Animation/Montage/",
+    "MontagePrefix": "Npc_Younian_",
+    "FootType": "heeledLight"
+  },
+  "30010": {
+    "ModelId": 30010,
+    "SkeletonMeshPath": "Asset/Char/Npc/Npc_Bai_Dandan/Mesh/Npc_Bai_DD_SM"
+  },
+  "30011": {
+    "ModelId": 30011,
+    "SkeletonMeshPath": "Asset/Char/Monster/JT_Pizhuo/Mesh/JT_Pizhuo_SM.JT_Pizhuo_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/TalkMonster/ABP_NPC_JT_Pizhuo_BattlePose.ABP_NPC_JT_Pizhuo_BattlePose_C'",
+    "MontageFolder": "/Game/Asset/Char/Monster/JT_Pizhuo/Animation/Montage/",
+    "MontagePrefix": "JT_Pizhuo_",
+    "FootType": "bootHeavy"
+  },
+  "30012": {
+    "ModelId": 30012,
+    "SkeletonMeshPath": "Asset/Char/Monster/JT_Pizhuo/Mesh/Jt_Pizhuo_SM",
+    "MontageFolder": "/Game/Asset/Char/Monster/Common/Animation/JT_Mid_M/Montage/NPC_Inter/",
+    "MontagePrefix": "JT_Mid_M_"
+  },
+  "30013": {
+    "ModelId": 30013,
+    "SkeletonMeshPath": "Asset/Char/Monster/JT_Juji/Mesh/JT_Juji_SM",
+    "MontageFolder": "/Game/Asset/Char/Monster/Common/Animation/JT_Mid_F/Montage/NPC_Inter/",
+    "MontagePrefix": "JT_Mid_F_"
+  },
+  "30014": {
+    "ModelId": 30014,
+    "SkeletonMeshPath": "Asset/Char/Monster/JT_Zhihui/Mesh/JT_Zhihui_SM",
+    "MontageFolder": "/Game/Asset/Char/Monster/JT_Zhihui/Animation/Montage/NPC_Inter/",
+    "MontagePrefix": "JT_Zhihui_"
+  },
+  "30015": {
+    "ModelId": 30015
+  },
+  "30016": {
+    "ModelId": 30016,
+    "SkeletonMeshPath": "Asset/Char/Npc/Animal/Animal01_Cat/Mesh/Npc_Cat01B_SM",
+    "MontageFolder": "/Game/Asset/Char/Npc/Animal/Animal01_Cat/Animation/Montage/",
+    "MontagePrefix": "Npc_Cat01_"
+  },
+  "30017": {
+    "ModelId": 30017,
+    "SkeletonMeshPath": "Asset/Char/Monster/JT_Juji/Mesh/JT_Juji_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/TalkMonster/ABP_NPC_JT_Mid_F_2.ABP_NPC_JT_Mid_F_2_C'",
+    "MontageFolder": "/Game/Asset/Char/Monster/Common/Animation/JT_Mid_F/Montage/NPC_Inter/",
+    "MontagePrefix": "JT_Mid_F_"
+  },
+  "81101": {
+    "ModelId": 81101,
+    "CloakMeshPath": "Asset/Char/Player/Char001_Heitao_J/Mesh/Heitao_Cloak_SM.Heitao_Cloak_SM",
+    "SkeletonMeshPath": "Asset/Char/Player/Char001_Heitao_J/Mesh/HeiTao_SM.HeiTao_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/CharacterNpc/HeiTao/ABP_NPC_Heitao.ABP_NPC_Heitao_C'",
+    "MontageFolder": "/Game/Asset/Char/Player/Char001_Heitao_J/Animation/Montage/",
+    "MontagePrefix": "Heitao_",
+    "DamageFXSockets": [
+      "hit1",
+      "hit2"
+    ],
+    "AssistSockets": [
+      "hit1",
+      "hit2"
+    ],
+    "HeadScale": 0.96,
+    "ModelTag": [
+      "NpcGirl"
+    ],
+    "FootType": "heeledMid"
+  },
+  "81102": {
+    "ModelId": 81102,
+    "SkeletonMeshPath": "Asset/Char/Player/Char018_Aote/Mesh/Aote_SM.Aote_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/CharacterNpc/OutSide/ABP_NPC_Aote.ABP_NPC_Aote_C'",
+    "MontageFolder": "/Game/Asset/Char/Player/Char018_Aote/Animation/Montage/",
+    "MontagePrefix": "Aote_",
+    "ModelTag": [
+      "NpcMan"
+    ],
+    "FootType": "bootHeavy"
+  },
+  "81801": {
+    "ModelId": 81801,
+    "SkeletonMeshPath": "Asset/Char/Player/Char019_Feina/Mesh/Feina_SM.Feina_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/CharacterNpc/Feena/ABP_NPC_Feina.ABP_NPC_Feina_C'",
+    "MontageFolder": "/Game/Asset/Char/Player/Char019_Feina/Animation/Montage/",
+    "MontagePrefix": "Feina_",
+    "ModelScale": 0.9,
+    "ModelTag": [
+      "NpcGirl"
+    ],
+    "FootType": "heeledLight"
+  },
+  "82101": {
+    "ModelId": 82101,
+    "CloakMeshPath": "Asset/Char/Player/Char005_Shuimu/Mesh/Shuimu_Cloak_SM.Shuimu_Cloak_SM",
+    "SkeletonMeshPath": "Asset/Char/Player/Char005_Shuimu/Mesh/Shuimu_SM.Shuimu_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/CharacterNpc/Shuimu/ABP_NPC_Shuimu.ABP_NPC_Shuimu_C'",
+    "MontageFolder": "/Game/Asset/Char/Player/Char005_Shuimu/Animation/Montage/",
+    "MontagePrefix": "ShuiMu_",
+    "ModelScale": 1.03,
+    "HeadScale": 0.98,
+    "ModelTag": [
+      "NpcLady"
+    ],
+    "FootType": "heeledMid"
+  },
+  "82301": {
+    "ModelId": 82301,
+    "SkeletonMeshPath": "Asset/Char/Player/Char004_Zhangyu/Mesh/Zhangyu_SM.Zhangyu_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/CharacterNpc/Zhangyu/ABP_NPC_Zhangyu.ABP_NPC_Zhangyu_C'",
+    "MontageFolder": "/Game/Asset/Char/Player/Char004_Zhangyu/Animation/Montage/",
+    "MontagePrefix": "Zhangyu_",
+    "HeadScale": 0.96,
+    "ModelTag": [
+      "NpcLoli"
+    ],
+    "FootType": "heeledLight"
+  },
+  "82401": {
+    "ModelId": 82401,
+    "SkeletonMeshPath": "Asset/Char/Player/Char015_Baiheng/Mesh/Baiheng_SM.Baiheng_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/CharacterNpc/Baiheng/ABP_NPC_Baiheng.ABP_NPC_Baiheng_C'",
+    "MontageFolder": "/Game/Asset/Char/Player/Char015_Baiheng/Animation/Montage/",
+    "MontagePrefix": "Baiheng_",
+    "HeadScale": 1.01,
+    "ModelTag": [
+      "NpcLady"
+    ],
+    "FootType": "heeledHeavy"
+  },
+  "83101": {
+    "ModelId": 83101,
+    "SkeletonMeshPath": "Asset/Char/Player/Char011_Linen/Mesh/Linen_SM.Linen_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/CharacterNpc/Linen/ABP_NPC_Linen.ABP_NPC_Linen'",
+    "MontageFolder": "/Game/Asset/Char/Player/Char011_Linen/Animation/Montage/",
+    "MontagePrefix": "Linen_",
+    "ModelTag": [
+      "NpcLady"
+    ],
+    "FootType": "heeledHeavy"
+  },
+  "83102": {
+    "ModelId": 83102,
+    "SkeletonMeshPath": "Asset/Char/Player/Char023_Xier/Mesh/Xier_SM.Xier_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/CharacterNpc/Xier/ABP_NPC_Xier.ABP_NPC_Xier_C'",
+    "MontageFolder": "/Game/Asset/Char/Player/Char023_Xier/Animation/Montage/",
+    "MontagePrefix": "Xier_",
+    "HeadScale": 1.07,
+    "ModelTag": [
+      "NpcLady"
+    ],
+    "FootType": "heeledMid"
+  },
+  "83103": {
+    "ModelId": 83103,
+    "SkeletonMeshPath": "Asset/Char/Player/Char017_Yeer/Mesh/Yeer_SM.Yeer_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/CharacterNpc/Yeer/ABP_NPC_Yeer.ABP_NPC_Yeer_C'",
+    "MontageFolder": "/Game/Asset/Char/Player/Char017_Yeer/Animation/Montage/",
+    "MontagePrefix": "Yeer_",
+    "ModelScale": 0.85,
+    "ModelTag": [
+      "NpcLoli"
+    ],
+    "FootType": "heeledLight"
+  },
+  "83201": {
+    "ModelId": 83201,
+    "CloakMeshPath": "Asset/Char/Player/Char006_Haier/Mesh/Haier_Cloak_SM.Haier_Cloak_SM",
+    "SkeletonMeshPath": "Asset/Char/Player/Char006_Haier/Mesh/Haier_SM.Haier_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/CharacterNpc/Haier/ABP_NPC_Haier.ABP_NPC_Haier_C'",
+    "MontageFolder": "/Game/Asset/Char/Player/Char006_Haier/Animation/Montage/",
+    "MontagePrefix": "Haier_",
+    "HeadScale": 0.97,
+    "ModelTag": [
+      "NpcLady"
+    ],
+    "FootType": "heeledHeavy"
+  },
+  "83301": {
+    "ModelId": 83301,
+    "SkeletonMeshPath": "Asset/Char/Player/Char024_Maer/Mesh/Maer_SM.Maer_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/CharacterNpc/Maerjie/ABP_NPC_Maer.ABP_NPC_Maer_C'",
+    "MontageFolder": "/Game/Asset/Char/Player/Char024_Maer/Animation/Montage/",
+    "MontagePrefix": "Maer_",
+    "ModelScale": 0.95,
+    "HeadScale": 0.95,
+    "ModelTag": [
+      "NpcGirl"
+    ],
+    "FootType": "heeledMid"
+  },
+  "84101": {
+    "ModelId": 84101,
+    "SkeletonMeshPath": "Asset/Char/Player/Char007_Baonu/Mesh/Baonu_SM.Baonu_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/CharacterNpc/Baonu/ABP_NPC_Baonu.ABP_NPC_Baonu_C'",
+    "MontageFolder": "/Game/Asset/Char/Player/Char007_Baonu/Animation/Montage/",
+    "MontagePrefix": "Baonu_",
+    "ModelTag": [
+      "NpcLoli"
+    ],
+    "FootType": "heeledLight"
+  },
+  "84201": {
+    "ModelId": 84201,
+    "SkeletonMeshPath": "Asset/Char/Player/Char008_Yuming/Mesh/Yuming_SM.Yuming_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/CharacterNpc/Yuming/ABP_NPC_Yuming.ABP_NPC_Yuming_C'",
+    "MontageFolder": "/Game/Asset/Char/Player/Char008_Yuming/Animation/Montage/",
+    "MontagePrefix": "Yuming_",
+    "ModelTag": [
+      "NpcMan"
+    ],
+    "FootType": "bootHeavy"
+  },
+  "84202": {
+    "ModelId": 84202,
+    "SkeletonMeshPath": "Asset/Char/Player/Char012_Landi/Mesh/Landi_SM.Landi_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/CharacterNpc/Landi/ABP_NPC_Landi.ABP_NPC_Landi_C'",
+    "MontageFolder": "/Game/Asset/Char/Player/Char012_Landi/Animation/Montage/",
+    "MontagePrefix": "Landi_",
+    "ModelTag": [
+      "NpcMan"
+    ],
+    "FootType": "bootHeavy"
+  },
+  "84301": {
+    "ModelId": 84301,
+    "SkeletonMeshPath": "Asset/Char/Player/Char009_Xibi/Mesh/Xibi_SM.Xibi_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/CharacterNpc/Xibi/ABP_NPC_Xibi.ABP_NPC_Xibi_C'",
+    "MontageFolder": "/Game/Asset/Char/Player/Char009_Xibi/Animation/Montage/",
+    "MontagePrefix": "Xibi_",
+    "ModelTag": [
+      "NpcLady"
+    ],
+    "FootType": "heeledHeavy"
+  },
+  "85101": {
+    "ModelId": 85101,
+    "SkeletonMeshPath": "Asset/Char/Player/Char021_Songlu/Mesh/Songlu_SM.Songlu_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/CharacterNpc/Songlu/ABP_NPC_Songlu.ABP_NPC_Songlu_C'",
+    "MontageFolder": "/Game/Asset/Char/Player/Char021_Songlu/Animation/Montage/",
+    "MontagePrefix": "Songlu_",
+    "HeadScale": 0.98,
+    "ModelTag": [
+      "NpcLoli"
+    ],
+    "FootType": "heeledLight"
+  },
+  "85301": {
+    "ModelId": 85301,
+    "SkeletonMeshPath": "Asset/Char/Player/Char010_Saiqi/Mesh/Saiqi_SM.Saiqi_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/CharacterNpc/Saiqi/ABP_NPC_Saiqi.ABP_NPC_Saiqi_C'",
+    "MontageFolder": "/Game/Asset/Char/Player/Char010_Saiqi/Animation/Montage/",
+    "MontagePrefix": "Saiqi_",
+    "HeadScale": 0.98,
+    "ModelTag": [
+      "NpcGirl"
+    ],
+    "FootType": "heeledMid"
+  },
+  "90001": {
+    "ModelId": 90001,
+    "SkeletonMeshPath": "Asset/Char/Npc/Npc_Bai_Duanzao/Mesh/Bai_Duanzao_SM.Bai_Duanzao_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/BaiNpc/Bai_Duanzao/ABP_Bai_Duanzao.ABP_Bai_Duanzao_C'",
+    "MontageFolder": "/Game/Asset/Char/Npc/Npc_Bai_Duanzao/Animation/Montage/",
+    "MontagePrefix": "Npc_Bai_Duanzao_",
+    "HeadScale": 0.97,
+    "FootType": "heeledLight"
+  },
+  "90002": {
+    "ModelId": 90002,
+    "SkeletonMeshPath": "Asset/Char/Npc/Npc_Bai_Shangdian/Mesh/Bai_Shangdian_SM.Bai_Shangdian_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/BaiNpc/Bai_Shangdian/ABP_Bai_Shangdian.ABP_Bai_Shangdian_C'",
+    "MontageFolder": "/Game/Asset/Char/Npc/Npc_Bai_Shangdian/Animation/Montage/",
+    "MontagePrefix": "Npc_Bai_Shangdian_",
+    "HeadScale": 0.97,
+    "FootType": "heeledLight"
+  },
+  "90003": {
+    "ModelId": 90003,
+    "SkeletonMeshPath": "Asset/Char/Npc/Npc_Bai_Tongxun/Mesh/Tongxunyuan_SM.Tongxunyuan_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/BaiNpc/Bai_Ditu/ABP_Bai_Ditu.ABP_Bai_Ditu_C'",
+    "MontageFolder": "/Game/Asset/Char/Npc/Npc_Bai_Tongxun/Animation/Montage/",
+    "MontagePrefix": "Npc_Bai_Tongxun_",
+    "HeadScale": 0.97,
+    "FootType": "heeledLight"
+  },
+  "90004": {
+    "ModelId": 90004,
+    "SkeletonMeshPath": "Asset/Char/Npc/Npc_Bai_Beibao/Mesh/Bai_Beibao_SM.Bai_Beibao_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/BaiNpc/Bai_Beibao/ABP_Bai_Beibao.ABP_Bai_Beibao_C'",
+    "MontageFolder": "/Game/Asset/Char/Npc/Npc_Bai_Tongxun/Animation/Montage/",
+    "MontagePrefix": "Npc_Bai_Tongxun_",
+    "FootType": "heeledLight"
+  },
+  "90005": {
+    "ModelId": 90005
+  },
+  "90006": {
+    "ModelId": 90006
+  },
+  "91101": {
+    "ModelId": 91101,
+    "CloakMeshPath": "Asset/Char/Player/Char001_Heitao_J/Mesh/Heitao_Cloak_SM.Heitao_Cloak_SM",
+    "SkeletonMeshPath": "Asset/Char/Player/Char001_Heitao_J/Mesh/HeiTao_SM.HeiTao_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/CharacterNpc/HeiTao/ABP_NPC_Heitao.ABP_NPC_Heitao_C'",
+    "MontageFolder": "/Game/Asset/Char/Player/Char001_Heitao_J/Animation/Montage/",
+    "MontagePrefix": "Heitao_",
+    "FootType": "heeledMid"
+  },
+  "92201": {
+    "ModelId": 92201,
+    "SkeletonMeshPath": "Asset/Scene/EN002_Imperial/Ailan/Mesh/SM_Sew_Dev02B.SM_Sew_Dev02B"
+  },
+  "92601": {
+    "ModelId": 92601,
+    "SkeletonMeshPath": "Asset/Scene/common/Mesh/SM_Com_But01B.SM_Com_But01B"
+  },
+  "92602": {
+    "ModelId": 92602,
+    "SkeletonMeshPath": "Asset/Scene/common/InterProps/Mesh/SM_IP_Com_Nuts01.SM_IP_Com_Nuts01"
+  },
+  "92603": {
+    "ModelId": 92603,
+    "SkeletonMeshPath": "Asset/Scene/common/Mesh/SM_Com_She01A.SM_Com_She01A"
+  },
+  "92604": {
+    "ModelId": 92604,
+    "SkeletonMeshPath": "Asset/Scene/common/Mesh/SM_Com_Fou01.SM_Com_Fou01"
+  },
+  "92605": {
+    "ModelId": 92605,
+    "SkeletonMeshPath": "Asset/Scene/common/Mesh/SM_Com_But01A.SM_Com_But01A"
+  },
+  "92606": {
+    "ModelId": 92606,
+    "SkeletonMeshPath": "Asset/Scene/common/InterProps/Mesh/SM_IP_Com_Ore01.SM_IP_Com_Ore01"
+  },
+  "92607": {
+    "ModelId": 92607,
+    "SkeletonMeshPath": "Asset/Scene/common/InterProps/Mesh/SM_IP_Com_Rock01.SM_IP_Com_Rock01"
+  },
+  "92608": {
+    "ModelId": 92608,
+    "SkeletonMeshPath": "Asset/Scene/common/Mesh/SM_Com_Gra01.SM_Com_Gra01"
+  },
+  "92609": {
+    "ModelId": 92609,
+    "SkeletonMeshPath": "Asset/Scene/EN002_Imperial/Quarry/Mesh/SM_Quarry_Jar01.SM_Quarry_Jar01"
+  },
+  "92610": {
+    "ModelId": 92610,
+    "SkeletonMeshPath": "Asset/Scene/common/Mesh/SM_Com_Mus01.SM_Com_Mus01"
+  },
+  "110101": {
+    "ModelId": 110101,
+    "SkeletonMeshPath": "Asset/Char/Player/Char001_Heitao_J/Mesh/Heitao_WP02_SM.Heitao_WP02_SM",
+    "StandId": "002"
+  },
+  "110102": {
+    "ModelId": 110102,
+    "SkeletonMeshPath": "Asset/Char/Player/Char001_Heitao_J/Mesh/Heitao_WP01_SM.Heitao_WP01_SM"
+  },
+  "180101": {
+    "ModelId": 180101,
+    "SkeletonMeshPath": "Asset/Char/Player/Char019_Feina/Mesh/Feina_Part01_SM.Feina_Part01_SM"
+  },
+  "180121": {
+    "ModelId": 180121,
+    "SkeletonMeshPath": "Asset/Char/Player/Char019_Feina/Mesh/Feina_Sum01_SM.Feina_Sum01_SM"
+  },
+  "180122": {
+    "ModelId": 180122,
+    "SkeletonMeshPath": "Asset/Char/Player/Char019_Feina/Mesh/Feina_Sum04_SM.Feina_Sum04_SM"
+  },
+  "180123": {
+    "ModelId": 180123,
+    "SkeletonMeshPath": "Asset/Char/Player/Char019_Feina/Mesh/Feina_Sum03_SM.Feina_Sum03_SM"
+  },
+  "180124": {
+    "ModelId": 180124,
+    "SkeletonMeshPath": "Asset/Char/Player/Char019_Feina/Mesh/Feina_Sum02_SM.Feina_Sum02_SM"
+  },
+  "210101": {
+    "ModelId": 210101,
+    "SkeletonMeshPath": "Asset/Char/Player/Char005_Shuimu/Mesh/Shuimu_Summon_SM.Shuimu_Summon_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Player/Shuimu/ABP_Shuimu_Summoned.ABP_Shuimu_Summoned_C'",
+    "MontageFolder": "/Game/Asset/Char/Player/Char005_Shuimu/Animation/Summon/Montage/",
+    "MontagePrefix": "Shuimu_Summon_",
+    "BirthTime": -1,
+    "HitMontageRule": "OnlyDieNoDissolve"
+  },
+  "230101": {
+    "ModelId": 230101,
+    "SkeletonMeshPath": "Asset/Char/Player/Char004_Zhangyu/Mesh/Zhangyu_Part03_SM.Zhangyu_Part03_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Player/Zhangyu/ABP_Zhangyu_Summoned.ABP_Zhangyu_Summoned_C'",
+    "MontageFolder": "/Game/Asset/Char/Player/Char004_Zhangyu/Animation/Tentacle/Montage/",
+    "MontagePrefix": "Zhangyu_Tentacle_",
+    "BirthTime": -1,
+    "HitMontageRule": "OnlyDieWithDissolve"
+  },
+  "240101": {
+    "ModelId": 240101,
+    "SkeletonMeshPath": "Asset/Char/Player/Char015_Baiheng/Mesh/Baiheng_Summon_SM.Baiheng_Summon_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Player/Baiheng/ABP_Baiheng_Summoned.ABP_Baiheng_Summoned_C'",
+    "MontageFolder": "/Game/Asset/Char/Player/Char015_Baiheng/Animation/Summon/Montage/",
+    "MontagePrefix": "Baiheng_Summon_",
+    "HitMontageRule": "OnlyDieWithDissolve"
+  },
+  "240102": {
+    "ModelId": 240102,
+    "SkeletonMeshPath": "Asset/Char/Player/Char015_Baiheng/Mesh/Baiheng_Part01_SM.Baiheng_Part01_SM"
+  },
+  "310101": {
+    "ModelId": 310101,
+    "SkeletonMeshPath": "Asset/Char/Player/Char011_Linen/Mesh/Linen_WP01_SM.Linen_WP01_SM",
+    "StandId": "003"
+  },
+  "310102": {
+    "ModelId": 310102,
+    "SkeletonMeshPath": "Asset/Char/Player/Char011_Linen/Mesh/Linen_WP02_SM.Linen_WP02_SM",
+    "StandId": "003"
+  },
+  "310103": {
+    "ModelId": 310103,
+    "SkeletonMeshPath": "Asset/Char/Player/Char011_Linen/Mesh/Linen_Part01_SM.Linen_Part01_SM"
+  },
+  "310201": {
+    "ModelId": 310201,
+    "SkeletonMeshPath": "Asset/Char/Player/Char023_Xier/Mesh/Xier_WP01_SM.Xier_WP01_SM",
+    "StandId": "003"
+  },
+  "310202": {
+    "ModelId": 310202,
+    "SkeletonMeshPath": "Asset/Char/Player/Char023_Xier/Mesh/Xier_WP03_SM.Xier_WP03_SM",
+    "StandId": "003"
+  },
+  "310203": {
+    "ModelId": 310203,
+    "SkeletonMeshPath": "Asset/Char/Player/Char023_Xier/Mesh/Xier_Part01_SM.Xier_Part01_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Player/Xier/ABP_Xier_Summoned.ABP_Xier_Summoned_C'",
+    "StandId": "003"
+  },
+  "310204": {
+    "ModelId": 310204,
+    "SkeletonMeshPath": "Asset/Char/Player/Char023_Xier/Mesh/Xier_Part05_SM.Xier_Part05_SM"
+  },
+  "310205": {
+    "ModelId": 310205,
+    "SkeletonMeshPath": "Asset/Char/Player/Char023_Xier/Mesh/Xier_Part07_SM.Xier_Part07_SM"
+  },
+  "310206": {
+    "ModelId": 310206,
+    "SkeletonMeshPath": "Asset/Char/Player/Char023_Xier/Mesh/Xier_Part02_SM.Xier_Part02_SM"
+  },
+  "310207": {
+    "ModelId": 310207,
+    "SkeletonMeshPath": "Asset/Char/Player/Char023_Xier/Mesh/Xier_Part04_SM.Xier_Part04_SM"
+  },
+  "310208": {
+    "ModelId": 310208,
+    "SkeletonMeshPath": "Asset/Char/Player/Char023_Xier/Mesh/Xier_Part03_SM.Xier_Part03_SM"
+  },
+  "310301": {
+    "ModelId": 310301,
+    "SkeletonMeshPath": "Asset/Char/Player/Char017_Yeer/Mesh/Yeer_Sum_SM.Yeer_Sum_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Player/Yeer/ABP_Yeer_Summoned.ABP_Yeer_Summoned_C'",
+    "MontageFolder": "/Game/Asset/Char/Player/Char017_Yeer/Animation/Summon/Montage/",
+    "MontagePrefix": "Yeer_Summon_",
+    "BirthTime": -1
+  },
+  "310303": {
+    "ModelId": 310303,
+    "SkeletonMeshPath": "Asset/Char/Player/Char017_Yeer/Mesh/Yeer_Sum_SM.Yeer_Sum_SM"
+  },
+  "310304": {
+    "ModelId": 310304,
+    "SkeletonMeshPath": "Asset/Char/Player/Char017_Yeer/Mesh/Yeer_Sum02_SM.Yeer_Sum02_SM"
+  },
+  "330101": {
+    "ModelId": 330101,
+    "SkeletonMeshPath": "Asset/Char/Player/Char024_Maer/Mesh/Maer_Part01_SM.Maer_Part01_SM"
+  },
+  "410101": {
+    "ModelId": 410101,
+    "SkeletonMeshPath": "Asset/Char/Player/Char007_Baonu/Mesh/Baonu_WP_SM.Baonu_WP_SM",
+    "StandId": "005"
+  },
+  "410102": {
+    "ModelId": 410102,
+    "SkeletonMeshPath": "Asset/Char/Player/Char007_Baonu/Mesh/Baonu_Summon_SM.Baonu_Summon_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Player/Baonu/ABP_Baonu_Summon.ABP_Baonu_Summon_C'",
+    "MontageFolder": "/Game/Asset/Char/Player/Char007_Baonu/Animation/Summon/Montage/",
+    "MontagePrefix": "Baonu_Summon_",
+    "BirthTime": -1,
+    "HitMontageRule": "OnlyDieNoDissolve"
+  },
+  "420101": {
+    "ModelId": 420101,
+    "SkeletonMeshPath": "Asset/Char/Player/Char008_Yuming/Mesh/Yuming_Summon_SM.Yuming_Summon_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Player/Yuming/ABP_Yuming_Summoned.ABP_Yuming_Summoned_C'",
+    "MontageFolder": "/Game/Asset/Char/Player/Char008_Yuming/Animation/Summon/Montage/",
+    "MontagePrefix": "Yuming_Summon_",
+    "BirthTime": -1
+  },
+  "420201": {
+    "ModelId": 420201,
+    "SkeletonMeshPath": "Asset/Char/Player/Char012_Landi/Mesh/Landi_Part01_SM.Landi_Part01_SM"
+  },
+  "420202": {
+    "ModelId": 420202,
+    "SkeletonMeshPath": "Asset/Char/Player/Char012_Landi/Mesh/Landi_Part02_SM.Landi_Part02_SM"
+  },
+  "420203": {
+    "ModelId": 420203,
+    "SkeletonMeshPath": "Asset/Char/Player/Char012_Landi/Mesh/Landi_Part03_SM.Landi_Part03_SM"
+  },
+  "510101": {
+    "ModelId": 510101,
+    "SkeletonMeshPath": "Asset/Char/Player/Char021_Songlu/Mesh/Songlu_Summon_SM.Songlu_Summon_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Player/Songlu/ABP_Songlu_Summoned.ABP_Songlu_Summoned_C'",
+    "MontageFolder": "/Game/Asset/Char/Player/Char021_Songlu/Animation/Summon/Montage/",
+    "MontagePrefix": "Songlu_Summon_",
+    "BirthTime": -1
+  },
+  "530101": {
+    "ModelId": 530101,
+    "SkeletonMeshPath": "Asset/Weapon/Funnel/Funnel_Shengyi/Mesh/Funnel_Shengyi.Funnel_Shengyi",
+    "StandId": "001",
+    "ModelScale": 0.0001
+  },
+  "530102": {
+    "ModelId": 530102,
+    "SkeletonMeshPath": "Asset/Char/Player/Char010_Saiqi/Mesh/Saiqi_Part02_SM.Saiqi_Part02_SM"
+  },
+  "600101": {
+    "ModelId": 600101,
+    "SkeletonMeshPath": "Asset/Char/Monster/GR_Jichong/Mesh/GR_Jichong_SM.GR_Jichong_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Monster/Gr_Jichong/ABP_Mon_Gr_Jichong.ABP_Mon_Gr_Jichong_C'",
+    "MontageFolder": "/Game/Asset/Char/Monster/GR_Jichong/Animation/Montage/",
+    "MontagePrefix": "GR_Jichong_",
+    "BehaviorMontageGroupIdList": {},
+    "HitMontageRule": "MonDefault",
+    "DamageFXSockets": [
+      "hit1"
+    ],
+    "AssistSockets": [
+      "hit1"
+    ],
+    "BehaviorMontageGroupId": 6001,
+    "EffectShape": "Special_M"
+  },
+  "600201": {
+    "ModelId": 600201,
+    "SkeletonMeshPath": "Asset/Char/Monster/GR_Youji/Mesh/GR_Youji_SM.GR_Youji_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Monster/Gr_Youji/ABP_Mon_GR_Youji.ABP_Mon_GR_Youji_C'",
+    "MontageFolder": "/Game/Asset/Char/Monster/GR_Youji/Animation/Montage/",
+    "MontagePrefix": "GR_Youji_",
+    "BehaviorMontageGroupIdList": {},
+    "HitMontageRule": "MonDefault",
+    "DamageFXSockets": [
+      "hit1"
+    ],
+    "AssistSockets": [
+      "hit1"
+    ],
+    "MoveParameters": [
+      {
+        "HitFlyMinTime": 0
+      }
+    ],
+    "BehaviorMontageGroupId": 6002,
+    "EffectShape": "Human_S"
+  },
+  "600202": {
+    "ModelId": 600202,
+    "SkeletonMeshPath": "Asset/Char/Monster/GR_Youji/Mesh/GR_Youji_WP_SM.GR_Youji_WP_SM"
+  },
+  "600301": {
+    "ModelId": 600301,
+    "SkeletonMeshPath": "Asset/Char/Monster/GR_Piaofu/Mesh/GR_Piaofu_SM.GR_Piaofu_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Monster/Gr_Piaofu/ABP_Mon_Gr_Piaofu.ABP_Mon_Gr_Piaofu_C'",
+    "MontageFolder": "/Game/Asset/Char/Monster/GR_Piaofu/Animation/Montage/",
+    "MontagePrefix": "GR_Piaofu_",
+    "BehaviorMontageGroupIdList": {},
+    "HitMontageRule": "MonDefault",
+    "DamageFXSockets": [
+      "hit1",
+      "hit2"
+    ],
+    "AssistSockets": [
+      "hit1"
+    ],
+    "BehaviorMontageGroupId": 6003,
+    "EffectShape": "Special_S"
+  },
+  "600401": {
+    "ModelId": 600401,
+    "SkeletonMeshPath": "Asset/Char/Monster/GR_Baotu/Mesh/GR_Baotu_SM.GR_Baotu_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Monster/Gr_Baotu/ABP_Mon_Gr_Baotu.ABP_Mon_Gr_Baotu_C'",
+    "MontageFolder": "/Game/Asset/Char/Monster/GR_Baotu/Animation/Montage/",
+    "MontagePrefix": "GR_Baotu_",
+    "BehaviorMontageGroupIdList": {},
+    "HitMontageRule": "MonNoRagdoll",
+    "DamageFXSockets": [
+      "hit1"
+    ],
+    "AssistSockets": [
+      "hit1"
+    ],
+    "ModelScale": 1.3,
+    "BehaviorMontageGroupId": 6004,
+    "EffectShape": "Special_L"
+  },
+  "600501": {
+    "ModelId": 600501,
+    "SkeletonMeshPath": "Asset/Char/Monster/GR_Longcao/Mesh/Gr_Longcao_SM.Gr_Longcao_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Monster/Gr_Longcao/ABP_Mon_Gr_Longcao.ABP_Mon_Gr_Longcao_C'",
+    "MontageFolder": "/Game/Asset/Char/Monster/GR_Longcao/Animation/Montage/",
+    "MontagePrefix": "GR_Longcao_",
+    "BehaviorMontageGroupIdList": {},
+    "HitMontageRule": "MonGRLongcao",
+    "DamageFXSockets": [
+      "hit1"
+    ],
+    "AssistSockets": [
+      "hit1"
+    ],
+    "ModelScale": 1.5,
+    "BehaviorMontageGroupId": 6005
+  },
+  "700001": {
+    "ModelId": 700001,
+    "SkeletonMeshPath": "Asset/Char/Monster/Common/Weapon/Single/JT_Disarm/Mesh/JT_Disarm_WP_SM.JT_Disarm_WP_SM"
+  },
+  "700101": {
+    "ModelId": 700101,
+    "SkeletonMeshPath": "Asset/Char/Monster/JT_Juji/Mesh/JT_Juji_SM.JT_Juji_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Monster/Jt_Juji/ABP_Mon_JT_Juji.ABP_Mon_JT_Juji_C'",
+    "MontageFolder": "/Game/Asset/Char/Monster/JT_Juji/Animation/Montage/",
+    "MontagePrefix": "JT_Juji_",
+    "BehaviorMontageGroupIdList": [
+      7001
+    ],
+    "HitMontageRule": "MonDefault",
+    "DamageFXSockets": [
+      "hit1"
+    ],
+    "AssistSockets": [
+      "hit1"
+    ],
+    "MoveParameters": [
+      {
+        "HitFlyMinTime": 0
+      },
+      {
+        "TurnIPMinAngle": 30
+      },
+      {
+        "TurnIP180Threshold": 90
+      }
+    ],
+    "BehaviorMontageGroupId": 7001,
+    "EffectShape": "Human_S"
+  },
+  "700102": {
+    "ModelId": 700102,
+    "SkeletonMeshPath": "Asset/Char/Monster/JT_Juji/Mesh/JT_Juji_WP_SM.JT_Juji_WP_SM"
+  },
+  "700201": {
+    "ModelId": 700201,
+    "SkeletonMeshPath": "Asset/Char/Monster/JT_Pizhuo/Mesh/JT_Pizhuo_SM.JT_Pizhuo_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Monster/Jt_Pizhuo/ABP_Mon_Jt_Pizhuo.ABP_Mon_Jt_Pizhuo_C'",
+    "MontageFolder": "/Game/Asset/Char/Monster/JT_Pizhuo/Animation/Montage/",
+    "MontagePrefix": "JT_Pizhuo_",
+    "BehaviorMontageGroupIdList": {},
+    "HitMontageRule": "MonDefault",
+    "DamageFXSockets": [
+      "hit1"
+    ],
+    "AssistSockets": [
+      "hit1"
+    ],
+    "MoveParameters": [
+      {
+        "HitFlyMinTime": 0
+      }
+    ],
+    "BehaviorMontageGroupId": 7002,
+    "EffectShape": "Human_M"
+  },
+  "700202": {
+    "ModelId": 700202,
+    "SkeletonMeshPath": "Asset/Char/Monster/JT_Pizhuo/Mesh/JT_Pizhuo_WP_SM.JT_Pizhuo_WP_SM"
+  },
+  "700203": {
+    "ModelId": 700203,
+    "SkeletonMeshPath": "Asset/Char/Monster/JT_Pizhuo/Mesh/JT_Pizhuo_SM.JT_Pizhuo_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Monster/Jt_Pizhuo/ABP_Mon_Jt_Pizhuo.ABP_Mon_Jt_Pizhuo_C'",
+    "MontageFolder": "/Game/Asset/Char/Monster/JT_Pizhuo/Animation/Montage/",
+    "MontagePrefix": "JT_Pizhuo_",
+    "BehaviorMontageGroupIdList": {},
+    "HitMontageRule": "MonDefault",
+    "DamageFXSockets": [
+      "hit1"
+    ],
+    "AssistSockets": [
+      "hit1"
+    ],
+    "MoveParameters": [
+      {
+        "HitFlyMinTime": 0
+      }
+    ],
+    "BehaviorMontageGroupId": 7002
+  },
+  "700301": {
+    "ModelId": 700301,
+    "SkeletonMeshPath": "Asset/Char/Monster/JT_Ranger/Mesh/JT_Ranger_SM.JT_Ranger_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Monster/Jt_Ranger/ABP_Mon_JT_Ranger.ABP_Mon_JT_Ranger_C'",
+    "MontageFolder": "/Game/Asset/Char/Monster/Jt_Ranger/Animation/Montage/",
+    "MontagePrefix": "JT_Ranger_",
+    "BehaviorMontageGroupIdList": [
+      7003
+    ],
+    "HitMontageRule": "MonDefault",
+    "DamageFXSockets": [
+      "hit1",
+      "hit2"
+    ],
+    "AssistSockets": [
+      "hit1",
+      "hit2"
+    ],
+    "MoveParameters": [
+      {
+        "HitFlyMinTime": 0
+      },
+      {
+        "TurnIPMinAngle": 30
+      },
+      {
+        "TurnIP180Threshold": 90
+      }
+    ],
+    "BehaviorMontageGroupId": 7003,
+    "FootIKHeight": 10,
+    "EffectShape": "Human_M"
+  },
+  "700302": {
+    "ModelId": 700302,
+    "SkeletonMeshPath": "Asset/Char/Monster/JT_Ranger/Mesh/JT_Ranger_WP_SM.JT_Ranger_WP_SM"
+  },
+  "700401": {
+    "ModelId": 700401,
+    "SkeletonMeshPath": "Asset/Char/Monster/JT_Tuji/Mesh/JT_Tuji_SM.JT_Tuji_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Monster/Jt_Tuji/ABP_Mon_Jt_Tuji.ABP_Mon_Jt_Tuji_C'",
+    "MontageFolder": "/Game/Asset/Char/Monster/JT_Tuji/Animation/Montage/",
+    "MontagePrefix": "JT_Tuji_",
+    "BehaviorMontageGroupIdList": [
+      7004
+    ],
+    "HitMontageRule": "MonDefault",
+    "DamageFXSockets": [
+      "hit1"
+    ],
+    "AssistSockets": [
+      "hit1"
+    ],
+    "MoveParameters": [
+      {
+        "HitFlyMinTime": 0
+      },
+      {
+        "TurnIPMinAngle": 30
+      },
+      {
+        "TurnIP180Threshold": 90
+      }
+    ],
+    "BehaviorMontageGroupId": 7004,
+    "EffectShape": "Human_M"
+  },
+  "700402": {
+    "ModelId": 700402,
+    "SkeletonMeshPath": "Asset/Char/Monster/JT_Tuji/Mesh/JT_Tuji_WP_Cudgel_SM_01.JT_Tuji_WP_Cudgel_SM_01"
+  },
+  "700403": {
+    "ModelId": 700403,
+    "SkeletonMeshPath": "Asset/Char/Monster/JT_Tuji/Mesh/JT_Tuji_WP_Shield_SM.JT_Tuji_WP_Shield_SM"
+  },
+  "700404": {
+    "ModelId": 700404,
+    "SkeletonMeshPath": "Asset/Char/Monster/JT_Tuji/Mesh/JT_Tuji_WP_Cudgel_SM_02.JT_Tuji_WP_Cudgel_SM_02"
+  },
+  "700405": {
+    "ModelId": 700405,
+    "SkeletonMeshPath": "Asset/Char/Monster/NE_Kaiwen/Mesh/NE_Kaiwen_SM.NE_Kaiwen_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Monster/Jt_Tuji/ABP_Mon_Jt_Tuji.ABP_Mon_Jt_Tuji_C'",
+    "MontageFolder": "/Game/Asset/Char/Monster/JT_Tuji/Animation/Montage/",
+    "MontagePrefix": "JT_Tuji_",
+    "BehaviorMontageGroupIdList": [
+      7004
+    ],
+    "HitMontageRule": "MonDefault",
+    "DamageFXSockets": [
+      "hit1"
+    ],
+    "AssistSockets": [
+      "hit1"
+    ],
+    "MoveParameters": [
+      {
+        "HitFlyMinTime": 0
+      },
+      {
+        "TurnIPMinAngle": 30
+      },
+      {
+        "TurnIP180Threshold": 90
+      }
+    ],
+    "BehaviorMontageGroupId": 7004,
+    "EffectShape": "Human_M"
+  },
+  "700601": {
+    "ModelId": 700601,
+    "SkeletonMeshPath": "Asset/Char/Monster/JT_HealRobot/Mesh/JT_HealRobot_SM.JT_HealRobot_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Monster/Jt_HealRobot/ABP_Jt_HealRobot.ABP_Jt_HealRobot_C'",
+    "MontageFolder": "/Game/Asset/Char/Monster/JT_HealRobot/Animation/Montage/",
+    "MontagePrefix": "JT_HealRobot_",
+    "HitMontageRule": "MonJTHealRobot",
+    "DamageFXSockets": [
+      "hit1"
+    ],
+    "AssistSockets": [
+      "hit1",
+      "hit2"
+    ],
+    "EffectShape": "Special_S"
+  },
+  "700701": {
+    "ModelId": 700701,
+    "SkeletonMeshPath": "Asset/Char/Monster/JT_BlastRobot/Mesh/JT_BlastRobot_SM.JT_BlastRobot_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Monster/Jt_BlastRobot/ABP_Jt_BlastRobot.ABP_Jt_BlastRobot_C'",
+    "MontageFolder": "/Game/Asset/Char/Monster/JT_BlastRobot/Animation/Montage/",
+    "MontagePrefix": "JT_BlastRobot_",
+    "HitMontageRule": "MonJTBlastRobot",
+    "DamageFXSockets": [
+      "hit_outside"
+    ],
+    "AssistSockets": [
+      "hit_outside"
+    ],
+    "EffectShape": "Special_S"
+  },
+  "700702": {
+    "ModelId": 700702,
+    "SkeletonMeshPath": "Asset/Char/Monster/JT_BlastRobot/Mesh/JT_BlastRobot_SM.JT_BlastRobot_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Monster/Jt_BlastRobot/ABP_Jt_BlastRobot.ABP_Jt_BlastRobot_C'",
+    "MontageFolder": "/Game/Asset/Char/Monster/JT_BlastRobot/Animation/Montage/",
+    "MontagePrefix": "JT_BlastRobot_",
+    "HitMontageRule": "MonJTBlastRobot",
+    "DamageFXSockets": [
+      "hit_outside"
+    ],
+    "AssistSockets": [
+      "hit_outside"
+    ]
+  },
+  "700801": {
+    "ModelId": 700801,
+    "SkeletonMeshPath": "Asset/Char/Monster/Jt_Zhihui/Mesh/JT_Zhihui_SM.JT_Zhihui_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Monster/Jt_Zhihui/ABP_Mon_Jt_Zhihui.ABP_Mon_Jt_Zhihui_C'",
+    "MontageFolder": "/Game/Asset/Char/Monster/JT_Zhihui/Animation/Montage/",
+    "MontagePrefix": "JT_Zhihui_",
+    "HitMontageRule": "MonDefault",
+    "DamageFXSockets": [
+      "hit1"
+    ],
+    "AssistSockets": [
+      "hit1",
+      "hit2"
+    ],
+    "MoveParameters": [
+      {
+        "HitFlyMinTime": 0
+      },
+      {
+        "TurnIPMinAngle": 30
+      },
+      {
+        "TurnIP180Threshold": 90
+      }
+    ],
+    "ModelScale": 1.2
+  },
+  "700802": {
+    "ModelId": 700802,
+    "SkeletonMeshPath": "Asset/Char/Monster/Jt_Zhihui/Mesh/JT_Zhihui_WP_Sword_SM.JT_Zhihui_WP_Sword_SM"
+  },
+  "700803": {
+    "ModelId": 700803,
+    "SkeletonMeshPath": "Asset/Char/Monster/JT_Zhihui/Mesh/JT_Zhihui_WP_Gun_SM.JT_Zhihui_WP_Gun_SM"
+  },
+  "701201": {
+    "ModelId": 701201,
+    "SkeletonMeshPath": "Asset/Char/Monster/JT_Pizhuo/Mesh/JT_Pizhuo_WP02_SM.JT_Pizhuo_WP02_SM"
+  },
+  "701301": {
+    "ModelId": 701301,
+    "SkeletonMeshPath": "Asset/Char/Monster/JT_Ranger/Mesh/JT_Ranger_WP02_SM.JT_Ranger_WP02_SM"
+  },
+  "800101": {
+    "ModelId": 800101,
+    "SkeletonMeshPath": "Asset/Char/Monster/JH_Zhishi/Mesh/JH_Zhishi_SM.JH_Zhishi_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Monster/Jh_Zhishi/ABP_Jh_Zhishi.ABP_Jh_Zhishi_C'",
+    "MontageFolder": "/Game/Asset/Char/Monster/JH_Zhishi/Animation/Montage/",
+    "MontagePrefix": "JH_Zhishi_",
+    "HitMontageRule": "MonDefault",
+    "DamageFXSockets": [
+      "hit1",
+      "hit2"
+    ],
+    "AssistSockets": [
+      "hit1",
+      "hit2"
+    ],
+    "MoveParameters": [
+      {
+        "HitFlyMinTime": 0
+      },
+      {
+        "TurnIPMinAngle": 30
+      },
+      {
+        "TurnIP180Threshold": 90
+      }
+    ]
+  },
+  "800102": {
+    "ModelId": 800102,
+    "SkeletonMeshPath": "Asset/Char/Monster/JH_Zhishi/Mesh/JH_Zhishi_WP_SM.JH_Zhishi_WP_SM"
+  },
+  "800201": {
+    "ModelId": 800201,
+    "SkeletonMeshPath": "Asset/Char/Monster/JH_Xianfeng/Mesh/JH_Xianfeng_SM.JH_Xianfeng_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Monster/Jh_Xianfeng/ABP_Jh_Xianfeng.ABP_Jh_Xianfeng_C'",
+    "MontageFolder": "/Game/Asset/Char/Monster/JH_Xianfeng/Animation/Montage/",
+    "MontagePrefix": "JH_Xianfeng_",
+    "HitMontageRule": "MonDefault",
+    "DamageFXSockets": [
+      "hit1",
+      "hit2"
+    ],
+    "AssistSockets": [
+      "hit1",
+      "hit2"
+    ],
+    "MoveParameters": [
+      {
+        "HitFlyMinTime": 0
+      }
+    ]
+  },
+  "800202": {
+    "ModelId": 800202,
+    "SkeletonMeshPath": "Asset/Char/Monster/JH_Xianfeng/Mesh/JH_Xianfeng_WP_SM.JH_Xianfeng_WP_SM"
+  },
+  "800301": {
+    "ModelId": 800301,
+    "SkeletonMeshPath": "Asset/Char/Monster/JH_Shenfu/Mesh/JH_Shenfu_SM.JH_Shenfu_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Monster/Jh_Shenfu/ABP_Jh_Shenfu.ABP_Jh_Shenfu_C'",
+    "MontageFolder": "/Game/Asset/Char/Monster/JH_Shenfu/Animation/Montage/",
+    "MontagePrefix": "JH_Shenfu_",
+    "HitMontageRule": "MonDefault",
+    "DamageFXSockets": [
+      "hit1",
+      "hit2"
+    ],
+    "AssistSockets": [
+      "hit1",
+      "hit2"
+    ],
+    "MoveParameters": [
+      {
+        "HitFlyMinTime": 0
+      }
+    ]
+  },
+  "800302": {
+    "ModelId": 800302,
+    "SkeletonMeshPath": "Asset/Char/Monster/JH_Shenfu/Mesh/JH_Shenfu_WP_SM.JH_Shenfu_WP_SM"
+  },
+  "850001": {
+    "ModelId": 850001,
+    "SkeletonMeshPath": "Asset/Char/Player/Char009_Xibi/Mesh/Xibi_SM.Xibi_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Monster/Boss_00_Xibi/ABP_Boss_Xibi.ABP_Boss_Xibi_C'",
+    "MontageFolder": "/Game/Asset/Char/Monster/Boss00_Xibi/Animation/Montage/",
+    "MontagePrefix": "Boss_Xibi_",
+    "HitMontageRule": "BossXibi",
+    "DamageFXSockets": [
+      "hit1"
+    ],
+    "AssistSockets": [
+      "hit1"
+    ],
+    "MoveParameters": [
+      {
+        "HitFlyMinTime": 0.63
+      }
+    ],
+    "CondemnBoneName": [
+      {
+        "CondemnSocket": "Root"
+      },
+      {
+        "LocationOffset": [
+          40,
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  "850002": {
+    "ModelId": 850002,
+    "SkeletonMeshPath": "Asset/Weapon/Swordwhip/Swordwhip_Buyu/Mesh/Swordwhip_Buyu_SM.Swordwhip_Buyu_SM"
+  },
+  "850101": {
+    "ModelId": 850101,
+    "SkeletonMeshPath": "Asset/Char/Monster/Boss06_Lizhan/Mesh/Boss_Lizhan_SM.Boss_Lizhan_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Monster/Boss_04_Lizhan/ABP_Boss_Lizhan.ABP_Boss_Lizhan_C'",
+    "MontageFolder": "/Game/Asset/Char/Monster/Boss06_Lizhan/Animation/Montage/",
+    "MontagePrefix": "Boss_Lizhan_",
+    "HitMontageRule": "BossLizhan",
+    "DamageFXSockets": [
+      "hit1"
+    ],
+    "AssistSockets": [
+      "hit1"
+    ],
+    "MoveParameters": [
+      {
+        "HitFlyMinTime": 0.63
+      }
+    ],
+    "CondemnBoneName": {
+      "CondemnSocket": "Root",
+      "LocationOffset": {}
+    }
+  },
+  "850102": {
+    "ModelId": 850102,
+    "SkeletonMeshPath": "Asset/Char/Monster/Boss06_Lizhan/Mesh/Boss_Lizhan_SM.Boss_Lizhan_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Monster/Boss_04_Lizhan/ABP_Boss_Lizhan.ABP_Boss_Lizhan_C'",
+    "MontageFolder": "/Game/Asset/Char/Monster/Boss06_Lizhan/Animation/Montage/",
+    "MontagePrefix": "Boss_Lizhan_",
+    "HitMontageRule": "BossLizhan",
+    "DamageFXSockets": [
+      "hit1"
+    ],
+    "AssistSockets": [
+      "hit1"
+    ],
+    "MoveParameters": [
+      {
+        "HitFlyMinTime": 0.63
+      }
+    ],
+    "CondemnBoneName": [
+      {
+        "CondemnSocket": "Root"
+      },
+      {
+        "LocationOffset": [
+          40,
+          0,
+          0
+        ]
+      }
+    ],
+    "ModelScale": 0.8
+  },
+  "850201": {
+    "ModelId": 850201,
+    "SkeletonMeshPath": "Asset/Char/Monster/Boss01_Saiqi01/Mesh/BossSaiqi_SM.BossSaiqi_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Monster/Boss_01_Saiqi/ABP_Boss_Saiqi.ABP_Boss_Saiqi_C'",
+    "MontageFolder": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/",
+    "MontagePrefix": "Boss_Saiqi_",
+    "HitMontageRule": "BossSaiqi",
+    "DamageFXSockets": {},
+    "AssistSockets": {},
+    "MoveParameters": [
+      {
+        "HitFlyMinTime": 0.63
+      }
+    ],
+    "CondemnBoneName": [
+      {
+        "CondemnSocket": "Root"
+      },
+      {
+        "LocationOffset": [
+          80,
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  "850202": {
+    "ModelId": 850202,
+    "SkeletonMeshPath": "Asset/Char/Monster/Boss01_Saiqi01/Mesh/BossSaiqi_WP_SM.BossSaiqi_WP_SM"
+  },
+  "850301": {
+    "ModelId": 850301,
+    "SkeletonMeshPath": "Asset/Char/Monster/Boss03_Shijingzhe/Mesh/Boss_Shijingzhe_SM.Boss_Shijingzhe_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Monster/Boss_02_Shijingzhe/ABP_Boss_Shijingzhe.ABP_Boss_Shijingzhe_C'",
+    "MontageFolder": "/Game/Asset/Char/Monster/Boss03_Shijingzhe/Animation/Montage/",
+    "MontagePrefix": "Boss_Shijingzhe_",
+    "HitMontageRule": "BossShijingzhe",
+    "HitCapsules": {
+      "Arm_L": "hand_left01_b",
+      "Arm_R": "hand_right01_b",
+      "FootL": "foot_left01_b",
+      "FootR": "foot_right01_b",
+      "Arm_L1": "hand_left01_c",
+      "Arm_R1": "hand_right01_c",
+      "FootR1": "foot_right01_c",
+      "FootL1": "foot_left01_c",
+      "Arm_L2": "lowerarm_l",
+      "Arm_R2": "lowerarm_r",
+      "Foot_L3": "calf_l",
+      "Foot_R3": "calf_r",
+      "Middle": "spine01",
+      "Tail": "tail_f"
+    },
+    "CondemnBoneName": {
+      "CondemnSocket": "Head",
+      "LocationOffset": {}
+    },
+    "PenalizeParam": {
+      "PenalizeSocket": "tongue_01_c",
+      "PenalizeOffset": {}
+    },
+    "PenalizeEffect": 850314
+  },
+  "850302": {
+    "ModelId": 850302,
+    "SkeletonMeshPath": "Asset/Scene/common/BreakableItems/Mesh/Qua_Ore08_vat_mesh.Qua_Ore08_vat_mesh"
+  },
+  "850401": {
+    "ModelId": 850401,
+    "SkeletonMeshPath": "Asset/Char/Player/Char010_Saiqi/Mesh/Saiqi_SM.Saiqi_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Monster/Boss_03_Saiqi02/ABP_Boss_Saiqi02.ABP_Boss_Saiqi02_C'",
+    "MontageFolder": "/Game/Asset/Char/Monster/Boss04_Saiqi02/Animation/Montage/",
+    "MontagePrefix": "Boss_Saiqi02_",
+    "HitMontageRule": "BossSaiqi",
+    "DamageFXSockets": [
+      "hit1"
+    ],
+    "AssistSockets": [
+      "hit1"
+    ],
+    "MoveParameters": [
+      {
+        "HitFlyMinTime": 0.63
+      }
+    ],
+    "CondemnBoneName": [
+      {
+        "CondemnSocket": "Root"
+      },
+      {
+        "LocationOffset": [
+          80,
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  "850402": {
+    "ModelId": 850402,
+    "SkeletonMeshPath": "Asset/Char/Monster/Boss01_Saiqi01/Mesh/BossSaiqi_WP_SM.BossSaiqi_WP_SM"
+  },
+  "850403": {
+    "ModelId": 850403,
+    "SkeletonMeshPath": "Asset/Char/Player/Char010_Saiqi/Mesh/Saiqi_SM.Saiqi_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Monster/Boss_03_Saiqi02/ABP_Boss_Saiqi02.ABP_Boss_Saiqi02_C'",
+    "MontageFolder": "/Game/Asset/Char/Monster/Boss04_Saiqi02/Animation/Montage/",
+    "MontagePrefix": "Boss_Saiqi02_",
+    "HitMontageRule": "BossSaiqi",
+    "DamageFXSockets": [
+      "hit1"
+    ],
+    "AssistSockets": [
+      "hit1"
+    ],
+    "MoveParameters": [
+      {
+        "HitFlyMinTime": 0.63
+      }
+    ],
+    "CondemnBoneName": [
+      {
+        "CondemnSocket": "Root"
+      },
+      {
+        "LocationOffset": [
+          80,
+          0,
+          0
+        ]
+      }
+    ],
+    "ModelScale": 2.1
+  },
+  "850501": {
+    "ModelId": 850501,
+    "SkeletonMeshPath": "Asset/Char/Monster/Boss05_Lianhuo/Mesh/Boss05_Lianhuo_SM.Boss05_Lianhuo_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Monster/Boss_05_Lianhuo/ABP_Boss_Lianhuo.ABP_Boss_Lianhuo_C'",
+    "MontageFolder": "/Game/Asset/Char/Monster/Boss05_Lianhuo/Animation/Montage/",
+    "MontagePrefix": "Boss_Lianhuo_",
+    "HitMontageRule": "BossLianhuo",
+    "DamageFXSockets": [
+      "hit1"
+    ],
+    "AssistSockets": [
+      "hit1"
+    ],
+    "MoveParameters": [
+      {
+        "HitFlyMinTime": 0.63
+      }
+    ],
+    "CondemnBoneName": {
+      "CondemnSocket": "Root",
+      "LocationOffset": {}
+    },
+    "PenalizeParam": {
+      "PenalizeSocket": "head",
+      "PenalizeOffset": {}
+    }
+  },
+  "850502": {
+    "ModelId": 850502,
+    "SkeletonMeshPath": "Asset/Char/Monster/Boss05_Lianhuo/Mesh/Boss05_Lianhuo_WP_SM.Boss05_Lianhuo_WP_SM",
+    "ModelScale": 4
+  },
+  "850601": {
+    "ModelId": 850601,
+    "SkeletonMeshPath": "Asset/Char/Player/NPC001_Nvzhu/Mesh/Nvzhu_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Monster/Boss_06_Nvzhu/ABP_Boss_Nvzhu.ABP_Boss_Nvzhu_C'",
+    "MontageFolder": "/Game/Asset/Char/Monster/Boss07_Nvzhu/Animation/Montage/",
+    "MontagePrefix": "Boss_Nvzhu_",
+    "HitMontageRule": "BossNvzhu",
+    "DamageFXSockets": [
+      "hit1"
+    ],
+    "AssistSockets": [
+      "hit1"
+    ],
+    "MoveParameters": [
+      {
+        "HitFlyMinTime": 0.63
+      }
+    ],
+    "CondemnBoneName": [
+      {
+        "CondemnSocket": "Root"
+      },
+      {
+        "LocationOffset": [
+          40,
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  "850701": {
+    "ModelId": 850701,
+    "CloakMeshPath": "Asset/Char/Player/NPC005_WeitaM/Mesh/WeitaM_Cloak_SM.WeitaM_Cloak_SM",
+    "SkeletonMeshPath": "Asset/Char/Monster/Boss08_Nanzhu/Mesh/Boss_Nanzhu_SM.Boss_Nanzhu_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Monster/Boss_07_Nanzhu/ABP_Boss_Nanzhu.ABP_Boss_Nanzhu_C'",
+    "MontageFolder": "/Game/Asset/Char/Monster/Boss08_Nanzhu/Animation/Montage/",
+    "MontagePrefix": "Boss_Nanzhu_",
+    "HitMontageRule": "BossNvzhu",
+    "DamageFXSockets": [
+      "hit1"
+    ],
+    "AssistSockets": [
+      "hit1"
+    ],
+    "MoveParameters": [
+      {
+        "HitFlyMinTime": 0.63
+      }
+    ],
+    "CondemnBoneName": [
+      {
+        "CondemnSocket": "Root"
+      },
+      {
+        "LocationOffset": [
+          40,
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  "850702": {
+    "ModelId": 850702,
+    "SkeletonMeshPath": "Asset/Char/Monster/Boss08_Nanzhu/Mesh/Boss_Nanzhu_WP_SM.Boss_Nanzhu_WP_SM"
+  },
+  "900101": {
+    "ModelId": 900101,
+    "SkeletonMeshPath": "Asset/Char/Monster/SQ_Yinxie/Mesh/SQ_Yinxie_WP_SM.SQ_Yinxie_WP_SM"
+  },
+  "900301": {
+    "ModelId": 900301,
+    "SkeletonMeshPath": "Asset/Char/Monster/SQ_Wanju/Mesh/SQ_Wanju_SM.SQ_Wanju_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Monster/SQ_Wanju/ABP_Mon_SQ_Wanju.ABP_Mon_SQ_Wanju_C'",
+    "MontageFolder": "/Game/Asset/Char/Monster/SQ_Wanju/Animation/Montage/",
+    "MontagePrefix": "SQ_Wanju_",
+    "HitMontageRule": "MonDefault",
+    "DamageFXSockets": [
+      "hit1"
+    ],
+    "AssistSockets": [
+      "hit1"
+    ],
+    "ModelScale": 1.2
+  },
+  "900401": {
+    "ModelId": 900401,
+    "SkeletonMeshPath": "Asset/Char/Monster/SQ_Wanju/Mesh/SQ_Wanju_Sum01_SM.SQ_Wanju_Sum01_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Monster/SQ_Wanju/ABP_Mon_SQ_Wanju_Sum01.ABP_Mon_SQ_Wanju_Sum01_C'",
+    "MontageFolder": "/Game/Asset/Char/Monster/SQ_Wanju/Animation/Montage/",
+    "MontagePrefix": "SQ_Wanju_Sum01_",
+    "BirthTime": -1,
+    "HitMontageRule": "MonJTBlastRobot",
+    "DamageFXSockets": [
+      "hit_outside"
+    ],
+    "AssistSockets": [
+      "hit_outside"
+    ]
+  },
+  "900501": {
+    "ModelId": 900501,
+    "SkeletonMeshPath": "Asset/Char/Monster/SQ_Baozha/Mesh/SQ_Baozha_SM.SQ_Baozha_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Monster/SQ_Baozha/ABP_Mon_SQ_Baozha.ABP_Mon_SQ_Baozha_C'",
+    "MontageFolder": "/Game/Asset/Char/Monster/SQ_Baozha/Animation/Montage/",
+    "MontagePrefix": "SQ_Baozha_",
+    "HitMontageRule": "MonSQBaozha",
+    "DamageFXSockets": [
+      "hit1"
+    ],
+    "AssistSockets": [
+      "hit1"
+    ],
+    "ModelScale": 1.2
+  },
+  "900601": {
+    "ModelId": 900601,
+    "SkeletonMeshPath": "Asset/Char/Monster/SQ_Qizha/Mesh/SQ_Qizha_SM.SQ_Qizha_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Monster/SQ_Qizha/ABP_Mon_SQ_Qizha.ABP_Mon_SQ_Qizha_C'",
+    "MontageFolder": "/Game/Asset/Char/Monster/SQ_Qizha/Animation/Montage/",
+    "MontagePrefix": "SQ_Qizha_",
+    "HitMontageRule": "MonDefault",
+    "DamageFXSockets": [
+      "hit1"
+    ],
+    "AssistSockets": [
+      "hit1"
+    ],
+    "ModelScale": 1.2
+  },
+  "950001": {
+    "ModelId": 950001,
+    "SkeletonMeshPath": "Asset/Char/Monster/NE_Dajie/Mesh/NE_Dajie_SM.NE_Dajie_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Monster/NE_Dajie/ABP_Mon_NE_Dajie.ABP_Mon_NE_Dajie_C'",
+    "MontageFolder": "/Game/Asset/Char/Monster/NE_Dajie/Animation/Montage/",
+    "MontagePrefix": "NE_Dajie_",
+    "BirthTime": -1,
+    "HitMontageRule": "MonNEDajie",
+    "DamageFXSockets": [
+      "hit1"
+    ],
+    "AssistSockets": [
+      "hit1"
+    ],
+    "ModelScale": 1.2
+  },
+  "950101": {
+    "ModelId": 950101,
+    "SkeletonMeshPath": "Asset/Char/Monster/NE_Villiger/Mesh/NE_Villiger01_SM.NE_Villiger01_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Monster/NE_Haer/ABP_NE_Haer.ABP_NE_Haer_C'",
+    "MontageFolder": "/Game/Asset/Char/Monster/NE_Villiger/Animation/Montage/",
+    "MontagePrefix": "NE_Villiger_",
+    "BehaviorMontageGroupIdList": [
+      9501
+    ],
+    "HitMontageRule": "MonNEHaer",
+    "DamageFXSockets": [
+      "hit1"
+    ],
+    "AssistSockets": [
+      "hit1"
+    ],
+    "BehaviorMontageGroupId": 9501
+  },
+  "950102": {
+    "ModelId": 950102,
+    "SkeletonMeshPath": "Asset/Char/Monster/NE_Villiger/Mesh/NE_Villiger01_WP_SM.NE_Villiger01_WP_SM"
+  },
+  "950103": {
+    "ModelId": 950103,
+    "SkeletonMeshPath": "Asset/Char/Monster/NE_Villiger/Mesh/NE_Villiger02_SM.NE_Villiger02_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Monster/NE_Haer/ABP_NE_Haer.ABP_NE_Haer_C'",
+    "MontageFolder": "/Game/Asset/Char/Monster/NE_Villiger/Animation/Montage/",
+    "MontagePrefix": "NE_Villiger_",
+    "BehaviorMontageGroupIdList": [
+      9501
+    ],
+    "HitMontageRule": "MonDefault",
+    "DamageFXSockets": [
+      "hit1"
+    ],
+    "AssistSockets": [
+      "hit1"
+    ],
+    "BehaviorMontageGroupId": 9501
+  },
+  "950104": {
+    "ModelId": 950104,
+    "SkeletonMeshPath": "Asset/Char/Monster/NE_Villiger/Mesh/NE_Villiger03_SM.NE_Villiger03_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Monster/NE_Haer/ABP_NE_Haer.ABP_NE_Haer_C'",
+    "MontageFolder": "/Game/Asset/Char/Monster/NE_Villiger/Animation/Montage/",
+    "MontagePrefix": "NE_Villiger_",
+    "BehaviorMontageGroupIdList": [
+      9501
+    ],
+    "HitMontageRule": "MonDefault",
+    "DamageFXSockets": [
+      "hit1"
+    ],
+    "AssistSockets": [
+      "hit1"
+    ],
+    "BehaviorMontageGroupId": 9501
+  },
+  "980101": {
+    "ModelId": 980101,
+    "SkeletonMeshPath": "Asset/Char/Monster/Animal01_Xuelang/Mesh/Mon_XuelangA_SM.Mon_XuelangA_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Monster/Animal_Xuelang/ABP_Mon_Animal_XuelangA.ABP_Mon_Animal_XuelangA_C'",
+    "MontageFolder": "/Game/Asset/Char/Monster/Animal01_Xuelang/Animation/Montage/",
+    "MontagePrefix": "Mon_Xuelang_",
+    "HitMontageRule": "MonDefault",
+    "DamageFXSockets": [
+      "hit1"
+    ],
+    "AssistSockets": [
+      "hit1"
+    ]
+  },
+  "1010101": {
+    "ModelId": 1010101,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Weapon/Sword/Sword_Huipo/Mesh/Sword_Huipo_SM.Sword_Huipo_SM",
+    "StandId": "001"
+  },
+  "1010201": {
+    "ModelId": 1010201,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Weapon/Sword/Sword_Guzi/Mesh/Sword_Guzi_SM.Sword_Guzi_SM",
+    "StandId": "010"
+  },
+  "1010301": {
+    "ModelId": 1010301,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Weapon/Sword/Sword_Zhuiyi/Mesh/Sword_Zhuiyi_SM.Sword_Zhuiyi_SM",
+    "StandId": "006"
+  },
+  "1010401": {
+    "ModelId": 1010401,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Weapon/Sword/Sword_Huimou/Mesh/Sword_Huimou_SM.Sword_Huimou_SM",
+    "StandId": "008"
+  },
+  "1010501": {
+    "ModelId": 1010501,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Weapon/Sword/Sword_Liulang/Mesh/Sword_Liulang_SM.Sword_Liulang_SM",
+    "StandId": "012"
+  },
+  "1019701": {
+    "ModelId": 1019701,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Weapon/Sword/Sword_Jinshu/Mesh/Sword_Jinshu01_SM.Sword_Jinshu01_SM",
+    "StandId": "013"
+  },
+  "1019801": {
+    "ModelId": 1019801,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Weapon/Sword/Sword_Liandu/Mesh/Sword_Liandu01_SM.Sword_Liandu01_SM",
+    "StandId": "014"
+  },
+  "1020101": {
+    "ModelId": 1020101,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Weapon/Polearm/Polearm_Sairen/Mesh/Polearm_Sairen_SM.Polearm_Sairen_SM",
+    "StandId": "003"
+  },
+  "1020201": {
+    "ModelId": 1020201,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Weapon/Polearm/Polearm_Chunjue/Mesh/Polearm_Chunjue_SM.Polearm_Chunjue_SM",
+    "StandId": "011"
+  },
+  "1020301": {
+    "ModelId": 1020301,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Weapon/Polearm/Polearm_Zuiqian/Mesh/Polearm_Zuiqian_SM.Polearm_Zuiqian_SM",
+    "StandId": "007"
+  },
+  "1020401": {
+    "ModelId": 1020401,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Weapon/Polearm/Polearm_Xiji/Mesh/Polearm_Xiji_SM.Polearm_Xiji_SM",
+    "StandId": "015"
+  },
+  "1020501": {
+    "ModelId": 1020501,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Weapon/Polearm/Polearm_Jiushu/Mesh/Polearm_Jiushu_SM.Polearm_Jiushu_SM",
+    "StandId": "015"
+  },
+  "1020601": {
+    "ModelId": 1020601,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Weapon/Polearm/Polearm_Chixing/Mesh/Polearm_Chixing_SM.Polearm_Chixing_SM",
+    "StandId": "015"
+  },
+  "1020701": {
+    "ModelId": 1020701,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Weapon/Polearm/Polearm_Weilan/Mesh/Polearm_Weilan_SM.Polearm_Weilan_SM",
+    "StandId": "015"
+  },
+  "1020801": {
+    "ModelId": 1020801,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Weapon/Polearm/Polearm_Yihe/Mesh/Polearm_Yihe_SM.Polearm_Yihe_SM",
+    "StandId": "015"
+  },
+  "1020901": {
+    "ModelId": 1020901,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Weapon/Polearm/Polearm_Zhuixin/Mesh/Polearm_Zhuixin_SM.Polearm_Zhuixin_SM",
+    "StandId": "015"
+  },
+  "1029801": {
+    "ModelId": 1029801,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Weapon/Polearm/Polearm_Jinshu/Mesh/Polearm_Jinshu01_SM.Polearm_Jinshu01_SM",
+    "StandId": "003"
+  },
+  "1029901": {
+    "ModelId": 1029901,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Weapon/Polearm/Polearm_Liandu/Mesh/Polearm_Liandu01_SM.Polearm_Liandu01_SM",
+    "StandId": "003"
+  },
+  "1030101": {
+    "ModelId": 1030101,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Weapon/Claymore/Claymore_Chengjie/Mesh/Claymore_Chengjie_SM.Claymore_Chengjie_SM",
+    "StandId": "017"
+  },
+  "1030201": {
+    "ModelId": 1030201,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Weapon/Claymore/Claymore_Rimian/Mesh/Claymore_Rimian_SM.Claymore_Rimian_SM",
+    "StandId": "009"
+  },
+  "1039801": {
+    "ModelId": 1039801,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Weapon/Claymore/Claymore_Jinshu/Mesh/Claymore_Jinshu_SM.Claymore_Jinshu_SM",
+    "StandId": "009"
+  },
+  "1039901": {
+    "ModelId": 1039901,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Weapon/Claymore/Claymore_Liandu/Mesh/Claymore_Liandu_SM.Claymore_Liandu_SM",
+    "StandId": "009"
+  },
+  "1050101": {
+    "ModelId": 1050101,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Weapon/Swordwhip/Swordwhip_Buyu/Mesh/Swordwhip_Buyu_SM.Swordwhip_Buyu_SM",
+    "StandId": "016"
+  },
+  "1060101": {
+    "ModelId": 1060101,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Weapon/Katana/Katana_Feiqie/Mesh/Katana_Feiqie_SM.Katana_Feiqie_SM",
+    "StandId": "016"
+  },
+  "1060102": {
+    "ModelId": 1060102,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Weapon/Katana/Katana_Feiqie/Mesh/Katana_Feiqie_Accessary_SM.Katana_Feiqie_Accessary_SM",
+    "StandId": "016"
+  },
+  "1069801": {
+    "ModelId": 1069801,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Weapon/Katana/Katana_Jinshu/Mesh/Katana_Jinshu_SM.Katana_Jinshu_SM",
+    "StandId": "016"
+  },
+  "1069802": {
+    "ModelId": 1069802,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Weapon/Katana/Katana_Jinshu/Mesh/Katana_Jinshu_Accessary_SM.Katana_Jinshu_Accessary_SM",
+    "StandId": "016"
+  },
+  "1069901": {
+    "ModelId": 1069901,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Weapon/Katana/Katana_Liandu/Mesh/Katana_Liandu_SM.Katana_Liandu_SM",
+    "StandId": "016"
+  },
+  "1069902": {
+    "ModelId": 1069902,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Weapon/Katana/Katana_Liandu/Mesh/Katana_Liandu_Accessary_SM.Katana_Liandu_Accessary_SM",
+    "StandId": "016"
+  },
+  "2010101": {
+    "ModelId": 2010101,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Weapon/Funnel/Funnel_Shengyi/Mesh/Funnel_Shengyi.Funnel_Shengyi",
+    "StandId": "001"
+  },
+  "2020101": {
+    "ModelId": 2020101,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Weapon/Crossbow/Crossbow_Chixing/Mesh/Crossbow_Chixing_R_SM.Crossbow_Chixing_R_SM",
+    "StandId": "003"
+  },
+  "2020201": {
+    "ModelId": 2020201,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Weapon/Crossbow/Crossbow_Chixing/Mesh/Crossbow_Chixing_L_SM.Crossbow_Chixing_L_SM",
+    "StandId": "003"
+  },
+  "2020301": {
+    "ModelId": 2020301,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Weapon/Crossbow/Crossbow_Lanse/Mesh/Crossbow_Lanse_R_SM.Crossbow_Lanse_R_SM",
+    "StandId": "003"
+  },
+  "2020401": {
+    "ModelId": 2020401,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Weapon/Crossbow/Crossbow_Lanse/Mesh/Crossbow_Lanse_L_SM.Crossbow_Lanse_L_SM",
+    "StandId": "003"
+  },
+  "2029601": {
+    "ModelId": 2029601,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Weapon/Crossbow/Crossbow_Jinshu/Mesh/Crossbow_Jinshu_R_SM.Crossbow_Jinshu_R_SM",
+    "StandId": "004"
+  },
+  "2029701": {
+    "ModelId": 2029701,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Weapon/Crossbow/Crossbow_Jinshu/Mesh/Crossbow_Jinshu_L_SM.Crossbow_Jinshu_L_SM",
+    "StandId": "004"
+  },
+  "2029801": {
+    "ModelId": 2029801,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Weapon/Crossbow/Crossbow_Liandu/Mesh/Crossbow_Liandu_R_SM.Crossbow_Liandu_R_SM",
+    "StandId": "005"
+  },
+  "2029901": {
+    "ModelId": 2029901,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Weapon/Crossbow/Crossbow_Liandu/Mesh/Crossbow_Liandu_L_SM.Crossbow_Liandu_L_SM",
+    "StandId": "005"
+  },
+  "2030101": {
+    "ModelId": 2030101,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Weapon/Cannon/Cannon_Chiqiang/Mesh/Cannon_Chiqiang_SM.Cannon_Chiqiang_SM",
+    "StandId": "002"
+  },
+  "2030301": {
+    "ModelId": 2030301,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Weapon/Cannon/Cannon_Chixing/Mesh/Cannon_Chixing_SM.Cannon_Chixing_SM",
+    "StandId": "002"
+  },
+  "2039801": {
+    "ModelId": 2039801,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Weapon/Cannon/Cannon_Liandu/Mesh/Cannon_Liandu_SM.Cannon_Liandu_SM",
+    "StandId": "002"
+  },
+  "2039901": {
+    "ModelId": 2039901,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Weapon/Cannon/Cannon_Jinshu/Mesh/Cannon_Jinshu_SM.Cannon_Jinshu_SM",
+    "StandId": "002"
+  },
+  "2040101": {
+    "ModelId": 2040101,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Weapon/Shotgun/Shotgun_Chixing/Mesh/Shotgun_Chixing_SM.Shotgun_Chixing_SM",
+    "StandId": "005"
+  },
+  "2040201": {
+    "ModelId": 2040201,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Weapon/Shotgun/Shotgun_Banzi/Mesh/Shotgun_Banzi_SM.Shotgun_Banzi_SM",
+    "StandId": "005"
+  },
+  "2040301": {
+    "ModelId": 2040301,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Weapon/Shotgun/Shotgun_Shengcai/Mesh/Shotgun_Shengcai_SM.Shotgun_Shengcai_SM",
+    "StandId": "005"
+  },
+  "2040401": {
+    "ModelId": 2040401,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Weapon/Shotgun/Shotgun_Qiege/Mesh/Shotgun_Qiege_SM.Shotgun_Qiege_SM",
+    "StandId": "005"
+  },
+  "2049801": {
+    "ModelId": 2049801,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Weapon/Shotgun/Shotgun_Liandu/Mesh/Shotgun_Liandu_SM.Shotgun_Liandu_SM",
+    "StandId": "005"
+  },
+  "2049901": {
+    "ModelId": 2049901,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Weapon/Shotgun/Shotgun_Jinshu/Mesh/Shotgun_Jinshu_SM.Shotgun_Jinshu_SM",
+    "StandId": "004"
+  },
+  "2050101": {
+    "ModelId": 2050101,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Weapon/Machinegun/Machinegun_Chixing/Mesh/Machinegun_Chixing_SM.Machinegun_Chixing_SM",
+    "StandId": "004"
+  },
+  "2050201": {
+    "ModelId": 2050201,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Weapon/Machinegun/Machinegun_Fangzhu/Mesh/Machinegun_Fangzhu_SM.Machinegun_Fangzhu_SM",
+    "StandId": "004"
+  },
+  "2050301": {
+    "ModelId": 2050301,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Weapon/Machinegun/Machinegun_Qiqing/Mesh/Machinegun_Qiqing_SM.Machinegun_Qiqing_SM",
+    "StandId": "004"
+  },
+  "2050401": {
+    "ModelId": 2050401,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Weapon/Machinegun/Machinegun_Poxiao/Mesh/Machinegun_Poxiao_SM.Machinegun_Poxiao_SM",
+    "StandId": "004"
+  },
+  "2050701": {
+    "ModelId": 2050701,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Weapon/Machinegun/Machinegun_Yinlang/Mesh/Machinegun_Yinlang_SM.Machinegun_Yinlang_SM",
+    "StandId": "004"
+  },
+  "2059801": {
+    "ModelId": 2059801,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Weapon/Machinegun/Machinegun_Liandu/Mesh/Machinegun_Liandu_SM.Machinegun_Liandu_SM",
+    "StandId": "004"
+  },
+  "2059901": {
+    "ModelId": 2059901,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Weapon/Machinegun/Machinegun_Jinshu/Mesh/Machinegun_Jinshu_SM.Machinegun_Jinshu_SM",
+    "StandId": "004"
+  },
+  "2060101": {
+    "ModelId": 2060101,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Weapon/Bow/Bow_Lieyan/Mesh/Bow_Lieyan_SM.Bow_Lieyan_SM",
+    "StandId": "003"
+  },
+  "2060201": {
+    "ModelId": 2060201,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Weapon/Bow/Bow_Huguang/Mesh/Bow_Huguang_SM.Bow_Huguang_SM",
+    "StandId": "003"
+  },
+  "2069801": {
+    "ModelId": 2069801,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Weapon/Bow/Bow_Liandu/Mesh/Bow_Liandu_SM.Bow_Liandu_SM",
+    "StandId": "003"
+  },
+  "2069901": {
+    "ModelId": 2069901,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Weapon/Bow/Bow_Jinshu/Mesh/Bow_Jinshu_SM.Bow_Jinshu_SM",
+    "StandId": "003"
+  },
+  "10004011": {
+    "ModelId": 10004011,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Pet/Pet006_Zisha/Mesh/Pet_Zisha_SM.Pet_Zisha_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/Pet/ABP_PetQuad_zisha.ABP_PetQuad_Zisha_C'",
+    "ModelScale": 2
+  },
+  "10004021": {
+    "ModelId": 10004021,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Pet/Pet001_Yuyi/Mesh/Pet_Yuyi_SM.Pet_Yuyi_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/Pet/ABP_PetFloat_Yuyi.ABP_PetFloat_Yuyi_C'",
+    "ModelScale": 2
+  },
+  "10004031": {
+    "ModelId": 10004031,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Pet/Pet002_Dahuo/Mesh/Pet_Dahuo_SM.Pet_Dahuo_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/Pet/ABP_PetFloat_Dahuo.ABP_PetFloat_Dahuo_C'",
+    "ModelScale": 2
+  },
+  "10004041": {
+    "ModelId": 10004041,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Pet/Pet004_Zhamao/Mesh/Pet_Zhamao_SM.Pet_Zhamao_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/Pet/ABP_PetQuad_Zhamao.ABP_PetQuad_Zhamao_C'",
+    "ModelScale": 2
+  },
+  "10004051": {
+    "ModelId": 10004051,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Pet/Pet003_Yaoye/Mesh/Pet_Yaoye_SM.Pet_Yaoye_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/Pet/ABP_PetFloat_Yaoye.ABP_PetFloat_Yaoye_C'",
+    "ModelScale": 2
+  },
+  "10004061": {
+    "ModelId": 10004061,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Pet/Pet005_Shanling/Mesh/Pet_Shanling_SM.Pet_Shanling_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/Pet/ABP_PetQuad_Shanling.ABP_PetQuad_Shanling_C'",
+    "ModelScale": 2
+  },
+  "10004911": {
+    "ModelId": 10004911,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Pet/Pet010_HealRobot/Mesh/Pet_HealRobot_SM.Pet_HealRobot_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/Pet/ABP_PetFloat_HealRobot.ABP_PetFloat_HealRobot_C'",
+    "ModelScale": 1.5
+  },
+  "10004921": {
+    "ModelId": 10004921,
+    "SkeletonMeshPath": "Asset/Char/Player/Common/Pet/Pet011_BlastRobot/Mesh/Pet_BlastRobot_SM.Pet_BlastRobot_SM",
+    "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Npc/Pet/ABP_PetPiaofu_BlastRobot.ABP_PetPiaofu_BlastRobot_C'",
+    "ModelScale": 1.5
+  }
+}

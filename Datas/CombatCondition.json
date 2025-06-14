@@ -1,0 +1,1122 @@
+{
+  "1": {
+    "Id": 1
+  },
+  "2": {
+    "Id": 2,
+    "FuncName": "Not_HpMax"
+  },
+  "3": {
+    "Id": 3,
+    "FuncName": "Not_SpMax"
+  },
+  "4": {
+    "Id": 4,
+    "FuncName": "Not_BulletMax"
+  },
+  "5": {
+    "Id": 5,
+    "FuncName": "Check_Buff_Layer",
+    "ConditionVars": {
+      "BuffId": 50,
+      "CompareLogic": "Less",
+      "CompareBaseInt": 4
+    }
+  },
+  "6": {
+    "Id": 6,
+    "FuncName": "Is_In_SkillFeature",
+    "Not": true
+  },
+  "7": {
+    "Id": 7,
+    "FuncName": "Can_Gesture"
+  },
+  "8": {
+    "Id": 8,
+    "FuncName": "Sp_Zero"
+  },
+  "11": {
+    "Id": 11,
+    "FuncName": "Not_In_Battle"
+  },
+  "15": {
+    "Id": 15,
+    "FuncName": "Check_Buff",
+    "ConditionVars": [
+      {
+        "BuffId": 15
+      }
+    ]
+  },
+  "16": {
+    "Id": 16,
+    "FuncName": "Check_Buff",
+    "ConditionVars": [
+      {
+        "BuffId": 15
+      }
+    ],
+    "Not": true
+  },
+  "20": {
+    "Id": 20,
+    "FuncName": "Is_In_Air"
+  },
+  "21": {
+    "Id": 21,
+    "FuncName": "Is_In_Air",
+    "Not": true
+  },
+  "22": {
+    "Id": 22,
+    "FuncName": "Not_Attack_Hold"
+  },
+  "23": {
+    "Id": 23,
+    "FuncName": "Press_Attack",
+    "ConditionVars": {
+      "Key": "Attack"
+    }
+  },
+  "24": {
+    "Id": 24,
+    "FuncName": "Magazine_Is_Full"
+  },
+  "25": {
+    "Id": 25,
+    "FuncName": "Check_Bullet_Num",
+    "ConditionVars": {
+      "CompareLogic": "Equal",
+      "CompareBaseInt": 0
+    }
+  },
+  "26": {
+    "Id": 26,
+    "FuncName": "Skill1_Hold",
+    "Not": true
+  },
+  "27": {
+    "Id": 27,
+    "FuncName": "Skill2_Hold",
+    "Not": true
+  },
+  "28": {
+    "Id": 28,
+    "FuncName": "Is_FallAttack_Landed"
+  },
+  "29": {
+    "Id": 29,
+    "FuncName": "Not_Shoot_Hold"
+  },
+  "30": {
+    "Id": 30,
+    "FuncName": "IsInteractive",
+    "Not": true
+  },
+  "31": {
+    "Id": 31,
+    "FuncName": "Has_Movement_Input"
+  },
+  "32": {
+    "Id": 32,
+    "FuncName": "Not_Shoot_Hold",
+    "Not": true
+  },
+  "33": {
+    "Id": 33,
+    "FuncName": "Has_Movement_Input",
+    "Not": true
+  },
+  "34": {
+    "Id": 34,
+    "FuncName": "Is_In_BulletJump"
+  },
+  "35": {
+    "Id": 35,
+    "FuncName": "Is_Flying"
+  },
+  "36": {
+    "Id": 36,
+    "FuncName": "Is_Idle"
+  },
+  "37": {
+    "Id": 37,
+    "FuncName": "Is_Seating"
+  },
+  "38": {
+    "Id": 38,
+    "FuncName": "Bullet_Zero"
+  },
+  "39": {
+    "Id": 39,
+    "FuncName": "Press_AnyAttack"
+  },
+  "50": {
+    "Id": 50,
+    "FuncName": "Mon_BTTarget_Is_In_Air"
+  },
+  "51": {
+    "Id": 51,
+    "FuncName": "Mon_BTTarget_Is_In_Air",
+    "Not": true
+  },
+  "52": {
+    "Id": 52,
+    "FuncName": "Check_Mon_Region_EscapeFromBattle"
+  },
+  "53": {
+    "Id": 53,
+    "FuncName": "Check_Mon_Region_OutBattleFromEscape"
+  },
+  "54": {
+    "Id": 54,
+    "FuncName": "Check_Mon_Dungeon_EscapeFromBattle"
+  },
+  "55": {
+    "Id": 55,
+    "FuncName": "Check_Mon_Dungeon_OutBattleFromEscape"
+  },
+  "60": {
+    "Id": 60,
+    "FuncName": "Check_Buff",
+    "ConditionVars": {
+      "BuffId": 101
+    }
+  },
+  "61": {
+    "Id": 61,
+    "FuncName": "Check_Buff",
+    "ConditionVars": {
+      "BuffId": 102
+    }
+  },
+  "62": {
+    "Id": 62,
+    "FuncName": "Check_Buff",
+    "ConditionVars": {
+      "BuffId": 103
+    }
+  },
+  "63": {
+    "Id": 63,
+    "FuncName": "Check_Buff",
+    "ConditionVars": {
+      "BuffId": 104
+    }
+  },
+  "64": {
+    "Id": 64,
+    "FuncName": "Check_Buff",
+    "ConditionVars": {
+      "BuffId": 105
+    }
+  },
+  "65": {
+    "Id": 65,
+    "FuncName": "Check_Buff",
+    "ConditionVars": [
+      {
+        "BuffId": 106
+      }
+    ]
+  },
+  "66": {
+    "Id": 66,
+    "FuncName": "Is_In_Stun"
+  },
+  "67": {
+    "Id": 67,
+    "FuncName": "Check_Buff_Type",
+    "ConditionVars": {
+      "Int": 70
+    }
+  },
+  "68": {
+    "Id": 68,
+    "FuncName": "Check_Buff_Type",
+    "ConditionVars": {
+      "Int": 71
+    }
+  },
+  "100": {
+    "Id": 100,
+    "FuncName": "hit_target"
+  },
+  "101": {
+    "Id": 101,
+    "FuncName": "effect_hit_target"
+  },
+  "102": {
+    "Id": 102,
+    "FuncName": "Check_TriggerProb"
+  },
+  "103": {
+    "Id": 103,
+    "FuncName": "IsRecovering",
+    "Not": true
+  },
+  "200": {
+    "Id": 200,
+    "FuncName": "Summoner_Skill1_Hold",
+    "Not": true
+  },
+  "210": {
+    "Id": 210,
+    "FuncName": "SummonNumMore_Arbitray",
+    "ConditionVars": {
+      "CompareBaseInt": 0
+    }
+  },
+  "211": {
+    "Id": 211,
+    "FuncName": "SummonNumMore_Arbitray",
+    "ConditionVars": {
+      "CompareBaseInt": 1
+    }
+  },
+  "212": {
+    "Id": 212,
+    "FuncName": "SummonNumMore_Arbitray",
+    "ConditionVars": {
+      "CompareBaseInt": 2
+    }
+  },
+  "300": {
+    "Id": 300,
+    "FuncName": "Is_In_Rouge"
+  },
+  "301": {
+    "Id": 301,
+    "FuncName": "Is_In_Rouge",
+    "Not": true
+  },
+  "900": {
+    "Id": 900,
+    "FuncName": "Phantom_OwnerDis",
+    "ConditionVars": [
+      {
+        "RelativeDis": 2500
+      }
+    ]
+  },
+  "901": {
+    "Id": 901,
+    "FuncName": "Is_Phantom"
+  },
+  "902": {
+    "Id": 902,
+    "FuncName": "Phantom_OwnerDis",
+    "ConditionVars": [
+      {
+        "RelativeDis": 2500
+      }
+    ],
+    "Not": true
+  },
+  "903": {
+    "Id": 903,
+    "FuncName": "Phantom_OwnerDis",
+    "ConditionVars": {
+      "RelativeDis": 1300
+    },
+    "And": {}
+  },
+  "904": {
+    "Id": 904,
+    "FuncName": "Phantom_BulletJump",
+    "ConditionVars": {
+      "CompareBase": 30
+    }
+  },
+  "911": {
+    "Id": 911,
+    "FuncName": "Can_Phantom_Summon_Num"
+  },
+  "912": {
+    "Id": 912,
+    "FuncName": "Can_Phantom_Summon_Id"
+  },
+  "110101": {
+    "Id": 110101,
+    "FuncName": "Check_Buff",
+    "ConditionVars": {
+      "BuffId": 110101
+    }
+  },
+  "110102": {
+    "Id": 110102,
+    "FuncName": "Check_Heitao_SkillGrade6"
+  },
+  "180101": {
+    "Id": 180101,
+    "FuncName": "SummonInRange",
+    "ConditionVars": [
+      {
+        "SummonId": 180101
+      },
+      {
+        "Key": "Default"
+      },
+      {
+        "CompareBaseInt": 1
+      },
+      {
+        "CompareBase": 1000
+      }
+    ],
+    "Not": true
+  },
+  "180102": {
+    "Id": 180102,
+    "FuncName": "SummonInRange",
+    "ConditionVars": [
+      {
+        "SummonId": 180101
+      },
+      {
+        "Key": "Default"
+      },
+      {
+        "CompareBaseInt": 1
+      },
+      {
+        "CompareBase": 1000
+      }
+    ]
+  },
+  "180103": {
+    "Id": 180103,
+    "FuncName": "Check_Key_Bool",
+    "ConditionVars": {
+      "Key": "FeinaHitWeakness"
+    }
+  },
+  "180104": {
+    "Id": 180104,
+    "FuncName": "SummonInRange",
+    "ConditionVars": [
+      {
+        "SummonId": 180101
+      },
+      {
+        "Key": "Default"
+      },
+      {
+        "CompareBaseInt": 1
+      },
+      {
+        "CompareBase": 1000
+      }
+    ]
+  },
+  "180111": {
+    "Id": 180111,
+    "FuncName": "Check_Buff",
+    "ConditionVars": {
+      "BuffId": 180102
+    }
+  },
+  "210101": {
+    "Id": 210101,
+    "FuncName": "SummonInRange",
+    "ConditionVars": {
+      "SummonId": 210101,
+      "Key": "SummonNum",
+      "CompareBase": 1000
+    }
+  },
+  "230101": {
+    "Id": 230101,
+    "FuncName": "SummonInRange",
+    "ConditionVars": {
+      "SummonId": 230101,
+      "Key": "SummonNum",
+      "CompareBase": 1000
+    }
+  },
+  "240101": {
+    "Id": 240101,
+    "FuncName": "SummonInRange",
+    "ConditionVars": {
+      "SummonId": 240101,
+      "Key": "SummonNum",
+      "CompareBase": 1000
+    }
+  },
+  "240102": {
+    "Id": 240102,
+    "FuncName": "Is_TeamHp_Below",
+    "ConditionVars": {
+      "CompareBase": 0.6
+    }
+  },
+  "310120": {
+    "Id": 310120,
+    "FuncName": "Check_Buff",
+    "ConditionVars": {
+      "BuffId": 310120
+    },
+    "Or": {}
+  },
+  "310121": {
+    "Id": 310121,
+    "FuncName": "Check_Buff_Layer",
+    "ConditionVars": {
+      "BuffId": 310124,
+      "CompareLogic": "Less",
+      "CompareBaseInt": 10
+    }
+  },
+  "310122": {
+    "Id": 310122,
+    "FuncName": "Check_Buff_Layer",
+    "ConditionVars": {
+      "BuffId": 310124,
+      "CompareLogic": "NotLess",
+      "CompareBaseInt": 10
+    }
+  },
+  "310123": {
+    "Id": 310123,
+    "FuncName": "Check_Buff_Layer",
+    "ConditionVars": {
+      "BuffId": 310124,
+      "CompareLogic": "NotLess",
+      "CompareBaseInt": 25
+    }
+  },
+  "310124": {
+    "Id": 310124,
+    "FuncName": "Check_Buff",
+    "ConditionVars": {
+      "BuffId": 310121
+    }
+  },
+  "310201": {
+    "Id": 310201,
+    "FuncName": "SummonInRange",
+    "ConditionVars": {
+      "SummonId": 310202,
+      "Key": "Default",
+      "CompareBaseInt": 6,
+      "CompareBase": 1000
+    }
+  },
+  "310301": {
+    "Id": 310301,
+    "FuncName": "Check_Buff",
+    "ConditionVars": [
+      {
+        "BuffId": 310301
+      }
+    ]
+  },
+  "310302": {
+    "Id": 310302,
+    "FuncName": "Check_Buff",
+    "ConditionVars": [
+      {
+        "BuffId": 310301
+      }
+    ],
+    "Not": true
+  },
+  "310303": {
+    "Id": 310303,
+    "FuncName": "Check_Yeer_Skill01A",
+    "ConditionVars": [
+      {
+        "BuffId": 310303
+      }
+    ]
+  },
+  "310304": {
+    "Id": 310304,
+    "FuncName": "Check_Yeer_Skill01B",
+    "ConditionVars": [
+      {
+        "BuffId": 310303
+      }
+    ]
+  },
+  "310305": {
+    "Id": 310305,
+    "FuncName": "Check_Key_Bool",
+    "ConditionVars": [
+      {
+        "Key": "ToExplode"
+      }
+    ]
+  },
+  "310306": {
+    "Id": 310306,
+    "FuncName": "Check_Key_Bool",
+    "ConditionVars": [
+      {
+        "Key": "ToExplode"
+      }
+    ],
+    "Not": true
+  },
+  "320101": {
+    "Id": 320101,
+    "FuncName": "Check_Buff_LastTime",
+    "ConditionVars": {
+      "CompareBase": 3,
+      "BuffId": 320111
+    }
+  },
+  "320111": {
+    "Id": 320111,
+    "FuncName": "Check_Buff",
+    "ConditionVars": [
+      {
+        "BuffId": 320111
+      }
+    ]
+  },
+  "320112": {
+    "Id": 320112,
+    "FuncName": "Check_Buff",
+    "ConditionVars": [
+      {
+        "BuffId": 320111
+      }
+    ],
+    "Not": true
+  },
+  "320113": {
+    "Id": 320113,
+    "FuncName": "Check_Buff",
+    "ConditionVars": [
+      {
+        "BuffId": 320113
+      }
+    ]
+  },
+  "320114": {
+    "Id": 320114,
+    "FuncName": "Check_Buff",
+    "ConditionVars": [
+      {
+        "BuffId": 320113
+      }
+    ],
+    "Not": true
+  },
+  "330101": {
+    "Id": 330101,
+    "FuncName": "Check_Maer_Skill01"
+  },
+  "330102": {
+    "Id": 330102,
+    "FuncName": "Check_Maer_PassiveBuff"
+  },
+  "330103": {
+    "Id": 330103,
+    "FuncName": "Check_Buff_Layer",
+    "ConditionVars": {
+      "BuffId": 330101,
+      "CompareLogic": "NotLess",
+      "CompareBaseInt": 5
+    }
+  },
+  "410101": {
+    "Id": 410101,
+    "FuncName": "Check_Buff",
+    "ConditionVars": {
+      "BuffId": 410101
+    },
+    "Not": true
+  },
+  "420101": {
+    "Id": 420101,
+    "FuncName": "Check_Buff",
+    "ConditionVars": {
+      "BuffId": 420111
+    },
+    "Not": true
+  },
+  "420102": {
+    "Id": 420102,
+    "FuncName": "Check_Buff",
+    "ConditionVars": {
+      "BuffId": 420121
+    }
+  },
+  "420201": {
+    "Id": 420201,
+    "FuncName": "Check_Ranged_Mon_Num",
+    "ConditionVars": {
+      "TargetFilter": "Char_Cylinder_Large180",
+      "CompareBaseInt": 5
+    },
+    "And": {}
+  },
+  "420202": {
+    "Id": 420202,
+    "FuncName": "Check_Attr_Self",
+    "ConditionVars": {
+      "CompareLogic": "NotGreater",
+      "CompareBase": 0,
+      "Key": "ES"
+    }
+  },
+  "430101": {
+    "Id": 430101,
+    "FuncName": "Check_Xibi_Energy",
+    "ConditionVars": {
+      "CompareLogic": "NotLess",
+      "CompareBaseInt": 30
+    }
+  },
+  "430102": {
+    "Id": 430102,
+    "FuncName": "Check_Xibi_Energy",
+    "ConditionVars": {
+      "CompareLogic": "Less",
+      "CompareBaseInt": 30
+    }
+  },
+  "430103": {
+    "Id": 430103,
+    "FuncName": "Check_Xibi_Energy",
+    "ConditionVars": {
+      "CompareLogic": "NotLess",
+      "CompareBaseInt": 100
+    }
+  },
+  "430104": {
+    "Id": 430104,
+    "FuncName": "Check_Xibi_Energy",
+    "ConditionVars": {
+      "CompareLogic": "Less",
+      "CompareBaseInt": 100
+    }
+  },
+  "430121": {
+    "Id": 430121,
+    "FuncName": "SummonInRange",
+    "ConditionVars": {
+      "SummonId": 430101,
+      "Key": "Default",
+      "CompareBaseInt": 1,
+      "CompareBase": 1000
+    }
+  },
+  "510101": {
+    "Id": 510101,
+    "FuncName": "Check_Buff",
+    "ConditionVars": [
+      {
+        "BuffId": 510106
+      }
+    ]
+  },
+  "510102": {
+    "Id": 510102,
+    "FuncName": "Summoner_Check_Buff",
+    "ConditionVars": [
+      {
+        "BuffId": 510106
+      }
+    ]
+  },
+  "510103": {
+    "Id": 510103,
+    "FuncName": "Check_Buff",
+    "ConditionVars": {
+      "BuffId": 510121
+    }
+  },
+  "530102": {
+    "Id": 530102,
+    "FuncName": "Check_Buff",
+    "ConditionVars": {
+      "BuffId": 530100
+    },
+    "Or": {}
+  },
+  "530121": {
+    "Id": 530121,
+    "FuncName": "Is_Hp_Above",
+    "ConditionVars": [
+      {
+        "CompareBase": 0.15
+      }
+    ]
+  },
+  "530122": {
+    "Id": 530122,
+    "FuncName": "Is_Hp_Above",
+    "ConditionVars": [
+      {
+        "CompareBase": 0.15
+      }
+    ],
+    "Not": true
+  },
+  "530123": {
+    "Id": 530123,
+    "FuncName": "Check_Buff",
+    "ConditionVars": {
+      "BuffId": 530110
+    }
+  },
+  "600401": {
+    "Id": 600401,
+    "FuncName": "IsAnySceneAroundBTTarget",
+    "ConditionVars": {
+      "XY": 150,
+      "Z": 70
+    },
+    "Not": true
+  },
+  "600501": {
+    "Id": 600501,
+    "FuncName": "Check_Buff",
+    "ConditionVars": {
+      "BuffId": 600502
+    }
+  },
+  "600502": {
+    "Id": 600502,
+    "FuncName": "Check_Buff",
+    "ConditionVars": [
+      {
+        "BuffId": 106
+      }
+    ],
+    "Or": {}
+  },
+  "850000": {
+    "Id": 850000,
+    "FuncName": "IsStoryBoss"
+  },
+  "850001": {
+    "Id": 850001,
+    "FuncName": "Check_CurrentTN",
+    "ConditionVars": {
+      "TNValue": 0
+    }
+  },
+  "850002": {
+    "Id": 850002,
+    "FuncName": "Check_Mon_HpPercentUnder",
+    "ConditionVars": {
+      "HpPercent": 0.85
+    }
+  },
+  "850003": {
+    "Id": 850003,
+    "FuncName": "Check_Mon_HpPercentUnder",
+    "ConditionVars": {
+      "HpPercent": 0.5
+    }
+  },
+  "850004": {
+    "Id": 850004,
+    "FuncName": "Check_Mon_HpPercentUnder",
+    "ConditionVars": {
+      "HpPercent": 0.15
+    }
+  },
+  "850011": {
+    "Id": 850011,
+    "FuncName": "Check_BTTargetLoc",
+    "ConditionVars": {
+      "RelativeDis": 600
+    },
+    "Or": {}
+  },
+  "850012": {
+    "Id": 850012,
+    "FuncName": "Check_BTTargetAngle",
+    "ConditionVars": {
+      "RelativeAngle": 120
+    }
+  },
+  "850071": {
+    "Id": 850071,
+    "FuncName": "Check_EffectTargetValid",
+    "ConditionVars": {
+      "EffectId": 850071
+    }
+  },
+  "850072": {
+    "Id": 850072,
+    "FuncName": "Check_EffectTargetValid",
+    "ConditionVars": {
+      "EffectId": 8500171
+    }
+  },
+  "850081": {
+    "Id": 850081,
+    "FuncName": "Check_BTTargetLoc",
+    "ConditionVars": {
+      "RelativeDis": 1000
+    }
+  },
+  "850201": {
+    "Id": 850201,
+    "FuncName": "PartIsBroken",
+    "ConditionVars": [
+      {
+        "PartId": 1
+      }
+    ],
+    "Not": true
+  },
+  "850202": {
+    "Id": 850202,
+    "FuncName": "PartIsBroken",
+    "ConditionVars": [
+      {
+        "PartId": 2
+      }
+    ],
+    "Not": true
+  },
+  "850203": {
+    "Id": 850203,
+    "FuncName": "PartIsBroken",
+    "ConditionVars": [
+      {
+        "PartId": 3
+      }
+    ],
+    "Not": true
+  },
+  "850204": {
+    "Id": 850204,
+    "FuncName": "PartIsBroken",
+    "ConditionVars": [
+      {
+        "PartId": 4
+      }
+    ],
+    "Not": true
+  },
+  "850205": {
+    "Id": 850205,
+    "FuncName": "BrokenPart",
+    "ConditionVars": [
+      {
+        "PartId": 1
+      }
+    ]
+  },
+  "850206": {
+    "Id": 850206,
+    "FuncName": "BrokenPart",
+    "ConditionVars": [
+      {
+        "PartId": 2
+      }
+    ]
+  },
+  "850207": {
+    "Id": 850207,
+    "FuncName": "BrokenPart",
+    "ConditionVars": [
+      {
+        "PartId": 3
+      }
+    ]
+  },
+  "850208": {
+    "Id": 850208,
+    "FuncName": "BrokenPart",
+    "ConditionVars": [
+      {
+        "PartId": 4
+      }
+    ]
+  },
+  "850209": {
+    "Id": 850209,
+    "FuncName": "Is_UnitId_Match",
+    "ConditionVars": {
+      "UnitId": 8502001
+    }
+  },
+  "850210": {
+    "Id": 850210,
+    "FuncName": "Check_Buff_Layer",
+    "ConditionVars": {
+      "BuffId": 850210,
+      "CompareLogic": "Equal",
+      "CompareBaseInt": 2
+    }
+  },
+  "850211": {
+    "Id": 850211,
+    "FuncName": "Check_Buff_Layer",
+    "ConditionVars": {
+      "BuffId": 850210,
+      "CompareLogic": "Equal",
+      "CompareBaseInt": 3
+    }
+  },
+  "850212": {
+    "Id": 850212,
+    "FuncName": "Check_Buff_Layer",
+    "ConditionVars": {
+      "BuffId": 850210,
+      "CompareLogic": "Equal",
+      "CompareBaseInt": 4
+    }
+  },
+  "850301": {
+    "Id": 850301,
+    "FuncName": "BrokenPart",
+    "ConditionVars": [
+      {
+        "PartId": 1
+      }
+    ]
+  },
+  "850302": {
+    "Id": 850302,
+    "FuncName": "BrokenPart",
+    "ConditionVars": [
+      {
+        "PartId": 2
+      }
+    ]
+  },
+  "850303": {
+    "Id": 850303,
+    "FuncName": "BrokenPart",
+    "ConditionVars": [
+      {
+        "PartId": 3
+      }
+    ]
+  },
+  "850304": {
+    "Id": 850304,
+    "FuncName": "BrokenPart",
+    "ConditionVars": [
+      {
+        "PartId": 4
+      }
+    ]
+  },
+  "850305": {
+    "Id": 850305,
+    "FuncName": "Check_EffectTargetValid",
+    "ConditionVars": {
+      "EffectId": 8503182
+    }
+  },
+  "850306": {
+    "Id": 850306,
+    "FuncName": "Is_In_LieDown",
+    "Not": true
+  },
+  "850501": {
+    "Id": 850501,
+    "FuncName": "Check_BTTarget_Buff",
+    "ConditionVars": {
+      "BuffId": 207
+    }
+  },
+  "850502": {
+    "Id": 850502,
+    "FuncName": "Check_Ranged_Mon_Num",
+    "ConditionVars": {
+      "TargetFilter": "BossLianhuo_Skill02_Cylinder",
+      "CompareBaseInt": 1
+    }
+  },
+  "950101": {
+    "Id": 950101,
+    "FuncName": "Check_Mon_UnitId",
+    "ConditionVars": {
+      "MonsterId": 9501001
+    },
+    "Or": {}
+  },
+  "950102": {
+    "Id": 950102,
+    "FuncName": "Check_Mon_UnitId",
+    "ConditionVars": {
+      "MonsterId": 9501002
+    }
+  },
+  "1010102": {
+    "Id": 1010102,
+    "FuncName": "Check_Buff",
+    "ConditionVars": {
+      "BuffId": 1010102
+    }
+  },
+  "1060101": {
+    "Id": 1060101,
+    "FuncName": "Check_EffectTargetValid",
+    "ConditionVars": {
+      "EffectId": 1060251
+    }
+  },
+  "1060102": {
+    "Id": 1060102,
+    "FuncName": "Check_Buff",
+    "ConditionVars": {
+      "BuffId": 1060202
+    }
+  },
+  "2040501": {
+    "Id": 2040501,
+    "FuncName": "Check_Key_Bool",
+    "ConditionVars": [
+      {
+        "Key": "IsHeavyShooting_20405"
+      }
+    ],
+    "Not": true
+  },
+  "2040502": {
+    "Id": 2040502,
+    "FuncName": "Check_Key_Bool",
+    "ConditionVars": [
+      {
+        "Key": "IsHeavyShooting_20405"
+      }
+    ]
+  },
+  "2050501": {
+    "Id": 2050501,
+    "FuncName": "Check_Buff_Layer",
+    "ConditionVars": {
+      "BuffId": 2050501,
+      "CompareLogic": "NotLess",
+      "CompareBaseInt": 10
+    }
+  },
+  "2060101": {
+    "Id": 2060101,
+    "FuncName": "Check_Key_Int",
+    "ConditionVars": {
+      "Key": "Grade_20601",
+      "Int": 0
+    }
+  },
+  "2060102": {
+    "Id": 2060102,
+    "FuncName": "Check_Key_Int",
+    "ConditionVars": {
+      "Key": "Grade_20601",
+      "Int": 1
+    }
+  },
+  "2060103": {
+    "Id": 2060103,
+    "FuncName": "Check_Key_Int",
+    "ConditionVars": {
+      "Key": "Grade_20601",
+      "Int": 2
+    }
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "Birth": {
+    "SourceTag": "Birth",
+    "ActionMode": 1
+  },
+  "Idle": {
+    "SourceTag": "Idle",
+    "ActionMode": 0
+  },
+  "Falling": {
+    "SourceTag": "Falling",
+    "ActionMode": 0
+  },
+  "LandHeavy": {
+    "SourceTag": "LandHeavy",
+    "ActionMode": 0
+  },
+  "Slide": {
+    "SourceTag": "Slide",
+    "ActionMode": 0
+  },
+  "Crouch": {
+    "SourceTag": "Crouch",
+    "ActionMode": 0
+  },
+  "Cover": {
+    "SourceTag": "Cover",
+    "ActionMode": 0
+  },
+  "Skill": {
+    "SourceTag": "Skill",
+    "ActionMode": 0,
+    "TagType": [
+      "Skill"
+    ]
+  },
+  "Shooting": {
+    "SourceTag": "Shooting",
+    "ActionMode": 0,
+    "TagType": [
+      "Skill"
+    ]
+  },
+  "LightHit": {
+    "SourceTag": "LightHit",
+    "InterruptNavLink": true,
+    "ActionMode": 1,
+    "TagType": [
+      "Hit"
+    ],
+    "ResetCoverPointInfo": true
+  },
+  "LightHitRanged": {
+    "SourceTag": "LightHitRanged",
+    "InterruptNavLink": true,
+    "ActionMode": 1,
+    "TagType": [
+      "Hit"
+    ],
+    "ResetCoverPointInfo": true
+  },
+  "HeavyHit": {
+    "SourceTag": "HeavyHit",
+    "InterruptNavLink": true,
+    "ActionMode": 1,
+    "TagType": [
+      "Hit"
+    ],
+    "ResetCoverPointInfo": true
+  },
+  "HitFly": {
+    "SourceTag": "HitFly",
+    "InterruptNavLink": true,
+    "ActionMode": 1,
+    "TagType": [
+      "Hit"
+    ],
+    "BreakableItem": {
+      "Breakable": true
+    },
+    "ResetCoverPointInfo": true
+  },
+  "Dead": {
+    "SourceTag": "Dead",
+    "ForbidAI": 1,
+    "InterruptNavLink": true,
+    "ActionMode": 1,
+    "ResetCoverPointInfo": true
+  },
+  "Stun": {
+    "SourceTag": "Stun",
+    "InterruptNavLink": true,
+    "ActionMode": 1,
+    "TagType": [
+      "Controlled"
+    ],
+    "ResetCoverPointInfo": true
+  },
+  "StunFloat": {
+    "SourceTag": "StunFloat",
+    "InterruptNavLink": true,
+    "ActionMode": 1,
+    "TagType": [
+      "Controlled"
+    ],
+    "ResetCoverPointInfo": true
+  },
+  "WaitForCaught": {
+    "SourceTag": "WaitForCaught",
+    "InterruptNavLink": true,
+    "ActionMode": 1,
+    "ResetCoverPointInfo": true
+  },
+  "CaptureSuccess": {
+    "SourceTag": "CaptureSuccess",
+    "InterruptNavLink": true,
+    "ActionMode": 1,
+    "ResetCoverPointInfo": true
+  },
+  "Defeated": {
+    "SourceTag": "Defeated",
+    "InterruptNavLink": true,
+    "ActionMode": 1,
+    "ResetCoverPointInfo": true
+  }
+}

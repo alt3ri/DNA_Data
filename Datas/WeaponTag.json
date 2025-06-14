@@ -1,0 +1,121 @@
+{
+  "Abstract": {
+    "WeaponTag": "Abstract"
+  },
+  "Condemn": {
+    "WeaponTag": "Condemn"
+  },
+  "Melee": {
+    "WeaponTag": "Melee"
+  },
+  "Ranged": {
+    "WeaponTag": "Ranged"
+  },
+  "Ultra": {
+    "WeaponTag": "Ultra"
+  },
+  "Cannon": {
+    "WeaponTag": "Cannon",
+    "WeaponTagTextmap": "WeaponType_Cannon",
+    "WeaponTagfilter": "RangedType",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Armory/T_Armory_WeaponType_Cannon.T_Armory_WeaponType_Cannon",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/SingleIcon/T_Gacha_WeaponType_Cannon.T_Gacha_WeaponType_Cannon",
+    "ImageType": 1
+  },
+  "Claymore": {
+    "WeaponTag": "Claymore",
+    "WeaponTagTextmap": "WeaponType_Claymore",
+    "WeaponTagfilter": "MeleeType",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Armory/T_Armory_WeaponType_Claymore.T_Armory_WeaponType_Claymore",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/SingleIcon/T_Gacha_WeaponType_Claymore.T_Gacha_WeaponType_Claymore",
+    "ImageType": 0
+  },
+  "Crossbow": {
+    "WeaponTag": "Crossbow",
+    "WeaponTagTextmap": "WeaponType_Crossbow",
+    "WeaponTagfilter": "RangedType",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Armory/T_Armory_WeaponType_Crossbow.T_Armory_WeaponType_Crossbow",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/SingleIcon/T_Gacha_WeaponType_Crossbow.T_Gacha_WeaponType_Crossbow",
+    "ImageType": 2
+  },
+  "Polearm": {
+    "WeaponTag": "Polearm",
+    "WeaponTagTextmap": "WeaponType_Polearm",
+    "WeaponTagfilter": "MeleeType",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Armory/T_Armory_WeaponType_Polearm.T_Armory_WeaponType_Polearm",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/SingleIcon/T_Gacha_WeaponType_Polearm.T_Gacha_WeaponType_Polearm",
+    "ImageType": 0
+  },
+  "Shotgun": {
+    "WeaponTag": "Shotgun",
+    "WeaponTagTextmap": "WeaponType_Shotgun",
+    "WeaponTagfilter": "RangedType",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Armory/T_Armory_WeaponType_Shotgun.T_Armory_WeaponType_Shotgun",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/SingleIcon/T_Gacha_WeaponType_Shotgun.T_Gacha_WeaponType_Shotgun",
+    "ImageType": 1
+  },
+  "Machinegun": {
+    "WeaponTag": "Machinegun",
+    "WeaponTagTextmap": "WeaponType_Machinegun",
+    "WeaponTagfilter": "RangedType",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Armory/T_Armory_WeaponType_Machinegun.T_Armory_WeaponType_Machinegun",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/SingleIcon/T_Gacha_WeaponType_Machinegun.T_Gacha_WeaponType_Machinegun",
+    "ImageType": 1
+  },
+  "Sword": {
+    "WeaponTag": "Sword",
+    "WeaponTagTextmap": "WeaponType_Sword",
+    "WeaponTagfilter": "MeleeType",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Armory/T_Armory_WeaponType_Sword.T_Armory_WeaponType_Sword",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/SingleIcon/T_Gacha_WeaponType_Sword.T_Gacha_WeaponType_Sword",
+    "ImageType": 1
+  },
+  "Swordwhip": {
+    "WeaponTag": "Swordwhip",
+    "WeaponTagTextmap": "WeaponType_Swordwhip",
+    "WeaponTagfilter": "MeleeType",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Armory/T_Armory_WeaponType_Swordwhip.T_Armory_WeaponType_Swordwhip",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/SingleIcon/T_Gacha_WeaponType_Swordwhip.T_Gacha_WeaponType_Swordwhip",
+    "ImageType": 1
+  },
+  "Katana": {
+    "WeaponTag": "Katana",
+    "WeaponTagTextmap": "WeaponType_Katana",
+    "WeaponTagfilter": "MeleeType",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Armory/T_Armory_WeaponType_Katana.T_Armory_WeaponType_Katana",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/SingleIcon/T_Gacha_WeaponType_Katana.T_Gacha_WeaponType_Katana",
+    "ImageType": 1
+  },
+  "Bow": {
+    "WeaponTag": "Bow",
+    "WeaponTagTextmap": "WeaponType_Bow",
+    "WeaponTagfilter": "RangedType",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Armory/T_Armory_WeaponType_Bow.T_Armory_WeaponType_Bow",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/SingleIcon/T_Gacha_WeaponType_Bow.T_Gacha_WeaponType_Bow",
+    "ImageType": 1
+  },
+  "Bow01": {
+    "WeaponTag": "Bow01"
+  },
+  "Bow02": {
+    "WeaponTag": "Bow02"
+  },
+  "Mon": {
+    "WeaponTag": "Mon"
+  },
+  "MonBlade": {
+    "WeaponTag": "MonBlade"
+  },
+  "MonGun": {
+    "WeaponTag": "MonGun",
+    "WeaponTagFloat": 1
+  },
+  "MonDual": {
+    "WeaponTag": "MonDual",
+    "WeaponTagFloat": 3
+  },
+  "MonSingle": {
+    "WeaponTag": "MonSingle",
+    "WeaponTagFloat": 2
+  }
+}

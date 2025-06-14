@@ -1,0 +1,58 @@
+[
+  {
+    "TabId": 1,
+    "TabName": "UI_TAB_NAME_ALL",
+    "TabDefaultSlot": 999,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Tab/T_Tab_All.T_Tab_All",
+    "Sequence": 100,
+    "ProductType": "All"
+  },
+  {
+    "TabId": 2,
+    "TabName": "UI_TAB_NAME_FORGING",
+    "TabDefaultSlot": 999,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Tab/T_Tab_Forging.T_Tab_Forging",
+    "Sequence": 80,
+    "ProductType": "Forging"
+  },
+  {
+    "TabId": 3,
+    "TabName": "UI_TAB_NAME_READY",
+    "TabDefaultSlot": 999,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Tab/T_Tab_WaitForge.T_Tab_WaitForge",
+    "Sequence": 90,
+    "ProductType": "Ready"
+  },
+  {
+    "TabId": 4,
+    "TabName": "UI_SHOP_SUBTAB_NAME_WEAPON",
+    "TabDefaultSlot": 999,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Tab/T_Tab_Weapon.T_Tab_Weapon",
+    "Sequence": 60,
+    "ProductType": "Weapon"
+  },
+  {
+    "TabId": 5,
+    "TabName": "UI_TAB_NAME_MOD",
+    "TabDefaultSlot": 999,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Tab/T_Tab_Mod.T_Tab_Mod",
+    "Sequence": 50,
+    "ProductType": "Mod"
+  },
+  {
+    "TabId": 6,
+    "TabName": "UI_TAB_NAME_RESOURCE",
+    "TabDefaultSlot": 999,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Tab/T_Tab_ShopResource.T_Tab_ShopResource",
+    "Sequence": 70,
+    "ProductType": "Resource"
+  },
+  {
+    "TabId": 7,
+    "TabName": "UI_TAB_NAME_CHARACCESSORY",
+    "TabDefaultSlot": 999,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Tab/T_Tab_ShopClothes.T_Tab_ShopClothes",
+    "Sequence": 40,
+    "ProductType": "CharAccessory"
+  }
+]

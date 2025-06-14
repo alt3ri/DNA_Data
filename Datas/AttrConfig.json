@@ -1,0 +1,446 @@
+{
+  "WeaponType": {
+    "Id": "WeaponType",
+    "Name": "UI_Weapon_Type",
+    "ShowInInspector": true,
+    "SortIndex2": 0.5,
+    "SortIndex3": 0.5,
+    "SortIndex4": 0.5
+  },
+  "Positioning": {
+    "Id": "Positioning",
+    "Name": "Attr_Positioning",
+    "ShowInInspector": true,
+    "SortIndex1": 0.5
+  },
+  "ATK": {
+    "Id": "ATK",
+    "Name": "Attr_ATK_Name",
+    "ShowInInspector": true,
+    "SortIndex1": 1,
+    "SortIndex2": 1,
+    "SortIndex3": 1,
+    "SortIndex4": 1
+  },
+  "ATK_Water": {
+    "Id": "ATK_Water",
+    "Name": "Attr_ATK_Water_Name",
+    "ShowInInspector": true,
+    "SortIndex1": 2,
+    "SortIndex2": 2,
+    "SortIndex3": 2,
+    "SortIndex4": 2,
+    "AttrDesc": "ATTR_DESC_ATK_Water"
+  },
+  "ATK_Fire": {
+    "Id": "ATK_Fire",
+    "Name": "Attr_ATK_Fire_Name",
+    "ShowInInspector": true,
+    "SortIndex1": 3,
+    "SortIndex2": 3,
+    "SortIndex3": 3,
+    "SortIndex4": 3,
+    "AttrDesc": "ATTR_DESC_ATK_Fire"
+  },
+  "ATK_Thunder": {
+    "Id": "ATK_Thunder",
+    "Name": "Attr_ATK_Thunder_Name",
+    "ShowInInspector": true,
+    "SortIndex1": 4,
+    "SortIndex2": 4,
+    "SortIndex3": 4,
+    "SortIndex4": 4,
+    "AttrDesc": "ATTR_DESC_ATK_Thunder"
+  },
+  "ATK_Wind": {
+    "Id": "ATK_Wind",
+    "Name": "Attr_ATK_Wind_Name",
+    "ShowInInspector": true,
+    "SortIndex1": 4.5,
+    "AttrDesc": "ATTR_DESC_ATK_Wind"
+  },
+  "ATK_Dark": {
+    "Id": "ATK_Dark",
+    "Name": "Attr_ATK_Dark_Name",
+    "ShowInInspector": true,
+    "SortIndex1": 5,
+    "SortIndex2": 5,
+    "SortIndex3": 5,
+    "SortIndex4": 5,
+    "AttrDesc": "ATTR_DESC_ATK_Dark"
+  },
+  "ATK_Light": {
+    "Id": "ATK_Light",
+    "Name": "Attr_ATK_Light_Name",
+    "ShowInInspector": true,
+    "SortIndex1": 6,
+    "SortIndex2": 6,
+    "SortIndex3": 6,
+    "SortIndex4": 6,
+    "AttrDesc": "ATTR_DESC_ATK_Light"
+  },
+  "ATK_Slash": {
+    "Id": "ATK_Slash",
+    "Name": "Attr_ATK_Slash_Name",
+    "ShowInInspector": true,
+    "SortIndex1": 7,
+    "SortIndex2": 7,
+    "SortIndex3": 7,
+    "SortIndex4": 7,
+    "AttrDesc": "ATTR_DESC_ATK_Slash"
+  },
+  "ATK_Spike": {
+    "Id": "ATK_Spike",
+    "Name": "Attr_ATK_Spike_Name",
+    "ShowInInspector": true,
+    "SortIndex1": 8,
+    "SortIndex2": 8,
+    "SortIndex3": 8,
+    "SortIndex4": 8,
+    "AttrDesc": "ATTR_DESC_ATK_Spike"
+  },
+  "ATK_Smash": {
+    "Id": "ATK_Smash",
+    "Name": "Attr_ATK_Smash_Name",
+    "ShowInInspector": true,
+    "SortIndex1": 9,
+    "SortIndex2": 9,
+    "SortIndex3": 9,
+    "SortIndex4": 9,
+    "AttrDesc": "ATTR_DESC_ATK_Smash"
+  },
+  "DamageRate": {
+    "Id": "DamageRate",
+    "Name": "Attr_DamageRate_Normal_Nmae",
+    "IsPercent": true,
+    "ShowInInspector": true,
+    "SortIndex1": 9.5,
+    "SortIndex2": 9.5,
+    "SortIndex3": 9.5,
+    "SortIndex4": 9.5
+  },
+  "MaxHp": {
+    "Id": "MaxHp",
+    "Name": "Attr_Hp_Name",
+    "ShowInInspector": true,
+    "SortIndex1": 10,
+    "SortIndex2": 10,
+    "SortIndex3": 10,
+    "SortIndex4": 10
+  },
+  "MaxES": {
+    "Id": "MaxES",
+    "Name": "Attr_ES_Name",
+    "ShowInInspector": true,
+    "SortIndex1": 11,
+    "SortIndex2": 11,
+    "SortIndex3": 11,
+    "SortIndex4": 11
+  },
+  "DEF": {
+    "Id": "DEF",
+    "Name": "Attr_DEF_Name",
+    "ShowInInspector": true,
+    "SortIndex1": 12,
+    "SortIndex2": 12,
+    "SortIndex3": 12,
+    "SortIndex4": 12
+  },
+  "MaxSp": {
+    "Id": "MaxSp",
+    "Name": "Attr_MaxSp_Name",
+    "ShowInInspector": true,
+    "SortIndex1": 13,
+    "SortIndex2": 13,
+    "SortIndex3": 13,
+    "SortIndex4": 13
+  },
+  "ExcelWeaponTag": {
+    "Id": "ExcelWeaponTag",
+    "Name": "Attr_ExcelWeaponTag_Name",
+    "ShowInInspector": true,
+    "SortIndex1": 14,
+    "SortIndex2": 14,
+    "SortIndex3": 14,
+    "SortIndex4": 14,
+    "AttrDesc": "ATTR_DESC_ExcelWeaponTag"
+  },
+  "SkillIntensity": {
+    "Id": "SkillIntensity",
+    "Name": "Attr_SkillIntensity_Name",
+    "IsPercent": true,
+    "ShowInInspector": true,
+    "SortIndex1": 14.5,
+    "SortIndex2": 14.5,
+    "SortIndex3": 14.5,
+    "SortIndex4": 14.5,
+    "AttrDesc": "ATTR_DESC_SkillIntensity"
+  },
+  "SkillRange": {
+    "Id": "SkillRange",
+    "Name": "Attr_SkillRange_Name",
+    "IsPercent": true,
+    "ShowInInspector": true,
+    "SortIndex1": 15,
+    "SortIndex2": 15,
+    "SortIndex3": 15,
+    "SortIndex4": 15,
+    "AttrDesc": "ATTR_DESC_SkillRange",
+    "AttrLimit": "MaxSkillRange"
+  },
+  "SkillSustain": {
+    "Id": "SkillSustain",
+    "Name": "Attr_SkillSustain_Name",
+    "IsPercent": true,
+    "ShowInInspector": true,
+    "SortIndex1": 16,
+    "SortIndex2": 16,
+    "SortIndex3": 16,
+    "SortIndex4": 16,
+    "AttrDesc": "ATTR_DESC_SkillSustain",
+    "AttrLimit": "MaxSkillSustain"
+  },
+  "SkillEfficiency": {
+    "Id": "SkillEfficiency",
+    "Name": "Attr_SkillEfficiency_Name",
+    "IsPercent": true,
+    "ShowInInspector": true,
+    "SortIndex1": 17,
+    "SortIndex2": 17,
+    "SortIndex3": 17,
+    "SortIndex4": 17,
+    "AttrDesc": "ATTR_DESC_SkillEfficiency",
+    "AttrLimit": "MaxSkillEfficiency"
+  },
+  "StrongValue": {
+    "Id": "StrongValue",
+    "Name": "Attr_StrongValue_Name",
+    "IsPercent": true,
+    "ShowInInspector": true,
+    "SortIndex1": 17.1,
+    "SortIndex2": 17.1,
+    "SortIndex3": 17.1,
+    "SortIndex4": 17.1,
+    "AttrDesc": "ATTR_DESC_StrongValue"
+  },
+  "EnmityValue": {
+    "Id": "EnmityValue",
+    "Name": "Attr_EnmityValue_Name",
+    "IsPercent": true,
+    "ShowInInspector": true,
+    "SortIndex1": 17.3,
+    "SortIndex2": 17.3,
+    "SortIndex3": 17.3,
+    "SortIndex4": 17.3,
+    "AttrDesc": "ATTR_DESC_EnmityValue"
+  },
+  "CRI": {
+    "Id": "CRI",
+    "Name": "Attr_CRI_Name",
+    "IsPercent": true,
+    "ShowInInspector": true,
+    "SortIndex1": 18,
+    "SortIndex2": 18,
+    "SortIndex3": 18,
+    "SortIndex4": 18,
+    "AttrDesc": "ATTR_DESC_CRI"
+  },
+  "CRD": {
+    "Id": "CRD",
+    "Name": "Attr_CRD_Name",
+    "IsPercent": true,
+    "ShowInInspector": true,
+    "SortIndex1": 19,
+    "SortIndex2": 19,
+    "SortIndex3": 19,
+    "SortIndex4": 19
+  },
+  "AttackSpeed_Normal": {
+    "Id": "AttackSpeed_Normal",
+    "Name": "Attr_AttackSpeed_Name",
+    "ShowInInspector": true,
+    "SortIndex1": 20,
+    "SortIndex2": 20,
+    "SortIndex3": 20,
+    "SortIndex4": 20,
+    "BattleEvent": "AttackSpeedNormalChanged",
+    "AttrLimit": "DefaultMaxAttackSpeed"
+  },
+  "AttackSpeed_HeavyAttack": {
+    "Id": "AttackSpeed_HeavyAttack",
+    "Name": "Attr_AttackSpeed_HeavyAttack_Name",
+    "ShowInInspector": true,
+    "SortIndex1": 20.2,
+    "SortIndex2": 20.2,
+    "SortIndex3": 20.2,
+    "SortIndex4": 20.2
+  },
+  "AttackSpeed_FallAttack": {
+    "Id": "AttackSpeed_FallAttack",
+    "Name": "Attr_AttackSpeed_FallAttack_Name",
+    "ShowInInspector": true,
+    "SortIndex1": 20.4,
+    "SortIndex2": 20.4,
+    "SortIndex3": 20.4,
+    "SortIndex4": 20.4
+  },
+  "AttackSpeed_Reload": {
+    "Id": "AttackSpeed_Reload",
+    "Name": "Attr_AttackSpeed_Reload_Name",
+    "ShowInInspector": true,
+    "SortIndex1": 21,
+    "SortIndex2": 21,
+    "SortIndex3": 21,
+    "SortIndex4": 21
+  },
+  "TriggerProbability": {
+    "Id": "TriggerProbability",
+    "Name": "Attr_TriggerProbability_Name",
+    "IsPercent": true,
+    "ShowInInspector": true,
+    "SortIndex1": 22,
+    "SortIndex2": 22,
+    "SortIndex3": 22,
+    "SortIndex4": 22,
+    "AttrDesc": "ATTR_DESC_TriggerProbability"
+  },
+  "TriggerProbModifierValue": {
+    "Id": "TriggerProbModifierValue",
+    "Name": "Attr_TriggerProbModifierValue_Name",
+    "IsPercent": true,
+    "ShowInInspector": true,
+    "SortIndex1": 22.5,
+    "SortIndex2": 22.5,
+    "SortIndex3": 22.5,
+    "SortIndex4": 22.5
+  },
+  "AttackRange_Normal": {
+    "Id": "AttackRange_Normal",
+    "Name": "Attr_AttackRange_Name",
+    "ShowInInspector": true,
+    "SortIndex1": 23,
+    "SortIndex2": 23,
+    "SortIndex3": 23,
+    "SortIndex4": 23,
+    "NumCorrect": 0.01
+  },
+  "AttackRange_Bullet": {
+    "Id": "AttackRange_Bullet",
+    "Name": "Attr_AttackRange_Bullet_Name",
+    "ShowInInspector": true,
+    "SortIndex1": 24,
+    "SortIndex2": 24,
+    "SortIndex3": 24,
+    "SortIndex4": 24,
+    "NumCorrect": 0.01
+  },
+  "ComboHoldTime": {
+    "Id": "ComboHoldTime",
+    "Name": "Attr_ComboHoldTime_Name",
+    "ShowInInspector": true,
+    "SortIndex1": 25,
+    "SortIndex2": 25,
+    "SortIndex3": 25,
+    "SortIndex4": 25
+  },
+  "MultiShoot": {
+    "Id": "MultiShoot",
+    "Name": "Attr_MultiShoot_Name",
+    "ShowInInspector": true,
+    "SortIndex1": 26,
+    "SortIndex2": 26,
+    "SortIndex3": 26,
+    "SortIndex4": 26,
+    "AttrDesc": "ATTR_DESC_MultiShoot"
+  },
+  "MagazineCapacity": {
+    "Id": "MagazineCapacity",
+    "Name": "Attr_MagazineCapacity_Name",
+    "ShowInInspector": true,
+    "SortIndex1": 27,
+    "SortIndex2": 27,
+    "SortIndex3": 27,
+    "SortIndex4": 27
+  },
+  "BulletMax": {
+    "Id": "BulletMax",
+    "Name": "Attr_BulletMax_Name",
+    "ShowInInspector": true,
+    "SortIndex1": 28,
+    "SortIndex2": 28,
+    "SortIndex3": 28,
+    "SortIndex4": 28
+  },
+  "BulletConver": {
+    "Id": "BulletConver",
+    "Name": "Attr_BulletConver_Name",
+    "IsPercent": true,
+    "ShowInInspector": true,
+    "SortIndex1": 28.5,
+    "SortIndex2": 28.5,
+    "SortIndex3": 28.5,
+    "SortIndex4": 28.5,
+    "AttrDesc": "ATTR_DESC_BulletConver"
+  },
+  "LevelLimit": {
+    "Id": "LevelLimit",
+    "Name": "Attr_LevelLimit_Name",
+    "ShowInInspector": true,
+    "SortIndex1": 29,
+    "SortIndex2": 29,
+    "SortIndex3": 29,
+    "SortIndex4": 29
+  },
+  "ModVolume": {
+    "Id": "ModVolume",
+    "Name": "Attr_ModVolume_Name",
+    "ShowInInspector": true,
+    "SortIndex1": 30,
+    "SortIndex2": 30,
+    "SortIndex3": 30,
+    "SortIndex4": 30
+  },
+  "ModSlotNum": {
+    "Id": "ModSlotNum",
+    "Name": "Attr_ModSlotNum_Name",
+    "ShowInInspector": true,
+    "SortIndex1": 31,
+    "SortIndex2": 31,
+    "SortIndex3": 31,
+    "SortIndex4": 31
+  },
+  "BulletJumpVelocityModifier": {
+    "Id": "BulletJumpVelocityModifier",
+    "Name": "Attr_BulletJumpVelocityModifier_Name",
+    "IsPercent": true
+  },
+  "JumpVelocityModifier": {
+    "Id": "JumpVelocityModifier",
+    "Name": "Attr_JumpVelocityModifier_Name",
+    "IsPercent": true
+  },
+  "SlideFrictionModifier": {
+    "Id": "SlideFrictionModifier",
+    "Name": "Attr_SlideFrictionModifier_Name",
+    "IsPercent": true
+  },
+  "MaxAvoidExecuteTimes": {
+    "Id": "MaxAvoidExecuteTimes",
+    "Name": "Attr_MaxAvoidExecuteTimes_Name"
+  },
+  "DropDistance": {
+    "Id": "DropDistance",
+    "Name": "Attr_DropDistance_Name",
+    "NumCorrect": 0.01
+  },
+  "ReloadBulletNoLoss": {
+    "Id": "ReloadBulletNoLoss",
+    "Name": "Attr_ReloadBulletNoLoss_Name",
+    "IsPercent": true
+  },
+  "OnceDamagedPercent": {
+    "Id": "OnceDamagedPercent",
+    "Name": "Attr_OnceDamagedPercent_Name",
+    "IsPercent": true
+  }
+}

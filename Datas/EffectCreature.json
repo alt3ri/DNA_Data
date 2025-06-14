@@ -1,0 +1,690 @@
+{
+  "1": {
+    "EffectCreatureId": 1,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/Common/BP_EffectCreature_Excavation_MapCircle.BP_EffectCreature_Excavation_MapCircle",
+    "SocketName": "pelvis"
+  },
+  "400": {
+    "EffectCreatureId": 400,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/Pet/BP_EffectCreature_BattlePet.BP_EffectCreature_BattlePet",
+    "SocketName": "Root"
+  },
+  "401": {
+    "EffectCreatureId": 401,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/Pet/BP_EffectCreature_BattlePet.BP_EffectCreature_BattlePet",
+    "MeshResourceId": 401,
+    "ModelScale": 0.8,
+    "EffectCreatureAnimPath": "/Game/Asset/Char/Player/Common/Pet/Pet006_Zisha/Animation/Sequence/Locomotion/Pet_Zisha_Idle.Pet_Zisha_Idle",
+    "SocketName": "Root"
+  },
+  "402": {
+    "EffectCreatureId": 402,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/Pet/BP_EffectCreature_BattlePet.BP_EffectCreature_BattlePet",
+    "MeshResourceId": 402,
+    "ModelScale": 0.8,
+    "EffectCreatureAnimPath": "/Game/Asset/Char/Player/Common/Pet/Pet001_Yuyi/Animation/Sequence/Locomotion/Pet_Yuyi_Idle.Pet_Yuyi_Idle",
+    "SocketName": "Root"
+  },
+  "403": {
+    "EffectCreatureId": 403,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/Pet/BP_EffectCreature_BattlePet.BP_EffectCreature_BattlePet",
+    "MeshResourceId": 403,
+    "ModelScale": 0.85,
+    "EffectCreatureAnimPath": "/Game/Asset/Char/Player/Common/Pet/Pet002_Dahuo/Animation/Sequence/Locomotion/Pet_Dahuo_Idle.Pet_Dahuo_Idle",
+    "SocketName": "Root"
+  },
+  "404": {
+    "EffectCreatureId": 404,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/Pet/BP_EffectCreature_BattlePet.BP_EffectCreature_BattlePet",
+    "MeshResourceId": 404,
+    "ModelScale": 0.7,
+    "EffectCreatureAnimPath": "/Game/Asset/Char/Player/Common/Pet/Pet004_Zhamao/Animation/Sequence/Locomotion/Pet_Zhamao_Idle.Pet_Zhamao_Idle",
+    "SocketName": "Root"
+  },
+  "405": {
+    "EffectCreatureId": 405,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/Pet/BP_EffectCreature_BattlePet.BP_EffectCreature_BattlePet",
+    "MeshResourceId": 405,
+    "ModelScale": 0.85,
+    "EffectCreatureAnimPath": "/Game/Asset/Char/Player/Common/Pet/Pet003_Yaoye/Animation/Sequence/Locomotion/Pet_Yaoye_Idle.Pet_Yaoye_Idle",
+    "SocketName": "Root"
+  },
+  "406": {
+    "EffectCreatureId": 406,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/Pet/BP_EffectCreature_BattlePet.BP_EffectCreature_BattlePet",
+    "MeshResourceId": 406,
+    "ModelScale": 0.85,
+    "EffectCreatureAnimPath": "/Game/Asset/Char/Player/Common/Pet/Pet005_Shanling/Animation/Sequence/Locomotion/Pet_Shanling_Idle.Pet_Shanling_Idle",
+    "SocketName": "Root"
+  },
+  "411": {
+    "EffectCreatureId": 411,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/Pet/BP_EffectCreature_BattlePet_405.BP_EffectCreature_BattlePet_405",
+    "MeshResourceId": 401,
+    "ModelScale": 0.8,
+    "EffectCreatureAnimPath": "/Game/Asset/Char/Player/Common/Pet/Pet006_Zisha/Animation/Sequence/Combat/Pet_Zisha_Skill01.Pet_Zisha_Skill01",
+    "SocketName": "Root"
+  },
+  "412": {
+    "EffectCreatureId": 412,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/Pet/BP_EffectCreature_BattlePet_405.BP_EffectCreature_BattlePet_405",
+    "MeshResourceId": 402,
+    "ModelScale": 0.8,
+    "EffectCreatureAnimPath": "/Game/Asset/Char/Player/Common/Pet/Pet001_Yuyi/Animation/Sequence/Combat/Pet_Yuyi_Skill01.Pet_Yuyi_Skill01",
+    "SocketName": "Root"
+  },
+  "413": {
+    "EffectCreatureId": 413,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/Pet/BP_EffectCreature_BattlePet_405.BP_EffectCreature_BattlePet_405",
+    "MeshResourceId": 403,
+    "ModelScale": 0.85,
+    "EffectCreatureAnimPath": "/Game/Asset/Char/Player/Common/Pet/Pet002_Dahuo/Animation/Sequence/Combat/Pet_Dahuo_Skill01.Pet_Dahuo_Skill01",
+    "SocketName": "Root"
+  },
+  "414": {
+    "EffectCreatureId": 414,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/Pet/BP_EffectCreature_BattlePet_405.BP_EffectCreature_BattlePet_405",
+    "MeshResourceId": 404,
+    "ModelScale": 0.7,
+    "EffectCreatureAnimPath": "/Game/Asset/Char/Player/Common/Pet/Pet004_Zhamao/Animation/Sequence/Combat/Pet_Zhamao_Skill01.Pet_Zhamao_Skill01",
+    "SocketName": "Root"
+  },
+  "415": {
+    "EffectCreatureId": 415,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/Pet/BP_EffectCreature_BattlePet_405.BP_EffectCreature_BattlePet_405",
+    "MeshResourceId": 405,
+    "ModelScale": 0.85,
+    "EffectCreatureAnimPath": "/Game/Asset/Char/Player/Common/Pet/Pet003_Yaoye/Animation/Sequence/Combat/Pet_Yaoye_Skill01.Pet_Yaoye_Skill01",
+    "SocketName": "Root"
+  },
+  "416": {
+    "EffectCreatureId": 416,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/Pet/BP_EffectCreature_BattlePet_405.BP_EffectCreature_BattlePet_405",
+    "MeshResourceId": 406,
+    "ModelScale": 0.85,
+    "EffectCreatureAnimPath": "/Game/Asset/Char/Player/Common/Pet/Pet005_Shanling/Animation/Sequence/Combat/Pet_Shanling_Skill01.Pet_Shanling_Skill01",
+    "SocketName": "Root"
+  },
+  "491": {
+    "EffectCreatureId": 491,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/Pet/BP_EffectCreature_BattlePet.BP_EffectCreature_BattlePet",
+    "MeshResourceId": 491,
+    "ModelScale": 0.95,
+    "EffectCreatureAnimPath": "/Game/Asset/Char/Player/Common/Pet/Pet010_HealRobot/Animation/Sequence/Locomotion/Pet_HealRobot_Idle.Pet_HealRobot_Idle",
+    "SocketName": "Root"
+  },
+  "492": {
+    "EffectCreatureId": 492,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/Pet/BP_EffectCreature_BattlePet.BP_EffectCreature_BattlePet",
+    "MeshResourceId": 492,
+    "ModelScale": 0.75,
+    "EffectCreatureAnimPath": "/Game/Asset/Char/Player/Common/Pet/Pet011_BlastRobot/Animation/Sequence/Locomotion/Pet_BlastRobot_Idle.Pet_BlastRobot_Idle",
+    "SocketName": "Root"
+  },
+  "493": {
+    "EffectCreatureId": 493,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/Pet/BP_EffectCreature_BattlePet_405.BP_EffectCreature_BattlePet_405",
+    "MeshResourceId": 491,
+    "ModelScale": 0.95,
+    "EffectCreatureAnimPath": "/Game/Asset/Char/Player/Common/Pet/Pet010_HealRobot/Animation/Sequence/Locomotion/Pet_HealRobot_Idle.Pet_HealRobot_Idle",
+    "SocketName": "Root"
+  },
+  "494": {
+    "EffectCreatureId": 494,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/Pet/BP_EffectCreature_BattlePet_405.BP_EffectCreature_BattlePet_405",
+    "MeshResourceId": 492,
+    "ModelScale": 0.75,
+    "EffectCreatureAnimPath": "/Game/Asset/Char/Player/Common/Pet/Pet011_BlastRobot/Animation/Sequence/Locomotion/Pet_BlastRobot_Idle.Pet_BlastRobot_Idle",
+    "SocketName": "Root"
+  },
+  "10101": {
+    "EffectCreatureId": 10101,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/Gesture/BP_EffectCreature_Gesture.BP_EffectCreature_Gesture",
+    "MeshResourceId": 301,
+    "EffectCreatureAnimPath": "/Game/Asset/Char/Player/Common/Part/Show/Animation/Montage/Kaorou_Show01_Montage.Kaorou_Show01_Montage",
+    "SocketName": "Root"
+  },
+  "10102": {
+    "EffectCreatureId": 10102,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/Gesture/BP_EffectCreature_Gesture.BP_EffectCreature_Gesture",
+    "MeshResourceId": 302,
+    "EffectCreatureAnimPath": "/Game/Asset/Char/Player/Common/Part/Show/Animation/Montage/Kaorou_Show02_Montage.Kaorou_Show02_Montage",
+    "SocketName": "Root"
+  },
+  "10201": {
+    "EffectCreatureId": 10201,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/Gesture/BP_EffectCreature_Gesture_Zhixiang_01.BP_EffectCreature_Gesture_Zhixiang_01",
+    "SocketName": "Root"
+  },
+  "10202": {
+    "EffectCreatureId": 10202,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/Gesture/BP_EffectCreature_Gesture_Zhixiang_02.BP_EffectCreature_Gesture_Zhixiang_02"
+  },
+  "10203": {
+    "EffectCreatureId": 10203,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/Gesture/BP_EffectCreature_Gesture_Zhixiang_03.BP_EffectCreature_Gesture_Zhixiang_03"
+  },
+  "10301": {
+    "EffectCreatureId": 10301,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/Gesture/BP_EffectCreature_Gesture.BP_EffectCreature_Gesture",
+    "MeshResourceId": 303,
+    "EffectCreatureAnimPath": "/Game/Asset/Char/Player/Common/Part/Show/Animation/Montage/Saoba_Show01_Montage.Saoba_Show01_Montage",
+    "SocketName": "Root"
+  },
+  "10302": {
+    "EffectCreatureId": 10302,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/Gesture/BP_EffectCreature_Gesture.BP_EffectCreature_Gesture",
+    "MeshResourceId": 304,
+    "EffectCreatureAnimPath": "/Game/Asset/Char/Player/Common/Part/Show/Animation/Montage/Saoba_Show02_Montage.Saoba_Show02_Montage",
+    "SocketName": "Root"
+  },
+  "10401": {
+    "EffectCreatureId": 10401,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/Gesture/BP_EffectCreature_Gesture_Caocong.BP_EffectCreature_Gesture_Caocong",
+    "SocketName": "Root"
+  },
+  "10501": {
+    "EffectCreatureId": 10501,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/Gesture/BP_EffectCreature_Gesture.BP_EffectCreature_Gesture",
+    "MeshResourceId": 305,
+    "EffectCreatureAnimPath": "/Game/Asset/Char/Player/Common/Part/Show/Animation/Montage/Xiangzi_Show01_Montage.Xiangzi_Show01_Montage",
+    "SocketName": "Root"
+  },
+  "10502": {
+    "EffectCreatureId": 10502,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/Gesture/BP_EffectCreature_Gesture.BP_EffectCreature_Gesture",
+    "MeshResourceId": 305,
+    "EffectCreatureAnimPath": "/Game/Asset/Char/Player/Common/Part/Show/Animation/Montage/Xiangzi_Show01_Montage.Xiangzi_Show01_Montage",
+    "SocketName": "Root"
+  },
+  "10503": {
+    "EffectCreatureId": 10503,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/Gesture/BP_EffectCreature_Gesture.BP_EffectCreature_Gesture",
+    "MeshResourceId": 305,
+    "EffectCreatureAnimPath": "/Game/Asset/Char/Player/Common/Part/Show/Animation/Montage/Xiangzi_Show01_Montage.Xiangzi_Show01_Montage",
+    "SocketName": "Root"
+  },
+  "10601": {
+    "EffectCreatureId": 10601,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/Gesture/BP_EffectCreature_Gesture.BP_EffectCreature_Gesture",
+    "MeshResourceId": 306,
+    "EffectCreatureAnimPath": "/Game/Asset/Char/Player/Common/Part/Show/Animation/Montage/Bed_Show01_Montage.Bed_Show01_Montage",
+    "SocketName": "Root"
+  },
+  "20101": {
+    "EffectCreatureId": 20101,
+    "MeshResourceId": 700803,
+    "SocketName": "lowerarmpendant_left01_a"
+  },
+  "20201": {
+    "EffectCreatureId": 20201,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/EmoIdle/BP_EffectCreature_DafuIdle.BP_EffectCreature_DafuIdle",
+    "SocketName": "Root"
+  },
+  "110101": {
+    "EffectCreatureId": 110101,
+    "MeshResourceId": 110102,
+    "SocketName": "hook_upperarm_l",
+    "EnterPool": true
+  },
+  "110102": {
+    "EffectCreatureId": 110102,
+    "MeshResourceId": 110101,
+    "SocketName": "hook_arm_r",
+    "EnterPool": true
+  },
+  "110103": {
+    "EffectCreatureId": 110103,
+    "MeshResourceId": 110102,
+    "SocketName": "hook_upperarm_l",
+    "EnterPool": true
+  },
+  "110104": {
+    "EffectCreatureId": 110104,
+    "MeshResourceId": 110101,
+    "SocketName": "hook_arm_l",
+    "EnterPool": true
+  },
+  "110111": {
+    "EffectCreatureId": 110111,
+    "MeshResourceId": 110102,
+    "SocketName": "hook_upperarm_l",
+    "EnterPool": true
+  },
+  "110112": {
+    "EffectCreatureId": 110112,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/Skill/BP_EffectCreature_Heitao_Skill02.BP_EffectCreature_Heitao_Skill02",
+    "SocketName": "hook_arm_r"
+  },
+  "180101": {
+    "EffectCreatureId": 180101,
+    "MeshResourceId": 180101,
+    "EffectCreatureAnimPath": "/Game/Asset/Char/Player/Char019_Feina/Animation/Part/Feina_Part01_Skill01_Start_Montage.Feina_Part01_Skill01_Start_Montage"
+  },
+  "180102": {
+    "EffectCreatureId": 180102,
+    "MeshResourceId": 180101,
+    "EffectCreatureAnimPath": "/Game/Asset/Char/Player/Char019_Feina/Animation/Part/Feina_Part01_Skill02.Feina_Part01_Skill02"
+  },
+  "180103": {
+    "EffectCreatureId": 180103,
+    "MeshResourceId": 180101,
+    "EffectCreatureAnimPath": "/Game/Asset/Char/Player/Char019_Feina/Animation/Part/Feina_Part01_Armory_Show.Feina_Part01_Armory_Show"
+  },
+  "180111": {
+    "EffectCreatureId": 180111,
+    "MeshResourceId": 180101,
+    "EffectCreatureAnimPath": "/Game/Asset/Char/Player/Char019_Feina/Animation/Part/Feina_Part01_Skill01_End_Montage.Feina_Part01_Skill01_End_Montage"
+  },
+  "180112": {
+    "EffectCreatureId": 180112,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/Skill/BP_EffectCreature_Feina_Skill1.BP_EffectCreature_Feina_Skill1"
+  },
+  "180121": {
+    "EffectCreatureId": 180121,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/Skill/BP_EffectCreature_Feina_Skill2.BP_EffectCreature_Feina_Skill2",
+    "SocketName": "Root"
+  },
+  "180122": {
+    "EffectCreatureId": 180122,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/Skill/BP_EffectCreature_Feina_Summon.BP_EffectCreature_Feina_Summon",
+    "MeshResourceId": 180121,
+    "EffectCreatureAnimPath": "/Game/Asset/Char/Player/Char019_Feina/Animation/Summon/Montage/Feina_Sum01_Montage.Feina_Sum01_Montage",
+    "SocketName": "Root"
+  },
+  "180123": {
+    "EffectCreatureId": 180123,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/Skill/BP_EffectCreature_Feina_Summon.BP_EffectCreature_Feina_Summon",
+    "MeshResourceId": 180122,
+    "EffectCreatureAnimPath": "/Game/Asset/Char/Player/Char019_Feina/Animation/Summon/Montage/Feina_Sum04_Montage.Feina_Sum04_Montage",
+    "SocketName": "Root"
+  },
+  "180124": {
+    "EffectCreatureId": 180124,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/Skill/BP_EffectCreature_Feina_Summon.BP_EffectCreature_Feina_Summon",
+    "MeshResourceId": 180123,
+    "EffectCreatureAnimPath": "/Game/Asset/Char/Player/Char019_Feina/Animation/Summon/Montage/Feina_Sum03_Montage.Feina_Sum03_Montage",
+    "SocketName": "Root"
+  },
+  "180125": {
+    "EffectCreatureId": 180125,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/Skill/BP_EffectCreature_Feina_Summon.BP_EffectCreature_Feina_Summon",
+    "MeshResourceId": 180124,
+    "EffectCreatureAnimPath": "/Game/Asset/Char/Player/Char019_Feina/Animation/Summon/Montage/Feina_Sum02_Montage.Feina_Sum02_Montage",
+    "SocketName": "Root"
+  },
+  "180131": {
+    "EffectCreatureId": 180131,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/Armory/BP_EffectCreature_Feina_Armory.BP_EffectCreature_Feina_Armory"
+  },
+  "210101": {
+    "EffectCreatureId": 210101,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/EmoIdle/BP_EffectCreature_ShuimuIdle.BP_EffectCreature_ShuimuIdle"
+  },
+  "210102": {
+    "EffectCreatureId": 210102,
+    "MeshResourceId": 210101,
+    "EffectCreatureAnimPath": "/Game/Asset/Char/Player/Char005_Shuimu/Animation/Summon/Sequence/Shuimu_Summon_LevelFinish.Shuimu_Summon_LevelFinish",
+    "SocketName": "Root"
+  },
+  "210103": {
+    "EffectCreatureId": 210103,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/Armory/BP_EffectCreature_Shuimu_Armory.BP_EffectCreature_Shuimu_Armory",
+    "SocketName": "Root"
+  },
+  "240102": {
+    "EffectCreatureId": 240102,
+    "MeshResourceId": 240101,
+    "EffectCreatureAnimPath": "/Game/Asset/Char/Player/Char015_Baiheng/Animation/Summon/Montage/Interactive/Baiheng_LevelFinish_Summon_Montage.Baiheng_LevelFinish_Summon_Montage",
+    "SocketName": "Root"
+  },
+  "240103": {
+    "EffectCreatureId": 240103,
+    "MeshResourceId": 240102,
+    "EffectCreatureAnimPath": "/Game/Asset/Char/Player/Char015_Baiheng/Animation/Summon/Montage/Interactive/Baiheng_LevelFinish_Part01_Montage.Baiheng_LevelFinish_Part01_Montage",
+    "SocketName": "Root"
+  },
+  "240104": {
+    "EffectCreatureId": 240104,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/EmoIdle/BP_EffectCreature_BaihengIdle_01.BP_EffectCreature_BaihengIdle_01"
+  },
+  "240107": {
+    "EffectCreatureId": 240107,
+    "MeshResourceId": 240102,
+    "EffectCreatureAnimPath": "/Game/Asset/Char/Player/Char015_Baiheng/Animation/Summon/Montage/Interactive/Baiheng_Armory_Show_Part01_Montage.Baiheng_Armory_Show_Part01_Montage",
+    "SocketName": "Root"
+  },
+  "240108": {
+    "EffectCreatureId": 240108,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/Skill/BP_EffectCreature_Baiheng_Skill02_Buff.BP_EffectCreature_Baiheng_Skill02_Buff",
+    "SocketName": "Root"
+  },
+  "240111": {
+    "EffectCreatureId": 240111,
+    "MeshResourceId": 240102,
+    "EffectCreatureAnimPath": "/Game/Asset/Char/Player/Char015_Baiheng/Animation/Summon/Sequnence/Baiheng_Skill01_Part01.Baiheng_Skill01_Part01",
+    "SocketName": "Root"
+  },
+  "240112": {
+    "EffectCreatureId": 240112,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/Common/BP_EffectCreature_CustomDepth1.BP_EffectCreature_CustomDepth1",
+    "MeshResourceId": 240101,
+    "EffectCreatureAnimPath": "/Game/Asset/Char/Player/Char015_Baiheng/Animation/Summon/Montage/Combat/Skill/Baiheng_Summon_Skill02_EffectCreature01_Montage.Baiheng_Summon_Skill02_EffectCreature01_Montage",
+    "SocketName": "Root"
+  },
+  "240113": {
+    "EffectCreatureId": 240113,
+    "MeshResourceId": 240102,
+    "EffectCreatureAnimPath": "/Game/Asset/Char/Player/Char015_Baiheng/Animation/Summon/Sequnence/Baiheng_Skill02_Part01.Baiheng_Skill02_Part01",
+    "SocketName": "Root"
+  },
+  "310101": {
+    "EffectCreatureId": 310101,
+    "MeshResourceId": 310103,
+    "EffectCreatureAnimPath": "/Game/Asset/Char/Player/Char011_Linen/Animation/Part/Montage/Interactive/Linen_Part_LevelFinish_Montage.Linen_Part_LevelFinish_Montage",
+    "SocketName": "Root"
+  },
+  "310102": {
+    "EffectCreatureId": 310102,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/EmoIdle/BP_EffectCreature_LinenIdle_01.BP_EffectCreature_LinenIdle_01"
+  },
+  "310103": {
+    "EffectCreatureId": 310103,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/EmoIdle/BP_EffectCreature_LinenIdle_02.BP_EffectCreature_LinenIdle_02"
+  },
+  "310104": {
+    "EffectCreatureId": 310104,
+    "MeshResourceId": 310103
+  },
+  "310202": {
+    "EffectCreatureId": 310202,
+    "MeshResourceId": 310204,
+    "EnterPool": true
+  },
+  "310203": {
+    "EffectCreatureId": 310203,
+    "MeshResourceId": 310205,
+    "EffectCreatureAnimPath": "/Game/Asset/Char/Player/Char023_Xier/Animation/Part/Montage/Xier_Armory_Show_Part07_Montage.Xier_Armory_Show_Part07_Montage",
+    "SocketName": "Root",
+    "EnterPool": true
+  },
+  "310204": {
+    "EffectCreatureId": 310204,
+    "MeshResourceId": 310206,
+    "EffectCreatureAnimPath": "/Game/Asset/Char/Player/Char023_Xier/Animation/Part/Montage/Xier_Armory_Show_Part02_Montage.Xier_Armory_Show_Part02_Montage",
+    "SocketName": "Root",
+    "EnterPool": true
+  },
+  "310205": {
+    "EffectCreatureId": 310205,
+    "MeshResourceId": 310207,
+    "EffectCreatureAnimPath": "/Game/Asset/Char/Player/Char023_Xier/Animation/Part/Montage/Xier_Armory_Show_Part04_Montage.Xier_Armory_Show_Part04_Montage",
+    "SocketName": "Root",
+    "EnterPool": true
+  },
+  "310206": {
+    "EffectCreatureId": 310206,
+    "MeshResourceId": 310208,
+    "EffectCreatureAnimPath": "/Game/Asset/Char/Player/Char023_Xier/Animation/Part/Montage/Xier_Armory_Show_Part03_Montage.Xier_Armory_Show_Part03_Montage",
+    "SocketName": "Root",
+    "EnterPool": true
+  },
+  "310301": {
+    "EffectCreatureId": 310301,
+    "MeshResourceId": 310304,
+    "EffectCreatureAnimPath": "/Game/Asset/Char/Player/Char017_Yeer/Animation/Summon/Montage/Combat/Skill/Yeer_EffectCreatrue_Skill01_Start.Yeer_EffectCreatrue_Skill01_Start",
+    "SocketName": "pelvis"
+  },
+  "310302": {
+    "EffectCreatureId": 310302,
+    "MeshResourceId": 310303,
+    "EffectCreatureAnimPath": "/Game/Asset/Char/Player/Char017_Yeer/Animation/Summon/Montage/Interactive/Yeer_Armory_Show_Accessory01_Montage.Yeer_Armory_Show_Accessory01_Montage",
+    "SocketName": "Root"
+  },
+  "310303": {
+    "EffectCreatureId": 310303,
+    "MeshResourceId": 310303,
+    "EffectCreatureAnimPath": "/Game/Asset/Char/Player/Char017_Yeer/Animation/Summon/Montage/Combat/Skill/Yeer_EffectCreatrue_Skill02.Yeer_EffectCreatrue_Skill02",
+    "SocketName": "hook_arm_l"
+  },
+  "310311": {
+    "EffectCreatureId": 310311,
+    "MeshResourceId": 310304,
+    "EffectCreatureAnimPath": "/Game/Asset/Char/Player/Char017_Yeer/Animation/Summon/Montage/Combat/Skill/Yeer_EffectCreatrue_Skill01_Loop.Yeer_EffectCreatrue_Skill01_Loop",
+    "SocketName": "pelvis"
+  },
+  "310312": {
+    "EffectCreatureId": 310312,
+    "MeshResourceId": 310304,
+    "EffectCreatureAnimPath": "/Game/Asset/Char/Player/Char017_Yeer/Animation/Summon/Montage/Combat/Skill/Yeer_EffectCreatrue_Skill01_Attack.Yeer_EffectCreatrue_Skill01_Attack",
+    "SocketName": "pelvis"
+  },
+  "330110": {
+    "EffectCreatureId": 330110,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/Skill/BP_EffectCreature_Maer_Skill01_Target.BP_EffectCreature_Maer_Skill01_Target",
+    "SocketName": "Root"
+  },
+  "330111": {
+    "EffectCreatureId": 330111,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/Skill/BP_EffectCreature_Maer_Skill03.BP_EffectCreature_Maer_Skill03",
+    "SocketName": "skirt_right01_c"
+  },
+  "330112": {
+    "EffectCreatureId": 330112,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/Skill/BP_EffectCreature_Maer_Skill01.BP_EffectCreature_Maer_Skill01",
+    "MeshResourceId": 330101,
+    "EffectCreatureAnimPath": "/Game/Asset/Char/Player/Char024_Maer/Animation/Part/Sequence/Maer_Part01_Skill01_Loop.Maer_Part01_Skill01_Loop",
+    "SocketName": "hook_arm_r",
+    "EnterPool": true
+  },
+  "330113": {
+    "EffectCreatureId": 330113,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/Skill/BP_EffectCreature_Maer_Skill02.BP_EffectCreature_Maer_Skill02",
+    "MeshResourceId": 330101,
+    "EffectCreatureAnimPath": "/Game/Asset/Char/Player/Char024_Maer/Animation/Part/Montage/Maer_Part01_Skill02_Start_Montage.Maer_Part01_Skill02_Start_Montage",
+    "SocketName": "hook_arm_r",
+    "EnterPool": true
+  },
+  "330114": {
+    "EffectCreatureId": 330114,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/Skill/BP_EffectCreature_Maer_Skill02_End.BP_EffectCreature_Maer_Skill02_End",
+    "MeshResourceId": 330101,
+    "EffectCreatureAnimPath": "/Game/Asset/Char/Player/Char024_Maer/Animation/Part/Montage/Maer_Part01_Skill02_End_Montage.Maer_Part01_Skill02_End_Montage",
+    "SocketName": "hook_arm_r",
+    "EnterPool": true
+  },
+  "330121": {
+    "EffectCreatureId": 330121,
+    "MeshResourceId": 330101,
+    "EffectCreatureAnimPath": "/Game/Asset/Char/Player/Char024_Maer/Animation/Part/Montage/Maer_Part01_Armory_Montage.Maer_Part01_Armory_Montage",
+    "SocketName": "Root",
+    "EnterPool": true
+  },
+  "420101": {
+    "EffectCreatureId": 420101,
+    "MeshResourceId": 420101,
+    "EffectCreatureAnimPath": "/Game/Asset/Char/Player/Char008_Yuming/Animation/Summon/Montage/Interactive/Yuming_Summon_LevelFinish_Montage.Yuming_Summon_LevelFinish_Montage",
+    "SocketName": "Root"
+  },
+  "420102": {
+    "EffectCreatureId": 420102,
+    "MeshResourceId": 420101,
+    "EffectCreatureAnimPath": "/Game/Asset/Char/Player/Char008_Yuming/Animation/Summon/Sequnence/Yuming_Summon_Attack01_Loop.Yuming_Summon_Attack01_Loop"
+  },
+  "420103": {
+    "EffectCreatureId": 420103,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/Armory/BP_EffectCreature_Yuming_Armory.BP_EffectCreature_Yuming_Armory",
+    "SocketName": "Root"
+  },
+  "420121": {
+    "EffectCreatureId": 420121,
+    "MeshResourceId": 420101,
+    "EffectCreatureAnimPath": "/Game/Asset/Char/Player/Char008_Yuming/Animation/Summon/Montage/Combat/Skill/Yuming_Summon_Skill02_Montage.Yuming_Summon_Skill02_Montage",
+    "SocketName": "Root"
+  },
+  "420122": {
+    "EffectCreatureId": 420122,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/Skill/BP_EffectCreature_Yuming_Skill1.BP_EffectCreature_Yuming_Skill1"
+  },
+  "420201": {
+    "EffectCreatureId": 420201,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/Skill/BP_EffectCreature_Landi_Skill01_Start.BP_EffectCreature_Landi_Skill01_Start"
+  },
+  "420202": {
+    "EffectCreatureId": 420202,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/Skill/BP_EffectCreature_Landi_Skill01_End.BP_EffectCreature_Landi_Skill01_End"
+  },
+  "420203": {
+    "EffectCreatureId": 420203,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/Skill/BP_EffectCreature_Landi_Skill02.BP_EffectCreature_Landi_Skill02"
+  },
+  "420204": {
+    "EffectCreatureId": 420204,
+    "MeshResourceId": 420201,
+    "EffectCreatureAnimPath": "/Game/Asset/Char/Player/Char012_Landi/Animation/Part/Montage/Interactive/Landi_LevelFinish_Accessory01_Montage.Landi_LevelFinish_Accessory01_Montage",
+    "SocketName": "Root"
+  },
+  "420205": {
+    "EffectCreatureId": 420205,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/Skill/BP_EffectCreature_Landi_Skill01_Chair.BP_EffectCreature_Landi_Skill01_Chair"
+  },
+  "420207": {
+    "EffectCreatureId": 420207,
+    "MeshResourceId": 420202,
+    "EffectCreatureAnimPath": "/Game/Asset/Char/Player/Char012_Landi/Animation/Part/Montage/Interactive/Landi_Armory_Accessory02_Montage.Landi_Armory_Accessory02_Montage",
+    "SocketName": "Root"
+  },
+  "420208": {
+    "EffectCreatureId": 420208,
+    "MeshResourceId": 420203,
+    "EffectCreatureAnimPath": "/Game/Asset/Char/Player/Char012_Landi/Animation/Part/Montage/Interactive/Landi_Armory_Accessory03_Montage.Landi_Armory_Accessory03_Montage",
+    "SocketName": "Root"
+  },
+  "420211": {
+    "EffectCreatureId": 420211,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/Skill/BP_EffectCreature_Landi_Skill02_nia.BP_EffectCreature_Landi_Skill02_Nia",
+    "SocketName": "Root"
+  },
+  "430101": {
+    "EffectCreatureId": 430101,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/Skill/BP_EffectCreature_Xibi_Skill01_Start.BP_EffectCreature_Xibi_Skill01_Start",
+    "SocketName": "hook_arm_r"
+  },
+  "430102": {
+    "EffectCreatureId": 430102,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/Skill/BP_EffectCreature_Xibi_Skill01_Loop.BP_EffectCreature_Xibi_Skill01_Loop",
+    "SocketName": "hook_arm_r"
+  },
+  "430103": {
+    "EffectCreatureId": 430103,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/Skill/BP_EffectCreature_Xibi_Skill01_End.BP_EffectCreature_Xibi_Skill01_End",
+    "SocketName": "hook_arm_r"
+  },
+  "510101": {
+    "EffectCreatureId": 510101,
+    "MeshResourceId": 510101,
+    "EffectCreatureAnimPath": "/Game/Asset/Char/Player/Char021_Songlu/Animation/Summon/Montage/Interactive/Songlu_Summon_LevelFinish_Montage.Songlu_Summon_LevelFinish_Montage",
+    "SocketName": "Root"
+  },
+  "510102": {
+    "EffectCreatureId": 510102,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/Skill/BP_EffectCreature_Songlu_Lanzi.BP_EffectCreature_Songlu_Lanzi"
+  },
+  "510103": {
+    "EffectCreatureId": 510103,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/Skill/BP_EffectCreature_Songlu_Mianbao.BP_EffectCreature_Songlu_Mianbao"
+  },
+  "510104": {
+    "EffectCreatureId": 510104,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/Skill/BP_EffectCreature_Songlu_Shaozi.BP_EffectCreature_Songlu_Shaozi"
+  },
+  "510105": {
+    "EffectCreatureId": 510105,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/EmoIdle/BP_EffectCreature_SongluIdle.BP_EffectCreature_SongluIdle"
+  },
+  "530101": {
+    "EffectCreatureId": 530101,
+    "MeshResourceId": 530102,
+    "EffectCreatureAnimPath": "/Game/Asset/Char/Player/Char010_Saiqi/Animation/Part/Montage/Saiqi_Part_LevelFinish_Montage.Saiqi_Part_LevelFinish_Montage",
+    "SocketName": "Root"
+  },
+  "530102": {
+    "EffectCreatureId": 530102,
+    "MeshResourceId": 530102,
+    "EffectCreatureAnimPath": "/Game/Asset/Char/Player/Char010_Saiqi/Animation/Part/Montage/Saiqi_Part_Armory_Montage.Saiqi_Part_Armory_Montage",
+    "SocketName": "Root"
+  },
+  "530103": {
+    "EffectCreatureId": 530103,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/Skill/BP_EffectCreature_Saiqi_Skill01.BP_EffectCreature_Saiqi_Skill01"
+  },
+  "530111": {
+    "EffectCreatureId": 530111,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/Skill/BP_EffectCreature_Saiqi_LittleButterfly.BP_EffectCreature_Saiqi_LittleButterfly"
+  },
+  "530113": {
+    "EffectCreatureId": 530113,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/EmoIdle/BP_EffectCreature_SaiqiIdle.BP_EffectCreature_SaiqiIdle"
+  },
+  "530114": {
+    "EffectCreatureId": 530114,
+    "MeshResourceId": 530102,
+    "EffectCreatureAnimPath": "/Game/Asset/Char/Player/Char010_Saiqi/Animation/Part/Montage/Saiqi_Part_Ultra_Show_Montage.Saiqi_Part_Ultra_Show_Montage",
+    "SocketName": "Float01"
+  },
+  "530115": {
+    "EffectCreatureId": 530115,
+    "MeshResourceId": 530102,
+    "EffectCreatureAnimPath": "/Game/Asset/Char/Player/Char010_Saiqi/Animation/Part/Montage/Saiqi_Part_Ultra_Show_Montage.Saiqi_Part_Ultra_Show_Montage",
+    "SocketName": "Float02"
+  },
+  "530116": {
+    "EffectCreatureId": 530116,
+    "MeshResourceId": 530102,
+    "EffectCreatureAnimPath": "/Game/Asset/Char/Player/Char010_Saiqi/Animation/Part/Montage/Saiqi_Part_Ultra_Show_Montage.Saiqi_Part_Ultra_Show_Montage",
+    "SocketName": "Float03"
+  },
+  "530117": {
+    "EffectCreatureId": 530117,
+    "MeshResourceId": 530102,
+    "EffectCreatureAnimPath": "/Game/Asset/Char/Player/Char010_Saiqi/Animation/Part/Montage/Saiqi_Part_Ultra_Show_Montage.Saiqi_Part_Ultra_Show_Montage",
+    "SocketName": "Float04"
+  },
+  "530118": {
+    "EffectCreatureId": 530118,
+    "MeshResourceId": 530102,
+    "EffectCreatureAnimPath": "/Game/Asset/Char/Player/Char010_Saiqi/Animation/Part/Montage/Saiqi_Part_Ultra_Show_Montage.Saiqi_Part_Ultra_Show_Montage",
+    "SocketName": "Float05"
+  },
+  "530119": {
+    "EffectCreatureId": 530119,
+    "MeshResourceId": 530102,
+    "EffectCreatureAnimPath": "/Game/Asset/Char/Player/Char010_Saiqi/Animation/Part/Montage/Saiqi_Part_Ultra_Show_Montage.Saiqi_Part_Ultra_Show_Montage",
+    "SocketName": "Float06"
+  },
+  "900601": {
+    "EffectCreatureId": 900601,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/Monster/BP_EffectCreature_SQQizha01.BP_EffectCreature_SQQizha01",
+    "SocketName": "Root"
+  },
+  "2010100": {
+    "EffectCreatureId": 2010100
+  },
+  "2010101": {
+    "EffectCreatureId": 2010101,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/Others/BP_EffectCreature_Funnel_ArmoryShow.BP_EffectCreature_Funnel_ArmoryShow"
+  },
+  "2020106": {
+    "EffectCreatureId": 2020106,
+    "EffectCreaturePath": "/Game/Asset/Effect/Blueprint/Child/EF_BP_Decal_Bullet.EF_BP_Decal_Bullet"
+  },
+  "2050701": {
+    "EffectCreatureId": 2050701,
+    "EffectCreaturePath": "/Game/Asset/Effect/Blueprint/Child/EF_BP_Decal_Bullet02.EF_BP_Decal_Bullet02"
+  },
+  "101128001": {
+    "EffectCreatureId": 101128001,
+    "EffectCreaturePath": "/Game/BluePrints/Combat/EffectCreature/Others/BP_EffectCreature_Story_101128Flower.BP_EffectCreature_Story_101128Flower",
+    "SocketName": "hook_arm_r"
+  }
+}

@@ -1,0 +1,264 @@
+{
+  "FreeSimple": {
+    "TalkType": "FreeSimple",
+    "BasicType": "FreeSimple",
+    "UIPath": "WidgetBlueprint'/Game/UI/UI_PC/Story/BP_SimpleTalkUI.BP_SimpleTalkUI_C'",
+    "IsExternalUI": "False",
+    "CameraType": "FreeCamera",
+    "UICanInteractive": true,
+    "ShowGameUI": false,
+    "KeepState": "KeepState",
+    "GameInput": false,
+    "SetPlayerInvincible": true
+  },
+  "FixSimple": {
+    "TalkType": "FixSimple",
+    "BasicType": "FixSimple",
+    "UIPath": "WidgetBlueprint'/Game/UI/UI_PC/Story/BP_SimpleTalkUI.BP_SimpleTalkUI_C'",
+    "IsExternalUI": "False",
+    "CameraType": "FixedCamera",
+    "UICanInteractive": true,
+    "ShowGameUI": false,
+    "KeepState": "KeepState",
+    "GameInput": false,
+    "SetPlayerInvincible": true,
+    "ExtraParams": [
+      {
+        "bBlendDialogueCamera": true
+      },
+      {
+        "bNeedStage": true
+      }
+    ]
+  },
+  "Drive": {
+    "TalkType": "Drive",
+    "BasicType": "Guide",
+    "UIPath": "WidgetBlueprint'/Game/UI/UI_PC/Story/BP_DriveTalkUI.BP_DriveTalkUI_C'",
+    "IsExternalUI": "False",
+    "CameraType": "PlayerCamera",
+    "UICanInteractive": false,
+    "ShowGameUI": true,
+    "KeepState": "KeepState",
+    "GameInput": true
+  },
+  "Guide": {
+    "TalkType": "Guide",
+    "BasicType": "Guide",
+    "UIPath": "WidgetBlueprint'/Game/UI/WBP/Story/Widget/WBP_Story_GuideMan.WBP_Story_GuideMan_C'",
+    "IsExternalUI": "False",
+    "CameraType": "PlayerCamera",
+    "UICanInteractive": false,
+    "ShowGameUI": true,
+    "KeepState": "KeepState",
+    "GameInput": true
+  },
+  "Show": {
+    "TalkType": "Show",
+    "BasicType": "Show",
+    "UIPath": "WidgetBlueprint'/Game/UI/UI_PC/Story/BP_SimpleTalkUI.BP_SimpleTalkUI_C'",
+    "IsExternalUI": "False",
+    "CameraType": "SequenceCamera",
+    "UICanInteractive": true,
+    "ShowGameUI": false,
+    "KeepState": "KeepState",
+    "GameInput": false,
+    "SetPlayerInvincible": true,
+    "ExtraParams": [
+      {
+        "bNeedStage": true
+      }
+    ]
+  },
+  "Cinematic": {
+    "TalkType": "Cinematic",
+    "BasicType": "Cinematic",
+    "UIPath": "WidgetBlueprint'/Game/UI/UI_PC/Story/BP_CinematicUI.BP_CinematicUI_C'",
+    "IsExternalUI": "False",
+    "CameraType": "SequenceCamera",
+    "UICanInteractive": true,
+    "ShowGameUI": false,
+    "KeepState": "KeepState",
+    "GameInput": false,
+    "SetPlayerInvincible": true,
+    "ExtraParams": {
+      "bComplexCameraBlend": true,
+      "bNeedStage": true
+    }
+  },
+  "Bubble": {
+    "TalkType": "Bubble",
+    "BasicType": "Bubble",
+    "UIPath": "WidgetBlueprint'/Game/UI/UI_PC/Dialog/BP_Empty.BP_Empty_C'",
+    "IsExternalUI": "True",
+    "CameraType": "PlayerCamera",
+    "UICanInteractive": false,
+    "ShowGameUI": true,
+    "KeepState": "KeepState",
+    "GameInput": true
+  },
+  "BubbleTalk": {
+    "TalkType": "BubbleTalk",
+    "BasicType": "Bubble",
+    "UIPath": "WidgetBlueprint'/Game/UI/UI_PC/Dialog/BP_Empty.BP_Empty_C'",
+    "IsExternalUI": "True",
+    "CameraType": "FixedCamera",
+    "UICanInteractive": true,
+    "ShowGameUI": false,
+    "KeepState": "KeepState",
+    "GameInput": false,
+    "SetPlayerInvincible": true,
+    "ExtraParams": [
+      {
+        "bNeedStage": true
+      }
+    ]
+  },
+  "Black": {
+    "TalkType": "Black",
+    "BasicType": "Black",
+    "UIPath": "WidgetBlueprint'/Game/UI/WBP/Story/Widget/WBP_BlackScreenTalk.WBP_BlackScreenTalk_C'",
+    "IsExternalUI": "False",
+    "CameraType": "EmptyCamera",
+    "UICanInteractive": false,
+    "ShowGameUI": false,
+    "KeepState": "KeepState",
+    "GameInput": false,
+    "SetPlayerInvincible": true
+  },
+  "BlackISS": {
+    "TalkType": "BlackISS",
+    "BasicType": "Black",
+    "UIPath": "WidgetBlueprint'/Game/UI/WBP/Story/Widget/WBP_BlackScreenTalk.WBP_BlackScreenTalk_C'",
+    "IsExternalUI": "False",
+    "CameraType": "EmptyCamera",
+    "UICanInteractive": false,
+    "ShowGameUI": false,
+    "KeepState": "KeepState",
+    "GameInput": false,
+    "SetPlayerInvincible": true,
+    "ExtraParams": {
+      "bBlackScreenSameScreen": true
+    }
+  },
+  "FaultBlack": {
+    "TalkType": "FaultBlack",
+    "BasicType": "Black",
+    "UIPath": "WidgetBlueprint'/Game/UI/UI_PC/Story/BP_Fault_Black_UI.BP_Fault_Black_UI_C'",
+    "IsExternalUI": "False",
+    "CameraType": "EmptyCamera",
+    "UICanInteractive": false,
+    "ShowGameUI": false,
+    "KeepState": "KeepState",
+    "GameInput": false,
+    "SetPlayerInvincible": true
+  },
+  "Impression": {
+    "TalkType": "Impression",
+    "BasicType": "Impression",
+    "UIPath": "WidgetBlueprint'/Game/UI/UI_PC/Impression/BP_Impression_PC.BP_Impression_PC_C'",
+    "IsExternalUI": "False",
+    "CameraType": "FreeCamera",
+    "UICanInteractive": true,
+    "ShowGameUI": false,
+    "KeepState": "KeepState",
+    "GameInput": false,
+    "SetPlayerInvincible": true
+  },
+  "AudioOnly": {
+    "TalkType": "AudioOnly",
+    "BasicType": "Audio"
+  },
+  "Boss": {
+    "TalkType": "Boss",
+    "BasicType": "Boss",
+    "IsExternalUI": "False",
+    "CameraType": "PlayerCamera",
+    "UICanInteractive": false,
+    "ShowGameUI": true,
+    "KeepState": "KeepState",
+    "GameInput": true
+  },
+  "HintGuide": {
+    "TalkType": "HintGuide",
+    "BasicType": "Guide",
+    "UIPath": "WidgetBlueprint'/Game/UI/WBP/Story/Widget/WBP_Story_GuideMan.WBP_Story_GuideMan_C'",
+    "IsExternalUI": "False",
+    "CameraType": "PlayerCamera",
+    "UICanInteractive": false,
+    "ShowGameUI": true,
+    "KeepState": "KeepState",
+    "GameInput": true
+  },
+  "QuestImpression": {
+    "TalkType": "QuestImpression",
+    "BasicType": "FixSimple",
+    "UIPath": "WidgetBlueprint'/Game/UI/UI_PC/Impression/BP_Impression_PC.BP_Impression_PC_C'",
+    "IsExternalUI": "False",
+    "CameraType": "FixedCamera",
+    "UICanInteractive": true,
+    "ShowGameUI": false,
+    "KeepState": "KeepState",
+    "GameInput": false,
+    "SetPlayerInvincible": true,
+    "ExtraParams": [
+      {
+        "bBlendDialogueCamera": true
+      },
+      {
+        "bNeedStage": true
+      }
+    ]
+  },
+  "ForgingGuide": {
+    "TalkType": "ForgingGuide",
+    "BasicType": "Guide",
+    "UIPath": "WidgetBlueprint'/Game/UI/WBP/Forging/Widget/WBP_Forging_WorkableTalk.WBP_Forging_WorkableTalk_C'",
+    "IsExternalUI": "False",
+    "CameraType": "PlayerCamera",
+    "UICanInteractive": false,
+    "ShowGameUI": true,
+    "KeepState": "KeepState",
+    "GameInput": true
+  },
+  "RougeLike": {
+    "TalkType": "RougeLike",
+    "BasicType": "RougeLike",
+    "CameraType": "PlayerCamera",
+    "UICanInteractive": false,
+    "ShowGameUI": true,
+    "KeepState": "KeepState",
+    "GameInput": true
+  },
+  "UnimportGuide": {
+    "TalkType": "UnimportGuide",
+    "BasicType": "Guide",
+    "UIPath": "WidgetBlueprint'/Game/UI/WBP/Story/Widget/WBP_Story_GuideMan.WBP_Story_GuideMan_C'",
+    "IsExternalUI": "False",
+    "CameraType": "PlayerCamera",
+    "UICanInteractive": false,
+    "ShowGameUI": true,
+    "KeepState": "KeepState",
+    "GameInput": true
+  },
+  "NoIntFixSimple": {
+    "TalkType": "NoIntFixSimple",
+    "BasicType": "FixSimple",
+    "UIPath": "WidgetBlueprint'/Game/UI/UI_PC/Story/BP_SimpleTalkUI.BP_SimpleTalkUI_C'",
+    "IsExternalUI": "False",
+    "CameraType": "FixedCamera",
+    "UICanInteractive": true,
+    "ShowGameUI": false,
+    "KeepState": "KeepState",
+    "GameInput": false,
+    "SetPlayerInvincible": true,
+    "ExtraParams": [
+      {
+        "bBlendDialogueCamera": true
+      },
+      {
+        "bNeedStage": true
+      }
+    ]
+  }
+}

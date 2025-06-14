@@ -1,0 +1,236 @@
+{
+  "1001": {
+    "GachaId": 1001,
+    "GachaType": "GACHA_TYPE_UP",
+    "GachaStartTime": 1704081600,
+    "GachaEndTime": 1748750400,
+    "GachaCharContent": {},
+    "GachaWeaponContent": [
+      10101,
+      10103,
+      10105,
+      10198,
+      10202,
+      10206,
+      10299,
+      10302,
+      10399,
+      10601,
+      10699,
+      20201,
+      20298,
+      20303,
+      20398,
+      20401,
+      20403,
+      20498,
+      20501,
+      20503,
+      20598,
+      20601,
+      20698
+    ],
+    "ProbabilityId": 1001,
+    "UPChar": {
+      "5301": 5000
+    },
+    "GachaCost": [
+      1
+    ],
+    "GachaCost10": [
+      10
+    ],
+    "GachaName": "GACHA_NAME_UP_SAIQI",
+    "GachaImage": "/Game/UI/WBP/Gacha/PC/PoolWidget/WBP_Gacha_Pool_WidgetSaiqi_P.WBP_Gacha_Pool_WidgetSaiqi_P",
+    "GachaImageM": "/Game/UI/WBP/Gacha/Mobile/PoolWidget/WBP_Gacha_Pool_WidgetSaiqi_M.WBP_Gacha_Pool_WidgetSaiqi_M",
+    "GachaDes": "GACHA_DES_UP",
+    "GachaWarning": "GACHA_WARNING_UP",
+    "Sequence": 1
+  },
+  "2001": {
+    "GachaId": 2001,
+    "GachaType": "GACHA_TYPE_MUSTUP",
+    "GachaStartTime": 1704081600,
+    "GachaEndTime": 1748750400,
+    "GachaLimit": 90,
+    "GachaLimitIsShow": true,
+    "GachaCharContent": {},
+    "GachaWeaponContent": [
+      10101,
+      10103,
+      10105,
+      10198,
+      10202,
+      10206,
+      10299,
+      10302,
+      10399,
+      10601,
+      10699,
+      20201,
+      20298,
+      20303,
+      20398,
+      20401,
+      20403,
+      20498,
+      20501,
+      20503,
+      20598,
+      20601,
+      20698
+    ],
+    "ProbabilityId": 2001,
+    "UPChar": {
+      "5301": 10000
+    },
+    "GachaCost": [
+      1
+    ],
+    "GachaCost10": [
+      10
+    ],
+    "GachaName": "GACHA_NAME_MUSTUP_SAIQI",
+    "GachaImage": "/Game/UI/WBP/Gacha/PC/PoolWidget/WBP_Gacha_Pool_WidgetSaiqi_P.WBP_Gacha_Pool_WidgetSaiqi_P",
+    "GachaImageM": "/Game/UI/WBP/Gacha/Mobile/PoolWidget/WBP_Gacha_Pool_WidgetSaiqi_M.WBP_Gacha_Pool_WidgetSaiqi_M",
+    "GachaDes": "GACHA_DES_MUSTUP",
+    "GachaWarning": "GACHA_WARNING_MUSTUP",
+    "IsShowSpecialTitle": true,
+    "Sequence": 2
+  },
+  "3001": {
+    "GachaId": 3001,
+    "GachaType": "GACHA_TYPE_WEAPON_UP",
+    "GachaStartTime": 1704081600,
+    "GachaEndTime": 1748750400,
+    "GachaCharContent": {},
+    "GachaWeaponContent": {},
+    "ProbabilityId": 3001,
+    "UPWeapon": {
+      "10204": 10000
+    },
+    "GachaCost": [
+      1
+    ],
+    "GachaCost10": [
+      10
+    ],
+    "GachaName": "GACHA_NAME_WEAPON_UP_SAIQI",
+    "GachaImage": "/Game/UI/WBP/Gacha/PC/PoolWidget/Weapon/WBP_Gacha_Pool_Widget_Scythe_Xiji_P.WBP_Gacha_Pool_Widget_Scythe_Xiji_P",
+    "GachaImageM": "/Game/UI/WBP/Gacha/Mobile/PoolWidget/Weapon/WBP_Gacha_Pool_Widget_Scythe_Xiji_M.WBP_Gacha_Pool_Widget_Scythe_Xiji_M",
+    "GachaDes": "GACHA_DES_WEAPON_UP",
+    "GachaWarning": "GACHA_WARNING_WEAPON_UP",
+    "Sequence": 1
+  },
+  "9997": {
+    "GachaId": 9997,
+    "GachaType": "GACHA_TYPE_START",
+    "GachaStartTime": 1704081600,
+    "GachaEndTime": 1748750400,
+    "ConditionId": 4041,
+    "GachaLimit": 50,
+    "GachaCharContent": [
+      1101,
+      2101,
+      2301,
+      3101,
+      3103,
+      3201,
+      3301,
+      4202,
+      4301,
+      5101
+    ],
+    "GachaWeaponContent": [
+      10101,
+      10103,
+      10105,
+      10198,
+      10202,
+      10206,
+      10299,
+      10302,
+      10399,
+      10601,
+      10699,
+      20201,
+      20298,
+      20303,
+      20398,
+      20401,
+      20403,
+      20498,
+      20501,
+      20503,
+      20598,
+      20601,
+      20698
+    ],
+    "ProbabilityId": 9997,
+    "GachaCost10": {
+      "1001": 8
+    },
+    "GachaName": "GACHA_NAME_START",
+    "GachaImage": "/Game/UI/WBP/Gacha/PC/PoolWidget/WBP_Gacha_Pool_WidgetShuiMu_P.WBP_Gacha_Pool_WidgetShuiMu_P",
+    "GachaImageM": "/Game/UI/WBP/Gacha/Mobile/PoolWidget/WBP_Gacha_Pool_WidgetShuiMu_M.WBP_Gacha_Pool_WidgetShuiMu_M",
+    "GachaDes": "GACHA_DES_START",
+    "GachaWarning": "GACHA_WARNING_START",
+    "Sequence": 1
+  },
+  "9998": {
+    "GachaId": 9998,
+    "GachaType": "GACHA_TYPE_NORMAL",
+    "GachaStartTime": 1704081600,
+    "GachaEndTime": 1748750400,
+    "GachaLimit": 1,
+    "GachaLimitIsShow": true,
+    "GachaCharContent": {},
+    "GachaWeaponContent": {},
+    "ProbabilityId": 9998,
+    "GachaCost": [
+      1
+    ],
+    "GachaCost10": [
+      10
+    ],
+    "GachaName": "GACHA_NAME_NORMAL",
+    "GachaImage": "/Game/UI/WBP/Gacha/PC/PoolWidget/WBP_Gacha_Pool_WidgetSonglu_P.WBP_Gacha_Pool_WidgetSonglu_P",
+    "GachaImageM": "/Game/UI/WBP/Gacha/Mobile/PoolWidget/WBP_Gacha_Pool_WidgetSonglu_M.WBP_Gacha_Pool_WidgetSonglu_M",
+    "GachaDes": "GACHA_DES_NORMAL",
+    "GachaWarning": "GACHA_WARNING_NORMAL",
+    "Sequence": 1
+  },
+  "9999": {
+    "GachaId": 9999,
+    "GachaType": "GACHA_TYPE_NORMAL",
+    "GachaStartTime": 1704081600,
+    "GachaEndTime": 1748750400,
+    "ConditionId": 4041,
+    "GachaCharContent": [
+      1101,
+      2101,
+      2301,
+      3101,
+      3103,
+      3201,
+      3301,
+      4202,
+      4301,
+      5101
+    ],
+    "GachaWeaponContent": {},
+    "ProbabilityId": 9999,
+    "GachaCost": [
+      1
+    ],
+    "GachaCost10": [
+      10
+    ],
+    "GachaName": "GACHA_NAME_NORMAL",
+    "GachaImage": "/Game/UI/WBP/Gacha/PC/PoolWidget/WBP_Gacha_Pool_WidgetSonglu_P.WBP_Gacha_Pool_WidgetSonglu_P",
+    "GachaImageM": "/Game/UI/WBP/Gacha/Mobile/PoolWidget/WBP_Gacha_Pool_WidgetSonglu_M.WBP_Gacha_Pool_WidgetSonglu_M",
+    "GachaDes": "GACHA_DES_NORMAL",
+    "GachaWarning": "GACHA_WARNING_NORMAL",
+    "Sequence": 1
+  }
+}

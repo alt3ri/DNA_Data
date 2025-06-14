@@ -1,0 +1,198 @@
+{
+  "Damage": {
+    "TargetType": "Damage",
+    "ArgName": [
+      "DamageType",
+      "DamageTag",
+      "ExceptDamageTag"
+    ],
+    "ArgType": [
+      "List(DamageType)",
+      "List(String)",
+      "List(String)"
+    ]
+  },
+  "Heal": {
+    "TargetType": "Heal",
+    "ArgName": [
+      "DamageType",
+      "DamageTag",
+      "ExceptDamageTag"
+    ],
+    "ArgType": [
+      "List(DamageType)",
+      "List(String)",
+      "List(String)"
+    ]
+  },
+  "Damaged": {
+    "TargetType": "Damaged",
+    "ArgName": [
+      "DamageType",
+      "DamageTag",
+      "TrueValue"
+    ],
+    "ArgType": [
+      "List(DamageType)",
+      "List(String)",
+      "float"
+    ]
+  },
+  "OnTagChanged": {
+    "TargetType": "OnTagChanged",
+    "ArgName": [
+      "Tags"
+    ],
+    "ArgType": [
+      "List(String)"
+    ]
+  },
+  "OnAddBuffToOther": {
+    "TargetType": "OnAddBuffToOther",
+    "ArgName": [
+      "BuffType",
+      "CampFilter"
+    ],
+    "ArgType": [
+      "List(Int)",
+      "String"
+    ]
+  },
+  "OnMonsterAddedBuff": {
+    "TargetType": "OnMonsterAddedBuff",
+    "ArgName": [
+      "BuffType",
+      "CampFilter"
+    ],
+    "ArgType": [
+      "List(Int)",
+      "String"
+    ]
+  },
+  "OnBuffRemovedFromTarget": {
+    "TargetType": "OnBuffRemovedFromTarget",
+    "ArgName": [
+      "BuffType",
+      "CampFilter"
+    ],
+    "ArgType": [
+      "List(Int)",
+      "String"
+    ]
+  },
+  "OnTargetKilled": {
+    "TargetType": "OnTargetKilled",
+    "ArgName": [
+      "BuffType",
+      "SkillType",
+      "UnitId",
+      "Tag",
+      "Time",
+      "DamageTag"
+    ],
+    "ArgType": [
+      "List(Int)",
+      "List(String)",
+      "List(Int)",
+      "List(String)",
+      "float",
+      "List(String)"
+    ]
+  },
+  "DamageOnDefeated": {
+    "TargetType": "DamageOnDefeated",
+    "ArgName": [
+      "DamageType",
+      "DamageTag",
+      "ExceptSkillType"
+    ],
+    "ArgType": [
+      "List(DamageType)",
+      "List(String)",
+      "List(SkillType)"
+    ]
+  },
+  "OnFinishHardBoss": {
+    "TargetType": "OnFinishHardBoss"
+  },
+  "PlayerMove": {
+    "TargetType": "PlayerMove"
+  },
+  "OnAddSp": {
+    "TargetType": "OnAddSp",
+    "ArgName": [
+      "Reason"
+    ],
+    "ArgType": [
+      "Int"
+    ]
+  },
+  "OnAddPhantom": {
+    "TargetType": "OnAddPhantom",
+    "ArgName": [
+      "PhantomId"
+    ],
+    "ArgType": [
+      "List(Int)"
+    ]
+  },
+  "OnDungeonEndWithoutPhantom": {
+    "TargetType": "OnDungeonEndWithoutPhantom"
+  },
+  "ClearWithoutPhantomAndDamaged": {
+    "TargetType": "ClearWithoutPhantomAndDamaged"
+  },
+  "PlayerUseNormalSkill": {
+    "TargetType": "PlayerUseNormalSkill"
+  },
+  "PlayerUseUltraSkill": {
+    "TargetType": "PlayerUseUltraSkill"
+  },
+  "LimitTimeUseNormalSkill": {
+    "TargetType": "LimitTimeUseNormalSkill",
+    "ArgName": [
+      "LimitTime"
+    ],
+    "ArgType": [
+      "float"
+    ]
+  },
+  "LimitTimeUseUltraSkill": {
+    "TargetType": "LimitTimeUseUltraSkill",
+    "ArgName": [
+      "LimitTime"
+    ],
+    "ArgType": [
+      "float"
+    ]
+  },
+  "LimitTimeKillMonster": {
+    "TargetType": "LimitTimeKillMonster",
+    "ArgName": [
+      "LimitTime"
+    ],
+    "ArgType": [
+      "float"
+    ]
+  },
+  "LimitTimeAddBuff": {
+    "TargetType": "LimitTimeAddBuff",
+    "ArgName": [
+      "LimitTime",
+      "BuffType"
+    ],
+    "ArgType": [
+      "float",
+      "List(Int)"
+    ]
+  },
+  "OnRecoverTeammate": {
+    "TargetType": "OnRecoverTeammate"
+  },
+  "AddOverEnergyShield": {
+    "TargetType": "AddOverEnergyShield"
+  },
+  "BluePrintTrigger": {
+    "TargetType": "BluePrintTrigger"
+  }
+}

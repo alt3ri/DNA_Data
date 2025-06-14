@@ -1,0 +1,112 @@
+{
+  "1001": {
+    "UIEffectId": 1001,
+    "UIEffectTypeName": "BloodEffect",
+    "UIEffectTag": [
+      "Battle"
+    ],
+    "UIEffectPath": "/Game/Asset/FX/Hud/Material_Inst/M_HUD_Blood_Edge.M_HUD_Blood_Edge",
+    "LastTime": -1,
+    "PlayMode": "Replace",
+    "UIEffectParam": [
+      {
+        "Value2Strength": 1
+      },
+      {
+        "HaveShield": 0
+      },
+      {
+        "Time": "Now"
+      }
+    ],
+    "MutexUIEffectId": {},
+    "UIEffectPriority": 100
+  },
+  "1002": {
+    "UIEffectId": 1002,
+    "UIEffectTypeName": "BloodEffect",
+    "UIEffectTag": [
+      "Battle"
+    ],
+    "UIEffectPath": "/Game/Asset/FX/Hud/Material_Inst/M_HUD_Blood_Edge.M_HUD_Blood_Edge",
+    "LastTime": 0.4,
+    "PlayMode": "Modify",
+    "UIEffectParam": {
+      "Value2Strength": 0,
+      "HaveShield": 0,
+      "Time": "Now"
+    },
+    "MutexUIEffectId": [
+      1006
+    ],
+    "UIEffectPriority": 100
+  },
+  "1003": {
+    "UIEffectId": 1003,
+    "UIEffectTypeName": "ShieldAttack",
+    "UIEffectTag": [
+      "Battle"
+    ],
+    "UIEffectPath": "/Game/Asset/FX/Hud/Material_Inst/M_HUD_Blood_Edge.M_HUD_Blood_Edge",
+    "LastTime": 0.4,
+    "PlayMode": "Modify",
+    "UIEffectParam": {
+      "Value2Strength": 0,
+      "HaveShield": 1,
+      "Time": "Now"
+    },
+    "MutexUIEffectId": [
+      1006
+    ],
+    "UIEffectPriority": 100
+  },
+  "1004": {
+    "UIEffectId": 1004,
+    "UIEffectTypeName": "ShieldBroken",
+    "UIEffectTag": [
+      "Battle"
+    ],
+    "UIEffectPath": "/Game/Asset/FX/Hud/Material_Inst/M_HUD_broken.M_HUD_broken",
+    "LastTime": 0.4,
+    "PlayMode": "Add",
+    "MutexUIEffectId": [
+      1006
+    ],
+    "UIEffectPriority": 100
+  },
+  "1005": {
+    "UIEffectId": 1005,
+    "UIEffectTypeName": "Warning",
+    "UIEffectTag": [
+      "Battle"
+    ],
+    "UIEffectPath": "/Game/Asset/FX/Hud/Material_Inst/M_HUD_Warning.M_HUD_Warning",
+    "LastTime": -1,
+    "PlayMode": "Replace",
+    "MutexUIEffectId": {},
+    "UIEffectPriority": 90
+  },
+  "1006": {
+    "UIEffectId": 1006,
+    "UIEffectTypeName": "VitaminEffect",
+    "UIEffectTag": [
+      "Battle"
+    ],
+    "UIEffectPath": "/Game/Asset/FX/Hud/Material_Inst/M_HUD_Blood_Edge.M_HUD_Blood_Edge",
+    "LastTime": -1,
+    "PlayMode": "Replace",
+    "UIEffectParam": [
+      {
+        "Value2Strength": 1
+      },
+      {
+        "HaveShield": 0
+      },
+      {
+        "Time": "Now"
+      }
+    ],
+    "MutexUIEffectId": {},
+    "UIEffectPriority": 100
+  }
+}

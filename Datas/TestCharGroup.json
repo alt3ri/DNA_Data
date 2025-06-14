@@ -1,0 +1,102 @@
+{
+  "1101": {
+    "CharGroupId": 1101,
+    "TemplateRuleId": [
+      1010101
+    ],
+    "PhantomRuleIdList": [
+      1010201,
+      1020301
+    ]
+  },
+  "2101": {
+    "CharGroupId": 2101,
+    "TemplateRuleId": {
+      "102101": 1010101
+    },
+    "PhantomRuleIdList": [
+      1010201,
+      1020301
+    ]
+  },
+  "2301": {
+    "CharGroupId": 2301,
+    "TemplateRuleId": {
+      "102301": 1010101
+    },
+    "PhantomRuleIdList": [
+      1010201,
+      1020301
+    ]
+  },
+  "2401": {
+    "CharGroupId": 2401,
+    "TemplateRuleId": {
+      "102401": 1010101
+    },
+    "PhantomRuleIdList": {
+      "103102": 1010201,
+      "105101": 1020301
+    }
+  },
+  "3101": {
+    "CharGroupId": 3101,
+    "TemplateRuleId": {
+      "103101": 1010101
+    },
+    "PhantomRuleIdList": [
+      1010201,
+      1020301
+    ]
+  },
+  "3102": {
+    "CharGroupId": 3102,
+    "TemplateRuleId": {
+      "103102": 1010101
+    },
+    "PhantomRuleIdList": [
+      1010201,
+      1020301
+    ]
+  },
+  "4201": {
+    "CharGroupId": 4201,
+    "TemplateRuleId": {
+      "104201": 1010101
+    },
+    "PhantomRuleIdList": [
+      1010201,
+      1020301
+    ]
+  },
+  "5101": {
+    "CharGroupId": 5101,
+    "TemplateRuleId": {
+      "105101": 1010101
+    },
+    "PhantomRuleIdList": {
+      "102401": 1010201,
+      "103102": 1020301
+    }
+  },
+  "5301": {
+    "CharGroupId": 5301,
+    "TemplateRuleId": {
+      "105301": 1010101
+    },
+    "PhantomRuleIdList": [
+      1010201,
+      1020301
+    ]
+  },
+  "9999": {
+    "CharGroupId": 9999,
+    "TemplateRuleId": [
+      1010101
+    ],
+    "PhantomRuleIdList": {
+      "102101": 1010202,
+      "105301": 1010103
+    }
+  }
+}

@@ -1,0 +1,295 @@
+{
+  "30001": {
+    "DungeonId": 30001,
+    "FirstRandomId": 10401,
+    "ExcavationRandomId": 10405,
+    "Excavation": [
+      {
+        "ExcavationMechId": 49001,
+        "MonsterSpawnId": 10401,
+        "Weight": 4
+      },
+      [
+        "ExcavationMechId = 49002",
+        "MonsterSpawnId = 10402",
+        "Weight = 3"
+      ],
+      [
+        "ExcavationMechId = 49003",
+        "MonsterSpawnId = 10403",
+        "Weight = 3"
+      ]
+    ],
+    "ExcavationItemId": 2009,
+    "CompleteRewardNum": 2,
+    "TreasureMonsterId": 9500001,
+    "TreasureMonsterSpawnProbability": [
+      0.7,
+      0.2
+    ],
+    "ButcherMonsterId": 8501002,
+    "ButcherMonsterSpawnProbability": [
+      0.7,
+      0.2
+    ],
+    "RoundInterval": 5,
+    "MultiDepleteRate": 3,
+    "BatteryFullEventCD": 30
+  },
+  "90201": {
+    "DungeonId": 90201,
+    "FirstRandomId": 10401,
+    "ExcavationRandomId": 10405,
+    "Excavation": [
+      {
+        "ExcavationMechId": 49001,
+        "MonsterSpawnId": 10401,
+        "Weight": 10
+      },
+      [
+        "ExcavationMechId = 49002",
+        "MonsterSpawnId = 10402",
+        "Weight = 0"
+      ],
+      [
+        "ExcavationMechId = 49003",
+        "MonsterSpawnId = 10403",
+        "Weight = 0"
+      ]
+    ],
+    "ExcavationItemId": 2009,
+    "CompleteRewardNum": 2,
+    "TreasureMonsterId": 9500001,
+    "TreasureMonsterSpawnProbability": [
+      0.7,
+      0.2
+    ],
+    "ButcherMonsterId": 8501002,
+    "ButcherMonsterSpawnProbability": [
+      0,
+      0
+    ],
+    "RoundInterval": 5,
+    "MultiDepleteRate": 3,
+    "BatteryFullEventCD": 30
+  },
+  "90202": {
+    "DungeonId": 90202,
+    "FirstRandomId": 10401,
+    "ExcavationRandomId": 10405,
+    "Excavation": [
+      {
+        "ExcavationMechId": 49001,
+        "MonsterSpawnId": 10401,
+        "Weight": 5
+      },
+      {
+        "ExcavationMechId": 49002,
+        "MonsterSpawnId": 10402,
+        "Weight": 5
+      },
+      [
+        "ExcavationMechId = 49003",
+        "MonsterSpawnId = 10403",
+        "Weight = 0"
+      ]
+    ],
+    "ExcavationItemId": 2009,
+    "CompleteRewardNum": 2,
+    "TreasureMonsterId": 9500001,
+    "TreasureMonsterSpawnProbability": [
+      0.7,
+      0.2
+    ],
+    "ButcherMonsterId": 8501002,
+    "ButcherMonsterSpawnProbability": [
+      0,
+      0
+    ],
+    "RoundInterval": 5,
+    "MultiDepleteRate": 3,
+    "BatteryFullEventCD": 30
+  },
+  "90203": {
+    "DungeonId": 90203,
+    "FirstRandomId": 10401,
+    "ExcavationRandomId": 10405,
+    "Excavation": [
+      {
+        "ExcavationMechId": 49001,
+        "MonsterSpawnId": 10401,
+        "Weight": 2
+      },
+      {
+        "ExcavationMechId": 49002,
+        "MonsterSpawnId": 10402,
+        "Weight": 6
+      },
+      [
+        "ExcavationMechId = 49003",
+        "MonsterSpawnId = 10403",
+        "Weight = 2"
+      ]
+    ],
+    "ExcavationItemId": 2009,
+    "CompleteRewardNum": 2,
+    "TreasureMonsterId": 9500001,
+    "TreasureMonsterSpawnProbability": [
+      0.7,
+      0.2
+    ],
+    "ButcherMonsterId": 8501002,
+    "ButcherMonsterSpawnProbability": {},
+    "RoundInterval": 5,
+    "MultiDepleteRate": 3,
+    "BatteryFullEventCD": 30
+  },
+  "90204": {
+    "DungeonId": 90204,
+    "FirstRandomId": 10401,
+    "ExcavationRandomId": 10405,
+    "Excavation": [
+      [
+        "ExcavationMechId = 49001",
+        "MonsterSpawnId = 10401",
+        "Weight = 0"
+      ],
+      {
+        "ExcavationMechId": 49002,
+        "MonsterSpawnId": 10402,
+        "Weight": 8
+      },
+      [
+        "ExcavationMechId = 49003",
+        "MonsterSpawnId = 10403",
+        "Weight = 2"
+      ]
+    ],
+    "ExcavationItemId": 2009,
+    "CompleteRewardNum": 2,
+    "TreasureMonsterId": 9500001,
+    "TreasureMonsterSpawnProbability": [
+      0.7,
+      0.2
+    ],
+    "ButcherMonsterId": 8501002,
+    "ButcherMonsterSpawnProbability": [
+      0.6,
+      0.2
+    ],
+    "RoundInterval": 5,
+    "MultiDepleteRate": 3,
+    "BatteryFullEventCD": 30
+  },
+  "90205": {
+    "DungeonId": 90205,
+    "FirstRandomId": 10401,
+    "ExcavationRandomId": 10405,
+    "Excavation": [
+      [
+        "ExcavationMechId = 49001",
+        "MonsterSpawnId = 10401",
+        "Weight = 0"
+      ],
+      {
+        "ExcavationMechId": 49002,
+        "MonsterSpawnId": 10402,
+        "Weight": 7
+      },
+      [
+        "ExcavationMechId = 49003",
+        "MonsterSpawnId = 10403",
+        "Weight = 3"
+      ]
+    ],
+    "ExcavationItemId": 2009,
+    "CompleteRewardNum": 2,
+    "TreasureMonsterId": 9500001,
+    "TreasureMonsterSpawnProbability": [
+      0.7,
+      0.2
+    ],
+    "ButcherMonsterId": 8501002,
+    "ButcherMonsterSpawnProbability": [
+      0.6,
+      0.2
+    ],
+    "RoundInterval": 5,
+    "MultiDepleteRate": 3,
+    "BatteryFullEventCD": 30
+  },
+  "90206": {
+    "DungeonId": 90206,
+    "FirstRandomId": 10401,
+    "ExcavationRandomId": 10405,
+    "Excavation": [
+      [
+        "ExcavationMechId = 49001",
+        "MonsterSpawnId = 10401",
+        "Weight = 0"
+      ],
+      [
+        "ExcavationMechId = 49002",
+        "MonsterSpawnId = 10402",
+        "Weight = 3"
+      ],
+      {
+        "ExcavationMechId": 49003,
+        "MonsterSpawnId": 10403,
+        "Weight": 7
+      }
+    ],
+    "ExcavationItemId": 2009,
+    "CompleteRewardNum": 2,
+    "TreasureMonsterId": 9500001,
+    "TreasureMonsterSpawnProbability": [
+      0.7,
+      0.2
+    ],
+    "ButcherMonsterId": 8501002,
+    "ButcherMonsterSpawnProbability": [
+      0.6,
+      0.2
+    ],
+    "RoundInterval": 5,
+    "MultiDepleteRate": 3,
+    "BatteryFullEventCD": 30
+  },
+  "90207": {
+    "DungeonId": 90207,
+    "FirstRandomId": 10401,
+    "ExcavationRandomId": 10405,
+    "Excavation": [
+      [
+        "ExcavationMechId = 49001",
+        "MonsterSpawnId = 10401",
+        "Weight = 0"
+      ],
+      [
+        "ExcavationMechId = 49002",
+        "MonsterSpawnId = 10402",
+        "Weight = 0"
+      ],
+      {
+        "ExcavationMechId": 49003,
+        "MonsterSpawnId": 10403,
+        "Weight": 10
+      }
+    ],
+    "ExcavationItemId": 2009,
+    "CompleteRewardNum": 2,
+    "TreasureMonsterId": 9500001,
+    "TreasureMonsterSpawnProbability": [
+      0.7,
+      0.2
+    ],
+    "ButcherMonsterId": 8501002,
+    "ButcherMonsterSpawnProbability": [
+      0.6,
+      0.2
+    ],
+    "RoundInterval": 5,
+    "MultiDepleteRate": 3,
+    "BatteryFullEventCD": 30
+  }
+}

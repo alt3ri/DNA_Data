@@ -1,0 +1,510 @@
+{
+  "SurvivalValue": {
+    "ConstantName": "SurvivalValue",
+    "ConstantValue": 100
+  },
+  "SurvivalCostRate": {
+    "ConstantName": "SurvivalCostRate",
+    "ConstantValue": 1.5
+  },
+  "BigSurvivalMechanism": {
+    "ConstantName": "BigSurvivalMechanism",
+    "ConstantValue": 15
+  },
+  "SurvivalValueChange": {
+    "ConstantName": "SurvivalValueChange",
+    "ConstantValue": 10
+  },
+  "SurvivalProRadius": {
+    "ConstantName": "SurvivalProRadius",
+    "ConstantValue": 7000
+  },
+  "SurvivalProGuideRadius": {
+    "ConstantName": "SurvivalProGuideRadius",
+    "ConstantValue": 1000
+  },
+  "LeaveBuffTime": {
+    "ConstantName": "LeaveBuffTime",
+    "ConstantValue": 3
+  },
+  "SurvivalProToastTime": {
+    "ConstantName": "SurvivalProToastTime",
+    "ConstantValue": 30
+  },
+  "HijackToastTime": {
+    "ConstantName": "HijackToastTime",
+    "ConstantValue": 10
+  },
+  "MaxMonsterDeadOut": {
+    "ConstantName": "MaxMonsterDeadOut",
+    "ConstantValue": 3
+  },
+  "WKSelfExpDis": {
+    "ConstantName": "WKSelfExpDis",
+    "ConstantValue": 0.5
+  },
+  "WKCharExpDis": {
+    "ConstantName": "WKCharExpDis",
+    "ConstantValue": 0.375
+  },
+  "WKOtherExpDis": {
+    "ConstantName": "WKOtherExpDis",
+    "ConstantValue": 0.125
+  },
+  "CKCharExpDis": {
+    "ConstantName": "CKCharExpDis",
+    "ConstantValue": 0.75
+  },
+  "CKMeleeExpDis": {
+    "ConstantName": "CKMeleeExpDis",
+    "ConstantValue": 0.125
+  },
+  "CKRangedExpDis": {
+    "ConstantName": "CKRangedExpDis",
+    "ConstantValue": 0.125
+  },
+  "TKCharExpDis": {
+    "ConstantName": "TKCharExpDis",
+    "ConstantValue": 0.333
+  },
+  "TKMeleeExpDis": {
+    "ConstantName": "TKMeleeExpDis",
+    "ConstantValue": 0.333
+  },
+  "TKRangedExpDis": {
+    "ConstantName": "TKRangedExpDis",
+    "ConstantValue": 0.333
+  },
+  "ExcavMaxNum": {
+    "ConstantName": "ExcavMaxNum",
+    "ConstantValue": 4
+  },
+  "BatteryEnergy": {
+    "ConstantName": "BatteryEnergy",
+    "ConstantValue": 20
+  },
+  "DefenceWaveInterval": {
+    "ConstantName": "DefenceWaveInterval",
+    "ConstantValue": 5
+  },
+  "ExterminateGuideInterval": {
+    "ConstantName": "ExterminateGuideInterval",
+    "ConstantValue": 5
+  },
+  "DungeonVoteInterval": {
+    "ConstantName": "DungeonVoteInterval",
+    "ConstantValue": 15
+  },
+  "VoteReadyCountTime": {
+    "ConstantName": "VoteReadyCountTime",
+    "ConstantValue": 4
+  },
+  "MinExtraFixVitamin": {
+    "ConstantName": "MinExtraFixVitamin",
+    "ConstantValue": 30
+  },
+  "BatteMapMonNum": {
+    "ConstantName": "BatteMapMonNum",
+    "ConstantValue": 10
+  },
+  "BatteMapMonDis": {
+    "ConstantName": "BatteMapMonDis",
+    "ConstantValue": 3000
+  },
+  "AccelerateCostType": {
+    "ConstantName": "AccelerateCostType",
+    "ConstantValue": 1002
+  },
+  "AccelerateCostNum": {
+    "ConstantName": "AccelerateCostNum",
+    "ConstantValue": 1
+  },
+  "AccelerateCostMax": {
+    "ConstantName": "AccelerateCostMax",
+    "ConstantValue": 24
+  },
+  "CharCardLevelMax": {
+    "ConstantName": "CharCardLevelMax",
+    "ConstantValue": 6
+  },
+  "ReconnectTimeout": {
+    "ConstantName": "ReconnectTimeout",
+    "ConstantValue": 30
+  },
+  "SurviveProStageTime": {
+    "ConstantName": "SurviveProStageTime",
+    "ConstantValue": 180
+  },
+  "SurviveStageTime": {
+    "ConstantName": "SurviveStageTime",
+    "ConstantValue": 180
+  },
+  "TotalReconnectTimeout": {
+    "ConstantName": "TotalReconnectTimeout",
+    "ConstantValue": 60
+  },
+  "GameModeAlertCD": {
+    "ConstantName": "GameModeAlertCD",
+    "ConstantValue": 30
+  },
+  "AlertUIDuration": {
+    "ConstantName": "AlertUIDuration",
+    "ConstantValue": 2
+  },
+  "ImressionMax": {
+    "ConstantName": "ImressionMax",
+    "ConstantValue": 100
+  },
+  "DungeonCostExp": {
+    "ConstantName": "DungeonCostExp",
+    "ConstantValue": 10
+  },
+  "BossRewardRefresh": {
+    "ConstantName": "BossRewardRefresh",
+    "ConstantValue": 50
+  },
+  "GachaRecordLimit": {
+    "ConstantName": "GachaRecordLimit",
+    "ConstantValue": 300
+  },
+  "GuideGachaId": {
+    "ConstantName": "GuideGachaId",
+    "ConstantValue": 9998
+  },
+  "MailMaxSave": {
+    "ConstantName": "MailMaxSave",
+    "ConstantValue": 99
+  },
+  "StarMailMaxSave": {
+    "ConstantName": "StarMailMaxSave",
+    "ConstantValue": 10
+  },
+  "HaveCostMax": {
+    "ConstantName": "HaveCostMax",
+    "ConstantValue": 999
+  },
+  "CostRecovery": {
+    "ConstantName": "CostRecovery",
+    "ConstantValue": 6
+  },
+  "CostRecoveryMax": {
+    "ConstantName": "CostRecoveryMax",
+    "ConstantValue": 240
+  },
+  "DeliveryBlackCurtainTime": {
+    "ConstantName": "DeliveryBlackCurtainTime",
+    "ConstantValue": 1
+  },
+  "MaxMapMarkIcon": {
+    "ConstantName": "MaxMapMarkIcon",
+    "ConstantValue": 99
+  },
+  "BreakLimitLevel_1": {
+    "ConstantName": "BreakLimitLevel_1",
+    "ConstantValue": 10
+  },
+  "BreakLimitLevel_2": {
+    "ConstantName": "BreakLimitLevel_2",
+    "ConstantValue": 20
+  },
+  "BreakLimitLevel_3": {
+    "ConstantName": "BreakLimitLevel_3",
+    "ConstantValue": 30
+  },
+  "BreakLimitLevel_4": {
+    "ConstantName": "BreakLimitLevel_4",
+    "ConstantValue": 40
+  },
+  "BreakLimitLevel_5": {
+    "ConstantName": "BreakLimitLevel_5",
+    "ConstantValue": 50
+  },
+  "BreakLimitLevel_6": {
+    "ConstantName": "BreakLimitLevel_6",
+    "ConstantValue": 55
+  },
+  "CharMaxCardLevelNeedNum": {
+    "ConstantName": "CharMaxCardLevelNeedNum",
+    "ConstantValue": 7
+  },
+  "MaxModPolarityType": {
+    "ConstantName": "MaxModPolarityType",
+    "ConstantValue": 9
+  },
+  "PolarizationCost_201": {
+    "ConstantName": "PolarizationCost_201",
+    "ConstantValue": 1
+  },
+  "PolarizationCost_202": {
+    "ConstantName": "PolarizationCost_202",
+    "ConstantValue": 1
+  },
+  "PerfectModPolarity": {
+    "ConstantName": "PerfectModPolarity",
+    "ConstantValue": 0.5
+  },
+  "WrongModPolarity": {
+    "ConstantName": "WrongModPolarity",
+    "ConstantValue": 1.25
+  },
+  "ModSaleCutoff": {
+    "ConstantName": "ModSaleCutoff",
+    "ConstantValue": 0.8
+  },
+  "ActionPointRecoveryItemM": {
+    "ConstantName": "ActionPointRecoveryItemM",
+    "ConstantValue": 60
+  },
+  "ActionPointRecoveryPurchase": {
+    "ConstantName": "ActionPointRecoveryPurchase",
+    "ConstantValue": 60
+  },
+  "BackToHomeBaseCondition": {
+    "ConstantName": "BackToHomeBaseCondition",
+    "ConstantValue": 25
+  },
+  "EXMapUnlockCondition": {
+    "ConstantName": "EXMapUnlockCondition",
+    "ConstantValue": 99
+  },
+  "PlayerNicknameCD": {
+    "ConstantName": "PlayerNicknameCD",
+    "ConstantValue": 90
+  },
+  "DungeonRecoverTimeout": {
+    "ConstantName": "DungeonRecoverTimeout",
+    "ConstantValue": 5
+  },
+  "ArmoryCameraX": {
+    "ConstantName": "ArmoryCameraX",
+    "ConstantValue": 0
+  },
+  "ArmoryCameraY": {
+    "ConstantName": "ArmoryCameraY",
+    "ConstantValue": -200
+  },
+  "ArmoryCameraZ": {
+    "ConstantName": "ArmoryCameraZ",
+    "ConstantValue": 10
+  },
+  "ArmoryExitX": {
+    "ConstantName": "ArmoryExitX",
+    "ConstantValue": 0
+  },
+  "ArmoryExitY": {
+    "ConstantName": "ArmoryExitY",
+    "ConstantValue": 0
+  },
+  "ArmoryExitZ": {
+    "ConstantName": "ArmoryExitZ",
+    "ConstantValue": 0
+  },
+  "ArmoryExitTime": {
+    "ConstantName": "ArmoryExitTime",
+    "ConstantValue": 0.1
+  },
+  "UseLocalSystemNotice": {
+    "ConstantName": "UseLocalSystemNotice",
+    "ConstantValue": 0
+  },
+  "ModCostChangePlaySpeed": {
+    "ConstantName": "ModCostChangePlaySpeed",
+    "ConstantValue": 1.5
+  },
+  "GachaLimitDay": {
+    "ConstantName": "GachaLimitDay",
+    "ConstantValue": -1
+  },
+  "ForgeTargetMaxNum": {
+    "ConstantName": "ForgeTargetMaxNum",
+    "ConstantValue": 5
+  },
+  "PlayerMatchingStatus": {
+    "ConstantName": "PlayerMatchingStatus",
+    "ConstantValue": 3
+  },
+  "PlayerEnterMultiDungeonStatus": {
+    "ConstantName": "PlayerEnterMultiDungeonStatus",
+    "ConstantValue": 11
+  },
+  "FriendHoldMax": {
+    "ConstantName": "FriendHoldMax",
+    "ConstantValue": 100
+  },
+  "StarFriendHoldMax": {
+    "ConstantName": "StarFriendHoldMax",
+    "ConstantValue": 10
+  },
+  "FriendApplySendMax": {
+    "ConstantName": "FriendApplySendMax",
+    "ConstantValue": 10
+  },
+  "FriendApplyRecieveMax": {
+    "ConstantName": "FriendApplyRecieveMax",
+    "ConstantValue": 10
+  },
+  "FriendApplyDuration": {
+    "ConstantName": "FriendApplyDuration",
+    "ConstantValue": 10
+  },
+  "FriendBlockMax": {
+    "ConstantName": "FriendBlockMax",
+    "ConstantValue": 50
+  },
+  "FriendOfflineDayMax": {
+    "ConstantName": "FriendOfflineDayMax",
+    "ConstantValue": 30
+  },
+  "RecommandFriendCD": {
+    "ConstantName": "RecommandFriendCD",
+    "ConstantValue": 10
+  },
+  "NicknameMaxLen": {
+    "ConstantName": "NicknameMaxLen",
+    "ConstantValue": 12
+  },
+  "SignatureMaxLen": {
+    "ConstantName": "SignatureMaxLen",
+    "ConstantValue": 40
+  },
+  "FriendReqMaxLen": {
+    "ConstantName": "FriendReqMaxLen",
+    "ConstantValue": 15
+  },
+  "FriendRecommendNum": {
+    "ConstantName": "FriendRecommendNum",
+    "ConstantValue": 10
+  },
+  "DynQuestGCD": {
+    "ConstantName": "DynQuestGCD",
+    "ConstantValue": 30
+  },
+  "DynTriggerFailTime": {
+    "ConstantName": "DynTriggerFailTime",
+    "ConstantValue": 5
+  },
+  "DynServerLimitTime": {
+    "ConstantName": "DynServerLimitTime",
+    "ConstantValue": 3600
+  },
+  "DynLimitCount": {
+    "ConstantName": "DynLimitCount",
+    "ConstantValue": 5
+  },
+  "TrainingPlayerRecoveryTime": {
+    "ConstantName": "TrainingPlayerRecoveryTime",
+    "ConstantValue": 4
+  },
+  "ChatMsgCountInBattleMain": {
+    "ConstantName": "ChatMsgCountInBattleMain",
+    "ConstantValue": 3
+  },
+  "MaxMessageCount": {
+    "ConstantName": "MaxMessageCount",
+    "ConstantValue": 50
+  },
+  "ChatTimeTipInterval": {
+    "ConstantName": "ChatTimeTipInterval",
+    "ConstantValue": 120
+  },
+  "ChatQuickMsgMaxLen": {
+    "ConstantName": "ChatQuickMsgMaxLen",
+    "ConstantValue": 20
+  },
+  "ChatMsgMaxLen": {
+    "ConstantName": "ChatMsgMaxLen",
+    "ConstantValue": 80
+  },
+  "ChatMessageRemain": {
+    "ConstantName": "ChatMessageRemain",
+    "ConstantValue": 5
+  },
+  "SpecialQuestBlackDUMax": {
+    "ConstantName": "SpecialQuestBlackDUMax",
+    "ConstantValue": 5
+  },
+  "RescueCountdownPoint": {
+    "ConstantName": "RescueCountdownPoint",
+    "ConstantValue": 20
+  },
+  "CaptureCountdownPoint": {
+    "ConstantName": "CaptureCountdownPoint",
+    "ConstantValue": 10
+  },
+  "ExploreCountdownPoint": {
+    "ConstantName": "ExploreCountdownPoint",
+    "ConstantValue": 10
+  },
+  "TeamInviteMax": {
+    "ConstantName": "TeamInviteMax",
+    "ConstantValue": 3
+  },
+  "TeamInviteStayTime": {
+    "ConstantName": "TeamInviteStayTime",
+    "ConstantValue": 15
+  },
+  "TeamApplyMax": {
+    "ConstantName": "TeamApplyMax",
+    "ConstantValue": 5
+  },
+  "InviteRejectTime": {
+    "ConstantName": "InviteRejectTime",
+    "ConstantValue": 5
+  },
+  "MaxTeamMember": {
+    "ConstantName": "MaxTeamMember ",
+    "ConstantValue": 4
+  },
+  "WeaponColorPart": {
+    "ConstantName": "WeaponColorPart",
+    "ConstantValue": 4
+  },
+  "WeaponDefaultColor": {
+    "ConstantName": "WeaponDefaultColor",
+    "ConstantValue": -1
+  },
+  "PickupNodeProtectDistance": {
+    "ConstantName": "PickupNodeProtectDistance",
+    "ConstantValue": 300
+  },
+  "PhotoCameraHorizontalAdjustSpeed": {
+    "ConstantName": "PhotoCameraHorizontalAdjustSpeed",
+    "ConstantValue": 100
+  },
+  "PhotoCameraVerticalAdjustSpeed": {
+    "ConstantName": "PhotoCameraVerticalAdjustSpeed",
+    "ConstantValue": 100
+  },
+  "ItemIDPetFoodLV1": {
+    "ConstantName": "ItemIDPetFoodLV1",
+    "ConstantValue": 3002
+  },
+  "ItemIDPetFoodLV2": {
+    "ConstantName": "ItemIDPetFoodLV2",
+    "ConstantValue": 3003
+  },
+  "PetDefenceMonsterNum": {
+    "ConstantName": "PetDefenceMonsterNum",
+    "ConstantValue": 15
+  },
+  "QuestIDPetCaptureMustSuccess": {
+    "ConstantName": "QuestIDPetCaptureMustSuccess",
+    "ConstantValue": 10020224
+  },
+  "AdvancedEmotionId": {
+    "ConstantName": "AdvancedEmotionId",
+    "ConstantValue": 19000
+  },
+  "TaskWarningLevel": {
+    "ConstantName": "TaskWarningLevel",
+    "ConstantValue": 10
+  },
+  "EntertainmentCameraBlendSeconds": {
+    "ConstantName": "EntertainmentCameraBlendSeconds",
+    "ConstantValue": 0.3
+  },
+  "FrameAddBuffInDungeon": {
+    "ConstantName": "FrameAddBuffInDungeon",
+    "ConstantValue": 1
+  }
+}

@@ -1,0 +1,388 @@
+{
+  "CrouchWalkSpeed": {
+    "ParamentName": "CrouchWalkSpeed",
+    "ParamentValue": {}
+  },
+  "NormalWalkSpeed": {
+    "ParamentName": "NormalWalkSpeed",
+    "ParamentValue": [
+      500
+    ]
+  },
+  "OnGround": {
+    "ParamentName": "OnGround",
+    "ParamentValue": [
+      0,
+      540,
+      0
+    ]
+  },
+  "Flying": {
+    "ParamentName": "Flying",
+    "ParamentValue": [
+      0,
+      540,
+      0
+    ]
+  },
+  "InAir": {
+    "ParamentName": "InAir",
+    "ParamentValue": {}
+  },
+  "BulletJump": {
+    "ParamentName": "BulletJump",
+    "ParamentValue": {}
+  },
+  "Skill": {
+    "ParamentName": "Skill",
+    "ParamentValue": [
+      0,
+      1800,
+      0
+    ]
+  },
+  "Shooting": {
+    "ParamentName": "Shooting",
+    "ParamentValue": {}
+  },
+  "Reload": {
+    "ParamentName": "Reload",
+    "ParamentValue": [
+      0,
+      540,
+      0
+    ]
+  },
+  "SlideStart": {
+    "ParamentName": "SlideStart",
+    "ParamentValue": [
+      0,
+      3600,
+      0
+    ]
+  },
+  "SecondJumpStart": {
+    "ParamentName": "SecondJumpStart",
+    "ParamentValue": [
+      0,
+      1800,
+      0
+    ]
+  },
+  "AvoidStart": {
+    "ParamentName": "AvoidStart",
+    "ParamentValue": [
+      0,
+      3600,
+      0
+    ]
+  },
+  "MinPercentToHit": {
+    "ParamentName": "MinPercentToHit",
+    "ParamentValue": [
+      0.1
+    ]
+  },
+  "BoneHitCD": {
+    "ParamentName": "BoneHitCD",
+    "ParamentValue": {}
+  },
+  "LightHitTime": {
+    "ParamentName": "LightHitTime",
+    "ParamentValue": [
+      1
+    ]
+  },
+  "LightHitRangedTime": {
+    "ParamentName": "LightHitRangedTime",
+    "ParamentValue": [
+      1
+    ]
+  },
+  "HeavyHitCD": {
+    "ParamentName": "HeavyHitCD",
+    "ParamentValue": [
+      3
+    ]
+  },
+  "HeavyHitTime": {
+    "ParamentName": "HeavyHitTime",
+    "ParamentValue": {}
+  },
+  "HitRepelTime": {
+    "ParamentName": "HitRepelTime",
+    "ParamentValue": [
+      3
+    ]
+  },
+  "HitRepelCD": {
+    "ParamentName": "HitRepelCD",
+    "ParamentValue": [
+      3
+    ]
+  },
+  "HitFlyCD": {
+    "ParamentName": "HitFlyCD",
+    "ParamentValue": [
+      0.1
+    ]
+  },
+  "LandHeavyTime": {
+    "ParamentName": "LandHeavyTime",
+    "ParamentValue": [
+      1
+    ]
+  },
+  "FirstJumpZVelocity": {
+    "ParamentName": "FirstJumpZVelocity",
+    "ParamentValue": [
+      1000
+    ]
+  },
+  "SecondJumpZVelocity": {
+    "ParamentName": "SecondJumpZVelocity",
+    "ParamentValue": {}
+  },
+  "MaxInheritSpeed": {
+    "ParamentName": "MaxInheritSpeed",
+    "ParamentValue": [
+      900
+    ]
+  },
+  "SecondJumpCold": {
+    "ParamentName": "SecondJumpCold",
+    "ParamentValue": {}
+  },
+  "BulletPrepareJumpZVelocity": {
+    "ParamentName": "BulletPrepareJumpZVelocity",
+    "ParamentValue": {}
+  },
+  "BulletPrepareJumpDashVelocity": {
+    "ParamentName": "BulletPrepareJumpDashVelocity",
+    "ParamentValue": [
+      900
+    ]
+  },
+  "BulletJumpPreparedTime": {
+    "ParamentName": "BulletJumpPreparedTime",
+    "ParamentValue": [
+      0.1
+    ]
+  },
+  "BulletJumpZVelocity": {
+    "ParamentName": "BulletJumpZVelocity",
+    "ParamentValue": [
+      500
+    ]
+  },
+  "BulletJumpDashVelocity": {
+    "ParamentName": "BulletJumpDashVelocity",
+    "ParamentValue": [
+      900
+    ]
+  },
+  "BulletActionEndTime": {
+    "ParamentName": "BulletActionEndTime",
+    "ParamentValue": {}
+  },
+  "BulletJumpResetCapTime": {
+    "ParamentName": "BulletJumpResetCapTime",
+    "ParamentValue": [
+      0.6
+    ]
+  },
+  "BulletJumpRecoverGravityTime": {
+    "ParamentName": "BulletJumpRecoverGravityTime",
+    "ParamentValue": {}
+  },
+  "BulletJumpProtectAngle": {
+    "ParamentName": "BulletJumpProtectAngle",
+    "ParamentValue": [
+      20
+    ]
+  },
+  "SlideSpeed": {
+    "ParamentName": "SlideSpeed",
+    "ParamentValue": [
+      900
+    ]
+  },
+  "SlideSpeedInAir": {
+    "ParamentName": "SlideSpeedInAir",
+    "ParamentValue": [
+      900
+    ]
+  },
+  "SlideMaintainTime": {
+    "ParamentName": "SlideMaintainTime",
+    "ParamentValue": [
+      0
+    ]
+  },
+  "SlideGroundFriction": {
+    "ParamentName": "SlideGroundFriction",
+    "ParamentValue": [
+      0.6
+    ]
+  },
+  "SlideLaunchDelay": {
+    "ParamentName": "SlideLaunchDelay",
+    "ParamentValue": [
+      0
+    ]
+  },
+  "SlideInAirFriction": {
+    "ParamentName": "SlideInAirFriction",
+    "ParamentValue": [
+      0
+    ]
+  },
+  "StopSlideTime": {
+    "ParamentName": "StopSlideTime",
+    "ParamentValue": [
+      1
+    ]
+  },
+  "ForbidNextSlideTime": {
+    "ParamentName": "ForbidNextSlideTime",
+    "ParamentValue": [
+      0.5
+    ]
+  },
+  "SecondJumpAllowSlideTime": {
+    "ParamentName": "SecondJumpAllowSlideTime",
+    "ParamentValue": {}
+  },
+  "BulletJumpAllowSlideTime": {
+    "ParamentName": "BulletJumpAllowSlideTime",
+    "ParamentValue": {}
+  },
+  "SecondJumpAllowShootTime": {
+    "ParamentName": "SecondJumpAllowShootTime",
+    "ParamentValue": [
+      0.2
+    ]
+  },
+  "BulletJumpAllowShootTime": {
+    "ParamentName": "BulletJumpAllowShootTime",
+    "ParamentValue": [
+      0.4
+    ]
+  },
+  "CanWallJumpAngle": {
+    "ParamentName": "CanWallJumpAngle",
+    "ParamentValue": {}
+  },
+  "WallJumpXYSpeed": {
+    "ParamentName": "WallJumpXYSpeed",
+    "ParamentValue": {}
+  },
+  "WallJumpZSpeed": {
+    "ParamentName": "WallJumpZSpeed",
+    "ParamentValue": [
+      1000
+    ]
+  },
+  "MaxWallJumpCount": {
+    "ParamentName": "MaxWallJumpCount",
+    "ParamentValue": [
+      1000
+    ]
+  },
+  "WallJumpCold": {
+    "ParamentName": "WallJumpCold",
+    "ParamentValue": [
+      0.4
+    ]
+  },
+  "WallJumpColdDirection": {
+    "ParamentName": "WallJumpColdDirection",
+    "ParamentValue": [
+      0.2
+    ]
+  },
+  "AvoidSpeed": {
+    "ParamentName": "AvoidSpeed",
+    "ParamentValue": {}
+  },
+  "ForbidNextAvoidTime": {
+    "ParamentName": "ForbidNextAvoidTime",
+    "ParamentValue": [
+      0.6
+    ]
+  },
+  "AvoidLaunchDelay": {
+    "ParamentName": "AvoidLaunchDelay",
+    "ParamentValue": [
+      0.1
+    ]
+  },
+  "AvoidMaintainTime": {
+    "ParamentName": "AvoidMaintainTime",
+    "ParamentValue": [
+      1
+    ]
+  },
+  "StopAvoidTime": {
+    "ParamentName": "StopAvoidTime",
+    "ParamentValue": [
+      1
+    ]
+  },
+  "InvincibleAvoidTime": {
+    "ParamentName": "InvincibleAvoidTime",
+    "ParamentValue": [
+      0.5
+    ]
+  },
+  "HitFlyXYZ": {
+    "ParamentName": "HitFlyXYZ",
+    "ParamentValue": {}
+  },
+  "HitAddtiveDuration": {
+    "ParamentName": "HitAddtiveDuration",
+    "ParamentValue": {}
+  },
+  "HitAddtiveCoolDown": {
+    "ParamentName": "HitAddtiveCoolDown",
+    "ParamentValue": [
+      0.15
+    ]
+  },
+  "MaxDyingTime": {
+    "ParamentName": "MaxDyingTime",
+    "ParamentValue": [
+      20
+    ]
+  },
+  "MaxRecoveringPlayer": {
+    "ParamentName": "MaxRecoveringPlayer",
+    "ParamentValue": [
+      3
+    ]
+  },
+  "RecoverySpeed": {
+    "ParamentName": "RecoverySpeed",
+    "ParamentValue": [
+      20
+    ]
+  },
+  "RegionRecoverySpeed": {
+    "ParamentName": "RegionRecoverySpeed",
+    "ParamentValue": {}
+  },
+  "CanRecoveryDelayTime": {
+    "ParamentName": "CanRecoveryDelayTime",
+    "ParamentValue": {}
+  },
+  "StunToIdleBlendTime": {
+    "ParamentName": "StunToIdleBlendTime",
+    "ParamentValue": [
+      0.15
+    ]
+  },
+  "FlyingDodgeSpeed": {
+    "ParamentName": "FlyingDodgeSpeed",
+    "ParamentValue": {}
+  }
+}

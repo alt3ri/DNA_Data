@@ -1,0 +1,7222 @@
+{
+  "1": {
+    "EffectId": 1,
+    "PlayLocation": {
+      "socket": "Bip001-Spine1"
+    },
+    "FXPriorityType": 40
+  },
+  "3": {
+    "EffectId": 3,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/A_Common/NS_Common_Dead.NS_Common_Dead",
+    "EffectParam": {
+      "Rotation": [
+        90,
+        0,
+        0
+      ]
+    },
+    "PlayLocation": [
+      {
+        "socket": "hit1"
+      }
+    ],
+    "FXPriorityType": 10
+  },
+  "4": {
+    "EffectId": 4,
+    "FXPriorityType": 80
+  },
+  "5": {
+    "EffectId": 5,
+    "FXPriorityType": 80
+  },
+  "6": {
+    "EffectId": 6,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Item/NS_Item_Restore.NS_Item_Restore",
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "EffectColor": {},
+    "SoundID": 21,
+    "FXPriorityType": 40
+  },
+  "7": {
+    "EffectId": 7,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Item/NS_Item_Restore.NS_Item_Restore",
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "EffectColor": {},
+    "SoundID": 22,
+    "FXPriorityType": 40
+  },
+  "11": {
+    "EffectId": 11,
+    "EffectPath": "/Game/Asset/FX/01/Hit/Hit_Blood.Hit_Blood",
+    "IsHitFX": true,
+    "FXPriorityType": 40
+  },
+  "12": {
+    "EffectId": 12,
+    "IsHitFX": true,
+    "SoundID": 1003,
+    "FXPriorityType": 40
+  },
+  "13": {
+    "EffectId": 13,
+    "EffectPath": "/Game/Asset/FX/Common/Block/Particle/NS_BlockHit.NS_BlockHit",
+    "IsHitFX": true,
+    "FXPriorityType": 45
+  },
+  "20": {
+    "EffectId": 20,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Char_BonusHit.NS_Char_BonusHit",
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "IsHitFX": true,
+    "ChangeColorByChar": true,
+    "SoundID": 115,
+    "FXPriorityType": 45
+  },
+  "21": {
+    "EffectId": 21,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Common/Player/NS_hit_char_dark.NS_hit_char_dark",
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "IsHitFX": true,
+    "FXPriorityType": 45
+  },
+  "22": {
+    "EffectId": 22,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Common/Player/NS_hit_char_fire.NS_hit_char_fire",
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "IsHitFX": true,
+    "FXPriorityType": 45
+  },
+  "23": {
+    "EffectId": 23,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Common/Player/NS_hit_char_fluid.NS_hit_char_fluid",
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "IsHitFX": true,
+    "FXPriorityType": 45
+  },
+  "24": {
+    "EffectId": 24,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Common/Player/NS_hit_char_ice.NS_hit_char_ice",
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "IsHitFX": true,
+    "FXPriorityType": 45
+  },
+  "25": {
+    "EffectId": 25,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Common/Player/NS_hit_char_physics.NS_hit_char_physics",
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "IsHitFX": true,
+    "FXPriorityType": 45
+  },
+  "26": {
+    "EffectId": 26,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Common/Player/NS_hit_char_thunder.NS_hit_char_thunder",
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "IsHitFX": true,
+    "FXPriorityType": 45
+  },
+  "31": {
+    "EffectId": 31,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Heitao/NS_Heitao_Condemned_Hit_01.NS_Heitao_Condemned_Hit_01",
+    "EffectParam": [
+      {
+        "Location": [
+          0,
+          0,
+          70
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "EffectPoint_Condemned"
+      }
+    ],
+    "SoundID": 5,
+    "FXPriorityType": 90
+  },
+  "32": {
+    "EffectId": 32,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Heitao/NS_Heitao_Condemned_Hit_02.NS_Heitao_Condemned_Hit_02",
+    "EffectParam": [
+      {
+        "Location": [
+          0,
+          0,
+          70
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "EffectPoint_Condemned"
+      }
+    ],
+    "SoundID": 32,
+    "FXPriorityType": 90
+  },
+  "33": {
+    "EffectId": 33,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Heitao/NS_Heitao_Condemned_Throns.NS_Heitao_Condemned_Throns",
+    "PlayLocation": [
+      {
+        "socket": "EffectPoint_Condemned"
+      }
+    ],
+    "FXPriorityType": 90
+  },
+  "34": {
+    "EffectId": 34,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Boss/Shijingzhe/NS_Boss_Condemn_Light.NS_Boss_Condemn_Light",
+    "PlayLocation": {
+      "socket": "Head"
+    },
+    "NotFollowRotation": true,
+    "FXPriorityType": 100
+  },
+  "41": {
+    "EffectId": 41,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Common/Player/NS_knifehit_char_dir.NS_knifehit_char_dir",
+    "IsHitFX": true,
+    "ChangeColorByChar": true,
+    "FXPriorityType": 45
+  },
+  "42": {
+    "EffectId": 42,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Common/Player/NS_gunhit_char_01.NS_gunhit_char_01",
+    "IsHitFX": true,
+    "ChangeColorByChar": true,
+    "FXPriorityType": 45
+  },
+  "43": {
+    "EffectId": 43,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Common/Player/NS_gunhit_char_02.NS_gunhit_char_02",
+    "IsHitFX": true,
+    "ChangeColorByChar": true,
+    "FXPriorityType": 45
+  },
+  "44": {
+    "EffectId": 44,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Common/Player/NS_GunHit_Char_03.NS_GunHit_Char_03",
+    "ChangeColorByChar": true,
+    "FXPriorityType": 45
+  },
+  "45": {
+    "EffectId": 45,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Bow/NS_Bow_Hit_01.NS_Bow_Hit_01",
+    "ChangeColorByChar": true,
+    "FXPriorityType": 45
+  },
+  "46": {
+    "EffectId": 46,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Bow/NS_Bow_jian.NS_Bow_jian",
+    "EffectParam": {
+      "Location": [
+        -20,
+        0,
+        0
+      ],
+      "Rotation": {}
+    },
+    "ChangeColorByChar": true,
+    "DeactiveParam": "Deadtime",
+    "DelayDeactiveTime": 10,
+    "FXPriorityType": 45
+  },
+  "51": {
+    "EffectId": 51,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Common/Scene/NS_Gun_HitGround_01.NS_Gun_HitGround_01",
+    "ChangeColorByChar": true,
+    "FXPriorityType": 45
+  },
+  "52": {
+    "EffectId": 52,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Common/Scene/NS_Gun_HitGround_02.NS_Gun_HitGround_02",
+    "ChangeColorByChar": true,
+    "FXPriorityType": 45
+  },
+  "53": {
+    "EffectId": 53,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Shotgun/NS_Shotgun_HitGround.NS_Shotgun_HitGround",
+    "ChangeColorByChar": true,
+    "FXPriorityType": 45
+  },
+  "54": {
+    "EffectId": 54,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Shotgun/Yinlang/NS_Yinlang_HitGround.NS_Yinlang_HitGround",
+    "ChangeColorByChar": true,
+    "FXPriorityType": 45
+  },
+  "61": {
+    "EffectId": 61,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Common/Scene/NS_Gun_HitGround_Water.NS_Gun_HitGround_Water",
+    "FXPriorityType": 10
+  },
+  "62": {
+    "EffectId": 62,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Common/Scene/NS_Gun_HitGround_Snow.NS_Gun_HitGround_Snow",
+    "FXPriorityType": 10
+  },
+  "63": {
+    "EffectId": 63,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Common/Scene/NS_Gun_HitGround_Sand.NS_Gun_HitGround_Sand",
+    "FXPriorityType": 10
+  },
+  "64": {
+    "EffectId": 64,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Common/Scene/NS_Gun_HitGround_Mud.NS_Gun_HitGround_Mud",
+    "FXPriorityType": 10
+  },
+  "71": {
+    "EffectId": 71,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Bow/NS_Bow_Arrow_01.NS_Bow_Arrow_01",
+    "PlayLocation": {
+      "socket": "ArrowPoint",
+      "UseWeaponBone": "main"
+    },
+    "TargetLocation": {
+      "socket": "hook_arm_r"
+    },
+    "FXPriorityType": 100
+  },
+  "90": {
+    "EffectId": 90,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/A_Common/NS_Paotai_Bullet01.NS_Paotai_Bullet01",
+    "FXPriorityType": 90
+  },
+  "91": {
+    "EffectId": 91,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/A_Common/NS_Paotai_Bullet02.NS_Paotai_Bullet02",
+    "FXPriorityType": 90
+  },
+  "92": {
+    "EffectId": 92,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/A_Common/NS_Paotai_Burst01.NS_Paotai_Burst01",
+    "SoundID": 2017,
+    "FXPriorityType": 90
+  },
+  "93": {
+    "EffectId": 93,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/A_Common/NS_Paotai_Burst02.NS_Paotai_Burst02",
+    "SoundID": 2019,
+    "FXPriorityType": 90
+  },
+  "101": {
+    "EffectId": 101,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Nvzhu_Skill01_All.NS_Nvzhu_Skill01_All",
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "DelayDestroyTime": 1.5
+  },
+  "111": {
+    "EffectId": 111,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Nvzhu/NS_Nvzhu_Beidong_Dodge.NS_Nvzhu_Beidong_Dodge",
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ]
+  },
+  "112": {
+    "EffectId": 112,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Nvzhu/NS_Nvzhu_Beidong_Dodge.NS_Nvzhu_Beidong_Dodge",
+    "EffectParam": [
+      {
+        "Rotation": [
+          0,
+          0,
+          180
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ]
+  },
+  "201": {
+    "EffectId": 201,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Scene/Common/NS_Trap_Loop.NS_Trap_Loop",
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "SoundID": 206,
+    "FXPriorityType": 98
+  },
+  "202": {
+    "EffectId": 202,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Scene/Common/NS_Trap_Die.NS_Trap_Die",
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "SoundID": 207,
+    "FXPriorityType": 98
+  },
+  "206": {
+    "EffectId": 206,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Scene/Common/NS_TreasureChest_born.NS_TreasureChest_born",
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "FXPriorityType": 55
+  },
+  "207": {
+    "EffectId": 207,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Scene/Common/NS_TreasureChest_disappear.NS_TreasureChest_disappear",
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "FXPriorityType": 55
+  },
+  "208": {
+    "EffectId": 208,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Scene/Common/NS_TreasureChest_lock.NS_TreasureChest_lock",
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "FXPriorityType": 98
+  },
+  "209": {
+    "EffectId": 209,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Scene/Common/NS_TreasureChest_unlock.NS_TreasureChest_unlock",
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "SoundID": 2003,
+    "FXPriorityType": 55
+  },
+  "210": {
+    "EffectId": 210,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Scene/Common/NS_haystack_boom.NS_haystack_boom",
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "SoundID": 2001,
+    "FXPriorityType": 55
+  },
+  "211": {
+    "EffectId": 211,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Scene/Common/NS_Treasure_Loop.NS_Treasure_Loop",
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ]
+  },
+  "212": {
+    "EffectId": 212,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Scene/Common/NS_Explore_Common_Start.NS_Explore_Common_Start",
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "FXPriorityType": 55
+  },
+  "213": {
+    "EffectId": 213,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Scene/Common/NS_Explore_Parkour_Loop.NS_Explore_Parkour_Loop",
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "FXPriorityType": 98
+  },
+  "214": {
+    "EffectId": 214,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Scene/Common/NS_Explore_parkour_Complete.NS_Explore_parkour_Complete",
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "FXPriorityType": 55
+  },
+  "215": {
+    "EffectId": 215,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Scene/Common/NS_Explore_Shoot_Loop.NS_Explore_Shoot_Loop",
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "FXPriorityType": 98
+  },
+  "216": {
+    "EffectId": 216,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Scene/Common/NS_Explore_Shoot_Complete.NS_Explore_Shoot_Complete",
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "FXPriorityType": 55
+  },
+  "217": {
+    "EffectId": 217,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Scene/Common/NS_guide_start.NS_guide_start",
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ]
+  },
+  "218": {
+    "EffectId": 218,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Scene/Common/NS_guide_into.NS_guide_into",
+    "EffectParam": {
+      "Location": {}
+    },
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "FXPriorityType": 55
+  },
+  "219": {
+    "EffectId": 219,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Scene/Common/NS_guide_die.NS_guide_die",
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ]
+  },
+  "220": {
+    "EffectId": 220,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Scene/Common/NS_TeleportPoint_unlock.NS_TeleportPoint_unlock",
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "SoundID": 204,
+    "FXPriorityType": 55
+  },
+  "221": {
+    "EffectId": 221,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Scene/Common/NS_TeleportPoint_unlock_qiu.NS_TeleportPoint_unlock_qiu",
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "FXPriorityType": 98
+  },
+  "222": {
+    "EffectId": 222,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Scene/Common/NS_TeleportPoint_unlock_dimian.NS_TeleportPoint_unlock_dimian",
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "SoundID": 205,
+    "FXPriorityType": 98
+  },
+  "223": {
+    "EffectId": 223,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Scene/Common/NS_TeleportPoint_unlock_loop.NS_TeleportPoint_unlock_loop",
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "FXPriorityType": 98
+  },
+  "224": {
+    "EffectId": 224,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Common/Player/NS_knifehit_char_normal.NS_knifehit_char_normal",
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "SoundID": 2013,
+    "FXPriorityType": 55
+  },
+  "301": {
+    "EffectId": 301,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_Appears.NS_Common_Appears",
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ]
+  },
+  "302": {
+    "EffectId": 302,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_Disappear.NS_Common_Disappear",
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ]
+  },
+  "1000": {
+    "EffectId": 1000,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_Buff.NS_Common_Buff",
+    "EffectParam": [
+      {
+        "BodyShapeOffset": [
+          "T.RT_12",
+          "T.RT_14",
+          "T.RT_16",
+          "T.RT_18"
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "TexturePath": "/Game/UI/Texture/Dynamic/Atlas/Buff/T_Buff_Common_Buff.T_Buff_Common_Buff",
+    "FXPriorityType": 70
+  },
+  "1001": {
+    "EffectId": 1001,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_Buff.NS_Common_Buff",
+    "EffectParam": [
+      {
+        "BodyShapeOffset": [
+          "T.RT_12",
+          "T.RT_14",
+          "T.RT_16",
+          "T.RT_18"
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "TexturePath": "/Game/UI/Texture/Dynamic/Atlas/Buff/T_Buff_Atk_Up.T_Buff_Atk_Up",
+    "FXPriorityType": 70
+  },
+  "1002": {
+    "EffectId": 1002,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_Buff.NS_Common_Buff",
+    "EffectParam": [
+      {
+        "BodyShapeOffset": [
+          "T.RT_12",
+          "T.RT_14",
+          "T.RT_16",
+          "T.RT_18"
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "TexturePath": "/Game/UI/Texture/Dynamic/Atlas/Buff/T_Buff_Damage_Up.T_Buff_Damage_Up",
+    "FXPriorityType": 70
+  },
+  "1003": {
+    "EffectId": 1003,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_Buff.NS_Common_Buff",
+    "EffectParam": [
+      {
+        "BodyShapeOffset": [
+          "T.RT_12",
+          "T.RT_14",
+          "T.RT_16",
+          "T.RT_18"
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "TexturePath": "/Game/UI/Texture/Dynamic/Atlas/Buff/T_Buff_Skill_Inten_Up.T_Buff_Skill_Inten_Up",
+    "FXPriorityType": 70
+  },
+  "1004": {
+    "EffectId": 1004,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_Buff.NS_Common_Buff",
+    "EffectParam": [
+      {
+        "BodyShapeOffset": [
+          "T.RT_12",
+          "T.RT_14",
+          "T.RT_16",
+          "T.RT_18"
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "TexturePath": "/Game/UI/Texture/Dynamic/Atlas/Buff/T_Buff_Skill_Effi_Up.T_Buff_Skill_Effi_Up",
+    "FXPriorityType": 70
+  },
+  "1005": {
+    "EffectId": 1005,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_Buff.NS_Common_Buff",
+    "EffectParam": [
+      {
+        "BodyShapeOffset": [
+          "T.RT_12",
+          "T.RT_14",
+          "T.RT_16",
+          "T.RT_18"
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "TexturePath": "/Game/UI/Texture/Dynamic/Atlas/Buff/T_Buff_Skill_Range_Up.T_Buff_Skill_Range_Up",
+    "FXPriorityType": 70
+  },
+  "1006": {
+    "EffectId": 1006,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_Buff.NS_Common_Buff",
+    "EffectParam": [
+      {
+        "BodyShapeOffset": [
+          "T.RT_12",
+          "T.RT_14",
+          "T.RT_16",
+          "T.RT_18"
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "TexturePath": "/Game/UI/Texture/Dynamic/Atlas/Buff/T_Buff_Skill_Sustain_Up.T_Buff_Skill_Sustain_Up",
+    "FXPriorityType": 70
+  },
+  "1007": {
+    "EffectId": 1007,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_Buff.NS_Common_Buff",
+    "EffectParam": [
+      {
+        "BodyShapeOffset": [
+          "T.RT_12",
+          "T.RT_14",
+          "T.RT_16",
+          "T.RT_18"
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "TexturePath": "/Game/UI/Texture/Dynamic/Atlas/Buff/T_Buff_Morale.T_Buff_Morale",
+    "FXPriorityType": 70
+  },
+  "1008": {
+    "EffectId": 1008,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_Buff.NS_Common_Buff",
+    "EffectParam": [
+      {
+        "BodyShapeOffset": [
+          "T.RT_12",
+          "T.RT_14",
+          "T.RT_16",
+          "T.RT_18"
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "TexturePath": "/Game/UI/Texture/Dynamic/Atlas/Buff/T_Buff_Berserk.T_Buff_Berserk",
+    "FXPriorityType": 70
+  },
+  "1011": {
+    "EffectId": 1011,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_Buff.NS_Common_Buff",
+    "EffectParam": [
+      {
+        "BodyShapeOffset": [
+          "T.RT_12",
+          "T.RT_14",
+          "T.RT_16",
+          "T.RT_18"
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "TexturePath": "/Game/UI/Texture/Dynamic/Atlas/Buff/T_Buff_Def_Up.T_Buff_Def_Up",
+    "FXPriorityType": 70
+  },
+  "1012": {
+    "EffectId": 1012,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_Buff.NS_Common_Buff",
+    "EffectParam": [
+      {
+        "BodyShapeOffset": [
+          "T.RT_12",
+          "T.RT_14",
+          "T.RT_16",
+          "T.RT_18"
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "TexturePath": "/Game/UI/Texture/Dynamic/Atlas/Buff/T_Buff_Damaged_Up.T_Buff_Damaged_Up",
+    "FXPriorityType": 70
+  },
+  "1021": {
+    "EffectId": 1021,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_Buff.NS_Common_Buff",
+    "EffectParam": [
+      {
+        "BodyShapeOffset": [
+          "T.RT_12",
+          "T.RT_14",
+          "T.RT_16",
+          "T.RT_18"
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "TexturePath": "/Game/UI/Texture/Dynamic/Atlas/Buff/T_Buff_Weapon_Spd_Up.T_Buff_Weapon_Spd_Up",
+    "FXPriorityType": 70
+  },
+  "1022": {
+    "EffectId": 1022,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_Buff.NS_Common_Buff",
+    "EffectParam": [
+      {
+        "BodyShapeOffset": [
+          "T.RT_12",
+          "T.RT_14",
+          "T.RT_16",
+          "T.RT_18"
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "TexturePath": "/Game/UI/Texture/Dynamic/Atlas/Buff/T_Buff_Weapon_Trigger_Up.T_Buff_Weapon_Trigger_Up",
+    "FXPriorityType": 70
+  },
+  "1023": {
+    "EffectId": 1023,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_Buff.NS_Common_Buff",
+    "EffectParam": [
+      {
+        "BodyShapeOffset": [
+          "T.RT_12",
+          "T.RT_14",
+          "T.RT_16",
+          "T.RT_18"
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "TexturePath": "/Game/UI/Texture/Dynamic/Atlas/Buff/T_Buff_Weapon_Multishoot_Up.T_Buff_Weapon_Multishoot_Up",
+    "FXPriorityType": 70
+  },
+  "1024": {
+    "EffectId": 1024,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_Buff.NS_Common_Buff",
+    "EffectParam": [
+      {
+        "BodyShapeOffset": [
+          "T.RT_12",
+          "T.RT_14",
+          "T.RT_16",
+          "T.RT_18"
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "TexturePath": "/Game/UI/Texture/Dynamic/Atlas/Buff/T_Buff_Cri_Up.T_Buff_Cri_Up",
+    "FXPriorityType": 70
+  },
+  "1025": {
+    "EffectId": 1025,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_Buff.NS_Common_Buff",
+    "EffectParam": [
+      {
+        "BodyShapeOffset": [
+          "T.RT_12",
+          "T.RT_14",
+          "T.RT_16",
+          "T.RT_18"
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "TexturePath": "/Game/UI/Texture/Dynamic/Atlas/Buff/T_Buff_Crd_Up.T_Buff_Crd_Up",
+    "FXPriorityType": 70
+  },
+  "1026": {
+    "EffectId": 1026,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_Buff.NS_Common_Buff",
+    "EffectParam": [
+      {
+        "BodyShapeOffset": [
+          "T.RT_12",
+          "T.RT_14",
+          "T.RT_16",
+          "T.RT_18"
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "TexturePath": "/Game/UI/Texture/Dynamic/Atlas/Buff/T_Buff_Weapon_Range_Up.T_Buff_Weapon_Range_Up",
+    "FXPriorityType": 70
+  },
+  "1031": {
+    "EffectId": 1031,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_Buff.NS_Common_Buff",
+    "EffectParam": [
+      {
+        "BodyShapeOffset": [
+          "T.RT_12",
+          "T.RT_14",
+          "T.RT_16",
+          "T.RT_18"
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "TexturePath": "/Game/UI/Texture/Dynamic/Atlas/Buff/T_Buff_Boost.T_Buff_Boost",
+    "FXPriorityType": 70
+  },
+  "1040": {
+    "EffectId": 1040,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_Buff.NS_Common_Buff",
+    "EffectParam": [
+      {
+        "BodyShapeOffset": [
+          "T.RT_12",
+          "T.RT_14",
+          "T.RT_16",
+          "T.RT_18"
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "TexturePath": "/Game/UI/Texture/Dynamic/Atlas/Buff/T_Buff_BonusDmg_Common.T_Buff_BonusDmg_Common",
+    "FXPriorityType": 70
+  },
+  "1041": {
+    "EffectId": 1041,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_Buff.NS_Common_Buff",
+    "EffectParam": [
+      {
+        "BodyShapeOffset": [
+          "T.RT_12",
+          "T.RT_14",
+          "T.RT_16",
+          "T.RT_18"
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "TexturePath": "/Game/UI/Texture/Dynamic/Atlas/Buff/T_Buff_BonusDmg_Water.T_Buff_BonusDmg_Water",
+    "FXPriorityType": 70
+  },
+  "1042": {
+    "EffectId": 1042,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_Buff.NS_Common_Buff",
+    "EffectParam": [
+      {
+        "BodyShapeOffset": [
+          "T.RT_12",
+          "T.RT_14",
+          "T.RT_16",
+          "T.RT_18"
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "TexturePath": "/Game/UI/Texture/Dynamic/Atlas/Buff/T_Buff_BonusDmg_Fire.T_Buff_BonusDmg_Fire",
+    "FXPriorityType": 70
+  },
+  "1043": {
+    "EffectId": 1043,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_Buff.NS_Common_Buff",
+    "EffectParam": [
+      {
+        "BodyShapeOffset": [
+          "T.RT_12",
+          "T.RT_14",
+          "T.RT_16",
+          "T.RT_18"
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "TexturePath": "/Game/UI/Texture/Dynamic/Atlas/Buff/T_Buff_BonusDmg_Wind.T_Buff_BonusDmg_Wind",
+    "FXPriorityType": 70
+  },
+  "1044": {
+    "EffectId": 1044,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_Buff.NS_Common_Buff",
+    "EffectParam": [
+      {
+        "BodyShapeOffset": [
+          "T.RT_12",
+          "T.RT_14",
+          "T.RT_16",
+          "T.RT_18"
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "TexturePath": "/Game/UI/Texture/Dynamic/Atlas/Buff/T_Buff_BonusDmg_Thunder.T_Buff_BonusDmg_Thunder",
+    "FXPriorityType": 70
+  },
+  "1045": {
+    "EffectId": 1045,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_Buff.NS_Common_Buff",
+    "EffectParam": [
+      {
+        "BodyShapeOffset": [
+          "T.RT_12",
+          "T.RT_14",
+          "T.RT_16",
+          "T.RT_18"
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "TexturePath": "/Game/UI/Texture/Dynamic/Atlas/Buff/T_Buff_BonusDmg_Dark.T_Buff_BonusDmg_Dark",
+    "FXPriorityType": 70
+  },
+  "1046": {
+    "EffectId": 1046,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_Buff.NS_Common_Buff",
+    "EffectParam": [
+      {
+        "BodyShapeOffset": [
+          "T.RT_12",
+          "T.RT_14",
+          "T.RT_16",
+          "T.RT_18"
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "TexturePath": "/Game/UI/Texture/Dynamic/Atlas/Buff/T_Buff_BonusDmg_Light.T_Buff_BonusDmg_Light",
+    "FXPriorityType": 70
+  },
+  "2000": {
+    "EffectId": 2000,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_DeBuff.NS_Common_DeBuff",
+    "EffectParam": [
+      {
+        "BodyShapeOffset": [
+          "T.RT_12",
+          "T.RT_14",
+          "T.RT_16",
+          "T.RT_18"
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "TexturePath": "/Game/UI/Texture/Dynamic/Atlas/Buff/T_Buff_Common_Debuff.T_Buff_Common_Debuff",
+    "FXPriorityType": 70
+  },
+  "2001": {
+    "EffectId": 2001,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_DeBuff.NS_Common_DeBuff",
+    "EffectParam": [
+      {
+        "BodyShapeOffset": [
+          "T.RT_12",
+          "T.RT_14",
+          "T.RT_16",
+          "T.RT_18"
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "TexturePath": "/Game/UI/Texture/Dynamic/Atlas/Buff/T_Buff_Atk_Down.T_Buff_Atk_Down",
+    "FXPriorityType": 70
+  },
+  "2002": {
+    "EffectId": 2002,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_DeBuff.NS_Common_DeBuff",
+    "EffectParam": [
+      {
+        "BodyShapeOffset": [
+          "T.RT_12",
+          "T.RT_14",
+          "T.RT_16",
+          "T.RT_18"
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "TexturePath": "/Game/UI/Texture/Dynamic/Atlas/Buff/T_Buff_Damage_Down.T_Buff_Damage_Down",
+    "FXPriorityType": 70
+  },
+  "2003": {
+    "EffectId": 2003,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_DeBuff.NS_Common_DeBuff",
+    "EffectParam": [
+      {
+        "BodyShapeOffset": [
+          "T.RT_12",
+          "T.RT_14",
+          "T.RT_16",
+          "T.RT_18"
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "TexturePath": "/Game/UI/Texture/Dynamic/Atlas/Buff/T_Buff_Skill_Inten_Down.T_Buff_Skill_Inten_Down",
+    "FXPriorityType": 70
+  },
+  "2004": {
+    "EffectId": 2004,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_DeBuff.NS_Common_DeBuff",
+    "EffectParam": [
+      {
+        "BodyShapeOffset": [
+          "T.RT_12",
+          "T.RT_14",
+          "T.RT_16",
+          "T.RT_18"
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "TexturePath": "/Game/UI/Texture/Dynamic/Atlas/Buff/T_Buff_Skill_Effi_Down.T_Buff_Skill_Effi_Down",
+    "FXPriorityType": 70
+  },
+  "2005": {
+    "EffectId": 2005,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_DeBuff.NS_Common_DeBuff",
+    "EffectParam": [
+      {
+        "BodyShapeOffset": [
+          "T.RT_12",
+          "T.RT_14",
+          "T.RT_16",
+          "T.RT_18"
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "TexturePath": "/Game/UI/Texture/Dynamic/Atlas/Buff/T_Buff_Skill_Range_Down.T_Buff_Skill_Range_Down",
+    "FXPriorityType": 70
+  },
+  "2006": {
+    "EffectId": 2006,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_DeBuff.NS_Common_DeBuff",
+    "EffectParam": [
+      {
+        "BodyShapeOffset": [
+          "T.RT_12",
+          "T.RT_14",
+          "T.RT_16",
+          "T.RT_18"
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "TexturePath": "/Game/UI/Texture/Dynamic/Atlas/Buff/T_Buff_Skill_Sustain_Down.T_Buff_Skill_Sustain_Down",
+    "FXPriorityType": 70
+  },
+  "2011": {
+    "EffectId": 2011,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_DeBuff.NS_Common_DeBuff",
+    "EffectParam": [
+      {
+        "BodyShapeOffset": [
+          "T.RT_12",
+          "T.RT_14",
+          "T.RT_16",
+          "T.RT_18"
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "TexturePath": "/Game/UI/Texture/Dynamic/Atlas/Buff/T_Buff_Def_Down.T_Buff_Def_Down",
+    "FXPriorityType": 70
+  },
+  "2012": {
+    "EffectId": 2012,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_DeBuff.NS_Common_DeBuff",
+    "EffectParam": [
+      {
+        "BodyShapeOffset": [
+          "T.RT_12",
+          "T.RT_14",
+          "T.RT_16",
+          "T.RT_18"
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "TexturePath": "/Game/UI/Texture/Dynamic/Atlas/Buff/T_Buff_Damaged_Down.T_Buff_Damaged_Down",
+    "FXPriorityType": 70
+  },
+  "2021": {
+    "EffectId": 2021,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_DeBuff.NS_Common_DeBuff",
+    "EffectParam": [
+      {
+        "BodyShapeOffset": [
+          "T.RT_12",
+          "T.RT_14",
+          "T.RT_16",
+          "T.RT_18"
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "TexturePath": "/Game/UI/Texture/Dynamic/Atlas/Buff/T_Buff_Weapon_Spd_Down.T_Buff_Weapon_Spd_Down",
+    "FXPriorityType": 70
+  },
+  "2022": {
+    "EffectId": 2022,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_DeBuff.NS_Common_DeBuff",
+    "EffectParam": [
+      {
+        "BodyShapeOffset": [
+          "T.RT_12",
+          "T.RT_14",
+          "T.RT_16",
+          "T.RT_18"
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "TexturePath": "/Game/UI/Texture/Dynamic/Atlas/Buff/T_Buff_Weapon_Trigger_Down.T_Buff_Weapon_Trigger_Down",
+    "FXPriorityType": 70
+  },
+  "2023": {
+    "EffectId": 2023,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_DeBuff.NS_Common_DeBuff",
+    "EffectParam": [
+      {
+        "BodyShapeOffset": [
+          "T.RT_12",
+          "T.RT_14",
+          "T.RT_16",
+          "T.RT_18"
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "TexturePath": "/Game/UI/Texture/Dynamic/Atlas/Buff/T_Buff_Weapon_Multishoot_Down.T_Buff_Weapon_Multishoot_Down",
+    "FXPriorityType": 70
+  },
+  "2024": {
+    "EffectId": 2024,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_DeBuff.NS_Common_DeBuff",
+    "EffectParam": [
+      {
+        "BodyShapeOffset": [
+          "T.RT_12",
+          "T.RT_14",
+          "T.RT_16",
+          "T.RT_18"
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "TexturePath": "/Game/UI/Texture/Dynamic/Atlas/Buff/T_Buff_Cri_Down.T_Buff_Cri_Down",
+    "FXPriorityType": 70
+  },
+  "2025": {
+    "EffectId": 2025,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_DeBuff.NS_Common_DeBuff",
+    "EffectParam": [
+      {
+        "BodyShapeOffset": [
+          "T.RT_12",
+          "T.RT_14",
+          "T.RT_16",
+          "T.RT_18"
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "TexturePath": "/Game/UI/Texture/Dynamic/Atlas/Buff/T_Buff_Crd_Down.T_Buff_Crd_Down",
+    "FXPriorityType": 70
+  },
+  "2031": {
+    "EffectId": 2031,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_DeBuff.NS_Common_DeBuff",
+    "EffectParam": [
+      {
+        "BodyShapeOffset": [
+          "T.RT_12",
+          "T.RT_14",
+          "T.RT_16",
+          "T.RT_18"
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "TexturePath": "/Game/UI/Texture/Dynamic/Atlas/Buff/T_Buff_Slowdown.T_Buff_Slowdown",
+    "FXPriorityType": 70
+  },
+  "2101": {
+    "EffectId": 2101,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/A_Common/NS_Water.NS_Water",
+    "EffectParam": [
+      {
+        "scale": [
+          1.5,
+          1.5,
+          1.5
+        ]
+      },
+      {
+        "Rotation": [
+          0,
+          -90,
+          0
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "hit1"
+      }
+    ],
+    "FXPriorityType": 70
+  },
+  "2102": {
+    "EffectId": 2102,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/A_Common/NS_Fire.NS_Fire",
+    "EffectParam": [
+      {
+        "scale": [
+          1.5,
+          1.5,
+          1.5
+        ]
+      },
+      {
+        "Rotation": [
+          0,
+          -90,
+          0
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "hit1"
+      }
+    ],
+    "FXPriorityType": 70
+  },
+  "2103": {
+    "EffectId": 2103,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/A_Common/NS_Thunder.NS_Thunder",
+    "EffectParam": [
+      {
+        "scale": [
+          1.5,
+          1.5,
+          1.5
+        ]
+      },
+      {
+        "Rotation": [
+          0,
+          -90,
+          0
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "hit1"
+      }
+    ],
+    "FXPriorityType": 70
+  },
+  "2104": {
+    "EffectId": 2104,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/A_Common/NS_Wind.NS_Wind",
+    "EffectParam": [
+      {
+        "scale": [
+          1.5,
+          1.5,
+          1.5
+        ]
+      },
+      {
+        "Rotation": [
+          0,
+          -90,
+          0
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "hit1"
+      }
+    ],
+    "FXPriorityType": 70
+  },
+  "2105": {
+    "EffectId": 2105,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/A_Common/NS_Fire.NS_Fire",
+    "EffectParam": [
+      {
+        "scale": [
+          1.5,
+          1.5,
+          1.5
+        ]
+      },
+      {
+        "Rotation": [
+          0,
+          -90,
+          0
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "hit1"
+      }
+    ],
+    "SoundID": 2021,
+    "FXPriorityType": 70
+  },
+  "4011": {
+    "EffectId": 4011,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Pet/NS_Zisha_Wave.NS_Zisha_Wave",
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "SoundID": 601,
+    "FXPriorityType": 90
+  },
+  "4012": {
+    "EffectId": 4012,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Common/Player/NS_hit_char_dark.NS_hit_char_dark",
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "IsHitFX": true,
+    "EffectColor": {},
+    "FXPriorityType": 45
+  },
+  "4021": {
+    "EffectId": 4021,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Pet/NS_Yuyi_BuffWave.NS_Yuyi_BuffWave",
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "SoundID": 602,
+    "FXPriorityType": 90
+  },
+  "4022": {
+    "EffectId": 4022,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Pet/NS_Yuyi_Buff.NS_Yuyi_Buff",
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "FXPriorityType": 90
+  },
+  "4031": {
+    "EffectId": 4031,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Pet/NS_Dahuo_BuffWave.NS_Dahuo_BuffWave",
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "SoundID": 603,
+    "FXPriorityType": 90
+  },
+  "4032": {
+    "EffectId": 4032,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Pet/NS_Dahuo_Buff.NS_Dahuo_Buff",
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "FXPriorityType": 90
+  },
+  "4041": {
+    "EffectId": 4041,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Pet/NS_Zhamao_Shield.NS_Zhamao_Shield",
+    "EffectParam": [
+      {
+        "Location": [
+          0,
+          0,
+          110
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "SoundID": 604,
+    "FXPriorityType": 90
+  },
+  "4042": {
+    "EffectId": 4042,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Pet/NS_Zhamao_Shield02.NS_Zhamao_Shield02",
+    "EffectParam": [
+      {
+        "Location": [
+          0,
+          0,
+          110
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "SoundID": 605,
+    "FXPriorityType": 90
+  },
+  "4051": {
+    "EffectId": 4051,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Pet/NS_Yaoye_BuffWave.NS_Yaoye_BuffWave",
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "SoundID": 606,
+    "FXPriorityType": 90
+  },
+  "4052": {
+    "EffectId": 4052,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Pet/NS_Yaoye_Buff.NS_Yaoye_Buff",
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "FXPriorityType": 90
+  },
+  "4061": {
+    "EffectId": 4061,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Pet/NS_Shanling_Wave.NS_Shanling_Wave",
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "SoundID": 607,
+    "FXPriorityType": 90
+  },
+  "4062": {
+    "EffectId": 4062,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Common/Player/NS_hit_char_dark.NS_hit_char_dark",
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "IsHitFX": true,
+    "EffectColor": {},
+    "FXPriorityType": 45
+  },
+  "4911": {
+    "EffectId": 4911,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/Jt/NS_HealRobot_Heal.NS_HealRobot_Heal",
+    "EffectParam": [
+      {
+        "Life": 0.5
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "spine_03"
+      }
+    ],
+    "SoundID": 21,
+    "FXPriorityType": 90
+  },
+  "4921": {
+    "EffectId": 4921,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/Jt/NS_BlastRobot_Blast.NS_BlastRobot_Blast",
+    "EffectParam": {
+      "scale": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    "PlayLocation": [
+      {
+        "socket": "hit1"
+      }
+    ],
+    "SoundID": 608,
+    "FXPriorityType": 90
+  },
+  "15021": {
+    "EffectId": 15021,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Mod_Jump_Wind_Loop.NS_Mod_Jump_Wind_Loop",
+    "EffectParam": {
+      "BodyShapeOffset": {}
+    },
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "EffectColor": {},
+    "SoundID": 3150201,
+    "FXPriorityType": 90
+  },
+  "15131": {
+    "EffectId": 15131,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/A_Common/NS_mod_Landing.NS_Mod_Landing",
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "EffectColor": {},
+    "SoundID": 3151301,
+    "FXPriorityType": 90
+  },
+  "15321": {
+    "EffectId": 15321,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Mod_Dodge_Fire_F.NS_Mod_Dodge_Fire_F",
+    "EffectParam": {
+      "Rotation": [
+        0,
+        0,
+        90
+      ],
+      "BodyShapeOffset": {}
+    },
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "FXPriorityType": 90
+  },
+  "15322": {
+    "EffectId": 15322,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/A_Common/NS_mod_Dodge_Fire_B.NS_Mod_Dodge_Fire_B",
+    "EffectParam": {
+      "Rotation": [
+        0,
+        0,
+        90
+      ],
+      "Location": [
+        0,
+        0,
+        70
+      ]
+    },
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "FXPriorityType": 90
+  },
+  "20101": {
+    "EffectId": 20101,
+    "EffectPath": "/Game/Asset/Effect/Niagara/NPC/Awaer/NS_Awa_Skill01_Bullet.NS_Awa_Skill01_Bullet",
+    "EffectParam": [
+      {
+        "Rotation": [
+          0,
+          0,
+          180
+        ]
+      }
+    ],
+    "FXPriorityType": 90
+  },
+  "20102": {
+    "EffectId": 20102,
+    "EffectPath": "/Game/Asset/Effect/Niagara/NPC/Awaer/NS_Awa_Skill01_Hit.NS_Awa_Skill01_Hit",
+    "SoundID": 201102,
+    "FXPriorityType": 90
+  },
+  "20103": {
+    "EffectId": 20103,
+    "EffectPath": "/Game/Asset/Effect/Niagara/NPC/Awaer/NS_Awa_Skill02_Aura.NS_Awa_Skill02_Aura",
+    "EffectParam": {
+      "Location": {}
+    },
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "NotFollowRotation": true,
+    "DeactiveParam": "DeadTime",
+    "DelayDeactiveTime": 2,
+    "SoundID": 201101,
+    "FXPriorityType": 90
+  },
+  "20104": {
+    "EffectId": 20104,
+    "EffectPath": "/Game/Asset/Effect/Niagara/NPC/Awaer/NS_Awa_Skill01_Hit.NS_Awa_Skill01_Hit",
+    "SoundID": 201103,
+    "FXPriorityType": 90
+  },
+  "20105": {
+    "EffectId": 20105,
+    "EffectPath": "/Game/Asset/Effect/Niagara/NPC/Awaer/NS_Awa_Skill01_Hit.NS_Awa_Skill01_Hit",
+    "SoundID": 201104,
+    "FXPriorityType": 90
+  },
+  "20211": {
+    "EffectId": 20211,
+    "EffectPath": "/Game/Asset/Effect/Niagara/NPC/Dafu/NS_Dafu_Skill01_Potion.NS_Dafu_Skill01_Potion",
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "NotFollowRotation": true,
+    "DeactiveParam": "Deactive",
+    "DelayDeactiveTime": 3,
+    "SoundID": 202101,
+    "FXPriorityType": 90
+  },
+  "20212": {
+    "EffectId": 20212,
+    "EffectPath": "/Game/Asset/Effect/Niagara/NPC/Dafu/NS_Dafu_Skill01_Smoke.NS_Dafu_Skill01_Smoke",
+    "PlayLocation": [
+      {
+        "socket": "hit1"
+      }
+    ],
+    "FXPriorityType": 90
+  },
+  "20221": {
+    "EffectId": 20221,
+    "EffectPath": "/Game/Asset/Effect/Niagara/NPC/Dafu/NS_Dafu_Skill02_Buff.NS_Dafu_Skill02_Buff",
+    "SoundID": 202102,
+    "FXPriorityType": 90
+  },
+  "20222": {
+    "EffectId": 20222,
+    "EffectPath": "/Game/Asset/Effect/Niagara/NPC/Dafu/NS_Dafu_Skill02_Debuff.NS_Dafu_Skill02_Debuff",
+    "FXPriorityType": 45
+  },
+  "110101": {
+    "EffectId": 110101,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Heitao/NS_Heitao_SwordWave.NS_Heitao_SwordWave",
+    "DeactiveParam": "DeadTime",
+    "DelayDeactiveTime": 1.5,
+    "FXPriorityType": 90
+  },
+  "110111": {
+    "EffectId": 110111,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Heitao/NS_Heitao_BodyBuff.NS_Heitao_BodyBuff",
+    "PlayLocation": [
+      {
+        "socket": "spine_03"
+      }
+    ],
+    "FXPriorityType": 90
+  },
+  "110113": {
+    "EffectId": 110113,
+    "EffectPath": "/Game/Asset/FX/Heitao/FinalBuff/Niagara/NS_Eye.NS_Eye",
+    "PlayLocation": {
+      "socket": "VFX_Eye"
+    },
+    "FXPriorityType": 90
+  },
+  "110114": {
+    "EffectId": 110114,
+    "EffectPath": "/Game/Asset/FX/Heitao/FinalBuff/Niagara/NS_Text_Socket.NS_Text_Socket",
+    "PlayLocation": {
+      "socket": "Bone_weapon05Socket_Beam"
+    },
+    "FXPriorityType": 90
+  },
+  "110129": {
+    "EffectId": 110129,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Heitao/NS_Heitao_Buff_Body_Spine.NS_Heitao_Buff_Body_Spine",
+    "PlayLocation": [
+      {
+        "socket": "spine_03"
+      }
+    ],
+    "FXPriorityType": 90
+  },
+  "110151": {
+    "EffectId": 110151,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Heitao/NS_Heitao_Hit.NS_Heitao_Hit",
+    "IsHitFX": true,
+    "SoundID": 110101,
+    "FXPriorityType": 45
+  },
+  "110152": {
+    "EffectId": 110152,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Heitao/NS_Heitao_Hit.NS_Heitao_Hit",
+    "IsHitFX": true,
+    "SoundID": 111,
+    "FXPriorityType": 45
+  },
+  "180101": {
+    "EffectId": 180101,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Feina/NS_Feina_AddBuff.NS_Feina_AddBuff",
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "SoundID": 180106,
+    "FXPriorityType": 90
+  },
+  "180102": {
+    "EffectId": 180102,
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "SoundID": 180105,
+    "FXPriorityType": 90
+  },
+  "210101": {
+    "EffectId": 210101,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Shuimu/NS_Shuimu_Debuff_Spread.NS_Shuimu_Debuff_Spread",
+    "NotFollowRotation": true,
+    "SoundID": 210102,
+    "FXPriorityType": 90
+  },
+  "210102": {
+    "EffectId": 210102,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Shuimu/NS_Shuimu_Debuff_Weak.NS_Shuimu_Debuff_Weak",
+    "PlayLocation": [
+      {
+        "socket": "hit1"
+      }
+    ],
+    "NotFollowRotation": true,
+    "SoundID": 210102,
+    "FXPriorityType": 90
+  },
+  "230101": {
+    "EffectId": 230101,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Zhangyu/zhangyu_skill_new/NS_Zhangyu_Skill01_Buff.NS_Zhangyu_Skill01_Buff",
+    "EffectParam": {
+      "BodyShapeOffset": {}
+    },
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "DeactiveParam": "DeadTime",
+    "DelayDeactiveTime": 2,
+    "FXPriorityType": 90
+  },
+  "230102": {
+    "EffectId": 230102,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Zhangyu/zhangyu_skill_new/NS_Zhangyu_Hit.NS_Zhangyu_Hit",
+    "IsHitFX": true,
+    "SoundID": 230101,
+    "FXPriorityType": 45
+  },
+  "230103": {
+    "EffectId": 230103,
+    "IsHitFX": true,
+    "FXPriorityType": 90
+  },
+  "230104": {
+    "EffectId": 230104,
+    "IsHitFX": true,
+    "SoundID": 230103,
+    "FXPriorityType": 45
+  },
+  "240101": {
+    "EffectId": 240101,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Baiheng/NS_Baiheng_E_003.NS_Baiheng_E_003",
+    "EffectParam": {
+      "Life": 0.6,
+      "Location": [
+        0,
+        0,
+        190
+      ]
+    },
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "TargetLocation": [
+      {
+        "socket": "spine_01"
+      }
+    ],
+    "DeactiveParam": "DeadTime",
+    "DelayDeactiveTime": 2,
+    "SoundID": 240101,
+    "AllowRefreshAudio": true,
+    "FXPriorityType": 90
+  },
+  "240102": {
+    "EffectId": 240102,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Baiheng/NS_Baiheng_E_004_Back.NS_Baiheng_E_004_Back",
+    "EffectParam": {
+      "Location": [
+        0,
+        0,
+        190
+      ]
+    },
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "SoundID": 240102,
+    "FXPriorityType": 90
+  },
+  "240103": {
+    "EffectId": 240103,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Baiheng/NS_Baiheng_BuffSelf.NS_Baiheng_BuffSelf",
+    "EffectParam": [
+      {
+        "Rotation": -90
+      },
+      0,
+      90
+    ],
+    "PlayLocation": [
+      {
+        "socket": "spine_03"
+      }
+    ],
+    "DeactiveParam": "DeadTime",
+    "DelayDeactiveTime": 2,
+    "FXPriorityType": 90
+  },
+  "240104": {
+    "EffectId": 240104,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Baiheng/NS_Baiheng_Buff.NS_Baiheng_Buff",
+    "EffectParam": [
+      {
+        "Rotation": -90
+      },
+      0,
+      90
+    ],
+    "PlayLocation": [
+      {
+        "socket": "spine_03"
+      }
+    ],
+    "DeactiveParam": "DeadTime",
+    "DelayDeactiveTime": 2,
+    "FXPriorityType": 90
+  },
+  "240105": {
+    "EffectId": 240105,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Baiheng/NS_Baiheng_shouji.NS_Baiheng_shouji",
+    "PlayLocation": [
+      {
+        "socket": "hit1"
+      }
+    ],
+    "IsHitFX": true,
+    "SoundID": 240103,
+    "FXPriorityType": 45
+  },
+  "240106": {
+    "EffectId": 240106,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Baiheng/NS_Baiheng_E_005_Begin.NS_Baiheng_E_005_Begin",
+    "EffectParam": {
+      "Location": {}
+    },
+    "FXPriorityType": 90
+  },
+  "240107": {
+    "EffectId": 240107,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Baiheng/NS_Baiheng_BFSelfRoot.NS_Baiheng_BFSelfRoot",
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "DeactiveParam": "DeadTime",
+    "DelayDeactiveTime": 2,
+    "FXPriorityType": 90
+  },
+  "310101": {
+    "EffectId": 310101,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Linen/NS_Linen_Skill01_Buff.NS_Linen_Skill01_Buff",
+    "PlayLocation": [
+      {
+        "socket": "hit1"
+      }
+    ],
+    "SoundID": 310101,
+    "FXPriorityType": 90
+  },
+  "310102": {
+    "EffectId": 310102,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Linen/NS_Linen_Skill01_Explo.NS_Linen_Skill01_Explo",
+    "IsHitFX": true,
+    "FXPriorityType": 45
+  },
+  "310103": {
+    "EffectId": 310103,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Linen/NS_Linen_Skill01_Projectile.NS_Linen_Skill01_Projectile",
+    "DeactiveParam": "Deactive",
+    "DelayDeactiveTime": 3,
+    "FXPriorityType": 90
+  },
+  "310104": {
+    "EffectId": 310104,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Linen/NS_Linen_Skill01_BuffExpo.NS_Linen_Skill01_BuffExpo",
+    "PlayLocation": [
+      {
+        "socket": "hit1"
+      }
+    ],
+    "FXPriorityType": 90
+  },
+  "310111": {
+    "EffectId": 310111,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Linen/NS_Linen_Skill02_Hit.NS_Linen_Skill02_Hit",
+    "PlayLocation": [
+      {
+        "socket": "hit1"
+      }
+    ],
+    "IsHitFX": true,
+    "SoundID": 103,
+    "FXPriorityType": 45
+  },
+  "310121": {
+    "EffectId": 310121,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Linen/NS_Linen_Buff_Body_Arm.NS_Linen_Buff_Body_Arm",
+    "PlayLocation": {
+      "socket": "upperarm_r"
+    },
+    "DeactiveParam": "Deactive",
+    "DelayDeactiveTime": 3,
+    "FXPriorityType": 90
+  },
+  "310122": {
+    "EffectId": 310122,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Linen/NS_Linen_Buff_Body_Arm.NS_Linen_Buff_Body_Arm",
+    "PlayLocation": {
+      "socket": "upperarm_l"
+    },
+    "DeactiveParam": "Deactive",
+    "DelayDeactiveTime": 3,
+    "FXPriorityType": 90
+  },
+  "310123": {
+    "EffectId": 310123,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Linen/NS_Linen_Buff_Body_Arm.NS_Linen_Buff_Body_Arm",
+    "PlayLocation": [
+      {
+        "socket": "lowerarm_r"
+      }
+    ],
+    "DeactiveParam": "Deactive",
+    "DelayDeactiveTime": 3,
+    "FXPriorityType": 90
+  },
+  "310124": {
+    "EffectId": 310124,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Linen/NS_Linen_Buff_Body_Arm.NS_Linen_Buff_Body_Arm",
+    "PlayLocation": [
+      {
+        "socket": "lowerarm_l"
+      }
+    ],
+    "DeactiveParam": "Deactive",
+    "DelayDeactiveTime": 3,
+    "FXPriorityType": 90
+  },
+  "310125": {
+    "EffectId": 310125,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Linen/NS_Linen_Buff_Body_Leg.NS_Linen_Buff_Body_Leg",
+    "PlayLocation": [
+      {
+        "socket": "thigh_l"
+      }
+    ],
+    "DeactiveParam": "Deactive",
+    "DelayDeactiveTime": 3,
+    "FXPriorityType": 90
+  },
+  "310126": {
+    "EffectId": 310126,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Linen/NS_Linen_Buff_Body_Leg.NS_Linen_Buff_Body_Leg",
+    "PlayLocation": [
+      {
+        "socket": "thigh_r"
+      }
+    ],
+    "DeactiveParam": "Deactive",
+    "DelayDeactiveTime": 3,
+    "FXPriorityType": 90
+  },
+  "310127": {
+    "EffectId": 310127,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Linen/NS_Linen_Buff_Body_Spine.NS_Linen_Buff_Body_Spine",
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "DeactiveParam": "Deactive",
+    "DelayDeactiveTime": 3,
+    "FXPriorityType": 90
+  },
+  "310128": {
+    "EffectId": 310128,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Linen/NS_Linen_Buff_Gun.NS_Linen_Buff_Gun",
+    "EffectParam": [
+      {
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "Rotation": [
+          90,
+          0,
+          -90
+        ]
+      },
+      {
+        "Location": [
+          9,
+          0,
+          -15
+        ]
+      }
+    ],
+    "PlayLocation": {
+      "socket": "Root",
+      "UseWeaponBone": "child"
+    },
+    "FXPriorityType": 90
+  },
+  "310129": {
+    "EffectId": 310129,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Linen/NS_Linen_Buff_Gun.NS_Linen_Buff_Gun",
+    "EffectParam": [
+      {
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "Rotation": [
+          90,
+          0,
+          -90
+        ]
+      },
+      {
+        "Location": [
+          9,
+          0,
+          -15
+        ]
+      }
+    ],
+    "PlayLocation": {
+      "socket": "Root",
+      "UseWeaponBone": "main"
+    },
+    "FXPriorityType": 90
+  },
+  "310201": {
+    "EffectId": 310201,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Xier/NS_Xier_Projectile.NS_Xier_Projectile",
+    "EffectParam": [
+      {
+        "Location": [
+          80,
+          0,
+          0
+        ]
+      }
+    ],
+    "DeactiveParam": "Deactive",
+    "DelayDeactiveTime": 3,
+    "FXPriorityType": 90
+  },
+  "310202": {
+    "EffectId": 310202,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Xier/NS_Xier_OpenFire.NS_Xier_OpenFire",
+    "EffectParam": {
+      "Location": [
+        90,
+        0,
+        0
+      ]
+    },
+    "SoundID": 310202,
+    "FXPriorityType": 90
+  },
+  "310203": {
+    "EffectId": 310203,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Xier/NS_Xier_Skill01_laser.NS_Xier_Skill01_laser",
+    "PlayLocation": [
+      {
+        "socket": "LaserPortForBig"
+      }
+    ],
+    "DeactiveParam": "Deactive",
+    "SoundID": 310204,
+    "FXPriorityType": 90,
+    "FXPriorityBind": true
+  },
+  "310204": {
+    "EffectId": 310204,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Xier/NS_Xier_Skill01_Disappear.NS_Xier_Skill01_Disappear",
+    "EffectParam": [
+      {
+        "Life": 0.25
+      },
+      {
+        "Location": [
+          120,
+          0,
+          0
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "LaserPortForBig"
+      }
+    ],
+    "DeactiveParam": "Deactive",
+    "FXPriorityType": 90
+  },
+  "310205": {
+    "EffectId": 310205,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Xier/NS_Xier_Buff.NS_Xier_Buff",
+    "EffectParam": {
+      "scale": {}
+    },
+    "PlayLocation": [
+      {
+        "socket": "spine_03"
+      }
+    ],
+    "FXPriorityType": 90
+  },
+  "310206": {
+    "EffectId": 310206,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Xier/NS_Xier_OpenFire.NS_Xier_OpenFire",
+    "EffectParam": {
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "Location": {}
+    },
+    "SoundID": 310203,
+    "FXPriorityType": 90
+  },
+  "310207": {
+    "EffectId": 310207,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Xier/NS_xier_chain.NS_xier_chain",
+    "PlayLocation": {
+      "socket": "Float04"
+    },
+    "TargetLocation": [
+      {
+        "socket": "spine_01Slot"
+      }
+    ],
+    "DeactiveParam": "DeadTime",
+    "FXPriorityType": 90
+  },
+  "310208": {
+    "EffectId": 310208,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Xier/NS_xier_chain.NS_xier_chain",
+    "PlayLocation": {
+      "socket": "Float08"
+    },
+    "TargetLocation": [
+      {
+        "socket": "spine_01Slot"
+      }
+    ],
+    "DeactiveParam": "DeadTime",
+    "FXPriorityType": 90
+  },
+  "310211": {
+    "EffectId": 310211,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Xier/NS_Xier_Skill01_Grade2_laser1.NS_Xier_Skill01_Grade2_laser1",
+    "EffectParam": [
+      {
+        "Life": 0.25
+      },
+      {
+        "Location": [
+          120,
+          0,
+          0
+        ]
+      }
+    ],
+    "TargetLocation": [
+      {
+        "socket": "spine_01"
+      }
+    ],
+    "DeactiveParam": "Deactive",
+    "FXPriorityType": 90
+  },
+  "310212": {
+    "EffectId": 310212,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Xier/NS_Xier_Laser02.NS_Xier_Laser02",
+    "EffectParam": [
+      {
+        "Location": [
+          80,
+          0,
+          0
+        ]
+      }
+    ],
+    "DeactiveParam": "Deactive",
+    "FXPriorityType": 90
+  },
+  "310213": {
+    "EffectId": 310213,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Xier/NS_Xier_Skill01_Weapon.NS_Xier_Skill01_Weapon",
+    "EffectParam": {
+      "Location": [
+        0,
+        0,
+        0
+      ]
+    },
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "DeactiveParam": "Deactive",
+    "DestroyWhenSkillEnds": true,
+    "FXPriorityType": 90
+  },
+  "310214": {
+    "EffectId": 310214,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Xier/NS_Xier_Skill01_Weapon.NS_Xier_Skill01_Weapon",
+    "EffectParam": {
+      "scale": [
+        0.6,
+        0.6,
+        0.6
+      ]
+    },
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "DeactiveParam": "Deactive",
+    "DestroyWhenSkillEnds": true,
+    "FXPriorityType": 90
+  },
+  "310215": {
+    "EffectId": 310215,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Xier/NS_Xier_Skill01_Weapon_Disappear.NS_Xier_Skill01_Weapon_Disappear",
+    "EffectParam": {
+      "Life": 0.4
+    },
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "DeactiveParam": "Deactive",
+    "FXPriorityType": 90
+  },
+  "310216": {
+    "EffectId": 310216,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Xier/NS_Xier_Skill01_Weapon_Disappear.NS_Xier_Skill01_Weapon_Disappear",
+    "EffectParam": {
+      "Life": 0.4,
+      "scale": [
+        0.6,
+        0.6,
+        0.6
+      ]
+    },
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "DeactiveParam": "Deactive",
+    "FXPriorityType": 90
+  },
+  "310301": {
+    "EffectId": 310301,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Yeer/NS_Yeer_Explosion_Orange.NS_Yeer_Explosion_Orange",
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "FXPriorityType": 90
+  },
+  "310302": {
+    "EffectId": 310302,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Yeer/NS_Yeer_Skill02_Domain.NS_Yeer_Skill02_Domain",
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "FXPriorityType": 100
+  },
+  "310303": {
+    "EffectId": 310303,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Yeer/NS_Yeer_Grade1_Burst.NS_Yeer_Grade1_Burst",
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "FXPriorityType": 90
+  },
+  "310311": {
+    "EffectId": 310311,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Yeer/NS_Yeer_Explosion_Blue.NS_Yeer_Explosion_Blue",
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "FXPriorityType": 90
+  },
+  "310312": {
+    "EffectId": 310312,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Yeer/NS_Yeer_bomb.NS_Yeer_bomb",
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "FXPriorityType": 90
+  },
+  "310321": {
+    "EffectId": 310321,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Yeer/NS_Yeer_Skill02_End.NS_Yeer_Skill02_End",
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "FXPriorityType": 90
+  },
+  "320101": {
+    "EffectId": 320101,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Haier/NS_Haier_Passive.NS_Haier_Passive",
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "SoundID": 320101,
+    "FXPriorityType": 90
+  },
+  "320102": {
+    "EffectId": 320102,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Haier/NS_Haier_Fire.NS_Haier_Fire",
+    "PlayLocation": [
+      {
+        "socket": "hit1"
+      }
+    ],
+    "FXPriorityType": 90
+  },
+  "320103": {
+    "EffectId": 320103,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Haier/NS_Haier_AuraRange.NS_Haier_AuraRange",
+    "EffectParam": {
+      "Location": {}
+    },
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "BuffFXSkillRangeModify": true,
+    "FXPriorityType": 100
+  },
+  "320104": {
+    "EffectId": 320104,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Haier/NS_Haier_Body_Buff.NS_Haier_Body_Buff",
+    "EffectParam": {
+      "Rotation": [
+        0,
+        -90,
+        0
+      ]
+    },
+    "PlayLocation": [
+      {
+        "socket": "hit1"
+      }
+    ],
+    "FXPriorityType": 90
+  },
+  "320105": {
+    "EffectId": 320105,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Haier/NS_Haier_Buff_Arm.NS_Haier_Buff_Arm",
+    "PlayLocation": [
+      {
+        "socket": "lowerarm_l"
+      }
+    ],
+    "FXPriorityType": 90
+  },
+  "320106": {
+    "EffectId": 320106,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Haier/NS_Haier_Buff_Arm.NS_Haier_Buff_Arm",
+    "PlayLocation": [
+      {
+        "socket": "lowerarm_r"
+      }
+    ],
+    "FXPriorityType": 90
+  },
+  "320107": {
+    "EffectId": 320107,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Haier/NS_Haier_Buff_Leg.NS_Haier_Buff_Leg",
+    "PlayLocation": [
+      {
+        "socket": "thigh_l"
+      }
+    ],
+    "FXPriorityType": 90
+  },
+  "320108": {
+    "EffectId": 320108,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Haier/NS_Haier_Buff_Leg.NS_Haier_Buff_Leg",
+    "PlayLocation": [
+      {
+        "socket": "thigh_r"
+      }
+    ],
+    "FXPriorityType": 90
+  },
+  "320111": {
+    "EffectId": 320111,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Haier/NS_Haier_Skill02.NS_Haier_Skill02",
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "DeactiveParam": "DeadTime",
+    "FXPriorityType": 90
+  },
+  "330101": {
+    "EffectId": 330101,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Maer/NS_Maer_Skill02_Explode.NS_Maer_Skill02_Explode",
+    "EffectParam": {
+      "Location": [
+        0,
+        0,
+        -35
+      ]
+    },
+    "PlayLocation": [
+      {
+        "socket": "hit1"
+      }
+    ],
+    "ChangeColorByChar": true,
+    "SoundID": 330103,
+    "FXPriorityType": 90
+  },
+  "330102": {
+    "EffectId": 330102,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Maer/NS_Maer_Skill02_Explode.NS_Maer_Skill02_Explode",
+    "EffectParam": {
+      "scale": [
+        1.5,
+        1.5,
+        1.5
+      ],
+      "Location": [
+        0,
+        0,
+        -35
+      ]
+    },
+    "PlayLocation": [
+      {
+        "socket": "hit1"
+      }
+    ],
+    "ChangeColorByChar": true,
+    "SoundID": 330103,
+    "FXPriorityType": 90
+  },
+  "330103": {
+    "EffectId": 330103,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Maer/NS_Maer_Skill02_Explode_Small.NS_Maer_Skill02_Explode_Small",
+    "EffectParam": {
+      "scale": [
+        1.5,
+        1.5,
+        1.5
+      ],
+      "Location": [
+        0,
+        100,
+        0
+      ]
+    },
+    "PlayLocation": [
+      {
+        "socket": "hit1"
+      }
+    ],
+    "ChangeColorByChar": true,
+    "SoundID": 330104,
+    "FXPriorityType": 90
+  },
+  "330104": {
+    "EffectId": 330104,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Maer/NS_Maer_Skill02_Explode_Small.NS_Maer_Skill02_Explode_Small",
+    "EffectParam": {
+      "scale": [
+        1.5,
+        1.5,
+        1.5
+      ],
+      "Location": {}
+    },
+    "PlayLocation": [
+      {
+        "socket": "hit1"
+      }
+    ],
+    "ChangeColorByChar": true,
+    "SoundID": 330104,
+    "FXPriorityType": 90
+  },
+  "420102": {
+    "EffectId": 420102,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Yuming/NS_Yuming_Skill01_HandLightnin_002.NS_Yuming_Skill01_HandLightnin_002",
+    "PlayLocation": [
+      {
+        "socket": "lowerarm_r"
+      }
+    ],
+    "FXPriorityType": 90
+  },
+  "420104": {
+    "EffectId": 420104,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Yuming/NS_Yuming_Skill01_Hit.NS_Yuming_Skill01_Hit",
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "SoundID": 420101,
+    "FXPriorityType": 90
+  },
+  "420106": {
+    "EffectId": 420106,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Yuming/NS_Yuming_BodyBuff.NS_Yuming_BodyBuff",
+    "PlayLocation": [
+      {
+        "socket": "spine_03"
+      }
+    ],
+    "FXPriorityType": 90
+  },
+  "420201": {
+    "EffectId": 420201,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Landi/NS_Landi_Skill02_Show_02.NS_Landi_Skill02_Show_02",
+    "EffectParam": {
+      "Location": {}
+    },
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "FXPriorityType": 45
+  },
+  "420211": {
+    "EffectId": 420211,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Landi/NS_Landi_Skill01_03.NS_Landi_Skill01_03",
+    "EffectParam": {
+      "Location": [
+        0,
+        100,
+        0
+      ],
+      "Rotation": [
+        0,
+        0,
+        90
+      ]
+    },
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "FXPriorityType": 90
+  },
+  "420221": {
+    "EffectId": 420221,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Landi/NS_Landi_Skill02_Ground01.NS_Landi_Skill02_Ground01",
+    "NotFollowRotation": true,
+    "FXPriorityType": 90
+  },
+  "420222": {
+    "EffectId": 420222,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Landi/NS_Landi_Skill02_Shield_01.NS_Landi_Skill02_Shield_01",
+    "EffectParam": [
+      {
+        "Rotation": [
+          0,
+          90,
+          0
+        ]
+      }
+    ],
+    "DeactiveParam": "DeadTime",
+    "DelayDeactiveTime": 0.8,
+    "SoundID": 420208,
+    "FXPriorityType": 100
+  },
+  "420223": {
+    "EffectId": 420223,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Landi/NS_Landi_Skill02_Ground02.NS_Landi_Skill02_Ground02",
+    "NotFollowRotation": true,
+    "SoundID": 420209,
+    "FXPriorityType": 100
+  },
+  "430111": {
+    "EffectId": 430111,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Xibi/NS_Xibi_Skill01_Hit.NS_Xibi_Skill01_Hit",
+    "DeactiveParam": "Deactive",
+    "DelayDeactiveTime": 2,
+    "SoundID": 430101,
+    "FXPriorityType": 90
+  },
+  "430121": {
+    "EffectId": 430121,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Xibi/NS_Xibi_Skill02_Ball.NS_Xibi_Skill02_Ball",
+    "EffectParam": [
+      {
+        "Location": [
+          0,
+          0,
+          50
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "DeactiveParam": "DeadTime",
+    "DelayDeactiveTime": 1.5,
+    "FXPriorityType": 100
+  },
+  "430122": {
+    "EffectId": 430122,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Xibi/NS_Xibi_Skill02_Ball_EX.NS_Xibi_Skill02_Ball_EX",
+    "EffectParam": [
+      {
+        "scale": [
+          1.4,
+          1.4,
+          1.4
+        ]
+      },
+      {
+        "Location": [
+          0,
+          0,
+          50
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "DeactiveParam": "DeadTime",
+    "DelayDeactiveTime": 1.5,
+    "FXPriorityType": 100
+  },
+  "430123": {
+    "EffectId": 430123,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Xibi/NS_Xibi_Skill02_Ball_Hit.NS_Xibi_Skill02_Ball_Hit",
+    "EffectParam": [
+      {
+        "Location": [
+          0,
+          0,
+          50
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "FXPriorityType": 100
+  },
+  "430124": {
+    "EffectId": 430124,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Xibi/NS_Xibi_Skill02_Ball_Hit.NS_Xibi_Skill02_Ball_Hit",
+    "EffectParam": [
+      {
+        "scale": [
+          1.4,
+          1.4,
+          1.4
+        ]
+      },
+      {
+        "Location": [
+          0,
+          0,
+          50
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "FXPriorityType": 100
+  },
+  "430125": {
+    "EffectId": 430125,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Xibi/NS_Xibi_Skill02_Ball_DisAppear.NS_Xibi_Skill02_Ball_DisAppear",
+    "EffectParam": [
+      {
+        "Location": [
+          0,
+          0,
+          50
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "FXPriorityType": 90
+  },
+  "430151": {
+    "EffectId": 430151,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Xibi/NS_Xibi_Skill02_Line.NS_Xibi_Skill02_Line",
+    "EffectParam": [
+      {
+        "Location": [
+          0,
+          0,
+          50
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "TargetLocation": [
+      {
+        "socket": "spine_01"
+      }
+    ],
+    "FXPriorityType": 90
+  },
+  "430152": {
+    "EffectId": 430152,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Xibi/NS_Xibi_Skill02_Explosion.NS_Xibi_Skill02_Explosion",
+    "EffectParam": [
+      {
+        "Location": [
+          0,
+          0,
+          50
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "SoundID": 430106,
+    "FXPriorityType": 90
+  },
+  "430153": {
+    "EffectId": 430153,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Xibi/NS_Xibi_Skill02_Explosion_2.NS_Xibi_Skill02_Explosion_2",
+    "EffectParam": [
+      {
+        "Location": [
+          0,
+          0,
+          50
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "SkillEffectId": 430123,
+    "FXPriorityType": 90
+  },
+  "430154": {
+    "EffectId": 430154,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Xibi/NS_Xibi_Skill02_Explosion.NS_Xibi_Skill02_Explosion",
+    "EffectParam": [
+      {
+        "Location": [
+          0,
+          0,
+          50
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "StructPath": "/Game/Asset/Effect/Niagara/Player/Xibi/Xibi_Skill02_Explosion.Xibi_Skill02_Explosion",
+    "FXPriorityType": 90
+  },
+  "430155": {
+    "EffectId": 430155,
+    "SoundID": 430105,
+    "FXPriorityType": 90
+  },
+  "430156": {
+    "EffectId": 430156,
+    "SoundID": 430107,
+    "FXPriorityType": 90
+  },
+  "510101": {
+    "EffectId": 510101,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Songlu/NS_Songlu_Skill01_Explo.NS_Songlu_Skill01_Explo",
+    "EffectParam": [
+      {
+        "Rotation": [
+          0,
+          0,
+          90
+        ]
+      },
+      {
+        "Location": [
+          0,
+          0,
+          15
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "SoundID": 510103,
+    "FXPriorityType": 90
+  },
+  "510102": {
+    "EffectId": 510102,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Songlu/NS_Songlu_Skill02_Running.NS_Songlu_Skill02_Running",
+    "EffectParam": [
+      {
+        "Rotation": [
+          0,
+          0,
+          90
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "DeactiveParam": "Deactive",
+    "DelayDeactiveTime": 3,
+    "SoundID": 510101,
+    "FXPriorityType": 90
+  },
+  "510103": {
+    "EffectId": 510103,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Songlu/NS_Songlu_Skill02_Trail01.NS_Songlu_Skill02_Trail01",
+    "EffectParam": [
+      {
+        "Rotation": [
+          0,
+          0,
+          90
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "lowerarm_l"
+      }
+    ],
+    "DeactiveParam": "Deactive",
+    "DelayDeactiveTime": 3,
+    "FXPriorityType": 90
+  },
+  "510104": {
+    "EffectId": 510104,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Songlu/NS_Songlu_Skill02_Trail02.NS_Songlu_Skill02_Trail02",
+    "EffectParam": [
+      {
+        "Rotation": [
+          0,
+          0,
+          90
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "hand_r"
+      }
+    ],
+    "DeactiveParam": "Deactive",
+    "DelayDeactiveTime": 3,
+    "FXPriorityType": 90
+  },
+  "510105": {
+    "EffectId": 510105,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Songlu/NS_Songlu_Hit.NS_Songlu_Hit",
+    "PlayLocation": [
+      {
+        "socket": "hit1"
+      }
+    ],
+    "IsHitFX": true,
+    "SoundID": 510102,
+    "FXPriorityType": 45
+  },
+  "510106": {
+    "EffectId": 510106,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Songlu/NS_Songlu_Buff_Loop.NS_Songlu_Buff_Loop",
+    "PlayLocation": [
+      {
+        "socket": "spine_02"
+      }
+    ],
+    "DeactiveParam": "Deactive",
+    "DelayDeactiveTime": 1,
+    "SoundID": 510104,
+    "FXPriorityType": 45
+  },
+  "510108": {
+    "EffectId": 510108,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Songlu/NS_Songlu_Buff_Zhenzi_Spark.NS_Songlu_Buff_Zhenzi_Spark",
+    "EffectParam": {
+      "Location": {}
+    },
+    "PlayLocation": {
+      "socket": "headparts01_b"
+    },
+    "DeactiveParam": "Deactive",
+    "DelayDeactiveTime": 1,
+    "SoundID": 510105,
+    "FXPriorityType": 45
+  },
+  "510109": {
+    "EffectId": 510109,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Songlu/NS_Songlu_Buff_Zhenzi_Hudiejie_Spark1.NS_Songlu_Buff_Zhenzi_Hudiejie_Spark1",
+    "PlayLocation": {
+      "socket": "hair_left03_ring04_a"
+    },
+    "DeactiveParam": "Deactive",
+    "DelayDeactiveTime": 1,
+    "FXPriorityType": 45
+  },
+  "510110": {
+    "EffectId": 510110,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Songlu/NS_Songlu_Buff_Zhenzi_Hudiejie_Spark1.NS_Songlu_Buff_Zhenzi_Hudiejie_Spark1",
+    "PlayLocation": {
+      "socket": "hair_right03_ring04_a"
+    },
+    "StructPath": "/Game/Asset/Effect/Niagara/Player/Songlu/Songlu_Hudiejie_R.Songlu_Hudiejie_R",
+    "DeactiveParam": "Deactive",
+    "DelayDeactiveTime": 1,
+    "FXPriorityType": 45
+  },
+  "510111": {
+    "EffectId": 510111,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Songlu/NS_Songlu_Buff_Zhenzi_Piaodai_Spark2.NS_Songlu_Buff_Zhenzi_Piaodai_Spark2",
+    "PlayLocation": {
+      "socket": "bowknot_left02_a"
+    },
+    "DeactiveParam": "Deactive",
+    "DelayDeactiveTime": 1,
+    "FXPriorityType": 45
+  },
+  "510112": {
+    "EffectId": 510112,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Songlu/NS_Songlu_Buff_Zhenzi_Piaodai_Spark2.NS_Songlu_Buff_Zhenzi_Piaodai_Spark2",
+    "PlayLocation": {
+      "socket": "bowknot_Right02_a"
+    },
+    "StructPath": "/Game/Asset/Effect/Niagara/Player/Songlu/Songlu_Piaodai_R.Songlu_Piaodai_R",
+    "DeactiveParam": "Deactive",
+    "DelayDeactiveTime": 1,
+    "FXPriorityType": 45
+  },
+  "510113": {
+    "EffectId": 510113,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Songlu/NS_Songlu_Skill01_PPRun.NS_Songlu_Skill01_PPRun",
+    "EffectParam": {
+      "Location": {}
+    },
+    "FXPriorityType": 90
+  },
+  "510121": {
+    "EffectId": 510121,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Songlu/NS_Songlu_Skill02_Explo.NS_Songlu_Skill02_Explo",
+    "EffectParam": [
+      {
+        "Rotation": [
+          0,
+          0,
+          90
+        ]
+      },
+      {
+        "Location": [
+          0,
+          0,
+          15
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "SoundID": 510103,
+    "FXPriorityType": 90
+  },
+  "530101": {
+    "EffectId": 530101,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Saiqi/NS_Saiqi_Skill1_Rune.NS_Saiqi_Skill1_Rune",
+    "EffectParam": {
+      "scale": {}
+    },
+    "PlayLocation": [
+      {
+        "socket": "hit1"
+      }
+    ],
+    "FXPriorityType": 90
+  },
+  "530102": {
+    "EffectId": 530102,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Saiqi/NS_Saiqi_Butterfly_Bullet.NS_Saiqi_Butterfly_Bullet",
+    "EffectParam": {
+      "scale": {}
+    },
+    "SoundID": 530101,
+    "FXPriorityType": 90
+  },
+  "530103": {
+    "EffectId": 530103,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Saiqi/NS_Saiqi_Butterfly_Hit.NS_Saiqi_Butterfly_Hit",
+    "IsHitFX": true,
+    "SoundID": 530102,
+    "FXPriorityType": 45
+  },
+  "530104": {
+    "EffectId": 530104,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Saiqi/NS_Saiqi_Butterfly_Destroy.NS_Saiqi_Butterfly_Destroy",
+    "FXPriorityType": 90
+  },
+  "530105": {
+    "EffectId": 530105,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Saiqi/NS_Saiqi_Passive.NS_Saiqi_Passive",
+    "DeactiveParam": "Deactive",
+    "DelayDeactiveTime": 0.05,
+    "SoundID": 530109,
+    "FXPriorityType": 90
+  },
+  "530106": {
+    "EffectId": 530106,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Saiqi/NS_Saiqi_Skill01_Explode.NS_Saiqi_Skill01_Explode",
+    "PlayLocation": [
+      {
+        "socket": "spine_01"
+      }
+    ],
+    "SoundID": 530104,
+    "FXPriorityType": 90
+  },
+  "530107": {
+    "EffectId": 530107,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Saiqi/NS_Saiqi_Skill02_HitWall.NS_Saiqi_Skill02_HitWall",
+    "SoundID": 530107,
+    "FXPriorityType": 90
+  },
+  "530112": {
+    "EffectId": 530112,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Saiqi/NS_Saiqi_Skill01_InBuff.NS_Saiqi_Skill01_InBuff",
+    "EffectParam": [
+      {
+        "scale": [
+          2,
+          2,
+          2
+        ]
+      }
+    ],
+    "SoundID": 530101,
+    "FXPriorityType": 90
+  },
+  "530121": {
+    "EffectId": 530121,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Saiqi/NS_Saiqi_Skill02_Loop.NS_Saiqi_Skill02_Loop",
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "FXPriorityType": 90
+  },
+  "600000": {
+    "EffectId": 600000,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Common/Monster/NS_hit_mon_dark.NS_hit_mon_dark",
+    "IsHitFX": true,
+    "SoundID": 700131,
+    "FXPriorityType": 40
+  },
+  "600001": {
+    "EffectId": 600001,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Common/Monster/NS_hit_mon_fire.NS_hit_mon_fire",
+    "IsHitFX": true,
+    "SoundID": 700151,
+    "FXPriorityType": 40
+  },
+  "600002": {
+    "EffectId": 600002,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Common/Monster/NS_hit_mon_fluid.NS_hit_mon_fluid",
+    "IsHitFX": true,
+    "FXPriorityType": 40
+  },
+  "600003": {
+    "EffectId": 600003,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Common/Monster/NS_hit_mon_ice.NS_hit_mon_ice",
+    "IsHitFX": true,
+    "SoundID": 700111,
+    "FXPriorityType": 40
+  },
+  "600004": {
+    "EffectId": 600004,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Common/Monster/NS_hit_mon_physics.NS_hit_mon_physics",
+    "IsHitFX": true,
+    "FXPriorityType": 40
+  },
+  "600005": {
+    "EffectId": 600005,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Common/Monster/NS_hit_mon_thunder.NS_hit_mon_thunder",
+    "IsHitFX": true,
+    "SoundID": 700161,
+    "FXPriorityType": 40
+  },
+  "600006": {
+    "EffectId": 600006,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Common/Monster/NS_gunhit_mon_01.NS_gunhit_mon_01",
+    "IsHitFX": true,
+    "FXPriorityType": 40
+  },
+  "600007": {
+    "EffectId": 600007,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Common/Monster/NS_gunhit_mon_02.NS_gunhit_mon_02",
+    "IsHitFX": true,
+    "FXPriorityType": 40
+  },
+  "600008": {
+    "EffectId": 600008,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Common/Monster/NS_knifehit_mon_dir.NS_knifehit_mon_dir",
+    "IsHitFX": true,
+    "FXPriorityType": 40
+  },
+  "600009": {
+    "EffectId": 600009,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Common/Monster/NS_knifehit_mon_normal.NS_knifehit_mon_normal",
+    "IsHitFX": true,
+    "FXPriorityType": 40
+  },
+  "600010": {
+    "EffectId": 600010,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/A_Common/NS_Debuff_Blood.NS_Debuff_Blood",
+    "PlayLocation": [
+      {
+        "socket": "hit1"
+      }
+    ],
+    "DeactiveParam": "Deactive",
+    "DelayDeactiveTime": 0.7,
+    "FXPriorityType": 60
+  },
+  "600012": {
+    "EffectId": 600012,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/Jt/NS_Common_StunParalysis.NS_Common_StunParalysis",
+    "PlayLocation": [
+      {
+        "socket": "pelvis"
+      }
+    ],
+    "DeactiveParam": "Deactive",
+    "DelayDeactiveTime": 0.7,
+    "SoundID": 700205,
+    "FXPriorityType": 60
+  },
+  "600100": {
+    "EffectId": 600100,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Common/Player/NS_hit_Water_loop.NS_Hit_Water_Loop",
+    "PlayLocation": [
+      {
+        "socket": "spine_03"
+      }
+    ],
+    "WithEffectShape": true,
+    "FXPriorityType": 40
+  },
+  "600101": {
+    "EffectId": 600101,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Stae_Fire.NS_Stae_Fire",
+    "PlayLocation": [
+      {
+        "socket": "spine_02"
+      }
+    ],
+    "FXPriorityType": 60
+  },
+  "600102": {
+    "EffectId": 600102,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/Gr/NS_Gr_Jichong_Skill01_Bullet.NS_Gr_Jichong_Skill01_Bullet",
+    "DeactiveParam": "Deactive",
+    "DelayDeactiveTime": 1,
+    "FXPriorityType": 80
+  },
+  "600103": {
+    "EffectId": 600103,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/Gr/NS_Gr_Jichong_Skill01_Explode.NS_Gr_Jichong_Skill01_Explode",
+    "SoundID": 700151,
+    "FXPriorityType": 80
+  },
+  "600201": {
+    "EffectId": 600201,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/Gr/NS_Gr_Youji_Attack01_Bullet.NS_Gr_Youji_Attack01_Bullet",
+    "FXPriorityType": 80
+  },
+  "600202": {
+    "EffectId": 600202,
+    "FXPriorityType": 80
+  },
+  "600203": {
+    "EffectId": 600203,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/Gr/NS_Gr_Youji_Attack01_Hit.NS_Gr_Youji_Attack01_Hit",
+    "IsHitFX": true,
+    "FXPriorityType": 40
+  },
+  "600204": {
+    "EffectId": 600204,
+    "FXPriorityType": 80
+  },
+  "600205": {
+    "EffectId": 600205,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/A_Common/NS_AimlineOn.NS_AimlineOn",
+    "EffectParam": {
+      "Life": 0.3
+    },
+    "PlayLocation": [
+      {
+        "socket": "gunpoint_01"
+      },
+      {
+        "UseWeaponBone": "main"
+      }
+    ],
+    "TargetLocation": [
+      {
+        "socket": "spine_01"
+      }
+    ],
+    "FXPriorityType": 80
+  },
+  "600301": {
+    "EffectId": 600301,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/A_Common/NS_Strong_Shield_Creature.NS_Strong_Shield_Creature",
+    "EffectParam": [
+      {
+        "scale": [
+          0.2,
+          0.2,
+          0.2
+        ]
+      }
+    ],
+    "FXPriorityType": 80
+  },
+  "600302": {
+    "EffectId": 600302,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/Gr/NS_Gr_Piaofu_Skill01_Hit.NS_Gr_Piaofu_Skill01_Hit",
+    "IsHitFX": true,
+    "FXPriorityType": 80
+  },
+  "600303": {
+    "EffectId": 600303,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/Gr/NS_Gr_Piaofu_Attack01_Hit.NS_Gr_Piaofu_Attack01_Hit",
+    "IsHitFX": true,
+    "FXPriorityType": 80
+  },
+  "600304": {
+    "EffectId": 600304,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/Gr/NS_Gr_Piaofu_C01_Bullet.NS_Gr_Piaofu_C01_Bullet",
+    "FXPriorityType": 80
+  },
+  "600305": {
+    "EffectId": 600305,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/Gr/NS_Gr_Piaofu_C01_Shining_Hit.NS_Gr_Piaofu_C01_Shining_Hit",
+    "IsHitFX": true,
+    "FXPriorityType": 40
+  },
+  "600401": {
+    "EffectId": 600401,
+    "EffectPath": "/Game/Asset/Scene/common/4Mtl/MM_WarningDecal_Inst.MM_WarningDecal_Inst",
+    "EffectParam": {
+      "OutsideRadius": 300,
+      "Angle": 360,
+      "Time": 0.695338,
+      "OnGround": true,
+      "ColorIndex": 0,
+      "Type": 0
+    },
+    "FXPriorityType": 80
+  },
+  "600501": {
+    "EffectId": 600501,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/Gr/NS_GR_Longcao_Attack01_Bullet.NS_GR_Longcao_Attack01_Bullet",
+    "SoundID": 600501,
+    "FXPriorityType": 80
+  },
+  "600502": {
+    "EffectId": 600502,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Common/Monster/NS_hit_mon_dark.NS_hit_mon_dark",
+    "IsHitFX": true,
+    "SoundID": 600502,
+    "FXPriorityType": 40
+  },
+  "600503": {
+    "EffectId": 600503,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/Gr/NS_GR_Longcao_Debuff.NS_GR_Longcao_Debuff",
+    "PlayLocation": [
+      {
+        "socket": "hit1"
+      }
+    ],
+    "DeactiveParam": "Deactive",
+    "DelayDeactiveTime": 0.7,
+    "FXPriorityType": 60
+  },
+  "600504": {
+    "EffectId": 600504,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/Gr/NS_GR_Longcao_Skill01_Bullet.NS_GR_Longcao_Skill01_Bullet",
+    "SoundID": 600501,
+    "FXPriorityType": 80
+  },
+  "600505": {
+    "EffectId": 600505,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/Gr/NS_GR_Longcao_FightIdle02_Loop.NS_GR_Longcao_FightIdle02_Loop",
+    "PlayLocation": [
+      {
+        "socket": "root"
+      }
+    ],
+    "DeactiveParam": "DeadTime",
+    "DelayDeactiveTime": 1,
+    "SoundID": 600505,
+    "FXPriorityType": 80
+  },
+  "600506": {
+    "EffectId": 600506,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Common/Monster/NS_hit_mon_dark.NS_hit_mon_dark",
+    "IsHitFX": true,
+    "FXPriorityType": 40
+  },
+  "601101": {
+    "EffectId": 601101,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/Gr/NS_Gr_Jichong_C01_Skill01_Attack.NS_Gr_Jichong_C01_Skill01_Attack",
+    "PlayLocation": {
+      "socket": "branch_left01_b1"
+    },
+    "TargetLocation": [
+      {
+        "socket": "spine_01"
+      }
+    ],
+    "FXPriorityType": 80
+  },
+  "601201": {
+    "EffectId": 601201,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/Gr/NS_Gr_Youji_C01_Attack01_Bullet.NS_Gr_Youji_C01_Attack01_Bullet",
+    "FXPriorityType": 80
+  },
+  "601202": {
+    "EffectId": 601202,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/Gr/NS_Gr_Youji_C01_Attack01_Boom.NS_Gr_Youji_C01_Attack01_Boom",
+    "IsHitFX": true,
+    "FXPriorityType": 80
+  },
+  "601301": {
+    "EffectId": 601301,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/Gr/NS_piaofu_bubble.NS_piaofu_bubble",
+    "FXPriorityType": 80
+  },
+  "601302": {
+    "EffectId": 601302,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/Gr/NS_piaofu_bubble_Boom.NS_piaofu_bubble_Boom",
+    "NotFollowRotation": true,
+    "FXPriorityType": 80
+  },
+  "700001": {
+    "EffectId": 700001,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/A_Common/NS_Common_Part_Smash.NS_Common_Part_Smash",
+    "PlayLocation": {
+      "socket": "hook_part_front"
+    },
+    "SoundID": 1002,
+    "FXPriorityType": 10
+  },
+  "700002": {
+    "EffectId": 700002,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/A_Common/NS_Common_Part_Smash.NS_Common_Part_Smash",
+    "PlayLocation": {
+      "socket": "hook_part_back"
+    },
+    "SoundID": 1002,
+    "FXPriorityType": 10
+  },
+  "700003": {
+    "EffectId": 700003,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/A_Common/NS_Common_Part_Smash.NS_Common_Part_Smash",
+    "PlayLocation": {
+      "socket": "hook_part_left"
+    },
+    "SoundID": 1002,
+    "FXPriorityType": 10
+  },
+  "700004": {
+    "EffectId": 700004,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/A_Common/NS_Common_Part_Smash.NS_Common_Part_Smash",
+    "PlayLocation": {
+      "socket": "hook_part_right"
+    },
+    "SoundID": 1002,
+    "FXPriorityType": 10
+  },
+  "700006": {
+    "EffectId": 700006,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/A_Common/NS_Common_Part_Smash.NS_Common_Part_Smash",
+    "PlayLocation": {
+      "socket": "hook_part_up01"
+    },
+    "SoundID": 1002,
+    "FXPriorityType": 10
+  },
+  "700007": {
+    "EffectId": 700007,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/A_Common/NS_Common_Part_Smash.NS_Common_Part_Smash",
+    "PlayLocation": {
+      "socket": "xiongjia_f"
+    },
+    "SoundID": 1002,
+    "FXPriorityType": 10
+  },
+  "700008": {
+    "EffectId": 700008,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/A_Common/NS_Common_Part_Smash.NS_Common_Part_Smash",
+    "PlayLocation": {
+      "socket": "xiongjia_b"
+    },
+    "SoundID": 1002,
+    "FXPriorityType": 10
+  },
+  "700009": {
+    "EffectId": 700009,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/A_Common/NS_Common_Part_Smash.NS_Common_Part_Smash",
+    "PlayLocation": {
+      "socket": "jianjia_l"
+    },
+    "SoundID": 1002,
+    "FXPriorityType": 10
+  },
+  "700010": {
+    "EffectId": 700010,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/A_Common/NS_Common_Part_Smash.NS_Common_Part_Smash",
+    "PlayLocation": {
+      "socket": "jianjia_r"
+    },
+    "SoundID": 1002,
+    "FXPriorityType": 10
+  },
+  "700011": {
+    "EffectId": 700011,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/A_Common/NS_Common_Part_Smash.NS_Common_Part_Smash",
+    "SoundID": 1004,
+    "FXPriorityType": 10
+  },
+  "700101": {
+    "EffectId": 700101,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/A_Common/NS_AimlineOn.NS_AimlineOn",
+    "EffectParam": [
+      {
+        "Life": 0.5
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "gunpoint_01"
+      },
+      {
+        "UseWeaponBone": "main"
+      }
+    ],
+    "TargetLocation": [
+      {
+        "socket": "spine_02"
+      }
+    ],
+    "DeactiveParam": "Deactive",
+    "DelayDeactiveTime": 0.7,
+    "FXPriorityType": 80
+  },
+  "700102": {
+    "EffectId": 700102,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/Jt/NS_Capture_Invisible_Smoke.NS_Capture_Invisible_Smoke",
+    "EffectParam": {
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "Location": [
+        0,
+        0,
+        0
+      ]
+    },
+    "SoundID": 700101,
+    "FXPriorityType": 80
+  },
+  "700103": {
+    "EffectId": 700103,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/Jt/NS_Jt_Juji_Bullet.NS_Jt_Juji_Bullet",
+    "FXPriorityType": 80
+  },
+  "700104": {
+    "EffectId": 700104,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/Jt/NS_Jt_Ranger_OpenFire.NS_Jt_Ranger_OpenFire",
+    "EffectParam": {
+      "Rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    "PlayLocation": [
+      {
+        "socket": "gunpoint_01"
+      },
+      {
+        "UseWeaponBone": "main"
+      }
+    ],
+    "FXPriorityType": 80
+  },
+  "700105": {
+    "EffectId": 700105,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/A_Common/NS_AimlineOn.NS_AimlineOn",
+    "EffectParam": {
+      "Life": 0.5,
+      "Rotation": [
+        0,
+        0,
+        45
+      ]
+    },
+    "PlayLocation": [
+      {
+        "socket": "gunpoint_01"
+      },
+      {
+        "UseWeaponBone": "main"
+      }
+    ],
+    "TargetLocation": [
+      {
+        "socket": "pelvis"
+      }
+    ],
+    "DeactiveParam": "Deactive",
+    "DelayDeactiveTime": 0.7,
+    "FXPriorityType": 80
+  },
+  "700301": {
+    "EffectId": 700301,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/Jt/NS_Jt_Ranger_Bullet.NS_Jt_Ranger_Bullet",
+    "FXPriorityType": 80
+  },
+  "700302": {
+    "EffectId": 700302,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/Jt/NS_Jt_Ranger_Hit.NS_Jt_Ranger_Hit",
+    "IsHitFX": true,
+    "FXPriorityType": 40
+  },
+  "700303": {
+    "EffectId": 700303,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/Jt/NS_Jt_Ranger_Grenade_Bullet.NS_Jt_Ranger_Grenade_Bullet",
+    "FXPriorityType": 80
+  },
+  "700304": {
+    "EffectId": 700304,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/Jt/NS_Jt_Ranger_Grenade_Explode.NS_Jt_Ranger_Grenade_Explode",
+    "EffectParam": {
+      "scale": [
+        1.3,
+        1.3,
+        1.3
+      ]
+    },
+    "NotFollowRotation": true,
+    "SoundID": 700311,
+    "FXPriorityType": 80
+  },
+  "700305": {
+    "EffectId": 700305,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/Jt/NS_Jt_Ranger_Landmine_Explode.NS_Jt_Ranger_Landmine_Explode",
+    "EffectParam": {
+      "scale": {}
+    },
+    "FXPriorityType": 80
+  },
+  "700306": {
+    "EffectId": 700306,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/Jt/NS_Jt_Ranger_Landmine.NS_Jt_Ranger_Landmine",
+    "EffectParam": {
+      "Location": {}
+    },
+    "NotFollowRotation": true,
+    "FXPriorityType": 80
+  },
+  "700307": {
+    "EffectId": 700307,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/Jt/NS_Jt_Ranger_LandmineWarning.NS_Jt_Ranger_LandmineWarning",
+    "NotFollowRotation": true,
+    "FXPriorityType": 80
+  },
+  "700308": {
+    "EffectId": 700308,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/A_Common/NS_Thunder_Slow.NS_Thunder_Slow",
+    "PlayLocation": [
+      {
+        "socket": "hit1"
+      }
+    ],
+    "NotFollowRotation": true,
+    "FXPriorityType": 80
+  },
+  "700401": {
+    "EffectId": 700401,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/Jt/NS_Jt_Tuji_HitShield.NS_Jt_Tuji_HitShield",
+    "PlayLocation": {
+      "socket": "root",
+      "UseWeaponBone": "child"
+    },
+    "FXPriorityType": 60
+  },
+  "700501": {
+    "EffectId": 700501,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/Jt/NS_JT_Commander_Buff.NS_JT_Commander_Buff",
+    "PlayLocation": [
+      {
+        "socket": "root"
+      }
+    ],
+    "FXPriorityType": 60
+  },
+  "700502": {
+    "EffectId": 700502,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/Jt/NS_xiaobingBuff_2.NS_xiaobingBuff_2",
+    "PlayLocation": [
+      {
+        "socket": "spine_03"
+      }
+    ],
+    "FXPriorityType": 60
+  },
+  "700601": {
+    "EffectId": 700601,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/Jt/NS_HealRobot_Line.NS_HealRobot_Line",
+    "PlayLocation": {
+      "socket": "Tail01_a"
+    },
+    "TargetLocation": [
+      {
+        "socket": "pelvis"
+      }
+    ],
+    "DeactiveParam": "DeadTime",
+    "DelayDeactiveTime": 0.35,
+    "SoundID": 700202,
+    "FXPriorityType": 60
+  },
+  "700602": {
+    "EffectId": 700602,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/Jt/NS_HealRobot_Heal.NS_HealRobot_Heal",
+    "PlayLocation": [
+      {
+        "socket": "spine_03"
+      }
+    ],
+    "DeactiveParam": "Deactive",
+    "DelayDeactiveTime": 0.7,
+    "FXPriorityType": 60
+  },
+  "700701": {
+    "EffectId": 700701,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/Jt/NS_BlastRobot_Blast.NS_BlastRobot_Blast",
+    "FXPriorityType": 80
+  },
+  "700801": {
+    "EffectId": 700801,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/Jt/NS_JT_Zhihui_Skill01_Bullet.NS_JT_Zhihui_Skill01_Bullet",
+    "FXPriorityType": 80
+  },
+  "700802": {
+    "EffectId": 700802,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/Jt/NS_JT_Zhihui_Skill01_Bullet_Explosion.NS_JT_Zhihui_Skill01_Bullet_Explosion",
+    "SoundID": 700151,
+    "FXPriorityType": 80
+  },
+  "700803": {
+    "EffectId": 700803,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/Jt/NS_JT_Zhihui_Skill04_Bullet.NS_JT_Zhihui_Skill04_Bullet",
+    "FXPriorityType": 80
+  },
+  "700804": {
+    "EffectId": 700804,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/Jt/NS_JT_Zhihui_Skill04_Bullet_Explosion.NS_JT_Zhihui_Skill04_Bullet_Explosion",
+    "FXPriorityType": 80
+  },
+  "700805": {
+    "EffectId": 700805,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/Jt/NS_JT_Zhihui_Skill04_Explosion_NoDeacl.NS_JT_Zhihui_Skill04_Explosion_NoDeacl",
+    "FXPriorityType": 80
+  },
+  "701201": {
+    "EffectId": 701201,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/Jt/NS_Jt_Pizhuo_Buff_Wind.NS_Jt_Pizhuo_Buff_Wind",
+    "NotFollowRotation": true,
+    "FXPriorityType": 60
+  },
+  "701301": {
+    "EffectId": 701301,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/Jt/NS_Jt_Ranger_Bullet_Thunder.NS_Jt_Ranger_Bullet_Thunder",
+    "EffectParam": [
+      {
+        "scale": [
+          1.5,
+          1.5,
+          1.5
+        ]
+      }
+    ],
+    "FXPriorityType": 80
+  },
+  "701302": {
+    "EffectId": 701302,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/Jt/NS_Jt_Ranger_Grenade_Bullet_Thunder.NS_Jt_Ranger_Grenade_Bullet_Thunder",
+    "FXPriorityType": 80
+  },
+  "701303": {
+    "EffectId": 701303,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/Jt/NS_Jt_Ranger_Grenade_Explode_Thunder.NS_Jt_Ranger_Grenade_Explode_Thunder",
+    "FXPriorityType": 80
+  },
+  "701401": {
+    "EffectId": 701401,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/Jt/Ns_jt_Tuji_skill01_Burst_Boom.Ns_jt_Tuji_skill01_Burst_Boom",
+    "FXPriorityType": 40
+  },
+  "800101": {
+    "EffectId": 800101,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/Jt/NS_Jt_Ranger_Bullet.NS_Jt_Ranger_Bullet",
+    "FXPriorityType": 80
+  },
+  "800301": {
+    "EffectId": 800301,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/A_Common/NS_Strong_Shield_Creature.NS_Strong_Shield_Creature",
+    "FXPriorityType": 80
+  },
+  "800302": {
+    "EffectId": 800302,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/Jt/NS_Jt_Ranger_OpenFire.NS_Jt_Ranger_OpenFire",
+    "PlayLocation": [
+      {
+        "socket": "gunpoint_01"
+      },
+      {
+        "UseWeaponBone": "main"
+      }
+    ],
+    "FXPriorityType": 80
+  },
+  "800303": {
+    "EffectId": 800303,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/Jt/NS_Jt_Ranger_Bullet.NS_Jt_Ranger_Bullet",
+    "FXPriorityType": 80
+  },
+  "800304": {
+    "EffectId": 800304,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/Jt/NS_Jt_Ranger_Hit.NS_Jt_Ranger_Hit",
+    "IsHitFX": true,
+    "FXPriorityType": 40
+  },
+  "850001": {
+    "EffectId": 850001,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Common/Monster/NS_knifehit_mon_normal.NS_knifehit_mon_normal",
+    "EffectParam": [
+      {
+        "scale": [
+          1.25,
+          1.25,
+          1.25
+        ]
+      }
+    ],
+    "IsHitFX": true,
+    "FXPriorityType": 90
+  },
+  "850002": {
+    "EffectId": 850002,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Common/Monster/NS_hit_mon_thunder.NS_hit_mon_thunder",
+    "EffectParam": [
+      {
+        "scale": [
+          2,
+          2,
+          2
+        ]
+      }
+    ],
+    "IsHitFX": true,
+    "EffectColor": {},
+    "SoundID": 850002,
+    "FXPriorityType": 90
+  },
+  "850004": {
+    "EffectId": 850004,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Boss/Xibi/NS_Xibi_Skill04_Bullet.NS_Xibi_Skill04_Bullet",
+    "FXPriorityType": 90
+  },
+  "850005": {
+    "EffectId": 850005,
+    "PlayLocation": [
+      {
+        "socket": "spine_02"
+      }
+    ],
+    "FXPriorityType": 90
+  },
+  "850006": {
+    "EffectId": 850006,
+    "FXPriorityType": 90
+  },
+  "850007": {
+    "EffectId": 850007,
+    "SoundID": 850051,
+    "FXPriorityType": 90
+  },
+  "850010": {
+    "EffectId": 850010,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Boss/Xibi/NS_Xibi_Lightning_Hit.NS_Xibi_Lightning_Hit",
+    "FXPriorityType": 90
+  },
+  "850011": {
+    "EffectId": 850011,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Boss/Xibi/NS_Xibi_Hit.NS_Xibi_Hit",
+    "PlayLocation": [
+      {
+        "socket": "spine_02"
+      }
+    ],
+    "SoundID": 850052,
+    "FXPriorityType": 90
+  },
+  "850031": {
+    "EffectId": 850031,
+    "EffectPath": "/Game/Asset/Scene/common/4Mtl/MM_WarningDecal_Inst.MM_WarningDecal_Inst",
+    "EffectParam": {
+      "OutsideRadius": 200,
+      "Angle": 360,
+      "Time": 0.6,
+      "OnGround": true,
+      "ColorIndex": 7,
+      "Type": 0
+    },
+    "FXPriorityType": 90
+  },
+  "850051": {
+    "EffectId": 850051,
+    "EffectParam": [
+      {
+        "scale": [
+          1.25,
+          1.25,
+          1.25
+        ]
+      }
+    ],
+    "SoundID": 850051,
+    "FXPriorityType": 90
+  },
+  "850052": {
+    "EffectId": 850052,
+    "EffectPath": "/Game/Asset/Effect_new/Material/Lightning/m_electircball_yb_001.m_electircball_yb_001",
+    "SoundID": 850051,
+    "FXPriorityType": 90
+  },
+  "850061": {
+    "EffectId": 850061,
+    "EffectPath": "/Game/Asset/Scene/common/4Mtl/MM_WarningDecal_Inst.MM_WarningDecal_Inst",
+    "EffectParam": {
+      "OutsideRadius": 500,
+      "Angle": 360,
+      "Time": 1.2,
+      "OnGround": true,
+      "ColorIndex": 7,
+      "Type": 0
+    },
+    "FXPriorityType": 90
+  },
+  "850062": {
+    "EffectId": 850062,
+    "EffectPath": "/Game/Asset/Scene/common/4Mtl/MM_WarningDecal_Inst.MM_WarningDecal_Inst",
+    "EffectParam": {
+      "InnerRadius": 500,
+      "OutsideRadius": 1000,
+      "Angle": 360,
+      "Time": 1.2,
+      "OnGround": true,
+      "ColorIndex": 7,
+      "Type": 0
+    },
+    "FXPriorityType": 90
+  },
+  "850063": {
+    "EffectId": 850063,
+    "EffectPath": "/Game/Asset/Scene/common/4Mtl/MM_WarningDecal_Inst.MM_WarningDecal_Inst",
+    "EffectParam": {
+      "InnerRadius": 1000,
+      "OutsideRadius": 1500,
+      "Angle": 360,
+      "Time": 1.2,
+      "OnGround": true,
+      "ColorIndex": 7,
+      "Type": 0
+    },
+    "FXPriorityType": 90
+  },
+  "850081": {
+    "EffectId": 850081,
+    "EffectPath": "/Game/Asset/Scene/common/4Mtl/MM_WarningDecal_Inst.MM_WarningDecal_Inst",
+    "EffectParam": {
+      "OutsideRadius": 300,
+      "Angle": 360,
+      "Time": 1.33,
+      "OnGround": true,
+      "ColorIndex": 7,
+      "Type": 0
+    },
+    "FXPriorityType": 90
+  },
+  "850101": {
+    "EffectId": 850101,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Boss/Lizhanzhe/NS_Boss_Lizhanzhe_Skill03_Bullet.NS_Boss_Lizhanzhe_Skill03_Bullet",
+    "DeactiveParam": "DeadTime",
+    "SoundID": 850102,
+    "FXPriorityType": 90
+  },
+  "850102": {
+    "EffectId": 850102,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Boss/Lizhanzhe/NS_Boss_Lizhanzhe_Skill03_Explode.NS_Boss_Lizhanzhe_Skill03_Explode",
+    "SoundID": 850103,
+    "FXPriorityType": 90
+  },
+  "850103": {
+    "EffectId": 850103,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Boss/Lizhanzhe/NS_Boss_Lizhanzhe_Skill03_Explode.NS_Boss_Lizhanzhe_Skill03_Explode",
+    "IsHitFX": true,
+    "SoundID": 850103,
+    "FXPriorityType": 90
+  },
+  "850104": {
+    "EffectId": 850104,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Boss/Lizhanzhe/NS_Boss_Lizhanzhe_Skill05_knife_bullet.NS_Boss_Lizhanzhe_Skill05_knife_bullet",
+    "DeactiveParam": "DeadTime",
+    "FXPriorityType": 90
+  },
+  "850105": {
+    "EffectId": 850105,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Boss/Lizhanzhe/NS_Boss_Lizhanzhe_Skill05_knife_ground.NS_Boss_Lizhanzhe_Skill05_knife_ground",
+    "NotFollowRotation": true,
+    "SoundID": 850104,
+    "FXPriorityType": 90
+  },
+  "850106": {
+    "EffectId": 850106,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Boss/Lizhanzhe/NS_Boss_Lizhanzhe_Skill05_knife_ground.NS_Boss_Lizhanzhe_Skill05_knife_ground",
+    "IsHitFX": true,
+    "SoundID": 850104,
+    "FXPriorityType": 90
+  },
+  "850107": {
+    "EffectId": 850107,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Boss/Lizhanzhe/NS_Boss_Lizhanzhe_Skill10_Burst.NS_Boss_Lizhanzhe_Skill10_Burst",
+    "NotFollowRotation": true,
+    "SoundID": 850106,
+    "FXPriorityType": 90
+  },
+  "850108": {
+    "EffectId": 850108,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Boss/Lizhanzhe/NS_Boss_Lizhanzhe_Skill10_Bullet.NS_Boss_Lizhanzhe_Skill10_Bullet",
+    "DeactiveParam": "DeadTime",
+    "SoundID": 850105,
+    "FXPriorityType": 90
+  },
+  "850201": {
+    "EffectId": 850201,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Boss/Saiqi/NS_Boss_Saiqi_Skill02_Weapon.NS_Boss_Saiqi_Skill02_Weapon",
+    "DeactiveParam": "Deactive",
+    "DelayDeactiveTime": 0.4,
+    "SoundID": 850221,
+    "FXPriorityType": 90
+  },
+  "850202": {
+    "EffectId": 850202,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Boss/Saiqi/NS_Boss_Saiqi_Skill03_BulletWind.NS_Boss_Saiqi_Skill03_BulletWind",
+    "SoundID": 850231,
+    "FXPriorityType": 90
+  },
+  "850203": {
+    "EffectId": 850203,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Boss/Saiqi/NS_Boss_Saiqi_Skill06_Bullet.NS_Boss_Saiqi_Skill06_Bullet",
+    "DeactiveParam": "DeadTime",
+    "SoundID": 850261,
+    "FXPriorityType": 90
+  },
+  "850204": {
+    "EffectId": 850204,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Boss/Saiqi/NS_Boss_Saiqi_Skill07_tornado.NS_Boss_Saiqi_Skill07_tornado",
+    "EffectParam": {
+      "Life": 999,
+      "scale": {}
+    },
+    "DeactiveParam": "DeadTime",
+    "DelayDeactiveTime": 1,
+    "SoundID": 850271,
+    "FXPriorityType": 90
+  },
+  "850205": {
+    "EffectId": 850205,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Boss/Saiqi/NS_Boss_Saiqi_Skill10_Wave.NS_Boss_Saiqi_Skill10_Wave",
+    "SoundID": 850293,
+    "FXPriorityType": 90
+  },
+  "850206": {
+    "EffectId": 850206,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Boss/Saiqi/NS_Boss_Saiqi_Skill10_WeaponFall.NS_Boss_Saiqi_Skill10_WeaponFall",
+    "NotFollowRotation": true,
+    "DeactiveParam": "DeadTime",
+    "SoundID": 850291,
+    "FXPriorityType": 90
+  },
+  "850207": {
+    "EffectId": 850207,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Boss/Saiqi/NS_Boss_Saiqi_Skill08_Start.NS_Boss_Saiqi_Skill08_Start",
+    "NotFollowRotation": true,
+    "DeactiveParam": "DeadTime",
+    "DelayDeactiveTime": 1,
+    "SoundID": 850281,
+    "FXPriorityType": 90
+  },
+  "850209": {
+    "EffectId": 850209,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Boss/Saiqi/NS_Boss_Saiqi_WingsTarget.NS_Boss_Saiqi_WingsTarget",
+    "PlayLocation": {
+      "socket": "wing_right_01"
+    },
+    "FXPriorityType": 90
+  },
+  "850210": {
+    "EffectId": 850210,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Boss/Saiqi/NS_Boss_Saiqi_WingsTarget.NS_Boss_Saiqi_WingsTarget",
+    "PlayLocation": {
+      "socket": "wing_left_01"
+    },
+    "FXPriorityType": 90
+  },
+  "850211": {
+    "EffectId": 850211,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Boss/Saiqi/NS_Boss_Saiqi_WingsTarget.NS_Boss_Saiqi_WingsTarget",
+    "PlayLocation": {
+      "socket": "wing_left_02"
+    },
+    "FXPriorityType": 90
+  },
+  "850212": {
+    "EffectId": 850212,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Boss/Saiqi/NS_Boss_Saiqi_WingsTarget.NS_Boss_Saiqi_WingsTarget",
+    "PlayLocation": {
+      "socket": "wing_right_02"
+    },
+    "FXPriorityType": 90
+  },
+  "850213": {
+    "EffectId": 850213,
+    "SoundID": 850271,
+    "FXPriorityType": 90
+  },
+  "850301": {
+    "EffectId": 850301,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Boss/Shijingzhe/NS_Boss_Shijingzhe_Skill08_Crystal_BurstStart.NS_Boss_Shijingzhe_Skill08_Crystal_BurstStart",
+    "NotFollowRotation": true,
+    "CustomDepthValue": 2,
+    "FXPriorityType": 90
+  },
+  "850302": {
+    "EffectId": 850302,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Boss/Shijingzhe/NS_Boss_Shijingzhe_Skill12_Crystal.NS_Boss_Shijingzhe_Skill12_Crystal",
+    "DeactiveParam": "DeadTime",
+    "DelayDeactiveTime": 1,
+    "SoundID": 850303,
+    "FXPriorityType": 90
+  },
+  "850303": {
+    "EffectId": 850303,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/A_Common/NS_Strong_Shield_Creature.NS_Strong_Shield_Creature",
+    "EffectParam": {
+      "scale": {}
+    },
+    "FXPriorityType": 90
+  },
+  "850304": {
+    "EffectId": 850304,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Boss/Shijingzhe/NS_Boss_Shijingzhe_Skill09_Crystal_BurstStart.NS_Boss_Shijingzhe_Skill09_Crystal_BurstStart",
+    "NotFollowRotation": true,
+    "CustomDepthValue": 2,
+    "FXPriorityType": 90
+  },
+  "850305": {
+    "EffectId": 850305,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Boss/Shijingzhe/NS_Boss_Shijingzhe_Skill10_Danmaku.NS_Boss_Shijingzhe_Skill10_Danmaku",
+    "DeactiveParam": "Deactive",
+    "DelayDeactiveTime": 2,
+    "SoundID": 850305,
+    "FXPriorityType": 90
+  },
+  "850306": {
+    "EffectId": 850306,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Boss/Shijingzhe/NS_Boss_Shijingzhe_Skill10_Pre.NS_Boss_Shijingzhe_Skill10_Pre",
+    "PlayLocation": {
+      "socket": "Stage2Crystal"
+    },
+    "FXPriorityType": 90
+  },
+  "850307": {
+    "EffectId": 850307,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Boss/Shijingzhe/NS_Boss_Shijingzhe_Breaks.NS_Boss_Shijingzhe_Breaks",
+    "PlayLocation": {
+      "socket": "shawl_left01_a"
+    },
+    "NotFollowRotation": true,
+    "SoundID": 850324,
+    "FXPriorityType": 90
+  },
+  "850308": {
+    "EffectId": 850308,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Boss/Shijingzhe/NS_Boss_Shijingzhe_Breaks.NS_Boss_Shijingzhe_Breaks",
+    "PlayLocation": {
+      "socket": "shawl_right01_a"
+    },
+    "NotFollowRotation": true,
+    "SoundID": 850324,
+    "FXPriorityType": 90
+  },
+  "850309": {
+    "EffectId": 850309,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Boss/Shijingzhe/NS_Boss_Shijingzhe_Breaks_Right.NS_Boss_Shijingzhe_Breaks_Right",
+    "EffectParam": [
+      {
+        "Location": [
+          120,
+          0,
+          0
+        ]
+      }
+    ],
+    "PlayLocation": {
+      "socket": "calf_left01_a"
+    },
+    "NotFollowRotation": true,
+    "SoundID": 850324,
+    "FXPriorityType": 90
+  },
+  "850310": {
+    "EffectId": 850310,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Boss/Shijingzhe/NS_Boss_Shijingzhe_Breaks_Right.NS_Boss_Shijingzhe_Breaks_Right",
+    "EffectParam": [
+      {
+        "Location": [
+          120,
+          0,
+          0
+        ]
+      }
+    ],
+    "PlayLocation": {
+      "socket": "calf_right01_a"
+    },
+    "NotFollowRotation": true,
+    "SoundID": 850324,
+    "FXPriorityType": 90
+  },
+  "850311": {
+    "EffectId": 850311,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Boss/Shijingzhe/NS_Boss_Shijingzhe_Skill10_Burst.NS_Boss_Shijingzhe_Skill10_Burst",
+    "PlayLocation": [
+      {
+        "socket": "hit1"
+      }
+    ],
+    "SoundID": 850304,
+    "FXPriorityType": 90
+  },
+  "850312": {
+    "EffectId": 850312,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Common/Player/NS_gunhit_char_01.NS_gunhit_char_01",
+    "EffectParam": [
+      {
+        "scale": [
+          1.35,
+          1.35,
+          1.35
+        ]
+      }
+    ],
+    "IsHitFX": true,
+    "EffectColor": [
+      1,
+      0.778,
+      0.138
+    ],
+    "FXPriorityType": 90
+  },
+  "850313": {
+    "EffectId": 850313,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Common/Player/NS_gunhit_char_01.NS_gunhit_char_01",
+    "EffectParam": [
+      {
+        "scale": [
+          1.35,
+          1.35,
+          1.35
+        ]
+      }
+    ],
+    "IsHitFX": true,
+    "EffectColor": [
+      1,
+      0.778,
+      0.138
+    ],
+    "SoundID": 850306,
+    "FXPriorityType": 90
+  },
+  "850314": {
+    "EffectId": 850314,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Boss/Shijingzhe/NS_Boss_Condemn_Light.NS_Boss_Condemn_Light",
+    "PlayLocation": {
+      "socket": "tongue_01_c"
+    },
+    "NotFollowRotation": true,
+    "FXPriorityType": 90
+  },
+  "850315": {
+    "EffectId": 850315,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Boss/Shijingzhe/NS_Boss_Shijingzhe_Skill08_Crystal_BurstEnd.NS_Boss_Shijingzhe_Skill08_Crystal_BurstEnd",
+    "NotFollowRotation": true,
+    "SoundID": 850302,
+    "CustomDepthValue": 2,
+    "FXPriorityType": 90
+  },
+  "850316": {
+    "EffectId": 850316,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Boss/Shijingzhe/NS_Boss_Shijingzhe_Skill09_Crystal_BurstEnd.NS_Boss_Shijingzhe_Skill09_Crystal_BurstEnd",
+    "NotFollowRotation": true,
+    "SoundID": 850311,
+    "CustomDepthValue": 2,
+    "FXPriorityType": 90
+  },
+  "850317": {
+    "EffectId": 850317,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Boss/Shijingzhe/NS_Boss_Shijingzhe_Skill10_Circle1.NS_Boss_Shijingzhe_Skill10_Circle1",
+    "EffectParam": {
+      "Rotation": [
+        0,
+        0,
+        180
+      ],
+      "Location": {},
+      "OnGround": true
+    },
+    "PlayLocation": [
+      {
+        "socket": "root"
+      }
+    ],
+    "SoundID": 850307,
+    "FXPriorityType": 90
+  },
+  "850318": {
+    "EffectId": 850318,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Boss/Shijingzhe/NS_Boss_Shijingzhe_Skill10_Circle2.NS_Boss_Shijingzhe_Skill10_Circle2",
+    "EffectParam": {
+      "Rotation": [
+        0,
+        0,
+        180
+      ],
+      "Location": {},
+      "OnGround": true
+    },
+    "PlayLocation": [
+      {
+        "socket": "root"
+      }
+    ],
+    "SoundID": 850308,
+    "FXPriorityType": 90
+  },
+  "850319": {
+    "EffectId": 850319,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Boss/Shijingzhe/NS_Boss_Shijingzhe_Skill10_Circle3.NS_Boss_Shijingzhe_Skill10_Circle3",
+    "EffectParam": {
+      "Rotation": [
+        0,
+        0,
+        180
+      ],
+      "Location": {},
+      "OnGround": true
+    },
+    "PlayLocation": [
+      {
+        "socket": "root"
+      }
+    ],
+    "SoundID": 850309,
+    "FXPriorityType": 90
+  },
+  "850320": {
+    "EffectId": 850320,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Boss/Shijingzhe/NS_Boss_Shijingzhe_Skill10_PlayerBurst.NS_Boss_Shijingzhe_Skill10_PlayerBurst",
+    "IsHitFX": true,
+    "FXPriorityType": 90
+  },
+  "850321": {
+    "EffectId": 850321,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Boss/Shijingzhe/Yundonghui/NS_Boss_Shijingzhe_Skill14_Crystal.NS_Boss_Shijingzhe_Skill14_Crystal",
+    "EffectParam": [
+      {
+        "scale": [
+          1.5,
+          1.5,
+          1.5
+        ]
+      }
+    ],
+    "DeactiveParam": "DeadTime",
+    "DelayDeactiveTime": 0.2,
+    "SoundID": 850318,
+    "FXPriorityType": 70
+  },
+  "850322": {
+    "EffectId": 850322,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Boss/Shijingzhe/Yundonghui/Boss_Shijingzhe_Skill14_Invincible.Boss_Shijingzhe_Skill14_Invincible",
+    "EffectParam": {
+      "scale": [
+        1.4,
+        1.4,
+        1.4
+      ]
+    },
+    "PlayLocation": [
+      {
+        "socket": "root"
+      }
+    ],
+    "NotFollowRotation": true,
+    "DeactiveParam": "DeadTime",
+    "DelayDeactiveTime": 1,
+    "SoundID": 850314,
+    "FXPriorityType": 70
+  },
+  "850323": {
+    "EffectId": 850323,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Boss/Shijingzhe/Yundonghui/Boss_Shijingzhe_Skill14_PillarAppear.Boss_Shijingzhe_Skill14_PillarAppear",
+    "NotFollowRotation": true,
+    "SoundID": 850312,
+    "FXPriorityType": 70
+  },
+  "850401": {
+    "EffectId": 850401,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Boss/Saiqi02/NS_Boss_Saiqi02_Tornado.NS_Boss_Saiqi02_Tornado",
+    "SoundID": 850419,
+    "FXPriorityType": 90
+  },
+  "850402": {
+    "EffectId": 850402,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Boss/Saiqi02/NS_Boss_Saiqi02_Skill10_Windblade02.NS_Boss_Saiqi02_Skill10_Windblade02",
+    "SoundID": 850411,
+    "FXPriorityType": 90
+  },
+  "850403": {
+    "EffectId": 850403,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Boss/Saiqi02/NS_Boss_Saiqi02_Skill10_Windblade.NS_Boss_Saiqi02_Skill10_Windblade",
+    "SoundID": 850412,
+    "FXPriorityType": 90
+  },
+  "850404": {
+    "EffectId": 850404,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Boss/Saiqi02/NS_Boss_Saiqi02_Skill11_Windblade.NS_Boss_Saiqi02_Skill11_Windblade",
+    "SoundID": 850414,
+    "FXPriorityType": 90
+  },
+  "850405": {
+    "EffectId": 850405,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Saiqi/NS_Saiqi_Skill01_InBuff.NS_Saiqi_Skill01_InBuff",
+    "EffectParam": [
+      {
+        "scale": [
+          2,
+          2,
+          2
+        ]
+      }
+    ],
+    "SoundID": 850403,
+    "FXPriorityType": 90
+  },
+  "850406": {
+    "EffectId": 850406,
+    "SoundID": 850417,
+    "FXPriorityType": 90
+  },
+  "850407": {
+    "EffectId": 850407,
+    "SoundID": 850401,
+    "FXPriorityType": 90
+  },
+  "850408": {
+    "EffectId": 850408,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Boss/Saiqi/NS_Boss_Saiqi_Skill06_Bullet.NS_Boss_Saiqi_Skill06_Bullet",
+    "DeactiveParam": "DeadTime",
+    "SoundID": 850422,
+    "FXPriorityType": 90
+  },
+  "850501": {
+    "EffectId": 850501,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Boss/LianHuo/NS_Boss_LianHuo_Skill05_FireBall.NS_Boss_LianHuo_Skill05_FireBall",
+    "SoundID": 850501,
+    "FXPriorityType": 90
+  },
+  "850502": {
+    "EffectId": 850502,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Boss/LianHuo/NS_Boss_LianHuo_Skill03_Buff.NS_Boss_LianHuo_Skill03_Buff",
+    "PlayLocation": [
+      {
+        "socket": "spine_03"
+      }
+    ],
+    "DeactiveParam": "DeadTime",
+    "FXPriorityType": 90
+  },
+  "850503": {
+    "EffectId": 850503,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Boss/LianHuo/NS_Boss_LianHuo_Skill10_Bullet.NS_Boss_LianHuo_Skill10_Bullet",
+    "EffectParam": {
+      "Location": {}
+    },
+    "FXPriorityType": 90
+  },
+  "850504": {
+    "EffectId": 850504,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Boss/LianHuo/NS_Boss_LianHuo_Skill06_YanZhu.NS_Boss_LianHuo_Skill06_YanZhu",
+    "SoundID": 850503,
+    "FXPriorityType": 90
+  },
+  "850505": {
+    "EffectId": 850505,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Boss/LianHuo/NS_Boss_LianHuo_Skill06_HuoChi.NS_Boss_LianHuo_Skill06_HuoChi",
+    "FXPriorityType": 90
+  },
+  "850506": {
+    "EffectId": 850506,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Boss/LianHuo/NS_Boss_LianHuo_Skill08_Burst.NS_Boss_LianHuo_Skill08_Burst",
+    "EffectParam": {
+      "Location": {}
+    },
+    "SoundID": 850511,
+    "FXPriorityType": 90
+  },
+  "850507": {
+    "EffectId": 850507,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/Gr/NS_Gr_Youji_C01_Attack01_Bullet.NS_Gr_Youji_C01_Attack01_Bullet",
+    "SoundID": 850509,
+    "FXPriorityType": 90
+  },
+  "850511": {
+    "EffectId": 850511,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Boss/LianHuo/NS_Boss_LianHuo_Skill05_FireBall.NS_Boss_LianHuo_Skill05_FireBall",
+    "SoundID": 850502,
+    "FXPriorityType": 90
+  },
+  "900001": {
+    "EffectId": 900001,
+    "EffectPath": "/Game/Asset/Scene/common/4Mtl/MM_WarningDecal_Inst.MM_WarningDecal_Inst",
+    "EffectParam": {
+      "OutsideRadius": 300,
+      "Angle": 360,
+      "Time": 0.51,
+      "OnGround": true,
+      "ColorIndex": 0,
+      "Type": 0
+    }
+  },
+  "900002": {
+    "EffectId": 900002,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Monster_catch.NS_Monster_catch",
+    "EffectParam": {
+      "Location": [
+        0,
+        0,
+        20
+      ]
+    },
+    "PlayLocation": [
+      {
+        "socket": "root"
+      }
+    ],
+    "FXPriorityType": 98
+  },
+  "900003": {
+    "EffectId": 900003,
+    "PlayLocation": [
+      {
+        "socket": "spine_03"
+      }
+    ]
+  },
+  "900004": {
+    "EffectId": 900004,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/A_Common/NS_Serum_DissolveParticle.NS_Serum_DissolveParticle",
+    "SoundID": 208,
+    "FXPriorityType": 55
+  },
+  "900005": {
+    "EffectId": 900005,
+    "EffectPath": "/Game/Asset/Scene/common/4Mtl/MM_WarningDecal_Inst.MM_WarningDecal_Inst",
+    "EffectParam": {
+      "OutsideRadius": 300,
+      "Angle": 360,
+      "Time": 1.9,
+      "OnGround": true,
+      "ColorIndex": 0,
+      "Type": 0
+    }
+  },
+  "900006": {
+    "EffectId": 900006,
+    "PlayLocation": {
+      "socket": "ik_hand_r"
+    }
+  },
+  "900007": {
+    "EffectId": 900007,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Scene/Common/NS_Excavation_MapCircle.NS_Excavation_MapCircle",
+    "PlayLocation": [
+      {
+        "socket": "pelvis"
+      }
+    ],
+    "NotFollowRotation": true,
+    "FXPriorityType": 98
+  },
+  "900009": {
+    "EffectId": 900009,
+    "EffectPath": "/Game/Asset/Scene/common/4Mtl/MM_WarningDecal_Inst.MM_WarningDecal_Inst",
+    "EffectParam": {
+      "OutsideRadius": 300,
+      "Angle": 360,
+      "Time": 2,
+      "OnGround": true,
+      "ColorIndex": 0,
+      "Type": 0
+    }
+  },
+  "900010": {
+    "EffectId": 900010,
+    "EffectParam": [
+      {
+        "color": [
+          0.25,
+          0.75,
+          1,
+          1
+        ]
+      }
+    ]
+  },
+  "900011": {
+    "EffectId": 900011,
+    "EffectParam": [
+      {
+        "color": [
+          0.25,
+          0.75,
+          1,
+          1
+        ]
+      }
+    ]
+  },
+  "900012": {
+    "EffectId": 900012,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Scene/Common/NS_Med_Interactive",
+    "EffectParam": {
+      "Rotation": [
+        0,
+        0,
+        0
+      ],
+      "Location": [
+        0,
+        82.9,
+        258
+      ]
+    },
+    "PlayLocation": [
+      {
+        "socket": "root"
+      }
+    ],
+    "SoundID": 209
+  },
+  "900013": {
+    "EffectId": 900013,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Scene/Common/NS_Med_Working_01",
+    "EffectParam": {
+      "Rotation": {},
+      "Location": [
+        0,
+        82.9,
+        258
+      ]
+    },
+    "PlayLocation": [
+      {
+        "socket": "root"
+      }
+    ],
+    "FXPriorityType": 98
+  },
+  "900014": {
+    "EffectId": 900014,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Scene/Common/NS_Med_Working_02",
+    "PlayLocation": [
+      {
+        "socket": "root"
+      }
+    ],
+    "FXPriorityType": 98
+  },
+  "900015": {
+    "EffectId": 900015,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Scene/Common/NS_Med_Working_03",
+    "EffectParam": {
+      "Rotation": {},
+      "Location": {}
+    },
+    "PlayLocation": [
+      {
+        "socket": "root"
+      }
+    ],
+    "FXPriorityType": 98
+  },
+  "900016": {
+    "EffectId": 900016,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Scene/Common/NS_Med_Full",
+    "EffectParam": {
+      "Rotation": {}
+    },
+    "PlayLocation": {
+      "socket": "Petal01_a"
+    },
+    "FXPriorityType": 98
+  },
+  "900017": {
+    "EffectId": 900017,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Scene/Common/NS_Med_Full",
+    "EffectParam": {
+      "Rotation": {}
+    },
+    "PlayLocation": {
+      "socket": "Petal02_a"
+    }
+  },
+  "900018": {
+    "EffectId": 900018,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Scene/Common/NS_Med_Full",
+    "EffectParam": {
+      "Rotation": {}
+    },
+    "PlayLocation": {
+      "socket": "Petal03_a"
+    }
+  },
+  "900019": {
+    "EffectId": 900019,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Scene/Common/NS_Med_Full",
+    "EffectParam": {
+      "Rotation": {}
+    },
+    "PlayLocation": {
+      "socket": "Petal04_a"
+    }
+  },
+  "900020": {
+    "EffectId": 900020,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Scene/Common/NS_Kongzhitai_Diguo_Interactive.NS_Kongzhitai_Diguo_Interactive",
+    "EffectParam": [
+      {
+        "Rotation": [
+          0,
+          0,
+          -90
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "root"
+      }
+    ],
+    "FXPriorityType": 55
+  },
+  "900021": {
+    "EffectId": 900021,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Scene/Common/NS_Kongzhitai_Diguo_Active.NS_Kongzhitai_Diguo_Active",
+    "EffectParam": [
+      {
+        "Rotation": [
+          0,
+          0,
+          -90
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "root"
+      }
+    ],
+    "FXPriorityType": 98
+  },
+  "900022": {
+    "EffectId": 900022,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Scene/Common/NS_Kongzhitai_Diguo_Running.NS_Kongzhitai_Diguo_Running",
+    "EffectParam": [
+      {
+        "Rotation": [
+          0,
+          0,
+          -90
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "root"
+      }
+    ],
+    "FXPriorityType": 98
+  },
+  "900023": {
+    "EffectId": 900023,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Scene/Prologue/NS_Kongzhitai_Prologue_Interactive.NS_Kongzhitai_Prologue_Interactive",
+    "PlayLocation": [
+      {
+        "socket": "root"
+      }
+    ],
+    "FXPriorityType": 55
+  },
+  "900024": {
+    "EffectId": 900024,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Scene/Prologue/NS_Kongzhitai_Prologue_Active.NS_Kongzhitai_Prologue_Active",
+    "PlayLocation": [
+      {
+        "socket": "root"
+      }
+    ],
+    "FXPriorityType": 98
+  },
+  "900025": {
+    "EffectId": 900025,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Scene/Prologue/NS_Kongzhitai_Prologue_Running.NS_Kongzhitai_Prologue_Running",
+    "PlayLocation": [
+      {
+        "socket": "root"
+      }
+    ],
+    "FXPriorityType": 98
+  },
+  "900026": {
+    "EffectId": 900026,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Scene/Common/NS_Scene_Baolie_Explode.NS_Scene_Baolie_Explode",
+    "PlayLocation": [
+      {
+        "socket": "root"
+      }
+    ],
+    "FXPriorityType": 98
+  },
+  "900027": {
+    "EffectId": 900027,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Scene/Common/NS_Fou01_Bling.NS_Fou01_Bling",
+    "EffectParam": {
+      "Location": {}
+    },
+    "PlayLocation": [
+      {
+        "socket": "root"
+      }
+    ]
+  },
+  "900028": {
+    "EffectId": 900028,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Scene/Common/NS_Harvest_Explode.NS_Harvest_Explode",
+    "EffectParam": {
+      "Location": [
+        0,
+        0,
+        50
+      ],
+      "scale": [
+        1.5,
+        1.5,
+        1.5
+      ],
+      "color": [
+        0.58,
+        0.85,
+        1,
+        1
+      ]
+    },
+    "PlayLocation": [
+      {
+        "socket": "root"
+      }
+    ],
+    "FXPriorityType": 55
+  },
+  "900029": {
+    "EffectId": 900029,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Scene/Common/NS_Harvest_Bling.NS_Harvest_Bling",
+    "EffectParam": [
+      {
+        "Location": [
+          0,
+          -10,
+          20
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "root"
+      }
+    ]
+  },
+  "900030": {
+    "EffectId": 900030,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Scene/Common/NS_Harvest_BlingRare.NS_Harvest_BlingRare",
+    "EffectParam": [
+      {
+        "Location": [
+          0,
+          -10,
+          20
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "root"
+      }
+    ]
+  },
+  "900031": {
+    "EffectId": 900031,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Scene/Common/NS_Harvest_Explode.NS_Harvest_Explode",
+    "EffectParam": {
+      "Location": [
+        -5,
+        -45,
+        25
+      ],
+      "scale": [
+        1.5,
+        1.5,
+        1.5
+      ],
+      "color": [
+        0.58,
+        0.85,
+        1,
+        1
+      ]
+    },
+    "PlayLocation": [
+      {
+        "socket": "root"
+      }
+    ]
+  },
+  "900032": {
+    "EffectId": 900032,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Scene/Common/NS_Harvest_Bling.NS_Harvest_Bling",
+    "EffectParam": {
+      "Location": {},
+      "Rotation": [
+        0,
+        0,
+        40
+      ]
+    },
+    "PlayLocation": [
+      {
+        "socket": "root"
+      }
+    ],
+    "FXPriorityType": 98
+  },
+  "900033": {
+    "EffectId": 900033,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Scene/Common/NS_TrainingEntrance_Idle.NS_TrainingEntrance_Idle",
+    "EffectParam": {
+      "Location": [
+        90,
+        0,
+        0
+      ],
+      "Rotation": [
+        0,
+        90,
+        0
+      ]
+    },
+    "PlayLocation": {
+      "socket": "Mesh"
+    },
+    "FXPriorityType": 98
+  },
+  "900034": {
+    "EffectId": 900034,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Scene/Common/NS_Harvest_Explode.NS_Harvest_Explode",
+    "EffectParam": {
+      "Location": [
+        -5,
+        -45,
+        25
+      ],
+      "scale": [
+        1.5,
+        1.5,
+        1.5
+      ],
+      "color": {}
+    },
+    "PlayLocation": [
+      {
+        "socket": "root"
+      }
+    ]
+  },
+  "900035": {
+    "EffectId": 900035,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Pet/NS_PetDefence_lock.NS_PetDefence_lock",
+    "PlayLocation": [
+      {
+        "socket": "root"
+      }
+    ],
+    "FXPriorityType": 98
+  },
+  "900036": {
+    "EffectId": 900036,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Pet/NS_PetDefence_Unlock.NS_PetDefence_Unlock",
+    "PlayLocation": [
+      {
+        "socket": "root"
+      }
+    ],
+    "FXPriorityType": 55
+  },
+  "900037": {
+    "EffectId": 900037,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Cannon/NS_Chixing_Explode.NS_Chixing_Explode",
+    "EffectParam": [
+      {
+        "Rotation": [
+          0,
+          90,
+          0
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "root"
+      }
+    ],
+    "ChangeColorByChar": true,
+    "SoundID": 900001,
+    "FXPriorityType": 90
+  },
+  "900301": {
+    "EffectId": 900301,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/Sq/NS_SQ_Wanju_Halo.NS_SQ_Wanju_Halo",
+    "NotFollowRotation": true,
+    "DeactiveParam": "Deactive",
+    "DelayDeactiveTime": 0.5,
+    "FXPriorityType": 80
+  },
+  "900302": {
+    "EffectId": 900302,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/Sq/NS_SQ_Wanju_Halo_Buff.NS_SQ_Wanju_Halo_Buff",
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "NotFollowRotation": true,
+    "DeactiveParam": "Deactive",
+    "DelayDeactiveTime": 0.5,
+    "FXPriorityType": 80
+  },
+  "900303": {
+    "EffectId": 900303,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/Sq/NS_SQ_Wanju_Skill02_Buff.NS_SQ_Wanju_Skill02_Buff",
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "NotFollowRotation": true,
+    "DeactiveParam": "Deactive",
+    "DelayDeactiveTime": 0.5,
+    "FXPriorityType": 80
+  },
+  "900401": {
+    "EffectId": 900401,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/Sq/NS_SQ_Wanju_Sum01_Buff.NS_SQ_Wanju_Sum01_Buff",
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "NotFollowRotation": true,
+    "DeactiveParam": "Deactive",
+    "DelayDeactiveTime": 0.5,
+    "FXPriorityType": 80
+  },
+  "900402": {
+    "EffectId": 900402,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/Sq/NS_SQ_Wanju_Sum01_Attack01_Bullet.NS_SQ_Wanju_Sum01_Attack01_Bullet",
+    "FXPriorityType": 80
+  },
+  "900403": {
+    "EffectId": 900403,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Common/Monster/NS_gunhit_mon_01.NS_gunhit_mon_01",
+    "IsHitFX": true,
+    "FXPriorityType": 80
+  },
+  "900404": {
+    "EffectId": 900404,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/Sq/NS_SQ_Wanju_Sum01_Skill01_Bullet.NS_SQ_Wanju_Sum01_Skill01_Bullet",
+    "SoundID": 900401,
+    "FXPriorityType": 80
+  },
+  "900405": {
+    "EffectId": 900405,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/Sq/NS_SQ_Wanju_Sum01_Skill01_Explode.NS_SQ_Wanju_Sum01_Skill01_Explode",
+    "NotFollowRotation": true,
+    "SoundID": 900402,
+    "FXPriorityType": 40
+  },
+  "900406": {
+    "EffectId": 900406,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/Gr/NS_Gr_Piaofu_Skill01_Hit.NS_Gr_Piaofu_Skill01_Hit",
+    "IsHitFX": true,
+    "FXPriorityType": 80
+  },
+  "900407": {
+    "EffectId": 900407,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/Sq/NS_SQ_Wanju_Sum01_Birth.NS_SQ_Wanju_Sum01_Birth",
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "FXPriorityType": 10
+  },
+  "900501": {
+    "EffectId": 900501,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/Sq/NS_SQ_Baozha_Skill01_Bomb.NS_SQ_Baozha_Skill01_Bomb",
+    "SoundID": 900501,
+    "FXPriorityType": 80
+  },
+  "900502": {
+    "EffectId": 900502,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/Sq/NS_SQ_Baozha_Skill01_Burst.NS_SQ_Baozha_Skill01_Burst",
+    "SoundID": 900502,
+    "FXPriorityType": 80
+  },
+  "900601": {
+    "EffectId": 900601,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/Sq/NS_SQ_Qizha_Skill04_Cast02.NS_SQ_Qizha_Skill04_Cast02",
+    "EffectParam": [
+      {
+        "Location": [
+          0,
+          0,
+          -2
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "SoundID": 900615,
+    "FXPriorityType": 80
+  },
+  "950001": {
+    "EffectId": 950001,
+    "EffectPath": "/Game/Asset/Effect/Niagara/NPC/Dajie/NS_NE_Dajie_Bullet.NS_NE_Dajie_Bullet",
+    "FXPriorityType": 10
+  },
+  "950002": {
+    "EffectId": 950002,
+    "EffectPath": "/Game/Asset/Effect/Niagara/NPC/Dajie/NS_NE_Dajie_Colorful02.NS_NE_Dajie_Colorful02",
+    "EffectParam": [
+      {
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "PlayLocation": {
+      "socket": "rootpendant_right01_c"
+    },
+    "FXPriorityType": 10
+  },
+  "950003": {
+    "EffectId": 950003,
+    "EffectPath": "/Game/Asset/Effect/Niagara/NPC/Dajie/NS_NE_Dajie_Buff.NS_NE_Dajie_Buff",
+    "PlayLocation": [
+      {
+        "socket": "spine_03"
+      }
+    ],
+    "NotFollowRotation": true,
+    "DeactiveParam": "Deactive",
+    "DelayDeactiveTime": 0.7,
+    "SoundID": 950001,
+    "FXPriorityType": 80
+  },
+  "950101": {
+    "EffectId": 950101,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/A_Common/NS_NE_Haer_Skill01_Bullet.NS_NE_Haer_Skill01_Bullet",
+    "FXPriorityType": 80
+  },
+  "950102": {
+    "EffectId": 950102,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/A_Common/NS_NE_Haer_Skill01_Hit.NS_NE_Haer_Skill01_Hit",
+    "IsHitFX": true,
+    "FXPriorityType": 40
+  },
+  "1010101": {
+    "EffectId": 1010101,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Sword/NS_Huipo_HeavyAttack_AbsorbEnd.NS_Huipo_HeavyAttack_AbsorbEnd",
+    "EffectParam": [
+      {
+        "scale": [
+          0.2,
+          0.2,
+          0.2
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "hand_r"
+      }
+    ],
+    "ChangeColorByChar": true,
+    "FXPriorityType": 90
+  },
+  "1010102": {
+    "EffectId": 1010102,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Sword/NS_Huipo_HeavyAttack_Absorb_01.NS_Huipo_HeavyAttack_Absorb_01",
+    "PlayLocation": [
+      {
+        "socket": "hand_r"
+      }
+    ],
+    "ChangeColorByChar": true,
+    "FXPriorityType": 90
+  },
+  "1010103": {
+    "EffectId": 1010103,
+    "EffectPath": "/Game/Asset/FX/Weapon/Broadsword/Taocidao/Particle/NS_Heitao_HeavyAttack_AbsorbLoop.NS_Heitao_HeavyAttack_AbsorbLoop",
+    "EffectParam": [
+      {
+        "scale": [
+          0.2,
+          0.2,
+          0.2
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "hand_r"
+      }
+    ],
+    "ChangeColorByChar": true,
+    "FXPriorityType": 90
+  },
+  "1010121": {
+    "EffectId": 1010121,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Katana/NS_Katana_HeavyAttack_Slash02.NS_Katana_HeavyAttack_Slash02",
+    "EffectParam": {
+      "scale": [
+        1.3,
+        1.3,
+        1.3
+      ],
+      "Rotation": [
+        0,
+        0,
+        0
+      ],
+      "Location": [
+        0,
+        100,
+        120
+      ]
+    },
+    "PlayLocation": [
+      {
+        "socket": "root"
+      }
+    ],
+    "ChangeColorByChar": true,
+    "FXPriorityType": 90
+  },
+  "1010122": {
+    "EffectId": 1010122,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Katana/NS_Katana_HeavyAttack_Slash01.NS_Katana_HeavyAttack_Slash01",
+    "EffectParam": {
+      "scale": [
+        1.3,
+        1.3,
+        1.3
+      ],
+      "Rotation": [
+        537,
+        -332,
+        217
+      ],
+      "Location": [
+        0,
+        100,
+        120
+      ]
+    },
+    "PlayLocation": [
+      {
+        "socket": "root"
+      }
+    ],
+    "ChangeColorByChar": true,
+    "FXPriorityType": 90
+  },
+  "1010123": {
+    "EffectId": 1010123,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Katana/NS_Katana_HeavyAttack_Slash01.NS_Katana_HeavyAttack_Slash01",
+    "EffectParam": {
+      "scale": [
+        1.3,
+        1.3,
+        1.3
+      ],
+      "Rotation": [
+        1,
+        41,
+        6
+      ],
+      "Location": [
+        0,
+        100,
+        120
+      ]
+    },
+    "PlayLocation": [
+      {
+        "socket": "root"
+      }
+    ],
+    "ChangeColorByChar": true,
+    "FXPriorityType": 90
+  },
+  "1010124": {
+    "EffectId": 1010124,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Katana/NS_Katana_HeavyAttack_Slash01.NS_Katana_HeavyAttack_Slash01",
+    "EffectParam": {
+      "scale": [
+        1.3,
+        1.3,
+        1.3
+      ],
+      "Rotation": [
+        189,
+        29,
+        163
+      ],
+      "Location": [
+        0,
+        100,
+        120
+      ]
+    },
+    "PlayLocation": [
+      {
+        "socket": "root"
+      }
+    ],
+    "ChangeColorByChar": true,
+    "FXPriorityType": 90
+  },
+  "1010125": {
+    "EffectId": 1010125,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Katana/NS_Katana_HeavyAttack_Slash01.NS_Katana_HeavyAttack_Slash01",
+    "EffectParam": {
+      "scale": [
+        1.3,
+        1.3,
+        1.3
+      ],
+      "Rotation": [
+        19,
+        -3,
+        15
+      ],
+      "Location": [
+        0,
+        100,
+        120
+      ]
+    },
+    "PlayLocation": [
+      {
+        "socket": "root"
+      }
+    ],
+    "ChangeColorByChar": true,
+    "FXPriorityType": 90
+  },
+  "1010126": {
+    "EffectId": 1010126,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Katana/NS_Katana_HeavyAttack_Slash01.NS_Katana_HeavyAttack_Slash01",
+    "EffectParam": {
+      "scale": [
+        1.3,
+        1.3,
+        1.3
+      ],
+      "Rotation": [
+        207,
+        48,
+        567
+      ],
+      "Location": [
+        0,
+        100,
+        120
+      ]
+    },
+    "PlayLocation": [
+      {
+        "socket": "root"
+      }
+    ],
+    "ChangeColorByChar": true,
+    "FXPriorityType": 90
+  },
+  "1010127": {
+    "EffectId": 1010127,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Katana/NS_Katana_HeavyAttack_Slash01.NS_Katana_HeavyAttack_Slash01",
+    "EffectParam": {
+      "scale": [
+        1.3,
+        1.3,
+        1.3
+      ],
+      "Rotation": [
+        11,
+        10,
+        35
+      ],
+      "Location": [
+        0,
+        100,
+        120
+      ]
+    },
+    "PlayLocation": [
+      {
+        "socket": "root"
+      }
+    ],
+    "ChangeColorByChar": true,
+    "FXPriorityType": 90
+  },
+  "1010128": {
+    "EffectId": 1010128,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Katana/NS_Katana_HeavyAttack_Slash01.NS_Katana_HeavyAttack_Slash01",
+    "EffectParam": {
+      "scale": [
+        1.3,
+        1.3,
+        1.3
+      ],
+      "Rotation": [
+        193,
+        -24,
+        168
+      ],
+      "Location": [
+        0,
+        100,
+        120
+      ]
+    },
+    "PlayLocation": [
+      {
+        "socket": "root"
+      }
+    ],
+    "ChangeColorByChar": true,
+    "FXPriorityType": 90
+  },
+  "1010129": {
+    "EffectId": 1010129,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Katana/NS_Katana_HeavyAttack_Slash02.NS_Katana_HeavyAttack_Slash02",
+    "EffectParam": {
+      "scale": [
+        1.3,
+        1.3,
+        1.3
+      ],
+      "Rotation": [
+        715,
+        -10,
+        6
+      ],
+      "Location": [
+        0,
+        100,
+        120
+      ]
+    },
+    "PlayLocation": [
+      {
+        "socket": "root"
+      }
+    ],
+    "ChangeColorByChar": true,
+    "FXPriorityType": 90
+  },
+  "1020101": {
+    "EffectId": 1020101,
+    "SoundID": 1040101,
+    "FXPriorityType": 90
+  },
+  "1020201": {
+    "EffectId": 1020201,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Polearm/NS_Polearm_HeavyAttack_Bullet.NS_Polearm_HeavyAttack_Bullet",
+    "ChangeColorByChar": true,
+    "DeactiveParam": "Deactive",
+    "DelayDeactiveTime": 1.5,
+    "SoundID": 1020101,
+    "FXPriorityType": 90
+  },
+  "1020202": {
+    "EffectId": 1020202,
+    "EffectPath": "/Game/Asset/FX/Common/Hit/NS_Heitao_Hit_Blue.NS_Heitao_Hit_Blue",
+    "IsHitFX": true,
+    "ChangeColorByChar": true,
+    "FXPriorityType": 90
+  },
+  "1020203": {
+    "EffectId": 1020203,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Polearm/NS_Polearm_Mod_01.NS_Polearm_Mod_01",
+    "ChangeColorByChar": true,
+    "FXPriorityType": 90
+  },
+  "1030101": {
+    "EffectId": 1030101,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/A_Common/NS_FallAttack.NS_FallAttack",
+    "EffectParam": {
+      "Location": {}
+    },
+    "ChangeColorByChar": true,
+    "FXPriorityType": 90
+  },
+  "1030201": {
+    "EffectId": 1030201,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Claymore/NS_Claymore_Mod_02.NS_Claymore_Mod_02",
+    "ChangeColorByChar": true,
+    "DeactiveParam": "Deactive",
+    "DelayDeactiveTime": 3,
+    "SoundID": 1030201,
+    "FXPriorityType": 90
+  },
+  "1030202": {
+    "EffectId": 1030202,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Claymore/NS_Claymore_Mod_03.NS_Claymore_Mod_03",
+    "ChangeColorByChar": true,
+    "DeactiveParam": "Deactive",
+    "DelayDeactiveTime": 3,
+    "SoundID": 1030201,
+    "FXPriorityType": 90
+  },
+  "1060211": {
+    "EffectId": 1060211,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Katana/NS_Katana_Mod01_Flash02.NS_Katana_Mod01_Flash02",
+    "EffectParam": {
+      "Rotation": [
+        0,
+        0,
+        0
+      ],
+      "Location": [
+        0,
+        100,
+        120
+      ]
+    },
+    "PlayLocation": [
+      {
+        "socket": "root"
+      }
+    ],
+    "ChangeColorByChar": true,
+    "FXPriorityType": 90
+  },
+  "1060212": {
+    "EffectId": 1060212,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Katana/NS_Katana_Mod01_Flash02.NS_Katana_Mod01_Flash02",
+    "EffectParam": {
+      "Rotation": [
+        537,
+        -332,
+        217
+      ],
+      "Location": {}
+    },
+    "PlayLocation": [
+      {
+        "socket": "root"
+      }
+    ],
+    "ChangeColorByChar": true,
+    "FXPriorityType": 90
+  },
+  "1060213": {
+    "EffectId": 1060213,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Katana/NS_Katana_Mod01_Flash02.NS_Katana_Mod01_Flash02",
+    "EffectParam": {
+      "Rotation": [
+        1,
+        41,
+        6
+      ],
+      "Location": {}
+    },
+    "PlayLocation": [
+      {
+        "socket": "root"
+      }
+    ],
+    "ChangeColorByChar": true,
+    "FXPriorityType": 90
+  },
+  "1060214": {
+    "EffectId": 1060214,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Katana/NS_Katana_Mod01_Flash02.NS_Katana_Mod01_Flash02",
+    "EffectParam": {
+      "Rotation": [
+        189,
+        29,
+        163
+      ],
+      "Location": {}
+    },
+    "PlayLocation": [
+      {
+        "socket": "root"
+      }
+    ],
+    "ChangeColorByChar": true,
+    "FXPriorityType": 90
+  },
+  "1060215": {
+    "EffectId": 1060215,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Katana/NS_Katana_Mod01_Flash02.NS_Katana_Mod01_Flash02",
+    "EffectParam": {
+      "Rotation": [
+        19,
+        -3,
+        15
+      ],
+      "Location": {}
+    },
+    "PlayLocation": [
+      {
+        "socket": "root"
+      }
+    ],
+    "ChangeColorByChar": true,
+    "FXPriorityType": 90
+  },
+  "1060216": {
+    "EffectId": 1060216,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Katana/NS_Katana_Mod01_Flash02.NS_Katana_Mod01_Flash02",
+    "EffectParam": {
+      "Rotation": [
+        207,
+        48,
+        567
+      ],
+      "Location": {}
+    },
+    "PlayLocation": [
+      {
+        "socket": "root"
+      }
+    ],
+    "ChangeColorByChar": true,
+    "FXPriorityType": 90
+  },
+  "1060217": {
+    "EffectId": 1060217,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Katana/NS_Katana_Mod01_Flash02.NS_Katana_Mod01_Flash02",
+    "EffectParam": {
+      "Rotation": [
+        11,
+        10,
+        35
+      ],
+      "Location": [
+        120,
+        -150,
+        120
+      ]
+    },
+    "PlayLocation": [
+      {
+        "socket": "root"
+      }
+    ],
+    "ChangeColorByChar": true,
+    "FXPriorityType": 90
+  },
+  "1060218": {
+    "EffectId": 1060218,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Katana/NS_Katana_Mod01_Flash02.NS_Katana_Mod01_Flash02",
+    "EffectParam": {
+      "Rotation": [
+        193,
+        -24,
+        168
+      ],
+      "Location": {}
+    },
+    "PlayLocation": [
+      {
+        "socket": "root"
+      }
+    ],
+    "ChangeColorByChar": true,
+    "FXPriorityType": 90
+  },
+  "1060219": {
+    "EffectId": 1060219,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Katana/NS_Katana_Mod01_Flash02.NS_Katana_Mod01_Flash02",
+    "EffectParam": {
+      "Rotation": [
+        715,
+        -10,
+        6
+      ],
+      "Location": [
+        120,
+        -150,
+        120
+      ]
+    },
+    "PlayLocation": [
+      {
+        "socket": "root"
+      }
+    ],
+    "ChangeColorByChar": true,
+    "FXPriorityType": 90
+  },
+  "2010101": {
+    "EffectId": 2010101,
+    "EffectPath": "/Game/Asset/FX/Feidao/Particle/feidao_fly.feidao_fly",
+    "EffectParam": [
+      {
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "FXPriorityType": 90
+  },
+  "2010102": {
+    "EffectId": 2010102,
+    "EffectPath": "/Game/Asset/FX/Feidao/Particle/NS_Feidao_Hit.NS_Feidao_Hit",
+    "FXPriorityType": 45
+  },
+  "2020101": {
+    "EffectId": 2020101,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Crossbow/NS_Chixing_Bullet.NS_Chixing_Bullet",
+    "EffectParam": [
+      {
+        "scale": [
+          1.5,
+          1.5,
+          1.5
+        ]
+      }
+    ],
+    "ChangeColorByChar": true,
+    "FXPriorityType": 90
+  },
+  "2020301": {
+    "EffectId": 2020301,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Crossbow/Lanse/NS_Lanse_Bullet.NS_Lanse_Bullet",
+    "ChangeColorByChar": true,
+    "SoundID": 2020301,
+    "FXPriorityType": 90
+  },
+  "2020501": {
+    "EffectId": 2020501,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Crossbow/NS_Chixing_Muzzle.NS_Chixing_Muzzle",
+    "EffectParam": [
+      {
+        "Life": 0.2
+      },
+      {
+        "scale": [
+          0.5,
+          0.5,
+          0.5
+        ]
+      },
+      {
+        "Location": [
+          -20,
+          0,
+          0
+        ]
+      },
+      {
+        "Rotation": [
+          0,
+          -90,
+          0
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "gunpoint_01"
+      },
+      {
+        "UseWeaponBone": "main"
+      }
+    ],
+    "ChangeColorByChar": true,
+    "FXPriorityType": 90
+  },
+  "2020502": {
+    "EffectId": 2020502,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Crossbow/NS_Chixing_Muzzle.NS_Chixing_Muzzle",
+    "EffectParam": [
+      {
+        "Life": 0.2
+      },
+      {
+        "scale": [
+          0.5,
+          0.5,
+          0.5
+        ]
+      },
+      {
+        "Location": [
+          -20,
+          0,
+          0
+        ]
+      },
+      {
+        "Rotation": [
+          0,
+          -90,
+          0
+        ]
+      }
+    ],
+    "PlayLocation": {
+      "socket": "gunpoint_01",
+      "UseWeaponBone": "child"
+    },
+    "ChangeColorByChar": true,
+    "FXPriorityType": 90
+  },
+  "2020511": {
+    "EffectId": 2020511,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Bow/NS_Bow_Bullet_02.NS_Bow_Bullet_02",
+    "EffectParam": [
+      {
+        "scale": [
+          0.2,
+          0.2,
+          0.2
+        ]
+      }
+    ],
+    "ChangeColorByChar": true,
+    "FXPriorityType": 90
+  },
+  "2020521": {
+    "EffectId": 2020521,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Shotgun/Banzi/NS_Banzi_Explode.NS_Banzi_Explode",
+    "PlayLocation": [
+      {
+        "socket": "hit1"
+      }
+    ],
+    "ChangeColorByChar": true,
+    "SoundID": 2030101,
+    "FXPriorityType": 90
+  },
+  "2030101": {
+    "EffectId": 2030101,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Cannon/NS_Chixing_Bullet.NS_Chixing_Bullet",
+    "ChangeColorByChar": true,
+    "DeactiveParam": "Deactive",
+    "DelayDeactiveTime": 1.5,
+    "FXPriorityType": 90
+  },
+  "2030102": {
+    "EffectId": 2030102,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Cannon/NS_Chixing_Explode.NS_Chixing_Explode",
+    "EffectParam": [
+      {
+        "Rotation": [
+          0,
+          90,
+          0
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "root"
+      }
+    ],
+    "ChangeColorByChar": true,
+    "SoundID": 2030101,
+    "FXPriorityType": 90
+  },
+  "2030201": {
+    "EffectId": 2030201,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Cannon/NS_Chiqiang_Explode.NS_Chiqiang_Explode",
+    "PlayLocation": [
+      {
+        "socket": "hit1"
+      }
+    ],
+    "ChangeColorByChar": true,
+    "SoundID": 2030101,
+    "FXPriorityType": 90
+  },
+  "2030202": {
+    "EffectId": 2030202,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Cannon/NS_Chiqiang_Explode_Small.NS_Chiqiang_Explode_Small",
+    "EffectParam": [
+      {
+        "Rotation": [
+          0,
+          90,
+          0
+        ]
+      }
+    ],
+    "ChangeColorByChar": true,
+    "SoundID": 2030103,
+    "FXPriorityType": 90
+  },
+  "2030203": {
+    "EffectId": 2030203,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Cannon/NS_Chiqiang_Bullet.NS_Chiqiang_Bullet",
+    "ChangeColorByChar": true,
+    "DeactiveParam": "Deactive",
+    "DelayDeactiveTime": 1.5,
+    "SoundID": 2030102,
+    "FXPriorityType": 90
+  },
+  "2040103": {
+    "EffectId": 2040103,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Shotgun/NS_Shotgun_Bullet.NS_Shotgun_Bullet",
+    "ChangeColorByChar": true,
+    "FXPriorityType": 90
+  },
+  "2040201": {
+    "EffectId": 2040201,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Shotgun/Banzi/NS_Banzi_Bullet.NS_Banzi_Bullet",
+    "ChangeColorByChar": true,
+    "SoundID": 2040203,
+    "FXPriorityType": 90
+  },
+  "2040202": {
+    "EffectId": 2040202,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Shotgun/Banzi/NS_Banzi_Seed.NS_Banzi_Seed",
+    "ChangeColorByChar": true,
+    "FXPriorityType": 90
+  },
+  "2040203": {
+    "EffectId": 2040203,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Shotgun/Banzi/NS_Banzi_Explode.NS_Banzi_Explode",
+    "ChangeColorByChar": true,
+    "FXPriorityType": 90
+  },
+  "2040301": {
+    "EffectId": 2040301,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Shotgun/Shengcai/NS_Shengcai_Bullet.NS_Shengcai_Bullet",
+    "ChangeColorByChar": true,
+    "DeactiveParam": "Deactive",
+    "DelayDeactiveTime": 1.5,
+    "SoundID": 2040301,
+    "FXPriorityType": 90
+  },
+  "2040302": {
+    "EffectId": 2040302,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Shotgun/Shengcai/NS_Shengcai_Hit.NS_Shengcai_Hit",
+    "PlayLocation": [
+      {
+        "socket": "hit1"
+      }
+    ],
+    "ChangeColorByChar": true,
+    "SoundID": 2040302,
+    "FXPriorityType": 90
+  },
+  "2040501": {
+    "EffectId": 2040501,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Baiheng/NS_Baiheng_E_002.NS_Baiheng_E_002",
+    "EffectParam": [
+      {
+        "scale": [
+          0.5,
+          0.5,
+          0.5
+        ]
+      },
+      {
+        "Location": [
+          50,
+          0,
+          0
+        ]
+      }
+    ],
+    "FXPriorityType": 90
+  },
+  "2040502": {
+    "EffectId": 2040502,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Heitao/NS_Heitao_SwordWave.NS_Heitao_SwordWave",
+    "EffectParam": {
+      "scale": {},
+      "Location": [
+        50,
+        0,
+        0
+      ]
+    },
+    "FXPriorityType": 90
+  },
+  "2040503": {
+    "EffectId": 2040503,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Shuimu/NS_Shuimu_Skill02_shuizhu.NS_Shuimu_Skill02_shuizhu",
+    "FXPriorityType": 90
+  },
+  "2040504": {
+    "EffectId": 2040504,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Shotgun/Yinbao/NS_Strong_Revenge_Dead.NS_Strong_Revenge_Dead",
+    "FXPriorityType": 90
+  },
+  "2040505": {
+    "EffectId": 2040505,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Smg/Fangzhu/NS_Smg_Fangzhu_Attack_01.NS_Smg_Fangzhu_Attack_01",
+    "PlayLocation": [
+      {
+        "socket": "gunpoint_01"
+      },
+      {
+        "UseWeaponBone": "main"
+      }
+    ],
+    "DestroyWhenSkillEnds": true,
+    "FXPriorityType": 90
+  },
+  "2050101": {
+    "EffectId": 2050101,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Smg/Common/NS_Smg_Common_Bullet.NS_Smg_Common_Bullet",
+    "ChangeColorByChar": true,
+    "FXPriorityType": 90
+  },
+  "2050102": {
+    "EffectId": 2050102,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Smg/Common/NS_Smg_Common_Shoot.NS_Smg_Common_Shoot",
+    "EffectParam": [
+      {
+        "Life": 0.2
+      },
+      {
+        "Rotation": [
+          0,
+          -90,
+          0
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "gunpoint_01"
+      },
+      {
+        "UseWeaponBone": "main"
+      }
+    ],
+    "ChangeColorByChar": true,
+    "DestroyWhenSkillEnds": true,
+    "FXPriorityType": 90
+  },
+  "2050201": {
+    "EffectId": 2050201,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Smg/Fangzhu/NS_Smg_Fangzhu_Laser_01.NS_Smg_Fangzhu_Laser_01",
+    "EffectParam": [
+      {
+        "Life": 0.2
+      },
+      {
+        "Rotation": [
+          0,
+          -90,
+          0
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "gunpoint_01"
+      },
+      {
+        "UseWeaponBone": "main"
+      }
+    ],
+    "ChangeColorByChar": true,
+    "DestroyWhenSkillEnds": true,
+    "FXPriorityType": 90
+  },
+  "2050202": {
+    "EffectId": 2050202,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Smg/Fangzhu/NS_Smg_Fangzhu_Laser_02.NS_Smg_Fangzhu_Laser_02",
+    "EffectParam": [
+      {
+        "Life": 0.2
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "hit1"
+      }
+    ],
+    "TargetLocation": [
+      {
+        "socket": "spine_01"
+      }
+    ],
+    "ChangeColorByChar": true,
+    "SoundID": 2050202,
+    "AllowRefreshAudio": true,
+    "FXPriorityType": 90
+  },
+  "2050203": {
+    "EffectId": 2050203,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Smg/Fangzhu/NS_Smg_Fangzhu_Hit_01_Change.NS_Smg_Fangzhu_Hit_01_Change",
+    "IsHitFX": true,
+    "ChangeColorByChar": true,
+    "SoundID": 2050201,
+    "FXPriorityType": 90
+  },
+  "2050204": {
+    "EffectId": 2050204,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Smg/Fangzhu/NS_Smg_Fangzhu_Attack_01.NS_Smg_Fangzhu_Attack_01",
+    "EffectParam": [
+      {
+        "Life": 0.2
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "gunpoint_01"
+      },
+      {
+        "UseWeaponBone": "main"
+      }
+    ],
+    "ChangeColorByChar": true,
+    "DestroyWhenSkillEnds": true,
+    "FXPriorityType": 90
+  },
+  "2050205": {
+    "EffectId": 2050205,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Smg/Fangzhu/NS_Smg_Fangzhu_Hit_01_Change.NS_Smg_Fangzhu_Hit_01_Change",
+    "PlayLocation": [
+      {
+        "Saveloc": true
+      }
+    ],
+    "IsHitFX": true,
+    "ChangeColorByChar": true,
+    "SoundID": 2050201,
+    "FXPriorityType": 90
+  },
+  "2050301": {
+    "EffectId": 2050301,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Smg/Qiqing/NS_Smg_Qiqing_Attack_01.NS_Smg_Qiqing_Attack_01",
+    "EffectParam": {
+      "Life": 0.25,
+      "Rotation": [
+        0,
+        -90,
+        0
+      ]
+    },
+    "PlayLocation": [
+      {
+        "socket": "gunpoint_01"
+      },
+      {
+        "UseWeaponBone": "main"
+      }
+    ],
+    "ChangeColorByChar": true,
+    "DeactiveParam": "Deactive",
+    "DelayDeactiveTime": 2,
+    "DestroyWhenSkillEnds": true,
+    "FXPriorityType": 90
+  },
+  "2050401": {
+    "EffectId": 2050401,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Machinegun/NS_weapon_poxiao_01.NS_weapon_poxiao_01",
+    "PlayLocation": [
+      {
+        "socket": "gunpoint_01"
+      },
+      {
+        "UseWeaponBone": "main"
+      }
+    ],
+    "ChangeColorByChar": true,
+    "DestroyWhenSkillEnds": true,
+    "FXPriorityType": 90
+  },
+  "2050402": {
+    "EffectId": 2050402,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Machinegun/NS_weapon_poxiao_02.NS_weapon_poxiao_02",
+    "PlayLocation": [
+      {
+        "socket": "gunpoint_01"
+      },
+      {
+        "UseWeaponBone": "main"
+      }
+    ],
+    "ChangeColorByChar": true,
+    "DestroyWhenSkillEnds": true,
+    "FXPriorityType": 90
+  },
+  "2050403": {
+    "EffectId": 2050403,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Machinegun/NS_weapon_poxiao_03.NS_weapon_poxiao_03",
+    "PlayLocation": [
+      {
+        "socket": "gunpoint_01"
+      },
+      {
+        "UseWeaponBone": "main"
+      }
+    ],
+    "ChangeColorByChar": true,
+    "DestroyWhenSkillEnds": true,
+    "FXPriorityType": 90
+  },
+  "2050411": {
+    "EffectId": 2050411,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Machinegun/NS_weapon_poxiao_shouji_01.NS_weapon_poxiao_shouji_01",
+    "PlayLocation": [
+      {
+        "Saveloc": true
+      }
+    ],
+    "IsHitFX": true,
+    "ChangeColorByChar": true,
+    "FXPriorityType": 90
+  },
+  "2050412": {
+    "EffectId": 2050412,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Machinegun/NS_weapon_poxiao_shouji_02.NS_weapon_poxiao_shouji_02",
+    "PlayLocation": [
+      {
+        "Saveloc": true
+      }
+    ],
+    "IsHitFX": true,
+    "ChangeColorByChar": true,
+    "FXPriorityType": 90
+  },
+  "2050413": {
+    "EffectId": 2050413,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Machinegun/NS_weapon_poxiao_shouji_03.NS_weapon_poxiao_shouji_03",
+    "PlayLocation": [
+      {
+        "Saveloc": true
+      }
+    ],
+    "IsHitFX": true,
+    "ChangeColorByChar": true,
+    "FXPriorityType": 90
+  },
+  "2050414": {
+    "EffectId": 2050414,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Machinegun/NS_weapon_poxiao_shouji_01.NS_weapon_poxiao_shouji_01",
+    "PlayLocation": [
+      {
+        "Saveloc": true
+      }
+    ],
+    "ChangeColorByChar": true,
+    "FXPriorityType": 90
+  },
+  "2050415": {
+    "EffectId": 2050415,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Machinegun/NS_weapon_poxiao_shouji_02.NS_weapon_poxiao_shouji_02",
+    "PlayLocation": [
+      {
+        "Saveloc": true
+      }
+    ],
+    "ChangeColorByChar": true,
+    "FXPriorityType": 90
+  },
+  "2050416": {
+    "EffectId": 2050416,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Machinegun/NS_weapon_poxiao_shouji_03.NS_weapon_poxiao_shouji_03",
+    "PlayLocation": [
+      {
+        "Saveloc": true
+      }
+    ],
+    "ChangeColorByChar": true,
+    "FXPriorityType": 90
+  },
+  "2050701": {
+    "EffectId": 2050701,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Shotgun/Yinlang/NS_Yinlang_Bullet.NS_Yinlang_Bullet",
+    "ChangeColorByChar": true,
+    "SoundID": 2050701,
+    "FXPriorityType": 90
+  },
+  "2060101": {
+    "EffectId": 2060101,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Bow/NS_Bow_Bullet_01.NS_Bow_Bullet_01",
+    "EffectParam": [
+      {
+        "scale": [
+          0.5,
+          0.5,
+          0.5
+        ]
+      },
+      {
+        "Location": [
+          50,
+          0,
+          0
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "root"
+      }
+    ],
+    "ChangeColorByChar": true,
+    "DeactiveParam": "Deactive",
+    "DelayDeactiveTime": 1,
+    "SoundID": 2060101,
+    "FXPriorityType": 90
+  },
+  "2060102": {
+    "EffectId": 2060102,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Bow/NS_Bow_OpenFire_Shooting_01.NS_Bow_OpenFire_Shooting_01",
+    "EffectParam": [
+      {
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "Location": [
+          0,
+          0,
+          -30
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "gunpoint_01"
+      },
+      {
+        "UseWeaponBone": "main"
+      }
+    ],
+    "ChangeColorByChar": true,
+    "DestroyWhenSkillEnds": true,
+    "FXPriorityType": 90
+  },
+  "2060103": {
+    "EffectId": 2060103,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Bow/NS_Bow_OpenFire_HeavyShooting_01.NS_Bow_OpenFire_HeavyShooting_01",
+    "EffectParam": [
+      {
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "Location": [
+          0,
+          0,
+          -30
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "gunpoint_01"
+      },
+      {
+        "UseWeaponBone": "main"
+      }
+    ],
+    "ChangeColorByChar": true,
+    "DestroyWhenSkillEnds": true,
+    "FXPriorityType": 90
+  },
+  "2060111": {
+    "EffectId": 2060111,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Bow/NS_Bow_Bullet_02.NS_Bow_Bullet_02",
+    "EffectParam": [
+      {
+        "scale": [
+          0.5,
+          0.5,
+          0.5
+        ]
+      },
+      {
+        "Location": [
+          50,
+          0,
+          0
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "root"
+      }
+    ],
+    "ChangeColorByChar": true,
+    "DeactiveParam": "Deactive",
+    "DelayDeactiveTime": 1,
+    "SoundID": 2060102,
+    "FXPriorityType": 90
+  },
+  "2060112": {
+    "EffectId": 2060112,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Bow/NS_Bow_Bullet_03.NS_Bow_Bullet_03",
+    "EffectParam": [
+      {
+        "scale": [
+          0.5,
+          0.5,
+          0.5
+        ]
+      },
+      {
+        "Location": [
+          50,
+          0,
+          0
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "root"
+      }
+    ],
+    "ChangeColorByChar": true,
+    "DeactiveParam": "Deactive",
+    "DelayDeactiveTime": 1,
+    "SoundID": 2060103,
+    "FXPriorityType": 90
+  },
+  "2060131": {
+    "EffectId": 2060131,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Bow/NS_Bow_OpenFire_HeavyShooting_02.NS_Bow_OpenFire_HeavyShooting_02",
+    "EffectParam": [
+      {
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "Location": [
+          0,
+          0,
+          -30
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "gunpoint_01"
+      },
+      {
+        "UseWeaponBone": "main"
+      }
+    ],
+    "ChangeColorByChar": true,
+    "DestroyWhenSkillEnds": true,
+    "FXPriorityType": 90
+  },
+  "2060201": {
+    "EffectId": 2060201,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Weapon/Bow/NS_Bow_Bullet_04.NS_Bow_Bullet_04",
+    "EffectParam": {
+      "scale": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "Location": [
+        50,
+        0,
+        0
+      ]
+    },
+    "PlayLocation": [
+      {
+        "socket": "root"
+      }
+    ],
+    "ChangeColorByChar": true,
+    "SoundID": 2060201,
+    "FXPriorityType": 90
+  },
+  "10101202": {
+    "EffectId": 10101202,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Char_BonusHit.NS_Char_BonusHit",
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "IsHitFX": true,
+    "ChangeColorByChar": true,
+    "SoundID": 115,
+    "FXPriorityType": 90
+  },
+  "10105202": {
+    "EffectId": 10105202,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Roguelike/NS_Rou_105_Bullet.NS_Rou_105_Bullet",
+    "SoundID": 10105202,
+    "FXPriorityType": 90
+  },
+  "10105203": {
+    "EffectId": 10105203,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Roguelike/NS_Rou_105_Suct.NS_Rou_105_Suct",
+    "EffectParam": {
+      "Location": {}
+    },
+    "NotFollowRotation": true,
+    "DeactiveParam": "Deactive",
+    "DelayDeactiveTime": 1.5,
+    "SoundID": 10105203,
+    "FXPriorityType": 90
+  },
+  "10105302": {
+    "EffectId": 10105302,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Roguelike/NS_Rou_105_Bullet.NS_Rou_105_Bullet",
+    "EffectParam": [
+      {
+        "scale": [
+          1.5,
+          1.5,
+          1.5
+        ]
+      }
+    ],
+    "FXPriorityType": 90
+  },
+  "10106101": {
+    "EffectId": 10106101,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Roguelike/NS_Rou_106_Funnel.NS_Rou_106_Funnel",
+    "DeactiveParam": "DeadTime",
+    "SoundID": 10106101,
+    "FXPriorityType": 90
+  },
+  "10106102": {
+    "EffectId": 10106102,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Roguelike/NS_Rou_106_Bullet.NS_Rou_106_Bullet",
+    "DeactiveParam": "DeadTime",
+    "SoundID": 10106102,
+    "FXPriorityType": 90
+  },
+  "10106103": {
+    "EffectId": 10106103,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Roguelike/NS_Rou_106_Blast.NS_Rou_106_Blast",
+    "NotFollowRotation": true,
+    "SoundID": 10106103,
+    "FXPriorityType": 90
+  },
+  "10106104": {
+    "EffectId": 10106104,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Roguelike/NS_Rou_106_Bullet.NS_Rou_106_Bullet",
+    "EffectParam": [
+      {
+        "scale": [
+          1.5,
+          1.5,
+          1.5
+        ]
+      }
+    ],
+    "DeactiveParam": "DeadTime",
+    "SoundID": 10106102,
+    "FXPriorityType": 90
+  },
+  "10106105": {
+    "EffectId": 10106105,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Roguelike/NS_Rou_106_Blast.NS_Rou_106_Blast",
+    "EffectParam": [
+      {
+        "scale": [
+          1.5,
+          1.5,
+          1.5
+        ]
+      }
+    ],
+    "NotFollowRotation": true,
+    "SoundID": 10106103,
+    "FXPriorityType": 90
+  },
+  "10108101": {
+    "EffectId": 10108101,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Roguelike/NS_Rou_108_Bullet.NS_Rou_108_Bullet",
+    "DeactiveParam": "DeadTime",
+    "SoundID": 10108101,
+    "FXPriorityType": 90
+  },
+  "10108102": {
+    "EffectId": 10108102,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Roguelike/NS_Rou_108_Blast.NS_Rou_108_Blast",
+    "NotFollowRotation": true,
+    "SoundID": 10108102,
+    "FXPriorityType": 90
+  },
+  "10109101": {
+    "EffectId": 10109101,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Roguelike/NS_Rou_109_NextAtkUp.NS_Rou_109_NextAtkUp",
+    "PlayLocation": [
+      {
+        "socket": "hand_r"
+      }
+    ],
+    "FXPriorityType": 90
+  },
+  "10109102": {
+    "EffectId": 10109102,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Roguelike/NS_Rou_109_SuperMan.NS_Rou_109_SuperMan",
+    "PlayLocation": [
+      {
+        "socket": "spine_01"
+      }
+    ],
+    "NotFollowRotation": true,
+    "SoundID": 10109102,
+    "FXPriorityType": 90
+  },
+  "10109103": {
+    "EffectId": 10109103,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/Haier/NS_Haier_Fire.NS_Haier_Fire",
+    "PlayLocation": [
+      {
+        "socket": "hit1"
+      }
+    ],
+    "NotFollowRotation": true,
+    "FXPriorityType": 90
+  },
+  "10199001": {
+    "EffectId": 10199001,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Scene/Common/NS_Campfire_idle.NS_Campfire_idle",
+    "DeactiveParam": "Deactive",
+    "DelayDeactiveTime": 0.5,
+    "FXPriorityType": 70
+  },
+  "10199002": {
+    "EffectId": 10199002,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_Buff_Loop.NS_Common_Buff_Loop",
+    "EffectParam": {
+      "BodyShapeOffset": {}
+    },
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "TexturePath": "/Game/UI/Texture/Dynamic/Atlas/Buff/T_Buff_Damage_Up.T_Buff_Damage_Up",
+    "FXPriorityType": 70
+  },
+  "10199003": {
+    "EffectId": 10199003,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Roguelike/NS_Rou_Damaged_Down.NS_Rou_Damaged_Down",
+    "PlayLocation": [
+      {
+        "socket": "Root"
+      }
+    ],
+    "FXPriorityType": 70
+  },
+  "600000101": {
+    "EffectId": 600000101,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/A_Common/NS_Strong_Frozen_Bullet.NS_Strong_Frozen_Bullet",
+    "SoundID": 700113,
+    "FXPriorityType": 80
+  },
+  "600000102": {
+    "EffectId": 600000102,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/A_Common/NS_Strong_Frozen_Snow.NS_Strong_Frozen_Snow",
+    "PlayLocation": [
+      {
+        "socket": "spine_03"
+      }
+    ],
+    "NotFollowRotation": true,
+    "FXPriorityType": 80
+  },
+  "600000103": {
+    "EffectId": 600000103,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/A_Common/NS_Strong_Frozen_Debuff.NS_Strong_Frozen_Debuff",
+    "PlayLocation": [
+      {
+        "socket": "hit1"
+      }
+    ],
+    "DeactiveParam": "Deactive",
+    "DelayDeactiveTime": 0.7,
+    "FXPriorityType": 80
+  },
+  "600000104": {
+    "EffectId": 600000104,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/A_Common/NS_Strong_Frozen_Snow.NS_Strong_Frozen_Snow",
+    "EffectParam": [
+      {
+        "scale": [
+          1.5,
+          1.5,
+          1.5
+        ]
+      }
+    ],
+    "PlayLocation": [
+      {
+        "socket": "spine_03"
+      }
+    ],
+    "NotFollowRotation": true,
+    "FXPriorityType": 80
+  },
+  "600000201": {
+    "EffectId": 600000201,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/A_Common/NS_Strong_Burst_Fire.NS_Strong_Burst_Fire",
+    "NotFollowRotation": true,
+    "SoundID": 700153,
+    "FXPriorityType": 80
+  },
+  "600000301": {
+    "EffectId": 600000301,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/A_Common/NS_Poison_AOE.NS_Poison_AOE",
+    "EffectParam": [
+      {
+        "Rotation": [
+          0,
+          0,
+          90
+        ]
+      }
+    ],
+    "NotFollowRotation": true,
+    "FXPriorityType": 80
+  },
+  "600000302": {
+    "EffectId": 600000302,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/A_Common/NS_Strong_Poison_Debuff.NS_Strong_Poison_Debuff",
+    "PlayLocation": [
+      {
+        "socket": "hit1"
+      }
+    ],
+    "DeactiveParam": "Deactive",
+    "DelayDeactiveTime": 0.7,
+    "FXPriorityType": 80
+  },
+  "600000402": {
+    "EffectId": 600000402,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/A_Common/NS_Strong_Thunder_Line.NS_Strong_Thunder_Line",
+    "TargetLocation": [
+      {
+        "socket": "hit1"
+      }
+    ],
+    "FXPriorityType": 80
+  },
+  "600000404": {
+    "EffectId": 600000404,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/A_Common/NS_Strong_Thunder_Warning.NS_Strong_Thunder_Warning",
+    "PlayLocation": [
+      {
+        "socket": "spine_03"
+      }
+    ],
+    "NotFollowRotation": true,
+    "FXPriorityType": 80
+  },
+  "600000501": {
+    "EffectId": 600000501,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/A_Common/NS_Strong_Blood_Bullet.NS_Strong_Blood_Bullet",
+    "EffectParam": [
+      {
+        "scale": [
+          1.5,
+          1.5,
+          1.5
+        ]
+      }
+    ],
+    "FXPriorityType": 80
+  },
+  "600000502": {
+    "EffectId": 600000502,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/A_Common/NS_Strong_Blood_Heal.NS_Strong_Blood_Heal",
+    "PlayLocation": [
+      {
+        "socket": "spine_03"
+      }
+    ],
+    "DeactiveParam": "Deactive",
+    "DelayDeactiveTime": 0.7,
+    "FXPriorityType": 80
+  },
+  "600000503": {
+    "EffectId": 600000503,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/A_Common/NS_Blood_AOE.NS_Blood_AOE",
+    "DeactiveParam": "Deactive",
+    "DelayDeactiveTime": 0.4,
+    "SoundID": 700122,
+    "FXPriorityType": 80
+  },
+  "600000691": {
+    "EffectId": 600000691,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/A_Common/NS_Strong_Fade_Bullet.NS_Strong_Fade_Bullet",
+    "EffectParam": [
+      {
+        "scale": [
+          1.5,
+          1.5,
+          1.5
+        ]
+      }
+    ],
+    "FXPriorityType": 80
+  },
+  "600000692": {
+    "EffectId": 600000692,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/A_Common/NS_Fade_Burst.NS_Fade_Burst",
+    "FXPriorityType": 80
+  },
+  "600000701": {
+    "EffectId": 600000701,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/A_Common/NS_Strong_Shield_Die.NS_Strong_Shield_Die",
+    "FXPriorityType": 80
+  },
+  "600000702": {
+    "EffectId": 600000702,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/A_Common/NS_Strong_Shield_Creature.NS_Strong_Shield_Creature",
+    "FXPriorityType": 80
+  },
+  "600000801": {
+    "EffectId": 600000801,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/A_Common/NS_Strong_Revenge_Dead.NS_Strong_Revenge_Dead",
+    "SoundID": 700181,
+    "FXPriorityType": 80
+  },
+  "600000802": {
+    "EffectId": 600000802,
+    "EffectPath": "/Game/Asset/Effect/Niagara/Monster/A_Common/NS_Strong_Revenge_Buff.NS_Strong_Revenge_Buff",
+    "PlayLocation": [
+      {
+        "socket": "spine_03"
+      }
+    ],
+    "NotFollowRotation": true,
+    "DeactiveParam": "Deactive",
+    "DelayDeactiveTime": 0.7,
+    "SoundID": 700182,
+    "FXPriorityType": 80
+  }
+}

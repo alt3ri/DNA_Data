@@ -1,0 +1,22 @@
+{
+  "DungeonMapSelect": {
+    "WidgetUI": "DungeonMapSelect",
+    "TabName": "UI_Dungeon_TabName",
+    "Sequence": 100,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Tab/T_Tab_Play.T_Tab_Play"
+  },
+  "HardBossMain": {
+    "WidgetUI": "HardBossMain",
+    "TabName": "MAIN_UI_HARDBOSS",
+    "Sequence": 90,
+    "TabUnlockRuleId": "HardBoss",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Tab/T_Tab_Hardboss.T_Tab_Hardboss"
+  },
+  "PlayCommon": {
+    "WidgetUI": "PlayCommon",
+    "TabName": "MAIN_UI_NORMAL",
+    "Sequence": 80,
+    "TabUnlockRuleId": "Rouge",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Tab/T_Tab_Permanent.T_Tab_Permanent"
+  }
+}

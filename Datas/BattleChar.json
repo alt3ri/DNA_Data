@@ -1,0 +1,1831 @@
+{
+  "10": {
+    "RoleId": 10,
+    "RoleName": "NPC-人质",
+    "CharName": "UI_DUNGEON_HOSTAGE",
+    "BattleCharTag": [
+      "Girl"
+    ],
+    "UnitBPPath": "/Game/BluePrints/Char/BP_PlayerCharacter.BP_PlayerCharacter_C",
+    "GuideIconImg": "Rescue_Hostage",
+    "ModelId": 10,
+    "Attribute": "Default",
+    "MaxHp": 100,
+    "DEF": 300,
+    "MaxES": 100,
+    "ATK": 24,
+    "Sp": 0,
+    "MaxSp": 100,
+    "MaxHpLevelGrow": "MaxHpA",
+    "DEFLevelGrow": "DEFA",
+    "MaxESLevelGrow": "MaxESA",
+    "ATKLevelGrow": "ATKA",
+    "CapsuleInfo": [
+      {
+        "OriHalfHeight": 80
+      },
+      {
+        "OriRadius": 20
+      },
+      {
+        "Slide": [
+          45,
+          200
+        ]
+      },
+      {
+        "Crouch": [
+          45,
+          200
+        ]
+      }
+    ],
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 100
+      },
+      {
+        "MaxAccelerationWalk": 2048
+      },
+      {
+        "MaxSpeedRun": 500
+      },
+      {
+        "MaxAccelerationRun": 2048
+      }
+    ]
+  },
+  "101": {
+    "RoleId": 101,
+    "RoleName": "女主-援护用",
+    "CharName": "女主",
+    "BattleCharTag": [
+      "Girl"
+    ],
+    "UnitBPPath": "/Game/BluePrints/Char/BP_PlayerCharacterSimple.BP_PlayerCharacterSimple_C",
+    "ModelId": 101,
+    "Attribute": "Light",
+    "MaxHp": 100,
+    "DEF": 300,
+    "MaxES": 100,
+    "ATK": 1500,
+    "Sp": 0,
+    "MaxSp": 100,
+    "MaxHpLevelGrow": "MaxHpA",
+    "DEFLevelGrow": "DEFA",
+    "MaxESLevelGrow": "MaxESA",
+    "ATKLevelGrow": "ATKA",
+    "CapsuleInfo": [
+      {
+        "OriHalfHeight": 80
+      },
+      {
+        "OriRadius": 20
+      },
+      {
+        "Slide": [
+          45,
+          200
+        ]
+      },
+      {
+        "Crouch": [
+          45,
+          200
+        ]
+      }
+    ],
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 100
+      },
+      {
+        "MaxAccelerationWalk": 2048
+      },
+      {
+        "MaxSpeedRun": 500
+      },
+      {
+        "MaxAccelerationRun": 2048
+      }
+    ]
+  },
+  "104": {
+    "RoleId": 104,
+    "RoleName": "前男主-援护用",
+    "CharName": "前男主",
+    "BattleCharTag": [
+      "Boy"
+    ],
+    "UnitBPPath": "/Game/BluePrints/Char/BP_PlayerCharacterSimple.BP_PlayerCharacterSimple_C",
+    "ModelId": 104,
+    "Attribute": "Light",
+    "MaxHp": 100,
+    "DEF": 300,
+    "MaxES": 100,
+    "ATK": 20,
+    "Sp": 0,
+    "MaxSp": 100,
+    "MaxHpLevelGrow": "MaxHpA",
+    "DEFLevelGrow": "DEFA",
+    "MaxESLevelGrow": "MaxESA",
+    "ATKLevelGrow": "ATKA",
+    "CapsuleInfo": [
+      {
+        "OriHalfHeight": 80
+      },
+      {
+        "OriRadius": 20
+      },
+      {
+        "Slide": [
+          45,
+          200
+        ]
+      },
+      {
+        "Crouch": [
+          45,
+          200
+        ]
+      }
+    ],
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 100
+      },
+      {
+        "MaxAccelerationWalk": 2048
+      },
+      {
+        "MaxSpeedRun": 500
+      },
+      {
+        "MaxAccelerationRun": 2048
+      }
+    ]
+  },
+  "111": {
+    "RoleId": 111,
+    "RoleName": "女主-操作",
+    "CharName": "女主",
+    "BattleCharTag": [
+      "Girl"
+    ],
+    "UnitBPPath": "/Game/BluePrints/Char/BP_PlayerCharacter.BP_PlayerCharacter_C",
+    "ModelId": 101,
+    "WeaponId": 10103,
+    "CondemnWeapon": 30,
+    "SkillList": [
+      10001,
+      10003
+    ],
+    "Attribute": "Light",
+    "ExcelWeaponTags": [
+      "Sword"
+    ],
+    "ExcelWeaponRate": 0.2,
+    "MaxHp": 120,
+    "DEF": 300,
+    "MaxES": 120,
+    "ATK": 180,
+    "Sp": -1,
+    "MaxSp": 100,
+    "MaxHpLevelGrow": "MaxHpA",
+    "DEFLevelGrow": "DEFA",
+    "MaxESLevelGrow": "MaxESA",
+    "ATKLevelGrow": "ATKA",
+    "CapsuleInfo": [
+      {
+        "OriHalfHeight": 80
+      },
+      {
+        "OriRadius": 20
+      },
+      {
+        "Slide": [
+          45,
+          200
+        ]
+      },
+      {
+        "Crouch": [
+          45,
+          200
+        ]
+      }
+    ],
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 100
+      },
+      {
+        "MaxAccelerationWalk": 2048
+      },
+      {
+        "MaxSpeedRun": 500
+      },
+      {
+        "MaxAccelerationRun": 2048
+      }
+    ]
+  },
+  "114": {
+    "RoleId": 114,
+    "RoleName": "前男主-操作",
+    "CharName": "前男主",
+    "BattleCharTag": [
+      "Boy"
+    ],
+    "UnitBPPath": "/Game/BluePrints/Char/BP_PlayerCharacter.BP_PlayerCharacter_C",
+    "ModelId": 104,
+    "WeaponId": 10103,
+    "CondemnWeapon": 30,
+    "SkillList": [
+      10001,
+      10003
+    ],
+    "Attribute": "Light",
+    "ExcelWeaponTags": [
+      "Sword"
+    ],
+    "ExcelWeaponRate": 0.2,
+    "MaxHp": 120,
+    "DEF": 300,
+    "MaxES": 120,
+    "ATK": 180,
+    "Sp": -1,
+    "MaxSp": 100,
+    "MaxHpLevelGrow": "MaxHpA",
+    "DEFLevelGrow": "DEFA",
+    "MaxESLevelGrow": "MaxESA",
+    "ATKLevelGrow": "ATKA",
+    "CapsuleInfo": [
+      {
+        "OriHalfHeight": 80
+      },
+      {
+        "OriRadius": 20
+      },
+      {
+        "Slide": [
+          45,
+          200
+        ]
+      },
+      {
+        "Crouch": [
+          45,
+          200
+        ]
+      }
+    ],
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 100
+      },
+      {
+        "MaxAccelerationWalk": 2048
+      },
+      {
+        "MaxSpeedRun": 500
+      },
+      {
+        "MaxAccelerationRun": 2048
+      }
+    ]
+  },
+  "201": {
+    "RoleId": 201,
+    "RoleName": "NPC-阿瓦",
+    "CharName": "UI_Npc_Name_Aware",
+    "BattleCharTag": [
+      "Man"
+    ],
+    "UnitBPPath": "/Game/BluePrints/Char/BP_PlayerCharacter.BP_PlayerCharacter_C",
+    "GuideIconImg": "Mini_Awa",
+    "ModelId": 201,
+    "CondemnWeapon": 30,
+    "SkillList": {},
+    "Attribute": "Default",
+    "ExcelWeaponTags": [
+      "Sword"
+    ],
+    "ExcelWeaponRate": 0.2,
+    "MaxHp": 100,
+    "DEF": 300,
+    "MaxES": 95,
+    "ATK": 24,
+    "Sp": -1,
+    "MaxSp": 120,
+    "MaxHpLevelGrow": "MaxHpA",
+    "DEFLevelGrow": "DEFA",
+    "MaxESLevelGrow": "MaxESA",
+    "ATKLevelGrow": "ATKA",
+    "CapsuleInfo": [
+      {
+        "OriHalfHeight": 96.5
+      },
+      {
+        "OriRadius": 20
+      },
+      {
+        "Slide": [
+          45,
+          200
+        ]
+      },
+      {
+        "Crouch": [
+          45,
+          200
+        ]
+      }
+    ],
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 100
+      },
+      {
+        "MaxAccelerationWalk": 2048
+      },
+      {
+        "MaxSpeedRun": 500
+      },
+      {
+        "MaxAccelerationRun": 2048
+      }
+    ]
+  },
+  "202": {
+    "RoleId": 202,
+    "RoleName": "NPC-达芙涅",
+    "CharName": "UI_Npc_Name_Dafu",
+    "BattleCharTag": [
+      "Woman"
+    ],
+    "UnitBPPath": "/Game/BluePrints/Char/BP_PlayerCharacter.BP_PlayerCharacter_C",
+    "GuideIconImg": "Mini_Dafu",
+    "ModelId": 202,
+    "CondemnWeapon": 30,
+    "SkillList": {},
+    "Attribute": "Default",
+    "ExcelWeaponTags": [
+      "Sword"
+    ],
+    "ExcelWeaponRate": 0.2,
+    "MaxHp": 100,
+    "DEF": 300,
+    "MaxES": 95,
+    "ATK": 24,
+    "Sp": -1,
+    "MaxSp": 120,
+    "MaxHpLevelGrow": "MaxHpA",
+    "DEFLevelGrow": "DEFA",
+    "MaxESLevelGrow": "MaxESA",
+    "ATKLevelGrow": "ATKA",
+    "CapsuleInfo": [
+      {
+        "OriHalfHeight": 80
+      },
+      {
+        "OriRadius": 20
+      },
+      {
+        "Slide": [
+          45,
+          200
+        ]
+      },
+      {
+        "Crouch": [
+          45,
+          200
+        ]
+      }
+    ],
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 100
+      },
+      {
+        "MaxAccelerationWalk": 2048
+      },
+      {
+        "MaxSpeedRun": 500
+      },
+      {
+        "MaxAccelerationRun": 2048
+      }
+    ]
+  },
+  "1101": {
+    "RoleId": 1101,
+    "RoleName": "黑桃",
+    "CharName": "UI_CHAR_NAME_1101",
+    "BattleCharTag": [
+      "Girl"
+    ],
+    "UnitBPPath": "/Game/BluePrints/Char/BP_PlayerCharacter.BP_PlayerCharacter_C",
+    "GuideIconImg": "Mini_Heitao",
+    "ModelId": 1101,
+    "WeaponId": 10101,
+    "RangedWeapon": 20201,
+    "UltraWeapon": 110101,
+    "CondemnWeapon": 30,
+    "SkillList": {},
+    "UpgradeSkillExtraLevel": {},
+    "CharGradeDescription": [
+      "GRADEUP_1101_01",
+      "GRADEUP_1101_02",
+      "GRADEUP_1101_03",
+      "GRADEUP_1101_04",
+      "GRADEUP_1101_05",
+      "GRADEUP_1101_06"
+    ],
+    "CharGradeParameter": [
+      "$#Buff[110111].AddAttrs[1].Value*100$%",
+      "$#PassiveEffect[110101].Vars.Grade1LastTime$",
+      "$#PassiveEffect[110101].Vars.Grade2BuffRate*100$%",
+      "$#Buff[110112].AddAttrs[1].Rate*100$%",
+      "$#PassiveEffect[110101].Vars.Grade6Rate*100$%"
+    ],
+    "Attribute": "Dark",
+    "ExcelWeaponTags": [
+      "Sword"
+    ],
+    "ExcelWeaponRate": 0.2,
+    "MaxHp": 100,
+    "DEF": 300,
+    "MaxES": 100,
+    "ATK": 20,
+    "Sp": -1,
+    "MaxSp": 120,
+    "MaxHpLevelGrow": "MaxHpA",
+    "DEFLevelGrow": "DEFA",
+    "MaxESLevelGrow": "MaxESA",
+    "ATKLevelGrow": "ATKA",
+    "CapsuleInfo": [
+      {
+        "OriHalfHeight": 80
+      },
+      {
+        "OriRadius": 20
+      },
+      {
+        "Slide": [
+          45,
+          200
+        ]
+      },
+      {
+        "Crouch": [
+          45,
+          200
+        ]
+      }
+    ],
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 100
+      },
+      {
+        "MaxAccelerationWalk": 2048
+      },
+      {
+        "MaxSpeedRun": 500
+      },
+      {
+        "MaxAccelerationRun": 2048
+      }
+    ],
+    "AIBTPath": "/Game/AssetDesign/AI/Player/Heitao/BT_TestAI_Heitao.BT_TestAI_Heitao",
+    "Positioning": "ShortDes_1101"
+  },
+  "1102": {
+    "RoleId": 1102,
+    "RoleName": "芙罗拉",
+    "CharName": "芙罗拉",
+    "BattleCharTag": [
+      "Girl"
+    ],
+    "UnitBPPath": "/Game/BluePrints/Char/BP_PlayerCharacter.BP_PlayerCharacter_C",
+    "GuideIconImg": "Mini_Heitao",
+    "ModelId": 1101,
+    "WeaponId": 10101,
+    "RangedWeapon": 20201,
+    "UltraWeapon": 110101,
+    "CondemnWeapon": 30,
+    "SkillList": {},
+    "Attribute": "Dark",
+    "ExcelWeaponRate": 0.2,
+    "MaxHp": 100,
+    "DEF": 300,
+    "MaxES": 100,
+    "ATK": 20,
+    "Sp": -1,
+    "MaxSp": 120,
+    "MaxHpLevelGrow": "MaxHpA",
+    "DEFLevelGrow": "DEFA",
+    "MaxESLevelGrow": "MaxESA",
+    "ATKLevelGrow": "ATKA",
+    "CapsuleInfo": [
+      {
+        "OriHalfHeight": 80
+      },
+      {
+        "OriRadius": 20
+      },
+      {
+        "Slide": [
+          45,
+          200
+        ]
+      },
+      {
+        "Crouch": [
+          45,
+          200
+        ]
+      }
+    ],
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 100
+      },
+      {
+        "MaxAccelerationWalk": 2048
+      },
+      {
+        "MaxSpeedRun": 500
+      },
+      {
+        "MaxAccelerationRun": 2048
+      }
+    ]
+  },
+  "1801": {
+    "RoleId": 1801,
+    "RoleName": "菲娜",
+    "CharName": "UI_CHAR_NAME_1801",
+    "BattleCharTag": [
+      "Girl"
+    ],
+    "UnitBPPath": "/Game/BluePrints/Char/BP_PlayerCharacter.BP_PlayerCharacter_C",
+    "GuideIconImg": "Mini_Feina",
+    "ModelId": 1801,
+    "WeaponId": 10101,
+    "RangedWeapon": 20201,
+    "CondemnWeapon": 30,
+    "CharUIId": 12,
+    "SummonId": {},
+    "SkillList": {},
+    "UpgradeSkillExtraLevel": {},
+    "CharGradeDescription": [
+      "GRADEUP_1801_01",
+      "GRADEUP_1801_02",
+      "GRADEUP_1801_03",
+      "GRADEUP_1801_04",
+      "GRADEUP_1801_05",
+      "GRADEUP_1801_06"
+    ],
+    "CharGradeParameter": [
+      "$#Buff[180142].AddAttrs[1].Value*100$%",
+      "$#Buff[180112].AddAttrs[2].Value*100$%",
+      "$#Buff[180112].AddAttrs[3].Value*100$%"
+    ],
+    "Attribute": "Light",
+    "ExcelWeaponTags": [
+      "Sword"
+    ],
+    "ExcelWeaponRate": 0.2,
+    "MaxHp": 100,
+    "DEF": 300,
+    "MaxES": 100,
+    "ATK": 29,
+    "Sp": -1,
+    "MaxSp": 120,
+    "MaxHpLevelGrow": "MaxHpS",
+    "DEFLevelGrow": "DEFS",
+    "MaxESLevelGrow": "MaxESS",
+    "ATKLevelGrow": "ATKS",
+    "CapsuleInfo": [
+      {
+        "OriHalfHeight": 80
+      },
+      {
+        "OriRadius": 20
+      },
+      {
+        "Slide": [
+          45,
+          200
+        ]
+      },
+      {
+        "Crouch": [
+          45,
+          200
+        ]
+      }
+    ],
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 100
+      },
+      {
+        "MaxAccelerationWalk": 2048
+      },
+      {
+        "MaxSpeedRun": 500
+      },
+      {
+        "MaxAccelerationRun": 2048
+      }
+    ],
+    "Positioning": "ShortDes_1801"
+  },
+  "2101": {
+    "RoleId": 2101,
+    "RoleName": "水母",
+    "CharName": "UI_CHAR_NAME_2101",
+    "BattleCharTag": [
+      "Girl"
+    ],
+    "UnitBPPath": "/Game/BluePrints/Char/BP_PlayerCharacter.BP_PlayerCharacter_C",
+    "GuideIconImg": "Mini_Shuimu",
+    "ModelId": 2101,
+    "WeaponId": 10201,
+    "RangedWeapon": 20201,
+    "CondemnWeapon": 30,
+    "CharUIId": 1,
+    "SummonId": {},
+    "SkillList": {},
+    "UpgradeSkillExtraLevel": {},
+    "CharGradeDescription": [
+      "GRADEUP_2101_01",
+      "GRADEUP_2101_02",
+      "GRADEUP_2101_03",
+      "GRADEUP_2101_04",
+      "GRADEUP_2101_05",
+      "GRADEUP_2101_06"
+    ],
+    "CharGradeParameter": [
+      "$#PassiveEffect[210101].Vars.Grade4DamagedRate*100$%",
+      "$#Buff[210121].AddAttrs[1].Rate*100$%",
+      "$#Buff[210121].MaxLayer$",
+      "$#PassiveEffect[210101].Vars.Grade6LastTime$"
+    ],
+    "Attribute": "Water",
+    "ExcelWeaponTags": [
+      "Polearm"
+    ],
+    "ExcelWeaponRate": 0.2,
+    "MaxHp": 91,
+    "DEF": 225,
+    "MaxES": 91,
+    "ATK": 25,
+    "Sp": -1,
+    "MaxSp": 100,
+    "MaxHpLevelGrow": "MaxHpS",
+    "DEFLevelGrow": "DEFS",
+    "MaxESLevelGrow": "MaxESS",
+    "ATKLevelGrow": "ATKS",
+    "CapsuleInfo": [
+      {
+        "OriHalfHeight": 80
+      },
+      {
+        "OriRadius": 20
+      },
+      {
+        "Slide": [
+          45,
+          200
+        ]
+      },
+      {
+        "Crouch": [
+          45,
+          200
+        ]
+      }
+    ],
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 100
+      },
+      {
+        "MaxAccelerationWalk": 2048
+      },
+      {
+        "MaxSpeedRun": 500
+      },
+      {
+        "MaxAccelerationRun": 2048
+      }
+    ],
+    "AIBTPath": "/Game/AssetDesign/AI/Player/Shuimu/BT_TestAI_Shuimu.BT_TestAI_Shuimu",
+    "Positioning": "ShortDes_2101"
+  },
+  "2301": {
+    "RoleId": 2301,
+    "RoleName": "章鱼",
+    "CharName": "UI_CHAR_NAME_2301",
+    "BattleCharTag": [
+      "Loli"
+    ],
+    "UnitBPPath": "/Game/BluePrints/Char/BP_PlayerCharacter.BP_PlayerCharacter_C",
+    "GuideIconImg": "Mini_Zhangyu",
+    "ModelId": 2301,
+    "WeaponId": 10102,
+    "RangedWeapon": 20301,
+    "CondemnWeapon": 30,
+    "SummonId": {},
+    "SkillList": {},
+    "UpgradeSkillExtraLevel": {},
+    "CharGradeDescription": [
+      "GRADEUP_2301_01",
+      "GRADEUP_2301_02",
+      "GRADEUP_2301_03",
+      "GRADEUP_2301_04",
+      "GRADEUP_2301_05",
+      "GRADEUP_2301_06"
+    ],
+    "CharGradeParameter": [
+      "$#PassiveEffect[230102].Vars.Grade2TriggerProb*100$%",
+      "$#Buff[230121].AddAttrs[1].Value*100$%",
+      "$#Buff[230122].DotDatas[1].Rate*100$%"
+    ],
+    "Attribute": "Water",
+    "ExcelWeaponTags": [
+      "Cannon"
+    ],
+    "ExcelWeaponRate": 0.2,
+    "MaxHp": 90,
+    "DEF": 240,
+    "MaxES": 90,
+    "ATK": 23,
+    "Sp": -1,
+    "MaxSp": 180,
+    "MaxHpLevelGrow": "MaxHpS",
+    "DEFLevelGrow": "DEFS",
+    "MaxESLevelGrow": "MaxESS",
+    "ATKLevelGrow": "ATKS",
+    "CapsuleInfo": [
+      {
+        "OriHalfHeight": 65
+      },
+      {
+        "OriRadius": 20
+      },
+      {
+        "Slide": [
+          45,
+          200
+        ]
+      },
+      {
+        "Crouch": [
+          45,
+          200
+        ]
+      }
+    ],
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 100
+      },
+      {
+        "MaxAccelerationWalk": 2048
+      },
+      {
+        "MaxSpeedRun": 500
+      },
+      {
+        "MaxAccelerationRun": 2048
+      }
+    ],
+    "AIBTPath": "/Game/AssetDesign/AI/Player/Zhangyu/BT_TestAI_Zhangyu.BT_TestAI_Zhangyu",
+    "Positioning": "ShortDes_2301"
+  },
+  "2401": {
+    "RoleId": 2401,
+    "RoleName": "白蘅",
+    "CharName": "UI_CHAR_NAME_2401",
+    "BattleCharTag": [
+      "Woman"
+    ],
+    "UnitBPPath": "/Game/BluePrints/Char/BP_PlayerCharacter.BP_PlayerCharacter_C",
+    "GuideIconImg": "Mini_Baiheng",
+    "ModelId": 2401,
+    "WeaponId": 10101,
+    "RangedWeapon": 20201,
+    "CondemnWeapon": 30,
+    "CharUIId": 14,
+    "SummonId": {},
+    "SkillList": {},
+    "UpgradeSkillExtraLevel": {},
+    "CharGradeDescription": [
+      "GRADEUP_2401_01",
+      "GRADEUP_2401_02",
+      "GRADEUP_2401_03",
+      "GRADEUP_2401_04",
+      "GRADEUP_2401_05",
+      "GRADEUP_2401_06"
+    ],
+    "CharGradeParameter": [
+      "$#Buff[240133].AddAttrs[1].Value*100$%",
+      "$#Buff[240122].AddAttrs[2].Value*100$%",
+      "$#PassiveEffect[240101].Vars.Grade1Skill01MaxTarget$",
+      "$#SkillEffects[240112].TaskEffects[1].MaxSummonCount$",
+      "$#PassiveEffect[240102].Vars.Grade2SpAddedValue$"
+    ],
+    "Attribute": "Water",
+    "ExcelWeaponTags": {},
+    "ExcelWeaponRate": 0.2,
+    "MaxHp": 90,
+    "DEF": 240,
+    "MaxES": 90,
+    "ATK": 25,
+    "Sp": -1,
+    "MaxSp": 180,
+    "MaxHpLevelGrow": "MaxHpS",
+    "DEFLevelGrow": "DEFS",
+    "MaxESLevelGrow": "MaxESS",
+    "ATKLevelGrow": "ATKS",
+    "CapsuleInfo": [
+      {
+        "OriHalfHeight": 87
+      },
+      {
+        "OriRadius": 20
+      },
+      {
+        "Slide": [
+          45,
+          200
+        ]
+      },
+      {
+        "Crouch": [
+          45,
+          200
+        ]
+      }
+    ],
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 100
+      },
+      {
+        "MaxAccelerationWalk": 2048
+      },
+      {
+        "MaxSpeedRun": 500
+      },
+      {
+        "MaxAccelerationRun": 2048
+      }
+    ],
+    "AIBTPath": "/Game/AssetDesign/AI/Player/Baiheng/BT_TestAI_Baiheng.BT_TestAI_Baiheng",
+    "Positioning": "ShortDes_2401"
+  },
+  "3101": {
+    "RoleId": 3101,
+    "RoleName": "女枪",
+    "CharName": "UI_CHAR_NAME_3101",
+    "BattleCharTag": [
+      "Woman"
+    ],
+    "UnitBPPath": "/Game/BluePrints/Char/BP_PlayerCharacter.BP_PlayerCharacter_C",
+    "GuideIconImg": "Mini_Linen",
+    "ModelId": 3101,
+    "WeaponId": 10101,
+    "RangedWeapon": 20201,
+    "UltraWeapon": 310101,
+    "CondemnWeapon": 30,
+    "CharUIId": 4,
+    "SkillList": {},
+    "UpgradeSkillExtraLevel": {},
+    "CharGradeDescription": [
+      "GRADEUP_3101_01",
+      "GRADEUP_3101_02",
+      "GRADEUP_3101_03",
+      "GRADEUP_3101_04",
+      "GRADEUP_3101_05",
+      "GRADEUP_3101_06"
+    ],
+    "CharGradeParameter": [
+      "$#Buff[310121].BuffDamagedRate.Value*(-100)$%",
+      "$#PassiveEffect[310101].Vars.Grade4HpBelow*100$%",
+      "$#PassiveEffect[310101].Vars.Grade4BuffRate*100$%",
+      "$#Buff[310141].AddAttrs[1].Value*100$%",
+      "$#PassiveEffect[310101].Vars.Grade1LastTime$",
+      "$#PassiveEffect[310101].Vars.Grade6DebuffLastTime$"
+    ],
+    "Attribute": "Fire",
+    "ExcelWeaponTags": {},
+    "ExcelWeaponRate": 0.2,
+    "MaxHp": 91,
+    "DEF": 225,
+    "MaxES": 91,
+    "ATK": 26,
+    "Sp": -1,
+    "MaxSp": 100,
+    "MaxHpLevelGrow": "MaxHpA",
+    "DEFLevelGrow": "DEFA",
+    "MaxESLevelGrow": "MaxESA",
+    "ATKLevelGrow": "ATKA",
+    "CapsuleInfo": [
+      {
+        "OriHalfHeight": 87
+      },
+      {
+        "OriRadius": 20
+      },
+      {
+        "Slide": [
+          45,
+          200
+        ]
+      },
+      {
+        "Crouch": [
+          45,
+          200
+        ]
+      }
+    ],
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 100
+      },
+      {
+        "MaxAccelerationWalk": 2048
+      },
+      {
+        "MaxSpeedRun": 500
+      },
+      {
+        "MaxAccelerationRun": 2048
+      }
+    ],
+    "AIBTPath": "/Game/AssetDesign/AI/Player/Linen/BT_Phantom_Linen.BT_Phantom_Linen",
+    "Positioning": "ShortDes_3101"
+  },
+  "3102": {
+    "RoleId": 3102,
+    "RoleName": "希尔妲",
+    "CharName": "UI_CHAR_NAME_3102",
+    "BattleCharTag": [
+      "Woman"
+    ],
+    "UnitBPPath": "/Game/BluePrints/Char/BP_PlayerCharacter.BP_PlayerCharacter_C",
+    "GuideIconImg": "Mini_Xier",
+    "ModelId": 3102,
+    "WeaponId": 10101,
+    "RangedWeapon": 20201,
+    "CondemnWeapon": 30,
+    "SkillList": {},
+    "PassiveEffectClient": "Blueprint'/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Client/BP_Xier_PassiveClient.BP_Xier_PassiveClient'",
+    "UpgradeSkillExtraLevel": {},
+    "CharGradeDescription": [
+      "GRADEUP_3102_01",
+      "GRADEUP_3102_02",
+      "GRADEUP_3102_03",
+      "GRADEUP_3102_04",
+      "GRADEUP_3102_05",
+      "GRADEUP_3102_06"
+    ],
+    "CharGradeParameter": [
+      "$#Buff[310205].BuffDamageRate.Value*(-100)$%",
+      "$#PassiveEffect[310201].Vars.Skill2DeDamageLastTime$",
+      "$#PassiveEffect[310201].Vars.Grade2InDamageRate*100$%",
+      "$#PassiveEffect[310202].Vars.Skill1IncreaseDamageLastTime$"
+    ],
+    "Attribute": "Fire",
+    "ExcelWeaponTags": [
+      "Cannon"
+    ],
+    "ExcelWeaponRate": 0.2,
+    "MaxHp": 90,
+    "DEF": 240,
+    "MaxES": 90,
+    "ATK": 24,
+    "Sp": -1,
+    "MaxSp": 200,
+    "MaxHpLevelGrow": "MaxHpA",
+    "DEFLevelGrow": "DEFA",
+    "MaxESLevelGrow": "MaxESA",
+    "ATKLevelGrow": "ATKA",
+    "CapsuleInfo": [
+      {
+        "OriHalfHeight": 87
+      },
+      {
+        "OriRadius": 20
+      },
+      {
+        "Slide": [
+          45,
+          200
+        ]
+      },
+      {
+        "Crouch": [
+          45,
+          200
+        ]
+      }
+    ],
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 100
+      },
+      {
+        "MaxAccelerationWalk": 2048
+      },
+      {
+        "MaxSpeedRun": 500
+      },
+      {
+        "MaxAccelerationRun": 2048
+      }
+    ],
+    "AIBTPath": "/Game/AssetDesign/AI/Player/Xier/BT_TestAI_Xier.BT_TestAI_Xier",
+    "Positioning": "ShortDes_3102"
+  },
+  "3103": {
+    "RoleId": 3103,
+    "RoleName": "耶尔",
+    "CharName": "UI_CHAR_NAME_3103",
+    "BattleCharTag": [
+      "Boy"
+    ],
+    "UnitBPPath": "/Game/BluePrints/Char/BP_PlayerCharacter.BP_PlayerCharacter_C",
+    "GuideIconImg": "Mini_Yeer",
+    "ModelId": 3103,
+    "WeaponId": 10101,
+    "RangedWeapon": 20201,
+    "CondemnWeapon": 30,
+    "SummonId": {},
+    "SkillList": {},
+    "UpgradeSkillExtraLevel": {},
+    "CharGradeDescription": [
+      "GRADEUP_3103_01",
+      "GRADEUP_3103_02",
+      "GRADEUP_3103_03",
+      "GRADEUP_3103_04",
+      "GRADEUP_3103_05",
+      "GRADEUP_3103_06"
+    ],
+    "CharGradeParameter": [
+      "$#PassiveEffect[310301].Vars.ReturnSpSmall$",
+      "$#PassiveEffect[310301].Vars.ReturnSpLarge$",
+      "$-#Buff[310323].AddAttrs[1].Value*100$%",
+      "$#PassiveEffect[310301].Vars.Grade4Prob*100$%"
+    ],
+    "Attribute": "Fire",
+    "ExcelWeaponTags": [
+      "Shotgun"
+    ],
+    "ExcelWeaponRate": 0.2,
+    "MaxHp": 90,
+    "DEF": 240,
+    "MaxES": 90,
+    "ATK": 18,
+    "Sp": -1,
+    "MaxSp": 180,
+    "MaxHpLevelGrow": "MaxHpS",
+    "DEFLevelGrow": "DEFS",
+    "MaxESLevelGrow": "MaxESS",
+    "ATKLevelGrow": "ATKS",
+    "CapsuleInfo": [
+      {
+        "OriHalfHeight": 80
+      },
+      {
+        "OriRadius": 20
+      },
+      {
+        "Slide": [
+          45,
+          200
+        ]
+      },
+      {
+        "Crouch": [
+          45,
+          200
+        ]
+      }
+    ],
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 100
+      },
+      {
+        "MaxAccelerationWalk": 2048
+      },
+      {
+        "MaxSpeedRun": 500
+      },
+      {
+        "MaxAccelerationRun": 2048
+      }
+    ],
+    "Positioning": "ShortDes_3103"
+  },
+  "3201": {
+    "RoleId": 3201,
+    "RoleName": "典狱长",
+    "CharName": "UI_CHAR_NAME_3201",
+    "BattleCharTag": [
+      "Woman"
+    ],
+    "UnitBPPath": "/Game/BluePrints/Char/BP_PlayerCharacter.BP_PlayerCharacter_C",
+    "GuideIconImg": "Mini_Haier",
+    "ModelId": 3201,
+    "WeaponId": 10301,
+    "RangedWeapon": 20201,
+    "CondemnWeapon": 30,
+    "SkillList": {},
+    "UpgradeSkillExtraLevel": {},
+    "CharGradeDescription": [
+      "GRADEUP_3201_01",
+      "GRADEUP_3201_02",
+      "GRADEUP_3201_03",
+      "GRADEUP_3201_04",
+      "GRADEUP_3201_05",
+      "GRADEUP_3201_06"
+    ],
+    "CharGradeParameter": [
+      "$#PassiveEffect[320101].Vars.Grade1BuffRate*100$%",
+      "$#PassiveEffect[320101].Vars.Grade2HealPerEnemy*100$%",
+      "$#PassiveEffect[320101].Vars.Grade2MaxHeal*100$%"
+    ],
+    "Attribute": "Fire",
+    "ExcelWeaponTags": {},
+    "ExcelWeaponRate": 0.2,
+    "MaxHp": 135,
+    "DEF": 230,
+    "MaxES": 0,
+    "ATK": 17,
+    "Sp": -1,
+    "MaxSp": 140,
+    "MaxHpLevelGrow": "MaxHpA",
+    "DEFLevelGrow": "DEFA",
+    "MaxESLevelGrow": "MaxESA",
+    "ATKLevelGrow": "ATKA",
+    "CapsuleInfo": [
+      {
+        "OriHalfHeight": 87
+      },
+      {
+        "OriRadius": 20
+      },
+      {
+        "Slide": [
+          45,
+          200
+        ]
+      },
+      {
+        "Crouch": [
+          45,
+          200
+        ]
+      }
+    ],
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 100
+      },
+      {
+        "MaxAccelerationWalk": 2048
+      },
+      {
+        "MaxSpeedRun": 500
+      },
+      {
+        "MaxAccelerationRun": 2048
+      }
+    ],
+    "Positioning": "ShortDes_3201"
+  },
+  "3301": {
+    "RoleId": 3301,
+    "RoleName": "玛尔洁",
+    "CharName": "UI_CHAR_NAME_3301",
+    "BattleCharTag": [
+      "Girl"
+    ],
+    "UnitBPPath": "/Game/BluePrints/Char/BP_PlayerCharacter.BP_PlayerCharacter_C",
+    "GuideIconImg": "Mini_Maer",
+    "ModelId": 3301,
+    "WeaponId": 10101,
+    "RangedWeapon": 20201,
+    "CondemnWeapon": 30,
+    "SkillList": {},
+    "PassiveEffectClient": "Blueprint'/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Client/BP_Maer_Client.BP_Maer_Client'",
+    "UpgradeSkillExtraLevel": {},
+    "CharGradeDescription": [
+      "GRADEUP_3301_01",
+      "GRADEUP_3301_02",
+      "GRADEUP_3301_03",
+      "GRADEUP_3301_04",
+      "GRADEUP_3301_05",
+      "GRADEUP_3301_06"
+    ],
+    "CharGradeParameter": [
+      "$#PassiveEffect[330101].Vars.Grade1PropReturn*100$%",
+      "$#PassiveEffect[330101].Vars.Skill01AddRate*100$%",
+      "$#PassiveEffect[330101].Vars.TimeAddRate*100$%",
+      "$#PassiveEffect[330101].Vars.Grade6LastTime$",
+      "$#Buff[330121].AddAttrs[1].Value*100$%"
+    ],
+    "Attribute": "Fire",
+    "ExcelWeaponTags": [
+      "Shotgun"
+    ],
+    "ExcelWeaponRate": 0.2,
+    "MaxHp": 91,
+    "DEF": 225,
+    "MaxES": 91,
+    "ATK": 25,
+    "Sp": -1,
+    "MaxSp": 100,
+    "MaxHpLevelGrow": "MaxHpS",
+    "DEFLevelGrow": "DEFS",
+    "MaxESLevelGrow": "MaxESS",
+    "ATKLevelGrow": "ATKA",
+    "CapsuleInfo": [
+      {
+        "OriHalfHeight": 80
+      },
+      {
+        "OriRadius": 20
+      },
+      {
+        "Slide": [
+          45,
+          200
+        ]
+      },
+      {
+        "Crouch": [
+          45,
+          200
+        ]
+      }
+    ],
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 100
+      },
+      {
+        "MaxAccelerationWalk": 2048
+      },
+      {
+        "MaxSpeedRun": 500
+      },
+      {
+        "MaxAccelerationRun": 2048
+      }
+    ],
+    "Positioning": "ShortDes_3301"
+  },
+  "4101": {
+    "RoleId": 4101,
+    "RoleName": "暴怒",
+    "CharName": "UI_CHAR_NAME_4101",
+    "BattleCharTag": [
+      "Loli"
+    ],
+    "UnitBPPath": "/Game/BluePrints/Char/BP_PlayerCharacter.BP_PlayerCharacter_C",
+    "GuideIconImg": "Mini_Zhangyu",
+    "ModelId": 4101,
+    "WeaponId": 10301,
+    "RangedWeapon": 20201,
+    "UltraWeapon": 410101,
+    "CondemnWeapon": 30,
+    "SummonId": {},
+    "SkillList": {},
+    "Attribute": "Thunder",
+    "ExcelWeaponRate": 0.2,
+    "MaxHp": 80,
+    "DEF": 300,
+    "MaxES": 80,
+    "ATK": 30,
+    "Sp": -1,
+    "MaxSp": 100,
+    "MaxHpLevelGrow": "MaxHpS",
+    "DEFLevelGrow": "DEFS",
+    "MaxESLevelGrow": "MaxESS",
+    "ATKLevelGrow": "ATKS",
+    "CapsuleInfo": [
+      {
+        "OriHalfHeight": 65
+      },
+      {
+        "OriRadius": 20
+      },
+      {
+        "Slide": [
+          45,
+          200
+        ]
+      },
+      {
+        "Crouch": [
+          45,
+          200
+        ]
+      }
+    ],
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 100
+      },
+      {
+        "MaxAccelerationWalk": 2048
+      },
+      {
+        "MaxSpeedRun": 500
+      },
+      {
+        "MaxAccelerationRun": 2048
+      }
+    ]
+  },
+  "4201": {
+    "RoleId": 4201,
+    "RoleName": "黑龙",
+    "CharName": "UI_CHAR_NAME_4201",
+    "BattleCharTag": [
+      "Man"
+    ],
+    "UnitBPPath": "/Game/BluePrints/Char/BP_PlayerCharacter.BP_PlayerCharacter_C",
+    "GuideIconImg": "Mini_Yuming",
+    "ModelId": 4201,
+    "WeaponId": 10203,
+    "RangedWeapon": 20201,
+    "CondemnWeapon": 30,
+    "CharUIId": 6,
+    "SummonId": {},
+    "SkillList": {},
+    "PassiveEffectClient": "Blueprint'/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Client/BP_Yuming_Client.BP_Yuming_Client'",
+    "UpgradeSkillExtraLevel": {},
+    "CharGradeDescription": [
+      "GRADEUP_4201_01",
+      "GRADEUP_4201_02",
+      "GRADEUP_4201_03",
+      "GRADEUP_4201_04",
+      "GRADEUP_4201_05",
+      "GRADEUP_4201_06"
+    ],
+    "CharGradeParameter": [
+      "$#PassiveEffect[420101].Vars.Grade4EnemyHpPercent*100$%",
+      "$#PassiveEffect[420101].Vars.Grade4DamageBuffRate*100$%",
+      "$#PassiveEffect[420101].Vars.Grade2DamageBuffRate*100$%",
+      "$#Buff[420133].AddAttrs[1].Value*100$%",
+      "$#PassiveEffect[420101].Vars.Grade1ComboProb*100$%",
+      "$#PassiveEffect[420101].Vars.Grade2LastTime$"
+    ],
+    "Attribute": "Thunder",
+    "ExcelWeaponTags": [
+      "Polearm"
+    ],
+    "ExcelWeaponRate": 0.2,
+    "MaxHp": 109,
+    "DEF": 225,
+    "MaxES": 46,
+    "ATK": 25,
+    "Sp": -1,
+    "MaxSp": 100,
+    "MaxHpLevelGrow": "MaxHpS",
+    "DEFLevelGrow": "DEFS",
+    "MaxESLevelGrow": "MaxESS",
+    "ATKLevelGrow": "ATKS",
+    "CapsuleInfo": [
+      {
+        "OriHalfHeight": 96.5
+      },
+      {
+        "OriRadius": 20
+      },
+      {
+        "Slide": [
+          45,
+          200
+        ]
+      },
+      {
+        "Crouch": [
+          45,
+          200
+        ]
+      }
+    ],
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 100
+      },
+      {
+        "MaxAccelerationWalk": 2048
+      },
+      {
+        "MaxSpeedRun": 500
+      },
+      {
+        "MaxAccelerationRun": 2048
+      }
+    ],
+    "AIBTPath": "/Game/AssetDesign/AI/Player/Yuming/BT_TestAI_Yuming.BT_TestAI_Yuming",
+    "Positioning": "ShortDes_4201"
+  },
+  "4202": {
+    "RoleId": 4202,
+    "RoleName": "兰迪",
+    "CharName": "UI_CHAR_NAME_4202",
+    "BattleCharTag": [
+      "Man"
+    ],
+    "UnitBPPath": "/Game/BluePrints/Char/BP_PlayerCharacter.BP_PlayerCharacter_C",
+    "GuideIconImg": "Mini_Landi",
+    "ModelId": 4202,
+    "WeaponId": 10104,
+    "RangedWeapon": 20201,
+    "CondemnWeapon": 30,
+    "SkillList": {},
+    "UpgradeSkillExtraLevel": {},
+    "CharGradeDescription": [
+      "GRADEUP_4202_01",
+      "GRADEUP_4202_02",
+      "GRADEUP_4202_03",
+      "GRADEUP_4202_04",
+      "GRADEUP_4202_05",
+      "GRADEUP_4202_06"
+    ],
+    "CharGradeParameter": [
+      "$#Buff[420200].AddAttrs[1].Value$",
+      "$#PassiveEffect[420201].Vars.Grade6DamageRate*100$%"
+    ],
+    "Attribute": "Thunder",
+    "ExcelWeaponTags": [
+      "Sword"
+    ],
+    "ExcelWeaponRate": 0.2,
+    "MaxHp": 104,
+    "DEF": 410,
+    "MaxES": 104,
+    "ATK": 14,
+    "Sp": -1,
+    "MaxSp": 140,
+    "MaxHpLevelGrow": "MaxHpS",
+    "DEFLevelGrow": "DEFS",
+    "MaxESLevelGrow": "MaxESS",
+    "ATKLevelGrow": "ATKS",
+    "CapsuleInfo": [
+      {
+        "OriHalfHeight": 96.5
+      },
+      {
+        "OriRadius": 20
+      },
+      {
+        "Slide": [
+          45,
+          200
+        ]
+      },
+      {
+        "Crouch": [
+          45,
+          200
+        ]
+      }
+    ],
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 100
+      },
+      {
+        "MaxAccelerationWalk": 2048
+      },
+      {
+        "MaxSpeedRun": 500
+      },
+      {
+        "MaxAccelerationRun": 2048
+      }
+    ],
+    "Positioning": "ShortDes_4202"
+  },
+  "4301": {
+    "RoleId": 4301,
+    "RoleName": "西比尔",
+    "CharName": "UI_CHAR_NAME_4301",
+    "BattleCharTag": [
+      "Woman"
+    ],
+    "UnitBPPath": "/Game/BluePrints/Char/BP_PlayerCharacter.BP_PlayerCharacter_C",
+    "GuideIconImg": "Mini_Xibi",
+    "ModelId": 4301,
+    "WeaponId": 10101,
+    "RangedWeapon": 20201,
+    "CondemnWeapon": 30,
+    "CharUIId": 10,
+    "SkillList": {},
+    "PassiveEffectClient": "Blueprint'/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Client/BP_Xibi_Client.BP_Xibi_Client'",
+    "UpgradeSkillExtraLevel": {},
+    "CharGradeDescription": [
+      "GRADEUP_4301_01",
+      "GRADEUP_4301_02",
+      "GRADEUP_4301_03",
+      "GRADEUP_4301_04",
+      "GRADEUP_4301_05",
+      "GRADEUP_4301_06"
+    ],
+    "CharGradeParameter": [
+      "$#PassiveEffect[430101].Vars.DamageAddRateGrade2*100$%",
+      "$#PassiveEffect[430101].Vars.LinkAddGrade2*100$%",
+      "$#PassiveEffect[430101].Vars.Skill02LinkAddedRate*100$%"
+    ],
+    "Attribute": "Thunder",
+    "ExcelWeaponTags": {},
+    "ExcelWeaponRate": 0.2,
+    "MaxHp": 150,
+    "DEF": 345,
+    "MaxES": 150,
+    "ATK": 14,
+    "Sp": -1,
+    "MaxSp": 140,
+    "MaxHpLevelGrow": "MaxHpS",
+    "DEFLevelGrow": "DEFS",
+    "MaxESLevelGrow": "MaxESS",
+    "ATKLevelGrow": "ATKS",
+    "CapsuleInfo": [
+      {
+        "OriHalfHeight": 87
+      },
+      {
+        "OriRadius": 20
+      },
+      {
+        "Slide": [
+          45,
+          200
+        ]
+      },
+      {
+        "Crouch": [
+          45,
+          200
+        ]
+      }
+    ],
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 100
+      },
+      {
+        "MaxAccelerationWalk": 2048
+      },
+      {
+        "MaxSpeedRun": 500
+      },
+      {
+        "MaxAccelerationRun": 2048
+      }
+    ],
+    "Positioning": "ShortDes_4301"
+  },
+  "5101": {
+    "RoleId": 5101,
+    "RoleName": "松露",
+    "CharName": "UI_CHAR_NAME_5101",
+    "BattleCharTag": [
+      "Loli"
+    ],
+    "UnitBPPath": "/Game/BluePrints/Char/BP_PlayerCharacter.BP_PlayerCharacter_C",
+    "GuideIconImg": "Mini_Songlu",
+    "ModelId": 5101,
+    "WeaponId": 10204,
+    "RangedWeapon": 20201,
+    "UltraWeapon": 510101,
+    "CondemnWeapon": 30,
+    "CharUIId": 5,
+    "SummonId": {},
+    "SkillList": {},
+    "PassiveEffectClient": "Blueprint'/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Client/BP_Songlu_PassiveClient.BP_Songlu_PassiveClient'",
+    "UpgradeSkillExtraLevel": {},
+    "CharGradeDescription": [
+      "GRADEUP_5101_01",
+      "GRADEUP_5101_02",
+      "GRADEUP_5101_03",
+      "GRADEUP_5101_04",
+      "GRADEUP_5101_05",
+      "GRADEUP_5101_06"
+    ],
+    "CharGradeParameter": [
+      "$#PassiveEffect[510101].Vars.Grade2AddAtk*100$%",
+      "$#PassiveEffect[510101].Vars.Grade2BuffTime$",
+      "$#Buff[510105].AddAttrs[1].Rate*100$%",
+      "$#PassiveEffect[510101].Vars.Grade6LastTime$",
+      "$#Buff[510104].AddAttrs[1].SupLimitValue$",
+      "$#Buff[510105].MaxLayer$"
+    ],
+    "Attribute": "Wind",
+    "ExcelWeaponTags": {},
+    "ExcelWeaponRate": 0.2,
+    "MaxHp": 150,
+    "DEF": 345,
+    "MaxES": 150,
+    "ATK": 14,
+    "Sp": -1,
+    "MaxSp": 140,
+    "MaxHpLevelGrow": "MaxHpS",
+    "DEFLevelGrow": "DEFS",
+    "MaxESLevelGrow": "MaxESS",
+    "ATKLevelGrow": "ATKS",
+    "CapsuleInfo": [
+      {
+        "OriHalfHeight": 65
+      },
+      {
+        "OriRadius": 20
+      },
+      {
+        "Slide": [
+          45,
+          200
+        ]
+      },
+      {
+        "Crouch": [
+          45,
+          200
+        ]
+      }
+    ],
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 100
+      },
+      {
+        "MaxAccelerationWalk": 2048
+      },
+      {
+        "MaxSpeedRun": 500
+      },
+      {
+        "MaxAccelerationRun": 2048
+      }
+    ],
+    "AIBTPath": "/Game/AssetDesign/AI/Player/Songlu/BT_TestAI_Songlu.BT_TestAI_Songlu",
+    "Positioning": "ShortDes_5101"
+  },
+  "5102": {
+    "RoleId": 5102,
+    "RoleName": "奥特赛德",
+    "CharName": "奥特赛德",
+    "BattleCharTag": [
+      "Man"
+    ],
+    "UnitBPPath": "/Game/BluePrints/Char/BP_PlayerCharacter.BP_PlayerCharacter_C",
+    "GuideIconImg": "Mini_Aote",
+    "ModelId": 1102,
+    "WeaponId": 10101,
+    "RangedWeapon": 20201,
+    "CondemnWeapon": 30,
+    "SkillList": {},
+    "Attribute": "Dark",
+    "ExcelWeaponRate": 0.2,
+    "MaxHp": 100,
+    "DEF": 300,
+    "MaxES": 95,
+    "ATK": 24,
+    "Sp": -1,
+    "MaxSp": 120,
+    "MaxHpLevelGrow": "MaxHpA",
+    "DEFLevelGrow": "DEFA",
+    "MaxESLevelGrow": "MaxESA",
+    "ATKLevelGrow": "ATKA",
+    "CapsuleInfo": [
+      {
+        "OriHalfHeight": 80
+      },
+      {
+        "OriRadius": 20
+      },
+      {
+        "Slide": [
+          45,
+          200
+        ]
+      },
+      {
+        "Crouch": [
+          45,
+          200
+        ]
+      }
+    ],
+    "BTMotionParams": [
+      {
+        "MaxSpeedWalk": 100
+      },
+      {
+        "MaxAccelerationWalk": 2048
+      },
+      {
+        "MaxSpeedRun": 500
+      },
+      {
+        "MaxAccelerationRun": 2048
+      }
+    ]
+  },
+  "5301": {
+    "RoleId": 5301,
+    "RoleName": "蝶妹",
+    "CharName": "UI_CHAR_NAME_5301",
+    "BattleCharTag": [
+      "Girl"
+    ],
+    "UnitBPPath": "/Game/BluePrints/Char/BP_PlayerCharacter.BP_PlayerCharacter_C",
+    "GuideIconImg": "Mini_Saiqi",
+    "ModelId": 5301,
+    "WeaponId": 10204,
+    "RangedWeapon": 20201,
+    "UltraWeapon": 530101,
+    "CondemnWeapon": 30,
+    "SummonId": {},
+    "SkillList": {},
+    "PassiveEffectClient": "Blueprint'/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Client/BP_Saiqi_Client.BP_Saiqi_Client'",
+    "UpgradeSkillExtraLevel": {},
+    "CharGradeDescription": [
+      "GRADEUP_5301_01",
+      "GRADEUP_5301_02",
+      "GRADEUP_5301_03",
+      "GRADEUP_5301_04",
+      "GRADEUP_5301_05",
+      "GRADEUP_5301_06"
+    ],
+    "CharGradeParameter": [
+      "$#PassiveEffect[530102].Vars.Grade1TriggerProb*100$%",
+      "$#Buff[530112].AddAttrs[1].Value*100$%",
+      "$#PassiveEffect[530102].Vars.Grade4SpRestoreRate*100$%",
+      "$#PassiveEffect[530102].Vars.Grade4SpRestore$",
+      "$#PassiveEffect[530102].Vars.Grade4AddEs$",
+      "$#Buff[530112].BuffDamagedRate.Value*(-100)$%",
+      "$#Buff[530113].AddAttrs[1].Value*100$%",
+      "$#PassiveEffect[530102].Vars.Grade6MaxBuff$"
+    ],
+    "Attribute": "Wind",
+    "ExcelWeaponTags": {},
+    "ExcelWeaponRate": 0.2,
+    "MaxHp": 91,
+    "DEF": 225,
+    "MaxES": 91,
+    "ATK": 27,
+    "Sp": -1,
+    "MaxSp": 100,
+    "MaxHpLevelGrow": "MaxHpS",
+    "DEFLevelGrow": "DEFS",
+    "MaxESLevelGrow": "MaxESS",
+    "ATKLevelGrow": "ATKS",
+    "CapsuleInfo": [
+      {
+        "OriHalfHeight": 80
+      },
+      {
+        "OriRadius": 20
+      },
+      {
+        "Slide": [
+          45,
+          200
+        ]
+      },
+      {
+        "Crouch": [
+          45,
+          200
+        ]
+      }
+    ],
+    "BTMotionParams": {
+      "MaxSpeedWalk": 100,
+      "MaxAccelerationWalk": 2048,
+      "MaxSpeedRun": 500,
+      "MaxAccelerationRun": 2048,
+      "MaxSpeedFly": 800,
+      "MaxAccelerationFly": 2048
+    },
+    "AIBTPath": "/Game/AssetDesign/AI/Player/Saiqi/BT_TestAI_Saiqi.BT_TestAI_Saiqi",
+    "Positioning": "ShortDes_5301"
+  }
+}

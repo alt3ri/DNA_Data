@@ -1,0 +1,107 @@
+{
+  "Node": {
+    "Service": "Node"
+  },
+  "BroadcastMgr": {
+    "Service": "BroadcastMgr"
+  },
+  "AccountMgr": {
+    "Service": "AccountMgr",
+    "Namespace": [
+      "cross"
+    ]
+  },
+  "DSClusterMgr": {
+    "Service": "DSClusterMgr",
+    "ServerType": "fight",
+    "Namespace": [
+      "cross"
+    ]
+  },
+  "MatchMgr": {
+    "Service": "MatchMgr",
+    "ServerType": "match",
+    "Namespace": [
+      "cross"
+    ]
+  },
+  "GMMgr": {
+    "Service": "GMMgr",
+    "Namespace": [
+      "entire"
+    ]
+  },
+  "GachaServiceMgr": {
+    "Service": "GachaServiceMgr"
+  },
+  "RankMgr": {
+    "Service": "RankMgr"
+  },
+  "SaLog": {
+    "Service": "SaLog"
+  },
+  "TeamMgr": {
+    "Service": "TeamMgr",
+    "Namespace": [
+      "cross"
+    ]
+  },
+  "CronMgr": {
+    "Service": "CronMgr"
+  },
+  "MailMgr": {
+    "Service": "MailMgr",
+    "Namespace": [
+      "cross"
+    ]
+  },
+  "USDKHttpMgr": {
+    "Service": "USDKHttpMgr",
+    "ServerType": "http"
+  },
+  "PaymentService": {
+    "Service": "PaymentService",
+    "Namespace": [
+      "entire"
+    ]
+  },
+  "OperationHttpMgr": {
+    "Service": "OperationHttpMgr",
+    "ServerType": "http",
+    "Namespace": [
+      "cross"
+    ]
+  },
+  "MonitorMgr": {
+    "Service": "MonitorMgr"
+  },
+  "ServerCacheMgr": {
+    "Service": "ServerCacheMgr"
+  },
+  "FilterWordMgr": {
+    "Service": "FilterWordMgr"
+  },
+  "FriendMgr": {
+    "Service": "FriendMgr",
+    "Namespace": [
+      "cross"
+    ]
+  },
+  "ActivityMgr": {
+    "Service": "ActivityMgr"
+  },
+  "ChatMgr": {
+    "Service": "ChatMgr"
+  },
+  "ChatChannelMgr": {
+    "Service": "ChatChannelMgr",
+    "ServerType": "chat",
+    "Namespace": [
+      "cross"
+    ]
+  },
+  "SentimentSDKHttpMgr": {
+    "Service": "SentimentSDKHttpMgr",
+    "ServerType": "http"
+  }
+}

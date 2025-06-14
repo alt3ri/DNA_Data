@@ -1,0 +1,834 @@
+{
+  "1101": {
+    "CharId": 1101,
+    "CharName": "UI_CHAR_NAME_1101",
+    "RoleId": 1101,
+    "CharRarity": 4,
+    "MeleeWeapon": 10101,
+    "RangedWeapon": 20201,
+    "ModSlot": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      1,
+      2
+    ],
+    "ModSlotUnlock": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "ModApplicationType": {},
+    "SkinId": {},
+    "ArmoryCameraPosition": [
+      200,
+      0,
+      30
+    ],
+    "ArmoryCameraRotation": [
+      0,
+      -5,
+      180
+    ],
+    "RegainCharItemId": 1001101,
+    "RegainCharItemNum": 1,
+    "FirstCharItemId": 1011101,
+    "FirstCharItemNum": 1,
+    "CharMaxLevel": 80,
+    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Avatar/T_Head_Heitao.T_Head_Heitao",
+    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Avatar/T_Bust_Heitao.T_Bust_Heitao",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Avatar/T_Gacha_AvatarHeitao.T_Gacha_AvatarHeitao",
+    "EscIcon": "/Game/UI/Texture/Dynamic/Image/Head/Avatar_Icon/T_Icon_Heitao.T_Icon_Heitao",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "CampIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/SingleIcon/T_Gacha_CampIcon_Yehang.T_Gacha_CampIcon_Yehang"
+  },
+  "1801": {
+    "CharId": 1801,
+    "CharName": "UI_CHAR_NAME_1801",
+    "RoleId": 1801,
+    "CharRarity": 5,
+    "MeleeWeapon": 10101,
+    "RangedWeapon": 20201,
+    "ModSlot": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      1,
+      2
+    ],
+    "ModSlotUnlock": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "ModApplicationType": {},
+    "SkinId": {},
+    "ArmoryCameraPosition": [
+      200,
+      0,
+      30
+    ],
+    "ArmoryCameraRotation": [
+      0,
+      -5,
+      180
+    ],
+    "RegainCharItemId": 1001801,
+    "RegainCharItemNum": 1,
+    "FirstCharItemId": 1011801,
+    "FirstCharItemNum": 1,
+    "CharMaxLevel": 80,
+    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Avatar/T_Head_Feina.T_Head_Feina",
+    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Avatar/T_Bust_Feina.T_Bust_Feina",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Avatar/T_Gacha_AvatarFeina.T_Gacha_AvatarFeina",
+    "EscIcon": "/Game/UI/Texture/Dynamic/Image/Head/Avatar_Icon/T_Icon_Feina.T_Icon_Feina",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "CampIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/SingleIcon/T_Gacha_CampIcon_Diguo.T_Gacha_CampIcon_Diguo"
+  },
+  "2101": {
+    "CharId": 2101,
+    "CharName": "UI_CHAR_NAME_2101",
+    "RoleId": 2101,
+    "CharRarity": 5,
+    "MeleeWeapon": 10201,
+    "RangedWeapon": 20201,
+    "ModSlot": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      4,
+      4
+    ],
+    "ModSlotUnlock": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "ModApplicationType": [
+      1,
+      12
+    ],
+    "SkinId": {},
+    "ArmoryCameraPosition": [
+      200,
+      0,
+      30
+    ],
+    "ArmoryCameraRotation": [
+      0,
+      -5,
+      180
+    ],
+    "RegainCharItemId": 1002101,
+    "RegainCharItemNum": 1,
+    "FirstCharItemId": 1012101,
+    "FirstCharItemNum": 1,
+    "CharMaxLevel": 80,
+    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Avatar/T_Head_Shuimu.T_Head_Shuimu",
+    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Avatar/T_Bust_Shuimu.T_Bust_Shuimu",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Avatar/T_Gacha_AvatarShuimu.T_Gacha_AvatarShuimu",
+    "EscIcon": "/Game/UI/Texture/Dynamic/Image/Head/Avatar_Icon/T_Icon_Shuimu.T_Icon_Shuimu",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "CampIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/SingleIcon/T_Gacha_CampIcon_Haiguo.T_Gacha_CampIcon_Haiguo"
+  },
+  "2301": {
+    "CharId": 2301,
+    "CharName": "UI_CHAR_NAME_2301",
+    "RoleId": 2301,
+    "CharRarity": 4,
+    "MeleeWeapon": 10301,
+    "RangedWeapon": 20301,
+    "ModSlot": {},
+    "ModSlotUnlock": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "ModApplicationType": [
+      1,
+      12
+    ],
+    "SkinId": {},
+    "ArmoryCameraPosition": [
+      200,
+      0,
+      30
+    ],
+    "ArmoryCameraRotation": [
+      0,
+      -5,
+      180
+    ],
+    "RegainCharItemId": 1002301,
+    "RegainCharItemNum": 1,
+    "FirstCharItemId": 1012301,
+    "FirstCharItemNum": 1,
+    "CharMaxLevel": 80,
+    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Avatar/T_Head_Zhangyu.T_Head_Zhangyu",
+    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Avatar/T_Bust_Zhangyu.T_Bust_Zhangyu",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Avatar/T_Gacha_AvatarZhangyu.T_Gacha_AvatarZhangyu",
+    "EscIcon": "/Game/UI/Texture/Dynamic/Image/Head/Avatar_Icon/T_Icon_Zhangyu.T_Icon_Zhangyu",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "CampIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/SingleIcon/T_Gacha_CampIcon_Haiguo.T_Gacha_CampIcon_Haiguo"
+  },
+  "2401": {
+    "CharId": 2401,
+    "CharName": "UI_CHAR_NAME_2401",
+    "RoleId": 2401,
+    "CharRarity": 5,
+    "MeleeWeapon": 10101,
+    "RangedWeapon": 20201,
+    "ModSlot": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      4,
+      3
+    ],
+    "ModSlotUnlock": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "ModApplicationType": [
+      1,
+      12
+    ],
+    "SkinId": {},
+    "ArmoryCameraPosition": [
+      200,
+      0,
+      30
+    ],
+    "ArmoryCameraRotation": [
+      0,
+      -5,
+      180
+    ],
+    "RegainCharItemId": 1002401,
+    "RegainCharItemNum": 1,
+    "FirstCharItemId": 1012401,
+    "FirstCharItemNum": 1,
+    "CharMaxLevel": 80,
+    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Avatar/T_Head_Baiheng.T_Head_Baiheng",
+    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Avatar/T_Bust_Baiheng.T_Bust_Baiheng",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Avatar/T_Gacha_AvatarBaiheng.T_Gacha_AvatarBaiheng",
+    "EscIcon": "/Game/UI/Texture/Dynamic/Image/Head/Avatar_Icon/T_Icon_Baiheng.T_Icon_Baiheng",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "CampIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/SingleIcon/T_Gacha_CampIcon_Dongguo.T_Gacha_CampIcon_Dongguo"
+  },
+  "3101": {
+    "CharId": 3101,
+    "CharName": "UI_CHAR_NAME_3101",
+    "RoleId": 3101,
+    "CharRarity": 5,
+    "MeleeWeapon": 10101,
+    "RangedWeapon": 20201,
+    "ModSlot": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      4,
+      1
+    ],
+    "ModSlotUnlock": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "ModApplicationType": [
+      1,
+      13
+    ],
+    "SkinId": {},
+    "ArmoryCameraPosition": [
+      200,
+      0,
+      30
+    ],
+    "ArmoryCameraRotation": [
+      0,
+      -5,
+      180
+    ],
+    "RegainCharItemId": 1003101,
+    "RegainCharItemNum": 1,
+    "FirstCharItemId": 1013101,
+    "FirstCharItemNum": 1,
+    "CharMaxLevel": 80,
+    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Avatar/T_Head_Linen.T_Head_Linen",
+    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Avatar/T_Bust_Linen.T_Bust_Linen",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Avatar/T_Gacha_AvatarLinen.T_Gacha_AvatarLinen",
+    "EscIcon": "/Game/UI/Texture/Dynamic/Image/Head/Avatar_Icon/T_Icon_Linen.T_Icon_Linen",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "CampIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/SingleIcon/T_Gacha_CampIcon_Diguo.T_Gacha_CampIcon_Diguo"
+  },
+  "3102": {
+    "CharId": 3102,
+    "CharName": "UI_CHAR_NAME_3102",
+    "RoleId": 3102,
+    "CharRarity": 5,
+    "MeleeWeapon": 10101,
+    "RangedWeapon": 20201,
+    "ModSlot": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      4,
+      1
+    ],
+    "ModSlotUnlock": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "ModApplicationType": [
+      1,
+      13
+    ],
+    "SkinId": {},
+    "ArmoryCameraPosition": [
+      200,
+      0,
+      30
+    ],
+    "ArmoryCameraRotation": [
+      0,
+      -5,
+      180
+    ],
+    "RegainCharItemId": 1003102,
+    "RegainCharItemNum": 1,
+    "FirstCharItemId": 1013102,
+    "FirstCharItemNum": 1,
+    "CharMaxLevel": 80,
+    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Avatar/T_Head_Xier.T_Head_Xier",
+    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Avatar/T_Bust_Xier.T_Bust_Xier",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Avatar/T_Gacha_AvatarXier.T_Gacha_AvatarXier",
+    "EscIcon": "/Game/UI/Texture/Dynamic/Image/Head/Avatar_Icon/T_Icon_Xier.T_Icon_Xier",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "CampIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/SingleIcon/T_Gacha_CampIcon_Diguo.T_Gacha_CampIcon_Diguo"
+  },
+  "3103": {
+    "CharId": 3103,
+    "CharName": "UI_CHAR_NAME_3103",
+    "RoleId": 3103,
+    "CharRarity": 4,
+    "MeleeWeapon": 10101,
+    "RangedWeapon": 20201,
+    "ModSlot": {},
+    "ModSlotUnlock": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "ModApplicationType": [
+      1,
+      13
+    ],
+    "SkinId": {},
+    "ArmoryCameraPosition": [
+      200,
+      0,
+      30
+    ],
+    "ArmoryCameraRotation": [
+      0,
+      -5,
+      180
+    ],
+    "RegainCharItemId": 1003103,
+    "RegainCharItemNum": 1,
+    "FirstCharItemId": 1013103,
+    "FirstCharItemNum": 1,
+    "CharMaxLevel": 80,
+    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Avatar/T_Head_Yeer.T_Head_Yeer",
+    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Avatar/T_Bust_Yeer.T_Bust_Yeer",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Avatar/T_Gacha_AvatarYeer.T_Gacha_AvatarYeer",
+    "EscIcon": "/Game/UI/Texture/Dynamic/Image/Head/Avatar_Icon/T_Icon_Yeer.T_Icon_Yeer",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "CampIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/SingleIcon/T_Gacha_CampIcon_Diguo.T_Gacha_CampIcon_Diguo"
+  },
+  "3201": {
+    "CharId": 3201,
+    "CharName": "UI_CHAR_NAME_3201",
+    "RoleId": 3201,
+    "CharRarity": 4,
+    "MeleeWeapon": 10101,
+    "RangedWeapon": 20201,
+    "ModSlot": {},
+    "ModSlotUnlock": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "ModApplicationType": [
+      1,
+      13
+    ],
+    "SkinId": {},
+    "ArmoryCameraPosition": [
+      200,
+      0,
+      30
+    ],
+    "ArmoryCameraRotation": [
+      0,
+      -5,
+      180
+    ],
+    "RegainCharItemId": 1003201,
+    "RegainCharItemNum": 1,
+    "FirstCharItemId": 1013201,
+    "FirstCharItemNum": 1,
+    "CharMaxLevel": 80,
+    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Avatar/T_Head_Haier.T_Head_Haier",
+    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Avatar/T_Bust_Haier.T_Bust_Haier",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Avatar/T_Gacha_AvatarHaier.T_Gacha_AvatarHaier",
+    "EscIcon": "/Game/UI/Texture/Dynamic/Image/Head/Avatar_Icon/T_Icon_Haier.T_Icon_Haier",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "CampIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/SingleIcon/T_Gacha_CampIcon_Diguo.T_Gacha_CampIcon_Diguo"
+  },
+  "3301": {
+    "CharId": 3301,
+    "CharName": "UI_CHAR_NAME_3301",
+    "RoleId": 3301,
+    "CharRarity": 4,
+    "MeleeWeapon": 10101,
+    "RangedWeapon": 20201,
+    "ModSlot": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      4,
+      4
+    ],
+    "ModSlotUnlock": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "ModApplicationType": [
+      1,
+      13
+    ],
+    "SkinId": {},
+    "ArmoryCameraPosition": [
+      200,
+      0,
+      30
+    ],
+    "ArmoryCameraRotation": [
+      0,
+      -5,
+      180
+    ],
+    "RegainCharItemId": 1003301,
+    "RegainCharItemNum": 1,
+    "FirstCharItemId": 1013301,
+    "FirstCharItemNum": 1,
+    "CharMaxLevel": 80,
+    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Avatar/T_Head_Maer.T_Head_Maer",
+    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Avatar/T_Bust_Maer.T_Bust_Maer",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Avatar/T_Gacha_AvatarMaer.T_Gacha_AvatarMaer",
+    "EscIcon": "/Game/UI/Texture/Dynamic/Image/Head/Avatar_Icon/T_Icon_Maer.T_Icon_Maer",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "CampIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/SingleIcon/T_Gacha_CampIcon_Diguo.T_Gacha_CampIcon_Diguo"
+  },
+  "4101": {
+    "CharId": 4101,
+    "IsNotOpen": 1,
+    "GMNot": 1,
+    "CharName": "UI_CHAR_NAME_4101",
+    "RoleId": 4101,
+    "CharRarity": 5,
+    "MeleeWeapon": 10101,
+    "RangedWeapon": 20201,
+    "ModSlot": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      1,
+      1
+    ],
+    "ModSlotUnlock": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "ModApplicationType": [
+      1,
+      14
+    ],
+    "SkinId": {},
+    "ArmoryCameraPosition": [
+      200,
+      0,
+      30
+    ],
+    "ArmoryCameraRotation": [
+      0,
+      -5,
+      180
+    ],
+    "RegainCharItemId": 1004101,
+    "RegainCharItemNum": 1,
+    "FirstCharItemId": 1014101,
+    "FirstCharItemNum": 1,
+    "CharMaxLevel": 80,
+    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Avatar/T_Head_Baonu.T_Head_Baonu",
+    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Avatar/T_Bust_Baonu.T_Bust_Baonu",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Avatar/T_Gacha_AvatarHeitao.T_Gacha_AvatarHeitao",
+    "EscIcon": "/Game/UI/Texture/Dynamic/Image/Head/Avatar_Icon/T_Icon_Baonu.T_Icon_Baonu",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "CampIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/SingleIcon/T_Gacha_CampIcon_Jiaohui.T_Gacha_CampIcon_Jiaohui"
+  },
+  "4201": {
+    "CharId": 4201,
+    "CharName": "UI_CHAR_NAME_4201",
+    "RoleId": 4201,
+    "CharRarity": 5,
+    "MeleeWeapon": 10101,
+    "RangedWeapon": 20201,
+    "ModSlot": {},
+    "ModSlotUnlock": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "ModApplicationType": [
+      1,
+      14
+    ],
+    "SkinId": {},
+    "ArmoryCameraPosition": [
+      200,
+      0,
+      30
+    ],
+    "ArmoryCameraRotation": [
+      0,
+      -5,
+      180
+    ],
+    "RegainCharItemId": 1004201,
+    "RegainCharItemNum": 1,
+    "FirstCharItemId": 1014201,
+    "FirstCharItemNum": 1,
+    "CharMaxLevel": 80,
+    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Avatar/T_Head_Yuming.T_Head_Yuming",
+    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Avatar/T_Bust_Yuming.T_Bust_Yuming",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Avatar/T_Gacha_AvatarYuming.T_Gacha_AvatarYuming",
+    "EscIcon": "/Game/UI/Texture/Dynamic/Image/Head/Avatar_Icon/T_Icon_Yuming.T_Icon_Yuming",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "CampIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/SingleIcon/T_Gacha_CampIcon_Dongguo.T_Gacha_CampIcon_Dongguo"
+  },
+  "4202": {
+    "CharId": 4202,
+    "CharName": "UI_CHAR_NAME_4202",
+    "RoleId": 4202,
+    "CharRarity": 4,
+    "MeleeWeapon": 10101,
+    "RangedWeapon": 20201,
+    "ModSlot": {},
+    "ModSlotUnlock": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "ModApplicationType": [
+      1,
+      14
+    ],
+    "SkinId": {},
+    "ArmoryCameraPosition": [
+      200,
+      0,
+      30
+    ],
+    "ArmoryCameraRotation": [
+      0,
+      -5,
+      180
+    ],
+    "RegainCharItemId": 1004202,
+    "RegainCharItemNum": 1,
+    "FirstCharItemId": 1014202,
+    "FirstCharItemNum": 1,
+    "CharMaxLevel": 80,
+    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Avatar/T_Head_Landi.T_Head_Landi",
+    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Avatar/T_Bust_Landi.T_Bust_Landi",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Avatar/T_Gacha_AvatarLandi.T_Gacha_AvatarLandi",
+    "EscIcon": "/Game/UI/Texture/Dynamic/Image/Head/Avatar_Icon/T_Icon_Landi.T_Icon_Landi",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "CampIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/SingleIcon/T_Gacha_CampIcon_Diguo.T_Gacha_CampIcon_Diguo"
+  },
+  "4301": {
+    "CharId": 4301,
+    "CharName": "UI_CHAR_NAME_4301",
+    "RoleId": 4301,
+    "CharRarity": 5,
+    "MeleeWeapon": 10101,
+    "RangedWeapon": 20401,
+    "ModSlot": {},
+    "ModSlotUnlock": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "ModApplicationType": [
+      1,
+      14
+    ],
+    "SkinId": {},
+    "ArmoryCameraPosition": [
+      200,
+      0,
+      30
+    ],
+    "ArmoryCameraRotation": [
+      0,
+      -5,
+      180
+    ],
+    "RegainCharItemId": 1004301,
+    "RegainCharItemNum": 1,
+    "FirstCharItemId": 1014301,
+    "FirstCharItemNum": 1,
+    "CharMaxLevel": 80,
+    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Avatar/T_Head_Xibi.T_Head_Xibi",
+    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Avatar/T_Bust_Xibi.T_Bust_Xibi",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Avatar/T_Gacha_AvatarXibi.T_Gacha_AvatarXibi",
+    "EscIcon": "/Game/UI/Texture/Dynamic/Image/Head/Avatar_Icon/T_Icon_Xibi.T_Icon_Xibi",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "CampIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/SingleIcon/T_Gacha_CampIcon_Diguo.T_Gacha_CampIcon_Diguo"
+  },
+  "5101": {
+    "CharId": 5101,
+    "CharName": "UI_CHAR_NAME_5101",
+    "RoleId": 5101,
+    "CharRarity": 5,
+    "MeleeWeapon": 10101,
+    "RangedWeapon": 20201,
+    "ModSlot": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      4,
+      3
+    ],
+    "ModSlotUnlock": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "ModApplicationType": [
+      1,
+      15
+    ],
+    "SkinId": {},
+    "ArmoryCameraPosition": [
+      200,
+      0,
+      30
+    ],
+    "ArmoryCameraRotation": [
+      0,
+      -5,
+      180
+    ],
+    "RegainCharItemId": 1005101,
+    "RegainCharItemNum": 1,
+    "FirstCharItemId": 1015101,
+    "FirstCharItemNum": 1,
+    "CharMaxLevel": 80,
+    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Avatar/T_Head_Songlu.T_Head_Songlu",
+    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Avatar/T_Bust_Songlu.T_Bust_Songlu",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Avatar/T_Gacha_AvatarSonglu.T_Gacha_AvatarSonglu",
+    "EscIcon": "/Game/UI/Texture/Dynamic/Image/Head/Avatar_Icon/T_Icon_Songlu.T_Icon_Songlu",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "CampIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/SingleIcon/T_Gacha_CampIcon_Jiaohui.T_Gacha_CampIcon_Jiaohui"
+  },
+  "5301": {
+    "CharId": 5301,
+    "CharName": "UI_CHAR_NAME_5301",
+    "RoleId": 5301,
+    "CharRarity": 5,
+    "MeleeWeapon": 10101,
+    "RangedWeapon": 20201,
+    "ModSlot": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      1,
+      1
+    ],
+    "ModSlotUnlock": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "ModApplicationType": [
+      1,
+      15
+    ],
+    "SkinId": {},
+    "ArmoryCameraPosition": [
+      200,
+      0,
+      30
+    ],
+    "ArmoryCameraRotation": [
+      0,
+      -5,
+      180
+    ],
+    "RegainCharItemId": 1005301,
+    "RegainCharItemNum": 1,
+    "FirstCharItemId": 1015301,
+    "FirstCharItemNum": 1,
+    "CharMaxLevel": 80,
+    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Avatar/T_Head_Saiqi.T_Head_Saiqi",
+    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Avatar/T_Bust_Saiqi.T_Bust_Saiqi",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Avatar/T_Gacha_AvatarSaiqi.T_Gacha_AvatarSaiqi",
+    "EscIcon": "/Game/UI/Texture/Dynamic/Image/Head/Avatar_Icon/T_Icon_Saiqi.T_Icon_Saiqi",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "CampIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/SingleIcon/T_Gacha_CampIcon_Diguo.T_Gacha_CampIcon_Diguo"
+  }
+}

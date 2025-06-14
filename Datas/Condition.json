@@ -1,0 +1,4159 @@
+{
+  "1": {
+    "ConditionId": 1,
+    "Remark": "区域仅据点显示的入口",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "SubRegionType": [
+        "home"
+      ],
+      "AvatarStatus": [
+        [
+          "InBigWorld",
+          "T"
+        ]
+      ]
+    }
+  },
+  "2": {
+    "ConditionId": 2,
+    "Remark": "区域始终显示的入口",
+    "ConditionLogic": "AND",
+    "ConditionMap": [
+      {
+        "AvatarStatus": [
+          "T.RT_3"
+        ]
+      }
+    ]
+  },
+  "3": {
+    "ConditionId": 3,
+    "Remark": "仅肉鸽显示的入口",
+    "ConditionLogic": "AND",
+    "ConditionMap": [
+      {
+        "AvatarStatus": [
+          "T.RT_7"
+        ]
+      }
+    ]
+  },
+  "4": {
+    "ConditionId": 4,
+    "Remark": "显示军械库入口",
+    "ConditionLogic": "OR",
+    "ConditionMap": {
+      "AvatarStatus": {}
+    }
+  },
+  "5": {
+    "ConditionId": 5,
+    "Remark": "剧情模式不显示",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "InStoryMode": [
+        "F"
+      ]
+    }
+  },
+  "6": {
+    "ConditionId": 6,
+    "Remark": "剧情模式显示",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "InStoryMode": [
+        "T"
+      ]
+    }
+  },
+  "7": {
+    "ConditionId": 7,
+    "Remark": "区域仅据点不显示的入口",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "SubRegionType": [
+        "field"
+      ],
+      "AvatarStatus": [
+        [
+          "InBigWorld",
+          "T"
+        ]
+      ]
+    }
+  },
+  "9": {
+    "ConditionId": 9,
+    "Remark": "推车关卡小车交互",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "PlayerLevelMin": {}
+    }
+  },
+  "24": {
+    "ConditionId": 24,
+    "Remark": "推车关卡小车交互",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "MechanismState": {}
+    }
+  },
+  "25": {
+    "ConditionId": 25,
+    "Remark": "区域地图回到据点按钮解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": [
+      {
+        "QuestChain": [
+          100201
+        ]
+      }
+    ]
+  },
+  "26": {
+    "ConditionId": 26,
+    "Remark": "大地图科赛托斯地图解锁",
+    "ConditionLogic": "AND",
+    "ConditionMap": [
+      {
+        "QuestChain": [
+          100103
+        ]
+      }
+    ]
+  },
+  "27": {
+    "ConditionId": 27,
+    "Remark": "区域地图据点界面解锁",
+    "ConditionLogic": "AND",
+    "ConditionMap": [
+      {
+        "QuestChain": [
+          100201
+        ]
+      }
+    ]
+  },
+  "30": {
+    "ConditionId": 30,
+    "Remark": "区域地图印象系统解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "PlayerLevelMin": [
+        1
+      ],
+      "QuestChain": [
+        100103
+      ]
+    }
+  },
+  "31": {
+    "ConditionId": 31,
+    "Remark": "酒馆解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": [
+      {
+        "QuestChain": [
+          100101
+        ]
+      }
+    ]
+  },
+  "32": {
+    "ConditionId": 32,
+    "Remark": "修普诺斯之家解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "Quest": {}
+    }
+  },
+  "33": {
+    "ConditionId": 33,
+    "Remark": "跳板解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": [
+      {
+        "ConstantBool": [
+          "F"
+        ]
+      }
+    ]
+  },
+  "34": {
+    "ConditionId": 34,
+    "Remark": "据点解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "Quest": {}
+    }
+  },
+  "35": {
+    "ConditionId": 35,
+    "Remark": "下水道解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "Quest": {}
+    }
+  },
+  "36": {
+    "ConditionId": 36,
+    "Remark": "奥哥家解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": [
+      {
+        "QuestChain": [
+          100203
+        ]
+      }
+    ]
+  },
+  "37": {
+    "ConditionId": 37,
+    "Remark": "矿坑解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "Quest": {}
+    }
+  },
+  "98": {
+    "ConditionId": 98,
+    "Remark": "恒定真条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "ConstantBool": [
+        "T"
+      ]
+    }
+  },
+  "99": {
+    "ConditionId": 99,
+    "Remark": "恒定假条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": [
+      {
+        "ConstantBool": [
+          "F"
+        ]
+      }
+    ]
+  },
+  "101": {
+    "ConditionId": 101,
+    "Remark": "解锁玩家等级1",
+    "ConditionLogic": "AND",
+    "ConditionMap": [
+      {
+        "PlayerLevelMin": [
+          1
+        ]
+      }
+    ],
+    "ConditionText": "Condition_Toast_PlayerLv_1"
+  },
+  "102": {
+    "ConditionId": 102,
+    "Remark": "解锁玩家等级2",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "PlayerLevelMin": {}
+    },
+    "ConditionText": "Condition_Toast_PlayerLv_2"
+  },
+  "103": {
+    "ConditionId": 103,
+    "Remark": "解锁玩家等级3",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "PlayerLevelMin": [
+        3
+      ]
+    },
+    "ConditionText": "Condition_Toast_PlayerLv_3"
+  },
+  "104": {
+    "ConditionId": 104,
+    "Remark": "解锁玩家等级4",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "PlayerLevelMin": [
+        4
+      ]
+    },
+    "ConditionText": "Condition_Toast_PlayerLv_4"
+  },
+  "105": {
+    "ConditionId": 105,
+    "Remark": "解锁玩家等级5",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "PlayerLevelMin": {}
+    },
+    "ConditionText": "Condition_Toast_PlayerLv_5"
+  },
+  "106": {
+    "ConditionId": 106,
+    "Remark": "解锁玩家等级6",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "PlayerLevelMin": {}
+    },
+    "ConditionText": "Condition_Toast_PlayerLv_6"
+  },
+  "107": {
+    "ConditionId": 107,
+    "Remark": "解锁玩家等级7",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "PlayerLevelMin": [
+        7
+      ]
+    },
+    "ConditionText": "Condition_Toast_PlayerLv_7"
+  },
+  "108": {
+    "ConditionId": 108,
+    "Remark": "解锁玩家等级8",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "PlayerLevelMin": [
+        8
+      ]
+    },
+    "ConditionText": "Condition_Toast_PlayerLv_8"
+  },
+  "109": {
+    "ConditionId": 109,
+    "Remark": "解锁玩家等级9",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "PlayerLevelMin": {}
+    },
+    "ConditionText": "Condition_Toast_PlayerLv_9"
+  },
+  "110": {
+    "ConditionId": 110,
+    "Remark": "解锁玩家等级10",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "PlayerLevelMin": [
+        10
+      ]
+    },
+    "ConditionText": "Condition_Toast_PlayerLv_10"
+  },
+  "111": {
+    "ConditionId": 111,
+    "Remark": "解锁玩家等级11",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "PlayerLevelMin": {}
+    },
+    "ConditionText": "Condition_Toast_PlayerLv_11"
+  },
+  "112": {
+    "ConditionId": 112,
+    "Remark": "解锁玩家等级12",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "PlayerLevelMin": [
+        12
+      ]
+    },
+    "ConditionText": "Condition_Toast_PlayerLv_12"
+  },
+  "113": {
+    "ConditionId": 113,
+    "Remark": "解锁玩家等级13",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "PlayerLevelMin": {}
+    },
+    "ConditionText": "Condition_Toast_PlayerLv_13"
+  },
+  "114": {
+    "ConditionId": 114,
+    "Remark": "解锁玩家等级14",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "PlayerLevelMin": {}
+    },
+    "ConditionText": "Condition_Toast_PlayerLv_14"
+  },
+  "115": {
+    "ConditionId": 115,
+    "Remark": "解锁玩家等级15",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "PlayerLevelMin": {}
+    },
+    "ConditionText": "Condition_Toast_PlayerLv_15"
+  },
+  "116": {
+    "ConditionId": 116,
+    "Remark": "解锁玩家等级16",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "PlayerLevelMin": {}
+    },
+    "ConditionText": "Condition_Toast_PlayerLv_16"
+  },
+  "117": {
+    "ConditionId": 117,
+    "Remark": "解锁玩家等级17",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "PlayerLevelMin": [
+        17
+      ]
+    },
+    "ConditionText": "Condition_Toast_PlayerLv_17"
+  },
+  "118": {
+    "ConditionId": 118,
+    "Remark": "解锁玩家等级18",
+    "ConditionLogic": "AND",
+    "ConditionMap": [
+      {
+        "PlayerLevelMin": [
+          18
+        ]
+      }
+    ],
+    "ConditionText": "Condition_Toast_PlayerLv_18"
+  },
+  "119": {
+    "ConditionId": 119,
+    "Remark": "解锁玩家等级19",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "PlayerLevelMin": {}
+    },
+    "ConditionText": "Condition_Toast_PlayerLv_19"
+  },
+  "120": {
+    "ConditionId": 120,
+    "Remark": "解锁玩家等级20",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "PlayerLevelMin": [
+        20
+      ]
+    },
+    "ConditionText": "Condition_Toast_PlayerLv_20"
+  },
+  "121": {
+    "ConditionId": 121,
+    "Remark": "解锁玩家等级21",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "PlayerLevelMin": {}
+    },
+    "ConditionText": "Condition_Toast_PlayerLv_21"
+  },
+  "122": {
+    "ConditionId": 122,
+    "Remark": "解锁玩家等级22",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "PlayerLevelMin": {}
+    },
+    "ConditionText": "Condition_Toast_PlayerLv_22"
+  },
+  "123": {
+    "ConditionId": 123,
+    "Remark": "解锁玩家等级23",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "PlayerLevelMin": [
+        23
+      ]
+    },
+    "ConditionText": "Condition_Toast_PlayerLv_23"
+  },
+  "124": {
+    "ConditionId": 124,
+    "Remark": "解锁玩家等级24",
+    "ConditionLogic": "AND",
+    "ConditionMap": [
+      {
+        "PlayerLevelMin": [
+          24
+        ]
+      }
+    ],
+    "ConditionText": "Condition_Toast_PlayerLv_24"
+  },
+  "125": {
+    "ConditionId": 125,
+    "Remark": "解锁玩家等级25",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "PlayerLevelMin": {}
+    },
+    "ConditionText": "Condition_Toast_PlayerLv_25"
+  },
+  "126": {
+    "ConditionId": 126,
+    "Remark": "解锁玩家等级26",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "PlayerLevelMin": {}
+    },
+    "ConditionText": "Condition_Toast_PlayerLv_26"
+  },
+  "127": {
+    "ConditionId": 127,
+    "Remark": "解锁玩家等级27",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "PlayerLevelMin": {}
+    },
+    "ConditionText": "Condition_Toast_PlayerLv_27"
+  },
+  "128": {
+    "ConditionId": 128,
+    "Remark": "解锁玩家等级28",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "PlayerLevelMin": [
+        28
+      ]
+    },
+    "ConditionText": "Condition_Toast_PlayerLv_28"
+  },
+  "129": {
+    "ConditionId": 129,
+    "Remark": "解锁玩家等级29",
+    "ConditionLogic": "AND",
+    "ConditionMap": [
+      {
+        "PlayerLevelMin": [
+          29
+        ]
+      }
+    ],
+    "ConditionText": "Condition_Toast_PlayerLv_29"
+  },
+  "130": {
+    "ConditionId": 130,
+    "Remark": "解锁玩家等级30",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "PlayerLevelMin": [
+        30
+      ]
+    },
+    "ConditionText": "Condition_Toast_PlayerLv_30"
+  },
+  "131": {
+    "ConditionId": 131,
+    "Remark": "解锁玩家等级31",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "PlayerLevelMin": {}
+    },
+    "ConditionText": "Condition_Toast_PlayerLv_31"
+  },
+  "132": {
+    "ConditionId": 132,
+    "Remark": "解锁玩家等级32",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "PlayerLevelMin": {}
+    },
+    "ConditionText": "Condition_Toast_PlayerLv_32"
+  },
+  "133": {
+    "ConditionId": 133,
+    "Remark": "解锁玩家等级33",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "PlayerLevelMin": {}
+    },
+    "ConditionText": "Condition_Toast_PlayerLv_33"
+  },
+  "134": {
+    "ConditionId": 134,
+    "Remark": "解锁玩家等级34",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "PlayerLevelMin": {}
+    },
+    "ConditionText": "Condition_Toast_PlayerLv_34"
+  },
+  "135": {
+    "ConditionId": 135,
+    "Remark": "解锁玩家等级35",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "PlayerLevelMin": {}
+    },
+    "ConditionText": "Condition_Toast_PlayerLv_35"
+  },
+  "136": {
+    "ConditionId": 136,
+    "Remark": "解锁玩家等级36",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "PlayerLevelMin": {}
+    },
+    "ConditionText": "Condition_Toast_PlayerLv_36"
+  },
+  "137": {
+    "ConditionId": 137,
+    "Remark": "解锁玩家等级37",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "PlayerLevelMin": {}
+    },
+    "ConditionText": "Condition_Toast_PlayerLv_37"
+  },
+  "138": {
+    "ConditionId": 138,
+    "Remark": "解锁玩家等级38",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "PlayerLevelMin": {}
+    },
+    "ConditionText": "Condition_Toast_PlayerLv_38"
+  },
+  "139": {
+    "ConditionId": 139,
+    "Remark": "解锁玩家等级39",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "PlayerLevelMin": {}
+    },
+    "ConditionText": "Condition_Toast_PlayerLv_39"
+  },
+  "140": {
+    "ConditionId": 140,
+    "Remark": "解锁玩家等级40",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "PlayerLevelMin": {}
+    },
+    "ConditionText": "Condition_Toast_PlayerLv_40"
+  },
+  "141": {
+    "ConditionId": 141,
+    "Remark": "解锁玩家等级41",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "PlayerLevelMin": {}
+    },
+    "ConditionText": "Condition_Toast_PlayerLv_41"
+  },
+  "142": {
+    "ConditionId": 142,
+    "Remark": "解锁玩家等级42",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "PlayerLevelMin": {}
+    },
+    "ConditionText": "Condition_Toast_PlayerLv_42"
+  },
+  "143": {
+    "ConditionId": 143,
+    "Remark": "解锁玩家等级43",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "PlayerLevelMin": {}
+    },
+    "ConditionText": "Condition_Toast_PlayerLv_43"
+  },
+  "144": {
+    "ConditionId": 144,
+    "Remark": "解锁玩家等级44",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "PlayerLevelMin": {}
+    },
+    "ConditionText": "Condition_Toast_PlayerLv_44"
+  },
+  "145": {
+    "ConditionId": 145,
+    "Remark": "解锁玩家等级45",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "PlayerLevelMin": {}
+    },
+    "ConditionText": "Condition_Toast_PlayerLv_45"
+  },
+  "146": {
+    "ConditionId": 146,
+    "Remark": "解锁玩家等级46",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "PlayerLevelMin": {}
+    },
+    "ConditionText": "Condition_Toast_PlayerLv_46"
+  },
+  "147": {
+    "ConditionId": 147,
+    "Remark": "解锁玩家等级47",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "PlayerLevelMin": {}
+    },
+    "ConditionText": "Condition_Toast_PlayerLv_47"
+  },
+  "148": {
+    "ConditionId": 148,
+    "Remark": "解锁玩家等级48",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "PlayerLevelMin": {}
+    },
+    "ConditionText": "Condition_Toast_PlayerLv_48"
+  },
+  "149": {
+    "ConditionId": 149,
+    "Remark": "解锁玩家等级49",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "PlayerLevelMin": {}
+    },
+    "ConditionText": "Condition_Toast_PlayerLv_49"
+  },
+  "150": {
+    "ConditionId": 150,
+    "Remark": "解锁玩家等级50",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "PlayerLevelMin": {}
+    },
+    "ConditionText": "Condition_Toast_PlayerLv_50"
+  },
+  "151": {
+    "ConditionId": 151,
+    "Remark": "解锁玩家等级51",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "PlayerLevelMin": {}
+    },
+    "ConditionText": "Condition_Toast_PlayerLv_51"
+  },
+  "152": {
+    "ConditionId": 152,
+    "Remark": "解锁玩家等级52",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "PlayerLevelMin": {}
+    },
+    "ConditionText": "Condition_Toast_PlayerLv_52"
+  },
+  "153": {
+    "ConditionId": 153,
+    "Remark": "解锁玩家等级53",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "PlayerLevelMin": {}
+    },
+    "ConditionText": "Condition_Toast_PlayerLv_53"
+  },
+  "154": {
+    "ConditionId": 154,
+    "Remark": "解锁玩家等级54",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "PlayerLevelMin": {}
+    },
+    "ConditionText": "Condition_Toast_PlayerLv_54"
+  },
+  "155": {
+    "ConditionId": 155,
+    "Remark": "解锁玩家等级55",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "PlayerLevelMin": {}
+    },
+    "ConditionText": "Condition_Toast_PlayerLv_55"
+  },
+  "156": {
+    "ConditionId": 156,
+    "Remark": "解锁玩家等级56",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "PlayerLevelMin": {}
+    },
+    "ConditionText": "Condition_Toast_PlayerLv_56"
+  },
+  "157": {
+    "ConditionId": 157,
+    "Remark": "解锁玩家等级57",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "PlayerLevelMin": {}
+    },
+    "ConditionText": "Condition_Toast_PlayerLv_57"
+  },
+  "158": {
+    "ConditionId": 158,
+    "Remark": "解锁玩家等级58",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "PlayerLevelMin": {}
+    },
+    "ConditionText": "Condition_Toast_PlayerLv_58"
+  },
+  "159": {
+    "ConditionId": 159,
+    "Remark": "解锁玩家等级59",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "PlayerLevelMin": {}
+    },
+    "ConditionText": "Condition_Toast_PlayerLv_59"
+  },
+  "160": {
+    "ConditionId": 160,
+    "Remark": "解锁玩家等级60",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "PlayerLevelMin": [
+        60
+      ]
+    },
+    "ConditionText": "Condition_Toast_PlayerLv_60"
+  },
+  "1001": {
+    "ConditionId": 1001,
+    "Remark": "印象系统",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "QuestChain": {}
+    }
+  },
+  "1004": {
+    "ConditionId": 1004,
+    "Remark": "印象系统",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "Impression": {}
+    }
+  },
+  "1005": {
+    "ConditionId": 1005,
+    "Remark": "印象系统",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "Impression": {}
+    }
+  },
+  "1007": {
+    "ConditionId": 1007,
+    "Remark": "印象系统",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "Impression": {}
+    }
+  },
+  "1008": {
+    "ConditionId": 1008,
+    "Remark": "印象系统",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "Impression": {}
+    }
+  },
+  "1009": {
+    "ConditionId": 1009,
+    "Remark": "印象系统",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "Impression": {}
+    }
+  },
+  "1010": {
+    "ConditionId": 1010,
+    "Remark": "印象系统",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "Impression": {}
+    }
+  },
+  "1012": {
+    "ConditionId": 1012,
+    "Remark": "印象系统",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "Impression": {}
+    }
+  },
+  "1013": {
+    "ConditionId": 1013,
+    "Remark": "印象系统",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "Impression": {}
+    }
+  },
+  "1014": {
+    "ConditionId": 1014,
+    "Remark": "印象系统",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "Impression": {}
+    }
+  },
+  "1015": {
+    "ConditionId": 1015,
+    "Remark": "印象系统",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "Impression": {}
+    }
+  },
+  "1016": {
+    "ConditionId": 1016,
+    "Remark": "印象系统",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "Impression": {}
+    }
+  },
+  "1017": {
+    "ConditionId": 1017,
+    "Remark": "印象系统",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "Impression": {}
+    }
+  },
+  "1019": {
+    "ConditionId": 1019,
+    "Remark": "印象系统，威尔斯小传解锁",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "Impression": {}
+    }
+  },
+  "1020": {
+    "ConditionId": 1020,
+    "Remark": "印象系统",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "Impression": {}
+    }
+  },
+  "1021": {
+    "ConditionId": 1021,
+    "Remark": "冰湖城印象商店解锁-任意10",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "ImprShopUnlock": {}
+    }
+  },
+  "1022": {
+    "ConditionId": 1022,
+    "Remark": "冰湖城印象商店解锁-功利10",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "ImprShopUnlock": {}
+    }
+  },
+  "1023": {
+    "ConditionId": 1023,
+    "Remark": "冰湖城印象商店解锁-道德10",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "ImprShopUnlock": {}
+    }
+  },
+  "1024": {
+    "ConditionId": 1024,
+    "Remark": "冰湖城印象商店解锁-才智10",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "ImprShopUnlock": {}
+    }
+  },
+  "1025": {
+    "ConditionId": 1025,
+    "Remark": "冰湖城印象商店解锁-共情10",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "ImprShopUnlock": {}
+    }
+  },
+  "1026": {
+    "ConditionId": 1026,
+    "Remark": "冰湖城印象商店解锁-混沌10",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "ImprShopUnlock": {}
+    }
+  },
+  "1027": {
+    "ConditionId": 1027,
+    "Remark": "冰湖城印象商店解锁-全部10",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "ImprShopUnlock": {}
+    }
+  },
+  "1028": {
+    "ConditionId": 1028,
+    "Remark": "印象系统-巴克",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "Impression": {}
+    }
+  },
+  "1029": {
+    "ConditionId": 1029,
+    "Remark": "印象系统-阿诺",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "Impression": {}
+    }
+  },
+  "1030": {
+    "ConditionId": 1030,
+    "Remark": "印象系统-艾玛",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "Impression": {}
+    }
+  },
+  "1031": {
+    "ConditionId": 1031,
+    "Remark": "印象系统-贝琳达",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "Impression": {}
+    }
+  },
+  "1032": {
+    "ConditionId": 1032,
+    "Remark": "印象系统-莱娜",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "Impression": {}
+    }
+  },
+  "1033": {
+    "ConditionId": 1033,
+    "Remark": "印象系统-露娜",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "Impression": {}
+    }
+  },
+  "1034": {
+    "ConditionId": 1034,
+    "Remark": "印象系统-荷尔洛",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "QuestChain": {}
+    }
+  },
+  "1035": {
+    "ConditionId": 1035,
+    "Remark": "印象系统-费伊-一阶段",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "Impression": {}
+    }
+  },
+  "1036": {
+    "ConditionId": 1036,
+    "Remark": "印象系统-费伊-二阶段",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "Impression": {}
+    }
+  },
+  "1037": {
+    "ConditionId": 1037,
+    "Remark": "印象系统-拉里",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "Impression": {}
+    }
+  },
+  "1038": {
+    "ConditionId": 1038,
+    "Remark": "印象系统-马库斯",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "Impression": {}
+    }
+  },
+  "1039": {
+    "ConditionId": 1039,
+    "Remark": "冰湖城印象商店解锁-任意20",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "ImprShopUnlock": {}
+    }
+  },
+  "1040": {
+    "ConditionId": 1040,
+    "Remark": "冰湖城印象商店解锁-功利20",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "ImprShopUnlock": {}
+    }
+  },
+  "1041": {
+    "ConditionId": 1041,
+    "Remark": "冰湖城印象商店解锁-道德20",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "ImprShopUnlock": {}
+    }
+  },
+  "1042": {
+    "ConditionId": 1042,
+    "Remark": "冰湖城印象商店解锁-才智20",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "ImprShopUnlock": {}
+    }
+  },
+  "1043": {
+    "ConditionId": 1043,
+    "Remark": "冰湖城印象商店解锁-共情20",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "ImprShopUnlock": {}
+    }
+  },
+  "1044": {
+    "ConditionId": 1044,
+    "Remark": "冰湖城印象商店解锁-混沌20",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "ImprShopUnlock": {}
+    }
+  },
+  "1045": {
+    "ConditionId": 1045,
+    "Remark": "冰湖城印象商店解锁-全部20",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "ImprShopUnlock": {}
+    }
+  },
+  "1046": {
+    "ConditionId": 1046,
+    "Remark": "冰湖城印象商店解锁-任意30",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "ImprShopUnlock": {}
+    }
+  },
+  "1047": {
+    "ConditionId": 1047,
+    "Remark": "冰湖城印象商店解锁-功利30",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "ImprShopUnlock": {}
+    }
+  },
+  "1048": {
+    "ConditionId": 1048,
+    "Remark": "冰湖城印象商店解锁-道德30",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "ImprShopUnlock": {}
+    }
+  },
+  "1049": {
+    "ConditionId": 1049,
+    "Remark": "冰湖城印象商店解锁-才智30",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "ImprShopUnlock": {}
+    }
+  },
+  "1050": {
+    "ConditionId": 1050,
+    "Remark": "冰湖城印象商店解锁-共情30",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "ImprShopUnlock": {}
+    }
+  },
+  "1051": {
+    "ConditionId": 1051,
+    "Remark": "冰湖城印象商店解锁-混沌30",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "ImprShopUnlock": {}
+    }
+  },
+  "1052": {
+    "ConditionId": 1052,
+    "Remark": "冰湖城印象商店解锁-全部30",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "ImprShopUnlock": {}
+    }
+  },
+  "1053": {
+    "ConditionId": 1053,
+    "Remark": "冰湖城印象商店解锁-任意40",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "ImprShopUnlock": {}
+    }
+  },
+  "1054": {
+    "ConditionId": 1054,
+    "Remark": "冰湖城印象商店解锁-功利40",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "ImprShopUnlock": {}
+    }
+  },
+  "1055": {
+    "ConditionId": 1055,
+    "Remark": "冰湖城印象商店解锁-道德40",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "ImprShopUnlock": {}
+    }
+  },
+  "1056": {
+    "ConditionId": 1056,
+    "Remark": "冰湖城印象商店解锁-才智40",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "ImprShopUnlock": {}
+    }
+  },
+  "1057": {
+    "ConditionId": 1057,
+    "Remark": "冰湖城印象商店解锁-共情40",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "ImprShopUnlock": {}
+    }
+  },
+  "1058": {
+    "ConditionId": 1058,
+    "Remark": "冰湖城印象商店解锁-混沌40",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "ImprShopUnlock": {}
+    }
+  },
+  "1059": {
+    "ConditionId": 1059,
+    "Remark": "冰湖城印象商店解锁-全部40",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "ImprShopUnlock": {}
+    }
+  },
+  "1060": {
+    "ConditionId": 1060,
+    "Remark": "冰湖城印象商店解锁-任意50",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "ImprShopUnlock": {}
+    }
+  },
+  "1061": {
+    "ConditionId": 1061,
+    "Remark": "冰湖城印象商店解锁-功利50",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "ImprShopUnlock": {}
+    }
+  },
+  "1062": {
+    "ConditionId": 1062,
+    "Remark": "冰湖城印象商店解锁-道德50",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "ImprShopUnlock": {}
+    }
+  },
+  "1063": {
+    "ConditionId": 1063,
+    "Remark": "冰湖城印象商店解锁-才智50",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "ImprShopUnlock": {}
+    }
+  },
+  "1064": {
+    "ConditionId": 1064,
+    "Remark": "冰湖城印象商店解锁-共情50",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "ImprShopUnlock": {}
+    }
+  },
+  "1065": {
+    "ConditionId": 1065,
+    "Remark": "冰湖城印象商店解锁-混沌50",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "ImprShopUnlock": {}
+    }
+  },
+  "1066": {
+    "ConditionId": 1066,
+    "Remark": "冰湖城印象商店解锁-全部50",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "ImprShopUnlock": {}
+    }
+  },
+  "1067": {
+    "ConditionId": 1067,
+    "Remark": "印象系统-玛尔洁",
+    "ConditionLogic": "AND",
+    "ConditionMap": [
+      {
+        "QuestChain": [
+          200213
+        ]
+      }
+    ]
+  },
+  "1068": {
+    "ConditionId": 1068,
+    "Remark": "印象系统-帝国三兄弟",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "QuestChain": {}
+    }
+  },
+  "1069": {
+    "ConditionId": 1069,
+    "Remark": "印象系统-希琳夫人I阶段",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "Impression": {}
+    }
+  },
+  "2001": {
+    "ConditionId": 2001,
+    "Remark": "梦魇残声-BossXibi难度1解锁",
+    "ConditionLogic": "AND",
+    "ConditionMap": [
+      {
+        "QuestChain": [
+          100208
+        ]
+      }
+    ]
+  },
+  "2002": {
+    "ConditionId": 2002,
+    "Remark": "梦魇残声-BossXibi难度2解锁",
+    "ConditionLogic": "AND",
+    "ConditionMap": [
+      {
+        "QuestChain": [
+          100208
+        ]
+      },
+      {
+        "PlayerLevelMin": [
+          20
+        ]
+      }
+    ],
+    "ConditionText": "Condition_Toast_PlayerLv_20"
+  },
+  "2003": {
+    "ConditionId": 2003,
+    "Remark": "梦魇残声-BossXibi难度3解锁",
+    "ConditionLogic": "AND",
+    "ConditionMap": [
+      {
+        "PlayerLevelMin": [
+          30
+        ]
+      },
+      {
+        "QuestChain": [
+          100208
+        ]
+      }
+    ],
+    "ConditionText": "Condition_Toast_PlayerLv_30"
+  },
+  "2011": {
+    "ConditionId": 2011,
+    "Remark": "梦魇残声-BossShijingzhe难度1解锁",
+    "ConditionLogic": "AND",
+    "ConditionMap": [
+      {
+        "QuestChain": [
+          100208
+        ]
+      }
+    ]
+  },
+  "2012": {
+    "ConditionId": 2012,
+    "Remark": "梦魇残声-BossShijingzhe难度2解锁",
+    "ConditionLogic": "AND",
+    "ConditionMap": [
+      {
+        "QuestChain": [
+          100208
+        ]
+      },
+      {
+        "PlayerLevelMin": [
+          20
+        ]
+      }
+    ],
+    "ConditionText": "Condition_Toast_PlayerLv_20"
+  },
+  "2013": {
+    "ConditionId": 2013,
+    "Remark": "梦魇残声-BossShijingzhe难度3解锁",
+    "ConditionLogic": "AND",
+    "ConditionMap": [
+      {
+        "PlayerLevelMin": [
+          30
+        ]
+      },
+      {
+        "QuestChain": [
+          100208
+        ]
+      }
+    ],
+    "ConditionText": "Condition_Toast_PlayerLv_30"
+  },
+  "2021": {
+    "ConditionId": 2021,
+    "Remark": "梦魇残声-BossSaiqi难度1解锁",
+    "ConditionLogic": "AND",
+    "ConditionMap": [
+      {
+        "QuestChain": [
+          100208
+        ]
+      }
+    ]
+  },
+  "2022": {
+    "ConditionId": 2022,
+    "Remark": "梦魇残声-BossSaiqi难度2解锁【占位",
+    "ConditionLogic": "AND",
+    "ConditionMap": [
+      {
+        "QuestChain": [
+          100208
+        ]
+      },
+      {
+        "PlayerLevelMin": [
+          20
+        ]
+      }
+    ],
+    "ConditionText": "Condition_Toast_PlayerLv_20"
+  },
+  "2023": {
+    "ConditionId": 2023,
+    "Remark": "梦魇残声-BossSaiqi难度3解锁【占位",
+    "ConditionLogic": "AND",
+    "ConditionMap": [
+      {
+        "PlayerLevelMin": [
+          30
+        ]
+      },
+      {
+        "QuestChain": [
+          100208
+        ]
+      }
+    ],
+    "ConditionText": "Condition_Toast_PlayerLv_30"
+  },
+  "3001": {
+    "ConditionId": 3001,
+    "Remark": "高级副本入口解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "PlayerLevelMin": [
+        1
+      ],
+      "QuestChain": [
+        100203
+      ]
+    },
+    "ConditionText": "UI_COMMONPOP_TITLE_100058"
+  },
+  "3011": {
+    "ConditionId": 3011,
+    "Remark": "副本-扼守·无尽30级解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "DungeonComplete": {}
+    },
+    "ConditionText": "Condition_Toast_DungeonUnlock_3011"
+  },
+  "3012": {
+    "ConditionId": 3012,
+    "Remark": "副本-扼守·无尽40级解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "DungeonComplete": {}
+    },
+    "ConditionText": "Condition_Toast_DungeonUnlock_3012"
+  },
+  "3013": {
+    "ConditionId": 3013,
+    "Remark": "副本-扼守·无尽50级解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "DungeonComplete": {}
+    },
+    "ConditionText": "Condition_Toast_DungeonUnlock_3013"
+  },
+  "3014": {
+    "ConditionId": 3014,
+    "Remark": "副本-扼守·无尽60级解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "DungeonComplete": {}
+    },
+    "ConditionText": "Condition_Toast_DungeonUnlock_3014"
+  },
+  "3015": {
+    "ConditionId": 3015,
+    "Remark": "副本-扼守·无尽70级解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "DungeonComplete": {}
+    },
+    "ConditionText": "Condition_Toast_DungeonUnlock_3015"
+  },
+  "3016": {
+    "ConditionId": 3016,
+    "Remark": "副本-扼守·无尽80级解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "DungeonComplete": {}
+    },
+    "ConditionText": "Condition_Toast_DungeonUnlock_3016"
+  },
+  "3021": {
+    "ConditionId": 3021,
+    "Remark": "副本-扼守50级解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": [
+      {
+        "DungeonComplete": [
+          "T.RT_49"
+        ]
+      }
+    ],
+    "ConditionText": "Condition_Toast_DungeonUnlock_3021"
+  },
+  "3031": {
+    "ConditionId": 3031,
+    "Remark": "副本-勘探·无尽20级解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "DungeonComplete": {}
+    },
+    "ConditionText": "Condition_Toast_DungeonUnlock_3031"
+  },
+  "3032": {
+    "ConditionId": 3032,
+    "Remark": "副本-勘探·无尽30级解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "DungeonComplete": {}
+    },
+    "ConditionText": "Condition_Toast_DungeonUnlock_3032"
+  },
+  "3033": {
+    "ConditionId": 3033,
+    "Remark": "副本-勘探·无尽40级解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "DungeonComplete": {}
+    },
+    "ConditionText": "Condition_Toast_DungeonUnlock_3033"
+  },
+  "3034": {
+    "ConditionId": 3034,
+    "Remark": "副本-勘探·无尽50级解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "DungeonComplete": {}
+    },
+    "ConditionText": "Condition_Toast_DungeonUnlock_3034"
+  },
+  "3035": {
+    "ConditionId": 3035,
+    "Remark": "副本-勘探·无尽60级解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "DungeonComplete": {}
+    },
+    "ConditionText": "Condition_Toast_DungeonUnlock_3035"
+  },
+  "3036": {
+    "ConditionId": 3036,
+    "Remark": "副本-勘探·无尽70级解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "DungeonComplete": {}
+    },
+    "ConditionText": "Condition_Toast_DungeonUnlock_3036"
+  },
+  "3041": {
+    "ConditionId": 3041,
+    "Remark": "副本-追缉20级解锁条件",
+    "ConditionLogic": "OR",
+    "ConditionMap": {
+      "DungeonComplete": {}
+    },
+    "ConditionText": "Condition_Toast_DungeonUnlock_3041"
+  },
+  "3042": {
+    "ConditionId": 3042,
+    "Remark": "副本-追缉30级解锁条件",
+    "ConditionLogic": "OR",
+    "ConditionMap": {
+      "DungeonComplete": {}
+    },
+    "ConditionText": "Condition_Toast_DungeonUnlock_3042"
+  },
+  "3051": {
+    "ConditionId": 3051,
+    "Remark": "副本-探险20级解锁条件",
+    "ConditionLogic": "OR",
+    "ConditionMap": {
+      "DungeonComplete": {}
+    },
+    "ConditionText": "Condition_Toast_DungeonUnlock_3051"
+  },
+  "3052": {
+    "ConditionId": 3052,
+    "Remark": "副本-探险30级解锁条件",
+    "ConditionLogic": "OR",
+    "ConditionMap": {
+      "DungeonComplete": {}
+    },
+    "ConditionText": "Condition_Toast_DungeonUnlock_3052"
+  },
+  "3053": {
+    "ConditionId": 3053,
+    "Remark": "副本-探险40级解锁条件",
+    "ConditionLogic": "OR",
+    "ConditionMap": {
+      "DungeonComplete": {}
+    },
+    "ConditionText": "Condition_Toast_DungeonUnlock_3053"
+  },
+  "3054": {
+    "ConditionId": 3054,
+    "Remark": "副本-探险50级解锁条件",
+    "ConditionLogic": "OR",
+    "ConditionMap": {
+      "DungeonComplete": {}
+    },
+    "ConditionText": "Condition_Toast_DungeonUnlock_3054"
+  },
+  "3055": {
+    "ConditionId": 3055,
+    "Remark": "副本-探险60级解锁条件",
+    "ConditionLogic": "OR",
+    "ConditionMap": {
+      "DungeonComplete": {}
+    },
+    "ConditionText": "Condition_Toast_DungeonUnlock_3055"
+  },
+  "3056": {
+    "ConditionId": 3056,
+    "Remark": "副本-探险70级解锁条件",
+    "ConditionLogic": "OR",
+    "ConditionMap": {
+      "DungeonComplete": {}
+    },
+    "ConditionText": "Condition_Toast_DungeonUnlock_3056"
+  },
+  "3061": {
+    "ConditionId": 3061,
+    "Remark": "副本-调停30级解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "DungeonComplete": {}
+    },
+    "ConditionText": "Condition_Toast_DungeonUnlock_3061"
+  },
+  "3062": {
+    "ConditionId": 3062,
+    "Remark": "副本-调停40级解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "DungeonComplete": {}
+    },
+    "ConditionText": "Condition_Toast_DungeonUnlock_3062"
+  },
+  "3063": {
+    "ConditionId": 3063,
+    "Remark": "副本-调停50级解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "DungeonComplete": {}
+    },
+    "ConditionText": "Condition_Toast_DungeonUnlock_3063"
+  },
+  "3064": {
+    "ConditionId": 3064,
+    "Remark": "副本-调停60级解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "DungeonComplete": {}
+    },
+    "ConditionText": "Condition_Toast_DungeonUnlock_3064"
+  },
+  "3065": {
+    "ConditionId": 3065,
+    "Remark": "副本-调停70级解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "DungeonComplete": {}
+    },
+    "ConditionText": "Condition_Toast_DungeonUnlock_3065"
+  },
+  "3066": {
+    "ConditionId": 3066,
+    "Remark": "副本-调停80级解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "DungeonComplete": {}
+    },
+    "ConditionText": "Condition_Toast_DungeonUnlock_3066"
+  },
+  "3071": {
+    "ConditionId": 3071,
+    "Remark": "副本-避险20级解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "DungeonComplete": {}
+    },
+    "ConditionText": "Condition_Toast_DungeonUnlock_3071"
+  },
+  "3072": {
+    "ConditionId": 3072,
+    "Remark": "副本-避险35级解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "DungeonComplete": {}
+    },
+    "ConditionText": "Condition_Toast_DungeonUnlock_3072"
+  },
+  "3073": {
+    "ConditionId": 3073,
+    "Remark": "副本-避险50级解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "DungeonComplete": {}
+    },
+    "ConditionText": "Condition_Toast_DungeonUnlock_3073"
+  },
+  "3074": {
+    "ConditionId": 3074,
+    "Remark": "副本-避险60级解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "DungeonComplete": {}
+    },
+    "ConditionText": "Condition_Toast_DungeonUnlock_3074"
+  },
+  "3075": {
+    "ConditionId": 3075,
+    "Remark": "副本-避险70级解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "DungeonComplete": {}
+    },
+    "ConditionText": "Condition_Toast_DungeonUnlock_3075"
+  },
+  "3076": {
+    "ConditionId": 3076,
+    "Remark": "副本-避险80级解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "DungeonComplete": {}
+    },
+    "ConditionText": "Condition_Toast_DungeonUnlock_3076"
+  },
+  "3100": {
+    "ConditionId": 3100,
+    "Remark": "副本-追缉30级解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "DungeonComplete": {}
+    },
+    "ConditionText": "Condition_Toast_DungeonUnlock_3100"
+  },
+  "3101": {
+    "ConditionId": 3101,
+    "Remark": "副本-追缉40级解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "DungeonComplete": {}
+    },
+    "ConditionText": "Condition_Toast_DungeonUnlock_3101"
+  },
+  "3102": {
+    "ConditionId": 3102,
+    "Remark": "副本-追缉50级解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "DungeonComplete": {}
+    },
+    "ConditionText": "Condition_Toast_DungeonUnlock_3102"
+  },
+  "3103": {
+    "ConditionId": 3103,
+    "Remark": "副本-追缉60级解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "DungeonComplete": {}
+    },
+    "ConditionText": "Condition_Toast_DungeonUnlock_3103"
+  },
+  "3104": {
+    "ConditionId": 3104,
+    "Remark": "副本-追缉70级解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "DungeonComplete": {}
+    },
+    "ConditionText": "Condition_Toast_DungeonUnlock_3104"
+  },
+  "3105": {
+    "ConditionId": 3105,
+    "Remark": "副本-追缉80级解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "DungeonComplete": {}
+    },
+    "ConditionText": "Condition_Toast_DungeonUnlock_3105"
+  },
+  "3110": {
+    "ConditionId": 3110,
+    "Remark": "副本-防御2时间-30级解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "DungeonComplete": {}
+    },
+    "ConditionText": "Condition_Toast_DungeonUnlock_3110"
+  },
+  "3111": {
+    "ConditionId": 3111,
+    "Remark": "副本-防御2时间-40级解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": [
+      {
+        "DungeonComplete": [
+          "T.RT_49"
+        ]
+      }
+    ],
+    "ConditionText": "Condition_Toast_DungeonUnlock_3111"
+  },
+  "3112": {
+    "ConditionId": 3112,
+    "Remark": "副本-防御2时间-50级解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "DungeonComplete": {}
+    },
+    "ConditionText": "Condition_Toast_DungeonUnlock_3112"
+  },
+  "3113": {
+    "ConditionId": 3113,
+    "Remark": "副本-防御2时间-60级解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "DungeonComplete": {}
+    },
+    "ConditionText": "Condition_Toast_DungeonUnlock_3113"
+  },
+  "3114": {
+    "ConditionId": 3114,
+    "Remark": "副本-防御2时间-70级解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "DungeonComplete": {}
+    },
+    "ConditionText": "Condition_Toast_DungeonUnlock_3114"
+  },
+  "3115": {
+    "ConditionId": 3115,
+    "Remark": "副本-防御2时间-80级解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "DungeonComplete": {}
+    },
+    "ConditionText": "Condition_Toast_DungeonUnlock_3115"
+  },
+  "3120": {
+    "ConditionId": 3120,
+    "Remark": "副本-圣殿30级解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "DungeonComplete": {}
+    },
+    "ConditionText": "Condition_Toast_DungeonUnlock_3120"
+  },
+  "3121": {
+    "ConditionId": 3121,
+    "Remark": "副本-圣殿40级解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "DungeonComplete": {}
+    },
+    "ConditionText": "Condition_Toast_DungeonUnlock_3121"
+  },
+  "3122": {
+    "ConditionId": 3122,
+    "Remark": "副本-圣殿50级解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "DungeonComplete": {}
+    },
+    "ConditionText": "Condition_Toast_DungeonUnlock_3122"
+  },
+  "3123": {
+    "ConditionId": 3123,
+    "Remark": "副本-圣殿60级解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "DungeonComplete": {}
+    },
+    "ConditionText": "Condition_Toast_DungeonUnlock_3123"
+  },
+  "3124": {
+    "ConditionId": 3124,
+    "Remark": "副本-圣殿70级解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "DungeonComplete": {}
+    },
+    "ConditionText": "Condition_Toast_DungeonUnlock_3124"
+  },
+  "3125": {
+    "ConditionId": 3125,
+    "Remark": "副本-圣殿80级解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "DungeonComplete": {}
+    },
+    "ConditionText": "Condition_Toast_DungeonUnlock_3125"
+  },
+  "3130": {
+    "ConditionId": 3130,
+    "Remark": "副本-搜救30级解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "DungeonComplete": {}
+    },
+    "ConditionText": "Condition_Toast_DungeonUnlock_3130"
+  },
+  "3131": {
+    "ConditionId": 3131,
+    "Remark": "副本-搜救40级解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "DungeonComplete": {}
+    },
+    "ConditionText": "Condition_Toast_DungeonUnlock_3131"
+  },
+  "3132": {
+    "ConditionId": 3132,
+    "Remark": "副本-搜救50级解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "DungeonComplete": {}
+    },
+    "ConditionText": "Condition_Toast_DungeonUnlock_3132"
+  },
+  "3133": {
+    "ConditionId": 3133,
+    "Remark": "副本-搜救60级解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "DungeonComplete": {}
+    },
+    "ConditionText": "Condition_Toast_DungeonUnlock_3133"
+  },
+  "3134": {
+    "ConditionId": 3134,
+    "Remark": "副本-搜救70级解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "DungeonComplete": {}
+    },
+    "ConditionText": "Condition_Toast_DungeonUnlock_3134"
+  },
+  "3135": {
+    "ConditionId": 3135,
+    "Remark": "副本-搜救80级解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "DungeonComplete": {}
+    },
+    "ConditionText": "Condition_Toast_DungeonUnlock_3135"
+  },
+  "3140": {
+    "ConditionId": 3140,
+    "Remark": "副本-推车30级解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "DungeonComplete": {}
+    },
+    "ConditionText": "Condition_Toast_DungeonUnlock_3140"
+  },
+  "3141": {
+    "ConditionId": 3141,
+    "Remark": "副本-推车40级解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "DungeonComplete": {}
+    },
+    "ConditionText": "Condition_Toast_DungeonUnlock_3141"
+  },
+  "3142": {
+    "ConditionId": 3142,
+    "Remark": "副本-推车50级解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "DungeonComplete": {}
+    },
+    "ConditionText": "Condition_Toast_DungeonUnlock_3142"
+  },
+  "3143": {
+    "ConditionId": 3143,
+    "Remark": "副本-推车60级解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "DungeonComplete": {}
+    },
+    "ConditionText": "Condition_Toast_DungeonUnlock_3143"
+  },
+  "3144": {
+    "ConditionId": 3144,
+    "Remark": "副本-推车70级解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "DungeonComplete": {}
+    },
+    "ConditionText": "Condition_Toast_DungeonUnlock_3144"
+  },
+  "3145": {
+    "ConditionId": 3145,
+    "Remark": "副本-推车80级解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "DungeonComplete": {}
+    },
+    "ConditionText": "Condition_Toast_DungeonUnlock_3145"
+  },
+  "3150": {
+    "ConditionId": 3150,
+    "Remark": "副本-歼灭30级解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "DungeonComplete": {}
+    },
+    "ConditionText": "Condition_Toast_DungeonUnlock_3150"
+  },
+  "3151": {
+    "ConditionId": 3151,
+    "Remark": "副本-歼灭40级解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "DungeonComplete": {}
+    },
+    "ConditionText": "Condition_Toast_DungeonUnlock_3151"
+  },
+  "3152": {
+    "ConditionId": 3152,
+    "Remark": "副本-歼灭50级解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "DungeonComplete": {}
+    },
+    "ConditionText": "Condition_Toast_DungeonUnlock_3152"
+  },
+  "3153": {
+    "ConditionId": 3153,
+    "Remark": "副本-歼灭60级解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "DungeonComplete": {}
+    },
+    "ConditionText": "Condition_Toast_DungeonUnlock_3153"
+  },
+  "3154": {
+    "ConditionId": 3154,
+    "Remark": "副本-歼灭70级解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "DungeonComplete": {}
+    },
+    "ConditionText": "Condition_Toast_DungeonUnlock_3154"
+  },
+  "3155": {
+    "ConditionId": 3155,
+    "Remark": "副本-歼灭80级解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "DungeonComplete": {}
+    },
+    "ConditionText": "Condition_Toast_DungeonUnlock_3155"
+  },
+  "4010": {
+    "ConditionId": 4010,
+    "Remark": "背包解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "PlayerLevelMin": [
+        1
+      ],
+      "Quest": {}
+    },
+    "ConditionText": "UI_Unlock_Des_Bag"
+  },
+  "4020": {
+    "ConditionId": 4020,
+    "Remark": "军械库解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": [
+      {
+        "PlayerLevelMin": [
+          1
+        ]
+      },
+      {
+        "Quest": [
+          10010211
+        ]
+      }
+    ],
+    "ConditionText": "UI_Locked_Des_Armory"
+  },
+  "4021": {
+    "ConditionId": 4021,
+    "Remark": "技能解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "PlayerLevelMin": [
+        1
+      ],
+      "Quest": {}
+    }
+  },
+  "4030": {
+    "ConditionId": 4030,
+    "Remark": "商城解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": [
+      {
+        "PlayerLevelMin": [
+          1
+        ]
+      },
+      {
+        "Quest": [
+          10020109
+        ]
+      }
+    ],
+    "ConditionText": "UI_Locked_Des_Shop"
+  },
+  "4040": {
+    "ConditionId": 4040,
+    "Remark": "抽卡系统解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "Quest": {}
+    },
+    "ConditionText": "UI_Locked_Des_Gacha"
+  },
+  "4041": {
+    "ConditionId": 4041,
+    "Remark": "全部卡池解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "Quest": {}
+    }
+  },
+  "4050": {
+    "ConditionId": 4050,
+    "Remark": "大地图与传送解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": [
+      {
+        "PlayerLevelMin": [
+          1
+        ]
+      },
+      {
+        "Quest": [
+          10010106
+        ]
+      }
+    ],
+    "ConditionText": "UI_Locked_Des_Map"
+  },
+  "4060": {
+    "ConditionId": 4060,
+    "Remark": "看板娘解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": [
+      {
+        "PlayerLevelMin": [
+          1
+        ]
+      },
+      {
+        "Quest": [
+          10020109
+        ]
+      }
+    ],
+    "ConditionText": "UI_Locked_Des_Invite"
+  },
+  "4070": {
+    "ConditionId": 4070,
+    "Remark": "成就系统解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": [
+      {
+        "PlayerLevelMin": [
+          1
+        ]
+      }
+    ],
+    "ConditionText": "UI_Locked_Des_Achievement"
+  },
+  "4080": {
+    "ConditionId": 4080,
+    "Remark": "锻造系统解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": [
+      {
+        "PlayerLevelMin": [
+          1
+        ]
+      },
+      {
+        "Quest": [
+          20010103
+        ]
+      }
+    ],
+    "ConditionText": "UI_Locked_Des_Forging"
+  },
+  "4090": {
+    "ConditionId": 4090,
+    "Remark": "宠物系统解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": [
+      {
+        "PlayerLevelMin": [
+          1
+        ]
+      },
+      {
+        "Quest": [
+          10020223
+        ]
+      }
+    ],
+    "ConditionText": "UI_Locked_Des_SupportSkill"
+  },
+  "4100": {
+    "ConditionId": 4100,
+    "Remark": "邮箱解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": [
+      {
+        "PlayerLevelMin": [
+          1
+        ]
+      },
+      {
+        "Quest": [
+          10020109
+        ]
+      }
+    ],
+    "ConditionText": "UI_Locked_Des_Mail"
+  },
+  "4110": {
+    "ConditionId": 4110,
+    "Remark": "玩法入口解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": [
+      {
+        "PlayerLevelMin": [
+          1
+        ]
+      },
+      {
+        "Quest": [
+          10020223
+        ]
+      }
+    ],
+    "ConditionText": "UI_Locked_Des_Play"
+  },
+  "4120": {
+    "ConditionId": 4120,
+    "Remark": "梦魇残声系统解锁",
+    "ConditionLogic": "AND",
+    "ConditionMap": [
+      {
+        "QuestChain": [
+          100208
+        ]
+      }
+    ],
+    "ConditionText": "UI_Locked_Des_HardBoss"
+  },
+  "4130": {
+    "ConditionId": 4130,
+    "Remark": "任务系统解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "PlayerLevelMin": [
+        1
+      ],
+      "QuestChain": [
+        100201
+      ]
+    },
+    "ConditionText": "UI_Locked_Des_Quest"
+  },
+  "4140": {
+    "ConditionId": 4140,
+    "Remark": "战斗轮盘解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": [
+      {
+        "PlayerLevelMin": [
+          1
+        ]
+      },
+      {
+        "QuestChain": [
+          200101
+        ]
+      }
+    ],
+    "ConditionText": "UI_Locked_Des_BattleWheel"
+  },
+  "4150": {
+    "ConditionId": 4150,
+    "Remark": "公告解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": [
+      {
+        "PlayerLevelMin": [
+          1
+        ]
+      },
+      {
+        "Quest": [
+          10020109
+        ]
+      }
+    ],
+    "ConditionText": "UI_Locked_Des_Notice"
+  },
+  "4160": {
+    "ConditionId": 4160,
+    "Remark": "MOD解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": [
+      {
+        "PlayerLevelMin": [
+          1
+        ]
+      },
+      {
+        "Quest": [
+          10010211
+        ]
+      }
+    ],
+    "ConditionText": "UI_Locked_Des_Rouge"
+  },
+  "4170": {
+    "ConditionId": 4170,
+    "Remark": "肉鸽解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "PlayerLevelMin": [
+        1
+      ],
+      "QuestChain": [
+        100208
+      ]
+    }
+  },
+  "4180": {
+    "ConditionId": 4180,
+    "Remark": "教学手册解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": [
+      {
+        "PlayerLevelMin": [
+          1
+        ]
+      },
+      {
+        "Quest": [
+          10010106
+        ]
+      }
+    ],
+    "ConditionText": "UI_Locked_Des_GuideBook"
+  },
+  "4190": {
+    "ConditionId": 4190,
+    "Remark": "好友系统解锁",
+    "ConditionLogic": "AND",
+    "ConditionMap": [
+      {
+        "QuestChain": [
+          100208
+        ]
+      }
+    ],
+    "ConditionText": "UI_Locked_Des_Friend"
+  },
+  "4200": {
+    "ConditionId": 4200,
+    "Remark": "相机系统解锁",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "Quest": {}
+    },
+    "ConditionText": "UI_Locked_Des_PhotoCamera"
+  },
+  "4210": {
+    "ConditionId": 4210,
+    "Remark": "极化系统解锁",
+    "ConditionLogic": "AND",
+    "ConditionMap": [
+      {
+        "QuestChain": [
+          100208
+        ]
+      }
+    ],
+    "ConditionText": "UI_Locked_Des_Polarity"
+  },
+  "4220": {
+    "ConditionId": 4220,
+    "Remark": "活动系统解锁",
+    "ConditionLogic": "AND",
+    "ConditionMap": [
+      {
+        "PlayerLevelMin": [
+          1
+        ]
+      },
+      {
+        "QuestChain": [
+          200101
+        ]
+      }
+    ],
+    "ConditionText": "UI_Locked_Des_GameEvent"
+  },
+  "4230": {
+    "ConditionId": 4230,
+    "Remark": "神庙入口UI解锁",
+    "ConditionLogic": "AND",
+    "ConditionMap": [
+      {
+        "QuestChain": [
+          100206
+        ]
+      }
+    ],
+    "ConditionText": "UI_Locked_Des_Temple"
+  },
+  "4240": {
+    "ConditionId": 4240,
+    "Remark": "委托匹配解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": [
+      {
+        "QuestChain": [
+          100208
+        ]
+      }
+    ],
+    "ConditionText": "UI_Locked_Des_Match"
+  },
+  "4250": {
+    "ConditionId": 4250,
+    "Remark": "邀约解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "QuestChain": [
+        100202
+      ],
+      "SubRegionType": [
+        "home"
+      ]
+    },
+    "ConditionText": "UI_Locked_Des_Entertainment"
+  },
+  "4260": {
+    "ConditionId": 4260,
+    "Remark": "聊天解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": [
+      {
+        "QuestChain": [
+          100208
+        ]
+      }
+    ],
+    "ConditionText": "UI_Locked_Des_Chat"
+  },
+  "4270": {
+    "ConditionId": 4270,
+    "Remark": "换主角解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "EquipPetId": {}
+    },
+    "ConditionText": "UI_Locked_Des_SwitchMaster"
+  },
+  "4280": {
+    "ConditionId": 4280,
+    "Remark": "返回据点跳转功能解锁",
+    "ConditionLogic": "AND",
+    "ConditionMap": [
+      {
+        "PlayerLevelMin": [
+          1
+        ]
+      },
+      {
+        "Quest": [
+          20010103
+        ]
+      }
+    ],
+    "ConditionText": "UI_TOAST_FORGING_WARNING"
+  },
+  "5001": {
+    "ConditionId": 5001,
+    "Remark": "拥有祝福101与102",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "RougeLikePreAward": {}
+    }
+  },
+  "5002": {
+    "ConditionId": 5002,
+    "Remark": "拥有祝福2组3枚",
+    "ConditionLogic": "AND",
+    "ConditionMap": [
+      {
+        "RougeLikeGroupMin": [
+          "T.RT_71"
+        ]
+      }
+    ]
+  },
+  "5003": {
+    "ConditionId": 5003,
+    "Remark": "拥有祝福601或602或603",
+    "ConditionLogic": "OR",
+    "ConditionMap": {
+      "RougeLikePreAward": {}
+    }
+  },
+  "5004": {
+    "ConditionId": 5004,
+    "Remark": "拥有祝福602",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "RougeLikePreAward": {}
+    }
+  },
+  "5005": {
+    "ConditionId": 5005,
+    "Remark": "拥有祝福603",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "RougeLikePreAward": {}
+    }
+  },
+  "5006": {
+    "ConditionId": 5006,
+    "Remark": "拥有祝福6组3枚",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "RougeLikeGroupMin": {}
+    }
+  },
+  "5007": {
+    "ConditionId": 5007,
+    "Remark": "拥有祝福6组5枚",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "RougeLikeGroupMin": {}
+    }
+  },
+  "5008": {
+    "ConditionId": 5008,
+    "Remark": "5组或6组已拿到大于等于三个",
+    "ConditionLogic": "OR",
+    "ConditionMap": {
+      "RougeLikeGroupMin": {}
+    }
+  },
+  "5009": {
+    "ConditionId": 5009,
+    "Remark": "祝福5组与6组都剩余大于三个",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "RougeLikeGroupMax": {}
+    }
+  },
+  "5010": {
+    "ConditionId": 5010,
+    "Remark": "肉鸽难度3且大于等于4层",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "RougeLikeDifficulty": [
+        103
+      ],
+      "RougeLikePassRoom": [
+        4
+      ]
+    }
+  },
+  "5011": {
+    "ConditionId": 5011,
+    "Remark": "肉鸽难度3且大于等于8层",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "RougeLikeDifficulty": [
+        103
+      ],
+      "RougeLikePassRoom": [
+        8
+      ]
+    }
+  },
+  "5012": {
+    "ConditionId": 5012,
+    "Remark": "肉鸽难度4且大于等于4层",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "RougeLikeDifficulty": [
+        104
+      ],
+      "RougeLikePassRoom": [
+        4
+      ]
+    }
+  },
+  "5013": {
+    "ConditionId": 5013,
+    "Remark": "肉鸽难度4且大于等于12层",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "RougeLikeDifficulty": [
+        104
+      ],
+      "RougeLikePassRoom": [
+        12
+      ]
+    }
+  },
+  "5014": {
+    "ConditionId": 5014,
+    "Remark": "肉鸽大于等于3层",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "RougeLikePassRoom": [
+        3
+      ]
+    }
+  },
+  "5015": {
+    "ConditionId": 5015,
+    "Remark": "1组或2组已拿到大于等于三个",
+    "ConditionLogic": "OR",
+    "ConditionMap": {
+      "RougeLikeGroupMin": {}
+    }
+  },
+  "5016": {
+    "ConditionId": 5016,
+    "Remark": "祝福1组与2组都剩余大于三个",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "RougeLikeGroupMax": {}
+    }
+  },
+  "5017": {
+    "ConditionId": 5017,
+    "Remark": "肉鸽难度5且大于等于4层",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "RougeLikeDifficulty": [
+        105
+      ],
+      "RougeLikePassRoom": [
+        4
+      ]
+    }
+  },
+  "5018": {
+    "ConditionId": 5018,
+    "Remark": "肉鸽难度5且大于等于12层",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "RougeLikeDifficulty": [
+        105
+      ],
+      "RougeLikePassRoom": [
+        12
+      ]
+    }
+  },
+  "5019": {
+    "ConditionId": 5019,
+    "Remark": "肉鸽难度1",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "RougeLikeDifficulty": {}
+    }
+  },
+  "5020": {
+    "ConditionId": 5020,
+    "Remark": "肉鸽难度2",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "RougeLikeDifficulty": {}
+    }
+  },
+  "5021": {
+    "ConditionId": 5021,
+    "Remark": "肉鸽难度3",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "RougeLikeDifficulty": [
+        103
+      ]
+    }
+  },
+  "5022": {
+    "ConditionId": 5022,
+    "Remark": "肉鸽难度4",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "RougeLikeDifficulty": [
+        104
+      ]
+    }
+  },
+  "5023": {
+    "ConditionId": 5023,
+    "Remark": "肉鸽难度5",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "RougeLikeDifficulty": [
+        105
+      ]
+    }
+  },
+  "5024": {
+    "ConditionId": 5024,
+    "Remark": "拥有祝福1组3枚",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "RougeLikeGroupMin": {}
+    }
+  },
+  "5025": {
+    "ConditionId": 5025,
+    "Remark": "拥有祝福2组3枚",
+    "ConditionLogic": "AND",
+    "ConditionMap": [
+      {
+        "RougeLikeGroupMin": [
+          "T.RT_71"
+        ]
+      }
+    ]
+  },
+  "5026": {
+    "ConditionId": 5026,
+    "Remark": "拥有祝福5组3枚",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "RougeLikeGroupMin": {}
+    }
+  },
+  "5027": {
+    "ConditionId": 5027,
+    "Remark": "拥有祝福506或509",
+    "ConditionLogic": "OR",
+    "ConditionMap": {
+      "RougeLikePreAward": {}
+    }
+  },
+  "5028": {
+    "ConditionId": 5028,
+    "Remark": "拥有祝福7组3枚",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "RougeLikeGroupMin": {}
+    }
+  },
+  "5029": {
+    "ConditionId": 5029,
+    "Remark": "肉鸽大于等于4层",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "RougeLikePassRoom": [
+        4
+      ]
+    }
+  },
+  "5030": {
+    "ConditionId": 5030,
+    "Remark": "肉鸽大于等于7层",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "RougeLikePassRoom": [
+        7
+      ]
+    }
+  },
+  "5031": {
+    "ConditionId": 5031,
+    "Remark": "肉鸽大于等于10层",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "RougeLikePassRoom": [
+        10
+      ]
+    }
+  },
+  "6001": {
+    "ConditionId": 6001,
+    "Remark": "MOD引导任务解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "PlayerLevelMin": [
+        1
+      ],
+      "QuestChain": [
+        100202
+      ]
+    }
+  },
+  "6002": {
+    "ConditionId": 6002,
+    "Remark": "至少装备1个绿色3级MOD",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "CharEquipRarityLevelModCount": {}
+    }
+  },
+  "6003": {
+    "ConditionId": 6003,
+    "Remark": "至少装备2个绿色3级MOD",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "CharEquipRarityLevelModCount": {}
+    }
+  },
+  "6004": {
+    "ConditionId": 6004,
+    "Remark": "MOD引导任务结束条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "PhaseQuestEnd": {}
+    }
+  },
+  "6005": {
+    "ConditionId": 6005,
+    "Remark": "新手任务结束条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "PhaseQuestEnd": {}
+    }
+  },
+  "6006": {
+    "ConditionId": 6006,
+    "Remark": "常驻每日签到结束条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "DailyLoginEnd": {}
+    }
+  },
+  "6007": {
+    "ConditionId": 6007,
+    "Remark": "至少装备1个蓝色5级MOD",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "CharEquipRarityLevelModCount": {}
+    }
+  },
+  "70000": {
+    "ConditionId": 70000,
+    "Remark": "探索序章-钥匙交互条件A",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "HaveResource": {}
+    }
+  },
+  "70001": {
+    "ConditionId": 70001,
+    "Remark": "探索序章-布鲁内托的钥匙",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "HaveResource": {}
+    }
+  },
+  "70006": {
+    "ConditionId": 70006,
+    "Remark": "探索序章-祈福",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "HaveResource": {}
+    }
+  },
+  "70007": {
+    "ConditionId": 70007,
+    "Remark": "探索第一章-锻造",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "HaveResource": {}
+    }
+  },
+  "80001": {
+    "ConditionId": 80001,
+    "Remark": "动态事件完成",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "DynamicEventCompleteTimes": {}
+    }
+  },
+  "80002": {
+    "ConditionId": 80002,
+    "Remark": "动态事件完成",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "DynamicEventCompleteTimes": {}
+    }
+  },
+  "100101": {
+    "ConditionId": 100101,
+    "Remark": "序章任务完成",
+    "ConditionLogic": "AND",
+    "ConditionMap": [
+      {
+        "QuestChain": [
+          100101
+        ]
+      }
+    ]
+  },
+  "100102": {
+    "ConditionId": 100102,
+    "Remark": "序章任务完成",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "QuestChain": {}
+    }
+  },
+  "100103": {
+    "ConditionId": 100103,
+    "Remark": "序章任务完成",
+    "ConditionLogic": "AND",
+    "ConditionMap": [
+      {
+        "QuestChain": [
+          100103
+        ]
+      }
+    ]
+  },
+  "100201": {
+    "ConditionId": 100201,
+    "Remark": "第一章任务完成",
+    "ConditionLogic": "AND",
+    "ConditionMap": [
+      {
+        "QuestChain": [
+          100201
+        ]
+      }
+    ]
+  },
+  "100202": {
+    "ConditionId": 100202,
+    "Remark": "第一章任务完成",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "QuestChain": [
+        100202
+      ]
+    }
+  },
+  "100203": {
+    "ConditionId": 100203,
+    "Remark": "第一章任务完成",
+    "ConditionLogic": "AND",
+    "ConditionMap": [
+      {
+        "QuestChain": [
+          100203
+        ]
+      }
+    ]
+  },
+  "100204": {
+    "ConditionId": 100204,
+    "Remark": "第一章任务完成",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "QuestChain": {}
+    }
+  },
+  "100205": {
+    "ConditionId": 100205,
+    "Remark": "第一章任务完成",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "QuestChain": {}
+    }
+  },
+  "100206": {
+    "ConditionId": 100206,
+    "Remark": "第一章任务完成",
+    "ConditionLogic": "AND",
+    "ConditionMap": [
+      {
+        "QuestChain": [
+          100206
+        ]
+      }
+    ]
+  },
+  "100207": {
+    "ConditionId": 100207,
+    "Remark": "第一章任务完成",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "QuestChain": {}
+    }
+  },
+  "100208": {
+    "ConditionId": 100208,
+    "Remark": "第一章任务完成",
+    "ConditionLogic": "AND",
+    "ConditionMap": [
+      {
+        "QuestChain": [
+          100208
+        ]
+      }
+    ]
+  },
+  "100212": {
+    "ConditionId": 100212,
+    "Remark": "第一章任务完成",
+    "ConditionLogic": "AND",
+    "ConditionMap": [
+      {
+        "QuestChain": [
+          100208
+        ]
+      }
+    ]
+  },
+  "100300": {
+    "ConditionId": 100300,
+    "Remark": "第二章启动器测试",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "QuestChain": {}
+    }
+  },
+  "100301": {
+    "ConditionId": 100301,
+    "Remark": "第二章任务完成",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "QuestChain": {}
+    }
+  },
+  "100302": {
+    "ConditionId": 100302,
+    "Remark": "第二章任务完成",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "QuestChain": {}
+    }
+  },
+  "100303": {
+    "ConditionId": 100303,
+    "Remark": "第二章任务完成",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "QuestChain": {}
+    }
+  },
+  "100304": {
+    "ConditionId": 100304,
+    "Remark": "第二章任务完成",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "QuestChain": {}
+    }
+  },
+  "110101": {
+    "ConditionId": 110101,
+    "Remark": "EX01任务完成",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "QuestChain": {}
+    }
+  },
+  "110102": {
+    "ConditionId": 110102,
+    "Remark": "EX01任务完成",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "QuestChain": {}
+    }
+  },
+  "110103": {
+    "ConditionId": 110103,
+    "Remark": "EX01任务完成",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "QuestChain": {}
+    }
+  },
+  "110104": {
+    "ConditionId": 110104,
+    "Remark": "EX01任务完成",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "QuestChain": {}
+    }
+  },
+  "110105": {
+    "ConditionId": 110105,
+    "Remark": "EX01任务完成",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "QuestChain": {}
+    }
+  },
+  "110106": {
+    "ConditionId": 110106,
+    "Remark": "EX01任务完成",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "QuestChain": {}
+    }
+  },
+  "110107": {
+    "ConditionId": 110107,
+    "Remark": "EX01任务完成",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "QuestChain": {}
+    }
+  },
+  "110108": {
+    "ConditionId": 110108,
+    "Remark": "EX01任务完成",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "QuestChain": {}
+    }
+  },
+  "110109": {
+    "ConditionId": 110109,
+    "Remark": "EX01任务完成",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "QuestChain": {}
+    }
+  },
+  "110110": {
+    "ConditionId": 110110,
+    "Remark": "EX01任务完成",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "QuestChain": {}
+    }
+  },
+  "110111": {
+    "ConditionId": 110111,
+    "Remark": "EX01任务完成",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "QuestChain": {}
+    }
+  },
+  "110112": {
+    "ConditionId": 110112,
+    "Remark": "EX01任务完成",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "QuestChain": {}
+    }
+  },
+  "200101": {
+    "ConditionId": 200101,
+    "Remark": "支线任务完成",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "QuestChain": [
+        200101
+      ]
+    }
+  },
+  "200102": {
+    "ConditionId": 200102,
+    "Remark": "支线任务完成",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "QuestChain": {}
+    }
+  },
+  "200202": {
+    "ConditionId": 200202,
+    "Remark": "支线任务完成",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "QuestChain": {}
+    }
+  },
+  "200207": {
+    "ConditionId": 200207,
+    "Remark": "支线任务完成",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "QuestChain": {}
+    }
+  },
+  "200208": {
+    "ConditionId": 200208,
+    "Remark": "支线任务完成",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "QuestChain": {}
+    }
+  },
+  "200209": {
+    "ConditionId": 200209,
+    "Remark": "支线任务完成",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "QuestChain": {}
+    }
+  },
+  "200213": {
+    "ConditionId": 200213,
+    "Remark": "玛尔洁支线任务完成",
+    "ConditionLogic": "AND",
+    "ConditionMap": [
+      {
+        "QuestChain": [
+          200213
+        ]
+      }
+    ]
+  },
+  "200219": {
+    "ConditionId": 200219,
+    "Remark": "支线任务完成",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "QuestChain": {}
+    }
+  },
+  "990101": {
+    "ConditionId": 990101,
+    "Remark": "任务测试用",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "QuestChain": {}
+    }
+  },
+  "990102": {
+    "ConditionId": 990102,
+    "Remark": "任务测试用",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "QuestChain": {}
+    }
+  },
+  "990103": {
+    "ConditionId": 990103,
+    "Remark": "任务测试用",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "QuestChain": {}
+    }
+  },
+  "990106": {
+    "ConditionId": 990106,
+    "Remark": "任务测试用",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "QuestChain": {}
+    }
+  },
+  "999992": {
+    "ConditionId": 999992,
+    "Remark": "程序动态事件测试用",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "CurrentCharId": {}
+    }
+  },
+  "999993": {
+    "ConditionId": 999993,
+    "Remark": "程序动态事件测试用",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "OwnCharIdAndLevel": {}
+    }
+  },
+  "999994": {
+    "ConditionId": 999994,
+    "Remark": "程序动态事件测试用",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "DynamicEventCompleteTimes": [
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  "999995": {
+    "ConditionId": 999995,
+    "Remark": "程序测试用",
+    "ConditionLogic": "OR",
+    "ConditionMap": {
+      "RougeLikePreAward": {}
+    }
+  },
+  "999996": {
+    "ConditionId": 999996,
+    "Remark": "程序测试用",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "TestClientCon": {}
+    }
+  },
+  "999997": {
+    "ConditionId": 999997,
+    "Remark": "程序测试用",
+    "ConditionLogic": "OR",
+    "ConditionMap": {
+      "SubRegionType": [
+        "field"
+      ]
+    }
+  },
+  "999998": {
+    "ConditionId": 999998,
+    "Remark": "程序测试用",
+    "ConditionLogic": "OR",
+    "ConditionMap": {
+      "QuestChain": {}
+    }
+  },
+  "999999": {
+    "ConditionId": 999999,
+    "Remark": "程序测试用",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "PlayerLevelMin": [
+        60
+      ],
+      "PlayerLevelMax": {},
+      "QuestChain": {},
+      "HaveResource": {},
+      "Quest": {},
+      "MechanismState": {},
+      "Impression": [
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  "1000001": {
+    "ConditionId": 1000001,
+    "Remark": "成就-不在训练场",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "AvatarStatus": {}
+    }
+  },
+  "1000002": {
+    "ConditionId": 1000002,
+    "Remark": "成就-在训练场",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "AvatarStatus": {}
+    }
+  },
+  "1000003": {
+    "ConditionId": 1000003,
+    "Remark": "成就-不在大世界",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "AvatarStatus": {}
+    }
+  },
+  "1000004": {
+    "ConditionId": 1000004,
+    "Remark": "成就-在大世界",
+    "ConditionLogic": "AND",
+    "ConditionMap": [
+      {
+        "AvatarStatus": [
+          "T.RT_3"
+        ]
+      }
+    ]
+  },
+  "1000005": {
+    "ConditionId": 1000005,
+    "Remark": "成就-不在单机副本",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "AvatarStatus": {}
+    }
+  },
+  "1000006": {
+    "ConditionId": 1000006,
+    "Remark": "成就-在单机副本",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "AvatarStatus": [
+        [
+          "InSingleDungeon",
+          "T"
+        ]
+      ]
+    }
+  },
+  "1000007": {
+    "ConditionId": 1000007,
+    "Remark": "成就-不在联机副本",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "AvatarStatus": {}
+    }
+  },
+  "1000008": {
+    "ConditionId": 1000008,
+    "Remark": "成就-在联机副本",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "AvatarStatus": {}
+    }
+  },
+  "1000009": {
+    "ConditionId": 1000009,
+    "Remark": "成就-不在梦魇残声",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "AvatarStatus": {}
+    }
+  },
+  "1000010": {
+    "ConditionId": 1000010,
+    "Remark": "成就-在梦魇残声",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "AvatarStatus": {}
+    }
+  },
+  "1000011": {
+    "ConditionId": 1000011,
+    "Remark": "成就-不在肉鸽",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "AvatarStatus": {}
+    }
+  },
+  "1000012": {
+    "ConditionId": 1000012,
+    "Remark": "成就-在肉鸽",
+    "ConditionLogic": "AND",
+    "ConditionMap": [
+      {
+        "AvatarStatus": [
+          "T.RT_7"
+        ]
+      }
+    ]
+  },
+  "1000051": {
+    "ConditionId": 1000051,
+    "Remark": "成就-组合条件-大世界+单机副本+联机副本",
+    "ConditionLogic": "OR",
+    "ConditionMap": {
+      "AvatarStatus": {}
+    }
+  },
+  "1000052": {
+    "ConditionId": 1000052,
+    "Remark": "组合条件-单机副本+联机副本",
+    "ConditionLogic": "OR",
+    "ConditionMap": {
+      "AvatarStatus": {}
+    }
+  },
+  "1000053": {
+    "ConditionId": 1000053,
+    "Remark": "组合条件-单机副本+大世界",
+    "ConditionLogic": "OR",
+    "ConditionMap": {
+      "AvatarStatus": {}
+    }
+  },
+  "1000101": {
+    "ConditionId": 1000101,
+    "Remark": "成就-在任意难度梦魇西比中",
+    "ConditionLogic": "OR",
+    "ConditionMap": {
+      "InHardBossDifficulty": {}
+    }
+  },
+  "1000102": {
+    "ConditionId": 1000102,
+    "Remark": "成就-在任意难度梦魇嗜晶者中",
+    "ConditionLogic": "OR",
+    "ConditionMap": {
+      "InHardBossDifficulty": {}
+    }
+  },
+  "1000103": {
+    "ConditionId": 1000103,
+    "Remark": "成就-在任意难度梦魇赛琪中",
+    "ConditionLogic": "OR",
+    "ConditionMap": {
+      "InHardBossDifficulty": {}
+    }
+  },
+  "1000151": {
+    "ConditionId": 1000151,
+    "Remark": "成就-在最高难度梦魇西比中",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "InHardBossDifficulty": {}
+    }
+  },
+  "1000152": {
+    "ConditionId": 1000152,
+    "Remark": "成就-在最高难度梦魇嗜晶者中",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "InHardBossDifficulty": {}
+    }
+  },
+  "1000153": {
+    "ConditionId": 1000153,
+    "Remark": "成就-在最高难度梦魇赛琪中",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "InHardBossDifficulty": {}
+    }
+  },
+  "1000181": {
+    "ConditionId": 1000181,
+    "Remark": "成就-在50级梦魇西比中",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "InHardBossDifficulty": {}
+    }
+  },
+  "1000182": {
+    "ConditionId": 1000182,
+    "Remark": "成就-在50级梦魇嗜晶者中",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "InHardBossDifficulty": {}
+    }
+  },
+  "1000183": {
+    "ConditionId": 1000183,
+    "Remark": "成就-在50级梦魇赛琪中",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "InHardBossDifficulty": {}
+    }
+  },
+  "1000201": {
+    "ConditionId": 1000201,
+    "Remark": "成就-在任意难度探险",
+    "ConditionLogic": "OR",
+    "ConditionMap": {
+      "InDungeon": {}
+    }
+  },
+  "1000202": {
+    "ConditionId": 1000202,
+    "Remark": "成就-在任意难度探险无尽",
+    "ConditionLogic": "OR",
+    "ConditionMap": {
+      "InDungeon": {}
+    }
+  },
+  "1000203": {
+    "ConditionId": 1000203,
+    "Remark": "成就-在任意难度扼守",
+    "ConditionLogic": "OR",
+    "ConditionMap": {
+      "InDungeon": {}
+    }
+  },
+  "1000204": {
+    "ConditionId": 1000204,
+    "Remark": "成就-在任意难度扼守无尽",
+    "ConditionLogic": "OR",
+    "ConditionMap": {
+      "InDungeon": {}
+    }
+  },
+  "1000205": {
+    "ConditionId": 1000205,
+    "Remark": "成就-在任意难度追缉",
+    "ConditionLogic": "OR",
+    "ConditionMap": {
+      "InDungeon": {}
+    }
+  },
+  "1000206": {
+    "ConditionId": 1000206,
+    "Remark": "成就-在任意难度调停",
+    "ConditionLogic": "OR",
+    "ConditionMap": {
+      "InDungeon": {}
+    }
+  },
+  "1000207": {
+    "ConditionId": 1000207,
+    "Remark": "成就-在任意难度歼灭",
+    "ConditionLogic": "OR",
+    "ConditionMap": {
+      "InDungeon": {}
+    }
+  },
+  "1000208": {
+    "ConditionId": 1000208,
+    "Remark": "成就-在任意难度救援",
+    "ConditionLogic": "OR",
+    "ConditionMap": {
+      "InDungeon": {}
+    }
+  },
+  "1000209": {
+    "ConditionId": 1000209,
+    "Remark": "成就-在任意难度推车",
+    "ConditionLogic": "OR",
+    "ConditionMap": {
+      "InDungeon": {}
+    }
+  },
+  "1000301": {
+    "ConditionId": 1000301,
+    "Remark": "成就-在最高难度探险",
+    "ConditionLogic": "OR",
+    "ConditionMap": {
+      "InDungeon": {}
+    }
+  },
+  "1000302": {
+    "ConditionId": 1000302,
+    "Remark": "成就-在最高难度探险无尽",
+    "ConditionLogic": "OR",
+    "ConditionMap": {
+      "InDungeon": {}
+    }
+  },
+  "1000303": {
+    "ConditionId": 1000303,
+    "Remark": "成就-在最高难度扼守",
+    "ConditionLogic": "OR",
+    "ConditionMap": {
+      "InDungeon": {}
+    }
+  },
+  "1000304": {
+    "ConditionId": 1000304,
+    "Remark": "成就-在最高难度扼守无尽",
+    "ConditionLogic": "OR",
+    "ConditionMap": {
+      "InDungeon": {}
+    }
+  },
+  "1000305": {
+    "ConditionId": 1000305,
+    "Remark": "成就-在最高难度追缉",
+    "ConditionLogic": "OR",
+    "ConditionMap": {
+      "InDungeon": {}
+    }
+  },
+  "1000306": {
+    "ConditionId": 1000306,
+    "Remark": "成就-在最高难度调停",
+    "ConditionLogic": "OR",
+    "ConditionMap": {
+      "InDungeon": {}
+    }
+  },
+  "1000307": {
+    "ConditionId": 1000307,
+    "Remark": "成就-在最高难度歼灭",
+    "ConditionLogic": "OR",
+    "ConditionMap": {
+      "InDungeon": {}
+    }
+  },
+  "1000308": {
+    "ConditionId": 1000308,
+    "Remark": "成就-在最高难度救援",
+    "ConditionLogic": "OR",
+    "ConditionMap": {
+      "InDungeon": {}
+    }
+  },
+  "1000309": {
+    "ConditionId": 1000309,
+    "Remark": "成就-在最高难度推车",
+    "ConditionLogic": "OR",
+    "ConditionMap": {
+      "InDungeon": {}
+    }
+  },
+  "1000401": {
+    "ConditionId": 1000401,
+    "Remark": "组合条件-已到达据点且不在特殊任务中（采集特殊怪使用）",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "QuestChain": [
+        100201
+      ],
+      "AvatarStatus": {}
+    }
+  },
+  "1002121": {
+    "ConditionId": 1002121,
+    "Remark": "第一章任务完成",
+    "ConditionLogic": "AND",
+    "ConditionMap": [
+      {
+        "QuestChain": [
+          100208
+        ]
+      },
+      {
+        "PlayerLevelMin": [
+          20
+        ]
+      }
+    ]
+  },
+  "1400000": {
+    "ConditionId": 1400000,
+    "Remark": "CE14临时战斗成就-在圣殿歼灭20级",
+    "ConditionLogic": "OR",
+    "ConditionMap": {
+      "InDungeon": [
+        91001
+      ]
+    }
+  },
+  "1400001": {
+    "ConditionId": 1400001,
+    "Remark": "CE14临时战斗成就-在圣殿歼灭30级",
+    "ConditionLogic": "OR",
+    "ConditionMap": {
+      "InDungeon": [
+        91002
+      ]
+    }
+  },
+  "1400002": {
+    "ConditionId": 1400002,
+    "Remark": "CE14临时战斗成就-在圣殿歼灭40级",
+    "ConditionLogic": "OR",
+    "ConditionMap": {
+      "InDungeon": [
+        91003
+      ]
+    }
+  },
+  "1400003": {
+    "ConditionId": 1400003,
+    "Remark": "CE14临时战斗成就-在圣殿歼灭50级",
+    "ConditionLogic": "OR",
+    "ConditionMap": {
+      "InDungeon": [
+        91004
+      ]
+    }
+  },
+  "1400004": {
+    "ConditionId": 1400004,
+    "Remark": "CE14临时战斗成就-在圣殿歼灭60级",
+    "ConditionLogic": "OR",
+    "ConditionMap": {
+      "InDungeon": [
+        91005
+      ]
+    }
+  },
+  "1400005": {
+    "ConditionId": 1400005,
+    "Remark": "CE14临时战斗成就-在圣殿歼灭70级",
+    "ConditionLogic": "OR",
+    "ConditionMap": {
+      "InDungeon": [
+        91006
+      ]
+    }
+  },
+  "1400006": {
+    "ConditionId": 1400006,
+    "Remark": "CE14临时战斗成就-在圣殿歼灭80级",
+    "ConditionLogic": "OR",
+    "ConditionMap": {
+      "InDungeon": [
+        91007
+      ]
+    }
+  },
+  "1400100": {
+    "ConditionId": 1400100,
+    "Remark": "组合条件-单机+在圣殿歼灭20级",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "AvatarStatus": [
+        [
+          "InSingleDungeon",
+          "T"
+        ]
+      ],
+      "InDungeon": [
+        91001
+      ]
+    }
+  },
+  "1400101": {
+    "ConditionId": 1400101,
+    "Remark": "组合条件-单机+在圣殿歼灭30级",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "AvatarStatus": [
+        [
+          "InSingleDungeon",
+          "T"
+        ]
+      ],
+      "InDungeon": [
+        91002
+      ]
+    }
+  },
+  "1400102": {
+    "ConditionId": 1400102,
+    "Remark": "组合条件-单机+在圣殿歼灭40级",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "AvatarStatus": [
+        [
+          "InSingleDungeon",
+          "T"
+        ]
+      ],
+      "InDungeon": [
+        91003
+      ]
+    }
+  },
+  "1400103": {
+    "ConditionId": 1400103,
+    "Remark": "组合条件-单机+在圣殿歼灭50级",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "AvatarStatus": [
+        [
+          "InSingleDungeon",
+          "T"
+        ]
+      ],
+      "InDungeon": [
+        91004
+      ]
+    }
+  },
+  "1400104": {
+    "ConditionId": 1400104,
+    "Remark": "组合条件-单机+在圣殿歼灭60级",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "AvatarStatus": [
+        [
+          "InSingleDungeon",
+          "T"
+        ]
+      ],
+      "InDungeon": [
+        91005
+      ]
+    }
+  },
+  "1400105": {
+    "ConditionId": 1400105,
+    "Remark": "组合条件-单机+在圣殿歼灭70级",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "AvatarStatus": [
+        [
+          "InSingleDungeon",
+          "T"
+        ]
+      ],
+      "InDungeon": [
+        91006
+      ]
+    }
+  },
+  "1400106": {
+    "ConditionId": 1400106,
+    "Remark": "组合条件-单机+在圣殿歼灭80级",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "AvatarStatus": [
+        [
+          "InSingleDungeon",
+          "T"
+        ]
+      ],
+      "InDungeon": [
+        91007
+      ]
+    }
+  },
+  "10020106": {
+    "ConditionId": 10020106,
+    "Remark": "┗ 支线解锁",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "Quest": {}
+    }
+  },
+  "10020201": {
+    "ConditionId": 10020201,
+    "Remark": "第一章任务完成且和鸣大于18",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "QuestChain": [
+        100202
+      ],
+      "PlayerLevelMin": [
+        18
+      ]
+    }
+  },
+  "10020202": {
+    "ConditionId": 10020202,
+    "Remark": "第一章任务完成且和鸣小于等于17",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "QuestChain": [
+        100202
+      ],
+      "PlayerLevelMax": [
+        17
+      ]
+    }
+  },
+  "10020203": {
+    "ConditionId": 10020203,
+    "Remark": "和鸣大于等于18",
+    "ConditionLogic": "AND",
+    "ConditionMap": [
+      {
+        "PlayerLevelMin": [
+          18
+        ]
+      }
+    ]
+  },
+  "10020501": {
+    "ConditionId": 10020501,
+    "Remark": "挖土和冰湖狩猎都完成",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "QuestChain": {}
+    }
+  },
+  "10020601": {
+    "ConditionId": 10020601,
+    "Remark": "在广场等赛琪的解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "PlayerLevelMin": [
+        24
+      ],
+      "QuestChain": [
+        100206
+      ]
+    }
+  },
+  "10020602": {
+    "ConditionId": 10020602,
+    "Remark": "在广场等赛琪的前摇显示条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "QuestChain": [
+        100206
+      ],
+      "PlayerLevelMax": [
+        23
+      ]
+    }
+  },
+  "10020603": {
+    "ConditionId": 10020603,
+    "Remark": "和鸣大于等于24",
+    "ConditionLogic": "AND",
+    "ConditionMap": [
+      {
+        "PlayerLevelMin": [
+          24
+        ]
+      }
+    ]
+  },
+  "10020801": {
+    "ConditionId": 10020801,
+    "Remark": "第一章任务-解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "PlayerLevelMin": [
+        29
+      ],
+      "QuestChain": [
+        100208
+      ]
+    }
+  },
+  "10020802": {
+    "ConditionId": 10020802,
+    "Remark": "EX01任务前摇显示条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "QuestChain": [
+        100208
+      ],
+      "PlayerLevelMax": [
+        28
+      ]
+    }
+  },
+  "10020803": {
+    "ConditionId": 10020803,
+    "Remark": "和鸣大于等于29",
+    "ConditionLogic": "AND",
+    "ConditionMap": [
+      {
+        "PlayerLevelMin": [
+          29
+        ]
+      }
+    ]
+  },
+  "11010103": {
+    "ConditionId": 11010103,
+    "Remark": "解锁EX01地图",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "Quest": {}
+    }
+  },
+  "20020801": {
+    "ConditionId": 20020801,
+    "Remark": "莱娜支线解锁条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "QuestChain": [
+        100208
+      ],
+      "Quest": [
+        20021301
+      ]
+    }
+  },
+  "20021007": {
+    "ConditionId": 20021007,
+    "Remark": "支线任务完成【敲门】",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "Quest": {}
+    }
+  },
+  "20021301": {
+    "ConditionId": 20021301,
+    "Remark": "玛尔洁支线任务一阶段完成",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "Quest": [
+        20021301
+      ]
+    }
+  },
+  "20021602": {
+    "ConditionId": 20021602,
+    "Remark": "帝国三兄弟任务显示条件",
+    "ConditionLogic": "AND",
+    "ConditionMap": {
+      "Quest": {}
+    }
+  }
+}

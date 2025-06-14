@@ -1,0 +1,198 @@
+{
+  "0": {
+    "ErrorCodeId": 0
+  },
+  "1": {
+    "ErrorCodeId": 1,
+    "ErrorCodeContent": "系统错误",
+    "ContentEN": "System error occurs",
+    "ContentJP": "システムエラー",
+    "ContentKR": "시스템 오류",
+    "ContentTC": "係統錯誤"
+  },
+  "2": {
+    "ErrorCodeId": 2,
+    "ErrorCodeContent": "参数错误, 请检查RPC调用参数",
+    "ContentEN": "Parameter error occurs. Please check the RPC params",
+    "ContentJP": "パラメータエラー。RPCパラメータを確認してください",
+    "ContentKR": "파라미터 오류, RPC 호출 파라미터를 확인하세요.",
+    "ContentTC": "參數錯誤，請檢查RPC調用參數"
+  },
+  "4": {
+    "ErrorCodeId": 4,
+    "ErrorCodeContent": "UID不在线或不存在",
+    "ContentEN": "UID offline or does not exist",
+    "ContentJP": "該当するUIDのプレイヤーが見つからない、またはオフラインになっています",
+    "ContentKR": "UID가 오프라인이거나 존재하지 않습니다.",
+    "ContentTC": "UID不線上或不存在"
+  },
+  "101": {
+    "ErrorCodeId": 101,
+    "ErrorCodeContent": "区域未解锁",
+    "ContentEN": "Area yet to unlock",
+    "ContentJP": "エリア未解放",
+    "ContentKR": "해당 지역이 해제되지 않았습니다.",
+    "ContentTC": "區域未解鎖"
+  },
+  "102": {
+    "ErrorCodeId": 102,
+    "ErrorCodeContent": "关卡未解锁",
+    "ContentEN": "Commission yet to unlock",
+    "ContentJP": "依頼未開放",
+    "ContentKR": "스테이지가 해제되지 않았습니다.",
+    "ContentTC": "委託未解鎖"
+  },
+  "103": {
+    "ErrorCodeId": 103,
+    "ErrorCodeContent": "章节未解锁",
+    "ContentEN": "Chapter yet to unlock",
+    "ContentJP": "ストーリー未解放",
+    "ContentKR": "챕터가 해제되지 않았습니다.",
+    "ContentTC": "章節未解鎖"
+  },
+  "104": {
+    "ErrorCodeId": 104,
+    "ErrorCodeContent": "当前在特殊剧情中，请先完成剧情。",
+    "ContentEN": "Currently occupied in a special quest. Complete it to proceed",
+    "ContentJP": "特殊ストーリーが進行中です。先にストーリーを完了しましょう",
+    "ContentKR": "현재 스페셜 스토리 진행 중입니다. 먼저 스토리를 완료해 주세요.",
+    "ContentTC": "當前在特殊劇情中，請先完成劇情"
+  },
+  "1001": {
+    "ErrorCodeId": 1001,
+    "ErrorCodeContent": "当前账号不存在，请重新登录",
+    "ContentEN": "This account does not exist, please try again",
+    "ContentJP": "アカウントが存在しないため、再度ログインしてください",
+    "ContentKR": "존재하지 않는 계정입니다. 다시 로그인하세요",
+    "ContentTC": "當前帳號不存在，請重新登入"
+  },
+  "1002": {
+    "ErrorCodeId": 1002,
+    "ErrorCodeContent": "用户验证失败",
+    "ContentEN": "User verification failed",
+    "ContentJP": "ユーザー認証に失敗しました",
+    "ContentKR": "사용자 인증 실패",
+    "ContentTC": "用戶驗證失敗"
+  },
+  "1003": {
+    "ErrorCodeId": 1003,
+    "ErrorCodeContent": "会话验证失败，请重新登录",
+    "ContentEN": "Session verification failed, please log in again",
+    "ContentJP": "セッション認証に失敗しました。再度ログインしてください",
+    "ContentKR": "대화 인증 실패. 다시 로그인하세요",
+    "ContentTC": "會話驗證失敗，請重新登入"
+  },
+  "1004": {
+    "ErrorCodeId": 1004,
+    "ErrorCodeContent": "创建角色失败",
+    "ContentEN": "Failed to create character",
+    "ContentJP": "キャラクターの作成エラー",
+    "ContentKR": "캐릭터 생성 실패",
+    "ContentTC": "創建角色失敗"
+  },
+  "1005": {
+    "ErrorCodeId": 1005,
+    "ErrorCodeContent": "角色加载失败",
+    "ContentEN": "Failed to load role data",
+    "ContentJP": "キャラクターの読み込みに失敗しました",
+    "ContentKR": "캐릭터 로드 실패",
+    "ContentTC": "角色載入失敗"
+  },
+  "1006": {
+    "ErrorCodeId": 1006,
+    "ErrorCodeContent": "版本太低,请更新升级",
+    "ContentEN": "Version outdated. Please update to continue.",
+    "ContentJP": "バージョンが古すぎます、アップデートしてください",
+    "ContentKR": "새로운 버전이 발견되었습니다. 업데이트를 진행해 주세요.",
+    "ContentTC": "版本太低,請更新升級"
+  },
+  "1007": {
+    "ErrorCodeId": 1007,
+    "ErrorCodeContent": "请重新登录",
+    "ContentEN": "Please log in again",
+    "ContentJP": "再度ログインしてください",
+    "ContentKR": "다시 로그인하세요.",
+    "ContentTC": "請重新登入"
+  },
+  "1008": {
+    "ErrorCodeId": 1008,
+    "ErrorCodeContent": "您好，您的角色由于[%s]已被封停，如有疑问，请联系客服",
+    "ContentEN": "Your role has been suspended due to [%s]. Should you have any questions, please contact Customer Service",
+    "ContentJP": "このキャラクターは[%s]により停止されました。質問があればカスタマーサービスにご連絡ください",
+    "ContentKR": "안녕하세요. 사용 중이신 캐릭터가 [%s] 사유로 정지되었습니다. 자세한 내용은 고객 센터에 문의하세요",
+    "ContentTC": "您好，您的角色由於[%s]已被封停，如有疑問，請聯繫客服"
+  },
+  "1009": {
+    "ErrorCodeId": 1009,
+    "ErrorCodeContent": "您好，您的角色由于[%s]已被封停，如有疑问，请联系客服",
+    "ContentEN": "Your role has been suspended due to [%s]. Should you have any questions, please contact Customer Service",
+    "ContentJP": "このキャラクターは[%s]により停止されました。質問があればカスタマーサービスにご連絡ください",
+    "ContentKR": "안녕하세요. 사용 중이신 캐릭터가 [%s] 사유로 정지되었습니다. 자세한 내용은 고객 센터에 문의하세요",
+    "ContentTC": "您好，您的角色由於[%s]已被封停，如有疑問，請聯繫客服"
+  },
+  "1010": {
+    "ErrorCodeId": 1010,
+    "ErrorCodeContent": "您好，您的角色由于[%s]已被封停，如有疑问，请联系客服",
+    "ContentEN": "Your role has been suspended due to [%s]. Should you have any questions, please contact Customer Service",
+    "ContentJP": "このキャラクターは[%s]により停止されました。質問があればカスタマーサービスにご連絡ください",
+    "ContentKR": "안녕하세요. 사용 중이신 캐릭터가 [%s] 사유로 정지되었습니다. 자세한 내용은 고객 센터에 문의하세요",
+    "ContentTC": "您好，您的角色由於[%s]已被封停，如有疑問，請聯繫客服"
+  },
+  "1011": {
+    "ErrorCodeId": 1011,
+    "ErrorCodeContent": "当前服务器不可用，请重新登录",
+    "ContentEN": "Server unavailable, please log in again",
+    "ContentJP": "このサーバーは利用できません。再度ログインしてください",
+    "ContentKR": "현재 서버를 이용할 수 없습니다. 다시 로그인하세요",
+    "ContentTC": "當前伺服器不可用，請重新登入"
+  },
+  "1012": {
+    "ErrorCodeId": 1012,
+    "ErrorCodeContent": "账号不一致，请重新登录",
+    "ContentEN": "Account mismatch detected, please log in again",
+    "ContentJP": "アカウントと一致していません。再度ログインしてください",
+    "ContentKR": "계정이 일치하지 않습니다. 다시 로그인하세요",
+    "ContentTC": "帳號不一致，請重新登入"
+  },
+  "1013": {
+    "ErrorCodeId": 1013,
+    "ErrorCodeContent": "登录队列已满，请稍后尝试登录",
+    "ContentEN": "The login queue is full, please try again later",
+    "ContentJP": "ログイン待機列が満員です。しばらくしてから再度お試しください",
+    "ContentKR": "접속 대기열이 가득 찼습니다. 잠시 후 다시 시도하세요",
+    "ContentTC": "登入佇列已滿，請稍候嘗試登入"
+  },
+  "1014": {
+    "ErrorCodeId": 1014,
+    "ErrorCodeContent": "服务器繁忙，请稍后尝试登录",
+    "ContentEN": "The server is experiencing heavy traffic, please try again later",
+    "ContentJP": "サーバーが混雑しています。しばらくしてから再度お試しください",
+    "ContentKR": "서버가 혼잡합니다. 잠시 후 다시 시도하세요",
+    "ContentTC": "伺服器繁忙，請稍候嘗試登入"
+  },
+  "1015": {
+    "ErrorCodeId": 1015,
+    "ErrorCodeContent": "您已退出登录队列",
+    "ContentEN": "You have quit the login queue",
+    "ContentJP": "ログイン待機列から抜けました",
+    "ContentKR": "접속 대기열을 떠났습니다",
+    "ContentTC": "您已退出登入佇列"
+  },
+  "1016": {
+    "ErrorCodeId": 1016,
+    "ErrorCodeContent": "您的账号数据异常，无法登录，如有疑问，请联系客服",
+    "ContentEN": "There's an issue with your account data that's preventing login. Should you have any questions, please contact Customer Service",
+    "ContentJP": "データに異常が発生したため、ログインできませんでした。質問があればカスタマーサービスにご連絡ください",
+    "ContentKR": "계정 데이터에 오류가 발생해 접속할 수 없습니다. 자세한 내용은 고객 센터에 문의하세요",
+    "ContentTC": "您的帳號資料異常，無法登入，如有疑問，請聯繫客服"
+  },
+  "1017": {
+    "ErrorCodeId": 1017,
+    "ErrorCodeContent": "\n\t\tContentEN = \"You've reached the maximum permitted online time\",\n\t\tContentJP = \"\n\t\tContentKR = \"- 접속 제한 시간을 초과했습니다\",\n\t\tContentTC = \"\n\t},\n\t[1018] = {\n\t\tErrorCodeId = 1018,\n\t\tErrorCodeContent = \"\n\t\tContentEN = \"Real-name verification failed\",\n\t\tContentJP = \"\n\t\tContentKR = \"- 실명 인증 실패\",\n\t\tContentTC = \"\n\t},\n\t[1019] = {\n\t\tErrorCodeId = 1019,\n\t\tErrorCodeContent = \"\n\t\tContentEN = \"New account registration currently closed\",\n\t\tContentJP = \"\n\t\tContentKR = \"- 신규 회원가입이 종료되었습니다.\",\n\t\tContentTC = \"\n\t},\n\t[1020] = {\n\t\tErrorCodeId = 1020,\n\t\tErrorCodeContent = \"\n\t\tContentEN = \"The real-name information you've submitted failed verification\",\n\t\tContentJP = \"\n\t\tContentKR = \"- 제출한 실명 정보를 사용할 수 없습니다.",
+    "ContentTC": "\n\t},\n\t[1021] = {\n\t\tErrorCodeId = 1021,\n\t\tErrorCodeContent = \"本产品在您当前所在区域不可用\",\n\t\tContentEN = \"This product is not available in your current region\",\n\t\tContentJP = \"現在お住まいの地域ではご利用できません\",\n\t\tContentKR = \"해당 버전은 현재 지역에서 사용할 수 없습니다.\",\n\t\tContentTC = \"本產品在您當前所在區域不可用\"\n\t},\n\t[1022] = {\n\t\tErrorCodeId = 1022,\n\t\tErrorCodeContent = \"账号不可输入中文\",\n\t\tContentEN = \"Account names cannot include Chinese characters\",\n\t\tContentJP = \"中国語を入力できません\",\n\t\tContentKR = \"계정에 중국어를 입력할 수 없습니다.\",\n\t\tContentTC = \"帳號不可輸入中文\"\n\t},\n\t[1023] = {\n\t\tErrorCodeId = 1023,\n\t\tErrorCodeContent = \"获取服务器列表失败，请检查设备的网络连接\",\n\t\tContentEN = \"Failed to fetch the server list. Please check your internet connection.\",\n\t\tContentJP = \"サーバーリスト取得エラー。ネットワーク接続をご確認ください\",\n\t\tContentKR = \"서버 리스트 불러오기 실패. 기기의 네트워크 연결 상태를 확인해 주세요.\",\n\t\tContentTC = \"獲取伺服器清單失敗，請檢查設備的網路連接\"\n\t},\n\t[1024] = {\n\t\tErrorCodeId = 1024,\n\t\tErrorCodeContent = \"正在获取服务器列表，请稍后\",\n\t\tContentEN = \"Fetching server list"
+  },
+  "-1": {
+    "ErrorCodeId": -1,
+    "ErrorCodeContent": "未知错误"
+  }
+}

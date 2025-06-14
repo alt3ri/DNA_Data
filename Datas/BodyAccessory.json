@@ -1,0 +1,477 @@
+{
+  "700001": {
+    "AccessoryId": 700001,
+    "ModelPath": "/Game/Asset/Char/Monster/Common/Part/Mesh/JT_Part02F_SM.JT_Part02F_SM",
+    "AttachRule": {
+      "SocketA": "Root",
+      "SocketB": "hook_part_front"
+    },
+    "DropProb": [
+      0.6,
+      0.2,
+      0.2
+    ],
+    "DamageDirect": [
+      "front",
+      "left",
+      "right"
+    ],
+    "DelayDestroyTime": 3,
+    "MoveDirect": [
+      1,
+      30,
+      330
+    ],
+    "Speed": [
+      {
+        "Normal": 500
+      },
+      {
+        "Hit": 1000
+      },
+      {
+        "Death": 200
+      }
+    ],
+    "HitEffect": {
+      "700001": []
+    },
+    "LandEffectId": 700011
+  },
+  "700002": {
+    "AccessoryId": 700002,
+    "ModelPath": "/Game/Asset/Char/Monster/Common/Part/Mesh/JT_Part01L_SM.JT_Part01L_SM",
+    "AttachRule": {
+      "SocketA": "Root",
+      "SocketB": "hook_part_left"
+    },
+    "DropProb": [
+      0.6,
+      0.2,
+      0.2
+    ],
+    "DamageDirect": [
+      "left",
+      "front",
+      "back"
+    ],
+    "DelayDestroyTime": 3,
+    "MoveDirect": [
+      90,
+      120,
+      60
+    ],
+    "Speed": [
+      {
+        "Normal": 500
+      },
+      {
+        "Hit": 1000
+      },
+      {
+        "Death": 200
+      }
+    ],
+    "HitEffect": {
+      "700003": []
+    },
+    "LandEffectId": 700011
+  },
+  "700003": {
+    "AccessoryId": 700003,
+    "ModelPath": "/Game/Asset/Char/Monster/Common/Part/Mesh/JT_Part01R_SM.JT_Part01R_SM",
+    "AttachRule": {
+      "SocketA": "Root",
+      "SocketB": "hook_part_right"
+    },
+    "DropProb": [
+      0.6,
+      0.2,
+      0.2
+    ],
+    "DamageDirect": [
+      "right",
+      "front",
+      "back"
+    ],
+    "DelayDestroyTime": 3,
+    "MoveDirect": [
+      270,
+      240,
+      310
+    ],
+    "Speed": [
+      {
+        "Normal": 500
+      },
+      {
+        "Hit": 1000
+      },
+      {
+        "Death": 200
+      }
+    ],
+    "HitEffect": {
+      "700004": []
+    },
+    "LandEffectId": 700011
+  },
+  "700004": {
+    "AccessoryId": 700004,
+    "ModelPath": "/Game/Asset/Char/Monster/JT_Ranger/Mesh/JT_Ranger_Part02_SM.JT_Ranger_Part02_SM",
+    "AttachRule": [
+      {
+        "SocketA": "Root"
+      },
+      {
+        "SocketB": "hook_part_back"
+      }
+    ],
+    "PreAccessories": {},
+    "DropProb": [
+      0.6,
+      0.2,
+      0.2
+    ],
+    "DamageDirect": [
+      "back",
+      "left",
+      "right"
+    ],
+    "DelayDestroyTime": 3,
+    "MoveDirect": [
+      180,
+      150,
+      210
+    ],
+    "Speed": [
+      {
+        "Normal": 500
+      },
+      {
+        "Hit": 1000
+      },
+      {
+        "Death": 200
+      }
+    ],
+    "HitEffect": [
+      []
+    ],
+    "LandEffectId": 700011
+  },
+  "700005": {
+    "AccessoryId": 700005,
+    "ModelPath": "/Game/Asset/Char/Monster/Common/Part/Mesh/JT_Part03A_SM.JT_Part03A_SM",
+    "AttachRule": [
+      {
+        "SocketA": "Root"
+      },
+      {
+        "SocketB": "hook_part_back"
+      }
+    ],
+    "DropProb": [
+      0.6,
+      0.2,
+      0.2
+    ],
+    "DamageDirect": [
+      "back",
+      "left",
+      "right"
+    ],
+    "DelayDestroyTime": 3,
+    "MoveDirect": [
+      180,
+      150,
+      210
+    ],
+    "Speed": [
+      {
+        "Normal": 500
+      },
+      {
+        "Hit": 1000
+      },
+      {
+        "Death": 200
+      }
+    ],
+    "HitEffect": [
+      []
+    ],
+    "LandEffectId": 700011
+  },
+  "700006": {
+    "AccessoryId": 700006,
+    "ModelPath": "/Game/Asset/Char/Monster/Jt_Ranger/Mesh/JT_Ranger_Part01_SM.JT_Ranger_Part01_SM",
+    "AttachRule": {
+      "SocketA": "Root",
+      "SocketB": "hook_part_up01"
+    },
+    "DropProb": {},
+    "DamageDirect": {},
+    "DelayDestroyTime": 3,
+    "MoveDirect": {},
+    "Speed": [
+      {
+        "Normal": 500
+      },
+      {
+        "Hit": 1000
+      },
+      {
+        "Death": 200
+      }
+    ],
+    "HitEffect": {
+      "700006": []
+    },
+    "LandEffectId": 700011
+  },
+  "700007": {
+    "AccessoryId": 700007,
+    "ModelPath": "/Game/Asset/Char/Monster/Common/Part/Mesh/JT_Part02F_SM.JT_Part02F_SM",
+    "AttachRule": {
+      "SocketA": "Root",
+      "SocketB": "xiongjia_f"
+    },
+    "DropProb": [
+      0.6,
+      0.2,
+      0.2
+    ],
+    "DamageDirect": [
+      "front",
+      "left",
+      "right"
+    ],
+    "DelayDestroyTime": 3,
+    "MoveDirect": [
+      1,
+      30,
+      330
+    ],
+    "Speed": [
+      {
+        "Normal": 500
+      },
+      {
+        "Hit": 1000
+      },
+      {
+        "Death": 200
+      }
+    ],
+    "HitEffect": {
+      "700007": []
+    },
+    "LandEffectId": 700011
+  },
+  "700008": {
+    "AccessoryId": 700008,
+    "ModelPath": "/Game/Asset/Char/Monster/Common/Part/Mesh/JT_Part01L_SM.JT_Part01L_SM",
+    "AttachRule": {
+      "SocketA": "Root",
+      "SocketB": "jianjia_l"
+    },
+    "DropProb": [
+      0.6,
+      0.2,
+      0.2
+    ],
+    "DamageDirect": [
+      "left",
+      "front",
+      "back"
+    ],
+    "DelayDestroyTime": 3,
+    "MoveDirect": [
+      90,
+      120,
+      60
+    ],
+    "Speed": [
+      {
+        "Normal": 500
+      },
+      {
+        "Hit": 1000
+      },
+      {
+        "Death": 200
+      }
+    ],
+    "HitEffect": {
+      "700009": []
+    },
+    "LandEffectId": 700011
+  },
+  "700009": {
+    "AccessoryId": 700009,
+    "ModelPath": "/Game/Asset/Char/Monster/Common/Part/Mesh/JT_Part01R_SM.JT_Part01R_SM",
+    "AttachRule": {
+      "SocketA": "Root",
+      "SocketB": "jianjia_r"
+    },
+    "DropProb": [
+      0.6,
+      0.2,
+      0.2
+    ],
+    "DamageDirect": [
+      "right",
+      "front",
+      "back"
+    ],
+    "DelayDestroyTime": 3,
+    "MoveDirect": [
+      270,
+      240,
+      310
+    ],
+    "Speed": [
+      {
+        "Normal": 500
+      },
+      {
+        "Hit": 1000
+      },
+      {
+        "Death": 200
+      }
+    ],
+    "HitEffect": {
+      "700010": []
+    },
+    "LandEffectId": 700011
+  },
+  "700010": {
+    "AccessoryId": 700010,
+    "ModelPath": "/Game/Asset/Char/Monster/Common/Part/Mesh/JT_Part02B_SM.JT_Part02B_SM",
+    "AttachRule": [
+      {
+        "SocketA": "Root"
+      },
+      {
+        "SocketB": "xiongjia_b"
+      }
+    ],
+    "PreAccessories": {},
+    "DropProb": [
+      0.6,
+      0.2,
+      0.2
+    ],
+    "DamageDirect": [
+      "back",
+      "left",
+      "right"
+    ],
+    "DelayDestroyTime": 3,
+    "MoveDirect": [
+      180,
+      150,
+      210
+    ],
+    "Speed": [
+      {
+        "Normal": 500
+      },
+      {
+        "Hit": 1000
+      },
+      {
+        "Death": 200
+      }
+    ],
+    "HitEffect": [
+      []
+    ],
+    "LandEffectId": 700011
+  },
+  "700011": {
+    "AccessoryId": 700011,
+    "ModelPath": "/Game/Asset/Char/Monster/Common/Part/Mesh/JT_Part03A_SM.JT_Part03A_SM",
+    "AttachRule": [
+      {
+        "SocketA": "Root"
+      },
+      {
+        "SocketB": "xiongjia_b"
+      }
+    ],
+    "DropProb": [
+      0.6,
+      0.2,
+      0.2
+    ],
+    "DamageDirect": [
+      "back",
+      "left",
+      "right"
+    ],
+    "DelayDestroyTime": 3,
+    "MoveDirect": [
+      180,
+      150,
+      210
+    ],
+    "Speed": [
+      {
+        "Normal": 500
+      },
+      {
+        "Hit": 1000
+      },
+      {
+        "Death": 200
+      }
+    ],
+    "HitEffect": [
+      []
+    ],
+    "LandEffectId": 700011
+  },
+  "950001": {
+    "AccessoryId": 950001,
+    "ModelPath": "/Game/Asset/Char/Npc/Npc_Bai_Shangdian/Mesh/Bai_Shangdian_WP01.Bai_Shangdian_WP01",
+    "AttachRule": {
+      "SocketA": "Root",
+      "SocketB": "hook_arm_r"
+    },
+    "AnimPath": "/Game/Asset/Char/Npc/Npc_Bai_Shangdian/Animation/Summon/",
+    "AnimNames": {}
+  },
+  "950002": {
+    "AccessoryId": 950002,
+    "ModelPath": "/Game/Asset/Char/Npc/Npc_Bai_Shangdian/Mesh/Bai_Shangdian_WP02.Bai_Shangdian_WP02",
+    "AttachRule": {
+      "SocketA": "Root",
+      "SocketB": "hook_arm_l"
+    },
+    "AnimPath": "/Game/Asset/Char/Npc/Npc_Bai_Shangdian/Animation/Summon/",
+    "AnimNames": {}
+  },
+  "950003": {
+    "AccessoryId": 950003,
+    "ModelPath": "/Game/Asset/Char/Npc/Npc_Bai_Tongxun/Mesh/BaiTX_Part02_SM.BaiTX_Part02_SM",
+    "AttachRule": {
+      "SocketA": "Root",
+      "SocketB": "Root"
+    },
+    "AnimPath": "/Game/Asset/Char/Npc/Npc_Bai_Tongxun/Animation/Sequence/Summon/",
+    "AnimNames": {}
+  },
+  "950004": {
+    "AccessoryId": 950004,
+    "ModelPath": "/Game/Asset/Char/Npc/Npc_Bai_Tongxun/Mesh/BaiTX_Part03_SM.BaiTX_Part03_SM",
+    "AttachRule": {
+      "SocketA": "Root",
+      "SocketB": "head"
+    },
+    "AnimPath": "/Game/Asset/Char/Npc/Npc_Bai_Tongxun/Animation/Sequence/Summon/",
+    "AnimNames": {}
+  }
+}

@@ -1,0 +1,732 @@
+{
+  "HorizontalSensitivity": {
+    "Cache": "HorizontalSensitivity",
+    "CacheText": "UI_OPTION_HorizontalSensitivity",
+    "Tag": "Control",
+    "TagID": 2,
+    "TagName": "UI_OPTION_CONTROLLER",
+    "Region": 1,
+    "RegionName": "UI_Option_Area_1",
+    "ControlType": "Scroll",
+    "DefaultValue": "10.0",
+    "ScrollNum": [
+      1,
+      20
+    ],
+    "ScrollMappingScale": 10,
+    "EMCacheName": "CameraYaw",
+    "SortId": 1
+  },
+  "VerticalSensitivity": {
+    "Cache": "VerticalSensitivity",
+    "CacheText": "UI_OPTION_VerticalSensitivity",
+    "Tag": "Control",
+    "TagID": 2,
+    "TagName": "UI_OPTION_CONTROLLER",
+    "Region": 1,
+    "RegionName": "UI_Option_Area_1",
+    "ControlType": "Scroll",
+    "DefaultValue": "8.0",
+    "ScrollNum": [
+      1,
+      20
+    ],
+    "ScrollMappingScale": 10,
+    "EMCacheName": "CameraPitch",
+    "SortId": 2
+  },
+  "HorizontalSensitivityOnShooting": {
+    "Cache": "HorizontalSensitivityOnShooting",
+    "CacheText": "UI_OPTION_HorizontalSensitivityOnShooting",
+    "Tag": "Control",
+    "TagID": 2,
+    "TagName": "UI_OPTION_CONTROLLER",
+    "Region": 1,
+    "RegionName": "UI_Option_Area_1",
+    "ControlType": "Scroll",
+    "DefaultValue": "8.0",
+    "ScrollNum": [
+      1,
+      20
+    ],
+    "ScrollMappingScale": 10,
+    "EMCacheName": "CameraYawOnShoot",
+    "SortId": 3
+  },
+  "VerticalSensitivityOnShooting": {
+    "Cache": "VerticalSensitivityOnShooting",
+    "CacheText": "UI_OPTION_VerticalSensitivityOnShooting",
+    "Tag": "Control",
+    "TagID": 2,
+    "TagName": "UI_OPTION_CONTROLLER",
+    "Region": 1,
+    "RegionName": "UI_Option_Area_1",
+    "ControlType": "Scroll",
+    "DefaultValue": "6.0",
+    "ScrollNum": [
+      1,
+      20
+    ],
+    "ScrollMappingScale": 10,
+    "EMCacheName": "CameraPitchOnShoot",
+    "SortId": 4
+  },
+  "SpringArmRate": {
+    "Cache": "SpringArmRate",
+    "CacheText": "UI_OPTION_CameraDistance",
+    "Tag": "Control",
+    "TagID": 2,
+    "TagName": "UI_OPTION_CONTROLLER",
+    "Region": 1,
+    "RegionName": "UI_Option_Area_1",
+    "ControlType": "Scroll",
+    "DefaultValue": "11.0",
+    "ScrollNum": {},
+    "ScrollMappingScale": 10,
+    "EMCacheName": "SpringArmRate",
+    "SortId": 5
+  },
+  "CameraYawFollow": {
+    "Cache": "CameraYawFollow",
+    "CacheText": "UI_OPTION_CameraYawFollow",
+    "Tag": "Control",
+    "TagID": 2,
+    "TagName": "UI_OPTION_CONTROLLER",
+    "Region": 1,
+    "RegionName": "UI_Option_Area_1",
+    "ControlType": "Switch",
+    "DefaultValue": "True",
+    "SwitchText": [
+      "UI_OPTION_Swicth_Close",
+      "UI_OPTION_Swicth_Open"
+    ],
+    "EMCacheName": "CameraYawFollow",
+    "SortId": 6
+  },
+  "AimAssist": {
+    "Cache": "AimAssist",
+    "CacheText": "UI_OPTION_AimAssist",
+    "Tag": "Control",
+    "TagID": 2,
+    "TagName": "UI_OPTION_CONTROLLER",
+    "Region": 1,
+    "RegionName": "UI_Option_Area_1",
+    "ControlType": "Switch",
+    "DefaultValue": "True",
+    "SwitchText": [
+      "UI_OPTION_Swicth_Close",
+      "UI_OPTION_Swicth_Open"
+    ],
+    "EMCacheName": "IsOpenHelperAim",
+    "SortId": 7
+  },
+  "ShowMonsterName": {
+    "Cache": "ShowMonsterName",
+    "CacheText": "UI_OPTION_ShowMonsterName",
+    "Tag": "Control",
+    "TagID": 2,
+    "TagName": "UI_OPTION_CONTROLLER",
+    "Region": 1,
+    "RegionName": "UI_Option_Area_1",
+    "ControlType": "Switch",
+    "DefaultValue": "False",
+    "SwitchText": [
+      "UI_OPTION_Swicth_Close",
+      "UI_OPTION_Swicth_Open"
+    ],
+    "EMCacheName": "ShowMonsterName",
+    "SortId": 8
+  },
+  "OverallPreset": {
+    "Cache": "OverallPreset",
+    "CacheText": "UI_OPTION_OverallPreset",
+    "Tag": "View",
+    "TagID": 3,
+    "TagName": "UI_OPTION_DISPLAY",
+    "Region": 1,
+    "RegionName": "UI_Option_Area_12",
+    "ControlType": "UnFold",
+    "DefaultValue": "3.0",
+    "UnFoldText": {},
+    "EMCacheName": "OverallPreset",
+    "SortId": 9
+  },
+  "ScreenFilter": {
+    "Cache": "ScreenFilter",
+    "CacheText": "UI_OPTION_ScreenFilter",
+    "Tag": "View",
+    "TagID": 3,
+    "TagName": "UI_OPTION_DISPLAY",
+    "Region": 1,
+    "RegionName": "UI_Option_Area_11",
+    "ControlType": "UnFold",
+    "DefaultValue": "3.0",
+    "UnFoldText": {},
+    "EMCacheName": "ScreenFilter",
+    "SortId": 10
+  },
+  "InterfaceMode": {
+    "Cache": "InterfaceMode",
+    "CacheText": "UI_OPTION_InterfaceMode",
+    "Tag": "View",
+    "TagID": 3,
+    "TagName": "UI_OPTION_DISPLAY",
+    "Region": 1,
+    "RegionName": "UI_Option_Area_12",
+    "ControlType": "UnFold",
+    "DefaultValue": "3.0",
+    "UnFoldText": {},
+    "SubOptionName": "UI_OPTION_ResolutionRatio",
+    "SubOptionText": {},
+    "SubOptionDefaultValue": {},
+    "SortId": 11,
+    "HideOnPhone": true
+  },
+  "Fps": {
+    "Cache": "Fps",
+    "CacheText": "UI_OPTION_Fps",
+    "Tag": "View",
+    "TagID": 3,
+    "TagName": "UI_OPTION_DISPLAY",
+    "Region": 2,
+    "RegionName": "UI_Option_Area_11",
+    "ControlType": "UnFold",
+    "DefaultValue": "3.0",
+    "UnFoldText": {},
+    "EMCacheName": "Fps",
+    "SortId": 13
+  },
+  "ShadowQuality": {
+    "Cache": "ShadowQuality",
+    "CacheText": "UI_OPTION_ShadowQuality",
+    "Tag": "View",
+    "TagID": 3,
+    "TagName": "UI_OPTION_DISPLAY",
+    "Region": 2,
+    "RegionName": "UI_Option_Area_11",
+    "ControlType": "UnFold",
+    "DefaultValue": "3.0",
+    "UnFoldText": [
+      "UI_EffectQuality_Low",
+      "UI_EffectQuality_Middle",
+      "UI_EffectQuality_High"
+    ],
+    "EMCacheName": "GameUserSettings",
+    "SortId": 14
+  },
+  "EffectQuality": {
+    "Cache": "EffectQuality",
+    "CacheText": "UI_OPTION_EffectQuality",
+    "Tag": "View",
+    "TagID": 3,
+    "TagName": "UI_OPTION_DISPLAY",
+    "Region": 2,
+    "RegionName": "UI_Option_Area_11",
+    "ControlType": "UnFold",
+    "DefaultValue": "3.0",
+    "UnFoldText": [
+      "UI_EffectQuality_Low",
+      "UI_EffectQuality_Middle",
+      "UI_EffectQuality_High"
+    ],
+    "EMCacheName": "GameUserSettings",
+    "SortId": 15
+  },
+  "HUDSize": {
+    "Cache": "HUDSize",
+    "CacheText": "UI_OPTION_HUDSize",
+    "Tag": "View",
+    "TagID": 3,
+    "TagName": "UI_OPTION_DISPLAY",
+    "Region": 2,
+    "RegionName": "UI_Option_Area_11",
+    "ControlType": "UnFold",
+    "DefaultValue": "3.0",
+    "UnFoldText": {},
+    "UnFoldTextM": {},
+    "EMCacheName": "HUDScale",
+    "SortId": 19
+  },
+  "VerticalSync": {
+    "Cache": "VerticalSync",
+    "CacheText": "UI_OPTION_VerticalSync",
+    "Tag": "View",
+    "TagID": 3,
+    "TagName": "UI_OPTION_DISPLAY",
+    "Region": 2,
+    "RegionName": "UI_Option_Area_11",
+    "ControlType": "Switch",
+    "DefaultValue": "True",
+    "SwitchText": [
+      "UI_OPTION_Swicth_Close",
+      "UI_OPTION_Swicth_Open"
+    ],
+    "SortId": 20
+  },
+  "TeammateEffects": {
+    "Cache": "TeammateEffects",
+    "CacheText": "UI_OPTION_TeammateEffects",
+    "Tag": "View",
+    "TagID": 3,
+    "TagName": "UI_OPTION_DISPLAY",
+    "Region": 2,
+    "RegionName": "UI_Option_Area_11",
+    "ControlType": "UnFold",
+    "DefaultValue": "2.0",
+    "UnFoldText": {},
+    "EMCacheName": "TeammateEffects",
+    "SortId": 25
+  },
+  "ContentPerformance": {
+    "Cache": "ContentPerformance",
+    "CacheText": "UI_OPTION_CrowdDensity",
+    "Tag": "View",
+    "TagID": 3,
+    "TagName": "UI_OPTION_DISPLAY",
+    "Region": 2,
+    "RegionName": "UI_Option_Area_11",
+    "ControlType": "UnFold",
+    "DefaultValue": "3.0",
+    "UnFoldText": [
+      "UI_EffectQuality_Low",
+      "UI_EffectQuality_Middle",
+      "UI_EffectQuality_High"
+    ],
+    "EMCacheName": "ContentPerformance",
+    "SortId": 26
+  },
+  "AntiAliasing": {
+    "Cache": "AntiAliasing",
+    "CacheText": "UI_OPTION_AntiAliasing",
+    "Tag": "View",
+    "TagID": 3,
+    "TagName": "UI_OPTION_DISPLAY",
+    "Region": 2,
+    "RegionName": "UI_Option_Area_11",
+    "ControlType": "UnFold",
+    "DefaultValue": "2.0",
+    "UnFoldText": {},
+    "UnFoldTextM": {},
+    "SubOptionName": "UI_OPTION_AntiAliasingQuality",
+    "SubOptionText": [
+      "UI_EffectQuality_Low",
+      "UI_EffectQuality_Middle",
+      "UI_EffectQuality_High"
+    ],
+    "SubOptionDefaultValue": {},
+    "EMCacheName": "AntiAliasing",
+    "SortId": 28
+  },
+  "MaterialQuality": {
+    "Cache": "MaterialQuality",
+    "CacheText": "UI_OPTION_MaterialQuality",
+    "Tag": "View",
+    "TagID": 3,
+    "TagName": "UI_OPTION_DISPLAY",
+    "Region": 2,
+    "RegionName": "UI_Option_Area_11",
+    "ControlType": "UnFold",
+    "DefaultValue": "3.0",
+    "UnFoldText": [
+      "UI_EffectQuality_Low",
+      "UI_EffectQuality_Middle",
+      "UI_EffectQuality_High"
+    ],
+    "EMCacheName": "GameUserSettings",
+    "SortId": 29
+  },
+  "MaterialFilter": {
+    "Cache": "MaterialFilter",
+    "CacheText": "UI_OPTION_MaterialFilter",
+    "Tag": "View",
+    "TagID": 3,
+    "TagName": "UI_OPTION_DISPLAY",
+    "Region": 2,
+    "RegionName": "UI_Option_Area_11",
+    "ControlType": "UnFold",
+    "DefaultValue": "4.0",
+    "UnFoldText": {},
+    "EMCacheName": "ConsoleVariable",
+    "SortId": 30
+  },
+  "DynamicReflection": {
+    "Cache": "DynamicReflection",
+    "CacheText": "UI_OPTION_DynamicReflection",
+    "Tag": "View",
+    "TagID": 3,
+    "TagName": "UI_OPTION_DISPLAY",
+    "Region": 2,
+    "RegionName": "UI_Option_Area_11",
+    "ControlType": "Switch",
+    "DefaultValue": "True",
+    "SwitchText": [
+      "UI_OPTION_Swicth_Close",
+      "UI_OPTION_Swicth_Open"
+    ],
+    "EMCacheName": "ConsoleVariable",
+    "SortId": 31
+  },
+  "ProjectionEdgeStaining": {
+    "Cache": "ProjectionEdgeStaining",
+    "CacheText": "UI_OPTION_ProjectionEdgeStaining",
+    "Tag": "View",
+    "TagID": 3,
+    "TagName": "UI_OPTION_DISPLAY",
+    "Region": 2,
+    "RegionName": "UI_Option_Area_11",
+    "ControlType": "Switch",
+    "DefaultValue": "True",
+    "SwitchText": [
+      "UI_OPTION_Swicth_Close",
+      "UI_OPTION_Swicth_Open"
+    ],
+    "EMCacheName": "ConsoleVariable",
+    "SortId": 32,
+    "HideOnPC": true,
+    "HideOnPhone": true
+  },
+  "RefractiveQuality": {
+    "Cache": "RefractiveQuality",
+    "CacheText": "UI_OPTION_RefractiveQuality",
+    "Tag": "View",
+    "TagID": 3,
+    "TagName": "UI_OPTION_DISPLAY",
+    "Region": 2,
+    "RegionName": "UI_Option_Area_11",
+    "ControlType": "UnFold",
+    "DefaultValue": "3.0",
+    "UnFoldText": [
+      "UI_OPTION_Swicth_Close",
+      "UI_EffectQuality_Low",
+      "UI_EffectQuality_Middle",
+      "UI_EffectQuality_High"
+    ],
+    "EMCacheName": "ConsoleVariable",
+    "SortId": 35
+  },
+  "AmbientOcclusion": {
+    "Cache": "AmbientOcclusion",
+    "CacheText": "UI_OPTION_AmbientOcclusion",
+    "Tag": "View",
+    "TagID": 3,
+    "TagName": "UI_OPTION_DISPLAY",
+    "Region": 2,
+    "RegionName": "UI_Option_Area_11",
+    "ControlType": "Switch",
+    "DefaultValue": "True",
+    "SwitchText": [
+      "UI_OPTION_Swicth_Close",
+      "UI_OPTION_Swicth_Open"
+    ],
+    "EMCacheName": "ConsoleVariable",
+    "SortId": 36
+  },
+  "VolumetricLight": {
+    "Cache": "VolumetricLight",
+    "CacheText": "UI_OPTION_VolumetricLight",
+    "Tag": "View",
+    "TagID": 3,
+    "TagName": "UI_OPTION_DISPLAY",
+    "Region": 2,
+    "RegionName": "UI_Option_Area_11",
+    "ControlType": "UnFold",
+    "DefaultValue": "3.0",
+    "UnFoldText": [
+      "UI_OPTION_Swicth_Close",
+      "UI_EffectQuality_Low",
+      "UI_EffectQuality_Middle",
+      "UI_EffectQuality_High"
+    ],
+    "EMCacheName": "ConsoleVariable",
+    "SortId": 37
+  },
+  "LocalWindDetail": {
+    "Cache": "LocalWindDetail",
+    "CacheText": "UI_OPTION_LocalWindDetail",
+    "Tag": "View",
+    "TagID": 3,
+    "TagName": "UI_OPTION_DISPLAY",
+    "Region": 2,
+    "RegionName": "UI_Option_Area_11",
+    "ControlType": "UnFold",
+    "DefaultValue": "3.0",
+    "UnFoldText": [
+      "UI_OPTION_Swicth_Close",
+      "UI_EffectQuality_Low",
+      "UI_EffectQuality_Middle",
+      "UI_EffectQuality_High"
+    ],
+    "EMCacheName": "ConsoleVariable",
+    "SortId": 39,
+    "HideOnPhone": true
+  },
+  "DepthQuality": {
+    "Cache": "DepthQuality",
+    "CacheText": "UI_OPTION_DepthQuality",
+    "Tag": "View",
+    "TagID": 3,
+    "TagName": "UI_OPTION_DISPLAY",
+    "Region": 2,
+    "RegionName": "UI_Option_Area_11",
+    "ControlType": "UnFold",
+    "DefaultValue": "3.0",
+    "UnFoldText": [
+      "UI_EffectQuality_Low",
+      "UI_EffectQuality_Middle",
+      "UI_EffectQuality_High"
+    ],
+    "EMCacheName": "ConsoleVariable",
+    "SortId": 42,
+    "HideOnPhone": true
+  },
+  "PostEffect": {
+    "Cache": "PostEffect",
+    "CacheText": "UI_OPTION_PostEffect",
+    "Tag": "View",
+    "TagID": 3,
+    "TagName": "UI_OPTION_DISPLAY",
+    "Region": 2,
+    "RegionName": "UI_Option_Area_11",
+    "ControlType": "Switch",
+    "DefaultValue": "True",
+    "SwitchText": [
+      "UI_OPTION_Swicth_Close",
+      "UI_OPTION_Swicth_Open"
+    ],
+    "EMCacheName": "ConsoleVariable",
+    "SortId": 43
+  },
+  "ScreenQuality": {
+    "Cache": "ScreenQuality",
+    "CacheText": "UI_OPTION_ScreenQuality",
+    "Tag": "View",
+    "TagID": 3,
+    "TagName": "UI_OPTION_DISPLAY",
+    "Region": 2,
+    "RegionName": "UI_Option_Area_11",
+    "ControlType": "UnFold",
+    "DefaultValue": "1.0",
+    "UnFoldText": {},
+    "EMCacheName": "ScreenQuality",
+    "SortId": 44
+  },
+  "TotalVolume": {
+    "Cache": "TotalVolume",
+    "CacheText": "UI_OPTION_TotalVolume",
+    "Tag": "Voice",
+    "TagID": 4,
+    "TagName": "UI_OPTION_AUDIO",
+    "Region": 1,
+    "RegionName": "UI_Option_Area_4",
+    "ControlType": "Scroll",
+    "DefaultValue": "10.0",
+    "ScrollNum": [
+      0,
+      10
+    ],
+    "ScrollMappingScale": 10,
+    "EMCacheName": "FMODVolume",
+    "EMCacheKey": 0,
+    "SortId": 45
+  },
+  "MuteBackstage": {
+    "Cache": "MuteBackstage",
+    "CacheText": "UI_OPTION_MuteBackstage",
+    "Tag": "Voice",
+    "TagID": 4,
+    "TagName": "UI_OPTION_AUDIO",
+    "Region": 1,
+    "RegionName": "UI_Option_Area_4",
+    "ControlType": "Switch",
+    "DefaultValue": "True",
+    "SwitchText": [
+      "UI_OPTION_Swicth_Close",
+      "UI_OPTION_Swicth_Open"
+    ],
+    "EMCacheName": "MuteBackstage",
+    "SortId": 46,
+    "HideOnPhone": true
+  },
+  "MusicVolume": {
+    "Cache": "MusicVolume",
+    "CacheText": "UI_OPTION_MusicVolume",
+    "Tag": "Voice",
+    "TagID": 4,
+    "TagName": "UI_OPTION_AUDIO",
+    "Region": 2,
+    "RegionName": "UI_Option_Area_5",
+    "ControlType": "Scroll",
+    "DefaultValue": "10.0",
+    "ScrollNum": [
+      0,
+      10
+    ],
+    "ScrollMappingScale": 10,
+    "EMCacheName": "FMODVolume",
+    "EMCacheKey": 2,
+    "SortId": 47
+  },
+  "VoiceVolume": {
+    "Cache": "VoiceVolume",
+    "CacheText": "UI_OPTION_VoiceVolume",
+    "Tag": "Voice",
+    "TagID": 4,
+    "TagName": "UI_OPTION_AUDIO",
+    "Region": 2,
+    "RegionName": "UI_Option_Area_5",
+    "ControlType": "Scroll",
+    "DefaultValue": "10.0",
+    "ScrollNum": [
+      0,
+      10
+    ],
+    "ScrollMappingScale": 10,
+    "EMCacheName": "FMODVolume",
+    "EMCacheKey": 3,
+    "SortId": 48
+  },
+  "SoundVolume": {
+    "Cache": "SoundVolume",
+    "CacheText": "UI_OPTION_SoundVolume",
+    "Tag": "Voice",
+    "TagID": 4,
+    "TagName": "UI_OPTION_AUDIO",
+    "Region": 2,
+    "RegionName": "UI_Option_Area_5",
+    "ControlType": "Scroll",
+    "DefaultValue": "10.0",
+    "ScrollNum": [
+      0,
+      10
+    ],
+    "ScrollMappingScale": 10,
+    "EMCacheName": "FMODVolume",
+    "EMCacheKey": 1,
+    "SortId": 49
+  },
+  "SystemLanguage": {
+    "Cache": "SystemLanguage",
+    "CacheText": "UI_OPTION_SystemLanguage",
+    "Tag": "Language",
+    "TagID": 5,
+    "TagName": "UI_OPTION_LANGUAGE",
+    "Region": 1,
+    "RegionName": "UI_Option_Area_2",
+    "ControlType": "UnFold",
+    "DefaultValue": "1.0",
+    "UnFoldText": {},
+    "EMCacheName": "SystemLanguage",
+    "SortId": 50
+  },
+  "SystemVoice": {
+    "Cache": "SystemVoice",
+    "CacheText": "UI_OPTION_SystemVoice",
+    "Tag": "Language",
+    "TagID": 5,
+    "TagName": "UI_OPTION_LANGUAGE",
+    "Region": 1,
+    "RegionName": "UI_Option_Area_2",
+    "ControlType": "UnFold",
+    "DefaultValue": "1.0",
+    "UnFoldText": {},
+    "EMCacheName": "SystemVoice",
+    "SortId": 51
+  },
+  "ReleaseStuck": {
+    "Cache": "ReleaseStuck",
+    "CacheText": "UI_OPTION_ReleaseStuck",
+    "Tag": "Other",
+    "TagID": 6,
+    "TagName": "UI_OPTION_Other",
+    "Region": 1,
+    "ControlType": "Click",
+    "DefaultValue": "UI_OPTION_ReleaseStuck_Default",
+    "SortId": 52
+  },
+  "CustomerService": {
+    "Cache": "CustomerService",
+    "CacheText": "UI_OPTION_CustomerService",
+    "Tag": "Other",
+    "TagID": 6,
+    "TagName": "UI_OPTION_Other",
+    "Region": 1,
+    "ControlType": "Click",
+    "DefaultValue": "UI_GameEvent_Goto",
+    "SortId": 53,
+    "SpecialHide": 1
+  },
+  "TermsOfService": {
+    "Cache": "TermsOfService",
+    "CacheText": "UI_OPTION_TermsOfService",
+    "Tag": "Other",
+    "TagID": 6,
+    "TagName": "UI_OPTION_Other",
+    "Region": 1,
+    "ControlType": "Click",
+    "DefaultValue": "UI_Opition_View",
+    "SortId": 55,
+    "SpecialHide": 2
+  },
+  "PrivacyPolicy": {
+    "Cache": "PrivacyPolicy",
+    "CacheText": "UI_OPTION_PrivacyPolicy",
+    "Tag": "Other",
+    "TagID": 6,
+    "TagName": "UI_OPTION_Other",
+    "Region": 1,
+    "ControlType": "Click",
+    "DefaultValue": "UI_Opition_View",
+    "SortId": 56
+  },
+  "ChildPrivacy": {
+    "Cache": "ChildPrivacy",
+    "CacheText": "UI_OPTION_ChildPrivacy",
+    "Tag": "Other",
+    "TagID": 6,
+    "TagName": "UI_OPTION_Other",
+    "Region": 1,
+    "ControlType": "Click",
+    "DefaultValue": "UI_Opition_View",
+    "CheckText": {},
+    "SortId": 57,
+    "SpecialHide": 1
+  },
+  "ThirdPartySDK": {
+    "Cache": "ThirdPartySDK",
+    "CacheText": "UI_OPTION_ThirdPartySDK",
+    "Tag": "Other",
+    "TagID": 6,
+    "TagName": "UI_OPTION_Other",
+    "Region": 1,
+    "ControlType": "Click",
+    "DefaultValue": "UI_Opition_View",
+    "CheckText": {},
+    "SortId": 58,
+    "SpecialHide": 1
+  },
+  "UserPolicy": {
+    "Cache": "UserPolicy",
+    "CacheText": "UI_OPTION_UserPolicy",
+    "Tag": "Other",
+    "TagID": 6,
+    "TagName": "UI_OPTION_Other",
+    "Region": 1,
+    "ControlType": "Click",
+    "DefaultValue": "UI_Opition_View",
+    "SortId": 59,
+    "SpecialHide": 1
+  },
+  "LogOffAccount": {
+    "Cache": "LogOffAccount",
+    "CacheText": "UI_OPTION_LogOffAccount",
+    "Tag": "Other",
+    "TagID": 6,
+    "TagName": "UI_OPTION_Other",
+    "Region": 1,
+    "ControlType": "Click",
+    "DefaultValue": "UI_OPTION_Logoff",
+    "CheckText": {},
+    "SortId": 60,
+    "SpecialHide": 1
+  }
+}

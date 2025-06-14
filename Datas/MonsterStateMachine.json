@@ -1,0 +1,143 @@
+{
+  "Birth": {
+    "SourceTag": "Birth"
+  },
+  "Idle": {
+    "SourceTag": "Idle"
+  },
+  "Falling": {
+    "SourceTag": "Falling"
+  },
+  "LandHeavy": {
+    "SourceTag": "LandHeavy"
+  },
+  "Slide": {
+    "SourceTag": "Slide"
+  },
+  "Crouch": {
+    "SourceTag": "Crouch"
+  },
+  "Cover": {
+    "SourceTag": "Cover"
+  },
+  "Skill": {
+    "SourceTag": "Skill"
+  },
+  "Shooting": {
+    "SourceTag": "Shooting"
+  },
+  "LightHit": {
+    "SourceTag": "LightHit",
+    "Skill": 1,
+    "Shooting": 1
+  },
+  "LightHitRanged": {
+    "SourceTag": "LightHitRanged",
+    "Skill": 1,
+    "Shooting": 1
+  },
+  "HeavyHit": {
+    "SourceTag": "HeavyHit",
+    "Skill": 1,
+    "Shooting": 1,
+    "LightHit": 1,
+    "LightHitRanged": 1
+  },
+  "HitFly": {
+    "SourceTag": "HitFly",
+    "Slide": 1,
+    "Cover": 1,
+    "Skill": 1,
+    "Shooting": 1,
+    "LightHit": 1,
+    "LightHitRanged": 1,
+    "HeavyHit": 1,
+    "Stun": 1
+  },
+  "Dead": {
+    "SourceTag": "Dead",
+    "Idle": 1,
+    "Falling": 1,
+    "LandHeavy": 1,
+    "Slide": 1,
+    "Crouch": 1,
+    "Cover": 1,
+    "Skill": 1,
+    "Shooting": 1,
+    "LightHit": 1,
+    "LightHitRanged": 1,
+    "HeavyHit": 1,
+    "HitFly": 1,
+    "Stun": 1
+  },
+  "Stun": {
+    "SourceTag": "Stun",
+    "Slide": 1,
+    "Skill": 1,
+    "Shooting": 1,
+    "LightHit": 1,
+    "LightHitRanged": 1,
+    "HeavyHit": 1,
+    "Stun": 1
+  },
+  "StunFloat": {
+    "SourceTag": "StunFloat",
+    "Falling": 1,
+    "LandHeavy": 1,
+    "Slide": 1,
+    "Crouch": 1,
+    "Skill": 1,
+    "Shooting": 1,
+    "HitFly": 1,
+    "Stun": 1,
+    "StunFloat": 1
+  },
+  "WaitForCaught": {
+    "SourceTag": "WaitForCaught",
+    "Falling": 1,
+    "LandHeavy": 1,
+    "Slide": 1,
+    "Crouch": 1,
+    "Cover": 1,
+    "Skill": 1,
+    "Shooting": 1,
+    "LightHit": 1,
+    "LightHitRanged": 1,
+    "HeavyHit": 1,
+    "HitFly": 1,
+    "Stun": 1,
+    "StunFloat": 1
+  },
+  "CaptureSuccess": {
+    "SourceTag": "CaptureSuccess",
+    "Idle": 1,
+    "Falling": 1,
+    "LandHeavy": 1,
+    "Slide": 1,
+    "Crouch": 1,
+    "Cover": 1,
+    "Skill": 1,
+    "Shooting": 1,
+    "LightHit": 1,
+    "LightHitRanged": 1,
+    "HeavyHit": 1,
+    "HitFly": 1
+  },
+  "Defeated": {
+    "SourceTag": "Defeated",
+    "Falling": 1,
+    "LandHeavy": 1,
+    "Slide": 1,
+    "Crouch": 1,
+    "Cover": 1,
+    "Skill": 1,
+    "Shooting": 1,
+    "LightHit": 1,
+    "LightHitRanged": 1,
+    "HeavyHit": 1,
+    "HitFly": 1,
+    "Stun": 1,
+    "StunFloat": 1,
+    "Defeated": 1
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "Default": {
+    "RuleId": "Default",
+    "PlayerRecoverTimes": -1,
+    "PlayerRecoverSpeed": 20,
+    "DyingDuration": 20,
+    "PhantomRecoverTimes": -1,
+    "PhantomRecoverSpeed": 10,
+    "DissolveAfterDead": false,
+    "RecoverUI": "BattleResurgence",
+    "DelayTime": 1.8
+  },
+  "CommonSolo": {
+    "RuleId": "CommonSolo",
+    "PlayerRecoverTimes": 3,
+    "PlayerRecoverSpeed": 10,
+    "DyingDuration": 20,
+    "PhantomRecoverTimes": 3,
+    "PhantomRecoverSpeed": 5,
+    "DissolveAfterDead": false,
+    "RecoverUI": "BattleResurgence",
+    "DelayTime": 1.8
+  },
+  "CommonRegion": {
+    "RuleId": "CommonRegion",
+    "PlayerRecoverTimes": -1,
+    "PlayerRecoverSpeed": -1,
+    "DyingDuration": 20,
+    "PhantomRecoverTimes": 0,
+    "PhantomRecoverSpeed": 0,
+    "DissolveAfterDead": true,
+    "RecoverUI": "RegionResurgence",
+    "DelayTime": 1.8
+  },
+  "HardBoss": {
+    "RuleId": "HardBoss",
+    "PlayerRecoverTimes": 1,
+    "PlayerRecoverSpeed": 20,
+    "DyingDuration": 20,
+    "PhantomRecoverTimes": 0,
+    "PhantomRecoverSpeed": 0,
+    "DissolveAfterDead": false,
+    "RecoverUI": "BattleResurgence",
+    "DelayTime": 1.8
+  },
+  "Hostage": {
+    "RuleId": "Hostage",
+    "PlayerRecoverTimes": -1,
+    "PlayerRecoverSpeed": 0,
+    "DyingDuration": 20,
+    "PhantomRecoverTimes": 0,
+    "PhantomRecoverSpeed": 0,
+    "DissolveAfterDead": false,
+    "DelayTime": 1.8
+  },
+  "Rouge": {
+    "RuleId": "Rouge",
+    "PlayerRecoverTimes": 1,
+    "PlayerRecoverSpeed": 50,
+    "DyingDuration": 20,
+    "PhantomRecoverTimes": 0,
+    "PhantomRecoverSpeed": 0,
+    "DissolveAfterDead": true,
+    "RecoverUI": "BattleResurgence",
+    "DelayTime": 1.8
+  }
+}

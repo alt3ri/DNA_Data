@@ -1,0 +1,2072 @@
+{
+  "90": {
+    "ID": 90,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Mechanism/BP_Mechanism_ExcuteSkillEffects.BP_Mechanism_ExcuteSkillEffects",
+    "Vars": {
+      "SkillEffect": 90
+    }
+  },
+  "91": {
+    "ID": 91,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Mechanism/BP_Mechanism_RapidFire.BP_Mechanism_RapidFire",
+    "Vars": {
+      "SkillNodes": 91,
+      "ShootInterval": 0.15
+    }
+  },
+  "102": {
+    "ID": 102,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Weapon/BP_Common_HeavyAttack.BP_Common_HeavyAttack"
+  },
+  "103": {
+    "ID": 103,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Weapon/BP_Common_MeleeComboCount.BP_Common_MeleeComboCount"
+  },
+  "104": {
+    "ID": 104,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Weapon/BP_Common_WeaponBuff.BP_Common_WeaponBuff"
+  },
+  "201": {
+    "ID": 201,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Player/BP_Common_BonusDamage.BP_Common_BonusDamage",
+    "Vars": {
+      "BonusDamageType": "Dark"
+    },
+    "UniquePassive": 1
+  },
+  "202": {
+    "ID": 202,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Player/BP_Common_BonusDamage.BP_Common_BonusDamage",
+    "Vars": {
+      "BonusDamageType": "Water"
+    },
+    "UniquePassive": 1
+  },
+  "203": {
+    "ID": 203,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Player/BP_Common_BonusDamage.BP_Common_BonusDamage",
+    "Vars": {
+      "BonusDamageType": "Fire"
+    },
+    "UniquePassive": 1
+  },
+  "204": {
+    "ID": 204,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Player/BP_Common_BonusDamage.BP_Common_BonusDamage",
+    "Vars": {
+      "BonusDamageType": "Thunder"
+    },
+    "UniquePassive": 1
+  },
+  "205": {
+    "ID": 205,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Player/BP_Common_BonusDamage.BP_Common_BonusDamage",
+    "Vars": {
+      "BonusDamageType": "Wind"
+    },
+    "UniquePassive": 1
+  },
+  "206": {
+    "ID": 206,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Player/BP_Common_BonusDamage.BP_Common_BonusDamage",
+    "Vars": {
+      "BonusDamageType": "Light"
+    },
+    "UniquePassive": 1
+  },
+  "214": {
+    "ID": 214,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Player/BP_Common_BonusDamage.BP_Common_BonusDamage",
+    "Vars": {
+      "BonusDamageType": "FallAttack"
+    },
+    "UniquePassive": 1
+  },
+  "404": {
+    "ID": 404,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Pet/BP_Pet_404.BP_Pet_404",
+    "Vars": {
+      "ESRate": "#1"
+    }
+  },
+  "407": {
+    "ID": 407,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Pet/BP_Pet_407.BP_Pet_407"
+  },
+  "1311": {
+    "ID": 1311,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Mod/BP_Char_1311.BP_Char_1311",
+    "Vars": {
+      "LastTime": 30
+    },
+    "UniquePassive": 1
+  },
+  "1312": {
+    "ID": 1312,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Mod/BP_Char_1312.BP_Char_1312",
+    "Vars": {
+      "LastTime": 60
+    },
+    "UniquePassive": 1
+  },
+  "1420": {
+    "ID": 1420,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Mod/BP_Char_1420.BP_Char_1420",
+    "Vars": {
+      "BuffRate": -0.5
+    },
+    "UniquePassive": 1
+  },
+  "1430": {
+    "ID": 1430,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Mod/BP_Char_1430.BP_Char_1430",
+    "Vars": {
+      "SpRate": "#1"
+    },
+    "UniquePassive": 1
+  },
+  "1502": {
+    "ID": 1502,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Mod/BP_Char_1502.BP_Char_1502",
+    "Vars": {
+      "AddID": 1502001,
+      "RemoveID": 1502002
+    },
+    "UniquePassive": 1
+  },
+  "1512": {
+    "ID": 1512,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Mod/BP_Char_1512.BP_Char_1512",
+    "Vars": {
+      "MaxCount": "#1"
+    },
+    "UniquePassive": 1
+  },
+  "1513": {
+    "ID": 1513,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Mod/BP_Char_1513.BP_Char_1513",
+    "Vars": {
+      "SkillEffectID": 1513,
+      "MinSpeed": 1000
+    },
+    "UniquePassive": 1
+  },
+  "1532": {
+    "ID": 1532,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Mod/BP_Char_1532.BP_Char_1532",
+    "UniquePassive": 1
+  },
+  "1911": {
+    "ID": 1911,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Mod/BP_Char_1911.BP_Char_1911",
+    "Vars": {
+      "LastTime": 20
+    },
+    "UniquePassive": 1
+  },
+  "1921": {
+    "ID": 1921,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Mod/BP_Char_1921.BP_Char_1921",
+    "Vars": {
+      "SkillSpeedRate": "#1",
+      "SkillRangeRate": "#2"
+    },
+    "UniquePassive": 1
+  },
+  "1922": {
+    "ID": 1922,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Mod/BP_Char_1922.BP_Char_1922",
+    "UniquePassive": 1
+  },
+  "1931": {
+    "ID": 1931,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Mod/BP_Char_1931.BP_Char_1931",
+    "Vars": [
+      {
+        "LastTime": 10
+      }
+    ],
+    "UniquePassive": 1
+  },
+  "1941": {
+    "ID": 1941,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Mod/BP_Char_1941.BP_Char_1941",
+    "Vars": {
+      "BuffRate": "#1",
+      "MaxSp": 150
+    },
+    "UniquePassive": 1
+  },
+  "1951": {
+    "ID": 1951,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Mod/BP_Char_1951.BP_Char_1951",
+    "Vars": {
+      "LastTime": 10,
+      "SpRecover": 3
+    },
+    "UniquePassive": 1
+  },
+  "1952": {
+    "ID": 1952,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Mod/BP_Char_1952.BP_Char_1952",
+    "UniquePassive": 1
+  },
+  "1961": {
+    "ID": 1961,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Mod/BP_Char_1961.BP_Char_1961",
+    "UniquePassive": 1
+  },
+  "2301": {
+    "ID": 2301,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Mod/BP_Melee_2301.BP_Melee_2301"
+  },
+  "2302": {
+    "ID": 2302,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Mod/BP_Melee_2302.BP_Melee_2302"
+  },
+  "2311": {
+    "ID": 2311,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Mod/BP_Melee_2311.BP_Melee_2311",
+    "Vars": [
+      {
+        "LastTime": 10
+      }
+    ]
+  },
+  "2321": {
+    "ID": 2321,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Mod/BP_Melee_2321.BP_Melee_2321",
+    "Vars": [
+      {
+        "LastTime": 10
+      }
+    ]
+  },
+  "2322": {
+    "ID": 2322,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Mod/BP_Melee_2322.BP_Melee_2322",
+    "Vars": [
+      {
+        "LastTime": 10
+      }
+    ]
+  },
+  "2401": {
+    "ID": 2401,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Mod/BP_Melee_2400.BP_Melee_2400",
+    "Vars": [
+      {
+        "AttrName": "FallAttackRate"
+      },
+      {
+        "AttackType": "FallAttack"
+      }
+    ],
+    "UniquePassive": 1
+  },
+  "2402": {
+    "ID": 2402,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Mod/BP_Melee_2400.BP_Melee_2400",
+    "Vars": {
+      "AttrName": "HeavyAttackRate",
+      "AttackType": "HeavyAttack"
+    },
+    "UniquePassive": 1
+  },
+  "2501": {
+    "ID": 2501,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Mod/BP_Melee_2500.BP_Melee_2500",
+    "Vars": [
+      {
+        "AttrName": "GrRate"
+      },
+      {
+        "MonTag": "Mon.Gr"
+      }
+    ],
+    "UniquePassive": 1
+  },
+  "2502": {
+    "ID": 2502,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Mod/BP_Melee_2500.BP_Melee_2500",
+    "Vars": [
+      {
+        "AttrName": "JtRate"
+      },
+      {
+        "MonTag": "Mon.Jt"
+      }
+    ],
+    "UniquePassive": 1
+  },
+  "3301": {
+    "ID": 3301,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Mod/BP_Ranged_3301.BP_Ranged_3301",
+    "Vars": [
+      {
+        "LastTime": "#1"
+      }
+    ]
+  },
+  "3311": {
+    "ID": 3311,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Mod/BP_Ranged_3311.BP_Ranged_3311",
+    "Vars": [
+      {
+        "LastTime": "#1"
+      }
+    ]
+  },
+  "3321": {
+    "ID": 3321,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Mod/BP_Ranged_3321.BP_Ranged_3321",
+    "Vars": {
+      "LastTime": 5
+    }
+  },
+  "3322": {
+    "ID": 3322,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Mod/BP_Ranged_3322.BP_Ranged_3322",
+    "Vars": [
+      {
+        "TriggerProb": "#1"
+      }
+    ]
+  },
+  "3331": {
+    "ID": 3331,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Mod/BP_Ranged_3331.BP_Ranged_3331",
+    "Vars": [
+      {
+        "LastTime": 10
+      }
+    ]
+  },
+  "3332": {
+    "ID": 3332,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Mod/BP_Ranged_3332.BP_Ranged_3332",
+    "Vars": [
+      {
+        "TriggerProb": "#1"
+      }
+    ]
+  },
+  "3341": {
+    "ID": 3341,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Mod/BP_Ranged_3341.BP_Ranged_3341",
+    "Vars": [
+      {
+        "BuffRate": "#1"
+      }
+    ]
+  },
+  "3401": {
+    "ID": 3401,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Mod/BP_Ranged_3401.BP_Ranged_3401",
+    "Vars": {
+      "AttrName": "ExplodeBulletRate",
+      "CreatureTag": "ExplodeBullet"
+    },
+    "UniquePassive": 1
+  },
+  "3402": {
+    "ID": 3402,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Mod/BP_Ranged_3402.BP_Ranged_3402",
+    "Vars": {
+      "AttrName": "RayCreatureRate"
+    },
+    "UniquePassive": 1
+  },
+  "3501": {
+    "ID": 3501,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Mod/BP_Melee_2500.BP_Melee_2500",
+    "Vars": [
+      {
+        "AttrName": "GrRate"
+      },
+      {
+        "MonTag": "Mon.Gr"
+      }
+    ],
+    "UniquePassive": 1
+  },
+  "3502": {
+    "ID": 3502,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Mod/BP_Melee_2500.BP_Melee_2500",
+    "Vars": [
+      {
+        "AttrName": "JtRate"
+      },
+      {
+        "MonTag": "Mon.Jt"
+      }
+    ],
+    "UniquePassive": 1
+  },
+  "10001": {
+    "ID": 10001,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Player/BP_Nvzhu.BP_Nvzhu"
+  },
+  "10002": {
+    "ID": 10002,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Player/BP_Nvzhu_EX01.BP_Nvzhu_EX01"
+  },
+  "10101": {
+    "ID": 10101,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Weapon/MeleePassive/BP_Sword_10101.BP_Sword_10101",
+    "Vars": {
+      "SpIncrease": "#1",
+      "TriggerProb": "#2"
+    }
+  },
+  "10102": {
+    "ID": 10102,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Weapon/MeleePassive/BP_Sword_10102.BP_Sword_10102",
+    "Vars": {
+      "TriggerProb": 0.3
+    }
+  },
+  "10103": {
+    "ID": 10103,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Weapon/MeleePassive/BP_Sword_10103.BP_Sword_10103",
+    "Vars": [
+      {
+        "TriggerProb": "#1"
+      }
+    ]
+  },
+  "10104": {
+    "ID": 10104,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Weapon/MeleePassive/BP_Sword_10104.BP_Sword_10104",
+    "Vars": {
+      "ShieldDamageRate": "#2",
+      "TriggerProb": "#1"
+    }
+  },
+  "10105": {
+    "ID": 10105,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Weapon/MeleePassive/BP_Sword_10105.BP_Sword_10105",
+    "Vars": [
+      {
+        "TriggerProb": "#1"
+      }
+    ]
+  },
+  "10200": {
+    "ID": 10200,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Weapon/BP_Polearm_HeavyAttack.BP_Polearm_HeavyAttack"
+  },
+  "10201": {
+    "ID": 10201,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Weapon/MeleePassive/BP_Polearm_10201.BP_Polearm_10201",
+    "Vars": [
+      {
+        "LastTime": 10
+      }
+    ]
+  },
+  "10202": {
+    "ID": 10202,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Weapon/MeleePassive/BP_Polearm_10202.BP_Polearm_10202",
+    "Vars": [
+      {
+        "BuffRate": "#1"
+      }
+    ]
+  },
+  "10203": {
+    "ID": 10203,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Weapon/MeleePassive/BP_Polearm_10203.BP_Polearm_10203",
+    "Vars": [
+      {
+        "LastTime": "#1"
+      }
+    ]
+  },
+  "10204": {
+    "ID": 10204,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Weapon/MeleePassive/BP_Polearm_10204.BP_Polearm_10204",
+    "Vars": {
+      "LastTime": "#1",
+      "BuffRate": -0.95,
+      "ExtraLastTime": "#2"
+    }
+  },
+  "10206": {
+    "ID": 10206,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Weapon/MeleePassive/BP_Polearm_10206.BP_Polearm_10206",
+    "Vars": [
+      {
+        "TriggerProb": "#1"
+      }
+    ]
+  },
+  "10301": {
+    "ID": 10301,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Weapon/MeleePassive/BP_Claymore_10301.BP_Claymore_10301",
+    "Vars": {
+      "BuffRate": "#1",
+      "LastTime": 6
+    }
+  },
+  "10302": {
+    "ID": 10302,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Weapon/MeleePassive/BP_Claymore_10302.BP_Claymore_10302",
+    "Vars": [
+      {
+        "TriggerProb": "#1"
+      }
+    ]
+  },
+  "10501": {
+    "ID": 10501,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Weapon/MeleePassive/BP_Swordwhip_10501.BP_Swordwhip_10501",
+    "Vars": [
+      {
+        "BuffRate": "#1"
+      }
+    ]
+  },
+  "10601": {
+    "ID": 10601,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Weapon/MeleePassive/BP_Katana_10601.BP_Katana_10601",
+    "Vars": [
+      {
+        "BuffRate": "#1"
+      }
+    ]
+  },
+  "20201": {
+    "ID": 20201,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Weapon/RangedPassive/BP_Crossbow_20201.BP_Crossbow_20201"
+  },
+  "20203": {
+    "ID": 20203,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Weapon/RangedPassive/BP_Crossbow_20203.BP_Crossbow_20203",
+    "Vars": {
+      "BuffRate": "#1",
+      "LastTime": "#2"
+    }
+  },
+  "20205": {
+    "ID": 20205,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Weapon/RangedPassive/BP_Crossbow_20205.BP_Crossbow_20205",
+    "Vars": {
+      "ShootJudge": {
+        "R": 2020532,
+        "L": 2020534
+      }
+    }
+  },
+  "20301": {
+    "ID": 20301,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Weapon/RangedPassive/BP_Cannon_20301.BP_Cannon_20301",
+    "Vars": {
+      "BuffRate": "#1",
+      "LastTime": 12
+    }
+  },
+  "20303": {
+    "ID": 20303,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Weapon/RangedPassive/BP_Cannon_20303.BP_Cannon_20303"
+  },
+  "20401": {
+    "ID": 20401,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Weapon/RangedPassive/BP_Shotgun_20401.BP_Shotgun_20401",
+    "Vars": [
+      {
+        "BuffRate": "#1"
+      }
+    ]
+  },
+  "20403": {
+    "ID": 20403,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Weapon/RangedPassive/BP_Shotgun_20403.BP_Shotgun_20403",
+    "Vars": [
+      {
+        "BuffRate": "#1"
+      }
+    ]
+  },
+  "20501": {
+    "ID": 20501,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Weapon/RangedPassive/BP_Machinegun_20501.BP_Machinegun_20501",
+    "Vars": [
+      {
+        "BuffRate": "#1"
+      }
+    ]
+  },
+  "20502": {
+    "ID": 20502,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Weapon/RangedPassive/BP_Machinegun_20502.BP_Machinegun_20502"
+  },
+  "20503": {
+    "ID": 20503,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Weapon/RangedPassive/BP_Machinegun_20503.BP_Machinegun_20503",
+    "Vars": [
+      {
+        "TriggerProb": "#1"
+      }
+    ]
+  },
+  "20504": {
+    "ID": 20504,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Weapon/RangedPassive/BP_Machinegun_20504.BP_Machinegun_20504",
+    "Vars": {
+      "BuffRate": "#1",
+      "RatioMax": 0.2
+    }
+  },
+  "20505": {
+    "ID": 20505,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Weapon/RangedPassive/BP_Machinegun_20505.BP_Machinegun_20505"
+  },
+  "20506": {
+    "ID": 20506,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Weapon/RangedPassive/BP_Machinegun_20506.BP_Machinegun_20506",
+    "Vars": {
+      "SkillNodes": 2050611
+    }
+  },
+  "20507": {
+    "ID": 20507,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Weapon/RangedPassive/BP_Machinegun_20507.BP_Machinegun_20507",
+    "Vars": {
+      "BuffRate": 0.05,
+      "InitBulletMax": 10,
+      "BuffLayerMax": "#1"
+    }
+  },
+  "20601": {
+    "ID": 20601,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Weapon/RangedPassive/BP_Bow_20601.BP_Bow_20601",
+    "Vars": {
+      "BuffRate": "#1",
+      "MaxHitCount": 10
+    }
+  },
+  "20602": {
+    "ID": 20602,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Weapon/RangedPassive/BP_Bow_20602.BP_Bow_20602",
+    "Vars": {
+      "LastTime": 25
+    }
+  },
+  "110101": {
+    "ID": 110101,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Player/BP_Heitao.BP_Heitao",
+    "Vars": {
+      "SpIncrease": 1,
+      "SpIncreaseProb": "#1",
+      "Grade1LastTime": 10,
+      "Grade2BuffRate": 0.05,
+      "Grade6Rate": 0.35
+    }
+  },
+  "110102": {
+    "ID": 110102,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Player/BP_Heitao_Passive2.BP_Heitao_Passive2"
+  },
+  "110200": {
+    "ID": 110200,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Player/BP_Fuluo_Skill1.BP_Fuluo_Skill1",
+    "Vars": {
+      "SpCost": 12
+    }
+  },
+  "110201": {
+    "ID": 110201,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Player/BP_Fuluo.BP_Fuluo",
+    "Vars": {
+      "ShieldValue": 50
+    }
+  },
+  "180101": {
+    "ID": 180101,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Player/BP_Feina.BP_Feina",
+    "Vars": {
+      "SpCost": 0,
+      "PassiveLastTime": 15
+    },
+    "VarSkillLevelSource": {
+      "SpCost": 180102
+    }
+  },
+  "180103": {
+    "ID": 180103,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Player/BP_Feina_Extra.BP_Feina_Extra",
+    "Vars": {
+      "DotExplodeRate": 1.3
+    }
+  },
+  "210101": {
+    "ID": 210101,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Player/BP_Shuimu.BP_Shuimu",
+    "Vars": {
+      "LastTime": 6,
+      "Skill2ExDamegeRate": "#1",
+      "Grade4DamagedRate": 0.3,
+      "Grade6LastTime": 15
+    },
+    "VarSkillLevelSource": {
+      "Skill2ExDamegeRate": 210102
+    }
+  },
+  "210102": {
+    "ID": 210102,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Player/BP_Shuimu_Poison.BP_Shuimu_Poison",
+    "Vars": {
+      "LastTime": 6
+    },
+    "UniquePassive": 1
+  },
+  "210103": {
+    "ID": 210103,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Player/BP_Shuimu_Extra.BP_Shuimu_Extra",
+    "Vars": {
+      "TriggerProb": 0.5
+    }
+  },
+  "230101": {
+    "ID": 230101,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Player/BP_Zhangyu.BP_Zhangyu",
+    "Vars": {
+      "TriggerProb": "#1",
+      "Skill1BuffRate": "#2"
+    },
+    "VarSkillLevelSource": {
+      "Skill1BuffRate": 230101
+    }
+  },
+  "230102": {
+    "ID": 230102,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Player/BP_Zhangyu_Summoned.BP_Zhangyu_Summoned",
+    "Vars": {
+      "Grade2TriggerProb": 0.1
+    }
+  },
+  "230103": {
+    "ID": 230103,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Player/BP_Zhangyu_Extra.BP_Zhangyu_Extra",
+    "Vars": {
+      "ExtraBuffLastTime": 12
+    }
+  },
+  "240101": {
+    "ID": 240101,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Player/BP_Baiheng_Passive.BP_Baiheng_Passive",
+    "Vars": {
+      "Skill01MaxTarget": 3,
+      "Grade1Skill01MaxTarget": 5,
+      "SkillIntensityRate": "#1",
+      "Skill02Time": 12,
+      "MaxSkillIntensityRate": 0.8
+    },
+    "VarSkillLevelSource": {
+      "SkillIntensityRate": 240102,
+      "Skill02Time": 240102,
+      "MaxSkillIntensityRate": 240102
+    }
+  },
+  "240102": {
+    "ID": 240102,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Player/BP_Baiheng_Summoned_Skill01.BP_Baiheng_Summoned_Skill01",
+    "Vars": {
+      "BaseIntervalTime": 1,
+      "HealRate": "#1",
+      "VitalityTransformTime": 3,
+      "SpAddedValue": 4,
+      "Grade2SpAddedValue": 6
+    }
+  },
+  "240103": {
+    "ID": 240103,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Player/BP_Baiheng_Passive2_Target.BP_Baiheng_Passive2_Target",
+    "Vars": {
+      "SpCostMax": 60,
+      "Time": 5
+    }
+  },
+  "240104": {
+    "ID": 240104,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Player/BP_Baiheng_Passive2_TargetBuff.BP_Baiheng_Passive2_TargetBuff",
+    "Vars": {
+      "Rate": 0.2
+    }
+  },
+  "240105": {
+    "ID": 240105,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Player/BP_Baiheng_Passive2.BP_Baiheng_Passive2"
+  },
+  "310101": {
+    "ID": 310101,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Player/BP_Linen.BP_Linen",
+    "Vars": {
+      "BuffLastTime": 6,
+      "BuffRate": "#1",
+      "AccelSpd": 0.2,
+      "Grade2AccelSpd": 0.06,
+      "Grade4HpBelow": 0.5,
+      "Grade4BuffRate": 0.4,
+      "Grade6DebuffLastTime": 8,
+      "Grade1LastTime": 45
+    }
+  },
+  "310102": {
+    "ID": 310102,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Player/BP_Linen_Extra.BP_Linen_Extra"
+  },
+  "310111": {
+    "ID": 310111,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Player/BP_Linen_Skill1.BP_Linen_Skill1",
+    "Vars": [
+      {
+        "WildFireRate": "#1"
+      },
+      {
+        "WildFireCountMax": 9
+      }
+    ]
+  },
+  "310112": {
+    "ID": 310112,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Player/BP_Linen_Skill1Extra.BP_Linen_Skill1Extra",
+    "Vars": [
+      {
+        "WildFireRate": "#1"
+      },
+      {
+        "WildFireCountMax": 9
+      }
+    ]
+  },
+  "310201": {
+    "ID": 310201,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Player/BP_Xier_Passive.BP_Xier_Passive",
+    "Vars": {
+      "PassiveBuffLastTime": 6,
+      "IncreaseAttackSpeed": "#1",
+      "FunnelLifeTime": 12,
+      "Skill2DeDamageLastTime": 8,
+      "Grade2InDamageRate": 0.042
+    }
+  },
+  "310202": {
+    "ID": 310202,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Player/BP_Xier_Skill1.BP_Xier_Skill1",
+    "Vars": {
+      "Skill1CostSp": 10,
+      "InfoLaserLength": 1500,
+      "Skill1IncreaseDamageLastTime": 2,
+      "SpIncreaseProb": "#1",
+      "SpIncrease": 4
+    }
+  },
+  "310203": {
+    "ID": 310203,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Player/BP_Xier_Passive2.BP_Xier_Passive2",
+    "Vars": {
+      "Skill1InDamageRate": 0.08,
+      "RangedInDamageRate": 0.08,
+      "Skill1InDamageTime": 6,
+      "RangedInDamageTime": 6
+    }
+  },
+  "310301": {
+    "ID": 310301,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Player/BP_Yeer_Passive.BP_Yeer_Passive",
+    "Vars": {
+      "ReturnSpSmall": 1,
+      "ReturnSpLarge": 2,
+      "Skill2InDamage": 0.1,
+      "Grade4Prob": 0.5
+    },
+    "VarSkillLevelSource": {
+      "Skill2InDamage": 310302,
+      "ReturnSpLarge": 310302
+    }
+  },
+  "310302": {
+    "ID": 310302,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Player/BP_Yeer_Passive2.BP_Yeer_Passive2",
+    "Vars": {
+      "BuffLastTime": 5
+    }
+  },
+  "320101": {
+    "ID": 320101,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Player/BP_Haier_Passive.BP_Haier_Passive",
+    "Vars": {
+      "Grade1BuffRate": 0.05,
+      "Grade2HealPerEnemy": 0.0005,
+      "Grade2MaxHeal": 0.005
+    }
+  },
+  "320102": {
+    "ID": 320102,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Player/BP_Haier_Skill1.BP_Haier_Skill1",
+    "Vars": {
+      "ExpandLastTime": 1,
+      "DefaultCoolDown": 2,
+      "Grade4CoolDown": 1.4
+    }
+  },
+  "320103": {
+    "ID": 320103,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Player/BP_Haier_Friends.BP_Haier_Friends"
+  },
+  "320104": {
+    "ID": 320104,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Player/BP_Haier_Passive2.BP_Haier_Passive2",
+    "Vars": {
+      "Rate": 0.5
+    }
+  },
+  "330101": {
+    "ID": 330101,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Player/BP_Maer_Passive.BP_Maer_Passive",
+    "Vars": {
+      "Level1Layer": 3,
+      "Level2Layer": 6,
+      "Level3Layer": 9,
+      "Grade1PropReturn": 0.3,
+      "Time": 10,
+      "TimeAddRate": 1,
+      "Skill01AddRate": 0.12,
+      "Grade6LastTime": 5,
+      "DropEnergyLayer": 1
+    },
+    "VarSkillLevelSource": {
+      "Time": 330102
+    }
+  },
+  "330103": {
+    "ID": 330103,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Player/BP_Maer_Skill03_Target.BP_Maer_Skill03_Target"
+  },
+  "330105": {
+    "ID": 330105,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Player/BP_Maer_Passive2.BP_Maer_Passive2"
+  },
+  "410101": {
+    "ID": 410101,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Player/BP_Baonu_Passive.BP_Baonu_Passive",
+    "Vars": {
+      "BuffRate": 2
+    }
+  },
+  "410102": {
+    "ID": 410102,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Player/BP_Baonu_Summoned.BP_Baonu_Summoned"
+  },
+  "410103": {
+    "ID": 410103,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Player/BP_Baonu_Skill2.BP_Baonu_Skill2",
+    "Vars": {
+      "EsRecover": 30
+    }
+  },
+  "420101": {
+    "ID": 420101,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Player/BP_Yuming.BP_Yuming",
+    "Vars": {
+      "PassiveBuffLastTime": 12,
+      "Grade1ComboProb": 0.75,
+      "Grade4EnemyHpPercent": 0.8,
+      "Grade4DamageBuffRate": 1,
+      "Grade2DamageBuffRate": 0.3,
+      "FallAttackRate": "#1",
+      "Grade2LastTime": 10
+    }
+  },
+  "420102": {
+    "ID": 420102,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Player/BP_Yuming_Extra.BP_Yuming_Extra"
+  },
+  "420201": {
+    "ID": 420201,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Player/BP_Landi.BP_Landi",
+    "Vars": {
+      "DefRate": "#1",
+      "DefLastTime": 10,
+      "Grade6DamageRate": 0.2
+    }
+  },
+  "420202": {
+    "ID": 420202,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Player/BP_Landi_Extra.BP_Landi_Extra",
+    "Vars": [
+      {
+        "SpCost": 20
+      }
+    ]
+  },
+  "430101": {
+    "ID": 430101,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Player/BP_Xibi_Passive.BP_Xibi_Passive",
+    "Vars": {
+      "EnergyAdd": "#1",
+      "MaxEnergyGrade2Rate": 1,
+      "MaxEnergyGrade0": 300,
+      "DamageAddRateGrade2": 0.001,
+      "LinkAddGrade2": 0.001,
+      "Skill02LinkRate": "#3",
+      "Skill01Energy": 30,
+      "Skill02Energy": 100,
+      "Skill02HpRate": 0.1,
+      "Skill02LinkAddedRate": 0.02
+    },
+    "VarSkillLevelSource": {
+      "Skill02Energy": 430102,
+      "Skill02LinkAddedRate": 430102,
+      "Skill02HpRate": 430102,
+      "Skill01Energy": 430101,
+      "Skill02LinkRate": 430102
+    }
+  },
+  "430102": {
+    "ID": 430102,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Player/BP_Xibi_Passive2.BP_Xibi_Passive2"
+  },
+  "430103": {
+    "ID": 430103,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Player/BP_Xibi_Skill02_Target.BP_Xibi_Skill02_Target"
+  },
+  "430104": {
+    "ID": 430104,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Player/BP_Xibi_Friends.BP_Xibi_Friends"
+  },
+  "510101": {
+    "ID": 510101,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Player/BP_Songlu_Passive.BP_Songlu_Passive",
+    "Vars": {
+      "LastTime": 10,
+      "Grade2AddAtk": 0.045,
+      "Grade2BuffTime": 10,
+      "Grade6LastTime": 20
+    }
+  },
+  "510102": {
+    "ID": 510102,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Player/BP_Songlu_Skill2.BP_Songlu_Skill2",
+    "Vars": {
+      "Skill02Decrease": 0.05,
+      "Skill02Increase": 0.01,
+      "SpCost": 6
+    }
+  },
+  "510103": {
+    "ID": 510103,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Player/BP_Songlu_Extra.BP_Songlu_Extra",
+    "Vars": {
+      "BulletDropProb": 0.1
+    }
+  },
+  "510201": {
+    "ID": 510201,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Player/BP_Aote_Passive.BP_Aote_Passive"
+  },
+  "530101": {
+    "ID": 530101,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Player/BP_Saiqi_Skill1.BP_Saiqi_Skill1",
+    "Vars": [
+      {
+        "SpCost": 20
+      }
+    ]
+  },
+  "530102": {
+    "ID": 530102,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Player/BP_Saiqi.BP_Saiqi",
+    "Vars": {
+      "PassiveBuffLastTime": 10,
+      "PassiveDmgRate": "#1",
+      "MaxBuffCount": 12,
+      "Grade4AddEs": 10,
+      "Grade4SpRestore": 2,
+      "Grade4SpRestoreRate": 0.45,
+      "Grade6MaxBuff": 20,
+      "Grade1TriggerProb": 0.3
+    }
+  },
+  "530103": {
+    "ID": 530103,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Player/BP_Saiqi_Skill2.BP_Saiqi_Skill2",
+    "PlayerDSBPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Player/BP_Saiqi_Skill2_Server.BP_Saiqi_Skill2_Server"
+  },
+  "530104": {
+    "ID": 530104,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Player/BP_Saiqi_Passive2.BP_Saiqi_Passive2",
+    "Vars": {
+      "HpConsumeRate": 0.05,
+      "ShieldRate": 0.35
+    }
+  },
+  "600501": {
+    "ID": 600501,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Monster/BP_Gr_Longcao_DefenceState.BP_Gr_Longcao_DefenceState"
+  },
+  "700121": {
+    "ID": 700121,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Monster/BP_Capture_Invisible.BP_Capture_Invisible",
+    "Vars": {
+      "BuffId": 302,
+      "BuffId2": 303,
+      "InvincibleBuffId": 301,
+      "LastTime": 4,
+      "UseSkillRadius": 500,
+      "CD": 6,
+      "SpareCD": 20,
+      "SkillEffectId": 700122,
+      "SkillEffectId2": 700121
+    }
+  },
+  "700122": {
+    "ID": 700122,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Monster/BP_Capture_Spare.BP_Capture_Spare",
+    "Vars": {
+      "AddDamageRate": 3,
+      "BuffId": 206,
+      "LastTime": 8,
+      "BuffId2": 302,
+      "LastTime2": 4
+    }
+  },
+  "700221": {
+    "ID": 700221,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Monster/BP_Common_Addbuff.BP_Common_Addbuff",
+    "Vars": {
+      "BuffId": 700221,
+      "LastTime": -1
+    }
+  },
+  "700321": {
+    "ID": 700321,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Monster/BP_Capture_LandMine.BP_Capture_LandMine",
+    "Vars": {
+      "SkillEffectID": 700322,
+      "CD": 12
+    }
+  },
+  "700401": {
+    "ID": 700401,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Monster/BP_Jt_Tuji_Passive.BP_Jt_Tuji_Passive",
+    "Vars": {
+      "DamageRate": 0.5,
+      "AttackSkillId": 700401,
+      "DecreaseRotate": 90,
+      "SkillEffectId": 700406
+    }
+  },
+  "700621": {
+    "ID": 700621,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Monster/BP_JT_HealRobot_Passive.BP_JT_HealRobot_Passive",
+    "Vars": {
+      "SkillEffectId": 700624,
+      "Interval": 0.2,
+      "EffectId": 700601,
+      "DeadTime": 0.35
+    }
+  },
+  "700801": {
+    "ID": 700801,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Monster/BP_Jt_Commander_Removebuff.BP_Jt_Commander_Removebuff",
+    "Vars": {
+      "SkillEffectId": 700812
+    }
+  },
+  "700802": {
+    "ID": 700802,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Monster/BP_Jt_Commander_HpChange.BP_Jt_Commander_HpChange"
+  },
+  "701201": {
+    "ID": 701201,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Monster/BP_Common_Addbuff.BP_Common_Addbuff",
+    "Vars": {
+      "BuffId": 701201,
+      "LastTime": -1
+    }
+  },
+  "800301": {
+    "ID": 800301,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Monster/BP_Common_ExecuteSkillEffect.BP_Common_ExecuteSkillEffect",
+    "Vars": {
+      "SkillEffectId": 800305
+    }
+  },
+  "850202": {
+    "ID": 850202,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Monster/BP_Boss_Saiqi_ReduceInjury.BP_Boss_Saiqi_ReduceInjury"
+  },
+  "850203": {
+    "ID": 850203,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Monster/BP_Boss_Saiqi_BeHitted.BP_Boss_Saiqi_BeHitted"
+  },
+  "850204": {
+    "ID": 850204,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Monster/BP_Boss_Saiqi_Skill17.BP_Boss_Saiqi_Skill17"
+  },
+  "850301": {
+    "ID": 850301,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Monster/BP_Boss_Shijingzhe_Passive.BP_Boss_Shijingzhe_Passive"
+  },
+  "850401": {
+    "ID": 850401,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Monster/BP_BossSaiqi02_Dodge.BP_BossSaiqi02_Dodge"
+  },
+  "850402": {
+    "ID": 850402,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Monster/BP_Common_Addbuff.BP_Common_Addbuff",
+    "Vars": {
+      "BuffId": 850403,
+      "LastTime": -1
+    }
+  },
+  "850501": {
+    "ID": 850501,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Monster/BP_Boss_Lianhuo_Armor.BP_Boss_Lianhuo_Armor",
+    "Vars": {
+      "SkillEffectId": 850510
+    }
+  },
+  "850502": {
+    "ID": 850502,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Monster/BP_Boss_Lianhuo_Passive.BP_Boss_Lianhuo_Passive"
+  },
+  "850601": {
+    "ID": 850601,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Monster/BP_Boss_Nvzhu_Passive.BP_Boss_Nvzhu_Passive"
+  },
+  "900301": {
+    "ID": 900301,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Monster/BP_SQ_Wanju_Passive.BP_SQ_Wanju_Passive",
+    "Vars": {
+      "BuffId": 900301,
+      "LastTime": -1
+    }
+  },
+  "900401": {
+    "ID": 900401,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Monster/BP_SQ_Wanju_Sum01_Passive.BP_SQ_Wanju_Sum01_Passive"
+  },
+  "950001": {
+    "ID": 950001,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Monster/BP_NE_Dajie.BP_NE_Dajie"
+  },
+  "950101": {
+    "ID": 950101,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Monster/BP_Common_Addbuff.BP_Common_Addbuff",
+    "Vars": {
+      "BuffId": 950101,
+      "LastTime": -1
+    }
+  },
+  "1050102": {
+    "ID": 1050102,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Weapon/BP_Swordwhip_HeavyAttack.BP_Swordwhip_HeavyAttack"
+  },
+  "1951001": {
+    "ID": 1951001,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Mod/BP_Char_1951_Buff.BP_Char_1951_Buff",
+    "Vars": [
+      {
+        "BuffRate": "#1"
+      }
+    ],
+    "UniquePassive": 1
+  },
+  "1952001": {
+    "ID": 1952001,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Mod/BP_Char_1952_Buff.BP_Char_1952_Buff",
+    "Vars": {
+      "BuffRate": "#1",
+      "BuffCountMax": 10
+    },
+    "UniquePassive": 1
+  },
+  "1961001": {
+    "ID": 1961001,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Mod/BP_Char_1961_Buff.BP_Char_1961_Buff",
+    "Vars": [
+      {
+        "BuffRate": "#1"
+      }
+    ],
+    "UniquePassive": 1
+  },
+  "2040501": {
+    "ID": 2040501,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Weapon/RangedPassive/BP_Shotgun_20405.BP_Shotgun_20405"
+  },
+  "2050101": {
+    "ID": 2050101,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Weapon/BP_Ranged_RapidFire.BP_Ranged_RapidFire",
+    "Vars": {
+      "SkillNodes": 2050111,
+      "SkillEffect": 2050111,
+      "ShootInterval": 0.1,
+      "SeId": 109
+    }
+  },
+  "2050201": {
+    "ID": 2050201,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Weapon/BP_Ranged_RapidFire.BP_Ranged_RapidFire",
+    "Vars": {
+      "SkillNodes": 2050211,
+      "SkillEffect": 2050211,
+      "ShootInterval": 0.1,
+      "GetTarget": 1
+    }
+  },
+  "2050301": {
+    "ID": 2050301,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Weapon/BP_Ranged_RapidFire.BP_Ranged_RapidFire",
+    "Vars": {
+      "SkillNodes": 2050311,
+      "SkillEffect": 2050311,
+      "ShootInterval": 0.125
+    }
+  },
+  "2050401": {
+    "ID": 2050401,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Weapon/BP_Ranged_RapidFire.BP_Ranged_RapidFire",
+    "Vars": {
+      "SkillNodes": 2050411,
+      "SkillEffect": 2050411,
+      "ShootInterval": 0.35
+    }
+  },
+  "2050402": {
+    "ID": 2050402,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Weapon/RangedPassive/BP_Machinegun_20504_Common.BP_Machinegun_20504_Common",
+    "Vars": {
+      "SkillNodes": 2050411,
+      "SkillEffect01": 2050411,
+      "SkillEffect02": 2050412,
+      "SkillEffect03": 2050413,
+      "ShootInterval1": 0.35,
+      "ShootInterval2": 0.25,
+      "ShootInterval3": 0.1
+    }
+  },
+  "2050501": {
+    "ID": 2050501,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Weapon/BP_Ranged_RapidFire.BP_Ranged_RapidFire",
+    "Vars": {
+      "SkillNodes": 2050511,
+      "SkillEffect": 2050511,
+      "ExcuteSkillEffect2": 1,
+      "SkillEffect2": 2050512,
+      "ShootInterval": 0.1
+    }
+  },
+  "2050601": {
+    "ID": 2050601,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Weapon/BP_Ranged_RapidFire.BP_Ranged_RapidFire",
+    "Vars": {
+      "SkillNodes": 2050611,
+      "SkillEffect": 2050611,
+      "ShootInterval": 0.15
+    }
+  },
+  "2050701": {
+    "ID": 2050701,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Weapon/BP_Ranged_RapidFire.BP_Ranged_RapidFire",
+    "Vars": {
+      "SkillNodes": 2050711,
+      "SkillEffect": 2050711,
+      "ShootInterval": 0.1,
+      "SeId": 109,
+      "IsNoMagazine": 1
+    }
+  },
+  "2060101": {
+    "ID": 2060101,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Weapon/BP_Bow_HeavyShoot.BP_Bow_HeavyShoot",
+    "Vars": {
+      "PerfectHeavyShoot": 1,
+      "SkillNodes": 2060121
+    }
+  },
+  "2060102": {
+    "ID": 2060102,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Weapon/BP_Bow_HeavyShoot.BP_Bow_HeavyShoot",
+    "Vars": {
+      "SkillNodes": 2069921
+    }
+  },
+  "2060201": {
+    "ID": 2060201,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Weapon/BP_Bow_Shoot.BP_Bow_Shoot"
+  },
+  "6000000": {
+    "ID": 6000000,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Monster/BP_Strong_Common.BP_Strong_Common",
+    "Vars": {
+      "BuffId": 6000201,
+      "BuffId2": 6000203
+    }
+  },
+  "6000001": {
+    "ID": 6000001,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Monster/BP_Strong_Frozen.BP_Strong_Frozen",
+    "Vars": {
+      "BuffId": 6000101,
+      "SkillEffectId": 600000101,
+      "SkillEffectId2": 600000103
+    }
+  },
+  "6000002": {
+    "ID": 6000002,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Monster/BP_Strong_Burst.BP_Strong_Burst",
+    "Vars": {
+      "SkillEffectId": 600000201,
+      "Time": 5,
+      "WarningDelay": 2.5
+    }
+  },
+  "6000003": {
+    "ID": 6000003,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Monster/BP_Strong_Poison.BP_Strong_Poison",
+    "Vars": {
+      "CD": 5,
+      "SkillEffectId": 600000301,
+      "PreFXRadius": 500,
+      "PreFXTime": 3,
+      "PreFXColorIndex": 8,
+      "SaveLocTag": "Strong"
+    }
+  },
+  "6000004": {
+    "ID": 6000004,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Monster/BP_Strong_Thunder.BP_Strong_Thunder",
+    "Vars": {
+      "IntervalTime": 1,
+      "CD": 5,
+      "Distance": 800,
+      "SkillEffectId": 600000401,
+      "SkillEffectId2": 600000403,
+      "WarningDelay": 2.5
+    }
+  },
+  "6000005": {
+    "ID": 6000005,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Monster/BP_Strong_Blood.BP_Strong_Blood",
+    "Vars": {
+      "Time": 10,
+      "SkillEffectId": 600000501,
+      "UseSkillRadius": 15000,
+      "PreFXRadius": 300,
+      "PreFXTime": 2,
+      "PreFXColorIndex": 0,
+      "SaveLocTag": "Strong"
+    }
+  },
+  "6000006": {
+    "ID": 6000006,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Monster/BP_Strong_Fade.BP_Strong_Fade",
+    "Vars": {
+      "IntervalTime": 1,
+      "CD": 15,
+      "Distance": 800,
+      "SkillEffectId": 600000601,
+      "WarningDelay": 0.2
+    }
+  },
+  "6000007": {
+    "ID": 6000007,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Monster/BP_Strong_Shield.BP_Strong_Shield",
+    "Vars": {
+      "SkillEffectId": 600000701,
+      "CD": 15
+    }
+  },
+  "6000008": {
+    "ID": 6000008,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Monster/BP_Strong_Revenge.BP_Strong_Revenge",
+    "Vars": {
+      "SkillEffectId": 600000801,
+      "SkillEffectId2": 600000802
+    }
+  },
+  "6000009": {
+    "ID": 6000009,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Monster/BP_Common_Addbuff.BP_Common_Addbuff",
+    "Vars": {
+      "BuffId": 301,
+      "LastTime": -1
+    }
+  },
+  "6000010": {
+    "ID": 6000010,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Monster/BP_Common_Addbuff.BP_Common_Addbuff",
+    "Vars": {
+      "BuffId": 6000200,
+      "LastTime": -1
+    }
+  },
+  "6000011": {
+    "ID": 6000011,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Monster/BP_Common_Addbuff.BP_Common_Addbuff",
+    "Vars": {
+      "BuffId": 302,
+      "LastTime": -1
+    }
+  },
+  "6000012": {
+    "ID": 6000012,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Monster/BP_Common_Addbuff.BP_Common_Addbuff",
+    "Vars": {
+      "BuffId": 6000202,
+      "LastTime": -1
+    }
+  },
+  "6000013": {
+    "ID": 6000013,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Monster/BP_Common_Executed.BP_Common_Executed",
+    "Vars": {
+      "BuffId": 6000206
+    }
+  },
+  "6000014": {
+    "ID": 6000014,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Monster/BP_Common_Addbuff.BP_Common_Addbuff",
+    "Vars": {
+      "BuffId": 6000207
+    }
+  },
+  "10101001": {
+    "ID": 10101001,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/BP_Blessing_01_01.BP_Blessing_01_01",
+    "Vars": [
+      {
+        "AttrName": "FallAttackRate"
+      },
+      {
+        "AttackType": "FallAttack"
+      }
+    ]
+  },
+  "10101101": {
+    "ID": 10101101,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/101/BP_10101101.BP_10101101",
+    "Vars": [
+      {
+        "DamageRate": "#1"
+      },
+      {
+        "TriggerProb": "#2"
+      },
+      {
+        "LastTime": "#3"
+      }
+    ]
+  },
+  "10101102": {
+    "ID": 10101102,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/101/BP_10101102.BP_10101102",
+    "Vars": [
+      {
+        "DamageRate": "#1"
+      },
+      {
+        "TriggerProb": "#2"
+      },
+      {
+        "LastTime": "#3"
+      }
+    ]
+  },
+  "10101103": {
+    "ID": 10101103,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/101/BP_10101103.BP_10101103",
+    "Vars": {
+      "Dis": 800
+    }
+  },
+  "10101104": {
+    "ID": 10101104,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/101/BP_10101104.BP_10101104"
+  },
+  "10101201": {
+    "ID": 10101201,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/101/BP_10101201.BP_10101201",
+    "Vars": [
+      {
+        "TriggerTime": "#1"
+      }
+    ]
+  },
+  "10101202": {
+    "ID": 10101202,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/101/BP_10101202.BP_10101202",
+    "Vars": {
+      "HpPercent": "#1",
+      "CD": "#2"
+    }
+  },
+  "10101203": {
+    "ID": 10101203,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/101/BP_10101203.BP_10101203",
+    "Vars": [
+      {
+        "DamageRate": "#1"
+      }
+    ]
+  },
+  "10101301": {
+    "ID": 10101301,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/101/BP_10101301.BP_10101301",
+    "Vars": [
+      {
+        "DamageRate": "#1"
+      }
+    ]
+  },
+  "10101302": {
+    "ID": 10101302,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/101/BP_10101302.BP_10101302",
+    "Vars": {
+      "TriggerProb": "#1",
+      "Layer": "#2",
+      "LastTime": "#3",
+      "CD": "#4"
+    }
+  },
+  "10101303": {
+    "ID": 10101303,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/101/BP_10101303.BP_10101303",
+    "Vars": {
+      "Layer": "#1",
+      "DamageRate": "#2"
+    }
+  },
+  "10101304": {
+    "ID": 10101304,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/101/BP_10101304.BP_10101304",
+    "Vars": [
+      {
+        "DamageRate": "#1"
+      }
+    ]
+  },
+  "10102001": {
+    "ID": 10102001,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/BP_Blessing_02_01.BP_Blessing_02_01",
+    "Vars": {
+      "DamageRate": 2
+    }
+  },
+  "10102102": {
+    "ID": 10102102,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/102/BP_10102102.BP_10102102",
+    "Vars": {
+      "CD": "#1",
+      "DamageRate": "#2"
+    }
+  },
+  "10102103": {
+    "ID": 10102103,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/102/BP_10102103.BP_10102103",
+    "Vars": [
+      {
+        "LastTime": "#1"
+      }
+    ]
+  },
+  "10102104": {
+    "ID": 10102104,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/102/BP_10102104.BP_10102104",
+    "Vars": {
+      "DamageRate": "#1",
+      "LastTime": "#2"
+    }
+  },
+  "10102201": {
+    "ID": 10102201,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/102/BP_10102201.BP_10102201"
+  },
+  "10102202": {
+    "ID": 10102202,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/102/BP_10102202.BP_10102202",
+    "Vars": [
+      {
+        "LastTime": "#1"
+      }
+    ]
+  },
+  "10102203": {
+    "ID": 10102203,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/102/BP_10102203.BP_10102203",
+    "Vars": {
+      "TriggerProb": "#1",
+      "HPReward": 2017,
+      "SPReward": 2018,
+      "BulletReward": 2019
+    }
+  },
+  "10102301": {
+    "ID": 10102301,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/102/BP_10102301.BP_10102301",
+    "Vars": [
+      {
+        "DamageRate": "#1"
+      }
+    ]
+  },
+  "10102302": {
+    "ID": 10102302,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/102/BP_10102302.BP_10102302",
+    "Vars": {
+      "TriggerProb": "#1",
+      "CD": "#2"
+    }
+  },
+  "10102303": {
+    "ID": 10102303,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/102/BP_10102303.BP_10102303",
+    "Vars": [
+      {
+        "DamageRate": "#1"
+      },
+      {
+        "CD": "#2"
+      }
+    ]
+  },
+  "10102304": {
+    "ID": 10102304,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/102/BP_10102304.BP_10102304",
+    "Vars": {
+      "DamageRate": "#1",
+      "Dis": 800
+    }
+  },
+  "10105102": {
+    "ID": 10105102,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/BP_Char_10105102.BP_Char_10105102",
+    "Vars": [
+      {
+        "CD": "#1"
+      }
+    ]
+  },
+  "10105103": {
+    "ID": 10105103,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/BP_Char_10105103.BP_Char_10105103",
+    "Vars": {
+      "Probability": "#1",
+      "LastTime": "#2"
+    }
+  },
+  "10105104": {
+    "ID": 10105104,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/BP_Char_10105104.BP_Char_10105104",
+    "Vars": [
+      {
+        "LastTime": "#1"
+      }
+    ]
+  },
+  "10105201": {
+    "ID": 10105201,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/BP_Char_10105201.BP_Char_10105201",
+    "Vars": {
+      "BaseValue": "#1",
+      "ExtraValue": "#2",
+      "Rate": "#3"
+    }
+  },
+  "10105202": {
+    "ID": 10105202,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/BP_Char_10105202.BP_Char_10105202",
+    "Vars": [
+      {
+        "CD": "#1"
+      }
+    ]
+  },
+  "10105203": {
+    "ID": 10105203,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/BP_Char_10105203.BP_Char_10105203",
+    "Vars": {
+      "Probability": "#1"
+    }
+  },
+  "10105301": {
+    "ID": 10105301,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/BP_Char_10105301.BP_Char_10105301",
+    "Vars": [
+      {
+        "CD": "#1"
+      }
+    ]
+  },
+  "10105302": {
+    "ID": 10105302,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/BP_Char_10105302.BP_Char_10105302",
+    "Vars": {
+      "Probability": "#1",
+      "CD": "#2"
+    }
+  },
+  "10105303": {
+    "ID": 10105303,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/BP_Char_10105303.BP_Char_10105303",
+    "Vars": [
+      {
+        "DamageRate": "#1"
+      }
+    ]
+  },
+  "10105304": {
+    "ID": 10105304,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/BP_Char_10105304.BP_Char_10105304",
+    "Vars": [
+      {
+        "DamageRate": "#1"
+      }
+    ]
+  },
+  "10106101": {
+    "ID": 10106101,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/BP_Char_10106101.BP_Char_10106101",
+    "Vars": [
+      {
+        "TriggerProb": "#1"
+      }
+    ]
+  },
+  "10106102": {
+    "ID": 10106102,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/BP_Char_10106102.BP_Char_10106102",
+    "Vars": [
+      {
+        "TriggerTime": "#1"
+      }
+    ]
+  },
+  "10106103": {
+    "ID": 10106103,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/BP_Char_10106103.BP_Char_10106103",
+    "Vars": [
+      {
+        "TriggerProb": "#1"
+      }
+    ]
+  },
+  "10106104": {
+    "ID": 10106104,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/BP_Char_10106104.BP_Char_10106104",
+    "Vars": [
+      {
+        "LastTime": 300
+      }
+    ]
+  },
+  "10106201": {
+    "ID": 10106201,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/BP_Char_10106201.BP_Char_10106201",
+    "Vars": [
+      {
+        "DamageRate": "#1"
+      }
+    ]
+  },
+  "10106202": {
+    "ID": 10106202,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/BP_Char_10106202.BP_Char_10106202"
+  },
+  "10106203": {
+    "ID": 10106203,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/BP_Char_10106203.BP_Char_10106203"
+  },
+  "10106301": {
+    "ID": 10106301,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/BP_Char_10106301.BP_Char_10106301",
+    "Vars": [
+      {
+        "LastTime": 300
+      }
+    ]
+  },
+  "10106302": {
+    "ID": 10106302,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/BP_Char_10106302.BP_Char_10106302",
+    "Vars": {
+      "FireTime": "#1",
+      "CD": "#2"
+    }
+  },
+  "10106303": {
+    "ID": 10106303,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/BP_Char_10106303.BP_Char_10106303",
+    "Vars": {
+      "ExtraQuantity": "#1"
+    }
+  },
+  "10106304": {
+    "ID": 10106304,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/BP_Char_10106304.BP_Char_10106304"
+  },
+  "10107101": {
+    "ID": 10107101,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/107/BP_10107101.BP_10107101",
+    "Vars": {
+      "HpPercent": "#1",
+      "LastTime": "#2",
+      "CD": "#3"
+    }
+  },
+  "10107102": {
+    "ID": 10107102,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/107/BP_10107102.BP_10107102",
+    "Vars": [
+      {
+        "DamageRate": "#1"
+      },
+      {
+        "CD": "#2"
+      }
+    ]
+  },
+  "10107103": {
+    "ID": 10107103,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/107/BP_10107103.BP_10107103"
+  },
+  "10107104": {
+    "ID": 10107104,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/107/BP_10107104.BP_10107104",
+    "Vars": [
+      {
+        "HpPercent": "#1"
+      }
+    ]
+  },
+  "10107201": {
+    "ID": 10107201,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/107/BP_10107201.BP_10107201",
+    "Vars": {
+      "HpPercentMin": "#1",
+      "HpPercentOnce": "#2",
+      "LastTime": "#3"
+    }
+  },
+  "10107202": {
+    "ID": 10107202,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/107/BP_10107202.BP_10107202",
+    "Vars": {
+      "HpPercent": 0.7,
+      "DamageRate": "#1"
+    }
+  },
+  "10107203": {
+    "ID": 10107203,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/107/BP_10107203.BP_10107203"
+  },
+  "10107302": {
+    "ID": 10107302,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/107/BP_10107302.BP_10107302",
+    "Vars": {
+      "LastTime": "#1",
+      "HPBase": "#2",
+      "DamageRate": "#3",
+      "CD": "#4"
+    }
+  },
+  "10107303": {
+    "ID": 10107303,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/107/BP_10107303.BP_10107303",
+    "Vars": [
+      {
+        "CD": "#1"
+      }
+    ]
+  },
+  "10107304": {
+    "ID": 10107304,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/107/BP_10107304.BP_10107304",
+    "Vars": [
+      {
+        "HpPercent": "#1"
+      }
+    ]
+  },
+  "20101001": {
+    "ID": 20101001,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Treasure/BP_Char_20101001.BP_Char_20101001",
+    "Vars": {
+      "HpPercent": 0.3,
+      "LastTime": 3,
+      "CDValue": 30
+    }
+  },
+  "20102001": {
+    "ID": 20102001,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Treasure/BP_Char_20102001.BP_Char_20102001"
+  },
+  "20104001": {
+    "ID": 20104001,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Treasure/BP_Melee_20104001.BP_Melee_20104001",
+    "Vars": [
+      {
+        "MaxDamageUp": 0.6
+      },
+      {
+        "Increment": 0.15
+      },
+      {
+        "EveryTimeChange": 0.01
+      }
+    ]
+  },
+  "20105001": {
+    "ID": 20105001,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Treasure/BP_Ranged_20105001.BP_Ranged_20105001",
+    "Vars": [
+      {
+        "MaxDamageUp": 0.6
+      },
+      {
+        "Increment": 0.15
+      },
+      {
+        "EveryTimeChange": 0.01
+      }
+    ]
+  },
+  "20108001": {
+    "ID": 20108001,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Treasure/BP_Char_20108001.BP_Char_20108001"
+  },
+  "20151001": {
+    "ID": 20151001,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Treasure/BP_Char_20151001.BP_Char_20151001"
+  },
+  "20152001": {
+    "ID": 20152001,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Treasure/BP_Melee_20152001.BP_Melee_20152001",
+    "Vars": [
+      {
+        "DamageRate": -0.5
+      }
+    ]
+  },
+  "20153001": {
+    "ID": 20153001,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Treasure/BP_Ranged_20153001.BP_Ranged_20153001",
+    "Vars": [
+      {
+        "DamageRate": -0.5
+      }
+    ]
+  },
+  "20154001": {
+    "ID": 20154001,
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Treasure/BP_Char_20154001.BP_Char_20154001",
+    "Vars": {
+      "DamageRate": 4
+    }
+  }
+}

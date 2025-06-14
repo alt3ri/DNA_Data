@@ -1,0 +1,896 @@
+{
+  "Shangdian_Write_Start": {
+    "AnimationId": "Shangdian_Write_Start",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Write",
+    "MontageSection": "Start",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0.2,
+    "bUseIK": true
+  },
+  "Tanshou_Start": {
+    "AnimationId": "Tanshou_Start",
+    "IsSpecialAnim": false,
+    "ActionMontage": "TanShou",
+    "MontageSection": "Start",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0.2,
+    "bUseIK": true
+  },
+  "Tanshou_End": {
+    "AnimationId": "Tanshou_End",
+    "IsSpecialAnim": false,
+    "ActionMontage": "TanShou",
+    "MontageSection": "End",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0.2,
+    "EndLoopMontage": "Idle",
+    "EndLoopMontageSection": "Start",
+    "bUseIK": true
+  },
+  "Pose": {
+    "AnimationId": "Pose",
+    "IsSpecialAnim": true,
+    "ActionMontage": "IdleShow_01",
+    "MontageSection": "Start",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0.2,
+    "bUseIK": true
+  },
+  "ChenSi_Start": {
+    "AnimationId": "ChenSi_Start",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Chensi",
+    "MontageSection": "Start",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0.2,
+    "bUseIK": true
+  },
+  "ChenSi_End": {
+    "AnimationId": "ChenSi_End",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Chensi",
+    "MontageSection": "End",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0.2,
+    "EndLoopMontage": "Idle",
+    "EndLoopMontageSection": "Start",
+    "bUseIK": true
+  },
+  "Interactive_Start": {
+    "AnimationId": "Interactive_Start",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Interactive",
+    "MontageSection": "Start",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0.2,
+    "bUseIK": true
+  },
+  "Interactive_End": {
+    "AnimationId": "Interactive_End",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Interactive",
+    "MontageSection": "End",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0.2,
+    "EndLoopMontage": "Idle",
+    "EndLoopMontageSection": "Start",
+    "bUseIK": true
+  },
+  "FuXiong_Start": {
+    "AnimationId": "FuXiong_Start",
+    "IsSpecialAnim": false,
+    "ActionMontage": "FuXiong",
+    "MontageSection": "Start",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0.2,
+    "bUseIK": true
+  },
+  "FuXiong_End": {
+    "AnimationId": "FuXiong_End",
+    "IsSpecialAnim": false,
+    "ActionMontage": "FuXiong",
+    "MontageSection": "End",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0.2,
+    "EndLoopMontage": "Idle",
+    "EndLoopMontageSection": "Start",
+    "bUseIK": true
+  },
+  "JiaYou_Start": {
+    "AnimationId": "JiaYou_Start",
+    "IsSpecialAnim": false,
+    "ActionMontage": "JiaYou",
+    "MontageSection": "Start",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0.2,
+    "bUseIK": true
+  },
+  "JiaYou_End": {
+    "AnimationId": "JiaYou_End",
+    "IsSpecialAnim": false,
+    "ActionMontage": "JiaYou",
+    "MontageSection": "End",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0.2,
+    "EndLoopMontage": "Idle",
+    "EndLoopMontageSection": "Start",
+    "bUseIK": true
+  },
+  "Crouch_Start": {
+    "AnimationId": "Crouch_Start",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Story_Crouch",
+    "MontageSection": "Start",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0.2,
+    "bUseIK": true
+  },
+  "TieJiang_Idle": {
+    "AnimationId": "TieJiang_Idle",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Emo_Idle",
+    "MontageSection": "Start",
+    "BlendInTime": 0,
+    "BlendOutTime": 0,
+    "bUseIK": true
+  },
+  "Bai_Idle": {
+    "AnimationId": "Bai_Idle",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Emo_Idle",
+    "MontageSection": "Start",
+    "BlendInTime": 0.8,
+    "BlendOutTime": 0.2,
+    "bUseIK": true
+  },
+  "Awa_Idle": {
+    "AnimationId": "Awa_Idle",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Emo_Idle",
+    "MontageSection": "Start",
+    "BlendInTime": 0.8,
+    "BlendOutTime": 0.2,
+    "bUseIK": true
+  },
+  "Weita_Idle": {
+    "AnimationId": "Weita_Idle",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Emo_Idle",
+    "MontageSection": "Start",
+    "BlendInTime": 0.8,
+    "BlendOutTime": 0.2,
+    "bUseIK": true
+  },
+  "Bai_SlowIdle": {
+    "AnimationId": "Bai_SlowIdle",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Emo_Idle",
+    "MontageSection": "Start",
+    "BlendInTime": 1.5,
+    "BlendOutTime": 0.2,
+    "bUseIK": true
+  },
+  "Sit": {
+    "AnimationId": "Sit",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Interactive_Sit_F",
+    "MontageSection": "SitStart",
+    "BlendInTime": 0.2,
+    "bUseIK": true
+  },
+  "Agree": {
+    "AnimationId": "Agree",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Emo_Agree",
+    "MontageSection": "Start",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0.2,
+    "bUseIK": true
+  },
+  "Angry01_Start": {
+    "AnimationId": "Angry01_Start",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Emo_Angry01",
+    "MontageSection": "Start",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0.2,
+    "bUseIK": true
+  },
+  "Angry01_End": {
+    "AnimationId": "Angry01_End",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Emo_Angry01",
+    "MontageSection": "End",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0.2,
+    "bUseIK": true
+  },
+  "Confident_Start": {
+    "AnimationId": "Confident_Start",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Emo_Confident",
+    "MontageSection": "Start",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0.2,
+    "bUseIK": true
+  },
+  "Confident_Loop": {
+    "AnimationId": "Confident_Loop",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Emo_Confident",
+    "MontageSection": "Loop",
+    "BlendInTime": 0,
+    "BlendOutTime": 0.2,
+    "bUseIK": true
+  },
+  "Confident_End": {
+    "AnimationId": "Confident_End",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Emo_Confident",
+    "MontageSection": "End",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0.2,
+    "bUseIK": true
+  },
+  "Disagree": {
+    "AnimationId": "Disagree",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Emo_Disagree",
+    "MontageSection": "Start",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0.2,
+    "bUseIK": true
+  },
+  "Explain01_Start": {
+    "AnimationId": "Explain01_Start",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Emo_Explain01",
+    "MontageSection": "Start",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0.2,
+    "bUseIK": true
+  },
+  "Explain01_End": {
+    "AnimationId": "Explain01_End",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Emo_Explain01",
+    "MontageSection": "End",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0.2,
+    "bUseIK": true
+  },
+  "Explain02_Start": {
+    "AnimationId": "Explain02_Start",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Emo_Explain02",
+    "MontageSection": "Start",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0.2,
+    "bUseIK": true
+  },
+  "Explain02_End": {
+    "AnimationId": "Explain02_End",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Emo_Explain02",
+    "MontageSection": "End",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0.2,
+    "bUseIK": true
+  },
+  "Give": {
+    "AnimationId": "Give",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Emo_Give",
+    "MontageSection": "Start",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0.2,
+    "bUseIK": true
+  },
+  "Shock_Start": {
+    "AnimationId": "Shock_Start",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Emo_Shock",
+    "MontageSection": "Start",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0.2,
+    "bUseIK": true
+  },
+  "Shock_Loop": {
+    "AnimationId": "Shock_Loop",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Emo_Shock",
+    "MontageSection": "Loop",
+    "BlendInTime": 0,
+    "BlendOutTime": 0.2,
+    "bUseIK": true
+  },
+  "Shock_End": {
+    "AnimationId": "Shock_End",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Emo_Shock",
+    "MontageSection": "End",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0.2,
+    "bUseIK": true
+  },
+  "Sigh_Start": {
+    "AnimationId": "Sigh_Start",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Emo_Sigh",
+    "MontageSection": "Start",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0.2,
+    "bUseIK": true
+  },
+  "Sigh_Loop": {
+    "AnimationId": "Sigh_Loop",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Emo_Sigh",
+    "MontageSection": "Loop",
+    "BlendInTime": 0,
+    "BlendOutTime": 0.2,
+    "bUseIK": true
+  },
+  "Sigh_End": {
+    "AnimationId": "Sigh_End",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Emo_Sigh",
+    "MontageSection": "End",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0.2,
+    "bUseIK": true
+  },
+  "Stop01_Start": {
+    "AnimationId": "Stop01_Start",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Emo_Stop01",
+    "MontageSection": "Start",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0.2,
+    "bUseIK": true
+  },
+  "Stop01_End": {
+    "AnimationId": "Stop01_End",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Emo_Stop01",
+    "MontageSection": "End",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0.2,
+    "bUseIK": true
+  },
+  "Talk01_Start": {
+    "AnimationId": "Talk01_Start",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Emo_Talk01",
+    "MontageSection": "Start",
+    "BlendInTime": 0.4,
+    "BlendOutTime": 0.2,
+    "bUseIK": true
+  },
+  "Talk01_Loop": {
+    "AnimationId": "Talk01_Loop",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Emo_Talk01",
+    "MontageSection": "Loop",
+    "BlendInTime": 0,
+    "BlendOutTime": 0.2,
+    "bUseIK": true
+  },
+  "Talk01_End": {
+    "AnimationId": "Talk01_End",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Emo_Talk01",
+    "MontageSection": "End",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0.2,
+    "bUseIK": true
+  },
+  "Talk02_Start": {
+    "AnimationId": "Talk02_Start",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Emo_Talk02",
+    "MontageSection": "Start",
+    "BlendInTime": 0.4,
+    "BlendOutTime": 0.2,
+    "bUseIK": true
+  },
+  "Talk02_End": {
+    "AnimationId": "Talk02_End",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Emo_Talk02",
+    "MontageSection": "End",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0.2,
+    "bUseIK": true
+  },
+  "Talk03_Start": {
+    "AnimationId": "Talk03_Start",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Emo_Talk03",
+    "MontageSection": "Start",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0.2,
+    "bUseIK": true
+  },
+  "Talk03_Loop": {
+    "AnimationId": "Talk03_Loop",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Emo_Talk03",
+    "MontageSection": "Loop",
+    "BlendInTime": 0,
+    "BlendOutTime": 0.2,
+    "bUseIK": true
+  },
+  "Talk03_End": {
+    "AnimationId": "Talk03_End",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Emo_Talk03",
+    "MontageSection": "End",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0.2,
+    "bUseIK": true
+  },
+  "Think_Start": {
+    "AnimationId": "Think_Start",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Emo_Think",
+    "MontageSection": "Start",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0.2,
+    "bUseIK": true
+  },
+  "Think_Loop": {
+    "AnimationId": "Think_Loop",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Emo_Think",
+    "MontageSection": "Loop",
+    "BlendInTime": 0,
+    "BlendOutTime": 0.2,
+    "bUseIK": true
+  },
+  "Think_End": {
+    "AnimationId": "Think_End",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Emo_Think",
+    "MontageSection": "End",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0.2,
+    "bUseIK": true
+  },
+  "Sit_Start": {
+    "AnimationId": "Sit_Start",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Interactive_Sit_F",
+    "MontageSection": "SitStart",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0.2,
+    "bUseIK": true
+  },
+  "Sit_Loop": {
+    "AnimationId": "Sit_Loop",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Interactive_Sit_F",
+    "MontageSection": "SitLoop",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0.1,
+    "bUseIK": true
+  },
+  "Sit_End": {
+    "AnimationId": "Sit_End",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Interactive_Sit_F",
+    "MontageSection": "SitEndF",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0.1,
+    "bUseIK": true
+  },
+  "Bai_Shock2Think2Confident": {
+    "AnimationId": "Bai_Shock2Think2Confident",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Emo_ShockTo",
+    "MontageSection": "Start",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 1,
+    "bUseIK": true
+  },
+  "Bai_Talk03Quick": {
+    "AnimationId": "Bai_Talk03Quick",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Emo_Talk03",
+    "MontageSection": "StartQuick",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0.2,
+    "bUseIK": true
+  },
+  "Bai_Think2Confident": {
+    "AnimationId": "Bai_Think2Confident",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Emo_ThinkTo",
+    "MontageSection": "Start",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0,
+    "bUseIK": true
+  },
+  "OldMan100155": {
+    "AnimationId": "OldMan100155",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Story_10015503",
+    "MontageSection": "Start",
+    "bUseIK": true
+  },
+  "Bai_SpecialConfident_Start": {
+    "AnimationId": "Bai_SpecialConfident_Start",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Emo_SpecialConfident",
+    "MontageSection": "Start",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0.2,
+    "bUseIK": true
+  },
+  "Beibao_Start": {
+    "AnimationId": "Beibao_Start",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Performance",
+    "MontageSection": "Start",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0.2,
+    "EndLoopMontage": "Performance",
+    "EndLoopMontageSection": "Loop",
+    "bUseIK": true
+  },
+  "Beibao_Finish": {
+    "AnimationId": "Beibao_Finish",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Performance",
+    "MontageSection": "Finish",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0.2,
+    "bUseIK": true
+  },
+  "Invite_Agree": {
+    "AnimationId": "Invite_Agree",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Emo_Agree",
+    "MontageSection": "Start",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0.05,
+    "EndLoopMontage": "Emo_Idle",
+    "EndLoopMontageSection": "Start",
+    "bUseIK": true
+  },
+  "Invite_Disagree": {
+    "AnimationId": "Invite_Disagree",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Emo_Disagree",
+    "MontageSection": "Start",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0.05,
+    "EndLoopMontage": "Emo_Idle",
+    "EndLoopMontageSection": "Start",
+    "bUseIK": true
+  },
+  "Invite_Angry01_End": {
+    "AnimationId": "Invite_Angry01_End",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Emo_Angry01",
+    "MontageSection": "End",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0.05,
+    "EndLoopMontage": "Emo_Idle",
+    "EndLoopMontageSection": "Start",
+    "bUseIK": true
+  },
+  "Invite_Confident_End": {
+    "AnimationId": "Invite_Confident_End",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Emo_Confident",
+    "MontageSection": "End",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0.05,
+    "EndLoopMontage": "Emo_Idle",
+    "EndLoopMontageSection": "Start",
+    "bUseIK": true
+  },
+  "Invite_Explain01_End": {
+    "AnimationId": "Invite_Explain01_End",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Emo_Explain01",
+    "MontageSection": "End",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0.05,
+    "EndLoopMontage": "Emo_Idle",
+    "EndLoopMontageSection": "Start",
+    "bUseIK": true
+  },
+  "Invite_Explain02_End": {
+    "AnimationId": "Invite_Explain02_End",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Emo_Explain02",
+    "MontageSection": "End",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0.05,
+    "EndLoopMontage": "Emo_Idle",
+    "EndLoopMontageSection": "Start",
+    "bUseIK": true
+  },
+  "Invite_Shock_End": {
+    "AnimationId": "Invite_Shock_End",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Emo_Shock",
+    "MontageSection": "End",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0.05,
+    "EndLoopMontage": "Emo_Idle",
+    "EndLoopMontageSection": "Start",
+    "bUseIK": true
+  },
+  "Invite_Sigh_End": {
+    "AnimationId": "Invite_Sigh_End",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Emo_Sigh",
+    "MontageSection": "End",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0.05,
+    "EndLoopMontage": "Emo_Idle",
+    "EndLoopMontageSection": "Start",
+    "bUseIK": true
+  },
+  "Invite_Talk01_End": {
+    "AnimationId": "Invite_Talk01_End",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Emo_Talk01",
+    "MontageSection": "End",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0.05,
+    "EndLoopMontage": "Emo_Idle",
+    "EndLoopMontageSection": "Start",
+    "bUseIK": true
+  },
+  "Invite_Talk02_End": {
+    "AnimationId": "Invite_Talk02_End",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Emo_Talk02",
+    "MontageSection": "End",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0.05,
+    "EndLoopMontage": "Emo_Idle",
+    "EndLoopMontageSection": "Start",
+    "bUseIK": true
+  },
+  "Invite_Talk03_End": {
+    "AnimationId": "Invite_Talk03_End",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Emo_Talk03",
+    "MontageSection": "End",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0.05,
+    "EndLoopMontage": "Emo_Idle",
+    "EndLoopMontageSection": "Start",
+    "bUseIK": true
+  },
+  "Invite_Think_End": {
+    "AnimationId": "Invite_Think_End",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Emo_Think",
+    "MontageSection": "End",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0.05,
+    "EndLoopMontage": "Emo_Idle",
+    "EndLoopMontageSection": "Start",
+    "bUseIK": true
+  },
+  "Nvzhu_Story_LieDown": {
+    "AnimationId": "Nvzhu_Story_LieDown",
+    "IsSpecialAnim": false,
+    "ActionMontage": "LieDown_Loop",
+    "MontageSection": "Loop",
+    "BlendInTime": 0,
+    "BlendOutTime": 0.2,
+    "bUseIK": true
+  },
+  "Onground01": {
+    "AnimationId": "Onground01",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Emo_OnGround01",
+    "MontageSection": "Loop",
+    "BlendInTime": 0,
+    "BlendOutTime": 0,
+    "bUseIK": true
+  },
+  "Onground02": {
+    "AnimationId": "Onground02",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Emo_OnGround02",
+    "MontageSection": "Loop",
+    "BlendInTime": 0,
+    "BlendOutTime": 0,
+    "bUseIK": true
+  },
+  "Onground03": {
+    "AnimationId": "Onground03",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Emo_OnGround03",
+    "MontageSection": "Loop",
+    "BlendInTime": 0,
+    "BlendOutTime": 0,
+    "bUseIK": true
+  },
+  "Die": {
+    "AnimationId": "Die",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Emo_Die",
+    "MontageSection": "Loop",
+    "BlendInTime": 0,
+    "BlendOutTime": 0,
+    "bUseIK": true
+  },
+  "Hurt01": {
+    "AnimationId": "Hurt01",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Emo_Hurt01",
+    "MontageSection": "Loop",
+    "BlendInTime": 0,
+    "BlendOutTime": 0,
+    "bUseIK": true
+  },
+  "Call": {
+    "AnimationId": "Call",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Emo_Call",
+    "MontageSection": "Loop",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0.2,
+    "bUseIK": true
+  },
+  "Crouch": {
+    "AnimationId": "Crouch",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Story_Crouch",
+    "MontageSection": "Start",
+    "BlendInTime": 0.3,
+    "BlendOutTime": 0.2,
+    "bUseIK": true
+  },
+  "Crouch_End": {
+    "AnimationId": "Crouch_End",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Story_Crouch",
+    "MontageSection": "End",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0.2
+  },
+  "BossSaiqi_Story_HurtCrouch": {
+    "AnimationId": "BossSaiqi_Story_HurtCrouch",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Story_HurtCrouch",
+    "MontageSection": "Loop",
+    "BlendInTime": 0,
+    "BlendOutTime": 0,
+    "bUseIK": true
+  },
+  "BossSaiqi_Story_Die": {
+    "AnimationId": "BossSaiqi_Story_Die",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Story_Die",
+    "MontageSection": "Loop",
+    "BlendInTime": 0,
+    "BlendOutTime": 0,
+    "bUseIK": true
+  },
+  "Nvzhu_Story_CrouchWithFlower": {
+    "AnimationId": "Nvzhu_Story_CrouchWithFlower",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Story_CrouchWithFlower",
+    "MontageSection": "Loop",
+    "BlendInTime": 0,
+    "BlendOutTime": 0,
+    "bUseIK": true
+  },
+  "Nvzhu_Story_StretchHand_Start": {
+    "AnimationId": "Nvzhu_Story_StretchHand_Start",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Story_StretchHand",
+    "MontageSection": "Start",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0.2,
+    "bUseIK": true
+  },
+  "Nvzhu_Story_StretchHand_End": {
+    "AnimationId": "Nvzhu_Story_StretchHand_End",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Story_StretchHand",
+    "MontageSection": "End",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0.2,
+    "bUseIK": true
+  },
+  "Saiqi_Story_CrySit": {
+    "AnimationId": "Saiqi_Story_CrySit",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Story_CrySit",
+    "MontageSection": "Loop",
+    "BlendInTime": 0,
+    "BlendOutTime": 0,
+    "bUseIK": true
+  },
+  "Saiqi_Story_HoldScythe": {
+    "AnimationId": "Saiqi_Story_HoldScythe",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Story_HoldScythe",
+    "MontageSection": "Start",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0.2,
+    "bUseIK": true
+  },
+  "Saiqi_Story_TiredStand": {
+    "AnimationId": "Saiqi_Story_TiredStand",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Story_TiredStand",
+    "MontageSection": "Loop",
+    "BlendInTime": 0,
+    "BlendOutTime": 0,
+    "bUseIK": true
+  },
+  "Weiji_Story_Sit": {
+    "AnimationId": "Weiji_Story_Sit",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Story_Sit",
+    "MontageSection": "Loop",
+    "BlendInTime": 0,
+    "BlendOutTime": 0,
+    "bUseIK": true
+  },
+  "Special_Start": {
+    "AnimationId": "Special_Start",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Emo_Special",
+    "MontageSection": "Start",
+    "BlendInTime": 0.3,
+    "BlendOutTime": 0.4,
+    "bUseIK": true
+  },
+  "Special_Start1": {
+    "AnimationId": "Special_Start1",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Emo_Special",
+    "MontageSection": "Start1",
+    "BlendInTime": 0.3,
+    "BlendOutTime": 0.4,
+    "bUseIK": true
+  },
+  "Special_Start2": {
+    "AnimationId": "Special_Start2",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Emo_Special",
+    "MontageSection": "Start2",
+    "BlendInTime": 0.3,
+    "BlendOutTime": 0.4,
+    "bUseIK": true
+  },
+  "Special_End": {
+    "AnimationId": "Special_End",
+    "IsSpecialAnim": false,
+    "ActionMontage": "Emo_Special",
+    "MontageSection": "End",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0.2,
+    "bUseIK": true
+  },
+  "SpecialIdle01": {
+    "AnimationId": "SpecialIdle01",
+    "IsSpecialAnim": true,
+    "ActionMontage": "SpecialIdle01",
+    "MontageSection": "Default",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0.2
+  },
+  "SpecialIdle02": {
+    "AnimationId": "SpecialIdle02",
+    "IsSpecialAnim": true,
+    "ActionMontage": "SpecialIdle02",
+    "MontageSection": "Default",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0.2
+  }
+}

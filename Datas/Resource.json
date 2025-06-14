@@ -1,0 +1,6082 @@
+{
+  "100": {
+    "ResourceId": 100,
+    "ResourceName": "RESOURCE_NAME_100",
+    "Type": "Rare",
+    "ResourceSType": "Coin",
+    "Rarity": 5,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Coin_Main_Lv1.Icon_Coin_Main_Lv1",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "FunctionDes": "RESOURCE_FUNCTION_RARECOIN",
+    "DetailDes": "RESOURCE_DESC_100",
+    "IpDes": "RESOURCE_TEXT_100"
+  },
+  "101": {
+    "ResourceId": 101,
+    "ResourceName": "RESOURCE_NAME_101",
+    "Type": "Ordinary",
+    "ResourceSType": "Coin",
+    "Rarity": 3,
+    "ResourceValue": -1,
+    "AccessKey": [
+      "Dungeon",
+      "Shop",
+      "Text_Monster"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Coin_Main_Lv3.Icon_Coin_Main_Lv3",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_COIN",
+    "DetailDes": "RESOURCE_DESC_101",
+    "IpDes": "RESOURCE_TEXT_101"
+  },
+  "102": {
+    "ResourceId": 102,
+    "ResourceName": "RESOURCE_NAME_102",
+    "Type": "Ordinary",
+    "ResourceSType": "Coin",
+    "Rarity": 4,
+    "ResourceValue": -1,
+    "AccessKey": {},
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Coin_Other_Mod.Icon_Coin_Other_Mod",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "FunctionDes": "RESOURCE_FUNCTION_MODCOIN",
+    "DetailDes": "RESOURCE_DESC_102",
+    "IpDes": "RESOURCE_TEXT_102"
+  },
+  "103": {
+    "ResourceId": 103,
+    "ResourceName": "RESOURCE_NAME_103",
+    "Type": "Ordinary",
+    "UsageMode": "AutoUseWhenAdd",
+    "ResourceSType": "ActionPoint",
+    "Rarity": 2,
+    "UseEffectType": "AddActionPoint",
+    "UseParam": 1,
+    "ResourceValue": -1,
+    "AccessKey": [
+      "Shop"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Coin_Other_Jingli.Icon_Coin_Other_Jingli",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "FunctionDes": "RESOURCE_FUNCTION_AP",
+    "DetailDes": "RESOURCE_DESC_103",
+    "IpDes": "RESOURCE_TEXT_103"
+  },
+  "104": {
+    "ResourceId": 104,
+    "ResourceName": "RESOURCE_NAME_104",
+    "Type": "Ordinary",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceValue": -1,
+    "AccessKey": {},
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_CoinCBT2.Icon_Resource_CoinCBT2",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_RARECOIN",
+    "DetailDes": "RESOURCE_DESC_104",
+    "IpDes": "RESOURCE_TEXT_104"
+  },
+  "110": {
+    "ResourceId": 110,
+    "ResourceName": "RESOURCE_NAME_110",
+    "Type": "Rare",
+    "Rarity": 3,
+    "MaterialClassify": 3,
+    "ResourceValue": -1,
+    "AccessKey": [
+      "Text_Gacha"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Gacha_Coin01.Icon_Gacha_Coin01",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "FunctionDes": "RESOURCE_FUNCTION_COIN",
+    "DetailDes": "RESOURCE_DESC_110",
+    "IpDes": "RESOURCE_TEXT_110"
+  },
+  "111": {
+    "ResourceId": 111,
+    "ResourceName": "RESOURCE_NAME_111",
+    "Type": "Rare",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceValue": -1,
+    "AccessKey": [
+      "Text_Gacha"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Gacha_Coin02.Icon_Gacha_Coin02",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "FunctionDes": "RESOURCE_FUNCTION_RARECOIN",
+    "DetailDes": "RESOURCE_DESC_111",
+    "IpDes": "RESOURCE_TEXT_111"
+  },
+  "201": {
+    "ResourceId": 201,
+    "ResourceName": "RESOURCE_NAME_201",
+    "Type": "Rare",
+    "UsageMode": "AutoUseWhenAdd",
+    "ResourceSType": "Polarization",
+    "Rarity": 5,
+    "UseEffectType": "Polarization",
+    "MaterialClassify": 3,
+    "ResourceValue": -1,
+    "AccessKey": [
+      "Text_HardBoss",
+      "Home",
+      "Shop"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_PolarityStyle.Icon_Resource_PolarityStyle",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_CHARPOL",
+    "DetailDes": "RESOURCE_DESC_201",
+    "IpDes": "RESOURCE_TEXT_201"
+  },
+  "202": {
+    "ResourceId": 202,
+    "ResourceName": "RESOURCE_NAME_202",
+    "Type": "Rare",
+    "UsageMode": "AutoUseWhenAdd",
+    "ResourceSType": "WeaponPolarization",
+    "Rarity": 5,
+    "UseEffectType": "Polarization",
+    "MaterialClassify": 3,
+    "ResourceValue": -1,
+    "AccessKey": [
+      "Text_HardBoss",
+      "Home",
+      "Shop"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_PolarityAura.Icon_Resource_PolarityAura",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_WEAPONPOL",
+    "DetailDes": "RESOURCE_DESC_202",
+    "IpDes": "RESOURCE_TEXT_202"
+  },
+  "203": {
+    "ResourceId": 203,
+    "ResourceName": "RESOURCE_NAME_203",
+    "Type": "Rare",
+    "ResourceSType": "Coin",
+    "Rarity": 1,
+    "ResourceValue": -1,
+    "AccessKey": [
+      "Text_Rouge"
+    ],
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/RougeLike/T_Rouge_Icon_Yujing.T_Rouge_Icon_Yujing",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "FunctionDes": "RESOURCE_FUNCTION_COIN",
+    "DetailDes": "RESOURCE_DESC_203",
+    "IpDes": "RESOURCE_TEXT_203"
+  },
+  "204": {
+    "ResourceId": 204,
+    "ResourceName": "RESOURCE_NAME_204",
+    "Type": "Ordinary",
+    "UsageMode": "ClientRequest",
+    "ResourceSType": "ActionPoint",
+    "Rarity": 4,
+    "UseEffectType": "AddActionPoint",
+    "UseParam": 60,
+    "MaterialClassify": 3,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_ActionPoint_ActionPointRecoveryM.Icon_Resource_ActionPoint_ActionPointRecoveryM",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "FunctionDes": "RESOURCE_FUNCTION_APRecovery",
+    "DetailDes": "RESOURCE_DESC_204",
+    "IpDes": "RESOURCE_TEXT_204"
+  },
+  "205": {
+    "ResourceId": 205,
+    "ResourceName": "RESOURCE_NAME_205",
+    "Type": "Rare",
+    "Rarity": 1,
+    "ResourceValue": -1,
+    "AccessKey": [
+      "Text_Rouge"
+    ],
+    "Icon": "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Token01.T_Rouge_Token01",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "FunctionDes": "RESOURCE_FUNCTION_TIANFUCOIN",
+    "DetailDes": "RESOURCE_DESC_205",
+    "IpDes": "RESOURCE_TEXT_205"
+  },
+  "206": {
+    "ResourceId": 206,
+    "ResourceName": "RESOURCE_NAME_206",
+    "Type": "Ordinary",
+    "Rarity": 2,
+    "UseEffectType": "AddDungeonBonusRate",
+    "UseParam": 30000,
+    "MaterialClassify": 3,
+    "ResourceValue": -1,
+    "AccessKey": [
+      "Shop"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Ticket01.Icon_Resource_Ticket01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "RESOURCE_FUNCTION_BONUSTICKET",
+    "DetailDes": "RESOURCE_DESC_206",
+    "IpDes": "RESOURCE_TEXT_206"
+  },
+  "207": {
+    "ResourceId": 207,
+    "ResourceName": "RESOURCE_NAME_207",
+    "Type": "Rare",
+    "Rarity": 3,
+    "UseEffectType": "AddDungeonBonusRate",
+    "UseParam": 100000,
+    "MaterialClassify": 3,
+    "ResourceValue": -1,
+    "AccessKey": [
+      "Shop"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Ticket02.Icon_Resource_Ticket02",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "RESOURCE_FUNCTION_BONUSTICKET",
+    "DetailDes": "RESOURCE_DESC_207",
+    "IpDes": "RESOURCE_TEXT_206"
+  },
+  "208": {
+    "ResourceId": 208,
+    "ResourceName": "RESOURCE_NAME_208",
+    "Type": "Rare",
+    "Rarity": 4,
+    "UseEffectType": "AddDungeonBonusRate",
+    "UseParam": 200000,
+    "MaterialClassify": 3,
+    "ResourceValue": -1,
+    "AccessKey": [
+      "Shop"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Ticket03.Icon_Resource_Ticket03",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "RESOURCE_FUNCTION_BONUSTICKET",
+    "DetailDes": "RESOURCE_DESC_208",
+    "IpDes": "RESOURCE_TEXT_206"
+  },
+  "209": {
+    "ResourceId": 209,
+    "ResourceName": "RESOURCE_NAME_209",
+    "Type": "Rare",
+    "Rarity": 5,
+    "UseEffectType": "AddDungeonBonusRate",
+    "UseParam": 500000,
+    "MaterialClassify": 3,
+    "ResourceValue": -1,
+    "AccessKey": [
+      "Shop"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Ticket04.Icon_Resource_Ticket04",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "RESOURCE_FUNCTION_BONUSTICKET",
+    "DetailDes": "RESOURCE_DESC_209",
+    "IpDes": "RESOURCE_TEXT_206"
+  },
+  "1001": {
+    "ResourceId": 1001,
+    "ResourceName": "RESOURCE_NAME_1001",
+    "Type": "Rare",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceValue": -1,
+    "AccessKey": [
+      "Shop"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_GachaTicket_01.Icon_Resource_GachaTicket_01",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "FunctionDes": "RESOURCE_FUNCTION_ZHUIMI",
+    "DetailDes": "RESOURCE_DESC_1001",
+    "IpDes": "RESOURCE_TEXT_1001"
+  },
+  "1002": {
+    "ResourceId": 1002,
+    "ResourceName": "RESOURCE_NAME_1002",
+    "Type": "Rare",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceValue": -1,
+    "AccessKey": [
+      "Shop"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Jiasu.Icon_Resource_Jiasu",
+    "Sound": "SOUND_ITEM_CUTE",
+    "FunctionDes": "RESOURCE_FUNCTION_Jiasu",
+    "DetailDes": "RESOURCE_DESC_1002",
+    "IpDes": "RESOURCE_TEXT_1002"
+  },
+  "1003": {
+    "ResourceId": 1003,
+    "ResourceName": "RESOURCE_NAME_1003",
+    "Type": "Rare",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceValue": -1,
+    "AccessKey": [
+      "Shop"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_GachaTicket_02.Icon_Resource_GachaTicket_02",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "FunctionDes": "RESOURCE_FUNCTION_ZHUIMI",
+    "DetailDes": "RESOURCE_DESC_1003",
+    "IpDes": "RESOURCE_TEXT_1003"
+  },
+  "2001": {
+    "ResourceId": 2001,
+    "ResourceName": "RESOURCE_NAME_2001",
+    "Type": "Ordinary",
+    "UsageMode": "AutoUseWhenAdd",
+    "ResourceSType": "PlayerExp",
+    "Rarity": 5,
+    "UseEffectType": "AddPlayerExp",
+    "UseParam": 1,
+    "MaterialClassify": 3,
+    "ResourceValue": -1,
+    "AccessKey": {},
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Exp_Rank.Icon_Exp_Rank",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "DetailDes": "RESOURCE_DESC_2001",
+    "IpDes": "RESOURCE_TEXT_2001"
+  },
+  "2007": {
+    "ResourceId": 2007,
+    "ResourceName": "RESOURCE_NAME_2007",
+    "Type": "Ordinary",
+    "UsageMode": "AutoUseWhenAdd",
+    "ResourceSType": "WeaponExp",
+    "Rarity": 2,
+    "UseEffectType": "AddWeaponExpItem",
+    "UseParam": 500,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 70,
+    "AccessKey": [
+      "Dungeon",
+      "Shop"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Weapon_Exp02.Icon_Resource_Weapon_Exp02",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "RESOURCE_FUNCTION_WEAPON_EXP",
+    "DetailDes": "RESOURCE_DESC_2007",
+    "IpDes": "RESOURCE_TEXT_2007"
+  },
+  "2008": {
+    "ResourceId": 2008,
+    "ResourceName": "RESOURCE_NAME_2008",
+    "Type": "Ordinary",
+    "UsageMode": "AutoUseWhenAdd",
+    "ResourceSType": "WeaponExp",
+    "Rarity": 3,
+    "UseEffectType": "AddWeaponExpItem",
+    "UseParam": 2000,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 280,
+    "AccessKey": [
+      "Dungeon",
+      "Shop"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Weapon_Exp03.Icon_Resource_Weapon_Exp03",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "RESOURCE_FUNCTION_WEAPON_EXP",
+    "DetailDes": "RESOURCE_DESC_2007",
+    "IpDes": "RESOURCE_TEXT_2007"
+  },
+  "2009": {
+    "ResourceId": 2009,
+    "ResourceName": "RESOURCE_NAME_2009",
+    "Type": "Rare",
+    "UsageMode": "AutoUseWhenAdd",
+    "ResourceSType": "WeaponExp",
+    "Rarity": 4,
+    "UseEffectType": "AddWeaponExpItem",
+    "UseParam": 4000,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 560,
+    "AccessKey": [
+      "Dungeon",
+      "Shop"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Weapon_Exp04.Icon_Resource_Weapon_Exp04",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "RESOURCE_FUNCTION_WEAPON_EXP",
+    "DetailDes": "RESOURCE_DESC_2007",
+    "IpDes": "RESOURCE_TEXT_2007"
+  },
+  "2010": {
+    "ResourceId": 2010,
+    "ResourceName": "RESOURCE_NAME_2010",
+    "Type": "Rare",
+    "UsageMode": "AutoUseWhenAdd",
+    "ResourceSType": "WeaponExp",
+    "Rarity": 5,
+    "UseEffectType": "AddWeaponExpItem",
+    "UseParam": 20000,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 2800,
+    "AccessKey": [
+      "Dungeon",
+      "Shop"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Weapon_Exp05.Icon_Resource_Weapon_Exp05",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "RESOURCE_FUNCTION_WEAPON_EXP",
+    "DetailDes": "RESOURCE_DESC_2007",
+    "IpDes": "RESOURCE_TEXT_2007"
+  },
+  "2011": {
+    "ResourceId": 2011,
+    "ResourceName": "RESOURCE_NAME_2011",
+    "Type": "Ordinary",
+    "UsageMode": "AutoUseWhenAdd",
+    "ResourceSType": "CharExp",
+    "Rarity": 2,
+    "UseEffectType": "AddCharExpItem",
+    "UseParam": 500,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 70,
+    "AccessKey": [
+      "Dungeon",
+      "Shop"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Char_Exp02.Icon_Resource_Char_Exp02",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "RESOURCE_FUNCTION_CHAR_EXP",
+    "DetailDes": "RESOURCE_DESC_2011",
+    "IpDes": "RESOURCE_TEXT_2011"
+  },
+  "2012": {
+    "ResourceId": 2012,
+    "ResourceName": "RESOURCE_NAME_2012",
+    "Type": "Ordinary",
+    "UsageMode": "AutoUseWhenAdd",
+    "ResourceSType": "CharExp",
+    "Rarity": 3,
+    "UseEffectType": "AddCharExpItem",
+    "UseParam": 2000,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 280,
+    "AccessKey": [
+      "Dungeon",
+      "Shop"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Char_Exp03.Icon_Resource_Char_Exp03",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "RESOURCE_FUNCTION_CHAR_EXP",
+    "DetailDes": "RESOURCE_DESC_2011",
+    "IpDes": "RESOURCE_TEXT_2011"
+  },
+  "2013": {
+    "ResourceId": 2013,
+    "ResourceName": "RESOURCE_NAME_2013",
+    "Type": "Rare",
+    "UsageMode": "AutoUseWhenAdd",
+    "ResourceSType": "CharExp",
+    "Rarity": 4,
+    "UseEffectType": "AddCharExpItem",
+    "UseParam": 4000,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 560,
+    "AccessKey": [
+      "Dungeon",
+      "Shop"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Char_Exp04.Icon_Resource_Char_Exp04",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "RESOURCE_FUNCTION_CHAR_EXP",
+    "DetailDes": "RESOURCE_DESC_2011",
+    "IpDes": "RESOURCE_TEXT_2011"
+  },
+  "2014": {
+    "ResourceId": 2014,
+    "ResourceName": "RESOURCE_NAME_2014",
+    "Type": "Rare",
+    "UsageMode": "AutoUseWhenAdd",
+    "ResourceSType": "CharExp",
+    "Rarity": 5,
+    "UseEffectType": "AddCharExpItem",
+    "UseParam": 20000,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 2800,
+    "AccessKey": [
+      "Dungeon",
+      "Shop"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Char_Exp05.Icon_Resource_Char_Exp05",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "RESOURCE_FUNCTION_CHAR_EXP",
+    "DetailDes": "RESOURCE_DESC_2011",
+    "IpDes": "RESOURCE_TEXT_2011"
+  },
+  "3001": {
+    "ResourceId": 3001,
+    "ResourceName": "RESOURCE_NAME_3001",
+    "Type": "Ordinary",
+    "Rarity": 3,
+    "MaterialClassify": 3,
+    "ResourceValue": -1,
+    "AccessKey": {},
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Impression_Resouce_01.Icon_Impression_Resouce_01",
+    "Sound": "SOUND_ITEM_JEWELRY",
+    "FunctionDes": "RESOURCE_FUNCTION_IMPRESSION",
+    "DetailDes": "RESOURCE_DESC_3001",
+    "IpDes": "RESOURCE_TEXT_3001"
+  },
+  "3002": {
+    "ResourceId": 3002,
+    "ResourceName": "RESOURCE_NAME_3002",
+    "Type": "Ordinary",
+    "ResourceSType": "PetFood",
+    "Rarity": 3,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 560,
+    "AccessKey": [
+      "Shop",
+      "Home"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_PetFood02.Icon_Resource_PetFood02",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "FunctionDes": "RESOURCE_FUNCTION_PETFOOD",
+    "DetailDes": "RESOURCE_DESC_3002",
+    "IpDes": "RESOURCE_TEXT_3002"
+  },
+  "3003": {
+    "ResourceId": 3003,
+    "ResourceName": "RESOURCE_NAME_3003",
+    "Type": "Rare",
+    "ResourceSType": "PetFood",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 2800,
+    "AccessKey": [
+      "Shop",
+      "Home"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_PetFood03.Icon_Resource_PetFood03",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "FunctionDes": "RESOURCE_FUNCTION_PETFOOD",
+    "DetailDes": "RESOURCE_DESC_3003",
+    "IpDes": "RESOURCE_TEXT_3003"
+  },
+  "10001": {
+    "ResourceId": 10001,
+    "ResourceName": "RESOURCE_NAME_10001",
+    "Type": "Ordinary",
+    "ResourceSType": "Material",
+    "Rarity": 2,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 20,
+    "AccessKey": [
+      "Dungeon"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_BreakRes_Wind02.Icon_BreakRes_Wind02",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "FunctionDes": "RESOURCE_FUNCTION_BREAK_WIND",
+    "DetailDes": "RESOURCE_DESC_10001",
+    "IpDes": "RESOURCE_TEXT_10001"
+  },
+  "10002": {
+    "ResourceId": 10002,
+    "ResourceName": "RESOURCE_NAME_10002",
+    "Type": "Ordinary",
+    "ResourceSType": "Material",
+    "Rarity": 3,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 100,
+    "AccessKey": [
+      "Dungeon",
+      "Shop"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_BreakRes_Wind03.Icon_BreakRes_Wind03",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_BREAK_WIND",
+    "DetailDes": "RESOURCE_DESC_10002",
+    "IpDes": "RESOURCE_TEXT_10002"
+  },
+  "10003": {
+    "ResourceId": 10003,
+    "ResourceName": "RESOURCE_NAME_10003",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 500,
+    "AccessKey": [
+      "Dungeon",
+      "Shop"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_BreakRes_Wind04.Icon_BreakRes_Wind04",
+    "Sound": "SOUND_ITEM_CUTE",
+    "FunctionDes": "RESOURCE_FUNCTION_BREAK_WIND",
+    "DetailDes": "RESOURCE_DESC_10003",
+    "IpDes": "RESOURCE_TEXT_10003"
+  },
+  "10004": {
+    "ResourceId": 10004,
+    "ResourceName": "RESOURCE_NAME_10004",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 2500,
+    "AccessKey": [
+      "Shop"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_BreakRes_Wind05.Icon_BreakRes_Wind05",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "FunctionDes": "RESOURCE_FUNCTION_BREAK_WIND",
+    "DetailDes": "RESOURCE_DESC_10004",
+    "IpDes": "RESOURCE_TEXT_10004"
+  },
+  "10005": {
+    "ResourceId": 10005,
+    "ResourceName": "RESOURCE_NAME_10005",
+    "Type": "Ordinary",
+    "ResourceSType": "Material",
+    "Rarity": 2,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 20,
+    "AccessKey": [
+      "Dungeon"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_BreakRes_Fire02.Icon_BreakRes_Fire02",
+    "Sound": "SOUND_ITEM_CUTE",
+    "FunctionDes": "RESOURCE_FUNCTION_BREAK_FIRE",
+    "DetailDes": "RESOURCE_DESC_10005",
+    "IpDes": "RESOURCE_TEXT_10005"
+  },
+  "10006": {
+    "ResourceId": 10006,
+    "ResourceName": "RESOURCE_NAME_10006",
+    "Type": "Ordinary",
+    "ResourceSType": "Material",
+    "Rarity": 3,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 100,
+    "AccessKey": [
+      "Dungeon",
+      "Shop"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_BreakRes_Fire03.Icon_BreakRes_Fire03",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "FunctionDes": "RESOURCE_FUNCTION_BREAK_FIRE",
+    "DetailDes": "RESOURCE_DESC_10006",
+    "IpDes": "RESOURCE_TEXT_10006"
+  },
+  "10007": {
+    "ResourceId": 10007,
+    "ResourceName": "RESOURCE_NAME_10007",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 500,
+    "AccessKey": [
+      "Dungeon",
+      "Shop"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_BreakRes_Fire04.Icon_BreakRes_Fire04",
+    "Sound": "SOUND_ITEM_JEWELRY",
+    "FunctionDes": "RESOURCE_FUNCTION_BREAK_FIRE",
+    "DetailDes": "RESOURCE_DESC_10007",
+    "IpDes": "RESOURCE_TEXT_10007"
+  },
+  "10008": {
+    "ResourceId": 10008,
+    "ResourceName": "RESOURCE_NAME_10008",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 2500,
+    "AccessKey": [
+      "Shop"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_BreakRes_Fire05.Icon_BreakRes_Fire05",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "FunctionDes": "RESOURCE_FUNCTION_BREAK_FIRE",
+    "DetailDes": "RESOURCE_DESC_10008",
+    "IpDes": "RESOURCE_TEXT_10008"
+  },
+  "10009": {
+    "ResourceId": 10009,
+    "ResourceName": "RESOURCE_NAME_10009",
+    "Type": "Ordinary",
+    "ResourceSType": "Material",
+    "Rarity": 2,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 20,
+    "AccessKey": [
+      "Dungeon"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_BreakRes_Water02.Icon_BreakRes_Water02",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "FunctionDes": "RESOURCE_FUNCTION_BREAK_WATER",
+    "DetailDes": "RESOURCE_DESC_10009",
+    "IpDes": "RESOURCE_TEXT_10009"
+  },
+  "10010": {
+    "ResourceId": 10010,
+    "ResourceName": "RESOURCE_NAME_10010",
+    "Type": "Ordinary",
+    "ResourceSType": "Material",
+    "Rarity": 3,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 100,
+    "AccessKey": [
+      "Dungeon",
+      "Shop"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_BreakRes_Water03.Icon_BreakRes_Water03",
+    "Sound": "SOUND_ITEM_LIQUID",
+    "FunctionDes": "RESOURCE_FUNCTION_BREAK_WATER",
+    "DetailDes": "RESOURCE_DESC_10010",
+    "IpDes": "RESOURCE_TEXT_10010"
+  },
+  "10011": {
+    "ResourceId": 10011,
+    "ResourceName": "RESOURCE_NAME_10011",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 500,
+    "AccessKey": [
+      "Dungeon",
+      "Shop"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_BreakRes_Water04.Icon_BreakRes_Water04",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_BREAK_WATER",
+    "DetailDes": "RESOURCE_DESC_10011",
+    "IpDes": "RESOURCE_TEXT_10011"
+  },
+  "10012": {
+    "ResourceId": 10012,
+    "ResourceName": "RESOURCE_NAME_10012",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 2500,
+    "AccessKey": [
+      "Shop"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_BreakRes_Water05.Icon_BreakRes_Water05",
+    "Sound": "SOUND_ITEM_JEWELRY",
+    "FunctionDes": "RESOURCE_FUNCTION_BREAK_WATER",
+    "DetailDes": "RESOURCE_DESC_10012",
+    "IpDes": "RESOURCE_TEXT_10012"
+  },
+  "10013": {
+    "ResourceId": 10013,
+    "ResourceName": "RESOURCE_NAME_10013",
+    "Type": "Ordinary",
+    "ResourceSType": "Material",
+    "Rarity": 2,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 20,
+    "AccessKey": [
+      "Dungeon"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_BreakRes_Thunder02.Icon_BreakRes_Thunder02",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_BREAK_THUNDER",
+    "DetailDes": "RESOURCE_DESC_10013",
+    "IpDes": "RESOURCE_TEXT_10013"
+  },
+  "10014": {
+    "ResourceId": 10014,
+    "ResourceName": "RESOURCE_NAME_10014",
+    "Type": "Ordinary",
+    "ResourceSType": "Material",
+    "Rarity": 3,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 100,
+    "AccessKey": [
+      "Dungeon",
+      "Shop"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_BreakRes_Thunder03.Icon_BreakRes_Thunder03",
+    "Sound": "SOUND_ITEM_JEWELRY",
+    "FunctionDes": "RESOURCE_FUNCTION_BREAK_THUNDER",
+    "DetailDes": "RESOURCE_DESC_10014",
+    "IpDes": "RESOURCE_TEXT_10014"
+  },
+  "10015": {
+    "ResourceId": 10015,
+    "ResourceName": "RESOURCE_NAME_10015",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 500,
+    "AccessKey": [
+      "Dungeon",
+      "Shop"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_BreakRes_Thunder04.Icon_BreakRes_Thunder04",
+    "Sound": "SOUND_ITEM_CUTE",
+    "FunctionDes": "RESOURCE_FUNCTION_BREAK_THUNDER",
+    "DetailDes": "RESOURCE_DESC_10015",
+    "IpDes": "RESOURCE_TEXT_10015"
+  },
+  "10016": {
+    "ResourceId": 10016,
+    "ResourceName": "RESOURCE_NAME_10016",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 2500,
+    "AccessKey": [
+      "Shop"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_BreakRes_Thunder05.Icon_BreakRes_Thunder05",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "FunctionDes": "RESOURCE_FUNCTION_BREAK_THUNDER",
+    "DetailDes": "RESOURCE_DESC_10016",
+    "IpDes": "RESOURCE_TEXT_10016"
+  },
+  "10017": {
+    "ResourceId": 10017,
+    "ResourceName": "RESOURCE_NAME_10017",
+    "Type": "Ordinary",
+    "ResourceSType": "Material",
+    "Rarity": 2,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 20,
+    "AccessKey": [
+      "Dungeon"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_BreakRes_Light02.Icon_BreakRes_Light02",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_BREAK_LIGHT",
+    "DetailDes": "RESOURCE_DESC_10017",
+    "IpDes": "RESOURCE_TEXT_10017"
+  },
+  "10018": {
+    "ResourceId": 10018,
+    "ResourceName": "RESOURCE_NAME_10018",
+    "Type": "Ordinary",
+    "ResourceSType": "Material",
+    "Rarity": 3,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 100,
+    "AccessKey": [
+      "Dungeon",
+      "Shop"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_BreakRes_Light03.Icon_BreakRes_Light03",
+    "Sound": "SOUND_ITEM_JEWELRY",
+    "FunctionDes": "RESOURCE_FUNCTION_BREAK_LIGHT",
+    "DetailDes": "RESOURCE_DESC_10018",
+    "IpDes": "RESOURCE_TEXT_10018"
+  },
+  "10019": {
+    "ResourceId": 10019,
+    "ResourceName": "RESOURCE_NAME_10019",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 500,
+    "AccessKey": [
+      "Dungeon",
+      "Shop"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_BreakRes_Light04.Icon_BreakRes_Light04",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "RESOURCE_FUNCTION_BREAK_LIGHT",
+    "DetailDes": "RESOURCE_DESC_10019",
+    "IpDes": "RESOURCE_TEXT_10019"
+  },
+  "10020": {
+    "ResourceId": 10020,
+    "ResourceName": "RESOURCE_NAME_10020",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 2500,
+    "AccessKey": [
+      "Shop"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_BreakRes_Light05.Icon_BreakRes_Light05",
+    "Sound": "SOUND_ITEM_JEWELRY",
+    "FunctionDes": "RESOURCE_FUNCTION_BREAK_LIGHT",
+    "DetailDes": "RESOURCE_DESC_10020",
+    "IpDes": "RESOURCE_TEXT_10020"
+  },
+  "10021": {
+    "ResourceId": 10021,
+    "ResourceName": "RESOURCE_NAME_10021",
+    "Type": "Ordinary",
+    "ResourceSType": "Material",
+    "Rarity": 2,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 20,
+    "AccessKey": [
+      "Dungeon"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_BreakRes_Dark02.Icon_BreakRes_Dark02",
+    "Sound": "SOUND_ITEM_JEWELRY",
+    "FunctionDes": "RESOURCE_FUNCTION_BREAK_DARK",
+    "DetailDes": "RESOURCE_DESC_10021",
+    "IpDes": "RESOURCE_TEXT_10021"
+  },
+  "10022": {
+    "ResourceId": 10022,
+    "ResourceName": "RESOURCE_NAME_10022",
+    "Type": "Ordinary",
+    "ResourceSType": "Material",
+    "Rarity": 3,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 100,
+    "AccessKey": [
+      "Dungeon",
+      "Shop"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_BreakRes_Dark03.Icon_BreakRes_Dark03",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_BREAK_DARK",
+    "DetailDes": "RESOURCE_DESC_10022",
+    "IpDes": "RESOURCE_TEXT_10022"
+  },
+  "10023": {
+    "ResourceId": 10023,
+    "ResourceName": "RESOURCE_NAME_10023",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 500,
+    "AccessKey": [
+      "Dungeon",
+      "Shop"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_BreakRes_Dark04.Icon_BreakRes_Dark04",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "RESOURCE_FUNCTION_BREAK_DARK",
+    "DetailDes": "RESOURCE_DESC_10023",
+    "IpDes": "RESOURCE_TEXT_10023"
+  },
+  "10024": {
+    "ResourceId": 10024,
+    "ResourceName": "RESOURCE_NAME_10024",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 2500,
+    "AccessKey": [
+      "Shop"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_BreakRes_Dark05.Icon_BreakRes_Dark05",
+    "Sound": "SOUND_ITEM_LIQUID",
+    "FunctionDes": "RESOURCE_FUNCTION_BREAK_DARK",
+    "DetailDes": "RESOURCE_DESC_10024",
+    "IpDes": "RESOURCE_TEXT_10024"
+  },
+  "11001": {
+    "ResourceId": 11001,
+    "ResourceName": "RESOURCE_NAME_11001",
+    "Type": "Ordinary",
+    "ResourceSType": "Material",
+    "Rarity": 2,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 100,
+    "AccessKey": [
+      "Dungeon"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Melee_Weapon_Part01.Melee_Weapon_Part01",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_BREAK_MELEE",
+    "DetailDes": "RESOURCE_DESC_11001",
+    "IpDes": "RESOURCE_TEXT_11001"
+  },
+  "11002": {
+    "ResourceId": 11002,
+    "ResourceName": "RESOURCE_NAME_11002",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 3,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 500,
+    "AccessKey": [
+      "Dungeon",
+      "Shop"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Melee_Weapon_Part01.Melee_Weapon_Part01",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_BREAK_MELEE",
+    "DetailDes": "RESOURCE_DESC_11002",
+    "IpDes": "RESOURCE_TEXT_11002"
+  },
+  "11003": {
+    "ResourceId": 11003,
+    "ResourceName": "RESOURCE_NAME_11003",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 2500,
+    "AccessKey": [
+      "Dungeon",
+      "Shop"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Melee_Weapon_Part01.Melee_Weapon_Part01",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_BREAK_MELEE",
+    "DetailDes": "RESOURCE_DESC_11003",
+    "IpDes": "RESOURCE_TEXT_11003"
+  },
+  "11004": {
+    "ResourceId": 11004,
+    "ResourceName": "RESOURCE_NAME_11004",
+    "Type": "Ordinary",
+    "ResourceSType": "Material",
+    "Rarity": 2,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 100,
+    "AccessKey": [
+      "Dungeon"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Melee_Weapon_Part02.Melee_Weapon_Part02",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_BREAK_MELEE",
+    "DetailDes": "RESOURCE_DESC_11004",
+    "IpDes": "RESOURCE_TEXT_11004"
+  },
+  "11005": {
+    "ResourceId": 11005,
+    "ResourceName": "RESOURCE_NAME_11005",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 3,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 500,
+    "AccessKey": [
+      "Dungeon",
+      "Shop"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Melee_Weapon_Part02.Melee_Weapon_Part02",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_BREAK_MELEE",
+    "DetailDes": "RESOURCE_DESC_11005",
+    "IpDes": "RESOURCE_TEXT_11005"
+  },
+  "11006": {
+    "ResourceId": 11006,
+    "ResourceName": "RESOURCE_NAME_11006",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 2500,
+    "AccessKey": [
+      "Dungeon",
+      "Shop"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Melee_Weapon_Part02.Melee_Weapon_Part02",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_BREAK_MELEE",
+    "DetailDes": "RESOURCE_DESC_11006",
+    "IpDes": "RESOURCE_TEXT_11006"
+  },
+  "11007": {
+    "ResourceId": 11007,
+    "ResourceName": "RESOURCE_NAME_11007",
+    "Type": "Ordinary",
+    "ResourceSType": "Material",
+    "Rarity": 2,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 100,
+    "AccessKey": [
+      "Dungeon"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Melee_Weapon_Part03.Melee_Weapon_Part03",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_BREAK_MELEE",
+    "DetailDes": "RESOURCE_DESC_11007",
+    "IpDes": "RESOURCE_TEXT_11007"
+  },
+  "11008": {
+    "ResourceId": 11008,
+    "ResourceName": "RESOURCE_NAME_11008",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 3,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 500,
+    "AccessKey": [
+      "Dungeon",
+      "Shop"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Melee_Weapon_Part03.Melee_Weapon_Part03",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_BREAK_MELEE",
+    "DetailDes": "RESOURCE_DESC_11008",
+    "IpDes": "RESOURCE_TEXT_11008"
+  },
+  "11009": {
+    "ResourceId": 11009,
+    "ResourceName": "RESOURCE_NAME_11009",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 2500,
+    "AccessKey": [
+      "Dungeon",
+      "Shop"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Melee_Weapon_Part03.Melee_Weapon_Part03",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_BREAK_MELEE",
+    "DetailDes": "RESOURCE_DESC_11009",
+    "IpDes": "RESOURCE_TEXT_11009"
+  },
+  "11010": {
+    "ResourceId": 11010,
+    "ResourceName": "RESOURCE_NAME_11010",
+    "Type": "Ordinary",
+    "ResourceSType": "Material",
+    "Rarity": 2,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 100,
+    "AccessKey": [
+      "Dungeon"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Range_Weapon_Part01.Range_Weapon_Part01",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_BREAK_RANGE",
+    "DetailDes": "RESOURCE_DESC_11010",
+    "IpDes": "RESOURCE_TEXT_11010"
+  },
+  "11011": {
+    "ResourceId": 11011,
+    "ResourceName": "RESOURCE_NAME_11011",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 3,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 500,
+    "AccessKey": [
+      "Dungeon",
+      "Shop"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Range_Weapon_Part01.Range_Weapon_Part01",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_BREAK_RANGE",
+    "DetailDes": "RESOURCE_DESC_11011",
+    "IpDes": "RESOURCE_TEXT_11011"
+  },
+  "11012": {
+    "ResourceId": 11012,
+    "ResourceName": "RESOURCE_NAME_11012",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 2500,
+    "AccessKey": [
+      "Dungeon",
+      "Shop"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Range_Weapon_Part01.Range_Weapon_Part01",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_BREAK_RANGE",
+    "DetailDes": "RESOURCE_DESC_11012",
+    "IpDes": "RESOURCE_TEXT_11012"
+  },
+  "11013": {
+    "ResourceId": 11013,
+    "ResourceName": "RESOURCE_NAME_11013",
+    "Type": "Ordinary",
+    "ResourceSType": "Material",
+    "Rarity": 2,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 100,
+    "AccessKey": [
+      "Dungeon"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Range_Weapon_Part02.Range_Weapon_Part02",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_BREAK_RANGE",
+    "DetailDes": "RESOURCE_DESC_11013",
+    "IpDes": "RESOURCE_TEXT_11013"
+  },
+  "11014": {
+    "ResourceId": 11014,
+    "ResourceName": "RESOURCE_NAME_11014",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 3,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 500,
+    "AccessKey": [
+      "Dungeon",
+      "Shop"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Range_Weapon_Part02.Range_Weapon_Part02",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_BREAK_RANGE",
+    "DetailDes": "RESOURCE_DESC_11014",
+    "IpDes": "RESOURCE_TEXT_11014"
+  },
+  "11015": {
+    "ResourceId": 11015,
+    "ResourceName": "RESOURCE_NAME_11015",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 2500,
+    "AccessKey": [
+      "Dungeon",
+      "Shop"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Range_Weapon_Part02.Range_Weapon_Part02",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_BREAK_RANGE",
+    "DetailDes": "RESOURCE_DESC_11015",
+    "IpDes": "RESOURCE_TEXT_11015"
+  },
+  "11016": {
+    "ResourceId": 11016,
+    "ResourceName": "RESOURCE_NAME_11016",
+    "Type": "Ordinary",
+    "ResourceSType": "Material",
+    "Rarity": 2,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 100,
+    "AccessKey": [
+      "Dungeon"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Range_Weapon_Part03.Range_Weapon_Part03",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_BREAK_RANGE",
+    "DetailDes": "RESOURCE_DESC_11016",
+    "IpDes": "RESOURCE_TEXT_11016"
+  },
+  "11017": {
+    "ResourceId": 11017,
+    "ResourceName": "RESOURCE_NAME_11017",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 3,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 500,
+    "AccessKey": [
+      "Dungeon",
+      "Shop"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Range_Weapon_Part03.Range_Weapon_Part03",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_BREAK_RANGE",
+    "DetailDes": "RESOURCE_DESC_11017",
+    "IpDes": "RESOURCE_TEXT_11017"
+  },
+  "11018": {
+    "ResourceId": 11018,
+    "ResourceName": "RESOURCE_NAME_11018",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 2500,
+    "AccessKey": [
+      "Dungeon",
+      "Shop"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Range_Weapon_Part03.Range_Weapon_Part03",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_BREAK_RANGE",
+    "DetailDes": "RESOURCE_DESC_11018",
+    "IpDes": "RESOURCE_TEXT_11018"
+  },
+  "12001": {
+    "ResourceId": 12001,
+    "ResourceName": "RESOURCE_NAME_12001",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 5000,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Melee_Weapon_Part01.Melee_Weapon_Part01",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12001",
+    "IpDes": "UI_WEAPON_DESC_10102"
+  },
+  "12002": {
+    "ResourceId": 12002,
+    "ResourceName": "RESOURCE_NAME_12002",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 5000,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Melee_Weapon_Part02.Melee_Weapon_Part02",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12002",
+    "IpDes": "UI_WEAPON_DESC_10102"
+  },
+  "12003": {
+    "ResourceId": 12003,
+    "ResourceName": "RESOURCE_NAME_12003",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 5000,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Melee_Weapon_Part01.Melee_Weapon_Part01",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12003",
+    "IpDes": "UI_WEAPON_DESC_10104"
+  },
+  "12004": {
+    "ResourceId": 12004,
+    "ResourceName": "RESOURCE_NAME_12004",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 5000,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Melee_Weapon_Part02.Melee_Weapon_Part02",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12004",
+    "IpDes": "UI_WEAPON_DESC_10104"
+  },
+  "12005": {
+    "ResourceId": 12005,
+    "ResourceName": "RESOURCE_NAME_12005",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 2500,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Melee_Weapon_Part01.Melee_Weapon_Part01",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12005",
+    "IpDes": "UI_WEAPON_DESC_10101"
+  },
+  "12006": {
+    "ResourceId": 12006,
+    "ResourceName": "RESOURCE_NAME_12006",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 2500,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Melee_Weapon_Part02.Melee_Weapon_Part02",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12006",
+    "IpDes": "UI_WEAPON_DESC_10101"
+  },
+  "12007": {
+    "ResourceId": 12007,
+    "ResourceName": "RESOURCE_NAME_12007",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 2500,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Melee_Weapon_Part01.Melee_Weapon_Part01",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12007",
+    "IpDes": "UI_WEAPON_DESC_10103"
+  },
+  "12008": {
+    "ResourceId": 12008,
+    "ResourceName": "RESOURCE_NAME_12008",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 2500,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Melee_Weapon_Part02.Melee_Weapon_Part02",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12008",
+    "IpDes": "UI_WEAPON_DESC_10103"
+  },
+  "12009": {
+    "ResourceId": 12009,
+    "ResourceName": "RESOURCE_NAME_12009",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 2500,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Melee_Weapon_Part01.Melee_Weapon_Part01",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12009",
+    "IpDes": "UI_WEAPON_DESC_10105"
+  },
+  "12010": {
+    "ResourceId": 12010,
+    "ResourceName": "RESOURCE_NAME_12010",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 2500,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Melee_Weapon_Part02.Melee_Weapon_Part02",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12010",
+    "IpDes": "UI_WEAPON_DESC_10105"
+  },
+  "12011": {
+    "ResourceId": 12011,
+    "ResourceName": "RESOURCE_NAME_12011",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 5000,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Melee_Weapon_Part01.Melee_Weapon_Part01",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12011",
+    "IpDes": "UI_WEAPON_DESC_10203"
+  },
+  "12012": {
+    "ResourceId": 12012,
+    "ResourceName": "RESOURCE_NAME_12012",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 5000,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Melee_Weapon_Part02.Melee_Weapon_Part02",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12012",
+    "IpDes": "UI_WEAPON_DESC_10203"
+  },
+  "12013": {
+    "ResourceId": 12013,
+    "ResourceName": "RESOURCE_NAME_12013",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 5000,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Melee_Weapon_Part01.Melee_Weapon_Part01",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12013",
+    "IpDes": "UI_WEAPON_DESC_10201"
+  },
+  "12014": {
+    "ResourceId": 12014,
+    "ResourceName": "RESOURCE_NAME_12014",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 5000,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Melee_Weapon_Part02.Melee_Weapon_Part02",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12014",
+    "IpDes": "UI_WEAPON_DESC_10201"
+  },
+  "12015": {
+    "ResourceId": 12015,
+    "ResourceName": "RESOURCE_NAME_12015",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 5000,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Melee_Weapon_Part01.Melee_Weapon_Part01",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12015",
+    "IpDes": "UI_WEAPON_DESC_10204"
+  },
+  "12016": {
+    "ResourceId": 12016,
+    "ResourceName": "RESOURCE_NAME_12016",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 5000,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Melee_Weapon_Part02.Melee_Weapon_Part02",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12016",
+    "IpDes": "UI_WEAPON_DESC_10204"
+  },
+  "12017": {
+    "ResourceId": 12017,
+    "ResourceName": "RESOURCE_NAME_12017",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 2500,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Melee_Weapon_Part01.Melee_Weapon_Part01",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12017",
+    "IpDes": "UI_WEAPON_DESC_10202"
+  },
+  "12018": {
+    "ResourceId": 12018,
+    "ResourceName": "RESOURCE_NAME_12018",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 2500,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Melee_Weapon_Part02.Melee_Weapon_Part02",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12018",
+    "IpDes": "UI_WEAPON_DESC_10202"
+  },
+  "12019": {
+    "ResourceId": 12019,
+    "ResourceName": "RESOURCE_NAME_12019",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 2500,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Melee_Weapon_Part01.Melee_Weapon_Part01",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12019",
+    "IpDes": "UI_WEAPON_DESC_10206"
+  },
+  "12020": {
+    "ResourceId": 12020,
+    "ResourceName": "RESOURCE_NAME_12020",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 2500,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Melee_Weapon_Part02.Melee_Weapon_Part02",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12020",
+    "IpDes": "UI_WEAPON_DESC_10206"
+  },
+  "12021": {
+    "ResourceId": 12021,
+    "ResourceName": "RESOURCE_NAME_12021",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 5000,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Melee_Weapon_Part01.Melee_Weapon_Part01",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12021",
+    "IpDes": "UI_WEAPON_DESC_10301"
+  },
+  "12022": {
+    "ResourceId": 12022,
+    "ResourceName": "RESOURCE_NAME_12022",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 5000,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Melee_Weapon_Part02.Melee_Weapon_Part02",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12022",
+    "IpDes": "UI_WEAPON_DESC_10301"
+  },
+  "12023": {
+    "ResourceId": 12023,
+    "ResourceName": "RESOURCE_NAME_12023",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 2500,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Melee_Weapon_Part01.Melee_Weapon_Part01",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12023",
+    "IpDes": "UI_WEAPON_DESC_10302"
+  },
+  "12024": {
+    "ResourceId": 12024,
+    "ResourceName": "RESOURCE_NAME_12024",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 2500,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Melee_Weapon_Part02.Melee_Weapon_Part02",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12024",
+    "IpDes": "UI_WEAPON_DESC_10302"
+  },
+  "12025": {
+    "ResourceId": 12025,
+    "ResourceName": "RESOURCE_NAME_12025",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 2500,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Melee_Weapon_Part01.Melee_Weapon_Part01",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12025",
+    "IpDes": "UI_WEAPON_DESC_10601"
+  },
+  "12026": {
+    "ResourceId": 12026,
+    "ResourceName": "RESOURCE_NAME_12026",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 2500,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Melee_Weapon_Part02.Melee_Weapon_Part02",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12026",
+    "IpDes": "UI_WEAPON_DESC_10601"
+  },
+  "12027": {
+    "ResourceId": 12027,
+    "ResourceName": "RESOURCE_NAME_12027",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 2500,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Melee_Weapon_Part03.Melee_Weapon_Part03",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12027",
+    "IpDes": "UI_WEAPON_DESC_10601"
+  },
+  "12028": {
+    "ResourceId": 12028,
+    "ResourceName": "RESOURCE_NAME_12028",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 5000,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Melee_Weapon_Part01.Melee_Weapon_Part01",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12028",
+    "IpDes": "UI_WEAPON_DESC_10501"
+  },
+  "12029": {
+    "ResourceId": 12029,
+    "ResourceName": "RESOURCE_NAME_12029",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 5000,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Melee_Weapon_Part02.Melee_Weapon_Part02",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12029",
+    "IpDes": "UI_WEAPON_DESC_10501"
+  },
+  "12030": {
+    "ResourceId": 12030,
+    "ResourceName": "RESOURCE_NAME_12030",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 5000,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Range_Weapon_Part02.Range_Weapon_Part02",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12030",
+    "IpDes": "UI_WEAPON_DESC_20203"
+  },
+  "12031": {
+    "ResourceId": 12031,
+    "ResourceName": "RESOURCE_NAME_12031",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 5000,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Range_Weapon_Part03.Range_Weapon_Part03",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12031",
+    "IpDes": "UI_WEAPON_DESC_20203"
+  },
+  "12032": {
+    "ResourceId": 12032,
+    "ResourceName": "RESOURCE_NAME_12032",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 2500,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Range_Weapon_Part02.Range_Weapon_Part02",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12032",
+    "IpDes": "UI_WEAPON_DESC_20201"
+  },
+  "12033": {
+    "ResourceId": 12033,
+    "ResourceName": "RESOURCE_NAME_12033",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 2500,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Range_Weapon_Part03.Range_Weapon_Part03",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12033",
+    "IpDes": "UI_WEAPON_DESC_20201"
+  },
+  "12034": {
+    "ResourceId": 12034,
+    "ResourceName": "RESOURCE_NAME_12034",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 5000,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Range_Weapon_Part02.Range_Weapon_Part02",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12034",
+    "IpDes": "UI_WEAPON_DESC_20301"
+  },
+  "12035": {
+    "ResourceId": 12035,
+    "ResourceName": "RESOURCE_NAME_12035",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 5000,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Range_Weapon_Part03.Range_Weapon_Part03",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12035",
+    "IpDes": "UI_WEAPON_DESC_20301"
+  },
+  "12036": {
+    "ResourceId": 12036,
+    "ResourceName": "RESOURCE_NAME_12036",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 5000,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Range_Weapon_Part01.Range_Weapon_Part01",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12036",
+    "IpDes": "UI_WEAPON_DESC_20301"
+  },
+  "12037": {
+    "ResourceId": 12037,
+    "ResourceName": "RESOURCE_NAME_12037",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 2500,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Range_Weapon_Part02.Range_Weapon_Part02",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12037",
+    "IpDes": "UI_WEAPON_DESC_20303"
+  },
+  "12038": {
+    "ResourceId": 12038,
+    "ResourceName": "RESOURCE_NAME_12038",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 2500,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Range_Weapon_Part03.Range_Weapon_Part03",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12038",
+    "IpDes": "UI_WEAPON_DESC_20303"
+  },
+  "12039": {
+    "ResourceId": 12039,
+    "ResourceName": "RESOURCE_NAME_12039",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 2500,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Range_Weapon_Part01.Range_Weapon_Part01",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12039",
+    "IpDes": "UI_WEAPON_DESC_20303"
+  },
+  "12040": {
+    "ResourceId": 12040,
+    "ResourceName": "RESOURCE_NAME_12040",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 5000,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Range_Weapon_Part02.Range_Weapon_Part02",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12040",
+    "IpDes": "UI_WEAPON_DESC_20402"
+  },
+  "12041": {
+    "ResourceId": 12041,
+    "ResourceName": "RESOURCE_NAME_12041",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 5000,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Range_Weapon_Part03.Range_Weapon_Part03",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12041",
+    "IpDes": "UI_WEAPON_DESC_20402"
+  },
+  "12042": {
+    "ResourceId": 12042,
+    "ResourceName": "RESOURCE_NAME_12042",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 5000,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Range_Weapon_Part01.Range_Weapon_Part01",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12042",
+    "IpDes": "UI_WEAPON_DESC_20402"
+  },
+  "12043": {
+    "ResourceId": 12043,
+    "ResourceName": "RESOURCE_NAME_12043",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 2500,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Range_Weapon_Part02.Range_Weapon_Part02",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12043",
+    "IpDes": "UI_WEAPON_DESC_20403"
+  },
+  "12044": {
+    "ResourceId": 12044,
+    "ResourceName": "RESOURCE_NAME_12044",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 2500,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Range_Weapon_Part03.Range_Weapon_Part03",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12044",
+    "IpDes": "UI_WEAPON_DESC_20403"
+  },
+  "12045": {
+    "ResourceId": 12045,
+    "ResourceName": "RESOURCE_NAME_12045",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 2500,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Range_Weapon_Part01.Range_Weapon_Part01",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12045",
+    "IpDes": "UI_WEAPON_DESC_20403"
+  },
+  "12046": {
+    "ResourceId": 12046,
+    "ResourceName": "RESOURCE_NAME_12046",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 2500,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Range_Weapon_Part02.Range_Weapon_Part02",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12046",
+    "IpDes": "UI_WEAPON_DESC_20401"
+  },
+  "12047": {
+    "ResourceId": 12047,
+    "ResourceName": "RESOURCE_NAME_12047",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 2500,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Range_Weapon_Part03.Range_Weapon_Part03",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12047",
+    "IpDes": "UI_WEAPON_DESC_20401"
+  },
+  "12048": {
+    "ResourceId": 12048,
+    "ResourceName": "RESOURCE_NAME_12048",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 2500,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Range_Weapon_Part01.Range_Weapon_Part01",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12048",
+    "IpDes": "UI_WEAPON_DESC_20401"
+  },
+  "12049": {
+    "ResourceId": 12049,
+    "ResourceName": "RESOURCE_NAME_12049",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 5000,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Range_Weapon_Part02.Range_Weapon_Part02",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12049",
+    "IpDes": "UI_WEAPON_DESC_20502"
+  },
+  "12050": {
+    "ResourceId": 12050,
+    "ResourceName": "RESOURCE_NAME_12050",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 5000,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Range_Weapon_Part03.Range_Weapon_Part03",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12050",
+    "IpDes": "UI_WEAPON_DESC_20502"
+  },
+  "12051": {
+    "ResourceId": 12051,
+    "ResourceName": "RESOURCE_NAME_12051",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 5000,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Range_Weapon_Part01.Range_Weapon_Part01",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12051",
+    "IpDes": "UI_WEAPON_DESC_20502"
+  },
+  "12052": {
+    "ResourceId": 12052,
+    "ResourceName": "RESOURCE_NAME_12052",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 5000,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Range_Weapon_Part02.Range_Weapon_Part02",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12052",
+    "IpDes": "UI_WEAPON_DESC_20504"
+  },
+  "12053": {
+    "ResourceId": 12053,
+    "ResourceName": "RESOURCE_NAME_12053",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 5000,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Range_Weapon_Part03.Range_Weapon_Part03",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12053",
+    "IpDes": "UI_WEAPON_DESC_20504"
+  },
+  "12054": {
+    "ResourceId": 12054,
+    "ResourceName": "RESOURCE_NAME_12054",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 5000,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Range_Weapon_Part01.Range_Weapon_Part01",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12054",
+    "IpDes": "UI_WEAPON_DESC_20504"
+  },
+  "12055": {
+    "ResourceId": 12055,
+    "ResourceName": "RESOURCE_NAME_12055",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 5000,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Range_Weapon_Part02.Range_Weapon_Part02",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12055",
+    "IpDes": "UI_WEAPON_DESC_20507"
+  },
+  "12056": {
+    "ResourceId": 12056,
+    "ResourceName": "RESOURCE_NAME_12056",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 5000,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Range_Weapon_Part03.Range_Weapon_Part03",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12056",
+    "IpDes": "UI_WEAPON_DESC_20507"
+  },
+  "12057": {
+    "ResourceId": 12057,
+    "ResourceName": "RESOURCE_NAME_12057",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 5000,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Range_Weapon_Part01.Range_Weapon_Part01",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12057",
+    "IpDes": "UI_WEAPON_DESC_20507"
+  },
+  "12058": {
+    "ResourceId": 12058,
+    "ResourceName": "RESOURCE_NAME_12058",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 2500,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Range_Weapon_Part02.Range_Weapon_Part02",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12058",
+    "IpDes": "UI_WEAPON_DESC_20503"
+  },
+  "12059": {
+    "ResourceId": 12059,
+    "ResourceName": "RESOURCE_NAME_12059",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 2500,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Range_Weapon_Part03.Range_Weapon_Part03",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12059",
+    "IpDes": "UI_WEAPON_DESC_20503"
+  },
+  "12060": {
+    "ResourceId": 12060,
+    "ResourceName": "RESOURCE_NAME_12060",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 2500,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Range_Weapon_Part01.Range_Weapon_Part01",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12060",
+    "IpDes": "UI_WEAPON_DESC_20503"
+  },
+  "12061": {
+    "ResourceId": 12061,
+    "ResourceName": "RESOURCE_NAME_12061",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 2500,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Range_Weapon_Part02.Range_Weapon_Part02",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12061",
+    "IpDes": "UI_WEAPON_DESC_20501"
+  },
+  "12062": {
+    "ResourceId": 12062,
+    "ResourceName": "RESOURCE_NAME_12062",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 2500,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Range_Weapon_Part03.Range_Weapon_Part03",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12062",
+    "IpDes": "UI_WEAPON_DESC_20501"
+  },
+  "12063": {
+    "ResourceId": 12063,
+    "ResourceName": "RESOURCE_NAME_12063",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 2500,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Range_Weapon_Part01.Range_Weapon_Part01",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12063",
+    "IpDes": "UI_WEAPON_DESC_20501"
+  },
+  "12064": {
+    "ResourceId": 12064,
+    "ResourceName": "RESOURCE_NAME_12064",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 5000,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Melee_Weapon_Part03.Melee_Weapon_Part03",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12064",
+    "IpDes": "UI_WEAPON_DESC_20602"
+  },
+  "12065": {
+    "ResourceId": 12065,
+    "ResourceName": "RESOURCE_NAME_12065",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 5000,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Melee_Weapon_Part01.Melee_Weapon_Part01",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12065",
+    "IpDes": "UI_WEAPON_DESC_20602"
+  },
+  "12066": {
+    "ResourceId": 12066,
+    "ResourceName": "RESOURCE_NAME_12066",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 5000,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Melee_Weapon_Part01.Melee_Weapon_Part01",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12066",
+    "IpDes": "UI_WEAPON_DESC_20602"
+  },
+  "12067": {
+    "ResourceId": 12067,
+    "ResourceName": "RESOURCE_NAME_12067",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 5000,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Range_Weapon_Part02.Range_Weapon_Part02",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12067",
+    "IpDes": "UI_WEAPON_DESC_20602"
+  },
+  "12068": {
+    "ResourceId": 12068,
+    "ResourceName": "RESOURCE_NAME_12068",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 2500,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Melee_Weapon_Part03.Melee_Weapon_Part03",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12068",
+    "IpDes": "UI_WEAPON_DESC_20601"
+  },
+  "12069": {
+    "ResourceId": 12069,
+    "ResourceName": "RESOURCE_NAME_12069",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 2500,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Melee_Weapon_Part01.Melee_Weapon_Part01",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12069",
+    "IpDes": "UI_WEAPON_DESC_20601"
+  },
+  "12070": {
+    "ResourceId": 12070,
+    "ResourceName": "RESOURCE_NAME_12070",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 2500,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Melee_Weapon_Part01.Melee_Weapon_Part01",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12070",
+    "IpDes": "UI_WEAPON_DESC_20601"
+  },
+  "12071": {
+    "ResourceId": 12071,
+    "ResourceName": "RESOURCE_NAME_12071",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 2500,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Range_Weapon_Part02.Range_Weapon_Part02",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGING",
+    "DetailDes": "RESOURCE_DESC_12071",
+    "IpDes": "UI_WEAPON_DESC_20601"
+  },
+  "19000": {
+    "ResourceId": 19000,
+    "ResourceName": "RESOURCE_NAME_19000",
+    "Type": "Ordinary",
+    "ResourceSType": "Material",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 80,
+    "AccessKey": [
+      "Text_Monster"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Entertainment_Emotion_1",
+    "Sound": "SOUND_ITEM_JEWELRY",
+    "FunctionDes": "RESOURCE_FUNCTION_INVITE",
+    "DetailDes": "RESOURCE_DESC_19000",
+    "IpDes": "RESOURCE_TEXT_19000"
+  },
+  "19001": {
+    "ResourceId": 19001,
+    "ResourceName": "RESOURCE_NAME_19001",
+    "Type": "Ordinary",
+    "ResourceSType": "Material",
+    "Rarity": 3,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 40,
+    "AccessKey": [
+      "Text_Monster"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Entertainment_Emotion_1",
+    "Sound": "SOUND_ITEM_JEWELRY",
+    "FunctionDes": "RESOURCE_FUNCTION_INVITE",
+    "DetailDes": "RESOURCE_DESC_19001",
+    "IpDes": "RESOURCE_TEXT_19001"
+  },
+  "19002": {
+    "ResourceId": 19002,
+    "ResourceName": "RESOURCE_NAME_19002",
+    "Type": "Ordinary",
+    "ResourceSType": "Material",
+    "Rarity": 3,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 40,
+    "AccessKey": [
+      "Text_Monster"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Entertainment_Emotion_1",
+    "Sound": "SOUND_ITEM_JEWELRY",
+    "FunctionDes": "RESOURCE_FUNCTION_INVITE",
+    "DetailDes": "RESOURCE_DESC_19002",
+    "IpDes": "RESOURCE_TEXT_19002"
+  },
+  "19003": {
+    "ResourceId": 19003,
+    "ResourceName": "RESOURCE_NAME_19003",
+    "Type": "Ordinary",
+    "ResourceSType": "Material",
+    "Rarity": 3,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 40,
+    "AccessKey": [
+      "Text_Monster"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Entertainment_Emotion_1",
+    "Sound": "SOUND_ITEM_JEWELRY",
+    "FunctionDes": "RESOURCE_FUNCTION_INVITE",
+    "DetailDes": "RESOURCE_DESC_19003",
+    "IpDes": "RESOURCE_TEXT_19003"
+  },
+  "19004": {
+    "ResourceId": 19004,
+    "ResourceName": "RESOURCE_NAME_19004",
+    "Type": "Ordinary",
+    "ResourceSType": "Material",
+    "Rarity": 3,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 40,
+    "AccessKey": [
+      "Text_Monster"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Entertainment_Emotion_1",
+    "Sound": "SOUND_ITEM_JEWELRY",
+    "FunctionDes": "RESOURCE_FUNCTION_INVITE",
+    "DetailDes": "RESOURCE_DESC_19004",
+    "IpDes": "RESOURCE_TEXT_19004"
+  },
+  "19005": {
+    "ResourceId": 19005,
+    "ResourceName": "RESOURCE_NAME_19005",
+    "Type": "Ordinary",
+    "ResourceSType": "Material",
+    "Rarity": 3,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 40,
+    "AccessKey": [
+      "Text_Monster"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Entertainment_Emotion_1",
+    "Sound": "SOUND_ITEM_JEWELRY",
+    "FunctionDes": "RESOURCE_FUNCTION_INVITE",
+    "DetailDes": "RESOURCE_DESC_19005",
+    "IpDes": "RESOURCE_TEXT_19005"
+  },
+  "19006": {
+    "ResourceId": 19006,
+    "ResourceName": "RESOURCE_NAME_19006",
+    "Type": "Ordinary",
+    "ResourceSType": "Material",
+    "Rarity": 3,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 40,
+    "AccessKey": [
+      "Text_Monster"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Entertainment_Emotion_1",
+    "Sound": "SOUND_ITEM_JEWELRY",
+    "FunctionDes": "RESOURCE_FUNCTION_INVITE",
+    "DetailDes": "RESOURCE_DESC_19006",
+    "IpDes": "RESOURCE_TEXT_19006"
+  },
+  "19007": {
+    "ResourceId": 19007,
+    "ResourceName": "RESOURCE_NAME_19007",
+    "Type": "Ordinary",
+    "ResourceSType": "Material",
+    "Rarity": 3,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 40,
+    "AccessKey": [
+      "Text_Monster"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Entertainment_Emotion_1",
+    "Sound": "SOUND_ITEM_JEWELRY",
+    "FunctionDes": "RESOURCE_FUNCTION_INVITE",
+    "DetailDes": "RESOURCE_DESC_19007",
+    "IpDes": "RESOURCE_TEXT_19007"
+  },
+  "19008": {
+    "ResourceId": 19008,
+    "ResourceName": "RESOURCE_NAME_19008",
+    "Type": "Ordinary",
+    "ResourceSType": "Material",
+    "Rarity": 3,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 40,
+    "AccessKey": [
+      "Text_Monster"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Entertainment_Emotion_1",
+    "Sound": "SOUND_ITEM_JEWELRY",
+    "FunctionDes": "RESOURCE_FUNCTION_INVITE",
+    "DetailDes": "RESOURCE_DESC_19008",
+    "IpDes": "RESOURCE_TEXT_19008"
+  },
+  "20001": {
+    "ResourceId": 20001,
+    "ResourceName": "RESOURCE_NAME_20001",
+    "Type": "Ordinary",
+    "ResourceSType": "Material",
+    "Rarity": 3,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 40,
+    "AccessKey": [
+      "Dungeon",
+      "Shop",
+      "Text_Monster"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Ganran01.Icon_Resource_Ganran01",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGE",
+    "DetailDes": "RESOURCE_DESC_20001",
+    "IpDes": "RESOURCE_TEXT_20001"
+  },
+  "20002": {
+    "ResourceId": 20002,
+    "ResourceName": "RESOURCE_NAME_20002",
+    "Type": "Ordinary",
+    "ResourceSType": "Material",
+    "Rarity": 2,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 8,
+    "AccessKey": [
+      "Dungeon",
+      "Shop",
+      "Text_Monster"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Normal02.Icon_Resource_Normal02",
+    "Sound": "SOUND_ITEM_LIQUID",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGE",
+    "DetailDes": "RESOURCE_DESC_20002",
+    "IpDes": "RESOURCE_TEXT_20002"
+  },
+  "20003": {
+    "ResourceId": 20003,
+    "ResourceName": "RESOURCE_NAME_20003",
+    "Type": "Ordinary",
+    "ResourceSType": "Material",
+    "Rarity": 3,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 40,
+    "AccessKey": [
+      "Dungeon",
+      "Shop",
+      "Text_Monster"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Jiaohui02.Icon_Resource_Jiaohui02",
+    "Sound": "SOUND_ITEM_LIQUID",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGE",
+    "DetailDes": "RESOURCE_DESC_20003",
+    "IpDes": "RESOURCE_TEXT_20003"
+  },
+  "20004": {
+    "ResourceId": 20004,
+    "ResourceName": "RESOURCE_NAME_20004",
+    "Type": "Ordinary",
+    "ResourceSType": "Material",
+    "Rarity": 3,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 40,
+    "AccessKey": [
+      "Dungeon",
+      "Shop",
+      "Text_Monster"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Diguo01.Icon_Resource_Diguo01",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGE",
+    "DetailDes": "RESOURCE_DESC_20004",
+    "IpDes": "RESOURCE_TEXT_20004"
+  },
+  "20005": {
+    "ResourceId": 20005,
+    "ResourceName": "RESOURCE_NAME_20005",
+    "Type": "Ordinary",
+    "ResourceSType": "Material",
+    "Rarity": 2,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 8,
+    "AccessKey": [
+      "Dungeon",
+      "Shop",
+      "Text_Monster"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Normal04.Icon_Resource_Normal04",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGE",
+    "DetailDes": "RESOURCE_DESC_20005",
+    "IpDes": "RESOURCE_TEXT_20005"
+  },
+  "20006": {
+    "ResourceId": 20006,
+    "ResourceName": "RESOURCE_NAME_20006",
+    "Type": "Ordinary",
+    "ResourceSType": "Material",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 500,
+    "AccessKey": [
+      "Dungeon",
+      "Shop",
+      "Text_Monster"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Jiaohui01.Icon_Resource_Jiaohui01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGE",
+    "DetailDes": "RESOURCE_DESC_20006",
+    "IpDes": "RESOURCE_TEXT_20006"
+  },
+  "20007": {
+    "ResourceId": 20007,
+    "ResourceName": "RESOURCE_NAME_20007",
+    "Type": "Ordinary",
+    "ResourceSType": "Material",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 500,
+    "AccessKey": [
+      "Dungeon",
+      "Shop",
+      "Text_Monster"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Diguo02.Icon_Resource_Diguo02",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGE",
+    "DetailDes": "RESOURCE_DESC_20007",
+    "IpDes": "RESOURCE_TEXT_20007"
+  },
+  "20008": {
+    "ResourceId": 20008,
+    "ResourceName": "RESOURCE_NAME_20008",
+    "Type": "Ordinary",
+    "ResourceSType": "Material",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 600,
+    "AccessKey": {},
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Ganran02.Icon_Resource_Ganran02",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGE",
+    "DetailDes": "RESOURCE_DESC_20008",
+    "IpDes": "RESOURCE_TEXT_20008"
+  },
+  "20009": {
+    "ResourceId": 20009,
+    "ResourceName": "RESOURCE_NAME_20009",
+    "Type": "Ordinary",
+    "ResourceSType": "Material",
+    "Rarity": 2,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 8,
+    "AccessKey": [
+      "Dungeon",
+      "Shop",
+      "Text_Monster"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Normal03.Icon_Resource_Normal03",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGE",
+    "DetailDes": "RESOURCE_DESC_20009",
+    "IpDes": "RESOURCE_TEXT_20009"
+  },
+  "20010": {
+    "ResourceId": 20010,
+    "ResourceName": "RESOURCE_NAME_20010",
+    "Type": "Ordinary",
+    "ResourceSType": "Material",
+    "Rarity": 2,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 4,
+    "AccessKey": [
+      "Dungeon",
+      "Shop",
+      "Text_Monster"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Forge_Low01.Icon_Resource_Forge_Low01",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGE",
+    "DetailDes": "RESOURCE_DESC_20010",
+    "IpDes": "RESOURCE_TEXT_20010"
+  },
+  "20011": {
+    "ResourceId": 20011,
+    "ResourceName": "RESOURCE_NAME_20011",
+    "Type": "Ordinary",
+    "ResourceSType": "Material",
+    "Rarity": 2,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 8,
+    "AccessKey": [
+      "Dungeon",
+      "Shop",
+      "Text_Monster"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Forge_Low02.Icon_Resource_Forge_Low02",
+    "Sound": "SOUND_ITEM_LIQUID",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGE",
+    "DetailDes": "RESOURCE_DESC_20011",
+    "IpDes": "RESOURCE_TEXT_20011"
+  },
+  "20012": {
+    "ResourceId": 20012,
+    "ResourceName": "RESOURCE_NAME_20012",
+    "Type": "Ordinary",
+    "ResourceSType": "Material",
+    "Rarity": 2,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 8,
+    "AccessKey": [
+      "Dungeon",
+      "Shop",
+      "Text_Monster"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Forge_Low03.Icon_Resource_Forge_Low03",
+    "Sound": "SOUND_ITEM_JEWELRY",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGE",
+    "DetailDes": "RESOURCE_DESC_20012",
+    "IpDes": "RESOURCE_TEXT_20012"
+  },
+  "20013": {
+    "ResourceId": 20013,
+    "ResourceName": "RESOURCE_NAME_20013",
+    "Type": "Ordinary",
+    "ResourceSType": "Material",
+    "Rarity": 3,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 100,
+    "AccessKey": [
+      "Dungeon",
+      "Shop"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Forge_Medium01.Icon_Resource_Forge_Medium01",
+    "Sound": "SOUND_ITEM_JEWELRY",
+    "FunctionDes": "RESOURCE_FUNCTION_SKILL",
+    "DetailDes": "RESOURCE_DESC_20013",
+    "IpDes": "RESOURCE_TEXT_20013"
+  },
+  "20014": {
+    "ResourceId": 20014,
+    "ResourceName": "RESOURCE_NAME_20014",
+    "Type": "Ordinary",
+    "ResourceSType": "Material",
+    "Rarity": 3,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 80,
+    "AccessKey": [
+      "Dungeon",
+      "Shop",
+      "Text_Monster"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Forge_Medium02.Icon_Resource_Forge_Medium02",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGE",
+    "DetailDes": "RESOURCE_DESC_20014",
+    "IpDes": "RESOURCE_TEXT_20014"
+  },
+  "20015": {
+    "ResourceId": 20015,
+    "ResourceName": "RESOURCE_NAME_20015",
+    "Type": "Ordinary",
+    "ResourceSType": "Material",
+    "Rarity": 3,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 40,
+    "AccessKey": [
+      "Dungeon",
+      "Shop",
+      "Text_Monster"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Forge_Medium03.Icon_Resource_Forge_Medium03",
+    "Sound": "SOUND_ITEM_JEWELRY",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGE",
+    "DetailDes": "RESOURCE_DESC_20015",
+    "IpDes": "RESOURCE_TEXT_20015"
+  },
+  "20016": {
+    "ResourceId": 20016,
+    "ResourceName": "RESOURCE_NAME_20016",
+    "Type": "Ordinary",
+    "ResourceSType": "Material",
+    "Rarity": 3,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 40,
+    "AccessKey": [
+      "Dungeon",
+      "Shop",
+      "Text_Monster"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Forge_Medium04.Icon_Resource_Forge_Medium04",
+    "Sound": "SOUND_ITEM_JEWELRY",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGE",
+    "DetailDes": "RESOURCE_DESC_20016",
+    "IpDes": "RESOURCE_TEXT_20016"
+  },
+  "20017": {
+    "ResourceId": 20017,
+    "ResourceName": "RESOURCE_NAME_20017",
+    "Type": "Ordinary",
+    "ResourceSType": "Material",
+    "Rarity": 3,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 80,
+    "AccessKey": [
+      "Dungeon",
+      "Shop",
+      "Text_Monster"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Forge_Medium05.Icon_Resource_Forge_Medium05",
+    "Sound": "SOUND_ITEM_JEWELRY",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGE",
+    "DetailDes": "RESOURCE_DESC_20017",
+    "IpDes": "RESOURCE_TEXT_20017"
+  },
+  "20018": {
+    "ResourceId": 20018,
+    "ResourceName": "RESOURCE_NAME_20018",
+    "Type": "Ordinary",
+    "ResourceSType": "Material",
+    "Rarity": 3,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 80,
+    "AccessKey": [
+      "Dungeon",
+      "Shop",
+      "Text_Monster"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Forge_Medium06.Icon_Resource_Forge_Medium06",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGE",
+    "DetailDes": "RESOURCE_DESC_20018",
+    "IpDes": "RESOURCE_TEXT_20018"
+  },
+  "20019": {
+    "ResourceId": 20019,
+    "ResourceName": "RESOURCE_NAME_20019",
+    "Type": "Ordinary",
+    "ResourceSType": "Material",
+    "Rarity": 3,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 80,
+    "AccessKey": [
+      "Dungeon",
+      "Shop",
+      "Text_Monster"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Forge_Medium07.Icon_Resource_Forge_Medium07",
+    "Sound": "SOUND_ITEM_LIQUID",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGE",
+    "DetailDes": "RESOURCE_DESC_20019",
+    "IpDes": "RESOURCE_TEXT_20019"
+  },
+  "20020": {
+    "ResourceId": 20020,
+    "ResourceName": "RESOURCE_NAME_20020",
+    "Type": "Ordinary",
+    "ResourceSType": "Material",
+    "Rarity": 3,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 80,
+    "AccessKey": [
+      "Dungeon",
+      "Shop",
+      "Text_Monster"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Forge_Medium08.Icon_Resource_Forge_Medium08",
+    "Sound": "SOUND_ITEM_LIQUID",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGE",
+    "DetailDes": "RESOURCE_DESC_20020",
+    "IpDes": "RESOURCE_TEXT_20020"
+  },
+  "20021": {
+    "ResourceId": 20021,
+    "ResourceName": "RESOURCE_NAME_20021",
+    "Type": "Ordinary",
+    "ResourceSType": "Material",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 600,
+    "AccessKey": [
+      "Dungeon"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Forge_High01.Icon_Resource_Forge_High01",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGE",
+    "DetailDes": "RESOURCE_DESC_20021",
+    "IpDes": "RESOURCE_TEXT_20021"
+  },
+  "20022": {
+    "ResourceId": 20022,
+    "ResourceName": "RESOURCE_NAME_20022",
+    "Type": "Ordinary",
+    "ResourceSType": "Material",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 500,
+    "AccessKey": [
+      "Dungeon",
+      "Shop",
+      "Text_Monster"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Forge_High02.Icon_Resource_Forge_High02",
+    "Sound": "SOUND_ITEM_JEWELRY",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGE",
+    "DetailDes": "RESOURCE_DESC_20022",
+    "IpDes": "RESOURCE_TEXT_20022"
+  },
+  "20023": {
+    "ResourceId": 20023,
+    "ResourceName": "RESOURCE_NAME_20023",
+    "Type": "Ordinary",
+    "ResourceSType": "Material",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 440,
+    "AccessKey": [
+      "Home"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Forge_High03.Icon_Resource_Forge_High03",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGE",
+    "DetailDes": "RESOURCE_DESC_20023",
+    "IpDes": "RESOURCE_TEXT_20023"
+  },
+  "20024": {
+    "ResourceId": 20024,
+    "ResourceName": "RESOURCE_NAME_20024",
+    "Type": "Ordinary",
+    "ResourceSType": "Material",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 600,
+    "AccessKey": [
+      "Dungeon"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Forge_High04.Icon_Resource_Forge_High04",
+    "Sound": "SOUND_ITEM_CUTE",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGE",
+    "DetailDes": "RESOURCE_DESC_20024",
+    "IpDes": "RESOURCE_TEXT_20024"
+  },
+  "20025": {
+    "ResourceId": 20025,
+    "ResourceName": "RESOURCE_NAME_20025",
+    "Type": "Ordinary",
+    "ResourceSType": "Material",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 500,
+    "AccessKey": [
+      "Dungeon",
+      "Shop",
+      "Text_Monster"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Forge_High05.Icon_Resource_Forge_High05",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGE",
+    "DetailDes": "RESOURCE_DESC_20025",
+    "IpDes": "RESOURCE_TEXT_20025"
+  },
+  "20026": {
+    "ResourceId": 20026,
+    "ResourceName": "RESOURCE_NAME_20026",
+    "Type": "Ordinary",
+    "ResourceSType": "Material",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 500,
+    "AccessKey": [
+      "Dungeon",
+      "Shop",
+      "Text_Monster"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Forge_High06.Icon_Resource_Forge_High06",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGE",
+    "DetailDes": "RESOURCE_DESC_20026",
+    "IpDes": "RESOURCE_TEXT_20026"
+  },
+  "20027": {
+    "ResourceId": 20027,
+    "ResourceName": "RESOURCE_NAME_20027",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 6600,
+    "AccessKey": [
+      "Home"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Forge_Product01.Icon_Resource_Forge_Product01",
+    "Sound": "SOUND_ITEM_LIQUID",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGE",
+    "DetailDes": "RESOURCE_DESC_20027",
+    "IpDes": "RESOURCE_TEXT_20027"
+  },
+  "20028": {
+    "ResourceId": 20028,
+    "ResourceName": "RESOURCE_NAME_20028",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 6600,
+    "AccessKey": [
+      "Home"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Forge_Product02.Icon_Resource_Forge_Product02",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGE",
+    "DetailDes": "RESOURCE_DESC_20028",
+    "IpDes": "RESOURCE_TEXT_20028"
+  },
+  "20029": {
+    "ResourceId": 20029,
+    "ResourceName": "RESOURCE_NAME_20029",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 400,
+    "AccessKey": [
+      "Home"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Forge_Product03.Icon_Resource_Forge_Product03",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGE",
+    "DetailDes": "RESOURCE_DESC_20029",
+    "IpDes": "RESOURCE_TEXT_20029"
+  },
+  "20030": {
+    "ResourceId": 20030,
+    "ResourceName": "RESOURCE_NAME_20030",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 9000,
+    "AccessKey": [
+      "Home"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Forge_Product04.Icon_Resource_Forge_Product04",
+    "Sound": "SOUND_ITEM_LIQUID",
+    "FunctionDes": "RESOURCE_FUNCTION_SKILL",
+    "DetailDes": "RESOURCE_DESC_20030",
+    "IpDes": "RESOURCE_TEXT_20030"
+  },
+  "20031": {
+    "ResourceId": 20031,
+    "ResourceName": "RESOURCE_NAME_20031",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 9000,
+    "AccessKey": [
+      "Home"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Forge_Product05.Icon_Resource_Forge_Product05",
+    "Sound": "SOUND_ITEM_JEWELRY",
+    "FunctionDes": "RESOURCE_FUNCTION_SKILL",
+    "DetailDes": "RESOURCE_DESC_20031",
+    "IpDes": "RESOURCE_TEXT_20031"
+  },
+  "20032": {
+    "ResourceId": 20032,
+    "ResourceName": "RESOURCE_NAME_20032",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 400,
+    "AccessKey": [
+      "Home"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Forge_Product06.Icon_Resource_Forge_Product06",
+    "Sound": "SOUND_ITEM_LIQUID",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGE",
+    "DetailDes": "RESOURCE_DESC_20032",
+    "IpDes": "RESOURCE_TEXT_20032"
+  },
+  "20500": {
+    "ResourceId": 20500,
+    "ResourceName": "RESOURCE_NAME_20500",
+    "Type": "Ordinary",
+    "Rarity": 1,
+    "MaterialClassify": 3,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Drop_Key01.Icon_Drop_Key01",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_20500",
+    "DetailDes": "RESOURCE_DESC_20500"
+  },
+  "20501": {
+    "ResourceId": 20501,
+    "ResourceName": "RESOURCE_NAME_20501",
+    "Type": "Ordinary",
+    "Rarity": 1,
+    "MaterialClassify": 3,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Drop_Key01.Icon_Drop_Key01",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_20500",
+    "DetailDes": "RESOURCE_DESC_20500"
+  },
+  "20510": {
+    "ResourceId": 20510,
+    "ResourceName": "RESOURCE_NAME_20510",
+    "Type": "Ordinary",
+    "Rarity": 1,
+    "MaterialClassify": 3,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Forge_Medium06.Icon_Resource_Forge_Medium06",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_20510",
+    "DetailDes": "RESOURCE_DESC_20510"
+  },
+  "20511": {
+    "ResourceId": 20511,
+    "ResourceName": "RESOURCE_NAME_20511",
+    "Type": "Ordinary",
+    "Rarity": 1,
+    "MaterialClassify": 3,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Forge_Medium04.Icon_Resource_Forge_Medium04",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_20511",
+    "DetailDes": "RESOURCE_DESC_20511"
+  },
+  "20512": {
+    "ResourceId": 20512,
+    "ResourceName": "RESOURCE_NAME_20512",
+    "Type": "Ordinary",
+    "Rarity": 3,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 1000,
+    "Icon": "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Drop_Interim1.T_Rouge_Drop_Interim1",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORSALE",
+    "DetailDes": "RESOURCE_DESC_20512"
+  },
+  "20513": {
+    "ResourceId": 20513,
+    "ResourceName": "RESOURCE_NAME_20513",
+    "Type": "Ordinary",
+    "Rarity": 3,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 1000,
+    "Icon": "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Drop_Interim2.T_Rouge_Drop_Interim2",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORSALE",
+    "DetailDes": "RESOURCE_DESC_20513"
+  },
+  "20514": {
+    "ResourceId": 20514,
+    "ResourceName": "RESOURCE_NAME_20514",
+    "Type": "Ordinary",
+    "Rarity": 3,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 500,
+    "Icon": "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Drop_Interim3.T_Rouge_Drop_Interim3",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORSALE",
+    "DetailDes": "RESOURCE_DESC_20514"
+  },
+  "20515": {
+    "ResourceId": 20515,
+    "ResourceName": "RESOURCE_NAME_20515",
+    "Type": "Ordinary",
+    "Rarity": 3,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 500,
+    "Icon": "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Drop_Interim4.T_Rouge_Drop_Interim4",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORSALE",
+    "DetailDes": "RESOURCE_DESC_20515"
+  },
+  "20516": {
+    "ResourceId": 20516,
+    "ResourceName": "RESOURCE_NAME_20516",
+    "Type": "Ordinary",
+    "Rarity": 3,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 100,
+    "Icon": "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Drop_Interim5.T_Rouge_Drop_Interim5",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORSALE",
+    "DetailDes": "RESOURCE_DESC_20516"
+  },
+  "20517": {
+    "ResourceId": 20517,
+    "ResourceName": "RESOURCE_NAME_20517",
+    "Type": "Ordinary",
+    "Rarity": 3,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 100,
+    "Icon": "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Drop_Interim6.T_Rouge_Drop_Interim6",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORSALE",
+    "DetailDes": "RESOURCE_DESC_20517"
+  },
+  "20518": {
+    "ResourceId": 20518,
+    "ResourceName": "RESOURCE_NAME_20518",
+    "Type": "Ordinary",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 10000,
+    "Icon": "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Drop_Interim7.T_Rouge_Drop_Interim7",
+    "Sound": "SOUND_ITEM_METAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORSALE",
+    "DetailDes": "RESOURCE_DESC_20518"
+  },
+  "20602": {
+    "ResourceId": 20602,
+    "ResourceName": "READ_NAME_20602",
+    "Type": "Read",
+    "Rarity": 4,
+    "MaterialClassify": 5,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Char_Exp01.Icon_Resource_Char_Exp01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "READ_FUNCTION_20600",
+    "DetailDes": "READ_DESC_20600",
+    "IpDes": "READ_TEXT_20602"
+  },
+  "20603": {
+    "ResourceId": 20603,
+    "ResourceName": "READ_NAME_20603",
+    "Type": "Read",
+    "Rarity": 4,
+    "MaterialClassify": 5,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Char_Exp01.Icon_Resource_Char_Exp01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "READ_FUNCTION_20600",
+    "DetailDes": "READ_DESC_20600",
+    "IpDes": "READ_TEXT_20603"
+  },
+  "20604": {
+    "ResourceId": 20604,
+    "ResourceName": "READ_NAME_20604",
+    "Type": "Read",
+    "Rarity": 4,
+    "MaterialClassify": 5,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Char_Exp01.Icon_Resource_Char_Exp01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "READ_FUNCTION_20600",
+    "DetailDes": "READ_DESC_20600",
+    "IpDes": "READ_TEXT_20604"
+  },
+  "20605": {
+    "ResourceId": 20605,
+    "ResourceName": "READ_NAME_20605",
+    "Type": "Read",
+    "Rarity": 4,
+    "MaterialClassify": 5,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Char_Exp01.Icon_Resource_Char_Exp01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "READ_FUNCTION_20600",
+    "DetailDes": "READ_DESC_20600",
+    "IpDes": "READ_TEXT_20605"
+  },
+  "20608": {
+    "ResourceId": 20608,
+    "ResourceName": "READ_NAME_20608",
+    "Type": "Read",
+    "Rarity": 4,
+    "MaterialClassify": 5,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Char_Exp01.Icon_Resource_Char_Exp01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "READ_FUNCTION_20600",
+    "DetailDes": "READ_DESC_20600",
+    "IpDes": "READ_TEXT_20608"
+  },
+  "20609": {
+    "ResourceId": 20609,
+    "ResourceName": "READ_NAME_20609",
+    "Type": "Read",
+    "Rarity": 4,
+    "MaterialClassify": 5,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Char_Exp01.Icon_Resource_Char_Exp01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "READ_FUNCTION_20600",
+    "DetailDes": "READ_DESC_20600",
+    "IpDes": "READ_TEXT_20609"
+  },
+  "20610": {
+    "ResourceId": 20610,
+    "ResourceName": "READ_NAME_20610",
+    "Type": "Read",
+    "Rarity": 4,
+    "MaterialClassify": 5,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Char_Exp01.Icon_Resource_Char_Exp01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "READ_FUNCTION_20600",
+    "DetailDes": "READ_DESC_20600",
+    "IpDes": "READ_TEXT_20610"
+  },
+  "20611": {
+    "ResourceId": 20611,
+    "ResourceName": "READ_NAME_20611",
+    "Type": "Read",
+    "Rarity": 4,
+    "MaterialClassify": 5,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Char_Exp01.Icon_Resource_Char_Exp01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "READ_FUNCTION_20600",
+    "DetailDes": "READ_DESC_20600",
+    "IpDes": "READ_TEXT_20611"
+  },
+  "20612": {
+    "ResourceId": 20612,
+    "ResourceName": "READ_NAME_20612",
+    "Type": "Read",
+    "Rarity": 4,
+    "MaterialClassify": 5,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Char_Exp01.Icon_Resource_Char_Exp01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "READ_FUNCTION_20600",
+    "DetailDes": "READ_DESC_20600",
+    "IpDes": "READ_TEXT_20612"
+  },
+  "20613": {
+    "ResourceId": 20613,
+    "ResourceName": "READ_NAME_20613",
+    "Type": "Read",
+    "Rarity": 4,
+    "MaterialClassify": 5,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Char_Exp01.Icon_Resource_Char_Exp01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "READ_FUNCTION_20600",
+    "DetailDes": "READ_DESC_20600",
+    "IpDes": "READ_TEXT_20613"
+  },
+  "20614": {
+    "ResourceId": 20614,
+    "ResourceName": "READ_NAME_20614",
+    "Type": "Read",
+    "Rarity": 4,
+    "MaterialClassify": 5,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Char_Exp01.Icon_Resource_Char_Exp01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "READ_FUNCTION_20600",
+    "DetailDes": "READ_DESC_20600",
+    "IpDes": "READ_TEXT_20614"
+  },
+  "20620": {
+    "ResourceId": 20620,
+    "ResourceName": "READ_NAME_20620",
+    "Type": "Read",
+    "Rarity": 4,
+    "MaterialClassify": 5,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Char_Exp01.Icon_Resource_Char_Exp01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "READ_FUNCTION_20600",
+    "DetailDes": "READ_DESC_20600",
+    "IpDes": "READ_TEXT_20620"
+  },
+  "20621": {
+    "ResourceId": 20621,
+    "ResourceName": "READ_NAME_20621",
+    "Type": "Read",
+    "Rarity": 4,
+    "MaterialClassify": 5,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Char_Exp01.Icon_Resource_Char_Exp01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "READ_FUNCTION_20600",
+    "DetailDes": "READ_DESC_20600",
+    "IpDes": "READ_TEXT_20621"
+  },
+  "30001": {
+    "ResourceId": 30001,
+    "ResourceName": "RESOURCE_NAME_30001",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": -1,
+    "AccessKey": [
+      "Text_HardMonster"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_PolarityPart01.Icon_Resource_PolarityPart01",
+    "Sound": "SOUND_ITEM_LIQUID",
+    "FunctionDes": "RESOURCE_FUNCTION_30001",
+    "DetailDes": "RESOURCE_DESC_30001",
+    "IpDes": "RESOURCE_TEXT_30001"
+  },
+  "30002": {
+    "ResourceId": 30002,
+    "ResourceName": "RESOURCE_NAME_30002",
+    "Type": "Rare",
+    "ResourceSType": "Material",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": -1,
+    "AccessKey": [
+      "Text_HardMonster"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_PolarityPart02.Icon_Resource_PolarityPart02",
+    "Sound": "SOUND_ITEM_JEWELRY",
+    "FunctionDes": "RESOURCE_FUNCTION_30002",
+    "DetailDes": "RESOURCE_DESC_30002",
+    "IpDes": "RESOURCE_TEXT_30002"
+  },
+  "30101": {
+    "ResourceId": 30101,
+    "ResourceName": "RESOURCE_NAME_30101",
+    "Type": "Ordinary",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 300,
+    "AccessKey": [
+      "Home"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Dye_01",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "FunctionDes": "RESOURCE_FUNCTION_DYE",
+    "DetailDes": "RESOURCE_DESC_30101",
+    "IpDes": "RESOURCE_TEXT_30101"
+  },
+  "30102": {
+    "ResourceId": 30102,
+    "ResourceName": "RESOURCE_NAME_30102",
+    "Type": "Ordinary",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 300,
+    "AccessKey": [
+      "Home"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Dye_02",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "FunctionDes": "RESOURCE_FUNCTION_DYE",
+    "DetailDes": "RESOURCE_DESC_30102",
+    "IpDes": "RESOURCE_TEXT_30102"
+  },
+  "30103": {
+    "ResourceId": 30103,
+    "ResourceName": "RESOURCE_NAME_30103",
+    "Type": "Ordinary",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 300,
+    "AccessKey": [
+      "Home"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Dye_03",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "FunctionDes": "RESOURCE_FUNCTION_DYE",
+    "DetailDes": "RESOURCE_DESC_30103",
+    "IpDes": "RESOURCE_TEXT_30103"
+  },
+  "30104": {
+    "ResourceId": 30104,
+    "ResourceName": "RESOURCE_NAME_30104",
+    "Type": "Ordinary",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 300,
+    "AccessKey": [
+      "Home"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Dye_04",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "FunctionDes": "RESOURCE_FUNCTION_DYE",
+    "DetailDes": "RESOURCE_DESC_30104",
+    "IpDes": "RESOURCE_TEXT_30104"
+  },
+  "30105": {
+    "ResourceId": 30105,
+    "ResourceName": "RESOURCE_NAME_30105",
+    "Type": "Ordinary",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 300,
+    "AccessKey": [
+      "Home"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Dye_05",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "FunctionDes": "RESOURCE_FUNCTION_DYE",
+    "DetailDes": "RESOURCE_DESC_30105",
+    "IpDes": "RESOURCE_TEXT_30105"
+  },
+  "30106": {
+    "ResourceId": 30106,
+    "ResourceName": "RESOURCE_NAME_30106",
+    "Type": "Ordinary",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 300,
+    "AccessKey": [
+      "Home"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Dye_06",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "FunctionDes": "RESOURCE_FUNCTION_DYE",
+    "DetailDes": "RESOURCE_DESC_30106",
+    "IpDes": "RESOURCE_TEXT_30106"
+  },
+  "30107": {
+    "ResourceId": 30107,
+    "ResourceName": "RESOURCE_NAME_30107",
+    "Type": "Ordinary",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 300,
+    "AccessKey": [
+      "Home"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Dye_07",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "FunctionDes": "RESOURCE_FUNCTION_DYE",
+    "DetailDes": "RESOURCE_DESC_30107",
+    "IpDes": "RESOURCE_TEXT_30107"
+  },
+  "30108": {
+    "ResourceId": 30108,
+    "ResourceName": "RESOURCE_NAME_30108",
+    "Type": "Ordinary",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 300,
+    "AccessKey": [
+      "Home"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Dye_08",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "FunctionDes": "RESOURCE_FUNCTION_DYE",
+    "DetailDes": "RESOURCE_DESC_30108",
+    "IpDes": "RESOURCE_TEXT_30108"
+  },
+  "30109": {
+    "ResourceId": 30109,
+    "ResourceName": "RESOURCE_NAME_30109",
+    "Type": "Ordinary",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 300,
+    "AccessKey": [
+      "Home"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Dye_09",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "FunctionDes": "RESOURCE_FUNCTION_DYE",
+    "DetailDes": "RESOURCE_DESC_30109",
+    "IpDes": "RESOURCE_TEXT_30109"
+  },
+  "30110": {
+    "ResourceId": 30110,
+    "ResourceName": "RESOURCE_NAME_30110",
+    "Type": "Ordinary",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 1000,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Dye_10",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "FunctionDes": "RESOURCE_FUNCTION_DYE",
+    "DetailDes": "RESOURCE_DESC_30110",
+    "IpDes": "RESOURCE_TEXT_30110"
+  },
+  "30111": {
+    "ResourceId": 30111,
+    "ResourceName": "RESOURCE_NAME_30111",
+    "Type": "Ordinary",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 1000,
+    "AccessKey": [
+      "Text_HardBoss"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Dye_11",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "FunctionDes": "RESOURCE_FUNCTION_DYE",
+    "DetailDes": "RESOURCE_DESC_30111",
+    "IpDes": "RESOURCE_TEXT_30111"
+  },
+  "40001": {
+    "ResourceId": 40001,
+    "Type": "BattleItem",
+    "Rarity": 3,
+    "BattleItemLimit": 5,
+    "ResourceValue": -1,
+    "AccessKey": [
+      "Text_Forging"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Hp_Full.Icon_Hp_Full",
+    "Sound": "SOUND_ITEM_LIQUID",
+    "ResourceName": "RESOURCE_NAME_40001",
+    "FunctionDes": "RESOURCE_FUNCTION_10018",
+    "DetailDes": "RESOURCE_DESC_40001",
+    "IpDes": "RESOURCE_TEXT_40001",
+    "UseEffectType": "AddHPValue",
+    "UseParam": 1
+  },
+  "40002": {
+    "ResourceId": 40002,
+    "Type": "BattleItem",
+    "Rarity": 3,
+    "BattleItemLimit": 10,
+    "ResourceValue": -1,
+    "AccessKey": [
+      "Text_Forging"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Drop_Mp.Icon_Drop_Mp",
+    "Sound": "SOUND_ITEM_LIQUID",
+    "ResourceName": "RESOURCE_NAME_40002",
+    "FunctionDes": "RESOURCE_FUNCTION_10019",
+    "DetailDes": "RESOURCE_DESC_40001",
+    "IpDes": "RESOURCE_TEXT_40001",
+    "UseEffectType": "AddSPValue",
+    "UseParam": 1
+  },
+  "40003": {
+    "ResourceId": 40003,
+    "Type": "BattleItem",
+    "Rarity": 3,
+    "BattleItemLimit": 10,
+    "ResourceValue": -1,
+    "AccessKey": [
+      "Text_Forging"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Drop_Ammo.Icon_Drop_Ammo",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "ResourceName": "RESOURCE_NAME_40003",
+    "FunctionDes": "RESOURCE_FUNCTION_10020",
+    "DetailDes": "RESOURCE_DESC_40003",
+    "IpDes": "RESOURCE_TEXT_40003",
+    "UseEffectType": "AddAmmo",
+    "UseParam": 1
+  },
+  "40011": {
+    "ResourceId": 40011,
+    "Type": "BattleItem",
+    "Rarity": 4,
+    "BattleItemLimit": 5,
+    "ResourceValue": -1,
+    "AccessKey": [
+      "Text_Forging"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Hp_Full.Icon_Hp_Full",
+    "Sound": "SOUND_ITEM_LIQUID",
+    "ResourceName": "RESOURCE_NAME_40011",
+    "FunctionDes": "RESOURCE_FUNCTION_10018",
+    "DetailDes": "RESOURCE_DESC_40001",
+    "IpDes": "RESOURCE_TEXT_40001",
+    "UseEffectType": "AddHPValue",
+    "UseParam": 6
+  },
+  "40012": {
+    "ResourceId": 40012,
+    "Type": "BattleItem",
+    "Rarity": 4,
+    "BattleItemLimit": 10,
+    "ResourceValue": -1,
+    "AccessKey": [
+      "Text_Forging"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Drop_Mp.Icon_Drop_Mp",
+    "Sound": "SOUND_ITEM_LIQUID",
+    "ResourceName": "RESOURCE_NAME_40012",
+    "FunctionDes": "RESOURCE_FUNCTION_10019",
+    "DetailDes": "RESOURCE_DESC_40001",
+    "IpDes": "RESOURCE_TEXT_40001",
+    "UseEffectType": "AddSPValue",
+    "UseParam": 3
+  },
+  "40013": {
+    "ResourceId": 40013,
+    "Type": "BattleItem",
+    "Rarity": 4,
+    "BattleItemLimit": 10,
+    "ResourceValue": -1,
+    "AccessKey": [
+      "Text_Forging"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Drop_Ammo.Icon_Drop_Ammo",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "ResourceName": "RESOURCE_NAME_40013",
+    "FunctionDes": "RESOURCE_FUNCTION_10020",
+    "DetailDes": "RESOURCE_DESC_40003",
+    "IpDes": "RESOURCE_TEXT_40003",
+    "UseEffectType": "AddAmmo",
+    "UseParam": 3
+  },
+  "41001": {
+    "ResourceId": 41001,
+    "Type": "InfiniteBattleItem",
+    "Rarity": 4,
+    "ResourceValue": -1,
+    "AccessKey": [
+      "Text_EggBai"
+    ],
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Action/Icon_Resource_Gesture_Kaorou.Icon_Resource_Gesture_Kaorou",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "ResourceName": "RESOURCE_NAME_41001",
+    "FunctionDes": "RESOURCE_FUNCTION_ACTION",
+    "DetailDes": "RESOURCE_DESC_ACTION",
+    "UseBPFunction": "Gesture",
+    "PlayAnim": "Gesture_Kaorou",
+    "CombatConditionID": [
+      7
+    ],
+    "CombatConditionToast": [
+      "UI_DO_NOT_PASS_CONDITION"
+    ]
+  },
+  "41002": {
+    "ResourceId": 41002,
+    "Type": "InfiniteBattleItem",
+    "Rarity": 4,
+    "ResourceValue": -1,
+    "AccessKey": [
+      "Text_EggBai"
+    ],
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Action/Icon_Resource_Gesture_Zhixiang.Icon_Resource_Gesture_Zhixiang",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ResourceName": "RESOURCE_NAME_41002",
+    "FunctionDes": "RESOURCE_FUNCTION_ACTION",
+    "DetailDes": "RESOURCE_DESC_ACTION",
+    "UseBPFunction": "Gesture",
+    "PlayAnim": "Gesture_Zhixiang_01",
+    "CombatConditionID": [
+      7
+    ],
+    "CombatConditionToast": [
+      "UI_DO_NOT_PASS_CONDITION"
+    ]
+  },
+  "41003": {
+    "ResourceId": 41003,
+    "Type": "InfiniteBattleItem",
+    "Rarity": 4,
+    "ResourceValue": -1,
+    "AccessKey": [
+      "Text_EggBai"
+    ],
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Action/Icon_Resource_Gesture_Saozhou.Icon_Resource_Gesture_Saozhou",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "ResourceName": "RESOURCE_NAME_41003",
+    "FunctionDes": "RESOURCE_FUNCTION_ACTION",
+    "DetailDes": "RESOURCE_DESC_ACTION",
+    "UseBPFunction": "Gesture",
+    "PlayAnim": "Gesture_Saoba",
+    "CombatConditionID": [
+      7
+    ],
+    "CombatConditionToast": [
+      "UI_DO_NOT_PASS_CONDITION"
+    ]
+  },
+  "41004": {
+    "ResourceId": 41004,
+    "Type": "InfiniteBattleItem",
+    "Rarity": 4,
+    "ResourceValue": -1,
+    "AccessKey": [
+      "Text_EggBai"
+    ],
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Action/Icon_Resource_Gesture_Caocong.Icon_Resource_Gesture_Caocong",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "ResourceName": "RESOURCE_NAME_41004",
+    "FunctionDes": "RESOURCE_FUNCTION_ACTION",
+    "DetailDes": "RESOURCE_DESC_ACTION",
+    "UseBPFunction": "Gesture",
+    "PlayAnim": "Gesture_Caocong",
+    "CombatConditionID": [
+      7
+    ],
+    "CombatConditionToast": [
+      "UI_DO_NOT_PASS_CONDITION"
+    ]
+  },
+  "41005": {
+    "ResourceId": 41005,
+    "Type": "InfiniteBattleItem",
+    "Rarity": 4,
+    "ResourceValue": -1,
+    "AccessKey": [
+      "Text_EggBai"
+    ],
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Action/Icon_Resource_Gesture_Zhixiang.Icon_Resource_Gesture_Zhixiang",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ResourceName": "RESOURCE_NAME_41005",
+    "FunctionDes": "RESOURCE_FUNCTION_ACTION",
+    "DetailDes": "RESOURCE_DESC_ACTION",
+    "UseBPFunction": "Gesture",
+    "PlayAnim": "Gesture_Zhixiang_02",
+    "CombatConditionID": [
+      7
+    ],
+    "CombatConditionToast": [
+      "UI_DO_NOT_PASS_CONDITION"
+    ]
+  },
+  "41006": {
+    "ResourceId": 41006,
+    "Type": "InfiniteBattleItem",
+    "Rarity": 4,
+    "ResourceValue": -1,
+    "AccessKey": [
+      "Text_EggBai"
+    ],
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Action/Icon_Resource_Gesture_Zhixiang.Icon_Resource_Gesture_Zhixiang",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ResourceName": "RESOURCE_NAME_41006",
+    "FunctionDes": "RESOURCE_FUNCTION_ACTION",
+    "DetailDes": "RESOURCE_DESC_ACTION",
+    "UseBPFunction": "Gesture",
+    "PlayAnim": "Gesture_Zhixiang_03",
+    "CombatConditionID": [
+      7
+    ],
+    "CombatConditionToast": [
+      "UI_DO_NOT_PASS_CONDITION"
+    ]
+  },
+  "41007": {
+    "ResourceId": 41007,
+    "Type": "InfiniteBattleItem",
+    "Rarity": 4,
+    "ResourceValue": -1,
+    "AccessKey": [
+      "Text_EggBai"
+    ],
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Action/Icon_Resource_Gesture_MeleeWeapon.Icon_Resource_Gesture_MeleeWeapon",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "ResourceName": "RESOURCE_NAME_41007",
+    "FunctionDes": "RESOURCE_FUNCTION_ACTION",
+    "DetailDes": "RESOURCE_DESC_ACTION",
+    "UseBPFunction": "GesArmory",
+    "PlayArmoryAnim": 1,
+    "CombatConditionID": [
+      7,
+      68
+    ],
+    "CombatConditionToast": [
+      "UI_DO_NOT_PASS_CONDITION",
+      "UI_DO_NOT_PASS_CONDITION"
+    ]
+  },
+  "41008": {
+    "ResourceId": 41008,
+    "Type": "InfiniteBattleItem",
+    "Rarity": 4,
+    "ResourceValue": -1,
+    "AccessKey": [
+      "Text_EggBai"
+    ],
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Action/Icon_Resource_Gesture_RangeWeapon.Icon_Resource_Gesture_RangeWeapon",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "ResourceName": "RESOURCE_NAME_41008",
+    "FunctionDes": "RESOURCE_FUNCTION_ACTION",
+    "DetailDes": "RESOURCE_DESC_ACTION",
+    "UseBPFunction": "GesArmory",
+    "PlayArmoryAnim": 2,
+    "CombatConditionID": [
+      7
+    ],
+    "CombatConditionToast": [
+      "UI_DO_NOT_PASS_CONDITION"
+    ]
+  },
+  "41009": {
+    "ResourceId": 41009,
+    "Type": "InfiniteBattleItem",
+    "Rarity": 4,
+    "ResourceValue": -1,
+    "AccessKey": [
+      "Text_EggBai"
+    ],
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Action/Icon_Resource_Gesture_Idle.Icon_Resource_Gesture_Idle",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "ResourceName": "RESOURCE_NAME_41009",
+    "FunctionDes": "RESOURCE_FUNCTION_ACTION",
+    "DetailDes": "RESOURCE_DESC_ACTION",
+    "UseBPFunction": "GesArmory",
+    "PlayArmoryAnim": 3,
+    "CombatConditionID": [
+      7
+    ],
+    "CombatConditionToast": [
+      "UI_DO_NOT_PASS_CONDITION"
+    ]
+  },
+  "41010": {
+    "ResourceId": 41010,
+    "Type": "InfiniteBattleItem",
+    "Rarity": 4,
+    "ResourceValue": -1,
+    "AccessKey": {},
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Action/Icon_Resource_Gesture_BiteBox.Icon_Resource_Gesture_BiteBox",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "ResourceName": "RESOURCE_NAME_41010",
+    "FunctionDes": "RESOURCE_FUNCTION_ACTION",
+    "DetailDes": "RESOURCE_DESC_ACTION",
+    "UseBPFunction": "Gesture",
+    "PlayAnim": "Gesture_Yaoren",
+    "CombatConditionID": [
+      7
+    ],
+    "CombatConditionToast": [
+      "UI_DO_NOT_PASS_CONDITION"
+    ]
+  },
+  "41011": {
+    "ResourceId": 41011,
+    "Type": "InfiniteBattleItem",
+    "Rarity": 4,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Action/Icon_Resource_Gesture_Bed.Icon_Resource_Gesture_Bed",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "ResourceName": "RESOURCE_NAME_41011",
+    "FunctionDes": "RESOURCE_FUNCTION_ACTION",
+    "DetailDes": "RESOURCE_DESC_ACTION",
+    "UseBPFunction": "Gesture",
+    "PlayAnim": "Gesture_Bed",
+    "CombatConditionID": [
+      7
+    ],
+    "CombatConditionToast": [
+      "UI_DO_NOT_PASS_CONDITION"
+    ]
+  },
+  "1001101": {
+    "ResourceId": 1001101,
+    "ResourceName": "RESOURCE_NAME_1001101",
+    "Type": "Ordinary",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceValue": -1,
+    "AccessKey": [
+      "Text_Gacha"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Root_Star4.Icon_Resource_Root_Star4",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "FunctionDes": "RESOURCE_FUNCTION_ROOT",
+    "DetailDes": "RESOURCE_DESC_ROOT",
+    "IpDes": "RESOURCE_TEXT_ROOT"
+  },
+  "1001801": {
+    "ResourceId": 1001801,
+    "ResourceName": "RESOURCE_NAME_1001801",
+    "Type": "Ordinary",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceValue": -1,
+    "AccessKey": [
+      "Text_Gacha"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Root_Star5.Icon_Resource_Root_Star5",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "FunctionDes": "RESOURCE_FUNCTION_ROOT",
+    "DetailDes": "RESOURCE_DESC_ROOT",
+    "IpDes": "RESOURCE_TEXT_ROOT"
+  },
+  "1002101": {
+    "ResourceId": 1002101,
+    "ResourceName": "RESOURCE_NAME_1002101",
+    "Type": "Ordinary",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceValue": -1,
+    "AccessKey": [
+      "Text_Gacha"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Root_Star5.Icon_Resource_Root_Star5",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "FunctionDes": "RESOURCE_FUNCTION_ROOT",
+    "DetailDes": "RESOURCE_DESC_ROOT",
+    "IpDes": "RESOURCE_TEXT_ROOT"
+  },
+  "1002301": {
+    "ResourceId": 1002301,
+    "ResourceName": "RESOURCE_NAME_1002301",
+    "Type": "Ordinary",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceValue": -1,
+    "AccessKey": [
+      "Text_Gacha"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Root_Star4.Icon_Resource_Root_Star4",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "FunctionDes": "RESOURCE_FUNCTION_ROOT",
+    "DetailDes": "RESOURCE_DESC_ROOT",
+    "IpDes": "RESOURCE_TEXT_ROOT"
+  },
+  "1002401": {
+    "ResourceId": 1002401,
+    "ResourceName": "RESOURCE_NAME_1002401",
+    "Type": "Ordinary",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceValue": -1,
+    "AccessKey": [
+      "Text_Gacha"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Root_Star5.Icon_Resource_Root_Star5",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "FunctionDes": "RESOURCE_FUNCTION_ROOT",
+    "DetailDes": "RESOURCE_DESC_ROOT",
+    "IpDes": "RESOURCE_TEXT_ROOT"
+  },
+  "1003101": {
+    "ResourceId": 1003101,
+    "ResourceName": "RESOURCE_NAME_1003101",
+    "Type": "Ordinary",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceValue": -1,
+    "AccessKey": [
+      "Text_Gacha"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Root_Star5.Icon_Resource_Root_Star5",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "FunctionDes": "RESOURCE_FUNCTION_ROOT",
+    "DetailDes": "RESOURCE_DESC_ROOT",
+    "IpDes": "RESOURCE_TEXT_ROOT"
+  },
+  "1003102": {
+    "ResourceId": 1003102,
+    "ResourceName": "RESOURCE_NAME_1003102",
+    "Type": "Ordinary",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceValue": -1,
+    "AccessKey": [
+      "Text_Gacha"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Root_Star5.Icon_Resource_Root_Star5",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "FunctionDes": "RESOURCE_FUNCTION_ROOT",
+    "DetailDes": "RESOURCE_DESC_ROOT",
+    "IpDes": "RESOURCE_TEXT_ROOT"
+  },
+  "1003103": {
+    "ResourceId": 1003103,
+    "ResourceName": "RESOURCE_NAME_1003103",
+    "Type": "Ordinary",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceValue": -1,
+    "AccessKey": [
+      "Text_Gacha"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Root_Star4.Icon_Resource_Root_Star4",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "FunctionDes": "RESOURCE_FUNCTION_ROOT",
+    "DetailDes": "RESOURCE_DESC_ROOT",
+    "IpDes": "RESOURCE_TEXT_ROOT"
+  },
+  "1003201": {
+    "ResourceId": 1003201,
+    "ResourceName": "RESOURCE_NAME_1003201",
+    "Type": "Ordinary",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceValue": -1,
+    "AccessKey": [
+      "Text_Gacha"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Root_Star4.Icon_Resource_Root_Star4",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "FunctionDes": "RESOURCE_FUNCTION_ROOT",
+    "DetailDes": "RESOURCE_DESC_ROOT",
+    "IpDes": "RESOURCE_TEXT_ROOT"
+  },
+  "1003301": {
+    "ResourceId": 1003301,
+    "ResourceName": "RESOURCE_NAME_1003301",
+    "Type": "Ordinary",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceValue": -1,
+    "AccessKey": [
+      "Text_Gacha"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Root_Star4.Icon_Resource_Root_Star4",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "FunctionDes": "RESOURCE_FUNCTION_ROOT",
+    "DetailDes": "RESOURCE_DESC_ROOT",
+    "IpDes": "RESOURCE_TEXT_ROOT"
+  },
+  "1004101": {
+    "ResourceId": 1004101,
+    "ResourceName": "RESOURCE_NAME_1004101",
+    "Type": "Ordinary",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceValue": -1,
+    "AccessKey": [
+      "Text_Gacha"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Root_Star5.Icon_Resource_Root_Star5",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "FunctionDes": "RESOURCE_FUNCTION_ROOT",
+    "DetailDes": "RESOURCE_DESC_ROOT",
+    "IpDes": "RESOURCE_TEXT_ROOT"
+  },
+  "1004201": {
+    "ResourceId": 1004201,
+    "ResourceName": "RESOURCE_NAME_1004201",
+    "Type": "Ordinary",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceValue": -1,
+    "AccessKey": [
+      "Text_Gacha"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Root_Star5.Icon_Resource_Root_Star5",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "FunctionDes": "RESOURCE_FUNCTION_ROOT",
+    "DetailDes": "RESOURCE_DESC_ROOT",
+    "IpDes": "RESOURCE_TEXT_ROOT"
+  },
+  "1004202": {
+    "ResourceId": 1004202,
+    "ResourceName": "RESOURCE_NAME_1004202",
+    "Type": "Ordinary",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceValue": -1,
+    "AccessKey": [
+      "Text_Gacha"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Root_Star4.Icon_Resource_Root_Star4",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "FunctionDes": "RESOURCE_FUNCTION_ROOT",
+    "DetailDes": "RESOURCE_DESC_ROOT",
+    "IpDes": "RESOURCE_TEXT_ROOT"
+  },
+  "1004301": {
+    "ResourceId": 1004301,
+    "ResourceName": "RESOURCE_NAME_1004301",
+    "Type": "Ordinary",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceValue": -1,
+    "AccessKey": [
+      "Text_Gacha"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Root_Star5.Icon_Resource_Root_Star5",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "FunctionDes": "RESOURCE_FUNCTION_ROOT",
+    "DetailDes": "RESOURCE_DESC_ROOT",
+    "IpDes": "RESOURCE_TEXT_ROOT"
+  },
+  "1005101": {
+    "ResourceId": 1005101,
+    "ResourceName": "RESOURCE_NAME_1005101",
+    "Type": "Ordinary",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceValue": -1,
+    "AccessKey": [
+      "Text_Gacha"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Root_Star5.Icon_Resource_Root_Star5",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "FunctionDes": "RESOURCE_FUNCTION_ROOT",
+    "DetailDes": "RESOURCE_DESC_ROOT",
+    "IpDes": "RESOURCE_TEXT_ROOT"
+  },
+  "1005301": {
+    "ResourceId": 1005301,
+    "ResourceName": "RESOURCE_NAME_1005301",
+    "Type": "Ordinary",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceValue": -1,
+    "AccessKey": [
+      "Text_Gacha"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Root_Star5.Icon_Resource_Root_Star5",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "FunctionDes": "RESOURCE_FUNCTION_ROOT",
+    "DetailDes": "RESOURCE_DESC_ROOT",
+    "IpDes": "RESOURCE_TEXT_ROOT"
+  },
+  "1011101": {
+    "ResourceId": 1011101,
+    "Type": "InfiniteBattleItem",
+    "ResourceSType": "PhantomItem",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceValue": -1,
+    "AccessKey": [
+      "Text_Gacha"
+    ],
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Phantom/T_Phantom_Heitao.T_Phantom_Heitao",
+    "Sound": "SOUND_ITEM_METAL",
+    "ResourceName": "RESOURCE_NAME_1011101",
+    "FunctionDes": "RESOURCE_FUNCTION_PHANTOM",
+    "DetailDes": "RESOURCE_DESC_PHANTOM",
+    "IpDes": "RESOURCE_TEXT_PHANTOM",
+    "UseEffectType": "CallPhantom",
+    "UseParam": 1101,
+    "CombatConditionID": [
+      911,
+      912,
+      301
+    ],
+    "CombatConditionToast": [
+      "UI_Tosat_PhantomSummon_Num",
+      "UI_Tosat_PhantomSummon_Id",
+      "UI_Tosat_PhantomSummon_Rouge"
+    ],
+    "CombatConditionParams": [
+      null,
+      {
+        "PhantomCharId": 1101
+      }
+    ]
+  },
+  "1011801": {
+    "ResourceId": 1011801,
+    "Type": "InfiniteBattleItem",
+    "ResourceSType": "PhantomItem",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceValue": -1,
+    "AccessKey": [
+      "Text_Gacha"
+    ],
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Phantom/T_Phantom_Feina.T_Phantom_Feina",
+    "Sound": "SOUND_ITEM_METAL",
+    "ResourceName": "RESOURCE_NAME_1011801",
+    "FunctionDes": "RESOURCE_FUNCTION_PHANTOM",
+    "DetailDes": "RESOURCE_DESC_PHANTOM",
+    "IpDes": "RESOURCE_TEXT_PHANTOM",
+    "UseEffectType": "CallPhantom",
+    "UseParam": 1801,
+    "CombatConditionID": [
+      911,
+      912,
+      301
+    ],
+    "CombatConditionToast": [
+      "UI_Tosat_PhantomSummon_Num",
+      "UI_Tosat_PhantomSummon_Id",
+      "UI_Tosat_PhantomSummon_Rouge"
+    ],
+    "CombatConditionParams": [
+      null,
+      {
+        "PhantomCharId": 1801
+      }
+    ]
+  },
+  "1012101": {
+    "ResourceId": 1012101,
+    "Type": "InfiniteBattleItem",
+    "ResourceSType": "PhantomItem",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceValue": -1,
+    "AccessKey": [
+      "Text_Gacha"
+    ],
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Phantom/T_Phantom_Shuimu.T_Phantom_Shuimu",
+    "Sound": "SOUND_ITEM_METAL",
+    "ResourceName": "RESOURCE_NAME_1012101",
+    "FunctionDes": "RESOURCE_FUNCTION_PHANTOM",
+    "DetailDes": "RESOURCE_DESC_PHANTOM",
+    "IpDes": "RESOURCE_TEXT_PHANTOM",
+    "UseEffectType": "CallPhantom",
+    "UseParam": 2101,
+    "CombatConditionID": [
+      911,
+      912,
+      301
+    ],
+    "CombatConditionToast": [
+      "UI_Tosat_PhantomSummon_Num",
+      "UI_Tosat_PhantomSummon_Id",
+      "UI_Tosat_PhantomSummon_Rouge"
+    ],
+    "CombatConditionParams": [
+      null,
+      {
+        "PhantomCharId": 2101
+      }
+    ]
+  },
+  "1012301": {
+    "ResourceId": 1012301,
+    "Type": "InfiniteBattleItem",
+    "ResourceSType": "PhantomItem",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceValue": -1,
+    "AccessKey": [
+      "Text_Gacha"
+    ],
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Phantom/T_Phantom_Zhangyu.T_Phantom_Zhangyu",
+    "Sound": "SOUND_ITEM_METAL",
+    "ResourceName": "RESOURCE_NAME_1012301",
+    "FunctionDes": "RESOURCE_FUNCTION_PHANTOM",
+    "DetailDes": "RESOURCE_DESC_PHANTOM",
+    "IpDes": "RESOURCE_TEXT_PHANTOM",
+    "UseEffectType": "CallPhantom",
+    "UseParam": 2301,
+    "CombatConditionID": [
+      911,
+      912,
+      301
+    ],
+    "CombatConditionToast": [
+      "UI_Tosat_PhantomSummon_Num",
+      "UI_Tosat_PhantomSummon_Id",
+      "UI_Tosat_PhantomSummon_Rouge"
+    ],
+    "CombatConditionParams": [
+      null,
+      {
+        "PhantomCharId": 2301
+      }
+    ]
+  },
+  "1012401": {
+    "ResourceId": 1012401,
+    "Type": "InfiniteBattleItem",
+    "ResourceSType": "PhantomItem",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceValue": -1,
+    "AccessKey": [
+      "Text_Gacha"
+    ],
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Phantom/T_Phantom_Baiheng.T_Phantom_Baiheng",
+    "Sound": "SOUND_ITEM_METAL",
+    "ResourceName": "RESOURCE_NAME_1012401",
+    "FunctionDes": "RESOURCE_FUNCTION_PHANTOM",
+    "DetailDes": "RESOURCE_DESC_PHANTOM",
+    "IpDes": "RESOURCE_TEXT_PHANTOM",
+    "UseEffectType": "CallPhantom",
+    "UseParam": 2401,
+    "CombatConditionID": [
+      911,
+      912,
+      301
+    ],
+    "CombatConditionToast": [
+      "UI_Tosat_PhantomSummon_Num",
+      "UI_Tosat_PhantomSummon_Id",
+      "UI_Tosat_PhantomSummon_Rouge"
+    ],
+    "CombatConditionParams": [
+      null,
+      {
+        "PhantomCharId": 2401
+      }
+    ]
+  },
+  "1013101": {
+    "ResourceId": 1013101,
+    "Type": "InfiniteBattleItem",
+    "ResourceSType": "PhantomItem",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceValue": -1,
+    "AccessKey": [
+      "Text_Gacha"
+    ],
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Phantom/T_Phantom_Linen.T_Phantom_Linen",
+    "Sound": "SOUND_ITEM_METAL",
+    "ResourceName": "RESOURCE_NAME_1013101",
+    "FunctionDes": "RESOURCE_FUNCTION_PHANTOM",
+    "DetailDes": "RESOURCE_DESC_PHANTOM",
+    "IpDes": "RESOURCE_TEXT_PHANTOM",
+    "UseEffectType": "CallPhantom",
+    "UseParam": 3101,
+    "CombatConditionID": [
+      911,
+      912,
+      301
+    ],
+    "CombatConditionToast": [
+      "UI_Tosat_PhantomSummon_Num",
+      "UI_Tosat_PhantomSummon_Id",
+      "UI_Tosat_PhantomSummon_Rouge"
+    ],
+    "CombatConditionParams": [
+      null,
+      {
+        "PhantomCharId": 3101
+      }
+    ]
+  },
+  "1013102": {
+    "ResourceId": 1013102,
+    "Type": "InfiniteBattleItem",
+    "ResourceSType": "PhantomItem",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceValue": -1,
+    "AccessKey": [
+      "Text_Gacha"
+    ],
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Phantom/T_Phantom_Xier.T_Phantom_Xier",
+    "Sound": "SOUND_ITEM_METAL",
+    "ResourceName": "RESOURCE_NAME_1013102",
+    "FunctionDes": "RESOURCE_FUNCTION_PHANTOM",
+    "DetailDes": "RESOURCE_DESC_PHANTOM",
+    "IpDes": "RESOURCE_TEXT_PHANTOM",
+    "UseEffectType": "CallPhantom",
+    "UseParam": 3102,
+    "CombatConditionID": [
+      911,
+      912,
+      301
+    ],
+    "CombatConditionToast": [
+      "UI_Tosat_PhantomSummon_Num",
+      "UI_Tosat_PhantomSummon_Id",
+      "UI_Tosat_PhantomSummon_Rouge"
+    ],
+    "CombatConditionParams": [
+      null,
+      {
+        "PhantomCharId": 3102
+      }
+    ]
+  },
+  "1013103": {
+    "ResourceId": 1013103,
+    "Type": "InfiniteBattleItem",
+    "ResourceSType": "PhantomItem",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceValue": -1,
+    "AccessKey": [
+      "Text_Gacha"
+    ],
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Phantom/T_Phantom_Yeer.T_Phantom_Yeer",
+    "Sound": "SOUND_ITEM_METAL",
+    "ResourceName": "RESOURCE_NAME_1013103",
+    "FunctionDes": "RESOURCE_FUNCTION_PHANTOM",
+    "DetailDes": "RESOURCE_DESC_PHANTOM",
+    "IpDes": "RESOURCE_TEXT_PHANTOM",
+    "UseEffectType": "CallPhantom",
+    "UseParam": 3103,
+    "CombatConditionID": [
+      911,
+      912,
+      301
+    ],
+    "CombatConditionToast": [
+      "UI_Tosat_PhantomSummon_Num",
+      "UI_Tosat_PhantomSummon_Id",
+      "UI_Tosat_PhantomSummon_Rouge"
+    ],
+    "CombatConditionParams": [
+      null,
+      {
+        "PhantomCharId": 3103
+      }
+    ]
+  },
+  "1013201": {
+    "ResourceId": 1013201,
+    "Type": "InfiniteBattleItem",
+    "ResourceSType": "PhantomItem",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceValue": -1,
+    "AccessKey": [
+      "Text_Gacha"
+    ],
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Phantom/T_Phantom_Haier.T_Phantom_Haier",
+    "Sound": "SOUND_ITEM_METAL",
+    "ResourceName": "RESOURCE_NAME_1013201",
+    "FunctionDes": "RESOURCE_FUNCTION_PHANTOM",
+    "DetailDes": "RESOURCE_DESC_PHANTOM",
+    "IpDes": "RESOURCE_TEXT_PHANTOM",
+    "UseEffectType": "CallPhantom",
+    "UseParam": 3201,
+    "CombatConditionID": [
+      911,
+      912,
+      301
+    ],
+    "CombatConditionToast": [
+      "UI_Tosat_PhantomSummon_Num",
+      "UI_Tosat_PhantomSummon_Id",
+      "UI_Tosat_PhantomSummon_Rouge"
+    ],
+    "CombatConditionParams": [
+      null,
+      {
+        "PhantomCharId": 3201
+      }
+    ]
+  },
+  "1013301": {
+    "ResourceId": 1013301,
+    "Type": "InfiniteBattleItem",
+    "ResourceSType": "PhantomItem",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceValue": -1,
+    "AccessKey": [
+      "Text_Gacha"
+    ],
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Phantom/T_Phantom_Maer.T_Phantom_Maer",
+    "Sound": "SOUND_ITEM_METAL",
+    "ResourceName": "RESOURCE_NAME_1013301",
+    "FunctionDes": "RESOURCE_FUNCTION_PHANTOM",
+    "DetailDes": "RESOURCE_DESC_PHANTOM",
+    "IpDes": "RESOURCE_TEXT_PHANTOM",
+    "UseEffectType": "CallPhantom",
+    "UseParam": 3301,
+    "CombatConditionID": [
+      911,
+      912,
+      301
+    ],
+    "CombatConditionToast": [
+      "UI_Tosat_PhantomSummon_Num",
+      "UI_Tosat_PhantomSummon_Id",
+      "UI_Tosat_PhantomSummon_Rouge"
+    ],
+    "CombatConditionParams": [
+      null,
+      {
+        "PhantomCharId": 3301
+      }
+    ]
+  },
+  "1014101": {
+    "ResourceId": 1014101,
+    "Type": "InfiniteBattleItem",
+    "ResourceSType": "PhantomItem",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceValue": -1,
+    "AccessKey": [
+      "Text_Gacha"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Forge_Product06.Icon_Resource_Forge_Product06",
+    "Sound": "SOUND_ITEM_METAL",
+    "ResourceName": "RESOURCE_NAME_1014101",
+    "FunctionDes": "RESOURCE_FUNCTION_PHANTOM",
+    "DetailDes": "RESOURCE_DESC_PHANTOM",
+    "IpDes": "RESOURCE_TEXT_PHANTOM",
+    "UseEffectType": "CallPhantom",
+    "UseParam": 4101,
+    "CombatConditionID": [
+      911,
+      912,
+      301
+    ],
+    "CombatConditionToast": [
+      "UI_Tosat_PhantomSummon_Num",
+      "UI_Tosat_PhantomSummon_Id",
+      "UI_Tosat_PhantomSummon_Rouge"
+    ],
+    "CombatConditionParams": [
+      null,
+      {
+        "PhantomCharId": 4101
+      }
+    ]
+  },
+  "1014201": {
+    "ResourceId": 1014201,
+    "Type": "InfiniteBattleItem",
+    "ResourceSType": "PhantomItem",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceValue": -1,
+    "AccessKey": [
+      "Text_Gacha"
+    ],
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Phantom/T_Phantom_Yuming.T_Phantom_Yuming",
+    "Sound": "SOUND_ITEM_METAL",
+    "ResourceName": "RESOURCE_NAME_1014201",
+    "FunctionDes": "RESOURCE_FUNCTION_PHANTOM",
+    "DetailDes": "RESOURCE_DESC_PHANTOM",
+    "IpDes": "RESOURCE_TEXT_PHANTOM",
+    "UseEffectType": "CallPhantom",
+    "UseParam": 4201,
+    "CombatConditionID": [
+      911,
+      912,
+      301
+    ],
+    "CombatConditionToast": [
+      "UI_Tosat_PhantomSummon_Num",
+      "UI_Tosat_PhantomSummon_Id",
+      "UI_Tosat_PhantomSummon_Rouge"
+    ],
+    "CombatConditionParams": [
+      null,
+      {
+        "PhantomCharId": 4201
+      }
+    ]
+  },
+  "1014202": {
+    "ResourceId": 1014202,
+    "Type": "InfiniteBattleItem",
+    "ResourceSType": "PhantomItem",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceValue": -1,
+    "AccessKey": [
+      "Text_Gacha"
+    ],
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Phantom/T_Phantom_Landi.T_Phantom_Landi",
+    "Sound": "SOUND_ITEM_METAL",
+    "ResourceName": "RESOURCE_NAME_1014202",
+    "FunctionDes": "RESOURCE_FUNCTION_PHANTOM",
+    "DetailDes": "RESOURCE_DESC_PHANTOM",
+    "IpDes": "RESOURCE_TEXT_PHANTOM",
+    "UseEffectType": "CallPhantom",
+    "UseParam": 4202,
+    "CombatConditionID": [
+      911,
+      912,
+      301
+    ],
+    "CombatConditionToast": [
+      "UI_Tosat_PhantomSummon_Num",
+      "UI_Tosat_PhantomSummon_Id",
+      "UI_Tosat_PhantomSummon_Rouge"
+    ],
+    "CombatConditionParams": [
+      null,
+      {
+        "PhantomCharId": 4202
+      }
+    ]
+  },
+  "1014301": {
+    "ResourceId": 1014301,
+    "Type": "InfiniteBattleItem",
+    "ResourceSType": "PhantomItem",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceValue": -1,
+    "AccessKey": [
+      "Text_Gacha"
+    ],
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Phantom/T_Phantom_Xibi.T_Phantom_Xibi",
+    "Sound": "SOUND_ITEM_METAL",
+    "ResourceName": "RESOURCE_NAME_1014301",
+    "FunctionDes": "RESOURCE_FUNCTION_PHANTOM",
+    "DetailDes": "RESOURCE_DESC_PHANTOM",
+    "IpDes": "RESOURCE_TEXT_PHANTOM",
+    "UseEffectType": "CallPhantom",
+    "UseParam": 4301,
+    "CombatConditionID": [
+      911,
+      912,
+      301
+    ],
+    "CombatConditionToast": [
+      "UI_Tosat_PhantomSummon_Num",
+      "UI_Tosat_PhantomSummon_Id",
+      "UI_Tosat_PhantomSummon_Rouge"
+    ],
+    "CombatConditionParams": [
+      null,
+      {
+        "PhantomCharId": 4301
+      }
+    ]
+  },
+  "1015101": {
+    "ResourceId": 1015101,
+    "Type": "InfiniteBattleItem",
+    "ResourceSType": "PhantomItem",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceValue": -1,
+    "AccessKey": [
+      "Text_Gacha"
+    ],
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Phantom/T_Phantom_Songlu.T_Phantom_Songlu",
+    "Sound": "SOUND_ITEM_METAL",
+    "ResourceName": "RESOURCE_NAME_1015101",
+    "FunctionDes": "RESOURCE_FUNCTION_PHANTOM",
+    "DetailDes": "RESOURCE_DESC_PHANTOM",
+    "IpDes": "RESOURCE_TEXT_PHANTOM",
+    "UseEffectType": "CallPhantom",
+    "UseParam": 5101,
+    "CombatConditionID": [
+      911,
+      912,
+      301
+    ],
+    "CombatConditionToast": [
+      "UI_Tosat_PhantomSummon_Num",
+      "UI_Tosat_PhantomSummon_Id",
+      "UI_Tosat_PhantomSummon_Rouge"
+    ],
+    "CombatConditionParams": [
+      null,
+      {
+        "PhantomCharId": 5101
+      }
+    ]
+  },
+  "1015301": {
+    "ResourceId": 1015301,
+    "Type": "InfiniteBattleItem",
+    "ResourceSType": "PhantomItem",
+    "Rarity": 5,
+    "MaterialClassify": 3,
+    "ResourceValue": -1,
+    "AccessKey": [
+      "Text_Gacha"
+    ],
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Phantom/T_Phantom_Saiqi.T_Phantom_Saiqi",
+    "Sound": "SOUND_ITEM_METAL",
+    "ResourceName": "RESOURCE_NAME_1015301",
+    "FunctionDes": "RESOURCE_FUNCTION_PHANTOM",
+    "DetailDes": "RESOURCE_DESC_PHANTOM",
+    "IpDes": "RESOURCE_TEXT_PHANTOM",
+    "UseEffectType": "CallPhantom",
+    "UseParam": 5301,
+    "CombatConditionID": [
+      911,
+      912,
+      301
+    ],
+    "CombatConditionToast": [
+      "UI_Tosat_PhantomSummon_Num",
+      "UI_Tosat_PhantomSummon_Id",
+      "UI_Tosat_PhantomSummon_Rouge"
+    ],
+    "CombatConditionParams": [
+      null,
+      {
+        "PhantomCharId": 5301
+      }
+    ]
+  },
+  "1110000": {
+    "ResourceId": 1110000,
+    "Type": "InfiniteBattleItem",
+    "Rarity": 4,
+    "MaterialClassify": 3,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_CallPhantom_Empty.Icon_Resource_CallPhantom_Empty",
+    "Sound": "SOUND_ITEM_METAL",
+    "ResourceName": "RESOURCE_NAME_1010000",
+    "FunctionDes": "RESOURCE_FUNCTION_CANCELPHANTOM",
+    "DetailDes": "RESOURCE_DESC_CANCELPHANTOM",
+    "IpDes": "RESOURCE_TEXT_CANCELPHANTOM",
+    "UseEffectType": "CancelPhantom",
+    "CombatConditionID": [
+      11
+    ],
+    "CombatConditionToast": [
+      "UI_Tosat_PhantomSummon_InBattle"
+    ]
+  },
+  "2000001": {
+    "ResourceId": 2000001,
+    "ResourceName": "READ_NAME_2000001",
+    "Type": "Read",
+    "Rarity": 3,
+    "ImmediateGet": 1,
+    "MaterialClassify": 5,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Read_02.Icon_Read_02",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "READ_FUNCTION_READ",
+    "DetailDes": "READ_DESC_2000001",
+    "IpDes": "READ_TEXT_2000001"
+  },
+  "2000002": {
+    "ResourceId": 2000002,
+    "ResourceName": "READ_NAME_2000002",
+    "Type": "Read",
+    "Rarity": 3,
+    "ImmediateGet": 1,
+    "MaterialClassify": 5,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Read_01.Icon_Read_01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "READ_FUNCTION_READ",
+    "DetailDes": "READ_DESC_2000002",
+    "IpDes": "READ_TEXT_2000002"
+  },
+  "2000003": {
+    "ResourceId": 2000003,
+    "ResourceName": "READ_NAME_2000003",
+    "Type": "Read",
+    "Rarity": 3,
+    "ImmediateGet": 1,
+    "MaterialClassify": 5,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Read_01.Icon_Read_01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "READ_FUNCTION_READ",
+    "DetailDes": "READ_DESC_2000003",
+    "IpDes": "READ_TEXT_2000003"
+  },
+  "2000004": {
+    "ResourceId": 2000004,
+    "ResourceName": "READ_NAME_2000004",
+    "Type": "Read",
+    "Rarity": 3,
+    "ImmediateGet": 1,
+    "MaterialClassify": 5,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Read_01.Icon_Read_01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "READ_FUNCTION_READ",
+    "DetailDes": "READ_DESC_2000004",
+    "IpDes": "READ_TEXT_2000004"
+  },
+  "2000005": {
+    "ResourceId": 2000005,
+    "ResourceName": "READ_NAME_2000005",
+    "Type": "Read",
+    "Rarity": 3,
+    "ImmediateGet": 1,
+    "MaterialClassify": 5,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Read_01.Icon_Read_01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "READ_FUNCTION_READ",
+    "DetailDes": "READ_DESC_2000005",
+    "IpDes": "READ_TEXT_2000005"
+  },
+  "2000006": {
+    "ResourceId": 2000006,
+    "ResourceName": "READ_NAME_2000006",
+    "Type": "Read",
+    "Rarity": 3,
+    "ImmediateGet": 1,
+    "MaterialClassify": 5,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Read_02.Icon_Read_02",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "READ_FUNCTION_READ",
+    "DetailDes": "READ_DESC_2000006",
+    "IpDes": "READ_TEXT_2000006"
+  },
+  "2000007": {
+    "ResourceId": 2000007,
+    "ResourceName": "READ_NAME_2000007",
+    "Type": "Read",
+    "Rarity": 3,
+    "ImmediateGet": 1,
+    "MaterialClassify": 5,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Read_01.Icon_Read_01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "READ_FUNCTION_READ",
+    "DetailDes": "READ_DESC_2000007",
+    "IpDes": "READ_TEXT_2000007"
+  },
+  "2000008": {
+    "ResourceId": 2000008,
+    "ResourceName": "READ_NAME_2000008",
+    "Type": "Read",
+    "Rarity": 3,
+    "ImmediateGet": 1,
+    "MaterialClassify": 5,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Read_01.Icon_Read_01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "READ_FUNCTION_READ",
+    "DetailDes": "READ_DESC_2000008",
+    "IpDes": "READ_TEXT_2000008"
+  },
+  "2000009": {
+    "ResourceId": 2000009,
+    "ResourceName": "READ_NAME_2000009",
+    "Type": "Read",
+    "Rarity": 3,
+    "ImmediateGet": 1,
+    "MaterialClassify": 5,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Read_03.Icon_Read_03",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "READ_FUNCTION_READ",
+    "DetailDes": "READ_DESC_2000009",
+    "IpDes": "READ_TEXT_2000009"
+  },
+  "2000010": {
+    "ResourceId": 2000010,
+    "ResourceName": "READ_NAME_2000010",
+    "Type": "Read",
+    "Rarity": 3,
+    "ImmediateGet": 1,
+    "MaterialClassify": 5,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Read_03.Icon_Read_03",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "READ_FUNCTION_READ",
+    "DetailDes": "READ_DESC_2000010",
+    "IpDes": "READ_TEXT_2000010"
+  },
+  "2000011": {
+    "ResourceId": 2000011,
+    "ResourceName": "READ_NAME_2000011",
+    "Type": "Read",
+    "Rarity": 3,
+    "ImmediateGet": 1,
+    "MaterialClassify": 5,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Read_03.Icon_Read_03",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "READ_FUNCTION_READ",
+    "DetailDes": "READ_DESC_2000011",
+    "IpDes": "READ_TEXT_2000011"
+  },
+  "2000012": {
+    "ResourceId": 2000012,
+    "ResourceName": "READ_NAME_2000012",
+    "Type": "Read",
+    "Rarity": 3,
+    "ImmediateGet": 1,
+    "MaterialClassify": 5,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Read_01.Icon_Read_01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "READ_FUNCTION_READ",
+    "DetailDes": "READ_DESC_2000012",
+    "IpDes": "READ_TEXT_2000012"
+  },
+  "2000013": {
+    "ResourceId": 2000013,
+    "ResourceName": "READ_NAME_2000013",
+    "Type": "Read",
+    "Rarity": 3,
+    "ImmediateGet": 1,
+    "MaterialClassify": 5,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Read_01.Icon_Read_01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "READ_FUNCTION_READ",
+    "DetailDes": "READ_DESC_2000013",
+    "IpDes": "READ_TEXT_2000013"
+  },
+  "2000014": {
+    "ResourceId": 2000014,
+    "ResourceName": "READ_NAME_2000014",
+    "Type": "Read",
+    "Rarity": 3,
+    "ImmediateGet": 1,
+    "MaterialClassify": 5,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Read_01.Icon_Read_01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "READ_FUNCTION_READ",
+    "DetailDes": "READ_DESC_2000014",
+    "IpDes": "READ_TEXT_2000014"
+  },
+  "2000015": {
+    "ResourceId": 2000015,
+    "ResourceName": "READ_NAME_2000015",
+    "Type": "Read",
+    "Rarity": 3,
+    "ImmediateGet": 1,
+    "MaterialClassify": 5,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Read_01.Icon_Read_01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "READ_FUNCTION_READ",
+    "DetailDes": "READ_DESC_2000015",
+    "IpDes": "READ_TEXT_2000015"
+  },
+  "2000016": {
+    "ResourceId": 2000016,
+    "ResourceName": "READ_NAME_2000016",
+    "Type": "Read",
+    "Rarity": 3,
+    "ImmediateGet": 1,
+    "MaterialClassify": 5,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Read_01.Icon_Read_01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "READ_FUNCTION_READ",
+    "DetailDes": "READ_DESC_2000016",
+    "IpDes": "READ_TEXT_2000016"
+  },
+  "2000017": {
+    "ResourceId": 2000017,
+    "ResourceName": "READ_NAME_2000017",
+    "Type": "Read",
+    "Rarity": 3,
+    "ImmediateGet": 1,
+    "MaterialClassify": 5,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Read_03.Icon_Read_03",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "READ_FUNCTION_READ",
+    "DetailDes": "READ_DESC_2000017",
+    "IpDes": "READ_TEXT_2000017"
+  },
+  "2000018": {
+    "ResourceId": 2000018,
+    "ResourceName": "READ_NAME_2000018",
+    "Type": "Read",
+    "Rarity": 3,
+    "ImmediateGet": 1,
+    "MaterialClassify": 5,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Read_01.Icon_Read_01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "READ_FUNCTION_READ",
+    "DetailDes": "READ_DESC_2000018",
+    "IpDes": "READ_TEXT_2000018"
+  },
+  "2000019": {
+    "ResourceId": 2000019,
+    "ResourceName": "READ_NAME_2000019",
+    "Type": "Read",
+    "Rarity": 3,
+    "ImmediateGet": 1,
+    "MaterialClassify": 5,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Read_01.Icon_Read_01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "READ_FUNCTION_READ",
+    "DetailDes": "READ_DESC_2000019",
+    "IpDes": "READ_TEXT_2000019"
+  },
+  "2000020": {
+    "ResourceId": 2000020,
+    "ResourceName": "READ_NAME_2000020",
+    "Type": "Read",
+    "Rarity": 3,
+    "ImmediateGet": 1,
+    "MaterialClassify": 5,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Read_02.Icon_Read_02",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "READ_FUNCTION_READ",
+    "DetailDes": "READ_DESC_2000020",
+    "IpDes": "READ_TEXT_2000020"
+  },
+  "2000021": {
+    "ResourceId": 2000021,
+    "ResourceName": "READ_NAME_2000021",
+    "Type": "Read",
+    "Rarity": 3,
+    "ImmediateGet": 1,
+    "MaterialClassify": 5,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Read_02.Icon_Read_02",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "READ_FUNCTION_READ",
+    "DetailDes": "READ_DESC_2000021",
+    "IpDes": "READ_TEXT_2000021"
+  },
+  "2000022": {
+    "ResourceId": 2000022,
+    "ResourceName": "READ_NAME_2000022",
+    "Type": "Read",
+    "Rarity": 3,
+    "ImmediateGet": 1,
+    "MaterialClassify": 5,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Read_02.Icon_Read_02",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "READ_FUNCTION_READ",
+    "DetailDes": "READ_DESC_2000022",
+    "IpDes": "READ_TEXT_2000022"
+  },
+  "2000023": {
+    "ResourceId": 2000023,
+    "ResourceName": "READ_NAME_2000023",
+    "Type": "Read",
+    "Rarity": 3,
+    "ImmediateGet": 1,
+    "MaterialClassify": 5,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Read_02.Icon_Read_02",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "READ_FUNCTION_READ",
+    "DetailDes": "READ_DESC_2000023",
+    "IpDes": "READ_TEXT_2000023"
+  },
+  "2000024": {
+    "ResourceId": 2000024,
+    "ResourceName": "READ_NAME_2000024",
+    "Type": "Read",
+    "Rarity": 3,
+    "ImmediateGet": 1,
+    "MaterialClassify": 5,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Read_03.Icon_Read_03",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "READ_FUNCTION_READ",
+    "DetailDes": "READ_DESC_2000024",
+    "IpDes": "READ_TEXT_2000024"
+  },
+  "2000025": {
+    "ResourceId": 2000025,
+    "ResourceName": "READ_NAME_2000025",
+    "Type": "Read",
+    "Rarity": 3,
+    "ImmediateGet": 1,
+    "MaterialClassify": 5,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Read_01.Icon_Read_01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "READ_FUNCTION_READ",
+    "DetailDes": "READ_DESC_2000025",
+    "IpDes": "READ_TEXT_2000025"
+  },
+  "2000026": {
+    "ResourceId": 2000026,
+    "ResourceName": "READ_NAME_2000026",
+    "Type": "Read",
+    "Rarity": 3,
+    "ImmediateGet": 1,
+    "MaterialClassify": 5,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Read_03.Icon_Read_03",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "READ_FUNCTION_READ",
+    "DetailDes": "READ_DESC_2000026",
+    "IpDes": "READ_TEXT_2000026"
+  },
+  "2000027": {
+    "ResourceId": 2000027,
+    "ResourceName": "READ_NAME_2000027",
+    "Type": "Read",
+    "Rarity": 3,
+    "ImmediateGet": 1,
+    "MaterialClassify": 5,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Read_02.Icon_Read_02",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "READ_FUNCTION_READ",
+    "DetailDes": "READ_DESC_2000027",
+    "IpDes": "READ_TEXT_2000027"
+  },
+  "2000028": {
+    "ResourceId": 2000028,
+    "ResourceName": "READ_NAME_2000028",
+    "Type": "Read",
+    "Rarity": 3,
+    "ImmediateGet": 1,
+    "MaterialClassify": 5,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Read_01.Icon_Read_01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "READ_FUNCTION_READ",
+    "DetailDes": "READ_DESC_2000028",
+    "IpDes": "READ_TEXT_2000028"
+  },
+  "2000029": {
+    "ResourceId": 2000029,
+    "ResourceName": "READ_NAME_2000029",
+    "Type": "Read",
+    "Rarity": 3,
+    "ImmediateGet": 1,
+    "MaterialClassify": 5,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Read_03.Icon_Read_03",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "READ_FUNCTION_READ",
+    "DetailDes": "READ_DESC_2000029",
+    "IpDes": "READ_TEXT_2000029"
+  },
+  "2000030": {
+    "ResourceId": 2000030,
+    "ResourceName": "READ_NAME_2000030",
+    "Type": "Read",
+    "Rarity": 3,
+    "ImmediateGet": 1,
+    "MaterialClassify": 5,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Read_02.Icon_Read_02",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "READ_FUNCTION_READ",
+    "DetailDes": "READ_DESC_2000030",
+    "IpDes": "READ_TEXT_2000030"
+  },
+  "2000031": {
+    "ResourceId": 2000031,
+    "ResourceName": "READ_NAME_2000031",
+    "Type": "Read",
+    "Rarity": 3,
+    "ImmediateGet": 1,
+    "MaterialClassify": 5,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Read_03.Icon_Read_03",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "READ_FUNCTION_READ",
+    "DetailDes": "READ_DESC_2000031",
+    "IpDes": "READ_TEXT_2000031"
+  },
+  "2000032": {
+    "ResourceId": 2000032,
+    "ResourceName": "READ_NAME_2000032",
+    "Type": "Read",
+    "Rarity": 3,
+    "ImmediateGet": 1,
+    "MaterialClassify": 5,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Read_01.Icon_Read_01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "READ_FUNCTION_READ",
+    "DetailDes": "READ_DESC_2000032",
+    "IpDes": "READ_TEXT_2000032"
+  },
+  "2000033": {
+    "ResourceId": 2000033,
+    "ResourceName": "READ_NAME_2000033",
+    "Type": "Read",
+    "Rarity": 3,
+    "ImmediateGet": 1,
+    "MaterialClassify": 5,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Read_02.Icon_Read_02",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "READ_FUNCTION_READ",
+    "DetailDes": "READ_DESC_2000033",
+    "IpDes": "READ_TEXT_2000033"
+  },
+  "2000034": {
+    "ResourceId": 2000034,
+    "ResourceName": "READ_NAME_2000034",
+    "Type": "Read",
+    "Rarity": 3,
+    "ImmediateGet": 1,
+    "MaterialClassify": 5,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Read_01.Icon_Read_01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "READ_FUNCTION_READ",
+    "DetailDes": "READ_DESC_2000034",
+    "IpDes": "READ_TEXT_2000034"
+  },
+  "2000035": {
+    "ResourceId": 2000035,
+    "ResourceName": "READ_NAME_2000035",
+    "Type": "Read",
+    "Rarity": 3,
+    "ImmediateGet": 1,
+    "MaterialClassify": 5,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Read_01.Icon_Read_01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "READ_FUNCTION_READ",
+    "DetailDes": "READ_DESC_2000035",
+    "IpDes": "READ_TEXT_2000035"
+  },
+  "2000036": {
+    "ResourceId": 2000036,
+    "ResourceName": "READ_NAME_2000036",
+    "Type": "Read",
+    "Rarity": 3,
+    "ImmediateGet": 1,
+    "MaterialClassify": 5,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Read_01.Icon_Read_01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "READ_FUNCTION_READ",
+    "DetailDes": "READ_DESC_2000036",
+    "IpDes": "READ_TEXT_2000036"
+  },
+  "2000037": {
+    "ResourceId": 2000037,
+    "ResourceName": "READ_NAME_2000037",
+    "Type": "Read",
+    "Rarity": 3,
+    "ImmediateGet": 1,
+    "MaterialClassify": 5,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Read_03.Icon_Read_03",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "READ_FUNCTION_READ",
+    "DetailDes": "READ_DESC_2000037",
+    "IpDes": "READ_TEXT_2000037"
+  },
+  "2000038": {
+    "ResourceId": 2000038,
+    "ResourceName": "READ_NAME_2000038",
+    "Type": "Read",
+    "Rarity": 3,
+    "ImmediateGet": 1,
+    "MaterialClassify": 5,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Read_02.Icon_Read_02",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "READ_FUNCTION_READ",
+    "DetailDes": "READ_DESC_2000038",
+    "IpDes": "READ_TEXT_2000038"
+  },
+  "2000039": {
+    "ResourceId": 2000039,
+    "ResourceName": "READ_NAME_2000039",
+    "Type": "Read",
+    "Rarity": 3,
+    "ImmediateGet": 1,
+    "MaterialClassify": 5,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Read_02.Icon_Read_02",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "READ_FUNCTION_READ",
+    "DetailDes": "READ_DESC_2000039",
+    "IpDes": "READ_TEXT_2000039"
+  },
+  "2000040": {
+    "ResourceId": 2000040,
+    "ResourceName": "READ_NAME_2000040",
+    "Type": "Read",
+    "Rarity": 3,
+    "ImmediateGet": 1,
+    "MaterialClassify": 5,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Read_02.Icon_Read_02",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "READ_FUNCTION_READ",
+    "DetailDes": "READ_DESC_2000040",
+    "IpDes": "READ_TEXT_2000040"
+  },
+  "2000041": {
+    "ResourceId": 2000041,
+    "ResourceName": "READ_NAME_2000041",
+    "Type": "Read",
+    "Rarity": 3,
+    "ImmediateGet": 1,
+    "MaterialClassify": 5,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Read_01.Icon_Read_01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "READ_FUNCTION_READ",
+    "DetailDes": "READ_DESC_2000041",
+    "IpDes": "READ_TEXT_2000041"
+  },
+  "2000042": {
+    "ResourceId": 2000042,
+    "ResourceName": "READ_NAME_2000042",
+    "Type": "Read",
+    "Rarity": 3,
+    "ImmediateGet": 1,
+    "MaterialClassify": 5,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Read_01.Icon_Read_01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "READ_FUNCTION_READ",
+    "DetailDes": "READ_DESC_2000042",
+    "IpDes": "READ_TEXT_2000042"
+  },
+  "2000043": {
+    "ResourceId": 2000043,
+    "ResourceName": "READ_NAME_2000043",
+    "Type": "Read",
+    "Rarity": 3,
+    "ImmediateGet": 1,
+    "MaterialClassify": 5,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Read_01.Icon_Read_01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "READ_FUNCTION_READ",
+    "DetailDes": "READ_DESC_2000043",
+    "IpDes": "READ_TEXT_2000043"
+  },
+  "3000001": {
+    "ResourceId": 3000001,
+    "ResourceName": "RESOURCE_NAME_3000001",
+    "Type": "Ordinary",
+    "Rarity": 4,
+    "ImmediateGet": 1,
+    "MaterialClassify": 4,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Impression_Star.Icon_Impression_Star",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "RESOURCE_FUNCTION_TASK",
+    "DetailDes": "RESOURCE_DESC_3000001"
+  },
+  "3000002": {
+    "ResourceId": 3000002,
+    "ResourceName": "RESOURCE_NAME_3000002",
+    "Type": "Ordinary",
+    "Rarity": 3,
+    "ImmediateGet": 1,
+    "MaterialClassify": 4,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Impression_Star.Icon_Impression_Star",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "RESOURCE_FUNCTION_TASK",
+    "DetailDes": "RESOURCE_DESC_3000002"
+  },
+  "3000003": {
+    "ResourceId": 3000003,
+    "ResourceName": "RESOURCE_NAME_3000003",
+    "Type": "Ordinary",
+    "Rarity": 3,
+    "ImmediateGet": 1,
+    "MaterialClassify": 4,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Impression_Star.Icon_Impression_Star",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "RESOURCE_FUNCTION_TASK",
+    "DetailDes": "RESOURCE_DESC_3000003"
+  },
+  "3000004": {
+    "ResourceId": 3000004,
+    "ResourceName": "RESOURCE_NAME_3000004",
+    "Type": "Ordinary",
+    "Rarity": 3,
+    "ImmediateGet": 1,
+    "MaterialClassify": 4,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Impression_Star.Icon_Impression_Star",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "RESOURCE_FUNCTION_TASK",
+    "DetailDes": "RESOURCE_DESC_3000004"
+  },
+  "3000005": {
+    "ResourceId": 3000005,
+    "ResourceName": "RESOURCE_NAME_3000005",
+    "Type": "Ordinary",
+    "Rarity": 4,
+    "ImmediateGet": 1,
+    "MaterialClassify": 4,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Guide_Ex01_AidKit.Icon_Guide_Ex01_AidKit",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "RESOURCE_FUNCTION_TASK",
+    "DetailDes": "RESOURCE_DESC_3000005"
+  },
+  "3000006": {
+    "ResourceId": 3000006,
+    "ResourceName": "RESOURCE_NAME_3000006",
+    "Type": "Ordinary",
+    "Rarity": 4,
+    "ImmediateGet": 1,
+    "MaterialClassify": 4,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Photo_Group01.Icon_Photo_Group01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "RESOURCE_FUNCTION_TASK",
+    "DetailDes": "RESOURCE_DESC_3000006"
+  },
+  "3000007": {
+    "ResourceId": 3000007,
+    "ResourceName": "RESOURCE_NAME_3000007",
+    "Type": "Ordinary",
+    "Rarity": 4,
+    "ImmediateGet": 1,
+    "MaterialClassify": 4,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Photo_Group02.Icon_Photo_Group02",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "RESOURCE_FUNCTION_TASK",
+    "DetailDes": "RESOURCE_DESC_3000007"
+  },
+  "3000008": {
+    "ResourceId": 3000008,
+    "ResourceName": "RESOURCE_NAME_3000008",
+    "Type": "Ordinary",
+    "Rarity": 4,
+    "ImmediateGet": 1,
+    "MaterialClassify": 4,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Quest_Chapter01_Flower_2.Icon_Quest_Chapter01_Flower_2",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "RESOURCE_FUNCTION_TASK",
+    "DetailDes": "RESOURCE_DESC_3000008"
+  },
+  "3000009": {
+    "ResourceId": 3000009,
+    "ResourceName": "RESOURCE_NAME_3000009",
+    "Type": "Ordinary",
+    "Rarity": 4,
+    "ImmediateGet": 1,
+    "MaterialClassify": 4,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Impression_Star.Icon_Impression_Star",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "RESOURCE_FUNCTION_TASK",
+    "DetailDes": "RESOURCE_DESC_3000009"
+  },
+  "3000010": {
+    "ResourceId": 3000010,
+    "ResourceName": "RESOURCE_NAME_3000010",
+    "Type": "Ordinary",
+    "Rarity": 4,
+    "ImmediateGet": 1,
+    "MaterialClassify": 4,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Impression_Star.Icon_Impression_Star",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "RESOURCE_FUNCTION_TASK",
+    "DetailDes": "RESOURCE_DESC_3000010"
+  },
+  "3000011": {
+    "ResourceId": 3000011,
+    "ResourceName": "RESOURCE_NAME_3000011",
+    "Type": "Ordinary",
+    "Rarity": 4,
+    "ImmediateGet": 1,
+    "MaterialClassify": 4,
+    "ResourceValue": -1,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Impression_Star.Icon_Impression_Star",
+    "Sound": "SOUND_ITEM_PAPER",
+    "FunctionDes": "RESOURCE_FUNCTION_TASK",
+    "DetailDes": "RESOURCE_DESC_3000011"
+  },
+  "4010001": {
+    "ResourceId": 4010001,
+    "ResourceName": "RESOURCE_NAME_4010001",
+    "Type": "Ordinary",
+    "Rarity": 2,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 20,
+    "AccessKey": [
+      "Text_Collecting_Prologue"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Pickup_Butterfly01",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGE",
+    "DetailDes": "RESOURCE_DESC_4010001",
+    "IpDes": "RESOURCE_TEXT_4010001"
+  },
+  "4010002": {
+    "ResourceId": 4010002,
+    "ResourceName": "RESOURCE_NAME_4010002",
+    "Type": "Ordinary",
+    "Rarity": 2,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 20,
+    "AccessKey": [
+      "Text_Collecting_Icelake",
+      "Text_Collecting_Prologue"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Pickup_Butterfly02",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGE",
+    "DetailDes": "RESOURCE_DESC_4010002",
+    "IpDes": "RESOURCE_TEXT_4010002"
+  },
+  "4010003": {
+    "ResourceId": 4010003,
+    "ResourceName": "RESOURCE_NAME_4010003",
+    "Type": "Ordinary",
+    "Rarity": 2,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 20,
+    "AccessKey": [
+      "Text_Collecting_Prologue"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Pickup_Spring",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGE",
+    "DetailDes": "RESOURCE_DESC_4010003",
+    "IpDes": "RESOURCE_TEXT_4010003"
+  },
+  "4010004": {
+    "ResourceId": 4010004,
+    "ResourceName": "RESOURCE_NAME_4010004",
+    "Type": "Ordinary",
+    "Rarity": 2,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 20,
+    "AccessKey": {},
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Pickup_Mushroom",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGE",
+    "DetailDes": "RESOURCE_DESC_4010004",
+    "IpDes": "RESOURCE_TEXT_4010004"
+  },
+  "4010005": {
+    "ResourceId": 4010005,
+    "ResourceName": "RESOURCE_NAME_4010005",
+    "Type": "Ordinary",
+    "Rarity": 2,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 20,
+    "AccessKey": {},
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Pickup_Marrow",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGE",
+    "DetailDes": "RESOURCE_DESC_4010005",
+    "IpDes": "RESOURCE_TEXT_4010005"
+  },
+  "4010006": {
+    "ResourceId": 4010006,
+    "ResourceName": "RESOURCE_NAME_4010006",
+    "Type": "Ordinary",
+    "Rarity": 2,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 20,
+    "AccessKey": [
+      "Text_Collecting_Icelake",
+      "Text_Collecting_Prologue"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Pickup_Grass02",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGE",
+    "DetailDes": "RESOURCE_DESC_4010006",
+    "IpDes": "RESOURCE_TEXT_4010006"
+  },
+  "4010007": {
+    "ResourceId": 4010007,
+    "ResourceName": "RESOURCE_NAME_4010007",
+    "Type": "Ordinary",
+    "Rarity": 2,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 20,
+    "AccessKey": [
+      "Text_Collecting_Prologue"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Pickup_Shell",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGE",
+    "DetailDes": "RESOURCE_DESC_4010007",
+    "IpDes": "RESOURCE_TEXT_4010007"
+  },
+  "4010008": {
+    "ResourceId": 4010008,
+    "ResourceName": "RESOURCE_NAME_4010008",
+    "Type": "Ordinary",
+    "Rarity": 2,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 20,
+    "AccessKey": [
+      "Text_Collecting_Icelake"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Pickup_Grass01",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGE",
+    "DetailDes": "RESOURCE_DESC_4010008",
+    "IpDes": "RESOURCE_TEXT_4010008"
+  },
+  "4020001": {
+    "ResourceId": 4020001,
+    "ResourceName": "RESOURCE_NAME_4020001",
+    "Type": "Ordinary",
+    "Rarity": 2,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 20,
+    "AccessKey": [
+      "Text_Collecting_Prologue"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Pickup_Nut01",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGE",
+    "DetailDes": "RESOURCE_DESC_4020001",
+    "IpDes": "RESOURCE_TEXT_4020001"
+  },
+  "4020002": {
+    "ResourceId": 4020002,
+    "ResourceName": "RESOURCE_NAME_4020002",
+    "Type": "Ordinary",
+    "Rarity": 3,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 100,
+    "AccessKey": [
+      "Text_Collecting_Prologue"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Pickup_Nut02",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGE",
+    "DetailDes": "RESOURCE_DESC_4020002",
+    "IpDes": "RESOURCE_TEXT_4020002"
+  },
+  "4020003": {
+    "ResourceId": 4020003,
+    "ResourceName": "RESOURCE_NAME_4020003",
+    "Type": "Ordinary",
+    "Rarity": 2,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 20,
+    "AccessKey": [
+      "Text_Collecting_KK"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Pickup_Stone01",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGE",
+    "DetailDes": "RESOURCE_DESC_4020003",
+    "IpDes": "RESOURCE_TEXT_4020003"
+  },
+  "4020004": {
+    "ResourceId": 4020004,
+    "ResourceName": "RESOURCE_NAME_4020004",
+    "Type": "Ordinary",
+    "Rarity": 3,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 100,
+    "AccessKey": [
+      "Text_Collecting_KK"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Pickup_Stone02",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGE",
+    "DetailDes": "RESOURCE_DESC_4020004",
+    "IpDes": "RESOURCE_TEXT_4020004"
+  },
+  "4020005": {
+    "ResourceId": 4020005,
+    "ResourceName": "RESOURCE_NAME_4020005",
+    "Type": "Ordinary",
+    "Rarity": 2,
+    "MaterialClassify": 3,
+    "ResourceToCoinType": 101,
+    "ResourceValue": 20,
+    "AccessKey": [
+      "Text_Collecting_Icelake"
+    ],
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Pickup_Stomach",
+    "Sound": "SOUND_ITEM_NORMAL",
+    "FunctionDes": "RESOURCE_FUNCTION_FORGE",
+    "DetailDes": "RESOURCE_DESC_4020005",
+    "IpDes": "RESOURCE_TEXT_4020005"
+  }
+}

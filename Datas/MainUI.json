@@ -1,0 +1,284 @@
+[
+  {
+    "EnterId": 1,
+    "Name": "MAIN_UI_ARMORY",
+    "Icon": "/Game/UI/UI_PNG/Common/Icon/Icon_Entrance_Armory.Icon_Entrance_Armory",
+    "Icon2": "/Game/UI/Texture/ExtraAtlas/Sprites_Icon_Entrance_Armory",
+    "ActionName": "OpenArmory",
+    "Sequence": 10,
+    "EscShowCondition": {},
+    "ShowCondition": {},
+    "SystemUIName": "ArmoryMain",
+    "UIUnlockRuleName": "Armory",
+    "ReddotNode": "ArmoryMainMenu"
+  },
+  {
+    "EnterId": 2,
+    "Name": "MAIN_UI_BAG",
+    "Icon": "/Game/UI/UI_PNG/Common/Icon/Icon_Entrance_Bag",
+    "Icon2": "/Game/UI/Texture/ExtraAtlas/Sprites_Icon_Entrance_Bag",
+    "ActionName": "OpenBag",
+    "Sequence": 20,
+    "EscShowCondition": [
+      2
+    ],
+    "ShowCondition": [
+      2,
+      5
+    ],
+    "SystemUIName": "BagMain",
+    "UIUnlockRuleName": "Bag"
+  },
+  {
+    "EnterId": 3,
+    "Name": "MAIN_UI_NPCSWITCH",
+    "Icon": "/Game/UI/UI_PNG/Common/Icon/Icon_Entrance_Invite",
+    "Icon2": "/Game/UI/Texture/ExtraAtlas/Sprites_Icon_Entrance_Invite",
+    "Sequence": 60,
+    "EscShowCondition": [
+      1
+    ],
+    "ShowCondition": [
+      1,
+      5
+    ],
+    "SystemUIName": "NpcSwitchMain",
+    "UIUnlockRuleName": "Invite"
+  },
+  {
+    "EnterId": 4,
+    "Name": "MAIN_UI_SHOP",
+    "Icon": "/Game/UI/UI_PNG/Common/Icon/Icon_Entrance_Store",
+    "Icon2": "/Game/UI/Texture/ExtraAtlas/Sprites_Icon_Entrance_Store",
+    "Sequence": 90,
+    "EscShowCondition": [
+      2
+    ],
+    "SystemUIName": "ShopMain",
+    "UIUnlockRuleName": "Shop"
+  },
+  {
+    "EnterId": 5,
+    "Name": "MAIN_UI_GACHA",
+    "Icon": "/Game/UI/UI_PNG/Common/Icon/Icon_Entrance_Gacha",
+    "Icon2": "/Game/UI/Texture/ExtraAtlas/Sprites_Icon_Entrance_Gacha",
+    "Sequence": 80,
+    "EscShowCondition": [
+      2
+    ],
+    "ShowCondition": [
+      2,
+      5
+    ],
+    "SystemUIName": "GachaMain",
+    "UIUnlockRuleName": "Gacha"
+  },
+  {
+    "EnterId": 6,
+    "Name": "MAIN_UI_FORGE",
+    "Icon": "/Game/UI/UI_PNG/Common/Icon/Icon_Entrance_Forging",
+    "Icon2": "/Game/UI/Texture/ExtraAtlas/Sprites_Icon_Entrance_Forging",
+    "Sequence": 70,
+    "EscShowCondition": [
+      1
+    ],
+    "ShowCondition": [
+      1,
+      5
+    ],
+    "IsShowRedDotFunction": "IsShowRedDot_Forge",
+    "SystemUIName": "ForgeMain",
+    "UIUnlockRuleName": "Forging"
+  },
+  {
+    "EnterId": 7,
+    "Name": "MAIN_UI_ACHIEVEMENT",
+    "Icon": "/Game/UI/UI_PNG/Common/Icon/Icon_Entrance_Achievement",
+    "Icon2": "/Game/UI/Texture/ExtraAtlas/Sprites_Icon_Entrance_Achievement",
+    "Sequence": 30,
+    "EscShowCondition": [
+      2
+    ],
+    "IsShowRedDotFunction": "IsShowRedDot_Achievement",
+    "SystemUIName": "AchievementSystem",
+    "UIUnlockRuleName": "Achievement"
+  },
+  {
+    "EnterId": 8,
+    "Name": "MAIN_UI_PLAY",
+    "Icon": "/Game/UI/UI_PNG/Common/Icon/Icon_Entrance_Pve.Icon_Entrance_Pve",
+    "Icon2": "/Game/UI/Texture/ExtraAtlas/Sprites_Icon_Entrance_Pve",
+    "ActionName": "OpenPlay",
+    "Sequence": 50,
+    "EscShowCondition": [
+      2
+    ],
+    "ShowCondition": [
+      2,
+      5
+    ],
+    "IsShowRedDotFunction": "IsShowRedDot_Play",
+    "SystemUIName": "StyleOfPlay",
+    "UIUnlockRuleName": "Play"
+  },
+  {
+    "EnterId": 9,
+    "Name": "MAIN_UI_QUEST",
+    "Icon": "/Game/UI/UI_PNG/Common/Icon/Icon_Entrance_Task.Icon_Entrance_Task",
+    "Icon2": "/Game/UI/Texture/ExtraAtlas/Sprites_Icon_Entrance_Task",
+    "ActionName": "OpenTask",
+    "Sequence": 40,
+    "EscShowCondition": [
+      2
+    ],
+    "ShowCondition": [
+      2,
+      5
+    ],
+    "IsShowRedDotFunction": "IsShowRedDot_QuestPanel",
+    "SystemUIName": "TaskPanel",
+    "UIUnlockRuleName": "Quest"
+  },
+  {
+    "EnterId": 10,
+    "Name": "MAIN_UI_MAIL",
+    "Icon": "/Game/UI/UI_PNG/Common/Icon/Icon_Entrance_Mail.Icon_Entrance_Mail",
+    "Icon2": "/Game/UI/Texture/ExtraAtlas/Sprites_Icon_Entrance_Mail",
+    "Sequence": 100,
+    "EscShowCondition": [
+      2
+    ],
+    "SystemUIName": "MailMain",
+    "UIUnlockRuleName": "Mail",
+    "ReddotNode": "NormalMail"
+  },
+  {
+    "EnterId": 11,
+    "Name": "MAIN_UI_MENU",
+    "Icon": "/Game/UI/UI_PNG/Common/Icon/Icon_Entrance_Menu",
+    "Icon2": "/Game/UI/Texture/ExtraAtlas/Sprites_Icon_Entrance_Menu",
+    "ActionName": "OpenMenu",
+    "IsShowRedDotFunction": "IsShowRedDot_Menu",
+    "ReddotNode": "BattleMainMenu"
+  },
+  {
+    "EnterId": 12,
+    "Name": "MAIN_UI_NOTICE",
+    "Icon": "/Game/UI/UI_PNG/Common/Icon/Icon_Entrance_Announcement",
+    "Icon2": "/Game/UI/Texture/ExtraAtlas/Sprites_Icon_Entrance_Announcement",
+    "Sequence": 110,
+    "EscShowCondition": [
+      2
+    ],
+    "SystemUIName": "AnnouncementMain",
+    "UIUnlockRuleName": "Announcement",
+    "ReddotNode": "AnnouncementItems"
+  },
+  {
+    "EnterId": 13,
+    "Name": "MAIN_UI_GUIDEBOOK",
+    "Icon": "/Game/UI/UI_PNG/Common/Icon/Icon_Entrance_GuideBook.Icon_Entrance_GuideBook",
+    "Icon2": "/Game/UI/Texture/ExtraAtlas/Sprites_Icon_Entrance_GuideBook",
+    "ActionName": "OpenGuideBook",
+    "Sequence": 120,
+    "EscShowCondition": [
+      2
+    ],
+    "SystemUIName": "GuideBook",
+    "UIUnlockRuleName": "GuideBook",
+    "ReddotNode": "NewGuideNote"
+  },
+  {
+    "EnterId": 14,
+    "Name": "MAIN_UI_FRIEND",
+    "Icon": "/Game/UI/UI_PNG/Common/Icon/Icon_Entrance_Friend",
+    "Icon2": "/Game/UI/Texture/ExtraAtlas/Sprites_Icon_Entrance_Friend",
+    "Sequence": 130,
+    "EscShowCondition": [
+      2
+    ],
+    "SystemUIName": "FriendMain",
+    "UIUnlockRuleName": "FriendMain",
+    "ReddotNode": "NewFriendRequest"
+  },
+  {
+    "EnterId": 15,
+    "Name": "MAIN_UI_PHOTOCAMERA",
+    "Icon": "/Game/UI/UI_PNG/Common/Icon/Icon_Entrance_Camera",
+    "Icon2": "/Game/UI/Texture/ExtraAtlas/Sprites_Icon_Entrance_Camera",
+    "Sequence": 140,
+    "EscShowCondition": [
+      2
+    ],
+    "ShowCondition": {},
+    "SystemUIName": "PhotoCameraMain",
+    "UIUnlockRuleName": "PhotoCameraMain"
+  },
+  {
+    "EnterId": 16,
+    "Name": "MAIN_UI_BAG",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/RougeLike/T_Rouge_knapsack.T_Rouge_knapsack",
+    "Icon2": "/Game/UI/Texture/ExtraAtlas/Sprites_T_Rouge_knapsack",
+    "Sequence": 150,
+    "ShowCondition": {},
+    "SystemUIName": "RougeBag",
+    "UIUnlockRuleName": "RougeBag"
+  },
+  {
+    "EnterId": 17,
+    "Name": "MAIN_UI_CHAT",
+    "Icon": "Texture2D'/Game/UI/Texture/Dynamic/Atlas/Common/T_Entrance_Chat.T_Entrance_Chat'",
+    "Icon2": "/Game/UI/Texture/ExtraAtlas/Sprites_T_Entrance_Chat",
+    "ActionName": "OpenChat",
+    "SystemUIName": "ChatMain",
+    "UIUnlockRuleName": "Chat",
+    "ReddotNode": "ChatMainMenu"
+  },
+  {
+    "EnterId": 18,
+    "Name": "MAIN_UI_GAMEEVENT",
+    "Icon": "/Game/UI/UI_PNG/Common/Icon/Icon_Entrance_Activity.Icon_Entrance_Activity",
+    "Icon2": "/Game/UI/Texture/ExtraAtlas/Sprites_Icon_Entrance_Activity",
+    "Sequence": 160,
+    "EscShowCondition": [
+      2
+    ],
+    "ShowCondition": [
+      2,
+      5
+    ],
+    "SystemUIName": "ActivityMain",
+    "UIUnlockRuleName": "GameEvent",
+    "ReddotNode": "ActivityEvent"
+  },
+  {
+    "EnterId": 19,
+    "Name": "MAIN_UI_MAP",
+    "Icon": "/Game/UI/UI_PNG/Atlas/Common/Icon_Entrance_Map_L.Icon_Entrance_Map_L",
+    "Icon2": "/Game/UI/Texture/ExtraAtlas/Sprites_Icon_Entrance_Map_L",
+    "ActionName": "OpenMap",
+    "Sequence": 170,
+    "EscShowCondition": [
+      2
+    ],
+    "SystemUIName": "LevelMapMain",
+    "UIUnlockRuleName": "Map"
+  },
+  {
+    "EnterId": 20,
+    "Name": "MAIN_UI_ENTERTAINMENT",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Entrance/T_Entrance_Entertainment",
+    "Icon2": "/Game/UI/Texture/ExtraAtlas/Sprites_T_Entrance_Entertainment",
+    "Sequence": 180,
+    "EscShowCondition": [
+      1
+    ],
+    "ShowCondition": [
+      1,
+      5
+    ],
+    "IsShowRedDotFunction": "IsShowRedDot_Entertainment",
+    "SystemUIName": "Entertainment",
+    "UIUnlockRuleName": "Entertainment"
+  }
+]

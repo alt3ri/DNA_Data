@@ -1,0 +1,159 @@
+{
+  "Idle": {
+    "SourceTag": "Idle"
+  },
+  "Falling": {
+    "SourceTag": "Falling",
+    "ActionMode": 0
+  },
+  "Slide": {
+    "SourceTag": "Slide",
+    "BreakableItem": [
+      {
+        "Breakable": true
+      },
+      {
+        "Radius": 60
+      }
+    ],
+    "ActionMode": 0,
+    "TagType": {}
+  },
+  "Crouch": {
+    "SourceTag": "Crouch",
+    "ActionMode": 0,
+    "TagType": {}
+  },
+  "BulletJump": {
+    "SourceTag": "BulletJump",
+    "BreakableItem": [
+      {
+        "Breakable": true
+      },
+      {
+        "Radius": 60
+      }
+    ],
+    "ActionMode": 0,
+    "TagType": {}
+  },
+  "Avoid": {
+    "SourceTag": "Avoid",
+    "ActionMode": 0,
+    "TagType": {}
+  },
+  "LandHeavy": {
+    "SourceTag": "LandHeavy",
+    "ForbidInput": 1,
+    "BreakableItem": {
+      "Breakable": true,
+      "Radius": 250
+    },
+    "ActionMode": 1,
+    "TagType": {}
+  },
+  "Skill": {
+    "SourceTag": "Skill",
+    "ActionMode": 0
+  },
+  "Shooting": {
+    "SourceTag": "Shooting",
+    "ActionMode": 0
+  },
+  "Dead": {
+    "SourceTag": "Dead",
+    "ForbidInput": 1,
+    "ActionMode": 1,
+    "TagType": [
+      "Controlled"
+    ]
+  },
+  "GrabHit": {
+    "SourceTag": "GrabHit",
+    "ForbidInput": 1,
+    "ActionMode": 1,
+    "TagType": [
+      "Controlled"
+    ]
+  },
+  "HitFly": {
+    "SourceTag": "HitFly",
+    "BreakableItem": [
+      {
+        "Breakable": true
+      },
+      {
+        "Radius": 60
+      }
+    ],
+    "ActionMode": 1,
+    "TagType": [
+      "Controlled",
+      "Hit"
+    ]
+  },
+  "HitRepel": {
+    "SourceTag": "HitRepel",
+    "ForbidInput": 1,
+    "ActionMode": 1
+  },
+  "LightHit": {
+    "SourceTag": "LightHit",
+    "ActionMode": 1,
+    "TagType": [
+      "Controlled",
+      "Hit"
+    ]
+  },
+  "LightHitRanged": {
+    "SourceTag": "LightHitRanged",
+    "ForbidInput": 1,
+    "ActionMode": 1,
+    "TagType": [
+      "Controlled",
+      "Hit"
+    ]
+  },
+  "HeavyHit": {
+    "SourceTag": "HeavyHit",
+    "ActionMode": 1,
+    "TagType": [
+      "Controlled",
+      "Hit"
+    ]
+  },
+  "LevelEnter": {
+    "SourceTag": "LevelEnter",
+    "ForbidInput": 1,
+    "ActionMode": 1
+  },
+  "LevelFinish": {
+    "SourceTag": "LevelFinish",
+    "ForbidInput": 1,
+    "ActionMode": 1
+  },
+  "Interactive": {
+    "SourceTag": "Interactive",
+    "ForbidInput": 1,
+    "ActionMode": 1,
+    "TagType": {}
+  },
+  "Recovery": {
+    "SourceTag": "Recovery",
+    "ForbidInput": 1,
+    "ActionMode": 1
+  },
+  "Seating": {
+    "SourceTag": "Seating",
+    "ActionMode": 0,
+    "TagType": {}
+  },
+  "Stun": {
+    "SourceTag": "Stun",
+    "ForbidInput": 1,
+    "ActionMode": 1,
+    "TagType": [
+      "Controlled"
+    ]
+  }
+}

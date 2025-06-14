@@ -1,0 +1,57 @@
+{
+  "AnnouncementItems": {
+    "Name": "AnnouncementItems",
+    "IsLeaf": true,
+    "Type": 1,
+    "IsCommonCache": true
+  },
+  "BattleMainMenu": {
+    "Name": "BattleMainMenu",
+    "Type": 0,
+    "Childs": {}
+  },
+  "ArmoryBattleItem": {
+    "Name": "ArmoryBattleItem",
+    "IsLeaf": true,
+    "Type": 1
+  },
+  "ArmoryMainMenu": {
+    "Name": "ArmoryMainMenu",
+    "Type": 0,
+    "Childs": {}
+  },
+  "NewChar": {
+    "Name": "NewChar",
+    "IsLeaf": true,
+    "Type": 1
+  },
+  "PromoteChar": {
+    "Name": "PromoteChar",
+    "IsLeaf": true,
+    "Type": 0
+  },
+  "NormalMail": {
+    "Name": "NormalMail",
+    "IsLeaf": true,
+    "Type": 3
+  },
+  "NewFriendRequest": {
+    "Name": "NewFriendRequest",
+    "IsLeaf": true,
+    "Type": 0
+  },
+  "NewGuideNote": {
+    "Name": "NewGuideNote",
+    "IsLeaf": true,
+    "Type": 1
+  },
+  "ChatMainMenu": {
+    "Name": "ChatMainMenu",
+    "Type": 3
+  },
+  "ActivityEvent": {
+    "Name": "ActivityEvent",
+    "IsLeaf": true,
+    "Type": 1
+  }
+}

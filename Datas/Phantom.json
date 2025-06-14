@@ -1,0 +1,333 @@
+{
+  "1": {
+    "UnitId": 1,
+    "UnitName": "跑测机器人",
+    "Camp": "Player",
+    "UnitBPPath": "/Game/BluePrints/Char/BP_PlayerCharacterAI.BP_PlayerCharacterAI",
+    "BT": [
+      "/Game/AssetDesign/AI/Player/Heitao/BT_Phantom_Heitao.BT_Phantom_Heitao"
+    ]
+  },
+  "10": {
+    "UnitId": 10,
+    "UnitName": "NPC-人质",
+    "IsNPCPhantom": true,
+    "IsHostage": true,
+    "BattleRoleId": 10,
+    "RespawnUI": 20001,
+    "InitGuide": {
+      "All": -1
+    },
+    "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Rescue.Guide_Icon_Rescue",
+    "Camp": "Player",
+    "HatredRatio": 2,
+    "UnitBPPath": "/Game/BluePrints/Char/BP_Phantom/BP_NPCPhantom.BP_NPCPhantom",
+    "BT": [
+      "/Game/AssetDesign/AI/Player/BattleNPC/Hostage/BT_Phantom_Hostage.BT_Phantom_Hostage"
+    ],
+    "AlertId": 1
+  },
+  "101": {
+    "UnitId": 101,
+    "UnitName": "测试用魅影",
+    "BattleRoleId": 1101,
+    "Camp": "Player",
+    "WearMeleeWeapon": 1,
+    "WearRangedWeapon": 1,
+    "UnitBPPath": "/Game/BluePrints/Char/BP_Phantom/BP_PhantomCharacter.BP_PhantomCharacter",
+    "BT": [
+      "/Game/AssetDesign/AI/Z_Misc_Test/PhantomTest/BT_Phantom_Test.BT_Phantom_Test"
+    ],
+    "AlertId": 1
+  },
+  "201": {
+    "UnitId": 201,
+    "UnitName": "NPC-阿瓦",
+    "IsNPCPhantom": true,
+    "BattleRoleId": 201,
+    "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Phantom.Guide_Icon_Phantom",
+    "Camp": "Player",
+    "UnitBPPath": "/Game/BluePrints/Char/BP_Phantom/BP_NPCPhantom.BP_NPCPhantom",
+    "BT": [
+      "/Game/AssetDesign/AI/Player/BattleNPC/Awa/BT_Phantom_Awa.BT_Phantom_Awa"
+    ],
+    "AlertId": 1
+  },
+  "202": {
+    "UnitId": 202,
+    "UnitName": "NPC-达芙涅",
+    "IsNPCPhantom": true,
+    "BattleRoleId": 202,
+    "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Phantom.Guide_Icon_Phantom",
+    "Camp": "Player",
+    "HatredRatio": 0,
+    "UnitBPPath": "/Game/BluePrints/Char/BP_Phantom/BP_NPCPhantom.BP_NPCPhantom",
+    "BT": [
+      "/Game/AssetDesign/AI/Player/BattleNPC/Dafu/BT_Phantom_Dafu.BT_Phantom_Dafu"
+    ],
+    "AlertId": 1
+  },
+  "203": {
+    "UnitId": 203,
+    "UnitName": "NPC-蝶妹-打嗜晶者",
+    "IsNPCPhantom": true,
+    "BattleRoleId": 5301,
+    "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Phantom.Guide_Icon_Phantom",
+    "Camp": "Player",
+    "HatredRatio": 0,
+    "WearMeleeWeapon": 1,
+    "UnitBPPath": "/Game/BluePrints/Char/BP_Phantom/BP_NPCPhantom.BP_NPCPhantom",
+    "BT": [
+      "/Game/AssetDesign/AI/Player/Saiqi/BT_Phantom_SaiqiNPC.BT_Phantom_SaiqiNPC"
+    ],
+    "AlertId": 1
+  },
+  "1101": {
+    "UnitId": 1101,
+    "UnitName": "黑桃-魅影",
+    "BattleRoleId": 1101,
+    "AutoRespawn": 5,
+    "RespawnUI": 20001,
+    "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Phantom.Guide_Icon_Phantom",
+    "Camp": "Player",
+    "HatredRatio": 0.5,
+    "WearMeleeWeapon": 1,
+    "UnitBPPath": "/Game/BluePrints/Char/BP_Phantom/BP_PhantomCharacter.BP_PhantomCharacter",
+    "BT": [
+      "/Game/AssetDesign/AI/Player/Heitao/BT_Phantom_Heitao.BT_Phantom_Heitao",
+      "/Game/AssetDesign/AI/Player/Heitao/BT_Phantom_Heitao_Skill01.BT_Phantom_Heitao_Skill01",
+      "/Game/AssetDesign/AI/Player/Heitao/BT_Phantom_Heitao_Skill02.BT_Phantom_Heitao_Skill02"
+    ],
+    "AlertId": 1
+  },
+  "1801": {
+    "UnitId": 1801,
+    "UnitName": "菲娜-魅影",
+    "BattleRoleId": 1801,
+    "AutoRespawn": 5,
+    "RespawnUI": 20001,
+    "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Phantom.Guide_Icon_Phantom",
+    "Camp": "Player",
+    "HatredRatio": 0.5,
+    "WearMeleeWeapon": 1,
+    "UnitBPPath": "/Game/BluePrints/Char/BP_Phantom/BP_PhantomCharacter.BP_PhantomCharacter",
+    "BT": [
+      "/Game/AssetDesign/AI/Player/Feina/BT_Phantom_Feina.BT_Phantom_Feina"
+    ],
+    "AlertId": 1
+  },
+  "2101": {
+    "UnitId": 2101,
+    "UnitName": "水母-魅影",
+    "BattleRoleId": 2101,
+    "AutoRespawn": 5,
+    "RespawnUI": 20001,
+    "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Phantom.Guide_Icon_Phantom",
+    "Camp": "Player",
+    "HatredRatio": 0.5,
+    "WearMeleeWeapon": 1,
+    "UnitBPPath": "/Game/BluePrints/Char/BP_Phantom/BP_PhantomCharacter.BP_PhantomCharacter",
+    "BT": [
+      "/Game/AssetDesign/AI/Player/Shuimu/BT_Phantom_Shuimu.BT_Phantom_Shuimu"
+    ],
+    "AlertId": 1
+  },
+  "2301": {
+    "UnitId": 2301,
+    "UnitName": "章鱼-魅影",
+    "BattleRoleId": 2301,
+    "AutoRespawn": 5,
+    "RespawnUI": 20001,
+    "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Phantom.Guide_Icon_Phantom",
+    "Camp": "Player",
+    "HatredRatio": 0.5,
+    "WearRangedWeapon": 1,
+    "UnitBPPath": "/Game/BluePrints/Char/BP_Phantom/BP_PhantomCharacter.BP_PhantomCharacter",
+    "BT": [
+      "/Game/AssetDesign/AI/Player/Zhangyu/BT_Phantom_Zhangyu.BT_Phantom_Zhangyu",
+      "/Game/AssetDesign/AI/Player/Zhangyu/BT_Phantom_Zhangyu_Skill01.BT_Phantom_Zhangyu_Skill01",
+      "/Game/AssetDesign/AI/Player/Zhangyu/BT_Phantom_Zhangyu_Skill02.BT_Phantom_Zhangyu_Skill02"
+    ],
+    "AlertId": 1
+  },
+  "2401": {
+    "UnitId": 2401,
+    "UnitName": "白蘅-魅影",
+    "BattleRoleId": 2401,
+    "AutoRespawn": 5,
+    "RespawnUI": 20001,
+    "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Phantom.Guide_Icon_Phantom",
+    "Camp": "Player",
+    "HatredRatio": 0.5,
+    "WearRangedWeapon": 1,
+    "UnitBPPath": "/Game/BluePrints/Char/BP_Phantom/BP_PhantomCharacter.BP_PhantomCharacter",
+    "BT": [
+      "/Game/AssetDesign/AI/Player/Baiheng/BT_Phantom_Baiheng.BT_Phantom_Baiheng"
+    ],
+    "AlertId": 1
+  },
+  "3101": {
+    "UnitId": 3101,
+    "UnitName": "女枪-魅影",
+    "BattleRoleId": 3101,
+    "AutoRespawn": 5,
+    "RespawnUI": 20001,
+    "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Phantom.Guide_Icon_Phantom",
+    "Camp": "Player",
+    "HatredRatio": 0.5,
+    "WearRangedWeapon": 1,
+    "UnitBPPath": "/Game/BluePrints/Char/BP_Phantom/BP_PhantomCharacter.BP_PhantomCharacter",
+    "BT": [
+      "/Game/AssetDesign/AI/Player/Linen/BT_Phantom_Linen.BT_Phantom_Linen"
+    ],
+    "AlertId": 1
+  },
+  "3102": {
+    "UnitId": 3102,
+    "UnitName": "希尔妲-魅影",
+    "BattleRoleId": 3102,
+    "AutoRespawn": 5,
+    "RespawnUI": 20001,
+    "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Phantom.Guide_Icon_Phantom",
+    "Camp": "Player",
+    "HatredRatio": 0.5,
+    "WearRangedWeapon": 1,
+    "UnitBPPath": "/Game/BluePrints/Char/BP_Phantom/BP_PhantomCharacter.BP_PhantomCharacter",
+    "BT": [
+      "/Game/AssetDesign/AI/Player/Xier/BT_Phantom_Xier.BT_Phantom_Xier"
+    ],
+    "AlertId": 1
+  },
+  "3103": {
+    "UnitId": 3103,
+    "UnitName": "希尔妲-魅影",
+    "BattleRoleId": 3103,
+    "AutoRespawn": 5,
+    "RespawnUI": 20001,
+    "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Phantom.Guide_Icon_Phantom",
+    "Camp": "Player",
+    "HatredRatio": 0.5,
+    "WearRangedWeapon": 1,
+    "UnitBPPath": "/Game/BluePrints/Char/BP_Phantom/BP_PhantomCharacter.BP_PhantomCharacter",
+    "BT": [
+      "/Game/AssetDesign/AI/Player/Yeer/BT_Phantom_Yeer.BT_Phantom_Yeer"
+    ],
+    "AlertId": 1
+  },
+  "3201": {
+    "UnitId": 3201,
+    "UnitName": "典狱长-魅影",
+    "BattleRoleId": 3201,
+    "AutoRespawn": 5,
+    "RespawnUI": 20001,
+    "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Phantom.Guide_Icon_Phantom",
+    "Camp": "Player",
+    "HatredRatio": 0.5,
+    "WearMeleeWeapon": 1,
+    "UnitBPPath": "/Game/BluePrints/Char/BP_Phantom/BP_PhantomCharacter.BP_PhantomCharacter",
+    "BT": [
+      "/Game/AssetDesign/AI/Player/Haier/BT_Phantom_Haier.BT_Phantom_Haier"
+    ],
+    "AlertId": 1
+  },
+  "3301": {
+    "UnitId": 3301,
+    "UnitName": "玛尔洁-魅影",
+    "BattleRoleId": 3301,
+    "AutoRespawn": 5,
+    "RespawnUI": 20001,
+    "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Phantom.Guide_Icon_Phantom",
+    "Camp": "Player",
+    "HatredRatio": 0.5,
+    "WearMeleeWeapon": 1,
+    "UnitBPPath": "/Game/BluePrints/Char/BP_Phantom/BP_PhantomCharacter.BP_PhantomCharacter",
+    "BT": [
+      "/Game/AssetDesign/AI/Player/Maer/BT_Phantom_Maer.BT_Phantom_Maer"
+    ],
+    "AlertId": 1
+  },
+  "4201": {
+    "UnitId": 4201,
+    "UnitName": "黑龙-魅影",
+    "BattleRoleId": 4201,
+    "AutoRespawn": 5,
+    "RespawnUI": 20001,
+    "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Phantom.Guide_Icon_Phantom",
+    "Camp": "Player",
+    "HatredRatio": 0.5,
+    "WearMeleeWeapon": 1,
+    "UnitBPPath": "/Game/BluePrints/Char/BP_Phantom/BP_PhantomCharacter.BP_PhantomCharacter",
+    "BT": [
+      "/Game/AssetDesign/AI/Player/Yuming/BT_Phantom_Yuming.BT_Phantom_Yuming"
+    ],
+    "AlertId": 1
+  },
+  "4202": {
+    "UnitId": 4202,
+    "UnitName": "兰迪-魅影",
+    "BattleRoleId": 4202,
+    "AutoRespawn": 5,
+    "RespawnUI": 20001,
+    "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Phantom.Guide_Icon_Phantom",
+    "Camp": "Player",
+    "HatredRatio": 0.5,
+    "WearMeleeWeapon": 1,
+    "UnitBPPath": "/Game/BluePrints/Char/BP_Phantom/BP_PhantomCharacter.BP_PhantomCharacter",
+    "BT": [
+      "/Game/AssetDesign/AI/Player/Landi/BT_Phantom_Landi.BT_Phantom_Landi"
+    ],
+    "AlertId": 1
+  },
+  "4301": {
+    "UnitId": 4301,
+    "UnitName": "西比-魅影",
+    "BattleRoleId": 4301,
+    "AutoRespawn": 5,
+    "RespawnUI": 20001,
+    "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Phantom.Guide_Icon_Phantom",
+    "Camp": "Player",
+    "HatredRatio": 0.5,
+    "WearMeleeWeapon": 1,
+    "UnitBPPath": "/Game/BluePrints/Char/BP_Phantom/BP_PhantomCharacter.BP_PhantomCharacter",
+    "BT": [
+      "/Game/AssetDesign/AI/Player/Xibi/BT_Phantom_Xibi.BT_Phantom_Xibi"
+    ],
+    "AlertId": 1
+  },
+  "5101": {
+    "UnitId": 5101,
+    "UnitName": "松露-魅影",
+    "BattleRoleId": 5101,
+    "AutoRespawn": 5,
+    "RespawnUI": 20001,
+    "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Phantom.Guide_Icon_Phantom",
+    "Camp": "Player",
+    "HatredRatio": 0.5,
+    "WearMeleeWeapon": 1,
+    "UnitBPPath": "/Game/BluePrints/Char/BP_Phantom/BP_PhantomCharacter.BP_PhantomCharacter",
+    "BT": [
+      "/Game/AssetDesign/AI/Player/Songlu/BT_Phantom_Songlu.BT_Phantom_Songlu"
+    ],
+    "AlertId": 1
+  },
+  "5301": {
+    "UnitId": 5301,
+    "UnitName": "蝶妹-魅影",
+    "BattleRoleId": 5301,
+    "FlyParams": {
+      "EnableFly": true,
+      "AlwaysFly": false
+    },
+    "AutoRespawn": 5,
+    "RespawnUI": 20001,
+    "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Phantom.Guide_Icon_Phantom",
+    "Camp": "Player",
+    "HatredRatio": 0.5,
+    "WearMeleeWeapon": 1,
+    "UnitBPPath": "/Game/BluePrints/Char/BP_Phantom/BP_PhantomCharacter.BP_PhantomCharacter",
+    "BT": [
+      "/Game/AssetDesign/AI/Player/Saiqi/BT_Phantom_Saiqi.BT_Phantom_Saiqi"
+    ],
+    "AlertId": 1
+  }
+}

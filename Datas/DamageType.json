@@ -1,0 +1,141 @@
+{
+  "Default": {
+    "ID": "Default",
+    "WeaknessTypeID": 0,
+    "DamageTypeUIIconPath": "/Game/UI/UI_PNG/Common/Icon/Icon_Default02.Icon_Default02",
+    "ShildCalPriority": 2
+  },
+  "Dark": {
+    "ID": "Dark",
+    "WeaknessTypeID": 1,
+    "WeaknessIcon": "/Game/UI/UI_PNG/Armory/Armory_Dark.Armory_Dark",
+    "DamageTypeUIIconPath": "/Game/UI/Texture/Dynamic/Atlas/Battle/T_Battle_Type_Dark02.T_Battle_Type_Dark02",
+    "ParticipationTrigger": true,
+    "AdditionalBuff": {
+      "BuffId": 101,
+      "LastTime": 6
+    },
+    "ShildCalPriority": 2
+  },
+  "Water": {
+    "ID": "Water",
+    "WeaknessTypeID": 2,
+    "WeaknessIcon": "/Game/UI/UI_PNG/Armory/Armory_Water.Armory_Water",
+    "DamageTypeUIIconPath": "/Game/UI/Texture/Dynamic/Atlas/Battle/T_Battle_Type_Water02.T_Battle_Type_Water02",
+    "DamageTypeUIIndex": 4,
+    "ParticipationTrigger": true,
+    "AdditionalBuff": {
+      "BuffId": 102,
+      "LastTime": 6
+    },
+    "ShildCalPriority": 2
+  },
+  "Fire": {
+    "ID": "Fire",
+    "WeaknessTypeID": 3,
+    "WeaknessIcon": "/Game/UI/UI_PNG/Armory/Armory_Fire.Armory_Fire",
+    "DamageTypeUIIconPath": "/Game/UI/Texture/Dynamic/Atlas/Battle/T_Battle_Type_Fire02.T_Battle_Type_Fire02",
+    "DamageTypeUIIndex": 2,
+    "ParticipationTrigger": true,
+    "AdditionalBuff": {
+      "BuffId": 103,
+      "LastTime": 6
+    },
+    "ShildCalPriority": 2
+  },
+  "Thunder": {
+    "ID": "Thunder",
+    "WeaknessTypeID": 4,
+    "WeaknessIcon": "/Game/UI/UI_PNG/Armory/Armory_Thunder.Armory_Thunder",
+    "DamageTypeUIIconPath": "/Game/UI/Texture/Dynamic/Atlas/Battle/T_Battle_Type_Thunder02.T_Battle_Type_Thunder02",
+    "DamageTypeUIIndex": 3,
+    "ParticipationTrigger": true,
+    "AdditionalBuff": {
+      "BuffId": 104,
+      "LastTime": 6
+    },
+    "ShildCalPriority": 2
+  },
+  "Wind": {
+    "ID": "Wind",
+    "WeaknessTypeID": 5,
+    "WeaknessIcon": "/Game/UI/UI_PNG/Armory/Armory_Wind.Armory_Wind",
+    "DamageTypeUIIconPath": "/Game/UI/Texture/Dynamic/Atlas/Battle/T_Battle_Type_Wind02.T_Battle_Type_Wind02",
+    "DamageTypeUIIndex": 1,
+    "ParticipationTrigger": true,
+    "AdditionalBuff": {
+      "BuffId": 105,
+      "LastTime": 6
+    },
+    "ShildCalPriority": 2
+  },
+  "Light": {
+    "ID": "Light",
+    "WeaknessTypeID": 6,
+    "WeaknessIcon": "/Game/UI/UI_PNG/Armory/Armory_Light.Armory_Light",
+    "DamageTypeUIIconPath": "/Game/UI/Texture/Dynamic/Atlas/Battle/T_Battle_Type_Light02.T_Battle_Type_Light02",
+    "ParticipationTrigger": true,
+    "AdditionalBuff": {
+      "BuffId": 106,
+      "LastTime": 6
+    },
+    "ShildCalPriority": 2
+  },
+  "Slash": {
+    "ID": "Slash",
+    "DamageTypeUIIconPath": "/Game/UI/Texture/Dynamic/Atlas/Battle/T_Battle_Type_Slash02.T_Battle_Type_Slash02",
+    "DamageTypeUIIndex": 5,
+    "ParticipationTrigger": true,
+    "ESRate": 1,
+    "ShildCalPriority": 1
+  },
+  "Spike": {
+    "ID": "Spike",
+    "DamageTypeUIIconPath": "/Game/UI/Texture/Dynamic/Atlas/Battle/T_Battle_Type_Spike02.T_Battle_Type_Spike02",
+    "DamageTypeUIIndex": 6,
+    "ParticipationTrigger": true,
+    "HpRate": 1,
+    "ShildCalPriority": 3
+  },
+  "Smash": {
+    "ID": "Smash",
+    "DamageTypeUIIconPath": "/Game/UI/Texture/Dynamic/Atlas/Battle/T_Battle_Type_Smash02.T_Battle_Type_Smash02",
+    "DamageTypeUIIndex": 7,
+    "ParticipationTrigger": true,
+    "CutToughnessRate": 1,
+    "ShildCalPriority": 2
+  },
+  "TrueDamage": {
+    "ID": "TrueDamage",
+    "IgnoreDamageRate": true,
+    "DisablePassiveEffect": true,
+    "IgnoreEnergyShield": true,
+    "ShildCalPriority": 2,
+    "DisableAddColor": 1
+  },
+  "HpConsume": {
+    "ID": "HpConsume",
+    "IgnoreDamageRate": true,
+    "DisablePassiveEffect": true,
+    "IgnoreEnergyShield": true,
+    "IgnoreInvincible": true,
+    "DisableUIEffect": 1,
+    "ShildCalPriority": 2,
+    "DisableAddColor": 1
+  },
+  "EsDamage": {
+    "ID": "EsDamage",
+    "ShildCalPriority": 2,
+    "IgnoreHp": 1,
+    "DisableAddColor": 1
+  },
+  "SaiqiHpConsume": {
+    "ID": "SaiqiHpConsume",
+    "IgnoreDamageRate": true,
+    "IgnoreEnergyShield": true,
+    "IgnoreInvincible": true,
+    "DisableUIEffect": 1,
+    "ShildCalPriority": 2,
+    "DisableAddColor": 1
+  }
+}

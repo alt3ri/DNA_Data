@@ -1,0 +1,419 @@
+{
+  "Bag": {
+    "UIUnlockRuleId": "Bag",
+    "ConditionId": 4010,
+    "UIUnlockName": "MAIN_UI_BAG",
+    "Icon": "/Game/UI/UI_PNG/Atlas/Common/Icon_Entrance_Bag_L.Icon_Entrance_Bag_L",
+    "UIUnlockDesc": "UI_Unlock_Des_Bag",
+    "AfterUIUnlockDesc": "System_Des_Bag",
+    "OpenConditionId": [
+      2,
+      5
+    ],
+    "OpenSystemDesc": "UI_Disabled_Des_Bag"
+  },
+  "Armory": {
+    "UIUnlockRuleId": "Armory",
+    "ConditionId": 4020,
+    "UIUnlockName": "MAIN_UI_ARMORY",
+    "Icon": "/Game/UI/UI_PNG/Atlas/Common/Icon_Entrance_Armory_L.Icon_Entrance_Armory_L",
+    "UIUnlockDesc": "UI_Locked_Des_Armory",
+    "AfterUIUnlockDesc": "System_Des_Armory",
+    "OpenConditionId": [
+      4,
+      5
+    ],
+    "OpenSystemDesc": "UI_Disabled_Des_Armory"
+  },
+  "Shop": {
+    "UIUnlockRuleId": "Shop",
+    "ConditionId": 4030,
+    "UIUnlockName": "MAIN_UI_SHOP",
+    "Icon": "/Game/UI/UI_PNG/Atlas/Common/Icon_Entrance_Store_L.Icon_Entrance_Store_L",
+    "UIUnlockDesc": "UI_Locked_Des_Shop",
+    "AfterUIUnlockDesc": "System_Des_Shop",
+    "OpenConditionId": [
+      2,
+      5
+    ],
+    "OpenSystemDesc": "UI_Disabled_Des_Shop"
+  },
+  "Gacha": {
+    "UIUnlockRuleId": "Gacha",
+    "ConditionId": 4040,
+    "UIUnlockName": "MAIN_UI_GACHA",
+    "Icon": "/Game/UI/UI_PNG/Atlas/Common/Icon_Entrance_Gacha_L.Icon_Entrance_Gacha_L",
+    "UIUnlockDesc": "UI_Locked_Des_Gacha",
+    "AfterUIUnlockDesc": "System_Des_Gacha",
+    "IsHideUnlockPopup": 1,
+    "OpenConditionId": [
+      2,
+      5
+    ],
+    "OpenSystemDesc": "UI_Disabled_Des_Gacha"
+  },
+  "Map": {
+    "UIUnlockRuleId": "Map",
+    "ConditionId": 4050,
+    "UIUnlockName": "MAIN_UI_MAP",
+    "Icon": "/Game/UI/UI_PNG/Atlas/Common/Icon_Entrance_Map_L.Icon_Entrance_Map_L",
+    "UIUnlockDesc": "UI_Locked_Des_Map",
+    "AfterUIUnlockDesc": "System_Des_Map",
+    "OpenConditionId": [
+      2,
+      5
+    ],
+    "OpenSystemDesc": "UI_Disabled_Des_Map"
+  },
+  "Invite": {
+    "UIUnlockRuleId": "Invite",
+    "ConditionId": 4060,
+    "UIUnlockName": "MAIN_UI_NPCSWITCH",
+    "Icon": "/Game/UI/UI_PNG/Atlas/Common/Icon_Entrance_Invite_L.Icon_Entrance_Invite_L",
+    "UIUnlockDesc": "UI_Locked_Des_Invite",
+    "AfterUIUnlockDesc": "System_Des_Invite",
+    "OpenConditionId": [
+      1,
+      5
+    ],
+    "OpenSystemDesc": "UI_Disabled_Des_Invite"
+  },
+  "Achievement": {
+    "UIUnlockRuleId": "Achievement",
+    "ConditionId": 4070,
+    "UIUnlockName": "MAIN_UI_ACHIEVEMENT",
+    "Icon": "/Game/UI/UI_PNG/Atlas/Common/Icon_Entrance_Achievement_L.Icon_Entrance_Achievement_L",
+    "UIUnlockDesc": "UI_Locked_Des_Achievement",
+    "AfterUIUnlockDesc": "System_Des_Achievement",
+    "IsHideUnlockPopup": 1,
+    "OpenConditionId": [
+      2,
+      5
+    ],
+    "OpenSystemDesc": "UI_Disabled_Des_Achievement"
+  },
+  "Forging": {
+    "UIUnlockRuleId": "Forging",
+    "ConditionId": 4080,
+    "UIUnlockName": "MAIN_UI_FORGE",
+    "Icon": "/Game/UI/UI_PNG/Atlas/Common/Icon_Entrance_Forging_L.Icon_Entrance_Forging_L",
+    "UIUnlockDesc": "UI_Locked_Des_Forging",
+    "AfterUIUnlockDesc": "System_Des_Forging",
+    "OpenConditionId": [
+      1,
+      5
+    ],
+    "OpenSystemDesc": "UI_Disabled_Des_Forging"
+  },
+  "Pet": {
+    "UIUnlockRuleId": "Pet",
+    "ConditionId": 4090,
+    "UIUnlockName": "MAIN_UI_PET",
+    "Icon": "/Game/UI/UI_PNG/Atlas/Common/Icon_Entrance_Armory_L.Icon_Entrance_Armory_L",
+    "UIUnlockDesc": "UI_Locked_Des_Pet",
+    "AfterUIUnlockDesc": "System_Des_Pet",
+    "OpenConditionId": [
+      2,
+      5
+    ],
+    "OpenSystemDesc": "UI_Disabled_Des_Pet"
+  },
+  "Mail": {
+    "UIUnlockRuleId": "Mail",
+    "ConditionId": 4100,
+    "UIUnlockName": "MAIN_UI_MAIL",
+    "Icon": "/Game/UI/UI_PNG/Atlas/Common/Icon/Icon_Entrance_Mail",
+    "UIUnlockDesc": "UI_Locked_Des_Mail",
+    "AfterUIUnlockDesc": "System_Des_Mail",
+    "IsHideUnlockPopup": 1,
+    "OpenConditionId": [
+      2,
+      5
+    ],
+    "OpenSystemDesc": "UI_Disabled_Des_Mail"
+  },
+  "Play": {
+    "UIUnlockRuleId": "Play",
+    "ConditionId": 4110,
+    "UIUnlockName": "MAIN_UI_PLAY",
+    "Icon": "/Game/UI/UI_PNG/Atlas/Common/Icon_Entrance_Pve_L.Icon_Entrance_Pve_L",
+    "UIUnlockDesc": "UI_Locked_Des_Play",
+    "AfterUIUnlockDesc": "System_Des_Play",
+    "OpenConditionId": [
+      2,
+      5
+    ],
+    "OpenSystemDesc": "UI_Disabled_Des_Play"
+  },
+  "HardBoss": {
+    "UIUnlockRuleId": "HardBoss",
+    "ConditionId": 4120,
+    "UIUnlockName": "MAIN_UI_HARDBOSS",
+    "Icon": "/Game/UI/UI_PNG/Atlas/Common/Icon_Entrance_Pve_L.Icon_Entrance_Pve_L",
+    "UIUnlockDesc": "UI_Locked_Des_HardBoss",
+    "AfterUIUnlockDesc": "System_Des_HardBoss",
+    "OpenConditionId": [
+      2,
+      5
+    ],
+    "OpenSystemDesc": "UI_Disabled_Des_HardBoss"
+  },
+  "Quest": {
+    "UIUnlockRuleId": "Quest",
+    "ConditionId": 4130,
+    "UIUnlockName": "MAIN_UI_QUEST",
+    "Icon": "/Game/UI/UI_PNG/Atlas/Common/Icon_Entrance_Task_L.Icon_Entrance_Task_L",
+    "UIUnlockDesc": "UI_Locked_Des_Quest",
+    "AfterUIUnlockDesc": "System_Des_Quest",
+    "OpenConditionId": [
+      2,
+      5
+    ],
+    "OpenSystemDesc": "UI_Disabled_Des_Quest"
+  },
+  "BattleWheel": {
+    "UIUnlockRuleId": "BattleWheel",
+    "ConditionId": 4140,
+    "UIUnlockName": "MAIN_UI_BATTLEWHEEL",
+    "Icon": "/Game/UI/UI_PNG/Atlas/Common/Icon_Entrance_Armory_L.Icon_Entrance_Armory_L",
+    "UIUnlockDesc": "UI_Locked_Des_BattleWheel",
+    "AfterUIUnlockDesc": "System_Des_BattleWheel",
+    "IsHideUnlockPopup": 1,
+    "OpenConditionId": [
+      2,
+      5
+    ],
+    "OpenSystemDesc": "UI_Disabled_Des_BattleWheel"
+  },
+  "Announcement": {
+    "UIUnlockRuleId": "Announcement",
+    "ConditionId": 4150,
+    "UIUnlockName": "MAIN_UI_NOTICE",
+    "Icon": "/Game/UI/UI_PNG/Atlas/Common/Icon/Icon_Entrance_Guide",
+    "UIUnlockDesc": "UI_Locked_Des_Notice",
+    "AfterUIUnlockDesc": "System_Des_Notice",
+    "IsHideUnlockPopup": 1,
+    "OpenConditionId": [
+      2,
+      5
+    ],
+    "OpenSystemDesc": "UI_Disabled_Des_Notice"
+  },
+  "Mod": {
+    "UIUnlockRuleId": "Mod",
+    "ConditionId": 4160,
+    "UIUnlockName": "UI_Armory_Mod",
+    "Icon": "/Game/UI/UI_PNG/Atlas/Common/Icon_Entrance_Armory_L.Icon_Entrance_Armory_L",
+    "UIUnlockDesc": "UI_Locked_Des_Mod",
+    "AfterUIUnlockDesc": "System_Des_Mod",
+    "IsHideUnlockPopup": 1,
+    "OpenConditionId": [
+      4,
+      5
+    ],
+    "OpenSystemDesc": "UI_Disabled_Des_Mod"
+  },
+  "Rouge": {
+    "UIUnlockRuleId": "Rouge",
+    "ConditionId": 4170,
+    "UIUnlockName": "MAIN_UI_ROUGE",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Tab/T_Tab_Permanent.T_Tab_Permanent",
+    "UIUnlockDesc": "UI_Locked_Des_Rouge",
+    "AfterUIUnlockDesc": "System_Des_Rouge",
+    "OpenConditionId": [
+      2,
+      5
+    ],
+    "OpenSystemDesc": "UI_Disabled_Des_Rouge"
+  },
+  "GuideBook": {
+    "UIUnlockRuleId": "GuideBook",
+    "ConditionId": 4180,
+    "UIUnlockName": "MAIN_UI_GUIDEBOOK",
+    "Icon": "/Game/UI/UI_PNG/Common/Icon/Icon_Entrance_GuideBook.Icon_Entrance_GuideBook",
+    "UIUnlockDesc": "UI_Locked_Des_GuideBook",
+    "AfterUIUnlockDesc": "System_Des_GuideBook",
+    "OpenSystemDesc": "UI_Disabled_Des_GuideBook"
+  },
+  "FriendMain": {
+    "UIUnlockRuleId": "FriendMain",
+    "ConditionId": 4190,
+    "UIUnlockName": "MAIN_UI_FRIEND",
+    "Icon": "/Game/UI/UI_PNG/Common/Icon/Icon_Entrance_Friend",
+    "UIUnlockDesc": "UI_Locked_Des_Friend",
+    "AfterUIUnlockDesc": "System_Des_Friend",
+    "OpenConditionId": [
+      2,
+      5
+    ],
+    "OpenSystemDesc": "UI_Disabled_Des_Friend"
+  },
+  "PhotoCameraMain": {
+    "UIUnlockRuleId": "PhotoCameraMain",
+    "ConditionId": 4200,
+    "UIUnlockName": "MAIN_UI_PHOTOCAMERA",
+    "Icon": "/Game/UI/UI_PNG/Common/Icon/Icon_Entrance_Camera",
+    "UIUnlockDesc": "UI_Locked_Des_PhotoCamera",
+    "AfterUIUnlockDesc": "System_Des_PhotoCamera",
+    "OpenConditionId": {},
+    "OpenSystemDesc": "UI_Disabled_Des_PhotoCamera"
+  },
+  "RougeBag": {
+    "UIUnlockRuleId": "RougeBag",
+    "ConditionId": 4170,
+    "UIUnlockName": "MAIN_UI_BAG",
+    "Icon": "/Game/UI/UI_PNG/Atlas/Common/Icon_Entrance_Armory_L.Icon_Entrance_Armory_L",
+    "UIUnlockDesc": "UI_Locked_Des_Rouge",
+    "AfterUIUnlockDesc": "System_Des_Rouge",
+    "IsHideUnlockPopup": 1,
+    "OpenConditionId": {},
+    "OpenSystemDesc": "UI_Disabled_Des_Rouge"
+  },
+  "Polarity": {
+    "UIUnlockRuleId": "Polarity",
+    "ConditionId": 4210,
+    "UIUnlockName": "MAIN_UI_POLARITY",
+    "Icon": "/Game/UI/UI_PNG/Atlas/Common/Icon_Entrance_Armory_L.Icon_Entrance_Armory_L",
+    "UIUnlockDesc": "UI_Locked_Des_Polarity",
+    "AfterUIUnlockDesc": "System_Des_Polarity",
+    "IsHideUnlockPopup": 1,
+    "OpenConditionId": [
+      4,
+      5
+    ],
+    "OpenSystemDesc": "UI_Disabled_Des_Polarity"
+  },
+  "GameEvent": {
+    "UIUnlockRuleId": "GameEvent",
+    "ConditionId": 4220,
+    "UIUnlockName": "MAIN_UI_GAMEEVENT",
+    "Icon": "/Game/UI/UI_PNG/Common/Icon/Icon_Entrance_Activity.Icon_Entrance_Activity",
+    "UIUnlockDesc": "UI_Locked_Des_GameEvent",
+    "AfterUIUnlockDesc": "System_Des_GameEvent",
+    "OpenConditionId": [
+      2,
+      5
+    ],
+    "OpenSystemDesc": "UI_Disabled_Des_GameEvent"
+  },
+  "Skill": {
+    "UIUnlockRuleId": "Skill",
+    "ConditionId": 4021,
+    "UIUnlockName": "MAIN_UI_SKILL",
+    "Icon": "/Game/UI/UI_PNG/Atlas/Common/Icon_Entrance_Armory_L.Icon_Entrance_Armory_L",
+    "UIUnlockDesc": "UI_Locked_Des_Armory",
+    "AfterUIUnlockDesc": "System_Des_Skill",
+    "IsHideUnlockPopup": 1,
+    "OpenConditionId": [
+      4,
+      5
+    ],
+    "OpenSystemDesc": "UI_Disabled_Des_Armory"
+  },
+  "UWeapon": {
+    "UIUnlockRuleId": "UWeapon",
+    "ConditionId": 4041,
+    "UIUnlockName": "MAIN_UI_UWEAPON",
+    "Icon": "/Game/UI/UI_PNG/Atlas/Common/Icon_Entrance_Armory_L.Icon_Entrance_Armory_L",
+    "UIUnlockDesc": "UI_Locked_Des_Armory",
+    "AfterUIUnlockDesc": "System_Des_Uweapon",
+    "IsHideUnlockPopup": 1,
+    "OpenConditionId": [
+      4,
+      5
+    ],
+    "OpenSystemDesc": "UI_Disabled_Des_Armory"
+  },
+  "CardLevel": {
+    "UIUnlockRuleId": "CardLevel",
+    "ConditionId": 4041,
+    "UIUnlockName": "MAIN_UI_CARDLEVEL",
+    "Icon": "/Game/UI/UI_PNG/Atlas/Common/Icon_Entrance_Armory_L.Icon_Entrance_Armory_L",
+    "UIUnlockDesc": "UI_Locked_Des_Armory",
+    "AfterUIUnlockDesc": "System_Des_CardLevel",
+    "IsHideUnlockPopup": 1,
+    "OpenConditionId": [
+      4,
+      5
+    ],
+    "OpenSystemDesc": "UI_Disabled_Des_Armory"
+  },
+  "Temple": {
+    "UIUnlockRuleId": "Temple",
+    "ConditionId": 4230,
+    "UIUnlockName": "MAIN_UI_Temple",
+    "UIUnlockDesc": "UI_Locked_Des_Temple",
+    "AfterUIUnlockDesc": "System_Des_Temple",
+    "OpenConditionId": [
+      2,
+      5
+    ],
+    "OpenSystemDesc": "UI_Disabled_Des_Temple"
+  },
+  "Match": {
+    "UIUnlockRuleId": "Match",
+    "ConditionId": 4240,
+    "UIUnlockName": "MAIN_UI_MATCH",
+    "UIUnlockDesc": "UI_Locked_Des_Match",
+    "AfterUIUnlockDesc": "System_Des_Match",
+    "IsHideUnlockPopup": 1,
+    "OpenSystemDesc": "UI_Disabled_Des_Match"
+  },
+  "Entertainment": {
+    "UIUnlockRuleId": "Entertainment",
+    "ConditionId": 4250,
+    "UIUnlockName": "MAIN_UI_ENTERTAINMENT",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Entrance/T_Entrance_Entertainment.T_Entrance_Entertainment",
+    "UIUnlockDesc": "UI_Locked_Des_Entertainment",
+    "AfterUIUnlockDesc": "System_Des_Enterntainment",
+    "OpenConditionId": [
+      1,
+      5
+    ],
+    "OpenSystemDesc": "UI_Disabled_Des_Entertainment"
+  },
+  "Chat": {
+    "UIUnlockRuleId": "Chat",
+    "ConditionId": 4260,
+    "UIUnlockName": "MAIN_UI_CHAT",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Common/T_Entrance_Chat",
+    "UIUnlockDesc": "UI_Locked_Des_Chat",
+    "AfterUIUnlockDesc": "System_Des_Chat",
+    "IsHideUnlockPopup": 1,
+    "OpenSystemDesc": "UI_Disabled_Des_Chat"
+  },
+  "SwitchMaster": {
+    "UIUnlockRuleId": "SwitchMaster",
+    "ConditionId": 4270,
+    "UIUnlockName": "MAIN_UI_SWITCHMASTER",
+    "UIUnlockDesc": "UI_Locked_Des_SwitchMaster",
+    "AfterUIUnlockDesc": "System_Des_SwitchMaster",
+    "IsHideUnlockPopup": 1,
+    "OpenConditionId": [
+      2,
+      5
+    ],
+    "OpenSystemDesc": "UI_Disabled_Des_SwitchMaster"
+  },
+  "PetSkill": {
+    "UIUnlockRuleId": "PetSkill",
+    "ConditionId": 4270,
+    "UIUnlockName": "MAIN_UI_PET",
+    "Icon": "/Game/UI/UI_PNG/Atlas/Common/Icon_Entrance_Armory_L.Icon_Entrance_Armory_L",
+    "UIUnlockDesc": "UI_Locked_Des_Pet",
+    "AfterUIUnlockDesc": "System_Des_Pet",
+    "IsHideUnlockPopup": 1,
+    "OpenSystemDesc": "UI_Disabled_Des_Pet"
+  },
+  "Home": {
+    "UIUnlockRuleId": "Home",
+    "ConditionId": 4280,
+    "UIUnlockName": "MAIN_UI_FORGE",
+    "Icon": "/Game/UI/UI_PNG/Atlas/Common/Icon_Entrance_Forging_L.Icon_Entrance_Forging_L",
+    "UIUnlockDesc": "UI_Locked_Des_Forging",
+    "AfterUIUnlockDesc": "System_Des_Forging",
+    "IsHideUnlockPopup": 1,
+    "OpenConditionId": {},
+    "OpenSystemDesc": "UI_TOAST_FORGING_WARNING"
+  }
+}

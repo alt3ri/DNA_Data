@@ -1,0 +1,269 @@
+{
+  "10101": {
+    "TreasureId": 10101,
+    "Name": "RLTreasure_Name_10101",
+    "Desc": "RLTreasure_Desc_10101",
+    "Icon": "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_RebornCoffin.T_Rouge_Treasure_RebornCoffin",
+    "TreasureGroup": 10101,
+    "TreasureRarity": 1,
+    "TreasureWeight": 1000,
+    "ServerBuild": {
+      "MRTExtraTimes": 1
+    },
+    "CanSell": 1,
+    "ShopWeight": 1000,
+    "ShopPrices": 150,
+    "EndPoints": [
+      10
+    ]
+  },
+  "10102": {
+    "TreasureId": 10102,
+    "Name": "RLTreasure_Name_10102",
+    "Desc": "RLTreasure_Desc_10102",
+    "Icon": "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_OldShield.T_Rouge_Treasure_OldShield",
+    "TreasureGroup": 10102,
+    "TreasureRarity": 1,
+    "TreasureWeight": 1000,
+    "ServerBuild": {
+      "GetToken": 200
+    },
+    "EndPoints": [
+      10
+    ]
+  },
+  "10103": {
+    "TreasureId": 10103,
+    "Name": "RLTreasure_Name_10103",
+    "Desc": "RLTreasure_Desc_10103",
+    "Icon": "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_GiantGlove.T_Rouge_Treasure_GiantGlove",
+    "TreasureGroup": 10103,
+    "TreasureRarity": 1,
+    "TreasureWeight": 1000,
+    "TreasureMod": 20101001,
+    "ModEquip": "Role",
+    "CanSell": 1,
+    "ShopWeight": 1000,
+    "ShopPrices": 150,
+    "EndPoints": [
+      10
+    ]
+  },
+  "10104": {
+    "TreasureId": 10104,
+    "Name": "RLTreasure_Name_10104",
+    "Desc": "RLTreasure_Desc_10104",
+    "Icon": "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_BreakShield02.T_Rouge_Treasure_BreakShield02",
+    "TreasureGroup": 10104,
+    "TreasureRarity": 1,
+    "TreasureWeight": 1000,
+    "TreasureMod": 20102001,
+    "ModEquip": "Role",
+    "CanSell": 1,
+    "ShopWeight": 1000,
+    "ShopPrices": 150,
+    "EndPoints": [
+      10
+    ]
+  },
+  "10105": {
+    "TreasureId": 10105,
+    "Name": "RLTreasure_Name_10105",
+    "Desc": "RLTreasure_Desc_10105",
+    "Icon": "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_BlackCard.T_Rouge_Treasure_BlackCard",
+    "TreasureGroup": 10105,
+    "TreasureRarity": 1,
+    "TreasureWeight": 1000,
+    "ServerBuild": {
+      "ShopDiscount": 0.8
+    },
+    "EndPoints": [
+      10
+    ]
+  },
+  "10106": {
+    "TreasureId": 10106,
+    "Name": "RLTreasure_Name_10106",
+    "Desc": "RLTreasure_Desc_10106",
+    "Icon": "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_DodgeShoe.T_Rouge_Treasure_DodgeShoe",
+    "TreasureGroup": 10106,
+    "TreasureRarity": 1,
+    "TreasureWeight": 1000,
+    "TreasureMod": 20103001,
+    "ModEquip": "Role",
+    "CanSell": 1,
+    "ShopWeight": 1000,
+    "ShopPrices": 150,
+    "EndPoints": [
+      10
+    ]
+  },
+  "10201": {
+    "TreasureId": 10201,
+    "Name": "RLTreasure_Name_10201",
+    "Desc": "RLTreasure_Desc_10201",
+    "Icon": "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_ExoskeletonArm.T_Rouge_Treasure_ExoskeletonArm",
+    "TreasureGroup": 10201,
+    "TreasureRarity": 2,
+    "TreasureWeight": 500,
+    "TreasureMod": 20104001,
+    "ModEquip": "MeleeWeapon",
+    "CanSell": 1,
+    "ShopWeight": 500,
+    "ShopPrices": 300,
+    "EndPoints": [
+      20
+    ]
+  },
+  "10202": {
+    "TreasureId": 10202,
+    "Name": "RLTreasure_Name_10202",
+    "Desc": "RLTreasure_Desc_10202",
+    "Icon": "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_FastClip.T_Rouge_Treasure_FastClip",
+    "TreasureGroup": 10202,
+    "TreasureRarity": 2,
+    "TreasureWeight": 500,
+    "TreasureMod": 20105001,
+    "ModEquip": "RangedWeapon",
+    "CanSell": 1,
+    "ShopWeight": 500,
+    "ShopPrices": 300,
+    "EndPoints": [
+      20
+    ]
+  },
+  "10203": {
+    "TreasureId": 10203,
+    "Name": "RLTreasure_Name_10203",
+    "Desc": "RLTreasure_Desc_10203",
+    "Icon": "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_RefreshCard.T_Rouge_Treasure_RefreshCard",
+    "TreasureGroup": 10203,
+    "TreasureRarity": 2,
+    "TreasureWeight": 500,
+    "TreasureMod": 20107001,
+    "ModEquip": "Role",
+    "CanSell": 1,
+    "ShopWeight": 500,
+    "ShopPrices": 300,
+    "EndPoints": [
+      20
+    ]
+  },
+  "10301": {
+    "TreasureId": 10301,
+    "Name": "RLTreasure_Name_10301",
+    "Desc": "RLTreasure_Desc_10301",
+    "Icon": "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_HeroBracelet.T_Rouge_Treasure_HeroBracelet",
+    "TreasureGroup": 10301,
+    "TreasureRarity": 3,
+    "TreasureWeight": 200,
+    "TreasureMod": 20108001,
+    "ModEquip": "Role",
+    "CanSell": 1,
+    "ShopWeight": 200,
+    "ShopPrices": 600,
+    "EndPoints": [
+      40
+    ]
+  },
+  "10302": {
+    "TreasureId": 10302,
+    "Name": "RLTreasure_Name_10302",
+    "Desc": "RLTreasure_Desc_10302",
+    "Icon": "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_BreakShield03.T_Rouge_Treasure_BreakShield03",
+    "TreasureGroup": 10302,
+    "TreasureRarity": 3,
+    "TreasureWeight": 200,
+    "TreasureMod": 20106001,
+    "ModEquip": "Role",
+    "CanSell": 1,
+    "ShopWeight": 200,
+    "ShopPrices": 600,
+    "EndPoints": [
+      40
+    ]
+  },
+  "10303": {
+    "TreasureId": 10303,
+    "Name": "RLTreasure_Name_10303",
+    "Desc": "RLTreasure_Desc_10303",
+    "Icon": "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_GoldCoins.T_Rouge_Treasure_GoldCoins",
+    "TreasureGroup": 10303,
+    "TreasureRarity": 3,
+    "TreasureWeight": 200,
+    "ServerBuild": {
+      "GetTreasure": {}
+    },
+    "EndPoints": [
+      40
+    ]
+  },
+  "11101": {
+    "TreasureId": 11101,
+    "Name": "RLTreasure_Name_11101",
+    "Desc": "RLTreasure_Desc_11101",
+    "Icon": "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_MonsterClaw.T_Rouge_Treasure_MonsterClaw",
+    "TreasureGroup": 101,
+    "TreasureRarity": 1,
+    "TreasureWeight": 1000,
+    "TreasureMod": 20151001,
+    "ModEquip": "Role",
+    "CanSell": 1,
+    "ShopWeight": 1000,
+    "ShopPrices": 150,
+    "EndPoints": [
+      10
+    ]
+  },
+  "11201": {
+    "TreasureId": 11201,
+    "Name": "RLTreasure_Name_11201",
+    "Desc": "RLTreasure_Desc_11201",
+    "Icon": "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_BloodNeedle.T_Rouge_Treasure_BloodNeedle",
+    "TreasureGroup": 101,
+    "TreasureRarity": 2,
+    "TreasureWeight": 500,
+    "TreasureMod": 20152001,
+    "ModEquip": "MeleeWeapon",
+    "CanSell": 1,
+    "ShopWeight": 500,
+    "ShopPrices": 300,
+    "EndPoints": [
+      20
+    ]
+  },
+  "11202": {
+    "TreasureId": 11202,
+    "Name": "RLTreasure_Name_11202",
+    "Desc": "RLTreasure_Desc_11202",
+    "Icon": "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_DoubleTrigger.T_Rouge_Treasure_DoubleTrigger",
+    "TreasureGroup": 101,
+    "TreasureRarity": 2,
+    "TreasureWeight": 500,
+    "TreasureMod": 20153001,
+    "ModEquip": "RangedWeapon",
+    "CanSell": 1,
+    "ShopWeight": 500,
+    "ShopPrices": 300,
+    "EndPoints": [
+      20
+    ]
+  },
+  "11301": {
+    "TreasureId": 11301,
+    "Name": "RLTreasure_Name_11301",
+    "Desc": "RLTreasure_Desc_11301",
+    "Icon": "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_BreakShield01.T_Rouge_Treasure_BreakShield01",
+    "TreasureGroup": 101,
+    "TreasureRarity": 3,
+    "TreasureWeight": 200,
+    "TreasureMod": 20154001,
+    "ModEquip": "Role",
+    "CanSell": 1,
+    "ShopWeight": 200,
+    "ShopPrices": 600,
+    "EndPoints": [
+      40
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "101001": {
+    "EventId": 101001,
+    "ServerEventType": "Login",
+    "SubExcel": "DailyLogin",
+    "EventTypeId": 101,
+    "EventUnlockCondition": 4220,
+    "EventStartTime": 1704081600,
+    "EventEndTime": 1743393600,
+    "RewardEndTime": 1743393600,
+    "EventEndCondition": 6006,
+    "PCBluePrint": "/Game/UI/WBP/Activity/PC/SevenDay/WBP_Activity_SevenDay_P.WBP_Activity_SevenDay_P",
+    "MobileBluePrint": "/Game/UI/WBP/Activity/Mobile/SevenDay/WBP_Activity_SevenDay_M.WBP_Activity_SevenDay_M"
+  },
+  "102001": {
+    "EventId": 102001,
+    "ServerEventType": "PhaseQuest",
+    "SubExcel": "StarterQuestDetail",
+    "EventTypeId": 102,
+    "EventEndCondition": 6005,
+    "PCBluePrint": "/Game/UI/WBP/Activity/PC/NewPlayerTask/WBP_Activity_NewPlayerTask_P.WBP_Activity_NewPlayerTask_P",
+    "MobileBluePrint": "/Game/UI/WBP/Activity/Mobile/NewPlayerTask/WBP_Activity_NewPlayerTask_M.WBP_Activity_NewPlayerTask_M"
+  },
+  "103001": {
+    "EventId": 103001,
+    "EventTypeId": 103,
+    "EventUnlockCondition": 4220,
+    "PCBluePrint": "/Game/UI/WBP/Activity/Widget/ActivityJump/WBP_Activity_Jump.WBP_Activity_Jump"
+  },
+  "104001": {
+    "EventId": 104001,
+    "ServerEventType": "PhaseQuest",
+    "SubExcel": "ModGuideQuest",
+    "EventTypeId": 104,
+    "EventUnlockCondition": 6001,
+    "EventEndCondition": 6004
+  }
+}

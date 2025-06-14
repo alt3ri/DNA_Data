@@ -1,0 +1,3021 @@
+{
+  "Self": {
+    "ID": "Self",
+    "LuaFilter": "Self"
+  },
+  "Target": {
+    "ID": "Target",
+    "LuaFilter": "Target"
+  },
+  "BackupTarget": {
+    "ID": "BackupTarget",
+    "LuaFilter": "Target",
+    "BPFilter": "Mon_ExceptMechanism"
+  },
+  "BTTarget": {
+    "ID": "BTTarget",
+    "LuaFilter": "BTTarget"
+  },
+  "BTBackupTarget": {
+    "ID": "BTBackupTarget",
+    "LuaFilter": "BTTarget",
+    "BPFilter": "Mon_ReplaceMechanism"
+  },
+  "CondemnTarget": {
+    "ID": "CondemnTarget",
+    "LuaFilter": "CondemnTarget"
+  },
+  "ShootingTargets": {
+    "ID": "ShootingTargets",
+    "LuaFilter": "ShootingTargets"
+  },
+  "Source": {
+    "ID": "Source",
+    "LuaFilter": "Source"
+  },
+  "RootCreator": {
+    "ID": "RootCreator",
+    "LuaFilter": "RootCreator"
+  },
+  "LaserTarget": {
+    "ID": "LaserTarget",
+    "LuaFilter": "Target",
+    "CampFilter": "Enemy"
+  },
+  "MySummoned": {
+    "ID": "MySummoned",
+    "LuaFilter": "MySummoned",
+    "BPFilter": "Common_RoleIdFilter"
+  },
+  "MyCreature": {
+    "ID": "MyCreature",
+    "LuaFilter": "MyCreature",
+    "BPFilter": "Common_CreatureIdFilter"
+  },
+  "AlmostAllFrd": {
+    "ID": "AlmostAllFrd",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Sphere"
+      },
+      {
+        "Radius": 5000
+      }
+    ],
+    "CampFilter": "Friend"
+  },
+  "AlmostAllFrd_Trgt": {
+    "ID": "AlmostAllFrd_Trgt",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": {
+      "Type": "Sphere",
+      "Radius": 5000,
+      "Center": "Target"
+    },
+    "CampFilter": "Friend"
+  },
+  "AlmostAllOtFr": {
+    "ID": "AlmostAllOtFr",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Sphere"
+      },
+      {
+        "Radius": 5000
+      }
+    ],
+    "CampFilter": "OtherFriend"
+  },
+  "AlmostAllEnemy": {
+    "ID": "AlmostAllEnemy",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Sphere"
+      },
+      {
+        "Radius": 10000
+      }
+    ],
+    "CampFilter": "Enemy"
+  },
+  "TrollyAbsorbES": {
+    "ID": "TrollyAbsorbES",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Sphere"
+      },
+      {
+        "Radius": 800
+      }
+    ]
+  },
+  "Mech_Target_OtFr": {
+    "ID": "Mech_Target_OtFr",
+    "LuaFilter": "Target",
+    "CampFilter": "OtherFriend"
+  },
+  "Char_Cylinder_Small180": {
+    "ID": "Char_Cylinder_Small180",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 300
+      },
+      {
+        "CylinderHeight": 200
+      }
+    ],
+    "RangeAngle": 180,
+    "CampFilter": "Enemy"
+  },
+  "Char_Cylinder_Small240": {
+    "ID": "Char_Cylinder_Small240",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 300
+      },
+      {
+        "CylinderHeight": 200
+      }
+    ],
+    "RangeAngle": 240,
+    "CampFilter": "Enemy"
+  },
+  "Char_Cylinder_Small": {
+    "ID": "Char_Cylinder_Small",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 300
+      },
+      {
+        "CylinderHeight": 200
+      }
+    ],
+    "CampFilter": "Enemy"
+  },
+  "Char_Cylinder_Small_Trgt": {
+    "ID": "Char_Cylinder_Small_Trgt",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": {
+      "Type": "Cylinder",
+      "Radius": 300,
+      "CylinderHeight": 200,
+      "Center": "Target"
+    },
+    "CampFilter": "Enemy"
+  },
+  "Char_Cylinder_Middle180": {
+    "ID": "Char_Cylinder_Middle180",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 600
+      },
+      {
+        "CylinderHeight": 400
+      }
+    ],
+    "RangeAngle": 180,
+    "CampFilter": "Enemy"
+  },
+  "Char_Cylinder_Middle240": {
+    "ID": "Char_Cylinder_Middle240",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 600
+      },
+      {
+        "CylinderHeight": 400
+      }
+    ],
+    "RangeAngle": 240,
+    "CampFilter": "Enemy"
+  },
+  "Char_Cylinder_Middle": {
+    "ID": "Char_Cylinder_Middle",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 600
+      },
+      {
+        "CylinderHeight": 400
+      }
+    ],
+    "CampFilter": "Enemy"
+  },
+  "Char_Cylinder_Middle_Frd": {
+    "ID": "Char_Cylinder_Middle_Frd",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 600
+      },
+      {
+        "CylinderHeight": 400
+      }
+    ],
+    "CampFilter": "Friend"
+  },
+  "Char_Cylinder_Middle_Trgt": {
+    "ID": "Char_Cylinder_Middle_Trgt",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 600
+      },
+      {
+        "CylinderHeight": 400
+      },
+      {
+        "Center": "Target"
+      }
+    ],
+    "CampFilter": "Enemy"
+  },
+  "Char_Cylinder_Middle_Trgt_Frd": {
+    "ID": "Char_Cylinder_Middle_Trgt_Frd",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 600
+      },
+      {
+        "CylinderHeight": 400
+      },
+      {
+        "Center": "Target"
+      }
+    ],
+    "CampFilter": "Friend"
+  },
+  "Char_Cylinder_Large180": {
+    "ID": "Char_Cylinder_Large180",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 1000
+      },
+      {
+        "CylinderHeight": 400
+      }
+    ],
+    "RangeAngle": 180,
+    "CampFilter": "Enemy"
+  },
+  "Char_Cylinder_Large180_Frd": {
+    "ID": "Char_Cylinder_Large180_Frd",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 1000
+      },
+      {
+        "CylinderHeight": 400
+      }
+    ],
+    "RangeAngle": 180,
+    "CampFilter": "Friend",
+    "BPFilter": "Mon_ExceptMechanism"
+  },
+  "Char_Cylinder_Large": {
+    "ID": "Char_Cylinder_Large",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 1000
+      },
+      {
+        "CylinderHeight": 400
+      }
+    ],
+    "CampFilter": "Enemy"
+  },
+  "Char_Cylinder_Large_Frd": {
+    "ID": "Char_Cylinder_Large_Frd",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 1000
+      },
+      {
+        "CylinderHeight": 800
+      }
+    ],
+    "CampFilter": "Friend",
+    "BPFilter": "Mon_ExceptMechanism"
+  },
+  "Char_Cylinder_Large_OtFr": {
+    "ID": "Char_Cylinder_Large_OtFr",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 1000
+      },
+      {
+        "CylinderHeight": 800
+      }
+    ],
+    "CampFilter": "OtherFriend",
+    "BPFilter": "Mon_ExceptMechanism"
+  },
+  "Char_Cylinder_Large_Front": {
+    "ID": "Char_Cylinder_Large_Front",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 1000
+      },
+      {
+        "CylinderHeight": 400
+      }
+    ],
+    "CenterOffset": {},
+    "CampFilter": "Enemy"
+  },
+  "Char_Cylinder_Large_Trgt": {
+    "ID": "Char_Cylinder_Large_Trgt",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": {
+      "Type": "Cylinder",
+      "Radius": 1000,
+      "CylinderHeight": 400,
+      "Center": "Target"
+    },
+    "CampFilter": "Enemy"
+  },
+  "Char_Cylinder_Large_Trgt_Frd": {
+    "ID": "Char_Cylinder_Large_Trgt_Frd",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": {
+      "Type": "Cylinder",
+      "Radius": 1000,
+      "CylinderHeight": 800,
+      "Center": "Target"
+    },
+    "CampFilter": "Friend",
+    "BPFilter": "Mon_ExceptMechanism"
+  },
+  "Char_Cylinder_XLarge": {
+    "ID": "Char_Cylinder_XLarge",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 2000
+      },
+      {
+        "CylinderHeight": 400
+      }
+    ],
+    "CampFilter": "Enemy"
+  },
+  "Char_Cylinder_XLarge_Frd": {
+    "ID": "Char_Cylinder_XLarge_Frd",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 2000
+      },
+      {
+        "CylinderHeight": 800
+      }
+    ],
+    "CampFilter": "Friend",
+    "BPFilter": "Mon_ExceptMechanism"
+  },
+  "Char_Cylinder_XLarge_OtFr": {
+    "ID": "Char_Cylinder_XLarge_OtFr",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 2000
+      },
+      {
+        "CylinderHeight": 800
+      }
+    ],
+    "CampFilter": "OtherFriend",
+    "BPFilter": "Mon_ExceptMechanism"
+  },
+  "Char_Sphere_Small": {
+    "ID": "Char_Sphere_Small",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Sphere"
+      },
+      {
+        "Radius": 300
+      }
+    ],
+    "CampFilter": "Enemy"
+  },
+  "Char_Sphere_Small_Frd": {
+    "ID": "Char_Sphere_Small_Frd",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Sphere"
+      },
+      {
+        "Radius": 300
+      }
+    ],
+    "CampFilter": "Friend"
+  },
+  "Char_Sphere_Middle": {
+    "ID": "Char_Sphere_Middle",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Sphere"
+      },
+      {
+        "Radius": 600
+      }
+    ],
+    "CampFilter": "Enemy"
+  },
+  "Char_Sphere_Middle_Frd": {
+    "ID": "Char_Sphere_Middle_Frd",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Sphere"
+      },
+      {
+        "Radius": 600
+      }
+    ],
+    "CampFilter": "Friend"
+  },
+  "Char_Sphere_Middle_Trgt": {
+    "ID": "Char_Sphere_Middle_Trgt",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": {
+      "Type": "Sphere",
+      "Radius": 600,
+      "Center": "Target"
+    },
+    "CampFilter": "Enemy"
+  },
+  "Char_Sphere_Xlarge": {
+    "ID": "Char_Sphere_Xlarge",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Sphere"
+      },
+      {
+        "Radius": 2000
+      }
+    ],
+    "CampFilter": "Enemy"
+  },
+  "Char_Rectangle_Middle": {
+    "ID": "Char_Rectangle_Middle",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": {
+      "Type": "Rectangle",
+      "HalfWidth": 300,
+      "Length": 600,
+      "HalfHeight": 400
+    },
+    "CampFilter": "Enemy"
+  },
+  "Char_Crossbow_20203": {
+    "ID": "Char_Crossbow_20203",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Sphere"
+      },
+      {
+        "Radius": 1500
+      }
+    ],
+    "CampFilter": "Enemy",
+    "BPFilter": "Mon_ExceptMechanism"
+  },
+  "Char_Shotgun_20402_1": {
+    "ID": "Char_Shotgun_20402_1",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 200
+      },
+      {
+        "CylinderHeight": 200
+      }
+    ],
+    "CampFilter": "Enemy"
+  },
+  "Char_Shotgun_20402_2": {
+    "ID": "Char_Shotgun_20402_2",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 300
+      },
+      {
+        "CylinderHeight": 300
+      }
+    ],
+    "CampFilter": "Enemy"
+  },
+  "Char_Shotgun_20402_3": {
+    "ID": "Char_Shotgun_20402_3",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": {
+      "Type": "Cylinder",
+      "Radius": 400,
+      "CylinderHeight": 400
+    },
+    "CampFilter": "Enemy"
+  },
+  "Char_Shotgun_20402_4": {
+    "ID": "Char_Shotgun_20402_4",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 500
+      },
+      {
+        "CylinderHeight": 500
+      }
+    ],
+    "CampFilter": "Enemy"
+  },
+  "Char_Shotgun_20405": {
+    "ID": "Char_Shotgun_20405",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Sphere"
+      },
+      {
+        "Radius": 500
+      }
+    ],
+    "CampFilter": "Enemy"
+  },
+  "Char_Machinegun_20503": {
+    "ID": "Char_Machinegun_20503",
+    "LuaFilter": "CheckLineHit",
+    "LuaFilterParaments": {
+      "Type": "Sphere",
+      "Center": "WeaponSocket",
+      "SocketName": "gunpoint_01",
+      "Direction": "Camera",
+      "Radius": 50,
+      "Length": 2000
+    },
+    "CampFilter": "Enemy"
+  },
+  "Char_Machinegun_20508": {
+    "ID": "Char_Machinegun_20508",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Sphere"
+      },
+      {
+        "Radius": 1500
+      }
+    ],
+    "CampFilter": "Enemy",
+    "BPFilter": "Mon_ExceptMechanism"
+  },
+  "Char_Shoot_10_3600": {
+    "ID": "Char_Shoot_10_3600",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": {
+      "Type": "Cone",
+      "Center": "Camera",
+      "Direction": "Camera",
+      "ConeHeight": 3600,
+      "ConeAngle": 10
+    },
+    "CampFilter": "Enemy",
+    "BPFilter": "AimFilter"
+  },
+  "Char_Shoot_30_3600": {
+    "ID": "Char_Shoot_30_3600",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": {
+      "Type": "Cone",
+      "Center": "Camera",
+      "Direction": "Camera",
+      "ConeHeight": 3600,
+      "ConeAngle": 30
+    },
+    "CampFilter": "Enemy",
+    "BPFilter": "AimFilter"
+  },
+  "Support_RandomRailgun": {
+    "ID": "Support_RandomRailgun",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Sphere"
+      },
+      {
+        "Radius": 10000
+      }
+    ],
+    "CampFilter": "Enemy",
+    "BPFilter": "Support_RailgunRandom"
+  },
+  "Fuluo_SummonNum": {
+    "ID": "Fuluo_SummonNum",
+    "LuaFilter": "MySummoned",
+    "BPFilter": "Common_RoleIdFilter",
+    "BPFilterVars": {
+      "Id": 110201
+    }
+  },
+  "Shuimu_SummonNum": {
+    "ID": "Shuimu_SummonNum",
+    "LuaFilter": "MySummoned",
+    "BPFilter": "Common_RoleIdFilter",
+    "BPFilterVars": {
+      "Id": 210101
+    }
+  },
+  "Shuimu_Skill02_MiddleRing": {
+    "ID": "Shuimu_Skill02_MiddleRing",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 1000
+      },
+      {
+        "CylinderHeight": 400
+      }
+    ],
+    "CampFilter": "Enemy",
+    "BPFilter": "Common_InnerRing",
+    "BPFilterVars": {
+      "TargetFilterName": "Char_Cylinder_Middle",
+      "AllowSkillRangeModify": 1
+    }
+  },
+  "Shuimu_Skill02_OuterRing": {
+    "ID": "Shuimu_Skill02_OuterRing",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 2000
+      },
+      {
+        "CylinderHeight": 400
+      }
+    ],
+    "CampFilter": "Enemy",
+    "BPFilter": "Common_InnerRing",
+    "BPFilterVars": {
+      "TargetFilterName": "Char_Cylinder_Large",
+      "AllowSkillRangeModify": 1
+    }
+  },
+  "Zhangyu_TentacleBirth": {
+    "ID": "Zhangyu_TentacleBirth",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 300
+      },
+      {
+        "CylinderHeight": 400
+      }
+    ],
+    "CampFilter": "Enemy"
+  },
+  "Zhangyu_TentacleAttackSp": {
+    "ID": "Zhangyu_TentacleAttackSp",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": {
+      "Type": "Rectangle",
+      "HalfWidth": 150,
+      "Length": 600,
+      "HalfHeight": 400
+    },
+    "CampFilter": "Enemy"
+  },
+  "Yuming_SummonNum": {
+    "ID": "Yuming_SummonNum",
+    "LuaFilter": "MySummoned",
+    "BPFilter": "Common_RoleIdFilter",
+    "BPFilterVars": {
+      "Id": 420101
+    }
+  },
+  "Songlu_FindSummon": {
+    "ID": "Songlu_FindSummon",
+    "LuaFilter": "MySummoned",
+    "BPFilter": "Common_RoleIdFilter",
+    "BPFilterVars": {
+      "Id": 510101
+    }
+  },
+  "Saiqi_Skill01_Search_S": {
+    "ID": "Saiqi_Skill01_Search_S",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Sphere"
+      },
+      {
+        "Radius": 2000
+      }
+    ],
+    "CampFilter": "Enemy"
+  },
+  "Saiqi_Skill01_Search_M": {
+    "ID": "Saiqi_Skill01_Search_M",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Sphere"
+      },
+      {
+        "Radius": 3000
+      }
+    ],
+    "CampFilter": "Enemy"
+  },
+  "Saiqi_Skill01_Search_L": {
+    "ID": "Saiqi_Skill01_Search_L",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Sphere"
+      },
+      {
+        "Radius": 5000
+      }
+    ],
+    "CampFilter": "Enemy"
+  },
+  "Saiqi_Skill02_Shoot": {
+    "ID": "Saiqi_Skill02_Shoot",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Sphere"
+      },
+      {
+        "Radius": 300
+      }
+    ],
+    "LineTraceFilter": true,
+    "CampFilter": "Enemy"
+  },
+  "Landi_Skill01": {
+    "ID": "Landi_Skill01",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 600
+      },
+      {
+        "CylinderHeight": 400
+      }
+    ],
+    "CenterOffset": [
+      50,
+      0,
+      0
+    ],
+    "RangeAngle": -180,
+    "CampFilter": "Friend"
+  },
+  "Linen_Skill02": {
+    "ID": "Linen_Skill02",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Sphere"
+      },
+      {
+        "Radius": 5000
+      }
+    ],
+    "LineTraceFilter": true,
+    "CampFilter": "Enemy",
+    "BPFilter": "Linen_Skill02",
+    "DontCullPartTarget": true
+  },
+  "Heitao_Skill02_Search": {
+    "ID": "Heitao_Skill02_Search",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": {
+      "Type": "Cylinder",
+      "Radius": 5000,
+      "CylinderHeight": 3000
+    },
+    "RangeAngle": 180,
+    "LineTraceFilter": true,
+    "CampFilter": "Enemy",
+    "BPFilter": "Heitao_Skill02_Search"
+  },
+  "Xierda_Passive_Search": {
+    "ID": "Xierda_Passive_Search",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Sphere"
+      },
+      {
+        "Radius": 1500
+      }
+    ],
+    "LineTraceFilter": true,
+    "CampFilter": "Enemy",
+    "BPFilter": "Common_NotBreakableItemAndMech"
+  },
+  "Yeer_Skill01_Friend": {
+    "ID": "Yeer_Skill01_Friend",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cross"
+      },
+      {
+        "CrossLength": 375
+      },
+      {
+        "CrossWidth": 75
+      },
+      {
+        "CrossHeight": 100
+      }
+    ],
+    "CampFilter": "Friend"
+  },
+  "Yeer_Skill01_Enemy": {
+    "ID": "Yeer_Skill01_Enemy",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cross"
+      },
+      {
+        "CrossLength": 375
+      },
+      {
+        "CrossWidth": 75
+      },
+      {
+        "CrossHeight": 100
+      }
+    ],
+    "CampFilter": "Enemy"
+  },
+  "Mon_Cylinder_150_50_90": {
+    "ID": "Mon_Cylinder_150_50_90",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": {
+      "Type": "Cylinder",
+      "Radius": 150,
+      "CylinderHeight": 50
+    },
+    "RangeAngle": 90,
+    "CampFilter": "Enemy"
+  },
+  "Mon_Cylinder_150_200_180": {
+    "ID": "Mon_Cylinder_150_200_180",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": {
+      "Type": "Cylinder",
+      "Radius": 150,
+      "CylinderHeight": 200
+    },
+    "RangeAngle": 180,
+    "CampFilter": "Enemy"
+  },
+  "Mon_Cylinder_150_400_360": {
+    "ID": "Mon_Cylinder_150_400_360",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": {
+      "Type": "Cylinder",
+      "Radius": 150,
+      "CylinderHeight": 400
+    },
+    "CampFilter": "Enemy"
+  },
+  "Mon_Cylinder_500_400_90": {
+    "ID": "Mon_Cylinder_500_400_90",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": {
+      "Type": "Cylinder",
+      "Radius": 500,
+      "CylinderHeight": 400
+    },
+    "RangeAngle": 90,
+    "CampFilter": "Enemy"
+  },
+  "Mon_Cylinder_200_40_360_NoMch": {
+    "ID": "Mon_Cylinder_200_40_360_NoMch",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": {
+      "Type": "Cylinder",
+      "Radius": 200,
+      "CylinderHeight": 40
+    },
+    "CampFilter": "Enemy",
+    "BPFilter": "Mon_ExceptMechanism"
+  },
+  "Mon_Cylinder_230_200_180": {
+    "ID": "Mon_Cylinder_230_200_180",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": {
+      "Type": "Cylinder",
+      "Radius": 230,
+      "CylinderHeight": 200
+    },
+    "RangeAngle": 180,
+    "CampFilter": "Enemy"
+  },
+  "Mon_Cylinder_300_40_360": {
+    "ID": "Mon_Cylinder_300_40_360",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 300
+      },
+      {
+        "CylinderHeight": 40
+      }
+    ],
+    "CampFilter": "Enemy"
+  },
+  "Mon_Cylinder_300_40_360_NoMch": {
+    "ID": "Mon_Cylinder_300_40_360_NoMch",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 300
+      },
+      {
+        "CylinderHeight": 40
+      }
+    ],
+    "CampFilter": "Enemy",
+    "BPFilter": "Mon_ExceptMechanism"
+  },
+  "Mon_Cylinder_300_40_360_Fr": {
+    "ID": "Mon_Cylinder_300_40_360_Fr",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 300
+      },
+      {
+        "CylinderHeight": 40
+      }
+    ],
+    "CampFilter": "Friend"
+  },
+  "Mon_Cylinder_300_40_360_FrNoMch": {
+    "ID": "Mon_Cylinder_300_40_360_FrNoMch",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 300
+      },
+      {
+        "CylinderHeight": 40
+      }
+    ],
+    "CampFilter": "Friend",
+    "BPFilter": "Mon_ExceptMechanism"
+  },
+  "Mon_Cylinder_300_200_180": {
+    "ID": "Mon_Cylinder_300_200_180",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 300
+      },
+      {
+        "CylinderHeight": 200
+      }
+    ],
+    "RangeAngle": 180,
+    "CampFilter": "Enemy"
+  },
+  "Mon_Cylinder_300_200_360": {
+    "ID": "Mon_Cylinder_300_200_360",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 300
+      },
+      {
+        "CylinderHeight": 200
+      }
+    ],
+    "CampFilter": "Enemy"
+  },
+  "Mon_Cylinder_300_200_360_Fr": {
+    "ID": "Mon_Cylinder_300_200_360_Fr",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 300
+      },
+      {
+        "CylinderHeight": 200
+      }
+    ],
+    "CampFilter": "Friend"
+  },
+  "Mon_Cylinder_300_200_360_OtFr": {
+    "ID": "Mon_Cylinder_300_200_360_OtFr",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 300
+      },
+      {
+        "CylinderHeight": 200
+      }
+    ],
+    "CampFilter": "OtherFriend"
+  },
+  "Mon_Cylinder_300_400_360": {
+    "ID": "Mon_Cylinder_300_400_360",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 300
+      },
+      {
+        "CylinderHeight": 400
+      }
+    ],
+    "CampFilter": "Enemy"
+  },
+  "Mon_Cylinder_250_600_360": {
+    "ID": "Mon_Cylinder_250_600_360",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": {
+      "Type": "Cylinder",
+      "Radius": 250,
+      "CylinderHeight": 600
+    },
+    "CampFilter": "Enemy",
+    "BPFilter": "Mon_ExceptMechanism"
+  },
+  "Mon_Cylinder_400_200_360": {
+    "ID": "Mon_Cylinder_400_200_360",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 400
+      },
+      {
+        "CylinderHeight": 200
+      }
+    ],
+    "CenterOffset": [
+      0,
+      0,
+      -50
+    ],
+    "CampFilter": "Enemy"
+  },
+  "Mon_Cylinder_400_200_360_1": {
+    "ID": "Mon_Cylinder_400_200_360_1",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 400
+      },
+      {
+        "CylinderHeight": 200
+      }
+    ],
+    "CampFilter": "Enemy"
+  },
+  "Mon_Cylinder_500_40_360": {
+    "ID": "Mon_Cylinder_500_40_360",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 500
+      },
+      {
+        "CylinderHeight": 40
+      }
+    ],
+    "CampFilter": "Enemy"
+  },
+  "Mon_Cylinder_500_40_360_NoMch": {
+    "ID": "Mon_Cylinder_500_40_360_NoMch",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 500
+      },
+      {
+        "CylinderHeight": 40
+      }
+    ],
+    "CampFilter": "Enemy",
+    "BPFilter": "Mon_ExceptMechanism"
+  },
+  "Mon_Cylinder_650_200_100": {
+    "ID": "Mon_Cylinder_650_200_100",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": {
+      "Type": "Cylinder",
+      "Radius": 650,
+      "CylinderHeight": 200
+    },
+    "RangeAngle": 100,
+    "CampFilter": "Enemy"
+  },
+  "Mon_Sphere_20_360": {
+    "ID": "Mon_Sphere_20_360",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Sphere"
+      },
+      {
+        "Radius": 20
+      }
+    ],
+    "CampFilter": "Enemy"
+  },
+  "Mon_Sphere_20_360_Fr": {
+    "ID": "Mon_Sphere_20_360_Fr",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Sphere"
+      },
+      {
+        "Radius": 20
+      }
+    ],
+    "CampFilter": "Friend"
+  },
+  "Mon_Sphere_100_360": {
+    "ID": "Mon_Sphere_100_360",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": {
+      "Type": "Sphere",
+      "Radius": 100
+    },
+    "CampFilter": "Enemy"
+  },
+  "Mon_Sphere_200_360_NoMch": {
+    "ID": "Mon_Sphere_200_360_NoMch",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Sphere"
+      },
+      {
+        "Radius": 200
+      }
+    ],
+    "CampFilter": "Enemy",
+    "BPFilter": "Mon_ExceptMechanism"
+  },
+  "Mon_Sphere_200_360": {
+    "ID": "Mon_Sphere_200_360",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Sphere"
+      },
+      {
+        "Radius": 200
+      }
+    ],
+    "CampFilter": "Enemy"
+  },
+  "Mon_Sphere_300_360": {
+    "ID": "Mon_Sphere_300_360",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Sphere"
+      },
+      {
+        "Radius": 300
+      }
+    ],
+    "CampFilter": "Enemy"
+  },
+  "Mon_Sphere_400_360": {
+    "ID": "Mon_Sphere_400_360",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Sphere"
+      },
+      {
+        "Radius": 400
+      }
+    ],
+    "CampFilter": "Enemy"
+  },
+  "Mon_Sphere_400_360_Fr": {
+    "ID": "Mon_Sphere_400_360_Fr",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Sphere"
+      },
+      {
+        "Radius": 400
+      }
+    ],
+    "CampFilter": "Friend"
+  },
+  "Mon_Sphere_400_360_OtFr": {
+    "ID": "Mon_Sphere_400_360_OtFr",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Sphere"
+      },
+      {
+        "Radius": 400
+      }
+    ],
+    "CampFilter": "OtherFriend"
+  },
+  "Mon_Sphere_400_360_NoMch": {
+    "ID": "Mon_Sphere_400_360_NoMch",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Sphere"
+      },
+      {
+        "Radius": 400
+      }
+    ],
+    "CampFilter": "Enemy",
+    "BPFilter": "Mon_ExceptMechanism"
+  },
+  "Mon_Sphere_500_360": {
+    "ID": "Mon_Sphere_500_360",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Sphere"
+      },
+      {
+        "Radius": 500
+      }
+    ],
+    "CampFilter": "Enemy"
+  },
+  "Mon_Sphere_500_360_Fr": {
+    "ID": "Mon_Sphere_500_360_Fr",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Sphere"
+      },
+      {
+        "Radius": 500
+      }
+    ],
+    "CampFilter": "OtherFriend"
+  },
+  "Mon_Sphere_500_360_NoMch": {
+    "ID": "Mon_Sphere_500_360_NoMch",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Sphere"
+      },
+      {
+        "Radius": 500
+      }
+    ],
+    "CampFilter": "Enemy",
+    "BPFilter": "Mon_ExceptMechanism"
+  },
+  "Mon_Sphere_600_360": {
+    "ID": "Mon_Sphere_600_360",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Sphere"
+      },
+      {
+        "Radius": 600
+      }
+    ],
+    "CampFilter": "Enemy"
+  },
+  "Mon_Sphere_600_360_Fr": {
+    "ID": "Mon_Sphere_600_360_Fr",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Sphere"
+      },
+      {
+        "Radius": 600
+      }
+    ],
+    "CampFilter": "Friend"
+  },
+  "Mon_Sphere_600_360_OtFr": {
+    "ID": "Mon_Sphere_600_360_OtFr",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Sphere"
+      },
+      {
+        "Radius": 600
+      }
+    ],
+    "CampFilter": "OtherFriend"
+  },
+  "Mon_Sphere_800_360": {
+    "ID": "Mon_Sphere_800_360",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Sphere"
+      },
+      {
+        "Radius": 800
+      }
+    ],
+    "CampFilter": "Enemy"
+  },
+  "Mon_Sphere_800_360_OtFr_01": {
+    "ID": "Mon_Sphere_800_360_OtFr_01",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Sphere"
+      },
+      {
+        "Radius": 800
+      }
+    ],
+    "CenterOffset": {},
+    "CampFilter": "OtherFriend"
+  },
+  "BossXibi_Skill01_Whip01": {
+    "ID": "BossXibi_Skill01_Whip01",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 300
+      },
+      {
+        "CylinderHeight": 300
+      }
+    ],
+    "RangeAngle": 180,
+    "CampFilter": "Enemy"
+  },
+  "BossXibi_Skill01_Whip02": {
+    "ID": "BossXibi_Skill01_Whip02",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 300
+      },
+      {
+        "CylinderHeight": 300
+      }
+    ],
+    "RangeAngle": 180,
+    "CampFilter": "Enemy"
+  },
+  "BossXibi_Skill02_Sword01": {
+    "ID": "BossXibi_Skill02_Sword01",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": {
+      "Type": "Cylinder",
+      "Radius": 300,
+      "CylinderHeight": 250
+    },
+    "RangeAngle": 180,
+    "CampFilter": "Enemy"
+  },
+  "BossXibi_Skill02_Sword02": {
+    "ID": "BossXibi_Skill02_Sword02",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": {
+      "Type": "Cylinder",
+      "Radius": 275,
+      "CylinderHeight": 400
+    },
+    "RangeAngle": 180,
+    "CampFilter": "Enemy"
+  },
+  "BossXibi_Skill03_Thunder": {
+    "ID": "BossXibi_Skill03_Thunder",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": {
+      "Type": "Cylinder",
+      "Radius": 150,
+      "CylinderHeight": 900
+    },
+    "CenterOffset": {},
+    "CampFilter": "Enemy"
+  },
+  "BossXibi_Skill06_Donut01": {
+    "ID": "BossXibi_Skill06_Donut01",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": {
+      "Type": "Cylinder",
+      "Radius": 500,
+      "CylinderHeight": 1000
+    },
+    "CampFilter": "Enemy"
+  },
+  "BossXibi_Skill06_Donut02": {
+    "ID": "BossXibi_Skill06_Donut02",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": {
+      "Type": "Cylinder",
+      "Radius": 1000,
+      "CylinderHeight": 1000
+    },
+    "CampFilter": "Enemy",
+    "BPFilter": "Mon_DisFilter",
+    "BPFilterVars": [
+      {
+        "RingInnerRadius": 500
+      }
+    ]
+  },
+  "BossXibi_Skill06_Donut03": {
+    "ID": "BossXibi_Skill06_Donut03",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 1500
+      },
+      {
+        "CylinderHeight": 1000
+      }
+    ],
+    "CampFilter": "Enemy",
+    "BPFilter": "Mon_DisFilter",
+    "BPFilterVars": [
+      {
+        "RingInnerRadius": 1000
+      }
+    ]
+  },
+  "BossXibi_Skill06_Field01": {
+    "ID": "BossXibi_Skill06_Field01",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": {
+      "Type": "Cylinder",
+      "Radius": 1000,
+      "CylinderHeight": 100
+    },
+    "CampFilter": "Enemy",
+    "BPFilter": "Mon_DisFilter",
+    "BPFilterVars": [
+      {
+        "RingInnerRadius": 500
+      }
+    ]
+  },
+  "BossXibi_Skill06_Field02": {
+    "ID": "BossXibi_Skill06_Field02",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": {
+      "Type": "Cylinder",
+      "Radius": 1500,
+      "CylinderHeight": 100
+    },
+    "CampFilter": "Enemy",
+    "BPFilter": "Mon_DisFilter",
+    "BPFilterVars": [
+      {
+        "RingInnerRadius": 1000
+      }
+    ]
+  },
+  "BossXibi_Skill07": {
+    "ID": "BossXibi_Skill07",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": {
+      "Type": "Sphere",
+      "Radius": 1200
+    },
+    "CenterOffset": {},
+    "CampFilter": "Enemy"
+  },
+  "BossXibi_Skill08_Jump": {
+    "ID": "BossXibi_Skill08_Jump",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": {
+      "Type": "Cylinder",
+      "Radius": 300,
+      "CylinderHeight": 600
+    },
+    "CenterOffset": {},
+    "CampFilter": "Enemy"
+  },
+  "BossXibi_Dash_Whip01": {
+    "ID": "BossXibi_Dash_Whip01",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 450
+      },
+      {
+        "CylinderHeight": 75
+      }
+    ],
+    "CenterOffset": [
+      0,
+      0,
+      -50
+    ],
+    "CampFilter": "Enemy"
+  },
+  "BossXibi_Dash_Whip02": {
+    "ID": "BossXibi_Dash_Whip02",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 450
+      },
+      {
+        "CylinderHeight": 75
+      }
+    ],
+    "CenterOffset": [
+      0,
+      0,
+      -50
+    ],
+    "CampFilter": "Enemy"
+  },
+  "BossXibi_Dash_Sword": {
+    "ID": "BossXibi_Dash_Sword",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": {
+      "Type": "Cylinder",
+      "Radius": 280,
+      "CylinderHeight": 300
+    },
+    "RangeAngle": 90,
+    "CampFilter": "Enemy"
+  },
+  "BossXibi_StageSkill_Donut01": {
+    "ID": "BossXibi_StageSkill_Donut01",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": {
+      "Type": "Cylinder",
+      "Radius": 700,
+      "CylinderHeight": 1000
+    },
+    "CampFilter": "Enemy"
+  },
+  "BossXibi_StageSkill_Donut02": {
+    "ID": "BossXibi_StageSkill_Donut02",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": {
+      "Type": "Cylinder",
+      "Radius": 1400,
+      "CylinderHeight": 1000
+    },
+    "CampFilter": "Enemy",
+    "BPFilter": "Mon_DisFilter",
+    "BPFilterVars": [
+      {
+        "RingInnerRadius": 700
+      }
+    ]
+  },
+  "BossXibi_StageSkill_Donut03": {
+    "ID": "BossXibi_StageSkill_Donut03",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": {
+      "Type": "Cylinder",
+      "Radius": 2100,
+      "CylinderHeight": 1000
+    },
+    "CampFilter": "Enemy",
+    "BPFilter": "Mon_DisFilter",
+    "BPFilterVars": [
+      {
+        "RingInnerRadius": 1400
+      }
+    ]
+  },
+  "BossXibi_StageSkill_Field01": {
+    "ID": "BossXibi_StageSkill_Field01",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 2100
+      },
+      {
+        "CylinderHeight": 100
+      }
+    ],
+    "CampFilter": "Enemy"
+  },
+  "BossXibi_StageSkill_Field02": {
+    "ID": "BossXibi_StageSkill_Field02",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 2100
+      },
+      {
+        "CylinderHeight": 100
+      }
+    ],
+    "CampFilter": "Enemy",
+    "BPFilter": "Mon_DisFilter",
+    "BPFilterVars": [
+      {
+        "RingInnerRadius": 1400
+      }
+    ]
+  },
+  "BossXibi_StageSkill_Field03": {
+    "ID": "BossXibi_StageSkill_Field03",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 2100
+      },
+      {
+        "CylinderHeight": 100
+      }
+    ],
+    "CampFilter": "Enemy",
+    "BPFilter": "Mon_DisFilter",
+    "BPFilterVars": [
+      {
+        "RingInnerRadius": 700
+      }
+    ]
+  },
+  "BossSaiqi_Skill01_Cylinder_450_200_270": {
+    "ID": "BossSaiqi_Skill01_Cylinder_450_200_270",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": {
+      "Type": "Cylinder",
+      "Radius": 450,
+      "CylinderHeight": 200
+    },
+    "CenterOffset": [
+      50,
+      0,
+      0
+    ],
+    "RangeAngle": 270,
+    "CampFilter": "Enemy"
+  },
+  "BossSaiqi_Skill04_Cylinder_300_200_360": {
+    "ID": "BossSaiqi_Skill04_Cylinder_300_200_360",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 300
+      },
+      {
+        "CylinderHeight": 200
+      }
+    ],
+    "CenterOffset": [
+      100,
+      0,
+      0
+    ],
+    "CampFilter": "Enemy"
+  },
+  "BossSaiqi_Skill07_Cylinder_300_800_360": {
+    "ID": "BossSaiqi_Skill07_Cylinder_300_800_360",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": {
+      "Type": "Cylinder",
+      "Radius": 300,
+      "CylinderHeight": 800
+    },
+    "CampFilter": "Enemy",
+    "BPFilter": "Mon_ExceptMechanism"
+  },
+  "BossSaiqi_Skill13_Cylinder_300_200_360": {
+    "ID": "BossSaiqi_Skill13_Cylinder_300_200_360",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 300
+      },
+      {
+        "CylinderHeight": 200
+      }
+    ],
+    "CenterOffset": [
+      250,
+      0,
+      0
+    ],
+    "CampFilter": "Enemy"
+  },
+  "BossSaiqi_Skill10_Cylinder_1500_1000_360": {
+    "ID": "BossSaiqi_Skill10_Cylinder_1500_1000_360",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 1500
+      },
+      {
+        "CylinderHeight": 1000
+      }
+    ],
+    "CampFilter": "Enemy"
+  },
+  "BossShijingzhe_Skill01_L": {
+    "ID": "BossShijingzhe_Skill01_L",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 600
+      },
+      {
+        "CylinderHeight": 500
+      }
+    ],
+    "CenterOffset": {},
+    "RangeAngle": 180,
+    "CampFilter": "Enemy",
+    "BPFilter": "Mon_ExceptShijingzhePillar"
+  },
+  "BossShijingzhe_Skill01_R": {
+    "ID": "BossShijingzhe_Skill01_R",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 600
+      },
+      {
+        "CylinderHeight": 500
+      }
+    ],
+    "CenterOffset": {},
+    "RangeAngle": 180,
+    "CampFilter": "Enemy",
+    "BPFilter": "Mon_ExceptShijingzhePillar"
+  },
+  "BossShijingzhe_Skill02_Cylinder01": {
+    "ID": "BossShijingzhe_Skill02_Cylinder01",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 320
+      },
+      {
+        "CylinderHeight": 350
+      }
+    ],
+    "CenterOffset": [
+      550,
+      -500,
+      -550
+    ],
+    "CampFilter": "Enemy",
+    "BPFilter": "Mon_ExceptShijingzhePillar"
+  },
+  "BossShijingzhe_Skill02_Cylinder02": {
+    "ID": "BossShijingzhe_Skill02_Cylinder02",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": {
+      "Type": "Cylinder",
+      "Radius": 430,
+      "CylinderHeight": 350
+    },
+    "CenterOffset": {},
+    "CampFilter": "Enemy",
+    "BPFilter": "Mon_ExceptShijingzhePillar"
+  },
+  "BossShijingzhe_Skill03_Cylinder_1000_200_360": {
+    "ID": "BossShijingzhe_Skill03_Cylinder_1000_200_360",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 1000
+      },
+      {
+        "CylinderHeight": 300
+      }
+    ],
+    "CenterOffset": {},
+    "CampFilter": "Enemy",
+    "BPFilter": "Mon_ExceptShijingzhePillar"
+  },
+  "BossShijingzhe_Cylinder_100_100_360": {
+    "ID": "BossShijingzhe_Cylinder_100_100_360",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": {
+      "Type": "Cylinder",
+      "Radius": 100,
+      "CylinderHeight": 100
+    },
+    "CampFilter": "Enemy",
+    "BPFilter": "Mon_ExceptShijingzhePillar"
+  },
+  "BossShijingzhe_Cylinder_600_200_360": {
+    "ID": "BossShijingzhe_Cylinder_600_200_360",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": {
+      "Type": "Cylinder",
+      "Radius": 600,
+      "CylinderHeight": 300
+    },
+    "CampFilter": "Enemy",
+    "BPFilter": "Mon_ExceptShijingzhePillar"
+  },
+  "BossShijingzhe_Cylinder_1000_200_360": {
+    "ID": "BossShijingzhe_Cylinder_1000_200_360",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 1000
+      },
+      {
+        "CylinderHeight": 300
+      }
+    ],
+    "CampFilter": "Enemy",
+    "BPFilter": "Mon_ExceptShijingzhePillar"
+  },
+  "BossShijingzhe_Cylinder_320_250_360": {
+    "ID": "BossShijingzhe_Cylinder_320_250_360",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 320
+      },
+      {
+        "CylinderHeight": 350
+      }
+    ],
+    "CenterOffset": [
+      550,
+      -500,
+      -550
+    ],
+    "CampFilter": "Enemy",
+    "BPFilter": "Mon_ExceptShijingzhePillar"
+  },
+  "BossShijingzhe_Cylinder_600_350_360": {
+    "ID": "BossShijingzhe_Cylinder_600_350_360",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 600
+      },
+      {
+        "CylinderHeight": 450
+      }
+    ],
+    "CenterOffset": [
+      0,
+      0,
+      -550
+    ],
+    "CampFilter": "Enemy",
+    "BPFilter": "Mon_ExceptShijingzhePillar"
+  },
+  "BossShijingzhe_Skill05_RushPillar": {
+    "ID": "BossShijingzhe_Skill05_RushPillar",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": {
+      "Type": "Cylinder",
+      "Radius": 650,
+      "CylinderHeight": 400
+    },
+    "CenterOffset": {},
+    "CampFilter": "Enemy",
+    "BPFilter": "Mon_ShijingzhePillar"
+  },
+  "BossShijingzhe_Cylinder_skill12_L": {
+    "ID": "BossShijingzhe_Cylinder_skill12_L",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 600
+      },
+      {
+        "CylinderHeight": 450
+      }
+    ],
+    "CenterOffset": {},
+    "CampFilter": "Enemy",
+    "BPFilter": "Mon_ExceptShijingzhePillar"
+  },
+  "BossShijingzhe_Cylinder_skill12_R": {
+    "ID": "BossShijingzhe_Cylinder_skill12_R",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 600
+      },
+      {
+        "CylinderHeight": 450
+      }
+    ],
+    "CenterOffset": {},
+    "CampFilter": "Enemy",
+    "BPFilter": "Mon_ExceptShijingzhePillar"
+  },
+  "BossShijingzhe_Skill07_Cylinder01": {
+    "ID": "BossShijingzhe_Skill07_Cylinder01",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": {
+      "Type": "Cylinder",
+      "Radius": 500,
+      "CylinderHeight": 350
+    },
+    "CenterOffset": [
+      600,
+      0,
+      -550
+    ],
+    "CampFilter": "Enemy",
+    "BPFilter": "Mon_ExceptShijingzhePillar"
+  },
+  "BossShijingzhe_Skill07_Cylinder02": {
+    "ID": "BossShijingzhe_Skill07_Cylinder02",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 700
+      },
+      {
+        "CylinderHeight": 350
+      }
+    ],
+    "CenterOffset": [
+      600,
+      0,
+      -550
+    ],
+    "CampFilter": "Enemy",
+    "BPFilter": "Mon_ExceptShijingzhePillar"
+  },
+  "BossShijingzhe_Skill07_Cylinder03": {
+    "ID": "BossShijingzhe_Skill07_Cylinder03",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": {
+      "Type": "Cylinder",
+      "Radius": 900,
+      "CylinderHeight": 350
+    },
+    "CenterOffset": [
+      600,
+      0,
+      -550
+    ],
+    "CampFilter": "Enemy",
+    "BPFilter": "Mon_ExceptShijingzhePillar"
+  },
+  "BossShijingzhe_Target": {
+    "ID": "BossShijingzhe_Target",
+    "LuaFilter": "Target",
+    "CampFilter": "Enemy",
+    "BPFilter": "Mon_ExceptShijingzhePillar"
+  },
+  "BossShijingzhe_Skill15Target": {
+    "ID": "BossShijingzhe_Skill15Target",
+    "LuaFilter": "Target",
+    "CampFilter": "Enemy",
+    "BPFilter": "Mon_ShijingzhePillar"
+  },
+  "BossShijingzhe_Sphere_3000_360_NoMch": {
+    "ID": "BossShijingzhe_Sphere_3000_360_NoMch",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Sphere"
+      },
+      {
+        "Radius": 3000
+      }
+    ],
+    "CampFilter": "Enemy",
+    "BPFilter": "Mon_ExceptShijingzhePillar"
+  },
+  "BossShijingzhe_Skill13_Howl": {
+    "ID": "BossShijingzhe_Skill13_Howl",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 1300
+      },
+      {
+        "CylinderHeight": 800
+      }
+    ],
+    "CenterOffset": [
+      0,
+      0,
+      -550
+    ],
+    "RangeAngle": 120,
+    "CampFilter": "Enemy",
+    "BPFilter": "Mon_ShijingzheSkill11",
+    "BPFilterVars": {
+      "RingInnerRadius": 300
+    }
+  },
+  "BossShijingzhe_Skill13_Select": {
+    "ID": "BossShijingzhe_Skill13_Select",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 1300
+      },
+      {
+        "CylinderHeight": 800
+      }
+    ],
+    "CenterOffset": [
+      0,
+      0,
+      -550
+    ],
+    "RangeAngle": 120,
+    "CampFilter": "Enemy",
+    "BPFilter": "Grab_SelectRandomOne_ExceptShijingzhePillar",
+    "BPFilterVars": {
+      "RingInnerRadius": 300,
+      "ActorName": "Shijingzhe_Skill13"
+    }
+  },
+  "BossShijingzhe_Skill13_GetActor": {
+    "ID": "BossShijingzhe_Skill13_GetActor",
+    "LuaFilter": "GetActor",
+    "LuaFilterParaments": {
+      "ActorName": "Shijingzhe_Skill13"
+    },
+    "CampFilter": "Enemy"
+  },
+  "BossShijingzhe_Skill11_Donut01": {
+    "ID": "BossShijingzhe_Skill11_Donut01",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 1400
+      },
+      {
+        "CylinderHeight": 1100
+      }
+    ],
+    "CenterOffset": [
+      0,
+      0,
+      -550
+    ],
+    "RangeAngle": 120,
+    "CampFilter": "Enemy",
+    "BPFilter": "Mon_ShijingzheSkill11",
+    "BPFilterVars": [
+      {
+        "RingInnerRadius": 1000
+      }
+    ]
+  },
+  "BossShijingzhe_Skill11_Donut02": {
+    "ID": "BossShijingzhe_Skill11_Donut02",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 1800
+      },
+      {
+        "CylinderHeight": 1100
+      }
+    ],
+    "CenterOffset": [
+      0,
+      0,
+      -550
+    ],
+    "RangeAngle": 120,
+    "CampFilter": "Enemy",
+    "BPFilter": "Mon_ShijingzheSkill11",
+    "BPFilterVars": [
+      {
+        "RingInnerRadius": 1400
+      }
+    ]
+  },
+  "BossShijingzhe_Skill11_Donut03": {
+    "ID": "BossShijingzhe_Skill11_Donut03",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 2200
+      },
+      {
+        "CylinderHeight": 1100
+      }
+    ],
+    "CenterOffset": [
+      0,
+      0,
+      -550
+    ],
+    "RangeAngle": 120,
+    "CampFilter": "Enemy",
+    "BPFilter": "Mon_ShijingzheSkill11",
+    "BPFilterVars": {
+      "RingInnerRadius": 1800
+    }
+  },
+  "BossShijingzhe_Skill11_Donut01_Pillar": {
+    "ID": "BossShijingzhe_Skill11_Donut01_Pillar",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 1400
+      },
+      {
+        "CylinderHeight": 1100
+      }
+    ],
+    "CenterOffset": [
+      0,
+      0,
+      -550
+    ],
+    "RangeAngle": 120,
+    "CampFilter": "Enemy",
+    "BPFilter": "Mon_ShijingzhePillar"
+  },
+  "BossShijingzhe_Skill11_Donut02_Pillar": {
+    "ID": "BossShijingzhe_Skill11_Donut02_Pillar",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 1800
+      },
+      {
+        "CylinderHeight": 1100
+      }
+    ],
+    "CenterOffset": [
+      0,
+      0,
+      -550
+    ],
+    "RangeAngle": 120,
+    "CampFilter": "Enemy",
+    "BPFilter": "Mon_ShijingzhePillar"
+  },
+  "BossShijingzhe_Skill11_Donut03_Pillar": {
+    "ID": "BossShijingzhe_Skill11_Donut03_Pillar",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 2200
+      },
+      {
+        "CylinderHeight": 1100
+      }
+    ],
+    "CenterOffset": [
+      0,
+      0,
+      -550
+    ],
+    "RangeAngle": 120,
+    "CampFilter": "Enemy",
+    "BPFilter": "Mon_ShijingzhePillar"
+  },
+  "BossShijingzhe_Skill13_Howl_Pillar": {
+    "ID": "BossShijingzhe_Skill13_Howl_Pillar",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 1300
+      },
+      {
+        "CylinderHeight": 800
+      }
+    ],
+    "CenterOffset": [
+      0,
+      0,
+      -550
+    ],
+    "RangeAngle": 120,
+    "CampFilter": "Enemy",
+    "BPFilter": "Mon_ShijingzhePillar"
+  },
+  "BossShijingzhe_Skill15_ClearPillar": {
+    "ID": "BossShijingzhe_Skill15_ClearPillar",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": {
+      "Type": "Cylinder",
+      "Radius": 6000,
+      "CylinderHeight": 1000
+    },
+    "CenterOffset": [
+      0,
+      0,
+      -550
+    ],
+    "CampFilter": "Enemy",
+    "BPFilter": "Mon_ShijingzhePillar"
+  },
+  "BossSaiqi02_Cylinder_750_2500_360": {
+    "ID": "BossSaiqi02_Cylinder_750_2500_360",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": {
+      "Type": "Cylinder",
+      "Radius": 750,
+      "CylinderHeight": 2500
+    },
+    "CenterOffset": {},
+    "CampFilter": "Enemy",
+    "BPFilter": "Mon_ExceptMechanism"
+  },
+  "Jt_Ranger_LandMine": {
+    "ID": "Jt_Ranger_LandMine",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Sphere"
+      },
+      {
+        "Radius": 400
+      }
+    ],
+    "CenterOffset": [
+      0,
+      0,
+      -10
+    ],
+    "CampFilter": "Enemy"
+  },
+  "Jt_Ranger_LandMine_Fr": {
+    "ID": "Jt_Ranger_LandMine_Fr",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Sphere"
+      },
+      {
+        "Radius": 400
+      }
+    ],
+    "CenterOffset": [
+      0,
+      0,
+      -10
+    ],
+    "CampFilter": "Friend"
+  },
+  "Jt_BlastRobot_NoTrolly": {
+    "ID": "Jt_BlastRobot_NoTrolly",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Sphere"
+      },
+      {
+        "Radius": 600
+      }
+    ],
+    "CenterOffset": [
+      0,
+      0,
+      55
+    ],
+    "CampFilter": "Enemy",
+    "BPFilter": "Mon_JTBlastRobot_ExceptTrolly"
+  },
+  "Jt_BlastRobot_OnlyTrolly": {
+    "ID": "Jt_BlastRobot_OnlyTrolly",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Sphere"
+      },
+      {
+        "Radius": 600
+      }
+    ],
+    "CenterOffset": [
+      0,
+      0,
+      55
+    ],
+    "CampFilter": "Enemy",
+    "BPFilter": "Mon_JTBlastRobot_OnlyTrolly"
+  },
+  "Jt_Commander_Cylinder_1500_500_360": {
+    "ID": "Jt_Commander_Cylinder_1500_500_360",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": {
+      "Type": "Cylinder",
+      "Radius": 1500,
+      "CylinderHeight": 500
+    },
+    "CampFilter": "OtherFriend"
+  },
+  "SQ_Wanju_Skill02_Sphere": {
+    "ID": "SQ_Wanju_Skill02_Sphere",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Sphere"
+      },
+      {
+        "Radius": 1500
+      }
+    ],
+    "CampFilter": "OtherFriend",
+    "BPFilter": "Mon_SQWanjuSummon"
+  },
+  "SQ_Baozha_Skill03_Sphere": {
+    "ID": "SQ_Baozha_Skill03_Sphere",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Sphere"
+      },
+      {
+        "Radius": 200
+      }
+    ],
+    "CenterOffset": [
+      100,
+      0,
+      0
+    ],
+    "CampFilter": "Enemy"
+  },
+  "SQ_Baozha_Die_Sphere": {
+    "ID": "SQ_Baozha_Die_Sphere",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Sphere"
+      },
+      {
+        "Radius": 200
+      }
+    ],
+    "CenterOffset": {},
+    "CampFilter": "Enemy"
+  },
+  "Mech_Cylinder_300_400_360": {
+    "ID": "Mech_Cylinder_300_400_360",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 300
+      },
+      {
+        "CylinderHeight": 400
+      }
+    ]
+  },
+  "BossLizhan_Skill01_HalfCylinder": {
+    "ID": "BossLizhan_Skill01_HalfCylinder",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": {
+      "Type": "Cylinder",
+      "Radius": 450,
+      "CylinderHeight": 350
+    },
+    "RangeAngle": 180,
+    "CampFilter": "Enemy"
+  },
+  "BossLizhan_Skill02_Cylinder": {
+    "ID": "BossLizhan_Skill02_Cylinder",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": {
+      "Type": "Cylinder",
+      "Radius": 300,
+      "CylinderHeight": 350
+    },
+    "CenterOffset": [
+      250,
+      0,
+      0
+    ],
+    "CampFilter": "Enemy"
+  },
+  "BossLizhan_Skill04_Cylinder": {
+    "ID": "BossLizhan_Skill04_Cylinder",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 550
+      },
+      {
+        "CylinderHeight": 350
+      }
+    ],
+    "CampFilter": "Enemy"
+  },
+  "BossLizhan_Skill05_Cylinder": {
+    "ID": "BossLizhan_Skill05_Cylinder",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": {
+      "Type": "Cylinder",
+      "Radius": 250,
+      "CylinderHeight": 400
+    },
+    "CampFilter": "Enemy"
+  },
+  "BossLizhan_Skill07_Cylinder_120": {
+    "ID": "BossLizhan_Skill07_Cylinder_120",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": {
+      "Type": "Cylinder",
+      "Radius": 800,
+      "CylinderHeight": 350
+    },
+    "RangeAngle": 120,
+    "CampFilter": "Enemy"
+  },
+  "BossLizhan_Skill10_Cylinder": {
+    "ID": "BossLizhan_Skill10_Cylinder",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": {
+      "Type": "Cylinder",
+      "Radius": 250,
+      "CylinderHeight": 350
+    },
+    "CampFilter": "Enemy"
+  },
+  "BossLizhan_Skill11_Cylinder": {
+    "ID": "BossLizhan_Skill11_Cylinder",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 550
+      },
+      {
+        "CylinderHeight": 350
+      }
+    ],
+    "CampFilter": "Enemy"
+  },
+  "BossLianhuo_Skill01_Cylinder_01": {
+    "ID": "BossLianhuo_Skill01_Cylinder_01",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 700
+      },
+      {
+        "CylinderHeight": 350
+      }
+    ],
+    "CenterOffset": [
+      0,
+      150,
+      0
+    ],
+    "RangeAngle": 250,
+    "Rotation": [
+      0,
+      315,
+      0
+    ],
+    "CampFilter": "Enemy"
+  },
+  "BossLianhuo_Skill01_Cylinder_02": {
+    "ID": "BossLianhuo_Skill01_Cylinder_02",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 700
+      },
+      {
+        "CylinderHeight": 350
+      }
+    ],
+    "CenterOffset": {},
+    "RangeAngle": 250,
+    "Rotation": {},
+    "CampFilter": "Enemy"
+  },
+  "BossLianhuo_Skill02_Cylinder_01": {
+    "ID": "BossLianhuo_Skill02_Cylinder_01",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 700
+      },
+      {
+        "CylinderHeight": 350
+      }
+    ],
+    "CenterOffset": [
+      0,
+      150,
+      0
+    ],
+    "RangeAngle": 250,
+    "Rotation": [
+      0,
+      0,
+      10
+    ],
+    "CampFilter": "Enemy"
+  },
+  "BossLianhuo_Skill02_Cylinder_02": {
+    "ID": "BossLianhuo_Skill02_Cylinder_02",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 700
+      },
+      {
+        "CylinderHeight": 350
+      }
+    ],
+    "CenterOffset": [
+      0,
+      0,
+      0
+    ],
+    "RangeAngle": 250,
+    "Rotation": [
+      0,
+      315,
+      0
+    ],
+    "CampFilter": "Enemy"
+  },
+  "BossLianhuo_Skill02_Cylinder_03": {
+    "ID": "BossLianhuo_Skill02_Cylinder_03",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 700
+      },
+      {
+        "CylinderHeight": 350
+      }
+    ],
+    "CenterOffset": [
+      0,
+      0,
+      0
+    ],
+    "RangeAngle": 250,
+    "Rotation": [
+      0,
+      0,
+      10
+    ],
+    "CampFilter": "Enemy"
+  },
+  "BossLianhuo_Skill02_Cylinder": {
+    "ID": "BossLianhuo_Skill02_Cylinder",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": {
+      "Type": "Cylinder",
+      "Radius": 800,
+      "CylinderHeight": 600
+    },
+    "CampFilter": "Enemy"
+  },
+  "BossLianhuo_Skill03_Cylinder": {
+    "ID": "BossLianhuo_Skill03_Cylinder",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": {
+      "Type": "Cylinder",
+      "Radius": 1000,
+      "CylinderHeight": 600
+    },
+    "CampFilter": "Enemy"
+  },
+  "BossLianhuo_Skill06_Cylinder": {
+    "ID": "BossLianhuo_Skill06_Cylinder",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 500
+      },
+      {
+        "CylinderHeight": 500
+      }
+    ],
+    "CenterOffset": [
+      0,
+      0,
+      -300
+    ],
+    "CampFilter": "Enemy"
+  },
+  "BossLianhuo_Skill06_Cylinder_02": {
+    "ID": "BossLianhuo_Skill06_Cylinder_02",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": {
+      "Type": "Cylinder",
+      "Radius": 250,
+      "CylinderHeight": 500
+    }
+  },
+  "BossLianhuo_Skill08_Cylinder": {
+    "ID": "BossLianhuo_Skill08_Cylinder",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": {
+      "Type": "Cylinder",
+      "Radius": 800,
+      "CylinderHeight": 500
+    },
+    "CenterOffset": [
+      0,
+      0,
+      -300
+    ],
+    "CampFilter": "Enemy"
+  },
+  "BossLianhuo_Skill07_Select": {
+    "ID": "BossLianhuo_Skill07_Select",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": {
+      "Type": "Rectangle",
+      "HalfWidth": 150,
+      "Length": 600,
+      "HalfHeight": 350
+    },
+    "CampFilter": "Enemy",
+    "BPFilter": "Grab_SelectRandomOne",
+    "BPFilterVars": [
+      {
+        "ActorName": "Lianhuo_Skill07"
+      }
+    ]
+  },
+  "BossLianhuo_Skill07_GetActor": {
+    "ID": "BossLianhuo_Skill07_GetActor",
+    "LuaFilter": "GetActor",
+    "LuaFilterParaments": [
+      {
+        "ActorName": "Lianhuo_Skill07"
+      }
+    ],
+    "CampFilter": "Enemy"
+  },
+  "BossLianhuo_Skill08_Field": {
+    "ID": "BossLianhuo_Skill08_Field",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": {
+      "Type": "Cylinder",
+      "Radius": 1800,
+      "CylinderHeight": 700
+    },
+    "CampFilter": "Enemy",
+    "BPFilter": "Mon_DisFilter",
+    "BPFilterVars": {
+      "RingInnerRadius": 1500
+    }
+  },
+  "BossLianhuo_Skill12_Rectangle": {
+    "ID": "BossLianhuo_Skill12_Rectangle",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": {
+      "Type": "Rectangle",
+      "HalfWidth": 600,
+      "Length": 150,
+      "HalfHeight": 200
+    }
+  },
+  "Rou_10101201_Debuff": {
+    "ID": "Rou_10101201_Debuff",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": {
+      "Type": "Cylinder",
+      "Radius": 800,
+      "CylinderHeight": 300
+    },
+    "CampFilter": "Enemy"
+  },
+  "Rou_10101203_Search": {
+    "ID": "Rou_10101203_Search",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Sphere"
+      },
+      {
+        "Radius": 800
+      }
+    ],
+    "CampFilter": "Enemy",
+    "BPFilter": "Mon_ExceptMechanism"
+  },
+  "Rou_10106101_Search": {
+    "ID": "Rou_10106101_Search",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": {
+      "Type": "Sphere",
+      "Radius": 3500
+    },
+    "LineTraceFilter": true,
+    "CampFilter": "Enemy",
+    "BPFilter": "Mon_ExceptMechanism"
+  },
+  "Rou_10106202_Damage": {
+    "ID": "Rou_10106202_Damage",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 300
+      },
+      {
+        "CylinderHeight": 300
+      }
+    ],
+    "CampFilter": "Enemy"
+  },
+  "Rou_10106203_Damage": {
+    "ID": "Rou_10106203_Damage",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": [
+      {
+        "Type": "Cylinder"
+      },
+      {
+        "Radius": 200
+      },
+      {
+        "CylinderHeight": 200
+      }
+    ],
+    "CampFilter": "Enemy"
+  },
+  "Rou_10107303_Damage": {
+    "ID": "Rou_10107303_Damage",
+    "LuaFilter": "CheckRangeHit",
+    "LuaFilterParaments": {
+      "Type": "Cylinder",
+      "Radius": 1200,
+      "CylinderHeight": 500
+    },
+    "CampFilter": "Enemy"
+  }
+}

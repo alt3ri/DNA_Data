@@ -1,0 +1,4685 @@
+{
+  "10": {
+    "NodeId": 10,
+    "AnimPlayRate": 1
+  },
+  "20": {
+    "NodeId": 20,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Hit/",
+    "AnimName": "Recover_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "30": {
+    "NodeId": 30,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Skill/",
+    "AnimName": "Condemn_Montage",
+    "AnimPlayRate": 1
+  },
+  "91": {
+    "NodeId": 91,
+    "NextNodeId": 91,
+    "PhantomAutoInput": 1,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Machinegun/",
+    "AnimName": "Machinegun_Paotai_Shooting_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "401": {
+    "NodeId": 401,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/NPC001_Nvzhu/Animation/Montage/Combat/SupportSkill/",
+    "AnimResource": "Nvzhu_Support01_Montage",
+    "AnimPlayRate": 1
+  },
+  "402": {
+    "NodeId": 402,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/NPC001_Nvzhu/Animation/Montage/Combat/SupportSkill/",
+    "AnimResource": "Nvzhu_Support02_Montage",
+    "AnimPlayRate": 1
+  },
+  "403": {
+    "NodeId": 403,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/NPC001_Nvzhu/Animation/Montage/Combat/SupportSkill/",
+    "AnimResource": "Nvzhu_Support02_Montage",
+    "AnimPlayRate": 1
+  },
+  "404": {
+    "NodeId": 404,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/NPC001_Nvzhu/Animation/Montage/Combat/SupportSkill/",
+    "AnimResource": "Nvzhu_Support02_Montage",
+    "AnimPlayRate": 1
+  },
+  "405": {
+    "NodeId": 405,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/NPC001_Nvzhu/Animation/Montage/Combat/SupportSkill/",
+    "AnimResource": "Nvzhu_Support02_Montage",
+    "AnimPlayRate": 1
+  },
+  "406": {
+    "NodeId": 406,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/NPC001_Nvzhu/Animation/Montage/Combat/SupportSkill/",
+    "AnimResource": "Nvzhu_Support01_Montage",
+    "AnimPlayRate": 1
+  },
+  "407": {
+    "NodeId": 407,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/NPC001_Nvzhu/Animation/Montage/Combat/SupportSkill/",
+    "AnimResource": "Nvzhu_Support02_Montage",
+    "AnimPlayRate": 1
+  },
+  "408": {
+    "NodeId": 408,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/NPC001_Nvzhu/Animation/Montage/Combat/SupportSkill/",
+    "AnimResource": "Nvzhu_Support02_Montage",
+    "AnimPlayRate": 1
+  },
+  "409": {
+    "NodeId": 409,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/NPC001_Nvzhu/Animation/Montage/Combat/SupportSkill/",
+    "AnimResource": "Nvzhu_Support02_Montage",
+    "AnimPlayRate": 1
+  },
+  "491": {
+    "NodeId": 491,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/NPC001_Nvzhu/Animation/Montage/Combat/SupportSkill/",
+    "AnimResource": "Nvzhu_Support02_Montage",
+    "AnimPlayRate": 1
+  },
+  "492": {
+    "NodeId": 492,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/NPC001_Nvzhu/Animation/Montage/Combat/SupportSkill/",
+    "AnimResource": "Nvzhu_Support01_Montage",
+    "AnimPlayRate": 1
+  },
+  "10011": {
+    "NodeId": 10011,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/NPC001_Nvzhu/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Nvzhu_Skill01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "20111": {
+    "NodeId": 20111,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Npc/Npc_Awa/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Awa_Skill01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "20121": {
+    "NodeId": 20121,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Npc/Npc_Awa/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Awa_Skill02_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "20211": {
+    "NodeId": 20211,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Npc/NPC_Dafu/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Dafu_Skill01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "20221": {
+    "NodeId": 20221,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Npc/NPC_Dafu/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Dafu_Skill02_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "110111": {
+    "NodeId": 110111,
+    "SkillNodeEffects": [
+      110111,
+      110112,
+      110113,
+      110114
+    ],
+    "AnimPath": "/Game/Asset/Char/Player/Char001_Heitao_J/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Heitao_Skill01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "CostSp": 25
+  },
+  "110119": {
+    "NodeId": 110119,
+    "SkillNodeEffects": [
+      110111,
+      110112,
+      110113,
+      110114
+    ],
+    "AnimPath": "/Game/Asset/Char/Player/Char001_Heitao_J/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Heitao_Skill01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "110121": {
+    "NodeId": 110121,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/Char001_Heitao_J/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Heitao_Skill02_On_Montage",
+    "AnimPlayRate": 1,
+    "CanExtractZVelocity": true,
+    "DisableBlendBone": true,
+    "CostSp": 10
+  },
+  "110131": {
+    "NodeId": 110131,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/Char001_Heitao_J/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Heitao_Skill02_Off_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "110141": {
+    "NodeId": 110141,
+    "NextNodeId": 110142,
+    "PhantomAutoInput": 1,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/Char001_Heitao_J/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Heitao_Skill02_01_Montage",
+    "AnimPlayRate": 1,
+    "CanExtractZVelocity": true,
+    "DisableBlendBone": true
+  },
+  "110142": {
+    "NodeId": 110142,
+    "NextNodeId": 110143,
+    "PhantomAutoInput": 1,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/Char001_Heitao_J/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Heitao_Skill02_02_Montage",
+    "AnimPlayRate": 1,
+    "CanExtractZVelocity": true,
+    "DisableBlendBone": true
+  },
+  "110143": {
+    "NodeId": 110143,
+    "NextNodeId": 110144,
+    "PhantomAutoInput": 1,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/Char001_Heitao_J/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Heitao_Skill02_03_Montage",
+    "AnimPlayRate": 1,
+    "CanExtractZVelocity": true,
+    "DisableBlendBone": true
+  },
+  "110144": {
+    "NodeId": 110144,
+    "NextNodeId": 110145,
+    "PhantomAutoInput": 1,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/Char001_Heitao_J/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Heitao_Skill02_04_Montage",
+    "AnimPlayRate": 1,
+    "CanExtractZVelocity": true,
+    "DisableBlendBone": true
+  },
+  "110145": {
+    "NodeId": 110145,
+    "NextNodeId": 110142,
+    "PhantomAutoInput": 2,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/Char001_Heitao_J/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Heitao_Skill02_05_Montage",
+    "AnimPlayRate": 1,
+    "CanExtractZVelocity": true,
+    "DisableBlendBone": true
+  },
+  "110151": {
+    "NodeId": 110151,
+    "NextNodeId": 110152,
+    "PhantomAutoInput": 1,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/Char001_Heitao_J/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Heitao_Skill02_01_Montage",
+    "AnimPlayRate": 1,
+    "CanExtractZVelocity": true,
+    "DisableBlendBone": true
+  },
+  "110152": {
+    "NodeId": 110152,
+    "NextNodeId": 110153,
+    "PhantomAutoInput": 1,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/Char001_Heitao_J/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Heitao_Skill02_02_Montage",
+    "AnimPlayRate": 1,
+    "CanExtractZVelocity": true,
+    "DisableBlendBone": true
+  },
+  "110153": {
+    "NodeId": 110153,
+    "NextNodeId": 110154,
+    "PhantomAutoInput": 1,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/Char001_Heitao_J/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Heitao_Skill02_03_Montage",
+    "AnimPlayRate": 1,
+    "CanExtractZVelocity": true,
+    "DisableBlendBone": true
+  },
+  "110154": {
+    "NodeId": 110154,
+    "NextNodeId": 110155,
+    "PhantomAutoInput": 1,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/Char001_Heitao_J/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Heitao_Skill02_04_Montage",
+    "AnimPlayRate": 1,
+    "CanExtractZVelocity": true,
+    "DisableBlendBone": true
+  },
+  "110155": {
+    "NodeId": 110155,
+    "NextNodeId": 110152,
+    "PhantomAutoInput": 2,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/Char001_Heitao_J/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Heitao_Skill02_05_Montage",
+    "AnimPlayRate": 1,
+    "CanExtractZVelocity": true,
+    "DisableBlendBone": true
+  },
+  "110211": {
+    "NodeId": 110211,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/Char006_Haier/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Haier_Skill02_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "110221": {
+    "NodeId": 110221,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/Char001_Heitao_J/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Heitao_Skill02_On_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "CostSp": 10
+  },
+  "180111": {
+    "NodeId": 180111,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/Char019_Feina/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Feina_Skill01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "CostSp": 12
+  },
+  "180121": {
+    "NodeId": 180121,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/Char019_Feina/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Feina_Skill02_On_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "CostSp": 12
+  },
+  "180122": {
+    "NodeId": 180122,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/Char019_Feina/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Feina_Skill02_Off_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "210111": {
+    "NodeId": 210111,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/Char005_Shuimu/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Shuimu_Skill01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "CostSp": 50
+  },
+  "210112": {
+    "NodeId": 210112,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/Char005_Shuimu/Animation/Summon/Montage/Combat/Skill/",
+    "AnimResource": "Shuimu_Summon_Attack_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "210113": {
+    "NodeId": 210113,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/Char005_Shuimu/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Shuimu_Skill01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "CostSp": 50
+  },
+  "210114": {
+    "NodeId": 210114,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/Char005_Shuimu/Animation/Summon/Montage/Combat/Skill/",
+    "AnimResource": "Shuimu_Summon_Attack_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "210115": {
+    "NodeId": 210115,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/Char005_Shuimu/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Shuimu_Skill01_Loop_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "CostSp": 50
+  },
+  "210116": {
+    "NodeId": 210116,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/Char005_Shuimu/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Shuimu_Skill01_Loop_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "CostSp": 50
+  },
+  "210121": {
+    "NodeId": 210121,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/Char005_Shuimu/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Shuimu_Skill02_Montage",
+    "AnimPlayRate": 1,
+    "CanExtractZVelocity": true,
+    "DisableBlendBone": true,
+    "CostSp": 75
+  },
+  "230111": {
+    "NodeId": 230111,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/Char004_Zhangyu/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Zhangyu_Skill01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "CostSp": 25
+  },
+  "230121": {
+    "NodeId": 230121,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/Char004_Zhangyu/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Zhangyu_Skill02_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "CostSp": 50
+  },
+  "230122": {
+    "NodeId": 230122,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/Char004_Zhangyu/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Zhangyu_Skill02_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "CostSp": 50
+  },
+  "230131": {
+    "NodeId": 230131,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/Char004_Zhangyu/Animation/Tentacle/Montage/Combat/Skill/",
+    "AnimResource": "Zhangyu_Tentacle_Attack01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "230132": {
+    "NodeId": 230132,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/Char004_Zhangyu/Animation/Tentacle/Montage/Combat/Skill/",
+    "AnimResource": "Zhangyu_Tentacle_Attack02_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "240111": {
+    "NodeId": 240111,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/Char015_Baiheng/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Baiheng_Skill01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "CostSp": 30
+  },
+  "240112": {
+    "NodeId": 240112,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/Char015_Baiheng/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Baiheng_Skill01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "CostSp": 30
+  },
+  "240121": {
+    "NodeId": 240121,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/Char015_Baiheng/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Baiheng_Skill02_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "CostSp": 120
+  },
+  "240123": {
+    "NodeId": 240123,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/Char015_Baiheng/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Baiheng_Skill02_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "CostSp": 120
+  },
+  "240141": {
+    "NodeId": 240141,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/Char015_Baiheng/Animation/Summon/Montage/Combat/Skill/",
+    "AnimResource": "Baiheng_Summon_Skill01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "310111": {
+    "NodeId": 310111,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/Char011_Linen/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Linen_Skill01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "CostSp": 30
+  },
+  "310121": {
+    "NodeId": 310121,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/Char011_Linen/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Linen_Skill02_On_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "CostSp": 10
+  },
+  "310122": {
+    "NodeId": 310122,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/Char011_Linen/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Linen_Skill02_Off_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "310123": {
+    "NodeId": 310123,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/Char011_Linen/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Linen_Skill02_On_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "CostSp": 10
+  },
+  "310141": {
+    "NodeId": 310141,
+    "NextNodeId": 310142,
+    "PhantomAutoInput": 1,
+    "SkillNodeEffects": [
+      310131
+    ],
+    "AnimPath": "/Game/Asset/Char/Player/Char011_Linen/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Linen_Skill02_01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "310142": {
+    "NodeId": 310142,
+    "NextNodeId": 310143,
+    "PhantomAutoInput": 1,
+    "SkillNodeEffects": [
+      310132
+    ],
+    "AnimPath": "/Game/Asset/Char/Player/Char011_Linen/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Linen_Skill02_02_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "310143": {
+    "NodeId": 310143,
+    "NextNodeId": 310144,
+    "PhantomAutoInput": 1,
+    "SkillNodeEffects": [
+      310131
+    ],
+    "AnimPath": "/Game/Asset/Char/Player/Char011_Linen/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Linen_Skill02_03_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "310144": {
+    "NodeId": 310144,
+    "NextNodeId": 310145,
+    "PhantomAutoInput": 1,
+    "SkillNodeEffects": [
+      310132
+    ],
+    "AnimPath": "/Game/Asset/Char/Player/Char011_Linen/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Linen_Skill02_04_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "310145": {
+    "NodeId": 310145,
+    "NextNodeId": 310141,
+    "PhantomAutoInput": 1,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/Char011_Linen/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Linen_Skill02_05_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "310211": {
+    "NodeId": 310211,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/Char023_Xier/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Xier_Skill02_Montage",
+    "AnimPlayRate": 1,
+    "CanExtractZVelocity": true,
+    "DisableBlendBone": true,
+    "CostSp": 30
+  },
+  "310311": {
+    "NodeId": 310311,
+    "NextNodeId": 310312,
+    "PhantomAutoInput": 1,
+    "SkillNodeEffects": [
+      310311
+    ],
+    "AnimPath": "/Game/Asset/Char/Player/Char017_Yeer/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Yeer_Skill01_01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "CostSp": 10
+  },
+  "310312": {
+    "NodeId": 310312,
+    "NextNodeId": 310312,
+    "PhantomAutoInput": 2,
+    "SkillNodeEffects": [
+      310311
+    ],
+    "AnimPath": "/Game/Asset/Char/Player/Char017_Yeer/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Yeer_Skill01_02_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "CostSp": 10
+  },
+  "310321": {
+    "NodeId": 310321,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/Char017_Yeer/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Yeer_Skill02_On_Montage",
+    "AnimPlayRate": 1,
+    "CanExtractZVelocity": true,
+    "DisableBlendBone": true,
+    "CostSp": 30
+  },
+  "320111": {
+    "NodeId": 320111,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/Char006_Haier/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Haier_Skill01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "CostSp": 30
+  },
+  "320121": {
+    "NodeId": 320121,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/Char006_Haier/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Haier_Skill02_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "CostSp": 50
+  },
+  "330111": {
+    "NodeId": 330111,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/Char024_Maer/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Maer_Skill01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "CostSp": 5
+  },
+  "330112": {
+    "NodeId": 330112,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/Char024_Maer/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Maer_Skill01_Loop_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "CostSp": 5
+  },
+  "330121": {
+    "NodeId": 330121,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/Char024_Maer/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Maer_Skill02_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "CostSp": 60
+  },
+  "410111": {
+    "NodeId": 410111,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/Char007_Baonu/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Baonu_Skill01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "CostSp": 25
+  },
+  "410121": {
+    "NodeId": 410121,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/Char007_Baonu/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Baonu_Skill02_On_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "CostSp": 100
+  },
+  "410122": {
+    "NodeId": 410122,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/Char007_Baonu/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Baonu_Skill02_Reuse_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "CostSp": 100
+  },
+  "410123": {
+    "NodeId": 410123,
+    "NextNodeId": 410123,
+    "SkillNodeEffects": [
+      410125,
+      410123
+    ],
+    "AnimPath": "/Game/Asset/Char/Player/Char007_Baonu/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Baonu_Skill02_Attack01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "410124": {
+    "NodeId": 410124,
+    "SkillNodeEffects": [
+      410125,
+      410123
+    ],
+    "AnimPath": "/Game/Asset/Char/Player/Char007_Baonu/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Baonu_Skill02_Attack02_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "420111": {
+    "NodeId": 420111,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/Char008_Yuming/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Yuming_Skill01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "CostSp": 12
+  },
+  "420121": {
+    "NodeId": 420121,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/Char008_Yuming/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Yuming_Skill02_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "CostSp": 100
+  },
+  "420131": {
+    "NodeId": 420131,
+    "AnimPath": "/Game/Asset/Char/Player/Char008_Yuming/Animation/Summon/Montage/Combat/Skill/",
+    "AnimResource": "Yuming_Summon_Attack01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "420211": {
+    "NodeId": 420211,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/Char012_Landi/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Landi_Skill01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "CostSp": 30
+  },
+  "420221": {
+    "NodeId": 420221,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/Char012_Landi/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Landi_Skill02_Montage",
+    "AnimPlayRate": 1,
+    "CanExtractZVelocity": true,
+    "DisableBlendBone": true,
+    "CostSp": 10
+  },
+  "420241": {
+    "NodeId": 420241,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/Char012_Landi/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Landi_Skill01_End_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "430111": {
+    "NodeId": 430111,
+    "NextNodeId": 430112,
+    "SkillNodeEffects": [
+      430111,
+      430112,
+      430113
+    ],
+    "AnimPath": "/Game/Asset/Char/Player/Char009_Xibi/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Xibi_Skill01_01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "CostSp": 5
+  },
+  "430112": {
+    "NodeId": 430112,
+    "NextNodeId": 430111,
+    "SkillNodeEffects": [
+      430111,
+      430112,
+      430113
+    ],
+    "AnimPath": "/Game/Asset/Char/Player/Char009_Xibi/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Xibi_Skill01_02_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "CostSp": 5
+  },
+  "430114": {
+    "NodeId": 430114,
+    "SkillNodeEffects": [
+      430114,
+      430115,
+      430116,
+      430118
+    ],
+    "AnimPath": "/Game/Asset/Char/Player/Char009_Xibi/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Xibi_Skill01_Loop_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "CostSp": 5
+  },
+  "430115": {
+    "NodeId": 430115,
+    "SkillNodeEffects": [
+      430114,
+      430115,
+      430116,
+      430118
+    ],
+    "AnimPath": "/Game/Asset/Char/Player/Char009_Xibi/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Xibi_Skill01_Loop_Montage",
+    "AnimPlayRate": 1.25,
+    "DisableBlendBone": true,
+    "CostSp": 5
+  },
+  "430121": {
+    "NodeId": 430121,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/Char009_Xibi/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Xibi_Skill02_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "CostSp": 50
+  },
+  "510111": {
+    "NodeId": 510111,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/Char021_Songlu/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Songlu_Skill01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "CostSp": 12
+  },
+  "510112": {
+    "NodeId": 510112,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/Char021_Songlu/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Songlu_Skill01_Ride_HitWall_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "CostSp": 0
+  },
+  "510121": {
+    "NodeId": 510121,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/Char021_Songlu/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Songlu_Skill02_On_Montage",
+    "AnimPlayRate": 1.2,
+    "DisableBlendBone": true,
+    "CostSp": 60
+  },
+  "510122": {
+    "NodeId": 510122,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/Char021_Songlu/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Songlu_Skill02_Off_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "CostSp": 0
+  },
+  "510141": {
+    "NodeId": 510141,
+    "NextNodeId": 510142,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/Char021_Songlu/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Songlu_Skill02_RunAttack_01_Montage",
+    "AnimPlayRate": 1.2,
+    "DisableBlendBone": true
+  },
+  "510142": {
+    "NodeId": 510142,
+    "NextNodeId": 510141,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/Char021_Songlu/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Songlu_Skill02_RunAttack_02_Montage",
+    "AnimPlayRate": 1.2,
+    "DisableBlendBone": true
+  },
+  "510151": {
+    "NodeId": 510151,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/Char021_Songlu/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Songlu_Skill02_FallAttack_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "510211": {
+    "NodeId": 510211,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/Char018_Aote/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Aote_Skill01_Montage",
+    "AnimPlayRate": 1,
+    "CanExtractZVelocity": true,
+    "DisableBlendBone": true
+  },
+  "510221": {
+    "NodeId": 510221,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/Char018_Aote/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Aote_Skill02_Montage",
+    "AnimPlayRate": 1,
+    "CanExtractZVelocity": true,
+    "DisableBlendBone": true
+  },
+  "530111": {
+    "NodeId": 530111,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/Char010_Saiqi/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Saiqi_Skill01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "CostSp": 20
+  },
+  "530112": {
+    "NodeId": 530112,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/Char010_Saiqi/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Saiqi_Skill01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "CostSp": 20
+  },
+  "530121": {
+    "NodeId": 530121,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/Char010_Saiqi/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Saiqi_Skill02_On_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "CostSp": 10
+  },
+  "530122": {
+    "NodeId": 530122,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/Char010_Saiqi/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Saiqi_Skill02_Off_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "530123": {
+    "NodeId": 530123,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Player/Char010_Saiqi/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Saiqi_Skill02_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "MontageBlendOutTime": 0.5
+  },
+  "600101": {
+    "NodeId": 600101,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/GR_Jichong/Animation/Montage/Combat/Skill/",
+    "AnimResource": "GR_Jichong_Attack01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "RootMotionRadius": 2
+  },
+  "600102": {
+    "NodeId": 600102,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/GR_Jichong/Animation/Montage/Combat/Skill/",
+    "AnimResource": "GR_Jichong_Attack02_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "RootMotionRadius": 2
+  },
+  "600103": {
+    "NodeId": 600103,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/GR_Jichong/Animation/Montage/Combat/Skill/",
+    "AnimResource": "GR_Jichong_Skill01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "600104": {
+    "NodeId": 600104,
+    "AnimPath": "/Game/Asset/Char/Monster/GR_Jichong/Animation/Montage/Combat/Skill/",
+    "AnimResource": "GR_Jichong_Skill02_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "600111": {
+    "NodeId": 600111,
+    "SkillNodeEffects": [
+      600001,
+      600002
+    ],
+    "AnimPath": "/Game/Asset/Char/Monster/GR_Jichong/Animation/Montage/Combat/Skill/",
+    "AnimResource": "GR_Jichong_Alarm01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "600201": {
+    "NodeId": 600201,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/GR_Youji/Animation/Montage/Combat/Skill/",
+    "AnimResource": "GR_Youji_Attack02_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "600202": {
+    "NodeId": 600202,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/GR_Youji/Animation/Montage/Combat/Skill/",
+    "AnimResource": "GR_Youji_Attack01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "600203": {
+    "NodeId": 600203,
+    "AnimPath": "/Game/Asset/Char/Monster/GR_Youji/Animation/Montage/Combat/Skill/",
+    "AnimResource": "GR_Youji_Reload_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "600204": {
+    "NodeId": 600204,
+    "SkillNodeEffects": [
+      600209
+    ],
+    "AnimPath": "/Game/Asset/Char/Monster/GR_Youji/Animation/Montage/Combat/Skill/",
+    "AnimResource": "GR_Youji_Single_Attack01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "RootMotionRadius": 2
+  },
+  "600205": {
+    "NodeId": 600205,
+    "SkillNodeEffects": [
+      600209
+    ],
+    "AnimPath": "/Game/Asset/Char/Monster/GR_Youji/Animation/Montage/Combat/Skill/",
+    "AnimResource": "GR_Youji_Single_Attack02_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "RootMotionRadius": 2
+  },
+  "600211": {
+    "NodeId": 600211,
+    "SkillNodeEffects": [
+      600001,
+      600002
+    ],
+    "AnimPath": "/Game/Asset/Char/Monster/GR_Youji/Animation/Montage/Combat/Skill/",
+    "AnimResource": "GR_Youji_Alarm01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "600301": {
+    "NodeId": 600301,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/GR_Piaofu/Animation/Montage/Combat/Skill/",
+    "AnimResource": "GR_Piaofu_Attack01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "600302": {
+    "NodeId": 600302,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/GR_Piaofu/Animation/Montage/Combat/Skill/",
+    "AnimResource": "GR_Piaofu_Skill01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "600303": {
+    "NodeId": 600303,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/GR_Piaofu/Animation/Montage/Combat/Skill/",
+    "AnimResource": "GR_Piaofu_C01_Skill01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "600311": {
+    "NodeId": 600311,
+    "SkillNodeEffects": [
+      600001,
+      600002
+    ],
+    "AnimPath": "/Game/Asset/Char/Monster/GR_Piaofu/Animation/Montage/Combat/Skill/",
+    "AnimResource": "GR_Piaofu_Alarm01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "600401": {
+    "NodeId": 600401,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/GR_Baotu/Animation/Montage/Combat/Skill/",
+    "AnimResource": "GR_Baotu_Attack01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "RootMotionRadius": 2
+  },
+  "600402": {
+    "NodeId": 600402,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/GR_Baotu/Animation/Montage/Combat/Skill/",
+    "AnimResource": "GR_Baotu_Attack02_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "RootMotionRadius": 2
+  },
+  "600403": {
+    "NodeId": 600403,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/GR_Baotu/Animation/Montage/Combat/Skill/",
+    "AnimResource": "GR_Baotu_Skill01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "600404": {
+    "NodeId": 600404,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/GR_Baotu/Animation/Montage/Combat/Skill/",
+    "AnimResource": "GR_Baotu_Skill02_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "600411": {
+    "NodeId": 600411,
+    "SkillNodeEffects": [
+      600001,
+      600002
+    ],
+    "AnimPath": "/Game/Asset/Char/Monster/GR_Baotu/Animation/Montage/Combat/Skill/",
+    "AnimResource": "GR_Baotu_Alarm01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "600501": {
+    "NodeId": 600501,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/GR_Longcao/Animation/Montage/Combat/Skill/",
+    "AnimResource": "GR_Longcao_Attack01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "600502": {
+    "NodeId": 600502,
+    "SkillNodeEffects": [
+      600504
+    ],
+    "AnimPath": "/Game/Asset/Char/Monster/GR_Longcao/Animation/Montage/Combat/Skill/",
+    "AnimResource": "GR_Longcao_Skill01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "600503": {
+    "NodeId": 600503,
+    "SkillNodeEffects": [
+      600506
+    ],
+    "AnimPath": "/Game/Asset/Char/Monster/GR_Longcao/Animation/Montage/Combat/Skill/",
+    "AnimResource": "GR_Longcao_Skill02_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "600504": {
+    "NodeId": 600504,
+    "SkillNodeEffects": [
+      600507
+    ],
+    "AnimPath": "/Game/Asset/Char/Monster/GR_Longcao/Animation/Montage/Combat/Skill/",
+    "AnimResource": "GR_Longcao_Skill03_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "600505": {
+    "NodeId": 600505,
+    "SkillNodeEffects": [
+      600504
+    ],
+    "AnimPath": "/Game/Asset/Char/Monster/GR_Longcao/Animation/Montage/Combat/Skill/",
+    "AnimResource": "GR_Longcao_Skill04_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "600506": {
+    "NodeId": 600506,
+    "SkillNodeEffects": [
+      600506
+    ],
+    "AnimPath": "/Game/Asset/Char/Monster/GR_Longcao/Animation/Montage/Combat/Skill/",
+    "AnimResource": "GR_Longcao_Skill05_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "600507": {
+    "NodeId": 600507,
+    "SkillNodeEffects": [
+      600507
+    ],
+    "AnimPath": "/Game/Asset/Char/Monster/GR_Longcao/Animation/Montage/Combat/Skill/",
+    "AnimResource": "GR_Longcao_Skill06_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "600508": {
+    "NodeId": 600508,
+    "SkillNodeEffects": [
+      600506
+    ],
+    "AnimPath": "/Game/Asset/Char/Monster/GR_Longcao/Animation/Montage/Combat/Skill/",
+    "AnimResource": "GR_Longcao_Skill07_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "601101": {
+    "NodeId": 601101,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/GR_Jichong/Animation/Montage/Combat/Skill/",
+    "AnimResource": "GR_Jichong_C01_Skill01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "601201": {
+    "NodeId": 601201,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/GR_Youji/Animation/Montage/Combat/Skill/",
+    "AnimResource": "GR_Youji_C01_Attack02_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "601202": {
+    "NodeId": 601202,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/GR_Youji/Animation/Montage/Combat/Skill/",
+    "AnimResource": "GR_Youji_C01_Attack01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "601301": {
+    "NodeId": 601301,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/GR_Piaofu/Animation/Montage/Combat/Skill/",
+    "AnimResource": "GR_Piaofu_C01_Skill02_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "601302": {
+    "NodeId": 601302,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/GR_Piaofu/Animation/Montage/Combat/Skill/",
+    "AnimResource": "GR_Piaofu_C01_Attack01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "601401": {
+    "NodeId": 601401,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/GR_Baotu/Animation/Montage/Combat/Skill/",
+    "AnimResource": "GR_Baotu_C01_Attack01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "RootMotionRadius": 2
+  },
+  "601402": {
+    "NodeId": 601402,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/GR_Baotu/Animation/Montage/Combat/Skill/",
+    "AnimResource": "GR_Baotu_C01_Attack02_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "RootMotionRadius": 2
+  },
+  "601403": {
+    "NodeId": 601403,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/GR_Baotu/Animation/Montage/Combat/Skill/",
+    "AnimResource": "GR_Baotu_C01_Skill01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "700101": {
+    "NodeId": 700101,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/JT_Juji/Animation/Montage/Combat/Skill/",
+    "AnimResource": "JT_Juji_Attack01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "700102": {
+    "NodeId": 700102,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/JT_Juji/Animation/Montage/Combat/Skill/",
+    "AnimResource": "JT_Juji_Skill01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "700103": {
+    "NodeId": 700103,
+    "AnimPath": "/Game/Asset/Char/Monster/JT_Juji/Animation/Montage/Combat/Skill/",
+    "AnimResource": "JT_Juji_Skill02_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "700104": {
+    "NodeId": 700104,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/JT_Juji/Animation/Montage/Combat/Skill/",
+    "AnimResource": "JT_Juji_Single_Attack01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "RootMotionRadius": 2
+  },
+  "700105": {
+    "NodeId": 700105,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/JT_Juji/Animation/Montage/Combat/Skill/",
+    "AnimResource": "JT_Juji_Single_Attack02_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "RootMotionRadius": 2
+  },
+  "700111": {
+    "NodeId": 700111,
+    "SkillNodeEffects": [
+      600001,
+      600002
+    ],
+    "AnimPath": "/Game/Asset/Char/Monster/JT_Juji/Animation/Montage/Combat/Skill/",
+    "AnimResource": "JT_Juji_Alarm01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "700201": {
+    "NodeId": 700201,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/JT_Pizhuo/Animation/Montage/Combat/Skill/",
+    "AnimResource": "JT_Pizhuo_Attack01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "RootMotionRadius": 2
+  },
+  "700202": {
+    "NodeId": 700202,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/JT_Pizhuo/Animation/Montage/Combat/Skill/",
+    "AnimResource": "JT_Pizhuo_Attack02_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "RootMotionRadius": 2
+  },
+  "700203": {
+    "NodeId": 700203,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/JT_Pizhuo/Animation/Montage/Combat/Skill/",
+    "AnimResource": "JT_Pizhuo_Skill01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "700210": {
+    "NodeId": 700210,
+    "AnimPath": "/Game/Asset/Char/Monster/JT_Pizhuo/Animation/Montage/Combat/Skill/",
+    "AnimResource": "JT_Pizhuo_ShakeIdle_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "700211": {
+    "NodeId": 700211,
+    "SkillNodeEffects": [
+      600001,
+      600002
+    ],
+    "AnimPath": "/Game/Asset/Char/Monster/JT_Pizhuo/Animation/Montage/Combat/Skill/",
+    "AnimResource": "JT_Pizhuo_Alarm01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "700215": {
+    "NodeId": 700215,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/JT_Pizhuo/Animation/Montage/Combat/Skill/",
+    "AnimResource": "JT_Pizhuo_DYZAlarmTest_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "700223": {
+    "NodeId": 700223,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/JT_Pizhuo/Animation/Montage/Combat/Skill/",
+    "AnimResource": "JT_Pizhuo_Skill02_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "700224": {
+    "NodeId": 700224,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/JT_Pizhuo/Animation/Montage/Combat/Skill/",
+    "AnimResource": "JT_Pizhuo_Skill03_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "700301": {
+    "NodeId": 700301,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Jt_Ranger/Animation/Montage/Combat/Skill/",
+    "AnimResource": "JT_Ranger_Attack01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "700302": {
+    "NodeId": 700302,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Jt_Ranger/Animation/Montage/Combat/Skill/",
+    "AnimResource": "JT_Ranger_Skill02_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "700303": {
+    "NodeId": 700303,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Jt_Ranger/Animation/Montage/Combat/Skill/",
+    "AnimResource": "JT_Ranger_Skill02_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "700304": {
+    "NodeId": 700304,
+    "AnimPath": "/Game/Asset/Char/Monster/Jt_Ranger/Animation/Montage/Combat/Skill/",
+    "AnimResource": "JT_Ranger_Reload_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "700305": {
+    "NodeId": 700305,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Jt_Ranger/Animation/Montage/Combat/Skill/",
+    "AnimResource": "JT_Ranger_Skill01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "700306": {
+    "NodeId": 700306,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Jt_Ranger/Animation/Montage/Combat/Skill/",
+    "AnimResource": "JT_Ranger_Single_Attack01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "RootMotionRadius": 2
+  },
+  "700307": {
+    "NodeId": 700307,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Jt_Ranger/Animation/Montage/Combat/Skill/",
+    "AnimResource": "JT_Ranger_Single_Attack02_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "RootMotionRadius": 2
+  },
+  "700311": {
+    "NodeId": 700311,
+    "SkillNodeEffects": [
+      600001,
+      600002
+    ],
+    "AnimPath": "/Game/Asset/Char/Monster/Jt_Ranger/Animation/Montage/Combat/Skill/",
+    "AnimResource": "JT_Ranger_Alarm01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "700321": {
+    "NodeId": 700321,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Jt_Ranger/Animation/Montage/Combat/Skill/",
+    "AnimResource": "JT_Ranger_Skill01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "700323": {
+    "NodeId": 700323,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Jt_Ranger/Animation/Montage/Combat/Skill/",
+    "AnimResource": "JT_Ranger_Skill03_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "700401": {
+    "NodeId": 700401,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/JT_Tuji/Animation/Montage/Combat/Skill/",
+    "AnimResource": "JT_Tuji_Attack01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "RootMotionRadius": 2
+  },
+  "700402": {
+    "NodeId": 700402,
+    "SkillNodeEffects": [
+      700402,
+      700403,
+      700404,
+      700405
+    ],
+    "AnimPath": "/Game/Asset/Char/Monster/JT_Tuji/Animation/Montage/Combat/Skill/",
+    "AnimResource": "JT_Tuji_Skill01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "700403": {
+    "NodeId": 700403,
+    "SkillNodeEffects": [
+      700402,
+      700403,
+      700404,
+      700405
+    ],
+    "AnimPath": "/Game/Asset/Char/Monster/JT_Tuji/Animation/Montage/Combat/Skill/",
+    "AnimResource": "JT_Tuji_Skill02_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "700411": {
+    "NodeId": 700411,
+    "SkillNodeEffects": [
+      600001,
+      600002
+    ],
+    "AnimPath": "/Game/Asset/Char/Monster/JT_Tuji/Animation/Montage/Combat/Skill/",
+    "AnimResource": "JT_Tuji_Alarm01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "700621": {
+    "NodeId": 700621,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/JT_HealRobot/Animation/Montage/Combat/Skill/",
+    "AnimResource": "JT_HealRobot_Skill01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "700721": {
+    "NodeId": 700721,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/JT_BlastRobot/Animation/Montage/Combat/Skill/",
+    "AnimResource": "JT_BlastRobot_Skill01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "700731": {
+    "NodeId": 700731,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/JT_BlastRobot/Animation/Montage/Combat/Skill/",
+    "AnimResource": "JT_BlastRobot_Skill02_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "700741": {
+    "NodeId": 700741,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/JT_BlastRobot/Animation/Montage/Combat/Skill/",
+    "AnimResource": "JT_BlastRobot_Skill02_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "700801": {
+    "NodeId": 700801,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/JT_Zhihui/Animation/Montage/Combat/Skill/",
+    "AnimResource": "JT_Zhihui_Skill01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "700802": {
+    "NodeId": 700802,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/JT_Zhihui/Animation/Montage/Combat/Skill/",
+    "AnimResource": "JT_Zhihui_Skill02_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "700803": {
+    "NodeId": 700803,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/JT_Zhihui/Animation/Montage/Combat/Skill/",
+    "AnimResource": "JT_Zhihui_Skill03_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "700804": {
+    "NodeId": 700804,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/JT_Zhihui/Animation/Montage/Combat/Skill/",
+    "AnimResource": "JT_Zhihui_Skill04_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "700805": {
+    "NodeId": 700805,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/JT_Zhihui/Animation/Montage/Combat/Skill/",
+    "AnimResource": "JT_Zhihui_Skill06_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "700806": {
+    "NodeId": 700806,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/JT_Zhihui/Animation/Montage/Combat/Skill/",
+    "AnimResource": "JT_Zhihui_Skill05_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "700807": {
+    "NodeId": 700807,
+    "AnimPath": "/Game/Asset/Char/Monster/JT_Zhihui/Animation/Montage/Combat/Skill/",
+    "AnimResource": "JT_Zhihui_Reload_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "701103": {
+    "NodeId": 701103,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/JT_Juji/Animation/Montage/Combat/Skill/",
+    "AnimResource": "JT_Juji_C01_Skill01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "701201": {
+    "NodeId": 701201,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/JT_Pizhuo/Animation/Montage/Combat/Skill/",
+    "AnimResource": "JT_Pizhuo_C01_Attack01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "701202": {
+    "NodeId": 701202,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/JT_Pizhuo/Animation/Montage/Combat/Skill/",
+    "AnimResource": "JT_Pizhuo_C01_Attack02_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "701203": {
+    "NodeId": 701203,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/JT_Pizhuo/Animation/Montage/Combat/Skill/",
+    "AnimResource": "JT_Pizhuo_C01_Skill01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "701301": {
+    "NodeId": 701301,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Jt_Ranger/Animation/Montage/Combat/Skill/",
+    "AnimResource": "JT_Ranger_C01_Attack01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "701302": {
+    "NodeId": 701302,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Jt_Ranger/Animation/Montage/Combat/Skill/",
+    "AnimResource": "JT_Ranger_Skill03_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "701401": {
+    "NodeId": 701401,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/JT_Tuji/Animation/Montage/Combat/Skill/",
+    "AnimResource": "JT_Tuji_C01_Attack01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "701402": {
+    "NodeId": 701402,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/JT_Tuji/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Jt_Tuji_C01_Skill01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "800101": {
+    "NodeId": 800101,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/JH_Zhishi/Animation/Montage/Combat/Skill/",
+    "AnimResource": "JH_Zhishi_Attack01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "800102": {
+    "NodeId": 800102,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/JH_Zhishi/Animation/Montage/Combat/Skill/",
+    "AnimResource": "JH_Zhishi_Skill01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "800103": {
+    "NodeId": 800103,
+    "AnimPath": "/Game/Asset/Char/Monster/JH_Zhishi/Animation/Montage/Combat/Skill/",
+    "AnimResource": "JH_Zhishi_Reload_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "800104": {
+    "NodeId": 800104,
+    "SkillNodeEffects": [
+      600001,
+      600002
+    ],
+    "AnimPath": "/Game/Asset/Char/Monster/JH_Zhishi/Animation/Montage/Combat/Skill/",
+    "AnimResource": "JH_Zhishi_Alarm01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "800201": {
+    "NodeId": 800201,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/JH_Xianfeng/Animation/Montage/Combat/Skill/",
+    "AnimResource": "JH_Xianfeng_Attack01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "RootMotionRadius": 2
+  },
+  "800202": {
+    "NodeId": 800202,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/JH_Xianfeng/Animation/Montage/Combat/Skill/",
+    "AnimResource": "JH_Xianfeng_Attack02_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "RootMotionRadius": 2
+  },
+  "800203": {
+    "NodeId": 800203,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/JH_Xianfeng/Animation/Montage/Combat/Skill/",
+    "AnimResource": "JH_Xianfeng_Skill01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "800204": {
+    "NodeId": 800204,
+    "SkillNodeEffects": [
+      600001,
+      600002
+    ],
+    "AnimPath": "/Game/Asset/Char/Monster/JH_Xianfeng/Animation/Montage/Combat/Skill/",
+    "AnimResource": "JH_Xianfeng_Alarm01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "800301": {
+    "NodeId": 800301,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/JH_Shenfu/Animation/Montage/Combat/Skill/",
+    "AnimResource": "JH_Shenfu_Attack01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "800302": {
+    "NodeId": 800302,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/JH_Shenfu/Animation/Montage/Combat/Skill/",
+    "AnimResource": "JH_Shenfu_Skill01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "800303": {
+    "NodeId": 800303,
+    "SkillNodeEffects": [
+      600001,
+      600002
+    ],
+    "AnimPath": "/Game/Asset/Char/Monster/JH_Shenfu/Animation/Montage/Combat/Skill/",
+    "AnimResource": "JH_Shenfu_Alarm01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "850001": {
+    "NodeId": 850001,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss00_Xibi/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Xibi_Skill01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850002": {
+    "NodeId": 850002,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss00_Xibi/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Xibi_Skill02_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850003": {
+    "NodeId": 850003,
+    "AnimPath": "/Game/Asset/Char/Monster/Boss00_Xibi/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Xibi_Skill03_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850004": {
+    "NodeId": 850004,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss00_Xibi/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Xibi_Skill04_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850005": {
+    "NodeId": 850005,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss00_Xibi/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Xibi_Skill05_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850006": {
+    "NodeId": 850006,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss00_Xibi/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Xibi_Skill06_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "CanExtractZVelocity": true
+  },
+  "850007": {
+    "NodeId": 850007,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss00_Xibi/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Xibi_Skill07_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850008": {
+    "NodeId": 850008,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss00_Xibi/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Xibi_Skill08_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "CanExtractZVelocity": true
+  },
+  "850009": {
+    "NodeId": 850009,
+    "AnimPath": "/Game/Asset/Char/Monster/Boss00_Xibi/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Xibi_Skill09_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850011": {
+    "NodeId": 850011,
+    "SkillNodeEffects": [
+      8500111,
+      8500112,
+      8500113,
+      8500114,
+      8500115,
+      8500119
+    ],
+    "AnimPath": "/Game/Asset/Char/Monster/Boss00_Xibi/Animation/Montage/Combat/Skill/Hard/",
+    "AnimResource": "Boss_Xibi_Skill01_H_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850012": {
+    "NodeId": 850012,
+    "SkillNodeEffects": [
+      8500121,
+      8500122,
+      8500123,
+      8500124,
+      8500125,
+      8500126
+    ],
+    "AnimPath": "/Game/Asset/Char/Monster/Boss00_Xibi/Animation/Montage/Combat/Skill/Hard/",
+    "AnimResource": "Boss_Xibi_Skill02_H_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850013": {
+    "NodeId": 850013,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss00_Xibi/Animation/Montage/Combat/Skill/Hard/",
+    "AnimResource": "Boss_Xibi_Skill03_H_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850014": {
+    "NodeId": 850014,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss00_Xibi/Animation/Montage/Combat/Skill/Hard/",
+    "AnimResource": "Boss_Xibi_Skill04_H_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850015": {
+    "NodeId": 850015,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss00_Xibi/Animation/Montage/Combat/Skill/Hard/",
+    "AnimResource": "Boss_Xibi_Skill05_H_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850016": {
+    "NodeId": 850016,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss00_Xibi/Animation/Montage/Combat/Skill/Hard/",
+    "AnimResource": "Boss_Xibi_Skill06_H_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "CanExtractZVelocity": true
+  },
+  "850017": {
+    "NodeId": 850017,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss00_Xibi/Animation/Montage/Combat/Skill/Hard/",
+    "AnimResource": "Boss_Xibi_Skill07_H_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850018": {
+    "NodeId": 850018,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss00_Xibi/Animation/Montage/Combat/Skill/Hard/",
+    "AnimResource": "Boss_Xibi_Skill08_H_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "CanExtractZVelocity": true
+  },
+  "850019": {
+    "NodeId": 850019,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss00_Xibi/Animation/Montage/Combat/Skill/Hard/",
+    "AnimResource": "Boss_Xibi_Skill09_H_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "CanExtractZVelocity": true
+  },
+  "850020": {
+    "NodeId": 850020,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss00_Xibi/Animation/Montage/Combat/Skill/Hard/",
+    "AnimResource": "Boss_Xibi_Skill10_H_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "CanExtractZVelocity": true
+  },
+  "850021": {
+    "NodeId": 850021,
+    "SkillNodeEffects": [
+      8500111,
+      8500112,
+      8500113,
+      8500114,
+      8500115,
+      8500119
+    ],
+    "AnimPath": "/Game/Asset/Char/Monster/Boss00_Xibi/Animation/Montage/Combat/Skill/Hard/",
+    "AnimResource": "Boss_Xibi_Skill11_H_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850022": {
+    "NodeId": 850022,
+    "SkillNodeEffects": [
+      8500121,
+      8500122,
+      8500123,
+      8500124,
+      8500125,
+      8500126
+    ],
+    "AnimPath": "/Game/Asset/Char/Monster/Boss00_Xibi/Animation/Montage/Combat/Skill/Hard/",
+    "AnimResource": "Boss_Xibi_Skill12_H_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850023": {
+    "NodeId": 850023,
+    "SkillNodeEffects": [
+      8500111,
+      8500112,
+      8500113,
+      8500114,
+      8500115,
+      8500119
+    ],
+    "AnimPath": "/Game/Asset/Char/Monster/Boss00_Xibi/Animation/Montage/Combat/Skill/Hard/",
+    "AnimResource": "Boss_Xibi_Skill13_H_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850024": {
+    "NodeId": 850024,
+    "SkillNodeEffects": [
+      8500121,
+      8500122,
+      8500123,
+      8500124,
+      8500125,
+      8500126
+    ],
+    "AnimPath": "/Game/Asset/Char/Monster/Boss00_Xibi/Animation/Montage/Combat/Skill/Hard/",
+    "AnimResource": "Boss_Xibi_Skill14_H_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850025": {
+    "NodeId": 850025,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss00_Xibi/Animation/Montage/Combat/Skill/Hard/",
+    "AnimResource": "Boss_Xibi_Skill15_H_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "CanExtractZVelocity": true
+  },
+  "850101": {
+    "NodeId": 850101,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss06_Lizhan/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Lizhan_Skill01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "RootMotionRadius": 1.75
+  },
+  "850102": {
+    "NodeId": 850102,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss06_Lizhan/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Lizhan_Skill02_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "RootMotionRadius": 1.25
+  },
+  "850103": {
+    "NodeId": 850103,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss06_Lizhan/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Lizhan_Skill03_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850104": {
+    "NodeId": 850104,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss06_Lizhan/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Lizhan_Skill04_1_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850105": {
+    "NodeId": 850105,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss06_Lizhan/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Lizhan_Skill05_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "CanExtractZVelocity": true
+  },
+  "850107": {
+    "NodeId": 850107,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss06_Lizhan/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Lizhan_Skill07_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "RootMotionRadius": 1.75
+  },
+  "850110": {
+    "NodeId": 850110,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss06_Lizhan/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Lizhan_Skill10_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "RootMotionRadius": 1.75
+  },
+  "850111": {
+    "NodeId": 850111,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss06_Lizhan/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Lizhan_Skill11_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "CanExtractZVelocity": true
+  },
+  "850112": {
+    "NodeId": 850112,
+    "AnimPath": "/Game/Asset/Char/Monster/Boss06_Lizhan/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Lizhan_Skill11_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "CanExtractZVelocity": true
+  },
+  "850114": {
+    "NodeId": 850114,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss06_Lizhan/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Lizhan_Skill04_2_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850201": {
+    "NodeId": 850201,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi_Skill01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850202": {
+    "NodeId": 850202,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi_Skill02_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850203": {
+    "NodeId": 850203,
+    "SkillNodeEffects": [
+      850206
+    ],
+    "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi_Skill03_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850204": {
+    "NodeId": 850204,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi_Skill04_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "CanExtractZVelocity": true
+  },
+  "850205": {
+    "NodeId": 850205,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi_Skill05_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "CanExtractZVelocity": true
+  },
+  "850206": {
+    "NodeId": 850206,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi_Skill06_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "CanExtractZVelocity": true
+  },
+  "850207": {
+    "NodeId": 850207,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi_Skill07_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850208": {
+    "NodeId": 850208,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi_Skill08_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850209": {
+    "NodeId": 850209,
+    "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi_Skill09_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850210": {
+    "NodeId": 850210,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi_Skill10_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850211": {
+    "NodeId": 850211,
+    "SkillNodeEffects": [
+      850237
+    ],
+    "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi_Skill11_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "CanExtractZVelocity": true
+  },
+  "850212": {
+    "NodeId": 850212,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi_Skill12_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850213": {
+    "NodeId": 850213,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi_Skill13_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "CanExtractZVelocity": true
+  },
+  "850214": {
+    "NodeId": 850214,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi_Skill14_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "CanExtractZVelocity": true
+  },
+  "850215": {
+    "NodeId": 850215,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi_Skill15_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "CanExtractZVelocity": true
+  },
+  "850216": {
+    "NodeId": 850216,
+    "SkillNodeEffects": [
+      850206
+    ],
+    "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi_Skill16_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850217": {
+    "NodeId": 850217,
+    "SkillNodeEffects": [
+      850237
+    ],
+    "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi_Skill17_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "CanExtractZVelocity": true
+  },
+  "850220": {
+    "NodeId": 850220,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi_Skill01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850221": {
+    "NodeId": 850221,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi_Skill02_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850222": {
+    "NodeId": 850222,
+    "SkillNodeEffects": [
+      8502106
+    ],
+    "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi_Skill03_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850223": {
+    "NodeId": 850223,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi_Skill04_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "CanExtractZVelocity": true
+  },
+  "850224": {
+    "NodeId": 850224,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi_Skill05_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "CanExtractZVelocity": true
+  },
+  "850225": {
+    "NodeId": 850225,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi_Skill06_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "CanExtractZVelocity": true
+  },
+  "850226": {
+    "NodeId": 850226,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi_Skill07_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850227": {
+    "NodeId": 850227,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi_Skill08_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850228": {
+    "NodeId": 850228,
+    "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi_Skill09_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850229": {
+    "NodeId": 850229,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi_Skill10_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850230": {
+    "NodeId": 850230,
+    "SkillNodeEffects": [
+      8502137
+    ],
+    "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi_Skill11_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "CanExtractZVelocity": true
+  },
+  "850231": {
+    "NodeId": 850231,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi_Skill12_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850232": {
+    "NodeId": 850232,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi_Skill13_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "CanExtractZVelocity": true
+  },
+  "850233": {
+    "NodeId": 850233,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi_Skill14_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "CanExtractZVelocity": true
+  },
+  "850234": {
+    "NodeId": 850234,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi_Skill15_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "CanExtractZVelocity": true
+  },
+  "850235": {
+    "NodeId": 850235,
+    "SkillNodeEffects": [
+      8502106
+    ],
+    "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi_Skill16_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850236": {
+    "NodeId": 850236,
+    "SkillNodeEffects": [
+      8502137
+    ],
+    "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi_Skill17_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "CanExtractZVelocity": true
+  },
+  "850237": {
+    "NodeId": 850237,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi_Skill18_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850238": {
+    "NodeId": 850238,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi_Skill19_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850239": {
+    "NodeId": 850239,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi_Skill20_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850240": {
+    "NodeId": 850240,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi_Skill21_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850241": {
+    "NodeId": 850241,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi_Skill08_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850242": {
+    "NodeId": 850242,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi_Skill08_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850243": {
+    "NodeId": 850243,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi_Skill08_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850244": {
+    "NodeId": 850244,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi_Skill22_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850245": {
+    "NodeId": 850245,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi_Skill22_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850246": {
+    "NodeId": 850246,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi_Skill07_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850301": {
+    "NodeId": 850301,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss03_Shijingzhe/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Shijingzhe_Skill01_01_R_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850302": {
+    "NodeId": 850302,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss03_Shijingzhe/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Shijingzhe_Skill01_01_L_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850303": {
+    "NodeId": 850303,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss03_Shijingzhe/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Shijingzhe_Skill02_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850304": {
+    "NodeId": 850304,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss03_Shijingzhe/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Shijingzhe_Skill03_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "CanExtractZVelocity": true
+  },
+  "850305": {
+    "NodeId": 850305,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss03_Shijingzhe/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Shijingzhe_Skill04_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850306": {
+    "NodeId": 850306,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss03_Shijingzhe/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Shijingzhe_Skill05_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "CanExtractZVelocity": true
+  },
+  "850307": {
+    "NodeId": 850307,
+    "AnimPath": "/Game/Asset/Char/Monster/Boss03_Shijingzhe/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Shijingzhe_Skill06_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "CanExtractZVelocity": true
+  },
+  "850308": {
+    "NodeId": 850308,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss03_Shijingzhe/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Shijingzhe_Skill07_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "CanExtractZVelocity": true
+  },
+  "850309": {
+    "NodeId": 850309,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss03_Shijingzhe/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Shijingzhe_Skill08_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "CanExtractZVelocity": true
+  },
+  "850310": {
+    "NodeId": 850310,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss03_Shijingzhe/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Shijingzhe_Skill09_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850311": {
+    "NodeId": 850311,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss03_Shijingzhe/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Shijingzhe_Skill10_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850313": {
+    "NodeId": 850313,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss03_Shijingzhe/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Shijingzhe_Skill11_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850314": {
+    "NodeId": 850314,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss03_Shijingzhe/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Shijingzhe_Skill12_L_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850315": {
+    "NodeId": 850315,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss03_Shijingzhe/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Shijingzhe_Skill12_R_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850316": {
+    "NodeId": 850316,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss03_Shijingzhe/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Shijingzhe_Skill01_01_R_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850317": {
+    "NodeId": 850317,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss03_Shijingzhe/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Shijingzhe_Skill01_01_L_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850318": {
+    "NodeId": 850318,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss03_Shijingzhe/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Shijingzhe_Skill02_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850319": {
+    "NodeId": 850319,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss03_Shijingzhe/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Shijingzhe_Skill03_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "CanExtractZVelocity": true
+  },
+  "850320": {
+    "NodeId": 850320,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss03_Shijingzhe/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Shijingzhe_Skill04_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850321": {
+    "NodeId": 850321,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss03_Shijingzhe/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Shijingzhe_Skill05_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "CanExtractZVelocity": true
+  },
+  "850322": {
+    "NodeId": 850322,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss03_Shijingzhe/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Shijingzhe_Skill07_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "CanExtractZVelocity": true
+  },
+  "850323": {
+    "NodeId": 850323,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss03_Shijingzhe/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Shijingzhe_Skill08_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "CanExtractZVelocity": true
+  },
+  "850324": {
+    "NodeId": 850324,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss03_Shijingzhe/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Shijingzhe_Skill09_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850325": {
+    "NodeId": 850325,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss03_Shijingzhe/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Shijingzhe_Skill10_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850327": {
+    "NodeId": 850327,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss03_Shijingzhe/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Shijingzhe_Skill11_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850328": {
+    "NodeId": 850328,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss03_Shijingzhe/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Shijingzhe_Skill12_L_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850329": {
+    "NodeId": 850329,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss03_Shijingzhe/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Shijingzhe_Skill12_R_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850330": {
+    "NodeId": 850330,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss03_Shijingzhe/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Shijingzhe_Skill13_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850331": {
+    "NodeId": 850331,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss03_Shijingzhe/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Shijingzhe_Skill14_1_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850332": {
+    "NodeId": 850332,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss03_Shijingzhe/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Shijingzhe_Skill14_2_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850333": {
+    "NodeId": 850333,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss03_Shijingzhe/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Shijingzhe_Skill14_3_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850334": {
+    "NodeId": 850334,
+    "AnimPath": "/Game/Asset/Char/Monster/Boss03_Shijingzhe/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Shijingzhe_Skill14_4_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850335": {
+    "NodeId": 850335,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss03_Shijingzhe/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Shijingzhe_Skill15_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "CanExtractZVelocity": true
+  },
+  "850401": {
+    "NodeId": 850401,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss04_Saiqi02/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi02_Skill01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850402": {
+    "NodeId": 850402,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss04_Saiqi02/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi02_Skill02_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850403": {
+    "NodeId": 850403,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss04_Saiqi02/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi02_Skill03_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850404": {
+    "NodeId": 850404,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss04_Saiqi02/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi02_Skill01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850405": {
+    "NodeId": 850405,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss04_Saiqi02/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi02_Skill05_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850406": {
+    "NodeId": 850406,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss04_Saiqi02/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi02_Skill06_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850407": {
+    "NodeId": 850407,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss04_Saiqi02/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi02_Skill07_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850408": {
+    "NodeId": 850408,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss04_Saiqi02/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi02_Skill08_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850409": {
+    "NodeId": 850409,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss04_Saiqi02/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi02_Skill09_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850410": {
+    "NodeId": 850410,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss04_Saiqi02/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi02_Skill10_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850411": {
+    "NodeId": 850411,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss04_Saiqi02/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi02_Skill11_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850412": {
+    "NodeId": 850412,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss04_Saiqi02/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi02_Skill12_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850413": {
+    "NodeId": 850413,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss04_Saiqi02/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi02_Skill13_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850414": {
+    "NodeId": 850414,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss04_Saiqi02/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi02_Skill14_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850415": {
+    "NodeId": 850415,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss04_Saiqi02/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi02_Skill15_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850416": {
+    "NodeId": 850416,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss04_Saiqi02/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi02_Skill16_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850417": {
+    "NodeId": 850417,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss04_Saiqi02/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi02_Skill17_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850418": {
+    "NodeId": 850418,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss04_Saiqi02/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi02_Skill18_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850419": {
+    "NodeId": 850419,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss04_Saiqi02/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi02_Skill19_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850420": {
+    "NodeId": 850420,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss04_Saiqi02/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi02_Skill01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850421": {
+    "NodeId": 850421,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss04_Saiqi02/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi02_Skill21_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850422": {
+    "NodeId": 850422,
+    "AnimPath": "/Game/Asset/Char/Monster/Boss04_Saiqi02/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi02_Skill01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850423": {
+    "NodeId": 850423,
+    "AnimPath": "/Game/Asset/Char/Monster/Boss04_Saiqi02/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi02_Skill23_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850424": {
+    "NodeId": 850424,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss04_Saiqi02/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi02_Skill24_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850425": {
+    "NodeId": 850425,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss04_Saiqi02/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi02_Skill25_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850426": {
+    "NodeId": 850426,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss04_Saiqi02/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi02_Skill26_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850427": {
+    "NodeId": 850427,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss04_Saiqi02/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi02_Skill27_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850428": {
+    "NodeId": 850428,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss04_Saiqi02/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi02_Skill28_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850429": {
+    "NodeId": 850429,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss04_Saiqi02/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi02_Skill05_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850430": {
+    "NodeId": 850430,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss04_Saiqi02/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Saiqi02_Skill14_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850501": {
+    "NodeId": 850501,
+    "SkillNodeEffects": [
+      850501,
+      850502,
+      850503
+    ],
+    "AnimPath": "/Game/Asset/Char/Monster/Boss05_Lianhuo/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Lianhuo_Skill01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "CanExtractZVelocity": true
+  },
+  "850502": {
+    "NodeId": 850502,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss05_Lianhuo/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Lianhuo_Skill02_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "CanExtractZVelocity": true
+  },
+  "850503": {
+    "NodeId": 850503,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss05_Lianhuo/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Lianhuo_Skill03_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "CanExtractZVelocity": true
+  },
+  "850504": {
+    "NodeId": 850504,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss05_Lianhuo/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Lianhuo_Skill04_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "CanExtractZVelocity": true
+  },
+  "850505": {
+    "NodeId": 850505,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss05_Lianhuo/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Lianhuo_Skill05_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "CanExtractZVelocity": true
+  },
+  "850506": {
+    "NodeId": 850506,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss05_Lianhuo/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Lianhuo_Skill06_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "CanExtractZVelocity": true
+  },
+  "850507": {
+    "NodeId": 850507,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss05_Lianhuo/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Lianhuo_Skill07_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "CanExtractZVelocity": true
+  },
+  "850508": {
+    "NodeId": 850508,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss05_Lianhuo/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Lianhuo_Skill08_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "CanExtractZVelocity": true
+  },
+  "850509": {
+    "NodeId": 850509,
+    "AnimPath": "/Game/Asset/Char/Monster/Boss05_Lianhuo/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Lianhuo_Skill09_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "CanExtractZVelocity": true
+  },
+  "850510": {
+    "NodeId": 850510,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss05_Lianhuo/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Lianhuo_Skill10_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "CanExtractZVelocity": true
+  },
+  "850511": {
+    "NodeId": 850511,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss05_Lianhuo/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Lianhuo_Skill11_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "CanExtractZVelocity": true
+  },
+  "850512": {
+    "NodeId": 850512,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss05_Lianhuo/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Lianhuo_Skill12_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "CanExtractZVelocity": true
+  },
+  "850521": {
+    "NodeId": 850521,
+    "SkillNodeEffects": [
+      850501,
+      850502,
+      850503
+    ],
+    "AnimPath": "/Game/Asset/Char/Monster/Boss05_Lianhuo/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Lianhuo_Skill01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "CanExtractZVelocity": true
+  },
+  "850522": {
+    "NodeId": 850522,
+    "AnimPath": "/Game/Asset/Char/Monster/Boss05_Lianhuo/Animation/Montage/Combat/Skill/Hard/",
+    "AnimResource": "Boss_Lianhuo_Skill02_H_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "CanExtractZVelocity": true
+  },
+  "850523": {
+    "NodeId": 850523,
+    "AnimPath": "/Game/Asset/Char/Monster/Boss05_Lianhuo/Animation/Montage/Combat/Skill/Hard/",
+    "AnimResource": "Boss_Lianhuo_Skill03_H_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "CanExtractZVelocity": true
+  },
+  "850524": {
+    "NodeId": 850524,
+    "AnimPath": "/Game/Asset/Char/Monster/Boss05_Lianhuo/Animation/Montage/Combat/Skill/Hard/",
+    "AnimResource": "Boss_Lianhuo_Skill04_H_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "CanExtractZVelocity": true
+  },
+  "850525": {
+    "NodeId": 850525,
+    "AnimPath": "/Game/Asset/Char/Monster/Boss05_Lianhuo/Animation/Montage/Combat/Skill/Hard/",
+    "AnimResource": "Boss_Lianhuo_Skill05_H_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "CanExtractZVelocity": true
+  },
+  "850526": {
+    "NodeId": 850526,
+    "AnimPath": "/Game/Asset/Char/Monster/Boss05_Lianhuo/Animation/Montage/Combat/Skill/Hard/",
+    "AnimResource": "Boss_Lianhuo_Skill06_H_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "CanExtractZVelocity": true
+  },
+  "850527": {
+    "NodeId": 850527,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss05_Lianhuo/Animation/Montage/Combat/Skill/Hard/",
+    "AnimResource": "Boss_Lianhuo_Skill07_H_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "CanExtractZVelocity": true
+  },
+  "850528": {
+    "NodeId": 850528,
+    "AnimPath": "/Game/Asset/Char/Monster/Boss05_Lianhuo/Animation/Montage/Combat/Skill/Hard/",
+    "AnimResource": "Boss_Lianhuo_Skill08_H_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "CanExtractZVelocity": true
+  },
+  "850529": {
+    "NodeId": 850529,
+    "AnimPath": "/Game/Asset/Char/Monster/Boss05_Lianhuo/Animation/Montage/Combat/Skill/Hard/",
+    "AnimResource": "Boss_Lianhuo_Skill09_H_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "CanExtractZVelocity": true
+  },
+  "850530": {
+    "NodeId": 850530,
+    "AnimPath": "/Game/Asset/Char/Monster/Boss05_Lianhuo/Animation/Montage/Combat/Skill/Hard/",
+    "AnimResource": "Boss_Lianhuo_Skill10_H_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "CanExtractZVelocity": true
+  },
+  "850601": {
+    "NodeId": 850601,
+    "SkillNodeEffects": [
+      850601,
+      850602,
+      850603
+    ],
+    "AnimPath": "/Game/Asset/Char/Monster/Boss07_Nvzhu/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Nvzhu_Skill01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850602": {
+    "NodeId": 850602,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss07_Nvzhu/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Nvzhu_Skill02_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850603": {
+    "NodeId": 850603,
+    "SkillNodeEffects": [
+      850605
+    ],
+    "AnimPath": "/Game/Asset/Char/Monster/Boss07_Nvzhu/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Nvzhu_Skill03_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "CanExtractZVelocity": true
+  },
+  "850604": {
+    "NodeId": 850604,
+    "SkillNodeEffects": [
+      850606
+    ],
+    "AnimPath": "/Game/Asset/Char/Monster/Boss07_Nvzhu/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Nvzhu_Skill04_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850605": {
+    "NodeId": 850605,
+    "SkillNodeEffects": [
+      850607
+    ],
+    "AnimPath": "/Game/Asset/Char/Monster/Boss07_Nvzhu/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Nvzhu_Skill05_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850606": {
+    "NodeId": 850606,
+    "SkillNodeEffects": [
+      850607
+    ],
+    "AnimPath": "/Game/Asset/Char/Monster/Boss07_Nvzhu/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Nvzhu_Skill06_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850607": {
+    "NodeId": 850607,
+    "AnimPath": "/Game/Asset/Char/Monster/Boss07_Nvzhu/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Nvzhu_Skill07_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850701": {
+    "NodeId": 850701,
+    "SkillNodeEffects": [
+      850601,
+      850602,
+      850603
+    ],
+    "AnimPath": "/Game/Asset/Char/Monster/Boss08_Nanzhu/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Nanzhu_Skill01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850702": {
+    "NodeId": 850702,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/Boss08_Nanzhu/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Nanzhu_Skill02_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850703": {
+    "NodeId": 850703,
+    "SkillNodeEffects": [
+      850605
+    ],
+    "AnimPath": "/Game/Asset/Char/Monster/Boss08_Nanzhu/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Nanzhu_Skill03_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "CanExtractZVelocity": true
+  },
+  "850704": {
+    "NodeId": 850704,
+    "SkillNodeEffects": [
+      850606
+    ],
+    "AnimPath": "/Game/Asset/Char/Monster/Boss08_Nanzhu/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Nanzhu_Skill04_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850705": {
+    "NodeId": 850705,
+    "SkillNodeEffects": [
+      850607
+    ],
+    "AnimPath": "/Game/Asset/Char/Monster/Boss08_Nanzhu/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Nanzhu_Skill05_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850706": {
+    "NodeId": 850706,
+    "SkillNodeEffects": [
+      850607
+    ],
+    "AnimPath": "/Game/Asset/Char/Monster/Boss08_Nanzhu/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Nanzhu_Skill06_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "850707": {
+    "NodeId": 850707,
+    "AnimPath": "/Game/Asset/Char/Monster/Boss08_Nanzhu/Animation/Montage/Combat/Skill/",
+    "AnimResource": "Boss_Nanzhu_Skill07_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "900301": {
+    "NodeId": 900301,
+    "SkillNodeEffects": [
+      900301
+    ],
+    "AnimPath": "/Game/Asset/Char/Monster/SQ_Wanju/Animation/Montage/Combat/Skill/",
+    "AnimResource": "SQ_Wanju_Attack01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "900302": {
+    "NodeId": 900302,
+    "SkillNodeEffects": [
+      900301
+    ],
+    "AnimPath": "/Game/Asset/Char/Monster/SQ_Wanju/Animation/Montage/Combat/Skill/",
+    "AnimResource": "SQ_Wanju_Attack02_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "900303": {
+    "NodeId": 900303,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/SQ_Wanju/Animation/Montage/Combat/Skill/",
+    "AnimResource": "SQ_Wanju_Skill01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "900304": {
+    "NodeId": 900304,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/SQ_Wanju/Animation/Montage/Combat/Skill/",
+    "AnimResource": "SQ_Wanju_Skill02_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "900305": {
+    "NodeId": 900305,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/SQ_Wanju/Animation/Montage/Combat/Skill/",
+    "AnimResource": "SQ_Wanju_Skill03_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "900401": {
+    "NodeId": 900401,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/SQ_Wanju/Animation/Montage/Combat/Skill/",
+    "AnimResource": "SQ_Wanju_Sum01_Attack01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "900402": {
+    "NodeId": 900402,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/SQ_Wanju/Animation/Montage/Combat/Skill/",
+    "AnimResource": "SQ_Wanju_Sum01_Skill01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "900501": {
+    "NodeId": 900501,
+    "SkillNodeEffects": [
+      900501
+    ],
+    "AnimPath": "/Game/Asset/Char/Monster/SQ_Baozha/Animation/Montage/Combat/Skill/",
+    "AnimResource": "SQ_Baozha_Attack01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "900502": {
+    "NodeId": 900502,
+    "SkillNodeEffects": [
+      900501
+    ],
+    "AnimPath": "/Game/Asset/Char/Monster/SQ_Baozha/Animation/Montage/Combat/Skill/",
+    "AnimResource": "SQ_Baozha_Attack02_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "900503": {
+    "NodeId": 900503,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/SQ_Baozha/Animation/Montage/Combat/Skill/",
+    "AnimResource": "SQ_Baozha_Skill01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "900504": {
+    "NodeId": 900504,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/SQ_Baozha/Animation/Montage/Combat/Skill/",
+    "AnimResource": "SQ_Baozha_Skill02_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "900505": {
+    "NodeId": 900505,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/SQ_Baozha/Animation/Montage/Combat/Skill/",
+    "AnimResource": "SQ_Baozha_Skill03_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "900601": {
+    "NodeId": 900601,
+    "SkillNodeEffects": [
+      900601
+    ],
+    "AnimPath": "/Game/Asset/Char/Monster/SQ_Qizha/Animation/Montage/Combat/Skill/",
+    "AnimResource": "SQ_Qizha_Attack01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "900602": {
+    "NodeId": 900602,
+    "SkillNodeEffects": [
+      900601
+    ],
+    "AnimPath": "/Game/Asset/Char/Monster/SQ_Qizha/Animation/Montage/Combat/Skill/",
+    "AnimResource": "SQ_Qizha_Attack02_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "900603": {
+    "NodeId": 900603,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/SQ_Qizha/Animation/Montage/Combat/Skill/",
+    "AnimResource": "SQ_Qizha_Skill01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "900604": {
+    "NodeId": 900604,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/SQ_Qizha/Animation/Montage/Combat/Skill/",
+    "AnimResource": "SQ_Qizha_Skill02_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "900605": {
+    "NodeId": 900605,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/SQ_Qizha/Animation/Montage/Combat/Skill/",
+    "AnimResource": "SQ_Qizha_Skill03_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "900606": {
+    "NodeId": 900606,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/SQ_Qizha/Animation/Montage/Combat/Skill/",
+    "AnimResource": "SQ_Qizha_Skill04_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "900607": {
+    "NodeId": 900607,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/SQ_Qizha/Animation/Montage/Combat/Skill/",
+    "AnimResource": "SQ_Qizha_Skill05_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "900608": {
+    "NodeId": 900608,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/SQ_Qizha/Animation/Montage/Combat/Skill/",
+    "AnimResource": "SQ_Qizha_Skill06_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "950001": {
+    "NodeId": 950001,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/NE_Dajie/Animation/Montage/Combat/Skill/",
+    "AnimResource": "NE_Dajie_Skill01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "950002": {
+    "NodeId": 950002,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/NE_Dajie/Animation/Montage/Combat/Skill/",
+    "AnimResource": "NE_Dajie_Skill02_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "950003": {
+    "NodeId": 950003,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/NE_Dajie/Animation/Montage/Combat/Skill/",
+    "AnimResource": "NE_Dajie_Skill03_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "950004": {
+    "NodeId": 950004,
+    "AnimPath": "/Game/Asset/Char/Monster/NE_Dajie/Animation/Montage/Combat/Skill/",
+    "AnimResource": "NE_Dajie_Skill04_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "950101": {
+    "NodeId": 950101,
+    "SkillNodeEffects": [
+      950101
+    ],
+    "AnimPath": "/Game/Asset/Char/Monster/NE_Villiger/Animation/Montage/Combat/Skill/",
+    "AnimResource": "NE_Villiger_Attack01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "RootMotionRadius": 3
+  },
+  "950102": {
+    "NodeId": 950102,
+    "SkillNodeEffects": [
+      950101
+    ],
+    "AnimPath": "/Game/Asset/Char/Monster/NE_Villiger/Animation/Montage/Combat/Skill/",
+    "AnimResource": "NE_Villiger_Attack02_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false,
+    "RootMotionRadius": 3
+  },
+  "950103": {
+    "NodeId": 950103,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/NE_Villiger/Animation/Montage/Combat/Skill/",
+    "AnimResource": "NE_Villiger_Skill01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "950104": {
+    "NodeId": 950104,
+    "SkillNodeEffects": [
+      950105
+    ],
+    "AnimPath": "/Game/Asset/Char/Monster/NE_Villiger/Animation/Montage/Combat/Skill/",
+    "AnimResource": "NE_Villiger_Skill02_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "950105": {
+    "NodeId": 950105,
+    "SkillNodeEffects": [
+      950105
+    ],
+    "AnimPath": "/Game/Asset/Char/Monster/NE_Villiger/Animation/Montage/Combat/Skill/",
+    "AnimResource": "NE_Villiger_Skill03_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "950106": {
+    "NodeId": 950106,
+    "SkillNodeEffects": {},
+    "AnimPath": "/Game/Asset/Char/Monster/NE_Villiger/Animation/Montage/Combat/Skill/",
+    "AnimResource": "NE_Villiger_Skill04_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": false
+  },
+  "1010111": {
+    "NodeId": 1010111,
+    "NextNodeId": 1010112,
+    "PhantomAutoInput": 1,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Sword/",
+    "AnimName": "Sword_RunAttack_01_Montage",
+    "AnimPlayRate": 1
+  },
+  "1010112": {
+    "NodeId": 1010112,
+    "NextNodeId": 1010113,
+    "PhantomAutoInput": 1,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Sword/",
+    "AnimName": "Sword_RunAttack_02_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "1010113": {
+    "NodeId": 1010113,
+    "NextNodeId": 1010114,
+    "PhantomAutoInput": 1,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Sword/",
+    "AnimName": "Sword_RunAttack_03_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "1010114": {
+    "NodeId": 1010114,
+    "NextNodeId": 1010111,
+    "PhantomAutoInput": 2,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Sword/",
+    "AnimName": "Sword_RunAttack_04_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "1010121": {
+    "NodeId": 1010121,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Sword/",
+    "AnimName": "Sword_HeavyAttack_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "1010131": {
+    "NodeId": 1010131,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Sword/",
+    "AnimName": "Sword_FallAttack_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "1010141": {
+    "NodeId": 1010141,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Sword/",
+    "AnimName": "Sword_SlideAttack_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "1010211": {
+    "NodeId": 1010211,
+    "NextNodeId": 1010212,
+    "PhantomAutoInput": 1,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Sword/",
+    "AnimName": "Sword_Mod01_RunAttack_01_Montage",
+    "AnimPlayRate": 1
+  },
+  "1010212": {
+    "NodeId": 1010212,
+    "NextNodeId": 1010213,
+    "PhantomAutoInput": 1,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Sword/",
+    "AnimName": "Sword_Mod01_RunAttack_02_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "1010213": {
+    "NodeId": 1010213,
+    "NextNodeId": 1010214,
+    "PhantomAutoInput": 1,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Sword/",
+    "AnimName": "Sword_Mod01_RunAttack_03_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "1010214": {
+    "NodeId": 1010214,
+    "NextNodeId": 1010215,
+    "PhantomAutoInput": 1,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Sword/",
+    "AnimName": "Sword_Mod01_RunAttack_04_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "1010215": {
+    "NodeId": 1010215,
+    "NextNodeId": 1010211,
+    "PhantomAutoInput": 2,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Sword/",
+    "AnimName": "Sword_Mod01_RunAttack_05_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "1020111": {
+    "NodeId": 1020111,
+    "NextNodeId": 1020112,
+    "PhantomAutoInput": 1,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Polearm/",
+    "AnimName": "Polearm_RunAttack_01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "1020112": {
+    "NodeId": 1020112,
+    "NextNodeId": 1020113,
+    "PhantomAutoInput": 1,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Polearm/",
+    "AnimName": "Polearm_RunAttack_02_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "1020113": {
+    "NodeId": 1020113,
+    "NextNodeId": 1020114,
+    "PhantomAutoInput": 1,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Polearm/",
+    "AnimName": "Polearm_RunAttack_03_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "1020114": {
+    "NodeId": 1020114,
+    "NextNodeId": 1020115,
+    "PhantomAutoInput": 1,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Polearm/",
+    "AnimName": "Polearm_RunAttack_04_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "1020115": {
+    "NodeId": 1020115,
+    "NextNodeId": 1020111,
+    "PhantomAutoInput": 2,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Polearm/",
+    "AnimName": "Polearm_RunAttack_05_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "1020121": {
+    "NodeId": 1020121,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Polearm/",
+    "AnimName": "Polearm_HeavyAttack_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "1020131": {
+    "NodeId": 1020131,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Polearm/",
+    "AnimName": "Polearm_FallAttack_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "1020141": {
+    "NodeId": 1020141,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Polearm/",
+    "AnimName": "Polearm_SlideAttack_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "1020161": {
+    "NodeId": 1020161,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Polearm/",
+    "AnimName": "Polearm_HeavyAttack_Callback_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "1020221": {
+    "NodeId": 1020221,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Polearm/",
+    "AnimName": "Polearm_Mod01_HeavyAttack_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "1020231": {
+    "NodeId": 1020231,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Polearm/",
+    "AnimName": "Polearm_Mod01_FallAttack_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "1030111": {
+    "NodeId": 1030111,
+    "NextNodeId": 1030112,
+    "PhantomAutoInput": 1,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Claymore/",
+    "AnimName": "Claymore_RunAttack_01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "1030112": {
+    "NodeId": 1030112,
+    "NextNodeId": 1030113,
+    "PhantomAutoInput": 1,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Claymore/",
+    "AnimName": "Claymore_RunAttack_02_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "1030113": {
+    "NodeId": 1030113,
+    "NextNodeId": 1030114,
+    "PhantomAutoInput": 1,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Claymore/",
+    "AnimName": "Claymore_RunAttack_03_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "1030114": {
+    "NodeId": 1030114,
+    "NextNodeId": 1030111,
+    "PhantomAutoInput": 2,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Claymore/",
+    "AnimName": "Claymore_RunAttack_04_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "1030121": {
+    "NodeId": 1030121,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Claymore/",
+    "AnimName": "Claymore_HeavyAttack_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "1030131": {
+    "NodeId": 1030131,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Claymore/",
+    "AnimName": "Claymore_FallAttack_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "1030141": {
+    "NodeId": 1030141,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Claymore/",
+    "AnimName": "Claymore_SlideAttack_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "1030211": {
+    "NodeId": 1030211,
+    "NextNodeId": 1030212,
+    "PhantomAutoInput": 1,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Claymore/",
+    "AnimName": "Claymore_Mod01_RunAttack_01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "ChangeHandHold": [
+      {
+        "HandHold": [
+          "SocketA = \"weapon_01",
+          "SocketB = \"root_hook_arm_r"
+        ]
+      },
+      {
+        "UnbindHand": [
+          "SocketA = \"root_Claymore_back",
+          "SocketB = \"root_point"
+        ]
+      }
+    ]
+  },
+  "1030212": {
+    "NodeId": 1030212,
+    "NextNodeId": 1030213,
+    "PhantomAutoInput": 1,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Claymore/",
+    "AnimName": "Claymore_Mod01_RunAttack_02_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "ChangeHandHold": [
+      {
+        "HandHold": [
+          "SocketA = \"weapon_01",
+          "SocketB = \"root_hook_arm_r"
+        ]
+      },
+      {
+        "UnbindHand": [
+          "SocketA = \"root_Claymore_back",
+          "SocketB = \"root_point"
+        ]
+      }
+    ]
+  },
+  "1030213": {
+    "NodeId": 1030213,
+    "NextNodeId": 1030211,
+    "PhantomAutoInput": 2,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Claymore/",
+    "AnimName": "Claymore_Mod01_RunAttack_03_Montage",
+    "AnimPlayRate": 1,
+    "CanExtractZVelocity": true,
+    "DisableBlendBone": true,
+    "ChangeHandHold": [
+      {
+        "HandHold": [
+          "SocketA = \"weapon_01",
+          "SocketB = \"root_hook_arm_r"
+        ]
+      },
+      {
+        "UnbindHand": [
+          "SocketA = \"root_Claymore_back",
+          "SocketB = \"root_point"
+        ]
+      }
+    ]
+  },
+  "1050111": {
+    "NodeId": 1050111,
+    "NextNodeId": 1050112,
+    "PhantomAutoInput": 1,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Swordwhip/",
+    "AnimName": "Swordwhip_RunAttack_01_Montage",
+    "AnimPlayRate": 1
+  },
+  "1050112": {
+    "NodeId": 1050112,
+    "NextNodeId": 1050113,
+    "PhantomAutoInput": 1,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Swordwhip/",
+    "AnimName": "Swordwhip_RunAttack_02_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "1050113": {
+    "NodeId": 1050113,
+    "NextNodeId": 1050114,
+    "PhantomAutoInput": 1,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Swordwhip/",
+    "AnimName": "Swordwhip_RunAttack_03_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "1050114": {
+    "NodeId": 1050114,
+    "NextNodeId": 1050111,
+    "PhantomAutoInput": 2,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Swordwhip/",
+    "AnimName": "Swordwhip_RunAttack_04_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "1050121": {
+    "NodeId": 1050121,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Swordwhip/",
+    "AnimName": "Swordwhip_HeavyAttack_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "1050131": {
+    "NodeId": 1050131,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Swordwhip/",
+    "AnimName": "Swordwhip_FallAttack_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "1050141": {
+    "NodeId": 1050141,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Swordwhip/",
+    "AnimName": "Swordwhip_SlideAttack_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "1060111": {
+    "NodeId": 1060111,
+    "NextNodeId": 1060112,
+    "PhantomAutoInput": 1,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Katana/",
+    "AnimName": "Katana_RunAttack_01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "ChangeHandHold": [
+      {
+        "HandHold": [
+          "SocketA = \"Root",
+          "SocketB = \"root_hook_arm_r"
+        ]
+      },
+      {
+        "UnbindHand": [
+          "SocketA = \"root_Katana01_back",
+          "SocketB = \"root_point"
+        ]
+      }
+    ]
+  },
+  "1060112": {
+    "NodeId": 1060112,
+    "NextNodeId": 1060113,
+    "PhantomAutoInput": 1,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Katana/",
+    "AnimName": "Katana_RunAttack_02_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "ChangeHandHold": [
+      {
+        "HandHold": [
+          "SocketA = \"Root",
+          "SocketB = \"root_hook_arm_r"
+        ]
+      },
+      {
+        "UnbindHand": [
+          "SocketA = \"root_Katana01_back",
+          "SocketB = \"root_point"
+        ]
+      }
+    ]
+  },
+  "1060113": {
+    "NodeId": 1060113,
+    "NextNodeId": 1060114,
+    "PhantomAutoInput": 1,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Katana/",
+    "AnimName": "Katana_RunAttack_03_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "ChangeHandHold": [
+      {
+        "HandHold": [
+          "SocketA = \"Root",
+          "SocketB = \"root_hook_arm_r"
+        ]
+      },
+      {
+        "UnbindHand": [
+          "SocketA = \"root_Katana01_back",
+          "SocketB = \"root_point"
+        ]
+      }
+    ]
+  },
+  "1060114": {
+    "NodeId": 1060114,
+    "NextNodeId": 1060111,
+    "PhantomAutoInput": 2,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Katana/",
+    "AnimName": "Katana_RunAttack_04_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "ChangeHandHold": [
+      {
+        "HandHold": [
+          "SocketA = \"Root",
+          "SocketB = \"root_hook_arm_r"
+        ]
+      },
+      {
+        "UnbindHand": [
+          "SocketA = \"root_Katana01_back",
+          "SocketB = \"root_point"
+        ]
+      }
+    ]
+  },
+  "1060121": {
+    "NodeId": 1060121,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Katana/",
+    "AnimName": "Katana_HeavyAttack_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "ChangeHandHold": [
+      {
+        "HandHold": [
+          "SocketA = \"Root",
+          "SocketB = \"root_hook_arm_r"
+        ]
+      },
+      {
+        "UnbindHand": [
+          "SocketA = \"root_Katana01_back",
+          "SocketB = \"root_point"
+        ]
+      }
+    ]
+  },
+  "1060131": {
+    "NodeId": 1060131,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Katana/",
+    "AnimName": "Katana_FallAttack_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "ChangeHandHold": [
+      {
+        "HandHold": [
+          "SocketA = \"Root",
+          "SocketB = \"root_hook_arm_r"
+        ]
+      },
+      {
+        "UnbindHand": [
+          "SocketA = \"root_Katana01_back",
+          "SocketB = \"root_point"
+        ]
+      }
+    ]
+  },
+  "1060141": {
+    "NodeId": 1060141,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Katana/",
+    "AnimName": "Katana_SlideAttack_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "ChangeHandHold": [
+      {
+        "HandHold": [
+          "SocketA = \"Root",
+          "SocketB = \"root_hook_arm_r"
+        ]
+      },
+      {
+        "UnbindHand": [
+          "SocketA = \"root_Katana01_back",
+          "SocketB = \"root_point"
+        ]
+      }
+    ]
+  },
+  "1060221": {
+    "NodeId": 1060221,
+    "NextNodeId": 1060222,
+    "ExtraNextNodeId": 1060222,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Katana/",
+    "AnimName": "Katana_Mod01_HeavyAttack_01_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "ChangeHandHold": [
+      {
+        "HandHold": [
+          "SocketA = \"Root",
+          "SocketB = \"root_hook_arm_r"
+        ]
+      },
+      {
+        "UnbindHand": [
+          "SocketA = \"root_Katana01_back",
+          "SocketB = \"root_point"
+        ]
+      }
+    ]
+  },
+  "1060222": {
+    "NodeId": 1060222,
+    "NextNodeId": 1060223,
+    "ExtraNextNodeId": 1060223,
+    "AnimSubPath": "Combat/Weapon/Katana/",
+    "AnimName": "Katana_Mod01_HeavyAttack_02_Montage",
+    "AnimPlayRate": 1,
+    "CanExtractZVelocity": true,
+    "DisableBlendBone": true,
+    "ChangeHandHold": [
+      {
+        "HandHold": [
+          "SocketA = \"Root",
+          "SocketB = \"root_hook_arm_r"
+        ]
+      },
+      {
+        "UnbindHand": [
+          "SocketA = \"root_Katana01_back",
+          "SocketB = \"root_point"
+        ]
+      }
+    ]
+  },
+  "1060223": {
+    "NodeId": 1060223,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Katana/",
+    "AnimName": "Katana_Mod01_HeavyAttack_03_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "ChangeHandHold": [
+      {
+        "HandHold": [
+          "SocketA = \"Root",
+          "SocketB = \"root_hook_arm_r"
+        ]
+      },
+      {
+        "UnbindHand": [
+          "SocketA = \"root_Katana01_back",
+          "SocketB = \"root_point"
+        ]
+      }
+    ]
+  },
+  "2010111": {
+    "NodeId": 2010111,
+    "NextNodeId": 2010112,
+    "AnimSubPath": "Combat/Weapon/Funnel/",
+    "AnimName": "Funnel_ShootStart_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "2010112": {
+    "NodeId": 2010112,
+    "NextNodeId": 2010112,
+    "PhantomAutoInput": 1,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Funnel/",
+    "AnimName": "Funnel_ShootLoop_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "CostBullet": 1
+  },
+  "2010113": {
+    "NodeId": 2010113,
+    "AnimSubPath": "Combat/Weapon/Funnel/",
+    "AnimName": "Funnel_ShootEnd_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "2010121": {
+    "NodeId": 2010121,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Funnel/",
+    "AnimName": "Funnel_Reload_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "2020111": {
+    "NodeId": 2020111,
+    "NextNodeId": 2020111,
+    "PhantomAutoInput": 1,
+    "SkillNodeEffects": [
+      2020111,
+      2020112
+    ],
+    "AnimSubPath": "Combat/Weapon/Crossbow/",
+    "AnimName": "Crossbow01_Shooting_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "CostBullet": 1,
+    "EnableShootShakeBlend": true
+  },
+  "2020121": {
+    "NodeId": 2020121,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Crossbow/",
+    "AnimName": "Crossbow01_Reload_Montage",
+    "AnimPlayRate": 1.5,
+    "DisableBlendBone": true
+  },
+  "2020212": {
+    "NodeId": 2020212,
+    "NextNodeId": 2020212,
+    "PhantomAutoInput": 1,
+    "SkillNodeEffects": [
+      2020111,
+      2020112
+    ],
+    "AnimSubPath": "Combat/Weapon/Crossbow/",
+    "AnimName": "Crossbow02_Shooting_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "CostBullet": 1,
+    "EnableShootShakeBlend": true
+  },
+  "2020311": {
+    "NodeId": 2020311,
+    "NextNodeId": 2020311,
+    "PhantomAutoInput": 1,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Crossbow/",
+    "AnimName": "Crossbow01_Shooting_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "CostBullet": 1,
+    "EnableShootShakeBlend": true
+  },
+  "2020321": {
+    "NodeId": 2020321,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Crossbow/",
+    "AnimName": "Crossbow01_Reload_Montage",
+    "AnimPlayRate": 1.5,
+    "DisableBlendBone": true
+  },
+  "2020511": {
+    "NodeId": 2020511,
+    "NextNodeId": 2020511,
+    "PhantomAutoInput": 1,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Crossbow/",
+    "AnimName": "Crossbow01_Shooting_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "CostBullet": 1,
+    "EnableShootShakeBlend": true
+  },
+  "2020521": {
+    "NodeId": 2020521,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Crossbow/",
+    "AnimName": "Crossbow01_Reload_Montage",
+    "AnimPlayRate": 1.5,
+    "DisableBlendBone": true
+  },
+  "2030111": {
+    "NodeId": 2030111,
+    "NextNodeId": 2030111,
+    "PhantomAutoInput": 1,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Cannon/",
+    "AnimName": "Cannon01_Shooting_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "CostBullet": 1
+  },
+  "2030121": {
+    "NodeId": 2030121,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Cannon/",
+    "AnimName": "Cannon01_Reload_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "2030211": {
+    "NodeId": 2030211,
+    "NextNodeId": 2030211,
+    "PhantomAutoInput": 1,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Cannon/",
+    "AnimName": "Cannon01_Shooting_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "CostBullet": 1
+  },
+  "2030221": {
+    "NodeId": 2030221,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Cannon/",
+    "AnimName": "Cannon01_Reload_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "2040111": {
+    "NodeId": 2040111,
+    "NextNodeId": 2040111,
+    "PhantomAutoInput": 1,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Shotgun/",
+    "AnimName": "Shotgun01_Shooting_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "CostBullet": 1
+  },
+  "2040121": {
+    "NodeId": 2040121,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Shotgun/",
+    "AnimName": "Shotgun01_Reload_Montage",
+    "AnimPlayRate": 1.5,
+    "DisableBlendBone": true
+  },
+  "2040211": {
+    "NodeId": 2040211,
+    "NextNodeId": 2040211,
+    "PhantomAutoInput": 1,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Shotgun/",
+    "AnimName": "Shotgun02_Shooting_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "CostBullet": 1
+  },
+  "2040221": {
+    "NodeId": 2040221,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Shotgun/",
+    "AnimName": "Shotgun03_Reload_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "2040311": {
+    "NodeId": 2040311,
+    "NextNodeId": 2040311,
+    "PhantomAutoInput": 1,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Shotgun/",
+    "AnimName": "Shotgun02_Shooting_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "CostBullet": 1
+  },
+  "2040321": {
+    "NodeId": 2040321,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Shotgun/",
+    "AnimName": "Shotgun02_Reload_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "2040411": {
+    "NodeId": 2040411,
+    "NextNodeId": 2040411,
+    "PhantomAutoInput": 1,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Shotgun/",
+    "AnimName": "Shotgun02_Shooting_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "CostBullet": 1
+  },
+  "2040421": {
+    "NodeId": 2040421,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Shotgun/",
+    "AnimName": "Shotgun02_Reload_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "2040511": {
+    "NodeId": 2040511,
+    "PhantomAutoInput": 1,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Shotgun/",
+    "AnimName": "Shotgun01_Shooting_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "CostBullet": 1
+  },
+  "2040512": {
+    "NodeId": 2040512,
+    "PhantomAutoInput": 1,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Shotgun/",
+    "AnimName": "Shotgun03_Shooting_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "2040521": {
+    "NodeId": 2040521,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Shotgun/",
+    "AnimName": "Shotgun01_Reload_Montage",
+    "AnimPlayRate": 1.5,
+    "DisableBlendBone": true
+  },
+  "2050111": {
+    "NodeId": 2050111,
+    "NextNodeId": 2050111,
+    "PhantomAutoInput": 1,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Machinegun/",
+    "AnimName": "Machinegun01_Shooting_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "CostBullet": 1,
+    "MontageBlendOutTime": 0
+  },
+  "2050121": {
+    "NodeId": 2050121,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Machinegun/",
+    "AnimName": "Machinegun01_Reload_Montage",
+    "AnimPlayRate": 1.5,
+    "DisableBlendBone": true
+  },
+  "2050211": {
+    "NodeId": 2050211,
+    "NextNodeId": 2050211,
+    "PhantomAutoInput": 1,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Machinegun/",
+    "AnimName": "Machinegun02_Shooting_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "CostBullet": 1,
+    "MontageBlendOutTime": 0
+  },
+  "2050221": {
+    "NodeId": 2050221,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Machinegun/",
+    "AnimName": "Machinegun02_Reload_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "2050311": {
+    "NodeId": 2050311,
+    "NextNodeId": 2050311,
+    "PhantomAutoInput": 1,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Machinegun/",
+    "AnimName": "Machinegun02_Shooting_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "CostBullet": 1,
+    "MontageBlendOutTime": 0
+  },
+  "2050321": {
+    "NodeId": 2050321,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Machinegun/",
+    "AnimName": "Machinegun03_Reload_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "2050411": {
+    "NodeId": 2050411,
+    "NextNodeId": 2050411,
+    "PhantomAutoInput": 1,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Machinegun/",
+    "AnimName": "Machinegun02_Shooting_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "CostBullet": 1
+  },
+  "2050421": {
+    "NodeId": 2050421,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Machinegun/",
+    "AnimName": "Machinegun03_Reload_Montage",
+    "AnimPlayRate": 1.5,
+    "DisableBlendBone": true
+  },
+  "2050511": {
+    "NodeId": 2050511,
+    "NextNodeId": 2050511,
+    "PhantomAutoInput": 1,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Machinegun/",
+    "AnimName": "Machinegun05_Shooting_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "CostBullet": 1
+  },
+  "2050521": {
+    "NodeId": 2050521,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Machinegun/",
+    "AnimName": "Machinegun02_Reload_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true
+  },
+  "2050611": {
+    "NodeId": 2050611,
+    "NextNodeId": 2050611,
+    "PhantomAutoInput": 1,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Machinegun/",
+    "AnimName": "Machinegun02_Shooting_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "CostBullet": 1
+  },
+  "2050621": {
+    "NodeId": 2050621,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Machinegun/",
+    "AnimName": "Machinegun03_Reload_Montage",
+    "AnimPlayRate": 1.5,
+    "DisableBlendBone": true
+  },
+  "2050711": {
+    "NodeId": 2050711,
+    "NextNodeId": 2050711,
+    "PhantomAutoInput": 1,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Machinegun/",
+    "AnimName": "Machinegun01_Shooting_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "CostBullet": 1
+  },
+  "2060111": {
+    "NodeId": 2060111,
+    "NextNodeId": 2060111,
+    "PhantomAutoInput": 1,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Bow/",
+    "AnimName": "Bow02_Shooting_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "CostBullet": 1,
+    "MontageBlendOutTime": 0.3
+  },
+  "2060121": {
+    "NodeId": 2060121,
+    "NextNodeId": 2060121,
+    "PhantomAutoInput": 1,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Bow/",
+    "AnimName": "Bow_HeavyShooting_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "CostBullet": 1
+  },
+  "2060211": {
+    "NodeId": 2060211,
+    "NextNodeId": 2060211,
+    "PhantomAutoInput": 1,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Bow/",
+    "AnimName": "Bow01_Shooting_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "CostBullet": 1,
+    "MontageBlendOutTime": 0.01
+  },
+  "2069911": {
+    "NodeId": 2069911,
+    "NextNodeId": 2069911,
+    "PhantomAutoInput": 1,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Bow/",
+    "AnimName": "Bow02_Shooting_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "CostBullet": 1,
+    "MontageBlendOutTime": 0.3
+  },
+  "2069921": {
+    "NodeId": 2069921,
+    "NextNodeId": 2069921,
+    "PhantomAutoInput": 1,
+    "SkillNodeEffects": {},
+    "AnimSubPath": "Combat/Weapon/Bow/",
+    "AnimName": "Bow_HeavyShooting_Montage",
+    "AnimPlayRate": 1,
+    "DisableBlendBone": true,
+    "CostBullet": 1
+  }
+}

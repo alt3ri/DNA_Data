@@ -1,0 +1,736 @@
+{
+  "Zhenzi_Emoji": {
+    "UIName": "Zhenzi_Emoji",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/ExclusiveSkill/WBP_Battle_ZhenziEmoji.WBP_Battle_ZhenziEmoji'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/ExclusiveSkill/WBP_Battle_ZhenziEmoji.WBP_Battle_ZhenziEmoji'"
+  },
+  "BattleObjectiveList": {
+    "UIName": "BattleObjectiveList",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Dungeon/Survival/WBP_Dungeon_SurvivalPoint.WBP_Dungeon_SurvivalPoint'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Dungeon/Survival/WBP_Dungeon_SurvivalPoint.WBP_Dungeon_SurvivalPoint'"
+  },
+  "TaskUnlockCondition": {
+    "UIName": "TaskUnlockCondition",
+    "BPPath": "WidgetBlueprint'/Game/UI/UI_PC/Task/Task_UnlockCondition.Task_UnlockCondition'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/UI_PC/Task/Task_UnlockCondition.Task_UnlockCondition'"
+  },
+  "GachaOnce": {
+    "UIName": "GachaOnce",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Gacha/PC/Single/WBP_Gacha_SingleDraw_P.WBP_Gacha_SingleDraw_P'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Gacha/Mobile/Single/WBP_Gacha_SingleDraw_M.WBP_Gacha_SingleDraw_M'"
+  },
+  "GachaTentimes": {
+    "UIName": "GachaTentimes",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Gacha/PC/TenTimes/WBP_Gacha_TenTimesDraw_P.WBP_Gacha_TenTimesDraw_P'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Gacha/Mobile/TenTimes/WBP_Gacha_TenTimesDraw_M.WBP_Gacha_TenTimesDraw_M'"
+  },
+  "GachaUpTitle": {
+    "UIName": "GachaUpTitle",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Gacha/Widget/WBP_Gacha_UpTitleSign.WBP_Gacha_UpTitleSign'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Gacha/Widget/WBP_Gacha_UpTitleSign.WBP_Gacha_UpTitleSign'"
+  },
+  "CommonToggleTabItem": {
+    "UIName": "CommonToggleTabItem",
+    "BPPath": "WidgetBlueprint'/Game/UI/UI_PC/Common/Common_Tab/Common_Toggle_TabItem_PC.Common_Toggle_TabItem_PC'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/UI_PC/Common/Common_Tab/Common_Toggle_TabItem_PC.Common_Toggle_TabItem_PC'"
+  },
+  "CommonToggleTabItemSubSize": {
+    "UIName": "CommonToggleTabItemSubSize",
+    "BPPath": "WidgetBlueprint'/Game/UI/UI_PC/Common/Common_Tab/Common_Toggle_TabItem_Subsize_PC.Common_Toggle_TabItem_Subsize_PC'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/UI_PC/Common/Common_Tab/Common_Toggle_TabItem_Subsize_PC.Common_Toggle_TabItem_Subsize_PC'"
+  },
+  "ShopItem": {
+    "UIName": "ShopItem",
+    "BPPath": "WidgetBlueprint'/Game/UI/UI_PC/Shop/Shop_Item_PC.Shop_Item_PC'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/UI_PC/Shop/Shop_Item_PC.Shop_Item_PC'"
+  },
+  "CommonDialogItem": {
+    "UIName": "CommonDialogItem",
+    "BPPath": "WidgetBlueprint'/Game/UI/UI_PC/Common/Common_Dialog/Common_Dialog_Item_PC.Common_Dialog_Item_PC'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/UI_PC/Common/Common_Dialog/Common_Dialog_Item_PC.Common_Dialog_Item_PC'"
+  },
+  "CommonItemSubsizeSmall": {
+    "UIName": "CommonItemSubsizeSmall",
+    "BPPath": "WidgetBlueprint'/Game/UI/UI_PC/Common/Common_Item_Subsize_Small_PC.Common_Item_Subsize_Small_PC'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/UI_PC/Common/Common_Item_Subsize_Small_PC.Common_Item_Subsize_Small_PC'"
+  },
+  "CommonItemSubsizeXSmall": {
+    "UIName": "CommonItemSubsizeXSmall",
+    "BPPath": "WidgetBlueprint'/Game/UI/UI_PC/Common/Common_Item_SubSize_XSmall_PC.Common_Item_SubSize_XSmall_PC'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/UI_PC/Common/Common_Item_SubSize_XSmall_PC.Common_Item_SubSize_XSmall_PC'"
+  },
+  "CommonDialogCurrency": {
+    "UIName": "CommonDialogCurrency",
+    "BPPath": "WidgetBlueprint'/Game/UI/UI_PC/Common/Common_Dialog/Common_Dialog_Currency_PC.Common_Dialog_Currency_PC'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/UI_PC/Common/Common_Dialog/Common_Dialog_Currency_PC.Common_Dialog_Currency_PC'"
+  },
+  "CommonToastItem": {
+    "UIName": "CommonToastItem",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Common/Toast/WBP_Com_Toast.WBP_Com_Toast'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Common/Toast/WBP_Com_Toast.WBP_Com_Toast'"
+  },
+  "HardBossMainPC": {
+    "UIName": "HardBossMainPC",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Play/PC/HardBoss/WBP_Play_HardBoss_P.WBP_Play_HardBoss_P'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Play/PC/HardBoss/WBP_Play_HardBoss_P.WBP_Play_HardBoss_P'"
+  },
+  "HardBossMainMobile": {
+    "UIName": "HardBossMainMobile",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Play/Mobile/HardBoss/WBP_Play_HardBoss_M.WBP_Play_HardBoss_M'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Play/Mobile/HardBoss/WBP_Play_HardBoss_M.WBP_Play_HardBoss_M'"
+  },
+  "HardBossMapTips": {
+    "UIName": "HardBossMapTips",
+    "BPPath": "WidgetBlueprint'/Game/UI/UI_PC/TrueHardBoss/BP_MapTips/TureHardBoss_MapTips.TureHardBoss_MapTips'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/UI_PC/TrueHardBoss/BP_MapTips/TureHardBoss_MapTips.TureHardBoss_MapTips'"
+  },
+  "ImperssionResult": {
+    "UIName": "ImperssionResult",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Impression/PC/WBP_ImperssionResult_P.WBP_ImperssionResult_P'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Impression/Mobile/WBP_ImperssionResult_M.WBP_ImperssionResult_M'"
+  },
+  "ImpressionDimensionResult": {
+    "UIName": "ImpressionDimensionResult",
+    "BPPath": "WidgetBlueprint'/Game/UI/UI_PC/Impression/BP_Impression_DimensionResult.BP_Impression_DimensionResult'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/UI_PC/Impression/BP_Impression_DimensionResult.BP_Impression_DimensionResult'"
+  },
+  "HPBar": {
+    "UIName": "HPBar",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/HUD_Bar/Unit/WBP_HPBar.WBP_HPBar'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/HUD_Bar/Unit/WBP_HPBar.WBP_HPBar'"
+  },
+  "ShieldBar": {
+    "UIName": "ShieldBar",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/HUD_Bar/Unit/WBP_ShieldBar.WBP_ShieldBar'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/HUD_Bar/Unit/WBP_ShieldBar.WBP_ShieldBar'"
+  },
+  "BuffBar": {
+    "UIName": "BuffBar",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/HUD_Bar/Unit/WBP_BuffBar.WBP_BuffBar'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/HUD_Bar/Unit/WBP_BuffBar.WBP_BuffBar'"
+  },
+  "EliteBar": {
+    "UIName": "EliteBar",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/HUD_Bar/Unit/WBP_EliteBar.WBP_EliteBar'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/HUD_Bar/Unit/WBP_EliteBar.WBP_EliteBar'"
+  },
+  "PlayerBloodReturn": {
+    "UIName": "PlayerBloodReturn",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/HUD_Bar/Unit/WBP_PlayerBloodReturn.WBP_PlayerBloodReturn'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/HUD_Bar/Unit/WBP_PlayerBloodReturn.WBP_PlayerBloodReturn'"
+  },
+  "BuffIcon": {
+    "UIName": "BuffIcon",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/WBP_Battle_BuffCell.WBP_Battle_BuffCell'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/WBP_Battle_BuffCell.WBP_Battle_BuffCell'",
+    "PreCreateNum": 30
+  },
+  "ItemDetailsMain": {
+    "UIName": "ItemDetailsMain",
+    "BPPath": "/Game/UI/UI_PC/Common/Common_ItemDetails/Common_ItemDetails_PC.Common_ItemDetails_PC",
+    "MobileBPPath": "/Game/UI/UI_PC/Common/Common_ItemDetails/Common_ItemDetails_PC.Common_ItemDetails_PC"
+  },
+  "ModItemDetails": {
+    "UIName": "ModItemDetails",
+    "BPPath": "WidgetBlueprint'/Game/UI/UI_PC/Common/Common_ItemDetails/Widget/Common_ItemDetails_Mod.Common_ItemDetails_Mod'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/UI_PC/Common/Common_ItemDetails/Widget/Common_ItemDetails_Mod.Common_ItemDetails_Mod'"
+  },
+  "CommonItemDetailsEffect": {
+    "UIName": "CommonItemDetailsEffect",
+    "BPPath": "WidgetBlueprint'/Game/UI/UI_PC/Common/Common_ItemDetails/Widget/Common_ItemDetails_Effect_Item.Common_ItemDetails_Effect_Item'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/UI_PC/Common/Common_ItemDetails/Widget/Common_ItemDetails_Effect_Item.Common_ItemDetails_Effect_Item'"
+  },
+  "ResourceItemDetails": {
+    "UIName": "ResourceItemDetails",
+    "BPPath": "WidgetBlueprint'/Game/UI/UI_PC/Common/Common_ItemDetails/Widget/Common_ItemDetails_Resource.Common_ItemDetails_Resource'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/UI_PC/Common/Common_ItemDetails/Widget/Common_ItemDetails_Resource.Common_ItemDetails_Resource'"
+  },
+  "DraftItemDetails": {
+    "UIName": "DraftItemDetails",
+    "BPPath": "WidgetBlueprint'/Game/UI/UI_PC/Common/Common_ItemDetails/Widget/Common_ItemDetails_Draft.Common_ItemDetails_Draft'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/UI_PC/Common/Common_ItemDetails/Widget/Common_ItemDetails_Draft.Common_ItemDetails_Draft'"
+  },
+  "PhantomItemDetails": {
+    "UIName": "PhantomItemDetails",
+    "BPPath": "WidgetBlueprint'/Game/UI/UI_PC/Common/Common_ItemDetails/Widget/Common_ItemDetails_Phantom.Common_ItemDetails_Phantom'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/UI_PC/Common/Common_ItemDetails/Widget/Common_ItemDetails_Phantom.Common_ItemDetails_Phantom'"
+  },
+  "PetItemDetails": {
+    "UIName": "PetItemDetails",
+    "BPPath": "WidgetBlueprint'/Game/UI/UI_PC/Common/Common_ItemDetails/Widget/Common_ItemDetails_Pet.Common_ItemDetails_Pet'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/UI_PC/Common/Common_ItemDetails/Widget/Common_ItemDetails_Pet.Common_ItemDetails_Pet'"
+  },
+  "ItemDetailPetTextItem": {
+    "UIName": "ItemDetailPetTextItem",
+    "BPPath": "WidgetBlueprint'/Game/UI/UI_PC/Common/Common_ItemDetails/Widget/Common_ItenDetails_Pet_TextItem.Common_ItenDetails_Pet_TextItem'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/UI_PC/Common/Common_ItemDetails/Widget/Common_ItenDetails_Pet_TextItem.Common_ItenDetails_Pet_TextItem'"
+  },
+  "PhantomWeaponItemDetails": {
+    "UIName": "PhantomWeaponItemDetails",
+    "BPPath": "WidgetBlueprint'/Game/UI/UI_PC/Common/Common_ItemDetails/Widget/Common_ItemDetails_PhantomWeapon_Item.Common_ItemDetails_PhantomWeapon_Item'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/UI_PC/Common/Common_ItemDetails/Widget/Common_ItemDetails_PhantomWeapon_Item.Common_ItemDetails_PhantomWeapon_Item'"
+  },
+  "CommonItemDetailsMaterial": {
+    "UIName": "CommonItemDetailsMaterial",
+    "BPPath": "WidgetBlueprint'/Game/UI/UI_PC/Common/Common_ItemDetails/Widget/Common_ItemDetails_Resource_Item.Common_ItemDetails_Resource_Item'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/UI_PC/Common/Common_ItemDetails/Widget/Common_ItemDetails_Resource_Item.Common_ItemDetails_Resource_Item'"
+  },
+  "ItemDetailAccess": {
+    "UIName": "ItemDetailAccess",
+    "BPPath": "WidgetBlueprint'/Game/UI/UI_PC/Common/Common_ItemDetails/Widget/Common_ItemDetails_Access_Item.Common_ItemDetails_Access_Item'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/UI_PC/Common/Common_ItemDetails/Widget/Common_ItemDetails_Access_Item.Common_ItemDetails_Access_Item'"
+  },
+  "WeaponItemDetails": {
+    "UIName": "WeaponItemDetails",
+    "BPPath": "WidgetBlueprint'/Game/UI/UI_PC/Common/Common_ItemDetails/Widget/Common_ItemDetails_Weapon.Common_ItemDetails_Weapon'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/UI_PC/Common/Common_ItemDetails/Widget/Common_ItemDetails_Weapon.Common_ItemDetails_Weapon'"
+  },
+  "ArmoryModItemDetails": {
+    "UIName": "ArmoryModItemDetails",
+    "BPPath": "WidgetBlueprint'/Game/UI/UI_PC/Common/Common_ItemDetails/Widget/Common_ItemDetails_ArmoryMod.Common_ItemDetails_ArmoryMod'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/UI_PC/Common/Common_ItemDetails/Widget/Common_ItemDetails_ArmoryMod.Common_ItemDetails_ArmoryMod'"
+  },
+  "RewardItemDetails": {
+    "UIName": "RewardItemDetails",
+    "BPPath": "WidgetBlueprint'/Game/UI/UI_PC/Common/Common_ItemDetails/Widget/Common_ItemDetails_Reward.Common_ItemDetails_Reward'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/UI_PC/Common/Common_ItemDetails/Widget/Common_ItemDetails_Reward.Common_ItemDetails_Reward'"
+  },
+  "MiniGameCrossBar": {
+    "UIName": "MiniGameCrossBar",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/MiniGame/Widget/MiGong/WBP_MiniGame_MiGongCross.WBP_MiniGame_MiGongCross'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/MiniGame/Widget/MiGong/WBP_MiniGame_MiGongCross.WBP_MiniGame_MiGongCross'"
+  },
+  "MiniGameVerticalBar": {
+    "UIName": "MiniGameVerticalBar",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/MiniGame/Widget/MiGong/WBP_MiniGame_MiGongVertical.WBP_MiniGame_MiGongVertical'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/MiniGame/Widget/MiGong/WBP_MiniGame_MiGongVertical.WBP_MiniGame_MiGongVertical'"
+  },
+  "MiniGameHorizonBar": {
+    "UIName": "MiniGameHorizonBar",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/MiniGame/Widget/MiGong/WBP_MiniGame_MiGongHorizontal.WBP_MiniGame_MiGongHorizontal'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/MiniGame/Widget/MiGong/WBP_MiniGame_MiGongHorizontal.WBP_MiniGame_MiGongHorizontal'"
+  },
+  "MiniGameStartBar": {
+    "UIName": "MiniGameStartBar",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/MiniGame/Widget/MiGong/WBP_MiniGame_MiGongStart.WBP_MiniGame_MiGongStart'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/MiniGame/Widget/MiGong/WBP_MiniGame_MiGongStart.WBP_MiniGame_MiGongStart'"
+  },
+  "MiniGameEndBar": {
+    "UIName": "MiniGameEndBar",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/MiniGame/Widget/MiGong/WBP_MiniGame_MiGongEnd.WBP_MiniGame_MiGongEnd'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/MiniGame/Widget/MiGong/WBP_MiniGame_MiGongEnd.WBP_MiniGame_MiGongEnd'"
+  },
+  "MiniGameArrow": {
+    "UIName": "MiniGameArrow",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/MiniGame/Widget/MiGong/WBP_MiniGame_MiGongPoint.WBP_MiniGame_MiGongPoint'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/MiniGame/Widget/MiGong/WBP_MiniGame_MiGongPoint.WBP_MiniGame_MiGongPoint'"
+  },
+  "MiniGameShuifaPipe": {
+    "UIName": "MiniGameShuifaPipe",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/MiniGame/Widget/ShuiFa/WBP_MiniGame_ShuiFaPipe.WBP_MiniGame_ShuiFaPipe'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/MiniGame/Widget/ShuiFa/WBP_MiniGame_ShuiFaPipe.WBP_MiniGame_ShuiFaPipe'"
+  },
+  "ArmoryChar": {
+    "UIName": "ArmoryChar",
+    "BPPath": "WidgetBlueprint'/Game/UI/UI_PC/Armory_New/Armory_Panel_RoleInfo_PC.Armory_Panel_RoleInfo_PC'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/UI_PC/Armory_New/Armory_Panel_RoleInfo_PC.Armory_Panel_RoleInfo_PC'"
+  },
+  "ArmoryWeapon": {
+    "UIName": "ArmoryWeapon",
+    "BPPath": "WidgetBlueprint'/Game/UI/UI_PC/Armory_New/Armory_Panel_RoleInfo_PC.Armory_Panel_RoleInfo_PC'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/UI_PC/Armory_New/Armory_Panel_RoleInfo_PC.Armory_Panel_RoleInfo_PC'"
+  },
+  "ArmoryTrace": {
+    "UIName": "ArmoryTrace",
+    "BPPath": "WidgetBlueprint'/Game/UI/UI_PC/Armory_New/TraceAbility/Armoy_TraceAbility.Armoy_TraceAbility'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/UI_PC/Armory_New/TraceAbility/Armoy_TraceAbility.Armoy_TraceAbility'"
+  },
+  "ArmorySkill": {
+    "UIName": "ArmorySkill",
+    "BPPath": "WidgetBlueprint'/Game/UI/UI_PC/Armory_New/Armory_Skill_PC.Armory_Skill_PC'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/UI_PC/Armory_New/Armory_Skill_PC.Armory_Skill_PC'"
+  },
+  "ArmoryCardLevelUpDetail": {
+    "UIName": "ArmoryCardLevelUpDetail",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Armory/Widget/CardLevel/WBP_Armory_Weapon_CardLevelDialog.WBP_Armory_Weapon_CardLevelDialog'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Armory/Widget/CardLevel/WBP_Armory_Weapon_CardLevelDialog.WBP_Armory_Weapon_CardLevelDialog'"
+  },
+  "ArmoryCardLevelUpDetail2": {
+    "UIName": "ArmoryCardLevelUpDetail2",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Armory/Widget/CardLevel/WBP_Armory_CardLevelDialog.WBP_Armory_CardLevelDialog'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Armory/Widget/CardLevel/WBP_Armory_CardLevelDialog.WBP_Armory_CardLevelDialog'"
+  },
+  "ArmoryPetAttribute": {
+    "UIName": "ArmoryPetAttribute"
+  },
+  "ArmoryCharAttribute": {
+    "UIName": "ArmoryCharAttribute"
+  },
+  "ArmoryWeaponAttribute": {
+    "UIName": "ArmoryWeaponAttribute"
+  },
+  "DungeonSettlementData": {
+    "UIName": "DungeonSettlementData",
+    "BPPath": "WidgetBlueprint'/Game/UI/UI_PC/Settlement/WBP_Dungeon_Settlement_Data_PC.WBP_Dungeon_Settlement_Data_PC'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/UI_PC/Settlement/WBP_Dungeon_Settlement_Data_PC.WBP_Dungeon_Settlement_Data_PC'"
+  },
+  "DungeonSettlementTarget": {
+    "UIName": "DungeonSettlementTarget",
+    "BPPath": "WidgetBlueprint'/Game/UI/UI_PC/Settlement/WBP_DungeonSettlement_Target_PC.WBP_DungeonSettlement_Target_PC'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/UI_PC/Settlement/WBP_DungeonSettlement_Target_PC.WBP_DungeonSettlement_Target_PC'"
+  },
+  "VoteWaveReward": {
+    "UIName": "VoteWaveReward",
+    "BPPath": "WidgetBlueprint'/Game/UI/UI_PC/Vote/Widget/Vote_WaveReward_PC.Vote_WaveReward_PC'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/UI_PC/Vote/Widget/Vote_WaveReward_PC.Vote_WaveReward_PC'"
+  },
+  "TeammateBloodBar": {
+    "UIName": "TeammateBloodBar",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/PC/WBP_Battle_Teammate_P.WBP_Battle_Teammate_P'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Mobile/WBP_Battle_Teammate_M.WBP_Battle_Teammate_M'"
+  },
+  "PlayerInvincibility": {
+    "UIName": "PlayerInvincibility",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/HUD_Bar/Unit/WBP_PlayerInvincibility.WBP_PlayerInvincibility'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/HUD_Bar/Unit/WBP_PlayerInvincibility.WBP_PlayerInvincibility'"
+  },
+  "ArmoryModPolarity": {
+    "UIName": "ArmoryModPolarity",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Armory/Widget/Mod/WBP_Armory_Mod_Replace.WBP_Armory_Mod_Replace'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Armory/Widget/Mod/WBP_Armory_Mod_Replace.WBP_Armory_Mod_Replace'"
+  },
+  "ArmoryModItemDrag": {
+    "UIName": "ArmoryModItemDrag",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Armory/Widget/Mod/WBP_Armory_Mod_Mid.WBP_Armory_Mod_Mid'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Armory/Widget/Mod/WBP_Armory_Mod_Mid.WBP_Armory_Mod_Mid'"
+  },
+  "BattleMiddleText": {
+    "UIName": "BattleMiddleText",
+    "BPPath": "WidgetBlueprint'/Game/UI/UI_PC/Common/Common_Toast/Common_Toast_ScreenMiddle_Text_PC.Common_Toast_ScreenMiddle_Text_PC'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/UI_PC/Common/Common_Toast/Common_Toast_ScreenMiddle_Text_PC.Common_Toast_ScreenMiddle_Text_PC'"
+  },
+  "AnnouncementDefaultContent": {
+    "UIName": "AnnouncementDefaultContent",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Announcement/Widget/WBP_Announcement_DefaultContent.WBP_Announcement_DefaultContent'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Announcement/Widget/WBP_Announcement_DefaultContent.WBP_Announcement_DefaultContent'"
+  },
+  "TalkBlackScreenBorder": {
+    "UIName": "TalkBlackScreenBorder",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Story/Widget/WBP_BlackScreen.WBP_BlackScreen'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Story/Widget/WBP_BlackScreen.WBP_BlackScreen'",
+    "NeedShowInWindow": true,
+    "ZOrder": 53
+  },
+  "GuideBlackScreenBorder": {
+    "UIName": "GuideBlackScreenBorder",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Story/Widget/WBP_BlackScreen.WBP_BlackScreen'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Story/Widget/WBP_BlackScreen.WBP_BlackScreen'",
+    "NeedShowInWindow": true,
+    "ZOrder": 103
+  },
+  "AimLock": {
+    "UIName": "AimLock",
+    "BPPath": "WidgetBlueprint'/Game/UI/UI_PC/Battle/Battle_AimLocked_PC.Battle_AimLocked_PC'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/UI_PC/Battle/Battle_AimLocked_PC.Battle_AimLocked_PC'"
+  },
+  "RougeMain": {
+    "UIName": "RougeMain",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/RougeLike/PC/WBP_Rouge_Main_P.WBP_Rouge_Main_P'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/RougeLike/Mobile/WBP_Rouge_Main_M.WBP_Rouge_Main_M'"
+  },
+  "MyFriend": {
+    "UIName": "MyFriend",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Friend/Widget/WBP_Friend_MyList.WBP_Friend_MyList'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Friend/Widget/WBP_Friend_MyList.WBP_Friend_MyList'"
+  },
+  "AddFriend": {
+    "UIName": "AddFriend",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Friend/Widget/WBP_Friend_AddList.WBP_Friend_AddList'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Friend/Widget/WBP_Friend_AddList.WBP_Friend_AddList'"
+  },
+  "RecentMatch": {
+    "UIName": "RecentMatch",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Friend/Widget/WBP_Friend_RecentList.WBP_Friend_RecentList'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Friend/Widget/WBP_Friend_RecentList.WBP_Friend_RecentList'"
+  },
+  "FriendHeadOption": {
+    "UIName": "FriendHeadOption",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Friend/Widget/WBP_FriendFunction.WBP_FriendFunction'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Friend/Widget/WBP_FriendFunction.WBP_FriendFunction'"
+  },
+  "RougeShopItem": {
+    "UIName": "RougeShopItem",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/RougeLike/Widget/Shop/WBP_Rouge_Shop_Item.WBP_Rouge_Shop_Item'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/RougeLike/Widget/Shop/WBP_Rouge_Shop_Item.WBP_Rouge_Shop_Item'"
+  },
+  "RougeBagItem": {
+    "UIName": "RougeBagItem",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/RougeLike/Widget/CheckDetail/WBP_Rouge_CheckDetail_Item.WBP_Rouge_CheckDetail_Item'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/RougeLike/Widget/CheckDetail/WBP_Rouge_CheckDetail_Item.WBP_Rouge_CheckDetail_Item'"
+  },
+  "RougeSettlementBlessItem": {
+    "UIName": "RougeSettlementBlessItem",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/RougeLike/Widget/WBP_Rouge_SettlementBless.WBP_Rouge_SettlementBless'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/RougeLike/Widget/WBP_Rouge_SettlementBless.WBP_Rouge_SettlementBless'"
+  },
+  "RougeSettlementTreasureItem": {
+    "UIName": "RougeSettlementTreasureItem",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/RougeLike/Widget/WBP_Rouge_Treasure.WBP_Rouge_Treasure'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/RougeLike/Widget/WBP_Rouge_Treasure.WBP_Rouge_Treasure'"
+  },
+  "RougeSettlementEventItem": {
+    "UIName": "RougeSettlementEventItem",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/RougeLike/Widget/WBP_Rouge_SettleEvent.WBP_Rouge_SettleEvent'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/RougeLike/Widget/WBP_Rouge_SettleEvent.WBP_Rouge_SettleEvent'"
+  },
+  "ResourceBar": {
+    "UIName": "ResourceBar",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Common/Tab/Widget/WBP_Com_TabResourceBar.WBP_Com_TabResourceBar'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Common/Tab/Widget/WBP_Com_TabResourceBar.WBP_Com_TabResourceBar'"
+  },
+  "ToughnessBar": {
+    "UIName": "ToughnessBar",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/HUD_Bar/Unit/WBP_ToughnessBar.WBP_ToughnessBar'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/HUD_Bar/Unit/WBP_ToughnessBar.WBP_ToughnessBar'"
+  },
+  "TabSubTextItem": {
+    "UIName": "TabSubTextItem",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Common/Tab/Widget/WBP_Com_TabSubItem01.WBP_Com_TabSubItem01'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Common/Tab/Widget/WBP_Com_TabSubItem01.WBP_Com_TabSubItem01'"
+  },
+  "TabSubIconTextItem": {
+    "UIName": "TabSubIconTextItem",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Common/Tab/Widget/WBP_Com_TabSubItem02.WBP_Com_TabSubItem02'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Common/Tab/Widget/WBP_Com_TabSubItem02.WBP_Com_TabSubItem02'"
+  },
+  "TabSubIconItem": {
+    "UIName": "TabSubIconItem",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Common/Tab/Widget/WBP_Com_TabSubItem04.WBP_Com_TabSubItem04'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Common/Tab/Widget/WBP_Com_TabSubItem04.WBP_Com_TabSubItem04'"
+  },
+  "RougeTalentMenu": {
+    "UIName": "RougeTalentMenu",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/RougeLike/PC/TalentTree/WBP_Rouge_TalentMenu_P.WBP_Rouge_TalentMenu_P'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/RougeLike/Mobile/TalentTree/WBP_Rouge_TalentMenu_M.WBP_Rouge_TalentMenu_M'"
+  },
+  "ChatEmoji": {
+    "UIName": "ChatEmoji",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Chat/Widget/Face/WBP_Chat_Face.WBP_Chat_Face'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Chat/Widget/Face/WBP_Chat_Face.WBP_Chat_Face'"
+  },
+  "ChatQuickMsg": {
+    "UIName": "ChatQuickMsg",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Chat/Widget/QuickAnswer/WBP_Chat_QuickAnswer.WBP_Chat_QuickAnswer'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Chat/Widget/QuickAnswer/WBP_Chat_QuickAnswer.WBP_Chat_QuickAnswer'"
+  },
+  "ChatQuickMsgEdit": {
+    "UIName": "ChatQuickMsgEdit",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Chat/Widget/QuickAnswer/WBP_Chat_QuickAnswerEdit.WBP_Chat_QuickAnswerEdit'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Chat/Widget/QuickAnswer/WBP_Chat_QuickAnswerEdit.WBP_Chat_QuickAnswerEdit'"
+  },
+  "ChatBattleMessage": {
+    "UIName": "ChatBattleMessage",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Chat/Widget/Dialog/WBP_Chat_SimpleChatItem.WBP_Chat_SimpleChatItem'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Chat/Widget/Dialog/WBP_Chat_SimpleChatItem.WBP_Chat_SimpleChatItem'"
+  },
+  "ChatHeadOption": {
+    "UIName": "ChatHeadOption",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Chat/Widget/WBP_Chat_HeadBtnList.WBP_Chat_HeadBtnList'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Chat/Widget/WBP_Chat_HeadBtnList.WBP_Chat_HeadBtnList'"
+  },
+  "InteractiveItem": {
+    "UIName": "InteractiveItem",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/WBP_Battle_InteractiveItem.WBP_Battle_InteractiveItem'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/WBP_Battle_InteractiveItem.WBP_Battle_InteractiveItem'"
+  },
+  "InteractiveStar": {
+    "UIName": "InteractiveStar",
+    "BPPath": "WidgetBlueprint'/Game/UI/UI_PC/LevelMap/Widget/WBP_LevelMap_TempleStarItem.WBP_LevelMap_TempleStarItem'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/UI_PC/LevelMap/Widget/WBP_LevelMap_TempleStarItem.WBP_LevelMap_TempleStarItem'"
+  },
+  "InteractiveCapturePC": {
+    "UIName": "InteractiveCapturePC ",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/PC/WBP_Battle_Capture_P.WBP_Battle_Capture_P'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/PC/WBP_Battle_Capture_P.WBP_Battle_Capture_P'"
+  },
+  "InteractiveCaptureMobile": {
+    "UIName": "InteractiveCaptureMobile",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Mobile/WBP_Battle_Capture_M.WBP_Battle_Capture_M'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Mobile/WBP_Battle_Capture_M.WBP_Battle_Capture_M'"
+  },
+  "RougeRouteItem": {
+    "UIName": "RougeRouteItem",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/RougeLike/Widget/Route/WBP_Rouge_RouteItem.WBP_Rouge_RouteItem'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/RougeLike/Widget/Route/WBP_Rouge_RouteItem.WBP_Rouge_RouteItem'"
+  },
+  "BattleFortBtn": {
+    "UIName": "BattleFortBtn",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Mobile/WBP_Battle_FortBtn_M.WBP_Battle_FortBtn_M'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Mobile/WBP_Battle_FortBtn_M.WBP_Battle_FortBtn_M'"
+  },
+  "TempleItem": {
+    "UIName": "TempleItem",
+    "BPPath": "WidgetBlueprint'/Game/UI/UI_PC/Settlement/WBP_Settlement_TempleItem.WBP_Settlement_TempleItem'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/UI_PC/Settlement/WBP_Settlement_TempleItem.WBP_Settlement_TempleItem'"
+  },
+  "TrainingSetting_M": {
+    "UIName": "TrainingSetting_M",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Mobile/Training/WBP_Battle_TrainingSetting_M.WBP_Battle_TrainingSetting_M'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Mobile/Training/WBP_Battle_TrainingSetting_M.WBP_Battle_TrainingSetting_M'"
+  },
+  "DeathMask": {
+    "UIName": "DeathMask",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/WBP_Battle_Death.WBP_Battle_Death'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/WBP_Battle_Death.WBP_Battle_Death'"
+  },
+  "ImpressionShopItem": {
+    "UIName": "ImpressionShopItem ",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Impression/Widget/WBP_Impression_ShopItem.WBP_Impression_ShopItem_C'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Impression/Widget/WBP_Impression_ShopItem.WBP_Impression_ShopItem_C'"
+  },
+  "BattleNormalDrops": {
+    "UIName": "BattleNormalDrops",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/Drops/WBP_Battle_Drops.WBP_Battle_Drops'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/Drops/WBP_Battle_Drops.WBP_Battle_Drops'"
+  },
+  "BattleSpecialDrops": {
+    "UIName": "BattleSpecialDrops",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/Drops/WBP_Battle_SpecialDrops.WBP_Battle_SpecialDrops'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/Drops/WBP_Battle_SpecialDrops.WBP_Battle_SpecialDrops'"
+  },
+  "BattleKeyDescList": {
+    "UIName": "BattleKeyDescList",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Common/Key/WBP_Com_KeyDescList.WBP_Com_KeyDescList'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Common/Key/WBP_Com_KeyDescList.WBP_Com_KeyDescList'"
+  },
+  "TaskBar": {
+    "UIName": "TaskBar",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/TaskBar/WBP_Battle_TaskBar.WBP_Battle_TaskBar'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/TaskBar/WBP_Battle_TaskBar.WBP_Battle_TaskBar'"
+  },
+  "BattleEntry": {
+    "UIName": "BattleEntry",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/WBP_Battle_Entry.WBP_Battle_Entry'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/WBP_Battle_Entry.WBP_Battle_Entry'"
+  },
+  "TeamHead": {
+    "UIName": "TeamHead",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Team/Widget/WBP_Team_Head.WBP_Team_Head'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Team/Widget/WBP_Team_Head.WBP_Team_Head'"
+  },
+  "DynamicEvent": {
+    "UIName": "DynamicEvent",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/TaskBar/WBP_Battle_TaskBar_DynamicEvent.WBP_Battle_TaskBar_DynamicEvent'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/TaskBar/WBP_Battle_TaskBar_DynamicEvent.WBP_Battle_TaskBar_DynamicEvent'"
+  },
+  "InstructionPC": {
+    "UIName": "InstructionPC",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Instruction/PC/WBP_Instruction_P.WBP_Instruction_P'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Instruction/PC/WBP_Instruction_P.WBP_Instruction_P'"
+  },
+  "InstructionMobile": {
+    "UIName": "InstructionMobile",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Instruction/Mobile/WBP_Instruction_M.WBP_Instruction_M'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Instruction/Mobile/WBP_Instruction_M.WBP_Instruction_M'"
+  },
+  "PlayCommonPC": {
+    "UIName": "PlayCommonPC",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Play/PC/Common/WBP_Play_Common_Root_P.WBP_Play_Common_Root_P'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Play/PC/Common/WBP_Play_Common_Root_P.WBP_Play_Common_Root_P'"
+  },
+  "PlayCommonMobile": {
+    "UIName": "PlayCommonMobile",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Play/Mobile/Common/WBP_Play_Common_Root_M.WBP_Play_Common_Root_M'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Play/Mobile/Common/WBP_Play_Common_Root_M.WBP_Play_Common_Root_M'"
+  },
+  "DungeonMapSelectMobile": {
+    "UIName": "DungeonMapSelectMobile",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Play/Mobile/Depute/WBP_Play_Depute_Root_M.WBP_Play_Depute_Root_M'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Play/Mobile/Depute/WBP_Play_Depute_Root_M.WBP_Play_Depute_Root_M'"
+  },
+  "DungeonMapSelectPC": {
+    "UIName": "DungeonMapSelectPC",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Play/PC/Depute/WBP_Play_Depute_Root_P.WBP_Play_Depute_Root_P'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Play/PC/Depute/WBP_Play_Depute_Root_P.WBP_Play_Depute_Root_P'"
+  },
+  "DungeonSelectMobile": {
+    "UIName": "DungeonSelectMobile",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Play/Mobile/WBP_Play_Depute_M.WBP_Play_Depute_M'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Play/Mobile/WBP_Play_Depute_M.WBP_Play_Depute_M'"
+  },
+  "DungeonSelectPC": {
+    "UIName": "DungeonSelectPC",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Play/PC/WBP_Play_Depute_P.WBP_Play_Depute_P'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Play/PC/WBP_Play_Depute_P.WBP_Play_Depute_P'"
+  },
+  "DungeonSelectLevel": {
+    "UIName": "DungeonSelectLevel",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Play/Widget/Depute/WBP_Play_DeputeDetailList.WBP_Play_DeputeDetailList'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Play/Widget/Depute/WBP_Play_DeputeDetailList.WBP_Play_DeputeDetailList'"
+  },
+  "DeputeTypeIcon": {
+    "UIName": "DeputeTypeIcon",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Play/Widget/Depute/WBP_Play_DeputeTypeIcon.WBP_Play_DeputeTypeIcon'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Play/Widget/Depute/WBP_Play_DeputeTypeIcon.WBP_Play_DeputeTypeIcon'"
+  },
+  "TeamBattlePC": {
+    "UIName": "TeamBattlePC",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Team/PC/WBP_Team_PlayerList_P.WBP_Team_PlayerList_P'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Team/PC/WBP_Team_PlayerList_P.WBP_Team_PlayerList_P'"
+  },
+  "TeamBattleMobile": {
+    "UIName": "TeamBattleMobile",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Team/Mobile/WBP_Team_PlayerList_M.WBP_Team_PlayerList_M'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Team/Mobile/WBP_Team_PlayerList_M.WBP_Team_PlayerList_M'"
+  },
+  "TeamBattleInfoItem": {
+    "UIName": "TeamBattleInfoItem",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Team/PC/WBP_Team_PlayerItem_P.WBP_Team_PlayerItem_P'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Team/Mobile/WBP_Team_PlayerItem_M.WBP_Team_PlayerItem_M'"
+  },
+  "TeamBattleInfoWeapon": {
+    "UIName": "TeamBattleInfoWeapon",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Team/Widget/WBP_Team_PlayerInfo.WBP_Team_PlayerInfo'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Team/Widget/WBP_Team_PlayerInfo.WBP_Team_PlayerInfo'"
+  },
+  "TeamBattleInfoPhantom": {
+    "UIName": "TeamBattleInfoPhantom",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Team/PC/WBP_Team_PhantomItem_P.WBP_Team_PhantomItem_P'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Team/Mobile/WBP_Team_PhantomItem_M.WBP_Team_PhantomItem_M'"
+  },
+  "TeamBattleBloodBar": {
+    "UIName": "TeamBattleBloodBar",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Team/PC/WBP_Team_PlayerBar_P.WBP_Team_PlayerBar_P'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Team/Mobile/WBP_Team_PlayerBar_M.WBP_Team_PlayerBar_M'"
+  },
+  "TeamBattleOverReach": {
+    "UIName": "TeamBattleOverReach",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/WBP_Battle_Overreach.WBP_Battle_Overreach'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/WBP_Battle_Overreach.WBP_Battle_Overreach'"
+  },
+  "TeamBattlePlayerDead": {
+    "UIName": "TeamBattlePlayerDead",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/WBP_Battle_ResurrectionCoin.WBP_Battle_ResurrectionCoin'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/WBP_Battle_ResurrectionCoin.WBP_Battle_ResurrectionCoin'"
+  },
+  "SkillItem": {
+    "UIName": "SkillItem",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/PC/WBP_Battle_SkillItem_P.WBP_Battle_SkillItem_P'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/PC/WBP_Battle_SkillItem_P.WBP_Battle_SkillItem_P'"
+  },
+  "RougeMainTitle": {
+    "UIName": "RougeMainTitle",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/RougeLike/Widget/Title/WBP_Rouge_LightLessChasm.WBP_Rouge_LightLessChasm'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/RougeLike/Widget/Title/WBP_Rouge_LightLessChasm.WBP_Rouge_LightLessChasm'"
+  },
+  "BattleFortBloodUI": {
+    "UIName": "BattleFortBloodUI",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/WBP_Battle_FortBloodBar.WBP_Battle_FortBloodBar'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/WBP_Battle_FortBloodBar.WBP_Battle_FortBloodBar'"
+  },
+  "TakeAimIndicator": {
+    "UIName": "TakeAimIndicator",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/Aim/WBP_Battle_Aim.WBP_Battle_Aim'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/Aim/WBP_Battle_Aim.WBP_Battle_Aim'"
+  },
+  "BattleAimCrossbow": {
+    "UIName": "BattleAimCrossbow",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/Aim/WBP_Battle_Aim_CrossBow.WBP_Battle_Aim_CrossBow'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/Aim/WBP_Battle_Aim_CrossBow.WBP_Battle_Aim_CrossBow'"
+  },
+  "BattleAimShotgun": {
+    "UIName": "BattleAimShotgun",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/Aim/WBP_Battle_Aim_ShotGun.WBP_Battle_Aim_ShotGun'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/Aim/WBP_Battle_Aim_ShotGun.WBP_Battle_Aim_ShotGun'"
+  },
+  "BattleAimRifle": {
+    "UIName": "BattleAimRifle",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/Aim/WBP_Battle_Aim_Rifle.WBP_Battle_Aim_Rifle'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/Aim/WBP_Battle_Aim_Rifle.WBP_Battle_Aim_Rifle'"
+  },
+  "BattleAimCannon": {
+    "UIName": "BattleAimCannon",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/Aim/WBP_Battle_Aim_Cannon.WBP_Battle_Aim_Cannon'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/Aim/WBP_Battle_Aim_Cannon.WBP_Battle_Aim_Cannon'"
+  },
+  "BattleAimFire": {
+    "UIName": "BattleAimFire",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/Aim/WBP_Battle_Aim_Fire.WBP_Battle_Aim_Fire'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/Aim/WBP_Battle_Aim_Fire.WBP_Battle_Aim_Fire'"
+  },
+  "BattleAimThunder": {
+    "UIName": "BattleAimThunder",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/Aim/WBP_Battle_Aim_Thunder.WBP_Battle_Aim_Thunder'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/Aim/WBP_Battle_Aim_Thunder.WBP_Battle_Aim_Thunder'"
+  },
+  "BattleAimbutterfly": {
+    "UIName": "BattleAimbutterfly",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/Aim/WBP_Battle_Aim_Butterfly.WBP_Battle_Aim_Butterfly'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/Aim/WBP_Battle_Aim_Butterfly.WBP_Battle_Aim_Butterfly'"
+  },
+  "BattleAimBow": {
+    "UIName": "BattleAimBow",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/Aim/WBP_Battle_Aim_Bow.WBP_Battle_Aim_Bow'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/Aim/WBP_Battle_Aim_Bow.WBP_Battle_Aim_Bow'"
+  },
+  "BattleAimArcher": {
+    "UIName": "BattleAimArcher",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/Aim/WBP_Battle_Aim_Archer.WBP_Battle_Aim_Archer'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/Aim/WBP_Battle_Aim_Archer.WBP_Battle_Aim_Archer'"
+  },
+  "BattleAmmoBar": {
+    "UIName": "BattleAmmoBar",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/Aim/Ammo/WBP_Battle_Ammo.WBP_Battle_Ammo'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/Aim/Ammo/WBP_Battle_Ammo.WBP_Battle_Ammo'"
+  },
+  "BattleAmmoSingle": {
+    "UIName": "BattleAmmoSingle",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/Aim/Ammo/WBP_Battle_AmmoSingle.WBP_Battle_AmmoSingle'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/Aim/Ammo/WBP_Battle_AmmoSingle.WBP_Battle_AmmoSingle'"
+  },
+  "BattleAmmoUnlimitedSingle": {
+    "UIName": "BattleAmmoUnlimitedSingle",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/Aim/Ammo/WBP_Battle_AmmoUnlimited.WBP_Battle_AmmoUnlimited'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/Aim/Ammo/WBP_Battle_AmmoUnlimited.WBP_Battle_AmmoUnlimited'"
+  },
+  "InvitationLoading": {
+    "UIName": "InvitationLoading",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Entertainment/Widget/WBP_Entertainment_EnterTopic.WBP_Entertainment_EnterTopic'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Entertainment/Widget/WBP_Entertainment_EnterTopic.WBP_Entertainment_EnterTopic'"
+  },
+  "PetCaptureDefenseProgress": {
+    "UIName": "PetCaptureDefenseProgress",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Pet_Capture/Widget/WBP_Pet_Capture_DefenseProgress.WBP_Pet_Capture_DefenseProgress'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Pet_Capture/Widget/WBP_Pet_Capture_DefenseProgress.WBP_Pet_Capture_DefenseProgress'"
+  },
+  "SettingList": {
+    "UIName": "SettingList",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Set/PC/WBP_Set_List_P.WBP_Set_List_P'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Set/Mobile/WBP_Set_List_M.WBP_Set_List_M'"
+  },
+  "DeputeTicket": {
+    "UIName": "DeputeTicket",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Play/Widget/Depute/WBP_Play_Depute_Ticket.WBP_Play_Depute_Ticket'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Play/Widget/Depute/WBP_Play_Depute_Ticket.WBP_Play_Depute_Ticket'"
+  },
+  "ModGuide": {
+    "UIName": "ModGuide",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Instruction/Widget/WBP_Instruction_Mod.WBP_Instruction_Mod'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Instruction/Widget/WBP_Instruction_Mod.WBP_Instruction_Mod'"
+  },
+  "RegionMapSelectItem": {
+    "UIName": "RegionMapSelectItem",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Map/Widget/WBP_Map_InteractiveItem.WBP_Map_InteractiveItem'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Map/Widget/WBP_Map_InteractiveItem.WBP_Map_InteractiveItem'"
+  },
+  "GachaAnime": {
+    "UIName": "GachaAnime",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Gacha/Widget/WBP_Gacha_Anime.WBP_Gacha_Anime'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Gacha/Widget/WBP_Gacha_Anime.WBP_Gacha_Anime'"
+  },
+  "ComLoadingXiaoBai": {
+    "UIName": "ComLoadingXiaoBai",
+    "BPPath": "WidgetBlueprint'/Game/UI/WBP/Common/Loading/Widget/WBP_Com_Loading_XiaoBai.WBP_Com_Loading_XiaoBai'",
+    "MobileBPPath": "WidgetBlueprint'/Game/UI/WBP/Common/Loading/Widget/WBP_Com_Loading_XiaoBai.WBP_Com_Loading_XiaoBai'"
+  }
+}

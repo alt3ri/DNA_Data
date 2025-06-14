@@ -1,0 +1,53 @@
+[
+  {
+    "HardBossId": 1,
+    "DisplayPriority": 1,
+    "HardBossName": "UI_HardBoss_Name_1",
+    "HardBossDes": "UI_HardBoss_Des_1",
+    "UnlockCondition": 4120,
+    "DifficultyId": {},
+    "MonsterStaticId": 1310010602,
+    "MonsterId": 8500002,
+    "MonsterIcon": "/Game/UI/Texture/Dynamic/Image/Permanent/T_Permanent_HardBoss_Xibi_S.T_Permanent_HardBoss_Xibi_S",
+    "MainIcon": "/Game/UI/Texture/Dynamic/Image/Permanent/T_Permanent_HardBoss_Xibi.T_Permanent_HardBoss_Xibi",
+    "GameModePath": "/Game/AssetDesign/GameMode/HardBoss/BP_EMGameMode_HardBoss00_BossXibi.BP_EMGameMode_HardBoss00_BossXibi",
+    "AirWallStaticId": 1610010620,
+    "StorylinePath": "HardBoss/Xibi",
+    "PosDisplayName": "BP_HardBoss_PlayerStart",
+    "TeleportId": 1100
+  },
+  {
+    "HardBossId": 2,
+    "DisplayPriority": 2,
+    "HardBossName": "UI_HardBoss_Name_2",
+    "HardBossDes": "UI_HardBoss_Des_2",
+    "UnlockCondition": 4120,
+    "DifficultyId": {},
+    "MonsterStaticId": 1440052,
+    "MonsterId": 8503002,
+    "MonsterIcon": "/Game/UI/Texture/Dynamic/Image/Permanent/T_Permanent_HardBoss_ShiJingZhe_S.T_Permanent_HardBoss_ShiJingZhe_S",
+    "MainIcon": "/Game/UI/Texture/Dynamic/Image/Permanent/T_Permanent_HardBoss_ShiJingZhe.T_Permanent_HardBoss_ShiJingZhe",
+    "GameModePath": "/Game/AssetDesign/GameMode/HardBoss/BP_EMGameMode_HardBoss01_BossShijingzhe.BP_EMGameMode_HardBoss01_BossShijingzhe",
+    "AirWallStaticId": 1440064,
+    "StorylinePath": "HardBoss/Shijingzhe",
+    "PosDisplayName": "BP_HardBoss_PlayerStart",
+    "TeleportId": 1101
+  },
+  {
+    "HardBossId": 3,
+    "DisplayPriority": 3,
+    "HardBossName": "UI_HardBoss_Name_3",
+    "HardBossDes": "UI_HardBoss_Des_3",
+    "UnlockCondition": 4120,
+    "DifficultyId": {},
+    "MonsterStaticId": 1240027,
+    "MonsterId": 8502002,
+    "MonsterIcon": "/Game/UI/Texture/Dynamic/Image/Permanent/T_Permanent_HardBoss_Saiqi_S.T_Permanent_HardBoss_Saiqi_S",
+    "MainIcon": "/Game/UI/Texture/Dynamic/Image/Permanent/T_Permanent_HardBoss_Saiqi.T_Permanent_HardBoss_Saiqi",
+    "GameModePath": "/Game/AssetDesign/GameMode/HardBoss/BP_EMGameMode_HardBoss02_BossSaiqi.BP_EMGameMode_HardBoss02_BossSaiqi",
+    "AirWallStaticId": 1240025,
+    "StorylinePath": "HardBoss/Saiqi",
+    "PosDisplayName": "BP_HardBoss_PlayerStart",
+    "TeleportId": 1102
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "TestPrintNode": {
+    "NodeType": "TestPrintNode",
+    "TestArgs": {
+      "Text": "HelloWorld"
+    }
+  },
+  "TestGreaterNode": {
+    "NodeType": "TestGreaterNode",
+    "TestArgs": {
+      "Delay": 1,
+      "A": 1,
+      "B": 2
+    }
+  },
+  "ForbidWeaponByWeaponTagNode": {
+    "NodeType": "ForbidWeaponByWeaponTagNode",
+    "TestArgs": {
+      "WeaponTags": {}
+    }
+  }
+}

@@ -1,0 +1,562 @@
+{
+  "101": {
+    "ServerID": 101,
+    "Name": "开发服",
+    "DevFlag": 1,
+    "GroupId": 101,
+    "CrashSightNumPC": 0,
+    "CrashSightNumMB": 0
+  },
+  "102": {
+    "ServerID": 102,
+    "Name": "分支服",
+    "DevFlag": 1,
+    "GroupId": 102,
+    "CrashSightNumPC": 5,
+    "CrashSightNumMB": 5
+  },
+  "103": {
+    "ServerID": 103,
+    "Name": "压测服",
+    "DevFlag": 2,
+    "GroupId": 103,
+    "CrashSightNumPC": 0,
+    "CrashSightNumMB": 0
+  },
+  "104": {
+    "ServerID": 104,
+    "Name": "联机服",
+    "DevFlag": 1,
+    "GroupId": 104,
+    "CrashSightNumPC": 0,
+    "CrashSightNumMB": 0
+  },
+  "105": {
+    "ServerID": 105,
+    "Name": "版署服",
+    "DevFlag": 1,
+    "GroupId": 105,
+    "CrashSightNumPC": 0,
+    "CrashSightNumMB": 0
+  },
+  "106": {
+    "ServerID": 106,
+    "Name": "运营服",
+    "DevFlag": 1,
+    "GroupId": 101,
+    "CrashSightNumPC": 0,
+    "CrashSightNumMB": 0
+  },
+  "107": {
+    "ServerID": 107,
+    "Name": "周版本服",
+    "DevFlag": 1,
+    "GroupId": 107,
+    "CrashSightNumPC": 0,
+    "CrashSightNumMB": 0
+  },
+  "108": {
+    "ServerID": 108,
+    "Name": "内部http服",
+    "DevFlag": 1,
+    "GroupId": 108,
+    "CrashSightNumPC": 0,
+    "CrashSightNumMB": 0
+  },
+  "109": {
+    "ServerID": 109,
+    "Name": "内部测试联机服",
+    "DevFlag": 1,
+    "GroupId": 102,
+    "CrashSightNumPC": 0,
+    "CrashSightNumMB": 0
+  },
+  "110": {
+    "ServerID": 110,
+    "Name": "CE专用服务器",
+    "DevFlag": 1,
+    "GroupId": 110,
+    "CrashSightNumPC": 0,
+    "CrashSightNumMB": 0
+  },
+  "201": {
+    "ServerID": 201,
+    "Name": "测试战斗服",
+    "DevFlag": 1,
+    "GroupId": 301,
+    "CrashSightNumPC": 0,
+    "CrashSightNumMB": 0
+  },
+  "301": {
+    "ServerID": 301,
+    "Name": "永浩服",
+    "DevFlag": 1,
+    "GroupId": 301,
+    "CrashSightNumPC": 0,
+    "CrashSightNumMB": 0
+  },
+  "302": {
+    "ServerID": 302,
+    "Name": "shuitian",
+    "DevFlag": 1,
+    "GroupId": 302,
+    "CrashSightNumPC": 0,
+    "CrashSightNumMB": 0
+  },
+  "303": {
+    "ServerID": 303,
+    "Name": "杨晨服",
+    "DevFlag": 1,
+    "GroupId": 303,
+    "CrashSightNumPC": 0,
+    "CrashSightNumMB": 0
+  },
+  "304": {
+    "ServerID": 304,
+    "Name": "Json",
+    "DevFlag": 1,
+    "GroupId": 304,
+    "CrashSightNumPC": 0,
+    "CrashSightNumMB": 0
+  },
+  "305": {
+    "ServerID": 305,
+    "Name": "LXZ",
+    "DevFlag": 1,
+    "GroupId": 305,
+    "CrashSightNumPC": 0,
+    "CrashSightNumMB": 0
+  },
+  "306": {
+    "ServerID": 306,
+    "Name": "QA服",
+    "DevFlag": 1,
+    "GroupId": 306,
+    "CrashSightNumPC": 0,
+    "CrashSightNumMB": 0
+  },
+  "307": {
+    "ServerID": 307,
+    "Name": "雪月服（跨服）",
+    "DevFlag": 1,
+    "GroupId": 307,
+    "CrashSightNumPC": 0,
+    "CrashSightNumMB": 0
+  },
+  "308": {
+    "ServerID": 308,
+    "Name": "咕咕服",
+    "DevFlag": 1,
+    "GroupId": 308,
+    "CrashSightNumPC": 0,
+    "CrashSightNumMB": 0
+  },
+  "309": {
+    "ServerID": 309,
+    "Name": "性能分析服",
+    "DevFlag": 1,
+    "GroupId": 309,
+    "CrashSightNumPC": 0,
+    "CrashSightNumMB": 0
+  },
+  "310": {
+    "ServerID": 310,
+    "Name": "biaomopopo",
+    "DevFlag": 1,
+    "GroupId": 310,
+    "CrashSightNumPC": 0,
+    "CrashSightNumMB": 0
+  },
+  "311": {
+    "ServerID": 311,
+    "Name": "雪月服",
+    "DevFlag": 1,
+    "GroupId": 311,
+    "CrashSightNumPC": 0,
+    "CrashSightNumMB": 0
+  },
+  "312": {
+    "ServerID": 312,
+    "Name": "咕咕物理服",
+    "DevFlag": 1,
+    "GroupId": 312,
+    "CrashSightNumPC": 0,
+    "CrashSightNumMB": 0
+  },
+  "313": {
+    "ServerID": 313,
+    "Name": "内网http服",
+    "DevFlag": 1,
+    "GroupId": 313,
+    "CrashSightNumPC": 0,
+    "CrashSightNumMB": 0
+  },
+  "314": {
+    "ServerID": 314,
+    "Name": "永浩2服",
+    "DevFlag": 1,
+    "GroupId": 301,
+    "CrashSightNumPC": 0,
+    "CrashSightNumMB": 0
+  },
+  "316": {
+    "ServerID": 316,
+    "Name": "QA周版本服",
+    "DevFlag": 1,
+    "GroupId": 316,
+    "CrashSightNumPC": 0,
+    "CrashSightNumMB": 0
+  },
+  "333": {
+    "ServerID": 333,
+    "Name": "JuleszzZ服",
+    "DevFlag": 1,
+    "GroupId": 333,
+    "CrashSightNumPC": 0,
+    "CrashSightNumMB": 0
+  },
+  "397": {
+    "ServerID": 397,
+    "Name": "本地私服2",
+    "DevFlag": 1,
+    "GroupId": 399,
+    "CrashSightNumPC": 0,
+    "CrashSightNumMB": 0
+  },
+  "399": {
+    "ServerID": 399,
+    "Name": "本地私服1",
+    "DevFlag": 1,
+    "GroupId": 399,
+    "CrashSightNumPC": 0,
+    "CrashSightNumMB": 0
+  },
+  "401": {
+    "ServerID": 401,
+    "Name": "阿里云测试",
+    "DevFlag": 1,
+    "GroupId": 401,
+    "CrashSightNumPC": 0,
+    "CrashSightNumMB": 0
+  },
+  "402": {
+    "ServerID": 402,
+    "Name": "华为云测试",
+    "DevFlag": 1,
+    "GroupId": 402,
+    "CrashSightNumPC": 0,
+    "CrashSightNumMB": 0
+  },
+  "403": {
+    "ServerID": 403,
+    "Name": "火山云测试",
+    "DevFlag": 1,
+    "GroupId": 403,
+    "CrashSightNumPC": 0,
+    "CrashSightNumMB": 0
+  },
+  "404": {
+    "ServerID": 404,
+    "Name": "腾讯云测试",
+    "DevFlag": 1,
+    "GroupId": 404,
+    "CrashSightNumPC": 0,
+    "CrashSightNumMB": 0
+  },
+  "501": {
+    "ServerID": 501,
+    "Name": "海外内网测试美国",
+    "DevFlag": 1,
+    "GroupId": 501,
+    "CrashSightNumPC": 0,
+    "CrashSightNumMB": 0
+  },
+  "502": {
+    "ServerID": 502,
+    "Name": "海外内网测试亚洲",
+    "DevFlag": 1,
+    "GroupId": 502,
+    "CrashSightNumPC": 5,
+    "CrashSightNumMB": 5
+  },
+  "503": {
+    "ServerID": 503,
+    "Name": "海外内网测试欧洲",
+    "DevFlag": 1,
+    "GroupId": 503,
+    "CrashSightNumPC": 0,
+    "CrashSightNumMB": 0
+  },
+  "504": {
+    "ServerID": 504,
+    "Name": "海外内网测试港澳台",
+    "DevFlag": 1,
+    "GroupId": 504,
+    "CrashSightNumPC": 0,
+    "CrashSightNumMB": 0
+  },
+  "1001": {
+    "ServerID": 1001,
+    "Name": "亚服",
+    "DevFlag": 1,
+    "GroupId": 1001,
+    "CrashSightNumPC": 0,
+    "CrashSightNumMB": 0
+  },
+  "1002": {
+    "ServerID": 1002,
+    "Name": "港澳台",
+    "DevFlag": 1,
+    "GroupId": 1002,
+    "CrashSightNumPC": 0,
+    "CrashSightNumMB": 0
+  },
+  "1003": {
+    "ServerID": 1003,
+    "Name": "欧洲",
+    "DevFlag": 1,
+    "GroupId": 1003,
+    "CrashSightNumPC": 0,
+    "CrashSightNumMB": 0
+  },
+  "1004": {
+    "ServerID": 1004,
+    "Name": "美东",
+    "DevFlag": 1,
+    "GroupId": 1004,
+    "CrashSightNumPC": 0,
+    "CrashSightNumMB": 0
+  },
+  "1005": {
+    "ServerID": 1005,
+    "Name": "国服",
+    "DevFlag": 1,
+    "GroupId": 1005,
+    "CrashSightNumPC": 0,
+    "CrashSightNumMB": 0
+  },
+  "1109": {
+    "ServerID": 1109,
+    "Name": "分支2服",
+    "DevFlag": 1,
+    "GroupId": 1109,
+    "CrashSightNumPC": 0,
+    "CrashSightNumMB": 0
+  },
+  "2001": {
+    "ServerID": 2001,
+    "Name": "b站提审服",
+    "GroupId": 2001,
+    "CrashSightNumPC": 0,
+    "CrashSightNumMB": 0
+  },
+  "2002": {
+    "ServerID": 2002,
+    "Name": "海外生放综艺录制",
+    "GroupId": 2002,
+    "CrashSightNumPC": 0,
+    "CrashSightNumMB": 0
+  },
+  "2003": {
+    "ServerID": 2003,
+    "Name": "tgs媒体服",
+    "GroupId": 2003,
+    "CrashSightNumPC": 0,
+    "CrashSightNumMB": 0
+  },
+  "2004": {
+    "ServerID": 2004,
+    "Name": "审iOS国内",
+    "DevFlag": 1,
+    "GroupId": 2004,
+    "CrashSightNumPC": 0,
+    "CrashSightNumMB": 0
+  },
+  "2005": {
+    "ServerID": 2005,
+    "Name": "DuetNightAbyss-1",
+    "DevFlag": 1,
+    "GroupId": 2005,
+    "CrashSightNumPC": 0,
+    "CrashSightNumMB": 0
+  },
+  "2006": {
+    "ServerID": 2006,
+    "Name": "渠道宣讲服",
+    "DevFlag": 1,
+    "GroupId": 2006,
+    "CrashSightNumPC": 0,
+    "CrashSightNumMB": 0
+  },
+  "2011": {
+    "ServerID": 2011,
+    "Name": "国内线上内部测试01",
+    "DevFlag": 1,
+    "GroupId": 2011,
+    "CrashSightNumPC": 0,
+    "CrashSightNumMB": 0
+  },
+  "2012": {
+    "ServerID": 2012,
+    "Name": "国内线上内部测试02",
+    "DevFlag": 1,
+    "GroupId": 2011,
+    "CrashSightNumPC": 0,
+    "CrashSightNumMB": 0
+  },
+  "2021": {
+    "ServerID": 2021,
+    "Name": "海外线上内部测试01",
+    "DevFlag": 1,
+    "GroupId": 2021,
+    "CrashSightNumPC": 0,
+    "CrashSightNumMB": 0
+  },
+  "2022": {
+    "ServerID": 2022,
+    "Name": "海外线上内部测试02",
+    "DevFlag": 1,
+    "GroupId": 2021,
+    "CrashSightNumPC": 0,
+    "CrashSightNumMB": 0
+  },
+  "10001": {
+    "ServerID": 10001,
+    "Name": "国服登录服1",
+    "GroupId": 10001,
+    "CrashSightNumPC": 400,
+    "CrashSightNumMB": 1500
+  },
+  "10002": {
+    "ServerID": 10002,
+    "Name": "国服登录服2",
+    "GroupId": 10001,
+    "CrashSightNumPC": 300,
+    "CrashSightNumMB": 1500
+  },
+  "10003": {
+    "ServerID": 10003,
+    "Name": "国服登录服3",
+    "GroupId": 10001,
+    "CrashSightNumPC": 300,
+    "CrashSightNumMB": 1500
+  },
+  "10004": {
+    "ServerID": 10004,
+    "Name": "国服战斗、匹配服",
+    "GroupId": 10001,
+    "CrashSightNumPC": 0,
+    "CrashSightNumMB": 0
+  },
+  "10005": {
+    "ServerID": 10005,
+    "Name": "国服http、聊天服",
+    "GroupId": 10001,
+    "CrashSightNumPC": 0,
+    "CrashSightNumMB": 0
+  },
+  "20001": {
+    "ServerID": 20001,
+    "Name": "亚服登录服1",
+    "GroupId": 20001,
+    "CrashSightNumPC": 250,
+    "CrashSightNumMB": 1100
+  },
+  "20002": {
+    "ServerID": 20002,
+    "Name": "亚服登录服2",
+    "GroupId": 20001,
+    "CrashSightNumPC": 250,
+    "CrashSightNumMB": 1100
+  },
+  "20003": {
+    "ServerID": 20003,
+    "Name": "亚服战斗、匹配服",
+    "GroupId": 20001,
+    "CrashSightNumPC": 0,
+    "CrashSightNumMB": 0
+  },
+  "20004": {
+    "ServerID": 20004,
+    "Name": "亚服http、聊天服",
+    "GroupId": 20001,
+    "CrashSightNumPC": 0,
+    "CrashSightNumMB": 0
+  },
+  "30001": {
+    "ServerID": 30001,
+    "Name": "美服登录服1 http 聊天",
+    "GroupId": 30001,
+    "CrashSightNumPC": 250,
+    "CrashSightNumMB": 1100
+  },
+  "30002": {
+    "ServerID": 30002,
+    "Name": "美服战斗、匹配服",
+    "GroupId": 30001,
+    "CrashSightNumPC": 0,
+    "CrashSightNumMB": 0
+  },
+  "40001": {
+    "ServerID": 40001,
+    "Name": "欧服登录服1 http 聊天",
+    "GroupId": 40001,
+    "CrashSightNumPC": 250,
+    "CrashSightNumMB": 1100
+  },
+  "40002": {
+    "ServerID": 40002,
+    "Name": "欧服战斗、匹配服",
+    "GroupId": 40001,
+    "CrashSightNumPC": 0,
+    "CrashSightNumMB": 0
+  },
+  "50001": {
+    "ServerID": 50001,
+    "Name": "国服给力服",
+    "DevFlag": 1,
+    "GroupId": 50001,
+    "CrashSightNumPC": 5,
+    "CrashSightNumMB": 5
+  },
+  "50002": {
+    "ServerID": 50002,
+    "Name": "海外给力服",
+    "DevFlag": 1,
+    "GroupId": 50002,
+    "CrashSightNumPC": 5,
+    "CrashSightNumMB": 5
+  },
+  "60001": {
+    "ServerID": 60001,
+    "Name": "国服媒体服",
+    "DevFlag": 1,
+    "GroupId": 60001,
+    "CrashSightNumPC": 0,
+    "CrashSightNumMB": 0
+  },
+  "60002": {
+    "ServerID": 60002,
+    "Name": "亚服媒体服",
+    "DevFlag": 1,
+    "GroupId": 60002,
+    "CrashSightNumPC": 0,
+    "CrashSightNumMB": 0
+  },
+  "60003": {
+    "ServerID": 60003,
+    "Name": "美服媒体服",
+    "DevFlag": 1,
+    "GroupId": 60003,
+    "CrashSightNumPC": 0,
+    "CrashSightNumMB": 0
+  },
+  "60004": {
+    "ServerID": 60004,
+    "Name": "欧服媒体服",
+    "DevFlag": 1,
+    "GroupId": 60004,
+    "CrashSightNumPC": 0,
+    "CrashSightNumMB": 0
+  }
+}

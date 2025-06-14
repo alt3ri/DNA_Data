@@ -1,0 +1,190 @@
+{
+  "2050211": {
+    "CreatureId": 2050211,
+    "Tags": [
+      "Bullet"
+    ],
+    "AttackRangeType": "RayLength",
+    "AllowAttackRangeModify": true,
+    "EffectMultiple": true,
+    "HitEnemy": {},
+    "HitScene": {},
+    "SpawnSocket": [
+      {
+        "UseLocation": "Weapon"
+      },
+      {
+        "SpawnSocket": "gunpoint_01"
+      }
+    ],
+    "SkillEffectsDelayTime": 0.1,
+    "MultiTrace": 2
+  },
+  "2050311": {
+    "CreatureId": 2050311,
+    "Tags": [
+      "Bullet"
+    ],
+    "AttackRangeType": "RayLength",
+    "AllowAttackRangeModify": true,
+    "EffectMultiple": true,
+    "HitEnemy": {},
+    "SpawnSocket": [
+      {
+        "UseLocation": "Weapon"
+      },
+      {
+        "SpawnSocket": "gunpoint_01"
+      }
+    ],
+    "Radius": 10,
+    "MultiTrace": 1
+  },
+  "2050411": {
+    "CreatureId": 2050411,
+    "Tags": [
+      "Bullet"
+    ],
+    "AttackRangeType": "RayLength",
+    "AllowAttackRangeModify": true,
+    "EffectMultiple": true,
+    "SpawnSocket": [
+      {
+        "UseLocation": "Weapon"
+      },
+      {
+        "SpawnSocket": "gunpoint_01"
+      }
+    ],
+    "MultiTrace": 2,
+    "LifeTime": 1,
+    "CreateRayActor": true,
+    "RayFXID": 2050401
+  },
+  "2050412": {
+    "CreatureId": 2050412,
+    "Tags": [
+      "Bullet"
+    ],
+    "AttackRangeType": "RayLength",
+    "AllowAttackRangeModify": true,
+    "EffectMultiple": true,
+    "SpawnSocket": [
+      {
+        "UseLocation": "Weapon"
+      },
+      {
+        "SpawnSocket": "gunpoint_01"
+      }
+    ],
+    "MultiTrace": 2,
+    "LifeTime": 1,
+    "CreateRayActor": true,
+    "RayFXID": 2050402
+  },
+  "2050413": {
+    "CreatureId": 2050413,
+    "Tags": [
+      "Bullet"
+    ],
+    "AttackRangeType": "RayLength",
+    "AllowAttackRangeModify": true,
+    "EffectMultiple": true,
+    "SpawnSocket": [
+      {
+        "UseLocation": "Weapon"
+      },
+      {
+        "SpawnSocket": "gunpoint_01"
+      }
+    ],
+    "MultiTrace": 2,
+    "LifeTime": 1,
+    "CreateRayActor": true,
+    "RayFXID": 2050403
+  },
+  "2050421": {
+    "CreatureId": 2050421,
+    "Tags": [
+      "Bullet"
+    ],
+    "AttackRangeType": "RayLength",
+    "AllowAttackRangeModify": true,
+    "EffectMultiple": true,
+    "HitEnemy": {},
+    "HitScene": {},
+    "SpawnSocket": [
+      {
+        "UseLocation": "Weapon"
+      },
+      {
+        "SpawnSocket": "gunpoint_01"
+      }
+    ],
+    "MultiTrace": 2,
+    "LifeTime": 1
+  },
+  "2050422": {
+    "CreatureId": 2050422,
+    "Tags": [
+      "Bullet"
+    ],
+    "AttackRangeType": "RayLength",
+    "AllowAttackRangeModify": true,
+    "EffectMultiple": true,
+    "HitEnemy": {},
+    "HitScene": {},
+    "SpawnSocket": [
+      {
+        "UseLocation": "Weapon"
+      },
+      {
+        "SpawnSocket": "gunpoint_01"
+      }
+    ],
+    "MultiTrace": 2,
+    "LifeTime": 1
+  },
+  "2050423": {
+    "CreatureId": 2050423,
+    "Tags": [
+      "Bullet"
+    ],
+    "AttackRangeType": "RayLength",
+    "AllowAttackRangeModify": true,
+    "EffectMultiple": true,
+    "HitEnemy": {},
+    "HitScene": {},
+    "SpawnSocket": [
+      {
+        "UseLocation": "Weapon"
+      },
+      {
+        "SpawnSocket": "gunpoint_01"
+      }
+    ],
+    "MultiTrace": 2,
+    "LifeTime": 1
+  },
+  "2050511": {
+    "CreatureId": 2050511,
+    "Tags": [
+      "Bullet"
+    ],
+    "AttackRangeType": "RayLength",
+    "AllowAttackRangeModify": true,
+    "EffectMultiple": true,
+    "HitEnemy": {},
+    "HitScene": {},
+    "SpawnSocket": [
+      {
+        "UseLocation": "Weapon"
+      },
+      {
+        "SpawnSocket": "gunpoint_01"
+      }
+    ],
+    "SkillEffectsDelayTime": 0.1,
+    "MultiTrace": 2
+  }
+}

@@ -1,0 +1,785 @@
+{
+  "10111": {
+    "Children": {
+      "10221": true,
+      "10322": true
+    },
+    "Parent": [
+      "[-1] = true"
+    ]
+  },
+  "10221": {
+    "Children": [
+      true
+    ],
+    "Parent": [
+      true
+    ]
+  },
+  "10322": {
+    "Children": {
+      "10532": true,
+      "10633": true
+    },
+    "Parent": [
+      true
+    ]
+  },
+  "10431": {
+    "Children": {
+      "10741": true,
+      "10842": true
+    },
+    "Parent": {
+      "10221": true
+    }
+  },
+  "10532": {
+    "Children": [
+      true
+    ],
+    "Parent": [
+      true
+    ]
+  },
+  "10633": {
+    "Children": [
+      true
+    ],
+    "Parent": [
+      true
+    ]
+  },
+  "10741": {
+    "Children": [
+      true
+    ],
+    "Parent": [
+      true
+    ]
+  },
+  "10842": {
+    "Children": [
+      true
+    ],
+    "Parent": [
+      true
+    ]
+  },
+  "10943": {
+    "Children": [
+      true
+    ],
+    "Parent": {
+      "10532": true
+    }
+  },
+  "11044": {
+    "Children": [
+      true
+    ],
+    "Parent": {
+      "10633": true
+    }
+  },
+  "11151": {
+    "Children": [
+      true
+    ],
+    "Parent": {
+      "10741": true
+    }
+  },
+  "11252": {
+    "Children": [
+      true
+    ],
+    "Parent": {
+      "10842": true
+    }
+  },
+  "11353": {
+    "Children": {
+      "11763": true
+    },
+    "Parent": [
+      true
+    ]
+  },
+  "11454": {
+    "Children": {
+      "11864": true
+    },
+    "Parent": [
+      true
+    ]
+  },
+  "11561": {
+    "Children": [
+      true
+    ],
+    "Parent": [
+      true
+    ]
+  },
+  "11662": {
+    "Children": [
+      true
+    ],
+    "Parent": [
+      true
+    ]
+  },
+  "11763": {
+    "Children": [
+      true
+    ],
+    "Parent": [
+      true
+    ]
+  },
+  "11864": {
+    "Children": [
+      true
+    ],
+    "Parent": [
+      true
+    ]
+  },
+  "11971": {
+    "Children": {
+      "12281": true
+    },
+    "Parent": [
+      true
+    ]
+  },
+  "12072": {
+    "Children": {
+      "12382": true
+    },
+    "Parent": [
+      true
+    ]
+  },
+  "12173": {
+    "Children": [],
+    "Parent": {
+      "11763": true,
+      "11864": true
+    }
+  },
+  "12281": {
+    "Children": [
+      true
+    ],
+    "Parent": [
+      true
+    ]
+  },
+  "12382": {
+    "Children": [
+      true
+    ],
+    "Parent": [
+      true
+    ]
+  },
+  "12491": {
+    "Children": [],
+    "Parent": {
+      "12281": true,
+      "12382": true
+    }
+  },
+  "20111": {
+    "Children": [
+      true,
+      true
+    ],
+    "Parent": [
+      "[-1] = true"
+    ]
+  },
+  "20221": {
+    "Children": {
+      "20431": true,
+      "20532": true
+    },
+    "Parent": [
+      true
+    ]
+  },
+  "20322": {
+    "Children": {
+      "20532": true,
+      "20633": true
+    },
+    "Parent": [
+      true
+    ]
+  },
+  "20431": {
+    "Children": [
+      true
+    ],
+    "Parent": {
+      "20221": true
+    }
+  },
+  "20532": {
+    "Children": {
+      "20842": true,
+      "20943": true
+    },
+    "Parent": [
+      true,
+      true
+    ]
+  },
+  "20633": {
+    "Children": [
+      true
+    ],
+    "Parent": {
+      "20322": true
+    }
+  },
+  "20741": {
+    "Children": [
+      true
+    ],
+    "Parent": {
+      "20431": true
+    }
+  },
+  "20842": {
+    "Children": [
+      true
+    ],
+    "Parent": [
+      true
+    ]
+  },
+  "20943": {
+    "Children": [
+      true
+    ],
+    "Parent": [
+      true
+    ]
+  },
+  "21044": {
+    "Children": [
+      true
+    ],
+    "Parent": {
+      "20633": true
+    }
+  },
+  "21151": {
+    "Children": {
+      "21561": true
+    },
+    "Parent": [
+      true
+    ]
+  },
+  "21252": {
+    "Children": {
+      "21662": true
+    },
+    "Parent": {
+      "20842": true
+    }
+  },
+  "21353": {
+    "Children": [
+      true
+    ],
+    "Parent": {
+      "20943": true
+    }
+  },
+  "21454": {
+    "Children": [
+      true
+    ],
+    "Parent": [
+      true
+    ]
+  },
+  "21561": {
+    "Children": [
+      true
+    ],
+    "Parent": [
+      true
+    ]
+  },
+  "21662": {
+    "Children": [
+      true
+    ],
+    "Parent": [
+      true
+    ]
+  },
+  "21763": {
+    "Children": [
+      true
+    ],
+    "Parent": [
+      true
+    ]
+  },
+  "21864": {
+    "Children": [
+      true
+    ],
+    "Parent": [
+      true
+    ]
+  },
+  "21971": {
+    "Children": [],
+    "Parent": {
+      "21561": true,
+      "21662": true
+    }
+  },
+  "22072": {
+    "Children": {
+      "22281": true
+    },
+    "Parent": [
+      true
+    ]
+  },
+  "22173": {
+    "Children": {
+      "22382": true
+    },
+    "Parent": [
+      true
+    ]
+  },
+  "22281": {
+    "Children": [
+      true
+    ],
+    "Parent": [
+      true
+    ]
+  },
+  "22382": {
+    "Children": [
+      true
+    ],
+    "Parent": [
+      true
+    ]
+  },
+  "22491": {
+    "Children": [],
+    "Parent": {
+      "22281": true,
+      "22382": true
+    }
+  },
+  "30111": {
+    "Children": {
+      "30221": true,
+      "30322": true
+    },
+    "Parent": [
+      "[-1] = true"
+    ]
+  },
+  "30221": {
+    "Children": {
+      "30431": true,
+      "30532": true
+    },
+    "Parent": [
+      true
+    ]
+  },
+  "30322": {
+    "Children": [
+      true
+    ],
+    "Parent": [
+      true
+    ]
+  },
+  "30431": {
+    "Children": [
+      true
+    ],
+    "Parent": [
+      true
+    ]
+  },
+  "30532": {
+    "Children": [
+      true
+    ],
+    "Parent": [
+      true
+    ]
+  },
+  "30633": {
+    "Children": {
+      "30943": true,
+      "31044": true
+    },
+    "Parent": {
+      "30322": true
+    }
+  },
+  "30741": {
+    "Children": [
+      true
+    ],
+    "Parent": {
+      "30431": true
+    }
+  },
+  "30842": {
+    "Children": [
+      true
+    ],
+    "Parent": {
+      "30532": true
+    }
+  },
+  "30943": {
+    "Children": [
+      true
+    ],
+    "Parent": [
+      true
+    ]
+  },
+  "31044": {
+    "Children": [
+      true
+    ],
+    "Parent": [
+      true
+    ]
+  },
+  "31151": {
+    "Children": {
+      "31561": true
+    },
+    "Parent": [
+      true
+    ]
+  },
+  "31252": {
+    "Children": {
+      "31662": true
+    },
+    "Parent": [
+      true
+    ]
+  },
+  "31353": {
+    "Children": [
+      true
+    ],
+    "Parent": {
+      "30943": true
+    }
+  },
+  "31454": {
+    "Children": [
+      true
+    ],
+    "Parent": {
+      "31044": true
+    }
+  },
+  "31561": {
+    "Children": [
+      true
+    ],
+    "Parent": [
+      true
+    ]
+  },
+  "31662": {
+    "Children": [
+      true
+    ],
+    "Parent": [
+      true
+    ]
+  },
+  "31763": {
+    "Children": [
+      true
+    ],
+    "Parent": [
+      true
+    ]
+  },
+  "31864": {
+    "Children": [
+      true
+    ],
+    "Parent": [
+      true
+    ]
+  },
+  "31971": {
+    "Children": [],
+    "Parent": {
+      "31561": true,
+      "31662": true
+    }
+  },
+  "32072": {
+    "Children": {
+      "32281": true
+    },
+    "Parent": [
+      true
+    ]
+  },
+  "32173": {
+    "Children": {
+      "32382": true
+    },
+    "Parent": [
+      true
+    ]
+  },
+  "32281": {
+    "Children": [
+      true
+    ],
+    "Parent": [
+      true
+    ]
+  },
+  "32382": {
+    "Children": [
+      true
+    ],
+    "Parent": [
+      true
+    ]
+  },
+  "32491": {
+    "Children": [],
+    "Parent": {
+      "32281": true,
+      "32382": true
+    }
+  },
+  "40111": {
+    "Children": {
+      "40221": true,
+      "40322": true
+    },
+    "Parent": [
+      "[-1] = true"
+    ]
+  },
+  "40221": {
+    "Children": [
+      true
+    ],
+    "Parent": [
+      true
+    ]
+  },
+  "40322": {
+    "Children": {
+      "40532": true,
+      "40633": true
+    },
+    "Parent": [
+      true
+    ]
+  },
+  "40431": {
+    "Children": {
+      "40741": true,
+      "40842": true
+    },
+    "Parent": {
+      "40221": true
+    }
+  },
+  "40532": {
+    "Children": [
+      true
+    ],
+    "Parent": [
+      true
+    ]
+  },
+  "40633": {
+    "Children": [
+      true
+    ],
+    "Parent": [
+      true
+    ]
+  },
+  "40741": {
+    "Children": [
+      true
+    ],
+    "Parent": [
+      true
+    ]
+  },
+  "40842": {
+    "Children": [
+      true
+    ],
+    "Parent": [
+      true
+    ]
+  },
+  "40943": {
+    "Children": [
+      true
+    ],
+    "Parent": {
+      "40532": true
+    }
+  },
+  "41044": {
+    "Children": [
+      true
+    ],
+    "Parent": {
+      "40633": true
+    }
+  },
+  "41151": {
+    "Children": [
+      true
+    ],
+    "Parent": {
+      "40741": true
+    }
+  },
+  "41252": {
+    "Children": [
+      true
+    ],
+    "Parent": {
+      "40842": true
+    }
+  },
+  "41353": {
+    "Children": {
+      "41763": true
+    },
+    "Parent": [
+      true
+    ]
+  },
+  "41454": {
+    "Children": {
+      "41864": true
+    },
+    "Parent": [
+      true
+    ]
+  },
+  "41561": {
+    "Children": [
+      true
+    ],
+    "Parent": [
+      true
+    ]
+  },
+  "41662": {
+    "Children": [
+      true
+    ],
+    "Parent": [
+      true
+    ]
+  },
+  "41763": {
+    "Children": [
+      true
+    ],
+    "Parent": [
+      true
+    ]
+  },
+  "41864": {
+    "Children": [
+      true
+    ],
+    "Parent": [
+      true
+    ]
+  },
+  "41971": {
+    "Children": {
+      "42281": true
+    },
+    "Parent": [
+      true
+    ]
+  },
+  "42072": {
+    "Children": {
+      "42382": true
+    },
+    "Parent": [
+      true
+    ]
+  },
+  "42173": {
+    "Children": [],
+    "Parent": {
+      "41763": true,
+      "41864": true
+    }
+  },
+  "42281": {
+    "Children": [
+      true
+    ],
+    "Parent": [
+      true
+    ]
+  },
+  "42382": {
+    "Children": [
+      true
+    ],
+    "Parent": [
+      true
+    ]
+  },
+  "42491": {
+    "Children": [],
+    "Parent": {
+      "42281": true,
+      "42382": true
+    }
+  },
+  "-1": {
+    "Children": {
+      "10111": true,
+      "20111": true,
+      "30111": true,
+      "40111": true
+    },
+    "Parent": []
+  }
+}

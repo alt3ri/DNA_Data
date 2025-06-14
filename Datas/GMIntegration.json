@@ -1,0 +1,686 @@
+{
+  "SystemCommonUnlock": {
+    "GMIntegrationName": "SystemCommonUnlock",
+    "GMDisplayName": "通用解锁项",
+    "GMCommands": [
+      "gm UnlockRegionTeleport 1",
+      "gm MockAllSystemCondition",
+      "gm SuccessAllSystemGuide"
+    ]
+  },
+  "SystemCommonUnlock1": {
+    "GMIntegrationName": "SystemCommonUnlock1",
+    "GMDisplayName": "通用解锁项",
+    "GMCommands": [
+      "gm MockAllSystemCondition",
+      "gm SuccessAllSystemGuide"
+    ]
+  },
+  "StartChapter01": {
+    "GMIntegrationName": "StartChapter01",
+    "GMDisplayName": "直接开始第一章",
+    "GMCommands": [
+      "sgm aoc 3301",
+      "gm succquestchain 100102",
+      "gm succquestchain 100103",
+      "gm skipregion 1 101102 3",
+      "gm TestTrackingQuest 100201",
+      "gm FSG 2003",
+      "gm FSG 2007"
+    ]
+  },
+  "sew": {
+    "GMIntegrationName": "sew",
+    "GMCommands": [
+      "gm SystemCommonUnlock",
+      "gm succquestchain 100201",
+      "gm succquestchain 200101",
+      "gm startquest 10020211",
+      "gm skipregion 1 101701 1"
+    ]
+  },
+  "haer": {
+    "GMIntegrationName": "haer",
+    "GMCommands": [
+      "gm SystemCommonUnlock",
+      "gm succquestchain 100201",
+      "gm succquestchain 200101",
+      "gm skipregion 1 101101 1",
+      "gm startquest 10020207"
+    ]
+  },
+  "kk": {
+    "GMIntegrationName": "kk",
+    "GMCommands": [
+      "gm SystemCommonUnlock",
+      "sgm ar 2001 4300",
+      "gm succquestchain 100202",
+      "gm startquest 10020305",
+      "gm skipregion 1 101301 1",
+      "gm TestTrackingQuest 100203"
+    ]
+  },
+  "sjz": {
+    "GMIntegrationName": "sjz",
+    "GMCommands": [
+      "gm SystemCommonUnlock",
+      "sgm ar 2001 4300",
+      "gm succquestchain 100202",
+      "gm startquest 10020312",
+      "gm skipregion 1 101304 1"
+    ]
+  },
+  "dream": {
+    "GMIntegrationName": "dream",
+    "GMCommands": [
+      "gm SystemCommonUnlock",
+      "gm succquestchain 100207",
+      "gm skipregion 1 101401 1"
+    ]
+  },
+  "dreamboss1": {
+    "GMIntegrationName": "dreamboss1",
+    "GMCommands": [
+      "gm SystemCommonUnlock",
+      "gm succquestchain 100207",
+      "gm startquest 10020803",
+      "gm skipregion 1 101402 1"
+    ]
+  },
+  "dreamboss2": {
+    "GMIntegrationName": "dreamboss2",
+    "GMCommands": [
+      "gm SystemCommonUnlock",
+      "gm succquestchain 100207",
+      "gm startquest 10020804",
+      "gm skipregion 1 101402 2"
+    ]
+  },
+  "icelakeboss": {
+    "GMIntegrationName": "icelakeboss",
+    "GMCommands": [
+      "gm SystemCommonUnlock",
+      "sgm ar 2001 8000",
+      "gm succquestchain 100206",
+      "gm succquestchain 200102",
+      "gm startquest 10020706",
+      "gm skipregion 1 101103 2"
+    ]
+  },
+  "ht": {
+    "GMIntegrationName": "ht",
+    "GMCommands": [
+      "gm SystemCommonUnlock",
+      "gm succquestchain 100204",
+      "gm startquest 10020503",
+      "gm skipregion 1 101102 1"
+    ]
+  },
+  "walk": {
+    "GMIntegrationName": "walk",
+    "GMCommands": [
+      "gm SystemCommonUnlock",
+      "gm succquestchain 100205",
+      "gm succquestchain 200102",
+      "gm skipregion 1 101103 1",
+      "gm startquest 10020608"
+    ]
+  },
+  "waitsaiqi": {
+    "GMIntegrationName": "waitsaiqi",
+    "GMCommands": [
+      "sgm ar 2001 8000",
+      "gm succquestchain 100206",
+      "gm succquestchain 200102",
+      "gm skipregion 1 101101 2"
+    ]
+  },
+  "searchsaiqi": {
+    "GMIntegrationName": "searchsaiqi",
+    "GMCommands": [
+      "sgm ar 2001 8000",
+      "gm succquestchain 100206",
+      "gm succquestchain 200102",
+      "gm startquest 10020705",
+      "gm skipregion 1 101101 2"
+    ]
+  },
+  "ex01": {
+    "GMIntegrationName": "ex01",
+    "GMDisplayName": "直接开始EX01",
+    "GMCommands": [
+      "gm SystemCommonUnlock1",
+      "gm succquestchain 100102",
+      "gm succquestchain 100103",
+      "gm succquestchain 100201",
+      "gm succquestchain 100208",
+      "gm TestTrackingQuest 110101",
+      "sgm sl 60"
+    ]
+  },
+  "ex01NengyuanUP": {
+    "GMIntegrationName": "ex01NengyuanUP",
+    "GMDisplayName": "EX01能源室上层",
+    "GMCommands": [
+      "gm SystemCommonUnlock",
+      "gm succquestchain 110103",
+      "gm TestTrackingQuest 110104",
+      "gm skipregion 1 102101 3"
+    ]
+  },
+  "ex01NengyuanDown": {
+    "GMIntegrationName": "ex01NengyuanDown",
+    "GMDisplayName": "EX01能源室下层",
+    "GMCommands": [
+      "gm SystemCommonUnlock",
+      "gm succquestchain 110103",
+      "gm TestTrackingQuest 110104",
+      "gm startquest 11010403",
+      "gm skipregion 1 102101 3"
+    ]
+  },
+  "ex01Tuiche": {
+    "GMIntegrationName": "ex01Tuiche",
+    "GMDisplayName": "EX01推车-炮台",
+    "GMCommands": [
+      "gm SystemCommonUnlock",
+      "gm succquestchain 110105",
+      "gm TestTrackingQuest 110106",
+      "gm startquest 11010604",
+      "gm skipregion 1 102102 3"
+    ]
+  },
+  "ex01Paoji": {
+    "GMIntegrationName": "ex01Paoji",
+    "GMDisplayName": "EX01大炮玩法",
+    "GMCommands": [
+      "gm SystemCommonUnlock",
+      "gm succquestchain 110105",
+      "gm TestTrackingQuest 110106",
+      "gm startquest 11010605",
+      "gm skipregion 1 102102 2"
+    ]
+  },
+  "ex01Maifu": {
+    "GMIntegrationName": "ex01Maifu",
+    "GMDisplayName": "EX01下水道前埋伏",
+    "GMCommands": [
+      "gm SystemCommonUnlock",
+      "gm succquestchain 110106",
+      "gm TestTrackingquest 110107",
+      "gm startquest 11010710",
+      "gm skipregion 1 102102 2"
+    ]
+  },
+  "ex01Sew": {
+    "GMIntegrationName": "ex01Sew",
+    "GMDisplayName": "EX01下水道",
+    "GMCommands": [
+      "gm SystemCommonUnlock",
+      "gm succquestchain 110107",
+      "gm TestTrackingQuest 110108",
+      "gm skipregion 1 101801 1"
+    ]
+  },
+  "ex01Haier": {
+    "GMIntegrationName": "ex01Haier",
+    "GMDisplayName": "EX01海尔法",
+    "GMCommands": [
+      "gm SystemCommonUnlock",
+      "gm succquestchain 110108",
+      "gm TestTrackingQuest 110109",
+      "gm startquest 11010903",
+      "gm skipregion 1 102201 1"
+    ]
+  },
+  "ch02": {
+    "GMIntegrationName": "ch02",
+    "GMCommands": [
+      "gm SystemCommonUnlock",
+      "gm succquestchain 100300",
+      "gm TestTrackingQuest 100301"
+    ]
+  },
+  "ch023": {
+    "GMIntegrationName": "ch023",
+    "GMCommands": [
+      "gm SystemCommonUnlock",
+      "gm succquestchain 100301",
+      "gm TestTrackingQuest 100303"
+    ]
+  },
+  "ch025": {
+    "GMIntegrationName": "ch025",
+    "GMCommands": [
+      "gm SystemCommonUnlock",
+      "gm succquestchain 100303",
+      "gm TestTrackingQuest 100305"
+    ]
+  },
+  "GuideBook": {
+    "GMIntegrationName": "GuideBook",
+    "GMDisplayName": "解锁教学手册条目",
+    "GMCommands": [
+      "gm A:GMUnlockGuideBook()"
+    ]
+  },
+  "SSS": {
+    "GMIntegrationName": "SSS",
+    "GMCommands": [
+      "gm UnlockRegionTeleport 1",
+      "gm MockAllSystemCondition",
+      "gm SuccessAllSystemGuide",
+      "gm skipRegion 1 101101 1",
+      "gm succquestchain 100201",
+      "gm succquestchain 100202",
+      "gm succquestchain 100203",
+      "gm succquestchain 100204",
+      "gm succquestchain 100205",
+      "gm succquestchain 100206",
+      "gm succquestchain 100208",
+      "sgm aitv 1011 Morality 100",
+      "sgm aitv 1011 Empathy 100",
+      "sgm aitv 1011 Wisdom 100",
+      "sgm aitv 1011 Benefit 100",
+      "sgm aitv 1011 Chaos 100"
+    ]
+  },
+  "TrainingGroundQuest": {
+    "GMIntegrationName": "TrainingGroundQuest",
+    "GMDisplayName": "训练场引导",
+    "GMCommands": [
+      "gm succquestchain 100103",
+      "gm startquest 10020109",
+      "gm TestTrackingQuest 100201",
+      "gm cm 6001001 1 1"
+    ]
+  },
+  "Rou_Blessing_10101": {
+    "GMIntegrationName": "Rou_Blessing_10101",
+    "GMDisplayName": "肉鸽祝福近战一套",
+    "GMCommands": [
+      "sgm rlgb 101 1",
+      "sgm rlgb 102 1",
+      "sgm rlgb 103 1",
+      "sgm rlgb 104 1",
+      "sgm rlgb 105 1",
+      "sgm rlgb 106 1",
+      "sgm rlgb 107 1",
+      "sgm rlgb 108 1",
+      "sgm rlgb 109 1",
+      "sgm rlgb 110 1",
+      "sgm rlgb 111 1"
+    ]
+  },
+  "Rou_Blessing_10102": {
+    "GMIntegrationName": "Rou_Blessing_10102",
+    "GMDisplayName": "肉鸽祝福远程一套",
+    "GMCommands": [
+      "sgm rlgb 201 1",
+      "sgm rlgb 202 1",
+      "sgm rlgb 203 1",
+      "sgm rlgb 204 1",
+      "sgm rlgb 205 1",
+      "sgm rlgb 206 1",
+      "sgm rlgb 207 1",
+      "sgm rlgb 208 1",
+      "sgm rlgb 209 1",
+      "sgm rlgb 210 1",
+      "sgm rlgb 211 1"
+    ]
+  },
+  "Rou_Blessing_10105": {
+    "GMIntegrationName": "Rou_Blessing_10105",
+    "GMDisplayName": "肉鸽祝福驱黯蝶一套",
+    "GMCommands": [
+      "sgm rlgb 501 1",
+      "sgm rlgb 502 1",
+      "sgm rlgb 503 1",
+      "sgm rlgb 504 1",
+      "sgm rlgb 505 1",
+      "sgm rlgb 506 1",
+      "sgm rlgb 507 1",
+      "sgm rlgb 508 1",
+      "sgm rlgb 509 1",
+      "sgm rlgb 510 1",
+      "sgm rlgb 511 1"
+    ]
+  },
+  "Rou_Blessing_10106": {
+    "GMIntegrationName": "Rou_Blessing_10106",
+    "GMDisplayName": "肉鸽祝福微火虫一套",
+    "GMCommands": [
+      "sgm rlgb 601 1",
+      "sgm rlgb 602 1",
+      "sgm rlgb 603 1",
+      "sgm rlgb 604 1",
+      "sgm rlgb 605 1",
+      "sgm rlgb 606 1",
+      "sgm rlgb 607 1",
+      "sgm rlgb 608 1",
+      "sgm rlgb 609 1",
+      "sgm rlgb 610 1",
+      "sgm rlgb 611 1"
+    ]
+  },
+  "Rou_Blessing_10107": {
+    "GMIntegrationName": "Rou_Blessing_10107",
+    "GMDisplayName": "肉鸽祝福生命一套",
+    "GMCommands": [
+      "sgm rlgb 701 1",
+      "sgm rlgb 702 1",
+      "sgm rlgb 703 1",
+      "sgm rlgb 704 1",
+      "sgm rlgb 705 1",
+      "sgm rlgb 706 1",
+      "sgm rlgb 707 1",
+      "sgm rlgb 708 1",
+      "sgm rlgb 709 1",
+      "sgm rlgb 710 1",
+      "sgm rlgb 711 1"
+    ]
+  },
+  "letmein": {
+    "GMIntegrationName": "letmein",
+    "GMDisplayName": "解锁所有区域",
+    "GMCommands": [
+      "gm runstory LetMeIn"
+    ]
+  },
+  "enlike": {
+    "GMIntegrationName": "enlike",
+    "GMCommands": [
+      "gm SystemCommonUnlock",
+      "sgm ar 2001 10000",
+      "gm succquestchain 100206",
+      "gm runstory LetMeIn"
+    ]
+  },
+  "findsaiqi2": {
+    "GMIntegrationName": "findsaiqi2",
+    "GMCommands": [
+      "gm SystemCommonUnlock",
+      "sgm ar 2001 10000",
+      "gm succquestchain 100206",
+      "gm succquest 10020706",
+      "gm skipregion 1 101103 1"
+    ]
+  },
+  "findsaiqi1": {
+    "GMIntegrationName": "findsaiqi1",
+    "GMCommands": [
+      "gm SystemCommonUnlock",
+      "sgm ar 2001 10000",
+      "gm succquestchain 100206",
+      "gm succquest 10020705",
+      "gm skipregion 1 101101 10"
+    ]
+  },
+  "GXY_weaponbreak_resource": {
+    "GMIntegrationName": "GXY_weaponbreak_resource",
+    "GMCommands": [
+      "sgm ar 11001 10000",
+      "sgm ar 11002 10000",
+      "sgm ar 11003 10000",
+      "sgm ar 11004 10000",
+      "sgm ar 11005 10000",
+      "sgm ar 11006 10000",
+      "sgm ar 11007 10000",
+      "sgm ar 11008 10000",
+      "sgm ar 11009 10000",
+      "sgm ar 11010 10000",
+      "sgm ar 11011 10000",
+      "sgm ar 11012 10000",
+      "sgm ar 11013 10000",
+      "sgm ar 11014 10000",
+      "sgm ar 11015 10000",
+      "sgm ar 11016 10000",
+      "sgm ar 11017 10000",
+      "sgm ar 11018 10000"
+    ]
+  },
+  "GXY_charbreak_resource": {
+    "GMIntegrationName": "GXY_charbreak_resource",
+    "GMCommands": [
+      "sgm ar 10001 10000",
+      "sgm ar 10002 10000",
+      "sgm ar 10003 10000",
+      "sgm ar 10004 10000",
+      "sgm ar 10005 10000",
+      "sgm ar 10006 10000",
+      "sgm ar 10007 10000",
+      "sgm ar 10008 10000",
+      "sgm ar 10009 10000",
+      "sgm ar 10010 10000",
+      "sgm ar 10011 10000",
+      "sgm ar 10012 10000",
+      "sgm ar 10013 10000",
+      "sgm ar 10014 10000",
+      "sgm ar 10015 10000",
+      "sgm ar 10016 10000",
+      "sgm ar 10017 10000",
+      "sgm ar 10018 10000",
+      "sgm ar 10019 10000",
+      "sgm ar 10020 10000",
+      "sgm ar 10021 10000",
+      "sgm ar 10022 10000",
+      "sgm ar 10023 10000",
+      "sgm ar 10024 10000"
+    ]
+  },
+  "GXY_common_resource": {
+    "GMIntegrationName": "GXY_common_resource",
+    "GMCommands": [
+      "sgm ar 101 9999999",
+      "sgm ar 102 9999999",
+      "sgm ar 201 999999",
+      "sgm ar 202 999999",
+      "sgm ar 2007 9999999",
+      "sgm ar 2008 9999999",
+      "sgm ar 2009 9999999",
+      "sgm ar 2010 9999999",
+      "sgm ar 2011 9999999",
+      "sgm ar 2012 9999999",
+      "sgm ar 2013 9999999",
+      "sgm ar 2014 9999999",
+      "sgm ar 20001 9999999",
+      "sgm ar 20002 9999999",
+      "sgm ar 20003 9999999",
+      "sgm ar 20004 9999999",
+      "sgm ar 20005 9999999",
+      "sgm ar 20006 9999999",
+      "sgm ar 20007 9999999",
+      "sgm ar 20008 9999999",
+      "sgm ar 20009 9999999",
+      "sgm ar 20010 9999999",
+      "sgm ar 20011 9999999",
+      "sgm ar 20012 9999999",
+      "sgm ar 20013 9999999",
+      "sgm ar 20014 9999999",
+      "sgm ar 20015 9999999",
+      "sgm ar 20016 9999999",
+      "sgm ar 20017 9999999",
+      "sgm ar 20018 9999999",
+      "sgm ar 20019 9999999",
+      "sgm ar 20020 9999999",
+      "sgm ar 20021 9999999",
+      "sgm ar 20022 9999999",
+      "sgm ar 20023 9999999",
+      "sgm ar 20024 9999999",
+      "sgm ar 20025 9999999",
+      "sgm ar 20026 9999999",
+      "sgm ar 20027 9999999",
+      "sgm ar 20028 9999999",
+      "sgm ar 20029 9999999",
+      "sgm ar 20030 9999999",
+      "sgm ar 20031 9999999",
+      "sgm ar 20032 9999999"
+    ]
+  },
+  "GXY_4xLv20_char": {
+    "GMIntegrationName": "GXY_4xLv20_char",
+    "GMCommands": [
+      "sgm aoc 1101 20",
+      "sgm aoc 2301 20",
+      "sgm aoc 3103 20",
+      "sgm aoc 3201 20",
+      "sgm aoc 3301 20",
+      "sgm aoc 4202 20"
+    ]
+  },
+  "GXY_1xLv3_mod": {
+    "GMIntegrationName": "GXY_1xLv3_mod",
+    "GMCommands": [
+      "sgm aom 11001 3",
+      "sgm aom 11002 3",
+      "sgm aom 11003 3",
+      "sgm aom 11004 3",
+      "sgm aom 11007 3",
+      "sgm aom 11101 3",
+      "sgm aom 11102 3",
+      "sgm aom 11103 3",
+      "sgm aom 11104 3",
+      "sgm aom 11105 3",
+      "sgm aom 11106 3",
+      "sgm aom 12001 3",
+      "sgm aom 12002 3",
+      "sgm aom 12003 3",
+      "sgm aom 12006 3",
+      "sgm aom 12101 3",
+      "sgm aom 12102 3",
+      "sgm aom 12103 3",
+      "sgm aom 13001 3",
+      "sgm aom 13002 3",
+      "sgm aom 13003 3",
+      "sgm aom 13006 3",
+      "sgm aom 13101 3",
+      "sgm aom 13102 3",
+      "sgm aom 13103 3"
+    ]
+  },
+  "GXY_2xLv3_mod": {
+    "GMIntegrationName": "GXY_2xLv3_mod",
+    "GMCommands": [
+      "sgm aom 21005 3",
+      "sgm aom 21006 3",
+      "sgm aom 21111 3",
+      "sgm aom 21112 3",
+      "sgm aom 21113 3",
+      "sgm aom 21114 3",
+      "sgm aom 21115 3",
+      "sgm aom 21116 3",
+      "sgm aom 22007 3",
+      "sgm aom 22008 3",
+      "sgm aom 22111 3",
+      "sgm aom 22112 3",
+      "sgm aom 22113 3",
+      "sgm aom 23007 3",
+      "sgm aom 23008 3",
+      "sgm aom 23111 3",
+      "sgm aom 23112 3",
+      "sgm aom 23113 3",
+      "sgm aom 24001 3",
+      "sgm aom 24002 3",
+      "sgm aom 24003 3",
+      "sgm aom 24004 3",
+      "sgm aom 24005 3",
+      "sgm aom 24006 3",
+      "sgm aom 24101 3",
+      "sgm aom 24102 3",
+      "sgm aom 24103 3",
+      "sgm aom 25001 3",
+      "sgm aom 25002 3",
+      "sgm aom 25003 3",
+      "sgm aom 25004 3",
+      "sgm aom 25005 3",
+      "sgm aom 25006 3",
+      "sgm aom 25101 3",
+      "sgm aom 25102 3",
+      "sgm aom 25103 3"
+    ]
+  },
+  "GXY_3xLv5_mod": {
+    "GMIntegrationName": "GXY_3xLv5_mod",
+    "GMCommands": [
+      "sgm aom 31121 5",
+      "sgm aom 31122 5",
+      "sgm aom 31123 5",
+      "sgm aom 31124 5",
+      "sgm aom 31125 5",
+      "sgm aom 31126 5",
+      "sgm aom 31201 5",
+      "sgm aom 31202 5",
+      "sgm aom 31203 5",
+      "sgm aom 31204 5",
+      "sgm aom 31301 5",
+      "sgm aom 31321 5",
+      "sgm aom 31322 5",
+      "sgm aom 31323 5",
+      "sgm aom 31324 5",
+      "sgm aom 31325 5",
+      "sgm aom 31326 5",
+      "sgm aom 31501 5",
+      "sgm aom 31502 5",
+      "sgm aom 31511 5",
+      "sgm aom 31512 5",
+      "sgm aom 31513 5",
+      "sgm aom 31521 5",
+      "sgm aom 31531 5",
+      "sgm aom 31532 5",
+      "sgm aom 31541 5",
+      "sgm aom 32004 5",
+      "sgm aom 32005 5",
+      "sgm aom 32101 5",
+      "sgm aom 32102 5",
+      "sgm aom 32103 5",
+      "sgm aom 32201 5",
+      "sgm aom 32202 5",
+      "sgm aom 32301 5",
+      "sgm aom 32302 5",
+      "sgm aom 32402 5",
+      "sgm aom 33004 5",
+      "sgm aom 33005 5",
+      "sgm aom 33101 5",
+      "sgm aom 33102 5",
+      "sgm aom 33103 5",
+      "sgm aom 33201 5",
+      "sgm aom 33202 5",
+      "sgm aom 33203 5",
+      "sgm aom 33204 5",
+      "sgm aom 33321 5",
+      "sgm aom 33322 5",
+      "sgm aom 33331 5",
+      "sgm aom 33332 5",
+      "sgm aom 33411 5",
+      "sgm aom 34001 5",
+      "sgm aom 34002 5",
+      "sgm aom 34003 5",
+      "sgm aom 34004 5",
+      "sgm aom 34005 5",
+      "sgm aom 34006 5",
+      "sgm aom 34101 5",
+      "sgm aom 34102 5",
+      "sgm aom 34103 5",
+      "sgm aom 35001 5",
+      "sgm aom 35002 5",
+      "sgm aom 35003 5",
+      "sgm aom 35004 5",
+      "sgm aom 35005 5",
+      "sgm aom 35006 5",
+      "sgm aom 35101 5",
+      "sgm aom 35102 5",
+      "sgm aom 35103 5"
+    ]
+  },
+  "FinishModQuest": {
+    "GMIntegrationName": "FinishModQuest",
+    "GMDisplayName": "完成Mod引导任务",
+    "GMCommands": [
+      "gm A:GMPhaseQuestComplete(104001,10400103)",
+      "gm A:GMPhaseQuestComplete(104001,10400104)",
+      "gm A:GMPhaseQuestComplete(104001,10400105)",
+      "gm A:GMPhaseQuestComplete(104001,10400108)",
+      "gm A:GMPhaseQuestComplete(104001,10400109)"
+    ]
+  }
+}

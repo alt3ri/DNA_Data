@@ -1,0 +1,139 @@
+{
+  "1001": {
+    "ProbabilityId": 1001,
+    "ProbabilityStar5": 60,
+    "ProbabilityStar4": 510,
+    "Star5": {
+      "CeilingNum": 73,
+      "ProbabilityUp": 600,
+      "CeilingUp": 2
+    },
+    "Star4": [
+      {
+        "CeilingNum": 8
+      },
+      {
+        "ProbabilityUp": 4745
+      },
+      {
+        "CeilingUp": 0
+      }
+    ],
+    "ShowGetStar5Times": 90
+  },
+  "2001": {
+    "ProbabilityId": 2001,
+    "ProbabilityStar5": 60,
+    "ProbabilityStar4": 510,
+    "Star5": {
+      "CeilingNum": 73,
+      "ProbabilityUp": 600,
+      "CeilingUp": 1
+    },
+    "Star4": [
+      {
+        "CeilingNum": 8
+      },
+      {
+        "ProbabilityUp": 4745
+      },
+      {
+        "CeilingUp": 0
+      }
+    ],
+    "ShutdownIfGetStar5": true,
+    "ShowGetStar5Times": 90
+  },
+  "3001": {
+    "ProbabilityId": 3001,
+    "ProbabilityStar5": 80,
+    "ProbabilityStar4": 600,
+    "Star5": {
+      "CeilingNum": 67,
+      "ProbabilityUp": 770,
+      "CeilingUp": 1
+    },
+    "Star4": [
+      {
+        "CeilingNum": 8
+      },
+      {
+        "ProbabilityUp": 4745
+      },
+      {
+        "CeilingUp": 0
+      }
+    ],
+    "ShowGetStar5Times": 80
+  },
+  "9997": {
+    "ProbabilityId": 9997,
+    "ProbabilityStar5": 60,
+    "ProbabilityStar4": 510,
+    "Star5": {
+      "CeilingNum": 40,
+      "ProbabilityUp": 1000,
+      "CeilingUp": 0
+    },
+    "Star4": [
+      {
+        "CeilingNum": 8
+      },
+      {
+        "ProbabilityUp": 4745
+      },
+      {
+        "CeilingUp": 0
+      }
+    ]
+  },
+  "9998": {
+    "ProbabilityId": 9998,
+    "ProbabilityStar5": 0,
+    "ProbabilityStar4": 10000,
+    "Star5": [
+      {
+        "CeilingNum": 0
+      },
+      {
+        "ProbabilityUp": 0
+      },
+      {
+        "CeilingUp": 0
+      }
+    ],
+    "Star4": [
+      {
+        "CeilingNum": 0
+      },
+      {
+        "ProbabilityUp": 0
+      },
+      {
+        "CeilingUp": 0
+      }
+    ]
+  },
+  "9999": {
+    "ProbabilityId": 9999,
+    "ProbabilityStar5": 60,
+    "ProbabilityStar4": 510,
+    "Star5": {
+      "CeilingNum": 73,
+      "ProbabilityUp": 600,
+      "CeilingUp": 0
+    },
+    "Star4": [
+      {
+        "CeilingNum": 8
+      },
+      {
+        "ProbabilityUp": 4745
+      },
+      {
+        "CeilingUp": 0
+      }
+    ],
+    "ShowGetStar5Times": 90
+  }
+}

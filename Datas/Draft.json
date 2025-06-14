@@ -1,0 +1,5674 @@
+{
+  "1001": {
+    "DraftId": 1001,
+    "Rarity": 5,
+    "IsInfinity": true,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Forge_Product01.Icon_Resource_Forge_Product01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Resource",
+    "ProductId": 20027,
+    "ProductNum": 1,
+    "Time": 15,
+    "FoundryCost": [
+      15000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20023",
+        "Num = 2"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20008",
+        "Num = 1"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20029",
+        "Num = 1"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20032",
+        "Num = 1"
+      ]
+    ]
+  },
+  "1002": {
+    "DraftId": 1002,
+    "Rarity": 5,
+    "IsInfinity": true,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Forge_Product02.Icon_Resource_Forge_Product02",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Resource",
+    "ProductId": 20028,
+    "ProductNum": 1,
+    "Time": 15,
+    "FoundryCost": [
+      15000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20023",
+        "Num = 1"
+      ],
+      {
+        "Type": "Resource",
+        "Id": 20008,
+        "Num": 2
+      },
+      [
+        "Type = \"Resource",
+        "Id = 20029",
+        "Num = 1"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20032",
+        "Num = 1"
+      ]
+    ]
+  },
+  "1003": {
+    "DraftId": 1003,
+    "Rarity": 5,
+    "IsInfinity": true,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Forge_Product04.Icon_Resource_Forge_Product04",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Resource",
+    "ProductId": 20030,
+    "ProductNum": 1,
+    "Time": 25,
+    "FoundryCost": [
+      25000
+    ],
+    "Resource": [
+      {
+        "Type": "Resource",
+        "Id": 20021,
+        "Num": 5
+      },
+      [
+        "Type = \"Resource",
+        "Id = 20027",
+        "Num = 1"
+      ]
+    ]
+  },
+  "1004": {
+    "DraftId": 1004,
+    "Rarity": 5,
+    "IsInfinity": true,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Forge_Product05.Icon_Resource_Forge_Product05",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Resource",
+    "ProductId": 20031,
+    "ProductNum": 1,
+    "Time": 25,
+    "FoundryCost": [
+      25000
+    ],
+    "Resource": [
+      {
+        "Type": "Resource",
+        "Id": 20024,
+        "Num": 5
+      },
+      [
+        "Type = \"Resource",
+        "Id = 20028",
+        "Num = 1"
+      ]
+    ]
+  },
+  "1005": {
+    "DraftId": 1005,
+    "Rarity": 4,
+    "IsInfinity": true,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Forge_Product03.Icon_Resource_Forge_Product03",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Resource",
+    "ProductId": 20029,
+    "ProductNum": 2,
+    "Time": 10,
+    "FoundryCost": [
+      10000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20010",
+        "Num = 100"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20009",
+        "Num = 50"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20002",
+        "Num = 50"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20011",
+        "Num = 50"
+      ]
+    ]
+  },
+  "1006": {
+    "DraftId": 1006,
+    "Rarity": 4,
+    "IsInfinity": true,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Forge_Product06.Icon_Resource_Forge_Product06",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Resource",
+    "ProductId": 20032,
+    "ProductNum": 2,
+    "Time": 10,
+    "FoundryCost": [
+      10000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20010",
+        "Num = 100"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20012",
+        "Num = 50"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20005",
+        "Num = 50"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20011",
+        "Num = 50"
+      ]
+    ]
+  },
+  "1007": {
+    "DraftId": 1007,
+    "Rarity": 4,
+    "IsInfinity": true,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Forge_High03.Icon_Resource_Forge_High03",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Resource",
+    "ProductId": 20023,
+    "ProductNum": 5,
+    "Time": 10,
+    "FoundryCost": [
+      10000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20013",
+        "Num = 10"
+      ],
+      {
+        "Type": "Resource",
+        "Id": 20014,
+        "Num": 10
+      },
+      {
+        "Type": "Resource",
+        "Id": 20019,
+        "Num": 10
+      },
+      [
+        "Type = \"Resource",
+        "Id = 20018",
+        "Num = 5"
+      ]
+    ]
+  },
+  "1008": {
+    "DraftId": 1008,
+    "Rarity": 4,
+    "IsInfinity": true,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_Ganran02.Icon_Resource_Ganran02",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Resource",
+    "ProductId": 20008,
+    "ProductNum": 5,
+    "Time": 10,
+    "FoundryCost": [
+      10000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20013",
+        "Num = 10"
+      ],
+      {
+        "Type": "Resource",
+        "Id": 20017,
+        "Num": 10
+      },
+      {
+        "Type": "Resource",
+        "Id": 20020,
+        "Num": 10
+      },
+      [
+        "Type = \"Resource",
+        "Id = 20018",
+        "Num = 5"
+      ]
+    ]
+  },
+  "1014": {
+    "DraftId": 1014,
+    "Rarity": 3,
+    "IsInfinity": true,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Hp_Full.Icon_Hp_Full",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Resource",
+    "ProductId": 40001,
+    "ProductNum": 10,
+    "Time": 0,
+    "FoundryCost": [
+      5000
+    ],
+    "Resource": [
+      {
+        "Type": "Resource",
+        "Id": 20010,
+        "Num": 5
+      }
+    ]
+  },
+  "1015": {
+    "DraftId": 1015,
+    "Rarity": 3,
+    "IsInfinity": true,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Drop_Mp.Icon_Drop_Mp",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Resource",
+    "ProductId": 40002,
+    "ProductNum": 10,
+    "Time": 0,
+    "FoundryCost": [
+      5000
+    ],
+    "Resource": [
+      {
+        "Type": "Resource",
+        "Id": 20010,
+        "Num": 10
+      },
+      [
+        "Type = \"Resource",
+        "Id = 20032",
+        "Num = 1"
+      ]
+    ]
+  },
+  "1016": {
+    "DraftId": 1016,
+    "Rarity": 3,
+    "IsInfinity": true,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Drop_Ammo.Icon_Drop_Ammo",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Resource",
+    "ProductId": 40003,
+    "ProductNum": 10,
+    "Time": 0,
+    "FoundryCost": [
+      5000
+    ],
+    "Resource": [
+      {
+        "Type": "Resource",
+        "Id": 20010,
+        "Num": 20
+      },
+      [
+        "Type = \"Resource",
+        "Id = 20023",
+        "Num = 1"
+      ]
+    ]
+  },
+  "1017": {
+    "DraftId": 1017,
+    "Rarity": 5,
+    "IsInfinity": true,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_PolarityStyle.Icon_Resource_PolarityStyle",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Resource",
+    "ProductId": 201,
+    "ProductNum": 1,
+    "Time": 40,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      {
+        "Type": "Resource",
+        "Id": 30001,
+        "Num": 20
+      }
+    ]
+  },
+  "1018": {
+    "DraftId": 1018,
+    "Rarity": 5,
+    "IsInfinity": true,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_PolarityAura.Icon_Resource_PolarityAura",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Resource",
+    "ProductId": 202,
+    "ProductNum": 1,
+    "Time": 30,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      {
+        "Type": "Resource",
+        "Id": 30002,
+        "Num": 20
+      }
+    ]
+  },
+  "1019": {
+    "DraftId": 1019,
+    "Rarity": 3,
+    "IsInfinity": true,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Hp_Full.Icon_Hp_Full",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Resource",
+    "ProductId": 40011,
+    "ProductNum": 10,
+    "Time": 0,
+    "FoundryCost": [
+      10000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20010",
+        "Num = 50"
+      ],
+      {
+        "Type": "Resource",
+        "Id": 20013,
+        "Num": 6
+      },
+      {
+        "Type": "Resource",
+        "Id": 4010001,
+        "Num": 10
+      },
+      {
+        "Type": "Resource",
+        "Id": 4010008,
+        "Num": 10
+      }
+    ]
+  },
+  "1020": {
+    "DraftId": 1020,
+    "Rarity": 3,
+    "IsInfinity": true,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Drop_Mp.Icon_Drop_Mp",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Resource",
+    "ProductId": 40012,
+    "ProductNum": 10,
+    "Time": 0,
+    "FoundryCost": [
+      5000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20010",
+        "Num = 50"
+      ],
+      {
+        "Type": "Resource",
+        "Id": 20032,
+        "Num": 3
+      },
+      {
+        "Type": "Resource",
+        "Id": 4010005,
+        "Num": 5
+      },
+      {
+        "Type": "Resource",
+        "Id": 4010003,
+        "Num": 5
+      }
+    ]
+  },
+  "1021": {
+    "DraftId": 1021,
+    "Rarity": 3,
+    "IsInfinity": true,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Drop_Ammo.Icon_Drop_Ammo",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Resource",
+    "ProductId": 40013,
+    "ProductNum": 10,
+    "Time": 0,
+    "FoundryCost": [
+      5000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20010",
+        "Num = 100"
+      ],
+      {
+        "Type": "Resource",
+        "Id": 20023,
+        "Num": 3
+      },
+      {
+        "Type": "Resource",
+        "Id": 4010004,
+        "Num": 5
+      },
+      {
+        "Type": "Resource",
+        "Id": 4020003,
+        "Num": 5
+      }
+    ]
+  },
+  "1022": {
+    "DraftId": 1022,
+    "Rarity": 3,
+    "IsInfinity": true,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_PetFood02.Icon_Resource_PetFood02",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Resource",
+    "ProductId": 3002,
+    "ProductNum": 10,
+    "Time": 0,
+    "FoundryCost": [
+      5000
+    ],
+    "Resource": [
+      {
+        "Type": "Resource",
+        "Id": 20010,
+        "Num": 25
+      },
+      [
+        "Type = \"Resource",
+        "Id = 4010004",
+        "Num = 1"
+      ],
+      {
+        "Type": "Resource",
+        "Id": 4020003,
+        "Num": 1
+      }
+    ]
+  },
+  "1023": {
+    "DraftId": 1023,
+    "Rarity": 4,
+    "IsInfinity": true,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Resource_PetFood03.Icon_Resource_PetFood03",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Resource",
+    "ProductId": 3003,
+    "ProductNum": 10,
+    "Time": 0,
+    "FoundryCost": [
+      10000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20010",
+        "Num = 50"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20023",
+        "Num = 2"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 4010004",
+        "Num = 3"
+      ],
+      {
+        "Type": "Resource",
+        "Id": 4020003,
+        "Num": 3
+      }
+    ]
+  },
+  "1050": {
+    "DraftId": 1050,
+    "Rarity": 3,
+    "IsInfinity": true,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Impression_Resouce_01.Icon_Impression_Resouce_01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Resource",
+    "ProductId": 3001,
+    "ProductNum": 10,
+    "Time": 0,
+    "FoundryCost": [
+      5000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20023",
+        "Num = 1"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20008",
+        "Num = 1"
+      ]
+    ]
+  },
+  "1101": {
+    "DraftId": 1101,
+    "Rarity": 4,
+    "IsInfinity": true,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Dye_01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Resource",
+    "ProductId": 30101,
+    "ProductNum": 1,
+    "Time": 0,
+    "FoundryCost": [
+      30000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 4010002",
+        "Num = 1"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 4010004",
+        "Num = 2"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 4010005",
+        "Num = 3"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20029",
+        "Num = 1"
+      ]
+    ]
+  },
+  "1102": {
+    "DraftId": 1102,
+    "Rarity": 4,
+    "IsInfinity": true,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Dye_02",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Resource",
+    "ProductId": 30102,
+    "ProductNum": 1,
+    "Time": 0,
+    "FoundryCost": [
+      30000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 4010002",
+        "Num = 1"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 4010004",
+        "Num = 2"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 4010005",
+        "Num = 3"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20029",
+        "Num = 1"
+      ]
+    ]
+  },
+  "1103": {
+    "DraftId": 1103,
+    "Rarity": 4,
+    "IsInfinity": true,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Dye_03",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Resource",
+    "ProductId": 30103,
+    "ProductNum": 1,
+    "Time": 0,
+    "FoundryCost": [
+      30000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 4010002",
+        "Num = 1"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 4010004",
+        "Num = 2"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 4010005",
+        "Num = 3"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20029",
+        "Num = 1"
+      ]
+    ]
+  },
+  "1104": {
+    "DraftId": 1104,
+    "Rarity": 4,
+    "IsInfinity": true,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Dye_04",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Resource",
+    "ProductId": 30104,
+    "ProductNum": 1,
+    "Time": 0,
+    "FoundryCost": [
+      30000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 4010002",
+        "Num = 2"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 4010004",
+        "Num = 1"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 4010005",
+        "Num = 2"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20029",
+        "Num = 1"
+      ]
+    ]
+  },
+  "1105": {
+    "DraftId": 1105,
+    "Rarity": 4,
+    "IsInfinity": true,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Dye_05",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Resource",
+    "ProductId": 30105,
+    "ProductNum": 1,
+    "Time": 0,
+    "FoundryCost": [
+      30000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 4010002",
+        "Num = 2"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 4010004",
+        "Num = 1"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 4010005",
+        "Num = 2"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20032",
+        "Num = 1"
+      ]
+    ]
+  },
+  "1106": {
+    "DraftId": 1106,
+    "Rarity": 4,
+    "IsInfinity": true,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Dye_06",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Resource",
+    "ProductId": 30106,
+    "ProductNum": 1,
+    "Time": 0,
+    "FoundryCost": [
+      30000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 4010002",
+        "Num = 2"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 4010004",
+        "Num = 1"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 4010005",
+        "Num = 2"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20032",
+        "Num = 1"
+      ]
+    ]
+  },
+  "1107": {
+    "DraftId": 1107,
+    "Rarity": 4,
+    "IsInfinity": true,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Dye_07",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Resource",
+    "ProductId": 30107,
+    "ProductNum": 1,
+    "Time": 0,
+    "FoundryCost": [
+      30000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 4010002",
+        "Num = 3"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 4010004",
+        "Num = 1"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 4010005",
+        "Num = 1"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20032",
+        "Num = 1"
+      ]
+    ]
+  },
+  "1108": {
+    "DraftId": 1108,
+    "Rarity": 4,
+    "IsInfinity": true,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Dye_08",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Resource",
+    "ProductId": 30108,
+    "ProductNum": 1,
+    "Time": 0,
+    "FoundryCost": [
+      30000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 4010002",
+        "Num = 3"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 4010004",
+        "Num = 1"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 4010005",
+        "Num = 1"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20032",
+        "Num = 1"
+      ]
+    ]
+  },
+  "1109": {
+    "DraftId": 1109,
+    "Rarity": 4,
+    "IsInfinity": true,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Dye_09",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Resource",
+    "ProductId": 30109,
+    "ProductNum": 1,
+    "Time": 0,
+    "FoundryCost": [
+      30000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 4010002",
+        "Num = 3"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 4010004",
+        "Num = 1"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 4010005",
+        "Num = 1"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20032",
+        "Num = 1"
+      ]
+    ]
+  },
+  "1110": {
+    "DraftId": 1110,
+    "Rarity": 5,
+    "IsInfinity": true,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Dye_10",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Resource",
+    "ProductId": 30110,
+    "ProductNum": 1,
+    "Time": 0,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 4010002",
+        "Num = 5"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 4010004",
+        "Num = 3"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 4010005",
+        "Num = 3"
+      ],
+      {
+        "Type": "Resource",
+        "Id": 20029,
+        "Num": 5
+      }
+    ]
+  },
+  "1111": {
+    "DraftId": 1111,
+    "Rarity": 5,
+    "IsInfinity": true,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Dye_11",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Resource",
+    "ProductId": 30111,
+    "ProductNum": 1,
+    "Time": 0,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 4010002",
+        "Num = 5"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 4010004",
+        "Num = 3"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 4010005",
+        "Num = 3"
+      ],
+      {
+        "Type": "Resource",
+        "Id": 20032,
+        "Num": 5
+      }
+    ]
+  },
+  "2011": {
+    "DraftId": 2011,
+    "Rarity": 3,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_BreakRes_Wind03.Icon_BreakRes_Wind03",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Resource",
+    "ProductId": 10002,
+    "ProductNum": 1,
+    "Time": 0,
+    "FoundryCost": [
+      1000
+    ],
+    "Resource": [
+      {
+        "Type": "Resource",
+        "Id": 10001,
+        "Num": 5
+      }
+    ]
+  },
+  "2012": {
+    "DraftId": 2012,
+    "Rarity": 4,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_BreakRes_Wind04.Icon_BreakRes_Wind04",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Resource",
+    "ProductId": 10003,
+    "ProductNum": 1,
+    "Time": 0,
+    "FoundryCost": [
+      2000
+    ],
+    "Resource": [
+      {
+        "Type": "Resource",
+        "Id": 10002,
+        "Num": 5
+      }
+    ]
+  },
+  "2013": {
+    "DraftId": 2013,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_BreakRes_Wind05.Icon_BreakRes_Wind05",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Resource",
+    "ProductId": 10004,
+    "ProductNum": 1,
+    "Time": 0,
+    "FoundryCost": [
+      4000
+    ],
+    "Resource": [
+      {
+        "Type": "Resource",
+        "Id": 10003,
+        "Num": 5
+      }
+    ]
+  },
+  "2021": {
+    "DraftId": 2021,
+    "Rarity": 3,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_BreakRes_Fire03.Icon_BreakRes_Fire03",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Resource",
+    "ProductId": 10006,
+    "ProductNum": 1,
+    "Time": 0,
+    "FoundryCost": [
+      1000
+    ],
+    "Resource": [
+      {
+        "Type": "Resource",
+        "Id": 10005,
+        "Num": 5
+      }
+    ]
+  },
+  "2022": {
+    "DraftId": 2022,
+    "Rarity": 4,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_BreakRes_Fire04.Icon_BreakRes_Fire04",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Resource",
+    "ProductId": 10007,
+    "ProductNum": 1,
+    "Time": 0,
+    "FoundryCost": [
+      2000
+    ],
+    "Resource": [
+      {
+        "Type": "Resource",
+        "Id": 10006,
+        "Num": 5
+      }
+    ]
+  },
+  "2023": {
+    "DraftId": 2023,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_BreakRes_Fire05.Icon_BreakRes_Fire05",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Resource",
+    "ProductId": 10008,
+    "ProductNum": 1,
+    "Time": 0,
+    "FoundryCost": [
+      4000
+    ],
+    "Resource": [
+      {
+        "Type": "Resource",
+        "Id": 10007,
+        "Num": 5
+      }
+    ]
+  },
+  "2031": {
+    "DraftId": 2031,
+    "Rarity": 3,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_BreakRes_Water03.Icon_BreakRes_Water03",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Resource",
+    "ProductId": 10010,
+    "ProductNum": 1,
+    "Time": 0,
+    "FoundryCost": [
+      1000
+    ],
+    "Resource": [
+      {
+        "Type": "Resource",
+        "Id": 10009,
+        "Num": 5
+      }
+    ]
+  },
+  "2032": {
+    "DraftId": 2032,
+    "Rarity": 4,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_BreakRes_Water04.Icon_BreakRes_Water04",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Resource",
+    "ProductId": 10011,
+    "ProductNum": 1,
+    "Time": 0,
+    "FoundryCost": [
+      2000
+    ],
+    "Resource": [
+      {
+        "Type": "Resource",
+        "Id": 10010,
+        "Num": 5
+      }
+    ]
+  },
+  "2033": {
+    "DraftId": 2033,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_BreakRes_Water05.Icon_BreakRes_Water05",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Resource",
+    "ProductId": 10012,
+    "ProductNum": 1,
+    "Time": 0,
+    "FoundryCost": [
+      4000
+    ],
+    "Resource": [
+      {
+        "Type": "Resource",
+        "Id": 10011,
+        "Num": 5
+      }
+    ]
+  },
+  "2041": {
+    "DraftId": 2041,
+    "Rarity": 3,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_BreakRes_Thunder03.Icon_BreakRes_Thunder03",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Resource",
+    "ProductId": 10014,
+    "ProductNum": 1,
+    "Time": 0,
+    "FoundryCost": [
+      1000
+    ],
+    "Resource": [
+      {
+        "Type": "Resource",
+        "Id": 10013,
+        "Num": 5
+      }
+    ]
+  },
+  "2042": {
+    "DraftId": 2042,
+    "Rarity": 4,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_BreakRes_Thunder04.Icon_BreakRes_Thunder04",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Resource",
+    "ProductId": 10015,
+    "ProductNum": 1,
+    "Time": 0,
+    "FoundryCost": [
+      2000
+    ],
+    "Resource": [
+      {
+        "Type": "Resource",
+        "Id": 10014,
+        "Num": 5
+      }
+    ]
+  },
+  "2043": {
+    "DraftId": 2043,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_BreakRes_Thunder05.Icon_BreakRes_Thunder05",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Resource",
+    "ProductId": 10016,
+    "ProductNum": 1,
+    "Time": 0,
+    "FoundryCost": [
+      4000
+    ],
+    "Resource": [
+      {
+        "Type": "Resource",
+        "Id": 10015,
+        "Num": 5
+      }
+    ]
+  },
+  "2051": {
+    "DraftId": 2051,
+    "Rarity": 3,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_BreakRes_Light03.Icon_BreakRes_Light03",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Resource",
+    "ProductId": 10018,
+    "ProductNum": 1,
+    "Time": 0,
+    "FoundryCost": [
+      1000
+    ],
+    "Resource": [
+      {
+        "Type": "Resource",
+        "Id": 10017,
+        "Num": 5
+      }
+    ]
+  },
+  "2052": {
+    "DraftId": 2052,
+    "Rarity": 4,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_BreakRes_Light04.Icon_BreakRes_Light04",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Resource",
+    "ProductId": 10019,
+    "ProductNum": 1,
+    "Time": 0,
+    "FoundryCost": [
+      2000
+    ],
+    "Resource": [
+      {
+        "Type": "Resource",
+        "Id": 10018,
+        "Num": 5
+      }
+    ]
+  },
+  "2053": {
+    "DraftId": 2053,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_BreakRes_Light05.Icon_BreakRes_Light05",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Resource",
+    "ProductId": 10020,
+    "ProductNum": 1,
+    "Time": 0,
+    "FoundryCost": [
+      4000
+    ],
+    "Resource": [
+      {
+        "Type": "Resource",
+        "Id": 10019,
+        "Num": 5
+      }
+    ]
+  },
+  "2061": {
+    "DraftId": 2061,
+    "Rarity": 3,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_BreakRes_Dark03.Icon_BreakRes_Dark03",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Resource",
+    "ProductId": 10022,
+    "ProductNum": 1,
+    "Time": 0,
+    "FoundryCost": [
+      1000
+    ],
+    "Resource": [
+      {
+        "Type": "Resource",
+        "Id": 10021,
+        "Num": 5
+      }
+    ]
+  },
+  "2062": {
+    "DraftId": 2062,
+    "Rarity": 4,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_BreakRes_Dark04.Icon_BreakRes_Dark04",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Resource",
+    "ProductId": 10023,
+    "ProductNum": 1,
+    "Time": 0,
+    "FoundryCost": [
+      2000
+    ],
+    "Resource": [
+      {
+        "Type": "Resource",
+        "Id": 10022,
+        "Num": 5
+      }
+    ]
+  },
+  "2063": {
+    "DraftId": 2063,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_BreakRes_Dark05.Icon_BreakRes_Dark05",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Resource",
+    "ProductId": 10024,
+    "ProductNum": 1,
+    "Time": 0,
+    "FoundryCost": [
+      4000
+    ],
+    "Resource": [
+      {
+        "Type": "Resource",
+        "Id": 10023,
+        "Num": 5
+      }
+    ]
+  },
+  "4001": {
+    "DraftId": 4001,
+    "Rarity": 3,
+    "IsInfinity": true,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Blueprint_Weapon_Part04.Icon_Blueprint_Weapon_Part04",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Resource",
+    "ProductId": 11002,
+    "ProductNum": 1,
+    "Time": 10,
+    "FoundryCost": [
+      2000
+    ],
+    "Resource": [
+      {
+        "Type": "Resource",
+        "Id": 11001,
+        "Num": 3
+      }
+    ]
+  },
+  "4002": {
+    "DraftId": 4002,
+    "Rarity": 4,
+    "IsInfinity": true,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Blueprint_Weapon_Part04.Icon_Blueprint_Weapon_Part04",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Resource",
+    "ProductId": 11003,
+    "ProductNum": 1,
+    "Time": 30,
+    "FoundryCost": [
+      3000
+    ],
+    "Resource": [
+      {
+        "Type": "Resource",
+        "Id": 11002,
+        "Num": 3
+      }
+    ]
+  },
+  "4003": {
+    "DraftId": 4003,
+    "Rarity": 3,
+    "IsInfinity": true,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Blueprint_Weapon_Part05.Icon_Blueprint_Weapon_Part05",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Resource",
+    "ProductId": 11005,
+    "ProductNum": 1,
+    "Time": 10,
+    "FoundryCost": [
+      2000
+    ],
+    "Resource": [
+      {
+        "Type": "Resource",
+        "Id": 11004,
+        "Num": 3
+      }
+    ]
+  },
+  "4004": {
+    "DraftId": 4004,
+    "Rarity": 4,
+    "IsInfinity": true,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Blueprint_Weapon_Part05.Icon_Blueprint_Weapon_Part05",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Resource",
+    "ProductId": 11006,
+    "ProductNum": 1,
+    "Time": 30,
+    "FoundryCost": [
+      3000
+    ],
+    "Resource": [
+      {
+        "Type": "Resource",
+        "Id": 11005,
+        "Num": 3
+      }
+    ]
+  },
+  "4005": {
+    "DraftId": 4005,
+    "Rarity": 3,
+    "IsInfinity": true,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Blueprint_Weapon_Part06.Icon_Blueprint_Weapon_Part06",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Resource",
+    "ProductId": 11008,
+    "ProductNum": 1,
+    "Time": 10,
+    "FoundryCost": [
+      2000
+    ],
+    "Resource": [
+      {
+        "Type": "Resource",
+        "Id": 11007,
+        "Num": 3
+      }
+    ]
+  },
+  "4006": {
+    "DraftId": 4006,
+    "Rarity": 4,
+    "IsInfinity": true,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Blueprint_Weapon_Part06.Icon_Blueprint_Weapon_Part06",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Resource",
+    "ProductId": 11009,
+    "ProductNum": 1,
+    "Time": 30,
+    "FoundryCost": [
+      3000
+    ],
+    "Resource": [
+      {
+        "Type": "Resource",
+        "Id": 11008,
+        "Num": 3
+      }
+    ]
+  },
+  "4007": {
+    "DraftId": 4007,
+    "Rarity": 3,
+    "IsInfinity": true,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Blueprint_Weapon_Part01.Icon_Blueprint_Weapon_Part01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Resource",
+    "ProductId": 11011,
+    "ProductNum": 1,
+    "Time": 10,
+    "FoundryCost": [
+      2000
+    ],
+    "Resource": [
+      {
+        "Type": "Resource",
+        "Id": 11010,
+        "Num": 3
+      }
+    ]
+  },
+  "4008": {
+    "DraftId": 4008,
+    "Rarity": 4,
+    "IsInfinity": true,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Blueprint_Weapon_Part01.Icon_Blueprint_Weapon_Part01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Resource",
+    "ProductId": 11012,
+    "ProductNum": 1,
+    "Time": 30,
+    "FoundryCost": [
+      3000
+    ],
+    "Resource": [
+      {
+        "Type": "Resource",
+        "Id": 11011,
+        "Num": 3
+      }
+    ]
+  },
+  "4009": {
+    "DraftId": 4009,
+    "Rarity": 3,
+    "IsInfinity": true,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Blueprint_Weapon_Part02.Icon_Blueprint_Weapon_Part02",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Resource",
+    "ProductId": 11014,
+    "ProductNum": 1,
+    "Time": 10,
+    "FoundryCost": [
+      2000
+    ],
+    "Resource": [
+      {
+        "Type": "Resource",
+        "Id": 11013,
+        "Num": 3
+      }
+    ]
+  },
+  "4010": {
+    "DraftId": 4010,
+    "Rarity": 4,
+    "IsInfinity": true,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Blueprint_Weapon_Part02.Icon_Blueprint_Weapon_Part02",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Resource",
+    "ProductId": 11015,
+    "ProductNum": 1,
+    "Time": 30,
+    "FoundryCost": [
+      3000
+    ],
+    "Resource": [
+      {
+        "Type": "Resource",
+        "Id": 11014,
+        "Num": 3
+      }
+    ]
+  },
+  "4011": {
+    "DraftId": 4011,
+    "Rarity": 3,
+    "IsInfinity": true,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Blueprint_Weapon_Part03.Icon_Blueprint_Weapon_Part03",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Resource",
+    "ProductId": 11017,
+    "ProductNum": 1,
+    "Time": 10,
+    "FoundryCost": [
+      2000
+    ],
+    "Resource": [
+      {
+        "Type": "Resource",
+        "Id": 11016,
+        "Num": 3
+      }
+    ]
+  },
+  "4012": {
+    "DraftId": 4012,
+    "Rarity": 4,
+    "IsInfinity": true,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Blueprint_Weapon_Part03.Icon_Blueprint_Weapon_Part03",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Resource",
+    "ProductId": 11018,
+    "ProductNum": 1,
+    "Time": 30,
+    "FoundryCost": [
+      3000
+    ],
+    "Resource": [
+      {
+        "Type": "Resource",
+        "Id": 11017,
+        "Num": 3
+      }
+    ]
+  },
+  "9001": {
+    "DraftId": 9001,
+    "Rarity": 5,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Sword_Guzi.T_Draft_Sword_Guzi",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Weapon",
+    "ProductId": 10102,
+    "ProductNum": 1,
+    "Time": 180,
+    "FoundryCost": [
+      180000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20027",
+        "Num = 1"
+      ],
+      {
+        "Type": "Resource",
+        "Id": 12001,
+        "Num": 1
+      },
+      {
+        "Type": "Resource",
+        "Id": 12002,
+        "Num": 1
+      }
+    ]
+  },
+  "9002": {
+    "DraftId": 9002,
+    "Rarity": 5,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Sword_Huimou.T_Draft_Sword_Huimou",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Weapon",
+    "ProductId": 10104,
+    "ProductNum": 1,
+    "Time": 180,
+    "FoundryCost": [
+      180000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20027",
+        "Num = 1"
+      ],
+      {
+        "Type": "Resource",
+        "Id": 12003,
+        "Num": 1
+      },
+      {
+        "Type": "Resource",
+        "Id": 12004,
+        "Num": 1
+      }
+    ]
+  },
+  "9003": {
+    "DraftId": 9003,
+    "Rarity": 5,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Polearm_Sairen.T_Draft_Polearm_Sairen",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Weapon",
+    "ProductId": 10201,
+    "ProductNum": 1,
+    "Time": 180,
+    "FoundryCost": [
+      180000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20027",
+        "Num = 1"
+      ],
+      {
+        "Type": "Resource",
+        "Id": 12013,
+        "Num": 1
+      },
+      {
+        "Type": "Resource",
+        "Id": 12014,
+        "Num": 1
+      }
+    ]
+  },
+  "9004": {
+    "DraftId": 9004,
+    "Rarity": 5,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Polearm_Zuiqian.T_Draft_Polearm_Zuiqian",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Weapon",
+    "ProductId": 10203,
+    "ProductNum": 1,
+    "Time": 180,
+    "FoundryCost": [
+      180000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20027",
+        "Num = 1"
+      ],
+      {
+        "Type": "Resource",
+        "Id": 12011,
+        "Num": 1
+      },
+      {
+        "Type": "Resource",
+        "Id": 12012,
+        "Num": 1
+      }
+    ]
+  },
+  "9005": {
+    "DraftId": 9005,
+    "Rarity": 5,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Scythe_Xiji.T_Draft_Scythe_Xiji",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Weapon",
+    "ProductId": 10204,
+    "ProductNum": 1,
+    "Time": 180,
+    "FoundryCost": [
+      180000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20027",
+        "Num = 1"
+      ],
+      {
+        "Type": "Resource",
+        "Id": 12015,
+        "Num": 1
+      },
+      {
+        "Type": "Resource",
+        "Id": 12016,
+        "Num": 1
+      }
+    ]
+  },
+  "9006": {
+    "DraftId": 9006,
+    "Rarity": 5,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Claymore_Chengjie.T_Draft_Claymore_Chengjie",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Weapon",
+    "ProductId": 10301,
+    "ProductNum": 1,
+    "Time": 180,
+    "FoundryCost": [
+      180000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20027",
+        "Num = 1"
+      ],
+      {
+        "Type": "Resource",
+        "Id": 12021,
+        "Num": 1
+      },
+      {
+        "Type": "Resource",
+        "Id": 12022,
+        "Num": 1
+      }
+    ]
+  },
+  "9007": {
+    "DraftId": 9007,
+    "Rarity": 5,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Swordwhip_Buyu.T_Draft_Swordwhip_Buyu",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Weapon",
+    "ProductId": 10501,
+    "ProductNum": 1,
+    "Time": 180,
+    "FoundryCost": [
+      180000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20027",
+        "Num = 1"
+      ],
+      {
+        "Type": "Resource",
+        "Id": 12028,
+        "Num": 1
+      },
+      {
+        "Type": "Resource",
+        "Id": 12029,
+        "Num": 1
+      }
+    ]
+  },
+  "9008": {
+    "DraftId": 9008,
+    "Rarity": 5,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Crossbow_Lanse.T_Draft_Crossbow_Lanse",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Weapon",
+    "ProductId": 20203,
+    "ProductNum": 1,
+    "Time": 180,
+    "FoundryCost": [
+      180000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20028",
+        "Num = 1"
+      ],
+      {
+        "Type": "Resource",
+        "Id": 12030,
+        "Num": 1
+      },
+      {
+        "Type": "Resource",
+        "Id": 12031,
+        "Num": 1
+      }
+    ]
+  },
+  "9009": {
+    "DraftId": 9009,
+    "Rarity": 5,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Cannon_Chiqiang.T_Draft_Cannon_Chiqiang",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Weapon",
+    "ProductId": 20301,
+    "ProductNum": 1,
+    "Time": 180,
+    "FoundryCost": [
+      180000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20028",
+        "Num = 1"
+      ],
+      {
+        "Type": "Resource",
+        "Id": 12034,
+        "Num": 1
+      },
+      {
+        "Type": "Resource",
+        "Id": 12035,
+        "Num": 1
+      },
+      {
+        "Type": "Resource",
+        "Id": 12036,
+        "Num": 1
+      }
+    ]
+  },
+  "9010": {
+    "DraftId": 9010,
+    "Rarity": 5,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Shotgun_Banzi.T_Draft_Shotgun_Banzi",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Weapon",
+    "ProductId": 20402,
+    "ProductNum": 1,
+    "Time": 180,
+    "FoundryCost": [
+      180000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20028",
+        "Num = 1"
+      ],
+      {
+        "Type": "Resource",
+        "Id": 12040,
+        "Num": 1
+      },
+      {
+        "Type": "Resource",
+        "Id": 12041,
+        "Num": 1
+      },
+      {
+        "Type": "Resource",
+        "Id": 12042,
+        "Num": 1
+      }
+    ]
+  },
+  "9011": {
+    "DraftId": 9011,
+    "Rarity": 5,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Machinegun_Fangzhu.T_Draft_Machinegun_Fangzhu",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Weapon",
+    "ProductId": 20502,
+    "ProductNum": 1,
+    "Time": 180,
+    "FoundryCost": [
+      180000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20028",
+        "Num = 1"
+      ],
+      {
+        "Type": "Resource",
+        "Id": 12049,
+        "Num": 1
+      },
+      {
+        "Type": "Resource",
+        "Id": 12050,
+        "Num": 1
+      },
+      {
+        "Type": "Resource",
+        "Id": 12051,
+        "Num": 1
+      }
+    ]
+  },
+  "9012": {
+    "DraftId": 9012,
+    "Rarity": 5,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Machinegun_Poxiao.T_Draft_Machinegun_Poxiao",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Weapon",
+    "ProductId": 20504,
+    "ProductNum": 1,
+    "Time": 180,
+    "FoundryCost": [
+      180000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20028",
+        "Num = 1"
+      ],
+      {
+        "Type": "Resource",
+        "Id": 12052,
+        "Num": 1
+      },
+      {
+        "Type": "Resource",
+        "Id": 12053,
+        "Num": 1
+      },
+      {
+        "Type": "Resource",
+        "Id": 12054,
+        "Num": 1
+      }
+    ]
+  },
+  "9013": {
+    "DraftId": 9013,
+    "Rarity": 5,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Machinegun_Yinlang.T_Draft_Machinegun_Yinlang",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Weapon",
+    "ProductId": 20507,
+    "ProductNum": 1,
+    "Time": 180,
+    "FoundryCost": [
+      180000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20028",
+        "Num = 1"
+      ],
+      {
+        "Type": "Resource",
+        "Id": 12055,
+        "Num": 1
+      },
+      {
+        "Type": "Resource",
+        "Id": 12056,
+        "Num": 1
+      },
+      {
+        "Type": "Resource",
+        "Id": 12057,
+        "Num": 1
+      }
+    ]
+  },
+  "9014": {
+    "DraftId": 9014,
+    "Rarity": 5,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Bow_Hugaung.T_Draft_Bow_Hugaung",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Weapon",
+    "ProductId": 20602,
+    "ProductNum": 1,
+    "Time": 180,
+    "FoundryCost": [
+      180000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20028",
+        "Num = 1"
+      ],
+      {
+        "Type": "Resource",
+        "Id": 12064,
+        "Num": 1
+      },
+      {
+        "Type": "Resource",
+        "Id": 12065,
+        "Num": 1
+      },
+      {
+        "Type": "Resource",
+        "Id": 12066,
+        "Num": 1
+      }
+    ]
+  },
+  "9015": {
+    "DraftId": 9015,
+    "Rarity": 4,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Broadsword_Huipo.T_Draft_Broadsword_Huipo",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Weapon",
+    "ProductId": 10101,
+    "ProductNum": 1,
+    "Time": 70,
+    "FoundryCost": [
+      70000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20032",
+        "Num = 1"
+      ],
+      {
+        "Type": "Resource",
+        "Id": 12005,
+        "Num": 1
+      },
+      {
+        "Type": "Resource",
+        "Id": 12006,
+        "Num": 1
+      }
+    ]
+  },
+  "9016": {
+    "DraftId": 9016,
+    "Rarity": 4,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Sword_Zhuiyi.T_Draft_Sword_Zhuiyi",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Weapon",
+    "ProductId": 10103,
+    "ProductNum": 1,
+    "Time": 70,
+    "FoundryCost": [
+      70000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20032",
+        "Num = 1"
+      ],
+      {
+        "Type": "Resource",
+        "Id": 12007,
+        "Num": 1
+      },
+      {
+        "Type": "Resource",
+        "Id": 12008,
+        "Num": 1
+      }
+    ]
+  },
+  "9017": {
+    "DraftId": 9017,
+    "Rarity": 4,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Sword_Liulang.T_Draft_Sword_Liulang",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Weapon",
+    "ProductId": 10105,
+    "ProductNum": 1,
+    "Time": 70,
+    "FoundryCost": [
+      70000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20032",
+        "Num = 1"
+      ],
+      {
+        "Type": "Resource",
+        "Id": 12009,
+        "Num": 1
+      },
+      {
+        "Type": "Resource",
+        "Id": 12010,
+        "Num": 1
+      }
+    ]
+  },
+  "9018": {
+    "DraftId": 9018,
+    "Rarity": 4,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Polearm_Chunjue.T_Draft_Polearm_Chunjue",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Weapon",
+    "ProductId": 10202,
+    "ProductNum": 1,
+    "Time": 70,
+    "FoundryCost": [
+      70000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20032",
+        "Num = 1"
+      ],
+      {
+        "Type": "Resource",
+        "Id": 12017,
+        "Num": 1
+      },
+      {
+        "Type": "Resource",
+        "Id": 12018,
+        "Num": 1
+      }
+    ]
+  },
+  "9019": {
+    "DraftId": 9019,
+    "Rarity": 4,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Scythe_Chixing.T_Draft_Scythe_Chixing",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Weapon",
+    "ProductId": 10206,
+    "ProductNum": 1,
+    "Time": 70,
+    "FoundryCost": [
+      70000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20032",
+        "Num = 1"
+      ],
+      {
+        "Type": "Resource",
+        "Id": 12019,
+        "Num": 1
+      },
+      {
+        "Type": "Resource",
+        "Id": 12020,
+        "Num": 1
+      }
+    ]
+  },
+  "9020": {
+    "DraftId": 9020,
+    "Rarity": 4,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Claymore_Rimian.T_Draft_Claymore_Rimian",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Weapon",
+    "ProductId": 10302,
+    "ProductNum": 1,
+    "Time": 70,
+    "FoundryCost": [
+      70000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20032",
+        "Num = 1"
+      ],
+      {
+        "Type": "Resource",
+        "Id": 12023,
+        "Num": 1
+      },
+      {
+        "Type": "Resource",
+        "Id": 12024,
+        "Num": 1
+      }
+    ]
+  },
+  "9021": {
+    "DraftId": 9021,
+    "Rarity": 4,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Katana_Feiqie.T_Draft_Katana_Feiqie",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Weapon",
+    "ProductId": 10601,
+    "ProductNum": 1,
+    "Time": 70,
+    "FoundryCost": [
+      70000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20032",
+        "Num = 1"
+      ],
+      {
+        "Type": "Resource",
+        "Id": 12025,
+        "Num": 1
+      },
+      {
+        "Type": "Resource",
+        "Id": 12026,
+        "Num": 1
+      },
+      {
+        "Type": "Resource",
+        "Id": 12027,
+        "Num": 1
+      }
+    ]
+  },
+  "9022": {
+    "DraftId": 9022,
+    "Rarity": 4,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Crossbow_Chixing.T_Draft_Crossbow_Chixing",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Weapon",
+    "ProductId": 20201,
+    "ProductNum": 1,
+    "Time": 70,
+    "FoundryCost": [
+      70000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20029",
+        "Num = 1"
+      ],
+      {
+        "Type": "Resource",
+        "Id": 12032,
+        "Num": 1
+      },
+      {
+        "Type": "Resource",
+        "Id": 12033,
+        "Num": 1
+      }
+    ]
+  },
+  "9023": {
+    "DraftId": 9023,
+    "Rarity": 4,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Cannon_Chixing.T_Draft_Cannon_Chixing",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Weapon",
+    "ProductId": 20303,
+    "ProductNum": 1,
+    "Time": 70,
+    "FoundryCost": [
+      70000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20029",
+        "Num = 1"
+      ],
+      {
+        "Type": "Resource",
+        "Id": 12037,
+        "Num": 1
+      },
+      {
+        "Type": "Resource",
+        "Id": 12038,
+        "Num": 1
+      },
+      {
+        "Type": "Resource",
+        "Id": 12039,
+        "Num": 1
+      }
+    ]
+  },
+  "9024": {
+    "DraftId": 9024,
+    "Rarity": 4,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Shotgun_Chixing.T_Draft_Shotgun_Chixing",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Weapon",
+    "ProductId": 20401,
+    "ProductNum": 1,
+    "Time": 70,
+    "FoundryCost": [
+      70000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20029",
+        "Num = 1"
+      ],
+      {
+        "Type": "Resource",
+        "Id": 12046,
+        "Num": 1
+      },
+      {
+        "Type": "Resource",
+        "Id": 12047,
+        "Num": 1
+      },
+      {
+        "Type": "Resource",
+        "Id": 12048,
+        "Num": 1
+      }
+    ]
+  },
+  "9025": {
+    "DraftId": 9025,
+    "Rarity": 4,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Shotgun_Shengcai.T_Draft_Shotgun_Shengcai",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Weapon",
+    "ProductId": 20403,
+    "ProductNum": 1,
+    "Time": 70,
+    "FoundryCost": [
+      70000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20029",
+        "Num = 1"
+      ],
+      {
+        "Type": "Resource",
+        "Id": 12043,
+        "Num": 1
+      },
+      {
+        "Type": "Resource",
+        "Id": 12044,
+        "Num": 1
+      },
+      {
+        "Type": "Resource",
+        "Id": 12045,
+        "Num": 1
+      }
+    ]
+  },
+  "9026": {
+    "DraftId": 9026,
+    "Rarity": 4,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Machinegun_Chixing.T_Draft_Machinegun_Chixing",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Weapon",
+    "ProductId": 20501,
+    "ProductNum": 1,
+    "Time": 70,
+    "FoundryCost": [
+      70000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20029",
+        "Num = 1"
+      ],
+      {
+        "Type": "Resource",
+        "Id": 12061,
+        "Num": 1
+      },
+      {
+        "Type": "Resource",
+        "Id": 12062,
+        "Num": 1
+      },
+      {
+        "Type": "Resource",
+        "Id": 12063,
+        "Num": 1
+      }
+    ]
+  },
+  "9027": {
+    "DraftId": 9027,
+    "Rarity": 4,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Machinegun_Qiqing.T_Draft_Machinegun_Qiqing",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Weapon",
+    "ProductId": 20503,
+    "ProductNum": 1,
+    "Time": 70,
+    "FoundryCost": [
+      70000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20029",
+        "Num = 1"
+      ],
+      {
+        "Type": "Resource",
+        "Id": 12058,
+        "Num": 1
+      },
+      {
+        "Type": "Resource",
+        "Id": 12059,
+        "Num": 1
+      },
+      {
+        "Type": "Resource",
+        "Id": 12060,
+        "Num": 1
+      }
+    ]
+  },
+  "9028": {
+    "DraftId": 9028,
+    "Rarity": 4,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Bow_Lieyan.T_Draft_Bow_Lieyan",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Weapon",
+    "ProductId": 20601,
+    "ProductNum": 1,
+    "Time": 70,
+    "FoundryCost": [
+      70000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20029",
+        "Num = 1"
+      ],
+      {
+        "Type": "Resource",
+        "Id": 12068,
+        "Num": 1
+      },
+      {
+        "Type": "Resource",
+        "Id": 12069,
+        "Num": 1
+      },
+      {
+        "Type": "Resource",
+        "Id": 12070,
+        "Num": 1
+      }
+    ]
+  },
+  "51002": {
+    "DraftId": 51002,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 51002,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      [
+        "Type = \"Mod",
+        "Id = 41002",
+        "Num = 3"
+      ]
+    ]
+  },
+  "51003": {
+    "DraftId": 51003,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 51003,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      [
+        "Type = \"Mod",
+        "Id = 41003",
+        "Num = 3"
+      ]
+    ]
+  },
+  "51007": {
+    "DraftId": 51007,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 51007,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      [
+        "Type = \"Mod",
+        "Id = 41007",
+        "Num = 3"
+      ]
+    ]
+  },
+  "51301": {
+    "DraftId": 51301,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 51301,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      {
+        "Type": "Mod",
+        "Id": 41004,
+        "Num": 3
+      },
+      {
+        "Type": "Mod",
+        "Id": 31202,
+        "Num": 5
+      }
+    ]
+  },
+  "51311": {
+    "DraftId": 51311,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 51311,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      [
+        "Type = \"Mod",
+        "Id = 41001",
+        "Num = 3"
+      ]
+    ]
+  },
+  "51312": {
+    "DraftId": 51312,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 51312,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      {
+        "Type": "Mod",
+        "Id": 41211,
+        "Num": 3
+      }
+    ]
+  },
+  "51321": {
+    "DraftId": 51321,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 51321,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      [
+        "Type = \"Mod",
+        "Id = 41001",
+        "Num = 3"
+      ],
+      {
+        "Type": "Mod",
+        "Id": 31321,
+        "Num": 5
+      }
+    ]
+  },
+  "51322": {
+    "DraftId": 51322,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 51322,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      [
+        "Type = \"Mod",
+        "Id = 41001",
+        "Num = 3"
+      ],
+      {
+        "Type": "Mod",
+        "Id": 31322,
+        "Num": 5
+      }
+    ]
+  },
+  "51323": {
+    "DraftId": 51323,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 51323,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      [
+        "Type = \"Mod",
+        "Id = 41002",
+        "Num = 3"
+      ],
+      {
+        "Type": "Mod",
+        "Id": 31323,
+        "Num": 5
+      }
+    ]
+  },
+  "51324": {
+    "DraftId": 51324,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 51324,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      [
+        "Type = \"Mod",
+        "Id = 41002",
+        "Num = 3"
+      ],
+      {
+        "Type": "Mod",
+        "Id": 31324,
+        "Num": 5
+      }
+    ]
+  },
+  "51325": {
+    "DraftId": 51325,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 51325,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      [
+        "Type = \"Mod",
+        "Id = 41007",
+        "Num = 3"
+      ],
+      {
+        "Type": "Mod",
+        "Id": 31325,
+        "Num": 5
+      }
+    ]
+  },
+  "51326": {
+    "DraftId": 51326,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 51326,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      [
+        "Type = \"Mod",
+        "Id = 41007",
+        "Num = 3"
+      ],
+      {
+        "Type": "Mod",
+        "Id": 31326,
+        "Num": 5
+      }
+    ]
+  },
+  "51411": {
+    "DraftId": 51411,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 51411,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      [
+        "Type = \"Mod",
+        "Id = 41101",
+        "Num = 3"
+      ]
+    ]
+  },
+  "51412": {
+    "DraftId": 51412,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 51412,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      [
+        "Type = \"Mod",
+        "Id = 41101",
+        "Num = 3"
+      ]
+    ]
+  },
+  "51413": {
+    "DraftId": 51413,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 51413,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      [
+        "Type = \"Mod",
+        "Id = 41101",
+        "Num = 3"
+      ]
+    ]
+  },
+  "51414": {
+    "DraftId": 51414,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 51414,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      [
+        "Type = \"Mod",
+        "Id = 41101",
+        "Num = 3"
+      ]
+    ]
+  },
+  "51421": {
+    "DraftId": 51421,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 51421,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      [
+        "Type = \"Mod",
+        "Id = 41102",
+        "Num = 3"
+      ]
+    ]
+  },
+  "51422": {
+    "DraftId": 51422,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 51422,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      [
+        "Type = \"Mod",
+        "Id = 41102",
+        "Num = 3"
+      ]
+    ]
+  },
+  "51423": {
+    "DraftId": 51423,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 51423,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      [
+        "Type = \"Mod",
+        "Id = 41102",
+        "Num = 3"
+      ]
+    ]
+  },
+  "51424": {
+    "DraftId": 51424,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 51424,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      [
+        "Type = \"Mod",
+        "Id = 41102",
+        "Num = 3"
+      ]
+    ]
+  },
+  "51431": {
+    "DraftId": 51431,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 51431,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      [
+        "Type = \"Mod",
+        "Id = 41103",
+        "Num = 3"
+      ]
+    ]
+  },
+  "51432": {
+    "DraftId": 51432,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 51432,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      [
+        "Type = \"Mod",
+        "Id = 41103",
+        "Num = 3"
+      ]
+    ]
+  },
+  "51433": {
+    "DraftId": 51433,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 51433,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      [
+        "Type = \"Mod",
+        "Id = 41103",
+        "Num = 3"
+      ]
+    ]
+  },
+  "51434": {
+    "DraftId": 51434,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 51434,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      [
+        "Type = \"Mod",
+        "Id = 41103",
+        "Num = 3"
+      ]
+    ]
+  },
+  "51441": {
+    "DraftId": 51441,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 51441,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      [
+        "Type = \"Mod",
+        "Id = 41104",
+        "Num = 3"
+      ]
+    ]
+  },
+  "51442": {
+    "DraftId": 51442,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 51442,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      [
+        "Type = \"Mod",
+        "Id = 41104",
+        "Num = 3"
+      ]
+    ]
+  },
+  "51443": {
+    "DraftId": 51443,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 51443,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      [
+        "Type = \"Mod",
+        "Id = 41104",
+        "Num = 3"
+      ]
+    ]
+  },
+  "51444": {
+    "DraftId": 51444,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 51444,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      [
+        "Type = \"Mod",
+        "Id = 41104",
+        "Num = 3"
+      ]
+    ]
+  },
+  "51451": {
+    "DraftId": 51451,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 51451,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      [
+        "Type = \"Mod",
+        "Id = 41105",
+        "Num = 3"
+      ]
+    ]
+  },
+  "51452": {
+    "DraftId": 51452,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 51452,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      [
+        "Type = \"Mod",
+        "Id = 41105",
+        "Num = 3"
+      ]
+    ]
+  },
+  "51453": {
+    "DraftId": 51453,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 51453,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      [
+        "Type = \"Mod",
+        "Id = 41105",
+        "Num = 3"
+      ]
+    ]
+  },
+  "51454": {
+    "DraftId": 51454,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 51454,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      [
+        "Type = \"Mod",
+        "Id = 41105",
+        "Num = 3"
+      ]
+    ]
+  },
+  "51461": {
+    "DraftId": 51461,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 51461,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      [
+        "Type = \"Mod",
+        "Id = 41106",
+        "Num = 3"
+      ]
+    ]
+  },
+  "51462": {
+    "DraftId": 51462,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 51462,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      [
+        "Type = \"Mod",
+        "Id = 41106",
+        "Num = 3"
+      ]
+    ]
+  },
+  "51463": {
+    "DraftId": 51463,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 51463,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      [
+        "Type = \"Mod",
+        "Id = 41106",
+        "Num = 3"
+      ]
+    ]
+  },
+  "51464": {
+    "DraftId": 51464,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 51464,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      [
+        "Type = \"Mod",
+        "Id = 41106",
+        "Num = 3"
+      ]
+    ]
+  },
+  "51601": {
+    "DraftId": 51601,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 51601,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      [
+        "Type = \"Mod",
+        "Id = 41002",
+        "Num = 3"
+      ]
+    ]
+  },
+  "51602": {
+    "DraftId": 51602,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 51602,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      [
+        "Type = \"Mod",
+        "Id = 41001",
+        "Num = 3"
+      ]
+    ]
+  },
+  "51603": {
+    "DraftId": 51603,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 51603,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      [
+        "Type = \"Mod",
+        "Id = 41007",
+        "Num = 3"
+      ]
+    ]
+  },
+  "51604": {
+    "DraftId": 51604,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 51604,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      [
+        "Type = \"Mod",
+        "Id = 41002",
+        "Num = 3"
+      ]
+    ]
+  },
+  "51605": {
+    "DraftId": 51605,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 51605,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      [
+        "Type = \"Mod",
+        "Id = 41001",
+        "Num = 3"
+      ]
+    ]
+  },
+  "51606": {
+    "DraftId": 51606,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 51606,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      [
+        "Type = \"Mod",
+        "Id = 41003",
+        "Num = 3"
+      ]
+    ]
+  },
+  "51911": {
+    "DraftId": 51911,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 51911,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      {
+        "Type": "Mod",
+        "Id": 41911,
+        "Num": 3
+      }
+    ]
+  },
+  "51921": {
+    "DraftId": 51921,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 51921,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      {
+        "Type": "Mod",
+        "Id": 41921,
+        "Num": 3
+      }
+    ]
+  },
+  "51922": {
+    "DraftId": 51922,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 51922,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      {
+        "Type": "Mod",
+        "Id": 41922,
+        "Num": 3
+      }
+    ]
+  },
+  "51931": {
+    "DraftId": 51931,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 51931,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      {
+        "Type": "Mod",
+        "Id": 41931,
+        "Num": 3
+      }
+    ]
+  },
+  "51941": {
+    "DraftId": 51941,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 51941,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      {
+        "Type": "Mod",
+        "Id": 41941,
+        "Num": 3
+      }
+    ]
+  },
+  "51951": {
+    "DraftId": 51951,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 51951,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      {
+        "Type": "Mod",
+        "Id": 41951,
+        "Num": 3
+      }
+    ]
+  },
+  "51952": {
+    "DraftId": 51952,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 51952,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      {
+        "Type": "Mod",
+        "Id": 41952,
+        "Num": 3
+      }
+    ]
+  },
+  "51961": {
+    "DraftId": 51961,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 51961,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      {
+        "Type": "Mod",
+        "Id": 41961,
+        "Num": 3
+      }
+    ]
+  },
+  "52001": {
+    "DraftId": 52001,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 52001,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      [
+        "Type = \"Mod",
+        "Id = 42001",
+        "Num = 3"
+      ]
+    ]
+  },
+  "52004": {
+    "DraftId": 52004,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 52004,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      {
+        "Type": "Mod",
+        "Id": 42311,
+        "Num": 3
+      }
+    ]
+  },
+  "52005": {
+    "DraftId": 52005,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 52005,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      {
+        "Type": "Mod",
+        "Id": 42322,
+        "Num": 3
+      }
+    ]
+  },
+  "52007": {
+    "DraftId": 52007,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 52007,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      {
+        "Type": "Mod",
+        "Id": 42001,
+        "Num": 2
+      },
+      {
+        "Type": "Mod",
+        "Id": 42002,
+        "Num": 1
+      }
+    ]
+  },
+  "52008": {
+    "DraftId": 52008,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 52008,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      {
+        "Type": "Mod",
+        "Id": 42003,
+        "Num": 3
+      },
+      {
+        "Type": "Mod",
+        "Id": 42006,
+        "Num": 1
+      }
+    ]
+  },
+  "52101": {
+    "DraftId": 52101,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 52101,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      [
+        "Type = \"Mod",
+        "Id = 42001",
+        "Num = 3"
+      ],
+      {
+        "Type": "Mod",
+        "Id": 32101,
+        "Num": 5
+      }
+    ]
+  },
+  "52102": {
+    "DraftId": 52102,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 52102,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      [
+        "Type = \"Mod",
+        "Id = 42001",
+        "Num = 3"
+      ],
+      {
+        "Type": "Mod",
+        "Id": 32102,
+        "Num": 5
+      }
+    ]
+  },
+  "52103": {
+    "DraftId": 52103,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 52103,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      [
+        "Type = \"Mod",
+        "Id = 42001",
+        "Num = 3"
+      ],
+      {
+        "Type": "Mod",
+        "Id": 32103,
+        "Num": 5
+      }
+    ]
+  },
+  "53001": {
+    "DraftId": 53001,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 53001,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      [
+        "Type = \"Mod",
+        "Id = 43001",
+        "Num = 3"
+      ]
+    ]
+  },
+  "53004": {
+    "DraftId": 53004,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 53004,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      {
+        "Type": "Mod",
+        "Id": 43341,
+        "Num": 3
+      }
+    ]
+  },
+  "53005": {
+    "DraftId": 53005,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 53005,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      {
+        "Type": "Mod",
+        "Id": 43301,
+        "Num": 3
+      },
+      {
+        "Type": "Mod",
+        "Id": 33005,
+        "Num": 5
+      }
+    ]
+  },
+  "53007": {
+    "DraftId": 53007,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 53007,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      {
+        "Type": "Mod",
+        "Id": 43001,
+        "Num": 2
+      },
+      {
+        "Type": "Mod",
+        "Id": 43002,
+        "Num": 1
+      }
+    ]
+  },
+  "53008": {
+    "DraftId": 53008,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 53008,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      {
+        "Type": "Mod",
+        "Id": 43003,
+        "Num": 3
+      },
+      {
+        "Type": "Mod",
+        "Id": 43006,
+        "Num": 1
+      }
+    ]
+  },
+  "53101": {
+    "DraftId": 53101,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 53101,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      [
+        "Type = \"Mod",
+        "Id = 43001",
+        "Num = 3"
+      ],
+      {
+        "Type": "Mod",
+        "Id": 33101,
+        "Num": 5
+      }
+    ]
+  },
+  "53102": {
+    "DraftId": 53102,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 53102,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      [
+        "Type = \"Mod",
+        "Id = 43001",
+        "Num = 3"
+      ],
+      {
+        "Type": "Mod",
+        "Id": 33102,
+        "Num": 5
+      }
+    ]
+  },
+  "53103": {
+    "DraftId": 53103,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 53103,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      [
+        "Type = \"Mod",
+        "Id = 43001",
+        "Num = 3"
+      ],
+      {
+        "Type": "Mod",
+        "Id": 33103,
+        "Num": 5
+      }
+    ]
+  },
+  "54001": {
+    "DraftId": 54001,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 54001,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      {
+        "Type": "Mod",
+        "Id": 44001,
+        "Num": 3
+      }
+    ]
+  },
+  "54002": {
+    "DraftId": 54002,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 54002,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      {
+        "Type": "Mod",
+        "Id": 44002,
+        "Num": 3
+      }
+    ]
+  },
+  "54003": {
+    "DraftId": 54003,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 54003,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      {
+        "Type": "Mod",
+        "Id": 44003,
+        "Num": 3
+      }
+    ]
+  },
+  "54004": {
+    "DraftId": 54004,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 54004,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      {
+        "Type": "Mod",
+        "Id": 44004,
+        "Num": 3
+      }
+    ]
+  },
+  "54005": {
+    "DraftId": 54005,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 54005,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      {
+        "Type": "Mod",
+        "Id": 44005,
+        "Num": 3
+      }
+    ]
+  },
+  "54006": {
+    "DraftId": 54006,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 54006,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      {
+        "Type": "Mod",
+        "Id": 44006,
+        "Num": 3
+      }
+    ]
+  },
+  "54101": {
+    "DraftId": 54101,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 54101,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      {
+        "Type": "Mod",
+        "Id": 44101,
+        "Num": 3
+      }
+    ]
+  },
+  "54102": {
+    "DraftId": 54102,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 54102,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      {
+        "Type": "Mod",
+        "Id": 44102,
+        "Num": 3
+      }
+    ]
+  },
+  "54103": {
+    "DraftId": 54103,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 54103,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      {
+        "Type": "Mod",
+        "Id": 44103,
+        "Num": 3
+      }
+    ]
+  },
+  "55001": {
+    "DraftId": 55001,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 55001,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      {
+        "Type": "Mod",
+        "Id": 45001,
+        "Num": 3
+      }
+    ]
+  },
+  "55002": {
+    "DraftId": 55002,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 55002,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      {
+        "Type": "Mod",
+        "Id": 45002,
+        "Num": 3
+      }
+    ]
+  },
+  "55003": {
+    "DraftId": 55003,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 55003,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      {
+        "Type": "Mod",
+        "Id": 45003,
+        "Num": 3
+      }
+    ]
+  },
+  "55004": {
+    "DraftId": 55004,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 55004,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      {
+        "Type": "Mod",
+        "Id": 45004,
+        "Num": 3
+      }
+    ]
+  },
+  "55005": {
+    "DraftId": 55005,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 55005,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      {
+        "Type": "Mod",
+        "Id": 45005,
+        "Num": 3
+      }
+    ]
+  },
+  "55006": {
+    "DraftId": 55006,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 55006,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      {
+        "Type": "Mod",
+        "Id": 45006,
+        "Num": 3
+      }
+    ]
+  },
+  "55101": {
+    "DraftId": 55101,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 55101,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      {
+        "Type": "Mod",
+        "Id": 45101,
+        "Num": 3
+      }
+    ]
+  },
+  "55102": {
+    "DraftId": 55102,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 55102,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      {
+        "Type": "Mod",
+        "Id": 45102,
+        "Num": 3
+      }
+    ]
+  },
+  "55103": {
+    "DraftId": 55103,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Prop/Icon_Draft_Mod01.Icon_Draft_Mod01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "Mod",
+    "ProductId": 55103,
+    "ProductNum": 1,
+    "Time": 60,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      {
+        "Type": "Mod",
+        "Id": 45103,
+        "Num": 3
+      }
+    ]
+  },
+  "310001": {
+    "DraftId": 310001,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Fashion/Icon_Part_Head_YellowChick",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "CharAccessory",
+    "ProductId": 10001,
+    "ProductNum": 1,
+    "Time": 5,
+    "FoundryCost": [
+      20000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20009",
+        "Num = 50"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20002",
+        "Num = 50"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20012",
+        "Num = 50"
+      ]
+    ]
+  },
+  "310002": {
+    "DraftId": 310002,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Fashion/Icon_Part_Head_WhiteChick",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "CharAccessory",
+    "ProductId": 10002,
+    "ProductNum": 1,
+    "Time": 5,
+    "FoundryCost": [
+      30000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20009",
+        "Num = 75"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20002",
+        "Num = 75"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20005",
+        "Num = 75"
+      ]
+    ]
+  },
+  "310003": {
+    "DraftId": 310003,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Fashion/Icon_Part_Head_BrownChick",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "CharAccessory",
+    "ProductId": 10003,
+    "ProductNum": 1,
+    "Time": 5,
+    "FoundryCost": [
+      30000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20009",
+        "Num = 75"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20002",
+        "Num = 75"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20011",
+        "Num = 75"
+      ]
+    ]
+  },
+  "310004": {
+    "DraftId": 310004,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Fashion/Icon_Part_Head_BlackChick",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "CharAccessory",
+    "ProductId": 10004,
+    "ProductNum": 1,
+    "Time": 5,
+    "FoundryCost": [
+      30000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20002",
+        "Num = 75"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20012",
+        "Num = 75"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20005",
+        "Num = 75"
+      ]
+    ]
+  },
+  "310005": {
+    "DraftId": 310005,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Fashion/Icon_Part_Head_Sprout",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "CharAccessory",
+    "ProductId": 10005,
+    "ProductNum": 1,
+    "Time": 5,
+    "FoundryCost": [
+      20000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20002",
+        "Num = 50"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20012",
+        "Num = 50"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20011",
+        "Num = 50"
+      ]
+    ]
+  },
+  "310006": {
+    "DraftId": 310006,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Fashion/Icon_Part_Head_YellowSprout",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "CharAccessory",
+    "ProductId": 10006,
+    "ProductNum": 1,
+    "Time": 5,
+    "FoundryCost": [
+      30000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20012",
+        "Num = 75"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20005",
+        "Num = 75"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20011",
+        "Num = 75"
+      ]
+    ]
+  },
+  "310007": {
+    "DraftId": 310007,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Fashion/Icon_Part_Head_BlueSprout",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "CharAccessory",
+    "ProductId": 10007,
+    "ProductNum": 1,
+    "Time": 5,
+    "FoundryCost": [
+      30000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20012",
+        "Num = 75"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20005",
+        "Num = 75"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20009",
+        "Num = 75"
+      ]
+    ]
+  },
+  "310008": {
+    "DraftId": 310008,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Fashion/Icon_Part_Head_RedSprout",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "CharAccessory",
+    "ProductId": 10008,
+    "ProductNum": 1,
+    "Time": 5,
+    "FoundryCost": [
+      30000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20014",
+        "Num = 75"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20019",
+        "Num = 75"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20017",
+        "Num = 75"
+      ]
+    ]
+  },
+  "310009": {
+    "DraftId": 310009,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Fashion/Icon_Part_Head_Wuwu",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "CharAccessory",
+    "ProductId": 10009,
+    "ProductNum": 1,
+    "Time": 5,
+    "FoundryCost": [
+      30000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20014",
+        "Num = 75"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20019",
+        "Num = 75"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20020",
+        "Num = 75"
+      ]
+    ]
+  },
+  "310010": {
+    "DraftId": 310010,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Fashion/Icon_Part_Head_Bow",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "CharAccessory",
+    "ProductId": 10010,
+    "ProductNum": 1,
+    "Time": 5,
+    "FoundryCost": [
+      20000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20014",
+        "Num = 50"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20019",
+        "Num = 50"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20018",
+        "Num = 50"
+      ]
+    ]
+  },
+  "310011": {
+    "DraftId": 310011,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Fashion/Icon_Part_Head_SilverBow",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "CharAccessory",
+    "ProductId": 10011,
+    "ProductNum": 1,
+    "Time": 5,
+    "FoundryCost": [
+      30000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20020",
+        "Num = 75"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20018",
+        "Num = 75"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20014",
+        "Num = 75"
+      ]
+    ]
+  },
+  "310012": {
+    "DraftId": 310012,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Fashion/Icon_Part_Head_RedBow",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "CharAccessory",
+    "ProductId": 10012,
+    "ProductNum": 1,
+    "Time": 5,
+    "FoundryCost": [
+      30000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20020",
+        "Num = 75"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20018",
+        "Num = 75"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20017",
+        "Num = 75"
+      ]
+    ]
+  },
+  "310013": {
+    "DraftId": 310013,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Fashion/Icon_Part_Head_PinkBow",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "CharAccessory",
+    "ProductId": 10013,
+    "ProductNum": 1,
+    "Time": 5,
+    "FoundryCost": [
+      30000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20014",
+        "Num = 75"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20018",
+        "Num = 75"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20017",
+        "Num = 75"
+      ]
+    ]
+  },
+  "310014": {
+    "DraftId": 310014,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Fashion/Icon_Part_Head_Dinosaur",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "CharAccessory",
+    "ProductId": 10014,
+    "ProductNum": 1,
+    "Time": 5,
+    "FoundryCost": [
+      30000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20009",
+        "Num = 75"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20002",
+        "Num = 75"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20012",
+        "Num = 75"
+      ]
+    ]
+  },
+  "310015": {
+    "DraftId": 310015,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Fashion/Icon_Part_Head_EggJiao",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "CharAccessory",
+    "ProductId": 10015,
+    "ProductNum": 1,
+    "Time": 5,
+    "FoundryCost": [
+      40000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20029",
+        "Num = 2"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20032",
+        "Num = 2"
+      ]
+    ]
+  },
+  "310016": {
+    "DraftId": 310016,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Fashion/Icon_Part_Head_Bubble",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "CharAccessory",
+    "ProductId": 10016,
+    "ProductNum": 1,
+    "Time": 5,
+    "FoundryCost": [
+      40000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20029",
+        "Num = 2"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20032",
+        "Num = 2"
+      ]
+    ]
+  },
+  "310017": {
+    "DraftId": 310017,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Fashion/Icon_Part_Head_Snow",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "CharAccessory",
+    "ProductId": 10017,
+    "ProductNum": 1,
+    "Time": 5,
+    "FoundryCost": [
+      40000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20029",
+        "Num = 2"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20032",
+        "Num = 2"
+      ]
+    ]
+  },
+  "310018": {
+    "DraftId": 310018,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Fashion/Icon_Part_Head_Rain",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "CharAccessory",
+    "ProductId": 10018,
+    "ProductNum": 1,
+    "Time": 5,
+    "FoundryCost": [
+      40000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20029",
+        "Num = 2"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20032",
+        "Num = 2"
+      ]
+    ]
+  },
+  "310019": {
+    "DraftId": 310019,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Fashion/Icon_Part_Head_Rainbow",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "CharAccessory",
+    "ProductId": 10019,
+    "ProductNum": 1,
+    "Time": 5,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20027",
+        "Num = 1"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20028",
+        "Num = 1"
+      ]
+    ]
+  },
+  "310021": {
+    "DraftId": 310021,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Fashion/Icon_Part_Head_GoldenMask",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "CharAccessory",
+    "ProductId": 10021,
+    "ProductNum": 1,
+    "Time": 5,
+    "FoundryCost": [
+      40000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20029",
+        "Num = 2"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20032",
+        "Num = 2"
+      ]
+    ]
+  },
+  "310022": {
+    "DraftId": 310022,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Fashion/Icon_Part_Head_SilverMask",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "CharAccessory",
+    "ProductId": 10022,
+    "ProductNum": 1,
+    "Time": 5,
+    "FoundryCost": [
+      30000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20014",
+        "Num = 75"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20019",
+        "Num = 75"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20020",
+        "Num = 75"
+      ]
+    ]
+  },
+  "310023": {
+    "DraftId": 310023,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Fashion/Icon_Part_Head_FoxMask",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "CharAccessory",
+    "ProductId": 10023,
+    "ProductNum": 1,
+    "Time": 5,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20027",
+        "Num = 1"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20028",
+        "Num = 1"
+      ]
+    ]
+  },
+  "320001": {
+    "DraftId": 320001,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Fashion/Icon_Part_Face_Glasses",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "CharAccessory",
+    "ProductId": 20001,
+    "ProductNum": 1,
+    "Time": 5,
+    "FoundryCost": [
+      20000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20020",
+        "Num = 50"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20018",
+        "Num = 50"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20014",
+        "Num = 50"
+      ]
+    ]
+  },
+  "320002": {
+    "DraftId": 320002,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Fashion/Icon_Part_Face_RedGlasses",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "CharAccessory",
+    "ProductId": 20002,
+    "ProductNum": 1,
+    "Time": 5,
+    "FoundryCost": [
+      30000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20020",
+        "Num = 75"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20018",
+        "Num = 75"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20017",
+        "Num = 75"
+      ]
+    ]
+  },
+  "320003": {
+    "DraftId": 320003,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Fashion/Icon_Part_Face_TransparentGlasses",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "CharAccessory",
+    "ProductId": 20003,
+    "ProductNum": 1,
+    "Time": 5,
+    "FoundryCost": [
+      30000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20014",
+        "Num = 75"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20018",
+        "Num = 75"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20017",
+        "Num = 75"
+      ]
+    ]
+  },
+  "320004": {
+    "DraftId": 320004,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Fashion/Icon_Part_Face_HawksbillGlasses",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "CharAccessory",
+    "ProductId": 20004,
+    "ProductNum": 1,
+    "Time": 5,
+    "FoundryCost": [
+      30000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20009",
+        "Num = 75"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20002",
+        "Num = 75"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20012",
+        "Num = 75"
+      ]
+    ]
+  },
+  "320005": {
+    "DraftId": 320005,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Fashion/Icon_Part_Face_EyeMask",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "CharAccessory",
+    "ProductId": 20005,
+    "ProductNum": 1,
+    "Time": 5,
+    "FoundryCost": [
+      20000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20009",
+        "Num = 50"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20002",
+        "Num = 50"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20005",
+        "Num = 50"
+      ]
+    ]
+  },
+  "320006": {
+    "DraftId": 320006,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Fashion/Icon_Part_Face_WhiteBandage",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "CharAccessory",
+    "ProductId": 20006,
+    "ProductNum": 1,
+    "Time": 5,
+    "FoundryCost": [
+      30000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20009",
+        "Num = 75"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20002",
+        "Num = 75"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20011",
+        "Num = 75"
+      ]
+    ]
+  },
+  "320007": {
+    "DraftId": 320007,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Fashion/Icon_Part_Face_RedBandage",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "CharAccessory",
+    "ProductId": 20007,
+    "ProductNum": 1,
+    "Time": 5,
+    "FoundryCost": [
+      30000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20002",
+        "Num = 75"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20012",
+        "Num = 75"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20005",
+        "Num = 75"
+      ]
+    ]
+  },
+  "320008": {
+    "DraftId": 320008,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Fashion/Icon_Part_Face_Butterfly01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "CharAccessory",
+    "ProductId": 20008,
+    "ProductNum": 1,
+    "Time": 5,
+    "FoundryCost": [
+      20000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20002",
+        "Num = 50"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20012",
+        "Num = 50"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20011",
+        "Num = 50"
+      ]
+    ]
+  },
+  "320009": {
+    "DraftId": 320009,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Fashion/Icon_Part_Face_WhiteButterfly01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "CharAccessory",
+    "ProductId": 20009,
+    "ProductNum": 1,
+    "Time": 5,
+    "FoundryCost": [
+      30000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20012",
+        "Num = 75"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20005",
+        "Num = 75"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20011",
+        "Num = 75"
+      ]
+    ]
+  },
+  "320010": {
+    "DraftId": 320010,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Fashion/Icon_Part_Face_PinkButterfly01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "CharAccessory",
+    "ProductId": 20010,
+    "ProductNum": 1,
+    "Time": 5,
+    "FoundryCost": [
+      30000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20012",
+        "Num = 75"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20005",
+        "Num = 75"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20009",
+        "Num = 75"
+      ]
+    ]
+  },
+  "320011": {
+    "DraftId": 320011,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Fashion/Icon_Part_Face_BlackButterfly01",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "CharAccessory",
+    "ProductId": 20011,
+    "ProductNum": 1,
+    "Time": 5,
+    "FoundryCost": [
+      30000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20014",
+        "Num = 75"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20019",
+        "Num = 75"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20017",
+        "Num = 75"
+      ]
+    ]
+  },
+  "320012": {
+    "DraftId": 320012,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Fashion/Icon_Part_Face_Butterfly02",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "CharAccessory",
+    "ProductId": 20012,
+    "ProductNum": 1,
+    "Time": 5,
+    "FoundryCost": [
+      20000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20014",
+        "Num = 50"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20019",
+        "Num = 50"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20020",
+        "Num = 50"
+      ]
+    ]
+  },
+  "320013": {
+    "DraftId": 320013,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Fashion/Icon_Part_Face_CyanButterfly02",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "CharAccessory",
+    "ProductId": 20013,
+    "ProductNum": 1,
+    "Time": 5,
+    "FoundryCost": [
+      30000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20014",
+        "Num = 75"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20019",
+        "Num = 75"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20018",
+        "Num = 75"
+      ]
+    ]
+  },
+  "320014": {
+    "DraftId": 320014,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Fashion/Icon_Part_Face_RedButterfly02",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "CharAccessory",
+    "ProductId": 20014,
+    "ProductNum": 1,
+    "Time": 5,
+    "FoundryCost": [
+      30000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20020",
+        "Num = 75"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20018",
+        "Num = 75"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20014",
+        "Num = 75"
+      ]
+    ]
+  },
+  "320015": {
+    "DraftId": 320015,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Fashion/Icon_Part_Face_GreyButterfly02",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "CharAccessory",
+    "ProductId": 20015,
+    "ProductNum": 1,
+    "Time": 5,
+    "FoundryCost": [
+      30000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20020",
+        "Num = 75"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20018",
+        "Num = 75"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20017",
+        "Num = 75"
+      ]
+    ]
+  },
+  "320016": {
+    "DraftId": 320016,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Fashion/Icon_Part_Face_Bandage",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "CharAccessory",
+    "ProductId": 20016,
+    "ProductNum": 1,
+    "Time": 5,
+    "FoundryCost": [
+      20000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20014",
+        "Num = 50"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20018",
+        "Num = 50"
+      ],
+      {
+        "Type": "Resource",
+        "Id": 20017,
+        "Num": 50
+      }
+    ]
+  },
+  "320017": {
+    "DraftId": 320017,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Fashion/Icon_Part_Face_BlackBandage",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "CharAccessory",
+    "ProductId": 20017,
+    "ProductNum": 1,
+    "Time": 5,
+    "FoundryCost": [
+      30000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20009",
+        "Num = 75"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20002",
+        "Num = 75"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20012",
+        "Num = 75"
+      ]
+    ]
+  },
+  "320018": {
+    "DraftId": 320018,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Fashion/Icon_Part_Face_PinkBandage",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "CharAccessory",
+    "ProductId": 20018,
+    "ProductNum": 1,
+    "Time": 5,
+    "FoundryCost": [
+      30000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20009",
+        "Num = 75"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20002",
+        "Num = 75"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20005",
+        "Num = 75"
+      ]
+    ]
+  },
+  "320019": {
+    "DraftId": 320019,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Fashion/Icon_Part_Face_BlueBandage",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "CharAccessory",
+    "ProductId": 20019,
+    "ProductNum": 1,
+    "Time": 5,
+    "FoundryCost": [
+      30000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20009",
+        "Num = 75"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20002",
+        "Num = 75"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20011",
+        "Num = 75"
+      ]
+    ]
+  },
+  "320020": {
+    "DraftId": 320020,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Fashion/Icon_Part_Face_ArmyMask",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "CharAccessory",
+    "ProductId": 20020,
+    "ProductNum": 1,
+    "Time": 5,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20027",
+        "Num = 1"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20028",
+        "Num = 1"
+      ]
+    ]
+  },
+  "320021": {
+    "DraftId": 320021,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Fashion/Icon_Part_Face_Wing",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "CharAccessory",
+    "ProductId": 20021,
+    "ProductNum": 1,
+    "Time": 5,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20027",
+        "Num = 1"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20028",
+        "Num = 1"
+      ]
+    ]
+  },
+  "320022": {
+    "DraftId": 320022,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Fashion/Icon_Part_Face_RedFlower",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "CharAccessory",
+    "ProductId": 20022,
+    "ProductNum": 1,
+    "Time": 5,
+    "FoundryCost": [
+      40000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20029",
+        "Num = 2"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20032",
+        "Num = 2"
+      ]
+    ]
+  },
+  "320023": {
+    "DraftId": 320023,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Fashion/Icon_Part_Face_WhiteFlower",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "CharAccessory",
+    "ProductId": 20023,
+    "ProductNum": 1,
+    "Time": 5,
+    "FoundryCost": [
+      40000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20029",
+        "Num = 2"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20032",
+        "Num = 2"
+      ]
+    ]
+  },
+  "320024": {
+    "DraftId": 320024,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Fashion/Icon_Part_Face_Beard",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "CharAccessory",
+    "ProductId": 20024,
+    "ProductNum": 1,
+    "Time": 5,
+    "FoundryCost": [
+      30000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20014",
+        "Num = 75"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20019",
+        "Num = 75"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20017",
+        "Num = 75"
+      ]
+    ]
+  },
+  "330001": {
+    "DraftId": 330001,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Fashion/Icon_Part_Back_Lantern",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "CharAccessory",
+    "ProductId": 30001,
+    "ProductNum": 1,
+    "Time": 5,
+    "FoundryCost": [
+      30000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20014",
+        "Num = 75"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20019",
+        "Num = 75"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20018",
+        "Num = 75"
+      ]
+    ]
+  },
+  "330002": {
+    "DraftId": 330002,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Fashion/Icon_Part_Waist_Gourd",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "CharAccessory",
+    "ProductId": 30002,
+    "ProductNum": 1,
+    "Time": 5,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20027",
+        "Num = 1"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20028",
+        "Num = 1"
+      ]
+    ]
+  },
+  "340002": {
+    "DraftId": 340002,
+    "Rarity": 5,
+    "Icon": "/Game/UI/UI_PNG/03Image/Fashion/Icon_Part_Back_Sword",
+    "Sound": "SOUND_ITEM_PAPER",
+    "ProductType": "CharAccessory",
+    "ProductId": 40002,
+    "ProductNum": 1,
+    "Time": 5,
+    "FoundryCost": [
+      50000
+    ],
+    "Resource": [
+      [
+        "Type = \"Resource",
+        "Id = 20027",
+        "Num = 1"
+      ],
+      [
+        "Type = \"Resource",
+        "Id = 20028",
+        "Num = 1"
+      ]
+    ]
+  }
+}

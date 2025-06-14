@@ -1,0 +1,50 @@
+[
+  {
+    "ChannelType": 1,
+    "Name": "UI_Channel_Name_1",
+    "SIcon": "/Game/UI/Texture/Dynamic/Atlas/Chat/T_Chat_ChannelRecruit_B",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Chat/T_ChatChannel_Recruit",
+    "Des": "UI_Channel_Notice_1",
+    "PlayerMax": 3000,
+    "MessageCD": 3,
+    "MessageMax": 50,
+    "JoinOption": 1,
+    "IsNotice": false
+  },
+  {
+    "ChannelType": 2,
+    "Name": "UI_Channel_Name_2",
+    "SIcon": "/Game/UI/Texture/Dynamic/Atlas/Chat/T_ChatChannel_Question_B",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Chat/T_ChatChannel_Question",
+    "Des": "UI_Channel_Notice_2",
+    "PlayerMax": 3000,
+    "MessageCD": 3,
+    "MessageMax": 50,
+    "JoinOption": 1,
+    "IsNotice": false
+  },
+  {
+    "ChannelType": 3,
+    "Name": "UI_Channel_Name_4",
+    "SIcon": "/Game/UI/Texture/Dynamic/Atlas/Chat/T_Chat_ChannelTeam_B",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Chat/T_ChatChannel_Team",
+    "Des": "UI_Channel_Notice_4",
+    "PlayerMax": 4,
+    "MessageCD": 0,
+    "MessageMax": 50,
+    "JoinOption": 0,
+    "IsNotice": true
+  },
+  {
+    "ChannelType": 4,
+    "Name": "UI_Channel_Name_5",
+    "SIcon": "/Game/UI/Texture/Dynamic/Atlas/Chat/T_Chat_ChannelFriend_B",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Chat/T_ChatChannel_Friend",
+    "Des": "UI_Channel_Notice_5",
+    "PlayerMax": 2,
+    "MessageCD": 0,
+    "MessageMax": 50,
+    "JoinOption": 1,
+    "IsNotice": true
+  }
+]
