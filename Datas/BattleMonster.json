@@ -22,24 +22,18 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "102": {
     "BattleRoleId": 102,
-    "SkillList": {},
+    "SkillList": [
+      700301
+    ],
     "Attribute": "Default",
     "MaxHp": 2000000,
     "DEF": 300,
@@ -60,24 +54,21 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "103": {
     "BattleRoleId": 103,
-    "SkillList": {},
+    "SkillList": [
+      700301,
+      700302,
+      700324,
+      6000011
+    ],
     "Attribute": "Default",
     "MaxHp": 2000,
     "DEF": 200,
@@ -98,20 +89,12 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "104": {
     "BattleRoleId": 104,
@@ -135,20 +118,12 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "114": {
     "BattleRoleId": 114,
@@ -186,32 +161,27 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ],
-    "BTBattleParams": [
-      {
-        "MinAttackRange": 800
-      },
-      {
-        "MaxAttackRange": 1200
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    },
+    "BTBattleParams": {
+      "MinAttackRange": 800,
+      "MaxAttackRange": 1200
+    }
   },
   "115": {
     "BattleRoleId": 115,
-    "SkillList": {},
+    "SkillList": [
+      700201,
+      700202,
+      700203,
+      700215,
+      6000000,
+      6000002
+    ],
     "Attribute": "Default",
     "MaxHp": 100,
     "DEF": 300,
@@ -236,20 +206,12 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "116": {
     "BattleRoleId": 116,
@@ -285,8 +247,80 @@
     "TNRecoverTimeZ": 0.5,
     "BossTNToZeroRecoverSpeed": 600,
     "DeductToughnessHit": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
       "LightHit",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
       "LightHit",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
       "LightHit"
     ],
     "CannotBePushed": 1,
@@ -299,25 +333,15 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 500
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ],
-    "BTBattleParams": [
-      {
-        "TimerKey": 270
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 500,
+      "MaxAccelerationRun": 3000
+    },
+    "BTBattleParams": {
+      "TimerKey": 270
+    }
   },
   "117": {
     "BattleRoleId": 117,
@@ -355,24 +379,39 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "118": {
     "BattleRoleId": 118,
-    "SkillList": {},
+    "SkillList": [
+      850316,
+      850317,
+      850318,
+      850319,
+      850320,
+      850321,
+      850307,
+      850322,
+      850323,
+      850324,
+      850325,
+      6000010,
+      6000013,
+      850326,
+      850327,
+      850328,
+      850329,
+      850330,
+      850331,
+      850332,
+      850333,
+      850334
+    ],
     "Attribute": "Default",
     "MaxHp": 15000,
     "DEF": 300,
@@ -387,8 +426,80 @@
     "BossTNToZeroRecoverSpeed": 600,
     "DeductToughnessHit": [
       "LightHit",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
       "LightHit",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
       "LightHit",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
       "LightHit"
     ],
     "CollisionLevel": 999,
@@ -400,20 +511,12 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 300
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 1000
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 300,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 1000,
+      "MaxAccelerationRun": 3000
+    }
   },
   "119": {
     "BattleRoleId": 119,
@@ -451,32 +554,27 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ],
-    "BTBattleParams": [
-      {
-        "MinAttackRange": 800
-      },
-      {
-        "MaxAttackRange": 1200
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    },
+    "BTBattleParams": {
+      "MinAttackRange": 800,
+      "MaxAttackRange": 1200
+    }
   },
   "120": {
     "BattleRoleId": 120,
-    "SkillList": {},
+    "SkillList": [
+      700101,
+      700102,
+      700103,
+      700104,
+      700105,
+      700111
+    ],
     "Attribute": "Default",
     "MaxHp": 36,
     "DEF": 75,
@@ -501,28 +599,16 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ],
-    "BTBattleParams": [
-      {
-        "MinAttackRange": 1200
-      },
-      {
-        "MaxAttackRange": 1600
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    },
+    "BTBattleParams": {
+      "MinAttackRange": 1200,
+      "MaxAttackRange": 1600
+    }
   },
   "121": {
     "BattleRoleId": 121,
@@ -559,20 +645,12 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "122": {
     "BattleRoleId": 122,
@@ -608,20 +686,12 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "123": {
     "BattleRoleId": 123,
@@ -670,20 +740,12 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 500
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 500,
+      "MaxAccelerationRun": 3000
+    }
   },
   "124": {
     "BattleRoleId": 124,
@@ -719,8 +781,80 @@
     "TNRecoverTimeZ": 0.5,
     "BossTNToZeroRecoverSpeed": 600,
     "DeductToughnessHit": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
       "LightHit",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
       "LightHit",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
       "LightHit"
     ],
     "CannotBePushed": 1,
@@ -733,25 +867,15 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 500
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ],
-    "BTBattleParams": [
-      {
-        "TimerKey": 270
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 500,
+      "MaxAccelerationRun": 3000
+    },
+    "BTBattleParams": {
+      "TimerKey": 270
+    }
   },
   "125": {
     "BattleRoleId": 125,
@@ -787,8 +911,80 @@
     "TNRecoverTimeZ": 0.5,
     "BossTNToZeroRecoverSpeed": 600,
     "DeductToughnessHit": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
       "LightHit",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
       "LightHit",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
       "LightHit"
     ],
     "CannotBePushed": 1,
@@ -801,25 +997,15 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 500
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ],
-    "BTBattleParams": [
-      {
-        "TimerKey": 270
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 500,
+      "MaxAccelerationRun": 3000
+    },
+    "BTBattleParams": {
+      "TimerKey": 270
+    }
   },
   "126": {
     "BattleRoleId": 126,
@@ -855,8 +1041,80 @@
     "TNRecoverTimeZ": 0.5,
     "BossTNToZeroRecoverSpeed": 600,
     "DeductToughnessHit": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
       "LightHit",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
       "LightHit",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
       "LightHit"
     ],
     "CannotBePushed": 1,
@@ -869,25 +1127,15 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 500
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ],
-    "BTBattleParams": [
-      {
-        "TimerKey": 270
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 500,
+      "MaxAccelerationRun": 3000
+    },
+    "BTBattleParams": {
+      "TimerKey": 270
+    }
   },
   "127": {
     "BattleRoleId": 127,
@@ -923,8 +1171,80 @@
     "TNRecoverTimeZ": 0.5,
     "BossTNToZeroRecoverSpeed": 600,
     "DeductToughnessHit": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
       "LightHit",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
       "LightHit",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
       "LightHit"
     ],
     "CannotBePushed": 1,
@@ -937,25 +1257,15 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 500
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ],
-    "BTBattleParams": [
-      {
-        "TimerKey": 270
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 500,
+      "MaxAccelerationRun": 3000
+    },
+    "BTBattleParams": {
+      "TimerKey": 270
+    }
   },
   "10001": {
     "BattleRoleId": 10001,
@@ -991,20 +1301,12 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "11701": {
     "BattleRoleId": 11701,
@@ -1029,20 +1331,12 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "39001": {
     "BattleRoleId": 39001,
@@ -1069,20 +1363,12 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "39002": {
     "BattleRoleId": 39002,
@@ -1106,20 +1392,12 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "39003": {
     "BattleRoleId": 39003,
@@ -1143,20 +1421,12 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "39004": {
     "BattleRoleId": 39004,
@@ -1180,20 +1450,12 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "39005": {
     "BattleRoleId": 39005,
@@ -1217,20 +1479,12 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "39006": {
     "BattleRoleId": 39006,
@@ -1254,20 +1508,12 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "39007": {
     "BattleRoleId": 39007,
@@ -1291,20 +1537,12 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "39008": {
     "BattleRoleId": 39008,
@@ -1331,20 +1569,12 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "39009": {
     "BattleRoleId": 39009,
@@ -1368,20 +1598,12 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "39010": {
     "BattleRoleId": 39010,
@@ -1405,20 +1627,12 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "39011": {
     "BattleRoleId": 39011,
@@ -1443,20 +1657,12 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "39012": {
     "BattleRoleId": 39012,
@@ -1480,20 +1686,12 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "39013": {
     "BattleRoleId": 39013,
@@ -1520,20 +1718,12 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "39014": {
     "BattleRoleId": 39014,
@@ -1557,20 +1747,12 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "39016": {
     "BattleRoleId": 39016,
@@ -1594,20 +1776,12 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "40001": {
     "BattleRoleId": 40001,
@@ -1632,20 +1806,12 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "40002": {
     "BattleRoleId": 40002,
@@ -1669,20 +1835,12 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "40003": {
     "BattleRoleId": 40003,
@@ -1706,20 +1864,12 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "40004": {
     "BattleRoleId": 40004,
@@ -1743,20 +1893,12 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "41001": {
     "BattleRoleId": 41001,
@@ -1781,20 +1923,12 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "41002": {
     "BattleRoleId": 41002,
@@ -1819,20 +1953,12 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "49001": {
     "BattleRoleId": 49001,
@@ -1856,20 +1982,12 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "49002": {
     "BattleRoleId": 49002,
@@ -1893,20 +2011,12 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "49003": {
     "BattleRoleId": 49003,
@@ -1930,24 +2040,18 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "110201": {
     "BattleRoleId": 110201,
-    "SkillList": {},
+    "SkillList": [
+      110211
+    ],
     "Attribute": "Dark",
     "MaxHp": 300,
     "DEF": 300,
@@ -1968,20 +2072,12 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "117011": {
     "BattleRoleId": 117011,
@@ -2006,20 +2102,12 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "180101": {
     "BattleRoleId": 180101,
@@ -2043,24 +2131,18 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "210101": {
     "BattleRoleId": 210101,
-    "SkillList": {},
+    "SkillList": [
+      210111
+    ],
     "Attribute": "Water",
     "MaxHp": 300,
     "DEF": 300,
@@ -2081,24 +2163,19 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "230101": {
     "BattleRoleId": 230101,
-    "SkillList": {},
+    "SkillList": [
+      230131,
+      230132
+    ],
     "Attribute": "Water",
     "MaxHp": 300,
     "DEF": 300,
@@ -2119,24 +2196,18 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "240101": {
     "BattleRoleId": 240101,
-    "SkillList": {},
+    "SkillList": [
+      240131
+    ],
     "Attribute": "Water",
     "MaxHp": 300,
     "DEF": 300,
@@ -2157,20 +2228,12 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "310201": {
     "BattleRoleId": 310201,
@@ -2194,20 +2257,12 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "390071": {
     "BattleRoleId": 390071,
@@ -2231,24 +2286,18 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "410101": {
     "BattleRoleId": 410101,
-    "SkillList": {},
+    "SkillList": [
+      410111
+    ],
     "Attribute": "Thunder",
     "MaxHp": 300,
     "DEF": 300,
@@ -2269,24 +2318,18 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "420101": {
     "BattleRoleId": 420101,
-    "SkillList": {},
+    "SkillList": [
+      420131
+    ],
     "Attribute": "Thunder",
     "MaxHp": 1000,
     "DEF": 300,
@@ -2307,20 +2350,12 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "420201": {
     "BattleRoleId": 420201,
@@ -2344,20 +2379,12 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "510101": {
     "BattleRoleId": 510101,
@@ -2381,20 +2408,12 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "530101": {
     "BattleRoleId": 530101,
@@ -2418,20 +2437,12 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "6001001": {
     "BattleRoleId": 6001001,
@@ -2463,20 +2474,12 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "6001002": {
     "BattleRoleId": 6001002,
@@ -2509,20 +2512,12 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "6001005": {
     "BattleRoleId": 6001005,
@@ -2552,24 +2547,22 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "6001011": {
     "BattleRoleId": 6001011,
-    "SkillList": {},
+    "SkillList": [
+      600101,
+      600102,
+      600103,
+      6000000,
+      6000001
+    ],
     "Attribute": "Default",
     "MaxHp": 1000,
     "DEF": 300,
@@ -2594,24 +2587,22 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "6001012": {
     "BattleRoleId": 6001012,
-    "SkillList": {},
+    "SkillList": [
+      600101,
+      600102,
+      600103,
+      6000000,
+      6000002
+    ],
     "Attribute": "Default",
     "MaxHp": 243,
     "DEF": 300,
@@ -2633,24 +2624,22 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "6001013": {
     "BattleRoleId": 6001013,
-    "SkillList": {},
+    "SkillList": [
+      600101,
+      600102,
+      600103,
+      6000000,
+      6000003
+    ],
     "Attribute": "Default",
     "MaxHp": 243,
     "DEF": 300,
@@ -2672,24 +2661,22 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "6001014": {
     "BattleRoleId": 6001014,
-    "SkillList": {},
+    "SkillList": [
+      600101,
+      600102,
+      600103,
+      6000000,
+      6000004
+    ],
     "Attribute": "Default",
     "MaxHp": 243,
     "DEF": 300,
@@ -2711,24 +2698,22 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "6001015": {
     "BattleRoleId": 6001015,
-    "SkillList": {},
+    "SkillList": [
+      600101,
+      600102,
+      600103,
+      6000000,
+      6000005
+    ],
     "Attribute": "Default",
     "MaxHp": 1000,
     "DEF": 300,
@@ -2750,24 +2735,22 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "6001016": {
     "BattleRoleId": 6001016,
-    "SkillList": {},
+    "SkillList": [
+      600101,
+      600102,
+      600103,
+      6000000,
+      6000006
+    ],
     "Attribute": "Default",
     "MaxHp": 243,
     "DEF": 300,
@@ -2789,24 +2772,22 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "6001017": {
     "BattleRoleId": 6001017,
-    "SkillList": {},
+    "SkillList": [
+      600101,
+      600102,
+      600103,
+      6000000,
+      6000007
+    ],
     "Attribute": "Default",
     "MaxHp": 1000,
     "DEF": 300,
@@ -2831,24 +2812,22 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "6001018": {
     "BattleRoleId": 6001018,
-    "SkillList": {},
+    "SkillList": [
+      600101,
+      600102,
+      600103,
+      6000000,
+      6000008
+    ],
     "Attribute": "Default",
     "MaxHp": 243,
     "DEF": 300,
@@ -2870,20 +2849,12 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "6001101": {
     "BattleRoleId": 6001101,
@@ -2915,20 +2886,12 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "6002001": {
     "BattleRoleId": 6002001,
@@ -2961,32 +2924,26 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ],
-    "BTBattleParams": [
-      {
-        "MinAttackRange": 1200
-      },
-      {
-        "MaxAttackRange": 1600
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    },
+    "BTBattleParams": {
+      "MinAttackRange": 1200,
+      "MaxAttackRange": 1600
+    }
   },
   "6002011": {
     "BattleRoleId": 6002011,
-    "SkillList": {},
+    "SkillList": [
+      600201,
+      600202,
+      600203,
+      6000000,
+      6000001
+    ],
     "Attribute": "Default",
     "MaxHp": 203,
     "DEF": 300,
@@ -3008,32 +2965,26 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ],
-    "BTBattleParams": [
-      {
-        "MinAttackRange": 1200
-      },
-      {
-        "MaxAttackRange": 1600
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    },
+    "BTBattleParams": {
+      "MinAttackRange": 1200,
+      "MaxAttackRange": 1600
+    }
   },
   "6002012": {
     "BattleRoleId": 6002012,
-    "SkillList": {},
+    "SkillList": [
+      600201,
+      600202,
+      600203,
+      6000000,
+      6000002
+    ],
     "Attribute": "Default",
     "MaxHp": 600,
     "DEF": 300,
@@ -3058,32 +3009,26 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ],
-    "BTBattleParams": [
-      {
-        "MinAttackRange": 1200
-      },
-      {
-        "MaxAttackRange": 1600
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    },
+    "BTBattleParams": {
+      "MinAttackRange": 1200,
+      "MaxAttackRange": 1600
+    }
   },
   "6002013": {
     "BattleRoleId": 6002013,
-    "SkillList": {},
+    "SkillList": [
+      600201,
+      600202,
+      600203,
+      6000000,
+      6000003
+    ],
     "Attribute": "Default",
     "MaxHp": 600,
     "DEF": 300,
@@ -3108,32 +3053,26 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ],
-    "BTBattleParams": [
-      {
-        "MinAttackRange": 1200
-      },
-      {
-        "MaxAttackRange": 1600
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    },
+    "BTBattleParams": {
+      "MinAttackRange": 1200,
+      "MaxAttackRange": 1600
+    }
   },
   "6002014": {
     "BattleRoleId": 6002014,
-    "SkillList": {},
+    "SkillList": [
+      600201,
+      600202,
+      600203,
+      6000000,
+      6000004
+    ],
     "Attribute": "Default",
     "MaxHp": 600,
     "DEF": 300,
@@ -3158,32 +3097,26 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ],
-    "BTBattleParams": [
-      {
-        "MinAttackRange": 1200
-      },
-      {
-        "MaxAttackRange": 1600
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    },
+    "BTBattleParams": {
+      "MinAttackRange": 1200,
+      "MaxAttackRange": 1600
+    }
   },
   "6002015": {
     "BattleRoleId": 6002015,
-    "SkillList": {},
+    "SkillList": [
+      600201,
+      600202,
+      600203,
+      6000000,
+      6000005
+    ],
     "Attribute": "Default",
     "MaxHp": 203,
     "DEF": 300,
@@ -3205,32 +3138,26 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ],
-    "BTBattleParams": [
-      {
-        "MinAttackRange": 1200
-      },
-      {
-        "MaxAttackRange": 1600
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    },
+    "BTBattleParams": {
+      "MinAttackRange": 1200,
+      "MaxAttackRange": 1600
+    }
   },
   "6002016": {
     "BattleRoleId": 6002016,
-    "SkillList": {},
+    "SkillList": [
+      600201,
+      600202,
+      600203,
+      6000000,
+      6000006
+    ],
     "Attribute": "Default",
     "MaxHp": 203,
     "DEF": 300,
@@ -3252,32 +3179,26 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ],
-    "BTBattleParams": [
-      {
-        "MinAttackRange": 1200
-      },
-      {
-        "MaxAttackRange": 1600
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    },
+    "BTBattleParams": {
+      "MinAttackRange": 1200,
+      "MaxAttackRange": 1600
+    }
   },
   "6002017": {
     "BattleRoleId": 6002017,
-    "SkillList": {},
+    "SkillList": [
+      600201,
+      600202,
+      600203,
+      6000000,
+      6000007
+    ],
     "Attribute": "Default",
     "MaxHp": 203,
     "DEF": 300,
@@ -3299,32 +3220,26 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ],
-    "BTBattleParams": [
-      {
-        "MinAttackRange": 1200
-      },
-      {
-        "MaxAttackRange": 1600
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    },
+    "BTBattleParams": {
+      "MinAttackRange": 1200,
+      "MaxAttackRange": 1600
+    }
   },
   "6002018": {
     "BattleRoleId": 6002018,
-    "SkillList": {},
+    "SkillList": [
+      600201,
+      600202,
+      600203,
+      6000000,
+      6000008
+    ],
     "Attribute": "Default",
     "MaxHp": 203,
     "DEF": 300,
@@ -3346,28 +3261,16 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ],
-    "BTBattleParams": [
-      {
-        "MinAttackRange": 1200
-      },
-      {
-        "MaxAttackRange": 1600
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    },
+    "BTBattleParams": {
+      "MinAttackRange": 1200,
+      "MaxAttackRange": 1600
+    }
   },
   "6002101": {
     "BattleRoleId": 6002101,
@@ -3400,28 +3303,16 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ],
-    "BTBattleParams": [
-      {
-        "MinAttackRange": 1200
-      },
-      {
-        "MaxAttackRange": 1600
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    },
+    "BTBattleParams": {
+      "MinAttackRange": 1200,
+      "MaxAttackRange": 1600
+    }
   },
   "6003001": {
     "BattleRoleId": 6003001,
@@ -3453,31 +3344,17 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      },
-      {
-        "MaxSpeedFly": 400
-      },
-      {
-        "MaxAccelerationFly": 2048
-      }
-    ],
-    "BTBattleParams": [
-      {
-        "MaxAttackRange": 1000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000,
+      "MaxSpeedFly": 400,
+      "MaxAccelerationFly": 2048
+    },
+    "BTBattleParams": {
+      "MaxAttackRange": 1000
+    }
   },
   "6003101": {
     "BattleRoleId": 6003101,
@@ -3509,31 +3386,17 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      },
-      {
-        "MaxSpeedFly": 400
-      },
-      {
-        "MaxAccelerationFly": 2048
-      }
-    ],
-    "BTBattleParams": [
-      {
-        "MaxAttackRange": 1000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000,
+      "MaxSpeedFly": 400,
+      "MaxAccelerationFly": 2048
+    },
+    "BTBattleParams": {
+      "MaxAttackRange": 1000
+    }
   },
   "6004001": {
     "BattleRoleId": 6004001,
@@ -3566,24 +3429,24 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "6004013": {
     "BattleRoleId": 6004013,
-    "SkillList": {},
+    "SkillList": [
+      600401,
+      600402,
+      600403,
+      600404,
+      6000000,
+      6000003,
+      6000014
+    ],
     "Attribute": "Default",
     "MaxHp": 162,
     "DEF": 300,
@@ -3605,20 +3468,12 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "6004101": {
     "BattleRoleId": 6004101,
@@ -3651,20 +3506,12 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "6004102": {
     "BattleRoleId": 6004102,
@@ -3697,24 +3544,23 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "6005001": {
     "BattleRoleId": 6005001,
-    "SkillList": {},
+    "SkillList": [
+      600501,
+      600502,
+      600503,
+      600504,
+      600505,
+      6000010
+    ],
     "Attribute": "Default",
     "MaxHp": 65,
     "DEF": 75,
@@ -3737,35 +3583,32 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      },
-      {
-        "MaxSpeedFly": 400
-      },
-      {
-        "MaxAccelerationFly": 2048
-      }
-    ],
-    "BTBattleParams": [
-      {
-        "MaxAttackRange": 1000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000,
+      "MaxSpeedFly": 400,
+      "MaxAccelerationFly": 2048
+    },
+    "BTBattleParams": {
+      "MaxAttackRange": 1000
+    }
   },
   "6005101": {
     "BattleRoleId": 6005101,
-    "SkillList": {},
+    "SkillList": [
+      600501,
+      600502,
+      600503,
+      600504,
+      600505,
+      600506,
+      600507,
+      600508,
+      6000010,
+      6000012
+    ],
     "Attribute": "Default",
     "MaxHp": 99999999,
     "DEF": 2000000000,
@@ -3788,30 +3631,23 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      },
-      {
-        "MaxSpeedFly": 400
-      },
-      {
-        "MaxAccelerationFly": 2048
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000,
+      "MaxSpeedFly": 400,
+      "MaxAccelerationFly": 2048
+    }
   },
   "6011001": {
     "BattleRoleId": 6011001,
-    "SkillList": {},
+    "SkillList": [
+      600101,
+      600102,
+      601101,
+      600111
+    ],
     "Attribute": "Default",
     "MaxHp": 65,
     "DEF": 75,
@@ -3833,24 +3669,23 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "6012001": {
     "BattleRoleId": 6012001,
-    "SkillList": {},
+    "SkillList": [
+      601201,
+      601202,
+      600203,
+      600211,
+      600204,
+      600205
+    ],
     "Attribute": "Default",
     "MaxHp": 65,
     "DEF": 75,
@@ -3872,32 +3707,24 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ],
-    "BTBattleParams": [
-      {
-        "MinAttackRange": 1200
-      },
-      {
-        "MaxAttackRange": 1600
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    },
+    "BTBattleParams": {
+      "MinAttackRange": 1200,
+      "MaxAttackRange": 1600
+    }
   },
   "6013001": {
     "BattleRoleId": 6013001,
-    "SkillList": {},
+    "SkillList": [
+      601301,
+      601302,
+      600311
+    ],
     "Attribute": "Default",
     "MaxHp": 65,
     "DEF": 75,
@@ -3920,29 +3747,27 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ],
-    "BTBattleParams": [
-      {
-        "MaxAttackRange": 1000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    },
+    "BTBattleParams": {
+      "MaxAttackRange": 1000
+    }
   },
   "6014001": {
     "BattleRoleId": 6014001,
-    "SkillList": {},
+    "SkillList": [
+      601401,
+      601402,
+      600403,
+      600404,
+      600411,
+      601403,
+      6000014
+    ],
     "Attribute": "Default",
     "MaxHp": 114,
     "DEF": 128,
@@ -3964,24 +3789,23 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "7001001": {
     "BattleRoleId": 7001001,
-    "SkillList": {},
+    "SkillList": [
+      700101,
+      700102,
+      700103,
+      700111,
+      700104,
+      700105
+    ],
     "Attribute": "Default",
     "MaxHp": 36,
     "DEF": 75,
@@ -4006,32 +3830,26 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ],
-    "BTBattleParams": [
-      {
-        "MinAttackRange": 1200
-      },
-      {
-        "MaxAttackRange": 1600
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    },
+    "BTBattleParams": {
+      "MinAttackRange": 1200,
+      "MaxAttackRange": 1600
+    }
   },
   "7001005": {
     "BattleRoleId": 7001005,
-    "SkillList": {},
+    "SkillList": [
+      700101,
+      700102,
+      700103,
+      700121,
+      6000010
+    ],
     "Attribute": "Default",
     "MaxHp": 279,
     "DEF": 300,
@@ -4057,32 +3875,25 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ],
-    "BTBattleParams": [
-      {
-        "MinAttackRange": 1200
-      },
-      {
-        "MaxAttackRange": 1600
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    },
+    "BTBattleParams": {
+      "MinAttackRange": 1200,
+      "MaxAttackRange": 1600
+    }
   },
   "7001006": {
     "BattleRoleId": 7001006,
-    "SkillList": {},
+    "SkillList": [
+      700101,
+      700102,
+      700103,
+      700122
+    ],
     "Attribute": "Default",
     "MaxHp": 279,
     "DEF": 300,
@@ -4107,32 +3918,26 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ],
-    "BTBattleParams": [
-      {
-        "MinAttackRange": 1200
-      },
-      {
-        "MaxAttackRange": 1600
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    },
+    "BTBattleParams": {
+      "MinAttackRange": 1200,
+      "MaxAttackRange": 1600
+    }
   },
   "7001011": {
     "BattleRoleId": 7001011,
-    "SkillList": {},
+    "SkillList": [
+      700101,
+      700102,
+      700103,
+      6000000,
+      6000001
+    ],
     "Attribute": "Default",
     "MaxHp": 135,
     "DEF": 300,
@@ -4157,32 +3962,26 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ],
-    "BTBattleParams": [
-      {
-        "MinAttackRange": 1200
-      },
-      {
-        "MaxAttackRange": 1600
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    },
+    "BTBattleParams": {
+      "MinAttackRange": 1200,
+      "MaxAttackRange": 1600
+    }
   },
   "7001012": {
     "BattleRoleId": 7001012,
-    "SkillList": {},
+    "SkillList": [
+      700101,
+      700102,
+      700103,
+      6000000,
+      6000002
+    ],
     "Attribute": "Default",
     "MaxHp": 600,
     "DEF": 300,
@@ -4207,32 +4006,26 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ],
-    "BTBattleParams": [
-      {
-        "MinAttackRange": 1200
-      },
-      {
-        "MaxAttackRange": 1600
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    },
+    "BTBattleParams": {
+      "MinAttackRange": 1200,
+      "MaxAttackRange": 1600
+    }
   },
   "7001013": {
     "BattleRoleId": 7001013,
-    "SkillList": {},
+    "SkillList": [
+      700101,
+      700102,
+      700103,
+      6000000,
+      6000003
+    ],
     "Attribute": "Default",
     "MaxHp": 600,
     "DEF": 300,
@@ -4257,32 +4050,26 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ],
-    "BTBattleParams": [
-      {
-        "MinAttackRange": 1200
-      },
-      {
-        "MaxAttackRange": 1600
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    },
+    "BTBattleParams": {
+      "MinAttackRange": 1200,
+      "MaxAttackRange": 1600
+    }
   },
   "7001014": {
     "BattleRoleId": 7001014,
-    "SkillList": {},
+    "SkillList": [
+      700101,
+      700102,
+      700103,
+      6000000,
+      6000004
+    ],
     "Attribute": "Default",
     "MaxHp": 600,
     "DEF": 300,
@@ -4307,32 +4094,26 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ],
-    "BTBattleParams": [
-      {
-        "MinAttackRange": 1200
-      },
-      {
-        "MaxAttackRange": 1600
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    },
+    "BTBattleParams": {
+      "MinAttackRange": 1200,
+      "MaxAttackRange": 1600
+    }
   },
   "7001015": {
     "BattleRoleId": 7001015,
-    "SkillList": {},
+    "SkillList": [
+      700101,
+      700102,
+      700103,
+      6000000,
+      6000005
+    ],
     "Attribute": "Default",
     "MaxHp": 135,
     "DEF": 300,
@@ -4357,32 +4138,26 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ],
-    "BTBattleParams": [
-      {
-        "MinAttackRange": 1200
-      },
-      {
-        "MaxAttackRange": 1600
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    },
+    "BTBattleParams": {
+      "MinAttackRange": 1200,
+      "MaxAttackRange": 1600
+    }
   },
   "7001016": {
     "BattleRoleId": 7001016,
-    "SkillList": {},
+    "SkillList": [
+      700101,
+      700102,
+      700103,
+      6000000,
+      6000006
+    ],
     "Attribute": "Default",
     "MaxHp": 135,
     "DEF": 300,
@@ -4407,32 +4182,26 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ],
-    "BTBattleParams": [
-      {
-        "MinAttackRange": 1200
-      },
-      {
-        "MaxAttackRange": 1600
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    },
+    "BTBattleParams": {
+      "MinAttackRange": 1200,
+      "MaxAttackRange": 1600
+    }
   },
   "7001017": {
     "BattleRoleId": 7001017,
-    "SkillList": {},
+    "SkillList": [
+      700101,
+      700102,
+      700103,
+      6000000,
+      6000007
+    ],
     "Attribute": "Default",
     "MaxHp": 135,
     "DEF": 300,
@@ -4457,32 +4226,26 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ],
-    "BTBattleParams": [
-      {
-        "MinAttackRange": 1200
-      },
-      {
-        "MaxAttackRange": 1600
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    },
+    "BTBattleParams": {
+      "MinAttackRange": 1200,
+      "MaxAttackRange": 1600
+    }
   },
   "7001018": {
     "BattleRoleId": 7001018,
-    "SkillList": {},
+    "SkillList": [
+      700101,
+      700102,
+      700103,
+      6000000,
+      6000008
+    ],
     "Attribute": "Default",
     "MaxHp": 135,
     "DEF": 300,
@@ -4507,32 +4270,26 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ],
-    "BTBattleParams": [
-      {
-        "MinAttackRange": 1200
-      },
-      {
-        "MaxAttackRange": 1600
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    },
+    "BTBattleParams": {
+      "MinAttackRange": 1200,
+      "MaxAttackRange": 1600
+    }
   },
   "7002001": {
     "BattleRoleId": 7002001,
-    "SkillList": {},
+    "SkillList": [
+      700201,
+      700202,
+      700203,
+      700210,
+      700211
+    ],
     "Attribute": "Default",
     "MaxHp": 36,
     "DEF": 75,
@@ -4557,24 +4314,23 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "7002005": {
     "BattleRoleId": 7002005,
-    "SkillList": {},
+    "SkillList": [
+      700201,
+      700202,
+      700203,
+      700223,
+      700224,
+      700221
+    ],
     "Attribute": "Default",
     "MaxHp": 279,
     "DEF": 300,
@@ -4600,24 +4356,22 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "7002011": {
     "BattleRoleId": 7002011,
-    "SkillList": {},
+    "SkillList": [
+      700201,
+      700202,
+      700203,
+      6000000,
+      6000001
+    ],
     "Attribute": "Default",
     "MaxHp": 162,
     "DEF": 300,
@@ -4642,24 +4396,22 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "7002012": {
     "BattleRoleId": 7002012,
-    "SkillList": {},
+    "SkillList": [
+      700201,
+      700202,
+      700203,
+      6000000,
+      6000002
+    ],
     "Attribute": "Default",
     "MaxHp": 162,
     "DEF": 300,
@@ -4684,24 +4436,22 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "7002013": {
     "BattleRoleId": 7002013,
-    "SkillList": {},
+    "SkillList": [
+      700201,
+      700202,
+      700203,
+      6000000,
+      6000003
+    ],
     "Attribute": "Default",
     "MaxHp": 162,
     "DEF": 300,
@@ -4726,24 +4476,22 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "7002014": {
     "BattleRoleId": 7002014,
-    "SkillList": {},
+    "SkillList": [
+      700201,
+      700202,
+      700203,
+      6000000,
+      6000004
+    ],
     "Attribute": "Default",
     "MaxHp": 162,
     "DEF": 300,
@@ -4768,24 +4516,22 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "7002015": {
     "BattleRoleId": 7002015,
-    "SkillList": {},
+    "SkillList": [
+      700201,
+      700202,
+      700203,
+      6000000,
+      6000005
+    ],
     "Attribute": "Default",
     "MaxHp": 1000,
     "DEF": 300,
@@ -4807,24 +4553,22 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "7002016": {
     "BattleRoleId": 7002016,
-    "SkillList": {},
+    "SkillList": [
+      700201,
+      700202,
+      700203,
+      6000000,
+      6000006
+    ],
     "Attribute": "Default",
     "MaxHp": 162,
     "DEF": 300,
@@ -4849,24 +4593,22 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "7002017": {
     "BattleRoleId": 7002017,
-    "SkillList": {},
+    "SkillList": [
+      700201,
+      700202,
+      700203,
+      6000000,
+      6000007
+    ],
     "Attribute": "Default",
     "MaxHp": 1000,
     "DEF": 300,
@@ -4891,24 +4633,22 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "7002018": {
     "BattleRoleId": 7002018,
-    "SkillList": {},
+    "SkillList": [
+      700201,
+      700202,
+      700203,
+      6000000,
+      6000008
+    ],
     "Attribute": "Default",
     "MaxHp": 162,
     "DEF": 300,
@@ -4933,20 +4673,12 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "7003001": {
     "BattleRoleId": 7003001,
@@ -4984,32 +4716,28 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ],
-    "BTBattleParams": [
-      {
-        "MinAttackRange": 800
-      },
-      {
-        "MaxAttackRange": 1200
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    },
+    "BTBattleParams": {
+      "MinAttackRange": 800,
+      "MaxAttackRange": 1200
+    }
   },
   "7003005": {
     "BattleRoleId": 7003005,
-    "SkillList": {},
+    "SkillList": [
+      700301,
+      700302,
+      700303,
+      700304,
+      700322,
+      700324,
+      6000010
+    ],
     "Attribute": "Default",
     "MaxHp": 279,
     "DEF": 300,
@@ -5035,32 +4763,28 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ],
-    "BTBattleParams": [
-      {
-        "MinAttackRange": 800
-      },
-      {
-        "MaxAttackRange": 1200
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    },
+    "BTBattleParams": {
+      "MinAttackRange": 800,
+      "MaxAttackRange": 1200
+    }
   },
   "7003011": {
     "BattleRoleId": 7003011,
-    "SkillList": {},
+    "SkillList": [
+      700301,
+      700302,
+      700303,
+      700304,
+      700305,
+      6000000,
+      6000001
+    ],
     "Attribute": "Default",
     "MaxHp": 135,
     "DEF": 300,
@@ -5085,32 +4809,28 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ],
-    "BTBattleParams": [
-      {
-        "MinAttackRange": 800
-      },
-      {
-        "MaxAttackRange": 1200
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    },
+    "BTBattleParams": {
+      "MinAttackRange": 800,
+      "MaxAttackRange": 1200
+    }
   },
   "7003012": {
     "BattleRoleId": 7003012,
-    "SkillList": {},
+    "SkillList": [
+      700301,
+      700302,
+      700303,
+      700304,
+      700305,
+      6000000,
+      6000002
+    ],
     "Attribute": "Default",
     "MaxHp": 600,
     "DEF": 300,
@@ -5135,32 +4855,28 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ],
-    "BTBattleParams": [
-      {
-        "MinAttackRange": 800
-      },
-      {
-        "MaxAttackRange": 1200
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    },
+    "BTBattleParams": {
+      "MinAttackRange": 800,
+      "MaxAttackRange": 1200
+    }
   },
   "7003013": {
     "BattleRoleId": 7003013,
-    "SkillList": {},
+    "SkillList": [
+      700301,
+      700302,
+      700303,
+      700304,
+      700305,
+      6000000,
+      6000003
+    ],
     "Attribute": "Default",
     "MaxHp": 600,
     "DEF": 300,
@@ -5185,32 +4901,28 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ],
-    "BTBattleParams": [
-      {
-        "MinAttackRange": 800
-      },
-      {
-        "MaxAttackRange": 1200
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    },
+    "BTBattleParams": {
+      "MinAttackRange": 800,
+      "MaxAttackRange": 1200
+    }
   },
   "7003014": {
     "BattleRoleId": 7003014,
-    "SkillList": {},
+    "SkillList": [
+      700301,
+      700302,
+      700303,
+      700304,
+      700305,
+      6000000,
+      6000004
+    ],
     "Attribute": "Default",
     "MaxHp": 600,
     "DEF": 300,
@@ -5235,32 +4947,28 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ],
-    "BTBattleParams": [
-      {
-        "MinAttackRange": 800
-      },
-      {
-        "MaxAttackRange": 1200
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    },
+    "BTBattleParams": {
+      "MinAttackRange": 800,
+      "MaxAttackRange": 1200
+    }
   },
   "7003015": {
     "BattleRoleId": 7003015,
-    "SkillList": {},
+    "SkillList": [
+      700301,
+      700302,
+      700303,
+      700304,
+      700305,
+      6000000,
+      6000005
+    ],
     "Attribute": "Default",
     "MaxHp": 135,
     "DEF": 300,
@@ -5285,32 +4993,28 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ],
-    "BTBattleParams": [
-      {
-        "MinAttackRange": 800
-      },
-      {
-        "MaxAttackRange": 1200
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    },
+    "BTBattleParams": {
+      "MinAttackRange": 800,
+      "MaxAttackRange": 1200
+    }
   },
   "7003016": {
     "BattleRoleId": 7003016,
-    "SkillList": {},
+    "SkillList": [
+      700301,
+      700302,
+      700303,
+      700304,
+      700305,
+      6000000,
+      6000006
+    ],
     "Attribute": "Default",
     "MaxHp": 135,
     "DEF": 300,
@@ -5335,32 +5039,28 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ],
-    "BTBattleParams": [
-      {
-        "MinAttackRange": 800
-      },
-      {
-        "MaxAttackRange": 1200
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    },
+    "BTBattleParams": {
+      "MinAttackRange": 800,
+      "MaxAttackRange": 1200
+    }
   },
   "7003017": {
     "BattleRoleId": 7003017,
-    "SkillList": {},
+    "SkillList": [
+      700301,
+      700302,
+      700303,
+      700304,
+      700305,
+      6000000,
+      6000007
+    ],
     "Attribute": "Default",
     "MaxHp": 135,
     "DEF": 300,
@@ -5385,32 +5085,28 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ],
-    "BTBattleParams": [
-      {
-        "MinAttackRange": 800
-      },
-      {
-        "MaxAttackRange": 1200
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    },
+    "BTBattleParams": {
+      "MinAttackRange": 800,
+      "MaxAttackRange": 1200
+    }
   },
   "7003018": {
     "BattleRoleId": 7003018,
-    "SkillList": {},
+    "SkillList": [
+      700301,
+      700302,
+      700303,
+      700304,
+      700305,
+      6000000,
+      6000008
+    ],
     "Attribute": "Default",
     "MaxHp": 135,
     "DEF": 300,
@@ -5435,32 +5131,25 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ],
-    "BTBattleParams": [
-      {
-        "MinAttackRange": 800
-      },
-      {
-        "MaxAttackRange": 1200
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    },
+    "BTBattleParams": {
+      "MinAttackRange": 800,
+      "MaxAttackRange": 1200
+    }
   },
   "7004001": {
     "BattleRoleId": 7004001,
-    "SkillList": {},
+    "SkillList": [
+      700401,
+      700402,
+      700403,
+      700411
+    ],
     "Attribute": "Default",
     "MaxHp": 66,
     "DEF": 128,
@@ -5485,24 +5174,21 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "7004012": {
     "BattleRoleId": 7004012,
-    "SkillList": {},
+    "SkillList": [
+      700401,
+      700402,
+      700403,
+      6000002
+    ],
     "Attribute": "Default",
     "MaxHp": 162,
     "DEF": 300,
@@ -5527,24 +5213,22 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "7004101": {
     "BattleRoleId": 7004101,
-    "SkillList": {},
+    "SkillList": [
+      700401,
+      700402,
+      700403,
+      700411,
+      700404
+    ],
     "Attribute": "Default",
     "MaxHp": 66,
     "DEF": 128,
@@ -5569,24 +5253,20 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "7006001": {
     "BattleRoleId": 7006001,
-    "SkillList": {},
+    "SkillList": [
+      700621,
+      700622,
+      700221
+    ],
     "Attribute": "Default",
     "MaxHp": 500,
     "DEF": 75,
@@ -5611,24 +5291,19 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "7007001": {
     "BattleRoleId": 7007001,
-    "SkillList": {},
+    "SkillList": [
+      700721,
+      6000010
+    ],
     "Attribute": "Default",
     "MaxHp": 200,
     "DEF": 0,
@@ -5650,24 +5325,19 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "7007002": {
     "BattleRoleId": 7007002,
-    "SkillList": {},
+    "SkillList": [
+      700731,
+      6000010
+    ],
     "Attribute": "Default",
     "MaxHp": 15,
     "DEF": 0,
@@ -5689,24 +5359,19 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "7007101": {
     "BattleRoleId": 7007101,
-    "SkillList": {},
+    "SkillList": [
+      700741,
+      6000010
+    ],
     "Attribute": "Default",
     "MaxHp": 15,
     "DEF": 0,
@@ -5728,24 +5393,27 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "7008001": {
     "BattleRoleId": 7008001,
-    "SkillList": {},
+    "SkillList": [
+      700801,
+      700802,
+      700803,
+      700804,
+      700805,
+      700806,
+      700807,
+      700808,
+      700809,
+      6000000
+    ],
     "Attribute": "Default",
     "MaxHp": 91,
     "DEF": 200,
@@ -5770,24 +5438,23 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "7011001": {
     "BattleRoleId": 7011001,
-    "SkillList": {},
+    "SkillList": [
+      700101,
+      700102,
+      701103,
+      700111,
+      700104,
+      700105
+    ],
     "Attribute": "Default",
     "MaxHp": 36,
     "DEF": 75,
@@ -5812,32 +5479,27 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ],
-    "BTBattleParams": [
-      {
-        "MinAttackRange": 1200
-      },
-      {
-        "MaxAttackRange": 1600
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    },
+    "BTBattleParams": {
+      "MinAttackRange": 1200,
+      "MaxAttackRange": 1600
+    }
   },
   "7012001": {
     "BattleRoleId": 7012001,
-    "SkillList": {},
+    "SkillList": [
+      701201,
+      701202,
+      701203,
+      700210,
+      700211,
+      701204
+    ],
     "Attribute": "Default",
     "MaxHp": 36,
     "DEF": 75,
@@ -5862,24 +5524,25 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "7013001": {
     "BattleRoleId": 7013001,
-    "SkillList": {},
+    "SkillList": [
+      701301,
+      701302,
+      701302,
+      700304,
+      700305,
+      700311,
+      700306,
+      700307
+    ],
     "Attribute": "Default",
     "MaxHp": 36,
     "DEF": 75,
@@ -5904,32 +5567,25 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ],
-    "BTBattleParams": [
-      {
-        "MinAttackRange": 800
-      },
-      {
-        "MaxAttackRange": 1200
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    },
+    "BTBattleParams": {
+      "MinAttackRange": 800,
+      "MaxAttackRange": 1200
+    }
   },
   "7014001": {
     "BattleRoleId": 7014001,
-    "SkillList": {},
+    "SkillList": [
+      701401,
+      701402,
+      700403,
+      700411
+    ],
     "Attribute": "Default",
     "MaxHp": 66,
     "DEF": 128,
@@ -5954,32 +5610,25 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ],
-    "BTBattleParams": [
-      {
-        "MinAttackRange": 800
-      },
-      {
-        "MaxAttackRange": 1200
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    },
+    "BTBattleParams": {
+      "MinAttackRange": 800,
+      "MaxAttackRange": 1200
+    }
   },
   "8001001": {
     "BattleRoleId": 8001001,
-    "SkillList": {},
+    "SkillList": [
+      800101,
+      800102,
+      800103,
+      800111
+    ],
     "Attribute": "Default",
     "MaxHp": 40,
     "DEF": 300,
@@ -6004,32 +5653,25 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ],
-    "BTBattleParams": [
-      {
-        "MinAttackRange": 1200
-      },
-      {
-        "MaxAttackRange": 1600
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    },
+    "BTBattleParams": {
+      "MinAttackRange": 1200,
+      "MaxAttackRange": 1600
+    }
   },
   "8002001": {
     "BattleRoleId": 8002001,
-    "SkillList": {},
+    "SkillList": [
+      800201,
+      800202,
+      800203,
+      800211
+    ],
     "Attribute": "Default",
     "MaxHp": 40,
     "DEF": 300,
@@ -6054,24 +5696,20 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "8003001": {
     "BattleRoleId": 8003001,
-    "SkillList": {},
+    "SkillList": [
+      800301,
+      800302,
+      800311
+    ],
     "Attribute": "Default",
     "MaxHp": 120,
     "DEF": 300,
@@ -6096,29 +5734,31 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ],
-    "BTBattleParams": [
-      {
-        "MaxAttackRange": 1000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    },
+    "BTBattleParams": {
+      "MaxAttackRange": 1000
+    }
   },
   "8500001": {
     "BattleRoleId": 8500001,
-    "SkillList": {},
+    "SkillList": [
+      850001,
+      850002,
+      850003,
+      850004,
+      850005,
+      850006,
+      850007,
+      850008,
+      850009,
+      6000010,
+      6000013
+    ],
     "Attribute": "Default",
     "MaxHp": 15000,
     "DEF": 0,
@@ -6132,8 +5772,80 @@
     "TNRecoverTimeZ": 0.5,
     "BossTNToZeroRecoverSpeed": 200,
     "DeductToughnessHit": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
       "LightHit",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
       "LightHit",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
       "LightHit"
     ],
     "CannotBePushed": 1,
@@ -6146,20 +5858,12 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 500
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 500,
+      "MaxAccelerationRun": 3000
+    }
   },
   "8500002": {
     "BattleRoleId": 8500002,
@@ -6195,8 +5899,80 @@
     "TNRecoverTimeZ": 0.5,
     "BossTNToZeroRecoverSpeed": 600,
     "DeductToughnessHit": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
       "LightHit",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
       "LightHit",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
       "LightHit"
     ],
     "CannotBePushed": 1,
@@ -6209,25 +5985,15 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 500
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ],
-    "BTBattleParams": [
-      {
-        "TimerKey": 270
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 500,
+      "MaxAccelerationRun": 3000
+    },
+    "BTBattleParams": {
+      "TimerKey": 270
+    }
   },
   "8501001": {
     "BattleRoleId": 8501001,
@@ -6266,8 +6032,80 @@
     "TNRecoverTimeZ": 0.5,
     "BossTNToZeroRecoverSpeed": 350,
     "DeductToughnessHit": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
       "LightHit",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
       "LightHit",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
       "LightHit"
     ],
     "CannotBePushed": 1,
@@ -6280,20 +6118,12 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 500
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 500,
+      "MaxAccelerationRun": 3000
+    }
   },
   "8501002": {
     "BattleRoleId": 8501002,
@@ -6343,20 +6173,12 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 500
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 500,
+      "MaxAccelerationRun": 3000
+    }
   },
   "8501003": {
     "BattleRoleId": 8501003,
@@ -6395,8 +6217,80 @@
     "TNRecoverTimeZ": 0.5,
     "BossTNToZeroRecoverSpeed": 200,
     "DeductToughnessHit": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
       "LightHit",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
       "LightHit",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
       "LightHit"
     ],
     "CannotBePushed": 1,
@@ -6409,20 +6303,12 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 500
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 500,
+      "MaxAccelerationRun": 3000
+    }
   },
   "8501004": {
     "BattleRoleId": 8501004,
@@ -6472,24 +6358,38 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 500
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 500,
+      "MaxAccelerationRun": 3000
+    }
   },
   "8502001": {
     "BattleRoleId": 8502001,
-    "SkillList": {},
+    "SkillList": [
+      850201,
+      850202,
+      850203,
+      850204,
+      850205,
+      850206,
+      850207,
+      850208,
+      850209,
+      850210,
+      850211,
+      850212,
+      850213,
+      850214,
+      850215,
+      850216,
+      850217,
+      850218,
+      850219,
+      6000010,
+      6000013
+    ],
     "Attribute": "Default",
     "MaxHp": 15000,
     "DEF": 0,
@@ -6504,8 +6404,80 @@
     "BossTNToZeroRecoverSpeed": 450,
     "DeductToughnessHit": [
       "LightHit",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
       "LightHit",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
       "LightHit",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
       "LightHit"
     ],
     "CannotBePushed": 1,
@@ -6518,24 +6490,48 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 500
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 500,
+      "MaxAccelerationRun": 3000
+    }
   },
   "8502002": {
     "BattleRoleId": 8502002,
-    "SkillList": {},
+    "SkillList": [
+      850220,
+      850221,
+      850222,
+      850223,
+      850224,
+      850225,
+      850226,
+      850227,
+      850228,
+      850229,
+      850230,
+      850231,
+      850232,
+      850233,
+      850234,
+      850235,
+      850236,
+      850237,
+      850238,
+      850239,
+      850240,
+      850241,
+      850242,
+      850243,
+      850244,
+      850245,
+      850246,
+      850247,
+      850248,
+      6000010,
+      6000013
+    ],
     "Attribute": "Default",
     "MaxHp": 15000,
     "DEF": 300,
@@ -6550,8 +6546,80 @@
     "BossTNToZeroRecoverSpeed": 900,
     "DeductToughnessHit": [
       "LightHit",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
       "LightHit",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
       "LightHit",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
       "LightHit"
     ],
     "CannotBePushed": 1,
@@ -6564,24 +6632,34 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 500
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 500,
+      "MaxAccelerationRun": 3000
+    }
   },
   "8503001": {
     "BattleRoleId": 8503001,
-    "SkillList": {},
+    "SkillList": [
+      850301,
+      850302,
+      850303,
+      850304,
+      850305,
+      850306,
+      850307,
+      850308,
+      850309,
+      850310,
+      850311,
+      6000010,
+      6000013,
+      850312,
+      850313,
+      850314,
+      850315
+    ],
     "Attribute": "Default",
     "MaxHp": 15000,
     "DEF": 0,
@@ -6607,24 +6685,40 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 300
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 1000
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 300,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 1000,
+      "MaxAccelerationRun": 3000
+    }
   },
   "8503002": {
     "BattleRoleId": 8503002,
-    "SkillList": {},
+    "SkillList": [
+      850316,
+      850317,
+      850318,
+      850319,
+      850320,
+      850321,
+      850307,
+      850322,
+      850323,
+      850324,
+      850325,
+      6000010,
+      6000013,
+      850326,
+      850327,
+      850328,
+      850329,
+      850330,
+      850331,
+      850332,
+      850333,
+      850334,
+      850335
+    ],
     "Attribute": "Default",
     "MaxHp": 15000,
     "DEF": 129,
@@ -6639,8 +6733,80 @@
     "BossTNToZeroRecoverSpeed": 600,
     "DeductToughnessHit": [
       "LightHit",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
       "LightHit",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
       "LightHit",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
       "LightHit"
     ],
     "CannotBePushed": 1,
@@ -6653,20 +6819,12 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 300
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 1000
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 300,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 1000,
+      "MaxAccelerationRun": 3000
+    }
   },
   "8503011": {
     "BattleRoleId": 8503011,
@@ -6685,20 +6843,12 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "8503012": {
     "BattleRoleId": 8503012,
@@ -6717,24 +6867,50 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "8504001": {
     "BattleRoleId": 8504001,
-    "SkillList": {},
+    "SkillList": [
+      850401,
+      850402,
+      850403,
+      850404,
+      850405,
+      850406,
+      850407,
+      850408,
+      850409,
+      850410,
+      850411,
+      850412,
+      850413,
+      850414,
+      850415,
+      850416,
+      850417,
+      850418,
+      850419,
+      850420,
+      850421,
+      850422,
+      850423,
+      850424,
+      850425,
+      850426,
+      850427,
+      850428,
+      850429,
+      850430,
+      850431,
+      850432,
+      6000010
+    ],
     "Attribute": "Default",
     "MaxHp": 27000,
     "DEF": 0,
@@ -6768,7 +6944,11 @@
   },
   "8504002": {
     "BattleRoleId": 8504002,
-    "SkillList": {},
+    "SkillList": [
+      850429,
+      850430,
+      6000010
+    ],
     "Attribute": "Default",
     "MaxHp": 2700,
     "DEF": 0,
@@ -6801,7 +6981,23 @@
   },
   "8505001": {
     "BattleRoleId": 8505001,
-    "SkillList": {},
+    "SkillList": [
+      850501,
+      850502,
+      850503,
+      850504,
+      850505,
+      850506,
+      850507,
+      850508,
+      850509,
+      850510,
+      850511,
+      850512,
+      850513,
+      6000010,
+      6000013
+    ],
     "Attribute": "Default",
     "MaxHp": 15000,
     "DEF": 300,
@@ -6816,8 +7012,80 @@
     "BossTNToZeroRecoverSpeed": 450,
     "DeductToughnessHit": [
       "LightHit",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
       "LightHit",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
       "LightHit",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
       "LightHit"
     ],
     "CannotBePushed": 1,
@@ -6830,24 +7098,25 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 500
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 500,
+      "MaxAccelerationRun": 3000
+    }
   },
   "8506001": {
     "BattleRoleId": 8506001,
-    "SkillList": {},
+    "SkillList": [
+      850601,
+      850602,
+      850603,
+      850604,
+      850605,
+      850606,
+      850607,
+      850608
+    ],
     "Attribute": "Default",
     "MaxHp": 2500,
     "DEF": 0,
@@ -6869,24 +7138,25 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 100
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 500
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 100,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 500,
+      "MaxAccelerationRun": 3000
+    }
   },
   "8507001": {
     "BattleRoleId": 8507001,
-    "SkillList": {},
+    "SkillList": [
+      850701,
+      850702,
+      850703,
+      850704,
+      850705,
+      850706,
+      850707,
+      850708
+    ],
     "Attribute": "Default",
     "MaxHp": 2500,
     "DEF": 0,
@@ -6908,20 +7178,12 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 100
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 500
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 100,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 500,
+      "MaxAccelerationRun": 3000
+    }
   },
   "9003001": {
     "BattleRoleId": 9003001,
@@ -6958,24 +7220,22 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "9004001": {
     "BattleRoleId": 9004001,
-    "SkillList": {},
+    "SkillList": [
+      900401,
+      900402,
+      900403,
+      6000010,
+      6000012
+    ],
     "Attribute": "Default",
     "MaxHp": 162,
     "DEF": 300,
@@ -7001,20 +7261,12 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "9005001": {
     "BattleRoleId": 9005001,
@@ -7050,20 +7302,12 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "9006001": {
     "BattleRoleId": 9006001,
@@ -7101,24 +7345,21 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "9006002": {
     "BattleRoleId": 9006002,
-    "SkillList": {},
+    "SkillList": [
+      900608,
+      6000010,
+      6000012,
+      6000010
+    ],
     "Attribute": "Default",
     "MaxHp": 1,
     "BreakCount": 1,
@@ -7142,20 +7383,12 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 400
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 400,
+      "MaxAccelerationRun": 3000
+    }
   },
   "9500001": {
     "BattleRoleId": 9500001,
@@ -7190,20 +7423,12 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 600
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 600,
+      "MaxAccelerationRun": 3000
+    }
   },
   "9500002": {
     "BattleRoleId": 9500002,
@@ -7238,20 +7463,12 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 600
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ],
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 600,
+      "MaxAccelerationRun": 3000
+    },
     "BTBattleParams": {
       "TimerKey": 30
     }
@@ -7289,27 +7506,26 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 600
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ],
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 600,
+      "MaxAccelerationRun": 3000
+    },
     "BTBattleParams": {
       "TimerKey": 60
     }
   },
   "9501001": {
     "BattleRoleId": 9501001,
-    "SkillList": {},
+    "SkillList": [
+      950101,
+      950102,
+      950103,
+      950104,
+      950107,
+      6000010
+    ],
     "Attribute": "Default",
     "MaxHp": 450,
     "DEF": 75,
@@ -7335,24 +7551,24 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 500
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 500,
+      "MaxAccelerationRun": 3000
+    }
   },
   "9501002": {
     "BattleRoleId": 9501002,
-    "SkillList": {},
+    "SkillList": [
+      950101,
+      950102,
+      950103,
+      950104,
+      950105,
+      950106,
+      6000010
+    ],
     "Attribute": "Default",
     "MaxHp": 450,
     "DEF": 75,
@@ -7378,24 +7594,22 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 500
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 500,
+      "MaxAccelerationRun": 3000
+    }
   },
   "9501003": {
     "BattleRoleId": 9501003,
-    "SkillList": {},
+    "SkillList": [
+      950101,
+      950102,
+      950103,
+      950104,
+      6000010
+    ],
     "Attribute": "Default",
     "MaxHp": 200,
     "DEF": 75,
@@ -7420,20 +7634,12 @@
     "RougeDEFLevelGrow": "RougeDEFMon",
     "RougeMaxESLevelGrow": "RougeMaxESMon",
     "RougeATKLevelGrow": "RougeATKMon",
-    "BTMotionParams": [
-      {
-        "MaxSpeedWalk": 150
-      },
-      {
-        "MaxAccelerationWalk": 3000
-      },
-      {
-        "MaxSpeedRun": 500
-      },
-      {
-        "MaxAccelerationRun": 3000
-      }
-    ]
+    "BTMotionParams": {
+      "MaxSpeedWalk": 150,
+      "MaxAccelerationWalk": 3000,
+      "MaxSpeedRun": 500,
+      "MaxAccelerationRun": 3000
+    }
   },
   "9801001": {
     "BattleRoleId": 9801001,

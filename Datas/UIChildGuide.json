@@ -504,14 +504,10 @@
     "GuideType": "ImageText",
     "GuideTitle": "UIGuide_Title_Elevator",
     "GuideInfo1": {
-      "GuidePicture": [
-        {
-          "PC": "Texture2D'/Game/UI/UI_PNG/Image/Guide/Guide_Image/System/Guide_Img_Elevator_01.Guide_Img_Elevator_01"
-        },
-        {
-          "Phone": "Texture2D'/Game/UI/UI_PNG/Image/Guide/Guide_Image/System/Guide_Img_Shadow_01.Guide_Img_Shadow_01"
-        }
-      ],
+      "GuidePicture": {
+        "PC": "Texture2D'/Game/UI/UI_PNG/Image/Guide/Guide_Image/System/Guide_Img_Elevator_01.Guide_Img_Elevator_01'",
+        "Phone": "Texture2D'/Game/UI/UI_PNG/Image/Guide/Guide_Image/System/Guide_Img_Shadow_01.Guide_Img_Shadow_01'"
+      },
       "GuideContent": {
         "PC": "UIGuide_Elevator",
         "Phone": "UIGuide_Elevator"
@@ -1653,14 +1649,10 @@
     "GuideType": "ImageText",
     "GuideTitle": "UIGuide_Title_203001",
     "GuideInfo1": {
-      "GuidePicture": [
-        {
-          "PC": "Texture2D'/Game/UI/UI_PNG/Image/Guide/Guide_Image/System/Guide_Img_Elevator_01.Guide_Img_Elevator_01"
-        },
-        {
-          "Phone": "Texture2D'/Game/UI/UI_PNG/Image/Guide/Guide_Image/System/Guide_Img_Shadow_01.Guide_Img_Shadow_01"
-        }
-      ],
+      "GuidePicture": {
+        "PC": "Texture2D'/Game/UI/UI_PNG/Image/Guide/Guide_Image/System/Guide_Img_Elevator_01.Guide_Img_Elevator_01'",
+        "Phone": "Texture2D'/Game/UI/UI_PNG/Image/Guide/Guide_Image/System/Guide_Img_Shadow_01.Guide_Img_Shadow_01'"
+      },
       "GuideContent": {
         "PC": "UIGuide_content_203001",
         "Phone": "UIGuide_content_203001"
@@ -1672,14 +1664,10 @@
     "GuideType": "ImageText",
     "GuideTitle": "UIGuide_Title_203501",
     "GuideInfo1": {
-      "GuidePicture": [
-        {
-          "PC": "Texture2D'/Game/UI/UI_PNG/Image/Guide/Guide_Image/System/Guide_Img_Elevator_01.Guide_Img_Elevator_01"
-        },
-        {
-          "Phone": "Texture2D'/Game/UI/UI_PNG/Image/Guide/Guide_Image/System/Guide_Img_Shadow_01.Guide_Img_Shadow_01"
-        }
-      ],
+      "GuidePicture": {
+        "PC": "Texture2D'/Game/UI/UI_PNG/Image/Guide/Guide_Image/System/Guide_Img_Elevator_01.Guide_Img_Elevator_01'",
+        "Phone": "Texture2D'/Game/UI/UI_PNG/Image/Guide/Guide_Image/System/Guide_Img_Shadow_01.Guide_Img_Shadow_01'"
+      },
       "GuideContent": {
         "PC": "UIGuide_content_203501",
         "Phone": "UIGuide_content_203501"
@@ -1692,14 +1680,10 @@
     "GuideTitle": "UIGuide_Title_203601",
     "GuideInfo1": {
       "GuideSubTitle": "UIGuide_Title_203601",
-      "GuidePicture": [
-        {
-          "PC": "Texture2D'/Game/UI/UI_PNG/Image/Guide/Guide_Image/System/Guide_Img_Elevator_01.Guide_Img_Elevator_01"
-        },
-        {
-          "Phone": "Texture2D'/Game/UI/UI_PNG/Image/Guide/Guide_Image/System/Guide_Img_Shadow_01.Guide_Img_Shadow_01"
-        }
-      ],
+      "GuidePicture": {
+        "PC": "Texture2D'/Game/UI/UI_PNG/Image/Guide/Guide_Image/System/Guide_Img_Elevator_01.Guide_Img_Elevator_01'",
+        "Phone": "Texture2D'/Game/UI/UI_PNG/Image/Guide/Guide_Image/System/Guide_Img_Shadow_01.Guide_Img_Shadow_01'"
+      },
       "GuideContent": {
         "PC": "UIGuide_content_203601",
         "Phone": "UIGuide_content_203601"
@@ -1707,14 +1691,10 @@
     },
     "GuideInfo2": {
       "GuideSubTitle": "UIGuide_Title_203602",
-      "GuidePicture": [
-        {
-          "PC": "Texture2D'/Game/UI/UI_PNG/Image/Guide/Guide_Image/System/Guide_Img_Elevator_01.Guide_Img_Elevator_01"
-        },
-        {
-          "Phone": "Texture2D'/Game/UI/UI_PNG/Image/Guide/Guide_Image/System/Guide_Img_Shadow_01.Guide_Img_Shadow_01"
-        }
-      ],
+      "GuidePicture": {
+        "PC": "Texture2D'/Game/UI/UI_PNG/Image/Guide/Guide_Image/System/Guide_Img_Elevator_01.Guide_Img_Elevator_01'",
+        "Phone": "Texture2D'/Game/UI/UI_PNG/Image/Guide/Guide_Image/System/Guide_Img_Shadow_01.Guide_Img_Shadow_01'"
+      },
       "GuideContent": {
         "PC": "UIGuide_content_203602",
         "Phone": "UIGuide_content_203602"
@@ -1749,7 +1729,10 @@
         "PC": "Mon_Guide_Strong_Frozen_02",
         "Phone": "Mon_Guide_Strong_Frozen_02"
       },
-      "GuideDescValues": {}
+      "GuideDescValues": [
+        "$#SkillEffects[600000102].TaskEffects[2].LastTime$",
+        "$#Buff[6000102].MaxLayer$"
+      ]
     }
   },
   "1001201": {
@@ -1780,7 +1763,10 @@
         "PC": "Mon_Guide_Strong_Burst_02",
         "Phone": "Mon_Guide_Strong_Burst_02"
       },
-      "GuideDescValues": {}
+      "GuideDescValues": [
+        "$#Buff[6000103].DotDatas[1].Interval$",
+        "$#SkillEffects[600000201].TaskEffects[3].LastTime$"
+      ]
     }
   },
   "1001301": {
@@ -1856,7 +1842,9 @@
         "PC": "Mon_Guide_Strong_Thunder_03",
         "Phone": "Mon_Guide_Strong_Thunder_03"
       },
-      "GuideDescValues": {}
+      "GuideDescValues": [
+        "$#DanmakuCreature[600000401].Vars.DamageInterval$"
+      ]
     }
   },
   "1001501": {
@@ -1887,7 +1875,9 @@
         "PC": "Mon_Guide_Strong_Blood_02",
         "Phone": "Mon_Guide_Strong_Blood_02"
       },
-      "GuideDescValues": {}
+      "GuideDescValues": [
+        "$#SkillEffects[600000501].TaskEffects[1].SingleSummonCount$"
+      ]
     }
   },
   "1001503": {
@@ -1963,7 +1953,9 @@
         "PC": "Mon_Guide_Strong_Shield_02",
         "Phone": "Mon_Guide_Strong_Shield_02"
       },
-      "GuideDescValues": {}
+      "GuideDescValues": [
+        "$#SkillEffects[600000701].TaskEffects[1].LifeTime$"
+      ]
     }
   },
   "1001801": {
@@ -1994,7 +1986,9 @@
         "PC": "Mon_Guide_Strong_Revenge_02",
         "Phone": "Mon_Guide_Strong_Revenge_02"
       },
-      "GuideDescValues": {}
+      "GuideDescValues": [
+        "$#SkillEffects[600000801].TaskEffects[1].LastTime$"
+      ]
     }
   },
   "700100501": {
@@ -2010,7 +2004,9 @@
         "PC": "Mon_Guide_7001005_01",
         "Phone": "Mon_Guide_7001005_01"
       },
-      "GuideDescValues": {}
+      "GuideDescValues": [
+        "$#PassiveEffect[700121].Vars.LastTime$"
+      ]
     }
   },
   "700100502": {
@@ -2026,7 +2022,10 @@
         "PC": "Mon_Guide_7001005_02",
         "Phone": "Mon_Guide_7001005_02"
       },
-      "GuideDescValues": {}
+      "GuideDescValues": [
+        "$#PassiveEffect[700121].Vars.SpareCD$",
+        "$#PassiveEffect[700121].Vars.LastTime$"
+      ]
     }
   },
   "700200501": {
@@ -2072,7 +2071,10 @@
         "PC": "Mon_Guide_7002005_03",
         "Phone": "Mon_Guide_7002005_03"
       },
-      "GuideDescValues": {}
+      "GuideDescValues": [
+        "$#SkillEffects[700722].TaskEffects[3].LastTime$",
+        "$#SkillEffects[700721].TaskEffects[1].LastTime$"
+      ]
     }
   },
   "700300501": {
@@ -2103,7 +2105,9 @@
         "PC": "Mon_Guide_7003005_02",
         "Phone": "Mon_Guide_7003005_02"
       },
-      "GuideDescValues": {}
+      "GuideDescValues": [
+        "$#SkillEffects[700323].TaskEffects[5].LastTime$"
+      ]
     }
   },
   "700700201": {

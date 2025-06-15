@@ -46,7 +46,10 @@
     "UnitId": 9,
     "UnitRealType": "Supply",
     "FirstStateId": 1,
-    "StateIdList": {},
+    "StateIdList": [
+      1,
+      3
+    ],
     "InteractiveId": 102,
     "UnitBPPath": "/Game/BluePrints/Item/Supply/BP_SupplyBase.BP_SupplyBase",
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Expedition.Guide_Icon_Expedition",
@@ -100,7 +103,12 @@
     "UnitId": 22,
     "UnitRealType": "AlertMiniGame",
     "FirstStateId": 543,
-    "StateIdList": {},
+    "StateIdList": [
+      543,
+      553,
+      563,
+      573
+    ],
     "InteractiveId": 903,
     "UnitBPPath": "/Game/BluePrints/Item/MiniGame/BP_AlertMiniGame.BP_AlertMiniGame",
     "UnitParams": {
@@ -118,7 +126,11 @@
     "UnitId": 23,
     "UnitRealType": "Delivery",
     "FirstStateId": 25,
-    "StateIdList": {},
+    "StateIdList": [
+      25,
+      26,
+      27
+    ],
     "InteractiveId": 105,
     "UnitBPPath": "/Game/BluePrints/Item/Delivery/DeliveryMechanism"
   },
@@ -148,7 +160,13 @@
     "UnitId": 34,
     "UnitRealType": "ExploreMechanism",
     "FirstStateId": 47,
-    "StateIdList": {},
+    "StateIdList": [
+      47,
+      48,
+      49,
+      50,
+      51
+    ],
     "ModelId": 906,
     "UnitBPPath": "/Game/BluePrints/Item/ExploreGroup/ExploreMechanism/BP_Common_Move_Statue.BP_Common_Move_Statue"
   },
@@ -215,7 +233,12 @@
     "UnitId": 105,
     "UnitRealType": "Mechanism",
     "FirstStateId": 12,
-    "StateIdList": {},
+    "StateIdList": [
+      12,
+      13,
+      14,
+      15
+    ],
     "BattleRoleId": 39013,
     "Camp": "Player",
     "ModelId": 999,
@@ -223,14 +246,21 @@
     "UnitBPPath": "/Game/BluePrints/Item/CombatProp/BP_Paotai.BP_Paotai",
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Guide_Point.Guide_Icon_Guide_Point",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_MainMission.T_Gp_MainMission",
-    "GuideInfo": {},
+    "GuideInfo": [
+      0,
+      1000
+    ],
     "FirstSeenTag": "Paotai"
   },
   "1000": {
     "UnitId": 1000,
     "UnitRealType": "Collection",
     "FirstStateId": 610012,
-    "StateIdList": {},
+    "StateIdList": [
+      610012,
+      610013,
+      610014
+    ],
     "InteractiveId": 915,
     "Camp": "Monster",
     "UnitBPPath": "/Game/BluePrints/Item/Harvest/BP_CombatHarvestBase.BP_CombatHarvestBase",
@@ -275,23 +305,20 @@
     "UnitId": 1003,
     "UnitRealType": "Collection",
     "FirstStateId": 610024,
-    "StateIdList": {},
+    "StateIdList": [
+      610024,
+      610025
+    ],
     "ModelId": 92602,
     "Camp": "Monster",
     "UnitBPPath": "/Game/AssetDesign/Item/Harvest/BP_DropNuts.BP_DropNuts",
     "RewardId": 4021002,
     "BattleRoleId": 41002,
-    "BloodUIParmas": [
-      {
-        "ActiveCommonUI": 1
-      },
-      {
-        "UIStyleNodeName": "TN"
-      },
-      {
-        "HiddenWhileOccluded": true
-      }
-    ]
+    "BloodUIParmas": {
+      "ActiveCommonUI": 1,
+      "UIStyleNodeName": "TN",
+      "HiddenWhileOccluded": true
+    }
   },
   "1004": {
     "UnitId": 1004,
@@ -349,7 +376,12 @@
     "UnitId": 1008,
     "UnitRealType": "Collection",
     "FirstStateId": 610012,
-    "StateIdList": {},
+    "StateIdList": [
+      610012,
+      610013,
+      610014,
+      610015
+    ],
     "InteractiveId": 91510,
     "ModelId": 92606,
     "Camp": "Monster",
@@ -360,23 +392,20 @@
     },
     "RewardId": 4020003,
     "BattleRoleId": 41001,
-    "BloodUIParmas": [
-      {
-        "ActiveCommonUI": 1
-      },
-      {
-        "UIStyleNodeName": "TN"
-      },
-      {
-        "HiddenWhileOccluded": true
-      }
-    ]
+    "BloodUIParmas": {
+      "ActiveCommonUI": 1,
+      "UIStyleNodeName": "TN",
+      "HiddenWhileOccluded": true
+    }
   },
   "1009": {
     "UnitId": 1009,
     "UnitRealType": "Collection",
     "FirstStateId": 610026,
-    "StateIdList": {},
+    "StateIdList": [
+      610026,
+      610027
+    ],
     "ModelId": 92607,
     "Camp": "Monster",
     "UnitBPPath": "/Game/AssetDesign/Item/Harvest/BP_DropWeishi.BP_DropWeishi",
@@ -386,17 +415,11 @@
     },
     "RewardId": 4021005,
     "BattleRoleId": 41001,
-    "BloodUIParmas": [
-      {
-        "ActiveCommonUI": 1
-      },
-      {
-        "UIStyleNodeName": "TN"
-      },
-      {
-        "HiddenWhileOccluded": true
-      }
-    ]
+    "BloodUIParmas": {
+      "ActiveCommonUI": 1,
+      "UIStyleNodeName": "TN",
+      "HiddenWhileOccluded": true
+    }
   },
   "1010": {
     "UnitId": 1010,
@@ -499,7 +522,10 @@
     "UnitId": 1019,
     "UnitRealType": "Collection",
     "FirstStateId": 610030,
-    "StateIdList": {},
+    "StateIdList": [
+      610030,
+      610031
+    ],
     "InteractiveId": 91504,
     "ModelId": 92610,
     "UnitBPPath": "/Game/AssetDesign/Item/Harvest/BP_Mushroom.BP_Mushroom",
@@ -689,7 +715,11 @@
     "UnitId": 10604,
     "UnitRealType": "Mechanism",
     "FirstStateId": 1060400,
-    "StateIdList": {},
+    "StateIdList": [
+      1060400,
+      1060401,
+      1060402
+    ],
     "ModelId": 9241,
     "UnitBPPath": "/Game/AssetDesign/Level/EN002_Imperial/BP_Fort_FakeTrolly.BP_Fort_FakeTrolly",
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Guide_Point.Guide_Icon_Guide_Point",
@@ -699,7 +729,10 @@
     "UnitId": 10605,
     "UnitRealType": "Mechanism",
     "FirstStateId": 106050,
-    "StateIdList": {},
+    "StateIdList": [
+      106050,
+      106051
+    ],
     "UnitBPPath": "/Game/AssetDesign/Level/EN002_Imperial/BP_Spline_Butterfly_Won.BP_Spline_Butterfly_Won",
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Guide_Point.Guide_Icon_Guide_Point",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_MainMission.T_Gp_MainMission"
@@ -722,7 +755,11 @@
     "UnitId": 10608,
     "UnitRealType": "Mechanism",
     "FirstStateId": 1060801,
-    "StateIdList": {},
+    "StateIdList": [
+      1060800,
+      1060801,
+      1060802
+    ],
     "UnitBPPath": "/Game/AssetDesign/Level/EN002_Imperial/BP_Ail_Feiting.BP_Ail_Feiting",
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Guide_Point.Guide_Icon_Guide_Point",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_MainMission.T_Gp_MainMission"
@@ -738,7 +775,11 @@
     "UnitId": 10610,
     "UnitRealType": "Mechanism",
     "FirstStateId": 1061000,
-    "StateIdList": {},
+    "StateIdList": [
+      1061000,
+      1061001,
+      1061002
+    ],
     "UnitBPPath": "/Game/BluePrints/Item/Trap/BP_Prologue_Missile_Collapse.BP_Prologue_Missile_Collapse"
   },
   "10611": {
@@ -788,32 +829,16 @@
     "Camp": "Hostile",
     "ModelId": 925,
     "UnitBPPath": "/Game/AssetDesign/Item/CombatProp/BP_CombatProp_SteamB.BP_CombatProp_SteamB",
-    "UnitParams": [
-      {
-        "SkillEffect": 900023
-      },
-      {
-        "AttackCD": 0.2
-      },
-      {
-        "GasNum": 1
-      },
-      {
-        "GasLength": 1000
-      },
-      {
-        "GasHeight": 500
-      },
-      {
-        "RotateSpeed": 0
-      },
-      {
-        "ActiveRange": 3000
-      },
-      {
-        "WarningTime": 2
-      }
-    ],
+    "UnitParams": {
+      "SkillEffect": 900023,
+      "AttackCD": 0.2,
+      "GasNum": 1,
+      "GasLength": 1000,
+      "GasHeight": 500,
+      "RotateSpeed": 0,
+      "ActiveRange": 3000,
+      "WarningTime": 2
+    },
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Guide_Point.Guide_Icon_Guide_Point",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_MainMission.T_Gp_MainMission"
   },
@@ -821,7 +846,10 @@
     "UnitId": 10801,
     "UnitRealType": "LogicMechanism",
     "FirstStateId": 108011,
-    "StateIdList": {},
+    "StateIdList": [
+      108010,
+      108011
+    ],
     "UnitBPPath": "/Game/AssetDesign/Item/CombatProp/BP_CombatProp_Spline.BP_CombatProp_Spline",
     "FirstSeenTag": "SplineMech"
   },
@@ -845,40 +873,28 @@
     "UnitId": 11001,
     "UnitRealType": "AOITriggerBox",
     "UnitBPPath": "/Game/BluePrints/Item/AirWall/BP_AirDoorCylinder.BP_AirDoorCylinder",
-    "UnitParams": [
-      {
-        "ConstantEffectId": 900010
-      },
-      {
-        "DynamicEffectId": 900011
-      }
-    ]
+    "UnitParams": {
+      "ConstantEffectId": 900010,
+      "DynamicEffectId": 900011
+    }
   },
   "11002": {
     "UnitId": 11002,
     "UnitRealType": "AOITriggerBox",
     "UnitBPPath": "/Game/BluePrints/Item/AirWall/BP_AirDoorBox.BP_AirDoorBox",
-    "UnitParams": [
-      {
-        "ConstantEffectId": 900010
-      },
-      {
-        "DynamicEffectId": 900011
-      }
-    ]
+    "UnitParams": {
+      "ConstantEffectId": 900010,
+      "DynamicEffectId": 900011
+    }
   },
   "11003": {
     "UnitId": 11003,
     "UnitRealType": "AOITriggerBox",
     "UnitBPPath": "/Game/BluePrints/Item/AirWall/BP_AirDoor.BP_AirDoor",
-    "UnitParams": [
-      {
-        "ConstantEffectId": 900010
-      },
-      {
-        "DynamicEffectId": 900011
-      }
-    ]
+    "UnitParams": {
+      "ConstantEffectId": 900010,
+      "DynamicEffectId": 900011
+    }
   },
   "11004": {
     "UnitId": 11004,
@@ -921,7 +937,12 @@
     "UnitId": 11102,
     "UnitRealType": "LogicMechanism",
     "FirstStateId": 111020,
-    "StateIdList": {},
+    "StateIdList": [
+      111020,
+      111021,
+      111022,
+      111023
+    ],
     "BattleRoleId": 39014,
     "Camp": "Monster",
     "ModelId": 920,
@@ -933,14 +954,17 @@
     "UnitId": 11201,
     "UnitRealType": "MonsterNest",
     "FirstStateId": 112010,
-    "StateIdList": {},
+    "StateIdList": [
+      112010,
+      112011,
+      112012,
+      112013
+    ],
     "BattleRoleId": 39014,
     "Camp": "Monster",
-    "BloodUIParmas": [
-      {
-        "ActiveCommonUI": 1
-      }
-    ],
+    "BloodUIParmas": {
+      "ActiveCommonUI": 1
+    },
     "UnitBPPath": "/Game/AssetDesign/Item/MonsterSpawn/BP_MonsterNest_Fort.BP_MonsterNest_Fort",
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Guide_Point_Red.Guide_Icon_Guide_Point_Red",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_DefeatMission.T_Gp_DefeatMission",
@@ -950,7 +974,10 @@
     "UnitId": 11302,
     "UnitRealType": "Mechanism",
     "FirstStateId": 113020,
-    "StateIdList": {},
+    "StateIdList": [
+      113020,
+      113021
+    ],
     "UnitBPPath": "/Game/AssetDesign/Level/Prop/BP_Chapter01_BgmSwitch.BP_Chapter01_BgmSwitch"
   },
   "11501": {
@@ -962,7 +989,13 @@
     "UnitId": 11601,
     "UnitRealType": "Mechanism",
     "FirstStateId": 116014,
-    "StateIdList": {},
+    "StateIdList": [
+      116010,
+      116011,
+      116012,
+      116013,
+      116014
+    ],
     "UnitBPPath": "/Game/AssetDesign/Level/Prop/BP_Fort_Fan.BP_Fort_Fan"
   },
   "11602": {
@@ -987,17 +1020,11 @@
     ],
     "BattleRoleId": 11701,
     "Camp": "Monster",
-    "BloodUIParmas": [
-      {
-        "ActiveCommonUI": 1
-      },
-      {
-        "UIStyleNodeName": "TN"
-      },
-      {
-        "ScaleRateX": 4
-      }
-    ],
+    "BloodUIParmas": {
+      "ActiveCommonUI": 1,
+      "UIStyleNodeName": "TN",
+      "ScaleRateX": 4
+    },
     "UnitBPPath": "/Game/AssetDesign/Item/CombatProp/BP_ToughnessWall.BP_ToughnessWall",
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Guide_Point_Red.Guide_Icon_Guide_Point_Red",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_DefeatMission.T_Gp_DefeatMission"
@@ -1014,17 +1041,13 @@
     "BattleRoleId": 39001,
     "Camp": "DefenceCore",
     "ModelId": 922,
-    "BloodUIParmas": [
-      {
-        "ActiveCommonUI": 1
-      }
-    ],
+    "BloodUIParmas": {
+      "ActiveCommonUI": 1
+    },
     "UnitBPPath": "/Game/BluePrints/Item/DefenceCore/BP_DefenceMechanism.BP_DefenceMechanism",
-    "UnitParams": [
-      {
-        "ActiveRange": 1000
-      }
-    ],
+    "UnitParams": {
+      "ActiveRange": 1000
+    },
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Guide_Point.Guide_Icon_Guide_Point",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_MainMission.T_Gp_MainMission",
     "GuideText": "UI_DUNGEON_GUIDE_DEFENCEMECHANISM",
@@ -1041,11 +1064,9 @@
     "BattleRoleId": 39002,
     "Camp": "Hostile",
     "ModelId": 999,
-    "BloodUIParmas": [
-      {
-        "ActiveCommonUI": 1
-      }
-    ],
+    "BloodUIParmas": {
+      "ActiveCommonUI": 1
+    },
     "UnitBPPath": "/Game/BluePrints/Item/CombatProp/BP_Laser_New.BP_Laser_New",
     "UnitParams": {
       "SkillEffect": 900001,
@@ -1067,11 +1088,9 @@
     "BattleRoleId": 39003,
     "Camp": "Hostile",
     "ModelId": 999,
-    "BloodUIParmas": [
-      {
-        "ActiveCommonUI": 1
-      }
-    ],
+    "BloodUIParmas": {
+      "ActiveCommonUI": 1
+    },
     "UnitBPPath": "/Game/BluePrints/Item/CombatProp/BP_Laser_New.BP_Laser_New",
     "UnitParams": {
       "SkillEffect": 900001,
@@ -1086,15 +1105,16 @@
     "UnitId": 39004,
     "UnitRealType": "Shock",
     "FirstStateId": 5,
-    "StateIdList": {},
+    "StateIdList": [
+      4,
+      5
+    ],
     "BattleRoleId": 39004,
     "Camp": "Hostile",
     "ModelId": 999,
-    "BloodUIParmas": [
-      {
-        "ActiveCommonUI": 1
-      }
-    ],
+    "BloodUIParmas": {
+      "ActiveCommonUI": 1
+    },
     "UnitBPPath": "/Game/BluePrints/Item/CombatProp/Shock_New.Shock_New",
     "UnitParams": {
       "SkillEffect": 900002,
@@ -1110,11 +1130,9 @@
     "BattleRoleId": 39005,
     "Camp": "Hostile",
     "ModelId": 999,
-    "BloodUIParmas": [
-      {
-        "ActiveCommonUI": 1
-      }
-    ],
+    "BloodUIParmas": {
+      "ActiveCommonUI": 1
+    },
     "UnitBPPath": "/Game/BluePrints/Item/CombatProp/BP_Bomb.BP_Bomb",
     "UnitParams": {
       "SkillEffect": 900003,
@@ -1128,7 +1146,10 @@
     "UnitId": 39006,
     "UnitRealType": "RockTrap",
     "FirstStateId": 390060,
-    "StateIdList": {},
+    "StateIdList": [
+      390060,
+      390061
+    ],
     "BattleRoleId": 39006,
     "Camp": "Hostile",
     "ModelId": 999,
@@ -1171,17 +1192,13 @@
     "BattleRoleId": 39008,
     "Camp": "DefenceCore",
     "ModelId": 922,
-    "BloodUIParmas": [
-      {
-        "ActiveCommonUI": 1
-      }
-    ],
+    "BloodUIParmas": {
+      "ActiveCommonUI": 1
+    },
     "UnitBPPath": "/Game/BluePrints/Item/DefenceCore/BP_DefenceMechanism.BP_DefenceMechanism",
-    "UnitParams": [
-      {
-        "ActiveRange": 1000
-      }
-    ],
+    "UnitParams": {
+      "ActiveRange": 1000
+    },
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Guide_Point.Guide_Icon_Guide_Point",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_MainMission.T_Gp_MainMission",
     "GuideType": 1
@@ -1217,28 +1234,32 @@
     "ModelId": 917,
     "UnitBPPath": "/Game/BluePrints/Item/CombatProp/BP_Pillar_Shijingzhe.BP_Pillar_ShiJingZhe",
     "UnitParams": {
-      "Scale": {}
+      "Scale": [
+        0.74,
+        0.74,
+        0.74
+      ]
     },
-    "AccessoryIds": [
-      {
-        "Random": [
-          700307,
-          700308,
-          700309,
-          700310,
-          700311
-        ]
-      },
-      {
-        "RandomNum": 3
-      }
-    ]
+    "AccessoryIds": {
+      "Random": [
+        700307,
+        700308,
+        700309,
+        700310,
+        700311
+      ],
+      "RandomNum": 3
+    }
   },
   "39012": {
     "UnitId": 39012,
     "UnitRealType": "Mechanism",
     "FirstStateId": 246,
-    "StateIdList": {},
+    "StateIdList": [
+      244,
+      245,
+      246
+    ],
     "UnitBPPath": "/Game/BluePrints/Item/Trap/BP_JumpPad"
   },
   "39013": {
@@ -1255,25 +1276,21 @@
     "UnitId": 39016,
     "UnitRealType": "FieldTrap",
     "FirstStateId": 3901600,
-    "StateIdList": {},
+    "StateIdList": [
+      3901600,
+      3901601,
+      3901602
+    ],
     "BattleRoleId": 39016,
     "Camp": "Monster",
     "ModelId": 927,
     "UnitBPPath": "/Game/BluePrints/Item/AirWall/BP_TrapArea.BP_TrapArea",
-    "UnitParams": [
-      {
-        "SkillEffect": 900022
-      },
-      {
-        "AttackCD": 0.2
-      },
-      {
-        "MonEffect": 900021
-      },
-      {
-        "MonAttackCD": 0.2
-      }
-    ],
+    "UnitParams": {
+      "SkillEffect": 900022,
+      "AttackCD": 0.2,
+      "MonEffect": 900021,
+      "MonAttackCD": 0.2
+    },
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Guide_Point_Red.Guide_Icon_Guide_Point_Red",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_DefeatMission.T_Gp_DefeatMission",
     "FirstSeenTag": "TrapFire"
@@ -1291,14 +1308,10 @@
     "BattleRoleId": 49001,
     "Camp": "DefenceCore",
     "ModelId": 923,
-    "BloodUIParmas": [
-      {
-        "ActiveCommonUI": 1
-      },
-      {
-        "HeightOffset": 50
-      }
-    ],
+    "BloodUIParmas": {
+      "ActiveCommonUI": 1,
+      "HeightOffset": 50
+    },
     "UnitBPPath": "/Game/BluePrints/Item/DefenceCore/BP_Excavation_Small.BP_Excavation_Small",
     "UnitParams": {
       "Efficiency": 1,
@@ -1322,14 +1335,10 @@
     "BattleRoleId": 49002,
     "Camp": "DefenceCore",
     "ModelId": 923,
-    "BloodUIParmas": [
-      {
-        "ActiveCommonUI": 1
-      },
-      {
-        "HeightOffset": 50
-      }
-    ],
+    "BloodUIParmas": {
+      "ActiveCommonUI": 1,
+      "HeightOffset": 50
+    },
     "UnitBPPath": "/Game/BluePrints/Item/DefenceCore/BP_Excavation_Middle.BP_Excavation_Middle",
     "UnitParams": {
       "Efficiency": 2,
@@ -1440,14 +1449,10 @@
     "ModelId": 9141,
     "InteractiveId": 101,
     "UnitBPPath": "/Game/AssetDesign/Item/MiniGame/BP_MiniGame.BP_MiniGame",
-    "UnitParams": [
-      {
-        "Difficulty": 0
-      },
-      {
-        "GameTime": 60
-      }
-    ],
+    "UnitParams": {
+      "Difficulty": 0,
+      "GameTime": 60
+    },
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Guide_Point.Guide_Icon_Guide_Point",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_MainMission.T_Gp_MainMission",
     "GuideType": 1
@@ -1566,15 +1571,18 @@
     "UnitId": 49200,
     "UnitRealType": "Trolly",
     "FirstStateId": 242,
-    "StateIdList": {},
+    "StateIdList": [
+      240,
+      241,
+      242,
+      243
+    ],
     "BattleRoleId": 39010,
     "Camp": "DefenceCore",
     "ModelId": 924,
-    "BloodUIParmas": [
-      {
-        "ActiveCommonUI": 1
-      }
-    ],
+    "BloodUIParmas": {
+      "ActiveCommonUI": 1
+    },
     "UnitBPPath": "/Game/BluePrints/Item/DefenceCore/BP_Trolly.BP_Trolly",
     "UnitParams": {
       "ESAbsorbRatio": 0.01,
@@ -1596,17 +1604,11 @@
     "UnitRealType": "TrollyWall",
     "BattleRoleId": 39011,
     "Camp": "Monster",
-    "BloodUIParmas": [
-      {
-        "ActiveCommonUI": 1
-      },
-      {
-        "UIStyleNodeName": "TN"
-      },
-      {
-        "ScaleRateX": 4
-      }
-    ],
+    "BloodUIParmas": {
+      "ActiveCommonUI": 1,
+      "UIStyleNodeName": "TN",
+      "ScaleRateX": 4
+    },
     "UnitBPPath": "/Game/BluePrints/Item/AirWall/BP_TrollyWall.BP_TrollyWall"
   },
   "49202": {
@@ -1614,11 +1616,9 @@
     "UnitRealType": "HiddenTrollyWall",
     "BattleRoleId": 39011,
     "Camp": "Monster",
-    "BloodUIParmas": [
-      {
-        "ActiveCommonUI": 1
-      }
-    ],
+    "BloodUIParmas": {
+      "ActiveCommonUI": 1
+    },
     "UnitBPPath": "/Game/BluePrints/Item/AirWall/BP_HiddenTrollyWall.BP_HiddenTrollyWall"
   },
   "49203": {
@@ -1636,7 +1636,10 @@
     "UnitName": "MECHANISM_NAME_49300",
     "UnitRealType": "SabotageTarget",
     "FirstStateId": 238,
-    "StateIdList": {},
+    "StateIdList": [
+      238,
+      239
+    ],
     "BattleRoleId": 39012,
     "Camp": "Monster",
     "BloodUIParmas": {
@@ -1739,7 +1742,11 @@
     "UnitId": 60006,
     "UnitRealType": "RougeLikeInteraction",
     "FirstStateId": 300,
-    "StateIdList": {},
+    "StateIdList": [
+      300,
+      301,
+      302
+    ],
     "InteractiveId": 90205,
     "UnitBPPath": "/Game/AssetDesign/Item/OpenUIMechanism/BP_OpenUIMechanism_Rouge.BP_OpenUIMechanism_Rouge",
     "UnitParams": {
@@ -1753,7 +1760,10 @@
     "UnitId": 60007,
     "UnitRealType": "Chest",
     "FirstStateId": 66,
-    "StateIdList": {},
+    "StateIdList": [
+      66,
+      67
+    ],
     "ModelId": 918,
     "InteractiveId": 100,
     "UnitBPPath": "/Game/BluePrints/Item/Chest/BP_Chest.BP_Chest",
@@ -1970,7 +1980,12 @@
     "UnitId": 70110,
     "UnitRealType": "ExploreMechanism",
     "FirstStateId": 701100,
-    "StateIdList": {},
+    "StateIdList": [
+      701100,
+      701101,
+      701102,
+      701103
+    ],
     "ModelId": 913,
     "UnitBPPath": "/Game/BluePrints/Item/ExploreGroup/ExploreMechanism/BP_Explore_Chest_Key.BP_Explore_Chest_Key",
     "RewardId": 3009,
@@ -2163,7 +2178,9 @@
       "Physical": [
         "Slash"
       ],
-      "Elemental": {},
+      "Elemental": [
+        "Light"
+      ],
       "Ranged": true,
       "Melee": true
     },
@@ -2176,8 +2193,12 @@
     "Camp": "Monster",
     "UnitBPPath": "/Game/AssetDesign/Explore/BreakableItem/BP_BreakableItem_ChestMask.BP_BreakableItem_ChestMask",
     "UnitParams": {
-      "Physical": {},
-      "Elemental": {},
+      "Physical": [
+        "Spike"
+      ],
+      "Elemental": [
+        "Dark"
+      ],
       "Ranged": true,
       "Melee": true
     },
@@ -2187,7 +2208,13 @@
     "UnitId": 70130,
     "UnitRealType": "ExploreMechanism",
     "FirstStateId": 701300,
-    "StateIdList": {},
+    "StateIdList": [
+      701300,
+      701301,
+      701302,
+      701303,
+      701304
+    ],
     "ModelId": 906,
     "InteractiveId": 111,
     "UnitBPPath": "/Game/AssetDesign/Explore/Explore_BP/BP_Shoot.BP_Shoot",
@@ -2197,7 +2224,11 @@
     "UnitId": 70131,
     "UnitRealType": "ExploreMechanism",
     "FirstStateId": 701310,
-    "StateIdList": {},
+    "StateIdList": [
+      701310,
+      701311,
+      701312
+    ],
     "UnitBPPath": "/Game/BluePrints/Item/ExploreGroup/ExploreMechanism/BP_Explore_paoku.BP_Explore_paoku",
     "GuideIconAni": "/Game/UI/UI_PC/World/ExploreToast/Explore_GuidePoint_PC.Explore_GuidePoint_PC",
     "GuideType": 1,
@@ -2300,7 +2331,9 @@
     "UnitId": 70197,
     "UnitRealType": "ExploreMechanism",
     "FirstStateId": 701000,
-    "StateIdList": {},
+    "StateIdList": [
+      701000
+    ],
     "ModelId": 910,
     "InteractiveId": 70000,
     "UnitBPPath": "/Game/BluePrints/Item/ExploreGroup/ExploreMechanism/BP_Explore_Chest_Low.BP_Explore_Chest_Low",
@@ -2340,7 +2373,12 @@
     "UnitId": 70199,
     "UnitRealType": "ExploreMechanism",
     "FirstStateId": 701130,
-    "StateIdList": {},
+    "StateIdList": [
+      701130,
+      701131,
+      701132,
+      701133
+    ],
     "ModelId": 913,
     "InteractiveId": 70003,
     "UnitBPPath": "/Game/BluePrints/Item/ExploreGroup/ExploreMechanism/BP_Explore_Chest_Key.BP_Explore_Chest_Key",
@@ -2358,7 +2396,13 @@
     "UnitId": 70200,
     "UnitRealType": "ExploreMechanism",
     "FirstStateId": 702000,
-    "StateIdList": {},
+    "StateIdList": [
+      702000,
+      702001,
+      702002,
+      702003,
+      702004
+    ],
     "InteractiveId": 111,
     "UnitBPPath": "/Game/AssetDesign/Explore/Explore_BP/BP_Parkour.BP_Parkour",
     "FirstSeenTag": "Parkour"
@@ -2367,45 +2411,56 @@
     "UnitId": 70400,
     "UnitRealType": "ExploreMechanism",
     "FirstStateId": 704000,
-    "StateIdList": {},
+    "StateIdList": [
+      704000,
+      704001
+    ],
     "InteractiveId": 111,
     "UnitBPPath": "/Game/BluePrints/Item/ExploreGroup/ExploreMechanism/BP_Explore_Chest_Low.BP_Explore_Chest_Low",
-    "UnitParams": [
-      {
-        "Difficulty": 0
-      }
-    ]
+    "UnitParams": {
+      "Difficulty": 0
+    }
   },
   "70401": {
     "UnitId": 70401,
     "UnitRealType": "ExploreMechanism",
     "FirstStateId": 704010,
-    "StateIdList": {},
+    "StateIdList": [
+      704010,
+      704011,
+      704012
+    ],
     "InteractiveId": 111,
     "UnitBPPath": "/Game/BluePrints/Item/ExploreGroup/ExploreMechanism/BP_Explore_Chest_High.BP_Explore_Chest_High",
-    "UnitParams": [
-      {
-        "Difficulty": 0
-      }
-    ]
+    "UnitParams": {
+      "Difficulty": 0
+    }
   },
   "70402": {
     "UnitId": 70402,
     "UnitRealType": "ExploreMechanism",
     "FirstStateId": 704020,
-    "StateIdList": {},
+    "StateIdList": [
+      704020,
+      704021,
+      704022
+    ],
     "InteractiveId": 111,
     "UnitBPPath": "/Game/BluePrints/Item/ExploreGroup/ExploreMechanism/BP_Explore_Chest_Mid.BP_Explore_Chest_Mid",
-    "UnitParams": [
-      {
-        "Difficulty": 0
-      }
-    ]
+    "UnitParams": {
+      "Difficulty": 0
+    }
   },
   "70403": {
     "UnitId": 70403,
     "FirstStateId": 704030,
-    "StateIdList": {},
+    "StateIdList": [
+      704030,
+      704031,
+      704032,
+      704033,
+      704034
+    ],
     "UnitBPPath": "/Game/AssetDesign/Level/Prop/BP_Water.BP_Water"
   },
   "70500": {
@@ -2424,7 +2479,12 @@
     "UnitId": 70501,
     "UnitRealType": "AchievementMechanism",
     "FirstStateId": 705010,
-    "StateIdList": {},
+    "StateIdList": [
+      705010,
+      705011,
+      705012,
+      705013
+    ],
     "UnitParams": {
       "EffectId": 210
     }
@@ -2433,14 +2493,22 @@
     "UnitId": 70502,
     "UnitRealType": "AchievementMechanism",
     "FirstStateId": 705020,
-    "StateIdList": {},
+    "StateIdList": [
+      705020,
+      705021
+    ],
     "UnitBPPath": "/Game/AssetDesign/Explore/Explore_BP/BP_Dengding.BP_Dengding"
   },
   "70503": {
     "UnitId": 70503,
     "UnitRealType": "ExploreMechanism",
     "FirstStateId": 705030,
-    "StateIdList": {},
+    "StateIdList": [
+      705030,
+      705031,
+      705032,
+      705033
+    ],
     "ModelId": 914,
     "InteractiveId": 103,
     "UnitBPPath": "/Game/AssetDesign/Item/MiniGame/BP_MiniGame_Quarry.BP_MiniGame_Quarry"
@@ -2449,7 +2517,14 @@
     "UnitId": 70504,
     "UnitRealType": "ExploreMechanism",
     "FirstStateId": 705040,
-    "StateIdList": {},
+    "StateIdList": [
+      705040,
+      705041,
+      701060,
+      701061,
+      701062,
+      701063
+    ],
     "ModelId": 912,
     "UnitBPPath": "/Game/BluePrints/Item/ExploreGroup/ExploreMechanism/BP_Explore_Chest_High.BP_Explore_Chest_High",
     "RewardId": 3011,
@@ -2466,7 +2541,11 @@
     "UnitId": 70505,
     "UnitRealType": "AchievementMechanism",
     "FirstStateId": 705050,
-    "StateIdList": {},
+    "StateIdList": [
+      705050,
+      705051,
+      705052
+    ],
     "ModelId": 931,
     "UnitBPPath": "/Game/AssetDesign/Explore/Explore_BP/BP_Haystack.BP_Haystack"
   },
@@ -2474,7 +2553,10 @@
     "UnitId": 78002,
     "UnitRealType": "DynMechanism",
     "FirstStateId": 780020,
-    "StateIdList": {},
+    "StateIdList": [
+      780020,
+      780021
+    ],
     "InteractiveId": 80001,
     "UnitBPPath": "/Game/AssetDesign/Explore/DynQuest/BP_DynEvent_Car.BP_DynEvent_Car",
     "GuideIconAni": "/Game/UI/UI_PC/World/ExploreToast/Explore_GuidePoint_PC.Explore_GuidePoint_PC",
@@ -2485,7 +2567,15 @@
     "UnitId": 78003,
     "UnitRealType": "DynMechanism",
     "FirstStateId": 780030,
-    "StateIdList": {},
+    "StateIdList": [
+      780030,
+      780031,
+      780032,
+      780033,
+      780034,
+      780035,
+      780036
+    ],
     "BattleRoleId": 39014,
     "Camp": "Monster",
     "ModelId": 914,
@@ -2498,27 +2588,21 @@
     "UnitId": 78004,
     "UnitRealType": "DynMechanism",
     "FirstStateId": 780040,
-    "StateIdList": {},
+    "StateIdList": [
+      780040,
+      780041,
+      780042
+    ],
     "ModelId": 914,
     "InteractiveId": 80002,
     "UnitBPPath": "/Game/AssetDesign/Explore/DynQuest/BP_MiniGameControl.BP_MiniGameControl",
-    "UnitParams": [
-      {
-        "Difficulty": 2
-      },
-      {
-        "GameTime": 60
-      },
-      {
-        "MiniGameType": "ZhuanQuanQuan"
-      },
-      {
-        "ActiveStateId": 541
-      },
-      {
-        "FiniStateId": 581
-      }
-    ],
+    "UnitParams": {
+      "Difficulty": 2,
+      "GameTime": 60,
+      "MiniGameType": "ZhuanQuanQuan",
+      "ActiveStateId": 541,
+      "FiniStateId": 581
+    },
     "GuideIconAni": "/Game/UI/UI_PC/World/ExploreToast/Explore_GuidePoint_PC.Explore_GuidePoint_PC",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_DynQuest.T_Gp_DynQuest",
     "GuideType": 1
@@ -2527,7 +2611,10 @@
     "UnitId": 78005,
     "UnitRealType": "DynMechanism",
     "FirstStateId": 780050,
-    "StateIdList": {},
+    "StateIdList": [
+      780050,
+      780051
+    ],
     "BattleRoleId": 39014,
     "Camp": "Monster",
     "UnitBPPath": "/Game/AssetDesign/Explore/DynQuest/BP_Grass.BP_Grass",
@@ -2549,27 +2636,21 @@
     "UnitId": 78021,
     "UnitRealType": "DynMechanism",
     "FirstStateId": 780210,
-    "StateIdList": {},
+    "StateIdList": [
+      780210,
+      780211,
+      780212
+    ],
     "ModelId": 914,
     "InteractiveId": 80002,
     "UnitBPPath": "/Game/AssetDesign/Explore/DynQuest/BP_MiniGameControl_Empty.BP_MiniGameControl_Empty",
-    "UnitParams": [
-      {
-        "Difficulty": 2
-      },
-      {
-        "GameTime": 60
-      },
-      {
-        "MiniGameType": "ShuiFa"
-      },
-      {
-        "ActiveStateId": 501
-      },
-      {
-        "FiniStateId": 500
-      }
-    ],
+    "UnitParams": {
+      "Difficulty": 2,
+      "GameTime": 60,
+      "MiniGameType": "ShuiFa",
+      "ActiveStateId": 501,
+      "FiniStateId": 500
+    },
     "GuideIconAni": "/Game/UI/UI_PC/World/ExploreToast/Explore_GuidePoint_PC.Explore_GuidePoint_PC",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_DynQuest.T_Gp_DynQuest",
     "GuideType": 1
@@ -2578,7 +2659,11 @@
     "UnitId": 78022,
     "UnitRealType": "ExploreMechanism",
     "FirstStateId": 780220,
-    "StateIdList": {},
+    "StateIdList": [
+      780220,
+      780221,
+      780222
+    ],
     "ModelId": 910,
     "UnitBPPath": "/Game/AssetDesign/Explore/DynQuest/BP_Dyn_LockPet.BP_Dyn_LockPet"
   },
@@ -2629,7 +2714,10 @@
     "UnitId": 80109,
     "UnitRealType": "Mechanism",
     "FirstStateId": 780060,
-    "StateIdList": {},
+    "StateIdList": [
+      780060,
+      780061
+    ],
     "UnitBPPath": "/Game/BluePrints/Item/Temple/BP_TempleRotator.BP_TempleRotator"
   },
   "80110": {
@@ -2699,7 +2787,11 @@
     "UnitId": 90100,
     "UnitRealType": "TeleportMechanism",
     "FirstStateId": 901000,
-    "StateIdList": {},
+    "StateIdList": [
+      901000,
+      901001,
+      901002
+    ],
     "ModelId": 908,
     "InteractiveId": 90100,
     "UnitBPPath": "/Game/BluePrints/Item/Delivery/BP_DeliveryAnchorMechanism.BP_DeliveryAnchorMechanism",
@@ -2711,7 +2803,10 @@
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/Map/T_Map_Trans01.T_Map_Trans01",
     "GuideVisibility": true,
     "GuideType": 1,
-    "GuideInfo": {},
+    "GuideInfo": [
+      0,
+      2000
+    ],
     "GuideInactive": true
   },
   "100001": {
@@ -2892,32 +2987,16 @@
     "Camp": "Hostile",
     "ModelId": 925,
     "UnitBPPath": "/Game/AssetDesign/Item/CombatProp/BP_CombatProp_SteamA.BP_CombatProp_SteamA",
-    "UnitParams": [
-      {
-        "SkillEffect": 900023
-      },
-      {
-        "AttackCD": 0.2
-      },
-      {
-        "GasNum": 1
-      },
-      {
-        "GasLength": 1500
-      },
-      {
-        "GasHeight": 500
-      },
-      {
-        "RotateSpeed": 0
-      },
-      {
-        "ActiveRange": 3000
-      },
-      {
-        "WarningTime": 2
-      }
-    ],
+    "UnitParams": {
+      "SkillEffect": 900023,
+      "AttackCD": 0.2,
+      "GasNum": 1,
+      "GasLength": 1500,
+      "GasHeight": 500,
+      "RotateSpeed": 0,
+      "ActiveRange": 3000,
+      "WarningTime": 2
+    },
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Guide_Point.Guide_Icon_Guide_Point",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_MainMission.T_Gp_MainMission"
   },
@@ -3003,37 +3082,26 @@
     "UnitId": 107016,
     "UnitRealType": "SteamMechanism",
     "FirstStateId": 1070161,
-    "StateIdList": {},
+    "StateIdList": [
+      1070160,
+      1070161,
+      1070162,
+      1070163
+    ],
     "BattleRoleId": 10701,
     "Camp": "Hostile",
     "ModelId": 925,
     "UnitBPPath": "/Game/AssetDesign/Item/CombatProp/BP_CombatProp_SteamA.BP_CombatProp_SteamA",
-    "UnitParams": [
-      {
-        "SkillEffect": 900023
-      },
-      {
-        "AttackCD": 0.2
-      },
-      {
-        "GasNum": 1
-      },
-      {
-        "GasLength": 1500
-      },
-      {
-        "GasHeight": 500
-      },
-      {
-        "RotateSpeed": 0
-      },
-      {
-        "ActiveRange": 3000
-      },
-      {
-        "WarningTime": 2
-      }
-    ],
+    "UnitParams": {
+      "SkillEffect": 900023,
+      "AttackCD": 0.2,
+      "GasNum": 1,
+      "GasLength": 1500,
+      "GasHeight": 500,
+      "RotateSpeed": 0,
+      "ActiveRange": 3000,
+      "WarningTime": 2
+    },
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Guide_Point.Guide_Icon_Guide_Point",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_MainMission.T_Gp_MainMission"
   },
@@ -3053,32 +3121,16 @@
     "Camp": "Hostile",
     "ModelId": 925,
     "UnitBPPath": "/Game/AssetDesign/Item/CombatProp/BP_CombatProp_SteamB.BP_CombatProp_SteamB",
-    "UnitParams": [
-      {
-        "SkillEffect": 900023
-      },
-      {
-        "AttackCD": 0.2
-      },
-      {
-        "GasNum": 1
-      },
-      {
-        "GasLength": 1000
-      },
-      {
-        "GasHeight": 500
-      },
-      {
-        "RotateSpeed": 0
-      },
-      {
-        "ActiveRange": 3000
-      },
-      {
-        "WarningTime": 2
-      }
-    ],
+    "UnitParams": {
+      "SkillEffect": 900023,
+      "AttackCD": 0.2,
+      "GasNum": 1,
+      "GasLength": 1000,
+      "GasHeight": 500,
+      "RotateSpeed": 0,
+      "ActiveRange": 3000,
+      "WarningTime": 2
+    },
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Guide_Point.Guide_Icon_Guide_Point",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_MainMission.T_Gp_MainMission"
   },
@@ -3167,7 +3219,12 @@
     "UnitId": 111011,
     "UnitRealType": "LogicMechanism",
     "FirstStateId": 111013,
-    "StateIdList": {},
+    "StateIdList": [
+      111010,
+      111013,
+      111014,
+      111015
+    ],
     "BattleRoleId": 39014,
     "Camp": "Monster",
     "ModelId": 920,
@@ -3179,7 +3236,10 @@
     "UnitId": 111012,
     "UnitRealType": "LogicMechanism",
     "FirstStateId": 111016,
-    "StateIdList": {},
+    "StateIdList": [
+      111016,
+      111017
+    ],
     "BattleRoleId": 39014,
     "Camp": "Monster",
     "ModelId": 920,
@@ -3192,7 +3252,11 @@
     "UnitId": 112011,
     "UnitRealType": "MonsterNest",
     "FirstStateId": 112010,
-    "StateIdList": {},
+    "StateIdList": [
+      112010,
+      112011,
+      112012
+    ],
     "UnitBPPath": "/Game/AssetDesign/Item/MonsterSpawn/BP_MonsterNest_Sew.BP_MonsterNest_Sew",
     "FirstSeenTag": "NestSew"
   },
@@ -3206,14 +3270,10 @@
     ],
     "BattleRoleId": 41002,
     "Camp": "Monster",
-    "BloodUIParmas": [
-      {
-        "ActiveCommonUI": 1
-      },
-      {
-        "UIStyleNodeName": "TN"
-      }
-    ],
+    "BloodUIParmas": {
+      "ActiveCommonUI": 1,
+      "UIStyleNodeName": "TN"
+    },
     "UnitBPPath": "/Game/AssetDesign/Item/Harvest/BP_Gem_Switch.BP_Gem_Switch"
   },
   "114012": {
@@ -3226,14 +3286,10 @@
     ],
     "BattleRoleId": 41002,
     "Camp": "Monster",
-    "BloodUIParmas": [
-      {
-        "ActiveCommonUI": 1
-      },
-      {
-        "UIStyleNodeName": "TN"
-      }
-    ],
+    "BloodUIParmas": {
+      "ActiveCommonUI": 1,
+      "UIStyleNodeName": "TN"
+    },
     "UnitBPPath": "/Game/AssetDesign/Item/Harvest/BP_Gem_Switch.BP_Gem_Switch",
     "RewardId": 50574
   },
@@ -3259,17 +3315,11 @@
     ],
     "BattleRoleId": 117011,
     "Camp": "Monster",
-    "BloodUIParmas": [
-      {
-        "ActiveCommonUI": 1
-      },
-      {
-        "UIStyleNodeName": "TN"
-      },
-      {
-        "ScaleRateX": 4
-      }
-    ],
+    "BloodUIParmas": {
+      "ActiveCommonUI": 1,
+      "UIStyleNodeName": "TN",
+      "ScaleRateX": 4
+    },
     "UnitBPPath": "/Game/AssetDesign/Item/CombatProp/BP_ToughnessWall_Fort.BP_ToughnessWall_Fort",
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Guide_Point_Red.Guide_Icon_Guide_Point_Red",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_DefeatMission.T_Gp_DefeatMission"
@@ -3279,15 +3329,17 @@
     "UnitName": "UI_DUNGEON_HOSTAGE",
     "UnitRealType": "DefenceCore",
     "FirstStateId": 3900113,
-    "StateIdList": {},
+    "StateIdList": [
+      3900111,
+      3900112,
+      3900113
+    ],
     "BattleRoleId": 39001,
     "Camp": "DefenceCore",
     "ModelId": 922,
-    "BloodUIParmas": [
-      {
-        "ActiveCommonUI": 1
-      }
-    ],
+    "BloodUIParmas": {
+      "ActiveCommonUI": 1
+    },
     "UnitBPPath": "/Game/BluePrints/Item/DefenceCore/BP_DefenceMechanism_Maer.BP_DefenceMechanism_Maer",
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Guide_Point.Guide_Icon_Guide_Point",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_MainMission.T_Gp_MainMission",
@@ -3303,15 +3355,17 @@
     "UnitName": "UI_DUNGEON_HOSTAGE",
     "UnitRealType": "DefenceCore",
     "FirstStateId": 3900123,
-    "StateIdList": {},
+    "StateIdList": [
+      3900121,
+      3900122,
+      3900123
+    ],
     "BattleRoleId": 39001,
     "Camp": "DefenceCore",
     "ModelId": 922,
-    "BloodUIParmas": [
-      {
-        "ActiveCommonUI": 1
-      }
-    ],
+    "BloodUIParmas": {
+      "ActiveCommonUI": 1
+    },
     "UnitBPPath": "/Game/BluePrints/Item/DefenceCore/BP_DefenceMechanism_FortDoor.BP_DefenceMechanism_FortDoor",
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Guide_Point.Guide_Icon_Guide_Point",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_MainMission.T_Gp_MainMission",
@@ -3327,15 +3381,18 @@
     "UnitName": "UI_DUNGEON_HOSTAGE",
     "UnitRealType": "DefenceCore",
     "FirstStateId": 3900130,
-    "StateIdList": {},
+    "StateIdList": [
+      3900130,
+      3900131,
+      3900132,
+      3900133
+    ],
     "BattleRoleId": 39001,
     "Camp": "DefenceCore",
     "ModelId": 92201,
-    "BloodUIParmas": [
-      {
-        "ActiveCommonUI": 1
-      }
-    ],
+    "BloodUIParmas": {
+      "ActiveCommonUI": 1
+    },
     "UnitBPPath": "/Game/BluePrints/Item/DefenceCore/BP_DefenceMechanism_Sew.BP_DefenceMechanism_Sew",
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Guide_Point.Guide_Icon_Guide_Point",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_MainMission.T_Gp_MainMission",
@@ -3346,15 +3403,17 @@
     "UnitId": 390014,
     "UnitRealType": "DefenceCore",
     "FirstStateId": 3900141,
-    "StateIdList": {},
+    "StateIdList": [
+      3900141,
+      3900142,
+      3900143
+    ],
     "BattleRoleId": 39001,
     "Camp": "DefenceCore",
     "ModelId": 999,
-    "BloodUIParmas": [
-      {
-        "ActiveCommonUI": 1
-      }
-    ],
+    "BloodUIParmas": {
+      "ActiveCommonUI": 1
+    },
     "InteractiveId": 201,
     "UnitBPPath": "/Game/BluePrints/Item/DefenceCore/BP_DefenceMechanism_Pet.BP_DefenceMechanism_Pet",
     "GuideIconAni": "/Game/UI/UI_PC/World/ExploreToast/Explore_GuidePoint_PC.Explore_GuidePoint_PC",
@@ -3372,11 +3431,9 @@
     "BattleRoleId": 39002,
     "Camp": "Hostile",
     "ModelId": 999,
-    "BloodUIParmas": [
-      {
-        "ActiveCommonUI": 1
-      }
-    ],
+    "BloodUIParmas": {
+      "ActiveCommonUI": 1
+    },
     "UnitBPPath": "/Game/BluePrints/Item/CombatProp/BP_Laser_New.BP_Laser_New",
     "UnitParams": {
       "SkillEffect": 900001,
@@ -3442,65 +3499,72 @@
     "ModelId": 917,
     "UnitBPPath": "/Game/BluePrints/Item/CombatProp/BP_Pillar_Shijingzhe.BP_Pillar_ShiJingZhe",
     "UnitParams": {
-      "Scale": {}
+      "Scale": [
+        1.3,
+        1.3,
+        1.3
+      ]
     },
-    "AccessoryIds": [
-      {
-        "Random": [
-          700307,
-          700308,
-          700309,
-          700310,
-          700311
-        ]
-      },
-      {
-        "RandomNum": 3
-      }
-    ]
+    "AccessoryIds": {
+      "Random": [
+        700307,
+        700308,
+        700309,
+        700310,
+        700311
+      ],
+      "RandomNum": 3
+    }
   },
   "390121": {
     "UnitId": 390121,
     "UnitRealType": "Mechanism",
     "FirstStateId": 244,
-    "StateIdList": {},
+    "StateIdList": [
+      244,
+      245
+    ],
     "UnitBPPath": "/Game/BluePrints/Item/Trap/BP_JumpPad"
   },
   "390150": {
     "UnitId": 390150,
     "UnitRealType": "Mechanism",
     "FirstStateId": 3901500,
-    "StateIdList": {}
+    "StateIdList": [
+      3901500,
+      3901501,
+      3901502
+    ]
   },
   "390151": {
     "UnitId": 390151,
     "UnitRealType": "Mechanism",
     "FirstStateId": 3901510,
-    "StateIdList": {}
+    "StateIdList": [
+      3901510,
+      3901511,
+      3901512
+    ]
   },
   "390161": {
     "UnitId": 390161,
     "UnitRealType": "FieldTrap",
     "FirstStateId": 3901600,
-    "StateIdList": {},
+    "StateIdList": [
+      3901600,
+      3901603,
+      3901604
+    ],
     "BattleRoleId": 39016,
     "Camp": "Monster",
     "ModelId": 927,
     "UnitBPPath": "/Game/BluePrints/Item/AirWall/BP_TrapArea.BP_TrapArea",
-    "UnitParams": [
-      {
-        "SkillEffect": 900022
-      },
-      {
-        "AttackCD": 0.2
-      },
-      {
-        "MonEffect": 900021
-      },
-      {
-        "MonAttackCD": 0.2
-      }
-    ],
+    "UnitParams": {
+      "SkillEffect": 900022,
+      "AttackCD": 0.2,
+      "MonEffect": 900021,
+      "MonAttackCD": 0.2
+    },
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Guide_Point_Red.Guide_Icon_Guide_Point_Red",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_DefeatMission.T_Gp_DefeatMission",
     "FirstSeenTag": "TrapFire"
@@ -3509,25 +3573,21 @@
     "UnitId": 390162,
     "UnitRealType": "FieldTrap",
     "FirstStateId": 3901600,
-    "StateIdList": {},
+    "StateIdList": [
+      3901600,
+      3901605,
+      3901606
+    ],
     "BattleRoleId": 39016,
     "Camp": "Monster",
     "ModelId": 927,
     "UnitBPPath": "/Game/BluePrints/Item/AirWall/BP_TrapArea.BP_TrapArea",
-    "UnitParams": [
-      {
-        "SkillEffect": 900022
-      },
-      {
-        "AttackCD": 0.2
-      },
-      {
-        "MonEffect": 900021
-      },
-      {
-        "MonAttackCD": 0.2
-      }
-    ],
+    "UnitParams": {
+      "SkillEffect": 900022,
+      "AttackCD": 0.2,
+      "MonEffect": 900021,
+      "MonAttackCD": 0.2
+    },
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Guide_Point_Red.Guide_Icon_Guide_Point_Red",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_DefeatMission.T_Gp_DefeatMission",
     "FirstSeenTag": "TrapFire"
@@ -3734,7 +3794,13 @@
     "UnitId": 490059,
     "UnitRealType": "MiniGame",
     "FirstStateId": 542,
-    "StateIdList": {},
+    "StateIdList": [
+      542,
+      552,
+      562,
+      572,
+      582
+    ],
     "ModelId": 9141,
     "InteractiveId": 101,
     "UnitBPPath": "/Game/AssetDesign/Item/MiniGame/BP_MiniGame_NoSM.BP_MiniGame_NoSM",
@@ -3763,17 +3829,11 @@
     "ModelId": 9141,
     "InteractiveId": 101,
     "UnitBPPath": "/Game/AssetDesign/Item/MiniGame/BP_MiniGame.BP_MiniGame",
-    "UnitParams": [
-      {
-        "Difficulty": 2
-      },
-      {
-        "GameTime": 60
-      },
-      {
-        "MiniGameType": "ZhuanQuanQuan"
-      }
-    ],
+    "UnitParams": {
+      "Difficulty": 2,
+      "GameTime": 60,
+      "MiniGameType": "ZhuanQuanQuan"
+    },
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Guide_Point.Guide_Icon_Guide_Point",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_MainMission.T_Gp_MainMission",
     "GuideText": "UI_DUNGEON_GUIDE_MECHANISM",
@@ -3845,23 +3905,13 @@
     "ModelId": 9141,
     "InteractiveId": 101,
     "UnitBPPath": "/Game/AssetDesign/Item/MiniGame/BP_MiniGame.BP_MiniGame",
-    "UnitParams": [
-      {
-        "Difficulty": 2
-      },
-      {
-        "GameTime": 60
-      },
-      {
-        "MiniGameType": "ZhuanQuanQuan"
-      },
-      {
-        "ActiveStateId": 541
-      },
-      {
-        "FiniStateId": 581
-      }
-    ],
+    "UnitParams": {
+      "Difficulty": 2,
+      "GameTime": 60,
+      "MiniGameType": "ZhuanQuanQuan",
+      "ActiveStateId": 541,
+      "FiniStateId": 581
+    },
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Guide_Point.Guide_Icon_Guide_Point",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_MainMission.T_Gp_MainMission",
     "GuideText": "UI_DUNGEON_GUIDE_MECHANISM",
@@ -3934,17 +3984,11 @@
     "ModelId": 9141,
     "InteractiveId": 905,
     "UnitBPPath": "/Game/AssetDesign/Item/MiniGame/BP_MiniGame_Quarry.BP_MiniGame_Quarry",
-    "UnitParams": [
-      {
-        "Difficulty": 2
-      },
-      {
-        "GameTime": 60
-      },
-      {
-        "MiniGameType": "ZhuanQuanQuan"
-      }
-    ],
+    "UnitParams": {
+      "Difficulty": 2,
+      "GameTime": 60,
+      "MiniGameType": "ZhuanQuanQuan"
+    },
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Guide_Point.Guide_Icon_Guide_Point",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_MainMission.T_Gp_MainMission",
     "GuideText": "UI_DUNGEON_GUIDE_MECHANISM",
@@ -4015,14 +4059,10 @@
     "ModelId": 914,
     "InteractiveId": 101,
     "UnitBPPath": "/Game/AssetDesign/Item/MiniGame/BP_MiniGame_Quarry.BP_MiniGame_Quarry",
-    "UnitParams": [
-      {
-        "Difficulty": 0
-      },
-      {
-        "GameTime": 60
-      }
-    ],
+    "UnitParams": {
+      "Difficulty": 0,
+      "GameTime": 60
+    },
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Guide_Point.Guide_Icon_Guide_Point",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_MainMission.T_Gp_MainMission",
     "GuideType": 0
@@ -4031,18 +4071,18 @@
     "UnitId": 490071,
     "UnitRealType": "MiniGame",
     "FirstStateId": 4900710,
-    "StateIdList": {},
+    "StateIdList": [
+      4900710,
+      4900711,
+      4900712
+    ],
     "ModelId": 9141,
     "InteractiveId": 106,
     "UnitBPPath": "/Game/AssetDesign/Item/MiniGame/BP_MiniGame.BP_MiniGame",
-    "UnitParams": [
-      {
-        "Difficulty": 0
-      },
-      {
-        "GameTime": 60
-      }
-    ],
+    "UnitParams": {
+      "Difficulty": 0,
+      "GameTime": 60
+    },
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Guide_Point.Guide_Icon_Guide_Point",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_MainMission.T_Gp_MainMission",
     "GuideType": 0
@@ -4059,14 +4099,10 @@
     "ModelId": 914,
     "InteractiveId": 101,
     "UnitBPPath": "/Game/AssetDesign/Item/MiniGame/BP_MiniGame_Quarry.BP_MiniGame_Quarry",
-    "UnitParams": [
-      {
-        "Difficulty": 0
-      },
-      {
-        "GameTime": 60
-      }
-    ],
+    "UnitParams": {
+      "Difficulty": 0,
+      "GameTime": 60
+    },
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Guide_Point.Guide_Icon_Guide_Point",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_MainMission.T_Gp_MainMission",
     "GuideType": 0
@@ -4075,18 +4111,18 @@
     "UnitId": 490073,
     "UnitRealType": "MiniGame",
     "FirstStateId": 4900730,
-    "StateIdList": {},
+    "StateIdList": [
+      4900730,
+      4900731,
+      4900732
+    ],
     "ModelId": 914,
     "InteractiveId": 106,
     "UnitBPPath": "/Game/AssetDesign/Item/MiniGame/BP_MiniGame_Quarry.BP_MiniGame_Quarry",
-    "UnitParams": [
-      {
-        "Difficulty": 0
-      },
-      {
-        "GameTime": 60
-      }
-    ],
+    "UnitParams": {
+      "Difficulty": 0,
+      "GameTime": 60
+    },
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Guide_Point.Guide_Icon_Guide_Point",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_MainMission.T_Gp_MainMission",
     "GuideType": 0
@@ -4114,18 +4150,18 @@
     "UnitId": 490075,
     "UnitRealType": "MiniGame",
     "FirstStateId": 4900751,
-    "StateIdList": {},
+    "StateIdList": [
+      4900750,
+      4900751,
+      4900752
+    ],
     "ModelId": 9141,
     "InteractiveId": 101,
     "UnitBPPath": "/Game/AssetDesign/Item/MiniGame/BP_MiniGame.BP_MiniGame",
-    "UnitParams": [
-      {
-        "Difficulty": 0
-      },
-      {
-        "GameTime": 60
-      }
-    ],
+    "UnitParams": {
+      "Difficulty": 0,
+      "GameTime": 60
+    },
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Guide_Point.Guide_Icon_Guide_Point",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_MainMission.T_Gp_MainMission",
     "GuideType": 0
@@ -4134,15 +4170,18 @@
     "UnitId": 492001,
     "UnitRealType": "Trolly",
     "FirstStateId": 4920012,
-    "StateIdList": {},
+    "StateIdList": [
+      4920010,
+      4920011,
+      4920012,
+      4920013
+    ],
     "BattleRoleId": 39010,
     "Camp": "DefenceCore",
     "ModelId": 9241,
-    "BloodUIParmas": [
-      {
-        "ActiveCommonUI": 1
-      }
-    ],
+    "BloodUIParmas": {
+      "ActiveCommonUI": 1
+    },
     "UnitBPPath": "/Game/BluePrints/Item/DefenceCore/BP_Trolly_Fort.BP_Trolly_Fort",
     "UnitParams": {
       "ESAbsorbRatio": 0.01,
@@ -4154,7 +4193,10 @@
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Guide_Point.Guide_Icon_Guide_Point",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_MainMission.T_Gp_MainMission",
     "GuideType": 1,
-    "GuideInfo": {}
+    "GuideInfo": [
+      -500,
+      0
+    ]
   },
   "492031": {
     "UnitId": 492031,
@@ -4811,11 +4853,9 @@
     ],
     "InteractiveId": 10451,
     "UnitBPPath": "/Game/BluePrints/Item/Mechanism/BP_TalkMechanism.BP_TalkMechanism",
-    "UnitParams": [
-      {
-        "TalkTriggerId": 700151
-      }
-    ],
+    "UnitParams": {
+      "TalkTriggerId": 700151
+    },
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_Halo.T_Gp_Halo"
   },
   "1020152": {
@@ -4828,11 +4868,9 @@
     ],
     "InteractiveId": 10451,
     "UnitBPPath": "/Game/BluePrints/Item/Mechanism/BP_TalkMechanism.BP_TalkMechanism",
-    "UnitParams": [
-      {
-        "TalkTriggerId": 700151
-      }
-    ],
+    "UnitParams": {
+      "TalkTriggerId": 700151
+    },
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_Halo.T_Gp_Halo"
   },
   "1020153": {
@@ -4909,7 +4947,13 @@
     "UnitId": 1130105,
     "UnitRealType": "Mechanism",
     "FirstStateId": 904312,
-    "StateIdList": {},
+    "StateIdList": [
+      9043,
+      90430,
+      90431,
+      904311,
+      904312
+    ],
     "InteractiveId": 114,
     "UnitBPPath": "/Game/AssetDesign/Level/Prop/BP_Button_Won_HuaDian.BP_Button_Won_HuaDian"
   },
@@ -4917,7 +4961,13 @@
     "UnitId": 1130106,
     "UnitRealType": "Mechanism",
     "FirstStateId": 904332,
-    "StateIdList": {},
+    "StateIdList": [
+      9043,
+      90432,
+      90433,
+      904331,
+      904332
+    ],
     "InteractiveId": 115,
     "UnitBPPath": "/Game/AssetDesign/Level/Prop/BP_Button_Won_JiMu.BP_Button_Won_JiMu"
   },
@@ -4925,7 +4975,13 @@
     "UnitId": 1130107,
     "UnitRealType": "Mechanism",
     "FirstStateId": 904352,
-    "StateIdList": {},
+    "StateIdList": [
+      9043,
+      90434,
+      90435,
+      904351,
+      904352
+    ],
     "InteractiveId": 116,
     "UnitBPPath": "/Game/AssetDesign/Level/Prop/BP_Button_Won_BiLu.BP_Button_Won_BiLu"
   },
@@ -4933,7 +4989,13 @@
     "UnitId": 1130108,
     "UnitRealType": "Mechanism",
     "FirstStateId": 904372,
-    "StateIdList": {},
+    "StateIdList": [
+      9043,
+      90436,
+      90437,
+      904371,
+      904372
+    ],
     "InteractiveId": 117,
     "UnitBPPath": "/Game/AssetDesign/Level/Prop/BP_Button_Won_FuMu.BP_Button_Won_FuMu"
   },
@@ -4941,7 +5003,13 @@
     "UnitId": 1130109,
     "UnitRealType": "Mechanism",
     "FirstStateId": 904392,
-    "StateIdList": {},
+    "StateIdList": [
+      9043,
+      90438,
+      90439,
+      904391,
+      904392
+    ],
     "InteractiveId": 118,
     "UnitBPPath": "/Game/AssetDesign/Level/Prop/BP_Button_Won_HuaShu.BP_Button_Won_HuaShu"
   },
@@ -5025,23 +5093,13 @@
     "ModelId": 9142,
     "InteractiveId": 101,
     "UnitBPPath": "/Game/AssetDesign/Item/MiniGame/BP_MiniGame_Sew.BP_MiniGame_Sew",
-    "UnitParams": [
-      {
-        "Difficulty": 1
-      },
-      {
-        "GameTime": 60
-      },
-      {
-        "MiniGameType": "ShuiFa"
-      },
-      {
-        "ActiveStateId": 501
-      },
-      {
-        "FiniStateId": 500
-      }
-    ],
+    "UnitParams": {
+      "Difficulty": 1,
+      "GameTime": 60,
+      "MiniGameType": "ShuiFa",
+      "ActiveStateId": 501,
+      "FiniStateId": 500
+    },
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Guide_Point.Guide_Icon_Guide_Point",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_MainMission.T_Gp_MainMission",
     "GuideText": "UI_DUNGEON_GUIDE_MECHANISM",
@@ -5062,23 +5120,13 @@
     "ModelId": 9142,
     "InteractiveId": 101,
     "UnitBPPath": "/Game/AssetDesign/Item/MiniGame/BP_MiniGame_Sew.BP_MiniGame_Sew",
-    "UnitParams": [
-      {
-        "Difficulty": 2
-      },
-      {
-        "GameTime": 60
-      },
-      {
-        "MiniGameType": "ShuiFa"
-      },
-      {
-        "ActiveStateId": 501
-      },
-      {
-        "FiniStateId": 500
-      }
-    ],
+    "UnitParams": {
+      "Difficulty": 2,
+      "GameTime": 60,
+      "MiniGameType": "ShuiFa",
+      "ActiveStateId": 501,
+      "FiniStateId": 500
+    },
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Guide_Point.Guide_Icon_Guide_Point",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_MainMission.T_Gp_MainMission",
     "GuideText": "UI_DUNGEON_GUIDE_MECHANISM",
@@ -5126,23 +5174,13 @@
     "ModelId": 9142,
     "InteractiveId": 101,
     "UnitBPPath": "/Game/AssetDesign/Item/MiniGame/BP_MiniGame_Sew.BP_MiniGame_Sew",
-    "UnitParams": [
-      {
-        "Difficulty": 1
-      },
-      {
-        "GameTime": 60
-      },
-      {
-        "MiniGameType": "ShuiFa"
-      },
-      {
-        "ActiveStateId": 501
-      },
-      {
-        "FiniStateId": 500
-      }
-    ],
+    "UnitParams": {
+      "Difficulty": 1,
+      "GameTime": 60,
+      "MiniGameType": "ShuiFa",
+      "ActiveStateId": 501,
+      "FiniStateId": 500
+    },
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Guide_Point.Guide_Icon_Guide_Point",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_MainMission.T_Gp_MainMission",
     "GuideText": "UI_DUNGEON_GUIDE_MECHANISM",

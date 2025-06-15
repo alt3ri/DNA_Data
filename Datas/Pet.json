@@ -593,17 +593,19 @@
       0,
       7
     ],
-    "MiniGameCamOffset": {},
+    "MiniGameCamOffset": [
+      30,
+      -55,
+      10
+    ],
     "CaptureResetMode": 1,
     "DefenceCoreID": 390014,
     "BattleRoleId": 101,
     "ModelId": 10004011,
     "UnitBPPath": "/Game/BluePrints/Char/BP_PetNpc/BP_PetNPC_Common",
-    "InteractiveInfo": [
-      {
-        "PetNpcGame": 99999
-      }
-    ],
+    "InteractiveInfo": {
+      "PetNpcGame": 99999
+    },
     "GuideIconAni": "/Game/UI/UI_PC/World/ExploreToast/Explore_GuidePoint_PC.Explore_GuidePoint_PC",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_DynQuest.T_Gp_DynQuest"
   },
@@ -812,11 +814,9 @@
     "BattleRoleId": 101,
     "ModelId": 10004021,
     "UnitBPPath": "/Game/BluePrints/Char/BP_PetNpc/BP_PetNPC_Common",
-    "InteractiveInfo": [
-      {
-        "PetNpcGame": 99999
-      }
-    ],
+    "InteractiveInfo": {
+      "PetNpcGame": 99999
+    },
     "GuideIconAni": "/Game/UI/UI_PC/World/ExploreToast/Explore_GuidePoint_PC.Explore_GuidePoint_PC",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_DynQuest.T_Gp_DynQuest"
   },
@@ -1025,11 +1025,9 @@
     "BattleRoleId": 101,
     "ModelId": 10004031,
     "UnitBPPath": "/Game/BluePrints/Char/BP_PetNpc/BP_PetNPC_Common",
-    "InteractiveInfo": [
-      {
-        "PetNpcGame": 99999
-      }
-    ],
+    "InteractiveInfo": {
+      "PetNpcGame": 99999
+    },
     "GuideIconAni": "/Game/UI/UI_PC/World/ExploreToast/Explore_GuidePoint_PC.Explore_GuidePoint_PC",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_DynQuest.T_Gp_DynQuest"
   },
@@ -1238,11 +1236,9 @@
     "BattleRoleId": 101,
     "ModelId": 10004041,
     "UnitBPPath": "/Game/BluePrints/Char/BP_PetNpc/BP_PetNPC_Common",
-    "InteractiveInfo": [
-      {
-        "PetNpcGame": 99999
-      }
-    ],
+    "InteractiveInfo": {
+      "PetNpcGame": 99999
+    },
     "GuideIconAni": "/Game/UI/UI_PC/World/ExploreToast/Explore_GuidePoint_PC.Explore_GuidePoint_PC",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_DynQuest.T_Gp_DynQuest"
   },
@@ -1451,11 +1447,9 @@
     "BattleRoleId": 101,
     "ModelId": 10004051,
     "UnitBPPath": "/Game/BluePrints/Char/BP_PetNpc/BP_PetNPC_Common",
-    "InteractiveInfo": [
-      {
-        "PetNpcGame": 99999
-      }
-    ],
+    "InteractiveInfo": {
+      "PetNpcGame": 99999
+    },
     "GuideIconAni": "/Game/UI/UI_PC/World/ExploreToast/Explore_GuidePoint_PC.Explore_GuidePoint_PC",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_DynQuest.T_Gp_DynQuest"
   },
@@ -1664,11 +1658,9 @@
     "BattleRoleId": 101,
     "ModelId": 10004061,
     "UnitBPPath": "/Game/BluePrints/Char/BP_PetNpc/BP_PetNPC_Common",
-    "InteractiveInfo": [
-      {
-        "PetNpcGame": 99999
-      }
-    ],
+    "InteractiveInfo": {
+      "PetNpcGame": 99999
+    },
     "GuideIconAni": "/Game/UI/UI_PC/World/ExploreToast/Explore_GuidePoint_PC.Explore_GuidePoint_PC",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_DynQuest.T_Gp_DynQuest"
   },
@@ -1961,11 +1953,9 @@
     "BattleRoleId": 101,
     "ModelId": 10004911,
     "UnitBPPath": "/Game/BluePrints/Char/BP_PetNpc/BP_PetNPC_Common",
-    "InteractiveInfo": [
-      {
-        "PetNpcGame": 99999
-      }
-    ],
+    "InteractiveInfo": {
+      "PetNpcGame": 99999
+    },
     "GuideIconAni": "/Game/UI/UI_PC/World/ExploreToast/Explore_GuidePoint_PC.Explore_GuidePoint_PC",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_DynQuest.T_Gp_DynQuest"
   },
@@ -2174,11 +2164,9 @@
     "BattleRoleId": 101,
     "ModelId": 10004921,
     "UnitBPPath": "/Game/BluePrints/Char/BP_PetNpc/BP_PetNPC_Common",
-    "InteractiveInfo": [
-      {
-        "PetNpcGame": 99999
-      }
-    ],
+    "InteractiveInfo": {
+      "PetNpcGame": 99999
+    },
     "GuideIconAni": "/Game/UI/UI_PC/World/ExploreToast/Explore_GuidePoint_PC.Explore_GuidePoint_PC",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_DynQuest.T_Gp_DynQuest"
   }

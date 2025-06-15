@@ -3,21 +3,44 @@
     "SubRegionStart": 100101,
     "RegionStart": 1001,
     "SubRegionTarget": {
-      "RegionTarget": {}
+      "RegionTarget": [
+        [
+          100102,
+          "TargetPoint_Village_Connect",
+          1
+        ]
+      ]
     }
   },
   "100102": {
     "SubRegionStart": 100102,
     "RegionStart": 1001,
     "SubRegionTarget": {
-      "RegionTarget": {}
+      "RegionTarget": [
+        [
+          100101,
+          "TargetPoint_Balcony_Connect1",
+          1
+        ],
+        [
+          100103,
+          "TargetPoint_Balcony_Connect2",
+          0
+        ]
+      ]
     }
   },
   "100103": {
     "SubRegionStart": 100103,
     "RegionStart": 1001,
     "SubRegionTarget": {
-      "RegionTarget": {}
+      "RegionTarget": [
+        [
+          100102,
+          "TargetPoint_Cloud_Connect",
+          0
+        ]
+      ]
     }
   },
   "100104": {
@@ -28,105 +51,370 @@
     "SubRegionStart": 101101,
     "RegionStart": 1011,
     "SubRegionTarget": {
-      "RegionTarget": {}
+      "RegionTarget": [
+        [
+          101103,
+          "TargetPoint_IceLake",
+          0
+        ],
+        [
+          101107,
+          "TargetPoint_Tavern",
+          1
+        ],
+        [
+          101102,
+          "TargetPoint_TrafficWay_Connect",
+          0
+        ],
+        [
+          210101,
+          "TargetPoint_HomeBase",
+          1
+        ],
+        [
+          101105,
+          "TargetPoint_OutSiderHome",
+          1
+        ],
+        [
+          101106,
+          "TargetPoint_Sanatorium",
+          1
+        ],
+        [
+          101701,
+          "TargetPoint_Sewer",
+          1
+        ],
+        [
+          101304,
+          "TargetPoint_Kuangkeng",
+          1
+        ],
+        [
+          101301,
+          "TargetPoint_Kuangkeng",
+          1
+        ]
+      ]
     }
   },
   "101102": {
     "SubRegionStart": 101102,
     "RegionStart": 1011,
     "SubRegionTarget": {
-      "RegionTarget": {}
+      "RegionTarget": [
+        [
+          101101,
+          "TargetPoint_IcelakeCity_Connect",
+          0
+        ],
+        [
+          101103,
+          "TargetPoint_IceLake",
+          0
+        ],
+        [
+          101301,
+          "TargetPoint_Kuangkeng",
+          1
+        ],
+        [
+          101107,
+          "TargetPoint_Tavern",
+          1
+        ],
+        [
+          210101,
+          "TargetPoint_HomeBase",
+          1
+        ],
+        [
+          101105,
+          "TargetPoint_OutSiderHome",
+          1
+        ],
+        [
+          101106,
+          "TargetPoint_Sanatorium",
+          1
+        ],
+        [
+          101701,
+          "TargetPoint_Sewer",
+          1
+        ],
+        [
+          101304,
+          "TargetPoint_Kuangkeng",
+          1
+        ]
+      ]
     }
   },
   "101103": {
     "SubRegionStart": 101103,
     "RegionStart": 1011,
     "SubRegionTarget": {
-      "RegionTarget": {}
+      "RegionTarget": [
+        [
+          101101,
+          "TargetPoint_IceLake",
+          0
+        ],
+        [
+          101102,
+          "TargetPoint_IceLake_2_Trafficway",
+          0
+        ],
+        [
+          101301,
+          "TargetPoint_Kuangkeng",
+          1
+        ],
+        [
+          101107,
+          "TargetPoint_Tavern",
+          1
+        ],
+        [
+          210101,
+          "TargetPoint_HomeBase",
+          1
+        ],
+        [
+          101105,
+          "TargetPoint_OutSiderHome",
+          1
+        ],
+        [
+          101106,
+          "TargetPoint_Sanatorium",
+          1
+        ],
+        [
+          101701,
+          "TargetPoint_Sewer",
+          1
+        ],
+        [
+          101304,
+          "TargetPoint_Kuangkeng",
+          1
+        ]
+      ]
     }
   },
   "101105": {
     "SubRegionStart": 101105,
     "RegionStart": 1011,
     "SubRegionTarget": {
-      "RegionTarget": {}
+      "RegionTarget": [
+        [
+          101101,
+          "TargetPoint_LeaveOutsidersHome",
+          1
+        ]
+      ]
     }
   },
   "101106": {
     "SubRegionStart": 101106,
     "RegionStart": 1011,
     "SubRegionTarget": {
-      "RegionTarget": {}
+      "RegionTarget": [
+        [
+          101101,
+          "TargetPoint_LeaveSanatorium",
+          1
+        ]
+      ]
     }
   },
   "101107": {
     "SubRegionStart": 101107,
     "RegionStart": 1011,
     "SubRegionTarget": {
-      "RegionTarget": {}
+      "RegionTarget": [
+        [
+          101101,
+          "TargetPoint_LeaveTavern",
+          1
+        ]
+      ]
     }
   },
   "101301": {
     "SubRegionStart": 101301,
     "RegionStart": 1011,
     "SubRegionTarget": {
-      "RegionTarget": {}
+      "RegionTarget": [
+        [
+          101305,
+          "TargetPoint_Enter_2_Connector3",
+          0
+        ],
+        [
+          101102,
+          "TargetPoint_Enter_2_TrafficWay",
+          1
+        ],
+        [
+          101304,
+          "TargetPoint_Enter_2_Connector3",
+          0
+        ]
+      ]
     }
   },
   "101303": {
     "SubRegionStart": 101303,
     "RegionStart": 1011,
     "SubRegionTarget": {
-      "RegionTarget": {}
+      "RegionTarget": [
+        [
+          101304,
+          "TargetPoint_Road6_2_Shijingzhe",
+          0
+        ],
+        [
+          101305,
+          "TargetPoint_Connector3_2_Road6",
+          0
+        ],
+        [
+          101102,
+          "TargetPoint_Enter_2_TrafficWay",
+          1
+        ]
+      ]
     }
   },
   "101304": {
     "SubRegionStart": 101304,
     "RegionStart": 1011,
     "SubRegionTarget": {
-      "RegionTarget": {}
+      "RegionTarget": [
+        [
+          101303,
+          "TargetPoint_Road6_2_Shijingzhe",
+          0
+        ],
+        [
+          101102,
+          "TargetPoint_Enter_2_TrafficWay",
+          1
+        ]
+      ]
     }
   },
   "101305": {
     "SubRegionStart": 101305,
     "RegionStart": 1011,
     "SubRegionTarget": {
-      "RegionTarget": {}
+      "RegionTarget": [
+        [
+          101303,
+          "TargetPoint_Connector3_2_Road6",
+          0
+        ],
+        [
+          101301,
+          "TargetPoint_Enter_2_Connector3",
+          0
+        ],
+        [
+          101102,
+          "TargetPoint_Enter_2_TrafficWay",
+          1
+        ],
+        [
+          101304,
+          "TargetPoint_Connector3_2_Road6",
+          0
+        ]
+      ]
     }
   },
   "101701": {
     "SubRegionStart": 101701,
     "RegionStart": 1011,
     "SubRegionTarget": {
-      "RegionTarget": {}
+      "RegionTarget": [
+        [
+          101702,
+          "Sew_Connecter02",
+          1
+        ],
+        [
+          101101,
+          "TargetPoint_Sew1_2_IcelakeCity",
+          1
+        ]
+      ]
     }
   },
   "101702": {
     "SubRegionStart": 101702,
     "RegionStart": 1011,
     "SubRegionTarget": {
-      "RegionTarget": {}
+      "RegionTarget": [
+        [
+          101701,
+          "Sew_Connecter01",
+          1
+        ],
+        [
+          101101,
+          "TargetPoint_Sew2_2_IcelakeCity",
+          1
+        ]
+      ]
     }
   },
   "102101": {
     "SubRegionStart": 102101,
     "RegionStart": 1021,
     "SubRegionTarget": {
-      "RegionTarget": {}
+      "RegionTarget": [
+        [
+          102102,
+          "FortConnect",
+          0
+        ]
+      ]
     }
   },
   "102102": {
     "SubRegionStart": 102102,
     "RegionStart": 1021,
     "SubRegionTarget": {
-      "RegionTarget": {}
+      "RegionTarget": [
+        [
+          102101,
+          "FortConnect",
+          0
+        ]
+      ]
     }
   },
   "210101": {
     "SubRegionStart": 210101,
     "RegionStart": 1011,
     "SubRegionTarget": {
-      "RegionTarget": {}
+      "RegionTarget": [
+        [
+          101101,
+          "TargetPoint_LeaveHomeBase",
+          1
+        ],
+        [
+          100104,
+          "QuestPoint_EX01",
+          1
+        ]
+      ]
     }
   }
 }

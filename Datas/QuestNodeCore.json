@@ -16,7 +16,9 @@
   "ForbidWeaponByWeaponTagNode": {
     "NodeType": "ForbidWeaponByWeaponTagNode",
     "TestArgs": {
-      "WeaponTags": {}
+      "WeaponTags": [
+        "Melee"
+      ]
     }
   }
 }

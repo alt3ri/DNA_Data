@@ -95,17 +95,11 @@
       "hit1",
       "hit2"
     ],
-    "MoveParameters": [
-      {
-        "HitFlyMinTime": 0
-      },
-      {
-        "TurnIPMinAngle": 30
-      },
-      {
-        "TurnIP180Threshold": 90
-      }
-    ],
+    "MoveParameters": {
+      "HitFlyMinTime": 0,
+      "TurnIPMinAngle": 30,
+      "TurnIP180Threshold": 90
+    },
     "BehaviorMontageGroupId": 7003
   },
   "115": {
@@ -126,17 +120,11 @@
       "hit1",
       "hit2"
     ],
-    "MoveParameters": [
-      {
-        "HitFlyMinTime": 0
-      },
-      {
-        "TurnIPMinAngle": 30
-      },
-      {
-        "TurnIP180Threshold": 90
-      }
-    ],
+    "MoveParameters": {
+      "HitFlyMinTime": 0,
+      "TurnIPMinAngle": 30,
+      "TurnIP180Threshold": 90
+    },
     "BehaviorMontageGroupId": 7003
   },
   "116": {
@@ -155,17 +143,11 @@
     "AssistSockets": [
       "hit1"
     ],
-    "MoveParameters": [
-      {
-        "HitFlyMinTime": 0
-      },
-      {
-        "TurnIPMinAngle": 30
-      },
-      {
-        "TurnIP180Threshold": 90
-      }
-    ],
+    "MoveParameters": {
+      "HitFlyMinTime": 0,
+      "TurnIPMinAngle": 30,
+      "TurnIP180Threshold": 90
+    },
     "BehaviorMontageGroupId": 7001
   },
   "201": {
@@ -430,7 +412,11 @@
     "RunStopStartTime": 0.23,
     "WeaponScale": 1,
     "HeadScale": 0.96,
-    "UnbindSocketOffset": {},
+    "UnbindSocketOffset": [
+      0,
+      0,
+      0
+    ],
     "FootType": "heeledMid"
   },
   "1102": {
@@ -488,7 +474,10 @@
   "2101": {
     "ModelId": 2101,
     "CloakMeshPath": "Asset/Char/Player/Char005_Shuimu/Mesh/Shuimu_Cloak_SM.Shuimu_Cloak_SM",
-    "KawaiiIdList": {},
+    "KawaiiIdList": [
+      1004,
+      1005
+    ],
     "SkeletonMeshPath": "Asset/Char/Player/Char005_Shuimu/Mesh/Shuimu_SM.Shuimu_SM",
     "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Player/Shuimu/ABP_Shuimu.ABP_Shuimu_C'",
     "MontageFolder": "/Game/Asset/Char/Player/Char005_Shuimu/Animation/Montage/",
@@ -658,7 +647,10 @@
   "3201": {
     "ModelId": 3201,
     "CloakMeshPath": "Asset/Char/Player/Char006_Haier/Mesh/Haier_Cloak_SM.Haier_Cloak_SM",
-    "KawaiiIdList": {},
+    "KawaiiIdList": [
+      1006,
+      1007
+    ],
     "SkeletonMeshPath": "Asset/Char/Player/Char006_Haier/Mesh/Haier_SM.Haier_SM",
     "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Player/Haier/ABP_Haier.ABP_Haier_C'",
     "MontageFolder": "/Game/Asset/Char/Player/Char006_Haier/Animation/Montage/",
@@ -1899,7 +1891,9 @@
     "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Monster/Gr_Jichong/ABP_Mon_Gr_Jichong.ABP_Mon_Gr_Jichong_C'",
     "MontageFolder": "/Game/Asset/Char/Monster/GR_Jichong/Animation/Montage/",
     "MontagePrefix": "GR_Jichong_",
-    "BehaviorMontageGroupIdList": {},
+    "BehaviorMontageGroupIdList": [
+      6001
+    ],
     "HitMontageRule": "MonDefault",
     "DamageFXSockets": [
       "hit1"
@@ -1916,7 +1910,9 @@
     "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Monster/Gr_Youji/ABP_Mon_GR_Youji.ABP_Mon_GR_Youji_C'",
     "MontageFolder": "/Game/Asset/Char/Monster/GR_Youji/Animation/Montage/",
     "MontagePrefix": "GR_Youji_",
-    "BehaviorMontageGroupIdList": {},
+    "BehaviorMontageGroupIdList": [
+      6002
+    ],
     "HitMontageRule": "MonDefault",
     "DamageFXSockets": [
       "hit1"
@@ -1924,11 +1920,9 @@
     "AssistSockets": [
       "hit1"
     ],
-    "MoveParameters": [
-      {
-        "HitFlyMinTime": 0
-      }
-    ],
+    "MoveParameters": {
+      "HitFlyMinTime": 0
+    },
     "BehaviorMontageGroupId": 6002,
     "EffectShape": "Human_S"
   },
@@ -1942,7 +1936,9 @@
     "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Monster/Gr_Piaofu/ABP_Mon_Gr_Piaofu.ABP_Mon_Gr_Piaofu_C'",
     "MontageFolder": "/Game/Asset/Char/Monster/GR_Piaofu/Animation/Montage/",
     "MontagePrefix": "GR_Piaofu_",
-    "BehaviorMontageGroupIdList": {},
+    "BehaviorMontageGroupIdList": [
+      6003
+    ],
     "HitMontageRule": "MonDefault",
     "DamageFXSockets": [
       "hit1",
@@ -1960,7 +1956,9 @@
     "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Monster/Gr_Baotu/ABP_Mon_Gr_Baotu.ABP_Mon_Gr_Baotu_C'",
     "MontageFolder": "/Game/Asset/Char/Monster/GR_Baotu/Animation/Montage/",
     "MontagePrefix": "GR_Baotu_",
-    "BehaviorMontageGroupIdList": {},
+    "BehaviorMontageGroupIdList": [
+      6004
+    ],
     "HitMontageRule": "MonNoRagdoll",
     "DamageFXSockets": [
       "hit1"
@@ -1978,7 +1976,9 @@
     "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Monster/Gr_Longcao/ABP_Mon_Gr_Longcao.ABP_Mon_Gr_Longcao_C'",
     "MontageFolder": "/Game/Asset/Char/Monster/GR_Longcao/Animation/Montage/",
     "MontagePrefix": "GR_Longcao_",
-    "BehaviorMontageGroupIdList": {},
+    "BehaviorMontageGroupIdList": [
+      6005
+    ],
     "HitMontageRule": "MonGRLongcao",
     "DamageFXSockets": [
       "hit1"
@@ -2009,17 +2009,11 @@
     "AssistSockets": [
       "hit1"
     ],
-    "MoveParameters": [
-      {
-        "HitFlyMinTime": 0
-      },
-      {
-        "TurnIPMinAngle": 30
-      },
-      {
-        "TurnIP180Threshold": 90
-      }
-    ],
+    "MoveParameters": {
+      "HitFlyMinTime": 0,
+      "TurnIPMinAngle": 30,
+      "TurnIP180Threshold": 90
+    },
     "BehaviorMontageGroupId": 7001,
     "EffectShape": "Human_S"
   },
@@ -2033,7 +2027,9 @@
     "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Monster/Jt_Pizhuo/ABP_Mon_Jt_Pizhuo.ABP_Mon_Jt_Pizhuo_C'",
     "MontageFolder": "/Game/Asset/Char/Monster/JT_Pizhuo/Animation/Montage/",
     "MontagePrefix": "JT_Pizhuo_",
-    "BehaviorMontageGroupIdList": {},
+    "BehaviorMontageGroupIdList": [
+      7002
+    ],
     "HitMontageRule": "MonDefault",
     "DamageFXSockets": [
       "hit1"
@@ -2041,11 +2037,9 @@
     "AssistSockets": [
       "hit1"
     ],
-    "MoveParameters": [
-      {
-        "HitFlyMinTime": 0
-      }
-    ],
+    "MoveParameters": {
+      "HitFlyMinTime": 0
+    },
     "BehaviorMontageGroupId": 7002,
     "EffectShape": "Human_M"
   },
@@ -2059,7 +2053,9 @@
     "AnimInstancePath": "AnimBlueprint'/Game/AssetDesign/Char/Monster/Jt_Pizhuo/ABP_Mon_Jt_Pizhuo.ABP_Mon_Jt_Pizhuo_C'",
     "MontageFolder": "/Game/Asset/Char/Monster/JT_Pizhuo/Animation/Montage/",
     "MontagePrefix": "JT_Pizhuo_",
-    "BehaviorMontageGroupIdList": {},
+    "BehaviorMontageGroupIdList": [
+      115
+    ],
     "HitMontageRule": "MonDefault",
     "DamageFXSockets": [
       "hit1"
@@ -2067,11 +2063,9 @@
     "AssistSockets": [
       "hit1"
     ],
-    "MoveParameters": [
-      {
-        "HitFlyMinTime": 0
-      }
-    ],
+    "MoveParameters": {
+      "HitFlyMinTime": 0
+    },
     "BehaviorMontageGroupId": 7002
   },
   "700301": {
@@ -2092,17 +2086,11 @@
       "hit1",
       "hit2"
     ],
-    "MoveParameters": [
-      {
-        "HitFlyMinTime": 0
-      },
-      {
-        "TurnIPMinAngle": 30
-      },
-      {
-        "TurnIP180Threshold": 90
-      }
-    ],
+    "MoveParameters": {
+      "HitFlyMinTime": 0,
+      "TurnIPMinAngle": 30,
+      "TurnIP180Threshold": 90
+    },
     "BehaviorMontageGroupId": 7003,
     "FootIKHeight": 10,
     "EffectShape": "Human_M"
@@ -2127,17 +2115,11 @@
     "AssistSockets": [
       "hit1"
     ],
-    "MoveParameters": [
-      {
-        "HitFlyMinTime": 0
-      },
-      {
-        "TurnIPMinAngle": 30
-      },
-      {
-        "TurnIP180Threshold": 90
-      }
-    ],
+    "MoveParameters": {
+      "HitFlyMinTime": 0,
+      "TurnIPMinAngle": 30,
+      "TurnIP180Threshold": 90
+    },
     "BehaviorMontageGroupId": 7004,
     "EffectShape": "Human_M"
   },
@@ -2169,17 +2151,11 @@
     "AssistSockets": [
       "hit1"
     ],
-    "MoveParameters": [
-      {
-        "HitFlyMinTime": 0
-      },
-      {
-        "TurnIPMinAngle": 30
-      },
-      {
-        "TurnIP180Threshold": 90
-      }
-    ],
+    "MoveParameters": {
+      "HitFlyMinTime": 0,
+      "TurnIPMinAngle": 30,
+      "TurnIP180Threshold": 90
+    },
     "BehaviorMontageGroupId": 7004,
     "EffectShape": "Human_M"
   },
@@ -2242,17 +2218,11 @@
       "hit1",
       "hit2"
     ],
-    "MoveParameters": [
-      {
-        "HitFlyMinTime": 0
-      },
-      {
-        "TurnIPMinAngle": 30
-      },
-      {
-        "TurnIP180Threshold": 90
-      }
-    ],
+    "MoveParameters": {
+      "HitFlyMinTime": 0,
+      "TurnIPMinAngle": 30,
+      "TurnIP180Threshold": 90
+    },
     "ModelScale": 1.2
   },
   "700802": {
@@ -2286,17 +2256,11 @@
       "hit1",
       "hit2"
     ],
-    "MoveParameters": [
-      {
-        "HitFlyMinTime": 0
-      },
-      {
-        "TurnIPMinAngle": 30
-      },
-      {
-        "TurnIP180Threshold": 90
-      }
-    ]
+    "MoveParameters": {
+      "HitFlyMinTime": 0,
+      "TurnIPMinAngle": 30,
+      "TurnIP180Threshold": 90
+    }
   },
   "800102": {
     "ModelId": 800102,
@@ -2317,11 +2281,9 @@
       "hit1",
       "hit2"
     ],
-    "MoveParameters": [
-      {
-        "HitFlyMinTime": 0
-      }
-    ]
+    "MoveParameters": {
+      "HitFlyMinTime": 0
+    }
   },
   "800202": {
     "ModelId": 800202,
@@ -2342,11 +2304,9 @@
       "hit1",
       "hit2"
     ],
-    "MoveParameters": [
-      {
-        "HitFlyMinTime": 0
-      }
-    ]
+    "MoveParameters": {
+      "HitFlyMinTime": 0
+    }
   },
   "800302": {
     "ModelId": 800302,
@@ -2365,23 +2325,17 @@
     "AssistSockets": [
       "hit1"
     ],
-    "MoveParameters": [
-      {
-        "HitFlyMinTime": 0.63
-      }
-    ],
-    "CondemnBoneName": [
-      {
-        "CondemnSocket": "Root"
-      },
-      {
-        "LocationOffset": [
-          40,
-          0,
-          0
-        ]
-      }
-    ]
+    "MoveParameters": {
+      "HitFlyMinTime": 0.63
+    },
+    "CondemnBoneName": {
+      "CondemnSocket": "Root",
+      "LocationOffset": [
+        40,
+        0,
+        0
+      ]
+    }
   },
   "850002": {
     "ModelId": 850002,
@@ -2400,14 +2354,16 @@
     "AssistSockets": [
       "hit1"
     ],
-    "MoveParameters": [
-      {
-        "HitFlyMinTime": 0.63
-      }
-    ],
+    "MoveParameters": {
+      "HitFlyMinTime": 0.63
+    },
     "CondemnBoneName": {
       "CondemnSocket": "Root",
-      "LocationOffset": {}
+      "LocationOffset": [
+        240,
+        100,
+        0
+      ]
     }
   },
   "850102": {
@@ -2423,23 +2379,17 @@
     "AssistSockets": [
       "hit1"
     ],
-    "MoveParameters": [
-      {
-        "HitFlyMinTime": 0.63
-      }
-    ],
-    "CondemnBoneName": [
-      {
-        "CondemnSocket": "Root"
-      },
-      {
-        "LocationOffset": [
-          40,
-          0,
-          0
-        ]
-      }
-    ],
+    "MoveParameters": {
+      "HitFlyMinTime": 0.63
+    },
+    "CondemnBoneName": {
+      "CondemnSocket": "Root",
+      "LocationOffset": [
+        40,
+        0,
+        0
+      ]
+    },
     "ModelScale": 0.8
   },
   "850201": {
@@ -2449,25 +2399,27 @@
     "MontageFolder": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/",
     "MontagePrefix": "Boss_Saiqi_",
     "HitMontageRule": "BossSaiqi",
-    "DamageFXSockets": {},
-    "AssistSockets": {},
-    "MoveParameters": [
-      {
-        "HitFlyMinTime": 0.63
-      }
+    "DamageFXSockets": [
+      "hit2"
     ],
-    "CondemnBoneName": [
-      {
-        "CondemnSocket": "Root"
-      },
-      {
-        "LocationOffset": [
-          80,
-          0,
-          0
-        ]
-      }
-    ]
+    "AssistSockets": [
+      "spine_01",
+      "wing_left01_e2",
+      "wing_left01_e3",
+      "wing_right01_e3",
+      "wing_right01_e2"
+    ],
+    "MoveParameters": {
+      "HitFlyMinTime": 0.63
+    },
+    "CondemnBoneName": {
+      "CondemnSocket": "Root",
+      "LocationOffset": [
+        80,
+        0,
+        0
+      ]
+    }
   },
   "850202": {
     "ModelId": 850202,
@@ -2498,11 +2450,19 @@
     },
     "CondemnBoneName": {
       "CondemnSocket": "Head",
-      "LocationOffset": {}
+      "LocationOffset": [
+        120,
+        97,
+        -100
+      ]
     },
     "PenalizeParam": {
       "PenalizeSocket": "tongue_01_c",
-      "PenalizeOffset": {}
+      "PenalizeOffset": [
+        0,
+        0,
+        150
+      ]
     },
     "PenalizeEffect": 850314
   },
@@ -2523,23 +2483,17 @@
     "AssistSockets": [
       "hit1"
     ],
-    "MoveParameters": [
-      {
-        "HitFlyMinTime": 0.63
-      }
-    ],
-    "CondemnBoneName": [
-      {
-        "CondemnSocket": "Root"
-      },
-      {
-        "LocationOffset": [
-          80,
-          0,
-          0
-        ]
-      }
-    ]
+    "MoveParameters": {
+      "HitFlyMinTime": 0.63
+    },
+    "CondemnBoneName": {
+      "CondemnSocket": "Root",
+      "LocationOffset": [
+        80,
+        0,
+        0
+      ]
+    }
   },
   "850402": {
     "ModelId": 850402,
@@ -2558,23 +2512,17 @@
     "AssistSockets": [
       "hit1"
     ],
-    "MoveParameters": [
-      {
-        "HitFlyMinTime": 0.63
-      }
-    ],
-    "CondemnBoneName": [
-      {
-        "CondemnSocket": "Root"
-      },
-      {
-        "LocationOffset": [
-          80,
-          0,
-          0
-        ]
-      }
-    ],
+    "MoveParameters": {
+      "HitFlyMinTime": 0.63
+    },
+    "CondemnBoneName": {
+      "CondemnSocket": "Root",
+      "LocationOffset": [
+        80,
+        0,
+        0
+      ]
+    },
     "ModelScale": 2.1
   },
   "850501": {
@@ -2590,18 +2538,24 @@
     "AssistSockets": [
       "hit1"
     ],
-    "MoveParameters": [
-      {
-        "HitFlyMinTime": 0.63
-      }
-    ],
+    "MoveParameters": {
+      "HitFlyMinTime": 0.63
+    },
     "CondemnBoneName": {
       "CondemnSocket": "Root",
-      "LocationOffset": {}
+      "LocationOffset": [
+        100,
+        40,
+        0
+      ]
     },
     "PenalizeParam": {
       "PenalizeSocket": "head",
-      "PenalizeOffset": {}
+      "PenalizeOffset": [
+        0,
+        0,
+        110
+      ]
     }
   },
   "850502": {
@@ -2622,23 +2576,17 @@
     "AssistSockets": [
       "hit1"
     ],
-    "MoveParameters": [
-      {
-        "HitFlyMinTime": 0.63
-      }
-    ],
-    "CondemnBoneName": [
-      {
-        "CondemnSocket": "Root"
-      },
-      {
-        "LocationOffset": [
-          40,
-          0,
-          0
-        ]
-      }
-    ]
+    "MoveParameters": {
+      "HitFlyMinTime": 0.63
+    },
+    "CondemnBoneName": {
+      "CondemnSocket": "Root",
+      "LocationOffset": [
+        40,
+        0,
+        0
+      ]
+    }
   },
   "850701": {
     "ModelId": 850701,
@@ -2654,23 +2602,17 @@
     "AssistSockets": [
       "hit1"
     ],
-    "MoveParameters": [
-      {
-        "HitFlyMinTime": 0.63
-      }
-    ],
-    "CondemnBoneName": [
-      {
-        "CondemnSocket": "Root"
-      },
-      {
-        "LocationOffset": [
-          40,
-          0,
-          0
-        ]
-      }
-    ]
+    "MoveParameters": {
+      "HitFlyMinTime": 0.63
+    },
+    "CondemnBoneName": {
+      "CondemnSocket": "Root",
+      "LocationOffset": [
+        40,
+        0,
+        0
+      ]
+    }
   },
   "850702": {
     "ModelId": 850702,

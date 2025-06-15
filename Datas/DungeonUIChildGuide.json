@@ -4,14 +4,10 @@
     "GuideType": "ImageText",
     "GuideTitle": "TARGET_DUNGEON_100",
     "GuideInfo1": {
-      "GuidePicture": [
-        {
-          "PC": "Texture2D'/Game/UI/UI_PNG/Image/Guide/Guide_Image/Level/Guide_Img_Survival01_Step_1.Guide_Img_Survival01_Step_1"
-        },
-        {
-          "Phone": "Texture2D'/Game/UI/UI_PNG/Image/Guide/Guide_Image/Level/Guide_Img_Survival01_Step_1.Guide_Img_Survival01_Step_1"
-        }
-      ],
+      "GuidePicture": {
+        "PC": "Texture2D'/Game/UI/UI_PNG/Image/Guide/Guide_Image/Level/Guide_Img_Survival01_Step_1.Guide_Img_Survival01_Step_1'",
+        "Phone": "Texture2D'/Game/UI/UI_PNG/Image/Guide/Guide_Image/Level/Guide_Img_Survival01_Step_1.Guide_Img_Survival01_Step_1'"
+      },
       "GuideContent": {
         "PC": "DUNGEON_SURVIVALPRO_114",
         "Phone": "DUNGEON_SURVIVALPRO_114"
@@ -52,34 +48,26 @@
     "ChildGuideId": 100104,
     "GuideType": "ImageText",
     "GuideTitle": "TARGET_DUNGEON_100",
-    "GuideInfo1": [
-      {
-        "GuidePicture": [
-          "PC = \"Texture2D'/Game/UI/UI_PNG/Image/Guide/Guide_Image/Level/Guide_Img_Survival01_Step_4.Guide_Img_Survival01_Step_4'",
-          "Phone = \"Texture2D'/Game/UI/UI_PNG/Image/Guide/Guide_Image/Level/Guide_Img_Survival01_Step_4.Guide_Img_Survival01_Step_4'"
-        ]
+    "GuideInfo1": {
+      "GuidePicture": {
+        "PC": "Texture2D'/Game/UI/UI_PNG/Image/Guide/Guide_Image/Level/Guide_Img_Survival01_Step_4.Guide_Img_Survival01_Step_4'",
+        "Phone": "Texture2D'/Game/UI/UI_PNG/Image/Guide/Guide_Image/Level/Guide_Img_Survival01_Step_4.Guide_Img_Survival01_Step_4'"
       },
-      {
-        "GuideContent": [
-          "PC = \"DUNGEON_SURVIVALPRO_117",
-          "Phone = \"DUNGEON_SURVIVALPRO_117"
-        ]
+      "GuideContent": {
+        "PC": "DUNGEON_SURVIVALPRO_117",
+        "Phone": "DUNGEON_SURVIVALPRO_117"
       }
-    ]
+    }
   },
   "100201": {
     "ChildGuideId": 100201,
     "GuideType": "ImageText",
     "GuideTitle": "TARGET_DUNGEON_105",
     "GuideInfo1": {
-      "GuidePicture": [
-        {
-          "PC": "Texture2D'/Game/UI/UI_PNG/Image/Guide/Guide_Image/Level/Guide_Img_Survival01_Step_1.Guide_Img_Survival01_Step_1"
-        },
-        {
-          "Phone": "Texture2D'/Game/UI/UI_PNG/Image/Guide/Guide_Image/Level/Guide_Img_Survival01_Step_1.Guide_Img_Survival01_Step_1"
-        }
-      ],
+      "GuidePicture": {
+        "PC": "Texture2D'/Game/UI/UI_PNG/Image/Guide/Guide_Image/Level/Guide_Img_Survival01_Step_1.Guide_Img_Survival01_Step_1'",
+        "Phone": "Texture2D'/Game/UI/UI_PNG/Image/Guide/Guide_Image/Level/Guide_Img_Survival01_Step_1.Guide_Img_Survival01_Step_1'"
+      },
       "GuideContent": {
         "PC": "DUNGEON_SURVIVALPRO_118",
         "Phone": "DUNGEON_SURVIVALPRO_118"
@@ -135,20 +123,16 @@
     "ChildGuideId": 100205,
     "GuideType": "ImageText",
     "GuideTitle": "TARGET_DUNGEON_105",
-    "GuideInfo1": [
-      {
-        "GuidePicture": [
-          "PC = \"Texture2D'/Game/UI/UI_PNG/Image/Guide/Guide_Image/Level/Guide_Img_Survival01_Step_4.Guide_Img_Survival01_Step_4'",
-          "Phone = \"Texture2D'/Game/UI/UI_PNG/Image/Guide/Guide_Image/Level/Guide_Img_Survival01_Step_4.Guide_Img_Survival01_Step_4'"
-        ]
+    "GuideInfo1": {
+      "GuidePicture": {
+        "PC": "Texture2D'/Game/UI/UI_PNG/Image/Guide/Guide_Image/Level/Guide_Img_Survival01_Step_4.Guide_Img_Survival01_Step_4'",
+        "Phone": "Texture2D'/Game/UI/UI_PNG/Image/Guide/Guide_Image/Level/Guide_Img_Survival01_Step_4.Guide_Img_Survival01_Step_4'"
       },
-      {
-        "GuideContent": [
-          "PC = \"DUNGEON_SURVIVALPRO_117",
-          "Phone = \"DUNGEON_SURVIVALPRO_117"
-        ]
+      "GuideContent": {
+        "PC": "DUNGEON_SURVIVALPRO_117",
+        "Phone": "DUNGEON_SURVIVALPRO_117"
       }
-    ]
+    }
   },
   "100301": {
     "ChildGuideId": 100301,
@@ -260,14 +244,10 @@
     "GuideType": "ImageText",
     "GuideTitle": "DUNGEON_EXCAVATION_100",
     "GuideInfo1": {
-      "GuidePicture": [
-        {
-          "PC": "Texture2D'/Game/UI/UI_PNG/Image/Guide/Guide_Image/Level/Guide_Img_Explore_Step_1.Guide_Img_Explore_Step_1"
-        },
-        {
-          "Phone": "Texture2D'/Game/UI/UI_PNG/Image/Guide/Guide_Image/Level/Guide_Img_Explore_Step_1.Guide_Img_Explore_Step_1"
-        }
-      ],
+      "GuidePicture": {
+        "PC": "Texture2D'/Game/UI/UI_PNG/Image/Guide/Guide_Image/Level/Guide_Img_Explore_Step_1.Guide_Img_Explore_Step_1'",
+        "Phone": "Texture2D'/Game/UI/UI_PNG/Image/Guide/Guide_Image/Level/Guide_Img_Explore_Step_1.Guide_Img_Explore_Step_1'"
+      },
       "GuideContent": {
         "PC": "TARGET_DUNGEON_EXCAVATION_104",
         "Phone": "TARGET_DUNGEON_EXCAVATION_104"
@@ -354,14 +334,10 @@
     "GuideType": "ImageText",
     "GuideTitle": "UI_DUNGEON_TYPE_SABOTAGE",
     "GuideInfo1": {
-      "GuidePicture": [
-        {
-          "PC": "Texture2D'/Game/UI/UI_PNG/Image/Guide/Guide_Image/Level/Guide_Img_Explore_Step_1.Guide_Img_Explore_Step_1"
-        },
-        {
-          "Phone": "Texture2D'/Game/UI/UI_PNG/Image/Guide/Guide_Image/Level/Guide_Img_Explore_Step_1.Guide_Img_Explore_Step_1"
-        }
-      ],
+      "GuidePicture": {
+        "PC": "Texture2D'/Game/UI/UI_PNG/Image/Guide/Guide_Image/Level/Guide_Img_Explore_Step_1.Guide_Img_Explore_Step_1'",
+        "Phone": "Texture2D'/Game/UI/UI_PNG/Image/Guide/Guide_Image/Level/Guide_Img_Explore_Step_1.Guide_Img_Explore_Step_1'"
+      },
       "GuideContent": {
         "PC": "DUNGEON_SABOTAGE_110",
         "Phone": "DUNGEON_SABOTAGE_110"

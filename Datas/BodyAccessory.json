@@ -22,17 +22,11 @@
       30,
       330
     ],
-    "Speed": [
-      {
-        "Normal": 500
-      },
-      {
-        "Hit": 1000
-      },
-      {
-        "Death": 200
-      }
-    ],
+    "Speed": {
+      "Normal": 500,
+      "Hit": 1000,
+      "Death": 200
+    },
     "HitEffect": {
       "700001": []
     },
@@ -61,17 +55,11 @@
       120,
       60
     ],
-    "Speed": [
-      {
-        "Normal": 500
-      },
-      {
-        "Hit": 1000
-      },
-      {
-        "Death": 200
-      }
-    ],
+    "Speed": {
+      "Normal": 500,
+      "Hit": 1000,
+      "Death": 200
+    },
     "HitEffect": {
       "700003": []
     },
@@ -100,17 +88,11 @@
       240,
       310
     ],
-    "Speed": [
-      {
-        "Normal": 500
-      },
-      {
-        "Hit": 1000
-      },
-      {
-        "Death": 200
-      }
-    ],
+    "Speed": {
+      "Normal": 500,
+      "Hit": 1000,
+      "Death": 200
+    },
     "HitEffect": {
       "700004": []
     },
@@ -119,15 +101,13 @@
   "700004": {
     "AccessoryId": 700004,
     "ModelPath": "/Game/Asset/Char/Monster/JT_Ranger/Mesh/JT_Ranger_Part02_SM.JT_Ranger_Part02_SM",
-    "AttachRule": [
-      {
-        "SocketA": "Root"
-      },
-      {
-        "SocketB": "hook_part_back"
-      }
+    "AttachRule": {
+      "SocketA": "Root",
+      "SocketB": "hook_part_back"
+    },
+    "PreAccessories": [
+      700005
     ],
-    "PreAccessories": {},
     "DropProb": [
       0.6,
       0.2,
@@ -144,33 +124,23 @@
       150,
       210
     ],
-    "Speed": [
-      {
-        "Normal": 500
-      },
-      {
-        "Hit": 1000
-      },
-      {
-        "Death": 200
-      }
-    ],
-    "HitEffect": [
-      []
-    ],
+    "Speed": {
+      "Normal": 500,
+      "Hit": 1000,
+      "Death": 200
+    },
+    "HitEffect": {
+      "700002": []
+    },
     "LandEffectId": 700011
   },
   "700005": {
     "AccessoryId": 700005,
     "ModelPath": "/Game/Asset/Char/Monster/Common/Part/Mesh/JT_Part03A_SM.JT_Part03A_SM",
-    "AttachRule": [
-      {
-        "SocketA": "Root"
-      },
-      {
-        "SocketB": "hook_part_back"
-      }
-    ],
+    "AttachRule": {
+      "SocketA": "Root",
+      "SocketB": "hook_part_back"
+    },
     "DropProb": [
       0.6,
       0.2,
@@ -187,20 +157,14 @@
       150,
       210
     ],
-    "Speed": [
-      {
-        "Normal": 500
-      },
-      {
-        "Hit": 1000
-      },
-      {
-        "Death": 200
-      }
-    ],
-    "HitEffect": [
-      []
-    ],
+    "Speed": {
+      "Normal": 500,
+      "Hit": 1000,
+      "Death": 200
+    },
+    "HitEffect": {
+      "700002": []
+    },
     "LandEffectId": 700011
   },
   "700006": {
@@ -210,21 +174,30 @@
       "SocketA": "Root",
       "SocketB": "hook_part_up01"
     },
-    "DropProb": {},
-    "DamageDirect": {},
-    "DelayDestroyTime": 3,
-    "MoveDirect": {},
-    "Speed": [
-      {
-        "Normal": 500
-      },
-      {
-        "Hit": 1000
-      },
-      {
-        "Death": 200
-      }
+    "DropProb": [
+      0.3,
+      0.3,
+      0.3,
+      0.3
     ],
+    "DamageDirect": [
+      "front",
+      "left",
+      "right",
+      "back"
+    ],
+    "DelayDestroyTime": 3,
+    "MoveDirect": [
+      180,
+      270,
+      90,
+      1
+    ],
+    "Speed": {
+      "Normal": 500,
+      "Hit": 1000,
+      "Death": 200
+    },
     "HitEffect": {
       "700006": []
     },
@@ -253,17 +226,11 @@
       30,
       330
     ],
-    "Speed": [
-      {
-        "Normal": 500
-      },
-      {
-        "Hit": 1000
-      },
-      {
-        "Death": 200
-      }
-    ],
+    "Speed": {
+      "Normal": 500,
+      "Hit": 1000,
+      "Death": 200
+    },
     "HitEffect": {
       "700007": []
     },
@@ -292,17 +259,11 @@
       120,
       60
     ],
-    "Speed": [
-      {
-        "Normal": 500
-      },
-      {
-        "Hit": 1000
-      },
-      {
-        "Death": 200
-      }
-    ],
+    "Speed": {
+      "Normal": 500,
+      "Hit": 1000,
+      "Death": 200
+    },
     "HitEffect": {
       "700009": []
     },
@@ -331,17 +292,11 @@
       240,
       310
     ],
-    "Speed": [
-      {
-        "Normal": 500
-      },
-      {
-        "Hit": 1000
-      },
-      {
-        "Death": 200
-      }
-    ],
+    "Speed": {
+      "Normal": 500,
+      "Hit": 1000,
+      "Death": 200
+    },
     "HitEffect": {
       "700010": []
     },
@@ -350,15 +305,13 @@
   "700010": {
     "AccessoryId": 700010,
     "ModelPath": "/Game/Asset/Char/Monster/Common/Part/Mesh/JT_Part02B_SM.JT_Part02B_SM",
-    "AttachRule": [
-      {
-        "SocketA": "Root"
-      },
-      {
-        "SocketB": "xiongjia_b"
-      }
+    "AttachRule": {
+      "SocketA": "Root",
+      "SocketB": "xiongjia_b"
+    },
+    "PreAccessories": [
+      700011
     ],
-    "PreAccessories": {},
     "DropProb": [
       0.6,
       0.2,
@@ -375,33 +328,23 @@
       150,
       210
     ],
-    "Speed": [
-      {
-        "Normal": 500
-      },
-      {
-        "Hit": 1000
-      },
-      {
-        "Death": 200
-      }
-    ],
-    "HitEffect": [
-      []
-    ],
+    "Speed": {
+      "Normal": 500,
+      "Hit": 1000,
+      "Death": 200
+    },
+    "HitEffect": {
+      "700008": []
+    },
     "LandEffectId": 700011
   },
   "700011": {
     "AccessoryId": 700011,
     "ModelPath": "/Game/Asset/Char/Monster/Common/Part/Mesh/JT_Part03A_SM.JT_Part03A_SM",
-    "AttachRule": [
-      {
-        "SocketA": "Root"
-      },
-      {
-        "SocketB": "xiongjia_b"
-      }
-    ],
+    "AttachRule": {
+      "SocketA": "Root",
+      "SocketB": "xiongjia_b"
+    },
     "DropProb": [
       0.6,
       0.2,
@@ -418,20 +361,14 @@
       150,
       210
     ],
-    "Speed": [
-      {
-        "Normal": 500
-      },
-      {
-        "Hit": 1000
-      },
-      {
-        "Death": 200
-      }
-    ],
-    "HitEffect": [
-      []
-    ],
+    "Speed": {
+      "Normal": 500,
+      "Hit": 1000,
+      "Death": 200
+    },
+    "HitEffect": {
+      "700008": []
+    },
     "LandEffectId": 700011
   },
   "950001": {
@@ -442,7 +379,12 @@
       "SocketB": "hook_arm_r"
     },
     "AnimPath": "/Game/Asset/Char/Npc/Npc_Bai_Shangdian/Animation/Summon/",
-    "AnimNames": {}
+    "AnimNames": [
+      "NPC_Bai_Shangdian_WP01_Idle",
+      "NPC_Bai_Shangdian_WP01_Write_End",
+      "NPC_Bai_Shangdian_WP01_Write_Loop",
+      "NPC_Bai_Shangdian_WP01_Write_Start"
+    ]
   },
   "950002": {
     "AccessoryId": 950002,
@@ -452,7 +394,12 @@
       "SocketB": "hook_arm_l"
     },
     "AnimPath": "/Game/Asset/Char/Npc/Npc_Bai_Shangdian/Animation/Summon/",
-    "AnimNames": {}
+    "AnimNames": [
+      "NPC_Bai_Shangdian_WP02_Idle",
+      "NPC_Bai_Shangdian_WP02_Write_End",
+      "NPC_Bai_Shangdian_WP02_Write_Loop",
+      "NPC_Bai_Shangdian_WP02_Write_Start"
+    ]
   },
   "950003": {
     "AccessoryId": 950003,
@@ -462,7 +409,10 @@
       "SocketB": "Root"
     },
     "AnimPath": "/Game/Asset/Char/Npc/Npc_Bai_Tongxun/Animation/Sequence/Summon/",
-    "AnimNames": {}
+    "AnimNames": [
+      "BaiTX_Part02_Emo_SpecialConfident_Idle",
+      "BaiTX_Part02_Emo_SpecialConfident_Start"
+    ]
   },
   "950004": {
     "AccessoryId": 950004,
@@ -472,6 +422,9 @@
       "SocketB": "head"
     },
     "AnimPath": "/Game/Asset/Char/Npc/Npc_Bai_Tongxun/Animation/Sequence/Summon/",
-    "AnimNames": {}
+    "AnimNames": [
+      "BaiTX_Part03_Emo_SpecialConfident_Idle",
+      "BaiTX_Part03_Emo_SpecialConfident_Start"
+    ]
   }
 }

@@ -46,7 +46,10 @@
     "AlertResetChange": 0,
     "AlertRanges": [
       {
-        "AlertRange": {},
+        "AlertRange": [
+          0,
+          240
+        ],
         "AlertRangeUpSpeed": 120,
         "AlertRangeDownSpeed": 0,
         "AlertRangeSightId": 10,
@@ -69,20 +72,26 @@
     "MaxAlertValue": 240,
     "AlertResetChange": 0,
     "AlertRanges": [
-      [
-        "AlertRange = T.RT_1",
-        "AlertRangeUpSpeed = 40",
-        "AlertRangeDownSpeed = -40",
-        "AlertRangeSightId = 1",
-        "AlertRangeHearId = 1"
-      ],
-      [
-        "AlertRange = T.RT_2",
-        "AlertRangeUpSpeed = 60",
-        "AlertRangeDownSpeed = -24",
-        "AlertRangeSightId = 2",
-        "AlertRangeHearId = 2"
-      ]
+      {
+        "AlertRange": [
+          0,
+          120
+        ],
+        "AlertRangeUpSpeed": 40,
+        "AlertRangeDownSpeed": -40,
+        "AlertRangeSightId": 1,
+        "AlertRangeHearId": 1
+      },
+      {
+        "AlertRange": [
+          120,
+          240
+        ],
+        "AlertRangeUpSpeed": 60,
+        "AlertRangeDownSpeed": -24,
+        "AlertRangeSightId": 2,
+        "AlertRangeHearId": 2
+      }
     ]
   },
   "102": {
@@ -99,20 +108,26 @@
     "MaxAlertValue": 240,
     "AlertResetChange": 0,
     "AlertRanges": [
-      [
-        "AlertRange = T.RT_1",
-        "AlertRangeUpSpeed = 40",
-        "AlertRangeDownSpeed = -40",
-        "AlertRangeSightId = 1",
-        "AlertRangeHearId = 1"
-      ],
-      [
-        "AlertRange = T.RT_2",
-        "AlertRangeUpSpeed = 60",
-        "AlertRangeDownSpeed = -24",
-        "AlertRangeSightId = 2",
-        "AlertRangeHearId = 2"
-      ]
+      {
+        "AlertRange": [
+          0,
+          120
+        ],
+        "AlertRangeUpSpeed": 40,
+        "AlertRangeDownSpeed": -40,
+        "AlertRangeSightId": 1,
+        "AlertRangeHearId": 1
+      },
+      {
+        "AlertRange": [
+          120,
+          240
+        ],
+        "AlertRangeUpSpeed": 60,
+        "AlertRangeDownSpeed": -24,
+        "AlertRangeSightId": 2,
+        "AlertRangeHearId": 2
+      }
     ]
   },
   "103": {
@@ -196,20 +211,26 @@
     "MaxAlertValue": 240,
     "AlertResetChange": 0,
     "AlertRanges": [
-      [
-        "AlertRange = T.RT_1",
-        "AlertRangeUpSpeed = 40",
-        "AlertRangeDownSpeed = -40",
-        "AlertRangeSightId = 1",
-        "AlertRangeHearId = 1"
-      ],
-      [
-        "AlertRange = T.RT_2",
-        "AlertRangeUpSpeed = 60",
-        "AlertRangeDownSpeed = -24",
-        "AlertRangeSightId = 2",
-        "AlertRangeHearId = 2"
-      ]
+      {
+        "AlertRange": [
+          0,
+          120
+        ],
+        "AlertRangeUpSpeed": 40,
+        "AlertRangeDownSpeed": -40,
+        "AlertRangeSightId": 1,
+        "AlertRangeHearId": 1
+      },
+      {
+        "AlertRange": [
+          120,
+          240
+        ],
+        "AlertRangeUpSpeed": 60,
+        "AlertRangeDownSpeed": -24,
+        "AlertRangeSightId": 2,
+        "AlertRangeHearId": 2
+      }
     ]
   },
   "203": {
@@ -226,20 +247,26 @@
     "MaxAlertValue": 240,
     "AlertResetChange": 0,
     "AlertRanges": [
-      [
-        "AlertRange = T.RT_1",
-        "AlertRangeUpSpeed = 40",
-        "AlertRangeDownSpeed = -40",
-        "AlertRangeSightId = 1",
-        "AlertRangeHearId = 1"
-      ],
-      [
-        "AlertRange = T.RT_2",
-        "AlertRangeUpSpeed = 60",
-        "AlertRangeDownSpeed = -24",
-        "AlertRangeSightId = 2",
-        "AlertRangeHearId = 2"
-      ]
+      {
+        "AlertRange": [
+          0,
+          120
+        ],
+        "AlertRangeUpSpeed": 40,
+        "AlertRangeDownSpeed": -40,
+        "AlertRangeSightId": 1,
+        "AlertRangeHearId": 1
+      },
+      {
+        "AlertRange": [
+          120,
+          240
+        ],
+        "AlertRangeUpSpeed": 60,
+        "AlertRangeDownSpeed": -24,
+        "AlertRangeSightId": 2,
+        "AlertRangeHearId": 2
+      }
     ]
   },
   "6001005": {
@@ -265,13 +292,16 @@
         "AlertRangeSightId": 1,
         "AlertRangeHearId": 1
       },
-      [
-        "AlertRange = T.RT_2",
-        "AlertRangeUpSpeed = 60",
-        "AlertRangeDownSpeed = -24",
-        "AlertRangeSightId = 2",
-        "AlertRangeHearId = 2"
-      ]
+      {
+        "AlertRange": [
+          120,
+          240
+        ],
+        "AlertRangeUpSpeed": 60,
+        "AlertRangeDownSpeed": -24,
+        "AlertRangeSightId": 2,
+        "AlertRangeHearId": 2
+      }
     ]
   },
   "6001006": {
@@ -332,13 +362,16 @@
         "AlertRangeSightId": 6002002,
         "AlertRangeHearId": 1
       },
-      [
-        "AlertRange = T.RT_2",
-        "AlertRangeUpSpeed = 60",
-        "AlertRangeDownSpeed = -24",
-        "AlertRangeSightId = 2",
-        "AlertRangeHearId = 2"
-      ]
+      {
+        "AlertRange": [
+          120,
+          240
+        ],
+        "AlertRangeUpSpeed": 60,
+        "AlertRangeDownSpeed": -24,
+        "AlertRangeSightId": 2,
+        "AlertRangeHearId": 2
+      }
     ]
   },
   "6003001": {
@@ -354,20 +387,26 @@
     "MaxAlertValue": 240,
     "AlertResetChange": 0,
     "AlertRanges": [
-      [
-        "AlertRange = T.RT_1",
-        "AlertRangeUpSpeed = 40",
-        "AlertRangeDownSpeed = -40",
-        "AlertRangeSightId = 6003001",
-        "AlertRangeHearId = 1"
-      ],
-      [
-        "AlertRange = T.RT_2",
-        "AlertRangeUpSpeed = 60",
-        "AlertRangeDownSpeed = -24",
-        "AlertRangeSightId = 2",
-        "AlertRangeHearId = 2"
-      ]
+      {
+        "AlertRange": [
+          0,
+          120
+        ],
+        "AlertRangeUpSpeed": 40,
+        "AlertRangeDownSpeed": -40,
+        "AlertRangeSightId": 6003001,
+        "AlertRangeHearId": 1
+      },
+      {
+        "AlertRange": [
+          120,
+          240
+        ],
+        "AlertRangeUpSpeed": 60,
+        "AlertRangeDownSpeed": -24,
+        "AlertRangeSightId": 2,
+        "AlertRangeHearId": 2
+      }
     ]
   },
   "7001001": {
@@ -381,20 +420,26 @@
     "MaxAlertValue": 240,
     "AlertResetChange": 0,
     "AlertRanges": [
-      [
-        "AlertRange = T.RT_1",
-        "AlertRangeUpSpeed = 40",
-        "AlertRangeDownSpeed = -40",
-        "AlertRangeSightId = 1",
-        "AlertRangeHearId = 1"
-      ],
-      [
-        "AlertRange = T.RT_2",
-        "AlertRangeUpSpeed = 60",
-        "AlertRangeDownSpeed = -24",
-        "AlertRangeSightId = 2",
-        "AlertRangeHearId = 2"
-      ]
+      {
+        "AlertRange": [
+          0,
+          120
+        ],
+        "AlertRangeUpSpeed": 40,
+        "AlertRangeDownSpeed": -40,
+        "AlertRangeSightId": 1,
+        "AlertRangeHearId": 1
+      },
+      {
+        "AlertRange": [
+          120,
+          240
+        ],
+        "AlertRangeUpSpeed": 60,
+        "AlertRangeDownSpeed": -24,
+        "AlertRangeSightId": 2,
+        "AlertRangeHearId": 2
+      }
     ]
   },
   "9501001": {
@@ -410,13 +455,16 @@
     "MaxAlertValue": 240,
     "AlertResetChange": 0,
     "AlertRanges": [
-      [
-        "AlertRange = T.RT_1",
-        "AlertRangeUpSpeed = 40",
-        "AlertRangeDownSpeed = -40",
-        "AlertRangeSightId = 6003001",
-        "AlertRangeHearId = 1"
-      ],
+      {
+        "AlertRange": [
+          0,
+          120
+        ],
+        "AlertRangeUpSpeed": 40,
+        "AlertRangeDownSpeed": -40,
+        "AlertRangeSightId": 6003001,
+        "AlertRangeHearId": 1
+      },
       {
         "AlertRange": [
           120,

@@ -2,17 +2,24 @@
   "Dead": {
     "KeyboardSetName": "Dead",
     "IsWhiteList": true,
-    "ActionNameList": {}
+    "ActionNameList": [
+      "OpenMenu",
+      "Recovery"
+    ]
   },
   "DeadInRegion": {
     "KeyboardSetName": "DeadInRegion",
     "IsWhiteList": true,
-    "ActionNameList": {}
+    "ActionNameList": [
+      "Recovery"
+    ]
   },
   "InBattleWheel": {
     "KeyboardSetName": "InBattleWheel",
     "IsWhiteList": true,
-    "ActionNameList": {}
+    "ActionNameList": [
+      "OpenBattleWheel"
+    ]
   },
   "InDeliver": {
     "KeyboardSetName": "InDeliver",
@@ -25,7 +32,12 @@
   "BattleFort": {
     "KeyboardSetName": "BattleFort",
     "IsWhiteList": true,
-    "ActionNameList": {}
+    "ActionNameList": [
+      "Attack",
+      "Fire",
+      "QuitChallenge",
+      "OpenMenu"
+    ]
   },
   "Invitation": {
     "KeyboardSetName": "Invitation",

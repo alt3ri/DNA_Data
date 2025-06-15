@@ -559,8 +559,16 @@
       "WeaponBlueprint": "/Game/AssetDesign/Weapon/Sword/BP_Sword_01",
       "GroupName": "Mod01_Attack_01",
       "FXAsset": "/Game/Asset/Effect/Niagara/Weapon/Sword/NS_Huipo_RunAttack01_dg_Pro.NS_Huipo_RunAttack01_dg_Pro",
-      "LocalOffset": {},
-      "LocalRotation": {},
+      "LocalOffset": [
+        0,
+        20,
+        -10
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        -40
+      ],
       "Scale": [
         1,
         1,
@@ -579,8 +587,16 @@
       "WeaponBlueprint": "/Game/AssetDesign/Weapon/Sword/BP_Sword_01",
       "GroupName": "Mod01_Attack_02",
       "FXAsset": "/Game/Asset/Effect/Niagara/Weapon/Sword/NS_Huipo_RunAttack01_dg_Pro2.NS_Huipo_RunAttack01_dg_Pro2",
-      "LocalOffset": {},
-      "LocalRotation": {},
+      "LocalOffset": [
+        120,
+        0,
+        80
+      ],
+      "LocalRotation": [
+        -10,
+        50,
+        10
+      ],
       "Scale": [
         1,
         1,
@@ -599,8 +615,16 @@
       "WeaponBlueprint": "/Game/AssetDesign/Weapon/Sword/BP_Sword_01",
       "GroupName": "Mod01_Attack_03",
       "FXAsset": "/Game/Asset/Effect/Niagara/Weapon/Sword/NS_Huipo_RunAttack01_dg_Pro.NS_Huipo_RunAttack01_dg_Pro",
-      "LocalOffset": {},
-      "LocalRotation": {},
+      "LocalOffset": [
+        120,
+        0,
+        120
+      ],
+      "LocalRotation": [
+        -80,
+        0,
+        -50
+      ],
       "Scale": [
         1,
         1,
@@ -619,13 +643,21 @@
       "WeaponBlueprint": "/Game/AssetDesign/Weapon/Sword/BP_Sword_01",
       "GroupName": "Mod01_Attack_04",
       "FXAsset": "/Game/Asset/Effect/Niagara/Weapon/Sword/NS_Huipo_RunAttack03_dg_2Pro.NS_Huipo_RunAttack03_dg_2Pro",
-      "LocalOffset": {},
+      "LocalOffset": [
+        0,
+        0,
+        160
+      ],
       "LocalRotation": [
         0,
         0,
         80
       ],
-      "Scale": {},
+      "Scale": [
+        1,
+        1,
+        0.8
+      ],
       "EffectId": 1010214,
       "Attach": true,
       "PlayByChar": true,
@@ -639,8 +671,16 @@
       "WeaponBlueprint": "/Game/AssetDesign/Weapon/Sword/BP_Sword_01",
       "GroupName": "Mod01_Attack_05_01",
       "FXAsset": "/Game/Asset/Effect/Niagara/Weapon/Sword/NS_Huipo_RunAttack01_dg_Pro.NS_Huipo_RunAttack01_dg_Pro",
-      "LocalOffset": {},
-      "LocalRotation": {},
+      "LocalOffset": [
+        120,
+        -30,
+        60
+      ],
+      "LocalRotation": [
+        -60,
+        0,
+        -60
+      ],
       "Scale": [
         1,
         1,
@@ -659,7 +699,11 @@
       "WeaponBlueprint": "/Game/AssetDesign/Weapon/Sword/BP_Sword_01",
       "GroupName": "Mod01_Attack_05_02",
       "FXAsset": "/Game/Asset/Effect/Niagara/Weapon/Sword/NS_Zhuiyi_HeavyAttack_Start_Burst.NS_Zhuiyi_HeavyAttack_Start_Burst",
-      "LocalOffset": {},
+      "LocalOffset": [
+        -45,
+        100,
+        0
+      ],
       "LocalRotation": [
         0,
         0,
@@ -1033,7 +1077,11 @@
       "WeaponBlueprint": "/Game/AssetDesign/Weapon/Condemn/Condemn",
       "GroupName": "Condemn_Absorb",
       "FXAsset": "/Game/Asset/Effect/Niagara/Player/Heitao/NS_Heitao_Condemned_Absorb_2.NS_Heitao_Condemned_Absorb_2",
-      "LocalOffset": {},
+      "LocalOffset": [
+        -4,
+        -100,
+        101
+      ],
       "LocalRotation": [
         0,
         0,
@@ -1053,7 +1101,11 @@
       "WeaponBlueprint": "/Game/AssetDesign/Weapon/Condemn/Condemn",
       "GroupName": "Condemn_Stab",
       "FXAsset": "/Game/Asset/Effect/Niagara/Player/Heitao/NS_Heitao_Condemned_Stab.NS_Heitao_Condemned_Stab",
-      "LocalOffset": {},
+      "LocalOffset": [
+        -5,
+        80,
+        103
+      ],
       "LocalRotation": [
         0,
         0,
@@ -1681,7 +1733,11 @@
       "WeaponBlueprint": "/Game/AssetDesign/Weapon/Swordwhip/BP_Swordwhip_01",
       "GroupName": "Attack04_02",
       "FXAsset": "/Game/Asset/Effect/Niagara/Weapon/Swordwhip/NS_Swordwhip_Runattack_05.NS_Swordwhip_Runattack_05",
-      "LocalOffset": {},
+      "LocalOffset": [
+        20,
+        -20,
+        0
+      ],
       "LocalRotation": [
         0,
         0,
@@ -1731,7 +1787,11 @@
       "WeaponBlueprint": "/Game/AssetDesign/Weapon/Swordwhip/BP_Swordwhip_01",
       "GroupName": "HeavyAttack_Knife",
       "FXAsset": "/Game/Asset/Effect/Niagara/Weapon/Swordwhip/NS_Swordwhip_Runattack_daogaung.NS_Swordwhip_Runattack_daogaung",
-      "LocalOffset": {},
+      "LocalOffset": [
+        0,
+        -125,
+        -120
+      ],
       "LocalRotation": [
         0,
         0,
@@ -1755,7 +1815,11 @@
       "WeaponBlueprint": "/Game/AssetDesign/Weapon/Swordwhip/BP_Swordwhip_01",
       "GroupName": "HeavyAttack_Ground01",
       "FXAsset": "/Game/Asset/Effect/Niagara/Weapon/Swordwhip/NS_Swordwhip_Runattack_Ground.NS_Swordwhip_Runattack_Ground",
-      "LocalOffset": {},
+      "LocalOffset": [
+        0,
+        500,
+        0
+      ],
       "LocalRotation": [
         0,
         0,
@@ -1777,7 +1841,11 @@
       "WeaponBlueprint": "/Game/AssetDesign/Weapon/Swordwhip/BP_Swordwhip_01",
       "GroupName": "HeavyAttack_Ground02",
       "FXAsset": "/Game/Asset/Effect/Niagara/Weapon/Swordwhip/NS_Swordwhip_Runattack_guang_02.NS_Swordwhip_Runattack_guang_02",
-      "LocalOffset": {},
+      "LocalOffset": [
+        0,
+        500,
+        100
+      ],
       "LocalRotation": [
         0,
         0,
@@ -2020,7 +2088,11 @@
       "WeaponBlueprint": "/Game/AssetDesign/Weapon/Polearm/BP_Polearm_01",
       "GroupName": "Attack_01",
       "FXAsset": "/Game/Asset/Effect/Niagara/Weapon/Polearm/NS_Polearm_KnifeLight_01.NS_Polearm_KnifeLight_01",
-      "LocalOffset": {},
+      "LocalOffset": [
+        0,
+        0,
+        127
+      ],
       "LocalRotation": [
         0,
         0,
@@ -2069,7 +2141,11 @@
       "WeaponBlueprint": "/Game/AssetDesign/Weapon/Polearm/BP_Polearm_01",
       "GroupName": "Attack_02_Crack",
       "FXAsset": "/Game/Asset/Effect/Niagara/Weapon/Polearm/NS_Polearm_Crack.NS_Polearm_Crack",
-      "LocalOffset": {},
+      "LocalOffset": [
+        49.67,
+        -21.45,
+        0
+      ],
       "LocalRotation": [
         0,
         0,
@@ -2090,8 +2166,16 @@
       "WeaponBlueprint": "/Game/AssetDesign/Weapon/Polearm/BP_Polearm_01",
       "GroupName": "Attack_02_Wind",
       "FXAsset": "/Game/Asset/Effect/Niagara/Weapon/Polearm/NS_Polearm_Knife_Wind.NS_Polearm_Knife_Wind",
-      "LocalOffset": {},
-      "LocalRotation": {},
+      "LocalOffset": [
+        25.4,
+        0,
+        129
+      ],
+      "LocalRotation": [
+        -180,
+        62,
+        -180
+      ],
       "Scale": [
         1,
         1,
@@ -2108,8 +2192,16 @@
       "WeaponBlueprint": "/Game/AssetDesign/Weapon/Polearm/BP_Polearm_01",
       "GroupName": "Attack_02_KnifeLight1",
       "FXAsset": "/Game/Asset/Effect/Niagara/Weapon/Polearm/NS_Polearm_KnifeLight_03.NS_Polearm_KnifeLight_03",
-      "LocalOffset": {},
-      "LocalRotation": {},
+      "LocalOffset": [
+        35.2,
+        0,
+        115
+      ],
+      "LocalRotation": [
+        -177.24,
+        75,
+        -180
+      ],
       "Scale": [
         1,
         1,
@@ -2127,8 +2219,16 @@
       "WeaponBlueprint": "/Game/AssetDesign/Weapon/Polearm/BP_Polearm_01",
       "GroupName": "Attack_02_KnifeLight2",
       "FXAsset": "/Game/Asset/Effect/Niagara/Weapon/Polearm/NS_Polearm_KnifeLight_03.NS_Polearm_KnifeLight_03",
-      "LocalOffset": {},
-      "LocalRotation": {},
+      "LocalOffset": [
+        19.77,
+        13,
+        90
+      ],
+      "LocalRotation": [
+        -190,
+        50,
+        -195
+      ],
       "Scale": [
         1,
         1,
@@ -2173,7 +2273,11 @@
       "WeaponBlueprint": "/Game/AssetDesign/Weapon/Polearm/BP_Polearm_01",
       "GroupName": "Attack_03_Crack",
       "FXAsset": "/Game/Asset/Effect/Niagara/Weapon/Polearm/NS_Polearm_Crack.NS_Polearm_Crack",
-      "LocalOffset": {},
+      "LocalOffset": [
+        56.82,
+        -22.39,
+        0
+      ],
       "LocalRotation": [
         0,
         0,
@@ -2194,8 +2298,16 @@
       "WeaponBlueprint": "/Game/AssetDesign/Weapon/Polearm/BP_Polearm_01",
       "GroupName": "Attack_03_Wind",
       "FXAsset": "/Game/Asset/Effect/Niagara/Weapon/Polearm/NS_Polearm_Knife_Wind.NS_Polearm_Knife_Wind",
-      "LocalOffset": {},
-      "LocalRotation": {},
+      "LocalOffset": [
+        -42,
+        -17.7,
+        145.45
+      ],
+      "LocalRotation": [
+        0,
+        63.9,
+        17.25
+      ],
       "Scale": [
         1,
         1,
@@ -2212,8 +2324,16 @@
       "WeaponBlueprint": "/Game/AssetDesign/Weapon/Polearm/BP_Polearm_01",
       "GroupName": "Attack_03_KnifeLight",
       "FXAsset": "/Game/Asset/Effect/Niagara/Weapon/Polearm/NS_Polearm_KnifeLight_03.NS_Polearm_KnifeLight_03",
-      "LocalOffset": {},
-      "LocalRotation": {},
+      "LocalOffset": [
+        -30.7,
+        8.7,
+        143
+      ],
+      "LocalRotation": [
+        -27.6,
+        43.65,
+        -37
+      ],
       "Scale": [
         1,
         1,
@@ -2258,8 +2378,16 @@
       "WeaponBlueprint": "/Game/AssetDesign/Weapon/Polearm/BP_Polearm_01",
       "GroupName": "Attack_04_Crack",
       "FXAsset": "/Game/Asset/Effect/Niagara/Weapon/Polearm/NS_Polearm_Crack.NS_Polearm_Crack",
-      "LocalOffset": {},
-      "LocalRotation": {},
+      "LocalOffset": [
+        -107.94,
+        -49.24,
+        -9.25
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        107
+      ],
       "Scale": [
         1,
         1,
@@ -2300,8 +2428,16 @@
       "WeaponBlueprint": "/Game/AssetDesign/Weapon/Polearm/BP_Polearm_01",
       "GroupName": "Attack_04_KnifeLight",
       "FXAsset": "/Game/Asset/Effect/Niagara/Weapon/Polearm/NS_Polearm_KnifeLight_03.NS_Polearm_KnifeLight_03",
-      "LocalOffset": {},
-      "LocalRotation": {},
+      "LocalOffset": [
+        -10.4,
+        4.45,
+        158.3
+      ],
+      "LocalRotation": [
+        3.8,
+        73.77,
+        0.4
+      ],
       "Scale": [
         1,
         1,
@@ -2350,7 +2486,11 @@
         0,
         75
       ],
-      "LocalRotation": {},
+      "LocalRotation": [
+        -8.6,
+        0.45,
+        433.8
+      ],
       "Scale": [
         2,
         2,
@@ -2393,7 +2533,11 @@
       "GroupName": "Attack_Trail",
       "FXAsset": "/Game/Asset/Effect/Niagara/Weapon/Polearm/NS_Polearm_TopTrail.NS_Polearm_TopTrail",
       "SocketName": "FX_Top",
-      "LocalOffset": {},
+      "LocalOffset": [
+        80,
+        0,
+        0
+      ],
       "LocalRotation": [
         0,
         0,
@@ -2440,7 +2584,11 @@
       "WeaponBlueprint": "/Game/AssetDesign/Weapon/Polearm/BP_Polearm_01",
       "GroupName": "FallAttack",
       "FXAsset": "/Game/Asset/Effect/Niagara/Weapon/A_Common/NS_FallAttack.NS_FallAttack",
-      "LocalOffset": {},
+      "LocalOffset": [
+        30,
+        155,
+        1
+      ],
       "LocalRotation": [
         0,
         0,
@@ -2572,7 +2720,11 @@
         0,
         0
       ],
-      "LocalRotation": {},
+      "LocalRotation": [
+        90,
+        0,
+        0
+      ],
       "Scale": [
         1,
         1,
@@ -2589,7 +2741,11 @@
       "WeaponBlueprint": "/Game/AssetDesign/Weapon/Polearm/BP_Polearm_01",
       "GroupName": "HeavyAttack_Spawn",
       "FXAsset": "/Game/Asset/Effect/Niagara/Weapon/Polearm/NS_Polearm_HeavyAttack_Spawn.NS_Polearm_HeavyAttack_Spawn",
-      "LocalOffset": {},
+      "LocalOffset": [
+        0,
+        70,
+        120
+      ],
       "LocalRotation": [
         0,
         0,
@@ -2661,7 +2817,11 @@
       "WeaponBlueprint": "/Game/AssetDesign/Weapon/Polearm/BP_Polearm_01",
       "GroupName": "Mod01_FallAttack",
       "FXAsset": "/Game/Asset/Effect/Niagara/Weapon/A_Common/NS_FallAttack.NS_FallAttack",
-      "LocalOffset": {},
+      "LocalOffset": [
+        -8,
+        45,
+        1
+      ],
       "LocalRotation": [
         0,
         0,
@@ -2708,7 +2868,11 @@
       "WeaponBlueprint": "/Game/AssetDesign/Weapon/Polearm/BP_Polearm_01",
       "GroupName": "Mod01_HeavyAttack_Spawn",
       "FXAsset": "/Game/Asset/Effect/Niagara/Weapon/Polearm/NS_Polearm_HeavyAttack_Spawn_New.NS_Polearm_HeavyAttack_Spawn_New",
-      "LocalOffset": {},
+      "LocalOffset": [
+        0,
+        70,
+        130
+      ],
       "LocalRotation": [
         0,
         0,
@@ -2923,8 +3087,16 @@
       "WeaponBlueprint": "/Game/AssetDesign/Weapon/Claymore/BP_Claymore_02",
       "GroupName": "Attack_01_Knife",
       "FXAsset": "/Game/Asset/Effect/Niagara/Weapon/Claymore/NS_Claymore_Knife_01.NS_Claymore_Knife_01",
-      "LocalOffset": {},
-      "LocalRotation": {},
+      "LocalOffset": [
+        -23.78,
+        22.15,
+        85.12
+      ],
+      "LocalRotation": [
+        1.3,
+        -14.57,
+        206.2
+      ],
       "Scale": [
         1,
         1,
@@ -2941,8 +3113,16 @@
       "WeaponBlueprint": "/Game/AssetDesign/Weapon/Claymore/BP_Claymore_02",
       "GroupName": "Attack_01_Ground",
       "FXAsset": "/Game/Asset/Effect/Niagara/Weapon/Claymore/NS_Claymore_Ground1.NS_Claymore_Ground1",
-      "LocalOffset": {},
-      "LocalRotation": {},
+      "LocalOffset": [
+        -161.4,
+        -160,
+        -0.36
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        108
+      ],
       "Scale": [
         1,
         1,
@@ -2959,7 +3139,11 @@
       "WeaponBlueprint": "/Game/AssetDesign/Weapon/Claymore/BP_Claymore_02",
       "GroupName": "Attack_01_GroundWind",
       "FXAsset": "/Game/Asset/Effect/Niagara/Weapon/Claymore/NS_Claymore_GroundWind02.NS_Claymore_GroundWind02",
-      "LocalOffset": {},
+      "LocalOffset": [
+        28,
+        32.7,
+        0
+      ],
       "LocalRotation": [
         0,
         0,
@@ -2982,8 +3166,16 @@
       "WeaponBlueprint": "/Game/AssetDesign/Weapon/Claymore/BP_Claymore_02",
       "GroupName": "Attack_02_Knife",
       "FXAsset": "/Game/Asset/Effect/Niagara/Weapon/Claymore/NS_Claymore_Knife_02.NS_Claymore_Knife_02",
-      "LocalOffset": {},
-      "LocalRotation": {},
+      "LocalOffset": [
+        -17.5,
+        5.7,
+        149.9
+      ],
+      "LocalRotation": [
+        -175,
+        53,
+        16
+      ],
       "Scale": [
         1,
         1,
@@ -3000,8 +3192,16 @@
       "WeaponBlueprint": "/Game/AssetDesign/Weapon/Claymore/BP_Claymore_02",
       "GroupName": "Attack_02_Ground",
       "FXAsset": "/Game/Asset/Effect/Niagara/Weapon/Claymore/NS_Claymore_Ground1.NS_Claymore_Ground1",
-      "LocalOffset": {},
-      "LocalRotation": {},
+      "LocalOffset": [
+        -100,
+        -10,
+        10
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        -80
+      ],
       "Scale": [
         1,
         1,
@@ -3018,7 +3218,11 @@
       "WeaponBlueprint": "/Game/AssetDesign/Weapon/Claymore/BP_Claymore_02",
       "GroupName": "Attack_02_GroundWind",
       "FXAsset": "/Game/Asset/Effect/Niagara/Weapon/Claymore/NS_Claymore_GroundWind02.NS_Claymore_GroundWind02",
-      "LocalOffset": {},
+      "LocalOffset": [
+        -13,
+        38,
+        1.3
+      ],
       "LocalRotation": [
         0,
         0,
@@ -3041,8 +3245,16 @@
       "WeaponBlueprint": "/Game/AssetDesign/Weapon/Claymore/BP_Claymore_02",
       "GroupName": "Attack_03_Knife",
       "FXAsset": "/Game/Asset/Effect/Niagara/Weapon/Claymore/NS_Claymore_Knife_03.NS_Claymore_Knife_03",
-      "LocalOffset": {},
-      "LocalRotation": {},
+      "LocalOffset": [
+        23.5,
+        77.5,
+        106
+      ],
+      "LocalRotation": [
+        169,
+        -22,
+        3
+      ],
       "Scale": [
         1,
         1,
@@ -3059,8 +3271,16 @@
       "WeaponBlueprint": "/Game/AssetDesign/Weapon/Claymore/BP_Claymore_02",
       "GroupName": "Attack_03_Ground",
       "FXAsset": "/Game/Asset/Effect/Niagara/Weapon/Claymore/NS_Claymore_Ground1.NS_Claymore_Ground1",
-      "LocalOffset": {},
-      "LocalRotation": {},
+      "LocalOffset": [
+        216.4,
+        -36.78,
+        -6
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        73.7
+      ],
       "Scale": [
         1,
         1,
@@ -3077,7 +3297,11 @@
       "WeaponBlueprint": "/Game/AssetDesign/Weapon/Claymore/BP_Claymore_02",
       "GroupName": "Attack_03_GroundWind",
       "FXAsset": "/Game/Asset/Effect/Niagara/Weapon/Claymore/NS_Claymore_GroundWind02.NS_Claymore_GroundWind02",
-      "LocalOffset": {},
+      "LocalOffset": [
+        -12.34,
+        39.5,
+        1.3
+      ],
       "LocalRotation": [
         0,
         0,
@@ -3100,8 +3324,16 @@
       "WeaponBlueprint": "/Game/AssetDesign/Weapon/Claymore/BP_Claymore_02",
       "GroupName": "Attack_04_Knife",
       "FXAsset": "/Game/Asset/Effect/Niagara/Weapon/Claymore/NS_Claymore_Knife_04.NS_Claymore_Knife_04",
-      "LocalOffset": {},
-      "LocalRotation": {},
+      "LocalOffset": [
+        16.6,
+        16.3,
+        103.7
+      ],
+      "LocalRotation": [
+        85.2,
+        -33.3,
+        102
+      ],
       "Scale": [
         1,
         1,
@@ -3118,7 +3350,11 @@
       "WeaponBlueprint": "/Game/AssetDesign/Weapon/Claymore/BP_Claymore_02",
       "GroupName": "Attack_04_Ground",
       "FXAsset": "/Game/Asset/Effect/Niagara/Weapon/Claymore/NS_Claymore_Decal.NS_Claymore_Decal",
-      "LocalOffset": {},
+      "LocalOffset": [
+        -4.77,
+        156.2,
+        0
+      ],
       "LocalRotation": [
         0,
         0,
@@ -3140,7 +3376,11 @@
       "WeaponBlueprint": "/Game/AssetDesign/Weapon/Claymore/BP_Claymore_02",
       "GroupName": "Attack_04_GroundWind",
       "FXAsset": "/Game/Asset/Effect/Niagara/Weapon/Claymore/NS_Claymore_GroundWind01.NS_Claymore_GroundWind01",
-      "LocalOffset": {},
+      "LocalOffset": [
+        16.9,
+        38.3,
+        -1
+      ],
       "LocalRotation": [
         0,
         0,
@@ -3163,7 +3403,11 @@
       "WeaponBlueprint": "/Game/AssetDesign/Weapon/Claymore/BP_Claymore_02",
       "GroupName": "FallAttack",
       "FXAsset": "/Game/Asset/Effect/Niagara/Weapon/A_Common/NS_FallAttack.NS_FallAttack",
-      "LocalOffset": {},
+      "LocalOffset": [
+        30,
+        120,
+        0
+      ],
       "LocalRotation": [
         0,
         0,
@@ -3185,8 +3429,16 @@
       "WeaponBlueprint": "/Game/AssetDesign/Weapon/Claymore/BP_Claymore_02",
       "GroupName": "SlideAttack",
       "FXAsset": "/Game/Asset/Effect/Niagara/Weapon/Claymore/NS_Claymore_Knife_01.NS_Claymore_Knife_01",
-      "LocalOffset": {},
-      "LocalRotation": {},
+      "LocalOffset": [
+        -13,
+        150,
+        81.4
+      ],
+      "LocalRotation": [
+        5,
+        5,
+        182
+      ],
       "Scale": [
         1.2,
         1.2,
@@ -3203,7 +3455,11 @@
       "WeaponBlueprint": "/Game/AssetDesign/Weapon/Claymore/BP_Claymore_02",
       "GroupName": "HeavyAttack_KnifeWind",
       "FXAsset": "/Game/Asset/Effect/Niagara/Weapon/Claymore/NS_Claymore_GroundWind01.NS_Claymore_GroundWind01",
-      "LocalOffset": {},
+      "LocalOffset": [
+        4.7,
+        0,
+        0
+      ],
       "LocalRotation": [
         0,
         0,
@@ -3225,7 +3481,11 @@
       "WeaponBlueprint": "/Game/AssetDesign/Weapon/Claymore/BP_Claymore_02",
       "GroupName": "HeavyAttack_Knife",
       "FXAsset": "/Game/Asset/Effect/Niagara/Weapon/Claymore/NS_Claymore_Knife_05.NS_Claymore_Knife_05",
-      "LocalOffset": {},
+      "LocalOffset": [
+        7.6,
+        15,
+        115.7
+      ],
       "LocalRotation": [
         0,
         0,
@@ -3247,7 +3507,11 @@
       "WeaponBlueprint": "/Game/AssetDesign/Weapon/Claymore/BP_Claymore_02",
       "GroupName": "HeavyAttack_Cast",
       "FXAsset": "/Game/Asset/Effect/Niagara/Weapon/Claymore/NS_Claymore_Cast.NS_Claymore_Cast",
-      "LocalOffset": {},
+      "LocalOffset": [
+        17.6,
+        0,
+        0
+      ],
       "LocalRotation": [
         0,
         0,
@@ -3268,8 +3532,16 @@
       "WeaponBlueprint": "/Game/AssetDesign/Weapon/Claymore/BP_Claymore_02",
       "GroupName": "HeavyAttack_Loop",
       "FXAsset": "/Game/Asset/Effect/Niagara/Weapon/Claymore/NS_Claymore_Knife_Loop.NS_Claymore_Knife_Loop",
-      "LocalOffset": {},
-      "LocalRotation": {},
+      "LocalOffset": [
+        -20.9,
+        -5.87,
+        131.5
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        23.2
+      ],
       "Scale": [
         1,
         1,
@@ -3287,7 +3559,11 @@
       "WeaponBlueprint": "/Game/AssetDesign/Weapon/Claymore/BP_Claymore_02",
       "GroupName": "HeavyAttack_Wind",
       "FXAsset": "/Game/Asset/Effect/Niagara/Weapon/Claymore/NS_Claymore_GroundWind.NS_Claymore_GroundWind",
-      "LocalOffset": {},
+      "LocalOffset": [
+        0.7,
+        2.63,
+        0
+      ],
       "LocalRotation": [
         0,
         0,
@@ -3310,13 +3586,21 @@
       "WeaponBlueprint": "/Game/AssetDesign/Weapon/Claymore/BP_Claymore_02",
       "GroupName": "Mod01_Attack_01_Knife",
       "FXAsset": "/Game/Asset/Effect/Niagara/Weapon/Claymore/NS_Claymore_ModKnife_01.NS_Claymore_ModKnife_01",
-      "LocalOffset": {},
+      "LocalOffset": [
+        0,
+        100,
+        110
+      ],
       "LocalRotation": [
         150,
         0,
         0
       ],
-      "Scale": {},
+      "Scale": [
+        1.1,
+        1.1,
+        1.1
+      ],
       "EffectId": 1030211,
       "PlayByChar": true,
       "bTickEventWhenPaused": true,
@@ -3328,7 +3612,11 @@
       "WeaponBlueprint": "/Game/AssetDesign/Weapon/Claymore/BP_Claymore_02",
       "GroupName": "Mod01_Attack_01_Wind",
       "FXAsset": "/Game/Asset/Effect/Niagara/Weapon/Claymore/NS_Claymore_Mod_GroundWind.NS_Claymore_Mod_GroundWind",
-      "LocalOffset": {},
+      "LocalOffset": [
+        25,
+        180,
+        2
+      ],
       "LocalRotation": [
         0,
         0,
@@ -3376,7 +3664,11 @@
       "WeaponBlueprint": "/Game/AssetDesign/Weapon/Claymore/BP_Claymore_02",
       "GroupName": "Mod01_Attack_02_Wind",
       "FXAsset": "/Game/Asset/Effect/Niagara/Weapon/Claymore/NS_Claymore_Mod_GroundWind.NS_Claymore_Mod_GroundWind",
-      "LocalOffset": {},
+      "LocalOffset": [
+        0,
+        180,
+        2
+      ],
       "LocalRotation": [
         0,
         0,
@@ -3424,7 +3716,11 @@
       "WeaponBlueprint": "/Game/AssetDesign/Weapon/Claymore/BP_Claymore_02",
       "GroupName": "Mod01_Attack_03_Wind",
       "FXAsset": "/Game/Asset/Effect/Niagara/Weapon/Claymore/NS_Claymore_Mod_GroundWind02.NS_Claymore_Mod_GroundWind02",
-      "LocalOffset": {},
+      "LocalOffset": [
+        -3,
+        180,
+        2
+      ],
       "LocalRotation": [
         0,
         0,
@@ -3446,8 +3742,16 @@
       "WeaponBlueprint": "/Game/AssetDesign/Weapon/Claymore/BP_Claymore_02",
       "GroupName": "Mod01_Attack_04_Knife",
       "FXAsset": "/Game/Asset/Effect/Niagara/Weapon/Claymore/NS_Claymore_ModKnife_04.NS_Claymore_ModKnife_04",
-      "LocalOffset": {},
-      "LocalRotation": {},
+      "LocalOffset": [
+        0,
+        36,
+        80
+      ],
+      "LocalRotation": [
+        120,
+        0,
+        0
+      ],
       "Scale": [
         1.3,
         1.3,
@@ -3464,7 +3768,11 @@
       "WeaponBlueprint": "/Game/AssetDesign/Weapon/Claymore/BP_Claymore_02",
       "GroupName": "Mod01_Attack_04_Wind",
       "FXAsset": "/Game/Asset/Effect/Niagara/Weapon/Claymore/NS_Claymore_Mod_GroundWind02.NS_Claymore_Mod_GroundWind02",
-      "LocalOffset": {},
+      "LocalOffset": [
+        -8,
+        160,
+        2
+      ],
       "LocalRotation": [
         0,
         0,
@@ -3685,7 +3993,11 @@
         0,
         100
       ],
-      "LocalRotation": {},
+      "LocalRotation": [
+        -24,
+        -26.8,
+        23
+      ],
       "Scale": [
         1,
         1,
@@ -3707,7 +4019,11 @@
         0,
         100
       ],
-      "LocalRotation": {},
+      "LocalRotation": [
+        178.2,
+        6.4,
+        142.5
+      ],
       "Scale": [
         1,
         1,
@@ -3729,7 +4045,11 @@
         0,
         100
       ],
-      "LocalRotation": {},
+      "LocalRotation": [
+        -160,
+        -21.2,
+        165
+      ],
       "Scale": [
         1,
         1,
@@ -3777,7 +4097,11 @@
         0,
         100
       ],
-      "LocalRotation": {},
+      "LocalRotation": [
+        0,
+        0,
+        13.6
+      ],
       "Scale": [
         1,
         1,
@@ -3799,7 +4123,11 @@
         0,
         100
       ],
-      "LocalRotation": {},
+      "LocalRotation": [
+        -186,
+        30,
+        151
+      ],
       "Scale": [
         1,
         1,
@@ -3821,7 +4149,11 @@
         0,
         100
       ],
-      "LocalRotation": {},
+      "LocalRotation": [
+        -9,
+        34.4,
+        17
+      ],
       "Scale": [
         1,
         1,
@@ -3869,7 +4201,11 @@
         0,
         100
       ],
-      "LocalRotation": {},
+      "LocalRotation": [
+        -2.3,
+        29.6,
+        10.9
+      ],
       "Scale": [
         1,
         1,
@@ -3886,8 +4222,16 @@
       "WeaponBlueprint": "/Game/AssetDesign/Weapon/Katana/BP_Katana_01",
       "GroupName": "Attack03_02",
       "FXAsset": "/Game/Asset/Effect/Niagara/Weapon/Katana/NS_Katana_RunAttack_KnifeSlash01.NS_Katana_RunAttack_KnifeSlash01",
-      "LocalOffset": {},
-      "LocalRotation": {},
+      "LocalOffset": [
+        0,
+        80,
+        80
+      ],
+      "LocalRotation": [
+        182.4,
+        20.6,
+        144.5
+      ],
       "Scale": [
         1,
         1,
@@ -3957,8 +4301,16 @@
       "WeaponBlueprint": "/Game/AssetDesign/Weapon/Katana/BP_Katana_01",
       "GroupName": "Attack03_slash",
       "FXAsset": "/Game/Asset/Effect/Niagara/Weapon/Katana/NS_Katana_RunAttack_KnifeSlash04.NS_Katana_RunAttack_KnifeSlash04",
-      "LocalOffset": {},
-      "LocalRotation": {},
+      "LocalOffset": [
+        0,
+        210,
+        100
+      ],
+      "LocalRotation": [
+        -6.41,
+        -7.1,
+        -11.52
+      ],
       "Scale": [
         1.3,
         1.3,
@@ -3975,8 +4327,16 @@
       "WeaponBlueprint": "/Game/AssetDesign/Weapon/Katana/BP_Katana_01",
       "GroupName": "Attack04_01",
       "FXAsset": "/Game/Asset/Effect/Niagara/Weapon/Katana/NS_Katana_RunAttack_Flash03.NS_Katana_RunAttack_Flash03",
-      "LocalOffset": {},
-      "LocalRotation": {},
+      "LocalOffset": [
+        0,
+        350,
+        130
+      ],
+      "LocalRotation": [
+        0,
+        -10,
+        0
+      ],
       "Scale": [
         1,
         1,
@@ -4044,8 +4404,16 @@
       "WeaponBlueprint": "/Game/AssetDesign/Weapon/Katana/BP_Katana_01",
       "GroupName": "SlideAttack",
       "FXAsset": "/Game/Asset/Effect/Niagara/Weapon/Katana/NS_Katana_SlideAttack_KnifeSlash.NS_Katana_SlideAttack_KnifeSlash",
-      "LocalOffset": {},
-      "LocalRotation": {},
+      "LocalOffset": [
+        20,
+        130,
+        90
+      ],
+      "LocalRotation": [
+        0,
+        0,
+        -20
+      ],
       "Scale": [
         1.2,
         1.2,
@@ -4088,13 +4456,21 @@
       "WeaponBlueprint": "/Game/AssetDesign/Weapon/Katana/BP_Katana_01",
       "GroupName": "HeavyAttack_AbsorbSmoke",
       "FXAsset": "/Game/Asset/Effect/Niagara/Weapon/Katana/NS_Katana_HeavyAttack_AbsorbSmoke.NS_Katana_HeavyAttack_AbsorbSmoke",
-      "LocalOffset": {},
+      "LocalOffset": [
+        0,
+        250,
+        0
+      ],
       "LocalRotation": [
         0,
         0,
         0
       ],
-      "Scale": {},
+      "Scale": [
+        1.5,
+        1.5,
+        1.5
+      ],
       "PlayByChar": true,
       "bTickEventWhenPaused": true,
       "ChangeColorByChar": true,
@@ -4130,7 +4506,11 @@
       "WeaponBlueprint": "/Game/AssetDesign/Weapon/Katana/BP_Katana_01",
       "GroupName": "HeavyAttack_Shine",
       "FXAsset": "/Game/Asset/Effect/Niagara/Weapon/Katana/NS_Katana_Shine.NS_Katana_Shine",
-      "LocalOffset": {},
+      "LocalOffset": [
+        15,
+        0,
+        0
+      ],
       "LocalRotation": [
         0,
         0,
@@ -4151,7 +4531,11 @@
       "WeaponBlueprint": "/Game/AssetDesign/Weapon/Katana/BP_Katana_01",
       "GroupName": "HeavyAttack_Absorb",
       "FXAsset": "/Game/Asset/Effect/Niagara/Weapon/Katana/NS_Katana_HeavyAttack_Absorb.NS_Katana_HeavyAttack_Absorb",
-      "LocalOffset": {},
+      "LocalOffset": [
+        4.6,
+        -25.96,
+        61.3
+      ],
       "LocalRotation": [
         0,
         0,
@@ -4224,7 +4608,11 @@
       "WeaponBlueprint": "/Game/AssetDesign/Weapon/Katana/BP_Katana_01",
       "GroupName": "HeavyAttack_Mod01_02",
       "FXAsset": "/Game/Asset/Effect/Niagara/Weapon/Katana/NS_Katana_Mod01_Sprint.NS_Katana_Mod01_Sprint",
-      "LocalOffset": {},
+      "LocalOffset": [
+        0,
+        200,
+        90
+      ],
       "LocalRotation": [
         0,
         0,
@@ -4297,7 +4685,11 @@
       "WeaponBlueprint": "/Game/AssetDesign/Weapon/Katana/BP_Katana_01",
       "GroupName": "HeavyAttack_Mod01_05",
       "FXAsset": "/Game/Asset/Effect/Niagara/Weapon/Katana/NS_Katana_Mod01_JumpSmoke02.NS_Katana_Mod01_JumpSmoke02",
-      "LocalOffset": {},
+      "LocalOffset": [
+        -5,
+        0,
+        120
+      ],
       "LocalRotation": [
         0,
         0,
@@ -4324,7 +4716,11 @@
         200,
         0
       ],
-      "LocalRotation": {},
+      "LocalRotation": [
+        0,
+        90,
+        0
+      ],
       "Scale": [
         1,
         1,
@@ -4340,8 +4736,16 @@
       "WeaponBlueprint": "/Game/AssetDesign/Weapon/Katana/BP_Katana_01",
       "GroupName": "HeavyAttack_Mod01_07",
       "FXAsset": "/Game/Asset/Effect/Niagara/Weapon/Katana/NS_Katana_Mod01_Slash.NS_Katana_Mod01_Slash",
-      "LocalOffset": {},
-      "LocalRotation": {},
+      "LocalOffset": [
+        0,
+        200,
+        50
+      ],
+      "LocalRotation": [
+        -88,
+        90,
+        -90
+      ],
       "Scale": [
         1,
         1,

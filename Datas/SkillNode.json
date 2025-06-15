@@ -5,7 +5,10 @@
   },
   "20": {
     "NodeId": 20,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      20,
+      21
+    ],
     "AnimSubPath": "Combat/Hit/",
     "AnimName": "Recover_Montage",
     "AnimPlayRate": 1,
@@ -13,7 +16,12 @@
   },
   "30": {
     "NodeId": 30,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      30,
+      31,
+      32,
+      33
+    ],
     "AnimSubPath": "Combat/Skill/",
     "AnimName": "Condemn_Montage",
     "AnimPlayRate": 1
@@ -22,7 +30,9 @@
     "NodeId": 91,
     "NextNodeId": 91,
     "PhantomAutoInput": 1,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      94
+    ],
     "AnimSubPath": "Combat/Weapon/Machinegun/",
     "AnimName": "Machinegun_Paotai_Shooting_Montage",
     "AnimPlayRate": 1,
@@ -30,84 +40,118 @@
   },
   "401": {
     "NodeId": 401,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      40100,
+      40101,
+      40102
+    ],
     "AnimPath": "/Game/Asset/Char/Player/NPC001_Nvzhu/Animation/Montage/Combat/SupportSkill/",
     "AnimResource": "Nvzhu_Support01_Montage",
     "AnimPlayRate": 1
   },
   "402": {
     "NodeId": 402,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      40200,
+      40201
+    ],
     "AnimPath": "/Game/Asset/Char/Player/NPC001_Nvzhu/Animation/Montage/Combat/SupportSkill/",
     "AnimResource": "Nvzhu_Support02_Montage",
     "AnimPlayRate": 1
   },
   "403": {
     "NodeId": 403,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      40300,
+      40301
+    ],
     "AnimPath": "/Game/Asset/Char/Player/NPC001_Nvzhu/Animation/Montage/Combat/SupportSkill/",
     "AnimResource": "Nvzhu_Support02_Montage",
     "AnimPlayRate": 1
   },
   "404": {
     "NodeId": 404,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      40400,
+      40402,
+      40401
+    ],
     "AnimPath": "/Game/Asset/Char/Player/NPC001_Nvzhu/Animation/Montage/Combat/SupportSkill/",
     "AnimResource": "Nvzhu_Support02_Montage",
     "AnimPlayRate": 1
   },
   "405": {
     "NodeId": 405,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      40500,
+      40501
+    ],
     "AnimPath": "/Game/Asset/Char/Player/NPC001_Nvzhu/Animation/Montage/Combat/SupportSkill/",
     "AnimResource": "Nvzhu_Support02_Montage",
     "AnimPlayRate": 1
   },
   "406": {
     "NodeId": 406,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      40600,
+      40601
+    ],
     "AnimPath": "/Game/Asset/Char/Player/NPC001_Nvzhu/Animation/Montage/Combat/SupportSkill/",
     "AnimResource": "Nvzhu_Support01_Montage",
     "AnimPlayRate": 1
   },
   "407": {
     "NodeId": 407,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      40701
+    ],
     "AnimPath": "/Game/Asset/Char/Player/NPC001_Nvzhu/Animation/Montage/Combat/SupportSkill/",
     "AnimResource": "Nvzhu_Support02_Montage",
     "AnimPlayRate": 1
   },
   "408": {
     "NodeId": 408,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      40801
+    ],
     "AnimPath": "/Game/Asset/Char/Player/NPC001_Nvzhu/Animation/Montage/Combat/SupportSkill/",
     "AnimResource": "Nvzhu_Support02_Montage",
     "AnimPlayRate": 1
   },
   "409": {
     "NodeId": 409,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      40901
+    ],
     "AnimPath": "/Game/Asset/Char/Player/NPC001_Nvzhu/Animation/Montage/Combat/SupportSkill/",
     "AnimResource": "Nvzhu_Support02_Montage",
     "AnimPlayRate": 1
   },
   "491": {
     "NodeId": 491,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      49100,
+      49101
+    ],
     "AnimPath": "/Game/Asset/Char/Player/NPC001_Nvzhu/Animation/Montage/Combat/SupportSkill/",
     "AnimResource": "Nvzhu_Support02_Montage",
     "AnimPlayRate": 1
   },
   "492": {
     "NodeId": 492,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      49200,
+      49201
+    ],
     "AnimPath": "/Game/Asset/Char/Player/NPC001_Nvzhu/Animation/Montage/Combat/SupportSkill/",
     "AnimResource": "Nvzhu_Support01_Montage",
     "AnimPlayRate": 1
   },
   "10011": {
     "NodeId": 10011,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      10011
+    ],
     "AnimPath": "/Game/Asset/Char/Player/NPC001_Nvzhu/Animation/Montage/Combat/Skill/",
     "AnimResource": "Nvzhu_Skill01_Montage",
     "AnimPlayRate": 1,
@@ -115,7 +159,11 @@
   },
   "20111": {
     "NodeId": 20111,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      20111,
+      20113,
+      20115
+    ],
     "AnimPath": "/Game/Asset/Char/Npc/Npc_Awa/Animation/Montage/Combat/Skill/",
     "AnimResource": "Awa_Skill01_Montage",
     "AnimPlayRate": 1,
@@ -123,7 +171,9 @@
   },
   "20121": {
     "NodeId": 20121,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      20121
+    ],
     "AnimPath": "/Game/Asset/Char/Npc/Npc_Awa/Animation/Montage/Combat/Skill/",
     "AnimResource": "Awa_Skill02_Montage",
     "AnimPlayRate": 1,
@@ -131,7 +181,9 @@
   },
   "20211": {
     "NodeId": 20211,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      20211
+    ],
     "AnimPath": "/Game/Asset/Char/Npc/NPC_Dafu/Animation/Montage/Combat/Skill/",
     "AnimResource": "Dafu_Skill01_Montage",
     "AnimPlayRate": 1,
@@ -139,7 +191,10 @@
   },
   "20221": {
     "NodeId": 20221,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      20221,
+      20222
+    ],
     "AnimPath": "/Game/Asset/Char/Npc/NPC_Dafu/Animation/Montage/Combat/Skill/",
     "AnimResource": "Dafu_Skill02_Montage",
     "AnimPlayRate": 1,
@@ -174,7 +229,10 @@
   },
   "110121": {
     "NodeId": 110121,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      110121,
+      110122
+    ],
     "AnimPath": "/Game/Asset/Char/Player/Char001_Heitao_J/Animation/Montage/Combat/Skill/",
     "AnimResource": "Heitao_Skill02_On_Montage",
     "AnimPlayRate": 1,
@@ -184,7 +242,9 @@
   },
   "110131": {
     "NodeId": 110131,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      110131
+    ],
     "AnimPath": "/Game/Asset/Char/Player/Char001_Heitao_J/Animation/Montage/Combat/Skill/",
     "AnimResource": "Heitao_Skill02_Off_Montage",
     "AnimPlayRate": 1,
@@ -194,7 +254,10 @@
     "NodeId": 110141,
     "NextNodeId": 110142,
     "PhantomAutoInput": 1,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      110141,
+      110146
+    ],
     "AnimPath": "/Game/Asset/Char/Player/Char001_Heitao_J/Animation/Montage/Combat/Skill/",
     "AnimResource": "Heitao_Skill02_01_Montage",
     "AnimPlayRate": 1,
@@ -205,7 +268,10 @@
     "NodeId": 110142,
     "NextNodeId": 110143,
     "PhantomAutoInput": 1,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      110142,
+      110147
+    ],
     "AnimPath": "/Game/Asset/Char/Player/Char001_Heitao_J/Animation/Montage/Combat/Skill/",
     "AnimResource": "Heitao_Skill02_02_Montage",
     "AnimPlayRate": 1,
@@ -216,7 +282,10 @@
     "NodeId": 110143,
     "NextNodeId": 110144,
     "PhantomAutoInput": 1,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      110143,
+      110148
+    ],
     "AnimPath": "/Game/Asset/Char/Player/Char001_Heitao_J/Animation/Montage/Combat/Skill/",
     "AnimResource": "Heitao_Skill02_03_Montage",
     "AnimPlayRate": 1,
@@ -227,7 +296,10 @@
     "NodeId": 110144,
     "NextNodeId": 110145,
     "PhantomAutoInput": 1,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      110144,
+      110149
+    ],
     "AnimPath": "/Game/Asset/Char/Player/Char001_Heitao_J/Animation/Montage/Combat/Skill/",
     "AnimResource": "Heitao_Skill02_04_Montage",
     "AnimPlayRate": 1,
@@ -238,7 +310,10 @@
     "NodeId": 110145,
     "NextNodeId": 110142,
     "PhantomAutoInput": 2,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      110145,
+      110150
+    ],
     "AnimPath": "/Game/Asset/Char/Player/Char001_Heitao_J/Animation/Montage/Combat/Skill/",
     "AnimResource": "Heitao_Skill02_05_Montage",
     "AnimPlayRate": 1,
@@ -249,7 +324,10 @@
     "NodeId": 110151,
     "NextNodeId": 110152,
     "PhantomAutoInput": 1,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      110141,
+      110161
+    ],
     "AnimPath": "/Game/Asset/Char/Player/Char001_Heitao_J/Animation/Montage/Combat/Skill/",
     "AnimResource": "Heitao_Skill02_01_Montage",
     "AnimPlayRate": 1,
@@ -260,7 +338,10 @@
     "NodeId": 110152,
     "NextNodeId": 110153,
     "PhantomAutoInput": 1,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      110142,
+      110162
+    ],
     "AnimPath": "/Game/Asset/Char/Player/Char001_Heitao_J/Animation/Montage/Combat/Skill/",
     "AnimResource": "Heitao_Skill02_02_Montage",
     "AnimPlayRate": 1,
@@ -271,7 +352,10 @@
     "NodeId": 110153,
     "NextNodeId": 110154,
     "PhantomAutoInput": 1,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      110143,
+      110163
+    ],
     "AnimPath": "/Game/Asset/Char/Player/Char001_Heitao_J/Animation/Montage/Combat/Skill/",
     "AnimResource": "Heitao_Skill02_03_Montage",
     "AnimPlayRate": 1,
@@ -282,7 +366,10 @@
     "NodeId": 110154,
     "NextNodeId": 110155,
     "PhantomAutoInput": 1,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      110144,
+      110164
+    ],
     "AnimPath": "/Game/Asset/Char/Player/Char001_Heitao_J/Animation/Montage/Combat/Skill/",
     "AnimResource": "Heitao_Skill02_04_Montage",
     "AnimPlayRate": 1,
@@ -293,7 +380,10 @@
     "NodeId": 110155,
     "NextNodeId": 110152,
     "PhantomAutoInput": 2,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      110145,
+      110165
+    ],
     "AnimPath": "/Game/Asset/Char/Player/Char001_Heitao_J/Animation/Montage/Combat/Skill/",
     "AnimResource": "Heitao_Skill02_05_Montage",
     "AnimPlayRate": 1,
@@ -302,7 +392,9 @@
   },
   "110211": {
     "NodeId": 110211,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      110212
+    ],
     "AnimPath": "/Game/Asset/Char/Player/Char006_Haier/Animation/Montage/Combat/Skill/",
     "AnimResource": "Haier_Skill02_Montage",
     "AnimPlayRate": 1,
@@ -310,7 +402,10 @@
   },
   "110221": {
     "NodeId": 110221,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      110221,
+      110222
+    ],
     "AnimPath": "/Game/Asset/Char/Player/Char001_Heitao_J/Animation/Montage/Combat/Skill/",
     "AnimResource": "Heitao_Skill02_On_Montage",
     "AnimPlayRate": 1,
@@ -319,7 +414,10 @@
   },
   "180111": {
     "NodeId": 180111,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      180111,
+      180112
+    ],
     "AnimPath": "/Game/Asset/Char/Player/Char019_Feina/Animation/Montage/Combat/Skill/",
     "AnimResource": "Feina_Skill01_Montage",
     "AnimPlayRate": 1,
@@ -328,7 +426,9 @@
   },
   "180121": {
     "NodeId": 180121,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      180123
+    ],
     "AnimPath": "/Game/Asset/Char/Player/Char019_Feina/Animation/Montage/Combat/Skill/",
     "AnimResource": "Feina_Skill02_On_Montage",
     "AnimPlayRate": 1,
@@ -337,7 +437,9 @@
   },
   "180122": {
     "NodeId": 180122,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      180122
+    ],
     "AnimPath": "/Game/Asset/Char/Player/Char019_Feina/Animation/Montage/Combat/Skill/",
     "AnimResource": "Feina_Skill02_Off_Montage",
     "AnimPlayRate": 1,
@@ -345,7 +447,9 @@
   },
   "210111": {
     "NodeId": 210111,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      210111
+    ],
     "AnimPath": "/Game/Asset/Char/Player/Char005_Shuimu/Animation/Montage/Combat/Skill/",
     "AnimResource": "Shuimu_Skill01_Montage",
     "AnimPlayRate": 1,
@@ -354,7 +458,9 @@
   },
   "210112": {
     "NodeId": 210112,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      210112
+    ],
     "AnimPath": "/Game/Asset/Char/Player/Char005_Shuimu/Animation/Summon/Montage/Combat/Skill/",
     "AnimResource": "Shuimu_Summon_Attack_Montage",
     "AnimPlayRate": 1,
@@ -362,7 +468,9 @@
   },
   "210113": {
     "NodeId": 210113,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      210113
+    ],
     "AnimPath": "/Game/Asset/Char/Player/Char005_Shuimu/Animation/Montage/Combat/Skill/",
     "AnimResource": "Shuimu_Skill01_Montage",
     "AnimPlayRate": 1,
@@ -371,7 +479,9 @@
   },
   "210114": {
     "NodeId": 210114,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      210114
+    ],
     "AnimPath": "/Game/Asset/Char/Player/Char005_Shuimu/Animation/Summon/Montage/Combat/Skill/",
     "AnimResource": "Shuimu_Summon_Attack_Montage",
     "AnimPlayRate": 1,
@@ -379,7 +489,9 @@
   },
   "210115": {
     "NodeId": 210115,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      210115
+    ],
     "AnimPath": "/Game/Asset/Char/Player/Char005_Shuimu/Animation/Montage/Combat/Skill/",
     "AnimResource": "Shuimu_Skill01_Loop_Montage",
     "AnimPlayRate": 1,
@@ -388,7 +500,9 @@
   },
   "210116": {
     "NodeId": 210116,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      210116
+    ],
     "AnimPath": "/Game/Asset/Char/Player/Char005_Shuimu/Animation/Montage/Combat/Skill/",
     "AnimResource": "Shuimu_Skill01_Loop_Montage",
     "AnimPlayRate": 1,
@@ -397,7 +511,11 @@
   },
   "210121": {
     "NodeId": 210121,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      210121,
+      210122,
+      210123
+    ],
     "AnimPath": "/Game/Asset/Char/Player/Char005_Shuimu/Animation/Montage/Combat/Skill/",
     "AnimResource": "Shuimu_Skill02_Montage",
     "AnimPlayRate": 1,
@@ -407,7 +525,11 @@
   },
   "230111": {
     "NodeId": 230111,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      230111,
+      230112,
+      230113
+    ],
     "AnimPath": "/Game/Asset/Char/Player/Char004_Zhangyu/Animation/Montage/Combat/Skill/",
     "AnimResource": "Zhangyu_Skill01_Montage",
     "AnimPlayRate": 1,
@@ -416,7 +538,12 @@
   },
   "230121": {
     "NodeId": 230121,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      230120,
+      230121,
+      230122,
+      230123
+    ],
     "AnimPath": "/Game/Asset/Char/Player/Char004_Zhangyu/Animation/Montage/Combat/Skill/",
     "AnimResource": "Zhangyu_Skill02_Montage",
     "AnimPlayRate": 1,
@@ -425,7 +552,12 @@
   },
   "230122": {
     "NodeId": 230122,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      230120,
+      230124,
+      230125,
+      230126
+    ],
     "AnimPath": "/Game/Asset/Char/Player/Char004_Zhangyu/Animation/Montage/Combat/Skill/",
     "AnimResource": "Zhangyu_Skill02_Montage",
     "AnimPlayRate": 1,
@@ -434,7 +566,9 @@
   },
   "230131": {
     "NodeId": 230131,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      230135
+    ],
     "AnimPath": "/Game/Asset/Char/Player/Char004_Zhangyu/Animation/Tentacle/Montage/Combat/Skill/",
     "AnimResource": "Zhangyu_Tentacle_Attack01_Montage",
     "AnimPlayRate": 1,
@@ -442,7 +576,9 @@
   },
   "230132": {
     "NodeId": 230132,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      230133
+    ],
     "AnimPath": "/Game/Asset/Char/Player/Char004_Zhangyu/Animation/Tentacle/Montage/Combat/Skill/",
     "AnimResource": "Zhangyu_Tentacle_Attack02_Montage",
     "AnimPlayRate": 1,
@@ -450,7 +586,9 @@
   },
   "240111": {
     "NodeId": 240111,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      240111
+    ],
     "AnimPath": "/Game/Asset/Char/Player/Char015_Baiheng/Animation/Montage/Combat/Skill/",
     "AnimResource": "Baiheng_Skill01_Montage",
     "AnimPlayRate": 1,
@@ -459,7 +597,9 @@
   },
   "240112": {
     "NodeId": 240112,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      240112
+    ],
     "AnimPath": "/Game/Asset/Char/Player/Char015_Baiheng/Animation/Montage/Combat/Skill/",
     "AnimResource": "Baiheng_Skill01_Montage",
     "AnimPlayRate": 1,
@@ -468,7 +608,10 @@
   },
   "240121": {
     "NodeId": 240121,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      240121,
+      240122
+    ],
     "AnimPath": "/Game/Asset/Char/Player/Char015_Baiheng/Animation/Montage/Combat/Skill/",
     "AnimResource": "Baiheng_Skill02_Montage",
     "AnimPlayRate": 1,
@@ -477,7 +620,10 @@
   },
   "240123": {
     "NodeId": 240123,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      240125,
+      240122
+    ],
     "AnimPath": "/Game/Asset/Char/Player/Char015_Baiheng/Animation/Montage/Combat/Skill/",
     "AnimResource": "Baiheng_Skill02_Montage",
     "AnimPlayRate": 1,
@@ -486,7 +632,9 @@
   },
   "240141": {
     "NodeId": 240141,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      240141
+    ],
     "AnimPath": "/Game/Asset/Char/Player/Char015_Baiheng/Animation/Summon/Montage/Combat/Skill/",
     "AnimResource": "Baiheng_Summon_Skill01_Montage",
     "AnimPlayRate": 1,
@@ -494,7 +642,9 @@
   },
   "310111": {
     "NodeId": 310111,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      310111
+    ],
     "AnimPath": "/Game/Asset/Char/Player/Char011_Linen/Animation/Montage/Combat/Skill/",
     "AnimResource": "Linen_Skill01_Montage",
     "AnimPlayRate": 1,
@@ -503,7 +653,10 @@
   },
   "310121": {
     "NodeId": 310121,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      310120,
+      310121
+    ],
     "AnimPath": "/Game/Asset/Char/Player/Char011_Linen/Animation/Montage/Combat/Skill/",
     "AnimResource": "Linen_Skill02_On_Montage",
     "AnimPlayRate": 1,
@@ -512,7 +665,9 @@
   },
   "310122": {
     "NodeId": 310122,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      310123
+    ],
     "AnimPath": "/Game/Asset/Char/Player/Char011_Linen/Animation/Montage/Combat/Skill/",
     "AnimResource": "Linen_Skill02_Off_Montage",
     "AnimPlayRate": 1,
@@ -520,7 +675,10 @@
   },
   "310123": {
     "NodeId": 310123,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      310121,
+      310122
+    ],
     "AnimPath": "/Game/Asset/Char/Player/Char011_Linen/Animation/Montage/Combat/Skill/",
     "AnimResource": "Linen_Skill02_On_Montage",
     "AnimPlayRate": 1,
@@ -579,7 +737,10 @@
     "NodeId": 310145,
     "NextNodeId": 310141,
     "PhantomAutoInput": 1,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      310131,
+      310134
+    ],
     "AnimPath": "/Game/Asset/Char/Player/Char011_Linen/Animation/Montage/Combat/Skill/",
     "AnimResource": "Linen_Skill02_05_Montage",
     "AnimPlayRate": 1,
@@ -587,7 +748,10 @@
   },
   "310211": {
     "NodeId": 310211,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      310202,
+      310203
+    ],
     "AnimPath": "/Game/Asset/Char/Player/Char023_Xier/Animation/Montage/Combat/Skill/",
     "AnimResource": "Xier_Skill02_Montage",
     "AnimPlayRate": 1,
@@ -623,7 +787,9 @@
   },
   "310321": {
     "NodeId": 310321,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      310321
+    ],
     "AnimPath": "/Game/Asset/Char/Player/Char017_Yeer/Animation/Montage/Combat/Skill/",
     "AnimResource": "Yeer_Skill02_On_Montage",
     "AnimPlayRate": 1,
@@ -633,7 +799,9 @@
   },
   "320111": {
     "NodeId": 320111,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      320111
+    ],
     "AnimPath": "/Game/Asset/Char/Player/Char006_Haier/Animation/Montage/Combat/Skill/",
     "AnimResource": "Haier_Skill01_Montage",
     "AnimPlayRate": 1,
@@ -642,7 +810,9 @@
   },
   "320121": {
     "NodeId": 320121,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      320123
+    ],
     "AnimPath": "/Game/Asset/Char/Player/Char006_Haier/Animation/Montage/Combat/Skill/",
     "AnimResource": "Haier_Skill02_Montage",
     "AnimPlayRate": 1,
@@ -651,7 +821,10 @@
   },
   "330111": {
     "NodeId": 330111,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      330111,
+      330112
+    ],
     "AnimPath": "/Game/Asset/Char/Player/Char024_Maer/Animation/Montage/Combat/Skill/",
     "AnimResource": "Maer_Skill01_Montage",
     "AnimPlayRate": 1,
@@ -660,7 +833,12 @@
   },
   "330112": {
     "NodeId": 330112,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      330113,
+      330114,
+      330115,
+      330116
+    ],
     "AnimPath": "/Game/Asset/Char/Player/Char024_Maer/Animation/Montage/Combat/Skill/",
     "AnimResource": "Maer_Skill01_Loop_Montage",
     "AnimPlayRate": 1,
@@ -669,7 +847,10 @@
   },
   "330121": {
     "NodeId": 330121,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      330121,
+      330130
+    ],
     "AnimPath": "/Game/Asset/Char/Player/Char024_Maer/Animation/Montage/Combat/Skill/",
     "AnimResource": "Maer_Skill02_Montage",
     "AnimPlayRate": 1,
@@ -678,7 +859,9 @@
   },
   "410111": {
     "NodeId": 410111,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      410111
+    ],
     "AnimPath": "/Game/Asset/Char/Player/Char007_Baonu/Animation/Montage/Combat/Skill/",
     "AnimResource": "Baonu_Skill01_Montage",
     "AnimPlayRate": 1,
@@ -687,7 +870,10 @@
   },
   "410121": {
     "NodeId": 410121,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      410122,
+      410121
+    ],
     "AnimPath": "/Game/Asset/Char/Player/Char007_Baonu/Animation/Montage/Combat/Skill/",
     "AnimResource": "Baonu_Skill02_On_Montage",
     "AnimPlayRate": 1,
@@ -696,7 +882,9 @@
   },
   "410122": {
     "NodeId": 410122,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      410124
+    ],
     "AnimPath": "/Game/Asset/Char/Player/Char007_Baonu/Animation/Montage/Combat/Skill/",
     "AnimResource": "Baonu_Skill02_Reuse_Montage",
     "AnimPlayRate": 1,
@@ -728,7 +916,10 @@
   },
   "420111": {
     "NodeId": 420111,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      420111,
+      420112
+    ],
     "AnimPath": "/Game/Asset/Char/Player/Char008_Yuming/Animation/Montage/Combat/Skill/",
     "AnimResource": "Yuming_Skill01_Montage",
     "AnimPlayRate": 1,
@@ -737,7 +928,10 @@
   },
   "420121": {
     "NodeId": 420121,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      420121,
+      420122
+    ],
     "AnimPath": "/Game/Asset/Char/Player/Char008_Yuming/Animation/Montage/Combat/Skill/",
     "AnimResource": "Yuming_Skill02_Montage",
     "AnimPlayRate": 1,
@@ -753,7 +947,10 @@
   },
   "420211": {
     "NodeId": 420211,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      420211,
+      420214
+    ],
     "AnimPath": "/Game/Asset/Char/Player/Char012_Landi/Animation/Montage/Combat/Skill/",
     "AnimResource": "Landi_Skill01_Montage",
     "AnimPlayRate": 1,
@@ -762,7 +959,9 @@
   },
   "420221": {
     "NodeId": 420221,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      420221
+    ],
     "AnimPath": "/Game/Asset/Char/Player/Char012_Landi/Animation/Montage/Combat/Skill/",
     "AnimResource": "Landi_Skill02_Montage",
     "AnimPlayRate": 1,
@@ -772,7 +971,9 @@
   },
   "420241": {
     "NodeId": 420241,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      420213
+    ],
     "AnimPath": "/Game/Asset/Char/Player/Char012_Landi/Animation/Montage/Combat/Skill/",
     "AnimResource": "Landi_Skill01_End_Montage",
     "AnimPlayRate": 1,
@@ -836,7 +1037,9 @@
   },
   "430121": {
     "NodeId": 430121,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      430121
+    ],
     "AnimPath": "/Game/Asset/Char/Player/Char009_Xibi/Animation/Montage/Combat/Skill/",
     "AnimResource": "Xibi_Skill02_Montage",
     "AnimPlayRate": 1,
@@ -845,7 +1048,10 @@
   },
   "510111": {
     "NodeId": 510111,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      510114,
+      510111
+    ],
     "AnimPath": "/Game/Asset/Char/Player/Char021_Songlu/Animation/Montage/Combat/Skill/",
     "AnimResource": "Songlu_Skill01_Montage",
     "AnimPlayRate": 1,
@@ -854,7 +1060,10 @@
   },
   "510112": {
     "NodeId": 510112,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      510113,
+      510116
+    ],
     "AnimPath": "/Game/Asset/Char/Player/Char021_Songlu/Animation/Montage/Combat/Skill/",
     "AnimResource": "Songlu_Skill01_Ride_HitWall_Montage",
     "AnimPlayRate": 1,
@@ -863,7 +1072,9 @@
   },
   "510121": {
     "NodeId": 510121,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      510121
+    ],
     "AnimPath": "/Game/Asset/Char/Player/Char021_Songlu/Animation/Montage/Combat/Skill/",
     "AnimResource": "Songlu_Skill02_On_Montage",
     "AnimPlayRate": 1.2,
@@ -872,7 +1083,9 @@
   },
   "510122": {
     "NodeId": 510122,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      510122
+    ],
     "AnimPath": "/Game/Asset/Char/Player/Char021_Songlu/Animation/Montage/Combat/Skill/",
     "AnimResource": "Songlu_Skill02_Off_Montage",
     "AnimPlayRate": 1,
@@ -882,7 +1095,9 @@
   "510141": {
     "NodeId": 510141,
     "NextNodeId": 510142,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      510141
+    ],
     "AnimPath": "/Game/Asset/Char/Player/Char021_Songlu/Animation/Montage/Combat/Skill/",
     "AnimResource": "Songlu_Skill02_RunAttack_01_Montage",
     "AnimPlayRate": 1.2,
@@ -891,7 +1106,9 @@
   "510142": {
     "NodeId": 510142,
     "NextNodeId": 510141,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      510142
+    ],
     "AnimPath": "/Game/Asset/Char/Player/Char021_Songlu/Animation/Montage/Combat/Skill/",
     "AnimResource": "Songlu_Skill02_RunAttack_02_Montage",
     "AnimPlayRate": 1.2,
@@ -899,7 +1116,10 @@
   },
   "510151": {
     "NodeId": 510151,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      510151,
+      510152
+    ],
     "AnimPath": "/Game/Asset/Char/Player/Char021_Songlu/Animation/Montage/Combat/Skill/",
     "AnimResource": "Songlu_Skill02_FallAttack_Montage",
     "AnimPlayRate": 1,
@@ -907,7 +1127,9 @@
   },
   "510211": {
     "NodeId": 510211,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      510211
+    ],
     "AnimPath": "/Game/Asset/Char/Player/Char018_Aote/Animation/Montage/Combat/Skill/",
     "AnimResource": "Aote_Skill01_Montage",
     "AnimPlayRate": 1,
@@ -916,7 +1138,9 @@
   },
   "510221": {
     "NodeId": 510221,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      510221
+    ],
     "AnimPath": "/Game/Asset/Char/Player/Char018_Aote/Animation/Montage/Combat/Skill/",
     "AnimResource": "Aote_Skill02_Montage",
     "AnimPlayRate": 1,
@@ -925,7 +1149,9 @@
   },
   "530111": {
     "NodeId": 530111,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      530112
+    ],
     "AnimPath": "/Game/Asset/Char/Player/Char010_Saiqi/Animation/Montage/Combat/Skill/",
     "AnimResource": "Saiqi_Skill01_Montage",
     "AnimPlayRate": 1,
@@ -934,7 +1160,10 @@
   },
   "530112": {
     "NodeId": 530112,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      530112,
+      530110
+    ],
     "AnimPath": "/Game/Asset/Char/Player/Char010_Saiqi/Animation/Montage/Combat/Skill/",
     "AnimResource": "Saiqi_Skill01_Montage",
     "AnimPlayRate": 1,
@@ -943,7 +1172,10 @@
   },
   "530121": {
     "NodeId": 530121,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      530120,
+      530143
+    ],
     "AnimPath": "/Game/Asset/Char/Player/Char010_Saiqi/Animation/Montage/Combat/Skill/",
     "AnimResource": "Saiqi_Skill02_On_Montage",
     "AnimPlayRate": 1,
@@ -952,7 +1184,10 @@
   },
   "530122": {
     "NodeId": 530122,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      530122,
+      530144
+    ],
     "AnimPath": "/Game/Asset/Char/Player/Char010_Saiqi/Animation/Montage/Combat/Skill/",
     "AnimResource": "Saiqi_Skill02_Off_Montage",
     "AnimPlayRate": 1,
@@ -960,7 +1195,12 @@
   },
   "530123": {
     "NodeId": 530123,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      530123,
+      530126,
+      530141,
+      530142
+    ],
     "AnimPath": "/Game/Asset/Char/Player/Char010_Saiqi/Animation/Montage/Combat/Skill/",
     "AnimResource": "Saiqi_Skill02_Montage",
     "AnimPlayRate": 1,
@@ -969,7 +1209,9 @@
   },
   "600101": {
     "NodeId": 600101,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      600101
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/GR_Jichong/Animation/Montage/Combat/Skill/",
     "AnimResource": "GR_Jichong_Attack01_Montage",
     "AnimPlayRate": 1,
@@ -978,7 +1220,9 @@
   },
   "600102": {
     "NodeId": 600102,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      600102
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/GR_Jichong/Animation/Montage/Combat/Skill/",
     "AnimResource": "GR_Jichong_Attack02_Montage",
     "AnimPlayRate": 1,
@@ -987,7 +1231,9 @@
   },
   "600103": {
     "NodeId": 600103,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      600103
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/GR_Jichong/Animation/Montage/Combat/Skill/",
     "AnimResource": "GR_Jichong_Skill01_Montage",
     "AnimPlayRate": 1,
@@ -1013,7 +1259,9 @@
   },
   "600201": {
     "NodeId": 600201,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      600201
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/GR_Youji/Animation/Montage/Combat/Skill/",
     "AnimResource": "GR_Youji_Attack02_Montage",
     "AnimPlayRate": 1,
@@ -1021,7 +1269,10 @@
   },
   "600202": {
     "NodeId": 600202,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      600202,
+      600203
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/GR_Youji/Animation/Montage/Combat/Skill/",
     "AnimResource": "GR_Youji_Attack01_Montage",
     "AnimPlayRate": 1,
@@ -1069,7 +1320,9 @@
   },
   "600301": {
     "NodeId": 600301,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      600301
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/GR_Piaofu/Animation/Montage/Combat/Skill/",
     "AnimResource": "GR_Piaofu_Attack01_Montage",
     "AnimPlayRate": 1,
@@ -1077,7 +1330,10 @@
   },
   "600302": {
     "NodeId": 600302,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      600302,
+      600303
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/GR_Piaofu/Animation/Montage/Combat/Skill/",
     "AnimResource": "GR_Piaofu_Skill01_Montage",
     "AnimPlayRate": 1,
@@ -1085,7 +1341,9 @@
   },
   "600303": {
     "NodeId": 600303,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      600304
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/GR_Piaofu/Animation/Montage/Combat/Skill/",
     "AnimResource": "GR_Piaofu_C01_Skill01_Montage",
     "AnimPlayRate": 1,
@@ -1104,7 +1362,9 @@
   },
   "600401": {
     "NodeId": 600401,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      600401
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/GR_Baotu/Animation/Montage/Combat/Skill/",
     "AnimResource": "GR_Baotu_Attack01_Montage",
     "AnimPlayRate": 1,
@@ -1113,7 +1373,9 @@
   },
   "600402": {
     "NodeId": 600402,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      600402
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/GR_Baotu/Animation/Montage/Combat/Skill/",
     "AnimResource": "GR_Baotu_Attack02_Montage",
     "AnimPlayRate": 1,
@@ -1122,7 +1384,13 @@
   },
   "600403": {
     "NodeId": 600403,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      600403,
+      600404,
+      600405,
+      600406,
+      600407
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/GR_Baotu/Animation/Montage/Combat/Skill/",
     "AnimResource": "GR_Baotu_Skill01_Montage",
     "AnimPlayRate": 1,
@@ -1130,7 +1398,10 @@
   },
   "600404": {
     "NodeId": 600404,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      600408,
+      600409
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/GR_Baotu/Animation/Montage/Combat/Skill/",
     "AnimResource": "GR_Baotu_Skill02_Montage",
     "AnimPlayRate": 1,
@@ -1149,7 +1420,9 @@
   },
   "600501": {
     "NodeId": 600501,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      600501
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/GR_Longcao/Animation/Montage/Combat/Skill/",
     "AnimResource": "GR_Longcao_Attack01_Montage",
     "AnimPlayRate": 1,
@@ -1227,7 +1500,9 @@
   },
   "601101": {
     "NodeId": 601101,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      601101
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/GR_Jichong/Animation/Montage/Combat/Skill/",
     "AnimResource": "GR_Jichong_C01_Skill01_Montage",
     "AnimPlayRate": 1,
@@ -1235,7 +1510,10 @@
   },
   "601201": {
     "NodeId": 601201,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      601201,
+      601205
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/GR_Youji/Animation/Montage/Combat/Skill/",
     "AnimResource": "GR_Youji_C01_Attack02_Montage",
     "AnimPlayRate": 1,
@@ -1243,7 +1521,10 @@
   },
   "601202": {
     "NodeId": 601202,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      601201,
+      601202
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/GR_Youji/Animation/Montage/Combat/Skill/",
     "AnimResource": "GR_Youji_C01_Attack01_Montage",
     "AnimPlayRate": 1,
@@ -1251,7 +1532,10 @@
   },
   "601301": {
     "NodeId": 601301,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      601301,
+      601302
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/GR_Piaofu/Animation/Montage/Combat/Skill/",
     "AnimResource": "GR_Piaofu_C01_Skill02_Montage",
     "AnimPlayRate": 1,
@@ -1259,7 +1543,9 @@
   },
   "601302": {
     "NodeId": 601302,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      601304
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/GR_Piaofu/Animation/Montage/Combat/Skill/",
     "AnimResource": "GR_Piaofu_C01_Attack01_Montage",
     "AnimPlayRate": 1,
@@ -1267,7 +1553,9 @@
   },
   "601401": {
     "NodeId": 601401,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      601401
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/GR_Baotu/Animation/Montage/Combat/Skill/",
     "AnimResource": "GR_Baotu_C01_Attack01_Montage",
     "AnimPlayRate": 1,
@@ -1276,7 +1564,9 @@
   },
   "601402": {
     "NodeId": 601402,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      601402
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/GR_Baotu/Animation/Montage/Combat/Skill/",
     "AnimResource": "GR_Baotu_C01_Attack02_Montage",
     "AnimPlayRate": 1,
@@ -1285,7 +1575,10 @@
   },
   "601403": {
     "NodeId": 601403,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      601403,
+      601404
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/GR_Baotu/Animation/Montage/Combat/Skill/",
     "AnimResource": "GR_Baotu_C01_Skill01_Montage",
     "AnimPlayRate": 1,
@@ -1293,7 +1586,10 @@
   },
   "700101": {
     "NodeId": 700101,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      700101,
+      700106
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/JT_Juji/Animation/Montage/Combat/Skill/",
     "AnimResource": "JT_Juji_Attack01_Montage",
     "AnimPlayRate": 1,
@@ -1301,7 +1597,10 @@
   },
   "700102": {
     "NodeId": 700102,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      700102,
+      700108
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/JT_Juji/Animation/Montage/Combat/Skill/",
     "AnimResource": "JT_Juji_Skill01_Montage",
     "AnimPlayRate": 1,
@@ -1316,7 +1615,9 @@
   },
   "700104": {
     "NodeId": 700104,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      700109
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/JT_Juji/Animation/Montage/Combat/Skill/",
     "AnimResource": "JT_Juji_Single_Attack01_Montage",
     "AnimPlayRate": 1,
@@ -1325,7 +1626,9 @@
   },
   "700105": {
     "NodeId": 700105,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      700110
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/JT_Juji/Animation/Montage/Combat/Skill/",
     "AnimResource": "JT_Juji_Single_Attack02_Montage",
     "AnimPlayRate": 1,
@@ -1345,7 +1648,9 @@
   },
   "700201": {
     "NodeId": 700201,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      700201
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/JT_Pizhuo/Animation/Montage/Combat/Skill/",
     "AnimResource": "JT_Pizhuo_Attack01_Montage",
     "AnimPlayRate": 1,
@@ -1354,7 +1659,9 @@
   },
   "700202": {
     "NodeId": 700202,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      700202
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/JT_Pizhuo/Animation/Montage/Combat/Skill/",
     "AnimResource": "JT_Pizhuo_Attack02_Montage",
     "AnimPlayRate": 1,
@@ -1363,7 +1670,9 @@
   },
   "700203": {
     "NodeId": 700203,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      700203
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/JT_Pizhuo/Animation/Montage/Combat/Skill/",
     "AnimResource": "JT_Pizhuo_Skill01_Montage",
     "AnimPlayRate": 1,
@@ -1389,7 +1698,9 @@
   },
   "700215": {
     "NodeId": 700215,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      600003
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/JT_Pizhuo/Animation/Montage/Combat/Skill/",
     "AnimResource": "JT_Pizhuo_DYZAlarmTest_Montage",
     "AnimPlayRate": 1,
@@ -1397,7 +1708,9 @@
   },
   "700223": {
     "NodeId": 700223,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      700223
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/JT_Pizhuo/Animation/Montage/Combat/Skill/",
     "AnimResource": "JT_Pizhuo_Skill02_Montage",
     "AnimPlayRate": 1,
@@ -1405,7 +1718,9 @@
   },
   "700224": {
     "NodeId": 700224,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      700224
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/JT_Pizhuo/Animation/Montage/Combat/Skill/",
     "AnimResource": "JT_Pizhuo_Skill03_Montage",
     "AnimPlayRate": 1,
@@ -1413,7 +1728,9 @@
   },
   "700301": {
     "NodeId": 700301,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      700301
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Jt_Ranger/Animation/Montage/Combat/Skill/",
     "AnimResource": "JT_Ranger_Attack01_Montage",
     "AnimPlayRate": 1,
@@ -1421,7 +1738,9 @@
   },
   "700302": {
     "NodeId": 700302,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      700303
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Jt_Ranger/Animation/Montage/Combat/Skill/",
     "AnimResource": "JT_Ranger_Skill02_Montage",
     "AnimPlayRate": 1,
@@ -1429,7 +1748,9 @@
   },
   "700303": {
     "NodeId": 700303,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      700305
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Jt_Ranger/Animation/Montage/Combat/Skill/",
     "AnimResource": "JT_Ranger_Skill02_Montage",
     "AnimPlayRate": 1,
@@ -1444,7 +1765,9 @@
   },
   "700305": {
     "NodeId": 700305,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      700306
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Jt_Ranger/Animation/Montage/Combat/Skill/",
     "AnimResource": "JT_Ranger_Skill01_Montage",
     "AnimPlayRate": 1,
@@ -1452,7 +1775,9 @@
   },
   "700306": {
     "NodeId": 700306,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      700308
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Jt_Ranger/Animation/Montage/Combat/Skill/",
     "AnimResource": "JT_Ranger_Single_Attack01_Montage",
     "AnimPlayRate": 1,
@@ -1461,7 +1786,9 @@
   },
   "700307": {
     "NodeId": 700307,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      700309
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Jt_Ranger/Animation/Montage/Combat/Skill/",
     "AnimResource": "JT_Ranger_Single_Attack02_Montage",
     "AnimPlayRate": 1,
@@ -1481,7 +1808,9 @@
   },
   "700321": {
     "NodeId": 700321,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      700321
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Jt_Ranger/Animation/Montage/Combat/Skill/",
     "AnimResource": "JT_Ranger_Skill01_Montage",
     "AnimPlayRate": 1,
@@ -1489,7 +1818,9 @@
   },
   "700323": {
     "NodeId": 700323,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      700322
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Jt_Ranger/Animation/Montage/Combat/Skill/",
     "AnimResource": "JT_Ranger_Skill03_Montage",
     "AnimPlayRate": 1,
@@ -1497,7 +1828,9 @@
   },
   "700401": {
     "NodeId": 700401,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      700401
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/JT_Tuji/Animation/Montage/Combat/Skill/",
     "AnimResource": "JT_Tuji_Attack01_Montage",
     "AnimPlayRate": 1,
@@ -1543,7 +1876,10 @@
   },
   "700621": {
     "NodeId": 700621,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      700621,
+      700622
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/JT_HealRobot/Animation/Montage/Combat/Skill/",
     "AnimResource": "JT_HealRobot_Skill01_Montage",
     "AnimPlayRate": 1,
@@ -1551,7 +1887,11 @@
   },
   "700721": {
     "NodeId": 700721,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      700721,
+      700722,
+      700723
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/JT_BlastRobot/Animation/Montage/Combat/Skill/",
     "AnimResource": "JT_BlastRobot_Skill01_Montage",
     "AnimPlayRate": 1,
@@ -1559,7 +1899,11 @@
   },
   "700731": {
     "NodeId": 700731,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      700731,
+      700732,
+      700733
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/JT_BlastRobot/Animation/Montage/Combat/Skill/",
     "AnimResource": "JT_BlastRobot_Skill02_Montage",
     "AnimPlayRate": 1,
@@ -1567,7 +1911,11 @@
   },
   "700741": {
     "NodeId": 700741,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      700741,
+      700742,
+      700743
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/JT_BlastRobot/Animation/Montage/Combat/Skill/",
     "AnimResource": "JT_BlastRobot_Skill02_Montage",
     "AnimPlayRate": 1,
@@ -1575,7 +1923,10 @@
   },
   "700801": {
     "NodeId": 700801,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      700801,
+      700802
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/JT_Zhihui/Animation/Montage/Combat/Skill/",
     "AnimResource": "JT_Zhihui_Skill01_Montage",
     "AnimPlayRate": 1,
@@ -1583,7 +1934,9 @@
   },
   "700802": {
     "NodeId": 700802,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      700804
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/JT_Zhihui/Animation/Montage/Combat/Skill/",
     "AnimResource": "JT_Zhihui_Skill02_Montage",
     "AnimPlayRate": 1,
@@ -1591,7 +1944,9 @@
   },
   "700803": {
     "NodeId": 700803,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      700809
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/JT_Zhihui/Animation/Montage/Combat/Skill/",
     "AnimResource": "JT_Zhihui_Skill03_Montage",
     "AnimPlayRate": 1,
@@ -1599,7 +1954,10 @@
   },
   "700804": {
     "NodeId": 700804,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      700805,
+      700806
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/JT_Zhihui/Animation/Montage/Combat/Skill/",
     "AnimResource": "JT_Zhihui_Skill04_Montage",
     "AnimPlayRate": 1,
@@ -1607,7 +1965,9 @@
   },
   "700805": {
     "NodeId": 700805,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      700810
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/JT_Zhihui/Animation/Montage/Combat/Skill/",
     "AnimResource": "JT_Zhihui_Skill06_Montage",
     "AnimPlayRate": 1,
@@ -1615,7 +1975,11 @@
   },
   "700806": {
     "NodeId": 700806,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      700811,
+      700813,
+      700814
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/JT_Zhihui/Animation/Montage/Combat/Skill/",
     "AnimResource": "JT_Zhihui_Skill05_Montage",
     "AnimPlayRate": 1,
@@ -1630,7 +1994,9 @@
   },
   "701103": {
     "NodeId": 701103,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      701101
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/JT_Juji/Animation/Montage/Combat/Skill/",
     "AnimResource": "JT_Juji_C01_Skill01_Montage",
     "AnimPlayRate": 1,
@@ -1638,7 +2004,9 @@
   },
   "701201": {
     "NodeId": 701201,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      701201
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/JT_Pizhuo/Animation/Montage/Combat/Skill/",
     "AnimResource": "JT_Pizhuo_C01_Attack01_Montage",
     "AnimPlayRate": 1,
@@ -1646,7 +2014,9 @@
   },
   "701202": {
     "NodeId": 701202,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      701202
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/JT_Pizhuo/Animation/Montage/Combat/Skill/",
     "AnimResource": "JT_Pizhuo_C01_Attack02_Montage",
     "AnimPlayRate": 1,
@@ -1654,7 +2024,9 @@
   },
   "701203": {
     "NodeId": 701203,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      701203
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/JT_Pizhuo/Animation/Montage/Combat/Skill/",
     "AnimResource": "JT_Pizhuo_C01_Skill01_Montage",
     "AnimPlayRate": 1,
@@ -1662,7 +2034,9 @@
   },
   "701301": {
     "NodeId": 701301,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      701301
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Jt_Ranger/Animation/Montage/Combat/Skill/",
     "AnimResource": "JT_Ranger_C01_Attack01_Montage",
     "AnimPlayRate": 1,
@@ -1670,7 +2044,9 @@
   },
   "701302": {
     "NodeId": 701302,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      701304
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Jt_Ranger/Animation/Montage/Combat/Skill/",
     "AnimResource": "JT_Ranger_Skill03_Montage",
     "AnimPlayRate": 1,
@@ -1678,7 +2054,9 @@
   },
   "701401": {
     "NodeId": 701401,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      701401
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/JT_Tuji/Animation/Montage/Combat/Skill/",
     "AnimResource": "JT_Tuji_C01_Attack01_Montage",
     "AnimPlayRate": 1,
@@ -1686,7 +2064,10 @@
   },
   "701402": {
     "NodeId": 701402,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      701402,
+      701403
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/JT_Tuji/Animation/Montage/Combat/Skill/",
     "AnimResource": "Jt_Tuji_C01_Skill01_Montage",
     "AnimPlayRate": 1,
@@ -1694,7 +2075,9 @@
   },
   "800101": {
     "NodeId": 800101,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      800101
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/JH_Zhishi/Animation/Montage/Combat/Skill/",
     "AnimResource": "JH_Zhishi_Attack01_Montage",
     "AnimPlayRate": 1,
@@ -1702,7 +2085,9 @@
   },
   "800102": {
     "NodeId": 800102,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      800102
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/JH_Zhishi/Animation/Montage/Combat/Skill/",
     "AnimResource": "JH_Zhishi_Skill01_Montage",
     "AnimPlayRate": 1,
@@ -1728,7 +2113,9 @@
   },
   "800201": {
     "NodeId": 800201,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      800201
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/JH_Xianfeng/Animation/Montage/Combat/Skill/",
     "AnimResource": "JH_Xianfeng_Attack01_Montage",
     "AnimPlayRate": 1,
@@ -1737,7 +2124,9 @@
   },
   "800202": {
     "NodeId": 800202,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      800202
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/JH_Xianfeng/Animation/Montage/Combat/Skill/",
     "AnimResource": "JH_Xianfeng_Attack02_Montage",
     "AnimPlayRate": 1,
@@ -1746,7 +2135,9 @@
   },
   "800203": {
     "NodeId": 800203,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      800203
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/JH_Xianfeng/Animation/Montage/Combat/Skill/",
     "AnimResource": "JH_Xianfeng_Skill01_Montage",
     "AnimPlayRate": 1,
@@ -1765,7 +2156,9 @@
   },
   "800301": {
     "NodeId": 800301,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      800301
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/JH_Shenfu/Animation/Montage/Combat/Skill/",
     "AnimResource": "JH_Shenfu_Attack01_Montage",
     "AnimPlayRate": 1,
@@ -1773,7 +2166,9 @@
   },
   "800302": {
     "NodeId": 800302,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      800304
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/JH_Shenfu/Animation/Montage/Combat/Skill/",
     "AnimResource": "JH_Shenfu_Skill01_Montage",
     "AnimPlayRate": 1,
@@ -1792,7 +2187,13 @@
   },
   "850001": {
     "NodeId": 850001,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850011,
+      850012,
+      850013,
+      850014,
+      850015
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss00_Xibi/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Xibi_Skill01_Montage",
     "AnimPlayRate": 1,
@@ -1800,7 +2201,13 @@
   },
   "850002": {
     "NodeId": 850002,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850021,
+      850022,
+      850023,
+      850024,
+      850025
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss00_Xibi/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Xibi_Skill02_Montage",
     "AnimPlayRate": 1,
@@ -1815,7 +2222,10 @@
   },
   "850004": {
     "NodeId": 850004,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850041,
+      850042
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss00_Xibi/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Xibi_Skill04_Montage",
     "AnimPlayRate": 1,
@@ -1823,7 +2233,10 @@
   },
   "850005": {
     "NodeId": 850005,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850051,
+      850052
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss00_Xibi/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Xibi_Skill05_Montage",
     "AnimPlayRate": 1,
@@ -1831,7 +2244,13 @@
   },
   "850006": {
     "NodeId": 850006,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850061,
+      850062,
+      850063,
+      850064,
+      850065
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss00_Xibi/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Xibi_Skill06_Montage",
     "AnimPlayRate": 1,
@@ -1840,7 +2259,9 @@
   },
   "850007": {
     "NodeId": 850007,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850071
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss00_Xibi/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Xibi_Skill07_Montage",
     "AnimPlayRate": 1,
@@ -1848,7 +2269,15 @@
   },
   "850008": {
     "NodeId": 850008,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850081,
+      850082,
+      850083,
+      850084,
+      850085,
+      850086,
+      850087
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss00_Xibi/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Xibi_Skill08_Montage",
     "AnimPlayRate": 1,
@@ -1894,7 +2323,11 @@
   },
   "850013": {
     "NodeId": 850013,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      8500131,
+      8500132,
+      8500133
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss00_Xibi/Animation/Montage/Combat/Skill/Hard/",
     "AnimResource": "Boss_Xibi_Skill03_H_Montage",
     "AnimPlayRate": 1,
@@ -1902,7 +2335,10 @@
   },
   "850014": {
     "NodeId": 850014,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      8500141,
+      8500142
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss00_Xibi/Animation/Montage/Combat/Skill/Hard/",
     "AnimResource": "Boss_Xibi_Skill04_H_Montage",
     "AnimPlayRate": 1,
@@ -1910,7 +2346,10 @@
   },
   "850015": {
     "NodeId": 850015,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      8500151,
+      8500152
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss00_Xibi/Animation/Montage/Combat/Skill/Hard/",
     "AnimResource": "Boss_Xibi_Skill05_H_Montage",
     "AnimPlayRate": 1,
@@ -1918,7 +2357,17 @@
   },
   "850016": {
     "NodeId": 850016,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      8500161,
+      8500162,
+      8500163,
+      8500164,
+      8500165,
+      8500166,
+      8500167,
+      8500168,
+      8500169
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss00_Xibi/Animation/Montage/Combat/Skill/Hard/",
     "AnimResource": "Boss_Xibi_Skill06_H_Montage",
     "AnimPlayRate": 1,
@@ -1927,7 +2376,9 @@
   },
   "850017": {
     "NodeId": 850017,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      8500171
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss00_Xibi/Animation/Montage/Combat/Skill/Hard/",
     "AnimResource": "Boss_Xibi_Skill07_H_Montage",
     "AnimPlayRate": 1,
@@ -1935,7 +2386,16 @@
   },
   "850018": {
     "NodeId": 850018,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      8500181,
+      8500182,
+      8500183,
+      8500184,
+      8500185,
+      8500186,
+      8500187,
+      8500188
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss00_Xibi/Animation/Montage/Combat/Skill/Hard/",
     "AnimResource": "Boss_Xibi_Skill08_H_Montage",
     "AnimPlayRate": 1,
@@ -1944,7 +2404,14 @@
   },
   "850019": {
     "NodeId": 850019,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      8500161,
+      8500162,
+      8500191,
+      8500192,
+      8500193,
+      8500196
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss00_Xibi/Animation/Montage/Combat/Skill/Hard/",
     "AnimResource": "Boss_Xibi_Skill09_H_Montage",
     "AnimPlayRate": 1,
@@ -1953,7 +2420,14 @@
   },
   "850020": {
     "NodeId": 850020,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      8500161,
+      8500162,
+      8500191,
+      8500192,
+      8500193,
+      8500198
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss00_Xibi/Animation/Montage/Combat/Skill/Hard/",
     "AnimResource": "Boss_Xibi_Skill10_H_Montage",
     "AnimPlayRate": 1,
@@ -2022,7 +2496,14 @@
   },
   "850025": {
     "NodeId": 850025,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      8500161,
+      8500162,
+      8500191,
+      8500192,
+      8500193,
+      8500194
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss00_Xibi/Animation/Montage/Combat/Skill/Hard/",
     "AnimResource": "Boss_Xibi_Skill15_H_Montage",
     "AnimPlayRate": 1,
@@ -2031,7 +2512,10 @@
   },
   "850101": {
     "NodeId": 850101,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      8501101,
+      8501102
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss06_Lizhan/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Lizhan_Skill01_Montage",
     "AnimPlayRate": 1,
@@ -2040,7 +2524,9 @@
   },
   "850102": {
     "NodeId": 850102,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      8501106
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss06_Lizhan/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Lizhan_Skill02_Montage",
     "AnimPlayRate": 1,
@@ -2049,7 +2535,9 @@
   },
   "850103": {
     "NodeId": 850103,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      8501111
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss06_Lizhan/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Lizhan_Skill03_Montage",
     "AnimPlayRate": 1,
@@ -2057,7 +2545,9 @@
   },
   "850104": {
     "NodeId": 850104,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      8501116
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss06_Lizhan/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Lizhan_Skill04_1_Montage",
     "AnimPlayRate": 1,
@@ -2065,7 +2555,12 @@
   },
   "850105": {
     "NodeId": 850105,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      8501121,
+      8501124,
+      8501156,
+      8501157
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss06_Lizhan/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Lizhan_Skill05_Montage",
     "AnimPlayRate": 1,
@@ -2074,7 +2569,10 @@
   },
   "850107": {
     "NodeId": 850107,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      8501131,
+      8501132
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss06_Lizhan/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Lizhan_Skill07_Montage",
     "AnimPlayRate": 1,
@@ -2083,7 +2581,10 @@
   },
   "850110": {
     "NodeId": 850110,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      8501146,
+      8501147
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss06_Lizhan/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Lizhan_Skill10_Montage",
     "AnimPlayRate": 1,
@@ -2092,7 +2593,11 @@
   },
   "850111": {
     "NodeId": 850111,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      8501151,
+      8501152,
+      8501153
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss06_Lizhan/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Lizhan_Skill11_Montage",
     "AnimPlayRate": 1,
@@ -2109,7 +2614,9 @@
   },
   "850114": {
     "NodeId": 850114,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      8501117
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss06_Lizhan/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Lizhan_Skill04_2_Montage",
     "AnimPlayRate": 1,
@@ -2117,7 +2624,10 @@
   },
   "850201": {
     "NodeId": 850201,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850201,
+      850202
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Saiqi_Skill01_Montage",
     "AnimPlayRate": 1,
@@ -2125,7 +2635,9 @@
   },
   "850202": {
     "NodeId": 850202,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850204
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Saiqi_Skill02_Montage",
     "AnimPlayRate": 1,
@@ -2143,7 +2655,9 @@
   },
   "850204": {
     "NodeId": 850204,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850208
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Saiqi_Skill04_Montage",
     "AnimPlayRate": 1,
@@ -2152,7 +2666,10 @@
   },
   "850205": {
     "NodeId": 850205,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850210,
+      850211
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Saiqi_Skill05_Montage",
     "AnimPlayRate": 1,
@@ -2161,7 +2678,12 @@
   },
   "850206": {
     "NodeId": 850206,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850213,
+      850214,
+      850215,
+      850216
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Saiqi_Skill06_Montage",
     "AnimPlayRate": 1,
@@ -2170,7 +2692,10 @@
   },
   "850207": {
     "NodeId": 850207,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850218,
+      850219
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Saiqi_Skill07_Montage",
     "AnimPlayRate": 1,
@@ -2178,7 +2703,10 @@
   },
   "850208": {
     "NodeId": 850208,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850221,
+      850222
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Saiqi_Skill08_Montage",
     "AnimPlayRate": 1,
@@ -2193,7 +2721,15 @@
   },
   "850210": {
     "NodeId": 850210,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850212,
+      850228,
+      850229,
+      850231,
+      850232,
+      850233,
+      850235
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Saiqi_Skill10_Montage",
     "AnimPlayRate": 1,
@@ -2212,7 +2748,11 @@
   },
   "850212": {
     "NodeId": 850212,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850201,
+      850202,
+      850203
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Saiqi_Skill12_Montage",
     "AnimPlayRate": 1,
@@ -2220,7 +2760,10 @@
   },
   "850213": {
     "NodeId": 850213,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850208,
+      850209
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Saiqi_Skill13_Montage",
     "AnimPlayRate": 1,
@@ -2229,7 +2772,11 @@
   },
   "850214": {
     "NodeId": 850214,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850238,
+      850239,
+      850236
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Saiqi_Skill14_Montage",
     "AnimPlayRate": 1,
@@ -2238,7 +2785,11 @@
   },
   "850215": {
     "NodeId": 850215,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850238,
+      850240,
+      850236
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Saiqi_Skill15_Montage",
     "AnimPlayRate": 1,
@@ -2268,7 +2819,10 @@
   },
   "850220": {
     "NodeId": 850220,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      8502101,
+      8502102
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Saiqi_Skill01_Montage",
     "AnimPlayRate": 1,
@@ -2276,7 +2830,9 @@
   },
   "850221": {
     "NodeId": 850221,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      8502104
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Saiqi_Skill02_Montage",
     "AnimPlayRate": 1,
@@ -2294,7 +2850,9 @@
   },
   "850223": {
     "NodeId": 850223,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      8502108
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Saiqi_Skill04_Montage",
     "AnimPlayRate": 1,
@@ -2303,7 +2861,10 @@
   },
   "850224": {
     "NodeId": 850224,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      8502110,
+      8502111
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Saiqi_Skill05_Montage",
     "AnimPlayRate": 1,
@@ -2312,7 +2873,12 @@
   },
   "850225": {
     "NodeId": 850225,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      8502113,
+      8502114,
+      8502115,
+      8502116
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Saiqi_Skill06_Montage",
     "AnimPlayRate": 1,
@@ -2321,7 +2887,10 @@
   },
   "850226": {
     "NodeId": 850226,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      8502118,
+      8502119
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Saiqi_Skill07_Montage",
     "AnimPlayRate": 1,
@@ -2329,7 +2898,10 @@
   },
   "850227": {
     "NodeId": 850227,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850221,
+      8502122
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Saiqi_Skill08_Montage",
     "AnimPlayRate": 1,
@@ -2344,7 +2916,15 @@
   },
   "850229": {
     "NodeId": 850229,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      8502112,
+      8502128,
+      8502129,
+      8502131,
+      8502132,
+      8502133,
+      8502135
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Saiqi_Skill10_Montage",
     "AnimPlayRate": 1,
@@ -2363,7 +2943,11 @@
   },
   "850231": {
     "NodeId": 850231,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      8502101,
+      8502102,
+      8502103
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Saiqi_Skill12_Montage",
     "AnimPlayRate": 1,
@@ -2371,7 +2955,10 @@
   },
   "850232": {
     "NodeId": 850232,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      8502108,
+      8502109
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Saiqi_Skill13_Montage",
     "AnimPlayRate": 1,
@@ -2380,7 +2967,11 @@
   },
   "850233": {
     "NodeId": 850233,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      8502138,
+      8502139,
+      8502136
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Saiqi_Skill14_Montage",
     "AnimPlayRate": 1,
@@ -2389,7 +2980,11 @@
   },
   "850234": {
     "NodeId": 850234,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      8502138,
+      8502140,
+      8502136
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Saiqi_Skill15_Montage",
     "AnimPlayRate": 1,
@@ -2419,7 +3014,10 @@
   },
   "850237": {
     "NodeId": 850237,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      8502141,
+      8502142
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Saiqi_Skill18_Montage",
     "AnimPlayRate": 1,
@@ -2427,7 +3025,9 @@
   },
   "850238": {
     "NodeId": 850238,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      8502144
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Saiqi_Skill19_Montage",
     "AnimPlayRate": 1,
@@ -2435,7 +3035,9 @@
   },
   "850239": {
     "NodeId": 850239,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      8502145
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Saiqi_Skill20_Montage",
     "AnimPlayRate": 1,
@@ -2443,7 +3045,9 @@
   },
   "850240": {
     "NodeId": 850240,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      8502147
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Saiqi_Skill21_Montage",
     "AnimPlayRate": 1,
@@ -2451,7 +3055,11 @@
   },
   "850241": {
     "NodeId": 850241,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850221,
+      8502150,
+      8502157
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Saiqi_Skill08_Montage",
     "AnimPlayRate": 1,
@@ -2459,7 +3067,13 @@
   },
   "850242": {
     "NodeId": 850242,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850221,
+      8502150,
+      8502151,
+      8502158,
+      8502157
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Saiqi_Skill08_Montage",
     "AnimPlayRate": 1,
@@ -2467,7 +3081,11 @@
   },
   "850243": {
     "NodeId": 850243,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850221,
+      8502152,
+      8502159
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Saiqi_Skill08_Montage",
     "AnimPlayRate": 1,
@@ -2475,7 +3093,10 @@
   },
   "850244": {
     "NodeId": 850244,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      8502154,
+      8502155
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Saiqi_Skill22_Montage",
     "AnimPlayRate": 1,
@@ -2483,7 +3104,10 @@
   },
   "850245": {
     "NodeId": 850245,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      8502154,
+      8502156
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Saiqi_Skill22_Montage",
     "AnimPlayRate": 1,
@@ -2491,7 +3115,10 @@
   },
   "850246": {
     "NodeId": 850246,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      8502118,
+      8502160
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss01_Saiqi01/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Saiqi_Skill07_Montage",
     "AnimPlayRate": 1,
@@ -2499,7 +3126,10 @@
   },
   "850301": {
     "NodeId": 850301,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850301,
+      850343
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss03_Shijingzhe/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Shijingzhe_Skill01_01_R_Montage",
     "AnimPlayRate": 1,
@@ -2507,7 +3137,10 @@
   },
   "850302": {
     "NodeId": 850302,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850319,
+      850343
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss03_Shijingzhe/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Shijingzhe_Skill01_01_L_Montage",
     "AnimPlayRate": 1,
@@ -2515,7 +3148,10 @@
   },
   "850303": {
     "NodeId": 850303,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850302,
+      850320
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss03_Shijingzhe/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Shijingzhe_Skill02_Montage",
     "AnimPlayRate": 1,
@@ -2523,7 +3159,11 @@
   },
   "850304": {
     "NodeId": 850304,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850303,
+      850321,
+      850337
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss03_Shijingzhe/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Shijingzhe_Skill03_Montage",
     "AnimPlayRate": 1,
@@ -2532,7 +3172,10 @@
   },
   "850305": {
     "NodeId": 850305,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850304,
+      850343
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss03_Shijingzhe/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Shijingzhe_Skill04_Montage",
     "AnimPlayRate": 1,
@@ -2540,7 +3183,13 @@
   },
   "850306": {
     "NodeId": 850306,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850305,
+      850307,
+      850326,
+      850334,
+      850343
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss03_Shijingzhe/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Shijingzhe_Skill05_Montage",
     "AnimPlayRate": 1,
@@ -2557,7 +3206,13 @@
   },
   "850308": {
     "NodeId": 850308,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850309,
+      850335,
+      850338,
+      850340,
+      850343
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss03_Shijingzhe/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Shijingzhe_Skill07_Montage",
     "AnimPlayRate": 1,
@@ -2566,7 +3221,12 @@
   },
   "850309": {
     "NodeId": 850309,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850305,
+      850307,
+      850326,
+      850334
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss03_Shijingzhe/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Shijingzhe_Skill08_Montage",
     "AnimPlayRate": 1,
@@ -2575,7 +3235,13 @@
   },
   "850310": {
     "NodeId": 850310,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850313,
+      850314,
+      850315,
+      850333,
+      850343
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss03_Shijingzhe/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Shijingzhe_Skill09_Montage",
     "AnimPlayRate": 1,
@@ -2583,7 +3249,18 @@
   },
   "850311": {
     "NodeId": 850311,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850344,
+      850345,
+      850346,
+      850343,
+      850347,
+      850348,
+      850349,
+      850351,
+      850352,
+      850353
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss03_Shijingzhe/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Shijingzhe_Skill10_Montage",
     "AnimPlayRate": 1,
@@ -2591,7 +3268,9 @@
   },
   "850313": {
     "NodeId": 850313,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850325
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss03_Shijingzhe/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Shijingzhe_Skill11_Montage",
     "AnimPlayRate": 1,
@@ -2599,7 +3278,9 @@
   },
   "850314": {
     "NodeId": 850314,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850331
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss03_Shijingzhe/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Shijingzhe_Skill12_L_Montage",
     "AnimPlayRate": 1,
@@ -2607,7 +3288,10 @@
   },
   "850315": {
     "NodeId": 850315,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850332,
+      850343
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss03_Shijingzhe/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Shijingzhe_Skill12_R_Montage",
     "AnimPlayRate": 1,
@@ -2615,7 +3299,10 @@
   },
   "850316": {
     "NodeId": 850316,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      8503101,
+      8503122
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss03_Shijingzhe/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Shijingzhe_Skill01_01_R_Montage",
     "AnimPlayRate": 1,
@@ -2623,7 +3310,10 @@
   },
   "850317": {
     "NodeId": 850317,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      8503106,
+      8503122
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss03_Shijingzhe/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Shijingzhe_Skill01_01_L_Montage",
     "AnimPlayRate": 1,
@@ -2631,7 +3321,10 @@
   },
   "850318": {
     "NodeId": 850318,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      8503111,
+      8503112
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss03_Shijingzhe/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Shijingzhe_Skill02_Montage",
     "AnimPlayRate": 1,
@@ -2639,7 +3332,12 @@
   },
   "850319": {
     "NodeId": 850319,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      8503116,
+      8503117,
+      8503118,
+      8503119
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss03_Shijingzhe/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Shijingzhe_Skill03_Montage",
     "AnimPlayRate": 1,
@@ -2648,7 +3346,10 @@
   },
   "850320": {
     "NodeId": 850320,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      8503121,
+      8503122
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss03_Shijingzhe/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Shijingzhe_Skill04_Montage",
     "AnimPlayRate": 1,
@@ -2656,7 +3357,13 @@
   },
   "850321": {
     "NodeId": 850321,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      8503126,
+      8503127,
+      8503128,
+      8503129,
+      8503122
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss03_Shijingzhe/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Shijingzhe_Skill05_Montage",
     "AnimPlayRate": 1,
@@ -2665,7 +3372,13 @@
   },
   "850322": {
     "NodeId": 850322,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      8503131,
+      8503132,
+      8503133,
+      8503134,
+      8503122
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss03_Shijingzhe/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Shijingzhe_Skill07_Montage",
     "AnimPlayRate": 1,
@@ -2674,7 +3387,12 @@
   },
   "850323": {
     "NodeId": 850323,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      8503126,
+      8503127,
+      8503128,
+      8503129
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss03_Shijingzhe/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Shijingzhe_Skill08_Montage",
     "AnimPlayRate": 1,
@@ -2683,7 +3401,13 @@
   },
   "850324": {
     "NodeId": 850324,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      8503141,
+      8503142,
+      8503143,
+      8503144,
+      8503122
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss03_Shijingzhe/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Shijingzhe_Skill09_Montage",
     "AnimPlayRate": 1,
@@ -2691,7 +3415,18 @@
   },
   "850325": {
     "NodeId": 850325,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      8503186,
+      8503187,
+      8503188,
+      8503122,
+      850347,
+      850348,
+      850349,
+      850351,
+      850352,
+      850353
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss03_Shijingzhe/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Shijingzhe_Skill10_Montage",
     "AnimPlayRate": 1,
@@ -2699,7 +3434,12 @@
   },
   "850327": {
     "NodeId": 850327,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      8503151,
+      8503152,
+      8503153,
+      8503154
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss03_Shijingzhe/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Shijingzhe_Skill11_Montage",
     "AnimPlayRate": 1,
@@ -2707,7 +3447,10 @@
   },
   "850328": {
     "NodeId": 850328,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      8503156,
+      8503157
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss03_Shijingzhe/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Shijingzhe_Skill12_L_Montage",
     "AnimPlayRate": 1,
@@ -2715,7 +3458,11 @@
   },
   "850329": {
     "NodeId": 850329,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      8503161,
+      8503162,
+      8503122
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss03_Shijingzhe/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Shijingzhe_Skill12_R_Montage",
     "AnimPlayRate": 1,
@@ -2723,7 +3470,14 @@
   },
   "850330": {
     "NodeId": 850330,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      8503181,
+      8503182,
+      8503183,
+      8503184,
+      8503185,
+      8503198
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss03_Shijingzhe/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Shijingzhe_Skill13_Montage",
     "AnimPlayRate": 1,
@@ -2731,7 +3485,12 @@
   },
   "850331": {
     "NodeId": 850331,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      8503176,
+      8503136,
+      8503137,
+      8503138
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss03_Shijingzhe/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Shijingzhe_Skill14_1_Montage",
     "AnimPlayRate": 1,
@@ -2739,7 +3498,10 @@
   },
   "850332": {
     "NodeId": 850332,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      8503176,
+      8503139
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss03_Shijingzhe/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Shijingzhe_Skill14_2_Montage",
     "AnimPlayRate": 1,
@@ -2747,7 +3509,10 @@
   },
   "850333": {
     "NodeId": 850333,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      8503176,
+      8503140
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss03_Shijingzhe/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Shijingzhe_Skill14_3_Montage",
     "AnimPlayRate": 1,
@@ -2762,7 +3527,24 @@
   },
   "850335": {
     "NodeId": 850335,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      8503201,
+      8503202,
+      8503203,
+      8503204,
+      8503205,
+      8503206,
+      8503208,
+      8503209,
+      8503213,
+      8503214,
+      8503215,
+      8503216,
+      8503217,
+      8503218,
+      8503220,
+      8503221
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss03_Shijingzhe/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Shijingzhe_Skill15_Montage",
     "AnimPlayRate": 1,
@@ -2771,7 +3553,9 @@
   },
   "850401": {
     "NodeId": 850401,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850401
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss04_Saiqi02/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Saiqi02_Skill01_Montage",
     "AnimPlayRate": 1,
@@ -2779,7 +3563,9 @@
   },
   "850402": {
     "NodeId": 850402,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850402
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss04_Saiqi02/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Saiqi02_Skill02_Montage",
     "AnimPlayRate": 1,
@@ -2787,7 +3573,9 @@
   },
   "850403": {
     "NodeId": 850403,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850403
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss04_Saiqi02/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Saiqi02_Skill03_Montage",
     "AnimPlayRate": 1,
@@ -2795,7 +3583,9 @@
   },
   "850404": {
     "NodeId": 850404,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850404
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss04_Saiqi02/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Saiqi02_Skill01_Montage",
     "AnimPlayRate": 1,
@@ -2803,7 +3593,9 @@
   },
   "850405": {
     "NodeId": 850405,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850405
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss04_Saiqi02/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Saiqi02_Skill05_Montage",
     "AnimPlayRate": 1,
@@ -2811,7 +3603,10 @@
   },
   "850406": {
     "NodeId": 850406,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850407,
+      850447
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss04_Saiqi02/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Saiqi02_Skill06_Montage",
     "AnimPlayRate": 1,
@@ -2819,7 +3614,9 @@
   },
   "850407": {
     "NodeId": 850407,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850440
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss04_Saiqi02/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Saiqi02_Skill07_Montage",
     "AnimPlayRate": 1,
@@ -2827,7 +3624,10 @@
   },
   "850408": {
     "NodeId": 850408,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850408,
+      850442
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss04_Saiqi02/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Saiqi02_Skill08_Montage",
     "AnimPlayRate": 1,
@@ -2835,7 +3635,10 @@
   },
   "850409": {
     "NodeId": 850409,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850409,
+      850410
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss04_Saiqi02/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Saiqi02_Skill09_Montage",
     "AnimPlayRate": 1,
@@ -2843,7 +3646,10 @@
   },
   "850410": {
     "NodeId": 850410,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850411,
+      850422
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss04_Saiqi02/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Saiqi02_Skill10_Montage",
     "AnimPlayRate": 1,
@@ -2851,7 +3657,10 @@
   },
   "850411": {
     "NodeId": 850411,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850413,
+      850414
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss04_Saiqi02/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Saiqi02_Skill11_Montage",
     "AnimPlayRate": 1,
@@ -2859,7 +3668,10 @@
   },
   "850412": {
     "NodeId": 850412,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850416,
+      850440
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss04_Saiqi02/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Saiqi02_Skill12_Montage",
     "AnimPlayRate": 1,
@@ -2867,7 +3679,10 @@
   },
   "850413": {
     "NodeId": 850413,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850417,
+      850432
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss04_Saiqi02/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Saiqi02_Skill13_Montage",
     "AnimPlayRate": 1,
@@ -2875,7 +3690,9 @@
   },
   "850414": {
     "NodeId": 850414,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850420
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss04_Saiqi02/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Saiqi02_Skill14_Montage",
     "AnimPlayRate": 1,
@@ -2883,7 +3700,9 @@
   },
   "850415": {
     "NodeId": 850415,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850421
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss04_Saiqi02/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Saiqi02_Skill15_Montage",
     "AnimPlayRate": 1,
@@ -2891,7 +3710,9 @@
   },
   "850416": {
     "NodeId": 850416,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850424
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss04_Saiqi02/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Saiqi02_Skill16_Montage",
     "AnimPlayRate": 1,
@@ -2899,7 +3720,10 @@
   },
   "850417": {
     "NodeId": 850417,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850428,
+      850442
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss04_Saiqi02/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Saiqi02_Skill17_Montage",
     "AnimPlayRate": 1,
@@ -2907,7 +3731,9 @@
   },
   "850418": {
     "NodeId": 850418,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850435
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss04_Saiqi02/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Saiqi02_Skill18_Montage",
     "AnimPlayRate": 1,
@@ -2915,7 +3741,9 @@
   },
   "850419": {
     "NodeId": 850419,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850436
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss04_Saiqi02/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Saiqi02_Skill19_Montage",
     "AnimPlayRate": 1,
@@ -2923,7 +3751,9 @@
   },
   "850420": {
     "NodeId": 850420,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850437
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss04_Saiqi02/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Saiqi02_Skill01_Montage",
     "AnimPlayRate": 1,
@@ -2931,7 +3761,17 @@
   },
   "850421": {
     "NodeId": 850421,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850438,
+      850448,
+      850449,
+      850450,
+      850451,
+      850452,
+      850453,
+      850454,
+      850455
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss04_Saiqi02/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Saiqi02_Skill21_Montage",
     "AnimPlayRate": 1,
@@ -2953,7 +3793,9 @@
   },
   "850424": {
     "NodeId": 850424,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850443
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss04_Saiqi02/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Saiqi02_Skill24_Montage",
     "AnimPlayRate": 1,
@@ -2961,7 +3803,9 @@
   },
   "850425": {
     "NodeId": 850425,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850444
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss04_Saiqi02/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Saiqi02_Skill25_Montage",
     "AnimPlayRate": 1,
@@ -2969,7 +3813,10 @@
   },
   "850426": {
     "NodeId": 850426,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850445,
+      850447
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss04_Saiqi02/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Saiqi02_Skill26_Montage",
     "AnimPlayRate": 1,
@@ -2977,7 +3824,10 @@
   },
   "850427": {
     "NodeId": 850427,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850446,
+      850447
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss04_Saiqi02/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Saiqi02_Skill27_Montage",
     "AnimPlayRate": 1,
@@ -2985,7 +3835,11 @@
   },
   "850428": {
     "NodeId": 850428,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850413,
+      850414,
+      850430
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss04_Saiqi02/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Saiqi02_Skill28_Montage",
     "AnimPlayRate": 1,
@@ -2993,7 +3847,9 @@
   },
   "850429": {
     "NodeId": 850429,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850457
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss04_Saiqi02/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Saiqi02_Skill05_Montage",
     "AnimPlayRate": 1,
@@ -3001,7 +3857,9 @@
   },
   "850430": {
     "NodeId": 850430,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850456
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss04_Saiqi02/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Saiqi02_Skill14_Montage",
     "AnimPlayRate": 1,
@@ -3022,7 +3880,12 @@
   },
   "850502": {
     "NodeId": 850502,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850504,
+      850505,
+      850506,
+      850507
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss05_Lianhuo/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Lianhuo_Skill02_Montage",
     "AnimPlayRate": 1,
@@ -3031,7 +3894,10 @@
   },
   "850503": {
     "NodeId": 850503,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850508,
+      850509
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss05_Lianhuo/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Lianhuo_Skill03_Montage",
     "AnimPlayRate": 1,
@@ -3040,7 +3906,11 @@
   },
   "850504": {
     "NodeId": 850504,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850512,
+      850506,
+      850544
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss05_Lianhuo/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Lianhuo_Skill04_Montage",
     "AnimPlayRate": 1,
@@ -3049,7 +3919,10 @@
   },
   "850505": {
     "NodeId": 850505,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850515,
+      850516
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss05_Lianhuo/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Lianhuo_Skill05_Montage",
     "AnimPlayRate": 1,
@@ -3058,7 +3931,11 @@
   },
   "850506": {
     "NodeId": 850506,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850518,
+      850542,
+      850549
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss05_Lianhuo/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Lianhuo_Skill06_Montage",
     "AnimPlayRate": 1,
@@ -3067,7 +3944,12 @@
   },
   "850507": {
     "NodeId": 850507,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850519,
+      850520,
+      850521,
+      850522
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss05_Lianhuo/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Lianhuo_Skill07_Montage",
     "AnimPlayRate": 1,
@@ -3076,7 +3958,19 @@
   },
   "850508": {
     "NodeId": 850508,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850524,
+      850525,
+      850527,
+      850529,
+      850530,
+      850531,
+      850546,
+      850547,
+      850550,
+      850552,
+      850553
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss05_Lianhuo/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Lianhuo_Skill08_Montage",
     "AnimPlayRate": 1,
@@ -3093,7 +3987,10 @@
   },
   "850510": {
     "NodeId": 850510,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850515,
+      850523
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss05_Lianhuo/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Lianhuo_Skill10_Montage",
     "AnimPlayRate": 1,
@@ -3102,7 +3999,19 @@
   },
   "850511": {
     "NodeId": 850511,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850524,
+      850525,
+      850527,
+      850528,
+      850529,
+      850530,
+      850531,
+      850547,
+      850550,
+      850551,
+      850553
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss05_Lianhuo/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Lianhuo_Skill11_Montage",
     "AnimPlayRate": 1,
@@ -3111,7 +4020,10 @@
   },
   "850512": {
     "NodeId": 850512,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850538,
+      850539
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss05_Lianhuo/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Lianhuo_Skill12_Montage",
     "AnimPlayRate": 1,
@@ -3173,7 +4085,12 @@
   },
   "850527": {
     "NodeId": 850527,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850532,
+      850533,
+      850535,
+      850536
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss05_Lianhuo/Animation/Montage/Combat/Skill/Hard/",
     "AnimResource": "Boss_Lianhuo_Skill07_H_Montage",
     "AnimPlayRate": 1,
@@ -3218,7 +4135,12 @@
   },
   "850602": {
     "NodeId": 850602,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850601,
+      850602,
+      850608,
+      850604
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss07_Nvzhu/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Nvzhu_Skill02_Montage",
     "AnimPlayRate": 1,
@@ -3286,7 +4208,12 @@
   },
   "850702": {
     "NodeId": 850702,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      850601,
+      850602,
+      850603,
+      850604
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/Boss08_Nanzhu/Animation/Montage/Combat/Skill/",
     "AnimResource": "Boss_Nanzhu_Skill02_Montage",
     "AnimPlayRate": 1,
@@ -3362,7 +4289,9 @@
   },
   "900303": {
     "NodeId": 900303,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      900302
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/SQ_Wanju/Animation/Montage/Combat/Skill/",
     "AnimResource": "SQ_Wanju_Skill01_Montage",
     "AnimPlayRate": 1,
@@ -3370,7 +4299,10 @@
   },
   "900304": {
     "NodeId": 900304,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      900303,
+      900304
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/SQ_Wanju/Animation/Montage/Combat/Skill/",
     "AnimResource": "SQ_Wanju_Skill02_Montage",
     "AnimPlayRate": 1,
@@ -3378,7 +4310,9 @@
   },
   "900305": {
     "NodeId": 900305,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      900305
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/SQ_Wanju/Animation/Montage/Combat/Skill/",
     "AnimResource": "SQ_Wanju_Skill03_Montage",
     "AnimPlayRate": 1,
@@ -3386,7 +4320,10 @@
   },
   "900401": {
     "NodeId": 900401,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      900401,
+      900402
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/SQ_Wanju/Animation/Montage/Combat/Skill/",
     "AnimResource": "SQ_Wanju_Sum01_Attack01_Montage",
     "AnimPlayRate": 1,
@@ -3394,7 +4331,10 @@
   },
   "900402": {
     "NodeId": 900402,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      900405,
+      900406
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/SQ_Wanju/Animation/Montage/Combat/Skill/",
     "AnimResource": "SQ_Wanju_Sum01_Skill01_Montage",
     "AnimPlayRate": 1,
@@ -3422,7 +4362,9 @@
   },
   "900503": {
     "NodeId": 900503,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      900502
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/SQ_Baozha/Animation/Montage/Combat/Skill/",
     "AnimResource": "SQ_Baozha_Skill01_Montage",
     "AnimPlayRate": 1,
@@ -3430,7 +4372,10 @@
   },
   "900504": {
     "NodeId": 900504,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      900504,
+      900505
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/SQ_Baozha/Animation/Montage/Combat/Skill/",
     "AnimResource": "SQ_Baozha_Skill02_Montage",
     "AnimPlayRate": 1,
@@ -3438,7 +4383,10 @@
   },
   "900505": {
     "NodeId": 900505,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      900506,
+      900507
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/SQ_Baozha/Animation/Montage/Combat/Skill/",
     "AnimResource": "SQ_Baozha_Skill03_Montage",
     "AnimPlayRate": 1,
@@ -3466,7 +4414,13 @@
   },
   "900603": {
     "NodeId": 900603,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      900602,
+      900603,
+      900604,
+      900605,
+      900606
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/SQ_Qizha/Animation/Montage/Combat/Skill/",
     "AnimResource": "SQ_Qizha_Skill01_Montage",
     "AnimPlayRate": 1,
@@ -3474,7 +4428,9 @@
   },
   "900604": {
     "NodeId": 900604,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      900607
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/SQ_Qizha/Animation/Montage/Combat/Skill/",
     "AnimResource": "SQ_Qizha_Skill02_Montage",
     "AnimPlayRate": 1,
@@ -3482,7 +4438,9 @@
   },
   "900605": {
     "NodeId": 900605,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      900608
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/SQ_Qizha/Animation/Montage/Combat/Skill/",
     "AnimResource": "SQ_Qizha_Skill03_Montage",
     "AnimPlayRate": 1,
@@ -3490,7 +4448,14 @@
   },
   "900606": {
     "NodeId": 900606,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      900609,
+      900610,
+      900611,
+      900612,
+      900613,
+      900620
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/SQ_Qizha/Animation/Montage/Combat/Skill/",
     "AnimResource": "SQ_Qizha_Skill04_Montage",
     "AnimPlayRate": 1,
@@ -3498,7 +4463,11 @@
   },
   "900607": {
     "NodeId": 900607,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      900609,
+      900615,
+      900616
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/SQ_Qizha/Animation/Montage/Combat/Skill/",
     "AnimResource": "SQ_Qizha_Skill05_Montage",
     "AnimPlayRate": 1,
@@ -3506,7 +4475,9 @@
   },
   "900608": {
     "NodeId": 900608,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      900609
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/SQ_Qizha/Animation/Montage/Combat/Skill/",
     "AnimResource": "SQ_Qizha_Skill06_Montage",
     "AnimPlayRate": 1,
@@ -3514,7 +4485,9 @@
   },
   "950001": {
     "NodeId": 950001,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      950003
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/NE_Dajie/Animation/Montage/Combat/Skill/",
     "AnimResource": "NE_Dajie_Skill01_Montage",
     "AnimPlayRate": 1,
@@ -3522,7 +4495,9 @@
   },
   "950002": {
     "NodeId": 950002,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      950004
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/NE_Dajie/Animation/Montage/Combat/Skill/",
     "AnimResource": "NE_Dajie_Skill02_Montage",
     "AnimPlayRate": 1,
@@ -3530,7 +4505,9 @@
   },
   "950003": {
     "NodeId": 950003,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      950005
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/NE_Dajie/Animation/Montage/Combat/Skill/",
     "AnimResource": "NE_Dajie_Skill03_Montage",
     "AnimPlayRate": 1,
@@ -3567,7 +4544,11 @@
   },
   "950103": {
     "NodeId": 950103,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      950102,
+      950103,
+      950104
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/NE_Villiger/Animation/Montage/Combat/Skill/",
     "AnimResource": "NE_Villiger_Skill01_Montage",
     "AnimPlayRate": 1,
@@ -3595,7 +4576,10 @@
   },
   "950106": {
     "NodeId": 950106,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      950105,
+      950110
+    ],
     "AnimPath": "/Game/Asset/Char/Monster/NE_Villiger/Animation/Montage/Combat/Skill/",
     "AnimResource": "NE_Villiger_Skill04_Montage",
     "AnimPlayRate": 1,
@@ -3605,7 +4589,9 @@
     "NodeId": 1010111,
     "NextNodeId": 1010112,
     "PhantomAutoInput": 1,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      1010111
+    ],
     "AnimSubPath": "Combat/Weapon/Sword/",
     "AnimName": "Sword_RunAttack_01_Montage",
     "AnimPlayRate": 1
@@ -3614,7 +4600,9 @@
     "NodeId": 1010112,
     "NextNodeId": 1010113,
     "PhantomAutoInput": 1,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      1010112
+    ],
     "AnimSubPath": "Combat/Weapon/Sword/",
     "AnimName": "Sword_RunAttack_02_Montage",
     "AnimPlayRate": 1,
@@ -3624,7 +4612,9 @@
     "NodeId": 1010113,
     "NextNodeId": 1010114,
     "PhantomAutoInput": 1,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      1010113
+    ],
     "AnimSubPath": "Combat/Weapon/Sword/",
     "AnimName": "Sword_RunAttack_03_Montage",
     "AnimPlayRate": 1,
@@ -3634,7 +4624,9 @@
     "NodeId": 1010114,
     "NextNodeId": 1010111,
     "PhantomAutoInput": 2,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      1010114
+    ],
     "AnimSubPath": "Combat/Weapon/Sword/",
     "AnimName": "Sword_RunAttack_04_Montage",
     "AnimPlayRate": 1,
@@ -3642,7 +4634,9 @@
   },
   "1010121": {
     "NodeId": 1010121,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      1010121
+    ],
     "AnimSubPath": "Combat/Weapon/Sword/",
     "AnimName": "Sword_HeavyAttack_Montage",
     "AnimPlayRate": 1,
@@ -3650,7 +4644,10 @@
   },
   "1010131": {
     "NodeId": 1010131,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      1010131,
+      1010132
+    ],
     "AnimSubPath": "Combat/Weapon/Sword/",
     "AnimName": "Sword_FallAttack_Montage",
     "AnimPlayRate": 1,
@@ -3658,7 +4655,9 @@
   },
   "1010141": {
     "NodeId": 1010141,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      1010141
+    ],
     "AnimSubPath": "Combat/Weapon/Sword/",
     "AnimName": "Sword_SlideAttack_Montage",
     "AnimPlayRate": 1,
@@ -3668,7 +4667,9 @@
     "NodeId": 1010211,
     "NextNodeId": 1010212,
     "PhantomAutoInput": 1,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      1010211
+    ],
     "AnimSubPath": "Combat/Weapon/Sword/",
     "AnimName": "Sword_Mod01_RunAttack_01_Montage",
     "AnimPlayRate": 1
@@ -3677,7 +4678,9 @@
     "NodeId": 1010212,
     "NextNodeId": 1010213,
     "PhantomAutoInput": 1,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      1010212
+    ],
     "AnimSubPath": "Combat/Weapon/Sword/",
     "AnimName": "Sword_Mod01_RunAttack_02_Montage",
     "AnimPlayRate": 1,
@@ -3687,7 +4690,9 @@
     "NodeId": 1010213,
     "NextNodeId": 1010214,
     "PhantomAutoInput": 1,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      1010213
+    ],
     "AnimSubPath": "Combat/Weapon/Sword/",
     "AnimName": "Sword_Mod01_RunAttack_03_Montage",
     "AnimPlayRate": 1,
@@ -3697,7 +4702,9 @@
     "NodeId": 1010214,
     "NextNodeId": 1010215,
     "PhantomAutoInput": 1,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      1010214
+    ],
     "AnimSubPath": "Combat/Weapon/Sword/",
     "AnimName": "Sword_Mod01_RunAttack_04_Montage",
     "AnimPlayRate": 1,
@@ -3707,7 +4714,9 @@
     "NodeId": 1010215,
     "NextNodeId": 1010211,
     "PhantomAutoInput": 2,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      1010215
+    ],
     "AnimSubPath": "Combat/Weapon/Sword/",
     "AnimName": "Sword_Mod01_RunAttack_05_Montage",
     "AnimPlayRate": 1,
@@ -3717,7 +4726,9 @@
     "NodeId": 1020111,
     "NextNodeId": 1020112,
     "PhantomAutoInput": 1,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      1020111
+    ],
     "AnimSubPath": "Combat/Weapon/Polearm/",
     "AnimName": "Polearm_RunAttack_01_Montage",
     "AnimPlayRate": 1,
@@ -3727,7 +4738,9 @@
     "NodeId": 1020112,
     "NextNodeId": 1020113,
     "PhantomAutoInput": 1,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      1020112
+    ],
     "AnimSubPath": "Combat/Weapon/Polearm/",
     "AnimName": "Polearm_RunAttack_02_Montage",
     "AnimPlayRate": 1,
@@ -3737,7 +4750,9 @@
     "NodeId": 1020113,
     "NextNodeId": 1020114,
     "PhantomAutoInput": 1,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      1020113
+    ],
     "AnimSubPath": "Combat/Weapon/Polearm/",
     "AnimName": "Polearm_RunAttack_03_Montage",
     "AnimPlayRate": 1,
@@ -3747,7 +4762,9 @@
     "NodeId": 1020114,
     "NextNodeId": 1020115,
     "PhantomAutoInput": 1,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      1020114
+    ],
     "AnimSubPath": "Combat/Weapon/Polearm/",
     "AnimName": "Polearm_RunAttack_04_Montage",
     "AnimPlayRate": 1,
@@ -3757,7 +4774,9 @@
     "NodeId": 1020115,
     "NextNodeId": 1020111,
     "PhantomAutoInput": 2,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      1020115
+    ],
     "AnimSubPath": "Combat/Weapon/Polearm/",
     "AnimName": "Polearm_RunAttack_05_Montage",
     "AnimPlayRate": 1,
@@ -3765,7 +4784,11 @@
   },
   "1020121": {
     "NodeId": 1020121,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      1020121,
+      1020122,
+      1020123
+    ],
     "AnimSubPath": "Combat/Weapon/Polearm/",
     "AnimName": "Polearm_HeavyAttack_Montage",
     "AnimPlayRate": 1,
@@ -3773,7 +4796,10 @@
   },
   "1020131": {
     "NodeId": 1020131,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      1020131,
+      1020132
+    ],
     "AnimSubPath": "Combat/Weapon/Polearm/",
     "AnimName": "Polearm_FallAttack_Montage",
     "AnimPlayRate": 1,
@@ -3781,7 +4807,9 @@
   },
   "1020141": {
     "NodeId": 1020141,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      1020141
+    ],
     "AnimSubPath": "Combat/Weapon/Polearm/",
     "AnimName": "Polearm_SlideAttack_Montage",
     "AnimPlayRate": 1,
@@ -3789,7 +4817,9 @@
   },
   "1020161": {
     "NodeId": 1020161,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      1020161
+    ],
     "AnimSubPath": "Combat/Weapon/Polearm/",
     "AnimName": "Polearm_HeavyAttack_Callback_Montage",
     "AnimPlayRate": 1,
@@ -3797,7 +4827,9 @@
   },
   "1020221": {
     "NodeId": 1020221,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      1020221
+    ],
     "AnimSubPath": "Combat/Weapon/Polearm/",
     "AnimName": "Polearm_Mod01_HeavyAttack_Montage",
     "AnimPlayRate": 1,
@@ -3805,7 +4837,10 @@
   },
   "1020231": {
     "NodeId": 1020231,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      1020231,
+      1020232
+    ],
     "AnimSubPath": "Combat/Weapon/Polearm/",
     "AnimName": "Polearm_Mod01_FallAttack_Montage",
     "AnimPlayRate": 1,
@@ -3815,7 +4850,9 @@
     "NodeId": 1030111,
     "NextNodeId": 1030112,
     "PhantomAutoInput": 1,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      1030111
+    ],
     "AnimSubPath": "Combat/Weapon/Claymore/",
     "AnimName": "Claymore_RunAttack_01_Montage",
     "AnimPlayRate": 1,
@@ -3825,7 +4862,9 @@
     "NodeId": 1030112,
     "NextNodeId": 1030113,
     "PhantomAutoInput": 1,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      1030112
+    ],
     "AnimSubPath": "Combat/Weapon/Claymore/",
     "AnimName": "Claymore_RunAttack_02_Montage",
     "AnimPlayRate": 1,
@@ -3835,7 +4874,9 @@
     "NodeId": 1030113,
     "NextNodeId": 1030114,
     "PhantomAutoInput": 1,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      1030113
+    ],
     "AnimSubPath": "Combat/Weapon/Claymore/",
     "AnimName": "Claymore_RunAttack_03_Montage",
     "AnimPlayRate": 1,
@@ -3845,7 +4886,9 @@
     "NodeId": 1030114,
     "NextNodeId": 1030111,
     "PhantomAutoInput": 2,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      1030114
+    ],
     "AnimSubPath": "Combat/Weapon/Claymore/",
     "AnimName": "Claymore_RunAttack_04_Montage",
     "AnimPlayRate": 1,
@@ -3853,7 +4896,10 @@
   },
   "1030121": {
     "NodeId": 1030121,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      1030121,
+      1030122
+    ],
     "AnimSubPath": "Combat/Weapon/Claymore/",
     "AnimName": "Claymore_HeavyAttack_Montage",
     "AnimPlayRate": 1,
@@ -3861,7 +4907,10 @@
   },
   "1030131": {
     "NodeId": 1030131,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      1030131,
+      1030132
+    ],
     "AnimSubPath": "Combat/Weapon/Claymore/",
     "AnimName": "Claymore_FallAttack_Montage",
     "AnimPlayRate": 1,
@@ -3869,7 +4918,9 @@
   },
   "1030141": {
     "NodeId": 1030141,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      1030141
+    ],
     "AnimSubPath": "Combat/Weapon/Claymore/",
     "AnimName": "Claymore_SlideAttack_Montage",
     "AnimPlayRate": 1,
@@ -3879,80 +4930,77 @@
     "NodeId": 1030211,
     "NextNodeId": 1030212,
     "PhantomAutoInput": 1,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      1030211
+    ],
     "AnimSubPath": "Combat/Weapon/Claymore/",
     "AnimName": "Claymore_Mod01_RunAttack_01_Montage",
     "AnimPlayRate": 1,
     "DisableBlendBone": true,
-    "ChangeHandHold": [
-      {
-        "HandHold": [
-          "SocketA = \"weapon_01",
-          "SocketB = \"root_hook_arm_r"
-        ]
+    "ChangeHandHold": {
+      "HandHold": {
+        "SocketA": "weapon_01",
+        "SocketB": "root_hook_arm_r"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"root_Claymore_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "root_Claymore_back",
+        "SocketB": "root_point"
       }
-    ]
+    }
   },
   "1030212": {
     "NodeId": 1030212,
     "NextNodeId": 1030213,
     "PhantomAutoInput": 1,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      1030212
+    ],
     "AnimSubPath": "Combat/Weapon/Claymore/",
     "AnimName": "Claymore_Mod01_RunAttack_02_Montage",
     "AnimPlayRate": 1,
     "DisableBlendBone": true,
-    "ChangeHandHold": [
-      {
-        "HandHold": [
-          "SocketA = \"weapon_01",
-          "SocketB = \"root_hook_arm_r"
-        ]
+    "ChangeHandHold": {
+      "HandHold": {
+        "SocketA": "weapon_01",
+        "SocketB": "root_hook_arm_r"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"root_Claymore_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "root_Claymore_back",
+        "SocketB": "root_point"
       }
-    ]
+    }
   },
   "1030213": {
     "NodeId": 1030213,
     "NextNodeId": 1030211,
     "PhantomAutoInput": 2,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      1030213,
+      1030214
+    ],
     "AnimSubPath": "Combat/Weapon/Claymore/",
     "AnimName": "Claymore_Mod01_RunAttack_03_Montage",
     "AnimPlayRate": 1,
     "CanExtractZVelocity": true,
     "DisableBlendBone": true,
-    "ChangeHandHold": [
-      {
-        "HandHold": [
-          "SocketA = \"weapon_01",
-          "SocketB = \"root_hook_arm_r"
-        ]
+    "ChangeHandHold": {
+      "HandHold": {
+        "SocketA": "weapon_01",
+        "SocketB": "root_hook_arm_r"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"root_Claymore_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "root_Claymore_back",
+        "SocketB": "root_point"
       }
-    ]
+    }
   },
   "1050111": {
     "NodeId": 1050111,
     "NextNodeId": 1050112,
     "PhantomAutoInput": 1,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      1050111
+    ],
     "AnimSubPath": "Combat/Weapon/Swordwhip/",
     "AnimName": "Swordwhip_RunAttack_01_Montage",
     "AnimPlayRate": 1
@@ -3961,7 +5009,9 @@
     "NodeId": 1050112,
     "NextNodeId": 1050113,
     "PhantomAutoInput": 1,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      1050112
+    ],
     "AnimSubPath": "Combat/Weapon/Swordwhip/",
     "AnimName": "Swordwhip_RunAttack_02_Montage",
     "AnimPlayRate": 1,
@@ -3971,7 +5021,9 @@
     "NodeId": 1050113,
     "NextNodeId": 1050114,
     "PhantomAutoInput": 1,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      1050113
+    ],
     "AnimSubPath": "Combat/Weapon/Swordwhip/",
     "AnimName": "Swordwhip_RunAttack_03_Montage",
     "AnimPlayRate": 1,
@@ -3981,7 +5033,9 @@
     "NodeId": 1050114,
     "NextNodeId": 1050111,
     "PhantomAutoInput": 2,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      1050114
+    ],
     "AnimSubPath": "Combat/Weapon/Swordwhip/",
     "AnimName": "Swordwhip_RunAttack_04_Montage",
     "AnimPlayRate": 1,
@@ -3989,7 +5043,15 @@
   },
   "1050121": {
     "NodeId": 1050121,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      1050123,
+      1050124,
+      1050125,
+      1050126,
+      1050127,
+      1050128,
+      1050129
+    ],
     "AnimSubPath": "Combat/Weapon/Swordwhip/",
     "AnimName": "Swordwhip_HeavyAttack_Montage",
     "AnimPlayRate": 1,
@@ -3997,7 +5059,10 @@
   },
   "1050131": {
     "NodeId": 1050131,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      1050131,
+      1050132
+    ],
     "AnimSubPath": "Combat/Weapon/Swordwhip/",
     "AnimName": "Swordwhip_FallAttack_Montage",
     "AnimPlayRate": 1,
@@ -4005,7 +5070,9 @@
   },
   "1050141": {
     "NodeId": 1050141,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      1050141
+    ],
     "AnimSubPath": "Combat/Weapon/Swordwhip/",
     "AnimName": "Swordwhip_SlideAttack_Montage",
     "AnimPlayRate": 1,
@@ -4015,187 +5082,183 @@
     "NodeId": 1060111,
     "NextNodeId": 1060112,
     "PhantomAutoInput": 1,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      1060111
+    ],
     "AnimSubPath": "Combat/Weapon/Katana/",
     "AnimName": "Katana_RunAttack_01_Montage",
     "AnimPlayRate": 1,
     "DisableBlendBone": true,
-    "ChangeHandHold": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"root_hook_arm_r"
-        ]
+    "ChangeHandHold": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "root_hook_arm_r"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"root_Katana01_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "root_Katana01_back",
+        "SocketB": "root_point"
       }
-    ]
+    }
   },
   "1060112": {
     "NodeId": 1060112,
     "NextNodeId": 1060113,
     "PhantomAutoInput": 1,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      1060112
+    ],
     "AnimSubPath": "Combat/Weapon/Katana/",
     "AnimName": "Katana_RunAttack_02_Montage",
     "AnimPlayRate": 1,
     "DisableBlendBone": true,
-    "ChangeHandHold": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"root_hook_arm_r"
-        ]
+    "ChangeHandHold": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "root_hook_arm_r"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"root_Katana01_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "root_Katana01_back",
+        "SocketB": "root_point"
       }
-    ]
+    }
   },
   "1060113": {
     "NodeId": 1060113,
     "NextNodeId": 1060114,
     "PhantomAutoInput": 1,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      1060113,
+      1060115
+    ],
     "AnimSubPath": "Combat/Weapon/Katana/",
     "AnimName": "Katana_RunAttack_03_Montage",
     "AnimPlayRate": 1,
     "DisableBlendBone": true,
-    "ChangeHandHold": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"root_hook_arm_r"
-        ]
+    "ChangeHandHold": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "root_hook_arm_r"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"root_Katana01_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "root_Katana01_back",
+        "SocketB": "root_point"
       }
-    ]
+    }
   },
   "1060114": {
     "NodeId": 1060114,
     "NextNodeId": 1060111,
     "PhantomAutoInput": 2,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      1060114
+    ],
     "AnimSubPath": "Combat/Weapon/Katana/",
     "AnimName": "Katana_RunAttack_04_Montage",
     "AnimPlayRate": 1,
     "DisableBlendBone": true,
-    "ChangeHandHold": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"root_hook_arm_r"
-        ]
+    "ChangeHandHold": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "root_hook_arm_r"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"root_Katana01_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "root_Katana01_back",
+        "SocketB": "root_point"
       }
-    ]
+    }
   },
   "1060121": {
     "NodeId": 1060121,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      1060121,
+      1060122,
+      1060123,
+      1060124,
+      1060125,
+      1060126,
+      1060127,
+      1060128,
+      1060129
+    ],
     "AnimSubPath": "Combat/Weapon/Katana/",
     "AnimName": "Katana_HeavyAttack_Montage",
     "AnimPlayRate": 1,
     "DisableBlendBone": true,
-    "ChangeHandHold": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"root_hook_arm_r"
-        ]
+    "ChangeHandHold": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "root_hook_arm_r"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"root_Katana01_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "root_Katana01_back",
+        "SocketB": "root_point"
       }
-    ]
+    }
   },
   "1060131": {
     "NodeId": 1060131,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      1060131,
+      1060132
+    ],
     "AnimSubPath": "Combat/Weapon/Katana/",
     "AnimName": "Katana_FallAttack_Montage",
     "AnimPlayRate": 1,
     "DisableBlendBone": true,
-    "ChangeHandHold": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"root_hook_arm_r"
-        ]
+    "ChangeHandHold": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "root_hook_arm_r"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"root_Katana01_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "root_Katana01_back",
+        "SocketB": "root_point"
       }
-    ]
+    }
   },
   "1060141": {
     "NodeId": 1060141,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      1060141
+    ],
     "AnimSubPath": "Combat/Weapon/Katana/",
     "AnimName": "Katana_SlideAttack_Montage",
     "AnimPlayRate": 1,
     "DisableBlendBone": true,
-    "ChangeHandHold": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"root_hook_arm_r"
-        ]
+    "ChangeHandHold": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "root_hook_arm_r"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"root_Katana01_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "root_Katana01_back",
+        "SocketB": "root_point"
       }
-    ]
+    }
   },
   "1060221": {
     "NodeId": 1060221,
     "NextNodeId": 1060222,
     "ExtraNextNodeId": 1060222,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      1060251,
+      1060252,
+      1060253
+    ],
     "AnimSubPath": "Combat/Weapon/Katana/",
     "AnimName": "Katana_Mod01_HeavyAttack_01_Montage",
     "AnimPlayRate": 1,
     "DisableBlendBone": true,
-    "ChangeHandHold": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"root_hook_arm_r"
-        ]
+    "ChangeHandHold": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "root_hook_arm_r"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"root_Katana01_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "root_Katana01_back",
+        "SocketB": "root_point"
       }
-    ]
+    }
   },
   "1060222": {
     "NodeId": 1060222,
@@ -4206,42 +5269,44 @@
     "AnimPlayRate": 1,
     "CanExtractZVelocity": true,
     "DisableBlendBone": true,
-    "ChangeHandHold": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"root_hook_arm_r"
-        ]
+    "ChangeHandHold": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "root_hook_arm_r"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"root_Katana01_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "root_Katana01_back",
+        "SocketB": "root_point"
       }
-    ]
+    }
   },
   "1060223": {
     "NodeId": 1060223,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      1060221,
+      1060222,
+      1060223,
+      1060224,
+      1060225,
+      1060226,
+      1060227,
+      1060228,
+      1060229
+    ],
     "AnimSubPath": "Combat/Weapon/Katana/",
     "AnimName": "Katana_Mod01_HeavyAttack_03_Montage",
     "AnimPlayRate": 1,
     "DisableBlendBone": true,
-    "ChangeHandHold": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"root_hook_arm_r"
-        ]
+    "ChangeHandHold": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "root_hook_arm_r"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"root_Katana01_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "root_Katana01_back",
+        "SocketB": "root_point"
       }
-    ]
+    }
   },
   "2010111": {
     "NodeId": 2010111,
@@ -4255,7 +5320,11 @@
     "NodeId": 2010112,
     "NextNodeId": 2010112,
     "PhantomAutoInput": 1,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      2010111,
+      2010112,
+      2010113
+    ],
     "AnimSubPath": "Combat/Weapon/Funnel/",
     "AnimName": "Funnel_ShootLoop_Montage",
     "AnimPlayRate": 1,
@@ -4271,7 +5340,9 @@
   },
   "2010121": {
     "NodeId": 2010121,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      2010121
+    ],
     "AnimSubPath": "Combat/Weapon/Funnel/",
     "AnimName": "Funnel_Reload_Montage",
     "AnimPlayRate": 1,
@@ -4294,7 +5365,9 @@
   },
   "2020121": {
     "NodeId": 2020121,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      2020121
+    ],
     "AnimSubPath": "Combat/Weapon/Crossbow/",
     "AnimName": "Crossbow01_Reload_Montage",
     "AnimPlayRate": 1.5,
@@ -4319,7 +5392,10 @@
     "NodeId": 2020311,
     "NextNodeId": 2020311,
     "PhantomAutoInput": 1,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      2020311,
+      2020312
+    ],
     "AnimSubPath": "Combat/Weapon/Crossbow/",
     "AnimName": "Crossbow01_Shooting_Montage",
     "AnimPlayRate": 1,
@@ -4329,7 +5405,9 @@
   },
   "2020321": {
     "NodeId": 2020321,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      2020321
+    ],
     "AnimSubPath": "Combat/Weapon/Crossbow/",
     "AnimName": "Crossbow01_Reload_Montage",
     "AnimPlayRate": 1.5,
@@ -4339,7 +5417,12 @@
     "NodeId": 2020511,
     "NextNodeId": 2020511,
     "PhantomAutoInput": 1,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      2020511,
+      2020512,
+      2020531,
+      2020533
+    ],
     "AnimSubPath": "Combat/Weapon/Crossbow/",
     "AnimName": "Crossbow01_Shooting_Montage",
     "AnimPlayRate": 1,
@@ -4349,7 +5432,9 @@
   },
   "2020521": {
     "NodeId": 2020521,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      2020521
+    ],
     "AnimSubPath": "Combat/Weapon/Crossbow/",
     "AnimName": "Crossbow01_Reload_Montage",
     "AnimPlayRate": 1.5,
@@ -4359,7 +5444,9 @@
     "NodeId": 2030111,
     "NextNodeId": 2030111,
     "PhantomAutoInput": 1,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      2030111
+    ],
     "AnimSubPath": "Combat/Weapon/Cannon/",
     "AnimName": "Cannon01_Shooting_Montage",
     "AnimPlayRate": 1,
@@ -4368,7 +5455,9 @@
   },
   "2030121": {
     "NodeId": 2030121,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      2030121
+    ],
     "AnimSubPath": "Combat/Weapon/Cannon/",
     "AnimName": "Cannon01_Reload_Montage",
     "AnimPlayRate": 1,
@@ -4378,7 +5467,9 @@
     "NodeId": 2030211,
     "NextNodeId": 2030211,
     "PhantomAutoInput": 1,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      2030211
+    ],
     "AnimSubPath": "Combat/Weapon/Cannon/",
     "AnimName": "Cannon01_Shooting_Montage",
     "AnimPlayRate": 1,
@@ -4387,7 +5478,9 @@
   },
   "2030221": {
     "NodeId": 2030221,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      2030221
+    ],
     "AnimSubPath": "Combat/Weapon/Cannon/",
     "AnimName": "Cannon01_Reload_Montage",
     "AnimPlayRate": 1,
@@ -4397,7 +5490,9 @@
     "NodeId": 2040111,
     "NextNodeId": 2040111,
     "PhantomAutoInput": 1,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      2040111
+    ],
     "AnimSubPath": "Combat/Weapon/Shotgun/",
     "AnimName": "Shotgun01_Shooting_Montage",
     "AnimPlayRate": 1,
@@ -4406,7 +5501,9 @@
   },
   "2040121": {
     "NodeId": 2040121,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      2040121
+    ],
     "AnimSubPath": "Combat/Weapon/Shotgun/",
     "AnimName": "Shotgun01_Reload_Montage",
     "AnimPlayRate": 1.5,
@@ -4416,7 +5513,9 @@
     "NodeId": 2040211,
     "NextNodeId": 2040211,
     "PhantomAutoInput": 1,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      2040211
+    ],
     "AnimSubPath": "Combat/Weapon/Shotgun/",
     "AnimName": "Shotgun02_Shooting_Montage",
     "AnimPlayRate": 1,
@@ -4425,7 +5524,9 @@
   },
   "2040221": {
     "NodeId": 2040221,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      2040221
+    ],
     "AnimSubPath": "Combat/Weapon/Shotgun/",
     "AnimName": "Shotgun03_Reload_Montage",
     "AnimPlayRate": 1,
@@ -4435,7 +5536,9 @@
     "NodeId": 2040311,
     "NextNodeId": 2040311,
     "PhantomAutoInput": 1,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      2040311
+    ],
     "AnimSubPath": "Combat/Weapon/Shotgun/",
     "AnimName": "Shotgun02_Shooting_Montage",
     "AnimPlayRate": 1,
@@ -4444,7 +5547,9 @@
   },
   "2040321": {
     "NodeId": 2040321,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      2040321
+    ],
     "AnimSubPath": "Combat/Weapon/Shotgun/",
     "AnimName": "Shotgun02_Reload_Montage",
     "AnimPlayRate": 1,
@@ -4454,7 +5559,9 @@
     "NodeId": 2040411,
     "NextNodeId": 2040411,
     "PhantomAutoInput": 1,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      2040411
+    ],
     "AnimSubPath": "Combat/Weapon/Shotgun/",
     "AnimName": "Shotgun02_Shooting_Montage",
     "AnimPlayRate": 1,
@@ -4463,7 +5570,9 @@
   },
   "2040421": {
     "NodeId": 2040421,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      2040421
+    ],
     "AnimSubPath": "Combat/Weapon/Shotgun/",
     "AnimName": "Shotgun02_Reload_Montage",
     "AnimPlayRate": 1,
@@ -4472,7 +5581,9 @@
   "2040511": {
     "NodeId": 2040511,
     "PhantomAutoInput": 1,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      2040511
+    ],
     "AnimSubPath": "Combat/Weapon/Shotgun/",
     "AnimName": "Shotgun01_Shooting_Montage",
     "AnimPlayRate": 1,
@@ -4482,7 +5593,10 @@
   "2040512": {
     "NodeId": 2040512,
     "PhantomAutoInput": 1,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      2040511,
+      2040514
+    ],
     "AnimSubPath": "Combat/Weapon/Shotgun/",
     "AnimName": "Shotgun03_Shooting_Montage",
     "AnimPlayRate": 1,
@@ -4490,7 +5604,9 @@
   },
   "2040521": {
     "NodeId": 2040521,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      2040521
+    ],
     "AnimSubPath": "Combat/Weapon/Shotgun/",
     "AnimName": "Shotgun01_Reload_Montage",
     "AnimPlayRate": 1.5,
@@ -4500,7 +5616,10 @@
     "NodeId": 2050111,
     "NextNodeId": 2050111,
     "PhantomAutoInput": 1,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      2050115,
+      2050116
+    ],
     "AnimSubPath": "Combat/Weapon/Machinegun/",
     "AnimName": "Machinegun01_Shooting_Montage",
     "AnimPlayRate": 1,
@@ -4510,7 +5629,9 @@
   },
   "2050121": {
     "NodeId": 2050121,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      2050121
+    ],
     "AnimSubPath": "Combat/Weapon/Machinegun/",
     "AnimName": "Machinegun01_Reload_Montage",
     "AnimPlayRate": 1.5,
@@ -4520,7 +5641,10 @@
     "NodeId": 2050211,
     "NextNodeId": 2050211,
     "PhantomAutoInput": 1,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      2050215,
+      2050216
+    ],
     "AnimSubPath": "Combat/Weapon/Machinegun/",
     "AnimName": "Machinegun02_Shooting_Montage",
     "AnimPlayRate": 1,
@@ -4530,7 +5654,9 @@
   },
   "2050221": {
     "NodeId": 2050221,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      2050221
+    ],
     "AnimSubPath": "Combat/Weapon/Machinegun/",
     "AnimName": "Machinegun02_Reload_Montage",
     "AnimPlayRate": 1,
@@ -4540,7 +5666,10 @@
     "NodeId": 2050311,
     "NextNodeId": 2050311,
     "PhantomAutoInput": 1,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      2050315,
+      2050316
+    ],
     "AnimSubPath": "Combat/Weapon/Machinegun/",
     "AnimName": "Machinegun02_Shooting_Montage",
     "AnimPlayRate": 1,
@@ -4550,7 +5679,9 @@
   },
   "2050321": {
     "NodeId": 2050321,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      2050321
+    ],
     "AnimSubPath": "Combat/Weapon/Machinegun/",
     "AnimName": "Machinegun03_Reload_Montage",
     "AnimPlayRate": 1,
@@ -4560,7 +5691,11 @@
     "NodeId": 2050411,
     "NextNodeId": 2050411,
     "PhantomAutoInput": 1,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      2050416,
+      2050417,
+      2050418
+    ],
     "AnimSubPath": "Combat/Weapon/Machinegun/",
     "AnimName": "Machinegun02_Shooting_Montage",
     "AnimPlayRate": 1,
@@ -4569,7 +5704,9 @@
   },
   "2050421": {
     "NodeId": 2050421,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      2050421
+    ],
     "AnimSubPath": "Combat/Weapon/Machinegun/",
     "AnimName": "Machinegun03_Reload_Montage",
     "AnimPlayRate": 1.5,
@@ -4579,7 +5716,11 @@
     "NodeId": 2050511,
     "NextNodeId": 2050511,
     "PhantomAutoInput": 1,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      2050513,
+      2050515,
+      2050516
+    ],
     "AnimSubPath": "Combat/Weapon/Machinegun/",
     "AnimName": "Machinegun05_Shooting_Montage",
     "AnimPlayRate": 1,
@@ -4588,7 +5729,9 @@
   },
   "2050521": {
     "NodeId": 2050521,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      2050521
+    ],
     "AnimSubPath": "Combat/Weapon/Machinegun/",
     "AnimName": "Machinegun02_Reload_Montage",
     "AnimPlayRate": 1,
@@ -4598,7 +5741,9 @@
     "NodeId": 2050611,
     "NextNodeId": 2050611,
     "PhantomAutoInput": 1,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      2050615
+    ],
     "AnimSubPath": "Combat/Weapon/Machinegun/",
     "AnimName": "Machinegun02_Shooting_Montage",
     "AnimPlayRate": 1,
@@ -4607,7 +5752,9 @@
   },
   "2050621": {
     "NodeId": 2050621,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      2050621
+    ],
     "AnimSubPath": "Combat/Weapon/Machinegun/",
     "AnimName": "Machinegun03_Reload_Montage",
     "AnimPlayRate": 1.5,
@@ -4617,7 +5764,11 @@
     "NodeId": 2050711,
     "NextNodeId": 2050711,
     "PhantomAutoInput": 1,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      25,
+      2050715,
+      2050716
+    ],
     "AnimSubPath": "Combat/Weapon/Machinegun/",
     "AnimName": "Machinegun01_Shooting_Montage",
     "AnimPlayRate": 1,
@@ -4628,7 +5779,10 @@
     "NodeId": 2060111,
     "NextNodeId": 2060111,
     "PhantomAutoInput": 1,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      25,
+      2060111
+    ],
     "AnimSubPath": "Combat/Weapon/Bow/",
     "AnimName": "Bow02_Shooting_Montage",
     "AnimPlayRate": 1,
@@ -4640,7 +5794,14 @@
     "NodeId": 2060121,
     "NextNodeId": 2060121,
     "PhantomAutoInput": 1,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      25,
+      2060111,
+      2060121,
+      2060131,
+      2060141,
+      2060142
+    ],
     "AnimSubPath": "Combat/Weapon/Bow/",
     "AnimName": "Bow_HeavyShooting_Montage",
     "AnimPlayRate": 1,
@@ -4651,7 +5812,10 @@
     "NodeId": 2060211,
     "NextNodeId": 2060211,
     "PhantomAutoInput": 1,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      25,
+      2060211
+    ],
     "AnimSubPath": "Combat/Weapon/Bow/",
     "AnimName": "Bow01_Shooting_Montage",
     "AnimPlayRate": 1,
@@ -4663,7 +5827,10 @@
     "NodeId": 2069911,
     "NextNodeId": 2069911,
     "PhantomAutoInput": 1,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      25,
+      2069911
+    ],
     "AnimSubPath": "Combat/Weapon/Bow/",
     "AnimName": "Bow02_Shooting_Montage",
     "AnimPlayRate": 1,
@@ -4675,7 +5842,13 @@
     "NodeId": 2069921,
     "NextNodeId": 2069921,
     "PhantomAutoInput": 1,
-    "SkillNodeEffects": {},
+    "SkillNodeEffects": [
+      25,
+      2069911,
+      2069921,
+      2069931,
+      2069932
+    ],
     "AnimSubPath": "Combat/Weapon/Bow/",
     "AnimName": "Bow_HeavyShooting_Montage",
     "AnimPlayRate": 1,

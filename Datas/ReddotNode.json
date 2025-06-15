@@ -8,7 +8,14 @@
   "BattleMainMenu": {
     "Name": "BattleMainMenu",
     "Type": 0,
-    "Childs": {}
+    "Childs": [
+      "AnnouncementItems",
+      "ArmoryMainMenu",
+      "NormalMail",
+      "NewFriendRequest",
+      "NewGuideNote",
+      "ActivityEvent"
+    ]
   },
   "ArmoryBattleItem": {
     "Name": "ArmoryBattleItem",
@@ -18,7 +25,10 @@
   "ArmoryMainMenu": {
     "Name": "ArmoryMainMenu",
     "Type": 0,
-    "Childs": {}
+    "Childs": [
+      "NewChar",
+      "PromoteChar"
+    ]
   },
   "NewChar": {
     "Name": "NewChar",

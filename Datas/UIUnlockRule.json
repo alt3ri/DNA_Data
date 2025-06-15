@@ -255,7 +255,9 @@
     "Icon": "/Game/UI/UI_PNG/Common/Icon/Icon_Entrance_Camera",
     "UIUnlockDesc": "UI_Locked_Des_PhotoCamera",
     "AfterUIUnlockDesc": "System_Des_PhotoCamera",
-    "OpenConditionId": {},
+    "OpenConditionId": [
+      2
+    ],
     "OpenSystemDesc": "UI_Disabled_Des_PhotoCamera"
   },
   "RougeBag": {
@@ -266,7 +268,9 @@
     "UIUnlockDesc": "UI_Locked_Des_Rouge",
     "AfterUIUnlockDesc": "System_Des_Rouge",
     "IsHideUnlockPopup": 1,
-    "OpenConditionId": {},
+    "OpenConditionId": [
+      3
+    ],
     "OpenSystemDesc": "UI_Disabled_Des_Rouge"
   },
   "Polarity": {
@@ -413,7 +417,9 @@
     "UIUnlockDesc": "UI_Locked_Des_Forging",
     "AfterUIUnlockDesc": "System_Des_Forging",
     "IsHideUnlockPopup": 1,
-    "OpenConditionId": {},
+    "OpenConditionId": [
+      7
+    ],
     "OpenSystemDesc": "UI_TOAST_FORGING_WARNING"
   }
 }

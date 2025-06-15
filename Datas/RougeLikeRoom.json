@@ -669,7 +669,9 @@
     "RoomType": 2,
     "RoomSubType": 1,
     "RoomWeight": 100,
-    "RoomCondition": {},
+    "RoomCondition": [
+      5010
+    ],
     "TokenAward": 360,
     "BlessingAward": 12,
     "EndPointsBase": 210,
@@ -684,7 +686,9 @@
     "RoomType": 2,
     "RoomSubType": 1,
     "RoomWeight": 100,
-    "RoomCondition": {},
+    "RoomCondition": [
+      5012
+    ],
     "TokenAward": 360,
     "BlessingAward": 12,
     "EndPointsBase": 210,
@@ -699,7 +703,9 @@
     "RoomType": 2,
     "RoomSubType": 1,
     "RoomWeight": 100,
-    "RoomCondition": {},
+    "RoomCondition": [
+      5017
+    ],
     "TokenAward": 360,
     "BlessingAward": 12,
     "EndPointsBase": 210,
@@ -714,7 +720,9 @@
     "RoomType": 2,
     "RoomSubType": 1,
     "RoomWeight": 100,
-    "RoomCondition": {},
+    "RoomCondition": [
+      5013
+    ],
     "TokenAward": 360,
     "BlessingAward": 12,
     "EndPointsBase": 210,
@@ -729,7 +737,9 @@
     "RoomType": 2,
     "RoomSubType": 1,
     "RoomWeight": 100,
-    "RoomCondition": {},
+    "RoomCondition": [
+      5018
+    ],
     "TokenAward": 360,
     "BlessingAward": 12,
     "EndPointsBase": 210,
@@ -901,7 +911,10 @@
     "RoomWeight": 100,
     "EventMainIcon": "Texture2D'/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Event01.T_Rouge_Event01'",
     "EventStoryline": "Rogue/RouEvent_304",
-    "RoomCondition": {},
+    "RoomCondition": [
+      5008,
+      5009
+    ],
     "EventSelect": [
       1026,
       1027
@@ -981,7 +994,10 @@
     "RoomWeight": 100,
     "EventMainIcon": "Texture2D'/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Event07.T_Rouge_Event07'",
     "EventStoryline": "Rogue/RouEvent_308",
-    "RoomCondition": {},
+    "RoomCondition": [
+      5015,
+      5016
+    ],
     "EventSelect": [
       1046,
       1047
@@ -1126,8 +1142,12 @@
     "RoomType": 4,
     "RoomSubType": 1,
     "RoomWeight": 400,
-    "RoomCondition": {},
-    "ShopRandom": {},
+    "RoomCondition": [
+      5029
+    ],
+    "ShopRandom": [
+      2
+    ],
     "ArtDataPath": "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Rou01_Eve02_Art.Prologue_Rou01_Eve02_Art",
     "DesignDataPath": "/Game/Maps/Datas/Data_Design/Prologue/Roug01_Design/Prologue_Rou01_Eve02B_Design.Prologue_Rou01_Eve02B_Design",
     "GameModePath": "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Eve02B.BP_EMGameMode_Prologue_Rou01_Eve02B"
@@ -1138,8 +1158,12 @@
     "RoomType": 4,
     "RoomSubType": 1,
     "RoomWeight": 300,
-    "RoomCondition": {},
-    "ShopRandom": {},
+    "RoomCondition": [
+      5030
+    ],
+    "ShopRandom": [
+      3
+    ],
     "ArtDataPath": "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Rou01_Eve01_Art.Prologue_Rou01_Eve01_Art",
     "DesignDataPath": "/Game/Maps/Datas/Data_Design/Prologue/Roug01_Design/Prologue_Rou01_Eve01B_Design.Prologue_Rou01_Eve01B_Design",
     "GameModePath": "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Eve01B.BP_EMGameMode_Prologue_Rou01_Eve01B"
@@ -1153,7 +1177,9 @@
     "RoomCondition": [
       5031
     ],
-    "ShopRandom": {},
+    "ShopRandom": [
+      4
+    ],
     "ArtDataPath": "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Rou01_Eve02_Art.Prologue_Rou01_Eve02_Art",
     "DesignDataPath": "/Game/Maps/Datas/Data_Design/Prologue/Roug01_Design/Prologue_Rou01_Eve02B_Design.Prologue_Rou01_Eve02B_Design",
     "GameModePath": "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Eve02B.BP_EMGameMode_Prologue_Rou01_Eve02B"
@@ -1167,7 +1193,9 @@
     "RoomCondition": [
       5031
     ],
-    "ShopRandom": {},
+    "ShopRandom": [
+      101
+    ],
     "ArtDataPath": "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Rou01_Eve01_Art.Prologue_Rou01_Eve01_Art",
     "DesignDataPath": "/Game/Maps/Datas/Data_Design/Prologue/Roug01_Design/Prologue_Rou01_Eve01B_Design.Prologue_Rou01_Eve01B_Design",
     "GameModePath": "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Eve01B.BP_EMGameMode_Prologue_Rou01_Eve01B"
@@ -1273,7 +1301,9 @@
     "RoomType": 5,
     "RoomSubType": 1,
     "RoomWeight": 100,
-    "RoomCondition": {},
+    "RoomCondition": [
+      5019
+    ],
     "EndPointsBase": 500,
     "ArtDataPath": "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Rou01_Boss01_Art.Prologue_Rou01_Boss01_Art",
     "DesignDataPath": "/Game/Maps/Datas/Data_Design/Prologue/Roug01_Design/Prologue_Rou01_Boss01A_Design.Prologue_Rou01_Boss01A_Design",
@@ -1285,7 +1315,9 @@
     "RoomType": 5,
     "RoomSubType": 1,
     "RoomWeight": 100,
-    "RoomCondition": {},
+    "RoomCondition": [
+      5020
+    ],
     "EndPointsBase": 500,
     "ArtDataPath": "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Rou01_Boss01_Art.Prologue_Rou01_Boss01_Art",
     "DesignDataPath": "/Game/Maps/Datas/Data_Design/Prologue/Roug01_Design/Prologue_Rou01_Boss01A_Design.Prologue_Rou01_Boss01A_Design",
@@ -1297,7 +1329,9 @@
     "RoomType": 5,
     "RoomSubType": 1,
     "RoomWeight": 100,
-    "RoomCondition": {},
+    "RoomCondition": [
+      5021
+    ],
     "EndPointsBase": 500,
     "ArtDataPath": "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Rou01_Boss01_Art.Prologue_Rou01_Boss01_Art",
     "DesignDataPath": "/Game/Maps/Datas/Data_Design/Prologue/Roug01_Design/Prologue_Rou01_Boss01A_Design.Prologue_Rou01_Boss01A_Design",
@@ -1309,7 +1343,9 @@
     "RoomType": 5,
     "RoomSubType": 1,
     "RoomWeight": 100,
-    "RoomCondition": {},
+    "RoomCondition": [
+      5022
+    ],
     "EndPointsBase": 500,
     "ArtDataPath": "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Rou01_Boss01_Art.Prologue_Rou01_Boss01_Art",
     "DesignDataPath": "/Game/Maps/Datas/Data_Design/Prologue/Roug01_Design/Prologue_Rou01_Boss01A_Design.Prologue_Rou01_Boss01A_Design",
@@ -1321,7 +1357,9 @@
     "RoomType": 5,
     "RoomSubType": 1,
     "RoomWeight": 100,
-    "RoomCondition": {},
+    "RoomCondition": [
+      5023
+    ],
     "EndPointsBase": 500,
     "ArtDataPath": "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Rou01_Boss01_Art.Prologue_Rou01_Boss01_Art",
     "DesignDataPath": "/Game/Maps/Datas/Data_Design/Prologue/Roug01_Design/Prologue_Rou01_Boss01A_Design.Prologue_Rou01_Boss01A_Design",

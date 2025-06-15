@@ -121,18 +121,16 @@
       7002001,
       7003001
     ],
-    "MonsterBuff": [
-      {
-        "BuffList": [
-          6000011,
-          6000024,
-          6000031,
-          6000041,
-          6000051,
-          6000061
-        ]
-      }
-    ],
+    "MonsterBuff": {
+      "BuffList": [
+        6000011,
+        6000024,
+        6000031,
+        6000041,
+        6000051,
+        6000061
+      ]
+    },
     "DungeonDoorBP": "/Game/BluePrints/Item/Door/BP_AutoDoor",
     "DungeonUIBG": "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Defence.LevelSelect_Bg_Defence"
   },
@@ -177,18 +175,16 @@
       7002001,
       7003001
     ],
-    "MonsterBuff": [
-      {
-        "BuffList": [
-          6000011,
-          6000021,
-          6000034,
-          6000041,
-          6000051,
-          6000061
-        ]
-      }
-    ],
+    "MonsterBuff": {
+      "BuffList": [
+        6000011,
+        6000021,
+        6000034,
+        6000041,
+        6000051,
+        6000061
+      ]
+    },
     "DungeonDoorBP": "/Game/BluePrints/Item/Door/BP_AutoDoor",
     "DungeonUIBG": "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Defence.LevelSelect_Bg_Defence"
   },
@@ -233,18 +229,16 @@
       7002001,
       7003001
     ],
-    "MonsterBuff": [
-      {
-        "BuffList": [
-          6000011,
-          6000021,
-          6000031,
-          6000044,
-          6000051,
-          6000061
-        ]
-      }
-    ],
+    "MonsterBuff": {
+      "BuffList": [
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      ]
+    },
     "DungeonDoorBP": "/Game/BluePrints/Item/Door/BP_AutoDoor",
     "DungeonUIBG": "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Defence.LevelSelect_Bg_Defence"
   },
@@ -289,18 +283,16 @@
       7002001,
       7003001
     ],
-    "MonsterBuff": [
-      {
-        "BuffList": [
-          6000014,
-          6000021,
-          6000031,
-          6000041,
-          6000051,
-          6000061
-        ]
-      }
-    ],
+    "MonsterBuff": {
+      "BuffList": [
+        6000014,
+        6000021,
+        6000031,
+        6000041,
+        6000051,
+        6000061
+      ]
+    },
     "DungeonDoorBP": "/Game/BluePrints/Item/Door/BP_AutoDoor",
     "DungeonUIBG": "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Defence.LevelSelect_Bg_Defence"
   },
@@ -325,7 +317,12 @@
     "DungeonJsonFile": "/Game/Script/Datas/Houdini_data/Test/MobileTest",
     "IsPlayLevelEnter": true,
     "EnableTacmap": false,
-    "DungeonReward": {},
+    "DungeonReward": [
+      30003,
+      30001,
+      30001,
+      30001
+    ],
     "DungeonDropTag": [
       "Mon.Gr",
       "Mon.Jt",
@@ -384,7 +381,11 @@
       "Mon.Jt",
       "Mon.Jh"
     ],
-    "DungeonDropReward": {},
+    "DungeonDropReward": [
+      150001,
+      150002,
+      150003
+    ],
     "DungeonMonsters": [
       6001001,
       6001012,
@@ -722,7 +723,11 @@
     "EnableTacmap": false,
     "DungeonWinMode": 3,
     "DungeonDoorBP": "/Game/BluePrints/Item/Door/BP_AutoDoor",
-    "ExitPlayerLocation": {},
+    "ExitPlayerLocation": [
+      3504.5,
+      1763.6,
+      956.5
+    ],
     "ExitPlayerRotation": [
       0,
       0,
@@ -1983,7 +1988,9 @@
     "DungeonJsonFile": "/Game/Script/Datas/Houdini_data/Prologue/Defence01/Defence01_20",
     "IsPlayLevelEnter": true,
     "EnableTacmap": false,
-    "DungeonReward": {},
+    "DungeonReward": [
+      51531
+    ],
     "DungeonCost": [
       0
     ],
@@ -2019,12 +2026,12 @@
       6011001,
       6012001
     ],
-    "PreloadMonstersNum": [
-      5,
-      11,
-      4,
-      11
-    ],
+    "PreloadMonstersNum": {
+      "6001001": 5,
+      "6002001": 11,
+      "6011001": 4,
+      "6012001": 11
+    },
     "RespawnRule": "CommonSolo",
     "DungeonWinMode": 2,
     "MultiPlayerLevels": [
@@ -2069,7 +2076,11 @@
     "DungeonJsonFile": "/Game/Script/Datas/Houdini_data/Prologue/Defence01/Defence01_20",
     "IsPlayLevelEnter": true,
     "EnableTacmap": false,
-    "DungeonReward": {},
+    "DungeonReward": [
+      51800,
+      51801,
+      51802
+    ],
     "DungeonCost": [
       50,
       75,
@@ -2117,21 +2128,21 @@
       7013001,
       7008001
     ],
-    "PreloadMonstersNum": [
-      1,
-      4,
-      1,
-      4,
-      1,
-      15,
-      4,
-      2,
-      1,
-      1,
-      2,
-      2,
-      1
-    ],
+    "PreloadMonstersNum": {
+      "6001001": 1,
+      "6002001": 4,
+      "6002011": 1,
+      "6011001": 1,
+      "6012001": 4,
+      "7001001": 15,
+      "7002001": 2,
+      "7003001": 2,
+      "7003018": 1,
+      "7008001": 1,
+      "7012001": 4,
+      "7013001": 2,
+      "8501002": 1
+    },
     "RespawnRule": "CommonSolo",
     "DungeonWinMode": 1,
     "MultiPlayerLevels": [
@@ -2170,7 +2181,9 @@
     "DungeonJsonFile": "/Game/Script/Datas/Houdini_data/Prologue/Defence01/Defence01_40",
     "IsPlayLevelEnter": true,
     "EnableTacmap": false,
-    "DungeonReward": {},
+    "DungeonReward": [
+      51532
+    ],
     "DungeonCost": [
       0
     ],
@@ -2235,7 +2248,9 @@
       0,
       -90
     ],
-    "Condition": {},
+    "Condition": [
+      3110
+    ],
     "TicketId": [
       206,
       207,
@@ -2257,7 +2272,11 @@
     "DungeonJsonFile": "/Game/Script/Datas/Houdini_data/Prologue/Defence01/Defence01_40",
     "IsPlayLevelEnter": true,
     "EnableTacmap": false,
-    "DungeonReward": {},
+    "DungeonReward": [
+      51803,
+      51804,
+      51805
+    ],
     "DungeonCost": [
       50,
       75,
@@ -2305,21 +2324,21 @@
       7013001,
       7008001
     ],
-    "PreloadMonstersNum": [
-      1,
-      4,
-      1,
-      4,
-      1,
-      15,
-      4,
-      2,
-      1,
-      1,
-      2,
-      2,
-      1
-    ],
+    "PreloadMonstersNum": {
+      "6001001": 1,
+      "6002001": 4,
+      "6002011": 1,
+      "6011001": 1,
+      "6012001": 4,
+      "7001001": 15,
+      "7002001": 2,
+      "7003001": 2,
+      "7003018": 1,
+      "7008001": 1,
+      "7012001": 4,
+      "7013001": 2,
+      "8501002": 1
+    },
     "RespawnRule": "CommonSolo",
     "DungeonWinMode": 1,
     "MultiPlayerLevels": [
@@ -2358,7 +2377,9 @@
     "DungeonJsonFile": "/Game/Script/Datas/Houdini_data/Prologue/Defence01/Defence01_50",
     "IsPlayLevelEnter": true,
     "EnableTacmap": false,
-    "DungeonReward": {},
+    "DungeonReward": [
+      51533
+    ],
     "DungeonCost": [
       0
     ],
@@ -2423,7 +2444,9 @@
       0,
       -90
     ],
-    "Condition": {},
+    "Condition": [
+      3111
+    ],
     "TicketId": [
       206,
       207,
@@ -2445,7 +2468,11 @@
     "DungeonJsonFile": "/Game/Script/Datas/Houdini_data/Prologue/Defence01/Defence01_50",
     "IsPlayLevelEnter": true,
     "EnableTacmap": false,
-    "DungeonReward": {},
+    "DungeonReward": [
+      51806,
+      51807,
+      51808
+    ],
     "DungeonCost": [
       50,
       75,
@@ -2548,7 +2575,9 @@
     "DungeonJsonFile": "/Game/Script/Datas/Houdini_data/Prologue/Defence01/Defence01_50",
     "IsPlayLevelEnter": true,
     "EnableTacmap": false,
-    "DungeonReward": {},
+    "DungeonReward": [
+      51534
+    ],
     "DungeonCost": [
       0
     ],
@@ -2584,12 +2613,12 @@
       6011001,
       6012001
     ],
-    "PreloadMonstersNum": [
-      5,
-      11,
-      4,
-      11
-    ],
+    "PreloadMonstersNum": {
+      "6001001": 5,
+      "6002001": 11,
+      "6011001": 4,
+      "6012001": 11
+    },
     "RespawnRule": "CommonSolo",
     "DungeonWinMode": 2,
     "MultiPlayerLevels": [
@@ -2613,7 +2642,9 @@
       0,
       -90
     ],
-    "Condition": {},
+    "Condition": [
+      3112
+    ],
     "TicketId": [
       206,
       207,
@@ -2635,7 +2666,11 @@
     "DungeonJsonFile": "/Game/Script/Datas/Houdini_data/Prologue/Defence01/Defence01_50",
     "IsPlayLevelEnter": true,
     "EnableTacmap": false,
-    "DungeonReward": {},
+    "DungeonReward": [
+      51809,
+      51810,
+      51811
+    ],
     "DungeonCost": [
       50,
       75,
@@ -2724,7 +2759,10 @@
       0,
       -90
     ],
-    "Condition": {}
+    "Condition": [
+      130,
+      3013
+    ]
   },
   "90109": {
     "DungeonID": 90109,
@@ -2739,7 +2777,9 @@
     "DungeonJsonFile": "/Game/Script/Datas/Houdini_data/Prologue/Defence01/Defence01_50",
     "IsPlayLevelEnter": true,
     "EnableTacmap": false,
-    "DungeonReward": {},
+    "DungeonReward": [
+      51535
+    ],
     "DungeonCost": [
       0
     ],
@@ -2775,12 +2815,12 @@
       6011001,
       6012001
     ],
-    "PreloadMonstersNum": [
-      5,
-      11,
-      4,
-      11
-    ],
+    "PreloadMonstersNum": {
+      "6001001": 5,
+      "6002001": 11,
+      "6011001": 4,
+      "6012001": 11
+    },
     "RespawnRule": "CommonSolo",
     "DungeonWinMode": 2,
     "MultiPlayerLevels": [
@@ -2804,7 +2844,9 @@
       0,
       -90
     ],
-    "Condition": {},
+    "Condition": [
+      3113
+    ],
     "TicketId": [
       206,
       207,
@@ -2826,7 +2868,11 @@
     "DungeonJsonFile": "/Game/Script/Datas/Houdini_data/Prologue/Defence01/Defence01_50",
     "IsPlayLevelEnter": true,
     "EnableTacmap": false,
-    "DungeonReward": {},
+    "DungeonReward": [
+      51812,
+      51813,
+      51814
+    ],
     "DungeonCost": [
       50,
       75,
@@ -2914,7 +2960,10 @@
       0,
       -90
     ],
-    "Condition": {}
+    "Condition": [
+      140,
+      3014
+    ]
   },
   "90111": {
     "DungeonID": 90111,
@@ -2929,7 +2978,9 @@
     "DungeonJsonFile": "/Game/Script/Datas/Houdini_data/Prologue/Defence01/Defence01_50",
     "IsPlayLevelEnter": true,
     "EnableTacmap": false,
-    "DungeonReward": {},
+    "DungeonReward": [
+      51536
+    ],
     "DungeonCost": [
       0
     ],
@@ -2965,12 +3016,12 @@
       6011001,
       6012001
     ],
-    "PreloadMonstersNum": [
-      5,
-      11,
-      4,
-      11
-    ],
+    "PreloadMonstersNum": {
+      "6001001": 5,
+      "6002001": 11,
+      "6011001": 4,
+      "6012001": 11
+    },
     "RespawnRule": "CommonSolo",
     "DungeonWinMode": 2,
     "MultiPlayerLevels": [
@@ -2994,7 +3045,9 @@
       0,
       -90
     ],
-    "Condition": {},
+    "Condition": [
+      3114
+    ],
     "TicketId": [
       206,
       207,
@@ -3016,7 +3069,11 @@
     "DungeonJsonFile": "/Game/Script/Datas/Houdini_data/Prologue/Defence01/Defence01_50",
     "IsPlayLevelEnter": true,
     "EnableTacmap": false,
-    "DungeonReward": {},
+    "DungeonReward": [
+      51815,
+      51816,
+      51817
+    ],
     "DungeonCost": [
       50,
       75,
@@ -3104,7 +3161,10 @@
       0,
       -90
     ],
-    "Condition": {}
+    "Condition": [
+      150,
+      3015
+    ]
   },
   "90113": {
     "DungeonID": 90113,
@@ -3119,7 +3179,9 @@
     "DungeonJsonFile": "/Game/Script/Datas/Houdini_data/Prologue/Defence01/Defence01_50",
     "IsPlayLevelEnter": true,
     "EnableTacmap": false,
-    "DungeonReward": {},
+    "DungeonReward": [
+      51537
+    ],
     "DungeonCost": [
       0
     ],
@@ -3133,7 +3195,15 @@
       "Mon.Reward.D",
       "Mon.Reward.E"
     ],
-    "DungeonDropReward": {},
+    "DungeonDropReward": [
+      150104,
+      150105,
+      150106,
+      73,
+      72,
+      71,
+      71
+    ],
     "DungeonMonsters": [
       6001001,
       6002001,
@@ -3147,12 +3217,12 @@
       6011001,
       6012001
     ],
-    "PreloadMonstersNum": [
-      5,
-      11,
-      4,
-      11
-    ],
+    "PreloadMonstersNum": {
+      "6001001": 5,
+      "6002001": 11,
+      "6011001": 4,
+      "6012001": 11
+    },
     "RespawnRule": "CommonSolo",
     "DungeonWinMode": 2,
     "MultiPlayerLevels": [
@@ -3176,7 +3246,9 @@
       0,
       -90
     ],
-    "Condition": {},
+    "Condition": [
+      3115
+    ],
     "TicketId": [
       206,
       207,
@@ -3198,7 +3270,11 @@
     "DungeonJsonFile": "/Game/Script/Datas/Houdini_data/Prologue/Defence01/Defence01_50",
     "IsPlayLevelEnter": true,
     "EnableTacmap": false,
-    "DungeonReward": {},
+    "DungeonReward": [
+      51818,
+      51819,
+      51820
+    ],
     "DungeonCost": [
       50,
       75,
@@ -3246,21 +3322,21 @@
       7013001,
       7008001
     ],
-    "PreloadMonstersNum": [
-      1,
-      4,
-      1,
-      4,
-      1,
-      15,
-      4,
-      2,
-      1,
-      1,
-      2,
-      2,
-      1
-    ],
+    "PreloadMonstersNum": {
+      "6001001": 1,
+      "6002001": 4,
+      "6002011": 1,
+      "6011001": 1,
+      "6012001": 4,
+      "7001001": 15,
+      "7002001": 2,
+      "7003001": 2,
+      "7003018": 1,
+      "7008001": 1,
+      "7012001": 4,
+      "7013001": 2,
+      "8501002": 1
+    },
     "RespawnRule": "CommonSolo",
     "DungeonWinMode": 1,
     "MultiPlayerLevels": [
@@ -3285,7 +3361,10 @@
       0,
       -90
     ],
-    "Condition": {}
+    "Condition": [
+      160,
+      3016
+    ]
   },
   "90201": {
     "DungeonID": 90201,
@@ -3301,7 +3380,13 @@
     "DungeonJsonFile": "/Game/Script/Datas/Houdini_data/Chapter01/Excavation01/Excavation01_10",
     "IsPlayLevelEnter": true,
     "EnableTacmap": true,
-    "DungeonReward": {},
+    "DungeonReward": [
+      50900,
+      50901,
+      50902,
+      50903,
+      50904
+    ],
     "DungeonCost": [
       30,
       30,
@@ -3390,7 +3475,13 @@
     "DungeonJsonFile": "/Game/Script/Datas/Houdini_data/Chapter01/Excavation01/Excavation01_10",
     "IsPlayLevelEnter": true,
     "EnableTacmap": true,
-    "DungeonReward": {},
+    "DungeonReward": [
+      50910,
+      50911,
+      50912,
+      50913,
+      50914
+    ],
     "DungeonCost": [
       30,
       30,
@@ -3470,7 +3561,10 @@
       0,
       0
     ],
-    "Condition": {}
+    "Condition": [
+      110,
+      3031
+    ]
   },
   "90203": {
     "DungeonID": 90203,
@@ -3486,7 +3580,13 @@
     "DungeonJsonFile": "/Game/Script/Datas/Houdini_data/Chapter01/Excavation01/Excavation01_30",
     "IsPlayLevelEnter": true,
     "EnableTacmap": true,
-    "DungeonReward": {},
+    "DungeonReward": [
+      50920,
+      50921,
+      50922,
+      50923,
+      50924
+    ],
     "DungeonCost": [
       30,
       30,
@@ -3569,7 +3669,10 @@
       0,
       0
     ],
-    "Condition": {}
+    "Condition": [
+      120,
+      3032
+    ]
   },
   "90204": {
     "DungeonID": 90204,
@@ -3585,7 +3688,13 @@
     "DungeonJsonFile": "/Game/Script/Datas/Houdini_data/Chapter01/Excavation01/Excavation01_30",
     "IsPlayLevelEnter": true,
     "EnableTacmap": true,
-    "DungeonReward": {},
+    "DungeonReward": [
+      50930,
+      50931,
+      50932,
+      50933,
+      50934
+    ],
     "DungeonCost": [
       30,
       30,
@@ -3630,18 +3739,18 @@
       7002001,
       7012001
     ],
-    "PreloadMonstersNum": [
-      2,
-      2,
-      2,
-      3,
-      4,
-      8,
-      4,
-      6,
-      4,
-      4
-    ],
+    "PreloadMonstersNum": {
+      "6001001": 2,
+      "6002001": 2,
+      "6002003": 4,
+      "6011001": 2,
+      "6012001": 3,
+      "7001001": 8,
+      "7002001": 4,
+      "7003001": 6,
+      "7012001": 4,
+      "7013001": 4
+    },
     "RespawnRule": "CommonSolo",
     "DungeonWinMode": 1,
     "MultiPlayerLevels": [
@@ -3666,7 +3775,10 @@
       0,
       0
     ],
-    "Condition": {}
+    "Condition": [
+      130,
+      3033
+    ]
   },
   "90205": {
     "DungeonID": 90205,
@@ -3682,7 +3794,13 @@
     "DungeonJsonFile": "/Game/Script/Datas/Houdini_data/Chapter01/Excavation01/Excavation01_50",
     "IsPlayLevelEnter": true,
     "EnableTacmap": true,
-    "DungeonReward": {},
+    "DungeonReward": [
+      50940,
+      50941,
+      50942,
+      50943,
+      50944
+    ],
     "DungeonCost": [
       30,
       30,
@@ -3730,18 +3848,18 @@
       7002001,
       7012001
     ],
-    "PreloadMonstersNum": [
-      2,
-      2,
-      2,
-      3,
-      4,
-      8,
-      4,
-      6,
-      4,
-      4
-    ],
+    "PreloadMonstersNum": {
+      "6001001": 2,
+      "6002001": 2,
+      "6002003": 4,
+      "6011001": 2,
+      "6012001": 3,
+      "7001001": 8,
+      "7002001": 4,
+      "7003001": 6,
+      "7012001": 4,
+      "7013001": 4
+    },
     "RespawnRule": "CommonSolo",
     "DungeonWinMode": 1,
     "MultiPlayerLevels": [
@@ -3766,7 +3884,10 @@
       0,
       0
     ],
-    "Condition": {}
+    "Condition": [
+      140,
+      3034
+    ]
   },
   "90206": {
     "DungeonID": 90206,
@@ -3782,7 +3903,13 @@
     "DungeonJsonFile": "/Game/Script/Datas/Houdini_data/Chapter01/Excavation01/Excavation01_50",
     "IsPlayLevelEnter": true,
     "EnableTacmap": true,
-    "DungeonReward": {},
+    "DungeonReward": [
+      50950,
+      50951,
+      50952,
+      50953,
+      50954
+    ],
     "DungeonCost": [
       30,
       30,
@@ -3830,18 +3957,18 @@
       7002001,
       7012001
     ],
-    "PreloadMonstersNum": [
-      2,
-      2,
-      2,
-      3,
-      4,
-      8,
-      4,
-      6,
-      4,
-      4
-    ],
+    "PreloadMonstersNum": {
+      "6001001": 2,
+      "6002001": 2,
+      "6002003": 4,
+      "6011001": 2,
+      "6012001": 3,
+      "7001001": 8,
+      "7002001": 4,
+      "7003001": 6,
+      "7012001": 4,
+      "7013001": 4
+    },
     "RespawnRule": "CommonSolo",
     "DungeonWinMode": 1,
     "MultiPlayerLevels": [
@@ -3866,7 +3993,10 @@
       0,
       0
     ],
-    "Condition": {}
+    "Condition": [
+      150,
+      3035
+    ]
   },
   "90207": {
     "DungeonID": 90207,
@@ -3882,7 +4012,13 @@
     "DungeonJsonFile": "/Game/Script/Datas/Houdini_data/Chapter01/Excavation01/Excavation01_50",
     "IsPlayLevelEnter": true,
     "EnableTacmap": true,
-    "DungeonReward": {},
+    "DungeonReward": [
+      50960,
+      50961,
+      50962,
+      50963,
+      50964
+    ],
     "DungeonCost": [
       30,
       30,
@@ -3916,7 +4052,18 @@
       6004001,
       8501002
     ],
-    "PreloadMonsters": {},
+    "PreloadMonsters": [
+      6001001,
+      6002001,
+      6011001,
+      6012001,
+      6002003,
+      6004001,
+      7001001,
+      7002001,
+      7012001,
+      7013001
+    ],
     "PreloadMonstersNum": {
       "6001001": 2,
       "6002001": 2,
@@ -3954,7 +4101,10 @@
       0,
       0
     ],
-    "Condition": {}
+    "Condition": [
+      160,
+      3036
+    ]
   },
   "90301": {
     "DungeonID": 90301,
@@ -4013,18 +4163,16 @@
       7003001
     ],
     "RespawnRule": "CommonSolo",
-    "MonsterBuff": [
-      {
-        "BuffList": [
-          6000014,
-          6000021,
-          6000031,
-          6000041,
-          6000051,
-          6000061
-        ]
-      }
-    ],
+    "MonsterBuff": {
+      "BuffList": [
+        6000014,
+        6000021,
+        6000031,
+        6000041,
+        6000051,
+        6000061
+      ]
+    },
     "DungeonWinMode": 2,
     "MultiPlayerLevels": [
       0,
@@ -4063,7 +4211,9 @@
     "EnableTacmap": true,
     "LocAdjustDetectTime": 5,
     "LocAdjustDis": 5000,
-    "DungeonReward": {},
+    "DungeonReward": [
+      50103
+    ],
     "DungeonCost": [
       20
     ],
@@ -4103,18 +4253,16 @@
       7003001
     ],
     "RespawnRule": "CommonSolo",
-    "MonsterBuff": [
-      {
-        "BuffList": [
-          6000011,
-          6000024,
-          6000031,
-          6000041,
-          6000051,
-          6000061
-        ]
-      }
-    ],
+    "MonsterBuff": {
+      "BuffList": [
+        6000011,
+        6000024,
+        6000031,
+        6000041,
+        6000051,
+        6000061
+      ]
+    },
     "DungeonWinMode": 2,
     "MultiPlayerLevels": [
       0,
@@ -4153,7 +4301,9 @@
     "EnableTacmap": true,
     "LocAdjustDetectTime": 5,
     "LocAdjustDis": 5000,
-    "DungeonReward": {},
+    "DungeonReward": [
+      50106
+    ],
     "DungeonCost": [
       20
     ],
@@ -4193,18 +4343,16 @@
       7003001
     ],
     "RespawnRule": "CommonSolo",
-    "MonsterBuff": [
-      {
-        "BuffList": [
-          6000011,
-          6000021,
-          6000034,
-          6000041,
-          6000051,
-          6000061
-        ]
-      }
-    ],
+    "MonsterBuff": {
+      "BuffList": [
+        6000011,
+        6000021,
+        6000034,
+        6000041,
+        6000051,
+        6000061
+      ]
+    },
     "DungeonWinMode": 2,
     "MultiPlayerLevels": [
       0,
@@ -4243,7 +4391,9 @@
     "EnableTacmap": true,
     "LocAdjustDetectTime": 5,
     "LocAdjustDis": 5000,
-    "DungeonReward": {},
+    "DungeonReward": [
+      50109
+    ],
     "DungeonCost": [
       20
     ],
@@ -4321,7 +4471,9 @@
     "EnableTacmap": true,
     "LocAdjustDetectTime": 5,
     "LocAdjustDis": 5000,
-    "DungeonReward": {},
+    "DungeonReward": [
+      51521
+    ],
     "DungeonRewardView": 90350,
     "DungeonDropTag": [
       "Mon.Gr",
@@ -4421,7 +4573,9 @@
     "EnableTacmap": true,
     "LocAdjustDetectTime": 5,
     "LocAdjustDis": 5000,
-    "DungeonReward": {},
+    "DungeonReward": [
+      51522
+    ],
     "DungeonRewardView": 90351,
     "DungeonDropTag": [
       "Mon.Gr",
@@ -4501,7 +4655,9 @@
       0,
       -90
     ],
-    "Condition": {},
+    "Condition": [
+      3100
+    ],
     "TicketId": [
       206,
       207,
@@ -4524,7 +4680,9 @@
     "EnableTacmap": true,
     "LocAdjustDetectTime": 5,
     "LocAdjustDis": 5000,
-    "DungeonReward": {},
+    "DungeonReward": [
+      51523
+    ],
     "DungeonRewardView": 90352,
     "DungeonDropTag": [
       "Mon.Gr",
@@ -4605,7 +4763,9 @@
       0,
       -90
     ],
-    "Condition": {},
+    "Condition": [
+      3101
+    ],
     "TicketId": [
       206,
       207,
@@ -4628,7 +4788,9 @@
     "EnableTacmap": true,
     "LocAdjustDetectTime": 5,
     "LocAdjustDis": 5000,
-    "DungeonReward": {},
+    "DungeonReward": [
+      51524
+    ],
     "DungeonRewardView": 90353,
     "DungeonDropTag": [
       "Mon.Gr",
@@ -4705,7 +4867,9 @@
       0,
       -90
     ],
-    "Condition": {},
+    "Condition": [
+      3102
+    ],
     "TicketId": [
       206,
       207,
@@ -4728,7 +4892,9 @@
     "EnableTacmap": true,
     "LocAdjustDetectTime": 5,
     "LocAdjustDis": 5000,
-    "DungeonReward": {},
+    "DungeonReward": [
+      51525
+    ],
     "DungeonRewardView": 90354,
     "DungeonDropTag": [
       "Mon.Gr",
@@ -4810,7 +4976,9 @@
       0,
       -90
     ],
-    "Condition": {},
+    "Condition": [
+      3103
+    ],
     "TicketId": [
       206,
       207,
@@ -4833,7 +5001,9 @@
     "EnableTacmap": true,
     "LocAdjustDetectTime": 5,
     "LocAdjustDis": 5000,
-    "DungeonReward": {},
+    "DungeonReward": [
+      51526
+    ],
     "DungeonRewardView": 90355,
     "DungeonDropTag": [
       "Mon.Gr",
@@ -4874,16 +5044,16 @@
       7012001,
       7013001
     ],
-    "PreloadMonstersNum": [
-      3,
-      2,
-      1,
-      2,
-      1,
-      9,
-      1,
-      2
-    ],
+    "PreloadMonstersNum": {
+      "6001001": 3,
+      "6002001": 2,
+      "6004001": 1,
+      "7001001": 9,
+      "7002001": 1,
+      "7003001": 2,
+      "7012001": 2,
+      "9500001": 1
+    },
     "PreloadStaticMonstersNum": {
       "6001004": 5,
       "6002004": 11,
@@ -4912,7 +5082,9 @@
       0,
       -90
     ],
-    "Condition": {},
+    "Condition": [
+      3104
+    ],
     "TicketId": [
       206,
       207,
@@ -4935,7 +5107,9 @@
     "EnableTacmap": true,
     "LocAdjustDetectTime": 5,
     "LocAdjustDis": 5000,
-    "DungeonReward": {},
+    "DungeonReward": [
+      51527
+    ],
     "DungeonRewardView": 90356,
     "DungeonDropTag": [
       "Mon.Gr",
@@ -4976,16 +5150,16 @@
       7012001,
       7013001
     ],
-    "PreloadMonstersNum": [
-      3,
-      2,
-      1,
-      2,
-      1,
-      9,
-      1,
-      2
-    ],
+    "PreloadMonstersNum": {
+      "6001001": 3,
+      "6002001": 2,
+      "6004001": 1,
+      "7001001": 9,
+      "7002001": 1,
+      "7003001": 2,
+      "7012001": 2,
+      "9500001": 1
+    },
     "PreloadStaticMonstersNum": {
       "6001004": 2,
       "6002004": 13,
@@ -5013,7 +5187,9 @@
       0,
       -90
     ],
-    "Condition": {},
+    "Condition": [
+      3105
+    ],
     "TicketId": [
       206,
       207,
@@ -5037,8 +5213,20 @@
     "EnableTacmap": true,
     "LocAdjustDetectTime": 5,
     "LocAdjustDis": 5000,
-    "DungeonReward": {},
-    "DungeonCost": {},
+    "DungeonReward": [
+      50200,
+      50201,
+      50202,
+      50203,
+      50204
+    ],
+    "DungeonCost": [
+      10,
+      15,
+      20,
+      25,
+      30
+    ],
     "DungeonRewardView": 90400,
     "DungeonDropTag": [
       "Mon.Gr",
@@ -5049,7 +5237,15 @@
       "Mon.Reward.D",
       "Mon.Reward.E"
     ],
-    "DungeonDropReward": {},
+    "DungeonDropReward": [
+      150401,
+      150402,
+      150403,
+      73,
+      72,
+      71,
+      70
+    ],
     "DungeonMonsters": [
       7001001,
       7002001,
@@ -5104,7 +5300,13 @@
     "EnableTacmap": true,
     "LocAdjustDetectTime": 5,
     "LocAdjustDis": 5000,
-    "DungeonReward": {},
+    "DungeonReward": [
+      52101,
+      52102,
+      52103,
+      52104,
+      52105
+    ],
     "DungeonCost": [
       30,
       40,
@@ -5154,37 +5356,35 @@
       6004001,
       6014001
     ],
-    "PreloadMonstersNum": [
-      3,
-      2,
-      1,
-      14,
-      6,
-      2,
-      6,
-      2,
-      2,
-      1,
-      2
-    ],
-    "PreloadStaticMonstersNum": [
-      8,
-      7,
-      1
-    ],
+    "PreloadMonstersNum": {
+      "6001001": 3,
+      "6002001": 2,
+      "6003001": 1,
+      "6004001": 1,
+      "6013001": 2,
+      "6014001": 2,
+      "7001001": 14,
+      "7002001": 6,
+      "7003001": 2,
+      "7012001": 6,
+      "7013001": 2
+    },
+    "PreloadStaticMonstersNum": {
+      "6001004": 8,
+      "6002004": 7,
+      "6004004": 1
+    },
     "RespawnRule": "CommonSolo",
-    "MonsterBuff": [
-      {
-        "BuffList": [
-          6000014,
-          6000021,
-          6000031,
-          6000041,
-          6000051,
-          6000061
-        ]
-      }
-    ],
+    "MonsterBuff": {
+      "BuffList": [
+        6000014,
+        6000021,
+        6000031,
+        6000041,
+        6000051,
+        6000061
+      ]
+    },
     "DungeonWinMode": 1,
     "MultiPlayerLevels": [
       0,
@@ -5207,7 +5407,13 @@
       0,
       -90
     ],
-    "SubDungeonId": {},
+    "SubDungeonId": [
+      90402,
+      90403,
+      90404,
+      90405,
+      90406
+    ],
     "AttributeType": "Water"
   },
   "90402": {
@@ -5226,7 +5432,13 @@
     "EnableTacmap": true,
     "LocAdjustDetectTime": 5,
     "LocAdjustDis": 5000,
-    "DungeonReward": {},
+    "DungeonReward": [
+      52201,
+      52202,
+      52203,
+      52204,
+      52205
+    ],
     "DungeonCost": [
       30,
       40,
@@ -5276,37 +5488,35 @@
       6004001,
       6014001
     ],
-    "PreloadMonstersNum": [
-      3,
-      2,
-      1,
-      14,
-      6,
-      2,
-      6,
-      2,
-      2,
-      1,
-      2
-    ],
-    "PreloadStaticMonstersNum": [
-      8,
-      7,
-      1
-    ],
+    "PreloadMonstersNum": {
+      "6001001": 3,
+      "6002001": 2,
+      "6003001": 1,
+      "6004001": 1,
+      "6013001": 2,
+      "6014001": 2,
+      "7001001": 14,
+      "7002001": 6,
+      "7003001": 2,
+      "7012001": 6,
+      "7013001": 2
+    },
+    "PreloadStaticMonstersNum": {
+      "6001004": 8,
+      "6002004": 7,
+      "6004004": 1
+    },
     "RespawnRule": "CommonSolo",
-    "MonsterBuff": [
-      {
-        "BuffList": [
-          6000011,
-          6000024,
-          6000031,
-          6000041,
-          6000051,
-          6000061
-        ]
-      }
-    ],
+    "MonsterBuff": {
+      "BuffList": [
+        6000011,
+        6000024,
+        6000031,
+        6000041,
+        6000051,
+        6000061
+      ]
+    },
     "DungeonWinMode": 1,
     "MultiPlayerLevels": [
       0,
@@ -5347,7 +5557,13 @@
     "EnableTacmap": true,
     "LocAdjustDetectTime": 5,
     "LocAdjustDis": 5000,
-    "DungeonReward": {},
+    "DungeonReward": [
+      52301,
+      52302,
+      52303,
+      52304,
+      52305
+    ],
     "DungeonCost": [
       30,
       40,
@@ -5397,37 +5613,35 @@
       6004001,
       6014001
     ],
-    "PreloadMonstersNum": [
-      3,
-      2,
-      1,
-      14,
-      6,
-      2,
-      6,
-      2,
-      2,
-      1,
-      2
-    ],
-    "PreloadStaticMonstersNum": [
-      8,
-      7,
-      1
-    ],
+    "PreloadMonstersNum": {
+      "6001001": 3,
+      "6002001": 2,
+      "6003001": 1,
+      "6004001": 1,
+      "6013001": 2,
+      "6014001": 2,
+      "7001001": 14,
+      "7002001": 6,
+      "7003001": 2,
+      "7012001": 6,
+      "7013001": 2
+    },
+    "PreloadStaticMonstersNum": {
+      "6001004": 8,
+      "6002004": 7,
+      "6004004": 1
+    },
     "RespawnRule": "CommonSolo",
-    "MonsterBuff": [
-      {
-        "BuffList": [
-          6000011,
-          6000021,
-          6000034,
-          6000041,
-          6000051,
-          6000061
-        ]
-      }
-    ],
+    "MonsterBuff": {
+      "BuffList": [
+        6000011,
+        6000021,
+        6000034,
+        6000041,
+        6000051,
+        6000061
+      ]
+    },
     "DungeonWinMode": 1,
     "MultiPlayerLevels": [
       0,
@@ -5468,7 +5682,13 @@
     "EnableTacmap": true,
     "LocAdjustDetectTime": 5,
     "LocAdjustDis": 5000,
-    "DungeonReward": {},
+    "DungeonReward": [
+      52401,
+      52402,
+      52403,
+      52404,
+      52405
+    ],
     "DungeonCost": [
       30,
       40,
@@ -5518,37 +5738,35 @@
       6004001,
       6014001
     ],
-    "PreloadMonstersNum": [
-      3,
-      2,
-      1,
-      14,
-      6,
-      2,
-      6,
-      2,
-      2,
-      1,
-      2
-    ],
-    "PreloadStaticMonstersNum": [
-      8,
-      7,
-      1
-    ],
+    "PreloadMonstersNum": {
+      "6001001": 3,
+      "6002001": 2,
+      "6003001": 1,
+      "6004001": 1,
+      "6013001": 2,
+      "6014001": 2,
+      "7001001": 14,
+      "7002001": 6,
+      "7003001": 2,
+      "7012001": 6,
+      "7013001": 2
+    },
+    "PreloadStaticMonstersNum": {
+      "6001004": 8,
+      "6002004": 7,
+      "6004004": 1
+    },
     "RespawnRule": "CommonSolo",
-    "MonsterBuff": [
-      {
-        "BuffList": [
-          6000011,
-          6000021,
-          6000031,
-          6000044,
-          6000051,
-          6000061
-        ]
-      }
-    ],
+    "MonsterBuff": {
+      "BuffList": [
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      ]
+    },
     "DungeonWinMode": 1,
     "MultiPlayerLevels": [
       0,
@@ -5589,7 +5807,13 @@
     "EnableTacmap": true,
     "LocAdjustDetectTime": 5,
     "LocAdjustDis": 5000,
-    "DungeonReward": {},
+    "DungeonReward": [
+      52501,
+      52502,
+      52503,
+      52504,
+      52505
+    ],
     "DungeonCost": [
       30,
       40,
@@ -5639,37 +5863,35 @@
       6004001,
       6014001
     ],
-    "PreloadMonstersNum": [
-      3,
-      2,
-      1,
-      14,
-      6,
-      2,
-      6,
-      2,
-      2,
-      1,
-      2
-    ],
-    "PreloadStaticMonstersNum": [
-      8,
-      7,
-      1
-    ],
+    "PreloadMonstersNum": {
+      "6001001": 3,
+      "6002001": 2,
+      "6003001": 1,
+      "6004001": 1,
+      "6013001": 2,
+      "6014001": 2,
+      "7001001": 14,
+      "7002001": 6,
+      "7003001": 2,
+      "7012001": 6,
+      "7013001": 2
+    },
+    "PreloadStaticMonstersNum": {
+      "6001004": 8,
+      "6002004": 7,
+      "6004004": 1
+    },
     "RespawnRule": "CommonSolo",
-    "MonsterBuff": [
-      {
-        "BuffList": [
-          6000011,
-          6000021,
-          6000031,
-          6000041,
-          6000054,
-          6000061
-        ]
-      }
-    ],
+    "MonsterBuff": {
+      "BuffList": [
+        6000011,
+        6000021,
+        6000031,
+        6000041,
+        6000054,
+        6000061
+      ]
+    },
     "DungeonWinMode": 1,
     "MultiPlayerLevels": [
       0,
@@ -5710,7 +5932,13 @@
     "EnableTacmap": true,
     "LocAdjustDetectTime": 5,
     "LocAdjustDis": 5000,
-    "DungeonReward": {},
+    "DungeonReward": [
+      52601,
+      52602,
+      52603,
+      52604,
+      52605
+    ],
     "DungeonCost": [
       30,
       40,
@@ -5760,37 +5988,35 @@
       6004001,
       6014001
     ],
-    "PreloadMonstersNum": [
-      3,
-      2,
-      1,
-      14,
-      6,
-      2,
-      6,
-      2,
-      2,
-      1,
-      2
-    ],
-    "PreloadStaticMonstersNum": [
-      8,
-      7,
-      1
-    ],
+    "PreloadMonstersNum": {
+      "6001001": 3,
+      "6002001": 2,
+      "6003001": 1,
+      "6004001": 1,
+      "6013001": 2,
+      "6014001": 2,
+      "7001001": 14,
+      "7002001": 6,
+      "7003001": 2,
+      "7012001": 6,
+      "7013001": 2
+    },
+    "PreloadStaticMonstersNum": {
+      "6001004": 8,
+      "6002004": 7,
+      "6004004": 1
+    },
     "RespawnRule": "CommonSolo",
-    "MonsterBuff": [
-      {
-        "BuffList": [
-          6000011,
-          6000021,
-          6000031,
-          6000041,
-          6000051,
-          6000064
-        ]
-      }
-    ],
+    "MonsterBuff": {
+      "BuffList": [
+        6000011,
+        6000021,
+        6000031,
+        6000041,
+        6000051,
+        6000064
+      ]
+    },
     "DungeonWinMode": 1,
     "MultiPlayerLevels": [
       0,
@@ -5831,7 +6057,13 @@
     "EnableTacmap": true,
     "LocAdjustDetectTime": 5,
     "LocAdjustDis": 5000,
-    "DungeonReward": {},
+    "DungeonReward": [
+      52106,
+      52107,
+      52108,
+      52109,
+      52110
+    ],
     "DungeonCost": [
       30,
       40,
@@ -5850,7 +6082,16 @@
       "Mon.Reward.E",
       "Mon.Reward.AA"
     ],
-    "DungeonDropReward": {},
+    "DungeonDropReward": [
+      150401,
+      150402,
+      150403,
+      73,
+      72,
+      71,
+      151000,
+      74
+    ],
     "DungeonMonsters": [
       7001001,
       7002001,
@@ -5872,38 +6113,36 @@
       6004001,
       6014001
     ],
-    "PreloadMonstersNum": [
-      3,
-      2,
-      1,
-      14,
-      6,
-      2,
-      2,
-      8,
-      2,
-      2,
-      2
-    ],
-    "PreloadStaticMonstersNum": [
-      6,
-      9,
-      2,
-      1
-    ],
+    "PreloadMonstersNum": {
+      "6001001": 3,
+      "6002001": 2,
+      "6003001": 2,
+      "6004001": 1,
+      "6013001": 2,
+      "6014001": 2,
+      "7001001": 14,
+      "7002001": 6,
+      "7003001": 2,
+      "7012001": 8,
+      "7013001": 2
+    },
+    "PreloadStaticMonstersNum": {
+      "6001004": 6,
+      "6002004": 9,
+      "6003004": 1,
+      "6004004": 2
+    },
     "RespawnRule": "CommonSolo",
-    "MonsterBuff": [
-      {
-        "BuffList": [
-          6000014,
-          6000021,
-          6000031,
-          6000041,
-          6000051,
-          6000061
-        ]
-      }
-    ],
+    "MonsterBuff": {
+      "BuffList": [
+        6000014,
+        6000021,
+        6000031,
+        6000041,
+        6000051,
+        6000061
+      ]
+    },
     "DungeonWinMode": 1,
     "MultiPlayerLevels": [
       0,
@@ -5930,7 +6169,13 @@
       110,
       3051
     ],
-    "SubDungeonId": {},
+    "SubDungeonId": [
+      90408,
+      90409,
+      90410,
+      90411,
+      90412
+    ],
     "AttributeType": "Water"
   },
   "90408": {
@@ -5949,7 +6194,13 @@
     "EnableTacmap": true,
     "LocAdjustDetectTime": 5,
     "LocAdjustDis": 5000,
-    "DungeonReward": {},
+    "DungeonReward": [
+      52206,
+      52207,
+      52208,
+      52209,
+      52210
+    ],
     "DungeonCost": [
       30,
       40,
@@ -5968,7 +6219,16 @@
       "Mon.Reward.E",
       "Mon.Reward.AA"
     ],
-    "DungeonDropReward": {},
+    "DungeonDropReward": [
+      150401,
+      150402,
+      150403,
+      73,
+      72,
+      71,
+      151001,
+      74
+    ],
     "DungeonMonsters": [
       7001001,
       7002001,
@@ -5990,38 +6250,36 @@
       6004001,
       6014001
     ],
-    "PreloadMonstersNum": [
-      3,
-      2,
-      1,
-      14,
-      6,
-      2,
-      2,
-      8,
-      2,
-      2,
-      2
-    ],
-    "PreloadStaticMonstersNum": [
-      6,
-      9,
-      2,
-      1
-    ],
+    "PreloadMonstersNum": {
+      "6001001": 3,
+      "6002001": 2,
+      "6003001": 2,
+      "6004001": 1,
+      "6013001": 2,
+      "6014001": 2,
+      "7001001": 14,
+      "7002001": 6,
+      "7003001": 2,
+      "7012001": 8,
+      "7013001": 2
+    },
+    "PreloadStaticMonstersNum": {
+      "6001004": 6,
+      "6002004": 9,
+      "6003004": 1,
+      "6004004": 2
+    },
     "RespawnRule": "CommonSolo",
-    "MonsterBuff": [
-      {
-        "BuffList": [
-          6000011,
-          6000024,
-          6000031,
-          6000041,
-          6000051,
-          6000061
-        ]
-      }
-    ],
+    "MonsterBuff": {
+      "BuffList": [
+        6000011,
+        6000024,
+        6000031,
+        6000041,
+        6000051,
+        6000061
+      ]
+    },
     "DungeonWinMode": 1,
     "MultiPlayerLevels": [
       0,
@@ -6066,7 +6324,13 @@
     "EnableTacmap": true,
     "LocAdjustDetectTime": 5,
     "LocAdjustDis": 5000,
-    "DungeonReward": {},
+    "DungeonReward": [
+      52306,
+      52307,
+      52308,
+      52309,
+      52310
+    ],
     "DungeonCost": [
       30,
       40,
@@ -6085,7 +6349,16 @@
       "Mon.Reward.E",
       "Mon.Reward.AA"
     ],
-    "DungeonDropReward": {},
+    "DungeonDropReward": [
+      150401,
+      150402,
+      150403,
+      73,
+      72,
+      71,
+      151002,
+      74
+    ],
     "DungeonMonsters": [
       7001001,
       7002001,
@@ -6107,38 +6380,36 @@
       6004001,
       6014001
     ],
-    "PreloadMonstersNum": [
-      3,
-      2,
-      1,
-      14,
-      6,
-      2,
-      2,
-      8,
-      2,
-      2,
-      2
-    ],
-    "PreloadStaticMonstersNum": [
-      6,
-      9,
-      2,
-      1
-    ],
+    "PreloadMonstersNum": {
+      "6001001": 3,
+      "6002001": 2,
+      "6003001": 2,
+      "6004001": 1,
+      "6013001": 2,
+      "6014001": 2,
+      "7001001": 14,
+      "7002001": 6,
+      "7003001": 2,
+      "7012001": 8,
+      "7013001": 2
+    },
+    "PreloadStaticMonstersNum": {
+      "6001004": 6,
+      "6002004": 9,
+      "6003004": 1,
+      "6004004": 2
+    },
     "RespawnRule": "CommonSolo",
-    "MonsterBuff": [
-      {
-        "BuffList": [
-          6000011,
-          6000021,
-          6000034,
-          6000041,
-          6000051,
-          6000061
-        ]
-      }
-    ],
+    "MonsterBuff": {
+      "BuffList": [
+        6000011,
+        6000021,
+        6000034,
+        6000041,
+        6000051,
+        6000061
+      ]
+    },
     "DungeonWinMode": 1,
     "MultiPlayerLevels": [
       0,
@@ -6183,7 +6454,13 @@
     "EnableTacmap": true,
     "LocAdjustDetectTime": 5,
     "LocAdjustDis": 5000,
-    "DungeonReward": {},
+    "DungeonReward": [
+      52406,
+      52407,
+      52408,
+      52409,
+      52410
+    ],
     "DungeonCost": [
       30,
       40,
@@ -6202,7 +6479,16 @@
       "Mon.Reward.E",
       "Mon.Reward.AA"
     ],
-    "DungeonDropReward": {},
+    "DungeonDropReward": [
+      150401,
+      150402,
+      150403,
+      73,
+      72,
+      71,
+      151003,
+      74
+    ],
     "DungeonMonsters": [
       7001001,
       7002001,
@@ -6224,38 +6510,36 @@
       6004001,
       6014001
     ],
-    "PreloadMonstersNum": [
-      3,
-      2,
-      1,
-      14,
-      6,
-      2,
-      2,
-      8,
-      2,
-      2,
-      2
-    ],
-    "PreloadStaticMonstersNum": [
-      6,
-      9,
-      2,
-      1
-    ],
+    "PreloadMonstersNum": {
+      "6001001": 3,
+      "6002001": 2,
+      "6003001": 2,
+      "6004001": 1,
+      "6013001": 2,
+      "6014001": 2,
+      "7001001": 14,
+      "7002001": 6,
+      "7003001": 2,
+      "7012001": 8,
+      "7013001": 2
+    },
+    "PreloadStaticMonstersNum": {
+      "6001004": 6,
+      "6002004": 9,
+      "6003004": 1,
+      "6004004": 2
+    },
     "RespawnRule": "CommonSolo",
-    "MonsterBuff": [
-      {
-        "BuffList": [
-          6000011,
-          6000021,
-          6000031,
-          6000044,
-          6000051,
-          6000061
-        ]
-      }
-    ],
+    "MonsterBuff": {
+      "BuffList": [
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      ]
+    },
     "DungeonWinMode": 1,
     "MultiPlayerLevels": [
       0,
@@ -6300,7 +6584,13 @@
     "EnableTacmap": true,
     "LocAdjustDetectTime": 5,
     "LocAdjustDis": 5000,
-    "DungeonReward": {},
+    "DungeonReward": [
+      52506,
+      52507,
+      52508,
+      52509,
+      52510
+    ],
     "DungeonCost": [
       30,
       40,
@@ -6319,7 +6609,16 @@
       "Mon.Reward.E",
       "Mon.Reward.AA"
     ],
-    "DungeonDropReward": {},
+    "DungeonDropReward": [
+      150401,
+      150402,
+      150403,
+      73,
+      72,
+      71,
+      151004,
+      74
+    ],
     "DungeonMonsters": [
       7001001,
       7002001,
@@ -6341,38 +6640,36 @@
       6004001,
       6014001
     ],
-    "PreloadMonstersNum": [
-      3,
-      2,
-      1,
-      14,
-      6,
-      2,
-      2,
-      8,
-      2,
-      2,
-      2
-    ],
-    "PreloadStaticMonstersNum": [
-      6,
-      9,
-      2,
-      1
-    ],
+    "PreloadMonstersNum": {
+      "6001001": 3,
+      "6002001": 2,
+      "6003001": 2,
+      "6004001": 1,
+      "6013001": 2,
+      "6014001": 2,
+      "7001001": 14,
+      "7002001": 6,
+      "7003001": 2,
+      "7012001": 8,
+      "7013001": 2
+    },
+    "PreloadStaticMonstersNum": {
+      "6001004": 6,
+      "6002004": 9,
+      "6003004": 1,
+      "6004004": 2
+    },
     "RespawnRule": "CommonSolo",
-    "MonsterBuff": [
-      {
-        "BuffList": [
-          6000011,
-          6000021,
-          6000031,
-          6000041,
-          6000054,
-          6000061
-        ]
-      }
-    ],
+    "MonsterBuff": {
+      "BuffList": [
+        6000011,
+        6000021,
+        6000031,
+        6000041,
+        6000054,
+        6000061
+      ]
+    },
     "DungeonWinMode": 1,
     "MultiPlayerLevels": [
       0,
@@ -6417,7 +6714,13 @@
     "EnableTacmap": true,
     "LocAdjustDetectTime": 5,
     "LocAdjustDis": 5000,
-    "DungeonReward": {},
+    "DungeonReward": [
+      52606,
+      52607,
+      52608,
+      52609,
+      52610
+    ],
     "DungeonCost": [
       30,
       40,
@@ -6436,7 +6739,16 @@
       "Mon.Reward.E",
       "Mon.Reward.AA"
     ],
-    "DungeonDropReward": {},
+    "DungeonDropReward": [
+      150401,
+      150402,
+      150403,
+      73,
+      72,
+      71,
+      151005,
+      74
+    ],
     "DungeonMonsters": [
       7001001,
       7002001,
@@ -6458,38 +6770,36 @@
       6004001,
       6014001
     ],
-    "PreloadMonstersNum": [
-      3,
-      2,
-      1,
-      14,
-      6,
-      2,
-      2,
-      8,
-      2,
-      2,
-      2
-    ],
-    "PreloadStaticMonstersNum": [
-      6,
-      9,
-      2,
-      1
-    ],
+    "PreloadMonstersNum": {
+      "6001001": 3,
+      "6002001": 2,
+      "6003001": 2,
+      "6004001": 1,
+      "6013001": 2,
+      "6014001": 2,
+      "7001001": 14,
+      "7002001": 6,
+      "7003001": 2,
+      "7012001": 8,
+      "7013001": 2
+    },
+    "PreloadStaticMonstersNum": {
+      "6001004": 6,
+      "6002004": 9,
+      "6003004": 1,
+      "6004004": 2
+    },
     "RespawnRule": "CommonSolo",
-    "MonsterBuff": [
-      {
-        "BuffList": [
-          6000011,
-          6000021,
-          6000031,
-          6000041,
-          6000051,
-          6000064
-        ]
-      }
-    ],
+    "MonsterBuff": {
+      "BuffList": [
+        6000011,
+        6000021,
+        6000031,
+        6000041,
+        6000051,
+        6000064
+      ]
+    },
     "DungeonWinMode": 1,
     "MultiPlayerLevels": [
       0,
@@ -6534,7 +6844,13 @@
     "EnableTacmap": true,
     "LocAdjustDetectTime": 5,
     "LocAdjustDis": 5000,
-    "DungeonReward": {},
+    "DungeonReward": [
+      52111,
+      52112,
+      52113,
+      52114,
+      52115
+    ],
     "DungeonCost": [
       30,
       40,
@@ -6584,39 +6900,37 @@
       6004001,
       6014001
     ],
-    "PreloadMonstersNum": [
-      3,
-      2,
-      1,
-      12,
-      7,
-      2,
-      6,
-      2,
-      1,
-      2,
-      2,
-      1
-    ],
-    "PreloadStaticMonstersNum": [
-      5,
-      8,
-      1,
-      2
-    ],
+    "PreloadMonstersNum": {
+      "6001001": 3,
+      "6002001": 2,
+      "6003001": 2,
+      "6004001": 1,
+      "6013001": 1,
+      "6014001": 2,
+      "7001001": 12,
+      "7002001": 7,
+      "7003001": 2,
+      "7012001": 6,
+      "7013001": 2,
+      "9500001": 1
+    },
+    "PreloadStaticMonstersNum": {
+      "6001004": 5,
+      "6002004": 8,
+      "6003004": 2,
+      "6004004": 1
+    },
     "RespawnRule": "CommonSolo",
-    "MonsterBuff": [
-      {
-        "BuffList": [
-          6000014,
-          6000021,
-          6000031,
-          6000041,
-          6000051,
-          6000061
-        ]
-      }
-    ],
+    "MonsterBuff": {
+      "BuffList": [
+        6000014,
+        6000021,
+        6000031,
+        6000041,
+        6000051,
+        6000061
+      ]
+    },
     "DungeonWinMode": 1,
     "MultiPlayerLevels": [
       0,
@@ -6643,7 +6957,13 @@
       120,
       3052
     ],
-    "SubDungeonId": {},
+    "SubDungeonId": [
+      90414,
+      90415,
+      90416,
+      90417,
+      90418
+    ],
     "AttributeType": "Water"
   },
   "90414": {
@@ -6662,7 +6982,13 @@
     "EnableTacmap": true,
     "LocAdjustDetectTime": 5,
     "LocAdjustDis": 5000,
-    "DungeonReward": {},
+    "DungeonReward": [
+      52211,
+      52212,
+      52213,
+      52214,
+      52215
+    ],
     "DungeonCost": [
       30,
       40,
@@ -6712,39 +7038,37 @@
       6004001,
       6014001
     ],
-    "PreloadMonstersNum": [
-      3,
-      2,
-      1,
-      12,
-      7,
-      2,
-      6,
-      2,
-      1,
-      2,
-      2,
-      1
-    ],
-    "PreloadStaticMonstersNum": [
-      5,
-      8,
-      1,
-      2
-    ],
+    "PreloadMonstersNum": {
+      "6001001": 3,
+      "6002001": 2,
+      "6003001": 2,
+      "6004001": 1,
+      "6013001": 1,
+      "6014001": 2,
+      "7001001": 12,
+      "7002001": 7,
+      "7003001": 2,
+      "7012001": 6,
+      "7013001": 2,
+      "9500001": 1
+    },
+    "PreloadStaticMonstersNum": {
+      "6001004": 5,
+      "6002004": 8,
+      "6003004": 2,
+      "6004004": 1
+    },
     "RespawnRule": "CommonSolo",
-    "MonsterBuff": [
-      {
-        "BuffList": [
-          6000011,
-          6000024,
-          6000031,
-          6000041,
-          6000051,
-          6000061
-        ]
-      }
-    ],
+    "MonsterBuff": {
+      "BuffList": [
+        6000011,
+        6000024,
+        6000031,
+        6000041,
+        6000051,
+        6000061
+      ]
+    },
     "DungeonWinMode": 1,
     "MultiPlayerLevels": [
       0,
@@ -6789,7 +7113,13 @@
     "EnableTacmap": true,
     "LocAdjustDetectTime": 5,
     "LocAdjustDis": 5000,
-    "DungeonReward": {},
+    "DungeonReward": [
+      52311,
+      52312,
+      52313,
+      52314,
+      52315
+    ],
     "DungeonCost": [
       30,
       40,
@@ -6839,39 +7169,37 @@
       6004001,
       6014001
     ],
-    "PreloadMonstersNum": [
-      3,
-      2,
-      1,
-      12,
-      7,
-      2,
-      6,
-      2,
-      1,
-      2,
-      2,
-      1
-    ],
-    "PreloadStaticMonstersNum": [
-      5,
-      8,
-      1,
-      2
-    ],
+    "PreloadMonstersNum": {
+      "6001001": 3,
+      "6002001": 2,
+      "6003001": 2,
+      "6004001": 1,
+      "6013001": 1,
+      "6014001": 2,
+      "7001001": 12,
+      "7002001": 7,
+      "7003001": 2,
+      "7012001": 6,
+      "7013001": 2,
+      "9500001": 1
+    },
+    "PreloadStaticMonstersNum": {
+      "6001004": 5,
+      "6002004": 8,
+      "6003004": 2,
+      "6004004": 1
+    },
     "RespawnRule": "CommonSolo",
-    "MonsterBuff": [
-      {
-        "BuffList": [
-          6000011,
-          6000021,
-          6000034,
-          6000041,
-          6000051,
-          6000061
-        ]
-      }
-    ],
+    "MonsterBuff": {
+      "BuffList": [
+        6000011,
+        6000021,
+        6000034,
+        6000041,
+        6000051,
+        6000061
+      ]
+    },
     "DungeonWinMode": 1,
     "MultiPlayerLevels": [
       0,
@@ -6916,7 +7244,13 @@
     "EnableTacmap": true,
     "LocAdjustDetectTime": 5,
     "LocAdjustDis": 5000,
-    "DungeonReward": {},
+    "DungeonReward": [
+      52411,
+      52412,
+      52413,
+      52414,
+      52415
+    ],
     "DungeonCost": [
       30,
       40,
@@ -6966,39 +7300,37 @@
       6004001,
       6014001
     ],
-    "PreloadMonstersNum": [
-      3,
-      2,
-      1,
-      12,
-      7,
-      2,
-      6,
-      2,
-      1,
-      2,
-      2,
-      1
-    ],
-    "PreloadStaticMonstersNum": [
-      5,
-      8,
-      1,
-      2
-    ],
+    "PreloadMonstersNum": {
+      "6001001": 3,
+      "6002001": 2,
+      "6003001": 2,
+      "6004001": 1,
+      "6013001": 1,
+      "6014001": 2,
+      "7001001": 12,
+      "7002001": 7,
+      "7003001": 2,
+      "7012001": 6,
+      "7013001": 2,
+      "9500001": 1
+    },
+    "PreloadStaticMonstersNum": {
+      "6001004": 5,
+      "6002004": 8,
+      "6003004": 2,
+      "6004004": 1
+    },
     "RespawnRule": "CommonSolo",
-    "MonsterBuff": [
-      {
-        "BuffList": [
-          6000011,
-          6000021,
-          6000031,
-          6000044,
-          6000051,
-          6000061
-        ]
-      }
-    ],
+    "MonsterBuff": {
+      "BuffList": [
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      ]
+    },
     "DungeonWinMode": 1,
     "MultiPlayerLevels": [
       0,
@@ -7043,7 +7375,13 @@
     "EnableTacmap": true,
     "LocAdjustDetectTime": 5,
     "LocAdjustDis": 5000,
-    "DungeonReward": {},
+    "DungeonReward": [
+      52511,
+      52512,
+      52513,
+      52514,
+      52515
+    ],
     "DungeonCost": [
       30,
       40,
@@ -7093,39 +7431,37 @@
       6004001,
       6014001
     ],
-    "PreloadMonstersNum": [
-      3,
-      2,
-      1,
-      12,
-      7,
-      2,
-      6,
-      2,
-      1,
-      2,
-      2,
-      1
-    ],
-    "PreloadStaticMonstersNum": [
-      5,
-      8,
-      1,
-      2
-    ],
+    "PreloadMonstersNum": {
+      "6001001": 3,
+      "6002001": 2,
+      "6003001": 2,
+      "6004001": 1,
+      "6013001": 1,
+      "6014001": 2,
+      "7001001": 12,
+      "7002001": 7,
+      "7003001": 2,
+      "7012001": 6,
+      "7013001": 2,
+      "9500001": 1
+    },
+    "PreloadStaticMonstersNum": {
+      "6001004": 5,
+      "6002004": 8,
+      "6003004": 2,
+      "6004004": 1
+    },
     "RespawnRule": "CommonSolo",
-    "MonsterBuff": [
-      {
-        "BuffList": [
-          6000011,
-          6000021,
-          6000031,
-          6000041,
-          6000054,
-          6000061
-        ]
-      }
-    ],
+    "MonsterBuff": {
+      "BuffList": [
+        6000011,
+        6000021,
+        6000031,
+        6000041,
+        6000054,
+        6000061
+      ]
+    },
     "DungeonWinMode": 1,
     "MultiPlayerLevels": [
       0,
@@ -7170,7 +7506,13 @@
     "EnableTacmap": true,
     "LocAdjustDetectTime": 5,
     "LocAdjustDis": 5000,
-    "DungeonReward": {},
+    "DungeonReward": [
+      52611,
+      52612,
+      52613,
+      52614,
+      52615
+    ],
     "DungeonCost": [
       30,
       40,
@@ -7220,39 +7562,37 @@
       6004001,
       6014001
     ],
-    "PreloadMonstersNum": [
-      3,
-      2,
-      1,
-      12,
-      7,
-      2,
-      6,
-      2,
-      1,
-      2,
-      2,
-      1
-    ],
-    "PreloadStaticMonstersNum": [
-      5,
-      8,
-      1,
-      2
-    ],
+    "PreloadMonstersNum": {
+      "6001001": 3,
+      "6002001": 2,
+      "6003001": 2,
+      "6004001": 1,
+      "6013001": 1,
+      "6014001": 2,
+      "7001001": 12,
+      "7002001": 7,
+      "7003001": 2,
+      "7012001": 6,
+      "7013001": 2,
+      "9500001": 1
+    },
+    "PreloadStaticMonstersNum": {
+      "6001004": 5,
+      "6002004": 8,
+      "6003004": 2,
+      "6004004": 1
+    },
     "RespawnRule": "CommonSolo",
-    "MonsterBuff": [
-      {
-        "BuffList": [
-          6000011,
-          6000021,
-          6000031,
-          6000041,
-          6000051,
-          6000064
-        ]
-      }
-    ],
+    "MonsterBuff": {
+      "BuffList": [
+        6000011,
+        6000021,
+        6000031,
+        6000041,
+        6000051,
+        6000064
+      ]
+    },
     "DungeonWinMode": 1,
     "MultiPlayerLevels": [
       0,
@@ -7297,7 +7637,13 @@
     "EnableTacmap": true,
     "LocAdjustDetectTime": 5,
     "LocAdjustDis": 5000,
-    "DungeonReward": {},
+    "DungeonReward": [
+      52116,
+      52117,
+      52118,
+      52119,
+      52120
+    ],
     "DungeonCost": [
       30,
       40,
@@ -7347,38 +7693,36 @@
       6004001,
       6014001
     ],
-    "PreloadMonstersNum": [
-      3,
-      2,
-      1,
-      12,
-      6,
-      2,
-      6,
-      2,
-      2,
-      1,
-      2
-    ],
-    "PreloadStaticMonstersNum": [
-      11,
-      2,
-      10,
-      1
-    ],
+    "PreloadMonstersNum": {
+      "6001001": 3,
+      "6002001": 2,
+      "6003001": 1,
+      "6004001": 1,
+      "6013001": 2,
+      "6014001": 2,
+      "7001001": 12,
+      "7002001": 6,
+      "7003001": 2,
+      "7012001": 6,
+      "7013001": 2
+    },
+    "PreloadStaticMonstersNum": {
+      "6001004": 10,
+      "6002004": 11,
+      "6003004": 1,
+      "6004004": 2
+    },
     "RespawnRule": "CommonSolo",
-    "MonsterBuff": [
-      {
-        "BuffList": [
-          6000014,
-          6000021,
-          6000031,
-          6000041,
-          6000051,
-          6000061
-        ]
-      }
-    ],
+    "MonsterBuff": {
+      "BuffList": [
+        6000014,
+        6000021,
+        6000031,
+        6000041,
+        6000051,
+        6000061
+      ]
+    },
     "DungeonWinMode": 1,
     "MultiPlayerLevels": [
       0,
@@ -7405,7 +7749,13 @@
       130,
       3053
     ],
-    "SubDungeonId": {},
+    "SubDungeonId": [
+      90420,
+      90421,
+      90422,
+      90423,
+      90424
+    ],
     "AttributeType": "Water"
   },
   "90420": {
@@ -7424,7 +7774,13 @@
     "EnableTacmap": true,
     "LocAdjustDetectTime": 5,
     "LocAdjustDis": 5000,
-    "DungeonReward": {},
+    "DungeonReward": [
+      52216,
+      52217,
+      52218,
+      52219,
+      52220
+    ],
     "DungeonCost": [
       30,
       40,
@@ -7474,38 +7830,36 @@
       6004001,
       6014001
     ],
-    "PreloadMonstersNum": [
-      3,
-      2,
-      1,
-      12,
-      6,
-      2,
-      6,
-      2,
-      2,
-      1,
-      2
-    ],
-    "PreloadStaticMonstersNum": [
-      11,
-      2,
-      10,
-      1
-    ],
+    "PreloadMonstersNum": {
+      "6001001": 3,
+      "6002001": 2,
+      "6003001": 1,
+      "6004001": 1,
+      "6013001": 2,
+      "6014001": 2,
+      "7001001": 12,
+      "7002001": 6,
+      "7003001": 2,
+      "7012001": 6,
+      "7013001": 2
+    },
+    "PreloadStaticMonstersNum": {
+      "6001004": 10,
+      "6002004": 11,
+      "6003004": 1,
+      "6004004": 2
+    },
     "RespawnRule": "CommonSolo",
-    "MonsterBuff": [
-      {
-        "BuffList": [
-          6000011,
-          6000024,
-          6000031,
-          6000041,
-          6000051,
-          6000061
-        ]
-      }
-    ],
+    "MonsterBuff": {
+      "BuffList": [
+        6000011,
+        6000024,
+        6000031,
+        6000041,
+        6000051,
+        6000061
+      ]
+    },
     "DungeonWinMode": 1,
     "MultiPlayerLevels": [
       0,
@@ -7550,7 +7904,13 @@
     "EnableTacmap": true,
     "LocAdjustDetectTime": 5,
     "LocAdjustDis": 5000,
-    "DungeonReward": {},
+    "DungeonReward": [
+      52316,
+      52317,
+      52318,
+      52319,
+      52320
+    ],
     "DungeonCost": [
       30,
       40,
@@ -7600,38 +7960,36 @@
       6004001,
       6014001
     ],
-    "PreloadMonstersNum": [
-      3,
-      2,
-      1,
-      12,
-      6,
-      2,
-      6,
-      2,
-      2,
-      1,
-      2
-    ],
-    "PreloadStaticMonstersNum": [
-      11,
-      2,
-      10,
-      1
-    ],
+    "PreloadMonstersNum": {
+      "6001001": 3,
+      "6002001": 2,
+      "6003001": 1,
+      "6004001": 1,
+      "6013001": 2,
+      "6014001": 2,
+      "7001001": 12,
+      "7002001": 6,
+      "7003001": 2,
+      "7012001": 6,
+      "7013001": 2
+    },
+    "PreloadStaticMonstersNum": {
+      "6001004": 10,
+      "6002004": 11,
+      "6003004": 1,
+      "6004004": 2
+    },
     "RespawnRule": "CommonSolo",
-    "MonsterBuff": [
-      {
-        "BuffList": [
-          6000011,
-          6000021,
-          6000034,
-          6000041,
-          6000051,
-          6000061
-        ]
-      }
-    ],
+    "MonsterBuff": {
+      "BuffList": [
+        6000011,
+        6000021,
+        6000034,
+        6000041,
+        6000051,
+        6000061
+      ]
+    },
     "DungeonWinMode": 1,
     "MultiPlayerLevels": [
       0,
@@ -7676,7 +8034,13 @@
     "EnableTacmap": true,
     "LocAdjustDetectTime": 5,
     "LocAdjustDis": 5000,
-    "DungeonReward": {},
+    "DungeonReward": [
+      52416,
+      52417,
+      52418,
+      52419,
+      52420
+    ],
     "DungeonCost": [
       30,
       40,
@@ -7726,38 +8090,36 @@
       6004001,
       6014001
     ],
-    "PreloadMonstersNum": [
-      3,
-      2,
-      1,
-      12,
-      6,
-      2,
-      6,
-      2,
-      2,
-      1,
-      2
-    ],
-    "PreloadStaticMonstersNum": [
-      11,
-      2,
-      10,
-      1
-    ],
+    "PreloadMonstersNum": {
+      "6001001": 3,
+      "6002001": 2,
+      "6003001": 1,
+      "6004001": 1,
+      "6013001": 2,
+      "6014001": 2,
+      "7001001": 12,
+      "7002001": 6,
+      "7003001": 2,
+      "7012001": 6,
+      "7013001": 2
+    },
+    "PreloadStaticMonstersNum": {
+      "6001004": 10,
+      "6002004": 11,
+      "6003004": 1,
+      "6004004": 2
+    },
     "RespawnRule": "CommonSolo",
-    "MonsterBuff": [
-      {
-        "BuffList": [
-          6000011,
-          6000021,
-          6000031,
-          6000044,
-          6000051,
-          6000061
-        ]
-      }
-    ],
+    "MonsterBuff": {
+      "BuffList": [
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      ]
+    },
     "DungeonWinMode": 1,
     "MultiPlayerLevels": [
       0,
@@ -7802,7 +8164,13 @@
     "EnableTacmap": true,
     "LocAdjustDetectTime": 5,
     "LocAdjustDis": 5000,
-    "DungeonReward": {},
+    "DungeonReward": [
+      52516,
+      52517,
+      52518,
+      52519,
+      52520
+    ],
     "DungeonCost": [
       30,
       40,
@@ -7852,38 +8220,36 @@
       6004001,
       6014001
     ],
-    "PreloadMonstersNum": [
-      3,
-      2,
-      1,
-      12,
-      6,
-      2,
-      6,
-      2,
-      2,
-      1,
-      2
-    ],
-    "PreloadStaticMonstersNum": [
-      11,
-      2,
-      10,
-      1
-    ],
+    "PreloadMonstersNum": {
+      "6001001": 3,
+      "6002001": 2,
+      "6003001": 1,
+      "6004001": 1,
+      "6013001": 2,
+      "6014001": 2,
+      "7001001": 12,
+      "7002001": 6,
+      "7003001": 2,
+      "7012001": 6,
+      "7013001": 2
+    },
+    "PreloadStaticMonstersNum": {
+      "6001004": 10,
+      "6002004": 11,
+      "6003004": 1,
+      "6004004": 2
+    },
     "RespawnRule": "CommonSolo",
-    "MonsterBuff": [
-      {
-        "BuffList": [
-          6000011,
-          6000021,
-          6000031,
-          6000041,
-          6000054,
-          6000061
-        ]
-      }
-    ],
+    "MonsterBuff": {
+      "BuffList": [
+        6000011,
+        6000021,
+        6000031,
+        6000041,
+        6000054,
+        6000061
+      ]
+    },
     "DungeonWinMode": 1,
     "MultiPlayerLevels": [
       0,
@@ -7928,7 +8294,13 @@
     "EnableTacmap": true,
     "LocAdjustDetectTime": 5,
     "LocAdjustDis": 5000,
-    "DungeonReward": {},
+    "DungeonReward": [
+      52616,
+      52617,
+      52618,
+      52619,
+      52620
+    ],
     "DungeonCost": [
       30,
       40,
@@ -7978,38 +8350,36 @@
       6004001,
       6014001
     ],
-    "PreloadMonstersNum": [
-      3,
-      2,
-      1,
-      12,
-      6,
-      2,
-      6,
-      2,
-      2,
-      1,
-      2
-    ],
-    "PreloadStaticMonstersNum": [
-      11,
-      2,
-      10,
-      1
-    ],
+    "PreloadMonstersNum": {
+      "6001001": 3,
+      "6002001": 2,
+      "6003001": 1,
+      "6004001": 1,
+      "6013001": 2,
+      "6014001": 2,
+      "7001001": 12,
+      "7002001": 6,
+      "7003001": 2,
+      "7012001": 6,
+      "7013001": 2
+    },
+    "PreloadStaticMonstersNum": {
+      "6001004": 10,
+      "6002004": 11,
+      "6003004": 1,
+      "6004004": 2
+    },
     "RespawnRule": "CommonSolo",
-    "MonsterBuff": [
-      {
-        "BuffList": [
-          6000011,
-          6000021,
-          6000031,
-          6000041,
-          6000051,
-          6000064
-        ]
-      }
-    ],
+    "MonsterBuff": {
+      "BuffList": [
+        6000011,
+        6000021,
+        6000031,
+        6000041,
+        6000051,
+        6000064
+      ]
+    },
     "DungeonWinMode": 1,
     "MultiPlayerLevels": [
       0,
@@ -8054,7 +8424,13 @@
     "EnableTacmap": true,
     "LocAdjustDetectTime": 5,
     "LocAdjustDis": 5000,
-    "DungeonReward": {},
+    "DungeonReward": [
+      52121,
+      52122,
+      52123,
+      52124,
+      52125
+    ],
     "DungeonCost": [
       30,
       40,
@@ -8104,36 +8480,34 @@
       6004001,
       6014001
     ],
-    "PreloadMonstersNum": [
-      3,
-      2,
-      1,
-      15,
-      6,
-      2,
-      7,
-      2,
-      2
-    ],
-    "PreloadStaticMonstersNum": [
-      8,
-      2,
-      1,
-      5
-    ],
+    "PreloadMonstersNum": {
+      "6001001": 3,
+      "6002001": 2,
+      "6003001": 2,
+      "6004001": 1,
+      "6013001": 2,
+      "7001001": 15,
+      "7002001": 6,
+      "7003001": 2,
+      "7012001": 7
+    },
+    "PreloadStaticMonstersNum": {
+      "6001004": 5,
+      "6002004": 8,
+      "6003004": 1,
+      "6004004": 2
+    },
     "RespawnRule": "CommonSolo",
-    "MonsterBuff": [
-      {
-        "BuffList": [
-          6000014,
-          6000021,
-          6000031,
-          6000041,
-          6000051,
-          6000061
-        ]
-      }
-    ],
+    "MonsterBuff": {
+      "BuffList": [
+        6000014,
+        6000021,
+        6000031,
+        6000041,
+        6000051,
+        6000061
+      ]
+    },
     "DungeonWinMode": 1,
     "MultiPlayerLevels": [
       0,
@@ -8160,7 +8534,13 @@
       140,
       3054
     ],
-    "SubDungeonId": {},
+    "SubDungeonId": [
+      90426,
+      90427,
+      90428,
+      90429,
+      90430
+    ],
     "AttributeType": "Water"
   },
   "90426": {
@@ -8179,7 +8559,13 @@
     "EnableTacmap": true,
     "LocAdjustDetectTime": 5,
     "LocAdjustDis": 5000,
-    "DungeonReward": {},
+    "DungeonReward": [
+      52221,
+      52222,
+      52223,
+      52224,
+      52225
+    ],
     "DungeonCost": [
       30,
       40,
@@ -8229,36 +8615,34 @@
       6004001,
       6014001
     ],
-    "PreloadMonstersNum": [
-      3,
-      2,
-      1,
-      15,
-      6,
-      2,
-      7,
-      2,
-      2
-    ],
-    "PreloadStaticMonstersNum": [
-      8,
-      2,
-      1,
-      5
-    ],
+    "PreloadMonstersNum": {
+      "6001001": 3,
+      "6002001": 2,
+      "6003001": 2,
+      "6004001": 1,
+      "6013001": 2,
+      "7001001": 15,
+      "7002001": 6,
+      "7003001": 2,
+      "7012001": 7
+    },
+    "PreloadStaticMonstersNum": {
+      "6001004": 5,
+      "6002004": 8,
+      "6003004": 1,
+      "6004004": 2
+    },
     "RespawnRule": "CommonSolo",
-    "MonsterBuff": [
-      {
-        "BuffList": [
-          6000011,
-          6000024,
-          6000031,
-          6000041,
-          6000051,
-          6000061
-        ]
-      }
-    ],
+    "MonsterBuff": {
+      "BuffList": [
+        6000011,
+        6000024,
+        6000031,
+        6000041,
+        6000051,
+        6000061
+      ]
+    },
     "DungeonWinMode": 1,
     "MultiPlayerLevels": [
       0,
@@ -8303,7 +8687,13 @@
     "EnableTacmap": true,
     "LocAdjustDetectTime": 5,
     "LocAdjustDis": 5000,
-    "DungeonReward": {},
+    "DungeonReward": [
+      52321,
+      52322,
+      52323,
+      52324,
+      52325
+    ],
     "DungeonCost": [
       30,
       40,
@@ -8353,36 +8743,34 @@
       6004001,
       6014001
     ],
-    "PreloadMonstersNum": [
-      3,
-      2,
-      1,
-      15,
-      6,
-      2,
-      7,
-      2,
-      2
-    ],
-    "PreloadStaticMonstersNum": [
-      8,
-      2,
-      1,
-      5
-    ],
+    "PreloadMonstersNum": {
+      "6001001": 3,
+      "6002001": 2,
+      "6003001": 2,
+      "6004001": 1,
+      "6013001": 2,
+      "7001001": 15,
+      "7002001": 6,
+      "7003001": 2,
+      "7012001": 7
+    },
+    "PreloadStaticMonstersNum": {
+      "6001004": 5,
+      "6002004": 8,
+      "6003004": 1,
+      "6004004": 2
+    },
     "RespawnRule": "CommonSolo",
-    "MonsterBuff": [
-      {
-        "BuffList": [
-          6000011,
-          6000021,
-          6000034,
-          6000041,
-          6000051,
-          6000061
-        ]
-      }
-    ],
+    "MonsterBuff": {
+      "BuffList": [
+        6000011,
+        6000021,
+        6000034,
+        6000041,
+        6000051,
+        6000061
+      ]
+    },
     "DungeonWinMode": 1,
     "MultiPlayerLevels": [
       0,
@@ -8427,7 +8815,13 @@
     "EnableTacmap": true,
     "LocAdjustDetectTime": 5,
     "LocAdjustDis": 5000,
-    "DungeonReward": {},
+    "DungeonReward": [
+      52421,
+      52422,
+      52423,
+      52424,
+      52425
+    ],
     "DungeonCost": [
       30,
       40,
@@ -8477,36 +8871,34 @@
       6004001,
       6014001
     ],
-    "PreloadMonstersNum": [
-      3,
-      2,
-      1,
-      15,
-      6,
-      2,
-      7,
-      2,
-      2
-    ],
-    "PreloadStaticMonstersNum": [
-      8,
-      2,
-      1,
-      5
-    ],
+    "PreloadMonstersNum": {
+      "6001001": 3,
+      "6002001": 2,
+      "6003001": 2,
+      "6004001": 1,
+      "6013001": 2,
+      "7001001": 15,
+      "7002001": 6,
+      "7003001": 2,
+      "7012001": 7
+    },
+    "PreloadStaticMonstersNum": {
+      "6001004": 5,
+      "6002004": 8,
+      "6003004": 1,
+      "6004004": 2
+    },
     "RespawnRule": "CommonSolo",
-    "MonsterBuff": [
-      {
-        "BuffList": [
-          6000011,
-          6000021,
-          6000031,
-          6000044,
-          6000051,
-          6000061
-        ]
-      }
-    ],
+    "MonsterBuff": {
+      "BuffList": [
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      ]
+    },
     "DungeonWinMode": 1,
     "MultiPlayerLevels": [
       0,
@@ -8551,7 +8943,13 @@
     "EnableTacmap": true,
     "LocAdjustDetectTime": 5,
     "LocAdjustDis": 5000,
-    "DungeonReward": {},
+    "DungeonReward": [
+      52521,
+      52522,
+      52523,
+      52524,
+      52525
+    ],
     "DungeonCost": [
       30,
       40,
@@ -8601,36 +8999,34 @@
       6004001,
       6014001
     ],
-    "PreloadMonstersNum": [
-      3,
-      2,
-      1,
-      15,
-      6,
-      2,
-      7,
-      2,
-      2
-    ],
-    "PreloadStaticMonstersNum": [
-      8,
-      2,
-      1,
-      5
-    ],
+    "PreloadMonstersNum": {
+      "6001001": 3,
+      "6002001": 2,
+      "6003001": 2,
+      "6004001": 1,
+      "6013001": 2,
+      "7001001": 15,
+      "7002001": 6,
+      "7003001": 2,
+      "7012001": 7
+    },
+    "PreloadStaticMonstersNum": {
+      "6001004": 5,
+      "6002004": 8,
+      "6003004": 1,
+      "6004004": 2
+    },
     "RespawnRule": "CommonSolo",
-    "MonsterBuff": [
-      {
-        "BuffList": [
-          6000011,
-          6000021,
-          6000031,
-          6000041,
-          6000054,
-          6000061
-        ]
-      }
-    ],
+    "MonsterBuff": {
+      "BuffList": [
+        6000011,
+        6000021,
+        6000031,
+        6000041,
+        6000054,
+        6000061
+      ]
+    },
     "DungeonWinMode": 1,
     "MultiPlayerLevels": [
       0,
@@ -8675,7 +9071,13 @@
     "EnableTacmap": true,
     "LocAdjustDetectTime": 5,
     "LocAdjustDis": 5000,
-    "DungeonReward": {},
+    "DungeonReward": [
+      52621,
+      52622,
+      52623,
+      52624,
+      52625
+    ],
     "DungeonCost": [
       30,
       40,
@@ -8725,36 +9127,34 @@
       6004001,
       6014001
     ],
-    "PreloadMonstersNum": [
-      3,
-      2,
-      1,
-      15,
-      6,
-      2,
-      7,
-      2,
-      2
-    ],
-    "PreloadStaticMonstersNum": [
-      8,
-      2,
-      1,
-      5
-    ],
+    "PreloadMonstersNum": {
+      "6001001": 3,
+      "6002001": 2,
+      "6003001": 2,
+      "6004001": 1,
+      "6013001": 2,
+      "7001001": 15,
+      "7002001": 6,
+      "7003001": 2,
+      "7012001": 7
+    },
+    "PreloadStaticMonstersNum": {
+      "6001004": 5,
+      "6002004": 8,
+      "6003004": 1,
+      "6004004": 2
+    },
     "RespawnRule": "CommonSolo",
-    "MonsterBuff": [
-      {
-        "BuffList": [
-          6000011,
-          6000021,
-          6000031,
-          6000041,
-          6000051,
-          6000064
-        ]
-      }
-    ],
+    "MonsterBuff": {
+      "BuffList": [
+        6000011,
+        6000021,
+        6000031,
+        6000041,
+        6000051,
+        6000064
+      ]
+    },
     "DungeonWinMode": 1,
     "MultiPlayerLevels": [
       0,
@@ -8799,7 +9199,13 @@
     "EnableTacmap": true,
     "LocAdjustDetectTime": 5,
     "LocAdjustDis": 5000,
-    "DungeonReward": {},
+    "DungeonReward": [
+      52126,
+      52127,
+      52128,
+      52129,
+      52130
+    ],
     "DungeonCost": [
       30,
       40,
@@ -8849,37 +9255,35 @@
       6004001,
       6014001
     ],
-    "PreloadMonstersNum": [
-      3,
-      2,
-      1,
-      14,
-      7,
-      2,
-      6,
-      2,
-      2,
-      2
-    ],
-    "PreloadStaticMonstersNum": [
-      5,
-      16,
-      8,
-      5
-    ],
+    "PreloadMonstersNum": {
+      "6001001": 3,
+      "6002001": 2,
+      "6003001": 2,
+      "6004001": 1,
+      "6013001": 2,
+      "6014001": 2,
+      "7001001": 14,
+      "7002001": 7,
+      "7003001": 2,
+      "7012001": 6
+    },
+    "PreloadStaticMonstersNum": {
+      "6001004": 8,
+      "6002004": 16,
+      "6003004": 5,
+      "6004004": 5
+    },
     "RespawnRule": "CommonSolo",
-    "MonsterBuff": [
-      {
-        "BuffList": [
-          6000014,
-          6000021,
-          6000031,
-          6000041,
-          6000051,
-          6000061
-        ]
-      }
-    ],
+    "MonsterBuff": {
+      "BuffList": [
+        6000014,
+        6000021,
+        6000031,
+        6000041,
+        6000051,
+        6000061
+      ]
+    },
     "DungeonWinMode": 1,
     "MultiPlayerLevels": [
       0,
@@ -8906,7 +9310,13 @@
       150,
       3055
     ],
-    "SubDungeonId": {},
+    "SubDungeonId": [
+      90432,
+      90433,
+      90434,
+      90435,
+      90436
+    ],
     "AttributeType": "Water"
   },
   "90432": {
@@ -8925,7 +9335,13 @@
     "EnableTacmap": true,
     "LocAdjustDetectTime": 5,
     "LocAdjustDis": 5000,
-    "DungeonReward": {},
+    "DungeonReward": [
+      52226,
+      52227,
+      52228,
+      52229,
+      52230
+    ],
     "DungeonCost": [
       30,
       40,
@@ -8975,37 +9391,35 @@
       6004001,
       6014001
     ],
-    "PreloadMonstersNum": [
-      3,
-      2,
-      1,
-      14,
-      7,
-      2,
-      6,
-      2,
-      2,
-      2
-    ],
-    "PreloadStaticMonstersNum": [
-      5,
-      16,
-      8,
-      5
-    ],
+    "PreloadMonstersNum": {
+      "6001001": 3,
+      "6002001": 2,
+      "6003001": 2,
+      "6004001": 1,
+      "6013001": 2,
+      "6014001": 2,
+      "7001001": 14,
+      "7002001": 7,
+      "7003001": 2,
+      "7012001": 6
+    },
+    "PreloadStaticMonstersNum": {
+      "6001004": 8,
+      "6002004": 16,
+      "6003004": 5,
+      "6004004": 5
+    },
     "RespawnRule": "CommonSolo",
-    "MonsterBuff": [
-      {
-        "BuffList": [
-          6000011,
-          6000024,
-          6000031,
-          6000041,
-          6000051,
-          6000061
-        ]
-      }
-    ],
+    "MonsterBuff": {
+      "BuffList": [
+        6000011,
+        6000024,
+        6000031,
+        6000041,
+        6000051,
+        6000061
+      ]
+    },
     "DungeonWinMode": 1,
     "MultiPlayerLevels": [
       0,
@@ -9050,7 +9464,13 @@
     "EnableTacmap": true,
     "LocAdjustDetectTime": 5,
     "LocAdjustDis": 5000,
-    "DungeonReward": {},
+    "DungeonReward": [
+      52326,
+      52327,
+      52328,
+      52329,
+      52330
+    ],
     "DungeonCost": [
       30,
       40,
@@ -9100,37 +9520,35 @@
       6004001,
       6014001
     ],
-    "PreloadMonstersNum": [
-      3,
-      2,
-      1,
-      14,
-      7,
-      2,
-      6,
-      2,
-      2,
-      2
-    ],
-    "PreloadStaticMonstersNum": [
-      5,
-      16,
-      8,
-      5
-    ],
+    "PreloadMonstersNum": {
+      "6001001": 3,
+      "6002001": 2,
+      "6003001": 2,
+      "6004001": 1,
+      "6013001": 2,
+      "6014001": 2,
+      "7001001": 14,
+      "7002001": 7,
+      "7003001": 2,
+      "7012001": 6
+    },
+    "PreloadStaticMonstersNum": {
+      "6001004": 8,
+      "6002004": 16,
+      "6003004": 5,
+      "6004004": 5
+    },
     "RespawnRule": "CommonSolo",
-    "MonsterBuff": [
-      {
-        "BuffList": [
-          6000011,
-          6000021,
-          6000034,
-          6000041,
-          6000051,
-          6000061
-        ]
-      }
-    ],
+    "MonsterBuff": {
+      "BuffList": [
+        6000011,
+        6000021,
+        6000034,
+        6000041,
+        6000051,
+        6000061
+      ]
+    },
     "DungeonWinMode": 1,
     "MultiPlayerLevels": [
       0,
@@ -9175,7 +9593,13 @@
     "EnableTacmap": true,
     "LocAdjustDetectTime": 5,
     "LocAdjustDis": 5000,
-    "DungeonReward": {},
+    "DungeonReward": [
+      52426,
+      52427,
+      52428,
+      52429,
+      52430
+    ],
     "DungeonCost": [
       30,
       40,
@@ -9225,37 +9649,35 @@
       6004001,
       6014001
     ],
-    "PreloadMonstersNum": [
-      3,
-      2,
-      1,
-      14,
-      7,
-      2,
-      6,
-      2,
-      2,
-      2
-    ],
-    "PreloadStaticMonstersNum": [
-      5,
-      16,
-      8,
-      5
-    ],
+    "PreloadMonstersNum": {
+      "6001001": 3,
+      "6002001": 2,
+      "6003001": 2,
+      "6004001": 1,
+      "6013001": 2,
+      "6014001": 2,
+      "7001001": 14,
+      "7002001": 7,
+      "7003001": 2,
+      "7012001": 6
+    },
+    "PreloadStaticMonstersNum": {
+      "6001004": 8,
+      "6002004": 16,
+      "6003004": 5,
+      "6004004": 5
+    },
     "RespawnRule": "CommonSolo",
-    "MonsterBuff": [
-      {
-        "BuffList": [
-          6000011,
-          6000021,
-          6000031,
-          6000044,
-          6000051,
-          6000061
-        ]
-      }
-    ],
+    "MonsterBuff": {
+      "BuffList": [
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      ]
+    },
     "DungeonWinMode": 1,
     "MultiPlayerLevels": [
       0,
@@ -9300,7 +9722,13 @@
     "EnableTacmap": true,
     "LocAdjustDetectTime": 5,
     "LocAdjustDis": 5000,
-    "DungeonReward": {},
+    "DungeonReward": [
+      52526,
+      52527,
+      52528,
+      52529,
+      52530
+    ],
     "DungeonCost": [
       30,
       40,
@@ -9350,37 +9778,35 @@
       6004001,
       6014001
     ],
-    "PreloadMonstersNum": [
-      3,
-      2,
-      1,
-      14,
-      7,
-      2,
-      6,
-      2,
-      2,
-      2
-    ],
-    "PreloadStaticMonstersNum": [
-      5,
-      16,
-      8,
-      5
-    ],
+    "PreloadMonstersNum": {
+      "6001001": 3,
+      "6002001": 2,
+      "6003001": 2,
+      "6004001": 1,
+      "6013001": 2,
+      "6014001": 2,
+      "7001001": 14,
+      "7002001": 7,
+      "7003001": 2,
+      "7012001": 6
+    },
+    "PreloadStaticMonstersNum": {
+      "6001004": 8,
+      "6002004": 16,
+      "6003004": 5,
+      "6004004": 5
+    },
     "RespawnRule": "CommonSolo",
-    "MonsterBuff": [
-      {
-        "BuffList": [
-          6000011,
-          6000021,
-          6000031,
-          6000041,
-          6000054,
-          6000061
-        ]
-      }
-    ],
+    "MonsterBuff": {
+      "BuffList": [
+        6000011,
+        6000021,
+        6000031,
+        6000041,
+        6000054,
+        6000061
+      ]
+    },
     "DungeonWinMode": 1,
     "MultiPlayerLevels": [
       0,
@@ -9425,7 +9851,13 @@
     "EnableTacmap": true,
     "LocAdjustDetectTime": 5,
     "LocAdjustDis": 5000,
-    "DungeonReward": {},
+    "DungeonReward": [
+      52626,
+      52627,
+      52628,
+      52629,
+      52630
+    ],
     "DungeonCost": [
       30,
       40,
@@ -9475,37 +9907,35 @@
       6004001,
       6014001
     ],
-    "PreloadMonstersNum": [
-      3,
-      2,
-      1,
-      14,
-      7,
-      2,
-      6,
-      2,
-      2,
-      2
-    ],
-    "PreloadStaticMonstersNum": [
-      5,
-      16,
-      8,
-      5
-    ],
+    "PreloadMonstersNum": {
+      "6001001": 3,
+      "6002001": 2,
+      "6003001": 2,
+      "6004001": 1,
+      "6013001": 2,
+      "6014001": 2,
+      "7001001": 14,
+      "7002001": 7,
+      "7003001": 2,
+      "7012001": 6
+    },
+    "PreloadStaticMonstersNum": {
+      "6001004": 8,
+      "6002004": 16,
+      "6003004": 5,
+      "6004004": 5
+    },
     "RespawnRule": "CommonSolo",
-    "MonsterBuff": [
-      {
-        "BuffList": [
-          6000011,
-          6000021,
-          6000031,
-          6000041,
-          6000051,
-          6000064
-        ]
-      }
-    ],
+    "MonsterBuff": {
+      "BuffList": [
+        6000011,
+        6000021,
+        6000031,
+        6000041,
+        6000051,
+        6000064
+      ]
+    },
     "DungeonWinMode": 1,
     "MultiPlayerLevels": [
       0,
@@ -9550,7 +9980,13 @@
     "EnableTacmap": true,
     "LocAdjustDetectTime": 5,
     "LocAdjustDis": 5000,
-    "DungeonReward": {},
+    "DungeonReward": [
+      52131,
+      52132,
+      52133,
+      52134,
+      52135
+    ],
     "DungeonCost": [
       30,
       40,
@@ -9600,37 +10036,35 @@
       6004001,
       6014001
     ],
-    "PreloadMonstersNum": [
-      3,
-      2,
-      1,
-      16,
-      6,
-      2,
-      7,
-      3,
-      2,
-      2
-    ],
-    "PreloadStaticMonstersNum": [
-      8,
-      2,
-      1,
-      5
-    ],
+    "PreloadMonstersNum": {
+      "6001001": 3,
+      "6002001": 2,
+      "6003001": 2,
+      "6004001": 1,
+      "6013001": 2,
+      "6014001": 3,
+      "7001001": 16,
+      "7002001": 6,
+      "7003001": 2,
+      "7012001": 7
+    },
+    "PreloadStaticMonstersNum": {
+      "6001004": 5,
+      "6002004": 8,
+      "6003004": 1,
+      "6004004": 2
+    },
     "RespawnRule": "CommonSolo",
-    "MonsterBuff": [
-      {
-        "BuffList": [
-          6000014,
-          6000021,
-          6000031,
-          6000041,
-          6000051,
-          6000061
-        ]
-      }
-    ],
+    "MonsterBuff": {
+      "BuffList": [
+        6000014,
+        6000021,
+        6000031,
+        6000041,
+        6000051,
+        6000061
+      ]
+    },
     "DungeonWinMode": 1,
     "MultiPlayerLevels": [
       0,
@@ -9657,7 +10091,13 @@
       160,
       3056
     ],
-    "SubDungeonId": {},
+    "SubDungeonId": [
+      90438,
+      90439,
+      90440,
+      90441,
+      90442
+    ],
     "AttributeType": "Water"
   },
   "90438": {
@@ -9676,7 +10116,13 @@
     "EnableTacmap": true,
     "LocAdjustDetectTime": 5,
     "LocAdjustDis": 5000,
-    "DungeonReward": {},
+    "DungeonReward": [
+      52231,
+      52232,
+      52233,
+      52234,
+      52235
+    ],
     "DungeonCost": [
       30,
       40,
@@ -9726,37 +10172,35 @@
       6004001,
       6014001
     ],
-    "PreloadMonstersNum": [
-      3,
-      2,
-      1,
-      16,
-      6,
-      2,
-      7,
-      3,
-      2,
-      2
-    ],
-    "PreloadStaticMonstersNum": [
-      8,
-      2,
-      1,
-      5
-    ],
+    "PreloadMonstersNum": {
+      "6001001": 3,
+      "6002001": 2,
+      "6003001": 2,
+      "6004001": 1,
+      "6013001": 2,
+      "6014001": 3,
+      "7001001": 16,
+      "7002001": 6,
+      "7003001": 2,
+      "7012001": 7
+    },
+    "PreloadStaticMonstersNum": {
+      "6001004": 5,
+      "6002004": 8,
+      "6003004": 1,
+      "6004004": 2
+    },
     "RespawnRule": "CommonSolo",
-    "MonsterBuff": [
-      {
-        "BuffList": [
-          6000011,
-          6000024,
-          6000031,
-          6000041,
-          6000051,
-          6000061
-        ]
-      }
-    ],
+    "MonsterBuff": {
+      "BuffList": [
+        6000011,
+        6000024,
+        6000031,
+        6000041,
+        6000051,
+        6000061
+      ]
+    },
     "DungeonWinMode": 1,
     "MultiPlayerLevels": [
       0,
@@ -9801,7 +10245,13 @@
     "EnableTacmap": true,
     "LocAdjustDetectTime": 5,
     "LocAdjustDis": 5000,
-    "DungeonReward": {},
+    "DungeonReward": [
+      52331,
+      52332,
+      52333,
+      52334,
+      52335
+    ],
     "DungeonCost": [
       30,
       40,
@@ -9851,37 +10301,35 @@
       6004001,
       6014001
     ],
-    "PreloadMonstersNum": [
-      3,
-      2,
-      1,
-      16,
-      6,
-      2,
-      7,
-      3,
-      2,
-      2
-    ],
-    "PreloadStaticMonstersNum": [
-      8,
-      2,
-      1,
-      5
-    ],
+    "PreloadMonstersNum": {
+      "6001001": 3,
+      "6002001": 2,
+      "6003001": 2,
+      "6004001": 1,
+      "6013001": 2,
+      "6014001": 3,
+      "7001001": 16,
+      "7002001": 6,
+      "7003001": 2,
+      "7012001": 7
+    },
+    "PreloadStaticMonstersNum": {
+      "6001004": 5,
+      "6002004": 8,
+      "6003004": 1,
+      "6004004": 2
+    },
     "RespawnRule": "CommonSolo",
-    "MonsterBuff": [
-      {
-        "BuffList": [
-          6000011,
-          6000021,
-          6000034,
-          6000041,
-          6000051,
-          6000061
-        ]
-      }
-    ],
+    "MonsterBuff": {
+      "BuffList": [
+        6000011,
+        6000021,
+        6000034,
+        6000041,
+        6000051,
+        6000061
+      ]
+    },
     "DungeonWinMode": 1,
     "MultiPlayerLevels": [
       0,
@@ -9926,7 +10374,13 @@
     "EnableTacmap": true,
     "LocAdjustDetectTime": 5,
     "LocAdjustDis": 5000,
-    "DungeonReward": {},
+    "DungeonReward": [
+      52431,
+      52432,
+      52433,
+      52434,
+      52435
+    ],
     "DungeonCost": [
       30,
       40,
@@ -9976,37 +10430,35 @@
       6004001,
       6014001
     ],
-    "PreloadMonstersNum": [
-      3,
-      2,
-      1,
-      16,
-      6,
-      2,
-      7,
-      3,
-      2,
-      2
-    ],
-    "PreloadStaticMonstersNum": [
-      8,
-      2,
-      1,
-      5
-    ],
+    "PreloadMonstersNum": {
+      "6001001": 3,
+      "6002001": 2,
+      "6003001": 2,
+      "6004001": 1,
+      "6013001": 2,
+      "6014001": 3,
+      "7001001": 16,
+      "7002001": 6,
+      "7003001": 2,
+      "7012001": 7
+    },
+    "PreloadStaticMonstersNum": {
+      "6001004": 5,
+      "6002004": 8,
+      "6003004": 1,
+      "6004004": 2
+    },
     "RespawnRule": "CommonSolo",
-    "MonsterBuff": [
-      {
-        "BuffList": [
-          6000011,
-          6000021,
-          6000031,
-          6000044,
-          6000051,
-          6000061
-        ]
-      }
-    ],
+    "MonsterBuff": {
+      "BuffList": [
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      ]
+    },
     "DungeonWinMode": 1,
     "MultiPlayerLevels": [
       0,
@@ -10051,7 +10503,13 @@
     "EnableTacmap": true,
     "LocAdjustDetectTime": 5,
     "LocAdjustDis": 5000,
-    "DungeonReward": {},
+    "DungeonReward": [
+      52531,
+      52532,
+      52533,
+      52534,
+      52535
+    ],
     "DungeonCost": [
       30,
       40,
@@ -10101,37 +10559,35 @@
       6004001,
       6014001
     ],
-    "PreloadMonstersNum": [
-      3,
-      2,
-      1,
-      16,
-      6,
-      2,
-      7,
-      3,
-      2,
-      2
-    ],
-    "PreloadStaticMonstersNum": [
-      8,
-      2,
-      1,
-      5
-    ],
+    "PreloadMonstersNum": {
+      "6001001": 3,
+      "6002001": 2,
+      "6003001": 2,
+      "6004001": 1,
+      "6013001": 2,
+      "6014001": 3,
+      "7001001": 16,
+      "7002001": 6,
+      "7003001": 2,
+      "7012001": 7
+    },
+    "PreloadStaticMonstersNum": {
+      "6001004": 5,
+      "6002004": 8,
+      "6003004": 1,
+      "6004004": 2
+    },
     "RespawnRule": "CommonSolo",
-    "MonsterBuff": [
-      {
-        "BuffList": [
-          6000011,
-          6000021,
-          6000031,
-          6000041,
-          6000054,
-          6000061
-        ]
-      }
-    ],
+    "MonsterBuff": {
+      "BuffList": [
+        6000011,
+        6000021,
+        6000031,
+        6000041,
+        6000054,
+        6000061
+      ]
+    },
     "DungeonWinMode": 1,
     "MultiPlayerLevels": [
       0,
@@ -10176,7 +10632,13 @@
     "EnableTacmap": true,
     "LocAdjustDetectTime": 5,
     "LocAdjustDis": 5000,
-    "DungeonReward": {},
+    "DungeonReward": [
+      52631,
+      52632,
+      52633,
+      52634,
+      52635
+    ],
     "DungeonCost": [
       30,
       40,
@@ -10226,37 +10688,35 @@
       6004001,
       6014001
     ],
-    "PreloadMonstersNum": [
-      3,
-      2,
-      1,
-      16,
-      6,
-      2,
-      7,
-      3,
-      2,
-      2
-    ],
-    "PreloadStaticMonstersNum": [
-      8,
-      2,
-      1,
-      5
-    ],
+    "PreloadMonstersNum": {
+      "6001001": 3,
+      "6002001": 2,
+      "6003001": 2,
+      "6004001": 1,
+      "6013001": 2,
+      "6014001": 3,
+      "7001001": 16,
+      "7002001": 6,
+      "7003001": 2,
+      "7012001": 7
+    },
+    "PreloadStaticMonstersNum": {
+      "6001004": 5,
+      "6002004": 8,
+      "6003004": 1,
+      "6004004": 2
+    },
     "RespawnRule": "CommonSolo",
-    "MonsterBuff": [
-      {
-        "BuffList": [
-          6000011,
-          6000021,
-          6000031,
-          6000041,
-          6000051,
-          6000064
-        ]
-      }
-    ],
+    "MonsterBuff": {
+      "BuffList": [
+        6000011,
+        6000021,
+        6000031,
+        6000041,
+        6000051,
+        6000064
+      ]
+    },
     "DungeonWinMode": 1,
     "MultiPlayerLevels": [
       0,
@@ -10298,7 +10758,12 @@
     "DungeonJsonFile": "/Game/Script/Datas/Houdini_data/Chapter01/Sabotage",
     "IsPlayLevelEnter": true,
     "EnableTacmap": true,
-    "DungeonReward": {},
+    "DungeonReward": [
+      50300,
+      30009,
+      30010,
+      30011
+    ],
     "DungeonCost": [
       30
     ],
@@ -10346,17 +10811,17 @@
       6002001,
       6004001
     ],
-    "PreloadMonstersNum": [
-      3,
-      2,
-      1,
-      4,
-      2,
-      2,
-      2,
-      1,
-      1
-    ],
+    "PreloadMonstersNum": {
+      "6001001": 3,
+      "6002001": 2,
+      "6004001": 1,
+      "7001001": 4,
+      "7001015": 1,
+      "7002001": 2,
+      "7003001": 2,
+      "7012001": 2,
+      "7013001": 1
+    },
     "PreloadStaticMonstersNum": {
       "6001001": 12,
       "6002001": 11,
@@ -10401,7 +10866,12 @@
     "DungeonJsonFile": "/Game/Script/Datas/Houdini_data/Chapter01/Sabotage",
     "IsPlayLevelEnter": true,
     "EnableTacmap": true,
-    "DungeonReward": {},
+    "DungeonReward": [
+      50301,
+      30009,
+      30010,
+      30011
+    ],
     "DungeonCost": [
       30
     ],
@@ -10449,17 +10919,17 @@
       6002001,
       6004001
     ],
-    "PreloadMonstersNum": [
-      3,
-      2,
-      1,
-      4,
-      2,
-      2,
-      2,
-      1,
-      1
-    ],
+    "PreloadMonstersNum": {
+      "6001001": 3,
+      "6002001": 2,
+      "6004001": 1,
+      "7001001": 4,
+      "7001015": 1,
+      "7002001": 2,
+      "7003001": 2,
+      "7012001": 2,
+      "7013001": 1
+    },
     "PreloadStaticMonstersNum": {
       "6001001": 12,
       "6002001": 11,
@@ -10493,7 +10963,10 @@
       0,
       180
     ],
-    "Condition": {}
+    "Condition": [
+      110,
+      3061
+    ]
   },
   "90503": {
     "DungeonID": 90503,
@@ -10514,7 +10987,9 @@
       30010,
       30011
     ],
-    "DungeonCost": {},
+    "DungeonCost": [
+      45
+    ],
     "DungeonRewardView": 90503,
     "DungeonDropTag": [
       "Mon.Gr",
@@ -10559,25 +11034,25 @@
       6002001,
       6004001
     ],
-    "PreloadMonstersNum": [
-      3,
-      2,
-      1,
-      4,
-      2,
-      2,
-      2,
-      1,
-      1
-    ],
-    "PreloadStaticMonstersNum": [
-      1,
-      11,
-      12,
-      1,
-      1,
-      1
-    ],
+    "PreloadMonstersNum": {
+      "6001001": 3,
+      "6002001": 2,
+      "6004001": 1,
+      "7001001": 4,
+      "7001015": 1,
+      "7002001": 2,
+      "7003001": 2,
+      "7012001": 2,
+      "7013001": 1
+    },
+    "PreloadStaticMonstersNum": {
+      "6001001": 11,
+      "6002001": 12,
+      "6005001": 1,
+      "6011001": 1,
+      "9003004": 1,
+      "9005004": 1
+    },
     "RespawnRule": "CommonSolo",
     "DungeonWinMode": 3,
     "MultiPlayerLevels": [
@@ -10601,7 +11076,10 @@
       0,
       180
     ],
-    "Condition": {}
+    "Condition": [
+      120,
+      3062
+    ]
   },
   "90504": {
     "DungeonID": 90504,
@@ -10616,7 +11094,12 @@
     "DungeonJsonFile": "/Game/Script/Datas/Houdini_data/Chapter01/Sabotage",
     "IsPlayLevelEnter": true,
     "EnableTacmap": true,
-    "DungeonReward": {},
+    "DungeonReward": [
+      50303,
+      30009,
+      30010,
+      30011
+    ],
     "DungeonCost": [
       60
     ],
@@ -10664,17 +11147,17 @@
       6002001,
       6004001
     ],
-    "PreloadMonstersNum": [
-      3,
-      2,
-      1,
-      4,
-      2,
-      2,
-      2,
-      1,
-      1
-    ],
+    "PreloadMonstersNum": {
+      "6001001": 3,
+      "6002001": 2,
+      "6004001": 1,
+      "7001001": 4,
+      "7001015": 1,
+      "7002001": 2,
+      "7003001": 2,
+      "7012001": 2,
+      "7013001": 1
+    },
     "PreloadStaticMonstersNum": {
       "6001001": 12,
       "6002001": 10,
@@ -10708,7 +11191,10 @@
       0,
       180
     ],
-    "Condition": {}
+    "Condition": [
+      130,
+      3063
+    ]
   },
   "90505": {
     "DungeonID": 90505,
@@ -10776,25 +11262,25 @@
       6002001,
       6004001
     ],
-    "PreloadMonstersNum": [
-      3,
-      2,
-      1,
-      4,
-      2,
-      2,
-      2,
-      1,
-      1
-    ],
-    "PreloadStaticMonstersNum": [
-      1,
-      11,
-      12,
-      1,
-      1,
-      1
-    ],
+    "PreloadMonstersNum": {
+      "6001001": 3,
+      "6002001": 2,
+      "6004001": 1,
+      "7001001": 4,
+      "7001015": 1,
+      "7002001": 2,
+      "7003001": 2,
+      "7012001": 2,
+      "7013001": 1
+    },
+    "PreloadStaticMonstersNum": {
+      "6001001": 11,
+      "6002001": 12,
+      "6005001": 1,
+      "6011001": 1,
+      "9003004": 1,
+      "9005004": 1
+    },
     "RespawnRule": "CommonSolo",
     "DungeonWinMode": 3,
     "MultiPlayerLevels": [
@@ -10818,7 +11304,10 @@
       0,
       180
     ],
-    "Condition": {}
+    "Condition": [
+      140,
+      3064
+    ]
   },
   "90506": {
     "DungeonID": 90506,
@@ -10898,14 +11387,14 @@
       "7013001": 1,
       "9500001": 1
     },
-    "PreloadStaticMonstersNum": [
-      1,
-      12,
-      12,
-      0,
-      1,
-      1
-    ],
+    "PreloadStaticMonstersNum": {
+      "6001001": 12,
+      "6002001": 12,
+      "6004001": 0,
+      "9003004": 1,
+      "9005004": 1,
+      "9006004": 1
+    },
     "RespawnRule": "CommonSolo",
     "DungeonWinMode": 3,
     "MultiPlayerLevels": [
@@ -10929,7 +11418,10 @@
       0,
       180
     ],
-    "Condition": {}
+    "Condition": [
+      150,
+      3065
+    ]
   },
   "90507": {
     "DungeonID": 90507,
@@ -10944,7 +11436,12 @@
     "DungeonJsonFile": "/Game/Script/Datas/Houdini_data/Chapter01/Sabotage",
     "IsPlayLevelEnter": true,
     "EnableTacmap": true,
-    "DungeonReward": {},
+    "DungeonReward": [
+      50306,
+      30009,
+      30010,
+      30011
+    ],
     "DungeonCost": [
       60
     ],
@@ -10992,25 +11489,25 @@
       6002001,
       6004001
     ],
-    "PreloadMonstersNum": [
-      3,
-      2,
-      1,
-      4,
-      2,
-      2,
-      2,
-      1,
-      1
-    ],
-    "PreloadStaticMonstersNum": [
-      1,
-      12,
-      12,
-      0,
-      1,
-      1
-    ],
+    "PreloadMonstersNum": {
+      "6001001": 3,
+      "6002001": 2,
+      "6004001": 1,
+      "7001001": 4,
+      "7001015": 1,
+      "7002001": 2,
+      "7003001": 2,
+      "7012001": 2,
+      "7013001": 1
+    },
+    "PreloadStaticMonstersNum": {
+      "6001001": 12,
+      "6002001": 12,
+      "6004001": 0,
+      "9003004": 1,
+      "9005004": 1,
+      "9006004": 1
+    },
     "RespawnRule": "CommonSolo",
     "DungeonWinMode": 3,
     "MultiPlayerLevels": [
@@ -11034,7 +11531,10 @@
       0,
       180
     ],
-    "Condition": {}
+    "Condition": [
+      160,
+      3066
+    ]
   },
   "90508": {
     "DungeonID": 90508,
@@ -11103,18 +11603,16 @@
       6004001
     ],
     "RespawnRule": "CommonSolo",
-    "MonsterBuff": [
-      {
-        "BuffList": [
-          6000011,
-          6000024,
-          6000031,
-          6000041,
-          6000051,
-          6000061
-        ]
-      }
-    ],
+    "MonsterBuff": {
+      "BuffList": [
+        6000011,
+        6000024,
+        6000031,
+        6000041,
+        6000051,
+        6000061
+      ]
+    },
     "DungeonWinMode": 3,
     "MultiPlayerLevels": [
       0,
@@ -11155,7 +11653,12 @@
     "DungeonJsonFile": "/Game/Script/Datas/Houdini_data/Chapter01/Sabotage",
     "IsPlayLevelEnter": true,
     "EnableTacmap": true,
-    "DungeonReward": {},
+    "DungeonReward": [
+      50307,
+      30009,
+      30010,
+      30011
+    ],
     "DungeonCost": [
       20
     ],
@@ -11204,18 +11707,16 @@
       6004001
     ],
     "RespawnRule": "CommonSolo",
-    "MonsterBuff": [
-      {
-        "BuffList": [
-          6000011,
-          6000021,
-          6000034,
-          6000041,
-          6000051,
-          6000061
-        ]
-      }
-    ],
+    "MonsterBuff": {
+      "BuffList": [
+        6000011,
+        6000021,
+        6000034,
+        6000041,
+        6000051,
+        6000061
+      ]
+    },
     "DungeonWinMode": 3,
     "MultiPlayerLevels": [
       0,
@@ -11256,7 +11757,12 @@
     "DungeonJsonFile": "/Game/Script/Datas/Houdini_data/Chapter01/Sabotage",
     "IsPlayLevelEnter": true,
     "EnableTacmap": true,
-    "DungeonReward": {},
+    "DungeonReward": [
+      50310,
+      30009,
+      30010,
+      30011
+    ],
     "DungeonCost": [
       20
     ],
@@ -11305,18 +11811,16 @@
       6004001
     ],
     "RespawnRule": "CommonSolo",
-    "MonsterBuff": [
-      {
-        "BuffList": [
-          6000011,
-          6000021,
-          6000031,
-          6000044,
-          6000051,
-          6000061
-        ]
-      }
-    ],
+    "MonsterBuff": {
+      "BuffList": [
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      ]
+    },
     "DungeonWinMode": 3,
     "MultiPlayerLevels": [
       0,
@@ -11411,18 +11915,16 @@
       6004001
     ],
     "RespawnRule": "CommonSolo",
-    "MonsterBuff": [
-      {
-        "BuffList": [
-          6000011,
-          6000021,
-          6000031,
-          6000041,
-          6000054,
-          6000061
-        ]
-      }
-    ],
+    "MonsterBuff": {
+      "BuffList": [
+        6000011,
+        6000021,
+        6000031,
+        6000041,
+        6000054,
+        6000061
+      ]
+    },
     "DungeonWinMode": 3,
     "MultiPlayerLevels": [
       0,
@@ -11517,18 +12019,16 @@
       6004001
     ],
     "RespawnRule": "CommonSolo",
-    "MonsterBuff": [
-      {
-        "BuffList": [
-          6000011,
-          6000021,
-          6000031,
-          6000041,
-          6000054,
-          6000061
-        ]
-      }
-    ],
+    "MonsterBuff": {
+      "BuffList": [
+        6000011,
+        6000021,
+        6000031,
+        6000041,
+        6000054,
+        6000061
+      ]
+    },
     "DungeonWinMode": 3,
     "MultiPlayerLevels": [
       0,
@@ -11623,18 +12123,16 @@
       6004001
     ],
     "RespawnRule": "CommonSolo",
-    "MonsterBuff": [
-      {
-        "BuffList": [
-          6000014,
-          6000021,
-          6000031,
-          6000041,
-          6000051,
-          6000061
-        ]
-      }
-    ],
+    "MonsterBuff": {
+      "BuffList": [
+        6000014,
+        6000021,
+        6000031,
+        6000041,
+        6000051,
+        6000061
+      ]
+    },
     "DungeonWinMode": 3,
     "MultiPlayerLevels": [
       0,
@@ -11660,7 +12158,13 @@
     "Condition": [
       3062
     ],
-    "SubDungeonId": {},
+    "SubDungeonId": [
+      90512,
+      90513,
+      90514,
+      90515,
+      90518
+    ],
     "AttributeType": "Water"
   },
   "90514": {
@@ -11730,18 +12234,16 @@
       6004001
     ],
     "RespawnRule": "CommonSolo",
-    "MonsterBuff": [
-      {
-        "BuffList": [
-          6000011,
-          6000024,
-          6000031,
-          6000041,
-          6000051,
-          6000061
-        ]
-      }
-    ],
+    "MonsterBuff": {
+      "BuffList": [
+        6000011,
+        6000024,
+        6000031,
+        6000041,
+        6000051,
+        6000061
+      ]
+    },
     "DungeonWinMode": 3,
     "MultiPlayerLevels": [
       0,
@@ -11782,7 +12284,12 @@
     "DungeonJsonFile": "/Game/Script/Datas/Houdini_data/Chapter01/Sabotage",
     "IsPlayLevelEnter": true,
     "EnableTacmap": true,
-    "DungeonReward": {},
+    "DungeonReward": [
+      50308,
+      30009,
+      30010,
+      30011
+    ],
     "DungeonCost": [
       20
     ],
@@ -11831,18 +12338,16 @@
       6004001
     ],
     "RespawnRule": "CommonSolo",
-    "MonsterBuff": [
-      {
-        "BuffList": [
-          6000011,
-          6000021,
-          6000034,
-          6000041,
-          6000051,
-          6000061
-        ]
-      }
-    ],
+    "MonsterBuff": {
+      "BuffList": [
+        6000011,
+        6000021,
+        6000034,
+        6000041,
+        6000051,
+        6000061
+      ]
+    },
     "DungeonWinMode": 3,
     "MultiPlayerLevels": [
       0,
@@ -11883,7 +12388,12 @@
     "DungeonJsonFile": "/Game/Script/Datas/Houdini_data/Chapter01/Sabotage",
     "IsPlayLevelEnter": true,
     "EnableTacmap": true,
-    "DungeonReward": {},
+    "DungeonReward": [
+      50311,
+      30009,
+      30010,
+      30011
+    ],
     "DungeonCost": [
       20
     ],
@@ -11932,18 +12442,16 @@
       6004001
     ],
     "RespawnRule": "CommonSolo",
-    "MonsterBuff": [
-      {
-        "BuffList": [
-          6000011,
-          6000021,
-          6000031,
-          6000044,
-          6000051,
-          6000061
-        ]
-      }
-    ],
+    "MonsterBuff": {
+      "BuffList": [
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      ]
+    },
     "DungeonWinMode": 3,
     "MultiPlayerLevels": [
       0,
@@ -12038,18 +12546,16 @@
       6004001
     ],
     "RespawnRule": "CommonSolo",
-    "MonsterBuff": [
-      {
-        "BuffList": [
-          6000011,
-          6000021,
-          6000031,
-          6000041,
-          6000054,
-          6000061
-        ]
-      }
-    ],
+    "MonsterBuff": {
+      "BuffList": [
+        6000011,
+        6000021,
+        6000031,
+        6000041,
+        6000054,
+        6000061
+      ]
+    },
     "DungeonWinMode": 3,
     "MultiPlayerLevels": [
       0,
@@ -12144,18 +12650,16 @@
       6004001
     ],
     "RespawnRule": "CommonSolo",
-    "MonsterBuff": [
-      {
-        "BuffList": [
-          6000011,
-          6000021,
-          6000031,
-          6000041,
-          6000054,
-          6000061
-        ]
-      }
-    ],
+    "MonsterBuff": {
+      "BuffList": [
+        6000011,
+        6000021,
+        6000031,
+        6000041,
+        6000054,
+        6000061
+      ]
+    },
     "DungeonWinMode": 3,
     "MultiPlayerLevels": [
       0,
@@ -12199,7 +12703,13 @@
     "EnableTacmap": true,
     "LocAdjustDetectTime": 5,
     "LocAdjustDis": 5000,
-    "DungeonReward": {},
+    "DungeonReward": [
+      50000,
+      50001,
+      50002,
+      50003,
+      50004
+    ],
     "DungeonCost": [
       20,
       30,
@@ -12228,7 +12738,16 @@
       70,
       74
     ],
-    "DungeonMonsters": {},
+    "DungeonMonsters": [
+      7001001,
+      7002001,
+      7003001,
+      7004001,
+      6001001,
+      6002001,
+      6004001,
+      8501002
+    ],
     "PreloadMonsters": [
       7001001,
       7002001,
@@ -12304,7 +12823,13 @@
     "EnableTacmap": true,
     "LocAdjustDetectTime": 5,
     "LocAdjustDis": 5000,
-    "DungeonReward": {},
+    "DungeonReward": [
+      50005,
+      50006,
+      50007,
+      50008,
+      50009
+    ],
     "DungeonCost": [
       20,
       30,
@@ -12404,7 +12929,10 @@
       0,
       -90
     ],
-    "Condition": {}
+    "Condition": [
+      110,
+      3071
+    ]
   },
   "90603": {
     "DungeonID": 90603,
@@ -12422,7 +12950,13 @@
     "EnableTacmap": true,
     "LocAdjustDetectTime": 5,
     "LocAdjustDis": 5000,
-    "DungeonReward": {},
+    "DungeonReward": [
+      50010,
+      50011,
+      50012,
+      50013,
+      50014
+    ],
     "DungeonCost": [
       20,
       30,
@@ -12522,7 +13056,10 @@
       0,
       -90
     ],
-    "Condition": {}
+    "Condition": [
+      120,
+      3072
+    ]
   },
   "90604": {
     "DungeonID": 90604,
@@ -12540,7 +13077,13 @@
     "EnableTacmap": true,
     "LocAdjustDetectTime": 5,
     "LocAdjustDis": 5000,
-    "DungeonReward": {},
+    "DungeonReward": [
+      50015,
+      50016,
+      50017,
+      50018,
+      50019
+    ],
     "DungeonCost": [
       20,
       30,
@@ -12640,7 +13183,10 @@
       0,
       -90
     ],
-    "Condition": {}
+    "Condition": [
+      130,
+      3073
+    ]
   },
   "90605": {
     "DungeonID": 90605,
@@ -12658,7 +13204,13 @@
     "EnableTacmap": true,
     "LocAdjustDetectTime": 5,
     "LocAdjustDis": 5000,
-    "DungeonReward": {},
+    "DungeonReward": [
+      50020,
+      50021,
+      50022,
+      50023,
+      50024
+    ],
     "DungeonCost": [
       20,
       30,
@@ -12758,7 +13310,10 @@
       0,
       -90
     ],
-    "Condition": {}
+    "Condition": [
+      140,
+      3074
+    ]
   },
   "90606": {
     "DungeonID": 90606,
@@ -12776,7 +13331,13 @@
     "EnableTacmap": true,
     "LocAdjustDetectTime": 5,
     "LocAdjustDis": 5000,
-    "DungeonReward": {},
+    "DungeonReward": [
+      50025,
+      50026,
+      50027,
+      50028,
+      50029
+    ],
     "DungeonCost": [
       20,
       30,
@@ -12847,12 +13408,12 @@
       "7013001": 2,
       "7014001": 1
     },
-    "PreloadStaticMonstersNum": [
-      5,
-      16,
-      5,
-      4
-    ],
+    "PreloadStaticMonstersNum": {
+      "6001004": 5,
+      "6002004": 16,
+      "6003004": 4,
+      "6004004": 5
+    },
     "RespawnRule": "CommonSolo",
     "DungeonWinMode": 1,
     "MultiPlayerLevels": [
@@ -12876,7 +13437,10 @@
       0,
       -90
     ],
-    "Condition": {}
+    "Condition": [
+      150,
+      3075
+    ]
   },
   "90607": {
     "DungeonID": 90607,
@@ -12894,7 +13458,13 @@
     "EnableTacmap": true,
     "LocAdjustDetectTime": 5,
     "LocAdjustDis": 5000,
-    "DungeonReward": {},
+    "DungeonReward": [
+      50030,
+      50031,
+      50032,
+      50033,
+      50034
+    ],
     "DungeonCost": [
       20,
       30,
@@ -12965,12 +13535,12 @@
       "7013001": 2,
       "7014001": 1
     },
-    "PreloadStaticMonstersNum": [
-      5,
-      16,
-      5,
-      4
-    ],
+    "PreloadStaticMonstersNum": {
+      "6001004": 5,
+      "6002004": 16,
+      "6003004": 4,
+      "6004004": 5
+    },
     "RespawnRule": "CommonSolo",
     "DungeonWinMode": 1,
     "MultiPlayerLevels": [
@@ -12994,7 +13564,10 @@
       0,
       -90
     ],
-    "Condition": {}
+    "Condition": [
+      160,
+      3076
+    ]
   },
   "90701": {
     "DungeonID": 90701,
@@ -13009,7 +13582,9 @@
     "DungeonJsonFile": "/Game/Script/Datas/Houdini_data/Chapter01/Hijack",
     "IsPlayLevelEnter": true,
     "EnableTacmap": true,
-    "DungeonReward": {},
+    "DungeonReward": [
+      51901
+    ],
     "DungeonCost": [
       50
     ],
@@ -13047,18 +13622,18 @@
       7012001,
       7013001
     ],
-    "PreloadMonstersNum": [
-      8,
-      7,
-      4,
-      1
-    ],
-    "PreloadStaticMonstersNum": [
-      17,
-      1,
-      11,
-      1
-    ],
+    "PreloadMonstersNum": {
+      "7003001": 8,
+      "7003011": 1,
+      "7007002": 4,
+      "7013001": 7
+    },
+    "PreloadStaticMonstersNum": {
+      "7001001": 17,
+      "7001015": 1,
+      "7003001": 11,
+      "7003016": 1
+    },
     "RespawnRule": "CommonSolo",
     "DungeonWinMode": 2,
     "MultiPlayerLevels": [
@@ -13096,7 +13671,9 @@
     "DungeonJsonFile": "/Game/Script/Datas/Houdini_data/Chapter01/Hijack",
     "IsPlayLevelEnter": true,
     "EnableTacmap": true,
-    "DungeonReward": {},
+    "DungeonReward": [
+      51902
+    ],
     "DungeonCost": [
       50
     ],
@@ -13134,18 +13711,18 @@
       7012001,
       7013001
     ],
-    "PreloadMonstersNum": [
-      8,
-      7,
-      4,
-      1
-    ],
-    "PreloadStaticMonstersNum": [
-      17,
-      1,
-      11,
-      1
-    ],
+    "PreloadMonstersNum": {
+      "7003001": 8,
+      "7003011": 1,
+      "7007002": 4,
+      "7013001": 7
+    },
+    "PreloadStaticMonstersNum": {
+      "7001001": 17,
+      "7001015": 1,
+      "7003001": 11,
+      "7003016": 1
+    },
     "RespawnRule": "CommonSolo",
     "DungeonWinMode": 2,
     "MultiPlayerLevels": [
@@ -13183,7 +13760,9 @@
     "DungeonJsonFile": "/Game/Script/Datas/Houdini_data/Chapter01/Hijack",
     "IsPlayLevelEnter": true,
     "EnableTacmap": true,
-    "DungeonReward": {},
+    "DungeonReward": [
+      51903
+    ],
     "DungeonCost": [
       50
     ],
@@ -13221,18 +13800,18 @@
       7012001,
       7013001
     ],
-    "PreloadMonstersNum": [
-      8,
-      7,
-      4,
-      1
-    ],
-    "PreloadStaticMonstersNum": [
-      17,
-      1,
-      11,
-      1
-    ],
+    "PreloadMonstersNum": {
+      "7003001": 8,
+      "7003011": 1,
+      "7007002": 4,
+      "7013001": 7
+    },
+    "PreloadStaticMonstersNum": {
+      "7001001": 17,
+      "7001015": 1,
+      "7003001": 11,
+      "7003016": 1
+    },
     "RespawnRule": "CommonSolo",
     "DungeonWinMode": 2,
     "MultiPlayerLevels": [
@@ -13256,7 +13835,10 @@
       0,
       180
     ],
-    "Condition": {}
+    "Condition": [
+      120,
+      3141
+    ]
   },
   "90704": {
     "DungeonID": 90704,
@@ -13271,7 +13853,9 @@
     "DungeonJsonFile": "/Game/Script/Datas/Houdini_data/Chapter01/Hijack",
     "IsPlayLevelEnter": true,
     "EnableTacmap": true,
-    "DungeonReward": {},
+    "DungeonReward": [
+      51904
+    ],
     "DungeonCost": [
       50
     ],
@@ -13309,18 +13893,18 @@
       7012001,
       7013001
     ],
-    "PreloadMonstersNum": [
-      8,
-      7,
-      4,
-      1
-    ],
-    "PreloadStaticMonstersNum": [
-      17,
-      1,
-      11,
-      1
-    ],
+    "PreloadMonstersNum": {
+      "7003001": 8,
+      "7003011": 1,
+      "7007002": 4,
+      "7013001": 7
+    },
+    "PreloadStaticMonstersNum": {
+      "7001001": 17,
+      "7001015": 1,
+      "7003001": 11,
+      "7003016": 1
+    },
     "RespawnRule": "CommonSolo",
     "DungeonWinMode": 2,
     "MultiPlayerLevels": [
@@ -13344,7 +13928,10 @@
       0,
       180
     ],
-    "Condition": {}
+    "Condition": [
+      130,
+      3142
+    ]
   },
   "90705": {
     "DungeonID": 90705,
@@ -13359,7 +13946,9 @@
     "DungeonJsonFile": "/Game/Script/Datas/Houdini_data/Chapter01/Hijack",
     "IsPlayLevelEnter": true,
     "EnableTacmap": true,
-    "DungeonReward": {},
+    "DungeonReward": [
+      51905
+    ],
     "DungeonCost": [
       50
     ],
@@ -13397,18 +13986,18 @@
       7012001,
       7013001
     ],
-    "PreloadMonstersNum": [
-      8,
-      7,
-      4,
-      1
-    ],
-    "PreloadStaticMonstersNum": [
-      17,
-      1,
-      11,
-      1
-    ],
+    "PreloadMonstersNum": {
+      "7003001": 8,
+      "7003011": 1,
+      "7007002": 4,
+      "7013001": 7
+    },
+    "PreloadStaticMonstersNum": {
+      "7001001": 17,
+      "7001015": 1,
+      "7003001": 11,
+      "7003016": 1
+    },
     "RespawnRule": "CommonSolo",
     "DungeonWinMode": 2,
     "MultiPlayerLevels": [
@@ -13432,7 +14021,10 @@
       0,
       180
     ],
-    "Condition": {}
+    "Condition": [
+      140,
+      3143
+    ]
   },
   "90706": {
     "DungeonID": 90706,
@@ -13447,7 +14039,9 @@
     "DungeonJsonFile": "/Game/Script/Datas/Houdini_data/Chapter01/Hijack",
     "IsPlayLevelEnter": true,
     "EnableTacmap": true,
-    "DungeonReward": {},
+    "DungeonReward": [
+      51906
+    ],
     "DungeonCost": [
       50
     ],
@@ -13485,18 +14079,18 @@
       7012001,
       7013001
     ],
-    "PreloadMonstersNum": [
-      8,
-      7,
-      4,
-      1
-    ],
-    "PreloadStaticMonstersNum": [
-      17,
-      1,
-      11,
-      1
-    ],
+    "PreloadMonstersNum": {
+      "7003001": 8,
+      "7003011": 1,
+      "7007002": 4,
+      "7013001": 7
+    },
+    "PreloadStaticMonstersNum": {
+      "7001001": 17,
+      "7001015": 1,
+      "7003001": 11,
+      "7003016": 1
+    },
     "RespawnRule": "CommonSolo",
     "DungeonWinMode": 2,
     "MultiPlayerLevels": [
@@ -13520,7 +14114,10 @@
       0,
       180
     ],
-    "Condition": {}
+    "Condition": [
+      150,
+      3144
+    ]
   },
   "90707": {
     "DungeonID": 90707,
@@ -13535,7 +14132,9 @@
     "DungeonJsonFile": "/Game/Script/Datas/Houdini_data/Chapter01/Hijack",
     "IsPlayLevelEnter": true,
     "EnableTacmap": true,
-    "DungeonReward": {},
+    "DungeonReward": [
+      51907
+    ],
     "DungeonCost": [
       50
     ],
@@ -13573,18 +14172,18 @@
       7012001,
       7013001
     ],
-    "PreloadMonstersNum": [
-      8,
-      7,
-      4,
-      1
-    ],
-    "PreloadStaticMonstersNum": [
-      17,
-      1,
-      11,
-      1
-    ],
+    "PreloadMonstersNum": {
+      "7003001": 8,
+      "7003011": 1,
+      "7007002": 4,
+      "7013001": 7
+    },
+    "PreloadStaticMonstersNum": {
+      "7001001": 17,
+      "7001015": 1,
+      "7003001": 11,
+      "7003016": 1
+    },
     "RespawnRule": "CommonSolo",
     "DungeonWinMode": 2,
     "MultiPlayerLevels": [
@@ -13608,7 +14207,10 @@
       0,
       180
     ],
-    "Condition": {}
+    "Condition": [
+      160,
+      3145
+    ]
   },
   "90801": {
     "DungeonID": 90801,
@@ -13623,7 +14225,9 @@
     "DungeonJsonFile": "/Game/Script/Datas/Houdini_data/Prologue/Exterminate01",
     "IsPlayLevelEnter": true,
     "EnableTacmap": true,
-    "DungeonReward": {},
+    "DungeonReward": [
+      51701
+    ],
     "DungeonCost": [
       20
     ],
@@ -13710,7 +14314,9 @@
     "DungeonJsonFile": "/Game/Script/Datas/Houdini_data/Prologue/Exterminate01",
     "IsPlayLevelEnter": true,
     "EnableTacmap": true,
-    "DungeonReward": {},
+    "DungeonReward": [
+      51702
+    ],
     "DungeonCost": [
       30
     ],
@@ -13755,12 +14361,12 @@
       "7003015": 1,
       "7012001": 1
     },
-    "PreloadStaticMonstersNum": [
-      9,
-      5,
-      15,
-      8
-    ],
+    "PreloadStaticMonstersNum": {
+      "6001004": 9,
+      "6002004": 15,
+      "6003004": 8,
+      "6004004": 5
+    },
     "RespawnRule": "CommonSolo",
     "DungeonWinMode": 2,
     "MultiPlayerLevels": [
@@ -13785,7 +14391,10 @@
       0,
       -90
     ],
-    "Condition": {}
+    "Condition": [
+      110,
+      3150
+    ]
   },
   "90803": {
     "DungeonID": 90803,
@@ -13800,8 +14409,12 @@
     "DungeonJsonFile": "/Game/Script/Datas/Houdini_data/Prologue/Exterminate01",
     "IsPlayLevelEnter": true,
     "EnableTacmap": true,
-    "DungeonReward": {},
-    "DungeonCost": {},
+    "DungeonReward": [
+      51703
+    ],
+    "DungeonCost": [
+      40
+    ],
     "DungeonRewardView": 90803,
     "DungeonDropTag": [
       "Mon.Gr",
@@ -13836,13 +14449,13 @@
       6003004,
       6004004
     ],
-    "PreloadMonstersNum": [
-      1,
-      1,
-      1,
-      1,
-      1
-    ],
+    "PreloadMonstersNum": {
+      "7001001": 1,
+      "7003001": 1,
+      "7003011": 1,
+      "7003017": 1,
+      "7012001": 1
+    },
     "PreloadStaticMonstersNum": {
       "6001004": 8,
       "6002004": 13,
@@ -13873,7 +14486,10 @@
       0,
       -90
     ],
-    "Condition": {}
+    "Condition": [
+      120,
+      3151
+    ]
   },
   "90804": {
     "DungeonID": 90804,
@@ -13888,7 +14504,9 @@
     "DungeonJsonFile": "/Game/Script/Datas/Houdini_data/Prologue/Exterminate01",
     "IsPlayLevelEnter": true,
     "EnableTacmap": true,
-    "DungeonReward": {},
+    "DungeonReward": [
+      51704
+    ],
     "DungeonCost": [
       50
     ],
@@ -13926,13 +14544,13 @@
       6003004,
       6004004
     ],
-    "PreloadMonstersNum": [
-      1,
-      1,
-      1,
-      1,
-      1
-    ],
+    "PreloadMonstersNum": {
+      "7001001": 1,
+      "7003001": 1,
+      "7003011": 1,
+      "7003017": 1,
+      "7012001": 1
+    },
     "PreloadStaticMonstersNum": {
       "6001004": 15,
       "6002004": 12,
@@ -13963,7 +14581,10 @@
       0,
       -90
     ],
-    "Condition": {}
+    "Condition": [
+      130,
+      3152
+    ]
   },
   "90805": {
     "DungeonID": 90805,
@@ -13978,7 +14599,9 @@
     "DungeonJsonFile": "/Game/Script/Datas/Houdini_data/Prologue/Exterminate01",
     "IsPlayLevelEnter": true,
     "EnableTacmap": true,
-    "DungeonReward": {},
+    "DungeonReward": [
+      51705
+    ],
     "DungeonCost": [
       60
     ],
@@ -14016,19 +14639,19 @@
       6003004,
       6004004
     ],
-    "PreloadMonstersNum": [
-      1,
-      1,
-      1,
-      1,
-      1
-    ],
-    "PreloadStaticMonstersNum": [
-      12,
-      3,
-      5,
-      9
-    ],
+    "PreloadMonstersNum": {
+      "7001001": 1,
+      "7003001": 1,
+      "7003015": 1,
+      "7003017": 1,
+      "7012001": 1
+    },
+    "PreloadStaticMonstersNum": {
+      "6001004": 12,
+      "6002004": 9,
+      "6003004": 5,
+      "6004004": 3
+    },
     "RespawnRule": "CommonSolo",
     "DungeonWinMode": 2,
     "MultiPlayerLevels": [
@@ -14053,7 +14676,10 @@
       0,
       -90
     ],
-    "Condition": {}
+    "Condition": [
+      140,
+      3153
+    ]
   },
   "90806": {
     "DungeonID": 90806,
@@ -14068,7 +14694,9 @@
     "DungeonJsonFile": "/Game/Script/Datas/Houdini_data/Prologue/Exterminate01",
     "IsPlayLevelEnter": true,
     "EnableTacmap": true,
-    "DungeonReward": {},
+    "DungeonReward": [
+      51706
+    ],
     "DungeonCost": [
       60
     ],
@@ -14106,19 +14734,19 @@
       6003004,
       6004004
     ],
-    "PreloadMonstersNum": [
-      1,
-      1,
-      1,
-      1,
-      1
-    ],
-    "PreloadStaticMonstersNum": [
-      12,
-      3,
-      5,
-      9
-    ],
+    "PreloadMonstersNum": {
+      "7001001": 1,
+      "7003001": 1,
+      "7003011": 1,
+      "7003017": 1,
+      "7012001": 1
+    },
+    "PreloadStaticMonstersNum": {
+      "6001004": 12,
+      "6002004": 9,
+      "6003004": 5,
+      "6004004": 3
+    },
     "RespawnRule": "CommonSolo",
     "DungeonWinMode": 2,
     "MultiPlayerLevels": [
@@ -14143,7 +14771,10 @@
       0,
       -90
     ],
-    "Condition": {}
+    "Condition": [
+      150,
+      3154
+    ]
   },
   "90807": {
     "DungeonID": 90807,
@@ -14158,7 +14789,9 @@
     "DungeonJsonFile": "/Game/Script/Datas/Houdini_data/Prologue/Exterminate01",
     "IsPlayLevelEnter": true,
     "EnableTacmap": true,
-    "DungeonReward": {},
+    "DungeonReward": [
+      51707
+    ],
     "DungeonCost": [
       60
     ],
@@ -14196,19 +14829,19 @@
       6003004,
       6004004
     ],
-    "PreloadMonstersNum": [
-      1,
-      1,
-      1,
-      1,
-      1
-    ],
-    "PreloadStaticMonstersNum": [
-      9,
-      5,
-      15,
-      8
-    ],
+    "PreloadMonstersNum": {
+      "7001001": 1,
+      "7003001": 1,
+      "7003015": 1,
+      "7003017": 1,
+      "7012001": 1
+    },
+    "PreloadStaticMonstersNum": {
+      "6001004": 9,
+      "6002004": 15,
+      "6003004": 8,
+      "6004004": 5
+    },
     "RespawnRule": "CommonSolo",
     "DungeonWinMode": 2,
     "MultiPlayerLevels": [
@@ -14233,7 +14866,10 @@
       0,
       -90
     ],
-    "Condition": {}
+    "Condition": [
+      160,
+      3155
+    ]
   },
   "90901": {
     "DungeonID": 90901,
@@ -14248,7 +14884,9 @@
     "DungeonJsonFile": "/Game/Script/Datas/Houdini_data/Chapter01/Rescue",
     "IsPlayLevelEnter": true,
     "EnableTacmap": true,
-    "DungeonReward": {},
+    "DungeonReward": [
+      51601
+    ],
     "DungeonCost": [
       50
     ],
@@ -14326,7 +14964,9 @@
     "DungeonJsonFile": "/Game/Script/Datas/Houdini_data/Chapter01/Rescue",
     "IsPlayLevelEnter": true,
     "EnableTacmap": true,
-    "DungeonReward": {},
+    "DungeonReward": [
+      51602
+    ],
     "DungeonCost": [
       50
     ],
@@ -14374,14 +15014,14 @@
       "7012001": 3,
       "7013001": 2
     },
-    "PreloadStaticMonstersNum": [
-      11,
-      8,
-      1,
-      6,
-      2,
-      3
-    ],
+    "PreloadStaticMonstersNum": {
+      "115": 3,
+      "7001001": 8,
+      "7002001": 11,
+      "7003001": 6,
+      "7004001": 2,
+      "7011001": 1
+    },
     "RespawnRule": "CommonSolo",
     "DungeonWinMode": 2,
     "MultiPlayerLevels": [
@@ -14419,7 +15059,9 @@
     "DungeonJsonFile": "/Game/Script/Datas/Houdini_data/Chapter01/Rescue",
     "IsPlayLevelEnter": true,
     "EnableTacmap": true,
-    "DungeonReward": {},
+    "DungeonReward": [
+      51603
+    ],
     "DungeonCost": [
       50
     ],
@@ -14460,21 +15102,21 @@
       7013001,
       115
     ],
-    "PreloadMonstersNum": [
-      6,
-      4,
-      3,
-      2,
-      3,
-      1
-    ],
-    "PreloadStaticMonstersNum": [
-      4,
-      11,
-      3,
-      2,
-      3
-    ],
+    "PreloadMonstersNum": {
+      "7001001": 4,
+      "7002001": 6,
+      "7002011": 1,
+      "7003001": 3,
+      "7012001": 3,
+      "7013001": 2
+    },
+    "PreloadStaticMonstersNum": {
+      "115": 3,
+      "7001001": 11,
+      "7002001": 4,
+      "7003001": 3,
+      "7004001": 2
+    },
     "RespawnRule": "CommonSolo",
     "DungeonWinMode": 2,
     "MultiPlayerLevels": [
@@ -14498,7 +15140,10 @@
       0,
       180
     ],
-    "Condition": {}
+    "Condition": [
+      120,
+      3131
+    ]
   },
   "90904": {
     "DungeonID": 90904,
@@ -14513,7 +15158,9 @@
     "DungeonJsonFile": "/Game/Script/Datas/Houdini_data/Chapter01/Rescue",
     "IsPlayLevelEnter": true,
     "EnableTacmap": true,
-    "DungeonReward": {},
+    "DungeonReward": [
+      51604
+    ],
     "DungeonCost": [
       50
     ],
@@ -14554,21 +15201,21 @@
       7013001,
       115
     ],
-    "PreloadMonstersNum": [
-      6,
-      4,
-      3,
-      2,
-      3,
-      1
-    ],
-    "PreloadStaticMonstersNum": [
-      4,
-      11,
-      3,
-      2,
-      3
-    ],
+    "PreloadMonstersNum": {
+      "7001001": 4,
+      "7002001": 6,
+      "7002011": 1,
+      "7003001": 3,
+      "7012001": 3,
+      "7013001": 2
+    },
+    "PreloadStaticMonstersNum": {
+      "115": 3,
+      "7001001": 11,
+      "7002001": 4,
+      "7003001": 3,
+      "7004001": 2
+    },
     "RespawnRule": "CommonSolo",
     "DungeonWinMode": 2,
     "MultiPlayerLevels": [
@@ -14592,7 +15239,10 @@
       0,
       180
     ],
-    "Condition": {}
+    "Condition": [
+      130,
+      3132
+    ]
   },
   "90905": {
     "DungeonID": 90905,
@@ -14607,7 +15257,9 @@
     "DungeonJsonFile": "/Game/Script/Datas/Houdini_data/Chapter01/Rescue",
     "IsPlayLevelEnter": true,
     "EnableTacmap": true,
-    "DungeonReward": {},
+    "DungeonReward": [
+      51605
+    ],
     "DungeonCost": [
       60
     ],
@@ -14648,13 +15300,13 @@
       7013001,
       115
     ],
-    "PreloadMonstersNum": [
-      4,
-      2,
-      2,
-      2,
-      1
-    ],
+    "PreloadMonstersNum": {
+      "7001001": 4,
+      "7002011": 1,
+      "7003001": 2,
+      "7012001": 2,
+      "7013001": 2
+    },
     "PreloadStaticMonstersNum": {
       "115": 3,
       "7001001": 6,
@@ -14687,7 +15339,10 @@
       0,
       180
     ],
-    "Condition": {}
+    "Condition": [
+      140,
+      3133
+    ]
   },
   "90906": {
     "DungeonID": 90906,
@@ -14702,7 +15357,9 @@
     "DungeonJsonFile": "/Game/Script/Datas/Houdini_data/Chapter01/Rescue",
     "IsPlayLevelEnter": true,
     "EnableTacmap": true,
-    "DungeonReward": {},
+    "DungeonReward": [
+      51606
+    ],
     "DungeonCost": [
       60
     ],
@@ -14743,21 +15400,21 @@
       7013001,
       115
     ],
-    "PreloadMonstersNum": [
-      4,
-      2,
-      2,
-      2,
-      1
-    ],
-    "PreloadStaticMonstersNum": [
-      11,
-      8,
-      1,
-      6,
-      2,
-      3
-    ],
+    "PreloadMonstersNum": {
+      "7001001": 4,
+      "7002011": 1,
+      "7003001": 2,
+      "7012001": 2,
+      "7013001": 2
+    },
+    "PreloadStaticMonstersNum": {
+      "115": 3,
+      "7001001": 8,
+      "7002001": 11,
+      "7003001": 6,
+      "7004001": 2,
+      "7011001": 1
+    },
     "RespawnRule": "CommonSolo",
     "DungeonWinMode": 2,
     "MultiPlayerLevels": [
@@ -14781,7 +15438,10 @@
       0,
       180
     ],
-    "Condition": {}
+    "Condition": [
+      150,
+      3134
+    ]
   },
   "90907": {
     "DungeonID": 90907,
@@ -14796,8 +15456,12 @@
     "DungeonJsonFile": "/Game/Script/Datas/Houdini_data/Chapter01/Rescue",
     "IsPlayLevelEnter": true,
     "EnableTacmap": true,
-    "DungeonReward": {},
-    "DungeonCost": {},
+    "DungeonReward": [
+      51607
+    ],
+    "DungeonCost": [
+      70
+    ],
     "DungeonRewardView": 90336,
     "DungeonDropTag": [
       "Mon.Gr",
@@ -14873,7 +15537,10 @@
       0,
       180
     ],
-    "Condition": {}
+    "Condition": [
+      160,
+      3135
+    ]
   },
   "91001": {
     "DungeonID": 91001,
@@ -14888,7 +15555,9 @@
     "DungeonJsonFile": "/Game/Script/Datas/Houdini_data/Prologue/Testing",
     "IsPlayLevelEnter": true,
     "EnableTacmap": true,
-    "DungeonReward": {},
+    "DungeonReward": [
+      51501
+    ],
     "DungeonCost": [
       0
     ],
@@ -14967,7 +15636,9 @@
     "DungeonJsonFile": "/Game/Script/Datas/Houdini_data/Prologue/Testing",
     "IsPlayLevelEnter": true,
     "EnableTacmap": true,
-    "DungeonReward": {},
+    "DungeonReward": [
+      51502
+    ],
     "DungeonCost": [
       0
     ],
@@ -15026,7 +15697,9 @@
       0,
       -90
     ],
-    "Condition": {},
+    "Condition": [
+      3120
+    ],
     "TicketId": [
       206,
       207,
@@ -15047,7 +15720,9 @@
     "DungeonJsonFile": "/Game/Script/Datas/Houdini_data/Prologue/Testing",
     "IsPlayLevelEnter": true,
     "EnableTacmap": true,
-    "DungeonReward": {},
+    "DungeonReward": [
+      51503
+    ],
     "DungeonCost": [
       0
     ],
@@ -15106,7 +15781,9 @@
       0,
       -90
     ],
-    "Condition": {},
+    "Condition": [
+      3121
+    ],
     "TicketId": [
       206,
       207,
@@ -15127,7 +15804,9 @@
     "DungeonJsonFile": "/Game/Script/Datas/Houdini_data/Prologue/Testing",
     "IsPlayLevelEnter": true,
     "EnableTacmap": true,
-    "DungeonReward": {},
+    "DungeonReward": [
+      51504
+    ],
     "DungeonCost": [
       0
     ],
@@ -15162,13 +15841,13 @@
       7012001,
       7013001
     ],
-    "PreloadMonstersNum": [
-      6,
-      8,
-      9,
-      5,
-      6
-    ],
+    "PreloadMonstersNum": {
+      "7001001": 9,
+      "7002001": 8,
+      "7003001": 6,
+      "7012001": 6,
+      "7013001": 5
+    },
     "RespawnRule": "CommonSolo",
     "DungeonWinMode": 2,
     "DungeonDoorBP": "/Game/BluePrints/Item/Door/BP_AutoDoor",
@@ -15186,7 +15865,9 @@
       0,
       -90
     ],
-    "Condition": {},
+    "Condition": [
+      3122
+    ],
     "TicketId": [
       206,
       207,
@@ -15207,7 +15888,9 @@
     "DungeonJsonFile": "/Game/Script/Datas/Houdini_data/Prologue/Testing",
     "IsPlayLevelEnter": true,
     "EnableTacmap": true,
-    "DungeonReward": {},
+    "DungeonReward": [
+      51505
+    ],
     "DungeonCost": [
       0
     ],
@@ -15242,13 +15925,13 @@
       7012001,
       7013001
     ],
-    "PreloadMonstersNum": [
-      6,
-      8,
-      9,
-      5,
-      6
-    ],
+    "PreloadMonstersNum": {
+      "7001001": 9,
+      "7002001": 8,
+      "7003001": 6,
+      "7012001": 6,
+      "7013001": 5
+    },
     "RespawnRule": "CommonSolo",
     "DungeonWinMode": 2,
     "DungeonDoorBP": "/Game/BluePrints/Item/Door/BP_AutoDoor",
@@ -15266,7 +15949,9 @@
       0,
       -90
     ],
-    "Condition": {},
+    "Condition": [
+      3123
+    ],
     "TicketId": [
       206,
       207,
@@ -15287,7 +15972,9 @@
     "DungeonJsonFile": "/Game/Script/Datas/Houdini_data/Prologue/Testing",
     "IsPlayLevelEnter": true,
     "EnableTacmap": true,
-    "DungeonReward": {},
+    "DungeonReward": [
+      51506
+    ],
     "DungeonCost": [
       0
     ],
@@ -15322,13 +16009,13 @@
       7012001,
       7013001
     ],
-    "PreloadMonstersNum": [
-      6,
-      8,
-      9,
-      5,
-      6
-    ],
+    "PreloadMonstersNum": {
+      "7001001": 9,
+      "7002001": 8,
+      "7003001": 6,
+      "7012001": 6,
+      "7013001": 5
+    },
     "RespawnRule": "CommonSolo",
     "DungeonWinMode": 2,
     "DungeonDoorBP": "/Game/BluePrints/Item/Door/BP_AutoDoor",
@@ -15346,7 +16033,9 @@
       0,
       -90
     ],
-    "Condition": {},
+    "Condition": [
+      3124
+    ],
     "TicketId": [
       206,
       207,
@@ -15367,7 +16056,9 @@
     "DungeonJsonFile": "/Game/Script/Datas/Houdini_data/Prologue/Testing",
     "IsPlayLevelEnter": true,
     "EnableTacmap": true,
-    "DungeonReward": {},
+    "DungeonReward": [
+      51507
+    ],
     "DungeonCost": [
       0
     ],
@@ -15402,13 +16093,13 @@
       7012001,
       7013001
     ],
-    "PreloadMonstersNum": [
-      6,
-      8,
-      9,
-      5,
-      6
-    ],
+    "PreloadMonstersNum": {
+      "7001001": 9,
+      "7002001": 8,
+      "7003001": 6,
+      "7012001": 6,
+      "7013001": 5
+    },
     "RespawnRule": "CommonSolo",
     "DungeonWinMode": 2,
     "DungeonDoorBP": "/Game/BluePrints/Item/Door/BP_AutoDoor",
@@ -15426,7 +16117,9 @@
       0,
       -90
     ],
-    "Condition": {},
+    "Condition": [
+      3125
+    ],
     "TicketId": [
       206,
       207,
@@ -15447,7 +16140,9 @@
     "DungeonJsonFile": "/Game/Script/Datas/Houdini_data/Prologue/Testing",
     "IsPlayLevelEnter": true,
     "EnableTacmap": false,
-    "DungeonReward": {},
+    "DungeonReward": [
+      51510
+    ],
     "DungeonCost": [
       0
     ],
@@ -15482,13 +16177,13 @@
       7012001,
       7013001
     ],
-    "PreloadMonstersNum": [
-      6,
-      8,
-      9,
-      5,
-      6
-    ],
+    "PreloadMonstersNum": {
+      "7001001": 9,
+      "7002001": 8,
+      "7003001": 6,
+      "7012001": 6,
+      "7013001": 5
+    },
     "RespawnRule": "CommonSolo",
     "DungeonWinMode": 2,
     "MultiPlayerLevels": [
@@ -15528,7 +16223,9 @@
     "DungeonJsonFile": "/Game/Script/Datas/Houdini_data/Prologue/Testing",
     "IsPlayLevelEnter": true,
     "EnableTacmap": false,
-    "DungeonReward": {},
+    "DungeonReward": [
+      51511
+    ],
     "DungeonCost": [
       0
     ],
@@ -15563,13 +16260,13 @@
       7012001,
       7013001
     ],
-    "PreloadMonstersNum": [
-      6,
-      8,
-      9,
-      5,
-      6
-    ],
+    "PreloadMonstersNum": {
+      "7001001": 9,
+      "7002001": 8,
+      "7003001": 6,
+      "7012001": 6,
+      "7013001": 5
+    },
     "RespawnRule": "CommonSolo",
     "DungeonWinMode": 2,
     "MultiPlayerLevels": [
@@ -15609,7 +16306,9 @@
     "DungeonJsonFile": "/Game/Script/Datas/Houdini_data/Prologue/Testing",
     "IsPlayLevelEnter": true,
     "EnableTacmap": false,
-    "DungeonReward": {},
+    "DungeonReward": [
+      51512
+    ],
     "DungeonCost": [
       0
     ],
@@ -15644,13 +16343,13 @@
       7012001,
       7013001
     ],
-    "PreloadMonstersNum": [
-      6,
-      8,
-      9,
-      5,
-      6
-    ],
+    "PreloadMonstersNum": {
+      "7001001": 9,
+      "7002001": 8,
+      "7003001": 6,
+      "7012001": 6,
+      "7013001": 5
+    },
     "RespawnRule": "CommonSolo",
     "DungeonWinMode": 2,
     "MultiPlayerLevels": [
@@ -15690,7 +16389,9 @@
     "DungeonJsonFile": "/Game/Script/Datas/Houdini_data/Prologue/Testing",
     "IsPlayLevelEnter": true,
     "EnableTacmap": false,
-    "DungeonReward": {},
+    "DungeonReward": [
+      51513
+    ],
     "DungeonCost": [
       0
     ],
@@ -15725,13 +16426,13 @@
       7012001,
       7013001
     ],
-    "PreloadMonstersNum": [
-      6,
-      8,
-      9,
-      5,
-      6
-    ],
+    "PreloadMonstersNum": {
+      "7001001": 9,
+      "7002001": 8,
+      "7003001": 6,
+      "7012001": 6,
+      "7013001": 5
+    },
     "RespawnRule": "CommonSolo",
     "DungeonWinMode": 2,
     "MultiPlayerLevels": [

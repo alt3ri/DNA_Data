@@ -22,14 +22,10 @@
     "KeepState": "KeepState",
     "GameInput": false,
     "SetPlayerInvincible": true,
-    "ExtraParams": [
-      {
-        "bBlendDialogueCamera": true
-      },
-      {
-        "bNeedStage": true
-      }
-    ]
+    "ExtraParams": {
+      "bBlendDialogueCamera": true,
+      "bNeedStage": true
+    }
   },
   "Drive": {
     "TalkType": "Drive",
@@ -64,11 +60,9 @@
     "KeepState": "KeepState",
     "GameInput": false,
     "SetPlayerInvincible": true,
-    "ExtraParams": [
-      {
-        "bNeedStage": true
-      }
-    ]
+    "ExtraParams": {
+      "bNeedStage": true
+    }
   },
   "Cinematic": {
     "TalkType": "Cinematic",
@@ -108,11 +102,9 @@
     "KeepState": "KeepState",
     "GameInput": false,
     "SetPlayerInvincible": true,
-    "ExtraParams": [
-      {
-        "bNeedStage": true
-      }
-    ]
+    "ExtraParams": {
+      "bNeedStage": true
+    }
   },
   "Black": {
     "TalkType": "Black",
@@ -201,14 +193,10 @@
     "KeepState": "KeepState",
     "GameInput": false,
     "SetPlayerInvincible": true,
-    "ExtraParams": [
-      {
-        "bBlendDialogueCamera": true
-      },
-      {
-        "bNeedStage": true
-      }
-    ]
+    "ExtraParams": {
+      "bBlendDialogueCamera": true,
+      "bNeedStage": true
+    }
   },
   "ForgingGuide": {
     "TalkType": "ForgingGuide",
@@ -252,13 +240,9 @@
     "KeepState": "KeepState",
     "GameInput": false,
     "SetPlayerInvincible": true,
-    "ExtraParams": [
-      {
-        "bBlendDialogueCamera": true
-      },
-      {
-        "bNeedStage": true
-      }
-    ]
+    "ExtraParams": {
+      "bBlendDialogueCamera": true,
+      "bNeedStage": true
+    }
   }
 }

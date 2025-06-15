@@ -174,11 +174,9 @@
     "Id": 908,
     "ConfirmText": "UI_MECHANISM_100",
     "InteractiveCondition": 6,
-    "InteractiveFailDialogue": [
-      {
-        "TalkId": 602005
-      }
-    ],
+    "InteractiveFailDialogue": {
+      "TalkId": 602005
+    },
     "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Box"
   },
   "909": {
@@ -186,11 +184,9 @@
     "ConfirmText": "UI_MECHANISM_100",
     "InteractiveCondition": 21,
     "InteractiveFailMsg": "UI_INTERACTIVE_CONDITION_909",
-    "InteractiveFailDialogue": [
-      {
-        "TalkId": 602005
-      }
-    ],
+    "InteractiveFailDialogue": {
+      "TalkId": 602005
+    },
     "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Box"
   },
   "910": {
@@ -198,11 +194,9 @@
     "ConfirmText": "UI_MECHANISM_100",
     "InteractiveCondition": 22,
     "InteractiveFailMsg": "UI_INTERACTIVE_CONDITION_910",
-    "InteractiveFailDialogue": [
-      {
-        "TalkId": 602005
-      }
-    ],
+    "InteractiveFailDialogue": {
+      "TalkId": 602005
+    },
     "Icon": "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Box"
   },
   "911": {

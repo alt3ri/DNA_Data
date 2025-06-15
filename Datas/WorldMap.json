@@ -2,13 +2,21 @@
   {
     "WorldMapId": 1,
     "WorldMapName": "UI_WORLDMAP_NAME_1",
-    "WorldMapRegion": {},
+    "WorldMapRegion": [
+      100
+    ],
     "UIIndex": 1
   },
   {
     "WorldMapId": 2,
     "WorldMapName": "UI_WORLDMAP_NAME_2",
-    "WorldMapRegion": {},
+    "WorldMapRegion": [
+      200,
+      201,
+      202,
+      203,
+      300
+    ],
     "WorldMapUnlockCondition": 26,
     "UIIndex": 2
   }

@@ -81,7 +81,10 @@
     "RegionName": "UI_Option_Area_1",
     "ControlType": "Scroll",
     "DefaultValue": "11.0",
-    "ScrollNum": {},
+    "ScrollNum": [
+      9,
+      13
+    ],
     "ScrollMappingScale": 10,
     "EMCacheName": "SpringArmRate",
     "SortId": 5
@@ -147,7 +150,12 @@
     "RegionName": "UI_Option_Area_12",
     "ControlType": "UnFold",
     "DefaultValue": "3.0",
-    "UnFoldText": {},
+    "UnFoldText": [
+      "UI_EffectQuality_Low",
+      "UI_EffectQuality_Middle",
+      "UI_EffectQuality_High",
+      "UI_Option_Area_11"
+    ],
     "EMCacheName": "OverallPreset",
     "SortId": 9
   },
@@ -161,7 +169,11 @@
     "RegionName": "UI_Option_Area_11",
     "ControlType": "UnFold",
     "DefaultValue": "3.0",
-    "UnFoldText": {},
+    "UnFoldText": [
+      "UI_Option_Dropdown_41",
+      "UI_Option_Dropdown_43",
+      "UI_Option_Dropdown_42"
+    ],
     "EMCacheName": "ScreenFilter",
     "SortId": 10
   },
@@ -175,10 +187,23 @@
     "RegionName": "UI_Option_Area_12",
     "ControlType": "UnFold",
     "DefaultValue": "3.0",
-    "UnFoldText": {},
+    "UnFoldText": [
+      "UI_OPTION_InterfaceMode_Full",
+      "UI_OPTION_InterfaceMode_Window",
+      "UI_OPTION_InterfaceMode_NoFrame"
+    ],
     "SubOptionName": "UI_OPTION_ResolutionRatio",
-    "SubOptionText": {},
-    "SubOptionDefaultValue": {},
+    "SubOptionText": [
+      "UI_Option_Dropdown_2",
+      "UI_Option_Dropdown_3",
+      "UI_Option_Dropdown_4",
+      "UI_Option_Dropdown_5"
+    ],
+    "SubOptionDefaultValue": [
+      0,
+      3,
+      0
+    ],
     "SortId": 11,
     "HideOnPhone": true
   },
@@ -192,7 +217,11 @@
     "RegionName": "UI_Option_Area_11",
     "ControlType": "UnFold",
     "DefaultValue": "3.0",
-    "UnFoldText": {},
+    "UnFoldText": [
+      "UI_Option_Dropdown_15",
+      "UI_Option_Dropdown_16",
+      "UI_Option_Dropdown_17"
+    ],
     "EMCacheName": "Fps",
     "SortId": 13
   },
@@ -242,8 +271,18 @@
     "RegionName": "UI_Option_Area_11",
     "ControlType": "UnFold",
     "DefaultValue": "3.0",
-    "UnFoldText": {},
-    "UnFoldTextM": {},
+    "UnFoldText": [
+      "90%",
+      "95%",
+      "100%",
+      "105%",
+      "110%"
+    ],
+    "UnFoldTextM": [
+      "90%",
+      "95%",
+      "100%"
+    ],
     "EMCacheName": "HUDScale",
     "SortId": 19
   },
@@ -273,7 +312,11 @@
     "RegionName": "UI_Option_Area_11",
     "ControlType": "UnFold",
     "DefaultValue": "2.0",
-    "UnFoldText": {},
+    "UnFoldText": [
+      "UI_Option_Dropdown_30",
+      "UI_Option_Dropdown_31",
+      "UI_Option_Dropdown_32"
+    ],
     "EMCacheName": "TeammateEffects",
     "SortId": 25
   },
@@ -305,15 +348,26 @@
     "RegionName": "UI_Option_Area_11",
     "ControlType": "UnFold",
     "DefaultValue": "2.0",
-    "UnFoldText": {},
-    "UnFoldTextM": {},
+    "UnFoldText": [
+      "UI_OPTION_Swicth_Close",
+      "UI_Option_Dropdown_23",
+      "UI_Option_Dropdown_24"
+    ],
+    "UnFoldTextM": [
+      "UI_OPTION_Swicth_Close",
+      "UI_AntiAliasing_FXAA"
+    ],
     "SubOptionName": "UI_OPTION_AntiAliasingQuality",
     "SubOptionText": [
       "UI_EffectQuality_Low",
       "UI_EffectQuality_Middle",
       "UI_EffectQuality_High"
     ],
-    "SubOptionDefaultValue": {},
+    "SubOptionDefaultValue": [
+      0,
+      3,
+      3
+    ],
     "EMCacheName": "AntiAliasing",
     "SortId": 28
   },
@@ -345,7 +399,13 @@
     "RegionName": "UI_Option_Area_11",
     "ControlType": "UnFold",
     "DefaultValue": "4.0",
-    "UnFoldText": {},
+    "UnFoldText": [
+      "UI_Option_Dropdown_25",
+      "UI_Option_Dropdown_26",
+      "UI_Option_Dropdown_27",
+      "UI_Option_Dropdown_28",
+      "UI_Option_Dropdown_29"
+    ],
     "EMCacheName": "ConsoleVariable",
     "SortId": 30
   },
@@ -506,7 +566,11 @@
     "RegionName": "UI_Option_Area_11",
     "ControlType": "UnFold",
     "DefaultValue": "1.0",
-    "UnFoldText": {},
+    "UnFoldText": [
+      "UI_Option_Dropdown_35",
+      "UI_Option_Dropdown_36",
+      "UI_Option_Dropdown_37"
+    ],
     "EMCacheName": "ScreenQuality",
     "SortId": 44
   },
@@ -614,7 +678,13 @@
     "RegionName": "UI_Option_Area_2",
     "ControlType": "UnFold",
     "DefaultValue": "1.0",
-    "UnFoldText": {},
+    "UnFoldText": [
+      "UI_Language_Text_Chinese",
+      "UI_Language_Text_English",
+      "UI_Language_Text_Japanese",
+      "UI_Language_Text_Korean",
+      "UI_Language_Text_TraditionalChinese"
+    ],
     "EMCacheName": "SystemLanguage",
     "SortId": 50
   },
@@ -628,7 +698,12 @@
     "RegionName": "UI_Option_Area_2",
     "ControlType": "UnFold",
     "DefaultValue": "1.0",
-    "UnFoldText": {},
+    "UnFoldText": [
+      "UI_Language_Voice_Chinese",
+      "UI_Language_Voice_English",
+      "UI_Language_Voice_Japanese",
+      "UI_Language_Voice_Korean"
+    ],
     "EMCacheName": "SystemVoice",
     "SortId": 51
   },
@@ -687,7 +762,9 @@
     "Region": 1,
     "ControlType": "Click",
     "DefaultValue": "UI_Opition_View",
-    "CheckText": {},
+    "CheckText": [
+      "49.0"
+    ],
     "SortId": 57,
     "SpecialHide": 1
   },
@@ -700,7 +777,9 @@
     "Region": 1,
     "ControlType": "Click",
     "DefaultValue": "UI_Opition_View",
-    "CheckText": {},
+    "CheckText": [
+      "50.0"
+    ],
     "SortId": 58,
     "SpecialHide": 1
   },
@@ -725,7 +804,9 @@
     "Region": 1,
     "ControlType": "Click",
     "DefaultValue": "UI_OPTION_Logoff",
-    "CheckText": {},
+    "CheckText": [
+      "51.0"
+    ],
     "SortId": 60,
     "SpecialHide": 1
   }

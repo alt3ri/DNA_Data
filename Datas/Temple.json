@@ -2,14 +2,10 @@
   "21": {
     "DungeonId": 21,
     "SucRule": "Time",
-    "FbdRule": [
-      {
-        "NoSkill": 1
-      },
-      {
-        "NoBattleWheel": 1
-      }
-    ],
+    "FbdRule": {
+      "NoSkill": 1,
+      "NoBattleWheel": 1
+    },
     "RewardId": [
       7101
     ]
@@ -53,14 +49,10 @@
   "40": {
     "DungeonId": 40,
     "SucRule": "Score",
-    "FbdRule": [
-      {
-        "NoSkill": 1
-      },
-      {
-        "NoBattleWheel": 1
-      }
-    ],
+    "FbdRule": {
+      "NoSkill": 1,
+      "NoBattleWheel": 1
+    },
     "RewardId": [
       7101,
       7102,
@@ -79,14 +71,10 @@
   "42": {
     "DungeonId": 42,
     "SucRule": "Score",
-    "FbdRule": [
-      {
-        "NoSkill": 1
-      },
-      {
-        "NoBattleWheel": 1
-      }
-    ],
+    "FbdRule": {
+      "NoSkill": 1,
+      "NoBattleWheel": 1
+    },
     "RewardId": [
       7101,
       7102,
@@ -96,7 +84,11 @@
   "80101": {
     "DungeonId": 80101,
     "SucRule": "Score",
-    "RatingRange": {},
+    "RatingRange": [
+      0,
+      20,
+      35
+    ],
     "RewardId": [
       7101,
       7102,
@@ -106,7 +98,11 @@
   "80102": {
     "DungeonId": 80102,
     "SucRule": "Score",
-    "RatingRange": {},
+    "RatingRange": [
+      0,
+      30,
+      50
+    ],
     "RewardId": [
       7101,
       7102,
@@ -116,7 +112,11 @@
   "80201": {
     "DungeonId": 80201,
     "SucRule": "Score",
-    "RatingRange": {},
+    "RatingRange": [
+      0,
+      15,
+      25
+    ],
     "RewardId": [
       7101,
       7102,
@@ -126,7 +126,11 @@
   "80202": {
     "DungeonId": 80202,
     "SucRule": "Score",
-    "RatingRange": {},
+    "RatingRange": [
+      0,
+      22,
+      44
+    ],
     "RewardId": [
       7101,
       7102,
@@ -136,7 +140,11 @@
   "80301": {
     "DungeonId": 80301,
     "SucRule": "CountDown",
-    "RatingRange": {},
+    "RatingRange": [
+      0,
+      40,
+      70
+    ],
     "RewardId": [
       7101,
       7102,
@@ -146,7 +154,11 @@
   "80302": {
     "DungeonId": 80302,
     "SucRule": "CountDown",
-    "RatingRange": {},
+    "RatingRange": [
+      0,
+      20,
+      40
+    ],
     "RewardId": [
       7101,
       7102,
@@ -156,7 +168,11 @@
   "80401": {
     "DungeonId": 80401,
     "SucRule": "Score",
-    "RatingRange": {},
+    "RatingRange": [
+      1000,
+      2500,
+      4000
+    ],
     "RewardId": [
       7101,
       7102,
@@ -166,7 +182,11 @@
   "80402": {
     "DungeonId": 80402,
     "SucRule": "Score",
-    "RatingRange": {},
+    "RatingRange": [
+      1500,
+      3500,
+      5000
+    ],
     "RewardId": [
       7101,
       7102,
@@ -176,7 +196,11 @@
   "80501": {
     "DungeonId": 80501,
     "SucRule": "CountDown",
-    "RatingRange": {},
+    "RatingRange": [
+      0,
+      20,
+      50
+    ],
     "RewardId": [
       7101,
       7102,
@@ -187,12 +211,14 @@
     "DungeonId": 80502,
     "SucRule": "CountDown",
     "UIShowType": 1,
-    "RatingRange": {},
-    "FbdRule": [
-      {
-        "NoBattleWheel": 1
-      }
+    "RatingRange": [
+      0,
+      1620,
+      1740
     ],
+    "FbdRule": {
+      "NoBattleWheel": 1
+    },
     "RewardId": [
       7101,
       7102,
@@ -230,14 +256,10 @@
   "80701": {
     "DungeonId": 80701,
     "SucRule": "CountDown",
-    "FbdRule": [
-      {
-        "NoSkill": 1
-      },
-      {
-        "NoBattleWheel": 1
-      }
-    ],
+    "FbdRule": {
+      "NoSkill": 1,
+      "NoBattleWheel": 1
+    },
     "RewardId": [
       7101
     ]
@@ -245,14 +267,10 @@
   "80702": {
     "DungeonId": 80702,
     "SucRule": "CountDown",
-    "FbdRule": [
-      {
-        "NoSkill": 1
-      },
-      {
-        "NoBattleWheel": 1
-      }
-    ],
+    "FbdRule": {
+      "NoSkill": 1,
+      "NoBattleWheel": 1
+    },
     "RewardId": [
       7101
     ]
@@ -260,14 +278,10 @@
   "80703": {
     "DungeonId": 80703,
     "SucRule": "CountDown",
-    "FbdRule": [
-      {
-        "NoSkill": 1
-      },
-      {
-        "NoBattleWheel": 1
-      }
-    ],
+    "FbdRule": {
+      "NoSkill": 1,
+      "NoBattleWheel": 1
+    },
     "RewardId": [
       7101
     ]
@@ -275,12 +289,14 @@
   "80801": {
     "DungeonId": 80801,
     "SucRule": "Score",
-    "RatingRange": {},
-    "FbdRule": [
-      {
-        "NoBattleWheel": 1
-      }
+    "RatingRange": [
+      0,
+      18,
+      36
     ],
+    "FbdRule": {
+      "NoBattleWheel": 1
+    },
     "RewardId": [
       7101,
       7102,
@@ -290,7 +306,11 @@
   "80901": {
     "DungeonId": 80901,
     "SucRule": "Score",
-    "RatingRange": {},
+    "RatingRange": [
+      10,
+      20,
+      40
+    ],
     "FbdRule": {
       "NoSkill": 1,
       "NoBattleWheel": 1,
@@ -305,7 +325,11 @@
   "80902": {
     "DungeonId": 80902,
     "SucRule": "Score",
-    "RatingRange": {},
+    "RatingRange": [
+      5,
+      15,
+      25
+    ],
     "FbdRule": {
       "NoSkill": 1,
       "NoBattleWheel": 1,
@@ -320,21 +344,17 @@
   "81001": {
     "DungeonId": 81001,
     "SucRule": "Score",
-    "RatingRange": {},
-    "FbdRule": [
-      {
-        "NoRanged": 1
-      },
-      {
-        "NoSkill": 1
-      },
-      {
-        "NoMelee": 1
-      },
-      {
-        "NoBattleWheel": 1
-      }
+    "RatingRange": [
+      100,
+      150,
+      200
     ],
+    "FbdRule": {
+      "NoRanged": 1,
+      "NoSkill": 1,
+      "NoMelee": 1,
+      "NoBattleWheel": 1
+    },
     "RewardId": [
       7101,
       7102,
@@ -344,21 +364,17 @@
   "81002": {
     "DungeonId": 81002,
     "SucRule": "Score",
-    "RatingRange": {},
-    "FbdRule": [
-      {
-        "NoRanged": 1
-      },
-      {
-        "NoSkill": 1
-      },
-      {
-        "NoMelee": 1
-      },
-      {
-        "NoBattleWheel": 1
-      }
+    "RatingRange": [
+      100,
+      160,
+      250
     ],
+    "FbdRule": {
+      "NoRanged": 1,
+      "NoSkill": 1,
+      "NoMelee": 1,
+      "NoBattleWheel": 1
+    },
     "RewardId": [
       7101,
       7102,

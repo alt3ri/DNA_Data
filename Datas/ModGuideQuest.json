@@ -3,7 +3,9 @@
     "QuestId": 10400101,
     "EventMainID": 104001,
     "QuestPhaseId": 1,
-    "QuestReward": {},
+    "QuestReward": [
+      10400101
+    ],
     "TargetId": [
       30301,
       30302,
@@ -18,7 +20,9 @@
     "QuestId": 10400102,
     "EventMainID": 104001,
     "QuestPhaseId": 1,
-    "QuestReward": {},
+    "QuestReward": [
+      10400102
+    ],
     "TargetId": [
       30601,
       30602,
@@ -34,7 +38,9 @@
     "QuestId": 10400103,
     "EventMainID": 104001,
     "QuestPhaseId": 2,
-    "QuestReward": {},
+    "QuestReward": [
+      10400103
+    ],
     "TargetId": [
       30301,
       30302,
@@ -49,7 +55,9 @@
     "QuestId": 10400104,
     "EventMainID": 104001,
     "QuestPhaseId": 2,
-    "QuestReward": {},
+    "QuestReward": [
+      10400104
+    ],
     "TargetId": [
       30601,
       30602,
@@ -65,8 +73,12 @@
     "QuestId": 10400105,
     "EventMainID": 104001,
     "QuestPhaseId": 2,
-    "QuestReward": {},
-    "TargetId": {},
+    "QuestReward": [
+      10400105
+    ],
+    "TargetId": [
+      30701
+    ],
     "Target": 1,
     "StarterQuestDes": "ModGuideQuest_Des_2_3"
   },
@@ -74,8 +86,15 @@
     "QuestId": 10400106,
     "EventMainID": 104001,
     "QuestPhaseId": 3,
-    "QuestReward": {},
-    "TargetId": {},
+    "QuestReward": [
+      10400106
+    ],
+    "TargetId": [
+      30301,
+      30302,
+      30303,
+      30305
+    ],
     "Target": 5,
     "StarterQuestDes": "ModGuideQuest_Des_3_1"
   },
@@ -83,8 +102,15 @@
     "QuestId": 10400107,
     "EventMainID": 104001,
     "QuestPhaseId": 3,
-    "QuestReward": {},
-    "TargetId": {},
+    "QuestReward": [
+      10400107
+    ],
+    "TargetId": [
+      30602,
+      30603,
+      30604,
+      30605
+    ],
     "NoRepeatField": "ModId",
     "Target": 5,
     "StarterQuestDes": "ModGuideQuest_Des_3_2"
@@ -93,8 +119,12 @@
     "QuestId": 10400108,
     "EventMainID": 104001,
     "QuestPhaseId": 3,
-    "QuestReward": {},
-    "TargetId": {},
+    "QuestReward": [
+      10400108
+    ],
+    "TargetId": [
+      30703
+    ],
     "Target": 1,
     "StarterQuestDes": "ModGuideQuest_Des_3_3"
   },
@@ -102,8 +132,12 @@
     "QuestId": 10400109,
     "EventMainID": 104001,
     "QuestPhaseId": 4,
-    "QuestReward": {},
-    "TargetId": {},
+    "QuestReward": [
+      10400109
+    ],
+    "TargetId": [
+      108
+    ],
     "Target": 1,
     "StarterQuestDes": "ModGuideQuest_Des_4_1"
   }

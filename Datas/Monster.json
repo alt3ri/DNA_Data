@@ -126,23 +126,17 @@
     "Camp": "Monster",
     "ModelId": 600301,
     "BattleRoleId": 6003001,
-    "FlyParams": [
-      {
-        "EnableFly": true
-      },
-      {
-        "AlwaysFly": true
-      }
-    ],
+    "FlyParams": {
+      "EnableFly": true,
+      "AlwaysFly": true
+    },
     "AlertId": 102,
     "CommonAlertEnable": 1,
     "UnitBPPath": "/Game/AssetDesign/Char/Monster/Gr_Piaofu/BP_Mon_Gr_Piaofu.BP_Mon_Gr_Piaofu",
     "BT": "/Game/AssetDesign/AI/Z_Misc_Test/BT/BT_Test_Fly.BT_Test_Fly",
-    "BloodUIParmas": [
-      {
-        "HeightOffset": 75
-      }
-    ],
+    "BloodUIParmas": {
+      "HeightOffset": 75
+    },
     "RewardId": 5,
     "ExpBasic": 500,
     "MiniMapId": 1,
@@ -168,28 +162,20 @@
       700301,
       700001
     ],
-    "ChangeWeaponParams": [
-      {
-        "Disarm": 2
-      }
-    ],
-    "AccessoryIds": [
-      {
-        "Normal": [
-          700004
-        ]
-      },
-      {
-        "Random": [
-          700001,
-          700002,
-          700003
-        ]
-      },
-      {
-        "RandomNum": 2
-      }
-    ],
+    "ChangeWeaponParams": {
+      "Disarm": 2
+    },
+    "AccessoryIds": {
+      "Normal": [
+        700004
+      ],
+      "Random": [
+        700001,
+        700002,
+        700003
+      ],
+      "RandomNum": 2
+    },
     "RewardId": 5,
     "ExpBasic": 500,
     "MiniMapId": 1,
@@ -201,20 +187,21 @@
   "115": {
     "UnitId": 115,
     "UnitName": "Mon_Name_115",
-    "GamePlayTags": {},
-    "DMMIParams": [
-      {
-        "DMMIColor": [
-          10,
-          0.71,
-          0,
-          1
-        ]
-      },
-      {
-        "DMMILineWidth": 0.5
-      }
+    "GamePlayTags": [
+      "Mon.Jt",
+      "Mon.Melee",
+      "Mon.Strong.Burst",
+      "Mon.Elite.Jailer"
     ],
+    "DMMIParams": {
+      "DMMIColor": [
+        10,
+        0.71,
+        0,
+        1
+      ],
+      "DMMILineWidth": 0.5
+    },
     "Camp": "Monster",
     "ModelId": 700203,
     "DisableTicklod": true,
@@ -229,26 +216,20 @@
     "BloodUIParmas": {
       "UIStyleNodeName": "Rescue_Elite_Monster"
     },
-    "AccessoryIds": [
-      {
-        "Random": [
-          700007,
-          700008,
-          700009,
-          700010
-        ]
-      },
-      {
-        "RandomNum": 3
-      }
-    ],
+    "AccessoryIds": {
+      "Random": [
+        700007,
+        700008,
+        700009,
+        700010
+      ],
+      "RandomNum": 3
+    },
     "RewardId": 5,
     "ExpBasic": 500,
-    "InitGuide": [
-      {
-        "Sabotage": 8000
-      }
-    ],
+    "InitGuide": {
+      "Sabotage": 8000
+    },
     "MiniMapId": 3,
     "GuideIconAni": "/Game/UI/WBP/GuidePoint/WBP_GuidePoint_Alert.WBP_GuidePoint_Alert",
     "TeamMoveGroup": 7002,
@@ -257,8 +238,13 @@
     "GuideId": 115,
     "DeadEffectId": 3,
     "AlertChannels": {
-      "ChannelsSend": {},
-      "ChannelsReceive": {}
+      "ChannelsSend": [
+        0,
+        1
+      ],
+      "ChannelsReceive": [
+        1
+      ]
     },
     "HitedCapsulePhysMaterial": "Shield"
   },
@@ -279,31 +265,21 @@
     "WeaponId": [
       850001
     ],
-    "BossPenalize": [
-      {
-        "HandlePenalize": 1
-      }
-    ],
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Boss"
-      }
-    ],
-    "BossUIValues": [
-      {
-        "IsBossPart": true
-      },
-      {
-        "PhaseValues": [
-          0.5,
-          0.35,
-          0.15
-        ]
-      },
-      {
-        "ShowES": false
-      }
-    ],
+    "BossPenalize": {
+      "HandlePenalize": 1
+    },
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Boss"
+    },
+    "BossUIValues": {
+      "IsBossPart": true,
+      "PhaseValues": [
+        0.5,
+        0.35,
+        0.15
+      ],
+      "ShowES": false
+    },
     "ExpBasic": 500,
     "HitMontageRule": "BossXibiHard",
     "MiniMapId": 1,
@@ -335,20 +311,14 @@
     "WeaponId": [
       900101
     ],
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Elite_Monster"
-      },
-      {
-        "HeightOffset": 20
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Elite_Monster",
+      "HeightOffset": 20
+    },
     "ExpBasic": 500,
-    "HitReplace": [
-      {
-        "HitFly": "LightHit"
-      }
-    ],
+    "HitReplace": {
+      "HitFly": "LightHit"
+    },
     "MiniMapId": 2,
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Annihilate_S.Guide_Icon_Annihilate_S",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_DefeatMission.T_Gp_DefeatMission",
@@ -370,16 +340,12 @@
     "AlertId": 10,
     "UnitBPPath": "/Game/AssetDesign/Char/Monster/Boss_02_Shijingzhe/BP_Boss_Shijingzhe_Hard.BP_Boss_Shijingzhe_Hard",
     "BT": "/Game/AssetDesign/AI/Monster/Boss_02_Shijingzhe/BT_Boss_Shijingzhe_IKTest.BT_Boss_Shijingzhe_IKTest",
-    "BossPenalize": [
-      {
-        "HandlePenalize": 1
-      }
-    ],
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Boss"
-      }
-    ],
+    "BossPenalize": {
+      "HandlePenalize": 1
+    },
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Boss"
+    },
     "BossUIValues": {
       "IsBossPart": true,
       "ShowES": false,
@@ -421,33 +387,23 @@
       700301,
       700001
     ],
-    "ChangeWeaponParams": [
-      {
-        "Disarm": 2
-      }
-    ],
-    "BloodUIParmas": [
-      {
-        "HeightOffset": 25
-      }
-    ],
-    "AccessoryIds": [
-      {
-        "Normal": [
-          700004
-        ]
-      },
-      {
-        "Random": [
-          700001,
-          700002,
-          700003
-        ]
-      },
-      {
-        "RandomNum": 2
-      }
-    ],
+    "ChangeWeaponParams": {
+      "Disarm": 2
+    },
+    "BloodUIParmas": {
+      "HeightOffset": 25
+    },
+    "AccessoryIds": {
+      "Normal": [
+        700004
+      ],
+      "Random": [
+        700001,
+        700002,
+        700003
+      ],
+      "RandomNum": 2
+    },
     "RewardId": 5,
     "ExpBasic": 500,
     "MiniMapId": 1,
@@ -479,17 +435,13 @@
       700101,
       700001
     ],
-    "ChangeWeaponParams": [
-      {
-        "Disarm": 2
-      }
-    ],
+    "ChangeWeaponParams": {
+      "Disarm": 2
+    },
     "AttackCount": 2,
-    "BloodUIParmas": [
-      {
-        "HeightOffset": 5
-      }
-    ],
+    "BloodUIParmas": {
+      "HeightOffset": 5
+    },
     "RewardId": 5,
     "ExpBasic": 500,
     "MiniMapId": 1,
@@ -521,20 +473,14 @@
     "WeaponId": [
       900101
     ],
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Elite_Monster"
-      },
-      {
-        "HeightOffset": -20
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Elite_Monster",
+      "HeightOffset": -20
+    },
     "ExpBasic": 500,
-    "HitReplace": [
-      {
-        "HitFly": "LightHit"
-      }
-    ],
+    "HitReplace": {
+      "HitFly": "LightHit"
+    },
     "MiniMapId": 2,
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Annihilate_S.Guide_Icon_Annihilate_S",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_DefeatMission.T_Gp_DefeatMission",
@@ -561,20 +507,14 @@
     "WeaponId": [
       900101
     ],
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Elite_Monster"
-      },
-      {
-        "HeightOffset": 0
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Elite_Monster",
+      "HeightOffset": 0
+    },
     "ExpBasic": 500,
-    "HitReplace": [
-      {
-        "HitFly": "LightHit"
-      }
-    ],
+    "HitReplace": {
+      "HitFly": "LightHit"
+    },
     "MiniMapId": 2,
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Annihilate_S.Guide_Icon_Annihilate_S",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_DefeatMission.T_Gp_DefeatMission",
@@ -596,11 +536,9 @@
     "AlertId": 10,
     "UnitBPPath": "/Game/AssetDesign/Char/Monster/Boss_04_Lizhan/BP_Boss_Lizhan_Dungeon.BP_Boss_Lizhan_Dungeon",
     "BT": "/Game/AssetDesign/AI/Monster/Boss_04_Lizhan/BT_Boss_Lizhan.BT_Boss_Lizhan",
-    "BloodUIParmas": [
-      {
-        "HeightOffset": -100
-      }
-    ],
+    "BloodUIParmas": {
+      "HeightOffset": -100
+    },
     "ExpBasic": 500,
     "MiniMapId": 4,
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Annihilate_S.Guide_Icon_Annihilate_S",
@@ -629,31 +567,21 @@
     "WeaponId": [
       850001
     ],
-    "BossPenalize": [
-      {
-        "HandlePenalize": 1
-      }
-    ],
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Boss"
-      }
-    ],
-    "BossUIValues": [
-      {
-        "IsBossPart": true
-      },
-      {
-        "PhaseValues": [
-          0.5,
-          0.35,
-          0.15
-        ]
-      },
-      {
-        "ShowES": false
-      }
-    ],
+    "BossPenalize": {
+      "HandlePenalize": 1
+    },
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Boss"
+    },
+    "BossUIValues": {
+      "IsBossPart": true,
+      "PhaseValues": [
+        0.5,
+        0.35,
+        0.15
+      ],
+      "ShowES": false
+    },
     "ExpBasic": 500,
     "HitMontageRule": "BossXibiHard",
     "MiniMapId": 1,
@@ -683,31 +611,21 @@
     "WeaponId": [
       850001
     ],
-    "BossPenalize": [
-      {
-        "HandlePenalize": 1
-      }
-    ],
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Boss"
-      }
-    ],
-    "BossUIValues": [
-      {
-        "IsBossPart": true
-      },
-      {
-        "PhaseValues": [
-          0.5,
-          0.35,
-          0.15
-        ]
-      },
-      {
-        "ShowES": false
-      }
-    ],
+    "BossPenalize": {
+      "HandlePenalize": 1
+    },
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Boss"
+    },
+    "BossUIValues": {
+      "IsBossPart": true,
+      "PhaseValues": [
+        0.5,
+        0.35,
+        0.15
+      ],
+      "ShowES": false
+    },
     "ExpBasic": 500,
     "HitMontageRule": "BossXibiHard",
     "MiniMapId": 1,
@@ -737,31 +655,21 @@
     "WeaponId": [
       850001
     ],
-    "BossPenalize": [
-      {
-        "HandlePenalize": 1
-      }
-    ],
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Boss"
-      }
-    ],
-    "BossUIValues": [
-      {
-        "IsBossPart": true
-      },
-      {
-        "PhaseValues": [
-          0.5,
-          0.35,
-          0.15
-        ]
-      },
-      {
-        "ShowES": false
-      }
-    ],
+    "BossPenalize": {
+      "HandlePenalize": 1
+    },
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Boss"
+    },
+    "BossUIValues": {
+      "IsBossPart": true,
+      "PhaseValues": [
+        0.5,
+        0.35,
+        0.15
+      ],
+      "ShowES": false
+    },
     "ExpBasic": 500,
     "HitMontageRule": "BossXibiHard",
     "MiniMapId": 1,
@@ -791,31 +699,21 @@
     "WeaponId": [
       850001
     ],
-    "BossPenalize": [
-      {
-        "HandlePenalize": 1
-      }
-    ],
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Boss"
-      }
-    ],
-    "BossUIValues": [
-      {
-        "IsBossPart": true
-      },
-      {
-        "PhaseValues": [
-          0.5,
-          0.35,
-          0.15
-        ]
-      },
-      {
-        "ShowES": false
-      }
-    ],
+    "BossPenalize": {
+      "HandlePenalize": 1
+    },
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Boss"
+    },
+    "BossUIValues": {
+      "IsBossPart": true,
+      "PhaseValues": [
+        0.5,
+        0.35,
+        0.15
+      ],
+      "ShowES": false
+    },
     "ExpBasic": 500,
     "HitMontageRule": "BossXibiHard",
     "MiniMapId": 1,
@@ -909,7 +807,9 @@
     "ForbidHatred": 1,
     "IgnoreByEnemyCheckRangeHit": true,
     "ExpBasic": 0,
-    "BirthFXList": {},
+    "BirthFXList": [
+      240106
+    ],
     "DontApplySubsidenceAdjust": true,
     "ForbidenMoveComp": true,
     "PreloadSummonNum": 4
@@ -1186,20 +1086,22 @@
   "6001011": {
     "UnitId": 6001011,
     "UnitName": "Mon_Name_6001011",
-    "GamePlayTags": {},
-    "DMMIParams": [
-      {
-        "DMMIColor": [
-          7.81,
-          12.63,
-          20,
-          1
-        ]
-      },
-      {
-        "DMMILineWidth": 0.5
-      }
+    "GamePlayTags": [
+      "Mon.Gr",
+      "Mon.Melee",
+      "Mon.Strong.Frozen",
+      "Mon.Reward.B",
+      "Mon.Elite"
     ],
+    "DMMIParams": {
+      "DMMIColor": [
+        7.81,
+        12.63,
+        20,
+        1
+      ],
+      "DMMILineWidth": 0.5
+    },
     "Camp": "Monster",
     "ModelId": 600101,
     "DisableTicklod": true,
@@ -1207,14 +1109,10 @@
     "AlertId": 102,
     "UnitBPPath": "/Game/AssetDesign/Char/Monster/Gr_Jichong/BP_Mon_Gr_Jichong.BP_Mon_Gr_Jichong",
     "BT": "/Game/AssetDesign/AI/Monster/Gr_Jichong/BT_6Jichong.BT_6Jichong",
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Elite_Monster"
-      },
-      {
-        "HeightOffset": 5
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Elite_Monster",
+      "HeightOffset": 5
+    },
     "RewardId": 5,
     "ExpBasic": 500,
     "MiniMapId": 2,
@@ -1232,20 +1130,22 @@
   "6001012": {
     "UnitId": 6001012,
     "UnitName": "Mon_Name_6001012",
-    "GamePlayTags": {},
-    "DMMIParams": [
-      {
-        "DMMIColor": [
-          10,
-          0.71,
-          0,
-          1
-        ]
-      },
-      {
-        "DMMILineWidth": 0.5
-      }
+    "GamePlayTags": [
+      "Mon.Gr",
+      "Mon.Melee",
+      "Mon.Strong.Burst",
+      "Mon.Reward.B",
+      "Mon.Elite"
     ],
+    "DMMIParams": {
+      "DMMIColor": [
+        10,
+        0.71,
+        0,
+        1
+      ],
+      "DMMILineWidth": 0.5
+    },
     "Camp": "Monster",
     "ModelId": 600101,
     "DisableTicklod": true,
@@ -1253,14 +1153,10 @@
     "AlertId": 102,
     "UnitBPPath": "/Game/AssetDesign/Char/Monster/Gr_Jichong/BP_Mon_Gr_Jichong.BP_Mon_Gr_Jichong",
     "BT": "/Game/AssetDesign/AI/Monster/Gr_Jichong/BT_6Jichong.BT_6Jichong",
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Elite_Monster"
-      },
-      {
-        "HeightOffset": 5
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Elite_Monster",
+      "HeightOffset": 5
+    },
     "RewardId": 5,
     "ExpBasic": 500,
     "MiniMapId": 2,
@@ -1286,19 +1182,15 @@
       "Mon.Reward.B",
       "Mon.Elite"
     ],
-    "DMMIParams": [
-      {
-        "DMMIColor": [
-          3.76,
-          4.8,
-          0,
-          1
-        ]
-      },
-      {
-        "DMMILineWidth": 0.5
-      }
-    ],
+    "DMMIParams": {
+      "DMMIColor": [
+        3.76,
+        4.8,
+        0,
+        1
+      ],
+      "DMMILineWidth": 0.5
+    },
     "Camp": "Monster",
     "ModelId": 600101,
     "DisableTicklod": true,
@@ -1306,21 +1198,15 @@
     "AlertId": 102,
     "UnitBPPath": "/Game/AssetDesign/Char/Monster/Gr_Jichong/BP_Mon_Gr_Jichong.BP_Mon_Gr_Jichong",
     "BT": "/Game/AssetDesign/AI/Monster/Gr_Jichong/BT_6Jichong.BT_6Jichong",
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Elite_Monster"
-      },
-      {
-        "HeightOffset": 5
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Elite_Monster",
+      "HeightOffset": 5
+    },
     "RewardId": 5,
     "ExpBasic": 500,
-    "InitGuide": [
-      {
-        "SurvivalPro": -1
-      }
-    ],
+    "InitGuide": {
+      "SurvivalPro": -1
+    },
     "MiniMapId": 2,
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Annihilate_S.Guide_Icon_Annihilate_S",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_DefeatMission.T_Gp_DefeatMission",
@@ -1336,20 +1222,22 @@
   "6001014": {
     "UnitId": 6001014,
     "UnitName": "Mon_Name_6001014",
-    "GamePlayTags": {},
-    "DMMIParams": [
-      {
-        "DMMIColor": [
-          2.75,
-          5.75,
-          30,
-          1
-        ]
-      },
-      {
-        "DMMILineWidth": 0.5
-      }
+    "GamePlayTags": [
+      "Mon.Gr",
+      "Mon.Melee",
+      "Mon.Strong.Thunder",
+      "Mon.Reward.B",
+      "Mon.Elite"
     ],
+    "DMMIParams": {
+      "DMMIColor": [
+        2.75,
+        5.75,
+        30,
+        1
+      ],
+      "DMMILineWidth": 0.5
+    },
     "Camp": "Monster",
     "ModelId": 600101,
     "DisableTicklod": true,
@@ -1357,14 +1245,10 @@
     "AlertId": 102,
     "UnitBPPath": "/Game/AssetDesign/Char/Monster/Gr_Jichong/BP_Mon_Gr_Jichong.BP_Mon_Gr_Jichong",
     "BT": "/Game/AssetDesign/AI/Monster/Gr_Jichong/BT_6Jichong.BT_6Jichong",
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Elite_Monster"
-      },
-      {
-        "HeightOffset": 5
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Elite_Monster",
+      "HeightOffset": 5
+    },
     "RewardId": 5,
     "ExpBasic": 500,
     "MiniMapId": 2,
@@ -1382,20 +1266,22 @@
   "6001015": {
     "UnitId": 6001015,
     "UnitName": "Mon_Name_6001015",
-    "GamePlayTags": {},
-    "DMMIParams": [
-      {
-        "DMMIColor": [
-          18.36,
-          0,
-          1.25,
-          1
-        ]
-      },
-      {
-        "DMMILineWidth": 0.5
-      }
+    "GamePlayTags": [
+      "Mon.Gr",
+      "Mon.Melee",
+      "Mon.Strong.Blood",
+      "Mon.Reward.B",
+      "Mon.Elite"
     ],
+    "DMMIParams": {
+      "DMMIColor": [
+        18.36,
+        0,
+        1.25,
+        1
+      ],
+      "DMMILineWidth": 0.5
+    },
     "Camp": "Monster",
     "ModelId": 600101,
     "DisableTicklod": true,
@@ -1403,14 +1289,10 @@
     "AlertId": 102,
     "UnitBPPath": "/Game/AssetDesign/Char/Monster/Gr_Jichong/BP_Mon_Gr_Jichong.BP_Mon_Gr_Jichong",
     "BT": "/Game/AssetDesign/AI/Monster/Gr_Jichong/BT_6Jichong.BT_6Jichong",
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Elite_Monster"
-      },
-      {
-        "HeightOffset": 5
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Elite_Monster",
+      "HeightOffset": 5
+    },
     "RewardId": 5,
     "ExpBasic": 500,
     "MiniMapId": 2,
@@ -1428,20 +1310,22 @@
   "6001016": {
     "UnitId": 6001016,
     "UnitName": "Mon_Name_6001016",
-    "GamePlayTags": {},
-    "DMMIParams": [
-      {
-        "DMMIColor": [
-          4.18,
-          1.24,
-          15,
-          1
-        ]
-      },
-      {
-        "DMMILineWidth": 0.5
-      }
+    "GamePlayTags": [
+      "Mon.Gr",
+      "Mon.Melee",
+      "Mon.Strong.Fade",
+      "Mon.Reward.B",
+      "Mon.Elite"
     ],
+    "DMMIParams": {
+      "DMMIColor": [
+        4.18,
+        1.24,
+        15,
+        1
+      ],
+      "DMMILineWidth": 0.5
+    },
     "Camp": "Monster",
     "ModelId": 600101,
     "DisableTicklod": true,
@@ -1449,14 +1333,10 @@
     "AlertId": 102,
     "UnitBPPath": "/Game/AssetDesign/Char/Monster/Gr_Jichong/BP_Mon_Gr_Jichong.BP_Mon_Gr_Jichong",
     "BT": "/Game/AssetDesign/AI/Monster/Gr_Jichong/BT_6Jichong.BT_6Jichong",
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Elite_Monster"
-      },
-      {
-        "HeightOffset": 5
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Elite_Monster",
+      "HeightOffset": 5
+    },
     "RewardId": 5,
     "ExpBasic": 500,
     "MiniMapId": 2,
@@ -1474,20 +1354,22 @@
   "6001017": {
     "UnitId": 6001017,
     "UnitName": "Mon_Name_6001017",
-    "GamePlayTags": {},
-    "DMMIParams": [
-      {
-        "DMMIColor": [
-          1.31,
-          16.03,
-          42,
-          1
-        ]
-      },
-      {
-        "DMMILineWidth": 0.5
-      }
+    "GamePlayTags": [
+      "Mon.Gr",
+      "Mon.Melee",
+      "Mon.Strong.Shield",
+      "Mon.Reward.B",
+      "Mon.Elite"
     ],
+    "DMMIParams": {
+      "DMMIColor": [
+        1.31,
+        16.03,
+        42,
+        1
+      ],
+      "DMMILineWidth": 0.5
+    },
     "Camp": "Monster",
     "ModelId": 600101,
     "DisableTicklod": true,
@@ -1495,14 +1377,10 @@
     "AlertId": 102,
     "UnitBPPath": "/Game/AssetDesign/Char/Monster/Gr_Jichong/BP_Mon_Gr_Jichong.BP_Mon_Gr_Jichong",
     "BT": "/Game/AssetDesign/AI/Monster/Gr_Jichong/BT_6Jichong.BT_6Jichong",
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Elite_Monster"
-      },
-      {
-        "HeightOffset": 5
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Elite_Monster",
+      "HeightOffset": 5
+    },
     "RewardId": 5,
     "ExpBasic": 500,
     "MiniMapId": 2,
@@ -1520,20 +1398,22 @@
   "6001018": {
     "UnitId": 6001018,
     "UnitName": "Mon_Name_6001018",
-    "GamePlayTags": {},
-    "DMMIParams": [
-      {
-        "DMMIColor": [
-          2.19,
-          0.17,
-          0.79,
-          1
-        ]
-      },
-      {
-        "DMMILineWidth": 0.5
-      }
+    "GamePlayTags": [
+      "Mon.Gr",
+      "Mon.Melee",
+      "Mon.Strong.Revenge",
+      "Mon.Reward.B",
+      "Mon.Elite"
     ],
+    "DMMIParams": {
+      "DMMIColor": [
+        2.19,
+        0.17,
+        0.79,
+        1
+      ],
+      "DMMILineWidth": 0.5
+    },
     "Camp": "Monster",
     "ModelId": 600101,
     "DisableTicklod": true,
@@ -1541,14 +1421,10 @@
     "AlertId": 102,
     "UnitBPPath": "/Game/AssetDesign/Char/Monster/Gr_Jichong/BP_Mon_Gr_Jichong.BP_Mon_Gr_Jichong",
     "BT": "/Game/AssetDesign/AI/Monster/Gr_Jichong/BT_6Jichong.BT_6Jichong",
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Elite_Monster"
-      },
-      {
-        "HeightOffset": 5
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Elite_Monster",
+      "HeightOffset": 5
+    },
     "RewardId": 5,
     "ExpBasic": 500,
     "MiniMapId": 2,
@@ -1605,16 +1481,12 @@
     "WeaponId": [
       600201
     ],
-    "ChangeWeaponParams": [
-      {
-        "Disarm": 0
-      }
-    ],
-    "BloodUIParmas": [
-      {
-        "HeightOffset": 10
-      }
-    ],
+    "ChangeWeaponParams": {
+      "Disarm": 0
+    },
+    "BloodUIParmas": {
+      "HeightOffset": 10
+    },
     "RewardId": 5,
     "ExpBasic": 500,
     "MiniMapId": 1,
@@ -1644,11 +1516,9 @@
     "WeaponId": [
       600201
     ],
-    "BloodUIParmas": [
-      {
-        "HeightOffset": 10
-      }
-    ],
+    "BloodUIParmas": {
+      "HeightOffset": 10
+    },
     "RewardId": 5,
     "ExpBasic": 500,
     "MiniMapId": 1,
@@ -1679,18 +1549,16 @@
     "WeaponId": [
       600201
     ],
-    "ChangeWeaponParams": [
-      {
-        "Disarm": 0
-      }
-    ],
-    "BloodUIParmas": [
-      {
-        "HeightOffset": 10
-      }
-    ],
+    "ChangeWeaponParams": {
+      "Disarm": 0
+    },
+    "BloodUIParmas": {
+      "HeightOffset": 10
+    },
     "AccessoryIds": {
-      "Normal": {}
+      "Normal": [
+        700011
+      ]
     },
     "RewardId": 2008,
     "ExpBasic": 500,
@@ -1723,16 +1591,12 @@
     "WeaponId": [
       600201
     ],
-    "ChangeWeaponParams": [
-      {
-        "Disarm": 0
-      }
-    ],
-    "BloodUIParmas": [
-      {
-        "HeightOffset": 10
-      }
-    ],
+    "ChangeWeaponParams": {
+      "Disarm": 0
+    },
+    "BloodUIParmas": {
+      "HeightOffset": 10
+    },
     "RewardId": 5,
     "ExpBasic": 500,
     "MiniMapId": 1,
@@ -1762,16 +1626,12 @@
     "WeaponId": [
       600201
     ],
-    "ChangeWeaponParams": [
-      {
-        "Disarm": 0
-      }
-    ],
-    "BloodUIParmas": [
-      {
-        "HeightOffset": 10
-      }
-    ],
+    "ChangeWeaponParams": {
+      "Disarm": 0
+    },
+    "BloodUIParmas": {
+      "HeightOffset": 10
+    },
     "MiniMapId": 1,
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Annihilate_S.Guide_Icon_Annihilate_S",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_DefeatMission.T_Gp_DefeatMission",
@@ -1785,20 +1645,22 @@
   "6002011": {
     "UnitId": 6002011,
     "UnitName": "Mon_Name_6002011",
-    "GamePlayTags": {},
-    "DMMIParams": [
-      {
-        "DMMIColor": [
-          7.81,
-          12.63,
-          20,
-          1
-        ]
-      },
-      {
-        "DMMILineWidth": 0.5
-      }
+    "GamePlayTags": [
+      "Mon.Gr",
+      "Mon.Ranged",
+      "Mon.Strong.Frozen",
+      "Mon.Reward.B",
+      "Mon.Elite"
     ],
+    "DMMIParams": {
+      "DMMIColor": [
+        7.81,
+        12.63,
+        20,
+        1
+      ],
+      "DMMILineWidth": 0.5
+    },
     "Camp": "Monster",
     "ModelId": 600201,
     "DisableTicklod": true,
@@ -1810,14 +1672,10 @@
       600201
     ],
     "AttackCount": 3,
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Elite_Monster"
-      },
-      {
-        "HeightOffset": 20
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Elite_Monster",
+      "HeightOffset": 20
+    },
     "RewardId": 5,
     "ExpBasic": 500,
     "MiniMapId": 2,
@@ -1835,20 +1693,22 @@
   "6002012": {
     "UnitId": 6002012,
     "UnitName": "Mon_Name_6002012",
-    "GamePlayTags": {},
-    "DMMIParams": [
-      {
-        "DMMIColor": [
-          10,
-          0.71,
-          0,
-          1
-        ]
-      },
-      {
-        "DMMILineWidth": 0.5
-      }
+    "GamePlayTags": [
+      "Mon.Gr",
+      "Mon.Ranged",
+      "Mon.Strong.Burst",
+      "Mon.Reward.B",
+      "Mon.Elite"
     ],
+    "DMMIParams": {
+      "DMMIColor": [
+        10,
+        0.71,
+        0,
+        1
+      ],
+      "DMMILineWidth": 0.5
+    },
     "Camp": "Monster",
     "ModelId": 600201,
     "DisableTicklod": true,
@@ -1860,14 +1720,10 @@
       600201
     ],
     "AttackCount": 3,
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Elite_Monster"
-      },
-      {
-        "HeightOffset": 20
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Elite_Monster",
+      "HeightOffset": 20
+    },
     "RewardId": 5,
     "ExpBasic": 500,
     "MiniMapId": 2,
@@ -1885,20 +1741,23 @@
   "6002013": {
     "UnitId": 6002013,
     "UnitName": "Mon_Name_6002013",
-    "GamePlayTags": {},
-    "DMMIParams": [
-      {
-        "DMMIColor": [
-          3.76,
-          4.8,
-          0,
-          1
-        ]
-      },
-      {
-        "DMMILineWidth": 0.5
-      }
+    "GamePlayTags": [
+      "Mon.Gr",
+      "Mon.Ranged",
+      "Mon.Strong.Poison",
+      "Mon.SurvivalPoison",
+      "Mon.Reward.B",
+      "Mon.Elite"
     ],
+    "DMMIParams": {
+      "DMMIColor": [
+        3.76,
+        4.8,
+        0,
+        1
+      ],
+      "DMMILineWidth": 0.5
+    },
     "Camp": "Monster",
     "ModelId": 600201,
     "DisableTicklod": true,
@@ -1910,14 +1769,10 @@
       600201
     ],
     "AttackCount": 3,
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Elite_Monster"
-      },
-      {
-        "HeightOffset": 20
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Elite_Monster",
+      "HeightOffset": 20
+    },
     "RewardId": 5,
     "ExpBasic": 500,
     "MiniMapId": 2,
@@ -1935,20 +1790,22 @@
   "6002014": {
     "UnitId": 6002014,
     "UnitName": "Mon_Name_6002014",
-    "GamePlayTags": {},
-    "DMMIParams": [
-      {
-        "DMMIColor": [
-          2.75,
-          5.75,
-          30,
-          1
-        ]
-      },
-      {
-        "DMMILineWidth": 0.5
-      }
+    "GamePlayTags": [
+      "Mon.Gr",
+      "Mon.Ranged",
+      "Mon.Strong.Thunder",
+      "Mon.Reward.B",
+      "Mon.Elite"
     ],
+    "DMMIParams": {
+      "DMMIColor": [
+        2.75,
+        5.75,
+        30,
+        1
+      ],
+      "DMMILineWidth": 0.5
+    },
     "Camp": "Monster",
     "ModelId": 600201,
     "DisableTicklod": true,
@@ -1960,14 +1817,10 @@
       600201
     ],
     "AttackCount": 3,
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Elite_Monster"
-      },
-      {
-        "HeightOffset": 20
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Elite_Monster",
+      "HeightOffset": 20
+    },
     "RewardId": 5,
     "ExpBasic": 500,
     "MiniMapId": 2,
@@ -1985,20 +1838,22 @@
   "6002015": {
     "UnitId": 6002015,
     "UnitName": "Mon_Name_6002015",
-    "GamePlayTags": {},
-    "DMMIParams": [
-      {
-        "DMMIColor": [
-          18.36,
-          0,
-          1.25,
-          1
-        ]
-      },
-      {
-        "DMMILineWidth": 0.5
-      }
+    "GamePlayTags": [
+      "Mon.Gr",
+      "Mon.Ranged",
+      "Mon.Strong.Blood",
+      "Mon.Reward.B",
+      "Mon.Elite"
     ],
+    "DMMIParams": {
+      "DMMIColor": [
+        18.36,
+        0,
+        1.25,
+        1
+      ],
+      "DMMILineWidth": 0.5
+    },
     "Camp": "Monster",
     "ModelId": 600201,
     "DisableTicklod": true,
@@ -2010,14 +1865,10 @@
       600201
     ],
     "AttackCount": 3,
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Elite_Monster"
-      },
-      {
-        "HeightOffset": 20
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Elite_Monster",
+      "HeightOffset": 20
+    },
     "RewardId": 5,
     "ExpBasic": 500,
     "MiniMapId": 2,
@@ -2035,20 +1886,22 @@
   "6002016": {
     "UnitId": 6002016,
     "UnitName": "Mon_Name_6002016",
-    "GamePlayTags": {},
-    "DMMIParams": [
-      {
-        "DMMIColor": [
-          4.18,
-          1.24,
-          15,
-          1
-        ]
-      },
-      {
-        "DMMILineWidth": 0.5
-      }
+    "GamePlayTags": [
+      "Mon.Gr",
+      "Mon.Ranged",
+      "Mon.Strong.Fade",
+      "Mon.Reward.B",
+      "Mon.Elite"
     ],
+    "DMMIParams": {
+      "DMMIColor": [
+        4.18,
+        1.24,
+        15,
+        1
+      ],
+      "DMMILineWidth": 0.5
+    },
     "Camp": "Monster",
     "ModelId": 600201,
     "DisableTicklod": true,
@@ -2060,14 +1913,10 @@
       600201
     ],
     "AttackCount": 3,
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Elite_Monster"
-      },
-      {
-        "HeightOffset": 20
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Elite_Monster",
+      "HeightOffset": 20
+    },
     "RewardId": 5,
     "ExpBasic": 500,
     "MiniMapId": 2,
@@ -2085,20 +1934,22 @@
   "6002017": {
     "UnitId": 6002017,
     "UnitName": "Mon_Name_6002017",
-    "GamePlayTags": {},
-    "DMMIParams": [
-      {
-        "DMMIColor": [
-          1.31,
-          16.03,
-          42,
-          1
-        ]
-      },
-      {
-        "DMMILineWidth": 0.5
-      }
+    "GamePlayTags": [
+      "Mon.Gr",
+      "Mon.Ranged",
+      "Mon.Strong.Shield",
+      "Mon.Reward.B",
+      "Mon.Elite"
     ],
+    "DMMIParams": {
+      "DMMIColor": [
+        1.31,
+        16.03,
+        42,
+        1
+      ],
+      "DMMILineWidth": 0.5
+    },
     "Camp": "Monster",
     "ModelId": 600201,
     "DisableTicklod": true,
@@ -2110,14 +1961,10 @@
       600201
     ],
     "AttackCount": 3,
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Elite_Monster"
-      },
-      {
-        "HeightOffset": 20
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Elite_Monster",
+      "HeightOffset": 20
+    },
     "RewardId": 5,
     "ExpBasic": 500,
     "MiniMapId": 2,
@@ -2135,20 +1982,22 @@
   "6002018": {
     "UnitId": 6002018,
     "UnitName": "Mon_Name_6002018",
-    "GamePlayTags": {},
-    "DMMIParams": [
-      {
-        "DMMIColor": [
-          2.19,
-          0.17,
-          0.79,
-          1
-        ]
-      },
-      {
-        "DMMILineWidth": 0.5
-      }
+    "GamePlayTags": [
+      "Mon.Gr",
+      "Mon.Ranged",
+      "Mon.Strong.Revenge",
+      "Mon.Reward.B",
+      "Mon.Elite"
     ],
+    "DMMIParams": {
+      "DMMIColor": [
+        2.19,
+        0.17,
+        0.79,
+        1
+      ],
+      "DMMILineWidth": 0.5
+    },
     "Camp": "Monster",
     "ModelId": 600201,
     "DisableTicklod": true,
@@ -2160,14 +2009,10 @@
       600201
     ],
     "AttackCount": 3,
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Elite_Monster"
-      },
-      {
-        "HeightOffset": 20
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Elite_Monster",
+      "HeightOffset": 20
+    },
     "RewardId": 5,
     "ExpBasic": 500,
     "MiniMapId": 2,
@@ -2198,16 +2043,12 @@
     "WeaponId": [
       600201
     ],
-    "ChangeWeaponParams": [
-      {
-        "Disarm": 0
-      }
-    ],
-    "BloodUIParmas": [
-      {
-        "HeightOffset": 10
-      }
-    ],
+    "ChangeWeaponParams": {
+      "Disarm": 0
+    },
+    "BloodUIParmas": {
+      "HeightOffset": 10
+    },
     "MiniMapId": 1,
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Annihilate_S.Guide_Icon_Annihilate_S",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_DefeatMission.T_Gp_DefeatMission",
@@ -2229,23 +2070,17 @@
     "Camp": "Monster",
     "ModelId": 600301,
     "BattleRoleId": 6003001,
-    "FlyParams": [
-      {
-        "EnableFly": true
-      },
-      {
-        "AlwaysFly": true
-      }
-    ],
+    "FlyParams": {
+      "EnableFly": true,
+      "AlwaysFly": true
+    },
     "AlertId": 102,
     "CommonAlertEnable": 1,
     "UnitBPPath": "/Game/AssetDesign/Char/Monster/Gr_Piaofu/BP_Mon_Gr_Piaofu.BP_Mon_Gr_Piaofu",
     "BT": "/Game/AssetDesign/AI/Monster/Gr_Piaofu/BT_6Piaofu.BT_6Piaofu",
-    "BloodUIParmas": [
-      {
-        "HeightOffset": 75
-      }
-    ],
+    "BloodUIParmas": {
+      "HeightOffset": 75
+    },
     "RewardId": 5,
     "ExpBasic": 500,
     "MiniMapId": 1,
@@ -2270,23 +2105,17 @@
     "Camp": "Monster",
     "ModelId": 600301,
     "BattleRoleId": 6003001,
-    "FlyParams": [
-      {
-        "EnableFly": true
-      },
-      {
-        "AlwaysFly": true
-      }
-    ],
+    "FlyParams": {
+      "EnableFly": true,
+      "AlwaysFly": true
+    },
     "AlertId": 102,
     "CommonAlertEnable": 1,
     "UnitBPPath": "/Game/AssetDesign/Char/Monster/Gr_Piaofu/BP_Mon_Gr_Piaofu.BP_Mon_Gr_Piaofu",
     "BT": "/Game/AssetDesign/AI/Monster/Gr_Piaofu/BT_6Piaofu.BT_6Piaofu",
-    "BloodUIParmas": [
-      {
-        "HeightOffset": 75
-      }
-    ],
+    "BloodUIParmas": {
+      "HeightOffset": 75
+    },
     "RewardId": 2008,
     "ExpBasic": 500,
     "MiniMapId": 1,
@@ -2311,23 +2140,17 @@
     "Camp": "Monster",
     "ModelId": 600301,
     "BattleRoleId": 6003001,
-    "FlyParams": [
-      {
-        "EnableFly": true
-      },
-      {
-        "AlwaysFly": true
-      }
-    ],
+    "FlyParams": {
+      "EnableFly": true,
+      "AlwaysFly": true
+    },
     "AlertId": 202,
     "CommonAlertEnable": 1,
     "UnitBPPath": "/Game/AssetDesign/Char/Monster/Gr_Piaofu/BP_Mon_Gr_Piaofu.BP_Mon_Gr_Piaofu",
     "BT": "/Game/AssetDesign/AI/Monster/Gr_Piaofu/BT_6Piaofu.BT_6Piaofu",
-    "BloodUIParmas": [
-      {
-        "HeightOffset": 75
-      }
-    ],
+    "BloodUIParmas": {
+      "HeightOffset": 75
+    },
     "RewardId": 5,
     "ExpBasic": 500,
     "MiniMapId": 1,
@@ -2351,23 +2174,17 @@
     "Camp": "Monster",
     "ModelId": 600301,
     "BattleRoleId": 6003001,
-    "FlyParams": [
-      {
-        "EnableFly": true
-      },
-      {
-        "AlwaysFly": true
-      }
-    ],
+    "FlyParams": {
+      "EnableFly": true,
+      "AlwaysFly": true
+    },
     "AlertId": 102,
     "CommonAlertEnable": 1,
     "UnitBPPath": "/Game/AssetDesign/Char/Monster/Gr_Piaofu/BP_Mon_Gr_Piaofu.BP_Mon_Gr_Piaofu",
     "BT": "/Game/AssetDesign/AI/Monster/Gr_Piaofu/BT_6Piaofu.BT_6Piaofu",
-    "BloodUIParmas": [
-      {
-        "HeightOffset": 75
-      }
-    ],
+    "BloodUIParmas": {
+      "HeightOffset": 75
+    },
     "MiniMapId": 1,
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Annihilate_S.Guide_Icon_Annihilate_S",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_DefeatMission.T_Gp_DefeatMission",
@@ -2392,11 +2209,9 @@
     "AlertId": 102,
     "UnitBPPath": "/Game/AssetDesign/Char/Monster/Gr_Piaofu/BP_Mon_Gr_Piaofu01.BP_Mon_Gr_Piaofu01",
     "BT": "/Game/AssetDesign/AI/Monster/Gr_Piaofu/BT_6Piaofu.BT_6Piaofu",
-    "BloodUIParmas": [
-      {
-        "HeightOffset": 75
-      }
-    ],
+    "BloodUIParmas": {
+      "HeightOffset": 75
+    },
     "MiniMapId": 1,
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Annihilate_S.Guide_Icon_Annihilate_S",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_DefeatMission.T_Gp_DefeatMission",
@@ -2421,18 +2236,14 @@
     "CommonAlertEnable": 1,
     "UnitBPPath": "/Game/AssetDesign/Char/Monster/Gr_Baotu/BP_Mon_Gr_Baotu.BP_Mon_Gr_Baotu",
     "BT": "/Game/AssetDesign/AI/Monster/Gr_Baotu/BT_6Baotu.BT_6Baotu",
-    "BloodUIParmas": [
-      {
-        "HeightOffset": 50
-      }
-    ],
+    "BloodUIParmas": {
+      "HeightOffset": 50
+    },
     "RewardId": 5,
     "ExpBasic": 500,
-    "HitReplace": [
-      {
-        "HitFly": "LightHit"
-      }
-    ],
+    "HitReplace": {
+      "HitFly": "LightHit"
+    },
     "MiniMapId": 1,
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Annihilate_S.Guide_Icon_Annihilate_S",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_DefeatMission.T_Gp_DefeatMission",
@@ -2459,18 +2270,14 @@
     "CommonAlertEnable": 1,
     "UnitBPPath": "/Game/AssetDesign/Char/Monster/Gr_Baotu/BP_Mon_Gr_Baotu.BP_Mon_Gr_Baotu",
     "BT": "/Game/AssetDesign/AI/Monster/Gr_Baotu/BT_6Baotu.BT_6Baotu",
-    "BloodUIParmas": [
-      {
-        "HeightOffset": 50
-      }
-    ],
+    "BloodUIParmas": {
+      "HeightOffset": 50
+    },
     "RewardId": 2008,
     "ExpBasic": 500,
-    "HitReplace": [
-      {
-        "HitFly": "LightHit"
-      }
-    ],
+    "HitReplace": {
+      "HitFly": "LightHit"
+    },
     "MiniMapId": 1,
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Annihilate_S.Guide_Icon_Annihilate_S",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_DefeatMission.T_Gp_DefeatMission",
@@ -2497,18 +2304,14 @@
     "CommonAlertEnable": 1,
     "UnitBPPath": "/Game/AssetDesign/Char/Monster/Gr_Baotu/BP_Mon_Gr_Baotu.BP_Mon_Gr_Baotu",
     "BT": "/Game/AssetDesign/AI/Monster/Gr_Baotu/BT_6Baotu.BT_6Baotu",
-    "BloodUIParmas": [
-      {
-        "HeightOffset": 50
-      }
-    ],
+    "BloodUIParmas": {
+      "HeightOffset": 50
+    },
     "RewardId": 5,
     "ExpBasic": 500,
-    "HitReplace": [
-      {
-        "HitFly": "LightHit"
-      }
-    ],
+    "HitReplace": {
+      "HitFly": "LightHit"
+    },
     "MiniMapId": 1,
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Annihilate_S.Guide_Icon_Annihilate_S",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_DefeatMission.T_Gp_DefeatMission",
@@ -2534,16 +2337,12 @@
     "CommonAlertEnable": 1,
     "UnitBPPath": "/Game/AssetDesign/Char/Monster/Gr_Baotu/BP_Mon_Gr_Baotu.BP_Mon_Gr_Baotu",
     "BT": "/Game/AssetDesign/AI/Monster/Gr_Baotu/BT_6Baotu.BT_6Baotu",
-    "BloodUIParmas": [
-      {
-        "HeightOffset": 50
-      }
-    ],
-    "HitReplace": [
-      {
-        "HitFly": "LightHit"
-      }
-    ],
+    "BloodUIParmas": {
+      "HeightOffset": 50
+    },
+    "HitReplace": {
+      "HitFly": "LightHit"
+    },
     "MiniMapId": 1,
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Annihilate_S.Guide_Icon_Annihilate_S",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_DefeatMission.T_Gp_DefeatMission",
@@ -2566,19 +2365,15 @@
       "Mon.Reward.B",
       "Mon.Elite"
     ],
-    "DMMIParams": [
-      {
-        "DMMIColor": [
-          3.76,
-          4.8,
-          0,
-          1
-        ]
-      },
-      {
-        "DMMILineWidth": 0.5
-      }
-    ],
+    "DMMIParams": {
+      "DMMIColor": [
+        3.76,
+        4.8,
+        0,
+        1
+      ],
+      "DMMILineWidth": 0.5
+    },
     "Camp": "Monster",
     "ModelId": 600401,
     "DisableTicklod": true,
@@ -2592,16 +2387,12 @@
     },
     "RewardId": 5,
     "ExpBasic": 500,
-    "HitReplace": [
-      {
-        "HitFly": "LightHit"
-      }
-    ],
-    "InitGuide": [
-      {
-        "SurvivalPro": -1
-      }
-    ],
+    "HitReplace": {
+      "HitFly": "LightHit"
+    },
+    "InitGuide": {
+      "SurvivalPro": -1
+    },
     "MiniMapId": 2,
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Annihilate_S.Guide_Icon_Annihilate_S",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_DefeatMission.T_Gp_DefeatMission",
@@ -2628,18 +2419,14 @@
     "AlertId": 10,
     "UnitBPPath": "/Game/AssetDesign/Char/Monster/Gr_Baotu/BP_Mon_Gr_Baotu.BP_Mon_Gr_Baotu",
     "BT": "/Game/AssetDesign/AI/Monster/Gr_Baotu/Region/BT_6Baotu_Harvest.BT_6Baotu_Harvest",
-    "BloodUIParmas": [
-      {
-        "HeightOffset": 50
-      }
-    ],
+    "BloodUIParmas": {
+      "HeightOffset": 50
+    },
     "RewardId": 5,
     "ExpBasic": 500,
-    "HitReplace": [
-      {
-        "HitFly": "LightHit"
-      }
-    ],
+    "HitReplace": {
+      "HitFly": "LightHit"
+    },
     "MiniMapId": 1,
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Annihilate_S.Guide_Icon_Annihilate_S",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_DefeatMission.T_Gp_DefeatMission",
@@ -2664,16 +2451,12 @@
     "AlertId": 102,
     "UnitBPPath": "/Game/AssetDesign/Char/Monster/Gr_Baotu/BP_Mon_Gr_Baotu.BP_Mon_Gr_Baotu",
     "BT": "/Game/AssetDesign/AI/Monster/Gr_Baotu/BT_6Baotu.BT_6Baotu",
-    "BloodUIParmas": [
-      {
-        "HeightOffset": 50
-      }
-    ],
-    "HitReplace": [
-      {
-        "HitFly": "LightHit"
-      }
-    ],
+    "BloodUIParmas": {
+      "HeightOffset": 50
+    },
+    "HitReplace": {
+      "HitFly": "LightHit"
+    },
     "MiniMapId": 1,
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Annihilate_S.Guide_Icon_Annihilate_S",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_DefeatMission.T_Gp_DefeatMission",
@@ -2698,17 +2481,13 @@
     "AlertId": 102,
     "UnitBPPath": "/Game/AssetDesign/Char/Monster/Gr_Baotu/BP_Mon_Gr_Baotu.BP_Mon_Gr_Baotu",
     "BT": "/Game/AssetDesign/AI/Monster/Gr_Baotu/Level_Temple/BT_6Baotu_Tem_102.BT_6Baotu_Tem_102",
-    "BloodUIParmas": [
-      {
-        "HeightOffset": 50
-      }
-    ],
+    "BloodUIParmas": {
+      "HeightOffset": 50
+    },
     "RewardId": 8002,
-    "HitReplace": [
-      {
-        "HitFly": "LightHit"
-      }
-    ],
+    "HitReplace": {
+      "HitFly": "LightHit"
+    },
     "MiniMapId": 1,
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Annihilate_S.Guide_Icon_Annihilate_S",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_DefeatMission.T_Gp_DefeatMission",
@@ -2733,18 +2512,14 @@
     "AlertId": 102,
     "UnitBPPath": "/Game/AssetDesign/Char/Monster/Gr_Longcao/BP_Mon_Gr_Longcao.BP_Mon_Gr_Longcao",
     "BT": "/Game/AssetDesign/AI/Monster/Gr_Longcao/BT_6Longcao.BT_6Longcao",
-    "BloodUIParmas": [
-      {
-        "HeightOffset": -30
-      }
-    ],
+    "BloodUIParmas": {
+      "HeightOffset": -30
+    },
     "RewardId": 5,
     "ExpBasic": 500,
-    "HitReplace": [
-      {
-        "HitFly": "LightHit"
-      }
-    ],
+    "HitReplace": {
+      "HitFly": "LightHit"
+    },
     "MiniMapId": 1,
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Annihilate_S.Guide_Icon_Annihilate_S",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_DefeatMission.T_Gp_DefeatMission",
@@ -2768,16 +2543,12 @@
     "AlertId": 102,
     "UnitBPPath": "/Game/AssetDesign/Char/Monster/Gr_Longcao/BP_Mon_Gr_Longcao.BP_Mon_Gr_Longcao",
     "BT": "/Game/AssetDesign/AI/Monster/Gr_Longcao/BT_6Longcao.BT_6Longcao",
-    "BloodUIParmas": [
-      {
-        "HeightOffset": -30
-      }
-    ],
-    "HitReplace": [
-      {
-        "HitFly": "LightHit"
-      }
-    ],
+    "BloodUIParmas": {
+      "HeightOffset": -30
+    },
+    "HitReplace": {
+      "HitFly": "LightHit"
+    },
     "MiniMapId": 1,
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Annihilate_S.Guide_Icon_Annihilate_S",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_DefeatMission.T_Gp_DefeatMission",
@@ -2801,16 +2572,12 @@
     "AlertId": 102,
     "UnitBPPath": "/Game/AssetDesign/Char/Monster/Gr_Longcao/BP_Mon_Gr_Longcao.BP_Mon_Gr_Longcao",
     "BT": "/Game/AssetDesign/AI/Monster/Gr_Longcao/Level_Temple/BT_6Longcao_Tem_WAM.BT_6Longcao_Tem_WAM",
-    "BloodUIParmas": [
-      {
-        "HeightOffset": -30
-      }
-    ],
-    "HitReplace": [
-      {
-        "HitFly": "LightHit"
-      }
-    ],
+    "BloodUIParmas": {
+      "HeightOffset": -30
+    },
+    "HitReplace": {
+      "HitFly": "LightHit"
+    },
     "MiniMapId": 1,
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Annihilate_S.Guide_Icon_Annihilate_S",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_DefeatMission.T_Gp_DefeatMission",
@@ -2823,7 +2590,12 @@
   "6011001": {
     "UnitId": 6011001,
     "UnitName": "Mon_Name_6011001",
-    "GamePlayTags": {},
+    "GamePlayTags": [
+      "Mon.Gr",
+      "Mon.Melee",
+      "Mon.Attribute.Thunder",
+      "Mon.Reward.E"
+    ],
     "Camp": "Monster",
     "ModelId": 600101,
     "BattleRoleId": 6011001,
@@ -2846,7 +2618,12 @@
   "6012001": {
     "UnitId": 6012001,
     "UnitName": "Mon_Name_6012001",
-    "GamePlayTags": {},
+    "GamePlayTags": [
+      "Mon.Gr",
+      "Mon.Ranged",
+      "Mon.Attribute.Fire",
+      "Mon.Reward.E"
+    ],
     "Camp": "Monster",
     "ModelId": 600201,
     "BattleRoleId": 6012001,
@@ -2857,17 +2634,13 @@
     "WeaponId": [
       600201
     ],
-    "ChangeWeaponParams": [
-      {
-        "Disarm": 0
-      }
-    ],
+    "ChangeWeaponParams": {
+      "Disarm": 0
+    },
     "AttackCount": 3,
-    "BloodUIParmas": [
-      {
-        "HeightOffset": 10
-      }
-    ],
+    "BloodUIParmas": {
+      "HeightOffset": 10
+    },
     "RewardId": 5,
     "ExpBasic": 500,
     "MiniMapId": 1,
@@ -2881,27 +2654,27 @@
   "6013001": {
     "UnitId": 6013001,
     "UnitName": "Mon_Name_6013001",
-    "GamePlayTags": {},
+    "GamePlayTags": [
+      "Mon.Gr",
+      "Mon.Ranged",
+      "Mon.Fly",
+      "Mon.Attribute.Water",
+      "Mon.Reward.E"
+    ],
     "Camp": "Monster",
     "ModelId": 600301,
     "BattleRoleId": 6013001,
-    "FlyParams": [
-      {
-        "EnableFly": true
-      },
-      {
-        "AlwaysFly": true
-      }
-    ],
+    "FlyParams": {
+      "EnableFly": true,
+      "AlwaysFly": true
+    },
     "AlertId": 102,
     "CommonAlertEnable": 1,
     "UnitBPPath": "/Game/AssetDesign/Char/Monster/Gr_Piaofu/BP_Mon_Gr_Piaofu.BP_Mon_Gr_Piaofu",
     "BT": "/Game/AssetDesign/AI/Monster/Gr_Piaofu/BT_6Piaofu_C01.BT_6Piaofu_C01",
-    "BloodUIParmas": [
-      {
-        "HeightOffset": 75
-      }
-    ],
+    "BloodUIParmas": {
+      "HeightOffset": 75
+    },
     "RewardId": 5,
     "ExpBasic": 500,
     "MiniMapId": 1,
@@ -2917,7 +2690,12 @@
   "6014001": {
     "UnitId": 6014001,
     "UnitName": "Mon_Name_6014001",
-    "GamePlayTags": {},
+    "GamePlayTags": [
+      "Mon.Gr",
+      "Mon.Melee",
+      "Mon.Attribute.Fire",
+      "Mon.Reward.D"
+    ],
     "Camp": "Monster",
     "ModelId": 600401,
     "BattleRoleId": 6014001,
@@ -2925,18 +2703,14 @@
     "CommonAlertEnable": 1,
     "UnitBPPath": "/Game/AssetDesign/Char/Monster/Gr_Baotu/BP_Mon_Gr_Baotu.BP_Mon_Gr_Baotu",
     "BT": "/Game/AssetDesign/AI/Monster/Gr_Baotu/BT_6Baotu_C01.BT_6Baotu_C01",
-    "BloodUIParmas": [
-      {
-        "HeightOffset": 50
-      }
-    ],
+    "BloodUIParmas": {
+      "HeightOffset": 50
+    },
     "RewardId": 5,
     "ExpBasic": 500,
-    "HitReplace": [
-      {
-        "HitFly": "LightHit"
-      }
-    ],
+    "HitReplace": {
+      "HitFly": "LightHit"
+    },
     "MiniMapId": 1,
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Annihilate_S.Guide_Icon_Annihilate_S",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_DefeatMission.T_Gp_DefeatMission",
@@ -2965,17 +2739,13 @@
       700101,
       700001
     ],
-    "ChangeWeaponParams": [
-      {
-        "Disarm": 2
-      }
-    ],
+    "ChangeWeaponParams": {
+      "Disarm": 2
+    },
     "AttackCount": 2,
-    "BloodUIParmas": [
-      {
-        "HeightOffset": 5
-      }
-    ],
+    "BloodUIParmas": {
+      "HeightOffset": 5
+    },
     "RewardId": 5,
     "ExpBasic": 500,
     "MiniMapId": 1,
@@ -2998,19 +2768,15 @@
       "Mon.Reward.B",
       "Mon.Elite"
     ],
-    "DMMIParams": [
-      {
-        "DMMIColor": [
-          10,
-          9.49,
-          0,
-          1
-        ]
-      },
-      {
-        "DMMILineWidth": 0.5
-      }
-    ],
+    "DMMIParams": {
+      "DMMIColor": [
+        10,
+        9.49,
+        0,
+        1
+      ],
+      "DMMILineWidth": 0.5
+    },
     "Camp": "Monster",
     "ModelId": 700101,
     "DisableTicklod": true,
@@ -3022,45 +2788,29 @@
       700101
     ],
     "AttackCount": 2,
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Elite_Monster"
-      },
-      {
-        "HeightOffset": 10
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Elite_Monster",
+      "HeightOffset": 10
+    },
     "RewardId": 5,
     "ExpBasic": 500,
-    "HitReplace": [
-      {
-        "HitFly": "LightHit"
-      }
-    ],
-    "InitGuide": [
-      {
-        "Capture": -1
-      }
-    ],
+    "HitReplace": {
+      "HitFly": "LightHit"
+    },
+    "InitGuide": {
+      "Capture": -1
+    },
     "MiniMapId": 2,
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Annihilate_S.Guide_Icon_Annihilate_S",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_DefeatMission.T_Gp_DefeatMission",
     "TeamMoveGroup": 7001,
     "BattleGroupId": 7001,
-    "CaptureParam": [
-      {
-        "ParamId": 914
-      },
-      {
-        "InteractiveTime": 2.7
-      },
-      {
-        "Interrupt": 1
-      },
-      {
-        "RecoverTime": 30
-      }
-    ],
+    "CaptureParam": {
+      "ParamId": 914,
+      "InteractiveTime": 2.7,
+      "Interrupt": 1,
+      "RecoverTime": 30
+    },
     "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Monster/T_Head_Jt_Juji.T_Head_Jt_Juji",
     "GalleryRuleId": 7001001,
     "GuideId": 7001005,
@@ -3085,17 +2835,13 @@
       700101,
       700001
     ],
-    "ChangeWeaponParams": [
-      {
-        "Disarm": 2
-      }
-    ],
+    "ChangeWeaponParams": {
+      "Disarm": 2
+    },
     "AttackCount": 2,
-    "BloodUIParmas": [
-      {
-        "HeightOffset": 5
-      }
-    ],
+    "BloodUIParmas": {
+      "HeightOffset": 5
+    },
     "MiniMapId": 1,
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Annihilate_S.Guide_Icon_Annihilate_S",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_DefeatMission.T_Gp_DefeatMission",
@@ -3116,19 +2862,15 @@
       "Mon.Reward.B",
       "Mon.Elite"
     ],
-    "DMMIParams": [
-      {
-        "DMMIColor": [
-          7.81,
-          12.63,
-          20,
-          1
-        ]
-      },
-      {
-        "DMMILineWidth": 0.5
-      }
-    ],
+    "DMMIParams": {
+      "DMMIColor": [
+        7.81,
+        12.63,
+        20,
+        1
+      ],
+      "DMMILineWidth": 0.5
+    },
     "Camp": "Monster",
     "ModelId": 700101,
     "DisableTicklod": true,
@@ -3140,14 +2882,10 @@
       700101
     ],
     "AttackCount": 2,
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Elite_Monster"
-      },
-      {
-        "HeightOffset": 10
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Elite_Monster",
+      "HeightOffset": 10
+    },
     "RewardId": 5,
     "ExpBasic": 500,
     "MiniMapId": 2,
@@ -3172,19 +2910,15 @@
       "Mon.Reward.B",
       "Mon.Elite"
     ],
-    "DMMIParams": [
-      {
-        "DMMIColor": [
-          10,
-          0.71,
-          0,
-          1
-        ]
-      },
-      {
-        "DMMILineWidth": 0.5
-      }
-    ],
+    "DMMIParams": {
+      "DMMIColor": [
+        10,
+        0.71,
+        0,
+        1
+      ],
+      "DMMILineWidth": 0.5
+    },
     "Camp": "Monster",
     "ModelId": 700101,
     "DisableTicklod": true,
@@ -3196,14 +2930,10 @@
       700101
     ],
     "AttackCount": 2,
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Elite_Monster"
-      },
-      {
-        "HeightOffset": 10
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Elite_Monster",
+      "HeightOffset": 10
+    },
     "RewardId": 5,
     "ExpBasic": 500,
     "MiniMapId": 2,
@@ -3229,19 +2959,15 @@
       "Mon.Reward.B",
       "Mon.Elite"
     ],
-    "DMMIParams": [
-      {
-        "DMMIColor": [
-          3.76,
-          4.8,
-          0,
-          1
-        ]
-      },
-      {
-        "DMMILineWidth": 0.5
-      }
-    ],
+    "DMMIParams": {
+      "DMMIColor": [
+        3.76,
+        4.8,
+        0,
+        1
+      ],
+      "DMMILineWidth": 0.5
+    },
     "Camp": "Monster",
     "ModelId": 700101,
     "DisableTicklod": true,
@@ -3253,14 +2979,10 @@
       700101
     ],
     "AttackCount": 2,
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Elite_Monster"
-      },
-      {
-        "HeightOffset": 10
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Elite_Monster",
+      "HeightOffset": 10
+    },
     "RewardId": 5,
     "ExpBasic": 500,
     "MiniMapId": 2,
@@ -3285,19 +3007,15 @@
       "Mon.Reward.B",
       "Mon.Elite"
     ],
-    "DMMIParams": [
-      {
-        "DMMIColor": [
-          2.75,
-          5.75,
-          30,
-          1
-        ]
-      },
-      {
-        "DMMILineWidth": 0.5
-      }
-    ],
+    "DMMIParams": {
+      "DMMIColor": [
+        2.75,
+        5.75,
+        30,
+        1
+      ],
+      "DMMILineWidth": 0.5
+    },
     "Camp": "Monster",
     "ModelId": 700101,
     "DisableTicklod": true,
@@ -3309,14 +3027,10 @@
       700101
     ],
     "AttackCount": 2,
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Elite_Monster"
-      },
-      {
-        "HeightOffset": 10
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Elite_Monster",
+      "HeightOffset": 10
+    },
     "RewardId": 5,
     "ExpBasic": 500,
     "MiniMapId": 2,
@@ -3341,19 +3055,15 @@
       "Mon.Reward.B",
       "Mon.Elite"
     ],
-    "DMMIParams": [
-      {
-        "DMMIColor": [
-          18.36,
-          0,
-          1.25,
-          1
-        ]
-      },
-      {
-        "DMMILineWidth": 0.5
-      }
-    ],
+    "DMMIParams": {
+      "DMMIColor": [
+        18.36,
+        0,
+        1.25,
+        1
+      ],
+      "DMMILineWidth": 0.5
+    },
     "Camp": "Monster",
     "ModelId": 700101,
     "DisableTicklod": true,
@@ -3365,14 +3075,10 @@
       700101
     ],
     "AttackCount": 2,
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Elite_Monster"
-      },
-      {
-        "HeightOffset": 10
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Elite_Monster",
+      "HeightOffset": 10
+    },
     "RewardId": 5,
     "ExpBasic": 500,
     "MiniMapId": 2,
@@ -3397,19 +3103,15 @@
       "Mon.Reward.B",
       "Mon.Elite"
     ],
-    "DMMIParams": [
-      {
-        "DMMIColor": [
-          4.18,
-          1.24,
-          15,
-          1
-        ]
-      },
-      {
-        "DMMILineWidth": 0.5
-      }
-    ],
+    "DMMIParams": {
+      "DMMIColor": [
+        4.18,
+        1.24,
+        15,
+        1
+      ],
+      "DMMILineWidth": 0.5
+    },
     "Camp": "Monster",
     "ModelId": 700101,
     "DisableTicklod": true,
@@ -3421,14 +3123,10 @@
       700101
     ],
     "AttackCount": 2,
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Elite_Monster"
-      },
-      {
-        "HeightOffset": 10
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Elite_Monster",
+      "HeightOffset": 10
+    },
     "RewardId": 5,
     "ExpBasic": 500,
     "MiniMapId": 2,
@@ -3453,19 +3151,15 @@
       "Mon.Reward.B",
       "Mon.Elite"
     ],
-    "DMMIParams": [
-      {
-        "DMMIColor": [
-          1.31,
-          16.03,
-          42,
-          1
-        ]
-      },
-      {
-        "DMMILineWidth": 0.5
-      }
-    ],
+    "DMMIParams": {
+      "DMMIColor": [
+        1.31,
+        16.03,
+        42,
+        1
+      ],
+      "DMMILineWidth": 0.5
+    },
     "Camp": "Monster",
     "ModelId": 700101,
     "DisableTicklod": true,
@@ -3477,14 +3171,10 @@
       700101
     ],
     "AttackCount": 2,
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Elite_Monster"
-      },
-      {
-        "HeightOffset": 10
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Elite_Monster",
+      "HeightOffset": 10
+    },
     "RewardId": 5,
     "ExpBasic": 500,
     "MiniMapId": 2,
@@ -3509,19 +3199,15 @@
       "Mon.Reward.B",
       "Mon.Elite"
     ],
-    "DMMIParams": [
-      {
-        "DMMIColor": [
-          2.19,
-          0.17,
-          0.79,
-          1
-        ]
-      },
-      {
-        "DMMILineWidth": 0.5
-      }
-    ],
+    "DMMIParams": {
+      "DMMIColor": [
+        2.19,
+        0.17,
+        0.79,
+        1
+      ],
+      "DMMILineWidth": 0.5
+    },
     "Camp": "Monster",
     "ModelId": 700101,
     "DisableTicklod": true,
@@ -3533,14 +3219,10 @@
       700101
     ],
     "AttackCount": 2,
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Elite_Monster"
-      },
-      {
-        "HeightOffset": 10
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Elite_Monster",
+      "HeightOffset": 10
+    },
     "RewardId": 5,
     "ExpBasic": 500,
     "MiniMapId": 2,
@@ -3573,24 +3255,18 @@
     "WeaponId": [
       700201
     ],
-    "BloodUIParmas": [
-      {
-        "HeightOffset": 20
-      }
-    ],
-    "AccessoryIds": [
-      {
-        "Random": [
-          700007,
-          700008,
-          700009,
-          700010
-        ]
-      },
-      {
-        "RandomNum": 3
-      }
-    ],
+    "BloodUIParmas": {
+      "HeightOffset": 20
+    },
+    "AccessoryIds": {
+      "Random": [
+        700007,
+        700008,
+        700009,
+        700010
+      ],
+      "RandomNum": 3
+    },
     "RewardId": 5,
     "ExpBasic": 500,
     "MiniMapId": 1,
@@ -3605,20 +3281,22 @@
   "7002005": {
     "UnitId": 7002005,
     "UnitName": "Mon_Name_7002005",
-    "GamePlayTags": {},
-    "DMMIParams": [
-      {
-        "DMMIColor": [
-          10,
-          9.49,
-          0,
-          1
-        ]
-      },
-      {
-        "DMMILineWidth": 0.5
-      }
+    "GamePlayTags": [
+      "Mon.Jt",
+      "Mon.Melee",
+      "Mon.Capture",
+      "Mon.Reward.B",
+      "Mon.Elite"
     ],
+    "DMMIParams": {
+      "DMMIColor": [
+        10,
+        9.49,
+        0,
+        1
+      ],
+      "DMMILineWidth": 0.5
+    },
     "Camp": "Monster",
     "ModelId": 700201,
     "DisableTicklod": true,
@@ -3629,58 +3307,38 @@
     "WeaponId": [
       700201
     ],
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Elite_Monster"
-      },
-      {
-        "HeightOffset": 40
-      }
-    ],
-    "AccessoryIds": [
-      {
-        "Random": [
-          700007,
-          700008,
-          700009,
-          700010
-        ]
-      },
-      {
-        "RandomNum": 3
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Elite_Monster",
+      "HeightOffset": 40
+    },
+    "AccessoryIds": {
+      "Random": [
+        700007,
+        700008,
+        700009,
+        700010
+      ],
+      "RandomNum": 3
+    },
     "RewardId": 5,
     "ExpBasic": 500,
-    "HitReplace": [
-      {
-        "HitFly": "LightHit"
-      }
-    ],
-    "InitGuide": [
-      {
-        "Capture": -1
-      }
-    ],
+    "HitReplace": {
+      "HitFly": "LightHit"
+    },
+    "InitGuide": {
+      "Capture": -1
+    },
     "MiniMapId": 2,
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Annihilate_S.Guide_Icon_Annihilate_S",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_DefeatMission.T_Gp_DefeatMission",
     "TeamMoveGroup": 7002,
     "BattleGroupId": 7002,
-    "CaptureParam": [
-      {
-        "ParamId": 914
-      },
-      {
-        "InteractiveTime": 2.7
-      },
-      {
-        "Interrupt": 1
-      },
-      {
-        "RecoverTime": 30
-      }
-    ],
+    "CaptureParam": {
+      "ParamId": 914,
+      "InteractiveTime": 2.7,
+      "Interrupt": 1,
+      "RecoverTime": 30
+    },
     "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Monster/T_Head_Jt_Pizhuo.T_Head_Jt_Pizhuo",
     "GalleryRuleId": 7002001,
     "GuideId": 7002005,
@@ -3703,24 +3361,18 @@
     "WeaponId": [
       700201
     ],
-    "BloodUIParmas": [
-      {
-        "HeightOffset": 20
-      }
-    ],
-    "AccessoryIds": [
-      {
-        "Random": [
-          700007,
-          700008,
-          700009,
-          700010
-        ]
-      },
-      {
-        "RandomNum": 3
-      }
-    ],
+    "BloodUIParmas": {
+      "HeightOffset": 20
+    },
+    "AccessoryIds": {
+      "Random": [
+        700007,
+        700008,
+        700009,
+        700010
+      ],
+      "RandomNum": 3
+    },
     "ExpBasic": 500,
     "MiniMapId": 1,
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Annihilate_S.Guide_Icon_Annihilate_S",
@@ -3734,20 +3386,22 @@
   "7002011": {
     "UnitId": 7002011,
     "UnitName": "Mon_Name_7002011",
-    "GamePlayTags": {},
-    "DMMIParams": [
-      {
-        "DMMIColor": [
-          7.81,
-          12.63,
-          20,
-          1
-        ]
-      },
-      {
-        "DMMILineWidth": 0.5
-      }
+    "GamePlayTags": [
+      "Mon.Jt",
+      "Mon.Melee",
+      "Mon.Strong.Frozen",
+      "Mon.Reward.B",
+      "Mon.Elite"
     ],
+    "DMMIParams": {
+      "DMMIColor": [
+        7.81,
+        12.63,
+        20,
+        1
+      ],
+      "DMMILineWidth": 0.5
+    },
     "Camp": "Monster",
     "ModelId": 700201,
     "DisableTicklod": true,
@@ -3758,27 +3412,19 @@
     "WeaponId": [
       700201
     ],
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Elite_Monster"
-      },
-      {
-        "HeightOffset": 40
-      }
-    ],
-    "AccessoryIds": [
-      {
-        "Random": [
-          700007,
-          700008,
-          700009,
-          700010
-        ]
-      },
-      {
-        "RandomNum": 3
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Elite_Monster",
+      "HeightOffset": 40
+    },
+    "AccessoryIds": {
+      "Random": [
+        700007,
+        700008,
+        700009,
+        700010
+      ],
+      "RandomNum": 3
+    },
     "RewardId": 5,
     "ExpBasic": 500,
     "MiniMapId": 2,
@@ -3802,19 +3448,15 @@
       "Mon.Reward.B",
       "Mon.Elite"
     ],
-    "DMMIParams": [
-      {
-        "DMMIColor": [
-          10,
-          0.71,
-          0,
-          1
-        ]
-      },
-      {
-        "DMMILineWidth": 0.5
-      }
-    ],
+    "DMMIParams": {
+      "DMMIColor": [
+        10,
+        0.71,
+        0,
+        1
+      ],
+      "DMMILineWidth": 0.5
+    },
     "Camp": "Monster",
     "ModelId": 700201,
     "DisableTicklod": true,
@@ -3825,27 +3467,19 @@
     "WeaponId": [
       700201
     ],
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Elite_Monster"
-      },
-      {
-        "HeightOffset": 40
-      }
-    ],
-    "AccessoryIds": [
-      {
-        "Random": [
-          700007,
-          700008,
-          700009,
-          700010
-        ]
-      },
-      {
-        "RandomNum": 3
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Elite_Monster",
+      "HeightOffset": 40
+    },
+    "AccessoryIds": {
+      "Random": [
+        700007,
+        700008,
+        700009,
+        700010
+      ],
+      "RandomNum": 3
+    },
     "RewardId": 5,
     "ExpBasic": 500,
     "MiniMapId": 2,
@@ -3862,20 +3496,23 @@
   "7002013": {
     "UnitId": 7002013,
     "UnitName": "Mon_Name_7002013",
-    "GamePlayTags": {},
-    "DMMIParams": [
-      {
-        "DMMIColor": [
-          3.76,
-          4.8,
-          0,
-          1
-        ]
-      },
-      {
-        "DMMILineWidth": 0.5
-      }
+    "GamePlayTags": [
+      "Mon.Jt",
+      "Mon.Melee",
+      "Mon.Strong.Poison",
+      "Mon.SurvivalPoison",
+      "Mon.Reward.B",
+      "Mon.Elite"
     ],
+    "DMMIParams": {
+      "DMMIColor": [
+        3.76,
+        4.8,
+        0,
+        1
+      ],
+      "DMMILineWidth": 0.5
+    },
     "Camp": "Monster",
     "ModelId": 700201,
     "DisableTicklod": true,
@@ -3886,27 +3523,19 @@
     "WeaponId": [
       700201
     ],
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Elite_Monster"
-      },
-      {
-        "HeightOffset": 40
-      }
-    ],
-    "AccessoryIds": [
-      {
-        "Random": [
-          700007,
-          700008,
-          700009,
-          700010
-        ]
-      },
-      {
-        "RandomNum": 3
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Elite_Monster",
+      "HeightOffset": 40
+    },
+    "AccessoryIds": {
+      "Random": [
+        700007,
+        700008,
+        700009,
+        700010
+      ],
+      "RandomNum": 3
+    },
     "RewardId": 5,
     "ExpBasic": 500,
     "MiniMapId": 2,
@@ -3923,20 +3552,22 @@
   "7002014": {
     "UnitId": 7002014,
     "UnitName": "Mon_Name_7002014",
-    "GamePlayTags": {},
-    "DMMIParams": [
-      {
-        "DMMIColor": [
-          2.75,
-          5.75,
-          30,
-          1
-        ]
-      },
-      {
-        "DMMILineWidth": 0.5
-      }
+    "GamePlayTags": [
+      "Mon.Jt",
+      "Mon.Melee",
+      "Mon.Strong.Thunder",
+      "Mon.Reward.B",
+      "Mon.Elite"
     ],
+    "DMMIParams": {
+      "DMMIColor": [
+        2.75,
+        5.75,
+        30,
+        1
+      ],
+      "DMMILineWidth": 0.5
+    },
     "Camp": "Monster",
     "ModelId": 700201,
     "DisableTicklod": true,
@@ -3947,27 +3578,19 @@
     "WeaponId": [
       700201
     ],
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Elite_Monster"
-      },
-      {
-        "HeightOffset": 40
-      }
-    ],
-    "AccessoryIds": [
-      {
-        "Random": [
-          700007,
-          700008,
-          700009,
-          700010
-        ]
-      },
-      {
-        "RandomNum": 3
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Elite_Monster",
+      "HeightOffset": 40
+    },
+    "AccessoryIds": {
+      "Random": [
+        700007,
+        700008,
+        700009,
+        700010
+      ],
+      "RandomNum": 3
+    },
     "RewardId": 5,
     "ExpBasic": 500,
     "MiniMapId": 2,
@@ -3984,20 +3607,22 @@
   "7002015": {
     "UnitId": 7002015,
     "UnitName": "Mon_Name_7002015",
-    "GamePlayTags": {},
-    "DMMIParams": [
-      {
-        "DMMIColor": [
-          18.36,
-          0,
-          1.25,
-          1
-        ]
-      },
-      {
-        "DMMILineWidth": 0.5
-      }
+    "GamePlayTags": [
+      "Mon.Jt",
+      "Mon.Melee",
+      "Mon.Strong.Blood",
+      "Mon.Reward.B",
+      "Mon.Elite"
     ],
+    "DMMIParams": {
+      "DMMIColor": [
+        18.36,
+        0,
+        1.25,
+        1
+      ],
+      "DMMILineWidth": 0.5
+    },
     "Camp": "Monster",
     "ModelId": 700201,
     "DisableTicklod": true,
@@ -4008,27 +3633,19 @@
     "WeaponId": [
       700201
     ],
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Elite_Monster"
-      },
-      {
-        "HeightOffset": 40
-      }
-    ],
-    "AccessoryIds": [
-      {
-        "Random": [
-          700007,
-          700008,
-          700009,
-          700010
-        ]
-      },
-      {
-        "RandomNum": 3
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Elite_Monster",
+      "HeightOffset": 40
+    },
+    "AccessoryIds": {
+      "Random": [
+        700007,
+        700008,
+        700009,
+        700010
+      ],
+      "RandomNum": 3
+    },
     "RewardId": 5,
     "ExpBasic": 500,
     "MiniMapId": 2,
@@ -4045,20 +3662,22 @@
   "7002016": {
     "UnitId": 7002016,
     "UnitName": "Mon_Name_7002016",
-    "GamePlayTags": {},
-    "DMMIParams": [
-      {
-        "DMMIColor": [
-          4.18,
-          1.24,
-          15,
-          1
-        ]
-      },
-      {
-        "DMMILineWidth": 0.5
-      }
+    "GamePlayTags": [
+      "Mon.Jt",
+      "Mon.Melee",
+      "Mon.Strong.Fade",
+      "Mon.Reward.B",
+      "Mon.Elite"
     ],
+    "DMMIParams": {
+      "DMMIColor": [
+        4.18,
+        1.24,
+        15,
+        1
+      ],
+      "DMMILineWidth": 0.5
+    },
     "Camp": "Monster",
     "ModelId": 700201,
     "DisableTicklod": true,
@@ -4069,27 +3688,19 @@
     "WeaponId": [
       700201
     ],
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Elite_Monster"
-      },
-      {
-        "HeightOffset": 40
-      }
-    ],
-    "AccessoryIds": [
-      {
-        "Random": [
-          700007,
-          700008,
-          700009,
-          700010
-        ]
-      },
-      {
-        "RandomNum": 3
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Elite_Monster",
+      "HeightOffset": 40
+    },
+    "AccessoryIds": {
+      "Random": [
+        700007,
+        700008,
+        700009,
+        700010
+      ],
+      "RandomNum": 3
+    },
     "RewardId": 5,
     "ExpBasic": 500,
     "MiniMapId": 2,
@@ -4106,20 +3717,22 @@
   "7002017": {
     "UnitId": 7002017,
     "UnitName": "Mon_Name_7002017",
-    "GamePlayTags": {},
-    "DMMIParams": [
-      {
-        "DMMIColor": [
-          1.31,
-          16.03,
-          42,
-          1
-        ]
-      },
-      {
-        "DMMILineWidth": 0.5
-      }
+    "GamePlayTags": [
+      "Mon.Jt",
+      "Mon.Melee",
+      "Mon.Strong.Shield",
+      "Mon.Reward.B",
+      "Mon.Elite"
     ],
+    "DMMIParams": {
+      "DMMIColor": [
+        1.31,
+        16.03,
+        42,
+        1
+      ],
+      "DMMILineWidth": 0.5
+    },
     "Camp": "Monster",
     "ModelId": 700201,
     "DisableTicklod": true,
@@ -4130,27 +3743,19 @@
     "WeaponId": [
       700201
     ],
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Elite_Monster"
-      },
-      {
-        "HeightOffset": 40
-      }
-    ],
-    "AccessoryIds": [
-      {
-        "Random": [
-          700007,
-          700008,
-          700009,
-          700010
-        ]
-      },
-      {
-        "RandomNum": 3
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Elite_Monster",
+      "HeightOffset": 40
+    },
+    "AccessoryIds": {
+      "Random": [
+        700007,
+        700008,
+        700009,
+        700010
+      ],
+      "RandomNum": 3
+    },
     "RewardId": 5,
     "ExpBasic": 500,
     "MiniMapId": 2,
@@ -4167,20 +3772,22 @@
   "7002018": {
     "UnitId": 7002018,
     "UnitName": "Mon_Name_7002018",
-    "GamePlayTags": {},
-    "DMMIParams": [
-      {
-        "DMMIColor": [
-          2.19,
-          0.17,
-          0.79,
-          1
-        ]
-      },
-      {
-        "DMMILineWidth": 0.5
-      }
+    "GamePlayTags": [
+      "Mon.Jt",
+      "Mon.Melee",
+      "Mon.Strong.Revenge",
+      "Mon.Reward.B",
+      "Mon.Elite"
     ],
+    "DMMIParams": {
+      "DMMIColor": [
+        2.19,
+        0.17,
+        0.79,
+        1
+      ],
+      "DMMILineWidth": 0.5
+    },
     "Camp": "Monster",
     "ModelId": 700201,
     "DisableTicklod": true,
@@ -4191,27 +3798,19 @@
     "WeaponId": [
       700201
     ],
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Elite_Monster"
-      },
-      {
-        "HeightOffset": 40
-      }
-    ],
-    "AccessoryIds": [
-      {
-        "Random": [
-          700007,
-          700008,
-          700009,
-          700010
-        ]
-      },
-      {
-        "RandomNum": 3
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Elite_Monster",
+      "HeightOffset": 40
+    },
+    "AccessoryIds": {
+      "Random": [
+        700007,
+        700008,
+        700009,
+        700010
+      ],
+      "RandomNum": 3
+    },
     "RewardId": 5,
     "ExpBasic": 500,
     "MiniMapId": 2,
@@ -4244,33 +3843,23 @@
       700301,
       700001
     ],
-    "ChangeWeaponParams": [
-      {
-        "Disarm": 2
-      }
-    ],
-    "BloodUIParmas": [
-      {
-        "HeightOffset": 25
-      }
-    ],
-    "AccessoryIds": [
-      {
-        "Normal": [
-          700004
-        ]
-      },
-      {
-        "Random": [
-          700001,
-          700002,
-          700003
-        ]
-      },
-      {
-        "RandomNum": 2
-      }
-    ],
+    "ChangeWeaponParams": {
+      "Disarm": 2
+    },
+    "BloodUIParmas": {
+      "HeightOffset": 25
+    },
+    "AccessoryIds": {
+      "Normal": [
+        700004
+      ],
+      "Random": [
+        700001,
+        700002,
+        700003
+      ],
+      "RandomNum": 2
+    },
     "RewardId": 5,
     "ExpBasic": 500,
     "MiniMapId": 1,
@@ -4293,19 +3882,15 @@
       "Mon.Reward.B",
       "Mon.Elite"
     ],
-    "DMMIParams": [
-      {
-        "DMMIColor": [
-          10,
-          9.49,
-          0,
-          1
-        ]
-      },
-      {
-        "DMMILineWidth": 0.5
-      }
-    ],
+    "DMMIParams": {
+      "DMMIColor": [
+        10,
+        9.49,
+        0,
+        1
+      ],
+      "DMMILineWidth": 0.5
+    },
     "Camp": "Monster",
     "ModelId": 700301,
     "DisableTicklod": true,
@@ -4316,62 +3901,40 @@
     "WeaponId": [
       700301
     ],
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Elite_Monster"
-      },
-      {
-        "HeightOffset": 45
-      }
-    ],
-    "AccessoryIds": [
-      {
-        "Normal": [
-          700004
-        ]
-      },
-      {
-        "Random": [
-          700001,
-          700002,
-          700003
-        ]
-      },
-      {
-        "RandomNum": 2
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Elite_Monster",
+      "HeightOffset": 45
+    },
+    "AccessoryIds": {
+      "Normal": [
+        700004
+      ],
+      "Random": [
+        700001,
+        700002,
+        700003
+      ],
+      "RandomNum": 2
+    },
     "RewardId": 5,
     "ExpBasic": 500,
-    "HitReplace": [
-      {
-        "HitFly": "LightHit"
-      }
-    ],
-    "InitGuide": [
-      {
-        "Capture": -1
-      }
-    ],
+    "HitReplace": {
+      "HitFly": "LightHit"
+    },
+    "InitGuide": {
+      "Capture": -1
+    },
     "MiniMapId": 2,
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Annihilate_S.Guide_Icon_Annihilate_S",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_DefeatMission.T_Gp_DefeatMission",
     "TeamMoveGroup": 7003,
     "BattleGroupId": 7003,
-    "CaptureParam": [
-      {
-        "ParamId": 914
-      },
-      {
-        "InteractiveTime": 2.7
-      },
-      {
-        "Interrupt": 1
-      },
-      {
-        "RecoverTime": 30
-      }
-    ],
+    "CaptureParam": {
+      "ParamId": 914,
+      "InteractiveTime": 2.7,
+      "Interrupt": 1,
+      "RecoverTime": 30
+    },
     "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Monster/T_Head_Jt_Ranger.T_Head_Jt_Ranger",
     "GalleryRuleId": 7003001,
     "GuideId": 7003005,
@@ -4396,33 +3959,23 @@
       700301,
       700001
     ],
-    "ChangeWeaponParams": [
-      {
-        "Disarm": 2
-      }
-    ],
-    "BloodUIParmas": [
-      {
-        "HeightOffset": 25
-      }
-    ],
-    "AccessoryIds": [
-      {
-        "Normal": [
-          700004
-        ]
-      },
-      {
-        "Random": [
-          700001,
-          700002,
-          700003
-        ]
-      },
-      {
-        "RandomNum": 2
-      }
-    ],
+    "ChangeWeaponParams": {
+      "Disarm": 2
+    },
+    "BloodUIParmas": {
+      "HeightOffset": 25
+    },
+    "AccessoryIds": {
+      "Normal": [
+        700004
+      ],
+      "Random": [
+        700001,
+        700002,
+        700003
+      ],
+      "RandomNum": 2
+    },
     "ExpBasic": 500,
     "MiniMapId": 1,
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Annihilate_S.Guide_Icon_Annihilate_S",
@@ -4444,19 +3997,15 @@
       "Mon.Reward.B",
       "Mon.Elite"
     ],
-    "DMMIParams": [
-      {
-        "DMMIColor": [
-          7.81,
-          12.63,
-          20,
-          1
-        ]
-      },
-      {
-        "DMMILineWidth": 0.5
-      }
-    ],
+    "DMMIParams": {
+      "DMMIColor": [
+        7.81,
+        12.63,
+        20,
+        1
+      ],
+      "DMMILineWidth": 0.5
+    },
     "Camp": "Monster",
     "ModelId": 700301,
     "DisableTicklod": true,
@@ -4467,31 +4016,21 @@
     "WeaponId": [
       700301
     ],
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Elite_Monster"
-      },
-      {
-        "HeightOffset": 45
-      }
-    ],
-    "AccessoryIds": [
-      {
-        "Normal": [
-          700004
-        ]
-      },
-      {
-        "Random": [
-          700001,
-          700002,
-          700003
-        ]
-      },
-      {
-        "RandomNum": 2
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Elite_Monster",
+      "HeightOffset": 45
+    },
+    "AccessoryIds": {
+      "Normal": [
+        700004
+      ],
+      "Random": [
+        700001,
+        700002,
+        700003
+      ],
+      "RandomNum": 2
+    },
     "RewardId": 5,
     "ExpBasic": 500,
     "MiniMapId": 2,
@@ -4516,19 +4055,15 @@
       "Mon.Reward.B",
       "Mon.Elite"
     ],
-    "DMMIParams": [
-      {
-        "DMMIColor": [
-          10,
-          0.71,
-          0,
-          1
-        ]
-      },
-      {
-        "DMMILineWidth": 0.5
-      }
-    ],
+    "DMMIParams": {
+      "DMMIColor": [
+        10,
+        0.71,
+        0,
+        1
+      ],
+      "DMMILineWidth": 0.5
+    },
     "Camp": "Monster",
     "ModelId": 700301,
     "DisableTicklod": true,
@@ -4539,31 +4074,21 @@
     "WeaponId": [
       700301
     ],
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Elite_Monster"
-      },
-      {
-        "HeightOffset": 45
-      }
-    ],
-    "AccessoryIds": [
-      {
-        "Normal": [
-          700004
-        ]
-      },
-      {
-        "Random": [
-          700001,
-          700002,
-          700003
-        ]
-      },
-      {
-        "RandomNum": 2
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Elite_Monster",
+      "HeightOffset": 45
+    },
+    "AccessoryIds": {
+      "Normal": [
+        700004
+      ],
+      "Random": [
+        700001,
+        700002,
+        700003
+      ],
+      "RandomNum": 2
+    },
     "RewardId": 5,
     "ExpBasic": 500,
     "MiniMapId": 2,
@@ -4589,19 +4114,15 @@
       "Mon.Reward.B",
       "Mon.Elite"
     ],
-    "DMMIParams": [
-      {
-        "DMMIColor": [
-          3.76,
-          4.8,
-          0,
-          1
-        ]
-      },
-      {
-        "DMMILineWidth": 0.5
-      }
-    ],
+    "DMMIParams": {
+      "DMMIColor": [
+        3.76,
+        4.8,
+        0,
+        1
+      ],
+      "DMMILineWidth": 0.5
+    },
     "Camp": "Monster",
     "ModelId": 700301,
     "DisableTicklod": true,
@@ -4612,31 +4133,21 @@
     "WeaponId": [
       700301
     ],
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Elite_Monster"
-      },
-      {
-        "HeightOffset": 45
-      }
-    ],
-    "AccessoryIds": [
-      {
-        "Normal": [
-          700004
-        ]
-      },
-      {
-        "Random": [
-          700001,
-          700002,
-          700003
-        ]
-      },
-      {
-        "RandomNum": 2
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Elite_Monster",
+      "HeightOffset": 45
+    },
+    "AccessoryIds": {
+      "Normal": [
+        700004
+      ],
+      "Random": [
+        700001,
+        700002,
+        700003
+      ],
+      "RandomNum": 2
+    },
     "RewardId": 5,
     "ExpBasic": 500,
     "MiniMapId": 2,
@@ -4661,19 +4172,15 @@
       "Mon.Reward.B",
       "Mon.Elite"
     ],
-    "DMMIParams": [
-      {
-        "DMMIColor": [
-          2.75,
-          5.75,
-          30,
-          1
-        ]
-      },
-      {
-        "DMMILineWidth": 0.5
-      }
-    ],
+    "DMMIParams": {
+      "DMMIColor": [
+        2.75,
+        5.75,
+        30,
+        1
+      ],
+      "DMMILineWidth": 0.5
+    },
     "Camp": "Monster",
     "ModelId": 700301,
     "DisableTicklod": true,
@@ -4684,31 +4191,21 @@
     "WeaponId": [
       700301
     ],
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Elite_Monster"
-      },
-      {
-        "HeightOffset": 45
-      }
-    ],
-    "AccessoryIds": [
-      {
-        "Normal": [
-          700004
-        ]
-      },
-      {
-        "Random": [
-          700001,
-          700002,
-          700003
-        ]
-      },
-      {
-        "RandomNum": 2
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Elite_Monster",
+      "HeightOffset": 45
+    },
+    "AccessoryIds": {
+      "Normal": [
+        700004
+      ],
+      "Random": [
+        700001,
+        700002,
+        700003
+      ],
+      "RandomNum": 2
+    },
     "RewardId": 5,
     "ExpBasic": 500,
     "MiniMapId": 2,
@@ -4733,19 +4230,15 @@
       "Mon.Reward.B",
       "Mon.Elite"
     ],
-    "DMMIParams": [
-      {
-        "DMMIColor": [
-          18.36,
-          0,
-          1.25,
-          1
-        ]
-      },
-      {
-        "DMMILineWidth": 0.5
-      }
-    ],
+    "DMMIParams": {
+      "DMMIColor": [
+        18.36,
+        0,
+        1.25,
+        1
+      ],
+      "DMMILineWidth": 0.5
+    },
     "Camp": "Monster",
     "ModelId": 700301,
     "DisableTicklod": true,
@@ -4756,31 +4249,21 @@
     "WeaponId": [
       700301
     ],
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Elite_Monster"
-      },
-      {
-        "HeightOffset": 45
-      }
-    ],
-    "AccessoryIds": [
-      {
-        "Normal": [
-          700004
-        ]
-      },
-      {
-        "Random": [
-          700001,
-          700002,
-          700003
-        ]
-      },
-      {
-        "RandomNum": 2
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Elite_Monster",
+      "HeightOffset": 45
+    },
+    "AccessoryIds": {
+      "Normal": [
+        700004
+      ],
+      "Random": [
+        700001,
+        700002,
+        700003
+      ],
+      "RandomNum": 2
+    },
     "RewardId": 5,
     "ExpBasic": 500,
     "MiniMapId": 2,
@@ -4805,19 +4288,15 @@
       "Mon.Reward.B",
       "Mon.Elite"
     ],
-    "DMMIParams": [
-      {
-        "DMMIColor": [
-          4.18,
-          1.24,
-          15,
-          1
-        ]
-      },
-      {
-        "DMMILineWidth": 0.5
-      }
-    ],
+    "DMMIParams": {
+      "DMMIColor": [
+        4.18,
+        1.24,
+        15,
+        1
+      ],
+      "DMMILineWidth": 0.5
+    },
     "Camp": "Monster",
     "ModelId": 700301,
     "DisableTicklod": true,
@@ -4828,31 +4307,21 @@
     "WeaponId": [
       700301
     ],
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Elite_Monster"
-      },
-      {
-        "HeightOffset": 45
-      }
-    ],
-    "AccessoryIds": [
-      {
-        "Normal": [
-          700004
-        ]
-      },
-      {
-        "Random": [
-          700001,
-          700002,
-          700003
-        ]
-      },
-      {
-        "RandomNum": 2
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Elite_Monster",
+      "HeightOffset": 45
+    },
+    "AccessoryIds": {
+      "Normal": [
+        700004
+      ],
+      "Random": [
+        700001,
+        700002,
+        700003
+      ],
+      "RandomNum": 2
+    },
     "RewardId": 5,
     "ExpBasic": 500,
     "MiniMapId": 2,
@@ -4877,19 +4346,15 @@
       "Mon.Reward.B",
       "Mon.Elite"
     ],
-    "DMMIParams": [
-      {
-        "DMMIColor": [
-          1.31,
-          16.03,
-          42,
-          1
-        ]
-      },
-      {
-        "DMMILineWidth": 0.5
-      }
-    ],
+    "DMMIParams": {
+      "DMMIColor": [
+        1.31,
+        16.03,
+        42,
+        1
+      ],
+      "DMMILineWidth": 0.5
+    },
     "Camp": "Monster",
     "ModelId": 700301,
     "DisableTicklod": true,
@@ -4900,31 +4365,21 @@
     "WeaponId": [
       700301
     ],
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Elite_Monster"
-      },
-      {
-        "HeightOffset": 45
-      }
-    ],
-    "AccessoryIds": [
-      {
-        "Normal": [
-          700004
-        ]
-      },
-      {
-        "Random": [
-          700001,
-          700002,
-          700003
-        ]
-      },
-      {
-        "RandomNum": 2
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Elite_Monster",
+      "HeightOffset": 45
+    },
+    "AccessoryIds": {
+      "Normal": [
+        700004
+      ],
+      "Random": [
+        700001,
+        700002,
+        700003
+      ],
+      "RandomNum": 2
+    },
     "RewardId": 5,
     "ExpBasic": 500,
     "MiniMapId": 2,
@@ -4949,19 +4404,15 @@
       "Mon.Reward.B",
       "Mon.Elite"
     ],
-    "DMMIParams": [
-      {
-        "DMMIColor": [
-          2.19,
-          0.17,
-          0.79,
-          1
-        ]
-      },
-      {
-        "DMMILineWidth": 0.5
-      }
-    ],
+    "DMMIParams": {
+      "DMMIColor": [
+        2.19,
+        0.17,
+        0.79,
+        1
+      ],
+      "DMMILineWidth": 0.5
+    },
     "Camp": "Monster",
     "ModelId": 700301,
     "DisableTicklod": true,
@@ -4972,31 +4423,21 @@
     "WeaponId": [
       700301
     ],
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Elite_Monster"
-      },
-      {
-        "HeightOffset": 45
-      }
-    ],
-    "AccessoryIds": [
-      {
-        "Normal": [
-          700004
-        ]
-      },
-      {
-        "Random": [
-          700001,
-          700002,
-          700003
-        ]
-      },
-      {
-        "RandomNum": 2
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Elite_Monster",
+      "HeightOffset": 45
+    },
+    "AccessoryIds": {
+      "Normal": [
+        700004
+      ],
+      "Random": [
+        700001,
+        700002,
+        700003
+      ],
+      "RandomNum": 2
+    },
     "RewardId": 5,
     "ExpBasic": 500,
     "MiniMapId": 2,
@@ -5029,24 +4470,18 @@
     "WeaponId": [
       700401
     ],
-    "BloodUIParmas": [
-      {
-        "HeightOffset": 15
-      }
-    ],
-    "AccessoryIds": [
-      {
-        "Random": [
-          700007,
-          700008,
-          700009,
-          700010
-        ]
-      },
-      {
-        "RandomNum": 3
-      }
-    ],
+    "BloodUIParmas": {
+      "HeightOffset": 15
+    },
+    "AccessoryIds": {
+      "Random": [
+        700007,
+        700008,
+        700009,
+        700010
+      ],
+      "RandomNum": 3
+    },
     "RewardId": 5,
     "ExpBasic": 500,
     "MiniMapId": 1,
@@ -5076,24 +4511,18 @@
     "WeaponId": [
       700401
     ],
-    "BloodUIParmas": [
-      {
-        "HeightOffset": 15
-      }
-    ],
-    "AccessoryIds": [
-      {
-        "Random": [
-          700007,
-          700008,
-          700009,
-          700010
-        ]
-      },
-      {
-        "RandomNum": 3
-      }
-    ],
+    "BloodUIParmas": {
+      "HeightOffset": 15
+    },
+    "AccessoryIds": {
+      "Random": [
+        700007,
+        700008,
+        700009,
+        700010
+      ],
+      "RandomNum": 3
+    },
     "ExpBasic": 500,
     "MiniMapId": 1,
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Annihilate_S.Guide_Icon_Annihilate_S",
@@ -5115,19 +4544,15 @@
       "Mon.Reward.B",
       "Mon.Elite"
     ],
-    "DMMIParams": [
-      {
-        "DMMIColor": [
-          10,
-          0.71,
-          0,
-          1
-        ]
-      },
-      {
-        "DMMILineWidth": 0.5
-      }
-    ],
+    "DMMIParams": {
+      "DMMIColor": [
+        10,
+        0.71,
+        0,
+        1
+      ],
+      "DMMILineWidth": 0.5
+    },
     "Camp": "Monster",
     "ModelId": 700401,
     "DisableTicklod": true,
@@ -5142,19 +4567,15 @@
       "UIStyleNodeName": "Elite_Monster",
       "HeightOffset": 25
     },
-    "AccessoryIds": [
-      {
-        "Random": [
-          700007,
-          700008,
-          700009,
-          700010
-        ]
-      },
-      {
-        "RandomNum": 3
-      }
-    ],
+    "AccessoryIds": {
+      "Random": [
+        700007,
+        700008,
+        700009,
+        700010
+      ],
+      "RandomNum": 3
+    },
     "RewardId": 5,
     "ExpBasic": 500,
     "MiniMapId": 2,
@@ -5186,24 +4607,18 @@
     "WeaponId": [
       700401
     ],
-    "BloodUIParmas": [
-      {
-        "HeightOffset": 15
-      }
-    ],
-    "AccessoryIds": [
-      {
-        "Random": [
-          700007,
-          700008,
-          700009,
-          700010
-        ]
-      },
-      {
-        "RandomNum": 3
-      }
-    ],
+    "BloodUIParmas": {
+      "HeightOffset": 15
+    },
+    "AccessoryIds": {
+      "Random": [
+        700007,
+        700008,
+        700009,
+        700010
+      ],
+      "RandomNum": 3
+    },
     "RewardId": 5,
     "ExpBasic": 500,
     "MiniMapId": 1,
@@ -5231,24 +4646,18 @@
     "WeaponId": [
       700401
     ],
-    "BloodUIParmas": [
-      {
-        "HeightOffset": 15
-      }
-    ],
-    "AccessoryIds": [
-      {
-        "Random": [
-          700007,
-          700008,
-          700009,
-          700010
-        ]
-      },
-      {
-        "RandomNum": 3
-      }
-    ],
+    "BloodUIParmas": {
+      "HeightOffset": 15
+    },
+    "AccessoryIds": {
+      "Random": [
+        700007,
+        700008,
+        700009,
+        700010
+      ],
+      "RandomNum": 3
+    },
     "ExpBasic": 500,
     "MiniMapId": 1,
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Annihilate_S.Guide_Icon_Annihilate_S",
@@ -5268,19 +4677,15 @@
       "Mon.Melee",
       "Mon.Summon.Light"
     ],
-    "DMMIParams": [
-      {
-        "DMMIColor": [
-          10,
-          9.49,
-          0,
-          1
-        ]
-      },
-      {
-        "DMMILineWidth": 0.5
-      }
-    ],
+    "DMMIParams": {
+      "DMMIColor": [
+        10,
+        9.49,
+        0,
+        1
+      ],
+      "DMMILineWidth": 0.5
+    },
     "Camp": "Monster",
     "ModelId": 700601,
     "DisableTicklod": true,
@@ -5293,11 +4698,9 @@
     },
     "RewardId": 5,
     "ExpBasic": 500,
-    "HitReplace": [
-      {
-        "HitFly": "LightHit"
-      }
-    ],
+    "HitReplace": {
+      "HitFly": "LightHit"
+    },
     "MiniMapId": 2,
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Annihilate_S.Guide_Icon_Annihilate_S",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_DefeatMission.T_Gp_DefeatMission",
@@ -5315,19 +4718,15 @@
       "Mon.Melee",
       "Mon.Summon.Light"
     ],
-    "DMMIParams": [
-      {
-        "DMMIColor": [
-          10,
-          9.49,
-          0,
-          1
-        ]
-      },
-      {
-        "DMMILineWidth": 0.5
-      }
-    ],
+    "DMMIParams": {
+      "DMMIColor": [
+        10,
+        9.49,
+        0,
+        1
+      ],
+      "DMMILineWidth": 0.5
+    },
     "Camp": "Monster",
     "ModelId": 700701,
     "DisableTicklod": true,
@@ -5335,18 +4734,14 @@
     "AlertId": 10,
     "UnitBPPath": "/Game/AssetDesign/Char/Monster/Jt_BlastRobot/BP_Jt_BlastRobot.BP_Jt_BlastRobot",
     "BT": "/Game/AssetDesign/AI/Monster/Jt_BlastRobot/Level_Capture/BT_Jt_7BlastRobot_Cap.BT_Jt_7BlastRobot_Cap",
-    "BloodUIParmas": [
-      {
-        "HeightOffset": 20
-      }
-    ],
+    "BloodUIParmas": {
+      "HeightOffset": 20
+    },
     "RewardId": 5,
     "ExpBasic": 500,
-    "HitReplace": [
-      {
-        "HitFly": "LightHit"
-      }
-    ],
+    "HitReplace": {
+      "HitFly": "LightHit"
+    },
     "MiniMapId": 2,
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Annihilate_S.Guide_Icon_Annihilate_S",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_DefeatMission.T_Gp_DefeatMission",
@@ -5369,18 +4764,14 @@
     "AlertId": 10,
     "UnitBPPath": "/Game/AssetDesign/Char/Monster/Jt_BlastRobot/BP_Jt_BlastRobot_C01.BP_Jt_BlastRobot_C01",
     "BT": "/Game/AssetDesign/AI/Monster/Jt_BlastRobot/Level_Hijack/BT_Jt_7BlastRobot_Hij.BT_Jt_7BlastRobot_Hij",
-    "BloodUIParmas": [
-      {
-        "HeightOffset": 25
-      }
-    ],
+    "BloodUIParmas": {
+      "HeightOffset": 25
+    },
     "RewardId": 5,
     "ExpBasic": 500,
-    "HitReplace": [
-      {
-        "HitFly": "LightHit"
-      }
-    ],
+    "HitReplace": {
+      "HitFly": "LightHit"
+    },
     "MiniMapId": 1,
     "GuideIconAni": "/Game/UI/WBP/GuidePoint/WBP_GuidePoint_BlastRobot.WBP_GuidePoint_BlastRobot",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/Map/T_Map_BlastRobot.T_Map_BlastRobot",
@@ -5404,18 +4795,14 @@
     "AlertId": 10,
     "UnitBPPath": "/Game/AssetDesign/Char/Monster/Jt_BlastRobot/BP_Jt_BlastRobot_C01.BP_Jt_BlastRobot_C01",
     "BT": "/Game/AssetDesign/AI/Monster/Jt_BlastRobot/Region/BT_JT_7BlastRobot_Harvest.BT_JT_7BlastRobot_Harvest",
-    "BloodUIParmas": [
-      {
-        "HeightOffset": 25
-      }
-    ],
+    "BloodUIParmas": {
+      "HeightOffset": 25
+    },
     "RewardId": 5,
     "ExpBasic": 500,
-    "HitReplace": [
-      {
-        "HitFly": "LightHit"
-      }
-    ],
+    "HitReplace": {
+      "HitFly": "LightHit"
+    },
     "MiniMapId": 1,
     "GuideIconAni": "/Game/UI/WBP/GuidePoint/WBP_GuidePoint_BlastRobot.WBP_GuidePoint_BlastRobot",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/Map/T_Map_BlastRobot.T_Map_BlastRobot",
@@ -5439,16 +4826,12 @@
     "AlertId": 10,
     "UnitBPPath": "/Game/AssetDesign/Char/Monster/Jt_BlastRobot/BP_Jt_BlastRobot_C01.BP_Jt_BlastRobot_C01",
     "BT": "/Game/AssetDesign/AI/Monster/Jt_BlastRobot/Level_Temple/BT_7BlastRobot_Tem_101.BT_7BlastRobot_Tem_101",
-    "BloodUIParmas": [
-      {
-        "HeightOffset": 20
-      }
-    ],
-    "HitReplace": [
-      {
-        "HitFly": "LightHit"
-      }
-    ],
+    "BloodUIParmas": {
+      "HeightOffset": 20
+    },
+    "HitReplace": {
+      "HitFly": "LightHit"
+    },
     "MiniMapId": 2,
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Annihilate_S.Guide_Icon_Annihilate_S",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_DefeatMission.T_Gp_DefeatMission",
@@ -5458,7 +4841,12 @@
   "7008001": {
     "UnitId": 7008001,
     "UnitName": "Mon_Name_7008001",
-    "GamePlayTags": {},
+    "GamePlayTags": [
+      "Mon.Jt",
+      "Mon.Ranged",
+      "Mon.Reward.C",
+      "Mon.Elite"
+    ],
     "Camp": "Monster",
     "ModelId": 700801,
     "DisableTicklod": true,
@@ -5469,14 +4857,10 @@
     "WeaponId": [
       700801
     ],
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Elite_Monster"
-      },
-      {
-        "HeightOffset": 0
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Elite_Monster",
+      "HeightOffset": 0
+    },
     "EliteId": 1,
     "RewardId": 5,
     "ExpBasic": 500,
@@ -5492,7 +4876,11 @@
   "7008002": {
     "UnitId": 7008002,
     "UnitName": "Mon_Name_7008001",
-    "GamePlayTags": {},
+    "GamePlayTags": [
+      "Mon.Jt",
+      "Mon.Ranged",
+      "Mon.Elite"
+    ],
     "Camp": "Monster",
     "ModelId": 700801,
     "DisableTicklod": true,
@@ -5503,14 +4891,10 @@
     "WeaponId": [
       700801
     ],
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Elite_Monster"
-      },
-      {
-        "HeightOffset": 0
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Elite_Monster",
+      "HeightOffset": 0
+    },
     "EliteId": 1,
     "ExpBasic": 500,
     "MiniMapId": 2,
@@ -5525,7 +4909,12 @@
   "7011001": {
     "UnitId": 7011001,
     "UnitName": "Mon_Name_7001001",
-    "GamePlayTags": {},
+    "GamePlayTags": [
+      "Mon.Jt",
+      "Mon.Ranged",
+      "Mon.Attribute.Water",
+      "Mon.Reward.E"
+    ],
     "Camp": "Monster",
     "ModelId": 700101,
     "BattleRoleId": 7011001,
@@ -5536,17 +4925,13 @@
       700101,
       700001
     ],
-    "ChangeWeaponParams": [
-      {
-        "Disarm": 2
-      }
-    ],
+    "ChangeWeaponParams": {
+      "Disarm": 2
+    },
     "AttackCount": 2,
-    "BloodUIParmas": [
-      {
-        "HeightOffset": 5
-      }
-    ],
+    "BloodUIParmas": {
+      "HeightOffset": 5
+    },
     "RewardId": 5,
     "ExpBasic": 500,
     "MiniMapId": 1,
@@ -5561,7 +4946,12 @@
   "7012001": {
     "UnitId": 7012001,
     "UnitName": "Mon_Name_7002001",
-    "GamePlayTags": {},
+    "GamePlayTags": [
+      "Mon.Jt",
+      "Mon.Melee",
+      "Mon.Reward.E",
+      "Mon.Attribute.Wind"
+    ],
     "Camp": "Monster",
     "ModelId": 700201,
     "BattleRoleId": 7012001,
@@ -5569,25 +4959,21 @@
     "CommonAlertEnable": 1,
     "UnitBPPath": "/Game/AssetDesign/Char/Monster/Jt_Pizhuo/BP_Mon_Jt_Pizhuo.BP_Mon_Jt_Pizhuo",
     "BT": "/Game/AssetDesign/AI/Monster/Jt_Pizhuo/BT_7Pizhuo.BT_7Pizhuo",
-    "WeaponId": {},
-    "BloodUIParmas": [
-      {
-        "HeightOffset": 20
-      }
+    "WeaponId": [
+      701201
     ],
-    "AccessoryIds": [
-      {
-        "Random": [
-          700007,
-          700008,
-          700009,
-          700010
-        ]
-      },
-      {
-        "RandomNum": 3
-      }
-    ],
+    "BloodUIParmas": {
+      "HeightOffset": 20
+    },
+    "AccessoryIds": {
+      "Random": [
+        700007,
+        700008,
+        700009,
+        700010
+      ],
+      "RandomNum": 3
+    },
     "RewardId": 5,
     "ExpBasic": 500,
     "MiniMapId": 1,
@@ -5602,7 +4988,12 @@
   "7013001": {
     "UnitId": 7013001,
     "UnitName": "Mon_Name_7003001",
-    "GamePlayTags": {},
+    "GamePlayTags": [
+      "Mon.Jt",
+      "Mon.Ranged",
+      "Mon.Reward.E",
+      "Mon.Attribute.Thunder"
+    ],
     "Camp": "Monster",
     "ModelId": 700301,
     "BattleRoleId": 7013001,
@@ -5610,34 +5001,27 @@
     "CommonAlertEnable": 1,
     "UnitBPPath": "/Game/AssetDesign/Char/Monster/Jt_Ranger/BP_Mon_Jt_Ranger.BP_Mon_Jt_Ranger",
     "BT": "/Game/AssetDesign/AI/Monster/Jt_Ranger/BT_7Ranger.BT_7Ranger",
-    "WeaponId": {},
-    "ChangeWeaponParams": [
-      {
-        "Disarm": 2
-      }
+    "WeaponId": [
+      701301,
+      700001
     ],
-    "BloodUIParmas": [
-      {
-        "HeightOffset": 25
-      }
-    ],
-    "AccessoryIds": [
-      {
-        "Normal": [
-          700004
-        ]
-      },
-      {
-        "Random": [
-          700001,
-          700002,
-          700003
-        ]
-      },
-      {
-        "RandomNum": 2
-      }
-    ],
+    "ChangeWeaponParams": {
+      "Disarm": 2
+    },
+    "BloodUIParmas": {
+      "HeightOffset": 25
+    },
+    "AccessoryIds": {
+      "Normal": [
+        700004
+      ],
+      "Random": [
+        700001,
+        700002,
+        700003
+      ],
+      "RandomNum": 2
+    },
     "RewardId": 5,
     "ExpBasic": 500,
     "MiniMapId": 1,
@@ -5653,7 +5037,12 @@
   "7014001": {
     "UnitId": 7014001,
     "UnitName": "Mon_Name_7004001",
-    "GamePlayTags": {},
+    "GamePlayTags": [
+      "Mon.Jt",
+      "Mon.Melee",
+      "Mon.Reward.E",
+      "Mon.Attribute.Thunder"
+    ],
     "Camp": "Monster",
     "ModelId": 700401,
     "BattleRoleId": 7014001,
@@ -5661,25 +5050,21 @@
     "CommonAlertEnable": 1,
     "UnitBPPath": "/Game/AssetDesign/Char/Monster/Jt_Tuji/BP_Mon_Jt_Tuji.BP_Mon_Jt_Tuji",
     "BT": "/Game/AssetDesign/AI/Monster/Jt_Tuji/BT_7Tuji.BT_7Tuji",
-    "WeaponId": {},
-    "BloodUIParmas": [
-      {
-        "HeightOffset": 15
-      }
+    "WeaponId": [
+      700403
     ],
-    "AccessoryIds": [
-      {
-        "Random": [
-          700007,
-          700008,
-          700009,
-          700010
-        ]
-      },
-      {
-        "RandomNum": 3
-      }
-    ],
+    "BloodUIParmas": {
+      "HeightOffset": 15
+    },
+    "AccessoryIds": {
+      "Random": [
+        700007,
+        700008,
+        700009,
+        700010
+      ],
+      "RandomNum": 3
+    },
     "RewardId": 5,
     "ExpBasic": 500,
     "MiniMapId": 1,
@@ -5695,7 +5080,10 @@
   "8001000": {
     "UnitId": 8001000,
     "UnitName": "Mon_Name_8001000",
-    "GamePlayTags": {},
+    "GamePlayTags": [
+      "Mon.Jh",
+      "Mon.Ranged"
+    ],
     "Camp": "Monster",
     "ModelId": 800101,
     "BattleRoleId": 8001001,
@@ -5728,11 +5116,9 @@
       800101
     ],
     "AttackCount": 2,
-    "BloodUIParmas": [
-      {
-        "HeightOffset": -20
-      }
-    ],
+    "BloodUIParmas": {
+      "HeightOffset": -20
+    },
     "RewardId": 5,
     "ExpBasic": 500,
     "MiniMapId": 1,
@@ -5746,7 +5132,11 @@
   "8002001": {
     "UnitId": 8002001,
     "UnitName": "Mon_Name_8002001",
-    "GamePlayTags": {},
+    "GamePlayTags": [
+      "Mon.Jh",
+      "Mon.Melee",
+      "Mon.Reward.E"
+    ],
     "Camp": "Monster",
     "ModelId": 800201,
     "BattleRoleId": 8002001,
@@ -5754,12 +5144,12 @@
     "CommonAlertEnable": 1,
     "UnitBPPath": "/Game/AssetDesign/Char/Monster/Parent/BP_Mon_Parent_Human.BP_Mon_Parent_Human",
     "BT": "/Game/AssetDesign/AI/Monster/Jh_Xianfeng/BT_8Xianfeng.BT_8Xianfeng",
-    "WeaponId": {},
-    "BloodUIParmas": [
-      {
-        "HeightOffset": -20
-      }
+    "WeaponId": [
+      800201
     ],
+    "BloodUIParmas": {
+      "HeightOffset": -20
+    },
     "RewardId": 5,
     "ExpBasic": 500,
     "MiniMapId": 1,
@@ -5785,12 +5175,12 @@
     "CommonAlertEnable": 1,
     "UnitBPPath": "/Game/AssetDesign/Char/Monster/Parent/BP_Mon_Parent_Human.BP_Mon_Parent_Human",
     "BT": "/Game/AssetDesign/AI/Monster/Jh_Shenfu/BT_8Shenfu.BT_8Shenfu",
-    "WeaponId": {},
-    "BloodUIParmas": [
-      {
-        "HeightOffset": -20
-      }
+    "WeaponId": [
+      800301
     ],
+    "BloodUIParmas": {
+      "HeightOffset": -20
+    },
     "RewardId": 5,
     "ExpBasic": 500,
     "MiniMapId": 1,
@@ -5824,19 +5214,13 @@
       "PlayStoryAfterDeath": 0.2,
       "StoryEvent": "BossXibi_StoryEnd"
     },
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Boss"
-      }
-    ],
-    "BossUIValues": [
-      {
-        "IsBossPart": true
-      },
-      {
-        "ShowES": false
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Boss"
+    },
+    "BossUIValues": {
+      "IsBossPart": true,
+      "ShowES": false
+    },
     "ExpBasic": 500,
     "MiniMapId": 4,
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Annihilate_S.Guide_Icon_Annihilate_S",
@@ -5865,31 +5249,21 @@
     "WeaponId": [
       850001
     ],
-    "BossPenalize": [
-      {
-        "HandlePenalize": 1
-      }
-    ],
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Boss"
-      }
-    ],
-    "BossUIValues": [
-      {
-        "IsBossPart": true
-      },
-      {
-        "PhaseValues": [
-          0.5,
-          0.35,
-          0.15
-        ]
-      },
-      {
-        "ShowES": false
-      }
-    ],
+    "BossPenalize": {
+      "HandlePenalize": 1
+    },
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Boss"
+    },
+    "BossUIValues": {
+      "IsBossPart": true,
+      "PhaseValues": [
+        0.5,
+        0.35,
+        0.15
+      ],
+      "ShowES": false
+    },
     "ExpBasic": 500,
     "HitMontageRule": "BossXibiHard",
     "MiniMapId": 4,
@@ -5916,24 +5290,16 @@
     "AlertId": 10,
     "UnitBPPath": "/Game/AssetDesign/Char/Monster/Boss_04_Lizhan/BP_Boss_Lizhan_Story.BP_Boss_Lizhan_Story",
     "BT": "/Game/AssetDesign/AI/Monster/Boss_04_Lizhan/BT_Boss_Lizhan_Story.BT_Boss_Lizhan_Story",
-    "BossPenalize": [
-      {
-        "HandlePenalize": 1
-      }
-    ],
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Boss"
-      }
-    ],
-    "BossUIValues": [
-      {
-        "IsBossPart": true
-      },
-      {
-        "ShowES": false
-      }
-    ],
+    "BossPenalize": {
+      "HandlePenalize": 1
+    },
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Boss"
+    },
+    "BossUIValues": {
+      "IsBossPart": true,
+      "ShowES": false
+    },
     "ExpBasic": 500,
     "MiniMapId": 4,
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Annihilate_S.Guide_Icon_Annihilate_S",
@@ -5949,7 +5315,11 @@
   "8501002": {
     "UnitId": 8501002,
     "UnitName": "Mon_Name_8501001",
-    "GamePlayTags": {},
+    "GamePlayTags": [
+      "Mon.Boss",
+      "Mon.Reward.A",
+      "Mon.Reward.AA"
+    ],
     "Camp": "Monster",
     "ModelId": 850102,
     "DisableTicklod": true,
@@ -5957,11 +5327,9 @@
     "AlertId": 10,
     "UnitBPPath": "/Game/AssetDesign/Char/Monster/Boss_04_Lizhan/BP_Boss_Lizhan_Dungeon.BP_Boss_Lizhan_Dungeon",
     "BT": "/Game/AssetDesign/AI/Monster/Boss_04_Lizhan/BT_Boss_Lizhan.BT_Boss_Lizhan",
-    "BloodUIParmas": [
-      {
-        "HeightOffset": -100
-      }
-    ],
+    "BloodUIParmas": {
+      "HeightOffset": -100
+    },
     "ExpBasic": 500,
     "InitGuide": {
       "Defence": -1,
@@ -5999,24 +5367,16 @@
     "AlertId": 10,
     "UnitBPPath": "/Game/AssetDesign/Char/Monster/Boss_04_Lizhan/BP_Boss_Lizhan_Story.BP_Boss_Lizhan_Story",
     "BT": "/Game/AssetDesign/AI/Monster/Boss_04_Lizhan/BT_Boss_Lizhan_Story_2.BT_Boss_Lizhan_Story_2",
-    "BossPenalize": [
-      {
-        "HandlePenalize": 1
-      }
-    ],
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Boss"
-      }
-    ],
-    "BossUIValues": [
-      {
-        "IsBossPart": true
-      },
-      {
-        "ShowES": false
-      }
-    ],
+    "BossPenalize": {
+      "HandlePenalize": 1
+    },
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Boss"
+    },
+    "BossUIValues": {
+      "IsBossPart": true,
+      "ShowES": false
+    },
     "ExpBasic": 500,
     "MiniMapId": 4,
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Annihilate_S.Guide_Icon_Annihilate_S",
@@ -6043,11 +5403,9 @@
     "AlertId": 10,
     "UnitBPPath": "/Game/AssetDesign/Char/Monster/Boss_04_Lizhan/BP_Boss_Lizhan_Story.BP_Boss_Lizhan_Story",
     "BT": "/Game/AssetDesign/AI/Monster/Boss_04_Lizhan/BT_Boss_Lizhan.BT_Boss_Lizhan",
-    "BloodUIParmas": [
-      {
-        "HeightOffset": -100
-      }
-    ],
+    "BloodUIParmas": {
+      "HeightOffset": -100
+    },
     "MiniMapId": 4,
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Annihilate_S.Guide_Icon_Annihilate_S",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_DefeatMission.T_Gp_DefeatMission",
@@ -6083,31 +5441,19 @@
       "PlayStoryAfterDeath": 0.1,
       "StoryEvent": "BossSaiqi_StoryEnd"
     },
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Boss"
-      }
-    ],
-    "BossUIValues": [
-      {
-        "IsBossPart": true
-      },
-      {
-        "PhaseValues": [
-          0.9,
-          0.1
-        ]
-      },
-      {
-        "ShowES": false
-      },
-      {
-        "PartScaleCoefficientX": 3
-      },
-      {
-        "PartScaleCoefficientY": 0.6
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Boss"
+    },
+    "BossUIValues": {
+      "IsBossPart": true,
+      "PhaseValues": [
+        0.9,
+        0.1
+      ],
+      "ShowES": false,
+      "PartScaleCoefficientX": 3,
+      "PartScaleCoefficientY": 0.6
+    },
     "MultiHitedCapsule": true,
     "ExpBasic": 500,
     "MiniMapId": 4,
@@ -6137,36 +5483,22 @@
     "WeaponId": [
       850201
     ],
-    "BossPenalize": [
-      {
-        "HandlePenalize": 1
-      }
-    ],
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Boss"
-      }
-    ],
-    "BossUIValues": [
-      {
-        "IsBossPart": true
-      },
-      {
-        "PhaseValues": [
-          0.9,
-          0.1
-        ]
-      },
-      {
-        "ShowES": false
-      },
-      {
-        "PartScaleCoefficientX": 3
-      },
-      {
-        "PartScaleCoefficientY": 0.6
-      }
-    ],
+    "BossPenalize": {
+      "HandlePenalize": 1
+    },
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Boss"
+    },
+    "BossUIValues": {
+      "IsBossPart": true,
+      "PhaseValues": [
+        0.9,
+        0.1
+      ],
+      "ShowES": false,
+      "PartScaleCoefficientX": 3,
+      "PartScaleCoefficientY": 0.6
+    },
     "MultiHitedCapsule": true,
     "ExpBasic": 500,
     "MiniMapId": 4,
@@ -6201,22 +5533,14 @@
       "PlayStoryAfterDeath": 0.2,
       "StoryEvent": "BossShijingzhe_StoryEnd"
     },
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Boss"
-      }
-    ],
-    "BossUIValues": [
-      {
-        "IsBossPart": true
-      },
-      {
-        "ShowES": false
-      },
-      {
-        "HideTNUI": true
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Boss"
+    },
+    "BossUIValues": {
+      "IsBossPart": true,
+      "ShowES": false,
+      "HideTNUI": true
+    },
     "MultiHitedCapsule": true,
     "ExpBasic": 500,
     "MiniMapId": 4,
@@ -6248,27 +5572,17 @@
     "AlertId": 10,
     "UnitBPPath": "/Game/AssetDesign/Char/Monster/Boss_02_Shijingzhe/BP_Boss_Shijingzhe_Hard.BP_Boss_Shijingzhe_Hard",
     "BT": "/Game/AssetDesign/AI/Monster/Boss_02_Shijingzhe/BT_Boss_Shijingzhe_Hard.BT_Boss_Shijingzhe_Hard",
-    "BossPenalize": [
-      {
-        "HandlePenalize": 1
-      }
-    ],
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Boss"
-      }
-    ],
-    "BossUIValues": [
-      {
-        "IsBossPart": true
-      },
-      {
-        "ShowES": false
-      },
-      {
-        "HideTNUI": true
-      }
-    ],
+    "BossPenalize": {
+      "HandlePenalize": 1
+    },
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Boss"
+    },
+    "BossUIValues": {
+      "IsBossPart": true,
+      "ShowES": false,
+      "HideTNUI": true
+    },
     "MultiHitedCapsule": true,
     "ExpBasic": 500,
     "MiniMapId": 4,
@@ -6312,40 +5626,30 @@
     "ModelId": 850401,
     "DisableTicklod": true,
     "BattleRoleId": 8504001,
-    "FlyParams": [
-      {
-        "EnableFly": true
-      }
-    ],
+    "FlyParams": {
+      "EnableFly": true
+    },
     "AlertId": 10,
     "UnitBPPath": "/Game/AssetDesign/Char/Monster/Boss_03_Saiqi02/BP_Boss_Saiqi02.BP_Boss_Saiqi02",
     "BT": "/Game/AssetDesign/AI/Monster/Boss_03_Saiqi02/BT_Boss_Saiqi02.BT_Boss_Saiqi02",
-    "WeaponId": {},
-    "BossPenalize": [
-      {
-        "HandlePenalize": 1
-      }
+    "WeaponId": [
+      850401
     ],
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Boss"
-      }
-    ],
-    "BossUIValues": [
-      {
-        "IsBossPart": true
-      },
-      {
-        "PhaseValues": [
-          0.3,
-          0.4,
-          0.3
-        ]
-      },
-      {
-        "ShowES": true
-      }
-    ],
+    "BossPenalize": {
+      "HandlePenalize": 1
+    },
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Boss"
+    },
+    "BossUIValues": {
+      "IsBossPart": true,
+      "PhaseValues": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "ShowES": true
+    },
     "ExpBasic": 500,
     "MiniMapId": 4,
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Annihilate_S.Guide_Icon_Annihilate_S",
@@ -6368,39 +5672,27 @@
     "ModelId": 850403,
     "DisableTicklod": true,
     "BattleRoleId": 8504001,
-    "FlyParams": [
-      {
-        "EnableFly": true
-      }
-    ],
+    "FlyParams": {
+      "EnableFly": true
+    },
     "AlertId": 10,
     "UnitBPPath": "/Game/AssetDesign/Char/Monster/Boss_03_Saiqi02/BP_Boss_Saiqi02.BP_Boss_Saiqi02",
     "BT": "/Game/AssetDesign/AI/Monster/Boss_03_Saiqi02/BT_Boss_Saiqi02_Stage2.BT_Boss_Saiqi02_Stage2",
-    "BossPenalize": [
-      {
-        "HandlePenalize": 1
-      }
-    ],
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Boss"
-      }
-    ],
-    "BossUIValues": [
-      {
-        "IsBossPart": true
-      },
-      {
-        "PhaseValues": [
-          0.3,
-          0.4,
-          0.3
-        ]
-      },
-      {
-        "ShowES": true
-      }
-    ],
+    "BossPenalize": {
+      "HandlePenalize": 1
+    },
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Boss"
+    },
+    "BossUIValues": {
+      "IsBossPart": true,
+      "PhaseValues": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "ShowES": true
+    },
     "ExpBasic": 500,
     "MiniMapId": 4,
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Annihilate_S.Guide_Icon_Annihilate_S",
@@ -6421,19 +5713,15 @@
     "ModelId": 850403,
     "DisableTicklod": true,
     "BattleRoleId": 8504002,
-    "FlyParams": [
-      {
-        "EnableFly": true
-      }
-    ],
+    "FlyParams": {
+      "EnableFly": true
+    },
     "AlertId": 10,
     "UnitBPPath": "/Game/AssetDesign/Char/Monster/Boss_03_Saiqi02/BP_Boss_Saiqi02_Summon.BP_Boss_Saiqi02_Summon",
     "BT": "/Game/AssetDesign/AI/Monster/Boss_03_Saiqi02/BT_Boss_Saiqi02_Summon_01.BT_Boss_Saiqi02_Summon_01",
-    "BloodUIParmas": [
-      {
-        "HeightOffset": 10
-      }
-    ],
+    "BloodUIParmas": {
+      "HeightOffset": 10
+    },
     "ExpBasic": 500,
     "DeadDissolveTime": 0.3,
     "MiniMapId": 4,
@@ -6454,19 +5742,15 @@
     "ModelId": 850403,
     "DisableTicklod": true,
     "BattleRoleId": 8504002,
-    "FlyParams": [
-      {
-        "EnableFly": true
-      }
-    ],
+    "FlyParams": {
+      "EnableFly": true
+    },
     "AlertId": 10,
     "UnitBPPath": "/Game/AssetDesign/Char/Monster/Boss_03_Saiqi02/BP_Boss_Saiqi02_Summon.BP_Boss_Saiqi02_Summon",
     "BT": "/Game/AssetDesign/AI/Monster/Boss_03_Saiqi02/BT_Boss_Saiqi02_Summon_02.BT_Boss_Saiqi02_Summon_02",
-    "BloodUIParmas": [
-      {
-        "HeightOffset": 10
-      }
-    ],
+    "BloodUIParmas": {
+      "HeightOffset": 10
+    },
     "ExpBasic": 500,
     "DeadDissolveTime": 0.3,
     "MiniMapId": 4,
@@ -6492,36 +5776,26 @@
     "AlertId": 10,
     "UnitBPPath": "/Game/AssetDesign/Char/Monster/Boss_05_Lianhuo/BP_Boss_Lianhuo.BP_Boss_Lianhuo",
     "BT": "/Game/AssetDesign/AI/Monster/Boss_05_Lianhuo/BT_Boss_Lianhuo_Story.BT_Boss_Lianhuo_Story",
-    "WeaponId": {},
+    "WeaponId": [
+      850501
+    ],
     "BossPenalize": {
       "HandlePenalize": 1,
       "EnterPenalizeAfterDeath": 1
     },
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Boss"
-      }
-    ],
-    "BossUIValues": [
-      {
-        "IsBossPart": true
-      },
-      {
-        "PhaseValues": [
-          0.9,
-          0.1
-        ]
-      },
-      {
-        "ShowES": false
-      },
-      {
-        "PartScaleCoefficientX": 3
-      },
-      {
-        "PartScaleCoefficientY": 0.6
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Boss"
+    },
+    "BossUIValues": {
+      "IsBossPart": true,
+      "PhaseValues": [
+        0.9,
+        0.1
+      ],
+      "ShowES": false,
+      "PartScaleCoefficientX": 3,
+      "PartScaleCoefficientY": 0.6
+    },
     "MultiHitedCapsule": true,
     "ExpBasic": 500,
     "MiniMapId": 4,
@@ -6550,19 +5824,13 @@
     "WeaponId": [
       850701
     ],
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Boss"
-      }
-    ],
-    "BossUIValues": [
-      {
-        "IsBossPart": true
-      },
-      {
-        "ShowES": false
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Boss"
+    },
+    "BossUIValues": {
+      "IsBossPart": true,
+      "ShowES": false
+    },
     "ExpBasic": 500,
     "MiniMapId": 4,
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Annihilate_S.Guide_Icon_Annihilate_S",
@@ -6588,19 +5856,13 @@
     "WeaponId": [
       850701
     ],
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Boss"
-      }
-    ],
-    "BossUIValues": [
-      {
-        "IsBossPart": true
-      },
-      {
-        "ShowES": false
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Boss"
+    },
+    "BossUIValues": {
+      "IsBossPart": true,
+      "ShowES": false
+    },
     "ExpBasic": 500,
     "MiniMapId": 4,
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Annihilate_S.Guide_Icon_Annihilate_S",
@@ -6628,21 +5890,15 @@
     "WeaponId": [
       900101
     ],
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Elite_Monster"
-      },
-      {
-        "HeightOffset": -20
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Elite_Monster",
+      "HeightOffset": -20
+    },
     "RewardId": 5,
     "ExpBasic": 500,
-    "HitReplace": [
-      {
-        "HitFly": "LightHit"
-      }
-    ],
+    "HitReplace": {
+      "HitFly": "LightHit"
+    },
     "MiniMapId": 2,
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Annihilate_S.Guide_Icon_Annihilate_S",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_DefeatMission.T_Gp_DefeatMission",
@@ -6670,26 +5926,18 @@
     "WeaponId": [
       900101
     ],
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Elite_Monster"
-      },
-      {
-        "HeightOffset": -20
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Elite_Monster",
+      "HeightOffset": -20
+    },
     "RewardId": 5,
     "ExpBasic": 500,
-    "HitReplace": [
-      {
-        "HitFly": "LightHit"
-      }
-    ],
-    "InitGuide": [
-      {
-        "Sabotage": 8000
-      }
-    ],
+    "HitReplace": {
+      "HitFly": "LightHit"
+    },
+    "InitGuide": {
+      "Sabotage": 8000
+    },
     "MiniMapId": 2,
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Destroy.Guide_Icon_Destroy",
     "TeamMoveGroup": 9003,
@@ -6701,7 +5949,13 @@
   "9004001": {
     "UnitId": 9004001,
     "UnitName": "Mon_Name_9004001",
-    "GamePlayTags": {},
+    "GamePlayTags": [
+      "Mon.Sq",
+      "Mon.Ranged",
+      "Mon.Summon",
+      "Mon.Reward.C",
+      "Mon.Elite"
+    ],
     "Camp": "Monster",
     "ModelId": 900401,
     "DisableTicklod": true,
@@ -6709,27 +5963,23 @@
     "AlertId": 101,
     "UnitBPPath": "/Game/AssetDesign/Char/Monster/SQ_Wanju/BP_Mon_SQ_Wanju_Sum01.BP_Mon_SQ_Wanju_Sum01",
     "BT": "/Game/AssetDesign/AI/Monster/SQ_Wanju/BT_9Wanju_Sum01.BT_9Wanju_Sum01",
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Elite_Monster"
-      },
-      {
-        "HeightOffset": -20
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Elite_Monster",
+      "HeightOffset": -20
+    },
     "RewardId": 5,
     "ExpBasic": 500,
-    "HitReplace": [
-      {
-        "HitFly": "LightHit"
-      }
-    ],
+    "HitReplace": {
+      "HitFly": "LightHit"
+    },
     "MiniMapId": 2,
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Annihilate_S.Guide_Icon_Annihilate_S",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_DefeatMission.T_Gp_DefeatMission",
     "TeamMoveGroup": 9004,
     "DeadEffectId": 3,
-    "BirthFXList": {}
+    "BirthFXList": [
+      900407
+    ]
   },
   "9005001": {
     "UnitId": 9005001,
@@ -6750,21 +6000,15 @@
     "WeaponId": [
       900101
     ],
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Elite_Monster"
-      },
-      {
-        "HeightOffset": 0
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Elite_Monster",
+      "HeightOffset": 0
+    },
     "RewardId": 5,
     "ExpBasic": 500,
-    "HitReplace": [
-      {
-        "HitFly": "LightHit"
-      }
-    ],
+    "HitReplace": {
+      "HitFly": "LightHit"
+    },
     "MiniMapId": 2,
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Annihilate_S.Guide_Icon_Annihilate_S",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_DefeatMission.T_Gp_DefeatMission",
@@ -6792,26 +6036,18 @@
     "WeaponId": [
       900101
     ],
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Elite_Monster"
-      },
-      {
-        "HeightOffset": 0
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Elite_Monster",
+      "HeightOffset": 0
+    },
     "RewardId": 5,
     "ExpBasic": 500,
-    "HitReplace": [
-      {
-        "HitFly": "LightHit"
-      }
-    ],
-    "InitGuide": [
-      {
-        "Sabotage": 8000
-      }
-    ],
+    "HitReplace": {
+      "HitFly": "LightHit"
+    },
+    "InitGuide": {
+      "Sabotage": 8000
+    },
     "MiniMapId": 2,
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Destroy.Guide_Icon_Destroy",
     "TeamMoveGroup": 9003,
@@ -6839,21 +6075,15 @@
     "WeaponId": [
       900101
     ],
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Elite_Monster"
-      },
-      {
-        "HeightOffset": 20
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Elite_Monster",
+      "HeightOffset": 20
+    },
     "RewardId": 5,
     "ExpBasic": 500,
-    "HitReplace": [
-      {
-        "HitFly": "LightHit"
-      }
-    ],
+    "HitReplace": {
+      "HitFly": "LightHit"
+    },
     "MiniMapId": 2,
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Annihilate_S.Guide_Icon_Annihilate_S",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_DefeatMission.T_Gp_DefeatMission",
@@ -6883,21 +6113,15 @@
     "WeaponId": [
       900101
     ],
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Elite_Monster"
-      },
-      {
-        "HeightOffset": 20
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Elite_Monster",
+      "HeightOffset": 20
+    },
     "RewardId": 5,
     "ExpBasic": 500,
-    "HitReplace": [
-      {
-        "HitFly": "LightHit"
-      }
-    ],
+    "HitReplace": {
+      "HitFly": "LightHit"
+    },
     "DeadHitDisable": 1,
     "DeadDissolveTime": 0,
     "MiniMapId": 2,
@@ -6928,21 +6152,15 @@
     "WeaponId": [
       900101
     ],
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Elite_Monster"
-      },
-      {
-        "HeightOffset": 20
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Elite_Monster",
+      "HeightOffset": 20
+    },
     "RewardId": 5,
     "ExpBasic": 500,
-    "HitReplace": [
-      {
-        "HitFly": "LightHit"
-      }
-    ],
+    "HitReplace": {
+      "HitFly": "LightHit"
+    },
     "DeadHitDisable": 1,
     "DeadDissolveTime": 0,
     "MiniMapId": 2,
@@ -6951,7 +6169,9 @@
     "TeamMoveGroup": 9003,
     "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Monster/T_Head_SQ_Qizha.T_Head_SQ_Qizha",
     "DeadEffectId": 3,
-    "BirthFXList": {}
+    "BirthFXList": [
+      900601
+    ]
   },
   "9006004": {
     "UnitId": 9006004,
@@ -6972,26 +6192,18 @@
     "WeaponId": [
       900101
     ],
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Elite_Monster"
-      },
-      {
-        "HeightOffset": 20
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Elite_Monster",
+      "HeightOffset": 20
+    },
     "RewardId": 5,
     "ExpBasic": 500,
-    "HitReplace": [
-      {
-        "HitFly": "LightHit"
-      }
-    ],
-    "InitGuide": [
-      {
-        "Sabotage": 8000
-      }
-    ],
+    "HitReplace": {
+      "HitFly": "LightHit"
+    },
+    "InitGuide": {
+      "Sabotage": 8000
+    },
     "MiniMapId": 2,
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Destroy.Guide_Icon_Destroy",
     "TeamMoveGroup": 9003,
@@ -7017,25 +6229,15 @@
     "BT": "/Game/AssetDesign/AI/Monster/NE_Dajie/BT_9Dajie.BT_9Dajie",
     "RewardId": 5,
     "ExpBasic": 500,
-    "HitReplace": [
-      {
-        "HitFly": "LightHit"
-      }
-    ],
-    "InitGuide": [
-      {
-        "Capture": -1
-      },
-      {
-        "Excavation": -1
-      },
-      {
-        "Sabotage": -1
-      },
-      {
-        "Survival": -1
-      }
-    ],
+    "HitReplace": {
+      "HitFly": "LightHit"
+    },
+    "InitGuide": {
+      "Capture": -1,
+      "Excavation": -1,
+      "Sabotage": -1,
+      "Survival": -1
+    },
     "MiniMapId": 5,
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Annihilate_S.Guide_Icon_Annihilate_S",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_TreasureHunter.T_Gp_TreasureHunter",
@@ -7043,14 +6245,10 @@
     "GalleryRuleId": 9500001,
     "GuideId": 9500001,
     "DeadEffectId": 3,
-    "GlobalRefresh": [
-      {
-        "MosterType": "Treasure"
-      },
-      {
-        "Rate": 1
-      }
-    ]
+    "GlobalRefresh": {
+      "MosterType": "Treasure",
+      "Rate": 1
+    }
   },
   "9500021": {
     "UnitId": 9500021,
@@ -7069,25 +6267,15 @@
     "BT": "/Game/AssetDesign/AI/Monster/NE_Dajie/Region/BT_9Dajie_Harvest.BT_9Dajie_Harvest",
     "RewardId": 5,
     "ExpBasic": 500,
-    "HitReplace": [
-      {
-        "HitFly": "LightHit"
-      }
-    ],
-    "InitGuide": [
-      {
-        "Capture": -1
-      },
-      {
-        "Excavation": -1
-      },
-      {
-        "Sabotage": -1
-      },
-      {
-        "Survival": -1
-      }
-    ],
+    "HitReplace": {
+      "HitFly": "LightHit"
+    },
+    "InitGuide": {
+      "Capture": -1,
+      "Excavation": -1,
+      "Sabotage": -1,
+      "Survival": -1
+    },
     "MiniMapId": 5,
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Annihilate_S.Guide_Icon_Annihilate_S",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_TreasureHunter.T_Gp_TreasureHunter",
@@ -7095,14 +6283,10 @@
     "GalleryRuleId": 9500001,
     "GuideId": 9500001,
     "DeadEffectId": 3,
-    "GlobalRefresh": [
-      {
-        "MosterType": "Treasure"
-      },
-      {
-        "Rate": 1
-      }
-    ]
+    "GlobalRefresh": {
+      "MosterType": "Treasure",
+      "Rate": 1
+    }
   },
   "9500022": {
     "UnitId": 9500022,
@@ -7121,25 +6305,15 @@
     "BT": "/Game/AssetDesign/AI/Monster/NE_Dajie/Region/BT_9Dajie_Harvest.BT_9Dajie_Harvest",
     "RewardId": 5,
     "ExpBasic": 500,
-    "HitReplace": [
-      {
-        "HitFly": "LightHit"
-      }
-    ],
-    "InitGuide": [
-      {
-        "Capture": -1
-      },
-      {
-        "Excavation": -1
-      },
-      {
-        "Sabotage": -1
-      },
-      {
-        "Survival": -1
-      }
-    ],
+    "HitReplace": {
+      "HitFly": "LightHit"
+    },
+    "InitGuide": {
+      "Capture": -1,
+      "Excavation": -1,
+      "Sabotage": -1,
+      "Survival": -1
+    },
     "MiniMapId": 5,
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Annihilate_S.Guide_Icon_Annihilate_S",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_TreasureHunter.T_Gp_TreasureHunter",
@@ -7147,14 +6321,10 @@
     "GalleryRuleId": 9500001,
     "GuideId": 9500001,
     "DeadEffectId": 3,
-    "GlobalRefresh": [
-      {
-        "MosterType": "Treasure"
-      },
-      {
-        "Rate": 1
-      }
-    ]
+    "GlobalRefresh": {
+      "MosterType": "Treasure",
+      "Rate": 1
+    }
   },
   "9501001": {
     "UnitId": 9501001,
@@ -7174,26 +6344,16 @@
     "WeaponId": [
       950101
     ],
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Elite_Monster"
-      },
-      {
-        "HeightOffset": 0
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Elite_Monster",
+      "HeightOffset": 0
+    },
     "ExpBasic": 500,
-    "HitReplace": [
-      {
-        "HitFly": "LightHit"
-      },
-      {
-        "HeavyHit": "LightHit"
-      },
-      {
-        "LightHitRanged": "LightHit"
-      }
-    ],
+    "HitReplace": {
+      "HitFly": "LightHit",
+      "HeavyHit": "LightHit",
+      "LightHitRanged": "LightHit"
+    },
     "MiniMapId": 2,
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Annihilate_S.Guide_Icon_Annihilate_S",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_DefeatMission.T_Gp_DefeatMission",
@@ -7204,7 +6364,12 @@
   "9501002": {
     "UnitId": 9501002,
     "UnitName": "Mon_Name_9501001",
-    "GamePlayTags": {},
+    "GamePlayTags": [
+      "Mon.Melee",
+      "Mon.Capture",
+      "Mon.Reward.C",
+      "Mon.Elite"
+    ],
     "Camp": "Monster",
     "ModelId": 950101,
     "DisableTicklod": true,
@@ -7215,26 +6380,16 @@
     "WeaponId": [
       950101
     ],
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Elite_Monster"
-      },
-      {
-        "HeightOffset": 0
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Elite_Monster",
+      "HeightOffset": 0
+    },
     "ExpBasic": 500,
-    "HitReplace": [
-      {
-        "HitFly": "LightHit"
-      },
-      {
-        "HeavyHit": "LightHit"
-      },
-      {
-        "LightHitRanged": "LightHit"
-      }
-    ],
+    "HitReplace": {
+      "HitFly": "LightHit",
+      "HeavyHit": "LightHit",
+      "LightHitRanged": "LightHit"
+    },
     "MiniMapId": 2,
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Annihilate_S.Guide_Icon_Annihilate_S",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_DefeatMission.T_Gp_DefeatMission",
@@ -7265,14 +6420,10 @@
     "WeaponId": [
       950101
     ],
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Elite_Monster"
-      },
-      {
-        "HeightOffset": 0
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Elite_Monster",
+      "HeightOffset": 0
+    },
     "ExpBasic": 500,
     "MiniMapId": 2,
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Annihilate_S.Guide_Icon_Annihilate_S",
@@ -7298,14 +6449,10 @@
     "WeaponId": [
       950101
     ],
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Elite_Monster"
-      },
-      {
-        "HeightOffset": 0
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Elite_Monster",
+      "HeightOffset": 0
+    },
     "ExpBasic": 500,
     "MiniMapId": 2,
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Annihilate_S.Guide_Icon_Annihilate_S",
@@ -7331,14 +6478,10 @@
     "WeaponId": [
       950101
     ],
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Elite_Monster"
-      },
-      {
-        "HeightOffset": 0
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Elite_Monster",
+      "HeightOffset": 0
+    },
     "ExpBasic": 500,
     "MiniMapId": 2,
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Annihilate_S.Guide_Icon_Annihilate_S",
@@ -7363,14 +6506,10 @@
     "WeaponId": [
       950101
     ],
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Elite_Monster"
-      },
-      {
-        "HeightOffset": 0
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Elite_Monster",
+      "HeightOffset": 0
+    },
     "ExpBasic": 500,
     "MiniMapId": 2,
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Annihilate_S.Guide_Icon_Annihilate_S",
@@ -7396,14 +6535,10 @@
     "WeaponId": [
       950101
     ],
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Elite_Monster"
-      },
-      {
-        "HeightOffset": 0
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Elite_Monster",
+      "HeightOffset": 0
+    },
     "ExpBasic": 500,
     "MiniMapId": 2,
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Annihilate_S.Guide_Icon_Annihilate_S",
@@ -7429,14 +6564,10 @@
     "WeaponId": [
       950101
     ],
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Elite_Monster"
-      },
-      {
-        "HeightOffset": 0
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Elite_Monster",
+      "HeightOffset": 0
+    },
     "ExpBasic": 500,
     "MiniMapId": 2,
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Annihilate_S.Guide_Icon_Annihilate_S",
@@ -7461,14 +6592,10 @@
     "WeaponId": [
       950101
     ],
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Elite_Monster"
-      },
-      {
-        "HeightOffset": 0
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Elite_Monster",
+      "HeightOffset": 0
+    },
     "ExpBasic": 500,
     "MiniMapId": 2,
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Annihilate_S.Guide_Icon_Annihilate_S",
@@ -7479,7 +6606,10 @@
   "9801001": {
     "UnitId": 9801001,
     "UnitName": "Mon_Name_9801001",
-    "GamePlayTags": {},
+    "GamePlayTags": [
+      "Mon.Melee",
+      "Mon.Reward.E"
+    ],
     "Camp": "Monster",
     "ModelId": 980101,
     "BattleRoleId": 9801001,
@@ -7498,20 +6628,20 @@
   "70010051": {
     "UnitId": 70010051,
     "UnitName": "Mon_Name_7001006",
-    "GamePlayTags": {},
-    "DMMIParams": [
-      {
-        "DMMIColor": [
-          10,
-          9.49,
-          0,
-          1
-        ]
-      },
-      {
-        "DMMILineWidth": 0.5
-      }
+    "GamePlayTags": [
+      "Mon.Jt",
+      "Mon.Ranged",
+      "Mon.Summon.Light"
     ],
+    "DMMIParams": {
+      "DMMIColor": [
+        10,
+        9.49,
+        0,
+        1
+      ],
+      "DMMILineWidth": 0.5
+    },
     "Camp": "Monster",
     "ModelId": 700101,
     "DisableTicklod": true,
@@ -7523,21 +6653,15 @@
       700101
     ],
     "AttackCount": 2,
-    "BloodUIParmas": [
-      {
-        "UIStyleNodeName": "Elite_Monster"
-      },
-      {
-        "HeightOffset": 10
-      }
-    ],
+    "BloodUIParmas": {
+      "UIStyleNodeName": "Elite_Monster",
+      "HeightOffset": 10
+    },
     "RewardId": 5,
     "ExpBasic": 500,
-    "InitGuide": [
-      {
-        "Capture": -1
-      }
-    ],
+    "InitGuide": {
+      "Capture": -1
+    },
     "MiniMapId": 2,
     "GuideIconAni": "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Annihilate_S.Guide_Icon_Annihilate_S",
     "GuideIconBPPath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_DefeatMission.T_Gp_DefeatMission",

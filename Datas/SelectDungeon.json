@@ -1,7 +1,15 @@
 [
   {
     "ChapterId": 1,
-    "DungeonList": {},
+    "DungeonList": [
+      90401,
+      90407,
+      90413,
+      90419,
+      90425,
+      90431,
+      90437
+    ],
     "Sequence": 40,
     "ChapterName": "UI_DUNGEON_TYPE_SURVIVAL",
     "ChapterSubName": "UI_DUNGEON_DROP_CHARBREAK",
@@ -11,7 +19,15 @@
   },
   {
     "ChapterId": 2,
-    "DungeonList": {},
+    "DungeonList": [
+      90101,
+      90103,
+      90105,
+      90107,
+      90109,
+      90111,
+      90113
+    ],
     "Sequence": 32,
     "ChapterName": "UI_DUNGEON_TYPE_DEFENCEPRO",
     "ChapterSubName": "UI_DUNGEON_DROP_RangedWEAPONMOD",
@@ -21,7 +37,15 @@
   },
   {
     "ChapterId": 3,
-    "DungeonList": {},
+    "DungeonList": [
+      90201,
+      90202,
+      90203,
+      90204,
+      90205,
+      90206,
+      90207
+    ],
     "Sequence": 10,
     "ChapterName": "UI_DUNGEON_TYPE_EXCAVATION",
     "ChapterSubName": "UI_DUNGEON_DROP_COIN",
@@ -31,8 +55,17 @@
   },
   {
     "ChapterId": 4,
-    "DungeonList": {},
-    "Condition": {},
+    "DungeonList": [
+      90106,
+      90108,
+      90110,
+      90112,
+      90114
+    ],
+    "Condition": [
+      3001,
+      130
+    ],
     "Sequence": 70,
     "ChapterName": "UI_DUNGEON_TYPE_DEFENCE",
     "ChapterSubName": "UI_DUNGEON_DROP_SKILL",
@@ -42,7 +75,15 @@
   },
   {
     "ChapterId": 5,
-    "DungeonList": {},
+    "DungeonList": [
+      90305,
+      90306,
+      90307,
+      90308,
+      90309,
+      90310,
+      90311
+    ],
     "Sequence": 31,
     "ChapterName": "UI_DUNGEON_TYPE_CAPTURE",
     "ChapterSubName": "UI_DUNGEON_DROP_MeleeWEAPONMOD",
@@ -52,7 +93,15 @@
   },
   {
     "ChapterId": 6,
-    "DungeonList": {},
+    "DungeonList": [
+      90501,
+      90502,
+      90503,
+      90504,
+      90505,
+      90506,
+      90507
+    ],
     "Sequence": 41,
     "ChapterName": "UI_DUNGEON_TYPE_SABOTAGE",
     "ChapterSubName": "UI_DUNGEON_DROP_WEAPONBREAK",
@@ -62,7 +111,15 @@
   },
   {
     "ChapterId": 7,
-    "DungeonList": {},
+    "DungeonList": [
+      90601,
+      90602,
+      90603,
+      90604,
+      90605,
+      90606,
+      90607
+    ],
     "Sequence": 20,
     "ChapterName": "UI_DUNGEON_TYPE_SURVIVALPRO",
     "ChapterSubName": "UI_DUNGEON_DROP_CHAREXP",
@@ -72,8 +129,17 @@
   },
   {
     "ChapterId": 8,
-    "DungeonList": {},
-    "Condition": {},
+    "DungeonList": [
+      90702,
+      90703,
+      90704,
+      90705,
+      90706,
+      90707
+    ],
+    "Condition": [
+      3001
+    ],
     "Sequence": 80,
     "ChapterName": "UI_DUNGEON_TYPE_HIJACK",
     "ChapterSubName": "UI_DUNGEON_DROP_RESOURCE",
@@ -83,7 +149,15 @@
   },
   {
     "ChapterId": 9,
-    "DungeonList": {},
+    "DungeonList": [
+      90801,
+      90802,
+      90803,
+      90804,
+      90805,
+      90806,
+      90807
+    ],
     "Sequence": 21,
     "ChapterName": "UI_DUNGEON_TYPE_EXTERMINATE",
     "ChapterSubName": "UI_DUNGEON_DROP_WEAPONEXP",
@@ -93,7 +167,14 @@
   },
   {
     "ChapterId": 10,
-    "DungeonList": {},
+    "DungeonList": [
+      90902,
+      90903,
+      90904,
+      90905,
+      90906,
+      90907
+    ],
     "Sequence": 54,
     "ChapterName": "UI_DUNGEON_TYPE_RESCUE",
     "ChapterSubName": "UI_DUNGEON_DROP_MODCOIN",
@@ -103,7 +184,15 @@
   },
   {
     "ChapterId": 11,
-    "DungeonList": {},
+    "DungeonList": [
+      91001,
+      91002,
+      91003,
+      91004,
+      91005,
+      91006,
+      91007
+    ],
     "Sequence": 30,
     "ChapterName": "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
     "ChapterSubName": "UI_DUNGEON_DROP_CHARMOD",
@@ -113,7 +202,12 @@
   },
   {
     "ChapterId": 12,
-    "DungeonList": {},
+    "DungeonList": [
+      91008,
+      91009,
+      91010,
+      91011
+    ],
     "Sequence": 33,
     "ChapterName": "UI_DUNGEON_TYPE_DEF_EXTERMINATE_ONLINE",
     "ChapterSubName": "UI_DUNGEON_DROP_MOD",

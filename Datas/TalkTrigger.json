@@ -341,25 +341,21 @@
   },
   "110118": {
     "TalkTriggerId": 110118,
-    "TriggerCondition": [
-      {
-        "QuestFinish": [
-          "QuestId = 11010508"
-        ]
+    "TriggerCondition": {
+      "QuestFinish": {
+        "QuestId": 11010508
       }
-    ],
+    },
     "StoryLinePath": "Impression/EX01Fort/Gossip/Kajia1.story",
     "TalkId": 110118
   },
   "110119": {
     "TalkTriggerId": 110119,
-    "TriggerCondition": [
-      {
-        "QuestFinish": [
-          "QuestId = 11010508"
-        ]
+    "TriggerCondition": {
+      "QuestFinish": {
+        "QuestId": 11010508
       }
-    ],
+    },
     "StoryLinePath": "Impression/EX01Fort/Gossip/LaiAng.story",
     "TalkId": 110119
   },
@@ -387,15 +383,25 @@
   },
   "110123": {
     "TalkTriggerId": 110123,
-    "TriggerCondition": [
-      {
-        "Or": [
-          "T.RT_5",
-          "T.RT_7",
-          "T.RT_9"
-        ]
-      }
-    ],
+    "TriggerCondition": {
+      "Or": [
+        {
+          "QuestStart": {
+            "QuestId": 11010304
+          }
+        },
+        {
+          "QuestStart": {
+            "QuestId": 11010305
+          }
+        },
+        {
+          "QuestStart": {
+            "QuestId": 11010310
+          }
+        }
+      ]
+    },
     "StoryLinePath": "Impression/EX01Fort/Gossip/AwaTalk1.story",
     "TalkId": 110123
   },
@@ -411,41 +417,63 @@
   },
   "110125": {
     "TalkTriggerId": 110125,
-    "TriggerCondition": [
-      {
-        "Or": [
-          "T.RT_5",
-          "T.RT_7",
-          "T.RT_9"
-        ]
-      }
-    ],
+    "TriggerCondition": {
+      "Or": [
+        {
+          "QuestStart": {
+            "QuestId": 11010304
+          }
+        },
+        {
+          "QuestStart": {
+            "QuestId": 11010305
+          }
+        },
+        {
+          "QuestStart": {
+            "QuestId": 11010310
+          }
+        }
+      ]
+    },
     "StoryLinePath": "Impression/EX01Fort/Gossip/Monica1.story",
     "TalkId": 110125
   },
   "110126": {
     "TalkTriggerId": 110126,
-    "TriggerCondition": [
-      {
-        "And": [
-          "T.RT_13",
-          "T.RT_15"
-        ]
-      }
-    ],
+    "TriggerCondition": {
+      "And": [
+        {
+          "QuestStart": {
+            "QuestId": 11010109
+          }
+        },
+        {
+          "QuestUnstart": {
+            "QuestId": 11010301
+          }
+        }
+      ]
+    },
     "StoryLinePath": "Impression/EX01Fort/Gossip/HurtBubble01.story",
     "TalkId": 110126
   },
   "110127": {
     "TalkTriggerId": 110127,
-    "TriggerCondition": [
-      {
-        "And": [
-          "T.RT_13",
-          "T.RT_15"
-        ]
-      }
-    ],
+    "TriggerCondition": {
+      "And": [
+        {
+          "QuestStart": {
+            "QuestId": 11010109
+          }
+        },
+        {
+          "QuestUnstart": {
+            "QuestId": 11010301
+          }
+        }
+      ]
+    },
     "StoryLinePath": "Impression/EX01Fort/Gossip/HurtBubble02.story",
     "TalkId": 110127
   },
@@ -514,11 +542,9 @@
   "500004": {
     "TalkTriggerId": 500004,
     "TriggerCondition": {
-      "ImprUncomp": [
-        {
-          "TalkTriggerId": 510008
-        }
-      ]
+      "ImprUncomp": {
+        "TalkTriggerId": 510008
+      }
     },
     "StoryLinePath": "Impression/IceLakeCity/Gossip/500004.story",
     "TalkId": 500004
@@ -587,13 +613,11 @@
   },
   "500018": {
     "TalkTriggerId": 500018,
-    "TriggerCondition": [
-      {
-        "ImprUncomp": [
-          "TalkTriggerId = 510033"
-        ]
+    "TriggerCondition": {
+      "ImprUncomp": {
+        "TalkTriggerId": 510033
       }
-    ],
+    },
     "StoryLinePath": "Impression/IceLakeCity/Gossip/500018.story",
     "TalkId": 500018
   },
@@ -694,13 +718,11 @@
   },
   "500037": {
     "TalkTriggerId": 500037,
-    "TriggerCondition": [
-      {
-        "ImprUncomp": [
-          "TalkTriggerId = 510033"
-        ]
+    "TriggerCondition": {
+      "ImprUncomp": {
+        "TalkTriggerId": 510033
       }
-    ],
+    },
     "StoryLinePath": "Impression/IceLakeCity/Gossip/500037.story",
     "TalkId": 500037
   },
@@ -721,13 +743,11 @@
   },
   "500041": {
     "TalkTriggerId": 500041,
-    "TriggerCondition": [
-      {
-        "ImprUncomp": [
-          "TalkTriggerId = 510018"
-        ]
+    "TriggerCondition": {
+      "ImprUncomp": {
+        "TalkTriggerId": 510018
       }
-    ],
+    },
     "StoryLinePath": "Impression/IceLakeCity/Gossip/500041.story",
     "TalkId": 500041
   },
@@ -738,13 +758,11 @@
   },
   "500043": {
     "TalkTriggerId": 500043,
-    "TriggerCondition": [
-      {
-        "QuestChainFinish": [
-          "QuestChainId = 100208"
-        ]
+    "TriggerCondition": {
+      "QuestChainFinish": {
+        "QuestChainId": 100208
       }
-    ],
+    },
     "StoryLinePath": "Impression/IceLakeCity/Gossip/500043.story",
     "TalkId": 500043
   },
@@ -765,37 +783,31 @@
   },
   "500047": {
     "TalkTriggerId": 500047,
-    "TriggerCondition": [
-      {
-        "ImprUncomp": [
-          "TalkTriggerId = 510020"
-        ]
+    "TriggerCondition": {
+      "ImprUncomp": {
+        "TalkTriggerId": 510020
       }
-    ],
+    },
     "StoryLinePath": "Impression/IceLakeCity/Gossip/500047.story",
     "TalkId": 500047
   },
   "500048": {
     "TalkTriggerId": 500048,
-    "TriggerCondition": [
-      {
-        "ImprComp": [
-          "TalkTriggerId = 510022"
-        ]
+    "TriggerCondition": {
+      "ImprComp": {
+        "TalkTriggerId": 510022
       }
-    ],
+    },
     "StoryLinePath": "Impression/IceLakeCity/Gossip/500048.story",
     "TalkId": 500048
   },
   "500049": {
     "TalkTriggerId": 500049,
-    "TriggerCondition": [
-      {
-        "ImprUncomp": [
-          "TalkTriggerId = 510053"
-        ]
+    "TriggerCondition": {
+      "ImprUncomp": {
+        "TalkTriggerId": 510053
       }
-    ],
+    },
     "StoryLinePath": "Impression/IceLakeCity/Gossip/500049.story",
     "TalkId": 500049
   },
@@ -811,13 +823,11 @@
   },
   "500051": {
     "TalkTriggerId": 500051,
-    "TriggerCondition": [
-      {
-        "QuestFinish": [
-          "QuestId = 20021004"
-        ]
+    "TriggerCondition": {
+      "QuestFinish": {
+        "QuestId": 20021004
       }
-    ],
+    },
     "StoryLinePath": "Impression/IceLakeCity/Gossip/500051.story",
     "TalkId": 500051
   },
@@ -928,13 +938,11 @@
   "510009": {
     "TalkTriggerId": 510009,
     "Type": "Impression",
-    "TriggerCondition": [
-      {
-        "QuestChainFinish": [
-          "QuestChainId = 100201"
-        ]
+    "TriggerCondition": {
+      "QuestChainFinish": {
+        "QuestChainId": 100201
       }
-    ],
+    },
     "StoryLinePath": "Impression/IceLakeCity/510009_Mading.story",
     "TalkId": 510009
   },
@@ -1050,11 +1058,9 @@
     "TalkTriggerId": 510026,
     "Type": "Impression",
     "TriggerCondition": {
-      "ImprComp": [
-        {
-          "TalkTriggerId": 510025
-        }
-      ]
+      "ImprComp": {
+        "TalkTriggerId": 510025
+      }
     },
     "StoryLinePath": "Impression/IceLakeCity/510026_Kaiwen_1.story",
     "TalkId": 510026
@@ -1072,11 +1078,9 @@
     "TalkTriggerId": 510030,
     "Type": "Impression",
     "TriggerCondition": {
-      "ImprComp": [
-        {
-          "TalkTriggerId": 510029
-        }
-      ]
+      "ImprComp": {
+        "TalkTriggerId": 510029
+      }
     },
     "StoryLinePath": "Impression/IceLakeCity/510030_Bake_1.story",
     "TalkId": 510030
@@ -1096,11 +1100,9 @@
     "TalkTriggerId": 510035,
     "Type": "Impression",
     "TriggerCondition": {
-      "QuestChainStart": [
-        {
-          "QuestChainId": 200207
-        }
-      ]
+      "QuestChainStart": {
+        "QuestChainId": 200207
+      }
     },
     "StoryLinePath": "Impression/IceLakeCity/510035_Aima_1.story",
     "TalkId": 510035
@@ -1174,13 +1176,11 @@
   "510049": {
     "TalkTriggerId": 510049,
     "Type": "Impression",
-    "TriggerCondition": [
-      {
-        "QuestFinish": [
-          "QuestId = 20021301"
-        ]
+    "TriggerCondition": {
+      "QuestFinish": {
+        "QuestId": 20021301
       }
-    ],
+    },
     "StoryLinePath": "Impression/IceLakeCity/510049_Luna.story",
     "TalkId": 510049
   },
@@ -1248,13 +1248,11 @@
   "510058": {
     "TalkTriggerId": 510058,
     "Type": "Impression",
-    "TriggerCondition": [
-      {
-        "QuestChainFinish": [
-          "QuestChainId = 100202"
-        ]
+    "TriggerCondition": {
+      "QuestChainFinish": {
+        "QuestChainId": 100202
       }
-    ],
+    },
     "StoryLinePath": "Impression/IceLakeCity/510058_dean.story",
     "TalkId": 510058
   },
@@ -1741,24 +1739,20 @@
   },
   "5100032": {
     "TalkTriggerId": 5100032,
-    "TriggerCondition": [
-      {
-        "ImprComp": [
-          "TalkTriggerId = 510023"
-        ]
+    "TriggerCondition": {
+      "ImprComp": {
+        "TalkTriggerId": 510023
       }
-    ],
+    },
     "StoryLinePath": "Impression/IceLakeCity/510003_XilinFuren_1_EndTalk.story",
     "TalkId": 5100032
   },
   "5100042": {
     "TalkTriggerId": 5100042,
     "TriggerCondition": {
-      "ImprComp": [
-        {
-          "TalkTriggerId": 510004
-        }
-      ]
+      "ImprComp": {
+        "TalkTriggerId": 510004
+      }
     },
     "StoryLinePath": "Impression/IceLakeCity/510004_Aiersha_EndTalk.story",
     "TalkId": 5100042
@@ -1776,11 +1770,9 @@
   "5100082": {
     "TalkTriggerId": 5100082,
     "TriggerCondition": {
-      "ImprComp": [
-        {
-          "TalkTriggerId": 510008
-        }
-      ]
+      "ImprComp": {
+        "TalkTriggerId": 510008
+      }
     },
     "StoryLinePath": "Impression/IceLakeCity/510008_Alice_EndTalk_1.story",
     "TalkId": 5100082
@@ -1863,60 +1855,50 @@
   "5100202": {
     "TalkTriggerId": 5100202,
     "TriggerCondition": {
-      "ImprComp": [
-        {
-          "TalkTriggerId": 510020
-        }
-      ]
+      "ImprComp": {
+        "TalkTriggerId": 510020
+      }
     },
     "StoryLinePath": "Impression/IceLakeCity/510020_Blue_1_End.story",
     "TalkId": 5100193
   },
   "5100222": {
     "TalkTriggerId": 5100222,
-    "TriggerCondition": [
-      {
-        "ImprComp": [
-          "TalkTriggerId = 510022"
-        ]
+    "TriggerCondition": {
+      "ImprComp": {
+        "TalkTriggerId": 510022
       }
-    ],
+    },
     "StoryLinePath": "Impression/IceLakeCity/510022_Blue_2_End.story",
     "TalkId": 5100194
   },
   "5100232": {
     "TalkTriggerId": 5100232,
-    "TriggerCondition": [
-      {
-        "ImprComp": [
-          "TalkTriggerId = 510023"
-        ]
+    "TriggerCondition": {
+      "ImprComp": {
+        "TalkTriggerId": 510023
       }
-    ],
+    },
     "StoryLinePath": "Impression/IceLakeCity/510023_Shali_EndTalk.story",
     "TalkId": 5100232
   },
   "5100341": {
     "TalkTriggerId": 5100341,
-    "TriggerCondition": [
-      {
-        "QuestFinish": [
-          "QuestId = 20020608"
-        ]
+    "TriggerCondition": {
+      "QuestFinish": {
+        "QuestId": 20020608
       }
-    ],
+    },
     "StoryLinePath": "Impression/IceLakeCity/510034_Anuo_EndTalk.story",
     "TalkId": 5100341
   },
   "5100342": {
     "TalkTriggerId": 5100342,
-    "TriggerCondition": [
-      {
-        "QuestFinish": [
-          "QuestId = 20020608"
-        ]
+    "TriggerCondition": {
+      "QuestFinish": {
+        "QuestId": 20020608
       }
-    ],
+    },
     "StoryLinePath": "Impression/IceLakeCity/510034_Bake_EndTalk.story",
     "TalkId": 5100342
   },
@@ -1931,25 +1913,21 @@
   },
   "5100371": {
     "TalkTriggerId": 5100371,
-    "TriggerCondition": [
-      {
-        "QuestFinish": [
-          "QuestId = 20020706"
-        ]
+    "TriggerCondition": {
+      "QuestFinish": {
+        "QuestId": 20020706
       }
-    ],
+    },
     "StoryLinePath": "Impression/IceLakeCity/510037_Aima_EndTalk.story",
     "TalkId": 5100371
   },
   "5100372": {
     "TalkTriggerId": 5100372,
-    "TriggerCondition": [
-      {
-        "QuestFinish": [
-          "QuestId = 20020706"
-        ]
+    "TriggerCondition": {
+      "QuestFinish": {
+        "QuestId": 20020706
       }
-    ],
+    },
     "StoryLinePath": "Impression/IceLakeCity/510037_Beilinda_EndTalk.story",
     "TalkId": 5100372
   },
@@ -1965,13 +1943,11 @@
   },
   "5100421": {
     "TalkTriggerId": 5100421,
-    "TriggerCondition": [
-      {
-        "QuestFinish": [
-          "QuestId = 20021004"
-        ]
+    "TriggerCondition": {
+      "QuestFinish": {
+        "QuestId": 20021004
       }
-    ],
+    },
     "StoryLinePath": "Impression/IceLakeCity/510042_Heerluo_EndTalk.story",
     "TalkId": 5100421
   },
@@ -1997,13 +1973,11 @@
   },
   "5100511": {
     "TalkTriggerId": 5100511,
-    "TriggerCondition": [
-      {
-        "QuestFinish": [
-          "QuestId = 20021301"
-        ]
+    "TriggerCondition": {
+      "QuestFinish": {
+        "QuestId": 20021301
       }
-    ],
+    },
     "StoryLinePath": "Impression/IceLakeCity/510051_Maer_EndTalk.story",
     "TalkId": 5100511
   },
@@ -2020,11 +1994,9 @@
   "5100531": {
     "TalkTriggerId": 5100531,
     "TriggerCondition": {
-      "ImprComp": [
-        {
-          "TalkTriggerId": 510053
-        }
-      ]
+      "ImprComp": {
+        "TalkTriggerId": 510053
+      }
     },
     "StoryLinePath": "Impression/IceLakeCity/510053_Makusi_EndTalk.story",
     "TalkId": 5100531

@@ -7,7 +7,9 @@
     "TargetId": 101,
     "TargetType": 10001,
     "TargetParam": [
-      {}
+      [
+        "8"
+      ]
     ]
   },
   "102": {
@@ -32,7 +34,9 @@
     "TargetId": 104,
     "TargetType": 10001,
     "TargetParam": [
-      {}
+      [
+        "35"
+      ]
     ]
   },
   "105": {
@@ -48,7 +52,9 @@
     "TargetId": 106,
     "TargetType": 10001,
     "TargetParam": [
-      {}
+      [
+        "25"
+      ]
     ]
   },
   "107": {
@@ -64,7 +70,9 @@
     "TargetId": 108,
     "TargetType": 10001,
     "TargetParam": [
-      {}
+      [
+        "18"
+      ]
     ]
   },
   "201": {
@@ -365,7 +373,9 @@
   "2051": {
     "TargetId": 2051,
     "BattleAchiTargetTypeId": 2051,
-    "ConditionId": {}
+    "ConditionId": [
+      1000205
+    ]
   },
   "2052": {
     "TargetId": 2052,
@@ -387,7 +397,9 @@
     "TargetId": 3001,
     "BattleAchiTargetTypeId": 3001,
     "IndividualRule": "greater",
-    "ConditionId": {}
+    "ConditionId": [
+      1000010
+    ]
   },
   "3011": {
     "TargetId": 3011,
@@ -544,7 +556,10 @@
   "5023": {
     "TargetId": 5023,
     "BattleAchiTargetTypeId": 5021,
-    "ConditionId": {}
+    "ConditionId": [
+      1000006,
+      1000303
+    ]
   },
   "5024": {
     "TargetId": 5024,
@@ -565,37 +580,52 @@
   "5026": {
     "TargetId": 5026,
     "BattleAchiTargetTypeId": 5021,
-    "ConditionId": {}
+    "ConditionId": [
+      1000006,
+      1000309
+    ]
   },
   "5031": {
     "TargetId": 5031,
     "BattleAchiTargetTypeId": 5031,
     "IndividualRule": "greater",
-    "ConditionId": {}
+    "ConditionId": [
+      1000006,
+      1000302
+    ]
   },
   "5032": {
     "TargetId": 5032,
     "BattleAchiTargetTypeId": 5031,
     "IndividualRule": "greater",
-    "ConditionId": {}
+    "ConditionId": [
+      1000006,
+      1000304
+    ]
   },
   "5041": {
     "TargetId": 5041,
     "BattleAchiTargetTypeId": 5001,
     "IndividualRule": "greater",
-    "ConditionId": {}
+    "ConditionId": [
+      1000101
+    ]
   },
   "5042": {
     "TargetId": 5042,
     "BattleAchiTargetTypeId": 5001,
     "IndividualRule": "greater",
-    "ConditionId": {}
+    "ConditionId": [
+      1000102
+    ]
   },
   "5043": {
     "TargetId": 5043,
     "BattleAchiTargetTypeId": 5001,
     "IndividualRule": "greater",
-    "ConditionId": {}
+    "ConditionId": [
+      1000103
+    ]
   },
   "5051": {
     "TargetId": 5051,
@@ -668,19 +698,25 @@
     "TargetId": 5091,
     "BattleAchiTargetTypeId": 5001,
     "IndividualRule": "greater",
-    "ConditionId": {}
+    "ConditionId": [
+      1000181
+    ]
   },
   "5092": {
     "TargetId": 5092,
     "BattleAchiTargetTypeId": 5001,
     "IndividualRule": "greater",
-    "ConditionId": {}
+    "ConditionId": [
+      1000182
+    ]
   },
   "5093": {
     "TargetId": 5093,
     "BattleAchiTargetTypeId": 5001,
     "IndividualRule": "greater",
-    "ConditionId": {}
+    "ConditionId": [
+      1000183
+    ]
   },
   "9000": {
     "TargetId": 9000,
@@ -714,7 +750,9 @@
       [
         "1"
       ],
-      {}
+      [
+        "103"
+      ]
     ]
   },
   "9003": {
@@ -727,7 +765,9 @@
       [
         "1"
       ],
-      {}
+      [
+        "104"
+      ]
     ]
   },
   "9004": {
@@ -740,7 +780,9 @@
       [
         "1"
       ],
-      {}
+      [
+        "105"
+      ]
     ]
   },
   "9100": {
@@ -1058,28 +1100,49 @@
     "TargetId": 10104,
     "TargetType": 10101,
     "TargetParam": [
-      {}
+      [
+        "2000003",
+        "2000004",
+        "2000005"
+      ]
     ]
   },
   "10105": {
     "TargetId": 10105,
     "TargetType": 10101,
     "TargetParam": [
-      {}
+      [
+        "2000014",
+        "2000015",
+        "2000016"
+      ]
     ]
   },
   "10106": {
     "TargetId": 10106,
     "TargetType": 10101,
     "TargetParam": [
-      {}
+      [
+        "20602",
+        "20603",
+        "20604",
+        "20605"
+      ]
     ]
   },
   "10107": {
     "TargetId": 10107,
     "TargetType": 10101,
     "TargetParam": [
-      {}
+      [
+        "20608",
+        "20609",
+        "20610",
+        "20611",
+        "20612",
+        "20613",
+        "20614"
+      ]
     ]
   },
   "10201": {
@@ -1335,17 +1398,23 @@
   "30701": {
     "TargetId": 30701,
     "TargetType": 10307,
-    "ConditionId": {}
+    "ConditionId": [
+      6002
+    ]
   },
   "30702": {
     "TargetId": 30702,
     "TargetType": 10307,
-    "ConditionId": {}
+    "ConditionId": [
+      6003
+    ]
   },
   "30703": {
     "TargetId": 30703,
     "TargetType": 10307,
-    "ConditionId": {}
+    "ConditionId": [
+      6007
+    ]
   },
   "40101": {
     "TargetId": 40101,
@@ -1472,8 +1541,13 @@
     "TargetId": 50101,
     "TargetType": 10501,
     "TargetParam": [
-      {},
-      {},
+      [
+        "6",
+        "32"
+      ],
+      [
+        "65"
+      ],
       [
         "0"
       ]
@@ -1483,8 +1557,12 @@
     "TargetId": 50103,
     "TargetType": 10501,
     "TargetParam": [
-      {},
-      {},
+      [
+        "70500"
+      ],
+      [
+        "11"
+      ],
       [
         "0"
       ]
@@ -1494,8 +1572,12 @@
     "TargetId": 50104,
     "TargetType": 10501,
     "TargetParam": [
-      {},
-      {},
+      [
+        "70505"
+      ],
+      [
+        "705052"
+      ],
       [
         "0"
       ]
@@ -1505,8 +1587,12 @@
     "TargetId": 50105,
     "TargetType": 10501,
     "TargetParam": [
-      {},
-      {},
+      [
+        "70502"
+      ],
+      [
+        "705021"
+      ],
       [
         "0"
       ]
@@ -1516,7 +1602,9 @@
     "TargetId": 50106,
     "TargetType": 10501,
     "TargetParam": [
-      {},
+      [
+        "70100"
+      ],
       [
         "701003"
       ],
@@ -1529,7 +1617,9 @@
     "TargetId": 50107,
     "TargetType": 10501,
     "TargetParam": [
-      {},
+      [
+        "70101"
+      ],
       [
         "701003"
       ],
@@ -1542,7 +1632,9 @@
     "TargetId": 50108,
     "TargetType": 10501,
     "TargetParam": [
-      {},
+      [
+        "70102"
+      ],
       [
         "701003"
       ],
@@ -1555,8 +1647,12 @@
     "TargetId": 50109,
     "TargetType": 10501,
     "TargetParam": [
-      {},
-      {},
+      [
+        "70103"
+      ],
+      [
+        "701033"
+      ],
       [
         "0"
       ]
@@ -1566,7 +1662,9 @@
     "TargetId": 50110,
     "TargetType": 10501,
     "TargetParam": [
-      {},
+      [
+        "70105"
+      ],
       [
         "701003"
       ],
@@ -1579,7 +1677,9 @@
     "TargetId": 50111,
     "TargetType": 10501,
     "TargetParam": [
-      {},
+      [
+        "70106"
+      ],
       [
         "701063"
       ],
@@ -1592,7 +1692,9 @@
     "TargetId": 50112,
     "TargetType": 10501,
     "TargetParam": [
-      {},
+      [
+        "70107"
+      ],
       [
         "701063"
       ],
@@ -1605,7 +1707,9 @@
     "TargetId": 50113,
     "TargetType": 10501,
     "TargetParam": [
-      {},
+      [
+        "70108"
+      ],
       [
         "701063"
       ],
@@ -1618,8 +1722,12 @@
     "TargetId": 50114,
     "TargetType": 10501,
     "TargetParam": [
-      {},
-      {},
+      [
+        "70110"
+      ],
+      [
+        "701103"
+      ],
       [
         "0"
       ]
@@ -1629,7 +1737,9 @@
     "TargetId": 50115,
     "TargetType": 10501,
     "TargetParam": [
-      {},
+      [
+        "70111"
+      ],
       [
         "701003"
       ],
@@ -1642,8 +1752,12 @@
     "TargetId": 50116,
     "TargetType": 10501,
     "TargetParam": [
-      {},
-      {},
+      [
+        "70199"
+      ],
+      [
+        "701133"
+      ],
       [
         "0"
       ]
@@ -1653,8 +1767,12 @@
     "TargetId": 50117,
     "TargetType": 10501,
     "TargetParam": [
-      {},
-      {},
+      [
+        "70200"
+      ],
+      [
+        "702003"
+      ],
       [
         "0"
       ]
@@ -1664,8 +1782,12 @@
     "TargetId": 50118,
     "TargetType": 10501,
     "TargetParam": [
-      {},
-      {},
+      [
+        "70130"
+      ],
+      [
+        "701303"
+      ],
       [
         "0"
       ]
@@ -1678,7 +1800,9 @@
       [
         "1008"
       ],
-      {},
+      [
+        "610014"
+      ],
       [
         "0"
       ]
@@ -1688,8 +1812,12 @@
     "TargetId": 50120,
     "TargetType": 10501,
     "TargetParam": [
-      {},
-      {},
+      [
+        "1003"
+      ],
+      [
+        "610025"
+      ],
       [
         "0"
       ]
@@ -1699,8 +1827,12 @@
     "TargetId": 50121,
     "TargetType": 10501,
     "TargetParam": [
-      {},
-      {},
+      [
+        "1009"
+      ],
+      [
+        "610027"
+      ],
       [
         "0"
       ]
@@ -1710,7 +1842,9 @@
     "TargetId": 50122,
     "TargetType": 10501,
     "TargetParam": [
-      {},
+      [
+        "1010"
+      ],
       [
         "610011"
       ],
@@ -1723,7 +1857,9 @@
     "TargetId": 50123,
     "TargetType": 10501,
     "TargetParam": [
-      {},
+      [
+        "1005"
+      ],
       [
         "610017"
       ],
@@ -1739,7 +1875,9 @@
       [
         "1008"
       ],
-      {},
+      [
+        "610015"
+      ],
       [
         "0"
       ]
@@ -1749,7 +1887,9 @@
     "TargetId": 50125,
     "TargetType": 10501,
     "TargetParam": [
-      {},
+      [
+        "1007"
+      ],
       [
         "610011"
       ],
@@ -1762,7 +1902,9 @@
     "TargetId": 50126,
     "TargetType": 10501,
     "TargetParam": [
-      {},
+      [
+        "1012"
+      ],
       [
         "610011"
       ],
@@ -1775,7 +1917,9 @@
     "TargetId": 50127,
     "TargetType": 10501,
     "TargetParam": [
-      {},
+      [
+        "1004"
+      ],
       [
         "610011"
       ],
@@ -1788,7 +1932,9 @@
     "TargetId": 50128,
     "TargetType": 10501,
     "TargetParam": [
-      {},
+      [
+        "1017"
+      ],
       [
         "610017"
       ],
@@ -1801,7 +1947,9 @@
     "TargetId": 50129,
     "TargetType": 10501,
     "TargetParam": [
-      {},
+      [
+        "1018"
+      ],
       [
         "610017"
       ],
@@ -1814,7 +1962,9 @@
     "TargetId": 50130,
     "TargetType": 10501,
     "TargetParam": [
-      {},
+      [
+        "1002"
+      ],
       [
         "610019"
       ],
@@ -1827,7 +1977,9 @@
     "TargetId": 50131,
     "TargetType": 10501,
     "TargetParam": [
-      {},
+      [
+        "1006"
+      ],
       [
         "610019"
       ],
@@ -1845,7 +1997,9 @@
         "90306",
         "90310"
       ],
-      {}
+      [
+        "180.0"
+      ]
     ]
   },
   "50309": {
@@ -1878,8 +2032,74 @@
     "TargetId": 50401,
     "TargetType": 10504,
     "TargetParam": [
-      {},
-      {}
+      [
+        "90102",
+        "90104",
+        "90106",
+        "90108",
+        "90110",
+        "90112",
+        "90114",
+        "90201",
+        "90202",
+        "90203",
+        "90204",
+        "90205",
+        "90206",
+        "90207",
+        "90401",
+        "90402",
+        "90403",
+        "90404",
+        "90405",
+        "90406",
+        "90407",
+        "90408",
+        "90409",
+        "90410",
+        "90411",
+        "90412",
+        "90413",
+        "90414",
+        "90415",
+        "90416",
+        "90417",
+        "90418",
+        "90419",
+        "90420",
+        "90421",
+        "90422",
+        "90423",
+        "90424",
+        "90425",
+        "90426",
+        "90427",
+        "90428",
+        "90429",
+        "90430",
+        "90431",
+        "90432",
+        "90433",
+        "90434",
+        "90435",
+        "90436",
+        "90437",
+        "90438",
+        "90439",
+        "90440",
+        "90441",
+        "90442",
+        "90601",
+        "90602",
+        "90603",
+        "90604",
+        "90605",
+        "90606",
+        "90607"
+      ],
+      [
+        "3.0"
+      ]
     ]
   },
   "50901": {
@@ -2074,16 +2294,28 @@
     "TargetId": 51201,
     "TargetType": 10512,
     "TargetParam": [
-      {},
-      {}
+      [
+        "2101"
+      ],
+      [
+        "90104"
+      ]
     ]
   },
   "51202": {
     "TargetId": 51202,
     "TargetType": 10512,
     "TargetParam": [
-      {},
-      {}
+      [
+        "3101"
+      ],
+      [
+        "90506",
+        "90507",
+        "90508",
+        "90509",
+        "90510"
+      ]
     ]
   },
   "51203": {
@@ -2093,7 +2325,9 @@
       [
         "5301"
       ],
-      {}
+      [
+        "90306"
+      ]
     ]
   },
   "51301": {
@@ -2317,70 +2551,90 @@
     "TargetId": 70101,
     "TargetType": 10701,
     "TargetParam": [
-      {}
+      [
+        "100103"
+      ]
     ]
   },
   "70102": {
     "TargetId": 70102,
     "TargetType": 10701,
     "TargetParam": [
-      {}
+      [
+        "200101"
+      ]
     ]
   },
   "70103": {
     "TargetId": 70103,
     "TargetType": 10701,
     "TargetParam": [
-      {}
+      [
+        "999998"
+      ]
     ]
   },
   "70104": {
     "TargetId": 70104,
     "TargetType": 10701,
     "TargetParam": [
-      {}
+      [
+        "100102"
+      ]
     ]
   },
   "70105": {
     "TargetId": 70105,
     "TargetType": 10701,
     "TargetParam": [
-      {}
+      [
+        "100201"
+      ]
     ]
   },
   "70106": {
     "TargetId": 70106,
     "TargetType": 10701,
     "TargetParam": [
-      {}
+      [
+        "100202"
+      ]
     ]
   },
   "70107": {
     "TargetId": 70107,
     "TargetType": 10701,
     "TargetParam": [
-      {}
+      [
+        "100204"
+      ]
     ]
   },
   "70108": {
     "TargetId": 70108,
     "TargetType": 10701,
     "TargetParam": [
-      {}
+      [
+        "100208"
+      ]
     ]
   },
   "70109": {
     "TargetId": 70109,
     "TargetType": 10701,
     "TargetParam": [
-      {}
+      [
+        "110107"
+      ]
     ]
   },
   "70110": {
     "TargetId": 70110,
     "TargetType": 10701,
     "TargetParam": [
-      {}
+      [
+        "110109"
+      ]
     ]
   },
   "80101": {
@@ -2391,7 +2645,10 @@
     "TargetId": 81501,
     "TargetType": 10518,
     "TargetParam": [
-      {},
+      [
+        "80502",
+        "80101"
+      ],
       [
         "2"
       ]
@@ -2475,7 +2732,9 @@
       [
         "1011"
       ],
-      {},
+      [
+        "Benefit"
+      ],
       [
         "30"
       ]
@@ -2488,7 +2747,9 @@
       [
         "1011"
       ],
-      {},
+      [
+        "Wisdom"
+      ],
       [
         "30"
       ]
@@ -2501,7 +2762,9 @@
       [
         "1011"
       ],
-      {},
+      [
+        "Morality"
+      ],
       [
         "30"
       ]
@@ -2514,7 +2777,9 @@
       [
         "1011"
       ],
-      {},
+      [
+        "Empathy"
+      ],
       [
         "30"
       ]
@@ -2538,7 +2803,9 @@
   "200301": {
     "TargetId": 200301,
     "TargetType": 12003,
-    "ConditionId": {}
+    "ConditionId": [
+      1052
+    ]
   },
   "200401": {
     "TargetId": 200401,
@@ -2557,7 +2824,9 @@
     "TargetId": 501131,
     "TargetType": 10501,
     "TargetParam": [
-      {},
+      [
+        "70109"
+      ],
       [
         "701003"
       ],
@@ -2570,7 +2839,9 @@
     "TargetId": 501151,
     "TargetType": 10501,
     "TargetParam": [
-      {},
+      [
+        "70112"
+      ],
       [
         "701003"
       ],
@@ -2583,7 +2854,9 @@
     "TargetId": 501152,
     "TargetType": 10501,
     "TargetParam": [
-      {},
+      [
+        "70113"
+      ],
       [
         "701003"
       ],
@@ -2596,7 +2869,9 @@
     "TargetId": 501153,
     "TargetType": 10501,
     "TargetParam": [
-      {},
+      [
+        "70114"
+      ],
       [
         "701003"
       ],
@@ -2609,7 +2884,9 @@
     "TargetId": 501154,
     "TargetType": 10501,
     "TargetParam": [
-      {},
+      [
+        "70115"
+      ],
       [
         "701003"
       ],

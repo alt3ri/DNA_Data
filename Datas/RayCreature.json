@@ -7,16 +7,17 @@
     "AttackRangeType": "RayLength",
     "AllowAttackRangeModify": true,
     "EffectMultiple": true,
-    "HitEnemy": {},
-    "HitScene": {},
-    "SpawnSocket": [
-      {
-        "UseLocation": "Weapon"
-      },
-      {
-        "SpawnSocket": "gunpoint_01"
-      }
+    "HitEnemy": [
+      2050213,
+      2050214
     ],
+    "HitScene": [
+      2050217
+    ],
+    "SpawnSocket": {
+      "UseLocation": "Weapon",
+      "SpawnSocket": "gunpoint_01"
+    },
     "SkillEffectsDelayTime": 0.1,
     "MultiTrace": 2
   },
@@ -28,15 +29,13 @@
     "AttackRangeType": "RayLength",
     "AllowAttackRangeModify": true,
     "EffectMultiple": true,
-    "HitEnemy": {},
-    "SpawnSocket": [
-      {
-        "UseLocation": "Weapon"
-      },
-      {
-        "SpawnSocket": "gunpoint_01"
-      }
+    "HitEnemy": [
+      2050314
     ],
+    "SpawnSocket": {
+      "UseLocation": "Weapon",
+      "SpawnSocket": "gunpoint_01"
+    },
     "Radius": 10,
     "MultiTrace": 1
   },
@@ -48,14 +47,10 @@
     "AttackRangeType": "RayLength",
     "AllowAttackRangeModify": true,
     "EffectMultiple": true,
-    "SpawnSocket": [
-      {
-        "UseLocation": "Weapon"
-      },
-      {
-        "SpawnSocket": "gunpoint_01"
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Weapon",
+      "SpawnSocket": "gunpoint_01"
+    },
     "MultiTrace": 2,
     "LifeTime": 1,
     "CreateRayActor": true,
@@ -69,14 +64,10 @@
     "AttackRangeType": "RayLength",
     "AllowAttackRangeModify": true,
     "EffectMultiple": true,
-    "SpawnSocket": [
-      {
-        "UseLocation": "Weapon"
-      },
-      {
-        "SpawnSocket": "gunpoint_01"
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Weapon",
+      "SpawnSocket": "gunpoint_01"
+    },
     "MultiTrace": 2,
     "LifeTime": 1,
     "CreateRayActor": true,
@@ -90,14 +81,10 @@
     "AttackRangeType": "RayLength",
     "AllowAttackRangeModify": true,
     "EffectMultiple": true,
-    "SpawnSocket": [
-      {
-        "UseLocation": "Weapon"
-      },
-      {
-        "SpawnSocket": "gunpoint_01"
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Weapon",
+      "SpawnSocket": "gunpoint_01"
+    },
     "MultiTrace": 2,
     "LifeTime": 1,
     "CreateRayActor": true,
@@ -111,16 +98,16 @@
     "AttackRangeType": "RayLength",
     "AllowAttackRangeModify": true,
     "EffectMultiple": true,
-    "HitEnemy": {},
-    "HitScene": {},
-    "SpawnSocket": [
-      {
-        "UseLocation": "Weapon"
-      },
-      {
-        "SpawnSocket": "gunpoint_01"
-      }
+    "HitEnemy": [
+      2050431
     ],
+    "HitScene": [
+      2050434
+    ],
+    "SpawnSocket": {
+      "UseLocation": "Weapon",
+      "SpawnSocket": "gunpoint_01"
+    },
     "MultiTrace": 2,
     "LifeTime": 1
   },
@@ -132,16 +119,16 @@
     "AttackRangeType": "RayLength",
     "AllowAttackRangeModify": true,
     "EffectMultiple": true,
-    "HitEnemy": {},
-    "HitScene": {},
-    "SpawnSocket": [
-      {
-        "UseLocation": "Weapon"
-      },
-      {
-        "SpawnSocket": "gunpoint_01"
-      }
+    "HitEnemy": [
+      2050432
     ],
+    "HitScene": [
+      2050435
+    ],
+    "SpawnSocket": {
+      "UseLocation": "Weapon",
+      "SpawnSocket": "gunpoint_01"
+    },
     "MultiTrace": 2,
     "LifeTime": 1
   },
@@ -153,16 +140,16 @@
     "AttackRangeType": "RayLength",
     "AllowAttackRangeModify": true,
     "EffectMultiple": true,
-    "HitEnemy": {},
-    "HitScene": {},
-    "SpawnSocket": [
-      {
-        "UseLocation": "Weapon"
-      },
-      {
-        "SpawnSocket": "gunpoint_01"
-      }
+    "HitEnemy": [
+      2050433
     ],
+    "HitScene": [
+      2050436
+    ],
+    "SpawnSocket": {
+      "UseLocation": "Weapon",
+      "SpawnSocket": "gunpoint_01"
+    },
     "MultiTrace": 2,
     "LifeTime": 1
   },
@@ -174,16 +161,16 @@
     "AttackRangeType": "RayLength",
     "AllowAttackRangeModify": true,
     "EffectMultiple": true,
-    "HitEnemy": {},
-    "HitScene": {},
-    "SpawnSocket": [
-      {
-        "UseLocation": "Weapon"
-      },
-      {
-        "SpawnSocket": "gunpoint_01"
-      }
+    "HitEnemy": [
+      2050514
     ],
+    "HitScene": [
+      2050518
+    ],
+    "SpawnSocket": {
+      "UseLocation": "Weapon",
+      "SpawnSocket": "gunpoint_01"
+    },
     "SkillEffectsDelayTime": 0.1,
     "MultiTrace": 2
   }

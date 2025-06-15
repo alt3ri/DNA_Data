@@ -3,9 +3,13 @@
     "QuestId": 10200101,
     "EventMainID": 102001,
     "QuestPhaseId": 1001,
-    "QuestReward": {},
+    "QuestReward": [
+      10200101
+    ],
     "JumpUIId": 4,
-    "TargetId": {},
+    "TargetId": [
+      60101
+    ],
     "Target": 1,
     "StarterQuestDes": "StarterQuest_Des_102001_1_1"
   },
@@ -13,9 +17,13 @@
     "QuestId": 10200102,
     "EventMainID": 102001,
     "QuestPhaseId": 1001,
-    "QuestReward": {},
+    "QuestReward": [
+      10200102
+    ],
     "JumpUIId": 4,
-    "TargetId": {},
+    "TargetId": [
+      40201
+    ],
     "Target": 1,
     "StarterQuestDes": "StarterQuest_Des_102001_1_2"
   },
@@ -23,7 +31,9 @@
     "QuestId": 10200103,
     "EventMainID": 102001,
     "QuestPhaseId": 1001,
-    "QuestReward": {},
+    "QuestReward": [
+      10200103
+    ],
     "TargetId": [
       50106,
       50107,
@@ -49,9 +59,13 @@
     "QuestId": 10200104,
     "EventMainID": 102001,
     "QuestPhaseId": 1001,
-    "QuestReward": {},
+    "QuestReward": [
+      10200104
+    ],
     "JumpUIId": 8,
-    "TargetId": {},
+    "TargetId": [
+      70102
+    ],
     "Target": 1,
     "StarterQuestDes": "StarterQuest_Des_102001_1_4"
   },
@@ -59,9 +73,13 @@
     "QuestId": 10200105,
     "EventMainID": 102001,
     "QuestPhaseId": 1001,
-    "QuestReward": {},
+    "QuestReward": [
+      10200105
+    ],
     "JumpUIId": 3,
-    "TargetId": {},
+    "TargetId": [
+      70101
+    ],
     "Target": 1,
     "StarterQuestDes": "StarterQuest_Des_102001_1_5"
   },
@@ -69,9 +87,13 @@
     "QuestId": 10200106,
     "EventMainID": 102001,
     "QuestPhaseId": 1002,
-    "QuestReward": {},
+    "QuestReward": [
+      10200106
+    ],
     "JumpUIId": 7,
-    "TargetId": {},
+    "TargetId": [
+      50906
+    ],
     "Target": 1,
     "StarterQuestDes": "StarterQuest_Des_102001_2_1"
   },
@@ -79,7 +101,9 @@
     "QuestId": 10200107,
     "EventMainID": 102001,
     "QuestPhaseId": 1002,
-    "QuestReward": {},
+    "QuestReward": [
+      10200107
+    ],
     "TargetId": [
       50106,
       50107,
@@ -105,9 +129,13 @@
     "QuestId": 10200108,
     "EventMainID": 102001,
     "QuestPhaseId": 1002,
-    "QuestReward": {},
+    "QuestReward": [
+      10200108
+    ],
     "JumpUIId": 4,
-    "TargetId": {},
+    "TargetId": [
+      60901
+    ],
     "Target": 2,
     "StarterQuestDes": "StarterQuest_Des_102001_2_3"
   },
@@ -115,7 +143,9 @@
     "QuestId": 10200109,
     "EventMainID": 102001,
     "QuestPhaseId": 1002,
-    "QuestReward": {},
+    "QuestReward": [
+      10200109
+    ],
     "TargetId": [
       200101
     ],
@@ -126,8 +156,12 @@
     "QuestId": 10200110,
     "EventMainID": 102001,
     "QuestPhaseId": 1002,
-    "QuestReward": {},
-    "TargetId": {},
+    "QuestReward": [
+      10200110
+    ],
+    "TargetId": [
+      200401
+    ],
     "Target": 1,
     "StarterQuestDes": "StarterQuest_Des_102001_2_5"
   },
@@ -135,9 +169,13 @@
     "QuestId": 10200111,
     "EventMainID": 102001,
     "QuestPhaseId": 1003,
-    "QuestReward": {},
+    "QuestReward": [
+      10200111
+    ],
     "JumpUIId": 9,
-    "TargetId": {},
+    "TargetId": [
+      70106
+    ],
     "Target": 1,
     "StarterQuestDes": "StarterQuest_Des_102001_3_1"
   },
@@ -145,9 +183,13 @@
     "QuestId": 10200112,
     "EventMainID": 102001,
     "QuestPhaseId": 1003,
-    "QuestReward": {},
+    "QuestReward": [
+      10200112
+    ],
     "JumpUIId": 4,
-    "TargetId": {},
+    "TargetId": [
+      60201
+    ],
     "Target": 1,
     "StarterQuestDes": "StarterQuest_Des_102001_3_2"
   },
@@ -155,9 +197,13 @@
     "QuestId": 10200113,
     "EventMainID": 102001,
     "QuestPhaseId": 1003,
-    "QuestReward": {},
+    "QuestReward": [
+      10200113
+    ],
     "JumpUIId": 4,
-    "TargetId": {},
+    "TargetId": [
+      40301
+    ],
     "Target": 1,
     "StarterQuestDes": "StarterQuest_Des_102001_3_3"
   },
@@ -165,9 +211,17 @@
     "QuestId": 10200114,
     "EventMainID": 102001,
     "QuestPhaseId": 1003,
-    "QuestReward": {},
+    "QuestReward": [
+      10200114
+    ],
     "JumpUIId": 4,
-    "TargetId": {},
+    "TargetId": [
+      30601,
+      30602,
+      30603,
+      30604,
+      30605
+    ],
     "NoRepeatField": "ModId",
     "Target": 1,
     "StarterQuestDes": "StarterQuest_Des_102001_3_4"
@@ -176,9 +230,13 @@
     "QuestId": 10200115,
     "EventMainID": 102001,
     "QuestPhaseId": 1003,
-    "QuestReward": {},
+    "QuestReward": [
+      10200115
+    ],
     "JumpUIId": 7,
-    "TargetId": {},
+    "TargetId": [
+      50903
+    ],
     "Target": 1,
     "StarterQuestDes": "StarterQuest_Des_102001_3_5"
   },
@@ -186,7 +244,9 @@
     "QuestId": 10200116,
     "EventMainID": 102001,
     "QuestPhaseId": 1004,
-    "QuestReward": {},
+    "QuestReward": [
+      10200116
+    ],
     "TargetId": [
       200101
     ],
@@ -197,7 +257,9 @@
     "QuestId": 10200117,
     "EventMainID": 102001,
     "QuestPhaseId": 1004,
-    "QuestReward": {},
+    "QuestReward": [
+      10200117
+    ],
     "JumpUIId": 4,
     "TargetId": [
       60902
@@ -209,9 +271,13 @@
     "QuestId": 10200118,
     "EventMainID": 102001,
     "QuestPhaseId": 1004,
-    "QuestReward": {},
+    "QuestReward": [
+      10200118
+    ],
     "JumpUIId": 10,
-    "TargetId": {},
+    "TargetId": [
+      70105
+    ],
     "Target": 1,
     "StarterQuestDes": "StarterQuest_Des_102001_4_3"
   },
@@ -219,8 +285,13 @@
     "QuestId": 10200119,
     "EventMainID": 102001,
     "QuestPhaseId": 1004,
-    "QuestReward": {},
-    "TargetId": {},
+    "QuestReward": [
+      10200119
+    ],
+    "TargetId": [
+      50117,
+      50118
+    ],
     "Target": 1,
     "StarterQuestDes": "StarterQuest_Des_102001_4_4"
   },
@@ -228,9 +299,13 @@
     "QuestId": 10200120,
     "EventMainID": 102001,
     "QuestPhaseId": 1004,
-    "QuestReward": {},
+    "QuestReward": [
+      10200120
+    ],
     "JumpUIId": 7,
-    "TargetId": {},
+    "TargetId": [
+      50909
+    ],
     "Target": 1,
     "StarterQuestDes": "StarterQuest_Des_102001_4_5"
   },
@@ -238,9 +313,15 @@
     "QuestId": 10200121,
     "EventMainID": 102001,
     "QuestPhaseId": 1005,
-    "QuestReward": {},
+    "QuestReward": [
+      10200121
+    ],
     "JumpUIId": 12,
-    "TargetId": {},
+    "TargetId": [
+      5041,
+      5042,
+      5043
+    ],
     "CompletionValue": 0,
     "ShowTargetProgress": true,
     "Target": 1,
@@ -250,9 +331,13 @@
     "QuestId": 10200122,
     "EventMainID": 102001,
     "QuestPhaseId": 1005,
-    "QuestReward": {},
+    "QuestReward": [
+      10200122
+    ],
     "JumpUIId": 4,
-    "TargetId": {},
+    "TargetId": [
+      60102
+    ],
     "Target": 3,
     "StarterQuestDes": "StarterQuest_Des_102001_5_2"
   },
@@ -260,9 +345,13 @@
     "QuestId": 10200123,
     "EventMainID": 102001,
     "QuestPhaseId": 1005,
-    "QuestReward": {},
+    "QuestReward": [
+      10200123
+    ],
     "JumpUIId": 4,
-    "TargetId": {},
+    "TargetId": [
+      40203
+    ],
     "Target": 3,
     "StarterQuestDes": "StarterQuest_Des_102001_5_3"
   },
@@ -270,7 +359,9 @@
     "QuestId": 10200124,
     "EventMainID": 102001,
     "QuestPhaseId": 1005,
-    "QuestReward": {},
+    "QuestReward": [
+      10200124
+    ],
     "JumpUIId": 4,
     "TargetId": [
       30606,
@@ -285,9 +376,13 @@
     "QuestId": 10200125,
     "EventMainID": 102001,
     "QuestPhaseId": 1005,
-    "QuestReward": {},
+    "QuestReward": [
+      10200125
+    ],
     "JumpUIId": 11,
-    "TargetId": {},
+    "TargetId": [
+      70108
+    ],
     "Target": 1,
     "StarterQuestDes": "StarterQuest_Des_102001_5_5"
   },
@@ -295,7 +390,9 @@
     "QuestId": 10200126,
     "EventMainID": 102001,
     "QuestPhaseId": 1006,
-    "QuestReward": {},
+    "QuestReward": [
+      10200126
+    ],
     "JumpUIId": 4,
     "TargetId": [
       30606,
@@ -310,9 +407,13 @@
     "QuestId": 10200127,
     "EventMainID": 102001,
     "QuestPhaseId": 1006,
-    "QuestReward": {},
+    "QuestReward": [
+      10200127
+    ],
     "JumpUIId": 2,
-    "TargetId": {},
+    "TargetId": [
+      9000
+    ],
     "Target": 1,
     "StarterQuestDes": "StarterQuest_Des_102001_6_2"
   },
@@ -320,7 +421,9 @@
     "QuestId": 10200128,
     "EventMainID": 102001,
     "QuestPhaseId": 1006,
-    "QuestReward": {},
+    "QuestReward": [
+      10200128
+    ],
     "JumpUIId": 4,
     "TargetId": [
       60902
@@ -332,8 +435,12 @@
     "QuestId": 10200129,
     "EventMainID": 102001,
     "QuestPhaseId": 1006,
-    "QuestReward": {},
-    "TargetId": {},
+    "QuestReward": [
+      10200129
+    ],
+    "TargetId": [
+      90103
+    ],
     "Target": 1,
     "StarterQuestDes": "StarterQuest_Des_102001_6_4"
   },
@@ -341,9 +448,16 @@
     "QuestId": 10200130,
     "EventMainID": 102001,
     "QuestPhaseId": 1007,
-    "QuestReward": {},
+    "QuestReward": [
+      10200130
+    ],
     "JumpUIId": 2,
-    "TargetId": {},
+    "TargetId": [
+      9001,
+      9002,
+      9003,
+      9004
+    ],
     "Target": 1,
     "StarterQuestDes": "StarterQuest_Des_102001_7_1"
   },
@@ -351,8 +465,12 @@
     "QuestId": 10200131,
     "EventMainID": 102001,
     "QuestPhaseId": 1007,
-    "QuestReward": {},
-    "TargetId": {},
+    "QuestReward": [
+      10200131
+    ],
+    "TargetId": [
+      30302
+    ],
     "Target": 5,
     "StarterQuestDes": "StarterQuest_Des_102001_7_2"
   },
@@ -360,8 +478,12 @@
     "QuestId": 10200132,
     "EventMainID": 102001,
     "QuestPhaseId": 1007,
-    "QuestReward": {},
-    "TargetId": {},
+    "QuestReward": [
+      10200132
+    ],
+    "TargetId": [
+      300101
+    ],
     "Target": 1,
     "StarterQuestDes": "StarterQuest_Des_102001_7_3"
   },
@@ -369,8 +491,12 @@
     "QuestId": 10200133,
     "EventMainID": 102001,
     "QuestPhaseId": 1007,
-    "QuestReward": {},
-    "TargetId": {},
+    "QuestReward": [
+      10200133
+    ],
+    "TargetId": [
+      200301
+    ],
     "Target": 1,
     "StarterQuestDes": "StarterQuest_Des_102001_7_4"
   },
@@ -378,9 +504,15 @@
     "QuestId": 10200134,
     "EventMainID": 102001,
     "QuestPhaseId": 1008,
-    "QuestReward": {},
+    "QuestReward": [
+      10200134
+    ],
     "JumpUIId": 2,
-    "TargetId": {},
+    "TargetId": [
+      9002,
+      9003,
+      9004
+    ],
     "Target": 1,
     "StarterQuestDes": "StarterQuest_Des_102001_8_1"
   },
@@ -388,9 +520,13 @@
     "QuestId": 10200135,
     "EventMainID": 102001,
     "QuestPhaseId": 1008,
-    "QuestReward": {},
+    "QuestReward": [
+      10200135
+    ],
     "JumpUIId": 12,
-    "TargetId": {},
+    "TargetId": [
+      5091
+    ],
     "CompletionValue": 0,
     "ShowTargetProgress": true,
     "Target": 1,
@@ -400,9 +536,13 @@
     "QuestId": 10200136,
     "EventMainID": 102001,
     "QuestPhaseId": 1008,
-    "QuestReward": {},
+    "QuestReward": [
+      10200136
+    ],
     "JumpUIId": 12,
-    "TargetId": {},
+    "TargetId": [
+      5092
+    ],
     "CompletionValue": 0,
     "ShowTargetProgress": true,
     "Target": 1,
@@ -412,9 +552,13 @@
     "QuestId": 10200137,
     "EventMainID": 102001,
     "QuestPhaseId": 1008,
-    "QuestReward": {},
+    "QuestReward": [
+      10200137
+    ],
     "JumpUIId": 12,
-    "TargetId": {},
+    "TargetId": [
+      5093
+    ],
     "CompletionValue": 0,
     "ShowTargetProgress": true,
     "Target": 1,
@@ -424,9 +568,13 @@
     "QuestId": 10200138,
     "EventMainID": 102001,
     "QuestPhaseId": 1008,
-    "QuestReward": {},
+    "QuestReward": [
+      10200138
+    ],
     "JumpUIId": 4,
-    "TargetId": {},
+    "TargetId": [
+      60105
+    ],
     "Target": 4,
     "StarterQuestDes": "StarterQuest_Des_102001_8_5"
   },
@@ -434,9 +582,13 @@
     "QuestId": 10200139,
     "EventMainID": 102001,
     "QuestPhaseId": 1008,
-    "QuestReward": {},
+    "QuestReward": [
+      10200139
+    ],
     "JumpUIId": 4,
-    "TargetId": {},
+    "TargetId": [
+      40205
+    ],
     "Target": 4,
     "StarterQuestDes": "StarterQuest_Des_102001_8_6"
   },
@@ -444,9 +596,14 @@
     "QuestId": 10200140,
     "EventMainID": 102001,
     "QuestPhaseId": 1009,
-    "QuestReward": {},
+    "QuestReward": [
+      10200140
+    ],
     "JumpUIId": 2,
-    "TargetId": {},
+    "TargetId": [
+      9003,
+      9004
+    ],
     "Target": 1,
     "StarterQuestDes": "StarterQuest_Des_102001_9_1"
   },
@@ -454,9 +611,14 @@
     "QuestId": 10200141,
     "EventMainID": 102001,
     "QuestPhaseId": 1009,
-    "QuestReward": {},
+    "QuestReward": [
+      10200141
+    ],
     "JumpUIId": 4,
-    "TargetId": {},
+    "TargetId": [
+      30607,
+      30608
+    ],
     "NoRepeatField": "ModId",
     "Target": 10,
     "StarterQuestDes": "StarterQuest_Des_102001_9_2"
@@ -465,9 +627,13 @@
     "QuestId": 10200142,
     "EventMainID": 102001,
     "QuestPhaseId": 1009,
-    "QuestReward": {},
+    "QuestReward": [
+      10200142
+    ],
     "JumpUIId": 4,
-    "TargetId": {},
+    "TargetId": [
+      60106
+    ],
     "Target": 5,
     "StarterQuestDes": "StarterQuest_Des_102001_9_3"
   },
@@ -475,9 +641,13 @@
     "QuestId": 10200143,
     "EventMainID": 102001,
     "QuestPhaseId": 1009,
-    "QuestReward": {},
+    "QuestReward": [
+      10200143
+    ],
     "JumpUIId": 4,
-    "TargetId": {},
+    "TargetId": [
+      40206
+    ],
     "Target": 5,
     "StarterQuestDes": "StarterQuest_Des_102001_9_4"
   }

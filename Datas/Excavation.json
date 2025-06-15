@@ -9,16 +9,16 @@
         "MonsterSpawnId": 10401,
         "Weight": 4
       },
-      [
-        "ExcavationMechId = 49002",
-        "MonsterSpawnId = 10402",
-        "Weight = 3"
-      ],
-      [
-        "ExcavationMechId = 49003",
-        "MonsterSpawnId = 10403",
-        "Weight = 3"
-      ]
+      {
+        "ExcavationMechId": 49002,
+        "MonsterSpawnId": 10402,
+        "Weight": 3
+      },
+      {
+        "ExcavationMechId": 49003,
+        "MonsterSpawnId": 10403,
+        "Weight": 3
+      }
     ],
     "ExcavationItemId": 2009,
     "CompleteRewardNum": 2,
@@ -46,16 +46,16 @@
         "MonsterSpawnId": 10401,
         "Weight": 10
       },
-      [
-        "ExcavationMechId = 49002",
-        "MonsterSpawnId = 10402",
-        "Weight = 0"
-      ],
-      [
-        "ExcavationMechId = 49003",
-        "MonsterSpawnId = 10403",
-        "Weight = 0"
-      ]
+      {
+        "ExcavationMechId": 49002,
+        "MonsterSpawnId": 10402,
+        "Weight": 0
+      },
+      {
+        "ExcavationMechId": 49003,
+        "MonsterSpawnId": 10403,
+        "Weight": 0
+      }
     ],
     "ExcavationItemId": 2009,
     "CompleteRewardNum": 2,
@@ -88,11 +88,11 @@
         "MonsterSpawnId": 10402,
         "Weight": 5
       },
-      [
-        "ExcavationMechId = 49003",
-        "MonsterSpawnId = 10403",
-        "Weight = 0"
-      ]
+      {
+        "ExcavationMechId": 49003,
+        "MonsterSpawnId": 10403,
+        "Weight": 0
+      }
     ],
     "ExcavationItemId": 2009,
     "CompleteRewardNum": 2,
@@ -125,11 +125,11 @@
         "MonsterSpawnId": 10402,
         "Weight": 6
       },
-      [
-        "ExcavationMechId = 49003",
-        "MonsterSpawnId = 10403",
-        "Weight = 2"
-      ]
+      {
+        "ExcavationMechId": 49003,
+        "MonsterSpawnId": 10403,
+        "Weight": 2
+      }
     ],
     "ExcavationItemId": 2009,
     "CompleteRewardNum": 2,
@@ -139,7 +139,10 @@
       0.2
     ],
     "ButcherMonsterId": 8501002,
-    "ButcherMonsterSpawnProbability": {},
+    "ButcherMonsterSpawnProbability": [
+      0,
+      0.2
+    ],
     "RoundInterval": 5,
     "MultiDepleteRate": 3,
     "BatteryFullEventCD": 30
@@ -149,21 +152,21 @@
     "FirstRandomId": 10401,
     "ExcavationRandomId": 10405,
     "Excavation": [
-      [
-        "ExcavationMechId = 49001",
-        "MonsterSpawnId = 10401",
-        "Weight = 0"
-      ],
+      {
+        "ExcavationMechId": 49001,
+        "MonsterSpawnId": 10401,
+        "Weight": 0
+      },
       {
         "ExcavationMechId": 49002,
         "MonsterSpawnId": 10402,
         "Weight": 8
       },
-      [
-        "ExcavationMechId = 49003",
-        "MonsterSpawnId = 10403",
-        "Weight = 2"
-      ]
+      {
+        "ExcavationMechId": 49003,
+        "MonsterSpawnId": 10403,
+        "Weight": 2
+      }
     ],
     "ExcavationItemId": 2009,
     "CompleteRewardNum": 2,
@@ -186,21 +189,21 @@
     "FirstRandomId": 10401,
     "ExcavationRandomId": 10405,
     "Excavation": [
-      [
-        "ExcavationMechId = 49001",
-        "MonsterSpawnId = 10401",
-        "Weight = 0"
-      ],
+      {
+        "ExcavationMechId": 49001,
+        "MonsterSpawnId": 10401,
+        "Weight": 0
+      },
       {
         "ExcavationMechId": 49002,
         "MonsterSpawnId": 10402,
         "Weight": 7
       },
-      [
-        "ExcavationMechId = 49003",
-        "MonsterSpawnId = 10403",
-        "Weight = 3"
-      ]
+      {
+        "ExcavationMechId": 49003,
+        "MonsterSpawnId": 10403,
+        "Weight": 3
+      }
     ],
     "ExcavationItemId": 2009,
     "CompleteRewardNum": 2,
@@ -223,16 +226,16 @@
     "FirstRandomId": 10401,
     "ExcavationRandomId": 10405,
     "Excavation": [
-      [
-        "ExcavationMechId = 49001",
-        "MonsterSpawnId = 10401",
-        "Weight = 0"
-      ],
-      [
-        "ExcavationMechId = 49002",
-        "MonsterSpawnId = 10402",
-        "Weight = 3"
-      ],
+      {
+        "ExcavationMechId": 49001,
+        "MonsterSpawnId": 10401,
+        "Weight": 0
+      },
+      {
+        "ExcavationMechId": 49002,
+        "MonsterSpawnId": 10402,
+        "Weight": 3
+      },
       {
         "ExcavationMechId": 49003,
         "MonsterSpawnId": 10403,
@@ -260,16 +263,16 @@
     "FirstRandomId": 10401,
     "ExcavationRandomId": 10405,
     "Excavation": [
-      [
-        "ExcavationMechId = 49001",
-        "MonsterSpawnId = 10401",
-        "Weight = 0"
-      ],
-      [
-        "ExcavationMechId = 49002",
-        "MonsterSpawnId = 10402",
-        "Weight = 0"
-      ],
+      {
+        "ExcavationMechId": 49001,
+        "MonsterSpawnId": 10401,
+        "Weight": 0
+      },
+      {
+        "ExcavationMechId": 49002,
+        "MonsterSpawnId": 10402,
+        "Weight": 0
+      },
       {
         "ExcavationMechId": 49003,
         "MonsterSpawnId": 10403,

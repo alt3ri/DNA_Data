@@ -8,39 +8,42 @@
   },
   "Slide": {
     "SourceTag": "Slide",
-    "BreakableItem": [
-      {
-        "Breakable": true
-      },
-      {
-        "Radius": 60
-      }
-    ],
+    "BreakableItem": {
+      "Breakable": true,
+      "Radius": 60
+    },
     "ActionMode": 0,
-    "TagType": {}
+    "TagType": [
+      "Move",
+      "Slide"
+    ]
   },
   "Crouch": {
     "SourceTag": "Crouch",
     "ActionMode": 0,
-    "TagType": {}
+    "TagType": [
+      "Move",
+      "Crouch"
+    ]
   },
   "BulletJump": {
     "SourceTag": "BulletJump",
-    "BreakableItem": [
-      {
-        "Breakable": true
-      },
-      {
-        "Radius": 60
-      }
-    ],
+    "BreakableItem": {
+      "Breakable": true,
+      "Radius": 60
+    },
     "ActionMode": 0,
-    "TagType": {}
+    "TagType": [
+      "Move"
+    ]
   },
   "Avoid": {
     "SourceTag": "Avoid",
     "ActionMode": 0,
-    "TagType": {}
+    "TagType": [
+      "Move",
+      "Avoid"
+    ]
   },
   "LandHeavy": {
     "SourceTag": "LandHeavy",
@@ -50,7 +53,10 @@
       "Radius": 250
     },
     "ActionMode": 1,
-    "TagType": {}
+    "TagType": [
+      "Move",
+      "LandHeavy"
+    ]
   },
   "Skill": {
     "SourceTag": "Skill",
@@ -78,14 +84,10 @@
   },
   "HitFly": {
     "SourceTag": "HitFly",
-    "BreakableItem": [
-      {
-        "Breakable": true
-      },
-      {
-        "Radius": 60
-      }
-    ],
+    "BreakableItem": {
+      "Breakable": true,
+      "Radius": 60
+    },
     "ActionMode": 1,
     "TagType": [
       "Controlled",
@@ -136,7 +138,9 @@
     "SourceTag": "Interactive",
     "ForbidInput": 1,
     "ActionMode": 1,
-    "TagType": {}
+    "TagType": [
+      "Interactive"
+    ]
   },
   "Recovery": {
     "SourceTag": "Recovery",
@@ -146,7 +150,9 @@
   "Seating": {
     "SourceTag": "Seating",
     "ActionMode": 0,
-    "TagType": {}
+    "TagType": [
+      "Seating"
+    ]
   },
   "Stun": {
     "SourceTag": "Stun",

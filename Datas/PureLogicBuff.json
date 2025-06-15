@@ -620,10 +620,10 @@
   },
   "850002": {
     "AddAttrs": [
-      [
-        "[\"AttrName\"] = \"DamagedRate",
-        "[\"Value\"] = -1"
-      ]
+      {
+        "AttrName": "DamagedRate",
+        "Value": -1
+      }
     ],
     "BPPath": "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff.BP_Buff",
     "BuffId": 850002,
@@ -695,9 +695,9 @@
   "850306": {
     "BPPath": "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff.BP_Buff",
     "BuffId": 850306,
-    "LockHp": [
-      "[\"Rate\"] = 1"
-    ],
+    "LockHp": {
+      "Rate": 1
+    },
     "MergeRule1": "Personal",
     "MergeRule2": "Merge"
   },
@@ -713,10 +713,10 @@
   },
   "850309": {
     "AddAttrs": [
-      [
-        "[\"AttrName\"] = \"DamagedRate",
-        "[\"Value\"] = -1"
-      ]
+      {
+        "AttrName": "DamagedRate",
+        "Value": -1
+      }
     ],
     "BPPath": "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff.BP_Buff",
     "BuffId": 850309,
@@ -726,9 +726,9 @@
       40,
       41
     ],
-    "LockHp": [
-      "[\"Rate\"] = 1"
-    ],
+    "LockHp": {
+      "Rate": 1
+    },
     "MergeRule1": "Personal",
     "MergeRule2": "Merge"
   },
@@ -853,9 +853,9 @@
   "5000017": {
     "BPPath": "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff.BP_Buff",
     "BuffId": 5000017,
-    "LockHp": [
-      "[\"Rate\"] = 1"
-    ],
+    "LockHp": {
+      "Rate": 1
+    },
     "MergeRule1": "Personal",
     "MergeRule2": "Merge"
   },
@@ -1258,10 +1258,10 @@
   },
   "20152001": {
     "AddAttrs": [
-      [
-        "[\"AttrName\"] = \"DamageRate",
-        "[\"Value\"] = 0.75"
-      ]
+      {
+        "AttrName": "DamageRate",
+        "Value": 0.75
+      }
     ],
     "BPPath": "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff.BP_Buff",
     "BuffId": 20152001,
@@ -1274,10 +1274,10 @@
   },
   "20153001": {
     "AddAttrs": [
-      [
-        "[\"AttrName\"] = \"DamageRate",
-        "[\"Value\"] = 0.75"
-      ]
+      {
+        "AttrName": "DamageRate",
+        "Value": 0.75
+      }
     ],
     "BPPath": "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff.BP_Buff",
     "BuffId": 20153001,

@@ -1,9 +1,21 @@
 [
   {
     "GameMapId": 1,
-    "ClickLevelInfo": {},
-    "ClickStartInfo": {},
-    "ClickEndInfo": {},
+    "ClickLevelInfo": [
+      "Low",
+      "Low",
+      "Low"
+    ],
+    "ClickStartInfo": [
+      0,
+      90,
+      180
+    ],
+    "ClickEndInfo": [
+      60,
+      150,
+      240
+    ],
     "PointerSpeed": 0.5,
     "PointerSpeedLow": 15,
     "PointerSpeedMid": 10,

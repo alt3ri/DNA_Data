@@ -19,32 +19,43 @@
     "ConditionId": 2,
     "Remark": "区域始终显示的入口",
     "ConditionLogic": "AND",
-    "ConditionMap": [
-      {
-        "AvatarStatus": [
-          "T.RT_3"
+    "ConditionMap": {
+      "AvatarStatus": [
+        [
+          "InBigWorld",
+          "T"
         ]
-      }
-    ]
+      ]
+    }
   },
   "3": {
     "ConditionId": 3,
     "Remark": "仅肉鸽显示的入口",
     "ConditionLogic": "AND",
-    "ConditionMap": [
-      {
-        "AvatarStatus": [
-          "T.RT_7"
+    "ConditionMap": {
+      "AvatarStatus": [
+        [
+          "InRougeLike",
+          "T"
         ]
-      }
-    ]
+      ]
+    }
   },
   "4": {
     "ConditionId": 4,
     "Remark": "显示军械库入口",
     "ConditionLogic": "OR",
     "ConditionMap": {
-      "AvatarStatus": {}
+      "AvatarStatus": [
+        [
+          "InBigWorld",
+          "T"
+        ],
+        [
+          "InTrainingGround",
+          "T"
+        ]
+      ]
     }
   },
   "5": {
@@ -88,7 +99,9 @@
     "Remark": "推车关卡小车交互",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "PlayerLevelMin": {}
+      "PlayerLevelMin": [
+        999
+      ]
     }
   },
   "24": {
@@ -96,44 +109,44 @@
     "Remark": "推车关卡小车交互",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "MechanismState": {}
+      "MechanismState": [
+        [
+          0,
+          1610002,
+          909
+        ]
+      ]
     }
   },
   "25": {
     "ConditionId": 25,
     "Remark": "区域地图回到据点按钮解锁条件",
     "ConditionLogic": "AND",
-    "ConditionMap": [
-      {
-        "QuestChain": [
-          100201
-        ]
-      }
-    ]
+    "ConditionMap": {
+      "QuestChain": [
+        100201
+      ]
+    }
   },
   "26": {
     "ConditionId": 26,
     "Remark": "大地图科赛托斯地图解锁",
     "ConditionLogic": "AND",
-    "ConditionMap": [
-      {
-        "QuestChain": [
-          100103
-        ]
-      }
-    ]
+    "ConditionMap": {
+      "QuestChain": [
+        100103
+      ]
+    }
   },
   "27": {
     "ConditionId": 27,
     "Remark": "区域地图据点界面解锁",
     "ConditionLogic": "AND",
-    "ConditionMap": [
-      {
-        "QuestChain": [
-          100201
-        ]
-      }
-    ]
+    "ConditionMap": {
+      "QuestChain": [
+        100201
+      ]
+    }
   },
   "30": {
     "ConditionId": 30,
@@ -152,40 +165,40 @@
     "ConditionId": 31,
     "Remark": "酒馆解锁条件",
     "ConditionLogic": "AND",
-    "ConditionMap": [
-      {
-        "QuestChain": [
-          100101
-        ]
-      }
-    ]
+    "ConditionMap": {
+      "QuestChain": [
+        100101
+      ]
+    }
   },
   "32": {
     "ConditionId": 32,
     "Remark": "修普诺斯之家解锁条件",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "Quest": {}
+      "Quest": [
+        10020405
+      ]
     }
   },
   "33": {
     "ConditionId": 33,
     "Remark": "跳板解锁条件",
     "ConditionLogic": "AND",
-    "ConditionMap": [
-      {
-        "ConstantBool": [
-          "F"
-        ]
-      }
-    ]
+    "ConditionMap": {
+      "ConstantBool": [
+        "F"
+      ]
+    }
   },
   "34": {
     "ConditionId": 34,
     "Remark": "据点解锁条件",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "Quest": {}
+      "Quest": [
+        10020107
+      ]
     }
   },
   "35": {
@@ -193,27 +206,29 @@
     "Remark": "下水道解锁条件",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "Quest": {}
+      "Quest": [
+        10020210
+      ]
     }
   },
   "36": {
     "ConditionId": 36,
     "Remark": "奥哥家解锁条件",
     "ConditionLogic": "AND",
-    "ConditionMap": [
-      {
-        "QuestChain": [
-          100203
-        ]
-      }
-    ]
+    "ConditionMap": {
+      "QuestChain": [
+        100203
+      ]
+    }
   },
   "37": {
     "ConditionId": 37,
     "Remark": "矿坑解锁条件",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "Quest": {}
+      "Quest": [
+        10020301
+      ]
     }
   },
   "98": {
@@ -230,25 +245,21 @@
     "ConditionId": 99,
     "Remark": "恒定假条件",
     "ConditionLogic": "AND",
-    "ConditionMap": [
-      {
-        "ConstantBool": [
-          "F"
-        ]
-      }
-    ]
+    "ConditionMap": {
+      "ConstantBool": [
+        "F"
+      ]
+    }
   },
   "101": {
     "ConditionId": 101,
     "Remark": "解锁玩家等级1",
     "ConditionLogic": "AND",
-    "ConditionMap": [
-      {
-        "PlayerLevelMin": [
-          1
-        ]
-      }
-    ],
+    "ConditionMap": {
+      "PlayerLevelMin": [
+        1
+      ]
+    },
     "ConditionText": "Condition_Toast_PlayerLv_1"
   },
   "102": {
@@ -256,7 +267,9 @@
     "Remark": "解锁玩家等级2",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "PlayerLevelMin": {}
+      "PlayerLevelMin": [
+        2
+      ]
     },
     "ConditionText": "Condition_Toast_PlayerLv_2"
   },
@@ -287,7 +300,9 @@
     "Remark": "解锁玩家等级5",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "PlayerLevelMin": {}
+      "PlayerLevelMin": [
+        5
+      ]
     },
     "ConditionText": "Condition_Toast_PlayerLv_5"
   },
@@ -296,7 +311,9 @@
     "Remark": "解锁玩家等级6",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "PlayerLevelMin": {}
+      "PlayerLevelMin": [
+        6
+      ]
     },
     "ConditionText": "Condition_Toast_PlayerLv_6"
   },
@@ -327,7 +344,9 @@
     "Remark": "解锁玩家等级9",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "PlayerLevelMin": {}
+      "PlayerLevelMin": [
+        9
+      ]
     },
     "ConditionText": "Condition_Toast_PlayerLv_9"
   },
@@ -347,7 +366,9 @@
     "Remark": "解锁玩家等级11",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "PlayerLevelMin": {}
+      "PlayerLevelMin": [
+        11
+      ]
     },
     "ConditionText": "Condition_Toast_PlayerLv_11"
   },
@@ -367,7 +388,9 @@
     "Remark": "解锁玩家等级13",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "PlayerLevelMin": {}
+      "PlayerLevelMin": [
+        13
+      ]
     },
     "ConditionText": "Condition_Toast_PlayerLv_13"
   },
@@ -376,7 +399,9 @@
     "Remark": "解锁玩家等级14",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "PlayerLevelMin": {}
+      "PlayerLevelMin": [
+        14
+      ]
     },
     "ConditionText": "Condition_Toast_PlayerLv_14"
   },
@@ -385,7 +410,9 @@
     "Remark": "解锁玩家等级15",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "PlayerLevelMin": {}
+      "PlayerLevelMin": [
+        15
+      ]
     },
     "ConditionText": "Condition_Toast_PlayerLv_15"
   },
@@ -394,7 +421,9 @@
     "Remark": "解锁玩家等级16",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "PlayerLevelMin": {}
+      "PlayerLevelMin": [
+        16
+      ]
     },
     "ConditionText": "Condition_Toast_PlayerLv_16"
   },
@@ -413,13 +442,11 @@
     "ConditionId": 118,
     "Remark": "解锁玩家等级18",
     "ConditionLogic": "AND",
-    "ConditionMap": [
-      {
-        "PlayerLevelMin": [
-          18
-        ]
-      }
-    ],
+    "ConditionMap": {
+      "PlayerLevelMin": [
+        18
+      ]
+    },
     "ConditionText": "Condition_Toast_PlayerLv_18"
   },
   "119": {
@@ -427,7 +454,9 @@
     "Remark": "解锁玩家等级19",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "PlayerLevelMin": {}
+      "PlayerLevelMin": [
+        19
+      ]
     },
     "ConditionText": "Condition_Toast_PlayerLv_19"
   },
@@ -447,7 +476,9 @@
     "Remark": "解锁玩家等级21",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "PlayerLevelMin": {}
+      "PlayerLevelMin": [
+        21
+      ]
     },
     "ConditionText": "Condition_Toast_PlayerLv_21"
   },
@@ -456,7 +487,9 @@
     "Remark": "解锁玩家等级22",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "PlayerLevelMin": {}
+      "PlayerLevelMin": [
+        22
+      ]
     },
     "ConditionText": "Condition_Toast_PlayerLv_22"
   },
@@ -475,13 +508,11 @@
     "ConditionId": 124,
     "Remark": "解锁玩家等级24",
     "ConditionLogic": "AND",
-    "ConditionMap": [
-      {
-        "PlayerLevelMin": [
-          24
-        ]
-      }
-    ],
+    "ConditionMap": {
+      "PlayerLevelMin": [
+        24
+      ]
+    },
     "ConditionText": "Condition_Toast_PlayerLv_24"
   },
   "125": {
@@ -489,7 +520,9 @@
     "Remark": "解锁玩家等级25",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "PlayerLevelMin": {}
+      "PlayerLevelMin": [
+        25
+      ]
     },
     "ConditionText": "Condition_Toast_PlayerLv_25"
   },
@@ -498,7 +531,9 @@
     "Remark": "解锁玩家等级26",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "PlayerLevelMin": {}
+      "PlayerLevelMin": [
+        26
+      ]
     },
     "ConditionText": "Condition_Toast_PlayerLv_26"
   },
@@ -507,7 +542,9 @@
     "Remark": "解锁玩家等级27",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "PlayerLevelMin": {}
+      "PlayerLevelMin": [
+        27
+      ]
     },
     "ConditionText": "Condition_Toast_PlayerLv_27"
   },
@@ -526,13 +563,11 @@
     "ConditionId": 129,
     "Remark": "解锁玩家等级29",
     "ConditionLogic": "AND",
-    "ConditionMap": [
-      {
-        "PlayerLevelMin": [
-          29
-        ]
-      }
-    ],
+    "ConditionMap": {
+      "PlayerLevelMin": [
+        29
+      ]
+    },
     "ConditionText": "Condition_Toast_PlayerLv_29"
   },
   "130": {
@@ -551,7 +586,9 @@
     "Remark": "解锁玩家等级31",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "PlayerLevelMin": {}
+      "PlayerLevelMin": [
+        31
+      ]
     },
     "ConditionText": "Condition_Toast_PlayerLv_31"
   },
@@ -560,7 +597,9 @@
     "Remark": "解锁玩家等级32",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "PlayerLevelMin": {}
+      "PlayerLevelMin": [
+        32
+      ]
     },
     "ConditionText": "Condition_Toast_PlayerLv_32"
   },
@@ -569,7 +608,9 @@
     "Remark": "解锁玩家等级33",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "PlayerLevelMin": {}
+      "PlayerLevelMin": [
+        33
+      ]
     },
     "ConditionText": "Condition_Toast_PlayerLv_33"
   },
@@ -578,7 +619,9 @@
     "Remark": "解锁玩家等级34",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "PlayerLevelMin": {}
+      "PlayerLevelMin": [
+        34
+      ]
     },
     "ConditionText": "Condition_Toast_PlayerLv_34"
   },
@@ -587,7 +630,9 @@
     "Remark": "解锁玩家等级35",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "PlayerLevelMin": {}
+      "PlayerLevelMin": [
+        35
+      ]
     },
     "ConditionText": "Condition_Toast_PlayerLv_35"
   },
@@ -596,7 +641,9 @@
     "Remark": "解锁玩家等级36",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "PlayerLevelMin": {}
+      "PlayerLevelMin": [
+        36
+      ]
     },
     "ConditionText": "Condition_Toast_PlayerLv_36"
   },
@@ -605,7 +652,9 @@
     "Remark": "解锁玩家等级37",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "PlayerLevelMin": {}
+      "PlayerLevelMin": [
+        37
+      ]
     },
     "ConditionText": "Condition_Toast_PlayerLv_37"
   },
@@ -614,7 +663,9 @@
     "Remark": "解锁玩家等级38",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "PlayerLevelMin": {}
+      "PlayerLevelMin": [
+        38
+      ]
     },
     "ConditionText": "Condition_Toast_PlayerLv_38"
   },
@@ -623,7 +674,9 @@
     "Remark": "解锁玩家等级39",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "PlayerLevelMin": {}
+      "PlayerLevelMin": [
+        39
+      ]
     },
     "ConditionText": "Condition_Toast_PlayerLv_39"
   },
@@ -632,7 +685,9 @@
     "Remark": "解锁玩家等级40",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "PlayerLevelMin": {}
+      "PlayerLevelMin": [
+        40
+      ]
     },
     "ConditionText": "Condition_Toast_PlayerLv_40"
   },
@@ -641,7 +696,9 @@
     "Remark": "解锁玩家等级41",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "PlayerLevelMin": {}
+      "PlayerLevelMin": [
+        41
+      ]
     },
     "ConditionText": "Condition_Toast_PlayerLv_41"
   },
@@ -650,7 +707,9 @@
     "Remark": "解锁玩家等级42",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "PlayerLevelMin": {}
+      "PlayerLevelMin": [
+        42
+      ]
     },
     "ConditionText": "Condition_Toast_PlayerLv_42"
   },
@@ -659,7 +718,9 @@
     "Remark": "解锁玩家等级43",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "PlayerLevelMin": {}
+      "PlayerLevelMin": [
+        43
+      ]
     },
     "ConditionText": "Condition_Toast_PlayerLv_43"
   },
@@ -668,7 +729,9 @@
     "Remark": "解锁玩家等级44",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "PlayerLevelMin": {}
+      "PlayerLevelMin": [
+        44
+      ]
     },
     "ConditionText": "Condition_Toast_PlayerLv_44"
   },
@@ -677,7 +740,9 @@
     "Remark": "解锁玩家等级45",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "PlayerLevelMin": {}
+      "PlayerLevelMin": [
+        45
+      ]
     },
     "ConditionText": "Condition_Toast_PlayerLv_45"
   },
@@ -686,7 +751,9 @@
     "Remark": "解锁玩家等级46",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "PlayerLevelMin": {}
+      "PlayerLevelMin": [
+        46
+      ]
     },
     "ConditionText": "Condition_Toast_PlayerLv_46"
   },
@@ -695,7 +762,9 @@
     "Remark": "解锁玩家等级47",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "PlayerLevelMin": {}
+      "PlayerLevelMin": [
+        47
+      ]
     },
     "ConditionText": "Condition_Toast_PlayerLv_47"
   },
@@ -704,7 +773,9 @@
     "Remark": "解锁玩家等级48",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "PlayerLevelMin": {}
+      "PlayerLevelMin": [
+        48
+      ]
     },
     "ConditionText": "Condition_Toast_PlayerLv_48"
   },
@@ -713,7 +784,9 @@
     "Remark": "解锁玩家等级49",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "PlayerLevelMin": {}
+      "PlayerLevelMin": [
+        49
+      ]
     },
     "ConditionText": "Condition_Toast_PlayerLv_49"
   },
@@ -722,7 +795,9 @@
     "Remark": "解锁玩家等级50",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "PlayerLevelMin": {}
+      "PlayerLevelMin": [
+        50
+      ]
     },
     "ConditionText": "Condition_Toast_PlayerLv_50"
   },
@@ -731,7 +806,9 @@
     "Remark": "解锁玩家等级51",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "PlayerLevelMin": {}
+      "PlayerLevelMin": [
+        51
+      ]
     },
     "ConditionText": "Condition_Toast_PlayerLv_51"
   },
@@ -740,7 +817,9 @@
     "Remark": "解锁玩家等级52",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "PlayerLevelMin": {}
+      "PlayerLevelMin": [
+        52
+      ]
     },
     "ConditionText": "Condition_Toast_PlayerLv_52"
   },
@@ -749,7 +828,9 @@
     "Remark": "解锁玩家等级53",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "PlayerLevelMin": {}
+      "PlayerLevelMin": [
+        53
+      ]
     },
     "ConditionText": "Condition_Toast_PlayerLv_53"
   },
@@ -758,7 +839,9 @@
     "Remark": "解锁玩家等级54",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "PlayerLevelMin": {}
+      "PlayerLevelMin": [
+        54
+      ]
     },
     "ConditionText": "Condition_Toast_PlayerLv_54"
   },
@@ -767,7 +850,9 @@
     "Remark": "解锁玩家等级55",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "PlayerLevelMin": {}
+      "PlayerLevelMin": [
+        55
+      ]
     },
     "ConditionText": "Condition_Toast_PlayerLv_55"
   },
@@ -776,7 +861,9 @@
     "Remark": "解锁玩家等级56",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "PlayerLevelMin": {}
+      "PlayerLevelMin": [
+        56
+      ]
     },
     "ConditionText": "Condition_Toast_PlayerLv_56"
   },
@@ -785,7 +872,9 @@
     "Remark": "解锁玩家等级57",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "PlayerLevelMin": {}
+      "PlayerLevelMin": [
+        57
+      ]
     },
     "ConditionText": "Condition_Toast_PlayerLv_57"
   },
@@ -794,7 +883,9 @@
     "Remark": "解锁玩家等级58",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "PlayerLevelMin": {}
+      "PlayerLevelMin": [
+        58
+      ]
     },
     "ConditionText": "Condition_Toast_PlayerLv_58"
   },
@@ -803,7 +894,9 @@
     "Remark": "解锁玩家等级59",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "PlayerLevelMin": {}
+      "PlayerLevelMin": [
+        59
+      ]
     },
     "ConditionText": "Condition_Toast_PlayerLv_59"
   },
@@ -823,7 +916,9 @@
     "Remark": "印象系统",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "QuestChain": {}
+      "QuestChain": [
+        200201
+      ]
     }
   },
   "1004": {
@@ -831,7 +926,12 @@
     "Remark": "印象系统",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "Impression": {}
+      "Impression": [
+        [
+          510004,
+          1
+        ]
+      ]
     }
   },
   "1005": {
@@ -839,7 +939,12 @@
     "Remark": "印象系统",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "Impression": {}
+      "Impression": [
+        [
+          510005,
+          1
+        ]
+      ]
     }
   },
   "1007": {
@@ -847,7 +952,12 @@
     "Remark": "印象系统",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "Impression": {}
+      "Impression": [
+        [
+          510007,
+          1
+        ]
+      ]
     }
   },
   "1008": {
@@ -855,7 +965,12 @@
     "Remark": "印象系统",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "Impression": {}
+      "Impression": [
+        [
+          510008,
+          1
+        ]
+      ]
     }
   },
   "1009": {
@@ -863,7 +978,12 @@
     "Remark": "印象系统",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "Impression": {}
+      "Impression": [
+        [
+          510009,
+          1
+        ]
+      ]
     }
   },
   "1010": {
@@ -871,7 +991,12 @@
     "Remark": "印象系统",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "Impression": {}
+      "Impression": [
+        [
+          510010,
+          1
+        ]
+      ]
     }
   },
   "1012": {
@@ -879,7 +1004,12 @@
     "Remark": "印象系统",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "Impression": {}
+      "Impression": [
+        [
+          510012,
+          1
+        ]
+      ]
     }
   },
   "1013": {
@@ -887,7 +1017,12 @@
     "Remark": "印象系统",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "Impression": {}
+      "Impression": [
+        [
+          510058,
+          1
+        ]
+      ]
     }
   },
   "1014": {
@@ -895,7 +1030,12 @@
     "Remark": "印象系统",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "Impression": {}
+      "Impression": [
+        [
+          510014,
+          1
+        ]
+      ]
     }
   },
   "1015": {
@@ -903,7 +1043,12 @@
     "Remark": "印象系统",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "Impression": {}
+      "Impression": [
+        [
+          510015,
+          1
+        ]
+      ]
     }
   },
   "1016": {
@@ -911,7 +1056,12 @@
     "Remark": "印象系统",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "Impression": {}
+      "Impression": [
+        [
+          510016,
+          1
+        ]
+      ]
     }
   },
   "1017": {
@@ -919,7 +1069,12 @@
     "Remark": "印象系统",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "Impression": {}
+      "Impression": [
+        [
+          510017,
+          1
+        ]
+      ]
     }
   },
   "1019": {
@@ -927,7 +1082,12 @@
     "Remark": "印象系统，威尔斯小传解锁",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "Impression": {}
+      "Impression": [
+        [
+          510019,
+          1
+        ]
+      ]
     }
   },
   "1020": {
@@ -935,7 +1095,12 @@
     "Remark": "印象系统",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "Impression": {}
+      "Impression": [
+        [
+          510020,
+          1
+        ]
+      ]
     }
   },
   "1021": {
@@ -943,7 +1108,13 @@
     "Remark": "冰湖城印象商店解锁-任意10",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "ImprShopUnlock": {}
+      "ImprShopUnlock": [
+        [
+          1011,
+          "Any",
+          10
+        ]
+      ]
     }
   },
   "1022": {
@@ -951,7 +1122,13 @@
     "Remark": "冰湖城印象商店解锁-功利10",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "ImprShopUnlock": {}
+      "ImprShopUnlock": [
+        [
+          1011,
+          "Benefit",
+          10
+        ]
+      ]
     }
   },
   "1023": {
@@ -959,7 +1136,13 @@
     "Remark": "冰湖城印象商店解锁-道德10",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "ImprShopUnlock": {}
+      "ImprShopUnlock": [
+        [
+          1011,
+          "Morality",
+          10
+        ]
+      ]
     }
   },
   "1024": {
@@ -967,7 +1150,13 @@
     "Remark": "冰湖城印象商店解锁-才智10",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "ImprShopUnlock": {}
+      "ImprShopUnlock": [
+        [
+          1011,
+          "Wisdom",
+          10
+        ]
+      ]
     }
   },
   "1025": {
@@ -975,7 +1164,13 @@
     "Remark": "冰湖城印象商店解锁-共情10",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "ImprShopUnlock": {}
+      "ImprShopUnlock": [
+        [
+          1011,
+          "Empathy",
+          10
+        ]
+      ]
     }
   },
   "1026": {
@@ -983,7 +1178,13 @@
     "Remark": "冰湖城印象商店解锁-混沌10",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "ImprShopUnlock": {}
+      "ImprShopUnlock": [
+        [
+          1011,
+          "Chaos",
+          10
+        ]
+      ]
     }
   },
   "1027": {
@@ -991,7 +1192,13 @@
     "Remark": "冰湖城印象商店解锁-全部10",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "ImprShopUnlock": {}
+      "ImprShopUnlock": [
+        [
+          1011,
+          "All",
+          10
+        ]
+      ]
     }
   },
   "1028": {
@@ -999,7 +1206,12 @@
     "Remark": "印象系统-巴克",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "Impression": {}
+      "Impression": [
+        [
+          510030,
+          1
+        ]
+      ]
     }
   },
   "1029": {
@@ -1007,7 +1219,12 @@
     "Remark": "印象系统-阿诺",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "Impression": {}
+      "Impression": [
+        [
+          510033,
+          1
+        ]
+      ]
     }
   },
   "1030": {
@@ -1015,7 +1232,12 @@
     "Remark": "印象系统-艾玛",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "Impression": {}
+      "Impression": [
+        [
+          510035,
+          1
+        ]
+      ]
     }
   },
   "1031": {
@@ -1023,7 +1245,12 @@
     "Remark": "印象系统-贝琳达",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "Impression": {}
+      "Impression": [
+        [
+          510037,
+          1
+        ]
+      ]
     }
   },
   "1032": {
@@ -1031,7 +1258,12 @@
     "Remark": "印象系统-莱娜",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "Impression": {}
+      "Impression": [
+        [
+          510050,
+          1
+        ]
+      ]
     }
   },
   "1033": {
@@ -1039,7 +1271,12 @@
     "Remark": "印象系统-露娜",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "Impression": {}
+      "Impression": [
+        [
+          510049,
+          1
+        ]
+      ]
     }
   },
   "1034": {
@@ -1047,7 +1284,9 @@
     "Remark": "印象系统-荷尔洛",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "QuestChain": {}
+      "QuestChain": [
+        200210
+      ]
     }
   },
   "1035": {
@@ -1055,7 +1294,12 @@
     "Remark": "印象系统-费伊-一阶段",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "Impression": {}
+      "Impression": [
+        [
+          510039,
+          1
+        ]
+      ]
     }
   },
   "1036": {
@@ -1063,7 +1307,12 @@
     "Remark": "印象系统-费伊-二阶段",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "Impression": {}
+      "Impression": [
+        [
+          510041,
+          1
+        ]
+      ]
     }
   },
   "1037": {
@@ -1071,7 +1320,12 @@
     "Remark": "印象系统-拉里",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "Impression": {}
+      "Impression": [
+        [
+          510025,
+          1
+        ]
+      ]
     }
   },
   "1038": {
@@ -1079,7 +1333,12 @@
     "Remark": "印象系统-马库斯",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "Impression": {}
+      "Impression": [
+        [
+          510053,
+          1
+        ]
+      ]
     }
   },
   "1039": {
@@ -1087,7 +1346,13 @@
     "Remark": "冰湖城印象商店解锁-任意20",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "ImprShopUnlock": {}
+      "ImprShopUnlock": [
+        [
+          1011,
+          "Any",
+          20
+        ]
+      ]
     }
   },
   "1040": {
@@ -1095,7 +1360,13 @@
     "Remark": "冰湖城印象商店解锁-功利20",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "ImprShopUnlock": {}
+      "ImprShopUnlock": [
+        [
+          1011,
+          "Benefit",
+          20
+        ]
+      ]
     }
   },
   "1041": {
@@ -1103,7 +1374,13 @@
     "Remark": "冰湖城印象商店解锁-道德20",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "ImprShopUnlock": {}
+      "ImprShopUnlock": [
+        [
+          1011,
+          "Morality",
+          20
+        ]
+      ]
     }
   },
   "1042": {
@@ -1111,7 +1388,13 @@
     "Remark": "冰湖城印象商店解锁-才智20",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "ImprShopUnlock": {}
+      "ImprShopUnlock": [
+        [
+          1011,
+          "Wisdom",
+          20
+        ]
+      ]
     }
   },
   "1043": {
@@ -1119,7 +1402,13 @@
     "Remark": "冰湖城印象商店解锁-共情20",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "ImprShopUnlock": {}
+      "ImprShopUnlock": [
+        [
+          1011,
+          "Empathy",
+          20
+        ]
+      ]
     }
   },
   "1044": {
@@ -1127,7 +1416,13 @@
     "Remark": "冰湖城印象商店解锁-混沌20",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "ImprShopUnlock": {}
+      "ImprShopUnlock": [
+        [
+          1011,
+          "Chaos",
+          20
+        ]
+      ]
     }
   },
   "1045": {
@@ -1135,7 +1430,13 @@
     "Remark": "冰湖城印象商店解锁-全部20",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "ImprShopUnlock": {}
+      "ImprShopUnlock": [
+        [
+          1011,
+          "All",
+          20
+        ]
+      ]
     }
   },
   "1046": {
@@ -1143,7 +1444,13 @@
     "Remark": "冰湖城印象商店解锁-任意30",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "ImprShopUnlock": {}
+      "ImprShopUnlock": [
+        [
+          1011,
+          "Any",
+          30
+        ]
+      ]
     }
   },
   "1047": {
@@ -1151,7 +1458,13 @@
     "Remark": "冰湖城印象商店解锁-功利30",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "ImprShopUnlock": {}
+      "ImprShopUnlock": [
+        [
+          1011,
+          "Benefit",
+          30
+        ]
+      ]
     }
   },
   "1048": {
@@ -1159,7 +1472,13 @@
     "Remark": "冰湖城印象商店解锁-道德30",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "ImprShopUnlock": {}
+      "ImprShopUnlock": [
+        [
+          1011,
+          "Morality",
+          30
+        ]
+      ]
     }
   },
   "1049": {
@@ -1167,7 +1486,13 @@
     "Remark": "冰湖城印象商店解锁-才智30",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "ImprShopUnlock": {}
+      "ImprShopUnlock": [
+        [
+          1011,
+          "Wisdom",
+          30
+        ]
+      ]
     }
   },
   "1050": {
@@ -1175,7 +1500,13 @@
     "Remark": "冰湖城印象商店解锁-共情30",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "ImprShopUnlock": {}
+      "ImprShopUnlock": [
+        [
+          1011,
+          "Empathy",
+          30
+        ]
+      ]
     }
   },
   "1051": {
@@ -1183,7 +1514,13 @@
     "Remark": "冰湖城印象商店解锁-混沌30",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "ImprShopUnlock": {}
+      "ImprShopUnlock": [
+        [
+          1011,
+          "Chaos",
+          30
+        ]
+      ]
     }
   },
   "1052": {
@@ -1191,7 +1528,13 @@
     "Remark": "冰湖城印象商店解锁-全部30",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "ImprShopUnlock": {}
+      "ImprShopUnlock": [
+        [
+          1011,
+          "All",
+          30
+        ]
+      ]
     }
   },
   "1053": {
@@ -1199,7 +1542,13 @@
     "Remark": "冰湖城印象商店解锁-任意40",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "ImprShopUnlock": {}
+      "ImprShopUnlock": [
+        [
+          1011,
+          "Any",
+          40
+        ]
+      ]
     }
   },
   "1054": {
@@ -1207,7 +1556,13 @@
     "Remark": "冰湖城印象商店解锁-功利40",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "ImprShopUnlock": {}
+      "ImprShopUnlock": [
+        [
+          1011,
+          "Benefit",
+          40
+        ]
+      ]
     }
   },
   "1055": {
@@ -1215,7 +1570,13 @@
     "Remark": "冰湖城印象商店解锁-道德40",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "ImprShopUnlock": {}
+      "ImprShopUnlock": [
+        [
+          1011,
+          "Morality",
+          40
+        ]
+      ]
     }
   },
   "1056": {
@@ -1223,7 +1584,13 @@
     "Remark": "冰湖城印象商店解锁-才智40",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "ImprShopUnlock": {}
+      "ImprShopUnlock": [
+        [
+          1011,
+          "Wisdom",
+          40
+        ]
+      ]
     }
   },
   "1057": {
@@ -1231,7 +1598,13 @@
     "Remark": "冰湖城印象商店解锁-共情40",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "ImprShopUnlock": {}
+      "ImprShopUnlock": [
+        [
+          1011,
+          "Empathy",
+          40
+        ]
+      ]
     }
   },
   "1058": {
@@ -1239,7 +1612,13 @@
     "Remark": "冰湖城印象商店解锁-混沌40",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "ImprShopUnlock": {}
+      "ImprShopUnlock": [
+        [
+          1011,
+          "Chaos",
+          40
+        ]
+      ]
     }
   },
   "1059": {
@@ -1247,7 +1626,13 @@
     "Remark": "冰湖城印象商店解锁-全部40",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "ImprShopUnlock": {}
+      "ImprShopUnlock": [
+        [
+          1011,
+          "All",
+          40
+        ]
+      ]
     }
   },
   "1060": {
@@ -1255,7 +1640,13 @@
     "Remark": "冰湖城印象商店解锁-任意50",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "ImprShopUnlock": {}
+      "ImprShopUnlock": [
+        [
+          1011,
+          "Any",
+          50
+        ]
+      ]
     }
   },
   "1061": {
@@ -1263,7 +1654,13 @@
     "Remark": "冰湖城印象商店解锁-功利50",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "ImprShopUnlock": {}
+      "ImprShopUnlock": [
+        [
+          1011,
+          "Benefit",
+          50
+        ]
+      ]
     }
   },
   "1062": {
@@ -1271,7 +1668,13 @@
     "Remark": "冰湖城印象商店解锁-道德50",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "ImprShopUnlock": {}
+      "ImprShopUnlock": [
+        [
+          1011,
+          "Morality",
+          50
+        ]
+      ]
     }
   },
   "1063": {
@@ -1279,7 +1682,13 @@
     "Remark": "冰湖城印象商店解锁-才智50",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "ImprShopUnlock": {}
+      "ImprShopUnlock": [
+        [
+          1011,
+          "Wisdom",
+          50
+        ]
+      ]
     }
   },
   "1064": {
@@ -1287,7 +1696,13 @@
     "Remark": "冰湖城印象商店解锁-共情50",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "ImprShopUnlock": {}
+      "ImprShopUnlock": [
+        [
+          1011,
+          "Empathy",
+          50
+        ]
+      ]
     }
   },
   "1065": {
@@ -1295,7 +1710,13 @@
     "Remark": "冰湖城印象商店解锁-混沌50",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "ImprShopUnlock": {}
+      "ImprShopUnlock": [
+        [
+          1011,
+          "Chaos",
+          50
+        ]
+      ]
     }
   },
   "1066": {
@@ -1303,27 +1724,33 @@
     "Remark": "冰湖城印象商店解锁-全部50",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "ImprShopUnlock": {}
+      "ImprShopUnlock": [
+        [
+          1011,
+          "All",
+          50
+        ]
+      ]
     }
   },
   "1067": {
     "ConditionId": 1067,
     "Remark": "印象系统-玛尔洁",
     "ConditionLogic": "AND",
-    "ConditionMap": [
-      {
-        "QuestChain": [
-          200213
-        ]
-      }
-    ]
+    "ConditionMap": {
+      "QuestChain": [
+        200213
+      ]
+    }
   },
   "1068": {
     "ConditionId": 1068,
     "Remark": "印象系统-帝国三兄弟",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "QuestChain": {}
+      "QuestChain": [
+        200216
+      ]
     }
   },
   "1069": {
@@ -1331,151 +1758,126 @@
     "Remark": "印象系统-希琳夫人I阶段",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "Impression": {}
+      "Impression": [
+        [
+          510002,
+          1
+        ]
+      ]
     }
   },
   "2001": {
     "ConditionId": 2001,
     "Remark": "梦魇残声-BossXibi难度1解锁",
     "ConditionLogic": "AND",
-    "ConditionMap": [
-      {
-        "QuestChain": [
-          100208
-        ]
-      }
-    ]
+    "ConditionMap": {
+      "QuestChain": [
+        100208
+      ]
+    }
   },
   "2002": {
     "ConditionId": 2002,
     "Remark": "梦魇残声-BossXibi难度2解锁",
     "ConditionLogic": "AND",
-    "ConditionMap": [
-      {
-        "QuestChain": [
-          100208
-        ]
-      },
-      {
-        "PlayerLevelMin": [
-          20
-        ]
-      }
-    ],
+    "ConditionMap": {
+      "QuestChain": [
+        100208
+      ],
+      "PlayerLevelMin": [
+        20
+      ]
+    },
     "ConditionText": "Condition_Toast_PlayerLv_20"
   },
   "2003": {
     "ConditionId": 2003,
     "Remark": "梦魇残声-BossXibi难度3解锁",
     "ConditionLogic": "AND",
-    "ConditionMap": [
-      {
-        "PlayerLevelMin": [
-          30
-        ]
-      },
-      {
-        "QuestChain": [
-          100208
-        ]
-      }
-    ],
+    "ConditionMap": {
+      "PlayerLevelMin": [
+        30
+      ],
+      "QuestChain": [
+        100208
+      ]
+    },
     "ConditionText": "Condition_Toast_PlayerLv_30"
   },
   "2011": {
     "ConditionId": 2011,
     "Remark": "梦魇残声-BossShijingzhe难度1解锁",
     "ConditionLogic": "AND",
-    "ConditionMap": [
-      {
-        "QuestChain": [
-          100208
-        ]
-      }
-    ]
+    "ConditionMap": {
+      "QuestChain": [
+        100208
+      ]
+    }
   },
   "2012": {
     "ConditionId": 2012,
     "Remark": "梦魇残声-BossShijingzhe难度2解锁",
     "ConditionLogic": "AND",
-    "ConditionMap": [
-      {
-        "QuestChain": [
-          100208
-        ]
-      },
-      {
-        "PlayerLevelMin": [
-          20
-        ]
-      }
-    ],
+    "ConditionMap": {
+      "QuestChain": [
+        100208
+      ],
+      "PlayerLevelMin": [
+        20
+      ]
+    },
     "ConditionText": "Condition_Toast_PlayerLv_20"
   },
   "2013": {
     "ConditionId": 2013,
     "Remark": "梦魇残声-BossShijingzhe难度3解锁",
     "ConditionLogic": "AND",
-    "ConditionMap": [
-      {
-        "PlayerLevelMin": [
-          30
-        ]
-      },
-      {
-        "QuestChain": [
-          100208
-        ]
-      }
-    ],
+    "ConditionMap": {
+      "PlayerLevelMin": [
+        30
+      ],
+      "QuestChain": [
+        100208
+      ]
+    },
     "ConditionText": "Condition_Toast_PlayerLv_30"
   },
   "2021": {
     "ConditionId": 2021,
     "Remark": "梦魇残声-BossSaiqi难度1解锁",
     "ConditionLogic": "AND",
-    "ConditionMap": [
-      {
-        "QuestChain": [
-          100208
-        ]
-      }
-    ]
+    "ConditionMap": {
+      "QuestChain": [
+        100208
+      ]
+    }
   },
   "2022": {
     "ConditionId": 2022,
     "Remark": "梦魇残声-BossSaiqi难度2解锁【占位",
     "ConditionLogic": "AND",
-    "ConditionMap": [
-      {
-        "QuestChain": [
-          100208
-        ]
-      },
-      {
-        "PlayerLevelMin": [
-          20
-        ]
-      }
-    ],
+    "ConditionMap": {
+      "QuestChain": [
+        100208
+      ],
+      "PlayerLevelMin": [
+        20
+      ]
+    },
     "ConditionText": "Condition_Toast_PlayerLv_20"
   },
   "2023": {
     "ConditionId": 2023,
     "Remark": "梦魇残声-BossSaiqi难度3解锁【占位",
     "ConditionLogic": "AND",
-    "ConditionMap": [
-      {
-        "PlayerLevelMin": [
-          30
-        ]
-      },
-      {
-        "QuestChain": [
-          100208
-        ]
-      }
-    ],
+    "ConditionMap": {
+      "PlayerLevelMin": [
+        30
+      ],
+      "QuestChain": [
+        100208
+      ]
+    },
     "ConditionText": "Condition_Toast_PlayerLv_30"
   },
   "3001": {
@@ -1497,7 +1899,13 @@
     "Remark": "副本-扼守·无尽30级解锁条件",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "DungeonComplete": {}
+      "DungeonComplete": [
+        [
+          90102,
+          1,
+          1
+        ]
+      ]
     },
     "ConditionText": "Condition_Toast_DungeonUnlock_3011"
   },
@@ -1506,7 +1914,13 @@
     "Remark": "副本-扼守·无尽40级解锁条件",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "DungeonComplete": {}
+      "DungeonComplete": [
+        [
+          90104,
+          1,
+          1
+        ]
+      ]
     },
     "ConditionText": "Condition_Toast_DungeonUnlock_3012"
   },
@@ -1515,7 +1929,13 @@
     "Remark": "副本-扼守·无尽50级解锁条件",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "DungeonComplete": {}
+      "DungeonComplete": [
+        [
+          90106,
+          1,
+          1
+        ]
+      ]
     },
     "ConditionText": "Condition_Toast_DungeonUnlock_3013"
   },
@@ -1524,7 +1944,13 @@
     "Remark": "副本-扼守·无尽60级解锁条件",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "DungeonComplete": {}
+      "DungeonComplete": [
+        [
+          90108,
+          1,
+          1
+        ]
+      ]
     },
     "ConditionText": "Condition_Toast_DungeonUnlock_3014"
   },
@@ -1533,7 +1959,13 @@
     "Remark": "副本-扼守·无尽70级解锁条件",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "DungeonComplete": {}
+      "DungeonComplete": [
+        [
+          90110,
+          1,
+          1
+        ]
+      ]
     },
     "ConditionText": "Condition_Toast_DungeonUnlock_3015"
   },
@@ -1542,7 +1974,13 @@
     "Remark": "副本-扼守·无尽80级解锁条件",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "DungeonComplete": {}
+      "DungeonComplete": [
+        [
+          90112,
+          1,
+          1
+        ]
+      ]
     },
     "ConditionText": "Condition_Toast_DungeonUnlock_3016"
   },
@@ -1550,13 +1988,15 @@
     "ConditionId": 3021,
     "Remark": "副本-扼守50级解锁条件",
     "ConditionLogic": "AND",
-    "ConditionMap": [
-      {
-        "DungeonComplete": [
-          "T.RT_49"
+    "ConditionMap": {
+      "DungeonComplete": [
+        [
+          90103,
+          1,
+          1
         ]
-      }
-    ],
+      ]
+    },
     "ConditionText": "Condition_Toast_DungeonUnlock_3021"
   },
   "3031": {
@@ -1564,7 +2004,13 @@
     "Remark": "副本-勘探·无尽20级解锁条件",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "DungeonComplete": {}
+      "DungeonComplete": [
+        [
+          90201,
+          1,
+          1
+        ]
+      ]
     },
     "ConditionText": "Condition_Toast_DungeonUnlock_3031"
   },
@@ -1573,7 +2019,13 @@
     "Remark": "副本-勘探·无尽30级解锁条件",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "DungeonComplete": {}
+      "DungeonComplete": [
+        [
+          90202,
+          1,
+          1
+        ]
+      ]
     },
     "ConditionText": "Condition_Toast_DungeonUnlock_3032"
   },
@@ -1582,7 +2034,13 @@
     "Remark": "副本-勘探·无尽40级解锁条件",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "DungeonComplete": {}
+      "DungeonComplete": [
+        [
+          90203,
+          1,
+          1
+        ]
+      ]
     },
     "ConditionText": "Condition_Toast_DungeonUnlock_3033"
   },
@@ -1591,7 +2049,13 @@
     "Remark": "副本-勘探·无尽50级解锁条件",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "DungeonComplete": {}
+      "DungeonComplete": [
+        [
+          90204,
+          1,
+          1
+        ]
+      ]
     },
     "ConditionText": "Condition_Toast_DungeonUnlock_3034"
   },
@@ -1600,7 +2064,13 @@
     "Remark": "副本-勘探·无尽60级解锁条件",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "DungeonComplete": {}
+      "DungeonComplete": [
+        [
+          90205,
+          1,
+          1
+        ]
+      ]
     },
     "ConditionText": "Condition_Toast_DungeonUnlock_3035"
   },
@@ -1609,7 +2079,13 @@
     "Remark": "副本-勘探·无尽70级解锁条件",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "DungeonComplete": {}
+      "DungeonComplete": [
+        [
+          90206,
+          1,
+          1
+        ]
+      ]
     },
     "ConditionText": "Condition_Toast_DungeonUnlock_3036"
   },
@@ -1618,7 +2094,33 @@
     "Remark": "副本-追缉20级解锁条件",
     "ConditionLogic": "OR",
     "ConditionMap": {
-      "DungeonComplete": {}
+      "DungeonComplete": [
+        [
+          90301,
+          1,
+          1
+        ],
+        [
+          90302,
+          1,
+          1
+        ],
+        [
+          90303,
+          1,
+          1
+        ],
+        [
+          90304,
+          1,
+          1
+        ],
+        [
+          90305,
+          1,
+          1
+        ]
+      ]
     },
     "ConditionText": "Condition_Toast_DungeonUnlock_3041"
   },
@@ -1627,7 +2129,18 @@
     "Remark": "副本-追缉30级解锁条件",
     "ConditionLogic": "OR",
     "ConditionMap": {
-      "DungeonComplete": {}
+      "DungeonComplete": [
+        [
+          90306,
+          1,
+          1
+        ],
+        [
+          90307,
+          1,
+          1
+        ]
+      ]
     },
     "ConditionText": "Condition_Toast_DungeonUnlock_3042"
   },
@@ -1636,7 +2149,38 @@
     "Remark": "副本-探险20级解锁条件",
     "ConditionLogic": "OR",
     "ConditionMap": {
-      "DungeonComplete": {}
+      "DungeonComplete": [
+        [
+          90401,
+          1,
+          1
+        ],
+        [
+          90402,
+          1,
+          1
+        ],
+        [
+          90403,
+          1,
+          1
+        ],
+        [
+          90404,
+          1,
+          1
+        ],
+        [
+          90405,
+          1,
+          1
+        ],
+        [
+          90406,
+          1,
+          1
+        ]
+      ]
     },
     "ConditionText": "Condition_Toast_DungeonUnlock_3051"
   },
@@ -1645,7 +2189,38 @@
     "Remark": "副本-探险30级解锁条件",
     "ConditionLogic": "OR",
     "ConditionMap": {
-      "DungeonComplete": {}
+      "DungeonComplete": [
+        [
+          90407,
+          1,
+          1
+        ],
+        [
+          90408,
+          1,
+          1
+        ],
+        [
+          90409,
+          1,
+          1
+        ],
+        [
+          90410,
+          1,
+          1
+        ],
+        [
+          90411,
+          1,
+          1
+        ],
+        [
+          90412,
+          1,
+          1
+        ]
+      ]
     },
     "ConditionText": "Condition_Toast_DungeonUnlock_3052"
   },
@@ -1654,7 +2229,38 @@
     "Remark": "副本-探险40级解锁条件",
     "ConditionLogic": "OR",
     "ConditionMap": {
-      "DungeonComplete": {}
+      "DungeonComplete": [
+        [
+          90413,
+          1,
+          1
+        ],
+        [
+          90414,
+          1,
+          1
+        ],
+        [
+          90415,
+          1,
+          1
+        ],
+        [
+          90416,
+          1,
+          1
+        ],
+        [
+          90417,
+          1,
+          1
+        ],
+        [
+          90418,
+          1,
+          1
+        ]
+      ]
     },
     "ConditionText": "Condition_Toast_DungeonUnlock_3053"
   },
@@ -1663,7 +2269,38 @@
     "Remark": "副本-探险50级解锁条件",
     "ConditionLogic": "OR",
     "ConditionMap": {
-      "DungeonComplete": {}
+      "DungeonComplete": [
+        [
+          90419,
+          1,
+          1
+        ],
+        [
+          90420,
+          1,
+          1
+        ],
+        [
+          90421,
+          1,
+          1
+        ],
+        [
+          90422,
+          1,
+          1
+        ],
+        [
+          90423,
+          1,
+          1
+        ],
+        [
+          90424,
+          1,
+          1
+        ]
+      ]
     },
     "ConditionText": "Condition_Toast_DungeonUnlock_3054"
   },
@@ -1672,7 +2309,38 @@
     "Remark": "副本-探险60级解锁条件",
     "ConditionLogic": "OR",
     "ConditionMap": {
-      "DungeonComplete": {}
+      "DungeonComplete": [
+        [
+          90425,
+          1,
+          1
+        ],
+        [
+          90426,
+          1,
+          1
+        ],
+        [
+          90427,
+          1,
+          1
+        ],
+        [
+          90428,
+          1,
+          1
+        ],
+        [
+          90429,
+          1,
+          1
+        ],
+        [
+          90430,
+          1,
+          1
+        ]
+      ]
     },
     "ConditionText": "Condition_Toast_DungeonUnlock_3055"
   },
@@ -1681,7 +2349,38 @@
     "Remark": "副本-探险70级解锁条件",
     "ConditionLogic": "OR",
     "ConditionMap": {
-      "DungeonComplete": {}
+      "DungeonComplete": [
+        [
+          90431,
+          1,
+          1
+        ],
+        [
+          90432,
+          1,
+          1
+        ],
+        [
+          90433,
+          1,
+          1
+        ],
+        [
+          90434,
+          1,
+          1
+        ],
+        [
+          90435,
+          1,
+          1
+        ],
+        [
+          90436,
+          1,
+          1
+        ]
+      ]
     },
     "ConditionText": "Condition_Toast_DungeonUnlock_3056"
   },
@@ -1690,7 +2389,13 @@
     "Remark": "副本-调停30级解锁条件",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "DungeonComplete": {}
+      "DungeonComplete": [
+        [
+          90501,
+          1,
+          1
+        ]
+      ]
     },
     "ConditionText": "Condition_Toast_DungeonUnlock_3061"
   },
@@ -1699,7 +2404,13 @@
     "Remark": "副本-调停40级解锁条件",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "DungeonComplete": {}
+      "DungeonComplete": [
+        [
+          90502,
+          1,
+          1
+        ]
+      ]
     },
     "ConditionText": "Condition_Toast_DungeonUnlock_3062"
   },
@@ -1708,7 +2419,13 @@
     "Remark": "副本-调停50级解锁条件",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "DungeonComplete": {}
+      "DungeonComplete": [
+        [
+          90503,
+          1,
+          1
+        ]
+      ]
     },
     "ConditionText": "Condition_Toast_DungeonUnlock_3063"
   },
@@ -1717,7 +2434,13 @@
     "Remark": "副本-调停60级解锁条件",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "DungeonComplete": {}
+      "DungeonComplete": [
+        [
+          90504,
+          1,
+          1
+        ]
+      ]
     },
     "ConditionText": "Condition_Toast_DungeonUnlock_3064"
   },
@@ -1726,7 +2449,13 @@
     "Remark": "副本-调停70级解锁条件",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "DungeonComplete": {}
+      "DungeonComplete": [
+        [
+          90505,
+          1,
+          1
+        ]
+      ]
     },
     "ConditionText": "Condition_Toast_DungeonUnlock_3065"
   },
@@ -1735,7 +2464,13 @@
     "Remark": "副本-调停80级解锁条件",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "DungeonComplete": {}
+      "DungeonComplete": [
+        [
+          90506,
+          1,
+          1
+        ]
+      ]
     },
     "ConditionText": "Condition_Toast_DungeonUnlock_3066"
   },
@@ -1744,7 +2479,13 @@
     "Remark": "副本-避险20级解锁条件",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "DungeonComplete": {}
+      "DungeonComplete": [
+        [
+          90601,
+          1,
+          1
+        ]
+      ]
     },
     "ConditionText": "Condition_Toast_DungeonUnlock_3071"
   },
@@ -1753,7 +2494,13 @@
     "Remark": "副本-避险35级解锁条件",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "DungeonComplete": {}
+      "DungeonComplete": [
+        [
+          90602,
+          1,
+          1
+        ]
+      ]
     },
     "ConditionText": "Condition_Toast_DungeonUnlock_3072"
   },
@@ -1762,7 +2509,13 @@
     "Remark": "副本-避险50级解锁条件",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "DungeonComplete": {}
+      "DungeonComplete": [
+        [
+          90603,
+          1,
+          1
+        ]
+      ]
     },
     "ConditionText": "Condition_Toast_DungeonUnlock_3073"
   },
@@ -1771,7 +2524,13 @@
     "Remark": "副本-避险60级解锁条件",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "DungeonComplete": {}
+      "DungeonComplete": [
+        [
+          90604,
+          1,
+          1
+        ]
+      ]
     },
     "ConditionText": "Condition_Toast_DungeonUnlock_3074"
   },
@@ -1780,7 +2539,13 @@
     "Remark": "副本-避险70级解锁条件",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "DungeonComplete": {}
+      "DungeonComplete": [
+        [
+          90605,
+          1,
+          1
+        ]
+      ]
     },
     "ConditionText": "Condition_Toast_DungeonUnlock_3075"
   },
@@ -1789,7 +2554,13 @@
     "Remark": "副本-避险80级解锁条件",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "DungeonComplete": {}
+      "DungeonComplete": [
+        [
+          90606,
+          1,
+          1
+        ]
+      ]
     },
     "ConditionText": "Condition_Toast_DungeonUnlock_3076"
   },
@@ -1798,7 +2569,13 @@
     "Remark": "副本-追缉30级解锁条件",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "DungeonComplete": {}
+      "DungeonComplete": [
+        [
+          90305,
+          1,
+          1
+        ]
+      ]
     },
     "ConditionText": "Condition_Toast_DungeonUnlock_3100"
   },
@@ -1807,7 +2584,13 @@
     "Remark": "副本-追缉40级解锁条件",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "DungeonComplete": {}
+      "DungeonComplete": [
+        [
+          90306,
+          1,
+          1
+        ]
+      ]
     },
     "ConditionText": "Condition_Toast_DungeonUnlock_3101"
   },
@@ -1816,7 +2599,13 @@
     "Remark": "副本-追缉50级解锁条件",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "DungeonComplete": {}
+      "DungeonComplete": [
+        [
+          90307,
+          1,
+          1
+        ]
+      ]
     },
     "ConditionText": "Condition_Toast_DungeonUnlock_3102"
   },
@@ -1825,7 +2614,13 @@
     "Remark": "副本-追缉60级解锁条件",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "DungeonComplete": {}
+      "DungeonComplete": [
+        [
+          90308,
+          1,
+          1
+        ]
+      ]
     },
     "ConditionText": "Condition_Toast_DungeonUnlock_3103"
   },
@@ -1834,7 +2629,13 @@
     "Remark": "副本-追缉70级解锁条件",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "DungeonComplete": {}
+      "DungeonComplete": [
+        [
+          90309,
+          1,
+          1
+        ]
+      ]
     },
     "ConditionText": "Condition_Toast_DungeonUnlock_3104"
   },
@@ -1843,7 +2644,13 @@
     "Remark": "副本-追缉80级解锁条件",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "DungeonComplete": {}
+      "DungeonComplete": [
+        [
+          90310,
+          1,
+          1
+        ]
+      ]
     },
     "ConditionText": "Condition_Toast_DungeonUnlock_3105"
   },
@@ -1852,7 +2659,13 @@
     "Remark": "副本-防御2时间-30级解锁条件",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "DungeonComplete": {}
+      "DungeonComplete": [
+        [
+          90101,
+          1,
+          1
+        ]
+      ]
     },
     "ConditionText": "Condition_Toast_DungeonUnlock_3110"
   },
@@ -1860,13 +2673,15 @@
     "ConditionId": 3111,
     "Remark": "副本-防御2时间-40级解锁条件",
     "ConditionLogic": "AND",
-    "ConditionMap": [
-      {
-        "DungeonComplete": [
-          "T.RT_49"
+    "ConditionMap": {
+      "DungeonComplete": [
+        [
+          90103,
+          1,
+          1
         ]
-      }
-    ],
+      ]
+    },
     "ConditionText": "Condition_Toast_DungeonUnlock_3111"
   },
   "3112": {
@@ -1874,7 +2689,13 @@
     "Remark": "副本-防御2时间-50级解锁条件",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "DungeonComplete": {}
+      "DungeonComplete": [
+        [
+          90105,
+          1,
+          1
+        ]
+      ]
     },
     "ConditionText": "Condition_Toast_DungeonUnlock_3112"
   },
@@ -1883,7 +2704,13 @@
     "Remark": "副本-防御2时间-60级解锁条件",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "DungeonComplete": {}
+      "DungeonComplete": [
+        [
+          90107,
+          1,
+          1
+        ]
+      ]
     },
     "ConditionText": "Condition_Toast_DungeonUnlock_3113"
   },
@@ -1892,7 +2719,13 @@
     "Remark": "副本-防御2时间-70级解锁条件",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "DungeonComplete": {}
+      "DungeonComplete": [
+        [
+          90109,
+          1,
+          1
+        ]
+      ]
     },
     "ConditionText": "Condition_Toast_DungeonUnlock_3114"
   },
@@ -1901,7 +2734,13 @@
     "Remark": "副本-防御2时间-80级解锁条件",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "DungeonComplete": {}
+      "DungeonComplete": [
+        [
+          90111,
+          1,
+          1
+        ]
+      ]
     },
     "ConditionText": "Condition_Toast_DungeonUnlock_3115"
   },
@@ -1910,7 +2749,13 @@
     "Remark": "副本-圣殿30级解锁条件",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "DungeonComplete": {}
+      "DungeonComplete": [
+        [
+          91001,
+          1,
+          1
+        ]
+      ]
     },
     "ConditionText": "Condition_Toast_DungeonUnlock_3120"
   },
@@ -1919,7 +2764,13 @@
     "Remark": "副本-圣殿40级解锁条件",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "DungeonComplete": {}
+      "DungeonComplete": [
+        [
+          91002,
+          1,
+          1
+        ]
+      ]
     },
     "ConditionText": "Condition_Toast_DungeonUnlock_3121"
   },
@@ -1928,7 +2779,13 @@
     "Remark": "副本-圣殿50级解锁条件",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "DungeonComplete": {}
+      "DungeonComplete": [
+        [
+          91003,
+          1,
+          1
+        ]
+      ]
     },
     "ConditionText": "Condition_Toast_DungeonUnlock_3122"
   },
@@ -1937,7 +2794,13 @@
     "Remark": "副本-圣殿60级解锁条件",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "DungeonComplete": {}
+      "DungeonComplete": [
+        [
+          91004,
+          1,
+          1
+        ]
+      ]
     },
     "ConditionText": "Condition_Toast_DungeonUnlock_3123"
   },
@@ -1946,7 +2809,13 @@
     "Remark": "副本-圣殿70级解锁条件",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "DungeonComplete": {}
+      "DungeonComplete": [
+        [
+          91005,
+          1,
+          1
+        ]
+      ]
     },
     "ConditionText": "Condition_Toast_DungeonUnlock_3124"
   },
@@ -1955,7 +2824,13 @@
     "Remark": "副本-圣殿80级解锁条件",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "DungeonComplete": {}
+      "DungeonComplete": [
+        [
+          91006,
+          1,
+          1
+        ]
+      ]
     },
     "ConditionText": "Condition_Toast_DungeonUnlock_3125"
   },
@@ -1964,7 +2839,13 @@
     "Remark": "副本-搜救30级解锁条件",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "DungeonComplete": {}
+      "DungeonComplete": [
+        [
+          90901,
+          1,
+          1
+        ]
+      ]
     },
     "ConditionText": "Condition_Toast_DungeonUnlock_3130"
   },
@@ -1973,7 +2854,13 @@
     "Remark": "副本-搜救40级解锁条件",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "DungeonComplete": {}
+      "DungeonComplete": [
+        [
+          90902,
+          1,
+          1
+        ]
+      ]
     },
     "ConditionText": "Condition_Toast_DungeonUnlock_3131"
   },
@@ -1982,7 +2869,13 @@
     "Remark": "副本-搜救50级解锁条件",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "DungeonComplete": {}
+      "DungeonComplete": [
+        [
+          90903,
+          1,
+          1
+        ]
+      ]
     },
     "ConditionText": "Condition_Toast_DungeonUnlock_3132"
   },
@@ -1991,7 +2884,13 @@
     "Remark": "副本-搜救60级解锁条件",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "DungeonComplete": {}
+      "DungeonComplete": [
+        [
+          90904,
+          1,
+          1
+        ]
+      ]
     },
     "ConditionText": "Condition_Toast_DungeonUnlock_3133"
   },
@@ -2000,7 +2899,13 @@
     "Remark": "副本-搜救70级解锁条件",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "DungeonComplete": {}
+      "DungeonComplete": [
+        [
+          90905,
+          1,
+          1
+        ]
+      ]
     },
     "ConditionText": "Condition_Toast_DungeonUnlock_3134"
   },
@@ -2009,7 +2914,13 @@
     "Remark": "副本-搜救80级解锁条件",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "DungeonComplete": {}
+      "DungeonComplete": [
+        [
+          90906,
+          1,
+          1
+        ]
+      ]
     },
     "ConditionText": "Condition_Toast_DungeonUnlock_3135"
   },
@@ -2018,7 +2929,13 @@
     "Remark": "副本-推车30级解锁条件",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "DungeonComplete": {}
+      "DungeonComplete": [
+        [
+          90701,
+          1,
+          1
+        ]
+      ]
     },
     "ConditionText": "Condition_Toast_DungeonUnlock_3140"
   },
@@ -2027,7 +2944,13 @@
     "Remark": "副本-推车40级解锁条件",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "DungeonComplete": {}
+      "DungeonComplete": [
+        [
+          90702,
+          1,
+          1
+        ]
+      ]
     },
     "ConditionText": "Condition_Toast_DungeonUnlock_3141"
   },
@@ -2036,7 +2959,13 @@
     "Remark": "副本-推车50级解锁条件",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "DungeonComplete": {}
+      "DungeonComplete": [
+        [
+          90703,
+          1,
+          1
+        ]
+      ]
     },
     "ConditionText": "Condition_Toast_DungeonUnlock_3142"
   },
@@ -2045,7 +2974,13 @@
     "Remark": "副本-推车60级解锁条件",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "DungeonComplete": {}
+      "DungeonComplete": [
+        [
+          90704,
+          1,
+          1
+        ]
+      ]
     },
     "ConditionText": "Condition_Toast_DungeonUnlock_3143"
   },
@@ -2054,7 +2989,13 @@
     "Remark": "副本-推车70级解锁条件",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "DungeonComplete": {}
+      "DungeonComplete": [
+        [
+          90705,
+          1,
+          1
+        ]
+      ]
     },
     "ConditionText": "Condition_Toast_DungeonUnlock_3144"
   },
@@ -2063,7 +3004,13 @@
     "Remark": "副本-推车80级解锁条件",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "DungeonComplete": {}
+      "DungeonComplete": [
+        [
+          90706,
+          1,
+          1
+        ]
+      ]
     },
     "ConditionText": "Condition_Toast_DungeonUnlock_3145"
   },
@@ -2072,7 +3019,13 @@
     "Remark": "副本-歼灭30级解锁条件",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "DungeonComplete": {}
+      "DungeonComplete": [
+        [
+          90801,
+          1,
+          1
+        ]
+      ]
     },
     "ConditionText": "Condition_Toast_DungeonUnlock_3150"
   },
@@ -2081,7 +3034,13 @@
     "Remark": "副本-歼灭40级解锁条件",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "DungeonComplete": {}
+      "DungeonComplete": [
+        [
+          90802,
+          1,
+          1
+        ]
+      ]
     },
     "ConditionText": "Condition_Toast_DungeonUnlock_3151"
   },
@@ -2090,7 +3049,13 @@
     "Remark": "副本-歼灭50级解锁条件",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "DungeonComplete": {}
+      "DungeonComplete": [
+        [
+          90803,
+          1,
+          1
+        ]
+      ]
     },
     "ConditionText": "Condition_Toast_DungeonUnlock_3152"
   },
@@ -2099,7 +3064,13 @@
     "Remark": "副本-歼灭60级解锁条件",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "DungeonComplete": {}
+      "DungeonComplete": [
+        [
+          90804,
+          1,
+          1
+        ]
+      ]
     },
     "ConditionText": "Condition_Toast_DungeonUnlock_3153"
   },
@@ -2108,7 +3079,13 @@
     "Remark": "副本-歼灭70级解锁条件",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "DungeonComplete": {}
+      "DungeonComplete": [
+        [
+          90805,
+          1,
+          1
+        ]
+      ]
     },
     "ConditionText": "Condition_Toast_DungeonUnlock_3154"
   },
@@ -2117,7 +3094,13 @@
     "Remark": "副本-歼灭80级解锁条件",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "DungeonComplete": {}
+      "DungeonComplete": [
+        [
+          90806,
+          1,
+          1
+        ]
+      ]
     },
     "ConditionText": "Condition_Toast_DungeonUnlock_3155"
   },
@@ -2129,7 +3112,9 @@
       "PlayerLevelMin": [
         1
       ],
-      "Quest": {}
+      "Quest": [
+        10010210
+      ]
     },
     "ConditionText": "UI_Unlock_Des_Bag"
   },
@@ -2137,18 +3122,14 @@
     "ConditionId": 4020,
     "Remark": "军械库解锁条件",
     "ConditionLogic": "AND",
-    "ConditionMap": [
-      {
-        "PlayerLevelMin": [
-          1
-        ]
-      },
-      {
-        "Quest": [
-          10010211
-        ]
-      }
-    ],
+    "ConditionMap": {
+      "PlayerLevelMin": [
+        1
+      ],
+      "Quest": [
+        10010211
+      ]
+    },
     "ConditionText": "UI_Locked_Des_Armory"
   },
   "4021": {
@@ -2159,25 +3140,23 @@
       "PlayerLevelMin": [
         1
       ],
-      "Quest": {}
+      "Quest": [
+        10010212
+      ]
     }
   },
   "4030": {
     "ConditionId": 4030,
     "Remark": "商城解锁条件",
     "ConditionLogic": "AND",
-    "ConditionMap": [
-      {
-        "PlayerLevelMin": [
-          1
-        ]
-      },
-      {
-        "Quest": [
-          10020109
-        ]
-      }
-    ],
+    "ConditionMap": {
+      "PlayerLevelMin": [
+        1
+      ],
+      "Quest": [
+        10020109
+      ]
+    },
     "ConditionText": "UI_Locked_Des_Shop"
   },
   "4040": {
@@ -2185,7 +3164,9 @@
     "Remark": "抽卡系统解锁条件",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "Quest": {}
+      "Quest": [
+        10010306
+      ]
     },
     "ConditionText": "UI_Locked_Des_Gacha"
   },
@@ -2194,141 +3175,115 @@
     "Remark": "全部卡池解锁条件",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "Quest": {}
+      "Quest": [
+        10010308
+      ]
     }
   },
   "4050": {
     "ConditionId": 4050,
     "Remark": "大地图与传送解锁条件",
     "ConditionLogic": "AND",
-    "ConditionMap": [
-      {
-        "PlayerLevelMin": [
-          1
-        ]
-      },
-      {
-        "Quest": [
-          10010106
-        ]
-      }
-    ],
+    "ConditionMap": {
+      "PlayerLevelMin": [
+        1
+      ],
+      "Quest": [
+        10010106
+      ]
+    },
     "ConditionText": "UI_Locked_Des_Map"
   },
   "4060": {
     "ConditionId": 4060,
     "Remark": "看板娘解锁条件",
     "ConditionLogic": "AND",
-    "ConditionMap": [
-      {
-        "PlayerLevelMin": [
-          1
-        ]
-      },
-      {
-        "Quest": [
-          10020109
-        ]
-      }
-    ],
+    "ConditionMap": {
+      "PlayerLevelMin": [
+        1
+      ],
+      "Quest": [
+        10020109
+      ]
+    },
     "ConditionText": "UI_Locked_Des_Invite"
   },
   "4070": {
     "ConditionId": 4070,
     "Remark": "成就系统解锁条件",
     "ConditionLogic": "AND",
-    "ConditionMap": [
-      {
-        "PlayerLevelMin": [
-          1
-        ]
-      }
-    ],
+    "ConditionMap": {
+      "PlayerLevelMin": [
+        1
+      ]
+    },
     "ConditionText": "UI_Locked_Des_Achievement"
   },
   "4080": {
     "ConditionId": 4080,
     "Remark": "锻造系统解锁条件",
     "ConditionLogic": "AND",
-    "ConditionMap": [
-      {
-        "PlayerLevelMin": [
-          1
-        ]
-      },
-      {
-        "Quest": [
-          20010103
-        ]
-      }
-    ],
+    "ConditionMap": {
+      "PlayerLevelMin": [
+        1
+      ],
+      "Quest": [
+        20010103
+      ]
+    },
     "ConditionText": "UI_Locked_Des_Forging"
   },
   "4090": {
     "ConditionId": 4090,
     "Remark": "宠物系统解锁条件",
     "ConditionLogic": "AND",
-    "ConditionMap": [
-      {
-        "PlayerLevelMin": [
-          1
-        ]
-      },
-      {
-        "Quest": [
-          10020223
-        ]
-      }
-    ],
+    "ConditionMap": {
+      "PlayerLevelMin": [
+        1
+      ],
+      "Quest": [
+        10020223
+      ]
+    },
     "ConditionText": "UI_Locked_Des_SupportSkill"
   },
   "4100": {
     "ConditionId": 4100,
     "Remark": "邮箱解锁条件",
     "ConditionLogic": "AND",
-    "ConditionMap": [
-      {
-        "PlayerLevelMin": [
-          1
-        ]
-      },
-      {
-        "Quest": [
-          10020109
-        ]
-      }
-    ],
+    "ConditionMap": {
+      "PlayerLevelMin": [
+        1
+      ],
+      "Quest": [
+        10020109
+      ]
+    },
     "ConditionText": "UI_Locked_Des_Mail"
   },
   "4110": {
     "ConditionId": 4110,
     "Remark": "玩法入口解锁条件",
     "ConditionLogic": "AND",
-    "ConditionMap": [
-      {
-        "PlayerLevelMin": [
-          1
-        ]
-      },
-      {
-        "Quest": [
-          10020223
-        ]
-      }
-    ],
+    "ConditionMap": {
+      "PlayerLevelMin": [
+        1
+      ],
+      "Quest": [
+        10020223
+      ]
+    },
     "ConditionText": "UI_Locked_Des_Play"
   },
   "4120": {
     "ConditionId": 4120,
     "Remark": "梦魇残声系统解锁",
     "ConditionLogic": "AND",
-    "ConditionMap": [
-      {
-        "QuestChain": [
-          100208
-        ]
-      }
-    ],
+    "ConditionMap": {
+      "QuestChain": [
+        100208
+      ]
+    },
     "ConditionText": "UI_Locked_Des_HardBoss"
   },
   "4130": {
@@ -2349,54 +3304,42 @@
     "ConditionId": 4140,
     "Remark": "战斗轮盘解锁条件",
     "ConditionLogic": "AND",
-    "ConditionMap": [
-      {
-        "PlayerLevelMin": [
-          1
-        ]
-      },
-      {
-        "QuestChain": [
-          200101
-        ]
-      }
-    ],
+    "ConditionMap": {
+      "PlayerLevelMin": [
+        1
+      ],
+      "QuestChain": [
+        200101
+      ]
+    },
     "ConditionText": "UI_Locked_Des_BattleWheel"
   },
   "4150": {
     "ConditionId": 4150,
     "Remark": "公告解锁条件",
     "ConditionLogic": "AND",
-    "ConditionMap": [
-      {
-        "PlayerLevelMin": [
-          1
-        ]
-      },
-      {
-        "Quest": [
-          10020109
-        ]
-      }
-    ],
+    "ConditionMap": {
+      "PlayerLevelMin": [
+        1
+      ],
+      "Quest": [
+        10020109
+      ]
+    },
     "ConditionText": "UI_Locked_Des_Notice"
   },
   "4160": {
     "ConditionId": 4160,
     "Remark": "MOD解锁条件",
     "ConditionLogic": "AND",
-    "ConditionMap": [
-      {
-        "PlayerLevelMin": [
-          1
-        ]
-      },
-      {
-        "Quest": [
-          10010211
-        ]
-      }
-    ],
+    "ConditionMap": {
+      "PlayerLevelMin": [
+        1
+      ],
+      "Quest": [
+        10010211
+      ]
+    },
     "ConditionText": "UI_Locked_Des_Rouge"
   },
   "4170": {
@@ -2416,31 +3359,25 @@
     "ConditionId": 4180,
     "Remark": "教学手册解锁条件",
     "ConditionLogic": "AND",
-    "ConditionMap": [
-      {
-        "PlayerLevelMin": [
-          1
-        ]
-      },
-      {
-        "Quest": [
-          10010106
-        ]
-      }
-    ],
+    "ConditionMap": {
+      "PlayerLevelMin": [
+        1
+      ],
+      "Quest": [
+        10010106
+      ]
+    },
     "ConditionText": "UI_Locked_Des_GuideBook"
   },
   "4190": {
     "ConditionId": 4190,
     "Remark": "好友系统解锁",
     "ConditionLogic": "AND",
-    "ConditionMap": [
-      {
-        "QuestChain": [
-          100208
-        ]
-      }
-    ],
+    "ConditionMap": {
+      "QuestChain": [
+        100208
+      ]
+    },
     "ConditionText": "UI_Locked_Des_Friend"
   },
   "4200": {
@@ -2448,7 +3385,9 @@
     "Remark": "相机系统解锁",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "Quest": {}
+      "Quest": [
+        10020608
+      ]
     },
     "ConditionText": "UI_Locked_Des_PhotoCamera"
   },
@@ -2456,57 +3395,47 @@
     "ConditionId": 4210,
     "Remark": "极化系统解锁",
     "ConditionLogic": "AND",
-    "ConditionMap": [
-      {
-        "QuestChain": [
-          100208
-        ]
-      }
-    ],
+    "ConditionMap": {
+      "QuestChain": [
+        100208
+      ]
+    },
     "ConditionText": "UI_Locked_Des_Polarity"
   },
   "4220": {
     "ConditionId": 4220,
     "Remark": "活动系统解锁",
     "ConditionLogic": "AND",
-    "ConditionMap": [
-      {
-        "PlayerLevelMin": [
-          1
-        ]
-      },
-      {
-        "QuestChain": [
-          200101
-        ]
-      }
-    ],
+    "ConditionMap": {
+      "PlayerLevelMin": [
+        1
+      ],
+      "QuestChain": [
+        200101
+      ]
+    },
     "ConditionText": "UI_Locked_Des_GameEvent"
   },
   "4230": {
     "ConditionId": 4230,
     "Remark": "神庙入口UI解锁",
     "ConditionLogic": "AND",
-    "ConditionMap": [
-      {
-        "QuestChain": [
-          100206
-        ]
-      }
-    ],
+    "ConditionMap": {
+      "QuestChain": [
+        100206
+      ]
+    },
     "ConditionText": "UI_Locked_Des_Temple"
   },
   "4240": {
     "ConditionId": 4240,
     "Remark": "委托匹配解锁条件",
     "ConditionLogic": "AND",
-    "ConditionMap": [
-      {
-        "QuestChain": [
-          100208
-        ]
-      }
-    ],
+    "ConditionMap": {
+      "QuestChain": [
+        100208
+      ]
+    },
     "ConditionText": "UI_Locked_Des_Match"
   },
   "4250": {
@@ -2527,13 +3456,11 @@
     "ConditionId": 4260,
     "Remark": "聊天解锁条件",
     "ConditionLogic": "AND",
-    "ConditionMap": [
-      {
-        "QuestChain": [
-          100208
-        ]
-      }
-    ],
+    "ConditionMap": {
+      "QuestChain": [
+        100208
+      ]
+    },
     "ConditionText": "UI_Locked_Des_Chat"
   },
   "4270": {
@@ -2541,7 +3468,9 @@
     "Remark": "换主角解锁条件",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "EquipPetId": {}
+      "EquipPetId": [
+        -1
+      ]
     },
     "ConditionText": "UI_Locked_Des_SwitchMaster"
   },
@@ -2549,18 +3478,14 @@
     "ConditionId": 4280,
     "Remark": "返回据点跳转功能解锁",
     "ConditionLogic": "AND",
-    "ConditionMap": [
-      {
-        "PlayerLevelMin": [
-          1
-        ]
-      },
-      {
-        "Quest": [
-          20010103
-        ]
-      }
-    ],
+    "ConditionMap": {
+      "PlayerLevelMin": [
+        1
+      ],
+      "Quest": [
+        20010103
+      ]
+    },
     "ConditionText": "UI_TOAST_FORGING_WARNING"
   },
   "5001": {
@@ -2568,27 +3493,51 @@
     "Remark": "拥有祝福101与102",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "RougeLikePreAward": {}
+      "RougeLikePreAward": [
+        [
+          "Blessing",
+          101
+        ],
+        [
+          "Blessing",
+          102
+        ]
+      ]
     }
   },
   "5002": {
     "ConditionId": 5002,
     "Remark": "拥有祝福2组3枚",
     "ConditionLogic": "AND",
-    "ConditionMap": [
-      {
-        "RougeLikeGroupMin": [
-          "T.RT_71"
+    "ConditionMap": {
+      "RougeLikeGroupMin": [
+        [
+          "Blessing",
+          2,
+          3
         ]
-      }
-    ]
+      ]
+    }
   },
   "5003": {
     "ConditionId": 5003,
     "Remark": "拥有祝福601或602或603",
     "ConditionLogic": "OR",
     "ConditionMap": {
-      "RougeLikePreAward": {}
+      "RougeLikePreAward": [
+        [
+          "Blessing",
+          601
+        ],
+        [
+          "Blessing",
+          602
+        ],
+        [
+          "Blessing",
+          603
+        ]
+      ]
     }
   },
   "5004": {
@@ -2596,7 +3545,12 @@
     "Remark": "拥有祝福602",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "RougeLikePreAward": {}
+      "RougeLikePreAward": [
+        [
+          "Blessing",
+          602
+        ]
+      ]
     }
   },
   "5005": {
@@ -2604,7 +3558,12 @@
     "Remark": "拥有祝福603",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "RougeLikePreAward": {}
+      "RougeLikePreAward": [
+        [
+          "Blessing",
+          603
+        ]
+      ]
     }
   },
   "5006": {
@@ -2612,7 +3571,13 @@
     "Remark": "拥有祝福6组3枚",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "RougeLikeGroupMin": {}
+      "RougeLikeGroupMin": [
+        [
+          "Blessing",
+          6,
+          3
+        ]
+      ]
     }
   },
   "5007": {
@@ -2620,7 +3585,13 @@
     "Remark": "拥有祝福6组5枚",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "RougeLikeGroupMin": {}
+      "RougeLikeGroupMin": [
+        [
+          "Blessing",
+          6,
+          5
+        ]
+      ]
     }
   },
   "5008": {
@@ -2628,7 +3599,18 @@
     "Remark": "5组或6组已拿到大于等于三个",
     "ConditionLogic": "OR",
     "ConditionMap": {
-      "RougeLikeGroupMin": {}
+      "RougeLikeGroupMin": [
+        [
+          "Blessing",
+          5,
+          3
+        ],
+        [
+          "Blessing",
+          6,
+          3
+        ]
+      ]
     }
   },
   "5009": {
@@ -2636,7 +3618,18 @@
     "Remark": "祝福5组与6组都剩余大于三个",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "RougeLikeGroupMax": {}
+      "RougeLikeGroupMax": [
+        [
+          "Blessing",
+          5,
+          8
+        ],
+        [
+          "Blessing",
+          6,
+          8
+        ]
+      ]
     }
   },
   "5010": {
@@ -2706,7 +3699,18 @@
     "Remark": "1组或2组已拿到大于等于三个",
     "ConditionLogic": "OR",
     "ConditionMap": {
-      "RougeLikeGroupMin": {}
+      "RougeLikeGroupMin": [
+        [
+          "Blessing",
+          1,
+          3
+        ],
+        [
+          "Blessing",
+          2,
+          3
+        ]
+      ]
     }
   },
   "5016": {
@@ -2714,7 +3718,18 @@
     "Remark": "祝福1组与2组都剩余大于三个",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "RougeLikeGroupMax": {}
+      "RougeLikeGroupMax": [
+        [
+          "Blessing",
+          1,
+          8
+        ],
+        [
+          "Blessing",
+          2,
+          8
+        ]
+      ]
     }
   },
   "5017": {
@@ -2748,7 +3763,9 @@
     "Remark": "肉鸽难度1",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "RougeLikeDifficulty": {}
+      "RougeLikeDifficulty": [
+        101
+      ]
     }
   },
   "5020": {
@@ -2756,7 +3773,9 @@
     "Remark": "肉鸽难度2",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "RougeLikeDifficulty": {}
+      "RougeLikeDifficulty": [
+        102
+      ]
     }
   },
   "5021": {
@@ -2794,27 +3813,41 @@
     "Remark": "拥有祝福1组3枚",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "RougeLikeGroupMin": {}
+      "RougeLikeGroupMin": [
+        [
+          "Blessing",
+          1,
+          3
+        ]
+      ]
     }
   },
   "5025": {
     "ConditionId": 5025,
     "Remark": "拥有祝福2组3枚",
     "ConditionLogic": "AND",
-    "ConditionMap": [
-      {
-        "RougeLikeGroupMin": [
-          "T.RT_71"
+    "ConditionMap": {
+      "RougeLikeGroupMin": [
+        [
+          "Blessing",
+          2,
+          3
         ]
-      }
-    ]
+      ]
+    }
   },
   "5026": {
     "ConditionId": 5026,
     "Remark": "拥有祝福5组3枚",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "RougeLikeGroupMin": {}
+      "RougeLikeGroupMin": [
+        [
+          "Blessing",
+          5,
+          3
+        ]
+      ]
     }
   },
   "5027": {
@@ -2822,7 +3855,16 @@
     "Remark": "拥有祝福506或509",
     "ConditionLogic": "OR",
     "ConditionMap": {
-      "RougeLikePreAward": {}
+      "RougeLikePreAward": [
+        [
+          "Blessing",
+          506
+        ],
+        [
+          "Blessing",
+          509
+        ]
+      ]
     }
   },
   "5028": {
@@ -2830,7 +3872,13 @@
     "Remark": "拥有祝福7组3枚",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "RougeLikeGroupMin": {}
+      "RougeLikeGroupMin": [
+        [
+          "Blessing",
+          7,
+          3
+        ]
+      ]
     }
   },
   "5029": {
@@ -2881,7 +3929,13 @@
     "Remark": "至少装备1个绿色3级MOD",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "CharEquipRarityLevelModCount": {}
+      "CharEquipRarityLevelModCount": [
+        [
+          2,
+          3,
+          1
+        ]
+      ]
     }
   },
   "6003": {
@@ -2889,7 +3943,13 @@
     "Remark": "至少装备2个绿色3级MOD",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "CharEquipRarityLevelModCount": {}
+      "CharEquipRarityLevelModCount": [
+        [
+          2,
+          3,
+          2
+        ]
+      ]
     }
   },
   "6004": {
@@ -2897,7 +3957,12 @@
     "Remark": "MOD引导任务结束条件",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "PhaseQuestEnd": {}
+      "PhaseQuestEnd": [
+        [
+          104001,
+          4
+        ]
+      ]
     }
   },
   "6005": {
@@ -2905,7 +3970,12 @@
     "Remark": "新手任务结束条件",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "PhaseQuestEnd": {}
+      "PhaseQuestEnd": [
+        [
+          102001,
+          1009
+        ]
+      ]
     }
   },
   "6006": {
@@ -2913,7 +3983,11 @@
     "Remark": "常驻每日签到结束条件",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "DailyLoginEnd": {}
+      "DailyLoginEnd": [
+        [
+          101001
+        ]
+      ]
     }
   },
   "6007": {
@@ -2921,7 +3995,13 @@
     "Remark": "至少装备1个蓝色5级MOD",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "CharEquipRarityLevelModCount": {}
+      "CharEquipRarityLevelModCount": [
+        [
+          3,
+          5,
+          1
+        ]
+      ]
     }
   },
   "70000": {
@@ -2929,7 +4009,12 @@
     "Remark": "探索序章-钥匙交互条件A",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "HaveResource": {}
+      "HaveResource": [
+        [
+          20500,
+          1
+        ]
+      ]
     }
   },
   "70001": {
@@ -2937,7 +4022,12 @@
     "Remark": "探索序章-布鲁内托的钥匙",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "HaveResource": {}
+      "HaveResource": [
+        [
+          20501,
+          1
+        ]
+      ]
     }
   },
   "70006": {
@@ -2945,7 +4035,12 @@
     "Remark": "探索序章-祈福",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "HaveResource": {}
+      "HaveResource": [
+        [
+          20510,
+          1
+        ]
+      ]
     }
   },
   "70007": {
@@ -2953,7 +4048,12 @@
     "Remark": "探索第一章-锻造",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "HaveResource": {}
+      "HaveResource": [
+        [
+          20511,
+          1
+        ]
+      ]
     }
   },
   "80001": {
@@ -2961,7 +4061,12 @@
     "Remark": "动态事件完成",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "DynamicEventCompleteTimes": {}
+      "DynamicEventCompleteTimes": [
+        [
+          4,
+          1
+        ]
+      ]
     }
   },
   "80002": {
@@ -2969,52 +4074,53 @@
     "Remark": "动态事件完成",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "DynamicEventCompleteTimes": {}
+      "DynamicEventCompleteTimes": [
+        [
+          4,
+          2
+        ]
+      ]
     }
   },
   "100101": {
     "ConditionId": 100101,
     "Remark": "序章任务完成",
     "ConditionLogic": "AND",
-    "ConditionMap": [
-      {
-        "QuestChain": [
-          100101
-        ]
-      }
-    ]
+    "ConditionMap": {
+      "QuestChain": [
+        100101
+      ]
+    }
   },
   "100102": {
     "ConditionId": 100102,
     "Remark": "序章任务完成",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "QuestChain": {}
+      "QuestChain": [
+        100102
+      ]
     }
   },
   "100103": {
     "ConditionId": 100103,
     "Remark": "序章任务完成",
     "ConditionLogic": "AND",
-    "ConditionMap": [
-      {
-        "QuestChain": [
-          100103
-        ]
-      }
-    ]
+    "ConditionMap": {
+      "QuestChain": [
+        100103
+      ]
+    }
   },
   "100201": {
     "ConditionId": 100201,
     "Remark": "第一章任务完成",
     "ConditionLogic": "AND",
-    "ConditionMap": [
-      {
-        "QuestChain": [
-          100201
-        ]
-      }
-    ]
+    "ConditionMap": {
+      "QuestChain": [
+        100201
+      ]
+    }
   },
   "100202": {
     "ConditionId": 100202,
@@ -3030,20 +4136,20 @@
     "ConditionId": 100203,
     "Remark": "第一章任务完成",
     "ConditionLogic": "AND",
-    "ConditionMap": [
-      {
-        "QuestChain": [
-          100203
-        ]
-      }
-    ]
+    "ConditionMap": {
+      "QuestChain": [
+        100203
+      ]
+    }
   },
   "100204": {
     "ConditionId": 100204,
     "Remark": "第一章任务完成",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "QuestChain": {}
+      "QuestChain": [
+        100204
+      ]
     }
   },
   "100205": {
@@ -3051,59 +4157,59 @@
     "Remark": "第一章任务完成",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "QuestChain": {}
+      "QuestChain": [
+        100205
+      ]
     }
   },
   "100206": {
     "ConditionId": 100206,
     "Remark": "第一章任务完成",
     "ConditionLogic": "AND",
-    "ConditionMap": [
-      {
-        "QuestChain": [
-          100206
-        ]
-      }
-    ]
+    "ConditionMap": {
+      "QuestChain": [
+        100206
+      ]
+    }
   },
   "100207": {
     "ConditionId": 100207,
     "Remark": "第一章任务完成",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "QuestChain": {}
+      "QuestChain": [
+        100207
+      ]
     }
   },
   "100208": {
     "ConditionId": 100208,
     "Remark": "第一章任务完成",
     "ConditionLogic": "AND",
-    "ConditionMap": [
-      {
-        "QuestChain": [
-          100208
-        ]
-      }
-    ]
+    "ConditionMap": {
+      "QuestChain": [
+        100208
+      ]
+    }
   },
   "100212": {
     "ConditionId": 100212,
     "Remark": "第一章任务完成",
     "ConditionLogic": "AND",
-    "ConditionMap": [
-      {
-        "QuestChain": [
-          100208
-        ]
-      }
-    ]
+    "ConditionMap": {
+      "QuestChain": [
+        100208
+      ]
+    }
   },
   "100300": {
     "ConditionId": 100300,
     "Remark": "第二章启动器测试",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "QuestChain": {}
+      "QuestChain": [
+        100300
+      ]
     }
   },
   "100301": {
@@ -3111,7 +4217,9 @@
     "Remark": "第二章任务完成",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "QuestChain": {}
+      "QuestChain": [
+        100301
+      ]
     }
   },
   "100302": {
@@ -3119,7 +4227,9 @@
     "Remark": "第二章任务完成",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "QuestChain": {}
+      "QuestChain": [
+        100302
+      ]
     }
   },
   "100303": {
@@ -3127,7 +4237,9 @@
     "Remark": "第二章任务完成",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "QuestChain": {}
+      "QuestChain": [
+        100303
+      ]
     }
   },
   "100304": {
@@ -3135,7 +4247,9 @@
     "Remark": "第二章任务完成",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "QuestChain": {}
+      "QuestChain": [
+        100304
+      ]
     }
   },
   "110101": {
@@ -3143,7 +4257,9 @@
     "Remark": "EX01任务完成",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "QuestChain": {}
+      "QuestChain": [
+        110101
+      ]
     }
   },
   "110102": {
@@ -3151,7 +4267,9 @@
     "Remark": "EX01任务完成",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "QuestChain": {}
+      "QuestChain": [
+        110102
+      ]
     }
   },
   "110103": {
@@ -3159,7 +4277,9 @@
     "Remark": "EX01任务完成",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "QuestChain": {}
+      "QuestChain": [
+        110103
+      ]
     }
   },
   "110104": {
@@ -3167,7 +4287,9 @@
     "Remark": "EX01任务完成",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "QuestChain": {}
+      "QuestChain": [
+        110104
+      ]
     }
   },
   "110105": {
@@ -3175,7 +4297,9 @@
     "Remark": "EX01任务完成",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "QuestChain": {}
+      "QuestChain": [
+        110105
+      ]
     }
   },
   "110106": {
@@ -3183,7 +4307,9 @@
     "Remark": "EX01任务完成",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "QuestChain": {}
+      "QuestChain": [
+        110106
+      ]
     }
   },
   "110107": {
@@ -3191,7 +4317,9 @@
     "Remark": "EX01任务完成",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "QuestChain": {}
+      "QuestChain": [
+        110107
+      ]
     }
   },
   "110108": {
@@ -3199,7 +4327,9 @@
     "Remark": "EX01任务完成",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "QuestChain": {}
+      "QuestChain": [
+        110108
+      ]
     }
   },
   "110109": {
@@ -3207,7 +4337,9 @@
     "Remark": "EX01任务完成",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "QuestChain": {}
+      "QuestChain": [
+        110109
+      ]
     }
   },
   "110110": {
@@ -3215,7 +4347,9 @@
     "Remark": "EX01任务完成",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "QuestChain": {}
+      "QuestChain": [
+        110110
+      ]
     }
   },
   "110111": {
@@ -3223,7 +4357,9 @@
     "Remark": "EX01任务完成",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "QuestChain": {}
+      "QuestChain": [
+        110111
+      ]
     }
   },
   "110112": {
@@ -3231,7 +4367,9 @@
     "Remark": "EX01任务完成",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "QuestChain": {}
+      "QuestChain": [
+        110112
+      ]
     }
   },
   "200101": {
@@ -3249,7 +4387,9 @@
     "Remark": "支线任务完成",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "QuestChain": {}
+      "QuestChain": [
+        200102
+      ]
     }
   },
   "200202": {
@@ -3257,7 +4397,9 @@
     "Remark": "支线任务完成",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "QuestChain": {}
+      "QuestChain": [
+        200202
+      ]
     }
   },
   "200207": {
@@ -3265,7 +4407,9 @@
     "Remark": "支线任务完成",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "QuestChain": {}
+      "QuestChain": [
+        200207
+      ]
     }
   },
   "200208": {
@@ -3273,7 +4417,9 @@
     "Remark": "支线任务完成",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "QuestChain": {}
+      "QuestChain": [
+        200208
+      ]
     }
   },
   "200209": {
@@ -3281,27 +4427,29 @@
     "Remark": "支线任务完成",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "QuestChain": {}
+      "QuestChain": [
+        200209
+      ]
     }
   },
   "200213": {
     "ConditionId": 200213,
     "Remark": "玛尔洁支线任务完成",
     "ConditionLogic": "AND",
-    "ConditionMap": [
-      {
-        "QuestChain": [
-          200213
-        ]
-      }
-    ]
+    "ConditionMap": {
+      "QuestChain": [
+        200213
+      ]
+    }
   },
   "200219": {
     "ConditionId": 200219,
     "Remark": "支线任务完成",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "QuestChain": {}
+      "QuestChain": [
+        200219
+      ]
     }
   },
   "990101": {
@@ -3309,7 +4457,9 @@
     "Remark": "任务测试用",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "QuestChain": {}
+      "QuestChain": [
+        990101
+      ]
     }
   },
   "990102": {
@@ -3317,7 +4467,9 @@
     "Remark": "任务测试用",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "QuestChain": {}
+      "QuestChain": [
+        990102
+      ]
     }
   },
   "990103": {
@@ -3325,7 +4477,9 @@
     "Remark": "任务测试用",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "QuestChain": {}
+      "QuestChain": [
+        990103
+      ]
     }
   },
   "990106": {
@@ -3333,7 +4487,9 @@
     "Remark": "任务测试用",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "QuestChain": {}
+      "QuestChain": [
+        990106
+      ]
     }
   },
   "999992": {
@@ -3341,7 +4497,9 @@
     "Remark": "程序动态事件测试用",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "CurrentCharId": {}
+      "CurrentCharId": [
+        1101
+      ]
     }
   },
   "999993": {
@@ -3349,7 +4507,12 @@
     "Remark": "程序动态事件测试用",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "OwnCharIdAndLevel": {}
+      "OwnCharIdAndLevel": [
+        [
+          3101,
+          5
+        ]
+      ]
     }
   },
   "999994": {
@@ -3370,7 +4533,12 @@
     "Remark": "程序测试用",
     "ConditionLogic": "OR",
     "ConditionMap": {
-      "RougeLikePreAward": {}
+      "RougeLikePreAward": [
+        [
+          "Blessing",
+          101
+        ]
+      ]
     }
   },
   "999996": {
@@ -3378,7 +4546,11 @@
     "Remark": "程序测试用",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "TestClientCon": {}
+      "TestClientCon": [
+        1,
+        2,
+        3
+      ]
     }
   },
   "999997": {
@@ -3396,7 +4568,9 @@
     "Remark": "程序测试用",
     "ConditionLogic": "OR",
     "ConditionMap": {
-      "QuestChain": {}
+      "QuestChain": [
+        110113
+      ]
     }
   },
   "999999": {
@@ -3407,11 +4581,32 @@
       "PlayerLevelMin": [
         60
       ],
-      "PlayerLevelMax": {},
-      "QuestChain": {},
-      "HaveResource": {},
-      "Quest": {},
-      "MechanismState": {},
+      "PlayerLevelMax": [
+        9999
+      ],
+      "QuestChain": [
+        999999
+      ],
+      "HaveResource": [
+        [
+          999,
+          999
+        ],
+        [
+          998,
+          998
+        ]
+      ],
+      "Quest": [
+        99999
+      ],
+      "MechanismState": [
+        [
+          1,
+          1,
+          1
+        ]
+      ],
       "Impression": [
         [
           1,
@@ -3425,7 +4620,12 @@
     "Remark": "成就-不在训练场",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "AvatarStatus": {}
+      "AvatarStatus": [
+        [
+          "InTrainingGround",
+          "F"
+        ]
+      ]
     }
   },
   "1000002": {
@@ -3433,7 +4633,12 @@
     "Remark": "成就-在训练场",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "AvatarStatus": {}
+      "AvatarStatus": [
+        [
+          "InTrainingGround",
+          "T"
+        ]
+      ]
     }
   },
   "1000003": {
@@ -3441,27 +4646,38 @@
     "Remark": "成就-不在大世界",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "AvatarStatus": {}
+      "AvatarStatus": [
+        [
+          "InBigWorld",
+          "F"
+        ]
+      ]
     }
   },
   "1000004": {
     "ConditionId": 1000004,
     "Remark": "成就-在大世界",
     "ConditionLogic": "AND",
-    "ConditionMap": [
-      {
-        "AvatarStatus": [
-          "T.RT_3"
+    "ConditionMap": {
+      "AvatarStatus": [
+        [
+          "InBigWorld",
+          "T"
         ]
-      }
-    ]
+      ]
+    }
   },
   "1000005": {
     "ConditionId": 1000005,
     "Remark": "成就-不在单机副本",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "AvatarStatus": {}
+      "AvatarStatus": [
+        [
+          "InSingleDungeon",
+          "F"
+        ]
+      ]
     }
   },
   "1000006": {
@@ -3482,7 +4698,12 @@
     "Remark": "成就-不在联机副本",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "AvatarStatus": {}
+      "AvatarStatus": [
+        [
+          "InMultiDungeon",
+          "F"
+        ]
+      ]
     }
   },
   "1000008": {
@@ -3490,7 +4711,12 @@
     "Remark": "成就-在联机副本",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "AvatarStatus": {}
+      "AvatarStatus": [
+        [
+          "InMultiDungeon",
+          "T"
+        ]
+      ]
     }
   },
   "1000009": {
@@ -3498,7 +4724,12 @@
     "Remark": "成就-不在梦魇残声",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "AvatarStatus": {}
+      "AvatarStatus": [
+        [
+          "InHardBoss",
+          "F"
+        ]
+      ]
     }
   },
   "1000010": {
@@ -3506,7 +4737,12 @@
     "Remark": "成就-在梦魇残声",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "AvatarStatus": {}
+      "AvatarStatus": [
+        [
+          "InHardBoss",
+          "T"
+        ]
+      ]
     }
   },
   "1000011": {
@@ -3514,27 +4750,46 @@
     "Remark": "成就-不在肉鸽",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "AvatarStatus": {}
+      "AvatarStatus": [
+        [
+          "InRougeLike",
+          "F"
+        ]
+      ]
     }
   },
   "1000012": {
     "ConditionId": 1000012,
     "Remark": "成就-在肉鸽",
     "ConditionLogic": "AND",
-    "ConditionMap": [
-      {
-        "AvatarStatus": [
-          "T.RT_7"
+    "ConditionMap": {
+      "AvatarStatus": [
+        [
+          "InRougeLike",
+          "T"
         ]
-      }
-    ]
+      ]
+    }
   },
   "1000051": {
     "ConditionId": 1000051,
     "Remark": "成就-组合条件-大世界+单机副本+联机副本",
     "ConditionLogic": "OR",
     "ConditionMap": {
-      "AvatarStatus": {}
+      "AvatarStatus": [
+        [
+          "InBigWorld",
+          "T"
+        ],
+        [
+          "InSingleDungeon",
+          "T"
+        ],
+        [
+          "InMultiDungeon",
+          "T"
+        ]
+      ]
     }
   },
   "1000052": {
@@ -3542,7 +4797,16 @@
     "Remark": "组合条件-单机副本+联机副本",
     "ConditionLogic": "OR",
     "ConditionMap": {
-      "AvatarStatus": {}
+      "AvatarStatus": [
+        [
+          "InSingleDungeon",
+          "T"
+        ],
+        [
+          "InMultiDungeon",
+          "T"
+        ]
+      ]
     }
   },
   "1000053": {
@@ -3550,7 +4814,16 @@
     "Remark": "组合条件-单机副本+大世界",
     "ConditionLogic": "OR",
     "ConditionMap": {
-      "AvatarStatus": {}
+      "AvatarStatus": [
+        [
+          "InSingleDungeon",
+          "T"
+        ],
+        [
+          "InBigWorld",
+          "T"
+        ]
+      ]
     }
   },
   "1000101": {
@@ -3558,7 +4831,14 @@
     "Remark": "成就-在任意难度梦魇西比中",
     "ConditionLogic": "OR",
     "ConditionMap": {
-      "InHardBossDifficulty": {}
+      "InHardBossDifficulty": [
+        1001,
+        1002,
+        1003,
+        1004,
+        1005,
+        1006
+      ]
     }
   },
   "1000102": {
@@ -3566,7 +4846,14 @@
     "Remark": "成就-在任意难度梦魇嗜晶者中",
     "ConditionLogic": "OR",
     "ConditionMap": {
-      "InHardBossDifficulty": {}
+      "InHardBossDifficulty": [
+        1011,
+        1012,
+        1013,
+        1014,
+        1015,
+        1016
+      ]
     }
   },
   "1000103": {
@@ -3574,7 +4861,14 @@
     "Remark": "成就-在任意难度梦魇赛琪中",
     "ConditionLogic": "OR",
     "ConditionMap": {
-      "InHardBossDifficulty": {}
+      "InHardBossDifficulty": [
+        1021,
+        1022,
+        1023,
+        1024,
+        1025,
+        1026
+      ]
     }
   },
   "1000151": {
@@ -3582,7 +4876,9 @@
     "Remark": "成就-在最高难度梦魇西比中",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "InHardBossDifficulty": {}
+      "InHardBossDifficulty": [
+        1006
+      ]
     }
   },
   "1000152": {
@@ -3590,7 +4886,9 @@
     "Remark": "成就-在最高难度梦魇嗜晶者中",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "InHardBossDifficulty": {}
+      "InHardBossDifficulty": [
+        1016
+      ]
     }
   },
   "1000153": {
@@ -3598,7 +4896,9 @@
     "Remark": "成就-在最高难度梦魇赛琪中",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "InHardBossDifficulty": {}
+      "InHardBossDifficulty": [
+        1026
+      ]
     }
   },
   "1000181": {
@@ -3606,7 +4906,9 @@
     "Remark": "成就-在50级梦魇西比中",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "InHardBossDifficulty": {}
+      "InHardBossDifficulty": [
+        1003
+      ]
     }
   },
   "1000182": {
@@ -3614,7 +4916,9 @@
     "Remark": "成就-在50级梦魇嗜晶者中",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "InHardBossDifficulty": {}
+      "InHardBossDifficulty": [
+        1013
+      ]
     }
   },
   "1000183": {
@@ -3622,7 +4926,9 @@
     "Remark": "成就-在50级梦魇赛琪中",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "InHardBossDifficulty": {}
+      "InHardBossDifficulty": [
+        1023
+      ]
     }
   },
   "1000201": {
@@ -3630,7 +4936,50 @@
     "Remark": "成就-在任意难度探险",
     "ConditionLogic": "OR",
     "ConditionMap": {
-      "InDungeon": {}
+      "InDungeon": [
+        90401,
+        90402,
+        90403,
+        90404,
+        90405,
+        90406,
+        90407,
+        90408,
+        90409,
+        90410,
+        90411,
+        90412,
+        90413,
+        90414,
+        90415,
+        90416,
+        90417,
+        90418,
+        90419,
+        90420,
+        90421,
+        90422,
+        90423,
+        90424,
+        90425,
+        90426,
+        90427,
+        90428,
+        90429,
+        90430,
+        90431,
+        90432,
+        90433,
+        90434,
+        90435,
+        90436,
+        90437,
+        90438,
+        90439,
+        90440,
+        90441,
+        90442
+      ]
     }
   },
   "1000202": {
@@ -3638,7 +4987,15 @@
     "Remark": "成就-在任意难度探险无尽",
     "ConditionLogic": "OR",
     "ConditionMap": {
-      "InDungeon": {}
+      "InDungeon": [
+        90601,
+        90602,
+        90603,
+        90604,
+        90605,
+        90606,
+        90607
+      ]
     }
   },
   "1000203": {
@@ -3646,7 +5003,15 @@
     "Remark": "成就-在任意难度扼守",
     "ConditionLogic": "OR",
     "ConditionMap": {
-      "InDungeon": {}
+      "InDungeon": [
+        90101,
+        90103,
+        90105,
+        90107,
+        90109,
+        90111,
+        90113
+      ]
     }
   },
   "1000204": {
@@ -3654,7 +5019,15 @@
     "Remark": "成就-在任意难度扼守无尽",
     "ConditionLogic": "OR",
     "ConditionMap": {
-      "InDungeon": {}
+      "InDungeon": [
+        90102,
+        90104,
+        90106,
+        90108,
+        90110,
+        90112,
+        90114
+      ]
     }
   },
   "1000205": {
@@ -3662,7 +5035,15 @@
     "Remark": "成就-在任意难度追缉",
     "ConditionLogic": "OR",
     "ConditionMap": {
-      "InDungeon": {}
+      "InDungeon": [
+        90305,
+        90306,
+        90307,
+        90308,
+        90309,
+        90310,
+        90311
+      ]
     }
   },
   "1000206": {
@@ -3670,7 +5051,15 @@
     "Remark": "成就-在任意难度调停",
     "ConditionLogic": "OR",
     "ConditionMap": {
-      "InDungeon": {}
+      "InDungeon": [
+        90501,
+        90502,
+        90503,
+        90504,
+        90505,
+        90506,
+        90507
+      ]
     }
   },
   "1000207": {
@@ -3678,7 +5067,15 @@
     "Remark": "成就-在任意难度歼灭",
     "ConditionLogic": "OR",
     "ConditionMap": {
-      "InDungeon": {}
+      "InDungeon": [
+        90801,
+        90802,
+        90803,
+        90804,
+        90805,
+        90806,
+        90807
+      ]
     }
   },
   "1000208": {
@@ -3686,7 +5083,15 @@
     "Remark": "成就-在任意难度救援",
     "ConditionLogic": "OR",
     "ConditionMap": {
-      "InDungeon": {}
+      "InDungeon": [
+        90901,
+        90902,
+        90903,
+        90904,
+        90905,
+        90906,
+        90907
+      ]
     }
   },
   "1000209": {
@@ -3694,7 +5099,15 @@
     "Remark": "成就-在任意难度推车",
     "ConditionLogic": "OR",
     "ConditionMap": {
-      "InDungeon": {}
+      "InDungeon": [
+        90701,
+        90702,
+        90703,
+        90704,
+        90705,
+        90706,
+        90707
+      ]
     }
   },
   "1000301": {
@@ -3702,7 +5115,14 @@
     "Remark": "成就-在最高难度探险",
     "ConditionLogic": "OR",
     "ConditionMap": {
-      "InDungeon": {}
+      "InDungeon": [
+        90437,
+        90438,
+        90439,
+        90440,
+        90441,
+        90442
+      ]
     }
   },
   "1000302": {
@@ -3710,7 +5130,9 @@
     "Remark": "成就-在最高难度探险无尽",
     "ConditionLogic": "OR",
     "ConditionMap": {
-      "InDungeon": {}
+      "InDungeon": [
+        90607
+      ]
     }
   },
   "1000303": {
@@ -3718,7 +5140,9 @@
     "Remark": "成就-在最高难度扼守",
     "ConditionLogic": "OR",
     "ConditionMap": {
-      "InDungeon": {}
+      "InDungeon": [
+        90113
+      ]
     }
   },
   "1000304": {
@@ -3726,7 +5150,9 @@
     "Remark": "成就-在最高难度扼守无尽",
     "ConditionLogic": "OR",
     "ConditionMap": {
-      "InDungeon": {}
+      "InDungeon": [
+        90114
+      ]
     }
   },
   "1000305": {
@@ -3734,7 +5160,9 @@
     "Remark": "成就-在最高难度追缉",
     "ConditionLogic": "OR",
     "ConditionMap": {
-      "InDungeon": {}
+      "InDungeon": [
+        90311
+      ]
     }
   },
   "1000306": {
@@ -3742,7 +5170,9 @@
     "Remark": "成就-在最高难度调停",
     "ConditionLogic": "OR",
     "ConditionMap": {
-      "InDungeon": {}
+      "InDungeon": [
+        90507
+      ]
     }
   },
   "1000307": {
@@ -3750,7 +5180,9 @@
     "Remark": "成就-在最高难度歼灭",
     "ConditionLogic": "OR",
     "ConditionMap": {
-      "InDungeon": {}
+      "InDungeon": [
+        90807
+      ]
     }
   },
   "1000308": {
@@ -3758,7 +5190,9 @@
     "Remark": "成就-在最高难度救援",
     "ConditionLogic": "OR",
     "ConditionMap": {
-      "InDungeon": {}
+      "InDungeon": [
+        90907
+      ]
     }
   },
   "1000309": {
@@ -3766,7 +5200,9 @@
     "Remark": "成就-在最高难度推车",
     "ConditionLogic": "OR",
     "ConditionMap": {
-      "InDungeon": {}
+      "InDungeon": [
+        90707
+      ]
     }
   },
   "1000401": {
@@ -3777,25 +5213,26 @@
       "QuestChain": [
         100201
       ],
-      "AvatarStatus": {}
+      "AvatarStatus": [
+        [
+          "InSpecialQuest",
+          "F"
+        ]
+      ]
     }
   },
   "1002121": {
     "ConditionId": 1002121,
     "Remark": "第一章任务完成",
     "ConditionLogic": "AND",
-    "ConditionMap": [
-      {
-        "QuestChain": [
-          100208
-        ]
-      },
-      {
-        "PlayerLevelMin": [
-          20
-        ]
-      }
-    ]
+    "ConditionMap": {
+      "QuestChain": [
+        100208
+      ],
+      "PlayerLevelMin": [
+        20
+      ]
+    }
   },
   "1400000": {
     "ConditionId": 1400000,
@@ -3984,7 +5421,9 @@
     "Remark": "┗ 支线解锁",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "Quest": {}
+      "Quest": [
+        10020106
+      ]
     }
   },
   "10020201": {
@@ -4017,20 +5456,21 @@
     "ConditionId": 10020203,
     "Remark": "和鸣大于等于18",
     "ConditionLogic": "AND",
-    "ConditionMap": [
-      {
-        "PlayerLevelMin": [
-          18
-        ]
-      }
-    ]
+    "ConditionMap": {
+      "PlayerLevelMin": [
+        18
+      ]
+    }
   },
   "10020501": {
     "ConditionId": 10020501,
     "Remark": "挖土和冰湖狩猎都完成",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "QuestChain": {}
+      "QuestChain": [
+        100205,
+        200102
+      ]
     }
   },
   "10020601": {
@@ -4063,13 +5503,11 @@
     "ConditionId": 10020603,
     "Remark": "和鸣大于等于24",
     "ConditionLogic": "AND",
-    "ConditionMap": [
-      {
-        "PlayerLevelMin": [
-          24
-        ]
-      }
-    ]
+    "ConditionMap": {
+      "PlayerLevelMin": [
+        24
+      ]
+    }
   },
   "10020801": {
     "ConditionId": 10020801,
@@ -4101,20 +5539,20 @@
     "ConditionId": 10020803,
     "Remark": "和鸣大于等于29",
     "ConditionLogic": "AND",
-    "ConditionMap": [
-      {
-        "PlayerLevelMin": [
-          29
-        ]
-      }
-    ]
+    "ConditionMap": {
+      "PlayerLevelMin": [
+        29
+      ]
+    }
   },
   "11010103": {
     "ConditionId": 11010103,
     "Remark": "解锁EX01地图",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "Quest": {}
+      "Quest": [
+        11010103
+      ]
     }
   },
   "20020801": {
@@ -4135,7 +5573,9 @@
     "Remark": "支线任务完成【敲门】",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "Quest": {}
+      "Quest": [
+        20021007
+      ]
     }
   },
   "20021301": {
@@ -4153,7 +5593,9 @@
     "Remark": "帝国三兄弟任务显示条件",
     "ConditionLogic": "AND",
     "ConditionMap": {
-      "Quest": {}
+      "Quest": [
+        20021602
+      ]
     }
   }
 }

@@ -1,18 +1,16 @@
 {
   "30": {
     "WeaponId": 30,
-    "WeaponTag": {},
+    "WeaponTag": [
+      "Condemn"
+    ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Condemn/Condemn.Condemn",
     "WeaponMeshResourceId": 30,
     "WeaponSockets": {
-      "HandHold": [
-        {
-          "SocketA": "Root"
-        },
-        {
-          "SocketB": "hook_arm_r"
-        }
-      ]
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "hook_arm_r"
+      }
     },
     "ShowWeaponModel": true
   },
@@ -24,20 +22,16 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Sword/BP_Sword_01.BP_Sword_01",
     "WeaponMeshResourceId": 1010101,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "hook_arm_r"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"root_Sword_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "root_Sword_back",
+        "SocketB": "root_point"
       }
-    ],
+    },
     "ShowWeaponModel": true,
     "WeaponSkillList": [
       1010101,
@@ -45,7 +39,9 @@
       1010103,
       1010104
     ],
-    "PassiveEffects": {},
+    "PassiveEffects": [
+      10101
+    ],
     "PassiveEffectsDesc": "SKILL_10101_DESC",
     "PassiveEffectsDescValues": [
       "$#PassiveEffect[10101].Vars.SpIncrease$",
@@ -69,20 +65,16 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Sword/BP_Sword_01.BP_Sword_01",
     "WeaponMeshResourceId": 1010201,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "hook_arm_r"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"root_Sword_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "root_Sword_back",
+        "SocketB": "root_point"
       }
-    ],
+    },
     "ShowWeaponModel": true,
     "WeaponSkillList": [
       1010101,
@@ -97,8 +89,12 @@
         "IsCharAttr": 1
       }
     ],
-    "PassiveEffects": {},
-    "PassiveEffectsAttribute": {},
+    "PassiveEffects": [
+      10102
+    ],
+    "PassiveEffectsAttribute": [
+      "Light"
+    ],
     "PassiveEffectsDesc": "SKILL_10102_DESC",
     "PassiveEffectsDescValues": [
       "$#BattleWeapon[10102].AddAttrs[1].Rate*100$%",
@@ -125,20 +121,16 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Sword/BP_Sword_01.BP_Sword_01",
     "WeaponMeshResourceId": 1010301,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "hook_arm_r"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"root_Sword_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "root_Sword_back",
+        "SocketB": "root_point"
       }
-    ],
+    },
     "ShowWeaponModel": true,
     "WeaponSkillList": [
       1010101,
@@ -146,7 +138,9 @@
       1010103,
       1010104
     ],
-    "PassiveEffects": {},
+    "PassiveEffects": [
+      10103
+    ],
     "PassiveEffectsDesc": "SKILL_10103_DESC",
     "PassiveEffectsDescValues": [
       "$#PassiveEffect[10103].Vars.TriggerProb*100$%"
@@ -169,20 +163,16 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Sword/BP_Sword_01.BP_Sword_01",
     "WeaponMeshResourceId": 1010401,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "hook_arm_r"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"root_Sword_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "root_Sword_back",
+        "SocketB": "root_point"
       }
-    ],
+    },
     "ShowWeaponModel": true,
     "WeaponSkillList": [
       1010101,
@@ -197,7 +187,9 @@
         "IsCharAttr": 1
       }
     ],
-    "PassiveEffects": {},
+    "PassiveEffects": [
+      10104
+    ],
     "PassiveEffectsDesc": "SKILL_10104_DESC",
     "PassiveEffectsDescValues": [
       "$#BattleWeapon[10104].AddAttrs[1].Rate*100$%",
@@ -222,20 +214,16 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Sword/BP_Sword_01.BP_Sword_01",
     "WeaponMeshResourceId": 1010501,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "hook_arm_r"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"root_Sword_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "root_Sword_back",
+        "SocketB": "root_point"
       }
-    ],
+    },
     "ShowWeaponModel": true,
     "WeaponSkillList": [
       1010101,
@@ -243,7 +231,9 @@
       1010103,
       1010104
     ],
-    "PassiveEffects": {},
+    "PassiveEffects": [
+      10105
+    ],
     "PassiveEffectsDesc": "SKILL_10105_DESC",
     "PassiveEffectsDescValues": [
       "$#PassiveEffect[10105].Vars.TriggerProb*100$%",
@@ -267,20 +257,16 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Sword/BP_Sword_01.BP_Sword_01",
     "WeaponMeshResourceId": 1019701,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "hook_arm_r"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"root_Sword_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "root_Sword_back",
+        "SocketB": "root_point"
       }
-    ],
+    },
     "ShowWeaponModel": true,
     "WeaponSkillList": [
       1010101,
@@ -306,20 +292,16 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Sword/BP_Sword_01.BP_Sword_01",
     "WeaponMeshResourceId": 1019801,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "hook_arm_r"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"root_Sword_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "root_Sword_back",
+        "SocketB": "root_point"
       }
-    ],
+    },
     "ShowWeaponModel": true,
     "WeaponSkillList": [
       1010101,
@@ -345,20 +327,16 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Polearm/BP_Polearm_01.BP_Polearm_01",
     "WeaponMeshResourceId": 1020101,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "hook_arm_r"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"root_Polearm_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "root_Polearm_back",
+        "SocketB": "root_point"
       }
-    ],
+    },
     "ShowWeaponModel": true,
     "WeaponSkillList": [
       1020101,
@@ -367,12 +345,14 @@
       1020104
     ],
     "AddAttrs": [
-      [
-        "AttrName = \"TriggerProbability",
-        "Rate = \"#1"
-      ]
+      {
+        "AttrName": "TriggerProbability",
+        "Rate": "#1"
+      }
     ],
-    "PassiveEffects": {},
+    "PassiveEffects": [
+      10201
+    ],
     "PassiveEffectsAttribute": [
       "Water"
     ],
@@ -402,20 +382,16 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Polearm/BP_Polearm_01.BP_Polearm_01",
     "WeaponMeshResourceId": 1020201,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "hook_arm_r"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"root_Polearm_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "root_Polearm_back",
+        "SocketB": "root_point"
       }
-    ],
+    },
     "ShowWeaponModel": true,
     "WeaponSkillList": [
       1020101,
@@ -423,7 +399,9 @@
       1020103,
       1020104
     ],
-    "PassiveEffects": {},
+    "PassiveEffects": [
+      10202
+    ],
     "PassiveEffectsDesc": "SKILL_10202_DESC",
     "PassiveEffectsDescValues": [
       "$#PassiveEffect[10202].Vars.BuffRate*100$%"
@@ -447,20 +425,16 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Polearm/BP_Polearm_01.BP_Polearm_01",
     "WeaponMeshResourceId": 1020301,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "hook_arm_r"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"root_Polearm_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "root_Polearm_back",
+        "SocketB": "root_point"
       }
-    ],
+    },
     "ShowWeaponModel": true,
     "WeaponSkillList": [
       1020101,
@@ -474,7 +448,9 @@
         "Rate": "#1"
       }
     ],
-    "PassiveEffects": {},
+    "PassiveEffects": [
+      10203
+    ],
     "PassiveEffectsAttribute": [
       "Thunder"
     ],
@@ -504,20 +480,16 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Polearm/BP_Polearm_01.BP_Polearm_01",
     "WeaponMeshResourceId": 1020401,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "hook_arm_r"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"root_Scythe_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "root_Scythe_back",
+        "SocketB": "root_point"
       }
-    ],
+    },
     "ShowWeaponModel": true,
     "WeaponSkillList": [
       1020101,
@@ -532,7 +504,9 @@
         "IsCharAttr": 1
       }
     ],
-    "PassiveEffects": {},
+    "PassiveEffects": [
+      10204
+    ],
     "PassiveEffectsAttribute": [
       "Wind"
     ],
@@ -563,20 +537,16 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Polearm/BP_Polearm_01.BP_Polearm_01",
     "WeaponMeshResourceId": 1020501,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "hook_arm_r"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"root_Scythe_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "root_Scythe_back",
+        "SocketB": "root_point"
       }
-    ],
+    },
     "ShowWeaponModel": true,
     "WeaponSkillList": [
       1020101,
@@ -603,20 +573,16 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Polearm/BP_Polearm_01.BP_Polearm_01",
     "WeaponMeshResourceId": 1020601,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "hook_arm_r"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"root_Scythe_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "root_Scythe_back",
+        "SocketB": "root_point"
       }
-    ],
+    },
     "ShowWeaponModel": true,
     "WeaponSkillList": [
       1020101,
@@ -624,7 +590,9 @@
       1020103,
       1020104
     ],
-    "PassiveEffects": {},
+    "PassiveEffects": [
+      10206
+    ],
     "PassiveEffectsDesc": "SKILL_10206_DESC",
     "PassiveEffectsDescValues": [
       "$#PassiveEffect[10206].Vars.TriggerProb*100$%"
@@ -648,20 +616,16 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Polearm/BP_Polearm_01.BP_Polearm_01",
     "WeaponMeshResourceId": 1020701,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "hook_arm_r"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"root_Scythe_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "root_Scythe_back",
+        "SocketB": "root_point"
       }
-    ],
+    },
     "ShowWeaponModel": true,
     "WeaponSkillList": [
       1020101,
@@ -688,20 +652,16 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Polearm/BP_Polearm_01.BP_Polearm_01",
     "WeaponMeshResourceId": 1020801,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "hook_arm_r"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"root_Scythe_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "root_Scythe_back",
+        "SocketB": "root_point"
       }
-    ],
+    },
     "ShowWeaponModel": true,
     "WeaponSkillList": [
       1020101,
@@ -728,20 +688,16 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Polearm/BP_Polearm_01.BP_Polearm_01",
     "WeaponMeshResourceId": 1020901,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "hook_arm_r"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"root_Scythe_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "root_Scythe_back",
+        "SocketB": "root_point"
       }
-    ],
+    },
     "ShowWeaponModel": true,
     "WeaponSkillList": [
       1020101,
@@ -768,20 +724,16 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Polearm/BP_Polearm_01.BP_Polearm_01",
     "WeaponMeshResourceId": 1029801,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "hook_arm_r"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"root_Polearm_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "root_Polearm_back",
+        "SocketB": "root_point"
       }
-    ],
+    },
     "ShowWeaponModel": true,
     "WeaponSkillList": [
       1020101,
@@ -808,20 +760,16 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Polearm/BP_Polearm_01.BP_Polearm_01",
     "WeaponMeshResourceId": 1029901,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "hook_arm_r"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"root_Polearm_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "root_Polearm_back",
+        "SocketB": "root_point"
       }
-    ],
+    },
     "ShowWeaponModel": true,
     "WeaponSkillList": [
       1020101,
@@ -848,20 +796,16 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Claymore/BP_Claymore_02.BP_Claymore_02",
     "WeaponMeshResourceId": 1030101,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "hook_arm_r"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"root_Claymore_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "root_Claymore_back",
+        "SocketB": "root_point"
       }
-    ],
+    },
     "ShowWeaponModel": true,
     "WeaponSkillList": [
       1030101,
@@ -876,7 +820,9 @@
         "IsCharAttr": 1
       }
     ],
-    "PassiveEffects": {},
+    "PassiveEffects": [
+      10301
+    ],
     "PassiveEffectsDesc": "SKILL_10301_DESC",
     "PassiveEffectsDescValues": [
       "$#BattleWeapon[10301].AddAttrs[1].Rate*100$%",
@@ -902,20 +848,16 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Claymore/BP_Claymore_02.BP_Claymore_02",
     "WeaponMeshResourceId": 1030201,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "hook_arm_r"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"root_Claymore_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "root_Claymore_back",
+        "SocketB": "root_point"
       }
-    ],
+    },
     "ShowWeaponModel": true,
     "WeaponSkillList": [
       1030101,
@@ -923,7 +865,9 @@
       1030103,
       1030104
     ],
-    "PassiveEffects": {},
+    "PassiveEffects": [
+      10302
+    ],
     "PassiveEffectsDesc": "SKILL_10302_DESC",
     "PassiveEffectsDescValues": [
       "$#PassiveEffect[10302].Vars.TriggerProb*100$%"
@@ -946,20 +890,16 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Claymore/BP_Claymore_02.BP_Claymore_02",
     "WeaponMeshResourceId": 1039801,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "hook_arm_r"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"root_Claymore_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "root_Claymore_back",
+        "SocketB": "root_point"
       }
-    ],
+    },
     "ShowWeaponModel": true,
     "WeaponSkillList": [
       1030101,
@@ -985,20 +925,16 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Claymore/BP_Claymore_02.BP_Claymore_02",
     "WeaponMeshResourceId": 1039901,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "hook_arm_r"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"root_Claymore_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "root_Claymore_back",
+        "SocketB": "root_point"
       }
-    ],
+    },
     "ShowWeaponModel": true,
     "WeaponSkillList": [
       1030101,
@@ -1018,32 +954,38 @@
   },
   "10501": {
     "WeaponId": 10501,
-    "WeaponTag": {},
+    "WeaponTag": [
+      "Melee",
+      "Swordwhip"
+    ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Swordwhip/BP_Swordwhip_01.BP_Swordwhip_01",
     "WeaponMeshResourceId": 1050101,
     "WeaponSockets": {
-      "HandHold": [
-        {
-          "SocketA": "Root"
-        },
-        {
-          "SocketB": "hook_arm_r"
-        }
-      ],
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "hook_arm_r"
+      },
       "UnbindHand": {
         "SocketA": "root_Swordwhip_back",
         "SocketB": "root_point"
       }
     },
     "ShowWeaponModel": true,
-    "WeaponSkillList": {},
-    "AddAttrs": [
-      [
-        "AttrName = \"TriggerProbability",
-        "Rate = \"#1"
-      ]
+    "WeaponSkillList": [
+      1050101,
+      1050102,
+      1010103,
+      1010104
     ],
-    "PassiveEffects": {},
+    "AddAttrs": [
+      {
+        "AttrName": "TriggerProbability",
+        "Rate": "#1"
+      }
+    ],
+    "PassiveEffects": [
+      10501
+    ],
     "PassiveEffectsAttribute": [
       "Thunder"
     ],
@@ -1071,27 +1013,31 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Katana/BP_Katana_01.BP_Katana_01",
     "WeaponMeshResourceId": 1060101,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "hook_arm_r"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"root_Katana01_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "root_Katana01_back",
+        "SocketB": "root_point"
       }
-    ],
+    },
     "ShowWeaponModel": true,
-    "WipCharmsResIds": {},
+    "WipCharmsResIds": [
+      1060102
+    ],
     "WipCharmsAttachRules": [
-      [
-        "HandHold = T.RT_26",
-        "UnbindHand = T.RT_27"
-      ]
+      {
+        "HandHold": {
+          "SocketA": "Root",
+          "SocketB": "hook_arm_l"
+        },
+        "UnbindHand": {
+          "SocketA": "root_Katana02_back",
+          "SocketB": "root_point"
+        }
+      }
     ],
     "WeaponSkillList": [
       1060101,
@@ -1099,7 +1045,9 @@
       1060103,
       1060104
     ],
-    "PassiveEffects": {},
+    "PassiveEffects": [
+      10601
+    ],
     "PassiveEffectsDesc": "SKILL_10601_DESC",
     "PassiveEffectsDescValues": [
       "$#PassiveEffect[10601].Vars.BuffRate*100$%"
@@ -1122,27 +1070,31 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Katana/BP_Katana_01.BP_Katana_01",
     "WeaponMeshResourceId": 1069801,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "hook_arm_r"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"root_Katana01_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "root_Katana01_back",
+        "SocketB": "root_point"
       }
-    ],
+    },
     "ShowWeaponModel": true,
-    "WipCharmsResIds": {},
+    "WipCharmsResIds": [
+      1069802
+    ],
     "WipCharmsAttachRules": [
-      [
-        "HandHold = T.RT_26",
-        "UnbindHand = T.RT_27"
-      ]
+      {
+        "HandHold": {
+          "SocketA": "Root",
+          "SocketB": "hook_arm_l"
+        },
+        "UnbindHand": {
+          "SocketA": "root_Katana02_back",
+          "SocketB": "root_point"
+        }
+      }
     ],
     "WeaponSkillList": [
       1060101,
@@ -1168,27 +1120,31 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Katana/BP_Katana_01.BP_Katana_01",
     "WeaponMeshResourceId": 1069901,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "hook_arm_r"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"root_Katana01_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "root_Katana01_back",
+        "SocketB": "root_point"
       }
-    ],
+    },
     "ShowWeaponModel": true,
-    "WipCharmsResIds": {},
+    "WipCharmsResIds": [
+      1069902
+    ],
     "WipCharmsAttachRules": [
-      [
-        "HandHold = T.RT_26",
-        "UnbindHand = T.RT_27"
-      ]
+      {
+        "HandHold": {
+          "SocketA": "Root",
+          "SocketB": "hook_arm_l"
+        },
+        "UnbindHand": {
+          "SocketA": "root_Katana02_back",
+          "SocketB": "root_point"
+        }
+      }
     ],
     "WeaponSkillList": [
       1060101,
@@ -1215,26 +1171,24 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Crossbow/BP_Crossbow01_R.BP_Crossbow01_R",
     "WeaponMeshResourceId": 2020101,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "hook_arm_r"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"hook_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "hook_back",
+        "SocketB": "root_point"
       }
-    ],
+    },
     "ShowWeaponModel": true,
     "WeaponSkillList": [
       2020101,
       2020102
     ],
-    "PassiveEffects": {},
+    "PassiveEffects": [
+      20201
+    ],
     "PassiveEffectsDesc": "SKILL_20201_DESC",
     "PassiveEffectsDescValues": [
       "$#Buff[20201].AddAttrs[1].Value*100$%",
@@ -1252,42 +1206,24 @@
     "MagazineCapacity": 20,
     "BulletConver": 1.5,
     "OpenAimChooseTarget": "Char_Shoot_30_3600",
-    "OpenAimTargetFilter": [
-      {
-        "MaxPitch": 16
-      },
-      {
-        "MaxYaw": 12
-      },
-      {
-        "AimSpeed": 0.2
-      }
-    ],
+    "OpenAimTargetFilter": {
+      "MaxPitch": 16,
+      "MaxYaw": 12,
+      "AimSpeed": 0.2
+    },
     "HelpAimChooseTarget": "Char_Shoot_10_3600",
-    "AimTargetFilter": [
-      {
-        "MaxPitch": 4
-      },
-      {
-        "MaxYaw": 3
-      },
-      {
-        "PitchWeight": 15
-      },
-      {
-        "YawWeight": 20
-      },
-      {
-        "AimSpeed": 0.2
-      }
-    ],
+    "AimTargetFilter": {
+      "MaxPitch": 4,
+      "MaxYaw": 3,
+      "PitchWeight": 15,
+      "YawWeight": 20,
+      "AimSpeed": 0.2
+    },
     "MaxDistance": 2800,
     "WeaponSeInfo": "Crossbow_Chixing",
-    "FrontSight": [
-      {
-        "SightUI": "Crossbow"
-      }
-    ],
+    "FrontSight": {
+      "SightUI": "Crossbow"
+    },
     "PlayFrontSightAnim": true,
     "WeaponHUDIcon": "Icon_Skill_Crossbow_Chixing"
   },
@@ -1299,20 +1235,16 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Crossbow/BP_Crossbow01_L.BP_Crossbow01_L",
     "WeaponMeshResourceId": 2020201,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"hook_arm_l"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "hook_arm_l"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"hook_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "hook_back",
+        "SocketB": "root_point"
       }
-    ],
+    },
     "ShowWeaponModel": true,
     "ModVolume": 1,
     "ATKLevelGrow": "ATKS",
@@ -1330,22 +1262,21 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Crossbow/BP_Crossbow01_R.BP_Crossbow01_R",
     "WeaponMeshResourceId": 2020301,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "hook_arm_r"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"hook_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "hook_back",
+        "SocketB": "root_point"
       }
-    ],
+    },
     "ShowWeaponModel": true,
-    "WeaponSkillList": {},
+    "WeaponSkillList": [
+      2020301,
+      2020302
+    ],
     "AddAttrs": [
       {
         "AttrName": "SkillSustain",
@@ -1353,7 +1284,9 @@
         "IsCharAttr": 1
       }
     ],
-    "PassiveEffects": {},
+    "PassiveEffects": [
+      20203
+    ],
     "PassiveEffectsAttribute": [
       "Fire"
     ],
@@ -1375,42 +1308,24 @@
     "MagazineCapacity": 20,
     "BulletConver": 1.5,
     "OpenAimChooseTarget": "Char_Shoot_30_3600",
-    "OpenAimTargetFilter": [
-      {
-        "MaxPitch": 16
-      },
-      {
-        "MaxYaw": 12
-      },
-      {
-        "AimSpeed": 0.2
-      }
-    ],
+    "OpenAimTargetFilter": {
+      "MaxPitch": 16,
+      "MaxYaw": 12,
+      "AimSpeed": 0.2
+    },
     "HelpAimChooseTarget": "Char_Shoot_10_3600",
-    "AimTargetFilter": [
-      {
-        "MaxPitch": 4
-      },
-      {
-        "MaxYaw": 3
-      },
-      {
-        "PitchWeight": 15
-      },
-      {
-        "YawWeight": 20
-      },
-      {
-        "AimSpeed": 0.2
-      }
-    ],
+    "AimTargetFilter": {
+      "MaxPitch": 4,
+      "MaxYaw": 3,
+      "PitchWeight": 15,
+      "YawWeight": 20,
+      "AimSpeed": 0.2
+    },
     "MaxDistance": 2800,
     "WeaponSeInfo": "Crossbow_Lanse",
-    "FrontSight": [
-      {
-        "SightUI": "Crossbow"
-      }
-    ],
+    "FrontSight": {
+      "SightUI": "Crossbow"
+    },
     "PlayFrontSightAnim": true,
     "WeaponHUDIcon": "Icon_Skill_Crossbow_Lanse"
   },
@@ -1422,20 +1337,16 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Crossbow/BP_Crossbow01_L.BP_Crossbow01_L",
     "WeaponMeshResourceId": 2020401,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"hook_arm_l"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "hook_arm_l"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"hook_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "hook_back",
+        "SocketB": "root_point"
       }
-    ],
+    },
     "ShowWeaponModel": true,
     "ModVolume": 1,
     "ATKLevelGrow": "ATKS",
@@ -1453,23 +1364,24 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Crossbow/BP_Crossbow01_R.BP_Crossbow01_R",
     "WeaponMeshResourceId": 2020101,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "hook_arm_r"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"hook_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "hook_back",
+        "SocketB": "root_point"
       }
-    ],
+    },
     "ShowWeaponModel": true,
-    "WeaponSkillList": {},
-    "PassiveEffects": {},
+    "WeaponSkillList": [
+      2020501,
+      2020502
+    ],
+    "PassiveEffects": [
+      20205
+    ],
     "PassiveEffectsDesc": "SKILL_20205_DESC",
     "PassiveEffectsDescValues": [
       "$#Buff[20201].AddAttrs[1].Value*100$%",
@@ -1487,42 +1399,24 @@
     "MagazineCapacity": 20,
     "BulletConver": 1.5,
     "OpenAimChooseTarget": "Char_Shoot_30_3600",
-    "OpenAimTargetFilter": [
-      {
-        "MaxPitch": 16
-      },
-      {
-        "MaxYaw": 12
-      },
-      {
-        "AimSpeed": 0.2
-      }
-    ],
+    "OpenAimTargetFilter": {
+      "MaxPitch": 16,
+      "MaxYaw": 12,
+      "AimSpeed": 0.2
+    },
     "HelpAimChooseTarget": "Char_Shoot_10_3600",
-    "AimTargetFilter": [
-      {
-        "MaxPitch": 4
-      },
-      {
-        "MaxYaw": 3
-      },
-      {
-        "PitchWeight": 15
-      },
-      {
-        "YawWeight": 20
-      },
-      {
-        "AimSpeed": 0.2
-      }
-    ],
+    "AimTargetFilter": {
+      "MaxPitch": 4,
+      "MaxYaw": 3,
+      "PitchWeight": 15,
+      "YawWeight": 20,
+      "AimSpeed": 0.2
+    },
     "MaxDistance": 2800,
     "WeaponSeInfo": "Crossbow_Chixing",
-    "FrontSight": [
-      {
-        "SightUI": "Crossbow"
-      }
-    ],
+    "FrontSight": {
+      "SightUI": "Crossbow"
+    },
     "PlayFrontSightAnim": true,
     "WeaponHUDIcon": "Icon_Skill_Crossbow_Chixing"
   },
@@ -1534,20 +1428,16 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Crossbow/BP_Crossbow01_L.BP_Crossbow01_L",
     "WeaponMeshResourceId": 2020201,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"hook_arm_l"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "hook_arm_l"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"hook_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "hook_back",
+        "SocketB": "root_point"
       }
-    ],
+    },
     "ShowWeaponModel": true,
     "ModVolume": 1,
     "ATKLevelGrow": "ATKS",
@@ -1565,20 +1455,16 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Crossbow/BP_Crossbow01_R.BP_Crossbow01_R",
     "WeaponMeshResourceId": 2029601,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "hook_arm_r"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"hook_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "hook_back",
+        "SocketB": "root_point"
       }
-    ],
+    },
     "ShowWeaponModel": true,
     "WeaponSkillList": [
       2020101,
@@ -1596,42 +1482,24 @@
     "MagazineCapacity": 20,
     "BulletConver": 1.5,
     "OpenAimChooseTarget": "Char_Shoot_30_3600",
-    "OpenAimTargetFilter": [
-      {
-        "MaxPitch": 16
-      },
-      {
-        "MaxYaw": 12
-      },
-      {
-        "AimSpeed": 0.2
-      }
-    ],
+    "OpenAimTargetFilter": {
+      "MaxPitch": 16,
+      "MaxYaw": 12,
+      "AimSpeed": 0.2
+    },
     "HelpAimChooseTarget": "Char_Shoot_10_3600",
-    "AimTargetFilter": [
-      {
-        "MaxPitch": 4
-      },
-      {
-        "MaxYaw": 3
-      },
-      {
-        "PitchWeight": 15
-      },
-      {
-        "YawWeight": 20
-      },
-      {
-        "AimSpeed": 0.2
-      }
-    ],
+    "AimTargetFilter": {
+      "MaxPitch": 4,
+      "MaxYaw": 3,
+      "PitchWeight": 15,
+      "YawWeight": 20,
+      "AimSpeed": 0.2
+    },
     "MaxDistance": 2800,
     "WeaponSeInfo": "Crossbow_Chixing",
-    "FrontSight": [
-      {
-        "SightUI": "Crossbow"
-      }
-    ],
+    "FrontSight": {
+      "SightUI": "Crossbow"
+    },
     "PlayFrontSightAnim": true,
     "WeaponHUDIcon": "Icon_Skill_Crossbow_Jinshu"
   },
@@ -1643,20 +1511,16 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Crossbow/BP_Crossbow01_L.BP_Crossbow01_L",
     "WeaponMeshResourceId": 2029701,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"hook_arm_l"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "hook_arm_l"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"hook_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "hook_back",
+        "SocketB": "root_point"
       }
-    ],
+    },
     "ShowWeaponModel": true,
     "ModVolume": 1,
     "ATKLevelGrow": "ATKS",
@@ -1674,20 +1538,16 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Crossbow/BP_Crossbow01_R.BP_Crossbow01_R",
     "WeaponMeshResourceId": 2029801,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "hook_arm_r"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"hook_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "hook_back",
+        "SocketB": "root_point"
       }
-    ],
+    },
     "ShowWeaponModel": true,
     "WeaponSkillList": [
       2020101,
@@ -1705,42 +1565,24 @@
     "MagazineCapacity": 20,
     "BulletConver": 1.5,
     "OpenAimChooseTarget": "Char_Shoot_30_3600",
-    "OpenAimTargetFilter": [
-      {
-        "MaxPitch": 16
-      },
-      {
-        "MaxYaw": 12
-      },
-      {
-        "AimSpeed": 0.2
-      }
-    ],
+    "OpenAimTargetFilter": {
+      "MaxPitch": 16,
+      "MaxYaw": 12,
+      "AimSpeed": 0.2
+    },
     "HelpAimChooseTarget": "Char_Shoot_10_3600",
-    "AimTargetFilter": [
-      {
-        "MaxPitch": 4
-      },
-      {
-        "MaxYaw": 3
-      },
-      {
-        "PitchWeight": 15
-      },
-      {
-        "YawWeight": 20
-      },
-      {
-        "AimSpeed": 0.2
-      }
-    ],
+    "AimTargetFilter": {
+      "MaxPitch": 4,
+      "MaxYaw": 3,
+      "PitchWeight": 15,
+      "YawWeight": 20,
+      "AimSpeed": 0.2
+    },
     "MaxDistance": 2800,
     "WeaponSeInfo": "Crossbow_Chixing",
-    "FrontSight": [
-      {
-        "SightUI": "Crossbow"
-      }
-    ],
+    "FrontSight": {
+      "SightUI": "Crossbow"
+    },
     "PlayFrontSightAnim": true,
     "WeaponHUDIcon": "Icon_Skill_Crossbow_Liandu"
   },
@@ -1752,20 +1594,16 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Crossbow/BP_Crossbow01_L.BP_Crossbow01_L",
     "WeaponMeshResourceId": 2029901,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"hook_arm_l"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "hook_arm_l"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"hook_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "hook_back",
+        "SocketB": "root_point"
       }
-    ],
+    },
     "ShowWeaponModel": true,
     "ModVolume": 1,
     "ATKLevelGrow": "ATKS",
@@ -1782,25 +1620,19 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Cannon/BP_Cannon_Chiqiang.BP_Cannon_Chiqiang",
     "WeaponMeshResourceId": 2030101,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "hook_arm_r"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"hook_cannon_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "hook_cannon_back",
+        "SocketB": "root_point"
       },
-      {
-        "HandHoldIK": [
-          "SocketA = \"arms_handle_b"
-        ]
+      "HandHoldIK": {
+        "SocketA": "arms_handle_b"
       }
-    ],
+    },
     "ShowWeaponModel": true,
     "WeaponSkillList": [
       2030201,
@@ -1813,7 +1645,9 @@
         "IsCharAttr": 1
       }
     ],
-    "PassiveEffects": {},
+    "PassiveEffects": [
+      20301
+    ],
     "PassiveEffectsAttribute": [
       "Fire"
     ],
@@ -1837,11 +1671,9 @@
     "BulletConver": 0.5,
     "MaxDistance": 2800,
     "WeaponSeInfo": "Cannon_Chiqiang",
-    "FrontSight": [
-      {
-        "SightUI": "Cannon"
-      }
-    ],
+    "FrontSight": {
+      "SightUI": "Cannon"
+    },
     "BulletIcon": "T_Battle_Bullet_Cannon",
     "WeaponHUDIcon": "Icon_Skill_Cannon_Chiqiang"
   },
@@ -1853,25 +1685,19 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Cannon/BP_Cannon.BP_Cannon",
     "WeaponMeshResourceId": 2030101,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "hook_arm_r"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"hook_cannon_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "hook_cannon_back",
+        "SocketB": "root_point"
       },
-      {
-        "HandHoldIK": [
-          "SocketA = \"arms_handle_b"
-        ]
+      "HandHoldIK": {
+        "SocketA": "arms_handle_b"
       }
-    ],
+    },
     "ShowWeaponModel": true,
     "WeaponSkillList": [
       2030201,
@@ -1890,11 +1716,9 @@
     "BulletConver": 0.6,
     "MaxDistance": 2800,
     "WeaponSeInfo": "Cannon_Chiqiang",
-    "FrontSight": [
-      {
-        "SightUI": "Cannon"
-      }
-    ],
+    "FrontSight": {
+      "SightUI": "Cannon"
+    },
     "BulletIcon": "T_Battle_Bullet_Cannon",
     "WeaponHUDIcon": "Icon_Skill_Cannon_Chiqiang"
   },
@@ -1906,31 +1730,27 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Cannon/BP_Cannon.BP_Cannon",
     "WeaponMeshResourceId": 2030301,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "hook_arm_r"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"hook_cannon_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "hook_cannon_back",
+        "SocketB": "root_point"
       },
-      {
-        "HandHoldIK": [
-          "SocketA = \"arms_handle_b"
-        ]
+      "HandHoldIK": {
+        "SocketA": "arms_handle_b"
       }
-    ],
+    },
     "ShowWeaponModel": true,
     "WeaponSkillList": [
       2030101,
       2030102
     ],
-    "PassiveEffects": {},
+    "PassiveEffects": [
+      20303
+    ],
     "PassiveEffectsDesc": "SKILL_20303_DESC",
     "PassiveEffectsDescValues": [
       "$#Buff[20303].AddAttrs[1].Value*1000$%"
@@ -1948,11 +1768,9 @@
     "BulletConver": 0.5,
     "MaxDistance": 2800,
     "WeaponSeInfo": "Cannon_Chiqiang",
-    "FrontSight": [
-      {
-        "SightUI": "Cannon"
-      }
-    ],
+    "FrontSight": {
+      "SightUI": "Cannon"
+    },
     "BulletIcon": "T_Battle_Bullet_Cannon",
     "WeaponHUDIcon": "Icon_Skill_Cannon_Chixing"
   },
@@ -1964,25 +1782,19 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Cannon/BP_Cannon.BP_Cannon",
     "WeaponMeshResourceId": 2039801,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "hook_arm_r"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"hook_cannon_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "hook_cannon_back",
+        "SocketB": "root_point"
       },
-      {
-        "HandHoldIK": [
-          "SocketA = \"arms_handle_b"
-        ]
+      "HandHoldIK": {
+        "SocketA": "arms_handle_b"
       }
-    ],
+    },
     "ShowWeaponModel": true,
     "WeaponSkillList": [
       2030101,
@@ -2001,11 +1813,9 @@
     "BulletConver": 0.5,
     "MaxDistance": 2800,
     "WeaponSeInfo": "Cannon_Chiqiang",
-    "FrontSight": [
-      {
-        "SightUI": "Cannon"
-      }
-    ],
+    "FrontSight": {
+      "SightUI": "Cannon"
+    },
     "BulletIcon": "T_Battle_Bullet_Cannon",
     "WeaponHUDIcon": "Icon_Skill_Cannon_Liandu"
   },
@@ -2017,25 +1827,19 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Cannon/BP_Cannon.BP_Cannon",
     "WeaponMeshResourceId": 2039901,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "hook_arm_r"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"hook_cannon_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "hook_cannon_back",
+        "SocketB": "root_point"
       },
-      {
-        "HandHoldIK": [
-          "SocketA = \"arms_handle_b"
-        ]
+      "HandHoldIK": {
+        "SocketA": "arms_handle_b"
       }
-    ],
+    },
     "ShowWeaponModel": true,
     "WeaponSkillList": [
       2030101,
@@ -2054,11 +1858,9 @@
     "BulletConver": 0.5,
     "MaxDistance": 2800,
     "WeaponSeInfo": "Cannon_Chiqiang",
-    "FrontSight": [
-      {
-        "SightUI": "Cannon"
-      }
-    ],
+    "FrontSight": {
+      "SightUI": "Cannon"
+    },
     "BulletIcon": "T_Battle_Bullet_Cannon",
     "WeaponHUDIcon": "Icon_Skill_Cannon_Jinshu"
   },
@@ -2070,31 +1872,27 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Shotgun/BP_Shotgun.BP_Shotgun",
     "WeaponMeshResourceId": 2040101,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "hook_arm_r"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"hook_shotgun_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "hook_shotgun_back",
+        "SocketB": "root_point"
       },
-      {
-        "HandHoldIK": [
-          "SocketA = \"butt"
-        ]
+      "HandHoldIK": {
+        "SocketA": "butt"
       }
-    ],
+    },
     "ShowWeaponModel": true,
     "WeaponSkillList": [
       2040101,
       2040102
     ],
-    "PassiveEffects": {},
+    "PassiveEffects": [
+      20401
+    ],
     "PassiveEffectsDesc": "SKILL_20401_DESC",
     "PassiveEffectsDescValues": [
       "$#PassiveEffect[20401].Vars.BuffRate*100$%"
@@ -2111,42 +1909,24 @@
     "MagazineCapacity": 6,
     "BulletConver": 0.5,
     "OpenAimChooseTarget": "Char_Shoot_30_3600",
-    "OpenAimTargetFilter": [
-      {
-        "MaxPitch": 16
-      },
-      {
-        "MaxYaw": 12
-      },
-      {
-        "AimSpeed": 0.2
-      }
-    ],
+    "OpenAimTargetFilter": {
+      "MaxPitch": 16,
+      "MaxYaw": 12,
+      "AimSpeed": 0.2
+    },
     "HelpAimChooseTarget": "Char_Shoot_10_3600",
-    "AimTargetFilter": [
-      {
-        "MaxPitch": 4
-      },
-      {
-        "MaxYaw": 3
-      },
-      {
-        "PitchWeight": 15
-      },
-      {
-        "YawWeight": 20
-      },
-      {
-        "AimSpeed": 0.3
-      }
-    ],
+    "AimTargetFilter": {
+      "MaxPitch": 4,
+      "MaxYaw": 3,
+      "PitchWeight": 15,
+      "YawWeight": 20,
+      "AimSpeed": 0.3
+    },
     "MaxDistance": 2800,
     "WeaponSeInfo": "Shotgun_Liandu",
-    "FrontSight": [
-      {
-        "SightUI": "Shotgun"
-      }
-    ],
+    "FrontSight": {
+      "SightUI": "Shotgun"
+    },
     "PlayFrontSightAnim": true,
     "BulletIcon": "T_Battle_Bullet_Shotgun",
     "WeaponHUDIcon": "Icon_Skill_Shotgun_Liandu"
@@ -2159,27 +1939,24 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Shotgun/BP_Shotgun_Banzi.BP_Shotgun_Banzi",
     "WeaponMeshResourceId": 2040201,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "hook_arm_r"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"hook_shotgun_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "hook_shotgun_back",
+        "SocketB": "root_point"
       },
-      {
-        "HandHoldIK": [
-          "SocketA = \"butt"
-        ]
+      "HandHoldIK": {
+        "SocketA": "butt"
       }
-    ],
+    },
     "ShowWeaponModel": true,
-    "WeaponSkillList": {},
+    "WeaponSkillList": [
+      2040201,
+      2040202
+    ],
     "AddAttrs": [
       {
         "AttrName": "ATK_Smash",
@@ -2206,11 +1983,9 @@
     "BulletConver": 0.6,
     "MaxDistance": 2000,
     "WeaponSeInfo": "Shotgun_Banzi",
-    "FrontSight": [
-      {
-        "SightUI": "Rifle"
-      }
-    ],
+    "FrontSight": {
+      "SightUI": "Rifle"
+    },
     "PlayFrontSightAnim": true,
     "WeaponHUDIcon": "Icon_Skill_Shotgun_Banzi"
   },
@@ -2222,28 +1997,27 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Shotgun/BP_Shotgun_Shengcai.BP_Shotgun_Shengcai",
     "WeaponMeshResourceId": 2040301,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "hook_arm_r"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"hook_shotgun_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "hook_shotgun_back",
+        "SocketB": "root_point"
       },
-      {
-        "HandHoldIK": [
-          "SocketA = \"butt"
-        ]
+      "HandHoldIK": {
+        "SocketA": "butt"
       }
-    ],
+    },
     "ShowWeaponModel": true,
-    "WeaponSkillList": {},
-    "PassiveEffects": {},
+    "WeaponSkillList": [
+      2040301,
+      2040302
+    ],
+    "PassiveEffects": [
+      20403
+    ],
     "PassiveEffectsDesc": "SKILL_20403_DESC",
     "PassiveEffectsDescValues": [
       "$#PassiveEffect[20403].Vars.BuffRate*100$%"
@@ -2261,11 +2035,9 @@
     "BulletConver": 0.8,
     "MaxDistance": 3500,
     "WeaponSeInfo": "Shotgun_Shengcai",
-    "FrontSight": [
-      {
-        "SightUI": "Rifle"
-      }
-    ],
+    "FrontSight": {
+      "SightUI": "Rifle"
+    },
     "WeaponHUDIcon": "Icon_Skill_Shotgun_Shengcai"
   },
   "20404": {
@@ -2276,27 +2048,24 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Shotgun/BP_Shotgun.BP_Shotgun",
     "WeaponMeshResourceId": 2040401,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "hook_arm_r"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"hook_shotgun_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "hook_shotgun_back",
+        "SocketB": "root_point"
       },
-      {
-        "HandHoldIK": [
-          "SocketA = \"butt"
-        ]
+      "HandHoldIK": {
+        "SocketA": "butt"
       }
-    ],
+    },
     "ShowWeaponModel": true,
-    "WeaponSkillList": {},
+    "WeaponSkillList": [
+      2040401,
+      2040402
+    ],
     "ModVolume": 1,
     "ATK_Smash": 15,
     "ATKLevelGrow": "ATKS",
@@ -2309,42 +2078,24 @@
     "MagazineCapacity": 6,
     "BulletConver": 1,
     "OpenAimChooseTarget": "Char_Shoot_30_3600",
-    "OpenAimTargetFilter": [
-      {
-        "MaxPitch": 16
-      },
-      {
-        "MaxYaw": 12
-      },
-      {
-        "AimSpeed": 0.2
-      }
-    ],
+    "OpenAimTargetFilter": {
+      "MaxPitch": 16,
+      "MaxYaw": 12,
+      "AimSpeed": 0.2
+    },
     "HelpAimChooseTarget": "Char_Shoot_10_3600",
-    "AimTargetFilter": [
-      {
-        "MaxPitch": 4
-      },
-      {
-        "MaxYaw": 3
-      },
-      {
-        "PitchWeight": 15
-      },
-      {
-        "YawWeight": 20
-      },
-      {
-        "AimSpeed": 0.3
-      }
-    ],
+    "AimTargetFilter": {
+      "MaxPitch": 4,
+      "MaxYaw": 3,
+      "PitchWeight": 15,
+      "YawWeight": 20,
+      "AimSpeed": 0.3
+    },
     "MaxDistance": 2800,
     "WeaponSeInfo": "Shotgun_Liandu",
-    "FrontSight": [
-      {
-        "SightUI": "Shotgun"
-      }
-    ],
+    "FrontSight": {
+      "SightUI": "Shotgun"
+    },
     "BulletIcon": "T_Battle_Bullet_Shotgun",
     "WeaponHUDIcon": "Icon_Skill_Shotgun_Qiege"
   },
@@ -2356,27 +2107,25 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Shotgun/BP_Shotgun.BP_Shotgun",
     "WeaponMeshResourceId": 2049801,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "hook_arm_r"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"hook_shotgun_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "hook_shotgun_back",
+        "SocketB": "root_point"
       },
-      {
-        "HandHoldIK": [
-          "SocketA = \"butt"
-        ]
+      "HandHoldIK": {
+        "SocketA": "butt"
       }
-    ],
+    },
     "ShowWeaponModel": true,
-    "WeaponSkillList": {},
+    "WeaponSkillList": [
+      2040501,
+      2040502,
+      2040503
+    ],
     "ModVolume": 1,
     "ATK_Smash": 15,
     "ATKLevelGrow": "ATKS",
@@ -2389,42 +2138,24 @@
     "MagazineCapacity": 6,
     "BulletConver": 1,
     "OpenAimChooseTarget": "Char_Shoot_30_3600",
-    "OpenAimTargetFilter": [
-      {
-        "MaxPitch": 16
-      },
-      {
-        "MaxYaw": 12
-      },
-      {
-        "AimSpeed": 0.2
-      }
-    ],
+    "OpenAimTargetFilter": {
+      "MaxPitch": 16,
+      "MaxYaw": 12,
+      "AimSpeed": 0.2
+    },
     "HelpAimChooseTarget": "Char_Shoot_10_3600",
-    "AimTargetFilter": [
-      {
-        "MaxPitch": 4
-      },
-      {
-        "MaxYaw": 3
-      },
-      {
-        "PitchWeight": 15
-      },
-      {
-        "YawWeight": 20
-      },
-      {
-        "AimSpeed": 0.3
-      }
-    ],
+    "AimTargetFilter": {
+      "MaxPitch": 4,
+      "MaxYaw": 3,
+      "PitchWeight": 15,
+      "YawWeight": 20,
+      "AimSpeed": 0.3
+    },
     "MaxDistance": 2800,
     "WeaponSeInfo": "Shotgun_Liandu",
-    "FrontSight": [
-      {
-        "SightUI": "Shotgun"
-      }
-    ],
+    "FrontSight": {
+      "SightUI": "Shotgun"
+    },
     "WeaponHUDIcon": "Icon_Skill_Shotgun_Liandu"
   },
   "20498": {
@@ -2435,25 +2166,19 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Shotgun/BP_Shotgun.BP_Shotgun",
     "WeaponMeshResourceId": 2049801,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "hook_arm_r"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"hook_shotgun_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "hook_shotgun_back",
+        "SocketB": "root_point"
       },
-      {
-        "HandHoldIK": [
-          "SocketA = \"butt"
-        ]
+      "HandHoldIK": {
+        "SocketA": "butt"
       }
-    ],
+    },
     "ShowWeaponModel": true,
     "WeaponSkillList": [
       2040101,
@@ -2471,42 +2196,24 @@
     "MagazineCapacity": 6,
     "BulletConver": 0.5,
     "OpenAimChooseTarget": "Char_Shoot_30_3600",
-    "OpenAimTargetFilter": [
-      {
-        "MaxPitch": 16
-      },
-      {
-        "MaxYaw": 12
-      },
-      {
-        "AimSpeed": 0.2
-      }
-    ],
+    "OpenAimTargetFilter": {
+      "MaxPitch": 16,
+      "MaxYaw": 12,
+      "AimSpeed": 0.2
+    },
     "HelpAimChooseTarget": "Char_Shoot_10_3600",
-    "AimTargetFilter": [
-      {
-        "MaxPitch": 4
-      },
-      {
-        "MaxYaw": 3
-      },
-      {
-        "PitchWeight": 15
-      },
-      {
-        "YawWeight": 20
-      },
-      {
-        "AimSpeed": 0.3
-      }
-    ],
+    "AimTargetFilter": {
+      "MaxPitch": 4,
+      "MaxYaw": 3,
+      "PitchWeight": 15,
+      "YawWeight": 20,
+      "AimSpeed": 0.3
+    },
     "MaxDistance": 2800,
     "WeaponSeInfo": "Shotgun_Liandu",
-    "FrontSight": [
-      {
-        "SightUI": "Shotgun"
-      }
-    ],
+    "FrontSight": {
+      "SightUI": "Shotgun"
+    },
     "PlayFrontSightAnim": true,
     "BulletIcon": "T_Battle_Bullet_Shotgun",
     "WeaponHUDIcon": "Icon_Skill_Shotgun_Liandu"
@@ -2519,25 +2226,19 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Shotgun/BP_Shotgun.BP_Shotgun",
     "WeaponMeshResourceId": 2049901,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "hook_arm_r"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"hook_shotgun_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "hook_shotgun_back",
+        "SocketB": "root_point"
       },
-      {
-        "HandHoldIK": [
-          "SocketA = \"butt"
-        ]
+      "HandHoldIK": {
+        "SocketA": "butt"
       }
-    ],
+    },
     "ShowWeaponModel": true,
     "WeaponSkillList": [
       2040101,
@@ -2555,42 +2256,24 @@
     "MagazineCapacity": 6,
     "BulletConver": 0.5,
     "OpenAimChooseTarget": "Char_Shoot_30_3600",
-    "OpenAimTargetFilter": [
-      {
-        "MaxPitch": 16
-      },
-      {
-        "MaxYaw": 12
-      },
-      {
-        "AimSpeed": 0.2
-      }
-    ],
+    "OpenAimTargetFilter": {
+      "MaxPitch": 16,
+      "MaxYaw": 12,
+      "AimSpeed": 0.2
+    },
     "HelpAimChooseTarget": "Char_Shoot_10_3600",
-    "AimTargetFilter": [
-      {
-        "MaxPitch": 4
-      },
-      {
-        "MaxYaw": 3
-      },
-      {
-        "PitchWeight": 15
-      },
-      {
-        "YawWeight": 20
-      },
-      {
-        "AimSpeed": 0.3
-      }
-    ],
+    "AimTargetFilter": {
+      "MaxPitch": 4,
+      "MaxYaw": 3,
+      "PitchWeight": 15,
+      "YawWeight": 20,
+      "AimSpeed": 0.3
+    },
     "MaxDistance": 2800,
     "WeaponSeInfo": "Shotgun_Jinshu",
-    "FrontSight": [
-      {
-        "SightUI": "Shotgun"
-      }
-    ],
+    "FrontSight": {
+      "SightUI": "Shotgun"
+    },
     "PlayFrontSightAnim": true,
     "BulletIcon": "T_Battle_Bullet_Shotgun",
     "WeaponHUDIcon": "Icon_Skill_Shotgun_Jinshu"
@@ -2603,31 +2286,27 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Machinegun/BP_Machinegun.BP_Machinegun",
     "WeaponMeshResourceId": 2050101,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "hook_arm_r"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"hook_shotgun_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "hook_shotgun_back",
+        "SocketB": "root_point"
       },
-      {
-        "HandHoldIK": [
-          "SocketA = \"butt"
-        ]
+      "HandHoldIK": {
+        "SocketA": "butt"
       }
-    ],
+    },
     "ShowWeaponModel": true,
     "WeaponSkillList": [
       2050101,
       2050102
     ],
-    "PassiveEffects": {},
+    "PassiveEffects": [
+      20501
+    ],
     "PassiveEffectsDesc": "SKILL_20501_DESC",
     "PassiveEffectsDescValues": [
       "$#PassiveEffect[20501].Vars.BuffRate*100$%"
@@ -2644,42 +2323,24 @@
     "MagazineCapacity": 50,
     "BulletConver": 2,
     "OpenAimChooseTarget": "Char_Shoot_30_3600",
-    "OpenAimTargetFilter": [
-      {
-        "MaxPitch": 16
-      },
-      {
-        "MaxYaw": 12
-      },
-      {
-        "AimSpeed": 0.2
-      }
-    ],
+    "OpenAimTargetFilter": {
+      "MaxPitch": 16,
+      "MaxYaw": 12,
+      "AimSpeed": 0.2
+    },
     "HelpAimChooseTarget": "Char_Shoot_10_3600",
-    "AimTargetFilter": [
-      {
-        "MaxPitch": 4
-      },
-      {
-        "MaxYaw": 3
-      },
-      {
-        "PitchWeight": 15
-      },
-      {
-        "YawWeight": 20
-      },
-      {
-        "AimSpeed": 0.2
-      }
-    ],
+    "AimTargetFilter": {
+      "MaxPitch": 4,
+      "MaxYaw": 3,
+      "PitchWeight": 15,
+      "YawWeight": 20,
+      "AimSpeed": 0.2
+    },
     "MaxDistance": 2800,
     "WeaponSeInfo": "Machinegun_Chixing",
-    "FrontSight": [
-      {
-        "SightUI": "Crossbow"
-      }
-    ],
+    "FrontSight": {
+      "SightUI": "Crossbow"
+    },
     "PlayFrontSightAnim": true,
     "WeaponHUDIcon": "Icon_Skill_Machinegun_Chixing"
   },
@@ -2691,34 +2352,33 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Machinegun/BP_Machinegun.BP_Machinegun",
     "WeaponMeshResourceId": 2050201,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "hook_arm_r"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"hook_shotgun_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "hook_shotgun_back",
+        "SocketB": "root_point"
       },
-      {
-        "HandHoldIK": [
-          "SocketA = \"butt"
-        ]
+      "HandHoldIK": {
+        "SocketA": "butt"
       }
-    ],
+    },
     "ShowWeaponModel": true,
-    "WeaponSkillList": {},
+    "WeaponSkillList": [
+      2050201,
+      2050202
+    ],
     "AddAttrs": [
       {
         "AttrName": "CRI",
         "Rate": "#1"
       }
     ],
-    "PassiveEffects": {},
+    "PassiveEffects": [
+      20502
+    ],
     "PassiveEffectsAttribute": [
       "Water"
     ],
@@ -2760,28 +2420,27 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Machinegun/BP_Machinegun.BP_Machinegun",
     "WeaponMeshResourceId": 2050301,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "hook_arm_r"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"hook_shotgun_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "hook_shotgun_back",
+        "SocketB": "root_point"
       },
-      {
-        "HandHoldIK": [
-          "SocketA = \"butt"
-        ]
+      "HandHoldIK": {
+        "SocketA": "butt"
       }
-    ],
+    },
     "ShowWeaponModel": true,
-    "WeaponSkillList": {},
-    "PassiveEffects": {},
+    "WeaponSkillList": [
+      2050301,
+      2050302
+    ],
+    "PassiveEffects": [
+      20503
+    ],
     "PassiveEffectsDesc": "SKILL_20503_DESC",
     "PassiveEffectsDescValues": [
       "$#PassiveEffect[20503].Vars.TriggerProb*100$%"
@@ -2817,34 +2476,33 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Machinegun/BP_Machinegun.BP_Machinegun",
     "WeaponMeshResourceId": 2050401,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "hook_arm_r"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"hook_shotgun_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "hook_shotgun_back",
+        "SocketB": "root_point"
       },
-      {
-        "HandHoldIK": [
-          "SocketA = \"butt"
-        ]
+      "HandHoldIK": {
+        "SocketA": "butt"
       }
-    ],
+    },
     "ShowWeaponModel": true,
-    "WeaponSkillList": {},
+    "WeaponSkillList": [
+      2050401,
+      2050402
+    ],
     "AddAttrs": [
       {
         "AttrName": "MultiShoot",
         "Rate": "#1"
       }
     ],
-    "PassiveEffects": {},
+    "PassiveEffects": [
+      20504
+    ],
     "PassiveEffectsDesc": "SKILL_20504_DESC",
     "PassiveEffectsDescValues": [
       "$#BattleWeapon[20504].AddAttrs[1].Rate*100$%",
@@ -2864,11 +2522,9 @@
     "BulletConver": 1.2,
     "MaxDistance": 2000,
     "WeaponSeInfo": "Machinegun_Poxiao",
-    "FrontSight": [
-      {
-        "SightUI": "Crossbow"
-      }
-    ],
+    "FrontSight": {
+      "SightUI": "Crossbow"
+    },
     "PlayFrontSightAnim": true,
     "BulletIcon": "T_Battle_Bullet_Laser",
     "WeaponHUDIcon": "Icon_Skill_Machinegun_Poxiao"
@@ -2881,28 +2537,27 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Machinegun/BP_Machinegun.BP_Machinegun",
     "WeaponMeshResourceId": 2050201,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "hook_arm_r"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"hook_shotgun_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "hook_shotgun_back",
+        "SocketB": "root_point"
       },
-      {
-        "HandHoldIK": [
-          "SocketA = \"butt"
-        ]
+      "HandHoldIK": {
+        "SocketA": "butt"
       }
-    ],
+    },
     "ShowWeaponModel": true,
-    "WeaponSkillList": {},
-    "PassiveEffects": {},
+    "WeaponSkillList": [
+      2050501,
+      2050502
+    ],
+    "PassiveEffects": [
+      20505
+    ],
     "ModVolume": 1,
     "ATK_Spike": 1,
     "ATKLevelGrow": "ATKS",
@@ -2916,11 +2571,9 @@
     "BulletConver": 1.2,
     "MaxDistance": 2900,
     "WeaponSeInfo": "Machinegun_Fangzhu",
-    "FrontSight": [
-      {
-        "SightUI": "Thunder"
-      }
-    ],
+    "FrontSight": {
+      "SightUI": "Thunder"
+    },
     "BulletIcon": "T_Battle_Bullet_Laser",
     "WeaponHUDIcon": "Icon_Skill_Machinegun_Fangzhu"
   },
@@ -2932,28 +2585,27 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Machinegun/BP_Machinegun.BP_Machinegun",
     "WeaponMeshResourceId": 2040301,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "hook_arm_r"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"hook_shotgun_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "hook_shotgun_back",
+        "SocketB": "root_point"
       },
-      {
-        "HandHoldIK": [
-          "SocketA = \"butt"
-        ]
+      "HandHoldIK": {
+        "SocketA": "butt"
       }
-    ],
+    },
     "ShowWeaponModel": true,
-    "WeaponSkillList": {},
-    "PassiveEffects": {},
+    "WeaponSkillList": [
+      2050601,
+      2050602
+    ],
+    "PassiveEffects": [
+      20506
+    ],
     "ModVolume": 1,
     "ATK_Spike": 1,
     "ATKLevelGrow": "ATKS",
@@ -2967,11 +2619,9 @@
     "BulletConver": 1.2,
     "MaxDistance": 2900,
     "WeaponSeInfo": "Machinegun_Fangzhu",
-    "FrontSight": [
-      {
-        "SightUI": "Thunder"
-      }
-    ],
+    "FrontSight": {
+      "SightUI": "Thunder"
+    },
     "BulletIcon": "T_Battle_Bullet_Laser",
     "WeaponHUDIcon": "Icon_Skill_Machinegun_Fangzhu"
   },
@@ -2983,34 +2633,32 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Machinegun/BP_Machinegun.BP_Machinegun",
     "WeaponMeshResourceId": 2050701,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "hook_arm_r"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"hook_shotgun_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "hook_shotgun_back",
+        "SocketB": "root_point"
       },
-      {
-        "HandHoldIK": [
-          "SocketA = \"butt"
-        ]
+      "HandHoldIK": {
+        "SocketA": "butt"
       }
-    ],
+    },
     "ShowWeaponModel": true,
-    "WeaponSkillList": {},
+    "WeaponSkillList": [
+      2050701
+    ],
     "AddAttrs": [
       {
         "AttrName": "CRD",
         "Rate": "#1"
       }
     ],
-    "PassiveEffects": {},
+    "PassiveEffects": [
+      20507
+    ],
     "PassiveEffectsDesc": "SKILL_20507_DESC",
     "PassiveEffectsDescValues": [
       "$#BattleWeapon[20507].AddAttrs[1].Rate*100$%",
@@ -3029,17 +2677,11 @@
     "MagazineCapacity": 1,
     "BulletConver": 1,
     "OpenAimChooseTarget": "Char_Shoot_30_3600",
-    "OpenAimTargetFilter": [
-      {
-        "MaxPitch": 16
-      },
-      {
-        "MaxYaw": 12
-      },
-      {
-        "AimSpeed": 0.2
-      }
-    ],
+    "OpenAimTargetFilter": {
+      "MaxPitch": 16,
+      "MaxYaw": 12,
+      "AimSpeed": 0.2
+    },
     "MaxDistance": 2800,
     "WeaponSeInfo": "Machinegun_Yinlang",
     "FrontSight": {
@@ -3061,25 +2703,19 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Machinegun/BP_Machinegun.BP_Machinegun",
     "WeaponMeshResourceId": 2059801,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "hook_arm_r"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"hook_shotgun_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "hook_shotgun_back",
+        "SocketB": "root_point"
       },
-      {
-        "HandHoldIK": [
-          "SocketA = \"butt"
-        ]
+      "HandHoldIK": {
+        "SocketA": "butt"
       }
-    ],
+    },
     "ShowWeaponModel": true,
     "WeaponSkillList": [
       2050101,
@@ -3097,42 +2733,24 @@
     "MagazineCapacity": 50,
     "BulletConver": 2,
     "OpenAimChooseTarget": "Char_Shoot_30_3600",
-    "OpenAimTargetFilter": [
-      {
-        "MaxPitch": 16
-      },
-      {
-        "MaxYaw": 12
-      },
-      {
-        "AimSpeed": 0.2
-      }
-    ],
+    "OpenAimTargetFilter": {
+      "MaxPitch": 16,
+      "MaxYaw": 12,
+      "AimSpeed": 0.2
+    },
     "HelpAimChooseTarget": "Char_Shoot_10_3600",
-    "AimTargetFilter": [
-      {
-        "MaxPitch": 4
-      },
-      {
-        "MaxYaw": 3
-      },
-      {
-        "PitchWeight": 15
-      },
-      {
-        "YawWeight": 20
-      },
-      {
-        "AimSpeed": 0.2
-      }
-    ],
+    "AimTargetFilter": {
+      "MaxPitch": 4,
+      "MaxYaw": 3,
+      "PitchWeight": 15,
+      "YawWeight": 20,
+      "AimSpeed": 0.2
+    },
     "MaxDistance": 2800,
     "WeaponSeInfo": "Machinegun_Chixing",
-    "FrontSight": [
-      {
-        "SightUI": "Crossbow"
-      }
-    ],
+    "FrontSight": {
+      "SightUI": "Crossbow"
+    },
     "PlayFrontSightAnim": true,
     "WeaponHUDIcon": "Icon_Skill_Machinegun_Liandu"
   },
@@ -3144,25 +2762,19 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Machinegun/BP_Machinegun.BP_Machinegun",
     "WeaponMeshResourceId": 2059901,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "hook_arm_r"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"hook_shotgun_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "hook_shotgun_back",
+        "SocketB": "root_point"
       },
-      {
-        "HandHoldIK": [
-          "SocketA = \"butt"
-        ]
+      "HandHoldIK": {
+        "SocketA": "butt"
       }
-    ],
+    },
     "ShowWeaponModel": true,
     "WeaponSkillList": [
       2050101,
@@ -3180,42 +2792,24 @@
     "MagazineCapacity": 50,
     "BulletConver": 2,
     "OpenAimChooseTarget": "Char_Shoot_30_3600",
-    "OpenAimTargetFilter": [
-      {
-        "MaxPitch": 16
-      },
-      {
-        "MaxYaw": 12
-      },
-      {
-        "AimSpeed": 0.2
-      }
-    ],
+    "OpenAimTargetFilter": {
+      "MaxPitch": 16,
+      "MaxYaw": 12,
+      "AimSpeed": 0.2
+    },
     "HelpAimChooseTarget": "Char_Shoot_10_3600",
-    "AimTargetFilter": [
-      {
-        "MaxPitch": 4
-      },
-      {
-        "MaxYaw": 3
-      },
-      {
-        "PitchWeight": 15
-      },
-      {
-        "YawWeight": 20
-      },
-      {
-        "AimSpeed": 0.2
-      }
-    ],
+    "AimTargetFilter": {
+      "MaxPitch": 4,
+      "MaxYaw": 3,
+      "PitchWeight": 15,
+      "YawWeight": 20,
+      "AimSpeed": 0.2
+    },
     "MaxDistance": 2800,
     "WeaponSeInfo": "Machinegun_Chixing",
-    "FrontSight": [
-      {
-        "SightUI": "Crossbow"
-      }
-    ],
+    "FrontSight": {
+      "SightUI": "Crossbow"
+    },
     "PlayFrontSightAnim": true,
     "WeaponHUDIcon": "Icon_Skill_Machinegun_Jinshu"
   },
@@ -3228,23 +2822,24 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Bow/BP_Bow02.BP_Bow02",
     "WeaponMeshResourceId": 2060101,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"hook_arm_l"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "hook_arm_l"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"hook_Bow_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "hook_Bow_back",
+        "SocketB": "root_point"
       }
-    ],
+    },
     "ShowWeaponModel": true,
-    "WeaponSkillList": {},
-    "PassiveEffects": {},
+    "WeaponSkillList": [
+      2060101,
+      2060102
+    ],
+    "PassiveEffects": [
+      20601
+    ],
     "PassiveEffectsDesc": "SKILL_20601_DESC",
     "PassiveEffectsDescValues": [
       "$#PassiveEffect[20601].Vars.BuffRate*100$%",
@@ -3277,25 +2872,27 @@
   },
   "20602": {
     "WeaponId": 20602,
-    "WeaponTag": {},
+    "WeaponTag": [
+      "Ranged",
+      "Bow",
+      "Bow01"
+    ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Bow/BP_Bow_Huguang.BP_Bow_Huguang",
     "WeaponMeshResourceId": 2060201,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"hook_arm_l"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "hook_arm_l"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"hook_Bow_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "hook_Bow_back",
+        "SocketB": "root_point"
       }
-    ],
+    },
     "ShowWeaponModel": true,
-    "WeaponSkillList": {},
+    "WeaponSkillList": [
+      2060201
+    ],
     "AddAttrs": [
       {
         "AttrName": "SkillEfficiency",
@@ -3303,7 +2900,9 @@
         "IsCharAttr": 1
       }
     ],
-    "PassiveEffects": {},
+    "PassiveEffects": [
+      20602
+    ],
     "PassiveEffectsAttribute": [
       "Wind"
     ],
@@ -3351,20 +2950,16 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Bow/BP_Bow02.BP_Bow02",
     "WeaponMeshResourceId": 2069801,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"hook_arm_l"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "hook_arm_l"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"hook_Bow_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "hook_Bow_back",
+        "SocketB": "root_point"
       }
-    ],
+    },
     "ShowWeaponModel": true,
     "WeaponSkillList": [
       2069901,
@@ -3384,11 +2979,9 @@
     "BulletConver": 1,
     "MaxDistance": 4000,
     "WeaponSeInfo": "Bow_Lieyan",
-    "FrontSight": [
-      {
-        "SightUI": "Bow03"
-      }
-    ],
+    "FrontSight": {
+      "SightUI": "Bow03"
+    },
     "PlayFrontSightAnim": true,
     "MagazineUIType": "NoMagazine",
     "BulletIcon": "T_Battle_Bullet_Arrow",
@@ -3406,20 +2999,16 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Bow/BP_Bow02.BP_Bow02",
     "WeaponMeshResourceId": 2069901,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"hook_arm_l"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "hook_arm_l"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"hook_Bow_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "hook_Bow_back",
+        "SocketB": "root_point"
       }
-    ],
+    },
     "ShowWeaponModel": true,
     "WeaponSkillList": [
       2069901,
@@ -3439,11 +3028,9 @@
     "BulletConver": 1,
     "MaxDistance": 4000,
     "WeaponSeInfo": "Bow_Lieyan",
-    "FrontSight": [
-      {
-        "SightUI": "Bow03"
-      }
-    ],
+    "FrontSight": {
+      "SightUI": "Bow03"
+    },
     "PlayFrontSightAnim": true,
     "MagazineUIType": "NoMagazine",
     "BulletIcon": "T_Battle_Bullet_Arrow",
@@ -3454,25 +3041,27 @@
   },
   "110101": {
     "WeaponId": 110101,
-    "WeaponTag": {},
+    "WeaponTag": [
+      "Ultra",
+      "Melee",
+      "Sword"
+    ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Sword/BP_SwordHeitao.BP_SwordHeitao",
     "WeaponMeshResourceId": 110101,
     "WeaponSockets": {
-      "HandHold": [
-        {
-          "SocketA": "Root"
-        },
-        {
-          "SocketB": "hook_arm_r"
-        }
-      ],
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "hook_arm_r"
+      },
       "UnbindHand": {
         "SocketA": "Root",
         "SocketB": "hook_upperarm_l_02"
       }
     },
     "ShowWeaponModel": false,
-    "WipCharmsResIds": {},
+    "WipCharmsResIds": [
+      110102
+    ],
     "WipCharmsAttachRules": [
       {
         "HandHold": {
@@ -3485,7 +3074,11 @@
         }
       }
     ],
-    "WeaponSkillList": {},
+    "WeaponSkillList": [
+      110122,
+      110123,
+      110124
+    ],
     "InheritSkillId": 110102,
     "ModVolume": 1,
     "ATK_Slash": 3,
@@ -3507,16 +3100,16 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Crossbow/BP_Crossbow_Linen_R.BP_Crossbow_Linen_R",
     "WeaponMeshResourceId": 310101,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "root",
+        "SocketB": "hook_arm_r"
       }
-    ],
+    },
     "ShowWeaponModel": false,
-    "WeaponSkillList": {},
+    "WeaponSkillList": [
+      310122
+    ],
     "InheritSkillId": 310102,
     "ModVolume": 1,
     "ATK_Spike": 3,
@@ -3528,17 +3121,11 @@
     "BulletInit": -1,
     "MagazineCapacity": -1,
     "OpenAimChooseTarget": "Char_Shoot_30_3600",
-    "OpenAimTargetFilter": [
-      {
-        "MaxPitch": 16
-      },
-      {
-        "MaxYaw": 12
-      },
-      {
-        "AimSpeed": 0.2
-      }
-    ],
+    "OpenAimTargetFilter": {
+      "MaxPitch": 16,
+      "MaxYaw": 12,
+      "AimSpeed": 0.2
+    },
     "MaxDistance": 2800,
     "MagazineUIType": "NoMagazine",
     "WeaponHUDIcon": "Icon_Skill_Linen_Hansai",
@@ -3557,14 +3144,12 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Crossbow/BP_Crossbow_Linen_L.BP_Crossbow_Linen_L",
     "WeaponMeshResourceId": 310102,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"root",
-          "SocketB = \"hook_arm_l"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "root",
+        "SocketB": "hook_arm_l"
       }
-    ],
+    },
     "ShowWeaponModel": false,
     "ModVolume": 1,
     "ATKLevelGrow": "ATKS",
@@ -3575,25 +3160,28 @@
   },
   "410101": {
     "WeaponId": 410101,
-    "WeaponTag": {},
+    "WeaponTag": [
+      "Ultra",
+      "Melee",
+      "Claymore"
+    ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Claymore/BP_Claymore_01.BP_Claymore_01",
     "WeaponMeshResourceId": 410101,
     "WeaponSockets": {
-      "HandHold": [
-        {
-          "SocketA": "Root"
-        },
-        {
-          "SocketB": "hook_arm_r"
-        }
-      ],
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "hook_arm_r"
+      },
       "UnbindHand": {
         "SocketA": "root_back",
         "SocketB": "hook_1_back_weapon"
       }
     },
     "ShowWeaponModel": false,
-    "WeaponSkillList": {},
+    "WeaponSkillList": [
+      410122,
+      410123
+    ],
     "ModVolume": 1,
     "ATK_Smash": 7,
     "ATKLevelGrow": "ATKS",
@@ -3605,18 +3193,23 @@
   },
   "510101": {
     "WeaponId": 510101,
-    "WeaponTag": {},
-    "WeaponBlueprint": "/Game/AssetDesign/Weapon/Abstract/BP_Songlu_Summon.BP_Songlu_Summon",
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"root",
-          "SocketB = \"root"
-        ]
-      }
+    "WeaponTag": [
+      "Ultra",
+      "Melee",
+      "Abstract"
     ],
+    "WeaponBlueprint": "/Game/AssetDesign/Weapon/Abstract/BP_Songlu_Summon.BP_Songlu_Summon",
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "root",
+        "SocketB": "root"
+      }
+    },
     "ShowWeaponModel": false,
-    "WeaponSkillList": {},
+    "WeaponSkillList": [
+      510104,
+      510105
+    ],
     "InheritSkillId": 510102,
     "ATKLevelGrow": "ATKS",
     "CRI": 0,
@@ -3625,19 +3218,23 @@
   },
   "530101": {
     "WeaponId": 530101,
-    "WeaponTag": {},
+    "WeaponTag": [
+      "Ultra",
+      "Ranged",
+      "Machinegun"
+    ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Funnel/BP_Funnel.BP_Funnel",
     "WeaponMeshResourceId": 530101,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"root",
-          "SocketB = \"root"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "root",
+        "SocketB": "root"
       }
-    ],
+    },
     "ShowWeaponModel": false,
-    "WeaponSkillList": {},
+    "WeaponSkillList": [
+      530122
+    ],
     "InheritSkillId": 530102,
     "ModVolume": 1,
     "ATK_Spike": 3,
@@ -3649,35 +3246,19 @@
     "BulletInit": -1,
     "MagazineCapacity": -1,
     "OpenAimChooseTarget": "Char_Shoot_30_3600",
-    "OpenAimTargetFilter": [
-      {
-        "MaxPitch": 16
-      },
-      {
-        "MaxYaw": 12
-      },
-      {
-        "AimSpeed": 0.2
-      }
-    ],
+    "OpenAimTargetFilter": {
+      "MaxPitch": 16,
+      "MaxYaw": 12,
+      "AimSpeed": 0.2
+    },
     "HelpAimChooseTarget": "Char_Shoot_10_3600",
-    "AimTargetFilter": [
-      {
-        "MaxPitch": 4
-      },
-      {
-        "MaxYaw": 3
-      },
-      {
-        "PitchWeight": 15
-      },
-      {
-        "YawWeight": 20
-      },
-      {
-        "AimSpeed": 0.3
-      }
-    ],
+    "AimTargetFilter": {
+      "MaxPitch": 4,
+      "MaxYaw": 3,
+      "PitchWeight": 15,
+      "YawWeight": 20,
+      "AimSpeed": 0.3
+    },
     "MaxDistance": 2800,
     "FrontSight": {
       "SightUI": "butterfly",
@@ -3704,14 +3285,12 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Monster/Ranged/BP_Gr_Youji.BP_Gr_Youji",
     "WeaponMeshResourceId": 600202,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "root",
+        "SocketB": "hook_arm_r"
       }
-    ],
+    },
     "ShowWeaponModel": false,
     "ModVolume": 1,
     "BulletMax": 9,
@@ -3727,14 +3306,12 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Monster/Melee/BP_Jt_Disarm.BP_Jt_Disarm",
     "WeaponMeshResourceId": 700001,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "root",
+        "SocketB": "hook_arm_r"
       }
-    ],
+    },
     "ShowWeaponModel": false,
     "ModVolume": 1
   },
@@ -3748,14 +3325,12 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Monster/Ranged/BP_Jt_Juji.BP_Jt_Juji",
     "WeaponMeshResourceId": 700102,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "root",
+        "SocketB": "hook_arm_r"
       }
-    ],
+    },
     "ShowWeaponModel": false,
     "ModVolume": 1,
     "BulletMax": 2,
@@ -3771,14 +3346,12 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Monster/Melee/BP_Jt_Pizhuo.BP_Jt_Pizhuo",
     "WeaponMeshResourceId": 700202,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "root",
+        "SocketB": "hook_arm_r"
       }
-    ],
+    },
     "ShowWeaponModel": false,
     "ModVolume": 1
   },
@@ -3792,14 +3365,12 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Monster/Ranged/BP_Jt_Ranger.BP_Jt_Ranger",
     "WeaponMeshResourceId": 700302,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "root",
+        "SocketB": "hook_arm_r"
       }
-    ],
+    },
     "ShowWeaponModel": false,
     "ModVolume": 1,
     "BulletMax": 12,
@@ -3815,14 +3386,12 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Monster/Melee/BP_Jt_Tuji_Cudgel02.BP_Jt_Tuji_Cudgel02",
     "WeaponMeshResourceId": 700404,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "root",
+        "SocketB": "hook_arm_r"
       }
-    ],
+    },
     "ShowWeaponModel": false,
     "ModVolume": 1
   },
@@ -3834,14 +3403,12 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Monster/Melee/BP_Jt_Tuji_Shield.BP_Jt_Tuji_Shield",
     "WeaponMeshResourceId": 700403,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"root",
-          "SocketB = \"hook_arm_l"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "root",
+        "SocketB": "hook_arm_l"
       }
-    ],
+    },
     "ShowWeaponModel": false,
     "ModVolume": 1
   },
@@ -3855,14 +3422,12 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Monster/Melee/BP_Jt_Tuji_Cudgel01.BP_Jt_Tuji_Cudgel01",
     "WeaponMeshResourceId": 700402,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "root",
+        "SocketB": "hook_arm_r"
       }
-    ],
+    },
     "ShowWeaponModel": false,
     "ModVolume": 1
   },
@@ -3875,14 +3440,12 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Monster/Melee/BP_Jt_Zhihui.BP_Jt_Zhihui",
     "WeaponMeshResourceId": 700802,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "root",
+        "SocketB": "hook_arm_r"
       }
-    ],
+    },
     "ShowWeaponModel": false,
     "ModVolume": 1
   },
@@ -3895,14 +3458,12 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Monster/Melee/BP_Jt_Pizhuo_C01.BP_Jt_Pizhuo_C01",
     "WeaponMeshResourceId": 701201,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "root",
+        "SocketB": "hook_arm_r"
       }
-    ],
+    },
     "ShowWeaponModel": false
   },
   "701301": {
@@ -3915,14 +3476,12 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Monster/Ranged/BP_Jt_Ranger_C01.BP_Jt_Ranger_C01",
     "WeaponMeshResourceId": 701301,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "root",
+        "SocketB": "hook_arm_r"
       }
-    ],
+    },
     "ShowWeaponModel": false,
     "ModVolume": 1,
     "BulletMax": 12,
@@ -3937,14 +3496,12 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Monster/Ranged/BP_Jh_Zhishi.BP_Jh_Zhishi",
     "WeaponMeshResourceId": 800102,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "root",
+        "SocketB": "hook_arm_r"
       }
-    ],
+    },
     "ShowWeaponModel": false,
     "ModVolume": 1,
     "BulletMax": 2,
@@ -3959,14 +3516,12 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Monster/Melee/BP_Jh_Xianfeng.BP_Jh_Xianfeng",
     "WeaponMeshResourceId": 800202,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "root",
+        "SocketB": "hook_arm_r"
       }
-    ],
+    },
     "ShowWeaponModel": false,
     "ModVolume": 1
   },
@@ -3978,14 +3533,12 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Monster/Ranged/BP_Jh_Shenfu.BP_Jh_Shenfu",
     "WeaponMeshResourceId": 800302,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "root",
+        "SocketB": "hook_arm_r"
       }
-    ],
+    },
     "ShowWeaponModel": false,
     "ModVolume": 1,
     "MaxDistance": 3000
@@ -3998,14 +3551,12 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Monster/Melee/BP_Boss_Xibi.BP_Boss_Xibi",
     "WeaponMeshResourceId": 850002,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "root",
+        "SocketB": "hook_arm_r"
       }
-    ],
+    },
     "ShowWeaponModel": false,
     "ModVolume": 1
   },
@@ -4017,14 +3568,12 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Monster/Ranged/BP_Boss_Saiqi.BP_Boss_Saiqi",
     "WeaponMeshResourceId": 850202,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "root",
+        "SocketB": "hook_arm_r"
       }
-    ],
+    },
     "ShowWeaponModel": true,
     "ModVolume": 1
   },
@@ -4036,14 +3585,12 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Monster/Melee/BP_Boss_Saiqi02.BP_Boss_Saiqi02",
     "WeaponMeshResourceId": 850402,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "root",
+        "SocketB": "hook_arm_r"
       }
-    ],
+    },
     "ShowWeaponModel": true,
     "ModVolume": 1
   },
@@ -4055,14 +3602,12 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Monster/Melee/BP_Boss_Lianhuo.BP_Boss_Lianhuo",
     "WeaponMeshResourceId": 850502,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "root",
+        "SocketB": "hook_arm_r"
       }
-    ],
+    },
     "ShowWeaponModel": true,
     "ModVolume": 1
   },
@@ -4074,20 +3619,16 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Sword/BP_Sword_01.BP_Sword_01",
     "WeaponMeshResourceId": 850702,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"Root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "Root",
+        "SocketB": "hook_arm_r"
       },
-      {
-        "UnbindHand": [
-          "SocketA = \"root_Sword_back",
-          "SocketB = \"root_point"
-        ]
+      "UnbindHand": {
+        "SocketA": "root_Sword_back",
+        "SocketB": "root_point"
       }
-    ],
+    },
     "ShowWeaponModel": true,
     "ModVolume": 1,
     "WeaponSeInfo": "Sword_Huipo"
@@ -4102,14 +3643,12 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Monster/Melee/BP_SQ_Knives01.BP_SQ_Knives01",
     "WeaponMeshResourceId": 900101,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "root",
+        "SocketB": "hook_arm_r"
       }
-    ],
+    },
     "ShowWeaponModel": false
   },
   "900102": {
@@ -4121,14 +3660,12 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Monster/Melee/BP_SQ_Knives02.BP_SQ_Knives02",
     "WeaponMeshResourceId": 900101,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"root",
-          "SocketB = \"hook_arm_l"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "root",
+        "SocketB": "hook_arm_l"
       }
-    ],
+    },
     "ShowWeaponModel": false
   },
   "950101": {
@@ -4141,14 +3678,12 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Monster/Melee/BP_NE_Knives01.BP_NE_Knives01",
     "WeaponMeshResourceId": 950102,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"root",
-          "SocketB = \"hook_arm_r"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "root",
+        "SocketB": "hook_arm_r"
       }
-    ],
+    },
     "ShowWeaponModel": false,
     "ModVolume": 1
   },
@@ -4161,14 +3696,12 @@
     ],
     "WeaponBlueprint": "/Game/AssetDesign/Weapon/Monster/Melee/BP_NE_Knives02.BP_NE_Knives02",
     "WeaponMeshResourceId": 950102,
-    "WeaponSockets": [
-      {
-        "HandHold": [
-          "SocketA = \"root",
-          "SocketB = \"hook_arm_l"
-        ]
+    "WeaponSockets": {
+      "HandHold": {
+        "SocketA": "root",
+        "SocketB": "hook_arm_l"
       }
-    ],
+    },
     "ShowWeaponModel": false,
     "ModVolume": 1
   }

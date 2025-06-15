@@ -43,20 +43,16 @@
   "15": {
     "Id": 15,
     "FuncName": "Check_Buff",
-    "ConditionVars": [
-      {
-        "BuffId": 15
-      }
-    ]
+    "ConditionVars": {
+      "BuffId": 15
+    }
   },
   "16": {
     "Id": 16,
     "FuncName": "Check_Buff",
-    "ConditionVars": [
-      {
-        "BuffId": 15
-      }
-    ],
+    "ConditionVars": {
+      "BuffId": 15
+    },
     "Not": true
   },
   "20": {
@@ -215,11 +211,9 @@
   "65": {
     "Id": 65,
     "FuncName": "Check_Buff",
-    "ConditionVars": [
-      {
-        "BuffId": 106
-      }
-    ]
+    "ConditionVars": {
+      "BuffId": 106
+    }
   },
   "66": {
     "Id": 66,
@@ -294,11 +288,9 @@
   "900": {
     "Id": 900,
     "FuncName": "Phantom_OwnerDis",
-    "ConditionVars": [
-      {
-        "RelativeDis": 2500
-      }
-    ]
+    "ConditionVars": {
+      "RelativeDis": 2500
+    }
   },
   "901": {
     "Id": 901,
@@ -307,11 +299,9 @@
   "902": {
     "Id": 902,
     "FuncName": "Phantom_OwnerDis",
-    "ConditionVars": [
-      {
-        "RelativeDis": 2500
-      }
-    ],
+    "ConditionVars": {
+      "RelativeDis": 2500
+    },
     "Not": true
   },
   "903": {
@@ -320,7 +310,9 @@
     "ConditionVars": {
       "RelativeDis": 1300
     },
-    "And": {}
+    "And": [
+      904
+    ]
   },
   "904": {
     "Id": 904,
@@ -351,39 +343,23 @@
   "180101": {
     "Id": 180101,
     "FuncName": "SummonInRange",
-    "ConditionVars": [
-      {
-        "SummonId": 180101
-      },
-      {
-        "Key": "Default"
-      },
-      {
-        "CompareBaseInt": 1
-      },
-      {
-        "CompareBase": 1000
-      }
-    ],
+    "ConditionVars": {
+      "SummonId": 180101,
+      "Key": "Default",
+      "CompareBaseInt": 1,
+      "CompareBase": 1000
+    },
     "Not": true
   },
   "180102": {
     "Id": 180102,
     "FuncName": "SummonInRange",
-    "ConditionVars": [
-      {
-        "SummonId": 180101
-      },
-      {
-        "Key": "Default"
-      },
-      {
-        "CompareBaseInt": 1
-      },
-      {
-        "CompareBase": 1000
-      }
-    ]
+    "ConditionVars": {
+      "SummonId": 180101,
+      "Key": "Default",
+      "CompareBaseInt": 1,
+      "CompareBase": 1000
+    }
   },
   "180103": {
     "Id": 180103,
@@ -395,20 +371,12 @@
   "180104": {
     "Id": 180104,
     "FuncName": "SummonInRange",
-    "ConditionVars": [
-      {
-        "SummonId": 180101
-      },
-      {
-        "Key": "Default"
-      },
-      {
-        "CompareBaseInt": 1
-      },
-      {
-        "CompareBase": 1000
-      }
-    ]
+    "ConditionVars": {
+      "SummonId": 180101,
+      "Key": "Default",
+      "CompareBaseInt": 1,
+      "CompareBase": 1000
+    }
   },
   "180111": {
     "Id": 180111,
@@ -457,7 +425,9 @@
     "ConditionVars": {
       "BuffId": 310120
     },
-    "Or": {}
+    "Or": [
+      310124
+    ]
   },
   "310121": {
     "Id": 310121,
@@ -506,57 +476,45 @@
   "310301": {
     "Id": 310301,
     "FuncName": "Check_Buff",
-    "ConditionVars": [
-      {
-        "BuffId": 310301
-      }
-    ]
+    "ConditionVars": {
+      "BuffId": 310301
+    }
   },
   "310302": {
     "Id": 310302,
     "FuncName": "Check_Buff",
-    "ConditionVars": [
-      {
-        "BuffId": 310301
-      }
-    ],
+    "ConditionVars": {
+      "BuffId": 310301
+    },
     "Not": true
   },
   "310303": {
     "Id": 310303,
     "FuncName": "Check_Yeer_Skill01A",
-    "ConditionVars": [
-      {
-        "BuffId": 310303
-      }
-    ]
+    "ConditionVars": {
+      "BuffId": 310303
+    }
   },
   "310304": {
     "Id": 310304,
     "FuncName": "Check_Yeer_Skill01B",
-    "ConditionVars": [
-      {
-        "BuffId": 310303
-      }
-    ]
+    "ConditionVars": {
+      "BuffId": 310303
+    }
   },
   "310305": {
     "Id": 310305,
     "FuncName": "Check_Key_Bool",
-    "ConditionVars": [
-      {
-        "Key": "ToExplode"
-      }
-    ]
+    "ConditionVars": {
+      "Key": "ToExplode"
+    }
   },
   "310306": {
     "Id": 310306,
     "FuncName": "Check_Key_Bool",
-    "ConditionVars": [
-      {
-        "Key": "ToExplode"
-      }
-    ],
+    "ConditionVars": {
+      "Key": "ToExplode"
+    },
     "Not": true
   },
   "320101": {
@@ -570,39 +528,31 @@
   "320111": {
     "Id": 320111,
     "FuncName": "Check_Buff",
-    "ConditionVars": [
-      {
-        "BuffId": 320111
-      }
-    ]
+    "ConditionVars": {
+      "BuffId": 320111
+    }
   },
   "320112": {
     "Id": 320112,
     "FuncName": "Check_Buff",
-    "ConditionVars": [
-      {
-        "BuffId": 320111
-      }
-    ],
+    "ConditionVars": {
+      "BuffId": 320111
+    },
     "Not": true
   },
   "320113": {
     "Id": 320113,
     "FuncName": "Check_Buff",
-    "ConditionVars": [
-      {
-        "BuffId": 320113
-      }
-    ]
+    "ConditionVars": {
+      "BuffId": 320113
+    }
   },
   "320114": {
     "Id": 320114,
     "FuncName": "Check_Buff",
-    "ConditionVars": [
-      {
-        "BuffId": 320113
-      }
-    ],
+    "ConditionVars": {
+      "BuffId": 320113
+    },
     "Not": true
   },
   "330101": {
@@ -652,7 +602,9 @@
       "TargetFilter": "Char_Cylinder_Large180",
       "CompareBaseInt": 5
     },
-    "And": {}
+    "And": [
+      902
+    ]
   },
   "420202": {
     "Id": 420202,
@@ -708,20 +660,16 @@
   "510101": {
     "Id": 510101,
     "FuncName": "Check_Buff",
-    "ConditionVars": [
-      {
-        "BuffId": 510106
-      }
-    ]
+    "ConditionVars": {
+      "BuffId": 510106
+    }
   },
   "510102": {
     "Id": 510102,
     "FuncName": "Summoner_Check_Buff",
-    "ConditionVars": [
-      {
-        "BuffId": 510106
-      }
-    ]
+    "ConditionVars": {
+      "BuffId": 510106
+    }
   },
   "510103": {
     "Id": 510103,
@@ -736,25 +684,23 @@
     "ConditionVars": {
       "BuffId": 530100
     },
-    "Or": {}
+    "Or": [
+      530123
+    ]
   },
   "530121": {
     "Id": 530121,
     "FuncName": "Is_Hp_Above",
-    "ConditionVars": [
-      {
-        "CompareBase": 0.15
-      }
-    ]
+    "ConditionVars": {
+      "CompareBase": 0.15
+    }
   },
   "530122": {
     "Id": 530122,
     "FuncName": "Is_Hp_Above",
-    "ConditionVars": [
-      {
-        "CompareBase": 0.15
-      }
-    ],
+    "ConditionVars": {
+      "CompareBase": 0.15
+    },
     "Not": true
   },
   "530123": {
@@ -783,12 +729,16 @@
   "600502": {
     "Id": 600502,
     "FuncName": "Check_Buff",
-    "ConditionVars": [
-      {
-        "BuffId": 106
-      }
-    ],
-    "Or": {}
+    "ConditionVars": {
+      "BuffId": 106
+    },
+    "Or": [
+      60,
+      61,
+      62,
+      63,
+      64
+    ]
   },
   "850000": {
     "Id": 850000,
@@ -828,7 +778,9 @@
     "ConditionVars": {
       "RelativeDis": 600
     },
-    "Or": {}
+    "Or": [
+      850012
+    ]
   },
   "850012": {
     "Id": 850012,
@@ -861,78 +813,62 @@
   "850201": {
     "Id": 850201,
     "FuncName": "PartIsBroken",
-    "ConditionVars": [
-      {
-        "PartId": 1
-      }
-    ],
+    "ConditionVars": {
+      "PartId": 1
+    },
     "Not": true
   },
   "850202": {
     "Id": 850202,
     "FuncName": "PartIsBroken",
-    "ConditionVars": [
-      {
-        "PartId": 2
-      }
-    ],
+    "ConditionVars": {
+      "PartId": 2
+    },
     "Not": true
   },
   "850203": {
     "Id": 850203,
     "FuncName": "PartIsBroken",
-    "ConditionVars": [
-      {
-        "PartId": 3
-      }
-    ],
+    "ConditionVars": {
+      "PartId": 3
+    },
     "Not": true
   },
   "850204": {
     "Id": 850204,
     "FuncName": "PartIsBroken",
-    "ConditionVars": [
-      {
-        "PartId": 4
-      }
-    ],
+    "ConditionVars": {
+      "PartId": 4
+    },
     "Not": true
   },
   "850205": {
     "Id": 850205,
     "FuncName": "BrokenPart",
-    "ConditionVars": [
-      {
-        "PartId": 1
-      }
-    ]
+    "ConditionVars": {
+      "PartId": 1
+    }
   },
   "850206": {
     "Id": 850206,
     "FuncName": "BrokenPart",
-    "ConditionVars": [
-      {
-        "PartId": 2
-      }
-    ]
+    "ConditionVars": {
+      "PartId": 2
+    }
   },
   "850207": {
     "Id": 850207,
     "FuncName": "BrokenPart",
-    "ConditionVars": [
-      {
-        "PartId": 3
-      }
-    ]
+    "ConditionVars": {
+      "PartId": 3
+    }
   },
   "850208": {
     "Id": 850208,
     "FuncName": "BrokenPart",
-    "ConditionVars": [
-      {
-        "PartId": 4
-      }
-    ]
+    "ConditionVars": {
+      "PartId": 4
+    }
   },
   "850209": {
     "Id": 850209,
@@ -971,38 +907,30 @@
   "850301": {
     "Id": 850301,
     "FuncName": "BrokenPart",
-    "ConditionVars": [
-      {
-        "PartId": 1
-      }
-    ]
+    "ConditionVars": {
+      "PartId": 1
+    }
   },
   "850302": {
     "Id": 850302,
     "FuncName": "BrokenPart",
-    "ConditionVars": [
-      {
-        "PartId": 2
-      }
-    ]
+    "ConditionVars": {
+      "PartId": 2
+    }
   },
   "850303": {
     "Id": 850303,
     "FuncName": "BrokenPart",
-    "ConditionVars": [
-      {
-        "PartId": 3
-      }
-    ]
+    "ConditionVars": {
+      "PartId": 3
+    }
   },
   "850304": {
     "Id": 850304,
     "FuncName": "BrokenPart",
-    "ConditionVars": [
-      {
-        "PartId": 4
-      }
-    ]
+    "ConditionVars": {
+      "PartId": 4
+    }
   },
   "850305": {
     "Id": 850305,
@@ -1037,7 +965,9 @@
     "ConditionVars": {
       "MonsterId": 9501001
     },
-    "Or": {}
+    "Or": [
+      950102
+    ]
   },
   "950102": {
     "Id": 950102,
@@ -1070,21 +1000,17 @@
   "2040501": {
     "Id": 2040501,
     "FuncName": "Check_Key_Bool",
-    "ConditionVars": [
-      {
-        "Key": "IsHeavyShooting_20405"
-      }
-    ],
+    "ConditionVars": {
+      "Key": "IsHeavyShooting_20405"
+    },
     "Not": true
   },
   "2040502": {
     "Id": 2040502,
     "FuncName": "Check_Key_Bool",
-    "ConditionVars": [
-      {
-        "Key": "IsHeavyShooting_20405"
-      }
-    ]
+    "ConditionVars": {
+      "Key": "IsHeavyShooting_20405"
+    }
   },
   "2050501": {
     "Id": 2050501,

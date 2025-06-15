@@ -1,26 +1,44 @@
 {
   "DefaultTimeToLive": {
     "ParamName": "DefaultTimeToLive",
-    "ParamValue": {}
+    "ParamValue": [
+      1.5,
+      1.5
+    ]
   },
   "LockTimeAfterAvoid": {
     "ParamName": "LockTimeAfterAvoid",
-    "ParamValue": {}
+    "ParamValue": [
+      0.25,
+      0.25
+    ]
   },
   "LockTimeAfterClean": {
     "ParamName": "LockTimeAfterClean",
-    "ParamValue": {}
+    "ParamValue": [
+      0.03,
+      0.03
+    ]
   },
   "DeltaTimeToPredict": {
     "ParamName": "DeltaTimeToPredict",
-    "ParamValue": {}
+    "ParamValue": [
+      0.5,
+      0.5
+    ]
   },
   "ArtificialRadiusExpansion": {
     "ParamName": "ArtificialRadiusExpansion",
-    "ParamValue": {}
+    "ParamValue": [
+      1.1,
+      1.1
+    ]
   },
   "HeightCheckMargin": {
     "ParamName": "HeightCheckMargin",
-    "ParamValue": {}
+    "ParamValue": [
+      50,
+      50
+    ]
   }
 }

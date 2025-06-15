@@ -6,8 +6,13 @@
     "Icon2": "/Game/UI/Texture/ExtraAtlas/Sprites_Icon_Entrance_Armory",
     "ActionName": "OpenArmory",
     "Sequence": 10,
-    "EscShowCondition": {},
-    "ShowCondition": {},
+    "EscShowCondition": [
+      4
+    ],
+    "ShowCondition": [
+      4,
+      5
+    ],
     "SystemUIName": "ArmoryMain",
     "UIUnlockRuleName": "Armory",
     "ReddotNode": "ArmoryMainMenu"
@@ -210,7 +215,9 @@
     "EscShowCondition": [
       2
     ],
-    "ShowCondition": {},
+    "ShowCondition": [
+      6
+    ],
     "SystemUIName": "PhotoCameraMain",
     "UIUnlockRuleName": "PhotoCameraMain"
   },
@@ -220,7 +227,9 @@
     "Icon": "/Game/UI/Texture/Dynamic/Atlas/RougeLike/T_Rouge_knapsack.T_Rouge_knapsack",
     "Icon2": "/Game/UI/Texture/ExtraAtlas/Sprites_T_Rouge_knapsack",
     "Sequence": 150,
-    "ShowCondition": {},
+    "ShowCondition": [
+      3
+    ],
     "SystemUIName": "RougeBag",
     "UIUnlockRuleName": "RougeBag"
   },

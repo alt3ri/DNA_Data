@@ -29,10 +29,10 @@
     "NotOverLap": 1,
     "Count": 10,
     "RandomInfos": [
-      [
-        "UnitId = 6",
-        "Weight = 1"
-      ]
+      {
+        "UnitId": 6,
+        "Weight": 1
+      }
     ]
   },
   "4": {
@@ -55,10 +55,10 @@
     "NotOverLap": 1,
     "Count": 20,
     "RandomInfos": [
-      [
-        "UnitId = 6",
-        "Weight = 1"
-      ]
+      {
+        "UnitId": 6,
+        "Weight": 1
+      }
     ]
   },
   "6": {
@@ -68,10 +68,10 @@
     "NotOverLap": 1,
     "Count": 999,
     "RandomInfos": [
-      [
-        "UnitId = 6",
-        "Weight = 1"
-      ]
+      {
+        "UnitId": 6,
+        "Weight": 1
+      }
     ]
   },
   "8": {
@@ -81,11 +81,11 @@
     "NotOverLap": 1,
     "Count": 10,
     "RandomInfos": [
-      [
-        "UnitId = 39005",
-        "Weight = 1",
-        "UnitLevel = 1"
-      ]
+      {
+        "UnitId": 39005,
+        "Weight": 1,
+        "UnitLevel": 1
+      }
     ]
   },
   "9": {
@@ -116,10 +116,10 @@
     "NotOverLap": 1,
     "Count": 999,
     "RandomInfos": [
-      [
-        "UnitId = 6",
-        "Weight = 1"
-      ],
+      {
+        "UnitId": 6,
+        "Weight": 1
+      },
       {
         "UnitId": 24,
         "Weight": 3
@@ -133,11 +133,11 @@
     "NotOverLap": 1,
     "Count": 999,
     "RandomInfos": [
-      [
-        "UnitId = 39005",
-        "Weight = 1",
-        "UnitLevel = 1"
-      ]
+      {
+        "UnitId": 39005,
+        "Weight": 1,
+        "UnitLevel": 1
+      }
     ]
   },
   "105": {
@@ -166,10 +166,10 @@
     "NotOverLap": 1,
     "Count": 999,
     "RandomInfos": [
-      [
-        "UnitId = 6",
-        "Weight = 1"
-      ]
+      {
+        "UnitId": 6,
+        "Weight": 1
+      }
     ]
   },
   "108": {
@@ -179,10 +179,10 @@
     "NotOverLap": 1,
     "Count": 999,
     "RandomInfos": [
-      [
-        "UnitId = 32",
-        "Weight = 1"
-      ]
+      {
+        "UnitId": 32,
+        "Weight": 1
+      }
     ]
   },
   "109": {
@@ -192,10 +192,10 @@
     "NotOverLap": 1,
     "Count": 2,
     "RandomInfos": [
-      [
-        "UnitId = 32",
-        "Weight = 1"
-      ]
+      {
+        "UnitId": 32,
+        "Weight": 1
+      }
     ]
   },
   "110": {
@@ -218,10 +218,10 @@
     "NotOverLap": 1,
     "Count": 1,
     "RandomInfos": [
-      [
-        "UnitId = 49004",
-        "Weight = 1"
-      ]
+      {
+        "UnitId": 49004,
+        "Weight": 1
+      }
     ]
   },
   "10402": {
@@ -231,10 +231,10 @@
     "NotOverLap": 1,
     "Count": 10,
     "RandomInfos": [
-      [
-        "UnitId = 6",
-        "Weight = 1"
-      ]
+      {
+        "UnitId": 6,
+        "Weight": 1
+      }
     ]
   },
   "10403": {
@@ -281,10 +281,10 @@
     "NotOverLap": 1,
     "Count": 1,
     "RandomInfos": [
-      [
-        "UnitId = 49004",
-        "Weight = 1"
-      ]
+      {
+        "UnitId": 49004,
+        "Weight": 1
+      }
     ]
   },
   "7000001": {
@@ -294,26 +294,26 @@
     "RegionDataType": 5,
     "Count": 6,
     "RandomInfos": [
-      [
-        "UnitId = 6001001",
-        "Weight = 2",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6002001",
-        "Weight = 2",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6003001",
-        "Weight = 1",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6004001",
-        "Weight = 1",
-        "OutBattleBehaviorId = 1"
-      ]
+      {
+        "UnitId": 6001001,
+        "Weight": 2,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6002001,
+        "Weight": 2,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6003001,
+        "Weight": 1,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6004001,
+        "Weight": 1,
+        "OutBattleBehaviorId": 1
+      }
     ]
   },
   "7000002": {
@@ -323,21 +323,21 @@
     "RegionDataType": 5,
     "Count": 5,
     "RandomInfos": [
-      [
-        "UnitId = 6001001",
-        "Weight = 2",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6002001",
-        "Weight = 2",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6003001",
-        "Weight = 1",
-        "OutBattleBehaviorId = 1"
-      ]
+      {
+        "UnitId": 6001001,
+        "Weight": 2,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6002001,
+        "Weight": 2,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6003001,
+        "Weight": 1,
+        "OutBattleBehaviorId": 1
+      }
     ]
   },
   "7000003": {
@@ -347,26 +347,26 @@
     "RegionDataType": 5,
     "Count": 7,
     "RandomInfos": [
-      [
-        "UnitId = 6001001",
-        "Weight = 3",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6002001",
-        "Weight = 2",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6003001",
-        "Weight = 1",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6004001",
-        "Weight = 1",
-        "OutBattleBehaviorId = 1"
-      ]
+      {
+        "UnitId": 6001001,
+        "Weight": 3,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6002001,
+        "Weight": 2,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6003001,
+        "Weight": 1,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6004001,
+        "Weight": 1,
+        "OutBattleBehaviorId": 1
+      }
     ]
   },
   "7000004": {
@@ -376,26 +376,26 @@
     "RegionDataType": 5,
     "Count": 8,
     "RandomInfos": [
-      [
-        "UnitId = 6001001",
-        "Weight = 3",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6002001",
-        "Weight = 2",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6003001",
-        "Weight = 2",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6004001",
-        "Weight = 1",
-        "OutBattleBehaviorId = 1"
-      ]
+      {
+        "UnitId": 6001001,
+        "Weight": 3,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6002001,
+        "Weight": 2,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6003001,
+        "Weight": 2,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6004001,
+        "Weight": 1,
+        "OutBattleBehaviorId": 1
+      }
     ]
   },
   "7000005": {
@@ -405,21 +405,21 @@
     "RegionDataType": 5,
     "Count": 5,
     "RandomInfos": [
-      [
-        "UnitId = 6001001",
-        "Weight = 2",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6002001",
-        "Weight = 2",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6003001",
-        "Weight = 1",
-        "OutBattleBehaviorId = 1"
-      ]
+      {
+        "UnitId": 6001001,
+        "Weight": 2,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6002001,
+        "Weight": 2,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6003001,
+        "Weight": 1,
+        "OutBattleBehaviorId": 1
+      }
     ]
   },
   "7000006": {
@@ -429,10 +429,10 @@
     "RegionDataType": 5,
     "Count": 3,
     "RandomInfos": [
-      [
-        "UnitId = 20512",
-        "Weight = 1"
-      ],
+      {
+        "UnitId": 20512,
+        "Weight": 1
+      },
       {
         "UnitId": 20516,
         "Weight": 9
@@ -446,10 +446,10 @@
     "RegionDataType": 5,
     "Count": 3,
     "RandomInfos": [
-      [
-        "UnitId = 20517",
-        "Weight = 1"
-      ]
+      {
+        "UnitId": 20517,
+        "Weight": 1
+      }
     ]
   },
   "7001001": {
@@ -459,26 +459,26 @@
     "RegionDataType": 5,
     "Count": 8,
     "RandomInfos": [
-      [
-        "UnitId = 6001001",
-        "Weight = 3",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6002001",
-        "Weight = 2",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6003001",
-        "Weight = 2",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6004001",
-        "Weight = 1",
-        "OutBattleBehaviorId = 1"
-      ]
+      {
+        "UnitId": 6001001,
+        "Weight": 3,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6002001,
+        "Weight": 2,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6003001,
+        "Weight": 2,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6004001,
+        "Weight": 1,
+        "OutBattleBehaviorId": 1
+      }
     ]
   },
   "7001002": {
@@ -488,26 +488,26 @@
     "RegionDataType": 5,
     "Count": 14,
     "RandomInfos": [
-      [
-        "UnitId = 6001001",
-        "Weight = 3",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6002001",
-        "Weight = 2",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6003001",
-        "Weight = 1",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6004001",
-        "Weight = 1",
-        "OutBattleBehaviorId = 1"
-      ]
+      {
+        "UnitId": 6001001,
+        "Weight": 3,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6002001,
+        "Weight": 2,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6003001,
+        "Weight": 1,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6004001,
+        "Weight": 1,
+        "OutBattleBehaviorId": 1
+      }
     ]
   },
   "7001003": {
@@ -517,10 +517,10 @@
     "RegionDataType": 5,
     "Count": 2,
     "RandomInfos": [
-      [
-        "UnitId = 20517",
-        "Weight = 1"
-      ]
+      {
+        "UnitId": 20517,
+        "Weight": 1
+      }
     ]
   },
   "7002001": {
@@ -530,21 +530,21 @@
     "RegionDataType": 5,
     "Count": 8,
     "RandomInfos": [
-      [
-        "UnitId = 7001001",
-        "Weight = 3",
-        "OutBattleBehaviorId = 1"
-      ],
+      {
+        "UnitId": 7001001,
+        "Weight": 3,
+        "OutBattleBehaviorId": 1
+      },
       {
         "UnitId": 7002001,
         "Weight": 3,
         "OutBattleBehaviorId": 1
       },
-      [
-        "UnitId = 7003001",
-        "Weight = 2",
-        "OutBattleBehaviorId = 1"
-      ]
+      {
+        "UnitId": 7003001,
+        "Weight": 2,
+        "OutBattleBehaviorId": 1
+      }
     ]
   },
   "7002002": {
@@ -554,16 +554,16 @@
     "RegionDataType": 5,
     "Count": 10,
     "RandomInfos": [
-      [
-        "UnitId = 7001001",
-        "Weight = 3",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 7002001",
-        "Weight = 4",
-        "OutBattleBehaviorId = 1"
-      ],
+      {
+        "UnitId": 7001001,
+        "Weight": 3,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 7002001,
+        "Weight": 4,
+        "OutBattleBehaviorId": 1
+      },
       {
         "UnitId": 7003001,
         "Weight": 3,
@@ -578,26 +578,26 @@
     "RegionDataType": 5,
     "Count": 9,
     "RandomInfos": [
-      [
-        "UnitId = 7001001",
-        "Weight = 2",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 7002001",
-        "Weight = 4",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 7003001",
-        "Weight = 2",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 7004001",
-        "Weight = 1",
-        "OutBattleBehaviorId = 1"
-      ]
+      {
+        "UnitId": 7001001,
+        "Weight": 2,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 7002001,
+        "Weight": 4,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 7003001,
+        "Weight": 2,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 7004001,
+        "Weight": 1,
+        "OutBattleBehaviorId": 1
+      }
     ]
   },
   "7002004": {
@@ -622,11 +622,11 @@
         "Weight": 1,
         "OutBattleBehaviorId": 1
       },
-      [
-        "UnitId = 7004001",
-        "Weight = 1",
-        "OutBattleBehaviorId = 1"
-      ]
+      {
+        "UnitId": 7004001,
+        "Weight": 1,
+        "OutBattleBehaviorId": 1
+      }
     ]
   },
   "7002005": {
@@ -636,10 +636,10 @@
     "RegionDataType": 5,
     "Count": 3,
     "RandomInfos": [
-      [
-        "UnitId = 20517",
-        "Weight = 1"
-      ]
+      {
+        "UnitId": 20517,
+        "Weight": 1
+      }
     ]
   },
   "7010001": {
@@ -653,10 +653,10 @@
         "UnitId": 20514,
         "Weight": 2
       },
-      [
-        "UnitId = 20515",
-        "Weight = 1"
-      ],
+      {
+        "UnitId": 20515,
+        "Weight": 1
+      },
       {
         "UnitId": 20519,
         "Weight": 3
@@ -687,10 +687,10 @@
     "RegionDataType": 5,
     "Count": 1,
     "RandomInfos": [
-      [
-        "UnitId = 20512",
-        "Weight = 1"
-      ]
+      {
+        "UnitId": 20512,
+        "Weight": 1
+      }
     ]
   },
   "7011003": {
@@ -700,21 +700,21 @@
     "RegionDataType": 5,
     "Count": 10,
     "RandomInfos": [
-      [
-        "UnitId = 6001001",
-        "Weight = 2",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6002001",
-        "Weight = 2",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6003001",
-        "Weight = 1",
-        "OutBattleBehaviorId = 1"
-      ]
+      {
+        "UnitId": 6001001,
+        "Weight": 2,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6002001,
+        "Weight": 2,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6003001,
+        "Weight": 1,
+        "OutBattleBehaviorId": 1
+      }
     ]
   },
   "7011004": {
@@ -724,26 +724,26 @@
     "RegionDataType": 5,
     "Count": 14,
     "RandomInfos": [
-      [
-        "UnitId = 6001001",
-        "Weight = 3",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6002001",
-        "Weight = 2",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6003001",
-        "Weight = 1",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6004001",
-        "Weight = 1",
-        "OutBattleBehaviorId = 1"
-      ]
+      {
+        "UnitId": 6001001,
+        "Weight": 3,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6002001,
+        "Weight": 2,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6003001,
+        "Weight": 1,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6004001,
+        "Weight": 1,
+        "OutBattleBehaviorId": 1
+      }
     ]
   },
   "7011005": {
@@ -753,26 +753,26 @@
     "RegionDataType": 5,
     "Count": 7,
     "RandomInfos": [
-      [
-        "UnitId = 6001001",
-        "Weight = 3",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6002001",
-        "Weight = 2",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6003001",
-        "Weight = 1",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6004001",
-        "Weight = 1",
-        "OutBattleBehaviorId = 1"
-      ]
+      {
+        "UnitId": 6001001,
+        "Weight": 3,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6002001,
+        "Weight": 2,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6003001,
+        "Weight": 1,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6004001,
+        "Weight": 1,
+        "OutBattleBehaviorId": 1
+      }
     ]
   },
   "7011006": {
@@ -782,21 +782,21 @@
     "RegionDataType": 5,
     "Count": 6,
     "RandomInfos": [
-      [
-        "UnitId = 6001001",
-        "Weight = 2",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6002001",
-        "Weight = 3",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6003001",
-        "Weight = 1",
-        "OutBattleBehaviorId = 1"
-      ]
+      {
+        "UnitId": 6001001,
+        "Weight": 2,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6002001,
+        "Weight": 3,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6003001,
+        "Weight": 1,
+        "OutBattleBehaviorId": 1
+      }
     ]
   },
   "7011007": {
@@ -806,21 +806,21 @@
     "RegionDataType": 5,
     "Count": 3,
     "RandomInfos": [
-      [
-        "UnitId = 6001001",
-        "Weight = 1",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6002001",
-        "Weight = 1",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6003001",
-        "Weight = 1",
-        "OutBattleBehaviorId = 1"
-      ]
+      {
+        "UnitId": 6001001,
+        "Weight": 1,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6002001,
+        "Weight": 1,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6003001,
+        "Weight": 1,
+        "OutBattleBehaviorId": 1
+      }
     ]
   },
   "7012001": {
@@ -830,11 +830,11 @@
     "RegionDataType": 5,
     "Count": 36,
     "RandomInfos": [
-      [
-        "UnitId = 6001001",
-        "Weight = 12",
-        "OutBattleBehaviorId = 1"
-      ],
+      {
+        "UnitId": 6001001,
+        "Weight": 12,
+        "OutBattleBehaviorId": 1
+      },
       {
         "UnitId": 6002001,
         "Weight": 16,
@@ -845,11 +845,11 @@
         "Weight": 6,
         "OutBattleBehaviorId": 1
       },
-      [
-        "UnitId = 6004001",
-        "Weight = 2",
-        "OutBattleBehaviorId = 1"
-      ]
+      {
+        "UnitId": 6004001,
+        "Weight": 2,
+        "OutBattleBehaviorId": 1
+      }
     ]
   },
   "7012002": {
@@ -859,26 +859,26 @@
     "RegionDataType": 5,
     "Count": 30,
     "RandomInfos": [
-      [
-        "UnitId = 6001001",
-        "Weight = 12",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6002001",
-        "Weight = 8",
-        "OutBattleBehaviorId = 1"
-      ],
+      {
+        "UnitId": 6001001,
+        "Weight": 12,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6002001,
+        "Weight": 8,
+        "OutBattleBehaviorId": 1
+      },
       {
         "UnitId": 6003001,
         "Weight": 8,
         "OutBattleBehaviorId": 1
       },
-      [
-        "UnitId = 6004001",
-        "Weight = 2",
-        "OutBattleBehaviorId = 1"
-      ]
+      {
+        "UnitId": 6004001,
+        "Weight": 2,
+        "OutBattleBehaviorId": 1
+      }
     ]
   },
   "7013001": {
@@ -888,26 +888,26 @@
     "RegionDataType": 5,
     "Count": 12,
     "RandomInfos": [
-      [
-        "UnitId = 6001001",
-        "Weight = 3",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6002001",
-        "Weight = 1",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6003001",
-        "Weight = 1",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6004001",
-        "Weight = 1",
-        "OutBattleBehaviorId = 1"
-      ]
+      {
+        "UnitId": 6001001,
+        "Weight": 3,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6002001,
+        "Weight": 1,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6003001,
+        "Weight": 1,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6004001,
+        "Weight": 1,
+        "OutBattleBehaviorId": 1
+      }
     ]
   },
   "7013002": {
@@ -917,26 +917,26 @@
     "RegionDataType": 5,
     "Count": 12,
     "RandomInfos": [
-      [
-        "UnitId = 6001001",
-        "Weight = 2",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6002001",
-        "Weight = 2",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6003001",
-        "Weight = 1",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6004001",
-        "Weight = 1",
-        "OutBattleBehaviorId = 1"
-      ]
+      {
+        "UnitId": 6001001,
+        "Weight": 2,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6002001,
+        "Weight": 2,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6003001,
+        "Weight": 1,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6004001,
+        "Weight": 1,
+        "OutBattleBehaviorId": 1
+      }
     ]
   },
   "7013003": {
@@ -951,21 +951,21 @@
         "Weight": 6,
         "OutBattleBehaviorId": 1
       },
-      [
-        "UnitId = 6002001",
-        "Weight = 5",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6003001",
-        "Weight = 2",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6004001",
-        "Weight = 1",
-        "OutBattleBehaviorId = 1"
-      ]
+      {
+        "UnitId": 6002001,
+        "Weight": 5,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6003001,
+        "Weight": 2,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6004001,
+        "Weight": 1,
+        "OutBattleBehaviorId": 1
+      }
     ]
   },
   "7013004": {
@@ -975,26 +975,26 @@
     "RegionDataType": 5,
     "Count": 20,
     "RandomInfos": [
-      [
-        "UnitId = 6001001",
-        "Weight = 4",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6002001",
-        "Weight = 2",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6003001",
-        "Weight = 3",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6004001",
-        "Weight = 1",
-        "OutBattleBehaviorId = 1"
-      ]
+      {
+        "UnitId": 6001001,
+        "Weight": 4,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6002001,
+        "Weight": 2,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6003001,
+        "Weight": 3,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6004001,
+        "Weight": 1,
+        "OutBattleBehaviorId": 1
+      }
     ]
   },
   "7013005": {
@@ -1004,26 +1004,26 @@
     "RegionDataType": 5,
     "Count": 8,
     "RandomInfos": [
-      [
-        "UnitId = 6001001",
-        "Weight = 2",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6002001",
-        "Weight = 3",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6003001",
-        "Weight = 1",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6004001",
-        "Weight = 2",
-        "OutBattleBehaviorId = 1"
-      ]
+      {
+        "UnitId": 6001001,
+        "Weight": 2,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6002001,
+        "Weight": 3,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6003001,
+        "Weight": 1,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6004001,
+        "Weight": 2,
+        "OutBattleBehaviorId": 1
+      }
     ]
   },
   "7013008": {
@@ -1033,14 +1033,14 @@
     "RegionDataType": 5,
     "Count": 3,
     "RandomInfos": [
-      [
-        "UnitId = 20513",
-        "Weight = 4"
-      ],
-      [
-        "UnitId = 20514",
-        "Weight = 1"
-      ]
+      {
+        "UnitId": 20513,
+        "Weight": 4
+      },
+      {
+        "UnitId": 20514,
+        "Weight": 1
+      }
     ]
   },
   "7013009": {
@@ -1050,14 +1050,14 @@
     "RegionDataType": 5,
     "Count": 4,
     "RandomInfos": [
-      [
-        "UnitId = 20513",
-        "Weight = 4"
-      ],
-      [
-        "UnitId = 20514",
-        "Weight = 1"
-      ]
+      {
+        "UnitId": 20513,
+        "Weight": 4
+      },
+      {
+        "UnitId": 20514,
+        "Weight": 1
+      }
     ]
   },
   "7013010": {
@@ -1067,14 +1067,14 @@
     "RegionDataType": 5,
     "Count": 4,
     "RandomInfos": [
-      [
-        "UnitId = 20513",
-        "Weight = 4"
-      ],
-      [
-        "UnitId = 20514",
-        "Weight = 1"
-      ]
+      {
+        "UnitId": 20513,
+        "Weight": 4
+      },
+      {
+        "UnitId": 20514,
+        "Weight": 1
+      }
     ]
   },
   "7013011": {
@@ -1088,10 +1088,10 @@
         "UnitId": 20514,
         "Weight": 4
       },
-      [
-        "UnitId = 20515",
-        "Weight = 1"
-      ]
+      {
+        "UnitId": 20515,
+        "Weight": 1
+      }
     ]
   },
   "7020001": {
@@ -1101,21 +1101,21 @@
     "RegionDataType": 5,
     "Count": 4,
     "RandomInfos": [
-      [
-        "UnitId = 6001001",
-        "Weight = 2",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6002001",
-        "Weight = 1",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6003001",
-        "Weight = 1",
-        "OutBattleBehaviorId = 1"
-      ]
+      {
+        "UnitId": 6001001,
+        "Weight": 2,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6002001,
+        "Weight": 1,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6003001,
+        "Weight": 1,
+        "OutBattleBehaviorId": 1
+      }
     ]
   },
   "7020002": {
@@ -1125,26 +1125,26 @@
     "RegionDataType": 5,
     "Count": 8,
     "RandomInfos": [
-      [
-        "UnitId = 6001001",
-        "Weight = 3",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6002001",
-        "Weight = 2",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6003001",
-        "Weight = 2",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6004001",
-        "Weight = 1",
-        "OutBattleBehaviorId = 1"
-      ]
+      {
+        "UnitId": 6001001,
+        "Weight": 3,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6002001,
+        "Weight": 2,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6003001,
+        "Weight": 2,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6004001,
+        "Weight": 1,
+        "OutBattleBehaviorId": 1
+      }
     ]
   },
   "7020003": {
@@ -1154,21 +1154,22 @@
     "RegionDataType": 5,
     "Count": 4,
     "RandomInfos": [
-      [
-        "UnitId = 6001001",
-        "Weight = 2",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6002001",
-        "Weight = 1",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6004001",
-        "Weight = 1",
-        "OutBattleBehaviorId = 1"
-      ]
+      {
+        "UnitId": 6001001,
+        "Weight": 2,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6002001,
+        "Weight": 1,
+        "OutBattleBehaviorId": 1
+      },
+      null,
+      {
+        "UnitId": 6004001,
+        "Weight": 1,
+        "OutBattleBehaviorId": 1
+      }
     ]
   },
   "7020004": {
@@ -1178,21 +1179,22 @@
     "RegionDataType": 5,
     "Count": 4,
     "RandomInfos": [
-      [
-        "UnitId = 6001001",
-        "Weight = 2",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6002001",
-        "Weight = 1",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6004001",
-        "Weight = 1",
-        "OutBattleBehaviorId = 1"
-      ]
+      {
+        "UnitId": 6001001,
+        "Weight": 2,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6002001,
+        "Weight": 1,
+        "OutBattleBehaviorId": 1
+      },
+      null,
+      {
+        "UnitId": 6004001,
+        "Weight": 1,
+        "OutBattleBehaviorId": 1
+      }
     ]
   },
   "7020005": {
@@ -1215,26 +1217,26 @@
     "RegionDataType": 5,
     "Count": 7,
     "RandomInfos": [
-      [
-        "UnitId = 6001001",
-        "Weight = 3",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6002001",
-        "Weight = 2",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6003001",
-        "Weight = 1",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6004001",
-        "Weight = 1",
-        "OutBattleBehaviorId = 1"
-      ]
+      {
+        "UnitId": 6001001,
+        "Weight": 3,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6002001,
+        "Weight": 2,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6003001,
+        "Weight": 1,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6004001,
+        "Weight": 1,
+        "OutBattleBehaviorId": 1
+      }
     ]
   },
   "7030001": {
@@ -1244,26 +1246,26 @@
     "RegionDataType": 5,
     "Count": 8,
     "RandomInfos": [
-      [
-        "UnitId = 6001001",
-        "Weight = 2",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6002001",
-        "Weight = 3",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6003001",
-        "Weight = 2",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6004001",
-        "Weight = 1",
-        "OutBattleBehaviorId = 1"
-      ]
+      {
+        "UnitId": 6001001,
+        "Weight": 2,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6002001,
+        "Weight": 3,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6003001,
+        "Weight": 2,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6004001,
+        "Weight": 1,
+        "OutBattleBehaviorId": 1
+      }
     ]
   },
   "7030002": {
@@ -1273,26 +1275,26 @@
     "RegionDataType": 5,
     "Count": 8,
     "RandomInfos": [
-      [
-        "UnitId = 6001001",
-        "Weight = 3",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6002001",
-        "Weight = 4",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6003001",
-        "Weight = 2",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6004001",
-        "Weight = 1",
-        "OutBattleBehaviorId = 1"
-      ]
+      {
+        "UnitId": 6001001,
+        "Weight": 3,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6002001,
+        "Weight": 4,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6003001,
+        "Weight": 2,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6004001,
+        "Weight": 1,
+        "OutBattleBehaviorId": 1
+      }
     ]
   },
   "7030003": {
@@ -1302,26 +1304,26 @@
     "RegionDataType": 5,
     "Count": 26,
     "RandomInfos": [
-      [
-        "UnitId = 6001001",
-        "Weight = 12",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6002001",
-        "Weight = 8",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6003001",
-        "Weight = 4",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6004001",
-        "Weight = 2",
-        "OutBattleBehaviorId = 1"
-      ]
+      {
+        "UnitId": 6001001,
+        "Weight": 12,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6002001,
+        "Weight": 8,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6003001,
+        "Weight": 4,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6004001,
+        "Weight": 2,
+        "OutBattleBehaviorId": 1
+      }
     ]
   },
   "7030004": {
@@ -1331,11 +1333,11 @@
     "RegionDataType": 5,
     "Count": 3,
     "RandomInfos": [
-      [
-        "UnitId = 7001001",
-        "Weight = 2",
-        "OutBattleBehaviorId = 1"
-      ],
+      {
+        "UnitId": 7001001,
+        "Weight": 2,
+        "OutBattleBehaviorId": 1
+      },
       {
         "UnitId": 7002001,
         "Weight": 1,
@@ -1350,26 +1352,26 @@
     "RegionDataType": 5,
     "Count": 12,
     "RandomInfos": [
-      [
-        "UnitId = 6001001",
-        "Weight = 4",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6002001",
-        "Weight = 5",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6003001",
-        "Weight = 2",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6004001",
-        "Weight = 1",
-        "OutBattleBehaviorId = 1"
-      ]
+      {
+        "UnitId": 6001001,
+        "Weight": 4,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6002001,
+        "Weight": 5,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6003001,
+        "Weight": 2,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6004001,
+        "Weight": 1,
+        "OutBattleBehaviorId": 1
+      }
     ]
   },
   "7030006": {
@@ -1396,21 +1398,21 @@
     "RegionDataType": 5,
     "Count": 4,
     "RandomInfos": [
-      [
-        "UnitId = 6001001",
-        "Weight = 2",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6002001",
-        "Weight = 1",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6003001",
-        "Weight = 1",
-        "OutBattleBehaviorId = 1"
-      ]
+      {
+        "UnitId": 6001001,
+        "Weight": 2,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6002001,
+        "Weight": 1,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6003001,
+        "Weight": 1,
+        "OutBattleBehaviorId": 1
+      }
     ]
   },
   "7031001": {
@@ -1430,11 +1432,11 @@
         "Weight": 6,
         "OutBattleBehaviorId": 1
       },
-      [
-        "UnitId = 6003001",
-        "Weight = 3",
-        "OutBattleBehaviorId = 1"
-      ]
+      {
+        "UnitId": 6003001,
+        "Weight": 3,
+        "OutBattleBehaviorId": 1
+      }
     ]
   },
   "7031002": {
@@ -1444,21 +1446,21 @@
     "RegionDataType": 5,
     "Count": 9,
     "RandomInfos": [
-      [
-        "UnitId = 6001001",
-        "Weight = 3",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6002001",
-        "Weight = 5",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6003001",
-        "Weight = 1",
-        "OutBattleBehaviorId = 1"
-      ]
+      {
+        "UnitId": 6001001,
+        "Weight": 3,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6002001,
+        "Weight": 5,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6003001,
+        "Weight": 1,
+        "OutBattleBehaviorId": 1
+      }
     ]
   },
   "7031003": {
@@ -1478,11 +1480,11 @@
         "Weight": 7,
         "OutBattleBehaviorId": 1
       },
-      [
-        "UnitId = 6003001",
-        "Weight = 3",
-        "OutBattleBehaviorId = 1"
-      ]
+      {
+        "UnitId": 6003001,
+        "Weight": 3,
+        "OutBattleBehaviorId": 1
+      }
     ]
   },
   "7031004": {
@@ -1497,21 +1499,21 @@
         "Weight": 7,
         "OutBattleBehaviorId": 1
       },
-      [
-        "UnitId = 6002001",
-        "Weight = 8",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6003001",
-        "Weight = 4",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6004001",
-        "Weight = 1",
-        "OutBattleBehaviorId = 1"
-      ]
+      {
+        "UnitId": 6002001,
+        "Weight": 8,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6003001,
+        "Weight": 4,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6004001,
+        "Weight": 1,
+        "OutBattleBehaviorId": 1
+      }
     ]
   },
   "7031005": {
@@ -1521,21 +1523,21 @@
     "RegionDataType": 5,
     "Count": 3,
     "RandomInfos": [
-      [
-        "UnitId = 6001001",
-        "Weight = 1",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6002001",
-        "Weight = 1",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6003001",
-        "Weight = 1",
-        "OutBattleBehaviorId = 1"
-      ]
+      {
+        "UnitId": 6001001,
+        "Weight": 1,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6002001,
+        "Weight": 1,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6003001,
+        "Weight": 1,
+        "OutBattleBehaviorId": 1
+      }
     ]
   },
   "7031006": {
@@ -1545,21 +1547,21 @@
     "RegionDataType": 5,
     "Count": 6,
     "RandomInfos": [
-      [
-        "UnitId = 6001001",
-        "Weight = 2",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6002001",
-        "Weight = 3",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6003001",
-        "Weight = 1",
-        "OutBattleBehaviorId = 1"
-      ]
+      {
+        "UnitId": 6001001,
+        "Weight": 2,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6002001,
+        "Weight": 3,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6003001,
+        "Weight": 1,
+        "OutBattleBehaviorId": 1
+      }
     ]
   },
   "7031007": {
@@ -1569,16 +1571,16 @@
     "RegionDataType": 5,
     "Count": 5,
     "RandomInfos": [
-      [
-        "UnitId = 6001001",
-        "Weight = 1",
-        "OutBattleBehaviorId = 1"
-      ],
-      [
-        "UnitId = 6002001",
-        "Weight = 4",
-        "OutBattleBehaviorId = 1"
-      ]
+      {
+        "UnitId": 6001001,
+        "Weight": 1,
+        "OutBattleBehaviorId": 1
+      },
+      {
+        "UnitId": 6002001,
+        "Weight": 4,
+        "OutBattleBehaviorId": 1
+      }
     ]
   },
   "8000101": {
@@ -1603,10 +1605,10 @@
     "NotOverLap": 1,
     "Count": 7,
     "RandomInfos": [
-      [
-        "UnitId = 1003",
-        "Weight = 1"
-      ]
+      {
+        "UnitId": 1003,
+        "Weight": 1
+      }
     ]
   },
   "8000103": {
@@ -1617,10 +1619,10 @@
     "NotOverLap": 1,
     "Count": 3,
     "RandomInfos": [
-      [
-        "UnitId = 1002",
-        "Weight = 1"
-      ]
+      {
+        "UnitId": 1002,
+        "Weight": 1
+      }
     ]
   },
   "8000201": {
@@ -1649,10 +1651,10 @@
     "NotOverLap": 1,
     "Count": 4,
     "RandomInfos": [
-      [
-        "UnitId = 1007",
-        "Weight = 1"
-      ]
+      {
+        "UnitId": 1007,
+        "Weight": 1
+      }
     ]
   },
   "8000203": {
@@ -1663,10 +1665,10 @@
     "NotOverLap": 1,
     "Count": 2,
     "RandomInfos": [
-      [
-        "UnitId = 1006",
-        "Weight = 1"
-      ]
+      {
+        "UnitId": 1006,
+        "Weight": 1
+      }
     ]
   },
   "8000204": {
@@ -1677,10 +1679,10 @@
     "NotOverLap": 1,
     "Count": 2,
     "RandomInfos": [
-      [
-        "UnitId = 1002",
-        "Weight = 1"
-      ]
+      {
+        "UnitId": 1002,
+        "Weight": 1
+      }
     ]
   },
   "8000301": {
@@ -1691,10 +1693,10 @@
     "NotOverLap": 1,
     "Count": 5,
     "RandomInfos": [
-      [
-        "UnitId = 1007",
-        "Weight = 1"
-      ]
+      {
+        "UnitId": 1007,
+        "Weight": 1
+      }
     ]
   },
   "8000302": {
@@ -1705,10 +1707,10 @@
     "NotOverLap": 1,
     "Count": 4,
     "RandomInfos": [
-      [
-        "UnitId = 1006",
-        "Weight = 1"
-      ]
+      {
+        "UnitId": 1006,
+        "Weight": 1
+      }
     ]
   },
   "8000303": {
@@ -1719,10 +1721,10 @@
     "NotOverLap": 1,
     "Count": 3,
     "RandomInfos": [
-      [
-        "UnitId = 1003",
-        "Weight = 1"
-      ]
+      {
+        "UnitId": 1003,
+        "Weight": 1
+      }
     ]
   },
   "8000304": {
@@ -1733,10 +1735,10 @@
     "NotOverLap": 1,
     "Count": 10,
     "RandomInfos": [
-      [
-        "UnitId = 1007",
-        "Weight = 1"
-      ]
+      {
+        "UnitId": 1007,
+        "Weight": 1
+      }
     ]
   },
   "8000305": {
@@ -1747,10 +1749,10 @@
     "NotOverLap": 1,
     "Count": 7,
     "RandomInfos": [
-      [
-        "UnitId = 1006",
-        "Weight = 1"
-      ]
+      {
+        "UnitId": 1006,
+        "Weight": 1
+      }
     ]
   },
   "8010101": {
@@ -1761,10 +1763,10 @@
     "NotOverLap": 1,
     "Count": 8,
     "RandomInfos": [
-      [
-        "UnitId = 1007",
-        "Weight = 1"
-      ]
+      {
+        "UnitId": 1007,
+        "Weight": 1
+      }
     ]
   },
   "8010102": {
@@ -1775,18 +1777,18 @@
     "NotOverLap": 1,
     "Count": 10,
     "RandomInfos": [
-      [
-        "UnitId = 1016",
-        "Weight = 1"
-      ],
-      [
-        "UnitId = 1017",
-        "Weight = 2"
-      ],
-      [
-        "UnitId = 1018",
-        "Weight = 1"
-      ]
+      {
+        "UnitId": 1016,
+        "Weight": 1
+      },
+      {
+        "UnitId": 1017,
+        "Weight": 2
+      },
+      {
+        "UnitId": 1018,
+        "Weight": 1
+      }
     ]
   },
   "8010103": {
@@ -1797,10 +1799,10 @@
     "NotOverLap": 1,
     "Count": 15,
     "RandomInfos": [
-      [
-        "UnitId = 1009",
-        "Weight = 1"
-      ]
+      {
+        "UnitId": 1009,
+        "Weight": 1
+      }
     ]
   },
   "8010201": {
@@ -1811,18 +1813,18 @@
     "NotOverLap": 1,
     "Count": 6,
     "RandomInfos": [
-      [
-        "UnitId = 1016",
-        "Weight = 1"
-      ],
-      [
-        "UnitId = 1017",
-        "Weight = 2"
-      ],
-      [
-        "UnitId = 1018",
-        "Weight = 1"
-      ]
+      {
+        "UnitId": 1016,
+        "Weight": 1
+      },
+      {
+        "UnitId": 1017,
+        "Weight": 2
+      },
+      {
+        "UnitId": 1018,
+        "Weight": 1
+      }
     ]
   },
   "8010202": {
@@ -1833,10 +1835,10 @@
     "NotOverLap": 1,
     "Count": 8,
     "RandomInfos": [
-      [
-        "UnitId = 1008",
-        "Weight = 1"
-      ]
+      {
+        "UnitId": 1008,
+        "Weight": 1
+      }
     ]
   },
   "8010301": {
@@ -1847,18 +1849,18 @@
     "NotOverLap": 1,
     "Count": 3,
     "RandomInfos": [
-      [
-        "UnitId = 1016",
-        "Weight = 1"
-      ],
-      [
-        "UnitId = 1017",
-        "Weight = 2"
-      ],
-      [
-        "UnitId = 1018",
-        "Weight = 1"
-      ]
+      {
+        "UnitId": 1016,
+        "Weight": 1
+      },
+      {
+        "UnitId": 1017,
+        "Weight": 2
+      },
+      {
+        "UnitId": 1018,
+        "Weight": 1
+      }
     ]
   },
   "8010302": {
@@ -1869,10 +1871,10 @@
     "NotOverLap": 1,
     "Count": 4,
     "RandomInfos": [
-      [
-        "UnitId = 1008",
-        "Weight = 1"
-      ]
+      {
+        "UnitId": 1008,
+        "Weight": 1
+      }
     ]
   },
   "8010401": {
@@ -1883,18 +1885,18 @@
     "NotOverLap": 1,
     "Count": 6,
     "RandomInfos": [
-      [
-        "UnitId = 1016",
-        "Weight = 1"
-      ],
-      [
-        "UnitId = 1017",
-        "Weight = 2"
-      ],
-      [
-        "UnitId = 1018",
-        "Weight = 1"
-      ]
+      {
+        "UnitId": 1016,
+        "Weight": 1
+      },
+      {
+        "UnitId": 1017,
+        "Weight": 2
+      },
+      {
+        "UnitId": 1018,
+        "Weight": 1
+      }
     ]
   },
   "8010501": {
@@ -1905,10 +1907,10 @@
     "NotOverLap": 1,
     "Count": 7,
     "RandomInfos": [
-      [
-        "UnitId = 1008",
-        "Weight = 1"
-      ]
+      {
+        "UnitId": 1008,
+        "Weight": 1
+      }
     ]
   },
   "8010601": {
@@ -1919,10 +1921,10 @@
     "NotOverLap": 1,
     "Count": 6,
     "RandomInfos": [
-      [
-        "UnitId = 1010",
-        "Weight = 1"
-      ]
+      {
+        "UnitId": 1010,
+        "Weight": 1
+      }
     ]
   },
   "8010602": {
@@ -1933,10 +1935,10 @@
     "NotOverLap": 1,
     "Count": 6,
     "RandomInfos": [
-      [
-        "UnitId = 1006",
-        "Weight = 1"
-      ]
+      {
+        "UnitId": 1006,
+        "Weight": 1
+      }
     ]
   },
   "8010603": {
@@ -1947,10 +1949,10 @@
     "NotOverLap": 1,
     "Count": 20,
     "RandomInfos": [
-      [
-        "UnitId = 1009",
-        "Weight = 1"
-      ]
+      {
+        "UnitId": 1009,
+        "Weight": 1
+      }
     ]
   },
   "8010604": {
@@ -1961,10 +1963,10 @@
     "NotOverLap": 1,
     "Count": 12,
     "RandomInfos": [
-      [
-        "UnitId = 1008",
-        "Weight = 1"
-      ]
+      {
+        "UnitId": 1008,
+        "Weight": 1
+      }
     ]
   },
   "8010701": {
@@ -1975,10 +1977,10 @@
     "NotOverLap": 1,
     "Count": 5,
     "RandomInfos": [
-      [
-        "UnitId = 1010",
-        "Weight = 1"
-      ]
+      {
+        "UnitId": 1010,
+        "Weight": 1
+      }
     ]
   },
   "8010702": {
@@ -1989,10 +1991,10 @@
     "NotOverLap": 1,
     "Count": 6,
     "RandomInfos": [
-      [
-        "UnitId = 1007",
-        "Weight = 1"
-      ]
+      {
+        "UnitId": 1007,
+        "Weight": 1
+      }
     ]
   },
   "8010801": {
@@ -2003,10 +2005,10 @@
     "NotOverLap": 1,
     "Count": 16,
     "RandomInfos": [
-      [
-        "UnitId = 1012",
-        "Weight = 1"
-      ]
+      {
+        "UnitId": 1012,
+        "Weight": 1
+      }
     ]
   },
   "8010901": {
@@ -2017,10 +2019,10 @@
     "NotOverLap": 1,
     "Count": 7,
     "RandomInfos": [
-      [
-        "UnitId = 1012",
-        "Weight = 1"
-      ]
+      {
+        "UnitId": 1012,
+        "Weight": 1
+      }
     ]
   },
   "9010101": {
@@ -2031,18 +2033,18 @@
     "NotOverLap": 1,
     "Count": 2,
     "RandomInfos": [
-      [
-        "UnitId = 405",
-        "Weight = 2"
-      ],
-      [
-        "UnitId = 491",
-        "Weight = 1"
-      ],
-      [
-        "UnitId = 492",
-        "Weight = 1"
-      ]
+      {
+        "UnitId": 405,
+        "Weight": 2
+      },
+      {
+        "UnitId": 491,
+        "Weight": 1
+      },
+      {
+        "UnitId": 492,
+        "Weight": 1
+      }
     ]
   },
   "9010201": {
@@ -2053,18 +2055,18 @@
     "NotOverLap": 1,
     "Count": 2,
     "RandomInfos": [
-      [
-        "UnitId = 406",
-        "Weight = 2"
-      ],
-      [
-        "UnitId = 491",
-        "Weight = 1"
-      ],
-      [
-        "UnitId = 492",
-        "Weight = 1"
-      ]
+      {
+        "UnitId": 406,
+        "Weight": 2
+      },
+      {
+        "UnitId": 491,
+        "Weight": 1
+      },
+      {
+        "UnitId": 492,
+        "Weight": 1
+      }
     ]
   },
   "9010301": {
@@ -2075,18 +2077,18 @@
     "NotOverLap": 1,
     "Count": 2,
     "RandomInfos": [
-      [
-        "UnitId = 406",
-        "Weight = 2"
-      ],
-      [
-        "UnitId = 491",
-        "Weight = 1"
-      ],
-      [
-        "UnitId = 492",
-        "Weight = 1"
-      ]
+      {
+        "UnitId": 406,
+        "Weight": 2
+      },
+      {
+        "UnitId": 491,
+        "Weight": 1
+      },
+      {
+        "UnitId": 492,
+        "Weight": 1
+      }
     ]
   },
   "9020101": {
@@ -2097,18 +2099,18 @@
     "NotOverLap": 1,
     "Count": 2,
     "RandomInfos": [
-      [
-        "UnitId = 402",
-        "Weight = 2"
-      ],
-      [
-        "UnitId = 491",
-        "Weight = 1"
-      ],
-      [
-        "UnitId = 492",
-        "Weight = 1"
-      ]
+      {
+        "UnitId": 402,
+        "Weight": 2
+      },
+      {
+        "UnitId": 491,
+        "Weight": 1
+      },
+      {
+        "UnitId": 492,
+        "Weight": 1
+      }
     ]
   },
   "9020201": {
@@ -2119,18 +2121,18 @@
     "NotOverLap": 1,
     "Count": 2,
     "RandomInfos": [
-      [
-        "UnitId = 402",
-        "Weight = 2"
-      ],
-      [
-        "UnitId = 491",
-        "Weight = 1"
-      ],
-      [
-        "UnitId = 492",
-        "Weight = 1"
-      ]
+      {
+        "UnitId": 402,
+        "Weight": 2
+      },
+      {
+        "UnitId": 491,
+        "Weight": 1
+      },
+      {
+        "UnitId": 492,
+        "Weight": 1
+      }
     ]
   },
   "9020301": {
@@ -2141,18 +2143,18 @@
     "NotOverLap": 1,
     "Count": 2,
     "RandomInfos": [
-      [
-        "UnitId = 405",
-        "Weight = 2"
-      ],
-      [
-        "UnitId = 491",
-        "Weight = 1"
-      ],
-      [
-        "UnitId = 492",
-        "Weight = 1"
-      ]
+      {
+        "UnitId": 405,
+        "Weight": 2
+      },
+      {
+        "UnitId": 491,
+        "Weight": 1
+      },
+      {
+        "UnitId": 492,
+        "Weight": 1
+      }
     ]
   },
   "9020401": {
@@ -2163,18 +2165,18 @@
     "NotOverLap": 1,
     "Count": 2,
     "RandomInfos": [
-      [
-        "UnitId = 404",
-        "Weight = 2"
-      ],
-      [
-        "UnitId = 491",
-        "Weight = 1"
-      ],
-      [
-        "UnitId = 492",
-        "Weight = 1"
-      ]
+      {
+        "UnitId": 404,
+        "Weight": 2
+      },
+      {
+        "UnitId": 491,
+        "Weight": 1
+      },
+      {
+        "UnitId": 492,
+        "Weight": 1
+      }
     ]
   },
   "9020501": {
@@ -2185,18 +2187,18 @@
     "NotOverLap": 1,
     "Count": 2,
     "RandomInfos": [
-      [
-        "UnitId = 404",
-        "Weight = 2"
-      ],
-      [
-        "UnitId = 491",
-        "Weight = 1"
-      ],
-      [
-        "UnitId = 492",
-        "Weight = 1"
-      ]
+      {
+        "UnitId": 404,
+        "Weight": 2
+      },
+      {
+        "UnitId": 491,
+        "Weight": 1
+      },
+      {
+        "UnitId": 492,
+        "Weight": 1
+      }
     ]
   },
   "9020601": {
@@ -2207,18 +2209,18 @@
     "NotOverLap": 1,
     "Count": 2,
     "RandomInfos": [
-      [
-        "UnitId = 403",
-        "Weight = 2"
-      ],
-      [
-        "UnitId = 491",
-        "Weight = 1"
-      ],
-      [
-        "UnitId = 492",
-        "Weight = 1"
-      ]
+      {
+        "UnitId": 403,
+        "Weight": 2
+      },
+      {
+        "UnitId": 491,
+        "Weight": 1
+      },
+      {
+        "UnitId": 492,
+        "Weight": 1
+      }
     ]
   },
   "9020701": {
@@ -2229,18 +2231,18 @@
     "NotOverLap": 1,
     "Count": 2,
     "RandomInfos": [
-      [
-        "UnitId = 403",
-        "Weight = 2"
-      ],
-      [
-        "UnitId = 491",
-        "Weight = 1"
-      ],
-      [
-        "UnitId = 492",
-        "Weight = 1"
-      ]
+      {
+        "UnitId": 403,
+        "Weight": 2
+      },
+      {
+        "UnitId": 491,
+        "Weight": 1
+      },
+      {
+        "UnitId": 492,
+        "Weight": 1
+      }
     ]
   },
   "9020801": {
@@ -2251,18 +2253,18 @@
     "NotOverLap": 1,
     "Count": 2,
     "RandomInfos": [
-      [
-        "UnitId = 401",
-        "Weight = 2"
-      ],
-      [
-        "UnitId = 491",
-        "Weight = 1"
-      ],
-      [
-        "UnitId = 492",
-        "Weight = 1"
-      ]
+      {
+        "UnitId": 401,
+        "Weight": 2
+      },
+      {
+        "UnitId": 491,
+        "Weight": 1
+      },
+      {
+        "UnitId": 492,
+        "Weight": 1
+      }
     ]
   },
   "9020901": {
@@ -2273,18 +2275,18 @@
     "NotOverLap": 1,
     "Count": 2,
     "RandomInfos": [
-      [
-        "UnitId = 401",
-        "Weight = 2"
-      ],
-      [
-        "UnitId = 491",
-        "Weight = 1"
-      ],
-      [
-        "UnitId = 492",
-        "Weight = 1"
-      ]
+      {
+        "UnitId": 401,
+        "Weight": 2
+      },
+      {
+        "UnitId": 491,
+        "Weight": 1
+      },
+      {
+        "UnitId": 492,
+        "Weight": 1
+      }
     ]
   },
   "9021001": {
@@ -2295,18 +2297,18 @@
     "NotOverLap": 1,
     "Count": 2,
     "RandomInfos": [
-      [
-        "UnitId = 401",
-        "Weight = 2"
-      ],
-      [
-        "UnitId = 491",
-        "Weight = 1"
-      ],
-      [
-        "UnitId = 492",
-        "Weight = 1"
-      ]
+      {
+        "UnitId": 401,
+        "Weight": 2
+      },
+      {
+        "UnitId": 491,
+        "Weight": 1
+      },
+      {
+        "UnitId": 492,
+        "Weight": 1
+      }
     ]
   },
   "9030101": {
@@ -2317,18 +2319,18 @@
     "NotOverLap": 1,
     "Count": 2,
     "RandomInfos": [
-      [
-        "UnitId = 403",
-        "Weight = 2"
-      ],
-      [
-        "UnitId = 491",
-        "Weight = 1"
-      ],
-      [
-        "UnitId = 492",
-        "Weight = 1"
-      ]
+      {
+        "UnitId": 403,
+        "Weight": 2
+      },
+      {
+        "UnitId": 491,
+        "Weight": 1
+      },
+      {
+        "UnitId": 492,
+        "Weight": 1
+      }
     ]
   },
   "9030201": {
@@ -2339,18 +2341,18 @@
     "NotOverLap": 1,
     "Count": 2,
     "RandomInfos": [
-      [
-        "UnitId = 401",
-        "Weight = 2"
-      ],
-      [
-        "UnitId = 491",
-        "Weight = 1"
-      ],
-      [
-        "UnitId = 492",
-        "Weight = 1"
-      ]
+      {
+        "UnitId": 401,
+        "Weight": 2
+      },
+      {
+        "UnitId": 491,
+        "Weight": 1
+      },
+      {
+        "UnitId": 492,
+        "Weight": 1
+      }
     ]
   }
 }

@@ -3,14 +3,18 @@
     "InterfaceJumpId": 1,
     "JumpType": "MereJump",
     "JumpParameter1": "AchievementSystem",
-    "PortalUnlockCondition": {},
+    "PortalUnlockCondition": [
+      4070
+    ],
     "PortalUnlockTips": "UI_Locked_Des_Achievement"
   },
   {
     "InterfaceJumpId": 2,
     "JumpType": "MereJump",
     "JumpParameter1": "StyleOfPlay",
-    "PortalUnlockCondition": {},
+    "PortalUnlockCondition": [
+      4170
+    ],
     "PortalUnlockTips": "UI_Locked_Des_Rouge"
   },
   {
@@ -18,35 +22,45 @@
     "JumpType": "QuestChain",
     "JumpParameter1": "TaskPanel",
     "JumpParameter3": 100103,
-    "PortalUnlockCondition": {},
+    "PortalUnlockCondition": [
+      100102
+    ],
     "PortalUnlockTips": "UI_Locked_Des_Quest"
   },
   {
     "InterfaceJumpId": 4,
     "JumpType": "MereJump",
     "JumpParameter1": "ArmoryMain",
-    "PortalUnlockCondition": {},
+    "PortalUnlockCondition": [
+      4020
+    ],
     "PortalUnlockTips": "UI_Locked_Des_Armory"
   },
   {
     "InterfaceJumpId": 5,
     "JumpType": "MereJump",
     "JumpParameter1": "GachaMain",
-    "PortalUnlockCondition": {},
+    "PortalUnlockCondition": [
+      4040
+    ],
     "PortalUnlockTips": "System_Des_Gacha"
   },
   {
     "InterfaceJumpId": 6,
     "JumpType": "QuestChain",
     "JumpParameter1": "TaskPanel",
-    "PortalUnlockCondition": {},
+    "PortalUnlockCondition": [
+      100103
+    ],
     "PortalUnlockTips": "UI_Locked_Des_Quest"
   },
   {
     "InterfaceJumpId": 7,
     "JumpType": "MereJump",
     "JumpParameter1": "StyleOfPlay",
-    "PortalUnlockCondition": {},
+    "PortalUnlockCondition": [
+      4110
+    ],
     "PortalUnlockTips": "UI_Locked_Des_Play"
   },
   {
@@ -54,7 +68,9 @@
     "JumpType": "QuestChain",
     "JumpParameter1": "TaskPanel",
     "JumpParameter3": 200101,
-    "PortalUnlockCondition": {},
+    "PortalUnlockCondition": [
+      100201
+    ],
     "PortalUnlockTips": "UI_Locked_Des_Quest"
   },
   {
@@ -62,7 +78,9 @@
     "JumpType": "QuestChain",
     "JumpParameter1": "TaskPanel",
     "JumpParameter3": 100202,
-    "PortalUnlockCondition": {},
+    "PortalUnlockCondition": [
+      200101
+    ],
     "PortalUnlockTips": "UI_Locked_Des_Quest"
   },
   {
@@ -70,7 +88,9 @@
     "JumpType": "QuestChain",
     "JumpParameter1": "TaskPanel",
     "JumpParameter3": 100204,
-    "PortalUnlockCondition": {},
+    "PortalUnlockCondition": [
+      100203
+    ],
     "PortalUnlockTips": "UI_Locked_Des_Quest"
   },
   {
@@ -78,14 +98,18 @@
     "JumpType": "QuestChain",
     "JumpParameter1": "TaskPanel",
     "JumpParameter3": 100208,
-    "PortalUnlockCondition": {},
+    "PortalUnlockCondition": [
+      100207
+    ],
     "PortalUnlockTips": "UI_Locked_Des_Quest"
   },
   {
     "InterfaceJumpId": 12,
     "JumpType": "MereJump",
     "JumpParameter1": "StyleOfPlay",
-    "PortalUnlockCondition": {},
+    "PortalUnlockCondition": [
+      4120
+    ],
     "PortalUnlockTips": "UI_Locked_Des_HardBoss"
   }
 ]

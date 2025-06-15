@@ -2,28 +2,54 @@
   "1": {
     "EliteId": 1,
     "TeamType": 1,
-    "EliteArgs": {},
+    "EliteArgs": [
+      1500,
+      500,
+      7,
+      1
+    ],
     "Offsets": [
       {
-        "OffsetXY": {}
+        "OffsetXY": [
+          200,
+          300
+        ]
       },
       {
-        "OffsetXY": {}
+        "OffsetXY": [
+          -200,
+          300
+        ]
       },
       {
-        "OffsetXY": {}
+        "OffsetXY": [
+          400,
+          150
+        ]
       },
       {
-        "OffsetXY": {}
+        "OffsetXY": [
+          -400,
+          150
+        ]
       },
       {
-        "OffsetXY": {}
+        "OffsetXY": [
+          600,
+          450
+        ]
       },
       {
-        "OffsetXY": {}
+        "OffsetXY": [
+          -600,
+          450
+        ]
       },
       {
-        "OffsetXY": {}
+        "OffsetXY": [
+          0,
+          400
+        ]
       }
     ]
   },
@@ -31,7 +57,10 @@
     "EliteId": 10101,
     "Offsets": [
       {
-        "OffsetXY": {}
+        "OffsetXY": [
+          150,
+          150
+        ]
       }
     ]
   },
@@ -39,35 +68,29 @@
     "EliteId": 210101,
     "Offsets": [
       {
-        "OffsetXY": {}
+        "OffsetXY": [
+          260,
+          0
+        ]
       }
     ],
-    "LocationCheckParam": [
-      {
-        "HalfHeight": 90
-      },
-      {
-        "Radius": 45
-      },
-      {
-        "StepHeight": 50
-      },
-      {
-        "WalkableFloorAngle": 60
-      },
-      {
-        "MaxLength": 200
-      },
-      {
-        "MaxWidth": 100
-      }
-    ]
+    "LocationCheckParam": {
+      "HalfHeight": 90,
+      "Radius": 45,
+      "StepHeight": 50,
+      "WalkableFloorAngle": 60,
+      "MaxLength": 200,
+      "MaxWidth": 100
+    }
   },
   "230101": {
     "EliteId": 230101,
     "Offsets": [
       {
-        "OffsetXY": {}
+        "OffsetXY": [
+          0,
+          0
+        ]
       }
     ]
   },
@@ -75,118 +98,121 @@
     "EliteId": 230102,
     "Offsets": [
       {
-        "OffsetXY": {}
+        "OffsetXY": [
+          200,
+          -300
+        ]
       },
       {
-        "OffsetXY": {}
+        "OffsetXY": [
+          550,
+          50
+        ]
       },
       {
-        "OffsetXY": {}
+        "OffsetXY": [
+          700,
+          -300
+        ]
       },
       {
-        "OffsetXY": {}
+        "OffsetXY": [
+          1000,
+          50
+        ]
       }
     ],
-    "LocationCheckParam": [
-      {
-        "HalfHeight": 90
-      },
-      {
-        "Radius": 45
-      },
-      {
-        "StepHeight": 50
-      },
-      {
-        "WalkableFloorAngle": 60
-      },
-      {
-        "MaxLength": 200
-      },
-      {
-        "MaxWidth": 100
-      }
-    ]
+    "LocationCheckParam": {
+      "HalfHeight": 90,
+      "Radius": 45,
+      "StepHeight": 50,
+      "WalkableFloorAngle": 60,
+      "MaxLength": 200,
+      "MaxWidth": 100
+    }
   },
   "230103": {
     "EliteId": 230103,
     "Offsets": [
       {
-        "OffsetXY": {}
+        "OffsetXY": [
+          300,
+          -50
+        ]
       },
       {
-        "OffsetXY": {}
+        "OffsetXY": [
+          400,
+          300
+        ]
       },
       {
-        "OffsetXY": {}
+        "OffsetXY": [
+          800,
+          -100
+        ]
       },
       {
-        "OffsetXY": {}
+        "OffsetXY": [
+          1150,
+          300
+        ]
       }
     ],
-    "LocationCheckParam": [
-      {
-        "HalfHeight": 90
-      },
-      {
-        "Radius": 45
-      },
-      {
-        "StepHeight": 50
-      },
-      {
-        "WalkableFloorAngle": 60
-      },
-      {
-        "MaxLength": 200
-      },
-      {
-        "MaxWidth": 100
-      }
-    ]
+    "LocationCheckParam": {
+      "HalfHeight": 90,
+      "Radius": 45,
+      "StepHeight": 50,
+      "WalkableFloorAngle": 60,
+      "MaxLength": 200,
+      "MaxWidth": 100
+    }
   },
   "230104": {
     "EliteId": 230104,
     "Offsets": [
       {
-        "OffsetXY": {}
+        "OffsetXY": [
+          150,
+          350
+        ]
       },
       {
-        "OffsetXY": {}
+        "OffsetXY": [
+          450,
+          -400
+        ]
       },
       {
-        "OffsetXY": {}
+        "OffsetXY": [
+          800,
+          350
+        ]
       },
       {
-        "OffsetXY": {}
+        "OffsetXY": [
+          1050,
+          -300
+        ]
       }
     ],
-    "LocationCheckParam": [
-      {
-        "HalfHeight": 90
-      },
-      {
-        "Radius": 45
-      },
-      {
-        "StepHeight": 50
-      },
-      {
-        "WalkableFloorAngle": 60
-      },
-      {
-        "MaxLength": 200
-      },
-      {
-        "MaxWidth": 100
-      }
-    ]
+    "LocationCheckParam": {
+      "HalfHeight": 90,
+      "Radius": 45,
+      "StepHeight": 50,
+      "WalkableFloorAngle": 60,
+      "MaxLength": 200,
+      "MaxWidth": 100
+    }
   },
   "410101": {
     "EliteId": 410101,
     "Offsets": [
       {
-        "OffsetXY": {}
+        "OffsetXY": [
+          -50,
+          0
+        ]
       }
     ]
   },
@@ -194,7 +220,10 @@
     "EliteId": 430101,
     "Offsets": [
       {
-        "OffsetXY": {}
+        "OffsetXY": [
+          500,
+          0
+        ]
       }
     ]
   },
@@ -202,7 +231,10 @@
     "EliteId": 510101,
     "Offsets": [
       {
-        "OffsetXY": {}
+        "OffsetXY": [
+          0,
+          95
+        ]
       }
     ]
   },
@@ -211,49 +243,42 @@
   },
   "600501": {
     "EliteId": 600501,
-    "SummonPresetShape": [
-      {
-        "PreFormationType": "Circle"
-      },
-      {
-        "Radius": 200
-      },
-      {
-        "Interval": 30
-      },
-      {
-        "Random": 1
-      }
-    ]
+    "SummonPresetShape": {
+      "PreFormationType": "Circle",
+      "Radius": 200,
+      "Interval": 30,
+      "Random": 1
+    }
   },
   "600502": {
     "EliteId": 600502,
-    "SummonPresetShape": [
-      {
-        "PreFormationType": "Circle"
-      },
-      {
-        "Radius": 200
-      },
-      {
-        "Interval": 30
-      },
-      {
-        "Random": 1
-      }
-    ]
+    "SummonPresetShape": {
+      "PreFormationType": "Circle",
+      "Radius": 200,
+      "Interval": 30,
+      "Random": 1
+    }
   },
   "601301": {
     "EliteId": 601301,
     "Offsets": [
       {
-        "OffsetXY": {}
+        "OffsetXY": [
+          300,
+          0
+        ]
       },
       {
-        "OffsetXY": {}
+        "OffsetXY": [
+          0,
+          300
+        ]
       },
       {
-        "OffsetXY": {}
+        "OffsetXY": [
+          0,
+          -300
+        ]
       }
     ]
   },
@@ -261,39 +286,56 @@
     "EliteId": 700201,
     "Offsets": [
       {
-        "OffsetXY": {}
+        "OffsetXY": [
+          -200,
+          200
+        ]
       }
     ]
   },
   "700202": {
     "EliteId": 700202,
     "Offsets": [
-      [
-        "OffsetXY = T.RT_5"
-      ]
+      {
+        "OffsetXY": [
+          200,
+          0
+        ]
+      }
     ]
   },
   "850061": {
     "EliteId": 850061,
     "Offsets": [
-      [
-        "OffsetXY = T.RT_8"
-      ]
+      {
+        "OffsetXY": [
+          0,
+          0,
+          0
+        ]
+      }
     ]
   },
   "850081": {
     "EliteId": 850081,
     "Offsets": [
-      [
-        "OffsetXY = T.RT_8"
-      ]
+      {
+        "OffsetXY": [
+          0,
+          0,
+          0
+        ]
+      }
     ]
   },
   "850401": {
     "EliteId": 850401,
     "Offsets": [
       {
-        "OffsetXY": {}
+        "OffsetXY": [
+          0,
+          -500
+        ]
       }
     ]
   },
@@ -301,7 +343,10 @@
     "EliteId": 850402,
     "Offsets": [
       {
-        "OffsetXY": {}
+        "OffsetXY": [
+          0,
+          500
+        ]
       }
     ]
   },
@@ -309,7 +354,10 @@
     "EliteId": 850403,
     "Offsets": [
       {
-        "OffsetXY": {}
+        "OffsetXY": [
+          0,
+          -1000
+        ]
       }
     ]
   },
@@ -317,7 +365,10 @@
     "EliteId": 850404,
     "Offsets": [
       {
-        "OffsetXY": {}
+        "OffsetXY": [
+          0,
+          1000
+        ]
       }
     ]
   },
@@ -325,10 +376,16 @@
     "EliteId": 850501,
     "Offsets": [
       {
-        "OffsetXY": {}
+        "OffsetXY": [
+          0,
+          450
+        ]
       },
       {
-        "OffsetXY": {}
+        "OffsetXY": [
+          0,
+          -450
+        ]
       }
     ]
   },
@@ -336,54 +393,60 @@
     "EliteId": 850502,
     "Offsets": [
       {
-        "OffsetXY": {}
+        "OffsetXY": [
+          450,
+          600
+        ]
       },
       {
-        "OffsetXY": {}
+        "OffsetXY": [
+          450,
+          -600
+        ]
       },
       {
-        "OffsetXY": {}
+        "OffsetXY": [
+          -450,
+          600
+        ]
       },
       {
-        "OffsetXY": {}
+        "OffsetXY": [
+          -450,
+          -600
+        ]
       }
     ]
   },
   "900301": {
     "EliteId": 900301,
     "Offsets": [
-      [
-        "OffsetXY = T.RT_5"
-      ]
+      {
+        "OffsetXY": [
+          200,
+          0
+        ]
+      }
     ]
   },
   "900601": {
     "EliteId": 900601,
     "Offsets": [
       {
-        "OffsetXY": {}
+        "OffsetXY": [
+          20,
+          0
+        ]
       }
     ],
-    "LocationCheckParam": [
-      {
-        "HalfHeight": 90
-      },
-      {
-        "Radius": 45
-      },
-      {
-        "StepHeight": 50
-      },
-      {
-        "WalkableFloorAngle": 60
-      },
-      {
-        "MaxLength": 200
-      },
-      {
-        "MaxWidth": 100
-      }
-    ]
+    "LocationCheckParam": {
+      "HalfHeight": 90,
+      "Radius": 45,
+      "StepHeight": 50,
+      "WalkableFloorAngle": 60,
+      "MaxLength": 200,
+      "MaxWidth": 100
+    }
   },
   "900602": {
     "EliteId": 900602,
@@ -393,26 +456,14 @@
       "Interval": 72,
       "Random": 0
     },
-    "LocationCheckParam": [
-      {
-        "HalfHeight": 90
-      },
-      {
-        "Radius": 45
-      },
-      {
-        "StepHeight": 50
-      },
-      {
-        "WalkableFloorAngle": 60
-      },
-      {
-        "MaxLength": 200
-      },
-      {
-        "MaxWidth": 100
-      }
-    ]
+    "LocationCheckParam": {
+      "HalfHeight": 90,
+      "Radius": 45,
+      "StepHeight": 50,
+      "WalkableFloorAngle": 60,
+      "MaxLength": 200,
+      "MaxWidth": 100
+    }
   },
   "6000005": {
     "EliteId": 6000005,

@@ -4,26 +4,26 @@
       "10221": true,
       "10322": true
     },
-    "Parent": [
-      "[-1] = true"
-    ]
+    "Parent": {
+      "-1": true
+    }
   },
   "10221": {
-    "Children": [
-      true
-    ],
-    "Parent": [
-      true
-    ]
+    "Children": {
+      "10431": true
+    },
+    "Parent": {
+      "10111": true
+    }
   },
   "10322": {
     "Children": {
       "10532": true,
       "10633": true
     },
-    "Parent": [
-      true
-    ]
+    "Parent": {
+      "10111": true
+    }
   },
   "10431": {
     "Children": {
@@ -35,65 +35,65 @@
     }
   },
   "10532": {
-    "Children": [
-      true
-    ],
-    "Parent": [
-      true
-    ]
+    "Children": {
+      "10943": true
+    },
+    "Parent": {
+      "10322": true
+    }
   },
   "10633": {
-    "Children": [
-      true
-    ],
-    "Parent": [
-      true
-    ]
+    "Children": {
+      "11044": true
+    },
+    "Parent": {
+      "10322": true
+    }
   },
   "10741": {
-    "Children": [
-      true
-    ],
-    "Parent": [
-      true
-    ]
+    "Children": {
+      "11151": true
+    },
+    "Parent": {
+      "10431": true
+    }
   },
   "10842": {
-    "Children": [
-      true
-    ],
-    "Parent": [
-      true
-    ]
+    "Children": {
+      "11252": true
+    },
+    "Parent": {
+      "10431": true
+    }
   },
   "10943": {
-    "Children": [
-      true
-    ],
+    "Children": {
+      "11353": true
+    },
     "Parent": {
       "10532": true
     }
   },
   "11044": {
-    "Children": [
-      true
-    ],
+    "Children": {
+      "11454": true
+    },
     "Parent": {
       "10633": true
     }
   },
   "11151": {
-    "Children": [
-      true
-    ],
+    "Children": {
+      "11561": true
+    },
     "Parent": {
       "10741": true
     }
   },
   "11252": {
-    "Children": [
-      true
-    ],
+    "Children": {
+      "11662": true
+    },
     "Parent": {
       "10842": true
     }
@@ -102,65 +102,65 @@
     "Children": {
       "11763": true
     },
-    "Parent": [
-      true
-    ]
+    "Parent": {
+      "10943": true
+    }
   },
   "11454": {
     "Children": {
       "11864": true
     },
-    "Parent": [
-      true
-    ]
+    "Parent": {
+      "11044": true
+    }
   },
   "11561": {
-    "Children": [
-      true
-    ],
-    "Parent": [
-      true
-    ]
+    "Children": {
+      "11971": true
+    },
+    "Parent": {
+      "11151": true
+    }
   },
   "11662": {
-    "Children": [
-      true
-    ],
-    "Parent": [
-      true
-    ]
+    "Children": {
+      "12072": true
+    },
+    "Parent": {
+      "11252": true
+    }
   },
   "11763": {
-    "Children": [
-      true
-    ],
-    "Parent": [
-      true
-    ]
+    "Children": {
+      "12173": true
+    },
+    "Parent": {
+      "11353": true
+    }
   },
   "11864": {
-    "Children": [
-      true
-    ],
-    "Parent": [
-      true
-    ]
+    "Children": {
+      "12173": true
+    },
+    "Parent": {
+      "11454": true
+    }
   },
   "11971": {
     "Children": {
       "12281": true
     },
-    "Parent": [
-      true
-    ]
+    "Parent": {
+      "11561": true
+    }
   },
   "12072": {
     "Children": {
       "12382": true
     },
-    "Parent": [
-      true
-    ]
+    "Parent": {
+      "11662": true
+    }
   },
   "12173": {
     "Children": [],
@@ -170,20 +170,20 @@
     }
   },
   "12281": {
-    "Children": [
-      true
-    ],
-    "Parent": [
-      true
-    ]
+    "Children": {
+      "12491": true
+    },
+    "Parent": {
+      "11971": true
+    }
   },
   "12382": {
-    "Children": [
-      true
-    ],
-    "Parent": [
-      true
-    ]
+    "Children": {
+      "12491": true
+    },
+    "Parent": {
+      "12072": true
+    }
   },
   "12491": {
     "Children": [],
@@ -193,36 +193,36 @@
     }
   },
   "20111": {
-    "Children": [
-      true,
-      true
-    ],
-    "Parent": [
-      "[-1] = true"
-    ]
+    "Children": {
+      "20221": true,
+      "20322": true
+    },
+    "Parent": {
+      "-1": true
+    }
   },
   "20221": {
     "Children": {
       "20431": true,
       "20532": true
     },
-    "Parent": [
-      true
-    ]
+    "Parent": {
+      "20111": true
+    }
   },
   "20322": {
     "Children": {
       "20532": true,
       "20633": true
     },
-    "Parent": [
-      true
-    ]
+    "Parent": {
+      "20111": true
+    }
   },
   "20431": {
-    "Children": [
-      true
-    ],
+    "Children": {
+      "20741": true
+    },
     "Parent": {
       "20221": true
     }
@@ -232,47 +232,47 @@
       "20842": true,
       "20943": true
     },
-    "Parent": [
-      true,
-      true
-    ]
+    "Parent": {
+      "20221": true,
+      "20322": true
+    }
   },
   "20633": {
-    "Children": [
-      true
-    ],
+    "Children": {
+      "21044": true
+    },
     "Parent": {
       "20322": true
     }
   },
   "20741": {
-    "Children": [
-      true
-    ],
+    "Children": {
+      "21151": true
+    },
     "Parent": {
       "20431": true
     }
   },
   "20842": {
-    "Children": [
-      true
-    ],
-    "Parent": [
-      true
-    ]
+    "Children": {
+      "21252": true
+    },
+    "Parent": {
+      "20532": true
+    }
   },
   "20943": {
-    "Children": [
-      true
-    ],
-    "Parent": [
-      true
-    ]
+    "Children": {
+      "21353": true
+    },
+    "Parent": {
+      "20532": true
+    }
   },
   "21044": {
-    "Children": [
-      true
-    ],
+    "Children": {
+      "21454": true
+    },
     "Parent": {
       "20633": true
     }
@@ -281,9 +281,9 @@
     "Children": {
       "21561": true
     },
-    "Parent": [
-      true
-    ]
+    "Parent": {
+      "20741": true
+    }
   },
   "21252": {
     "Children": {
@@ -294,52 +294,52 @@
     }
   },
   "21353": {
-    "Children": [
-      true
-    ],
+    "Children": {
+      "21763": true
+    },
     "Parent": {
       "20943": true
     }
   },
   "21454": {
-    "Children": [
-      true
-    ],
-    "Parent": [
-      true
-    ]
+    "Children": {
+      "21864": true
+    },
+    "Parent": {
+      "21044": true
+    }
   },
   "21561": {
-    "Children": [
-      true
-    ],
-    "Parent": [
-      true
-    ]
+    "Children": {
+      "21971": true
+    },
+    "Parent": {
+      "21151": true
+    }
   },
   "21662": {
-    "Children": [
-      true
-    ],
-    "Parent": [
-      true
-    ]
+    "Children": {
+      "21971": true
+    },
+    "Parent": {
+      "21252": true
+    }
   },
   "21763": {
-    "Children": [
-      true
-    ],
-    "Parent": [
-      true
-    ]
+    "Children": {
+      "22072": true
+    },
+    "Parent": {
+      "21353": true
+    }
   },
   "21864": {
-    "Children": [
-      true
-    ],
-    "Parent": [
-      true
-    ]
+    "Children": {
+      "22173": true
+    },
+    "Parent": {
+      "21454": true
+    }
   },
   "21971": {
     "Children": [],
@@ -352,33 +352,33 @@
     "Children": {
       "22281": true
     },
-    "Parent": [
-      true
-    ]
+    "Parent": {
+      "21763": true
+    }
   },
   "22173": {
     "Children": {
       "22382": true
     },
-    "Parent": [
-      true
-    ]
+    "Parent": {
+      "21864": true
+    }
   },
   "22281": {
-    "Children": [
-      true
-    ],
-    "Parent": [
-      true
-    ]
+    "Children": {
+      "22491": true
+    },
+    "Parent": {
+      "22072": true
+    }
   },
   "22382": {
-    "Children": [
-      true
-    ],
-    "Parent": [
-      true
-    ]
+    "Children": {
+      "22491": true
+    },
+    "Parent": {
+      "22173": true
+    }
   },
   "22491": {
     "Children": [],
@@ -392,42 +392,42 @@
       "30221": true,
       "30322": true
     },
-    "Parent": [
-      "[-1] = true"
-    ]
+    "Parent": {
+      "-1": true
+    }
   },
   "30221": {
     "Children": {
       "30431": true,
       "30532": true
     },
-    "Parent": [
-      true
-    ]
+    "Parent": {
+      "30111": true
+    }
   },
   "30322": {
-    "Children": [
-      true
-    ],
-    "Parent": [
-      true
-    ]
+    "Children": {
+      "30633": true
+    },
+    "Parent": {
+      "30111": true
+    }
   },
   "30431": {
-    "Children": [
-      true
-    ],
-    "Parent": [
-      true
-    ]
+    "Children": {
+      "30741": true
+    },
+    "Parent": {
+      "30221": true
+    }
   },
   "30532": {
-    "Children": [
-      true
-    ],
-    "Parent": [
-      true
-    ]
+    "Children": {
+      "30842": true
+    },
+    "Parent": {
+      "30221": true
+    }
   },
   "30633": {
     "Children": {
@@ -439,100 +439,100 @@
     }
   },
   "30741": {
-    "Children": [
-      true
-    ],
+    "Children": {
+      "31151": true
+    },
     "Parent": {
       "30431": true
     }
   },
   "30842": {
-    "Children": [
-      true
-    ],
+    "Children": {
+      "31252": true
+    },
     "Parent": {
       "30532": true
     }
   },
   "30943": {
-    "Children": [
-      true
-    ],
-    "Parent": [
-      true
-    ]
+    "Children": {
+      "31353": true
+    },
+    "Parent": {
+      "30633": true
+    }
   },
   "31044": {
-    "Children": [
-      true
-    ],
-    "Parent": [
-      true
-    ]
+    "Children": {
+      "31454": true
+    },
+    "Parent": {
+      "30633": true
+    }
   },
   "31151": {
     "Children": {
       "31561": true
     },
-    "Parent": [
-      true
-    ]
+    "Parent": {
+      "30741": true
+    }
   },
   "31252": {
     "Children": {
       "31662": true
     },
-    "Parent": [
-      true
-    ]
+    "Parent": {
+      "30842": true
+    }
   },
   "31353": {
-    "Children": [
-      true
-    ],
+    "Children": {
+      "31763": true
+    },
     "Parent": {
       "30943": true
     }
   },
   "31454": {
-    "Children": [
-      true
-    ],
+    "Children": {
+      "31864": true
+    },
     "Parent": {
       "31044": true
     }
   },
   "31561": {
-    "Children": [
-      true
-    ],
-    "Parent": [
-      true
-    ]
+    "Children": {
+      "31971": true
+    },
+    "Parent": {
+      "31151": true
+    }
   },
   "31662": {
-    "Children": [
-      true
-    ],
-    "Parent": [
-      true
-    ]
+    "Children": {
+      "31971": true
+    },
+    "Parent": {
+      "31252": true
+    }
   },
   "31763": {
-    "Children": [
-      true
-    ],
-    "Parent": [
-      true
-    ]
+    "Children": {
+      "32072": true
+    },
+    "Parent": {
+      "31353": true
+    }
   },
   "31864": {
-    "Children": [
-      true
-    ],
-    "Parent": [
-      true
-    ]
+    "Children": {
+      "32173": true
+    },
+    "Parent": {
+      "31454": true
+    }
   },
   "31971": {
     "Children": [],
@@ -545,33 +545,33 @@
     "Children": {
       "32281": true
     },
-    "Parent": [
-      true
-    ]
+    "Parent": {
+      "31763": true
+    }
   },
   "32173": {
     "Children": {
       "32382": true
     },
-    "Parent": [
-      true
-    ]
+    "Parent": {
+      "31864": true
+    }
   },
   "32281": {
-    "Children": [
-      true
-    ],
-    "Parent": [
-      true
-    ]
+    "Children": {
+      "32491": true
+    },
+    "Parent": {
+      "32072": true
+    }
   },
   "32382": {
-    "Children": [
-      true
-    ],
-    "Parent": [
-      true
-    ]
+    "Children": {
+      "32491": true
+    },
+    "Parent": {
+      "32173": true
+    }
   },
   "32491": {
     "Children": [],
@@ -585,26 +585,26 @@
       "40221": true,
       "40322": true
     },
-    "Parent": [
-      "[-1] = true"
-    ]
+    "Parent": {
+      "-1": true
+    }
   },
   "40221": {
-    "Children": [
-      true
-    ],
-    "Parent": [
-      true
-    ]
+    "Children": {
+      "40431": true
+    },
+    "Parent": {
+      "40111": true
+    }
   },
   "40322": {
     "Children": {
       "40532": true,
       "40633": true
     },
-    "Parent": [
-      true
-    ]
+    "Parent": {
+      "40111": true
+    }
   },
   "40431": {
     "Children": {
@@ -616,65 +616,65 @@
     }
   },
   "40532": {
-    "Children": [
-      true
-    ],
-    "Parent": [
-      true
-    ]
+    "Children": {
+      "40943": true
+    },
+    "Parent": {
+      "40322": true
+    }
   },
   "40633": {
-    "Children": [
-      true
-    ],
-    "Parent": [
-      true
-    ]
+    "Children": {
+      "41044": true
+    },
+    "Parent": {
+      "40322": true
+    }
   },
   "40741": {
-    "Children": [
-      true
-    ],
-    "Parent": [
-      true
-    ]
+    "Children": {
+      "41151": true
+    },
+    "Parent": {
+      "40431": true
+    }
   },
   "40842": {
-    "Children": [
-      true
-    ],
-    "Parent": [
-      true
-    ]
+    "Children": {
+      "41252": true
+    },
+    "Parent": {
+      "40431": true
+    }
   },
   "40943": {
-    "Children": [
-      true
-    ],
+    "Children": {
+      "41353": true
+    },
     "Parent": {
       "40532": true
     }
   },
   "41044": {
-    "Children": [
-      true
-    ],
+    "Children": {
+      "41454": true
+    },
     "Parent": {
       "40633": true
     }
   },
   "41151": {
-    "Children": [
-      true
-    ],
+    "Children": {
+      "41561": true
+    },
     "Parent": {
       "40741": true
     }
   },
   "41252": {
-    "Children": [
-      true
-    ],
+    "Children": {
+      "41662": true
+    },
     "Parent": {
       "40842": true
     }
@@ -683,65 +683,65 @@
     "Children": {
       "41763": true
     },
-    "Parent": [
-      true
-    ]
+    "Parent": {
+      "40943": true
+    }
   },
   "41454": {
     "Children": {
       "41864": true
     },
-    "Parent": [
-      true
-    ]
+    "Parent": {
+      "41044": true
+    }
   },
   "41561": {
-    "Children": [
-      true
-    ],
-    "Parent": [
-      true
-    ]
+    "Children": {
+      "41971": true
+    },
+    "Parent": {
+      "41151": true
+    }
   },
   "41662": {
-    "Children": [
-      true
-    ],
-    "Parent": [
-      true
-    ]
+    "Children": {
+      "42072": true
+    },
+    "Parent": {
+      "41252": true
+    }
   },
   "41763": {
-    "Children": [
-      true
-    ],
-    "Parent": [
-      true
-    ]
+    "Children": {
+      "42173": true
+    },
+    "Parent": {
+      "41353": true
+    }
   },
   "41864": {
-    "Children": [
-      true
-    ],
-    "Parent": [
-      true
-    ]
+    "Children": {
+      "42173": true
+    },
+    "Parent": {
+      "41454": true
+    }
   },
   "41971": {
     "Children": {
       "42281": true
     },
-    "Parent": [
-      true
-    ]
+    "Parent": {
+      "41561": true
+    }
   },
   "42072": {
     "Children": {
       "42382": true
     },
-    "Parent": [
-      true
-    ]
+    "Parent": {
+      "41662": true
+    }
   },
   "42173": {
     "Children": [],
@@ -751,20 +751,20 @@
     }
   },
   "42281": {
-    "Children": [
-      true
-    ],
-    "Parent": [
-      true
-    ]
+    "Children": {
+      "42491": true
+    },
+    "Parent": {
+      "41971": true
+    }
   },
   "42382": {
-    "Children": [
-      true
-    ],
-    "Parent": [
-      true
-    ]
+    "Children": {
+      "42491": true
+    },
+    "Parent": {
+      "42072": true
+    }
   },
   "42491": {
     "Children": [],

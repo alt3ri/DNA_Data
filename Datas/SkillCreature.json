@@ -7,25 +7,21 @@
     ],
     "BPPath": "/Game/BluePrints/Combat/SkillCreatures/Mechanism/BP_Mechanism_Paotai.BP_Mechanism_Paotai",
     "DestroyWithCreator": 1,
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 10
-      },
-      {
-        "BoxWidth": 5
-      },
-      {
-        "BoxHeight": 5
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 10,
+      "BoxWidth": 5,
+      "BoxHeight": 5
+    },
     "Speed": 5000,
     "TimeLife": 5,
     "BoundCount": 1,
-    "HitEnemy": {},
-    "HitScene": {},
+    "HitEnemy": [
+      92
+    ],
+    "HitScene": [
+      93
+    ],
     "BulletFXID": 90
   },
   "92": {
@@ -36,25 +32,21 @@
     ],
     "BPPath": "/Game/BluePrints/Combat/SkillCreatures/Mechanism/BP_Mechanism_Paotai.BP_Mechanism_Paotai",
     "DestroyWithCreator": 1,
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 10
-      },
-      {
-        "BoxWidth": 5
-      },
-      {
-        "BoxHeight": 5
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 10,
+      "BoxWidth": 5,
+      "BoxHeight": 5
+    },
     "Speed": 15000,
     "TimeLife": 5,
     "BoundCount": 1,
-    "HitEnemy": {},
-    "HitScene": {},
+    "HitEnemy": [
+      95
+    ],
+    "HitScene": [
+      96
+    ],
     "BulletFXID": 91
   },
   "1502": {
@@ -67,27 +59,21 @@
     "AttachOwner": [
       1
     ],
-    "SpawnSocket": [
-      {
-        "UseLocation": "Char"
-      },
-      {
-        "SpawnSocket": "Root"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 300
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Char",
+      "SpawnSocket": "Root"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 300
+    },
     "FixedBornRotation": true,
     "Speed": 0,
     "TimeLife": -1,
     "BoundCount": -1,
-    "HitEnemy": {}
+    "HitEnemy": [
+      1502
+    ]
   },
   "20101": {
     "CreatureId": 20101,
@@ -96,22 +82,14 @@
       "PauseInvisible"
     ],
     "EnterPool": true,
-    "SpawnSocket": [
-      {
-        "UseLocation": "Char"
-      },
-      {
-        "SpawnSocket": "lowerarmpendant_left01_a"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 30
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Char",
+      "SpawnSocket": "lowerarmpendant_left01_a"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 30
+    },
     "GravityCoefficient": 2,
     "Speed": 2000,
     "TimeLife": 0.35,
@@ -131,22 +109,14 @@
       "PauseInvisible"
     ],
     "EnterPool": true,
-    "SpawnSocket": [
-      {
-        "UseLocation": "Char"
-      },
-      {
-        "SpawnSocket": "lowerarmpendant_left01_a"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 30
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Char",
+      "SpawnSocket": "lowerarmpendant_left01_a"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 30
+    },
     "GravityCoefficient": 2,
     "Speed": 2000,
     "TimeLife": 0.35,
@@ -166,22 +136,14 @@
       "PauseInvisible"
     ],
     "EnterPool": true,
-    "SpawnSocket": [
-      {
-        "UseLocation": "Char"
-      },
-      {
-        "SpawnSocket": "lowerarmpendant_left01_a"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 30
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Char",
+      "SpawnSocket": "lowerarmpendant_left01_a"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 30
+    },
     "GravityCoefficient": 2,
     "Speed": 2000,
     "TimeLife": 0.35,
@@ -212,20 +174,12 @@
       1,
       0
     ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 600
-      },
-      {
-        "BoxWidth": 200
-      },
-      {
-        "BoxHeight": 20
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 600,
+      "BoxWidth": 200,
+      "BoxHeight": 20
+    },
     "Speed": 2500,
     "TimeLife": 3,
     "BoundCount": 20,
@@ -234,17 +188,11 @@
       110151
     ],
     "BulletFXID": 110101,
-    "WindInfo": [
-      {
-        "WindMotorType": "Directional"
-      },
-      {
-        "Strength": 50
-      },
-      {
-        "Radius": 3
-      }
-    ]
+    "WindInfo": {
+      "WindMotorType": "Directional",
+      "Strength": 50,
+      "Radius": 3
+    }
   },
   "110142": {
     "CreatureId": 110142,
@@ -264,37 +212,25 @@
       1,
       0
     ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 600
-      },
-      {
-        "BoxWidth": 200
-      },
-      {
-        "BoxHeight": 20
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 600,
+      "BoxWidth": 200,
+      "BoxHeight": 20
+    },
     "Speed": 2500,
     "TimeLife": 3,
     "BoundCount": 20,
     "DontDestroyExceptLife": true,
-    "HitEnemy": {},
+    "HitEnemy": [
+      110152
+    ],
     "BulletFXID": 110101,
-    "WindInfo": [
-      {
-        "WindMotorType": "Omni"
-      },
-      {
-        "Strength": 50
-      },
-      {
-        "Radius": 3
-      }
-    ]
+    "WindInfo": {
+      "WindMotorType": "Omni",
+      "Strength": 50,
+      "Radius": 3
+    }
   },
   "110143": {
     "CreatureId": 110143,
@@ -314,37 +250,25 @@
       1,
       0
     ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 600
-      },
-      {
-        "BoxWidth": 200
-      },
-      {
-        "BoxHeight": 20
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 600,
+      "BoxWidth": 200,
+      "BoxHeight": 20
+    },
     "Speed": 2500,
     "TimeLife": 3,
     "BoundCount": 20,
     "DontDestroyExceptLife": true,
-    "HitEnemy": {},
+    "HitEnemy": [
+      110153
+    ],
     "BulletFXID": 110101,
-    "WindInfo": [
-      {
-        "WindMotorType": "Directional"
-      },
-      {
-        "Strength": 50
-      },
-      {
-        "Radius": 3
-      }
-    ]
+    "WindInfo": {
+      "WindMotorType": "Directional",
+      "Strength": 50,
+      "Radius": 3
+    }
   },
   "110144": {
     "CreatureId": 110144,
@@ -364,37 +288,25 @@
       1,
       0
     ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 600
-      },
-      {
-        "BoxWidth": 200
-      },
-      {
-        "BoxHeight": 20
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 600,
+      "BoxWidth": 200,
+      "BoxHeight": 20
+    },
     "Speed": 2500,
     "TimeLife": 3,
     "BoundCount": 20,
     "DontDestroyExceptLife": true,
-    "HitEnemy": {},
+    "HitEnemy": [
+      110154
+    ],
     "BulletFXID": 110101,
-    "WindInfo": [
-      {
-        "WindMotorType": "Omni"
-      },
-      {
-        "Strength": 50
-      },
-      {
-        "Radius": 3
-      }
-    ]
+    "WindInfo": {
+      "WindMotorType": "Omni",
+      "Strength": 50,
+      "Radius": 3
+    }
   },
   "110145": {
     "CreatureId": 110145,
@@ -414,37 +326,25 @@
       1,
       0
     ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 600
-      },
-      {
-        "BoxWidth": 200
-      },
-      {
-        "BoxHeight": 20
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 600,
+      "BoxWidth": 200,
+      "BoxHeight": 20
+    },
     "Speed": 2500,
     "TimeLife": 3,
     "BoundCount": 20,
     "DontDestroyExceptLife": true,
-    "HitEnemy": {},
+    "HitEnemy": [
+      110155
+    ],
     "BulletFXID": 110101,
-    "WindInfo": [
-      {
-        "WindMotorType": "Omni"
-      },
-      {
-        "Strength": 50
-      },
-      {
-        "Radius": 3
-      }
-    ]
+    "WindInfo": {
+      "WindMotorType": "Omni",
+      "Strength": 50,
+      "Radius": 3
+    }
   },
   "310101": {
     "CreatureId": 310101,
@@ -453,34 +353,26 @@
       "PauseInvisible"
     ],
     "EnterPool": true,
-    "SpawnSocket": [
-      {
-        "UseLocation": "Weapon"
-      },
-      {
-        "SpawnSocket": "gunpoint_01"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 50
-      },
-      {
-        "BoxWidth": 10
-      },
-      {
-        "BoxHeight": 10
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Weapon",
+      "SpawnSocket": "gunpoint_01"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 50,
+      "BoxWidth": 10,
+      "BoxHeight": 10
+    },
     "Speed": 2500,
     "TimeLife": 0.8,
     "BoundCount": 20,
     "DontDestroyExceptLife": true,
-    "HitEnemy": {},
-    "HitScene": {},
+    "HitEnemy": [
+      310112
+    ],
+    "HitScene": [
+      310113
+    ],
     "BulletFXID": 310103
   },
   "310201": {
@@ -490,28 +382,22 @@
     ],
     "BPPath": "/Game/BluePrints/Combat/SkillCreatures/Player/BP_Xier_Creature_Passive.BP_Xier_Creature_Passive",
     "AllowSkillRangeModify": [
-      "false",
-      "true",
-      "true"
+      false,
+      true,
+      true
     ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 50
-      },
-      {
-        "BoxWidth": 10
-      },
-      {
-        "BoxHeight": 10
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 50,
+      "BoxWidth": 10,
+      "BoxHeight": 10
+    },
     "Speed": 3000,
     "TimeLife": 2,
     "BoundCount": 1,
-    "HitEnemy": {},
+    "HitEnemy": [
+      310212
+    ],
     "BulletFXID": 310201,
     "DamageSource": 1
   },
@@ -522,28 +408,22 @@
     ],
     "BPPath": "/Game/BluePrints/Combat/SkillCreatures/Player/BP_Xier_Creature_Passive.BP_Xier_Creature_Passive",
     "AllowSkillRangeModify": [
-      "false",
-      "true",
-      "true"
+      false,
+      true,
+      true
     ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 50
-      },
-      {
-        "BoxWidth": 10
-      },
-      {
-        "BoxHeight": 10
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 50,
+      "BoxWidth": 10,
+      "BoxHeight": 10
+    },
     "Speed": 3000,
     "TimeLife": 2,
     "BoundCount": 1,
-    "HitEnemy": {},
+    "HitEnemy": [
+      310218
+    ],
     "BulletFXID": 310201,
     "DamageSource": 1
   },
@@ -552,24 +432,18 @@
     "Tags": [
       "PauseInvisible"
     ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 30
-      },
-      {
-        "BoxWidth": 30
-      },
-      {
-        "BoxHeight": 30
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 30,
+      "BoxWidth": 30,
+      "BoxHeight": 30
+    },
     "Speed": 0,
     "TimeLife": 0.01,
     "BoundCount": 0,
-    "DestroyEffects": {}
+    "DestroyEffects": [
+      330125
+    ]
   },
   "330102": {
     "CreatureId": 330102,
@@ -578,28 +452,16 @@
     ],
     "BPPath": "/Game/BluePrints/Combat/SkillCreatures/Player/BP_Maer_Skill02_Creature.BP_Maer_Skill02_Creature",
     "DestroyWithCreator": 1,
-    "SpawnSocket": [
-      {
-        "UseLocation": "Char"
-      },
-      {
-        "SpawnSocket": "hook_arm_r"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 30
-      },
-      {
-        "BoxWidth": 30
-      },
-      {
-        "BoxHeight": 30
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Char",
+      "SpawnSocket": "hook_arm_r"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 30,
+      "BoxWidth": 30,
+      "BoxHeight": 30
+    },
     "Speed": 2000,
     "TimeLife": 18,
     "BoundCount": -1,
@@ -616,20 +478,12 @@
     ],
     "BPPath": "/Game/BluePrints/Combat/SkillCreatures/Player/BP_Maer_Skill01.BP_Maer_Skill01",
     "DestroyWithCreator": 1,
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 50
-      },
-      {
-        "BoxWidth": 10
-      },
-      {
-        "BoxHeight": 10
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 50,
+      "BoxWidth": 10,
+      "BoxHeight": 10
+    },
     "FixedBornRotation": true,
     "TimeToHit": 0.5,
     "Speed": 0,
@@ -646,20 +500,12 @@
     ],
     "BPPath": "/Game/BluePrints/Combat/SkillCreatures/Player/BP_Maer_Skill01.BP_Maer_Skill01",
     "DestroyWithCreator": 1,
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 50
-      },
-      {
-        "BoxWidth": 10
-      },
-      {
-        "BoxHeight": 10
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 50,
+      "BoxWidth": 10,
+      "BoxHeight": 10
+    },
     "FixedBornRotation": true,
     "TimeToHit": 0.5,
     "Speed": 0,
@@ -681,28 +527,24 @@
       "ShockCD": 3
     },
     "DestroyWithCreator": 1,
-    "SpawnSocket": [
-      {
-        "UseLocation": "Char"
-      },
-      {
-        "SpawnSocket": "hook_arm_r"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 10
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Char",
+      "SpawnSocket": "hook_arm_r"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 10
+    },
     "Speed": 5000,
     "TimeLife": 12,
     "FixBySkillSustain": true,
     "BoundCount": 1,
     "DontDestroyExceptLife": true,
-    "HitScene": {},
+    "HitScene": [
+      420223,
+      420222,
+      420225
+    ],
     "HitOthers": [
       0,
       0,
@@ -716,25 +558,19 @@
       "PauseInvisible"
     ],
     "EnterPool": true,
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 200
-      },
-      {
-        "BoxWidth": 200
-      },
-      {
-        "BoxHeight": 500
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 200,
+      "BoxWidth": 200,
+      "BoxHeight": 500
+    },
     "FixedBornRotation": true,
     "Speed": 0,
     "TimeLife": 0.15,
     "BoundCount": -1,
-    "DestroyEffects": {},
+    "DestroyEffects": [
+      430117
+    ],
     "BulletFXID": 430111
   },
   "430102": {
@@ -743,25 +579,19 @@
       "PauseInvisible"
     ],
     "EnterPool": true,
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 200
-      },
-      {
-        "BoxWidth": 200
-      },
-      {
-        "BoxHeight": 500
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 200,
+      "BoxWidth": 200,
+      "BoxHeight": 500
+    },
     "FixedBornRotation": true,
     "Speed": 0,
     "TimeLife": 0.15,
     "BoundCount": -1,
-    "DestroyEffects": {},
+    "DestroyEffects": [
+      430155
+    ],
     "BulletFXID": 430111
   },
   "430111": {
@@ -803,18 +633,15 @@
     "Speed": 0,
     "TimeLife": -1,
     "BoundCount": -1,
-    "HitEnemy": {},
-    "WindInfo": [
-      {
-        "WindMotorType": "Directional"
-      },
-      {
-        "Strength": 50
-      },
-      {
-        "Radius": 1
-      }
-    ]
+    "HitEnemy": [
+      510126,
+      510127
+    ],
+    "WindInfo": {
+      "WindMotorType": "Directional",
+      "Strength": 50,
+      "Radius": 1
+    }
   },
   "510131": {
     "CreatureId": 510131,
@@ -838,22 +665,20 @@
     "Speed": 2500,
     "TimeLife": 5,
     "BoundCount": 1,
-    "HitEnemy": {},
-    "HitScene": {},
+    "HitEnemy": [
+      510101
+    ],
+    "HitScene": [
+      510102
+    ],
     "HitEnemyIgnore": 1,
     "DelayDestroyTime": 0.1,
     "BulletFXID": 510113,
-    "WindInfo": [
-      {
-        "WindMotorType": "Directional"
-      },
-      {
-        "Strength": 50
-      },
-      {
-        "Radius": 1
-      }
-    ]
+    "WindInfo": {
+      "WindMotorType": "Directional",
+      "Strength": 50,
+      "Radius": 1
+    }
   },
   "510201": {
     "CreatureId": 510201,
@@ -871,23 +696,19 @@
     "Speed": 5000,
     "TimeLife": -1,
     "BoundCount": -1,
-    "HitEnemy": {},
+    "HitEnemy": [
+      510233
+    ],
     "HitOthers": [
       0,
       0,
       2
     ],
-    "WindInfo": [
-      {
-        "WindMotorType": "Directional"
-      },
-      {
-        "Strength": 50
-      },
-      {
-        "Radius": 1
-      }
-    ]
+    "WindInfo": {
+      "WindMotorType": "Directional",
+      "Strength": 50,
+      "Radius": 1
+    }
   },
   "530111": {
     "CreatureId": 530111,
@@ -896,24 +717,19 @@
     ],
     "ClientOwner": true,
     "BPPath": "/Game/BluePrints/Combat/SkillCreatures/Player/BP_Saiqi_Missile_Skill01New.BP_Saiqi_Missile_Skill01New",
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 10
-      },
-      {
-        "BoxWidth": 40
-      },
-      {
-        "BoxHeight": 10
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 10,
+      "BoxWidth": 40,
+      "BoxHeight": 10
+    },
     "Speed": 1,
     "TimeLife": 3,
     "BoundCount": 1,
-    "HitEnemy": {},
+    "HitEnemy": [
+      530115,
+      530116
+    ],
     "BulletFXID": 530112,
     "DelayPlayFX": 0.07
   },
@@ -931,25 +747,21 @@
       0,
       90
     ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 10
-      },
-      {
-        "BoxWidth": 40
-      },
-      {
-        "BoxHeight": 10
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 10,
+      "BoxWidth": 40,
+      "BoxHeight": 10
+    },
     "Speed": 10000,
     "TimeLife": 1,
     "BoundCount": 1,
-    "HitEnemy": {},
-    "HitScene": {},
+    "HitEnemy": [
+      530124
+    ],
+    "HitScene": [
+      530125
+    ],
     "BulletFXID": 530105,
     "UnAttachBulletFXID": 530104
   },
@@ -961,20 +773,12 @@
     ],
     "EnterPool": true,
     "UseBulletCreature": true,
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 10
-      },
-      {
-        "BoxWidth": 40
-      },
-      {
-        "BoxHeight": 10
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 10,
+      "BoxWidth": 40,
+      "BoxHeight": 10
+    },
     "Speed": 10000,
     "TimeLife": 1,
     "BoundCount": 1,
@@ -994,37 +798,23 @@
       "PauseRemovable"
     ],
     "BPPath": "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_6Jichong_Bullet.BP_6Jichong_Bullet",
-    "SpawnSocket": [
-      {
-        "UseLocation": "Char"
-      },
-      {
-        "SpawnSocket": "Mouth"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 20
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Char",
+      "SpawnSocket": "Mouth"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 20
+    },
     "TraceSpeed": 50000,
     "TraceDelay": 0.1,
-    "TraceRange": [
-      {
-        "Range": 300
-      },
-      {
-        "Means": "Permanent"
-      }
-    ],
-    "TraceAxisLock": [
-      {
-        "Z": true
-      }
-    ],
+    "TraceRange": {
+      "Range": 300,
+      "Means": "Permanent"
+    },
+    "TraceAxisLock": {
+      "Z": true
+    },
     "Speed": 1500,
     "TimeLife": 10,
     "BoundCount": 1,
@@ -1044,28 +834,16 @@
     ],
     "EnterPool": true,
     "UseBulletCreature": true,
-    "SpawnSocket": [
-      {
-        "UseLocation": "Weapon"
-      },
-      {
-        "SpawnSocket": "gunpoint_01"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 10
-      },
-      {
-        "BoxWidth": 20
-      },
-      {
-        "BoxHeight": 10
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Weapon",
+      "SpawnSocket": "gunpoint_01"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 10,
+      "BoxWidth": 20,
+      "BoxHeight": 10
+    },
     "Speed": 3500,
     "TimeLife": 10,
     "BoundCount": 1,
@@ -1085,28 +863,16 @@
     ],
     "EnterPool": true,
     "UseBulletCreature": true,
-    "SpawnSocket": [
-      {
-        "UseLocation": "Weapon"
-      },
-      {
-        "SpawnSocket": "gunpoint_01"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 10
-      },
-      {
-        "BoxWidth": 20
-      },
-      {
-        "BoxHeight": 10
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Weapon",
+      "SpawnSocket": "gunpoint_01"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 10,
+      "BoxWidth": 20,
+      "BoxHeight": 10
+    },
     "Speed": 3500,
     "TimeLife": 10,
     "BoundCount": 1,
@@ -1126,28 +892,16 @@
     ],
     "EnterPool": true,
     "UseBulletCreature": true,
-    "SpawnSocket": [
-      {
-        "UseLocation": "Weapon"
-      },
-      {
-        "SpawnSocket": "gunpoint_01"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 10
-      },
-      {
-        "BoxWidth": 20
-      },
-      {
-        "BoxHeight": 10
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Weapon",
+      "SpawnSocket": "gunpoint_01"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 10,
+      "BoxWidth": 20,
+      "BoxHeight": 10
+    },
     "Speed": 3500,
     "TimeLife": 10,
     "BoundCount": 1,
@@ -1167,28 +921,16 @@
     ],
     "EnterPool": true,
     "UseBulletCreature": true,
-    "SpawnSocket": [
-      {
-        "UseLocation": "Weapon"
-      },
-      {
-        "SpawnSocket": "gunpoint_01"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 10
-      },
-      {
-        "BoxWidth": 20
-      },
-      {
-        "BoxHeight": 10
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Weapon",
+      "SpawnSocket": "gunpoint_01"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 10,
+      "BoxWidth": 20,
+      "BoxHeight": 10
+    },
     "Speed": 3500,
     "TimeLife": 10,
     "BoundCount": 1,
@@ -1208,28 +950,16 @@
     ],
     "EnterPool": true,
     "UseBulletCreature": true,
-    "SpawnSocket": [
-      {
-        "UseLocation": "Weapon"
-      },
-      {
-        "SpawnSocket": "gunpoint_01"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 10
-      },
-      {
-        "BoxWidth": 20
-      },
-      {
-        "BoxHeight": 10
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Weapon",
+      "SpawnSocket": "gunpoint_01"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 10,
+      "BoxWidth": 20,
+      "BoxHeight": 10
+    },
     "Speed": 3500,
     "TimeLife": 10,
     "BoundCount": 1,
@@ -1249,33 +979,25 @@
     ],
     "EnterPool": true,
     "UseBulletCreature": true,
-    "SpawnSocket": [
-      {
-        "UseLocation": "Weapon"
-      },
-      {
-        "SpawnSocket": "gunpoint_01"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 10
-      },
-      {
-        "BoxWidth": 20
-      },
-      {
-        "BoxHeight": 10
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Weapon",
+      "SpawnSocket": "gunpoint_01"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 10,
+      "BoxWidth": 20,
+      "BoxHeight": 10
+    },
     "Speed": 5000,
     "TimeLife": 10,
     "BoundCount": 1,
-    "HitEnemy": {},
-    "HitScene": {},
+    "HitEnemy": [
+      600205
+    ],
+    "HitScene": [
+      600207
+    ],
     "BulletFXID": 600201
   },
   "600301": {
@@ -1286,22 +1008,14 @@
     ],
     "EnterPool": true,
     "UseBulletCreature": true,
-    "SpawnSocket": [
-      {
-        "UseLocation": "Char"
-      },
-      {
-        "SpawnSocket": "ExpressionSocket"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 20
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Char",
+      "SpawnSocket": "ExpressionSocket"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 20
+    },
     "TraceSpeed": 18000,
     "TraceDelay": 0.3,
     "TraceRange": {
@@ -1311,8 +1025,12 @@
     "Speed": 1500,
     "TimeLife": 10,
     "BoundCount": 1,
-    "HitEnemy": {},
-    "HitScene": {},
+    "HitEnemy": [
+      600305
+    ],
+    "HitScene": [
+      600306
+    ],
     "BulletFXID": 600304
   },
   "600401": {
@@ -1328,8 +1046,12 @@
     "Speed": 0,
     "TimeLife": 3,
     "BoundCount": -1,
-    "HitEnemy": {},
-    "HitFriend": {}
+    "HitEnemy": [
+      600405
+    ],
+    "HitFriend": [
+      600407
+    ]
   },
   "600501": {
     "CreatureId": 600501,
@@ -1339,22 +1061,14 @@
     ],
     "EnterPool": true,
     "UseBulletCreature": true,
-    "SpawnSocket": [
-      {
-        "UseLocation": "Char"
-      },
-      {
-        "SpawnSocket": "hair_black01_g"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 20
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Char",
+      "SpawnSocket": "hair_black01_g"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 20
+    },
     "TraceSpeed": 2500,
     "TraceDelay": 0.01,
     "TraceRange": {
@@ -1364,8 +1078,12 @@
     "Speed": 1500,
     "TimeLife": 10,
     "BoundCount": 1,
-    "HitEnemy": {},
-    "HitScene": {},
+    "HitEnemy": [
+      600502
+    ],
+    "HitScene": [
+      600503
+    ],
     "BulletFXID": 600501
   },
   "600502": {
@@ -1374,22 +1092,14 @@
       "PauseRemovable"
     ],
     "DestroyWithCreator": 1,
-    "SpawnSocket": [
-      {
-        "UseLocation": "Char"
-      },
-      {
-        "SpawnSocket": "hair_black01_g"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 50
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Char",
+      "SpawnSocket": "hair_black01_g"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 50
+    },
     "GravityCoefficient": 0.2,
     "GravityAdapt": true,
     "GravityFactor": 9999,
@@ -1407,32 +1117,22 @@
     ],
     "EnterPool": true,
     "UseBulletCreature": true,
-    "SpawnSocket": [
-      {
-        "UseLocation": "Weapon"
-      },
-      {
-        "SpawnSocket": "gunpoint_01"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 10
-      },
-      {
-        "BoxWidth": 20
-      },
-      {
-        "BoxHeight": 10
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Weapon",
+      "SpawnSocket": "gunpoint_01"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 10,
+      "BoxWidth": 20,
+      "BoxHeight": 10
+    },
     "Speed": 1500,
     "TimeLife": 10,
     "BoundCount": 1,
-    "HitEnemy": {},
+    "HitEnemy": [
+      601203
+    ],
     "HitScene": [
       601204
     ],
@@ -1446,32 +1146,22 @@
     ],
     "EnterPool": true,
     "UseBulletCreature": true,
-    "SpawnSocket": [
-      {
-        "UseLocation": "Weapon"
-      },
-      {
-        "SpawnSocket": "gunpoint_01"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 10
-      },
-      {
-        "BoxWidth": 20
-      },
-      {
-        "BoxHeight": 10
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Weapon",
+      "SpawnSocket": "gunpoint_01"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 10,
+      "BoxWidth": 20,
+      "BoxHeight": 10
+    },
     "Speed": 1500,
     "TimeLife": 10,
     "BoundCount": 1,
-    "HitEnemy": {},
+    "HitEnemy": [
+      601206
+    ],
     "HitScene": [
       601204
     ],
@@ -1483,14 +1173,10 @@
       "Bullet",
       "PauseRemovable"
     ],
-    "SpawnSocket": [
-      {
-        "UseLocation": "Char"
-      },
-      {
-        "SpawnSocket": "ExpressionSocket"
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Char",
+      "SpawnSocket": "ExpressionSocket"
+    },
     "ShapeInfo": {
       "ShapeType": "Sphere",
       "Radius": 100
@@ -1515,33 +1201,25 @@
     ],
     "EnterPool": true,
     "UseBulletCreature": true,
-    "SpawnSocket": [
-      {
-        "UseLocation": "Char"
-      },
-      {
-        "SpawnSocket": "Weapon_Fire"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 10
-      },
-      {
-        "BoxWidth": 20
-      },
-      {
-        "BoxHeight": 10
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Char",
+      "SpawnSocket": "Weapon_Fire"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 10,
+      "BoxWidth": 20,
+      "BoxHeight": 10
+    },
     "Speed": 6000,
     "TimeLife": 5,
     "BoundCount": 1,
-    "HitEnemy": {},
-    "HitScene": {},
+    "HitEnemy": [
+      700103
+    ],
+    "HitScene": [
+      700104
+    ],
     "BulletFXID": 700103
   },
   "700301": {
@@ -1552,14 +1230,10 @@
     ],
     "EnterPool": true,
     "UseBulletCreature": true,
-    "SpawnSocket": [
-      {
-        "UseLocation": "Char"
-      },
-      {
-        "SpawnSocket": "Weapon_Fire"
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Char",
+      "SpawnSocket": "Weapon_Fire"
+    },
     "ShapeInfo": {
       "ShapeType": "Box",
       "BoxLength": 5,
@@ -1569,8 +1243,12 @@
     "Speed": 4000,
     "TimeLife": 10,
     "BoundCount": 1,
-    "HitEnemy": {},
-    "HitScene": {},
+    "HitEnemy": [
+      700302
+    ],
+    "HitScene": [
+      700312
+    ],
     "BulletFXID": 700301
   },
   "700302": {
@@ -1580,33 +1258,19 @@
       "PauseRemovable"
     ],
     "BPPath": "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_7Ranger_Grenade.BP_7Ranger_Grenade",
-    "Vars": [
-      {
-        "PreFXRadius": 400
-      },
-      {
-        "PreFXTime": 1.2
-      },
-      {
-        "PreFXColorIndex": 0
-      }
-    ],
-    "SpawnSocket": [
-      {
-        "UseLocation": "Char"
-      },
-      {
-        "SpawnSocket": "middle_03_l"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 10
-      }
-    ],
+    "Vars": {
+      "PreFXRadius": 400,
+      "PreFXTime": 1.2,
+      "PreFXColorIndex": 0
+    },
+    "SpawnSocket": {
+      "UseLocation": "Char",
+      "SpawnSocket": "middle_03_l"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 10
+    },
     "GravityCoefficient": 1.7,
     "GravityAdapt": true,
     "GravityFactor": 1,
@@ -1632,33 +1296,19 @@
       "PauseRemovable"
     ],
     "BPPath": "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_7Ranger_Grenade.BP_7Ranger_Grenade",
-    "Vars": [
-      {
-        "PreFXRadius": 400
-      },
-      {
-        "PreFXTime": 1.2
-      },
-      {
-        "PreFXColorIndex": 0
-      }
-    ],
-    "SpawnSocket": [
-      {
-        "UseLocation": "Char"
-      },
-      {
-        "SpawnSocket": "middle_03_l"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 10
-      }
-    ],
+    "Vars": {
+      "PreFXRadius": 400,
+      "PreFXTime": 1.2,
+      "PreFXColorIndex": 0
+    },
+    "SpawnSocket": {
+      "UseLocation": "Char",
+      "SpawnSocket": "middle_03_l"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 10
+    },
     "GravityCoefficient": 1.8,
     "GravityAdapt": true,
     "GravityFactor": 1,
@@ -1688,22 +1338,14 @@
       "PreFXColorIndex": 0
     },
     "DestroyWithCreator": 1,
-    "SpawnSocket": [
-      {
-        "UseLocation": "Char"
-      },
-      {
-        "SpawnSocket": "middle_03_l"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 10
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Char",
+      "SpawnSocket": "middle_03_l"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 10
+    },
     "FixedBornRotation": true,
     "FixedMoveRotation": true,
     "GravityCoefficient": 2,
@@ -1728,7 +1370,9 @@
     "Speed": 0,
     "TimeLife": 2.4,
     "BoundCount": -1,
-    "HitEnemy": {}
+    "HitEnemy": [
+      700403
+    ]
   },
   "700801": {
     "CreatureId": 700801,
@@ -1738,22 +1382,14 @@
     ],
     "EnterPool": true,
     "UseBulletCreature": true,
-    "SpawnSocket": [
-      {
-        "UseLocation": "Char"
-      },
-      {
-        "SpawnSocket": "hook_arm_l"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 30
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Char",
+      "SpawnSocket": "hook_arm_l"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 30
+    },
     "Speed": 2000,
     "TimeLife": 3,
     "BoundCount": 1,
@@ -1773,30 +1409,26 @@
     ],
     "EnterPool": true,
     "UseBulletCreature": true,
-    "SpawnSocket": [
-      {
-        "UseLocation": "Char"
-      },
-      {
-        "SpawnSocket": "wing_left01_d2"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 30
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Char",
+      "SpawnSocket": "wing_left01_d2"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 30
+    },
     "GravityCoefficient": 1.5,
     "GravityAdapt": true,
     "GravityFactor": 1,
     "Speed": 1200,
     "TimeLife": 3,
     "BoundCount": 1,
-    "HitEnemy": {},
-    "HitScene": {},
+    "HitEnemy": [
+      700808
+    ],
+    "HitScene": [
+      700807
+    ],
     "BulletFXID": 700803
   },
   "700803": {
@@ -1807,22 +1439,14 @@
     ],
     "EnterPool": true,
     "UseBulletCreature": true,
-    "SpawnSocket": [
-      {
-        "UseLocation": "Char"
-      },
-      {
-        "SpawnSocket": "hook_arm_l"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 30
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Char",
+      "SpawnSocket": "hook_arm_l"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 30
+    },
     "Speed": 2000,
     "TimeLife": 3,
     "BoundCount": 1,
@@ -1842,27 +1466,23 @@
     ],
     "EnterPool": true,
     "UseBulletCreature": true,
-    "SpawnSocket": [
-      {
-        "UseLocation": "Char"
-      },
-      {
-        "SpawnSocket": "Weapon_Fire"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 20
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Char",
+      "SpawnSocket": "Weapon_Fire"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 20
+    },
     "Speed": 1000,
     "TimeLife": 5,
     "BoundCount": -1,
-    "HitEnemy": {},
-    "HitScene": {},
+    "HitEnemy": [
+      701302
+    ],
+    "HitScene": [
+      701303
+    ],
     "BulletFXID": 701301
   },
   "701302": {
@@ -1872,33 +1492,19 @@
       "PauseRemovable"
     ],
     "BPPath": "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_7Ranger_Grenade.BP_7Ranger_Grenade",
-    "Vars": [
-      {
-        "PreFXRadius": 400
-      },
-      {
-        "PreFXTime": 1.2
-      },
-      {
-        "PreFXColorIndex": 0
-      }
-    ],
-    "SpawnSocket": [
-      {
-        "UseLocation": "Char"
-      },
-      {
-        "SpawnSocket": "middle_03_l"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 10
-      }
-    ],
+    "Vars": {
+      "PreFXRadius": 400,
+      "PreFXTime": 1.2,
+      "PreFXColorIndex": 0
+    },
+    "SpawnSocket": {
+      "UseLocation": "Char",
+      "SpawnSocket": "middle_03_l"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 10
+    },
     "GravityCoefficient": 1.7,
     "GravityAdapt": true,
     "GravityFactor": 1,
@@ -1931,7 +1537,9 @@
     "Speed": 0,
     "TimeLife": 2.4,
     "BoundCount": -1,
-    "HitEnemy": {}
+    "HitEnemy": [
+      701404
+    ]
   },
   "800101": {
     "CreatureId": 800101,
@@ -1941,33 +1549,25 @@
     ],
     "EnterPool": true,
     "UseBulletCreature": true,
-    "SpawnSocket": [
-      {
-        "UseLocation": "Weapon"
-      },
-      {
-        "SpawnSocket": "gunpoint_01"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 10
-      },
-      {
-        "BoxWidth": 20
-      },
-      {
-        "BoxHeight": 10
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Weapon",
+      "SpawnSocket": "gunpoint_01"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 10,
+      "BoxWidth": 20,
+      "BoxHeight": 10
+    },
     "Speed": 3500,
     "TimeLife": 10,
     "BoundCount": 1,
-    "HitEnemy": {},
-    "HitScene": {},
+    "HitEnemy": [
+      800103
+    ],
+    "HitScene": [
+      800104
+    ],
     "BulletFXID": 800101
   },
   "800301": {
@@ -1978,33 +1578,25 @@
     ],
     "EnterPool": true,
     "UseBulletCreature": true,
-    "SpawnSocket": [
-      {
-        "UseLocation": "Weapon"
-      },
-      {
-        "SpawnSocket": "gunpoint_01"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 10
-      },
-      {
-        "BoxWidth": 20
-      },
-      {
-        "BoxHeight": 10
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Weapon",
+      "SpawnSocket": "gunpoint_01"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 10,
+      "BoxWidth": 20,
+      "BoxHeight": 10
+    },
     "Speed": 2500,
     "TimeLife": 10,
     "BoundCount": 1,
-    "HitEnemy": {},
-    "HitScene": {},
+    "HitEnemy": [
+      800302
+    ],
+    "HitScene": [
+      800303
+    ],
     "BulletFXID": 800303
   },
   "800302": {
@@ -2041,7 +1633,9 @@
     "Speed": 0,
     "TimeLife": 5,
     "BoundCount": -1,
-    "HitEnemy": {}
+    "HitEnemy": [
+      850018
+    ]
   },
   "850012": {
     "CreatureId": 850012,
@@ -2075,32 +1669,22 @@
     ],
     "BPPath": "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_Boss_Xibi_Skill04_Bullet.BP_Boss_Xibi_Skill04_Bullet",
     "DestroyWithCreator": 1,
-    "SpawnSocket": [
-      {
-        "UseLocation": "Char"
-      },
-      {
-        "SpawnSocket": "Root"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 120
-      },
-      {
-        "BoxWidth": 120
-      },
-      {
-        "BoxHeight": 800
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Char",
+      "SpawnSocket": "Root"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 120,
+      "BoxWidth": 120,
+      "BoxHeight": 800
+    },
     "Speed": 1000,
     "TimeLife": 5,
     "BoundCount": -1,
-    "HitEnemy": {},
+    "HitEnemy": [
+      850042
+    ],
     "BulletFXID": 850004
   },
   "850042": {
@@ -2113,32 +1697,22 @@
       "DanmakuId": 850041
     },
     "DestroyWithCreator": 1,
-    "SpawnSocket": [
-      {
-        "UseLocation": "Char"
-      },
-      {
-        "SpawnSocket": "Root"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 120
-      },
-      {
-        "BoxWidth": 120
-      },
-      {
-        "BoxHeight": 800
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Char",
+      "SpawnSocket": "Root"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 120,
+      "BoxWidth": 120,
+      "BoxHeight": 800
+    },
     "Speed": 600,
     "TimeLife": 8,
     "BoundCount": -1,
-    "HitEnemy": {},
+    "HitEnemy": [
+      8500142
+    ],
     "BulletFXID": 850004
   },
   "850101": {
@@ -2148,37 +1722,29 @@
       "PauseRemovable"
     ],
     "DestroyWithCreator": 1,
-    "SpawnSocket": [
-      {
-        "UseLocation": "Char"
-      },
-      {
-        "SpawnSocket": "Root"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 40
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Char",
+      "SpawnSocket": "Root"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 40
+    },
     "TraceSpeed": 7500,
     "TraceDelay": 0.03,
-    "TraceRange": [
-      {
-        "Range": 600
-      },
-      {
-        "Means": "Permanent"
-      }
-    ],
+    "TraceRange": {
+      "Range": 600,
+      "Means": "Permanent"
+    },
     "Speed": 2500,
     "TimeLife": 5,
     "BoundCount": 1,
-    "HitEnemy": {},
-    "HitScene": {},
+    "HitEnemy": [
+      8501112
+    ],
+    "HitScene": [
+      8501113
+    ],
     "BulletFXID": 850101
   },
   "850102": {
@@ -2188,27 +1754,23 @@
       "PauseRemovable"
     ],
     "DestroyWithCreator": 1,
-    "SpawnSocket": [
-      {
-        "UseLocation": "Char"
-      },
-      {
-        "SpawnSocket": "Root"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 40
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Char",
+      "SpawnSocket": "Root"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 40
+    },
     "Speed": 3500,
     "TimeLife": 5,
     "BoundCount": 1,
-    "HitEnemy": {},
-    "HitScene": {},
+    "HitEnemy": [
+      8501122
+    ],
+    "HitScene": [
+      8501123
+    ],
     "BulletFXID": 850104
   },
   "850103": {
@@ -2217,26 +1779,20 @@
     "AttachOwner": [
       1
     ],
-    "SpawnSocket": [
-      {
-        "UseLocation": "Char"
-      },
-      {
-        "SpawnSocket": "Root"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 300
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Char",
+      "SpawnSocket": "Root"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 300
+    },
     "Speed": 0,
     "TimeLife": 3,
     "BoundCount": -1,
-    "HitEnemy": {}
+    "HitEnemy": [
+      8501135
+    ]
   },
   "850104": {
     "CreatureId": 850104,
@@ -2245,22 +1801,22 @@
       "PauseRemovable"
     ],
     "DestroyWithCreator": 1,
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 30
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 30
+    },
     "GravityCoefficient": 0.4,
     "ParabolaDelay": 1,
     "BreakCount": 99,
     "Speed": 300,
     "TimeLife": 10,
     "BoundCount": 1,
-    "HitEnemy": {},
-    "HitScene": {},
+    "HitEnemy": [
+      8501148
+    ],
+    "HitScene": [
+      8501149
+    ],
     "BulletFXID": 850108
   },
   "850201": {
@@ -2269,32 +1825,20 @@
       "Bullet",
       "PauseRemovable"
     ],
-    "SpawnSocket": [
-      {
-        "UseLocation": "Char"
-      },
-      {
-        "SpawnSocket": "wing_left01_d2"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 30
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Char",
+      "SpawnSocket": "wing_left01_d2"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 30
+    },
     "TraceSpeed": 130,
     "TraceDelay": 0.5,
-    "TraceRange": [
-      {
-        "Range": 300
-      },
-      {
-        "Means": "Permanent"
-      }
-    ],
+    "TraceRange": {
+      "Range": 300,
+      "Means": "Permanent"
+    },
     "Speed": 2000,
     "TimeLife": 3,
     "BoundCount": -1,
@@ -2313,24 +1857,16 @@
       "UseLocation": "Char",
       "SpawnSocket": "wing_left01_e3"
     },
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 30
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 30
+    },
     "TraceSpeed": 130,
     "TraceDelay": 0.5,
-    "TraceRange": [
-      {
-        "Range": 300
-      },
-      {
-        "Means": "Permanent"
-      }
-    ],
+    "TraceRange": {
+      "Range": 300,
+      "Means": "Permanent"
+    },
     "Speed": 2000,
     "TimeLife": 3,
     "BoundCount": -1,
@@ -2349,24 +1885,16 @@
       "UseLocation": "Char",
       "SpawnSocket": "wing_right01_d2"
     },
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 30
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 30
+    },
     "TraceSpeed": 130,
     "TraceDelay": 0.5,
-    "TraceRange": [
-      {
-        "Range": 300
-      },
-      {
-        "Means": "Permanent"
-      }
-    ],
+    "TraceRange": {
+      "Range": 300,
+      "Means": "Permanent"
+    },
     "Speed": 2000,
     "TimeLife": 3,
     "BoundCount": -1,
@@ -2385,24 +1913,16 @@
       "UseLocation": "Char",
       "SpawnSocket": "wing_right01_e3"
     },
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 30
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 30
+    },
     "TraceSpeed": 130,
     "TraceDelay": 0.5,
-    "TraceRange": [
-      {
-        "Range": 300
-      },
-      {
-        "Means": "Permanent"
-      }
-    ],
+    "TraceRange": {
+      "Range": 300,
+      "Means": "Permanent"
+    },
     "Speed": 2000,
     "TimeLife": 3,
     "BoundCount": -1,
@@ -2418,32 +1938,22 @@
       "PauseRemovable"
     ],
     "BPPath": "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_Common_convolution_bullet.BP_Common_Convolution_bullet",
-    "SpawnSocket": [
-      {
-        "UseLocation": "Char"
-      },
-      {
-        "SpawnSocket": "Weapon_Fire"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 180
-      },
-      {
-        "BoxWidth": 180
-      },
-      {
-        "BoxHeight": 20
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Char",
+      "SpawnSocket": "Weapon_Fire"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 180,
+      "BoxWidth": 180,
+      "BoxHeight": 20
+    },
     "Speed": 2000,
     "TimeLife": 2.2,
     "BoundCount": -1,
-    "HitEnemy": {},
+    "HitEnemy": [
+      850205
+    ],
     "BulletFXID": 850201
   },
   "850208": {
@@ -2452,24 +1962,20 @@
       "PauseRemovable"
     ],
     "BPPath": "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_Common_ShockWave.BP_Common_ShockWave",
-    "Vars": [
-      {
-        "Vector": 550
-      }
-    ],
-    "SpawnSocket": [
-      {
-        "UseLocation": "Char"
-      },
-      {
-        "SpawnSocket": "Root"
-      }
-    ],
+    "Vars": {
+      "Vector": 550
+    },
+    "SpawnSocket": {
+      "UseLocation": "Char",
+      "SpawnSocket": "Root"
+    },
     "FixedBornRotation": true,
     "Speed": 0,
     "TimeLife": 3,
     "BoundCount": -1,
-    "HitEnemy": {},
+    "HitEnemy": [
+      850234
+    ],
     "BulletFXID": 850205
   },
   "850209": {
@@ -2484,28 +1990,16 @@
       "SkillEffectId2": 850241
     },
     "DestroyWithCreator": 1,
-    "SpawnSocket": [
-      {
-        "UseLocation": "Char"
-      },
-      {
-        "SpawnSocket": "Root"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 150
-      },
-      {
-        "BoxWidth": 150
-      },
-      {
-        "BoxHeight": 500
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Char",
+      "SpawnSocket": "Root"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 150,
+      "BoxWidth": 150,
+      "BoxHeight": 500
+    },
     "FixedBornRotation": true,
     "TraceSpeed": 600,
     "TraceDelay": 0.5,
@@ -2513,11 +2007,9 @@
       "Range": 50,
       "Means": "Temporary"
     },
-    "TraceAxisLock": [
-      {
-        "Z": true
-      }
-    ],
+    "TraceAxisLock": {
+      "Z": true
+    },
     "Speed": 400,
     "TimeLife": 20,
     "BoundCount": -1,
@@ -2530,32 +2022,22 @@
       "PauseRemovable"
     ],
     "BPPath": "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_BossSaiqi_Skill03_Bullet.BP_BossSaiqi_Skill03_Bullet",
-    "SpawnSocket": [
-      {
-        "UseLocation": "Char"
-      },
-      {
-        "SpawnSocket": "Weapon_Fire"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 300
-      },
-      {
-        "BoxWidth": 200
-      },
-      {
-        "BoxHeight": 20
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Char",
+      "SpawnSocket": "Weapon_Fire"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 300,
+      "BoxWidth": 200,
+      "BoxHeight": 20
+    },
     "Speed": 2000,
     "TimeLife": 2,
     "BoundCount": -1,
-    "HitEnemy": {},
+    "HitEnemy": [
+      850207
+    ],
     "BulletFXID": 850202
   },
   "850211": {
@@ -2563,14 +2045,10 @@
     "Tags": [
       "PauseRemovable"
     ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 340
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 340
+    },
     "FixedBornRotation": true,
     "Speed": 0,
     "TimeLife": 1.5,
@@ -2589,22 +2067,14 @@
     "Tags": [
       "PauseRemovable"
     ],
-    "SpawnSocket": [
-      {
-        "UseLocation": "Target"
-      },
-      {
-        "SpawnSocket": "Root"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 300
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Target",
+      "SpawnSocket": "Root"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 300
+    },
     "FixedBornRotation": true,
     "Speed": 0,
     "TimeLife": 3,
@@ -2622,14 +2092,10 @@
     "Tags": [
       "PauseRemovable"
     ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 340
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 340
+    },
     "FixedBornRotation": true,
     "Speed": 0,
     "TimeLife": 1.5,
@@ -2647,26 +2113,20 @@
     "Tags": [
       "PauseRemovable"
     ],
-    "SpawnSocket": [
-      {
-        "UseLocation": "Char"
-      },
-      {
-        "SpawnSocket": "Root"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 30
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Char",
+      "SpawnSocket": "Root"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 30
+    },
     "Speed": 3500,
     "TimeLife": 3,
     "BoundCount": -1,
-    "HitEnemy": {},
+    "HitEnemy": [
+      8502148
+    ],
     "BulletFXID": 850203
   },
   "850218": {
@@ -2675,56 +2135,32 @@
       "PauseRemovable"
     ],
     "BPPath": "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_Saiqi_Skill07_Bullet.BP_Saiqi_Skill07_Bullet",
-    "Vars": [
-      {
-        "DamageInterval": 1
-      },
-      {
-        "SkillEffectId1": 8502120
-      },
-      {
-        "SkillEffectId2": 8502161
-      }
-    ],
+    "Vars": {
+      "DamageInterval": 1,
+      "SkillEffectId1": 8502120,
+      "SkillEffectId2": 8502161
+    },
     "DestroyWithCreator": 1,
-    "SpawnSocket": [
-      {
-        "UseLocation": "Char"
-      },
-      {
-        "SpawnSocket": "Root"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 150
-      },
-      {
-        "BoxWidth": 150
-      },
-      {
-        "BoxHeight": 500
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Char",
+      "SpawnSocket": "Root"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 150,
+      "BoxWidth": 150,
+      "BoxHeight": 500
+    },
     "FixedBornRotation": true,
     "TraceSpeed": 500,
     "TraceDelay": 0.5,
-    "TraceRange": [
-      {
-        "Range": 200
-      },
-      {
-        "Means": "Temporary"
-      }
-    ],
-    "TraceAxisLock": [
-      {
-        "Z": true
-      }
-    ],
+    "TraceRange": {
+      "Range": 200,
+      "Means": "Temporary"
+    },
+    "TraceAxisLock": {
+      "Z": true
+    },
     "Speed": 520,
     "TimeLife": -1,
     "BoundCount": -1,
@@ -2740,14 +2176,10 @@
       "DamageInterval": 0.25,
       "SkillEffectId": 8502143
     },
-    "SpawnSocket": [
-      {
-        "UseLocation": "Char"
-      },
-      {
-        "SpawnSocket": "Root"
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Char",
+      "SpawnSocket": "Root"
+    },
     "ShapeInfo": {
       "ShapeType": "Box",
       "BoxLength": 150,
@@ -2772,28 +2204,16 @@
       "Radius": 2000
     },
     "DestroyWithCreator": 1,
-    "SpawnSocket": [
-      {
-        "UseLocation": "Char"
-      },
-      {
-        "SpawnSocket": "Root"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 150
-      },
-      {
-        "BoxWidth": 150
-      },
-      {
-        "BoxHeight": 500
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Char",
+      "SpawnSocket": "Root"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 150,
+      "BoxWidth": 150,
+      "BoxHeight": 500
+    },
     "FixedBornRotation": true,
     "Speed": 520,
     "TimeLife": -1,
@@ -2812,28 +2232,16 @@
       "Radius": 1000
     },
     "DestroyWithCreator": 1,
-    "SpawnSocket": [
-      {
-        "UseLocation": "Char"
-      },
-      {
-        "SpawnSocket": "Root"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 150
-      },
-      {
-        "BoxWidth": 150
-      },
-      {
-        "BoxHeight": 500
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Char",
+      "SpawnSocket": "Root"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 150,
+      "BoxWidth": 150,
+      "BoxHeight": 500
+    },
     "FixedBornRotation": true,
     "Speed": 520,
     "TimeLife": -1,
@@ -2846,56 +2254,32 @@
       "PauseRemovable"
     ],
     "BPPath": "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_Saiqi_Skill07_Bullet.BP_Saiqi_Skill07_Bullet",
-    "Vars": [
-      {
-        "DamageInterval": 1
-      },
-      {
-        "SkillEffectId1": 8502120
-      },
-      {
-        "SkillEffectId2": 8502161
-      }
-    ],
+    "Vars": {
+      "DamageInterval": 1,
+      "SkillEffectId1": 8502120,
+      "SkillEffectId2": 8502161
+    },
     "DestroyWithCreator": 1,
-    "SpawnSocket": [
-      {
-        "UseLocation": "Char"
-      },
-      {
-        "SpawnSocket": "Root"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 150
-      },
-      {
-        "BoxWidth": 150
-      },
-      {
-        "BoxHeight": 500
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Char",
+      "SpawnSocket": "Root"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 150,
+      "BoxWidth": 150,
+      "BoxHeight": 500
+    },
     "FixedBornRotation": true,
     "TraceSpeed": 500,
     "TraceDelay": 0.5,
-    "TraceRange": [
-      {
-        "Range": 200
-      },
-      {
-        "Means": "Temporary"
-      }
-    ],
-    "TraceAxisLock": [
-      {
-        "Z": true
-      }
-    ],
+    "TraceRange": {
+      "Range": 200,
+      "Means": "Temporary"
+    },
+    "TraceAxisLock": {
+      "Z": true
+    },
     "Speed": 520,
     "TimeLife": -1,
     "BoundCount": -1,
@@ -2907,14 +2291,10 @@
     "AttachOwner": [
       1
     ],
-    "SpawnSocket": [
-      {
-        "UseLocation": "Char"
-      },
-      {
-        "SpawnSocket": "Root"
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Char",
+      "SpawnSocket": "Root"
+    },
     "ShapeInfo": {
       "ShapeType": "Sphere",
       "Radius": 600
@@ -2932,24 +2312,20 @@
       "PauseRemovable"
     ],
     "BPPath": "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_BossShijingzhe_ShockWave.BP_BossShijingzhe_ShockWave",
-    "Vars": [
-      {
-        "Vector": 550
-      }
-    ],
-    "SpawnSocket": [
-      {
-        "UseLocation": "Char"
-      },
-      {
-        "SpawnSocket": "Root"
-      }
-    ],
+    "Vars": {
+      "Vector": 550
+    },
+    "SpawnSocket": {
+      "UseLocation": "Char",
+      "SpawnSocket": "Root"
+    },
     "FixedBornRotation": true,
     "Speed": 0,
     "TimeLife": 5,
     "BoundCount": -1,
-    "HitEnemy": {}
+    "HitEnemy": [
+      850312
+    ]
   },
   "850303": {
     "CreatureId": 850303,
@@ -2957,27 +2333,17 @@
       "PauseRemovable"
     ],
     "BPPath": "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_Boss_Shijingzhe_Boom.BP_Boss_Shijingzhe_Boom",
-    "Vars": [
-      {
-        "SavedLocTag": 1
-      }
-    ],
+    "Vars": {
+      "SavedLocTag": 1
+    },
     "DestroyWithCreator": 1,
     "CollisionProfile": "SceneCollision",
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 200
-      },
-      {
-        "BoxWidth": 200
-      },
-      {
-        "BoxHeight": 800
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 200,
+      "BoxWidth": 200,
+      "BoxHeight": 800
+    },
     "FixedBornRotation": true,
     "Speed": 0,
     "TimeLife": 20,
@@ -2989,26 +2355,20 @@
       "PauseRemovable"
     ],
     "DestroyWithCreator": 1,
-    "SpawnSocket": [
-      {
-        "UseLocation": "Char"
-      },
-      {
-        "SpawnSocket": "Weapon_Fire"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 30
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Char",
+      "SpawnSocket": "Weapon_Fire"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 30
+    },
     "Speed": 2000,
     "TimeLife": 3,
     "BoundCount": 1,
-    "HitEnemy": {},
+    "HitEnemy": [
+      850310
+    ],
     "BulletFXID": 850203
   },
   "850305": {
@@ -3017,14 +2377,10 @@
     "AttachOwner": [
       1
     ],
-    "SpawnSocket": [
-      {
-        "UseLocation": "Char"
-      },
-      {
-        "SpawnSocket": "Root"
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Char",
+      "SpawnSocket": "Root"
+    },
     "ShapeInfo": {
       "ShapeType": "Sphere",
       "Radius": 700
@@ -3042,32 +2398,20 @@
       "Bullet",
       "PauseRemovable"
     ],
-    "SpawnSocket": [
-      {
-        "UseLocation": "Char"
-      },
-      {
-        "SpawnSocket": "Root"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 40
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Char",
+      "SpawnSocket": "Root"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 40
+    },
     "TraceSpeed": 7500,
     "TraceDelay": 0.03,
-    "TraceRange": [
-      {
-        "Range": 600
-      },
-      {
-        "Means": "Permanent"
-      }
-    ],
+    "TraceRange": {
+      "Range": 600,
+      "Means": "Permanent"
+    },
     "Speed": 1750,
     "TimeLife": 5,
     "BoundCount": 1,
@@ -3085,14 +2429,10 @@
       "PauseRemovable"
     ],
     "DestroyWithCreator": 1,
-    "SpawnSocket": [
-      {
-        "UseLocation": "Char"
-      },
-      {
-        "SpawnSocket": "Root"
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Char",
+      "SpawnSocket": "Root"
+    },
     "ShapeInfo": {
       "ShapeType": "Box",
       "BoxLength": 300,
@@ -3102,7 +2442,9 @@
     "Speed": 2000,
     "TimeLife": 5,
     "BoundCount": -1,
-    "HitEnemy": {},
+    "HitEnemy": [
+      8503158
+    ],
     "BulletFXID": 850302
   },
   "850308": {
@@ -3124,14 +2466,10 @@
       "UseLocation": "Char",
       "SpawnSocket": "shawl_right01_b"
     },
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 150
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 150
+    },
     "FixedBornRotation": true,
     "Speed": 0,
     "TimeLife": 999,
@@ -3157,14 +2495,10 @@
       "UseLocation": "Char",
       "SpawnSocket": "shawl_left01_b"
     },
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 150
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 150
+    },
     "FixedBornRotation": true,
     "Speed": 0,
     "TimeLife": 999,
@@ -3190,14 +2524,10 @@
       "UseLocation": "Char",
       "SpawnSocket": "calf_right01_b"
     },
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 150
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 150
+    },
     "FixedBornRotation": true,
     "Speed": 0,
     "TimeLife": 999,
@@ -3223,14 +2553,10 @@
       "UseLocation": "Char",
       "SpawnSocket": "calf_left01_b"
     },
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 150
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 150
+    },
     "FixedBornRotation": true,
     "Speed": 0,
     "TimeLife": 999,
@@ -3243,20 +2569,14 @@
       "PauseRemovable"
     ],
     "BPPath": "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_Boss_Shijingzhe_Boom_2.BP_Boss_Shijingzhe_Boom_2",
-    "Vars": [
-      {
-        "SavedLocTag": 1
-      }
-    ],
+    "Vars": {
+      "SavedLocTag": 1
+    },
     "DestroyWithCreator": 1,
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 40
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 40
+    },
     "Speed": 0,
     "TimeLife": 20,
     "BoundCount": -1
@@ -3267,27 +2587,17 @@
       "PauseRemovable"
     ],
     "BPPath": "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_Boss_Shijingzhe_Boom.BP_Boss_Shijingzhe_Boom",
-    "Vars": [
-      {
-        "SavedLocTag": 2
-      }
-    ],
+    "Vars": {
+      "SavedLocTag": 2
+    },
     "DestroyWithCreator": 1,
     "CollisionProfile": "SceneCollision",
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 200
-      },
-      {
-        "BoxWidth": 200
-      },
-      {
-        "BoxHeight": 800
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 200,
+      "BoxWidth": 200,
+      "BoxHeight": 800
+    },
     "FixedBornRotation": true,
     "Speed": 0,
     "TimeLife": 20,
@@ -3299,27 +2609,17 @@
       "PauseRemovable"
     ],
     "BPPath": "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_Boss_Shijingzhe_Boom.BP_Boss_Shijingzhe_Boom",
-    "Vars": [
-      {
-        "SavedLocTag": 3
-      }
-    ],
+    "Vars": {
+      "SavedLocTag": 3
+    },
     "DestroyWithCreator": 1,
     "CollisionProfile": "SceneCollision",
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 200
-      },
-      {
-        "BoxWidth": 200
-      },
-      {
-        "BoxHeight": 800
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 200,
+      "BoxWidth": 200,
+      "BoxHeight": 800
+    },
     "FixedBornRotation": true,
     "Speed": 0,
     "TimeLife": 20,
@@ -3331,27 +2631,17 @@
       "PauseRemovable"
     ],
     "BPPath": "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_Boss_Shijingzhe_Boom.BP_Boss_Shijingzhe_Boom",
-    "Vars": [
-      {
-        "SavedLocTag": 4
-      }
-    ],
+    "Vars": {
+      "SavedLocTag": 4
+    },
     "DestroyWithCreator": 1,
     "CollisionProfile": "SceneCollision",
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 200
-      },
-      {
-        "BoxWidth": 200
-      },
-      {
-        "BoxHeight": 800
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 200,
+      "BoxWidth": 200,
+      "BoxHeight": 800
+    },
     "FixedBornRotation": true,
     "Speed": 0,
     "TimeLife": 20,
@@ -3369,14 +2659,10 @@
       "UseLocation": "Char",
       "SpawnSocket": "Head"
     },
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 40
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 40
+    },
     "Speed": 3000,
     "TimeLife": 5,
     "BoundCount": 1,
@@ -3394,20 +2680,14 @@
       "PauseRemovable"
     ],
     "BPPath": "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_Boss_Shijingzhe_Boom_2.BP_Boss_Shijingzhe_Boom_2",
-    "Vars": [
-      {
-        "SavedLocTag": 2
-      }
-    ],
+    "Vars": {
+      "SavedLocTag": 2
+    },
     "DestroyWithCreator": 1,
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 40
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 40
+    },
     "Speed": 0,
     "TimeLife": 20,
     "BoundCount": -1
@@ -3418,20 +2698,14 @@
       "PauseRemovable"
     ],
     "BPPath": "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_Boss_Shijingzhe_Boom_2.BP_Boss_Shijingzhe_Boom_2",
-    "Vars": [
-      {
-        "SavedLocTag": 3
-      }
-    ],
+    "Vars": {
+      "SavedLocTag": 3
+    },
     "DestroyWithCreator": 1,
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 40
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 40
+    },
     "Speed": 0,
     "TimeLife": 20,
     "BoundCount": -1
@@ -3442,20 +2716,14 @@
       "PauseRemovable"
     ],
     "BPPath": "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_Boss_Shijingzhe_Boom_2.BP_Boss_Shijingzhe_Boom_2",
-    "Vars": [
-      {
-        "SavedLocTag": 4
-      }
-    ],
+    "Vars": {
+      "SavedLocTag": 4
+    },
     "DestroyWithCreator": 1,
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 40
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 40
+    },
     "Speed": 0,
     "TimeLife": 20,
     "BoundCount": -1
@@ -3470,14 +2738,10 @@
       "SavedLocTag": 5
     },
     "DestroyWithCreator": 1,
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 40
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 40
+    },
     "Speed": 0,
     "TimeLife": 20,
     "BoundCount": -1
@@ -3492,14 +2756,10 @@
       "SavedLocTag": 6
     },
     "DestroyWithCreator": 1,
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 40
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 40
+    },
     "Speed": 0,
     "TimeLife": 20,
     "BoundCount": -1
@@ -3514,14 +2774,10 @@
       "SavedLocTag": 7
     },
     "DestroyWithCreator": 1,
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 40
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 40
+    },
     "Speed": 0,
     "TimeLife": 20,
     "BoundCount": -1
@@ -3536,14 +2792,10 @@
       "SavedLocTag": 8
     },
     "DestroyWithCreator": 1,
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 40
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 40
+    },
     "Speed": 0,
     "TimeLife": 20,
     "BoundCount": -1
@@ -3556,14 +2808,10 @@
     ],
     "BPPath": "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_Shijingzhe_Skill23_1.BP_Shijingzhe_Skill23_1",
     "DestroyWithCreator": 1,
-    "SpawnSocket": [
-      {
-        "UseLocation": "Char"
-      },
-      {
-        "SpawnSocket": "Root"
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Char",
+      "SpawnSocket": "Root"
+    },
     "ShapeInfo": {
       "ShapeType": "Sphere",
       "Radius": 5
@@ -3586,26 +2834,21 @@
     ],
     "BPPath": "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_Shijingzhe_Skill23_2.BP_Shijingzhe_Skill23_2",
     "DestroyWithCreator": 1,
-    "SpawnSocket": [
-      {
-        "UseLocation": "Char"
-      },
-      {
-        "SpawnSocket": "Root"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 150
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Char",
+      "SpawnSocket": "Root"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 150
+    },
     "Speed": 1000,
     "TimeLife": 5,
     "BoundCount": -1,
-    "HitEnemy": {},
+    "HitEnemy": [
+      8503158,
+      8503219
+    ],
     "HitOthers": [
       1,
       0,
@@ -3620,14 +2863,10 @@
     ],
     "BPPath": "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_Shijingzhe_Skill23_3.BP_Shijingzhe_Skill23_3",
     "DestroyWithCreator": 1,
-    "SpawnSocket": [
-      {
-        "UseLocation": "Char"
-      },
-      {
-        "SpawnSocket": "Root"
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Char",
+      "SpawnSocket": "Root"
+    },
     "ShapeInfo": {
       "ShapeType": "Box",
       "BoxLength": 300,
@@ -3637,7 +2876,10 @@
     "Speed": 2500,
     "TimeLife": 5,
     "BoundCount": -1,
-    "HitEnemy": {},
+    "HitEnemy": [
+      8503211,
+      8503212
+    ],
     "HitOthers": [
       1,
       0,
@@ -3662,28 +2904,16 @@
       "PauseRemovable"
     ],
     "BPPath": "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_Boss_Saiqi02_Skill10_Bullet.BP_Boss_Saiqi02_Skill10_Bullet",
-    "SpawnSocket": [
-      {
-        "UseLocation": "Char"
-      },
-      {
-        "SpawnSocket": "Weapon_Fire"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 180
-      },
-      {
-        "BoxWidth": 180
-      },
-      {
-        "BoxHeight": 20
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Char",
+      "SpawnSocket": "Weapon_Fire"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 180,
+      "BoxWidth": 180,
+      "BoxHeight": 20
+    },
     "Speed": 2000,
     "TimeLife": 6,
     "BoundCount": -1,
@@ -3694,23 +2924,15 @@
     "Tags": [
       "PauseRemovable"
     ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 30
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 30
+    },
     "TraceSpeed": 100,
-    "TraceRange": [
-      {
-        "Range": 300
-      },
-      {
-        "Means": "Permanent"
-      }
-    ],
+    "TraceRange": {
+      "Range": 300,
+      "Means": "Permanent"
+    },
     "Speed": 1200,
     "TimeLife": 4,
     "BoundCount": 1,
@@ -3727,64 +2949,45 @@
     "Tags": [
       "PauseRemovable"
     ],
-    "SpawnSocket": [
-      {
-        "UseLocation": "Char"
-      },
-      {
-        "SpawnSocket": "Weapon_Fire"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 300
-      },
-      {
-        "BoxWidth": 200
-      },
-      {
-        "BoxHeight": 20
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Char",
+      "SpawnSocket": "Weapon_Fire"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 300,
+      "BoxWidth": 200,
+      "BoxHeight": 20
+    },
     "Speed": 2000,
     "TimeLife": 2,
     "BoundCount": -1,
-    "HitEnemy": {},
+    "HitEnemy": [
+      850415
+    ],
     "BulletFXID": 850404
   },
   "850404": {
     "CreatureId": 850404,
-    "Tags": {},
+    "Tags": [
+      "ExplodeBullet",
+      "PauseRemovable"
+    ],
     "BPPath": "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_Saiqi02_Skill17_Bullet.BP_Saiqi02_Skill17_Bullet",
     "Vars": {
       "DamageInterval": 3
     },
     "DestroyWithCreator": 1,
-    "SpawnSocket": [
-      {
-        "UseLocation": "Char"
-      },
-      {
-        "SpawnSocket": "Root"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 150
-      },
-      {
-        "BoxWidth": 150
-      },
-      {
-        "BoxHeight": 500
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Char",
+      "SpawnSocket": "Root"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 150,
+      "BoxWidth": 150,
+      "BoxHeight": 500
+    },
     "FixedBornRotation": true,
     "Speed": 0,
     "TimeLife": 999,
@@ -3797,20 +3000,12 @@
       "PauseRemovable"
     ],
     "BPPath": "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_BossSaiqi02_convolution_bullet.BP_BossSaiqi02_convolution_bullet",
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 180
-      },
-      {
-        "BoxWidth": 180
-      },
-      {
-        "BoxHeight": 20
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 180,
+      "BoxWidth": 180,
+      "BoxHeight": 20
+    },
     "FixedBornRotation": true,
     "Speed": 0,
     "TimeLife": 4,
@@ -3823,14 +3018,10 @@
       "PauseRemovable"
     ],
     "BPPath": "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_Boss_Saiqi02_Skill28_Bullet.BP_Boss_Saiqi02_Skill28_Bullet",
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 80
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 80
+    },
     "Speed": 300,
     "TimeLife": 10
   },
@@ -3839,24 +3030,16 @@
     "Tags": [
       "PauseRemovable"
     ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 30
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 30
+    },
     "TraceSpeed": 130,
     "TraceDelay": 0.5,
-    "TraceRange": [
-      {
-        "Range": 300
-      },
-      {
-        "Means": "Permanent"
-      }
-    ],
+    "TraceRange": {
+      "Range": 300,
+      "Means": "Permanent"
+    },
     "Speed": 2000,
     "TimeLife": 3,
     "BoundCount": -1,
@@ -3870,14 +3053,10 @@
     "Tags": [
       "PauseRemovable"
     ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 30
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 30
+    },
     "Speed": 1200,
     "TimeLife": 4,
     "BoundCount": 1,
@@ -3896,14 +3075,10 @@
     ],
     "BPPath": "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_Boss_Lianhuo_Skill08_Laser.BP_Boss_Lianhuo_Skill08_Laser",
     "DestroyWithCreator": 1,
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 30
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 30
+    },
     "Speed": 0,
     "TimeLife": 10,
     "BoundCount": -1
@@ -3955,23 +3130,15 @@
     "Tags": [
       "PauseRemovable"
     ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 30
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 30
+    },
     "TraceSpeed": 5000,
-    "TraceRange": [
-      {
-        "Range": 300
-      },
-      {
-        "Means": "Permanent"
-      }
-    ],
+    "TraceRange": {
+      "Range": 300,
+      "Means": "Permanent"
+    },
     "Speed": 3000,
     "TimeLife": 3,
     "BoundCount": -1,
@@ -3988,14 +3155,10 @@
     "Tags": [
       "PauseRemovable"
     ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 340
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 340
+    },
     "FixedBornRotation": true,
     "Speed": 0,
     "TimeLife": 3,
@@ -4027,7 +3190,9 @@
     "Speed": 0,
     "TimeLife": 0.4,
     "BoundCount": -1,
-    "HitEnemy": {}
+    "HitEnemy": [
+      850514
+    ]
   },
   "850504": {
     "CreatureId": 850504,
@@ -4047,7 +3212,9 @@
     "Speed": 0,
     "TimeLife": 2.6,
     "BoundCount": -1,
-    "HitEnemy": {}
+    "HitEnemy": [
+      850526
+    ]
   },
   "850505": {
     "CreatureId": 850505,
@@ -4056,14 +3223,10 @@
     ],
     "BPPath": "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_Boss_Lianhuo_Skill08_Laser.BP_Boss_Lianhuo_Skill08_Laser",
     "DestroyWithCreator": 1,
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 30
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 30
+    },
     "Speed": 0,
     "TimeLife": 5,
     "BoundCount": -1
@@ -4073,14 +3236,10 @@
     "Tags": [
       "PauseRemovable"
     ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 340
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 340
+    },
     "FixedBornRotation": true,
     "Speed": 0,
     "TimeLife": 1.5,
@@ -4100,20 +3259,20 @@
       "PauseRemovable"
     ],
     "BPPath": "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_Boss_Lianhuo_Skill10_Bullet.BP_Boss_Lianhuo_Skill10_Bullet",
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 30
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 30
+    },
     "FixedBornRotation": true,
     "Speed": 0,
     "TimeLife": 3,
     "BoundCount": 1,
-    "HitEnemy": {},
-    "HitScene": {},
+    "HitEnemy": [
+      850540
+    ],
+    "HitScene": [
+      850541
+    ],
     "DelayDestroyTime": 1,
     "BulletFXID": 850503,
     "CollisionDelayTime": 0.15
@@ -4123,14 +3282,10 @@
     "Tags": [
       "PauseRemovable"
     ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 340
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 340
+    },
     "FixedBornRotation": true,
     "Speed": 0,
     "TimeLife": 1.5,
@@ -4180,14 +3335,10 @@
       "Delay": 0.3
     },
     "DestroyWithCreator": 1,
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 30
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 30
+    },
     "Speed": 0,
     "TimeLife": 5,
     "BoundCount": -1
@@ -4197,14 +3348,10 @@
     "Tags": [
       "PauseRemovable"
     ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 340
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 340
+    },
     "FixedBornRotation": true,
     "Speed": 0,
     "TimeLife": 3,
@@ -4220,31 +3367,27 @@
   },
   "900001": {
     "CreatureId": 900001,
-    "Tags": {},
+    "Tags": [
+      "ExplodeBullet"
+    ],
     "DestroyWithCreator": 1,
-    "SpawnSocket": [
-      {
-        "UseLocation": "Target"
-      },
-      {
-        "SpawnSocket": "Root"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 80
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Target",
+      "SpawnSocket": "Root"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 80
+    },
     "GravityCoefficient": 1,
     "GravityAdapt": true,
     "GravityFactor": 7,
     "Speed": 0.1,
     "TimeLife": 3,
     "BoundCount": 1,
-    "HitScene": {},
+    "HitScene": [
+      900016
+    ],
     "BulletFXID": 2030101
   },
   "900401": {
@@ -4260,14 +3403,10 @@
       "DirectionIndex": 1
     },
     "DestroyWithCreator": 1,
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 20
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 20
+    },
     "FixedBornRotation": true,
     "Speed": 1500,
     "TimeLife": 10,
@@ -4293,14 +3432,10 @@
       "DirectionIndex": 2
     },
     "DestroyWithCreator": 1,
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 20
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 20
+    },
     "FixedBornRotation": true,
     "Speed": 1500,
     "TimeLife": 10,
@@ -4326,14 +3461,10 @@
       "DirectionIndex": 3
     },
     "DestroyWithCreator": 1,
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 20
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 20
+    },
     "FixedBornRotation": true,
     "Speed": 1500,
     "TimeLife": 10,
@@ -4359,14 +3490,10 @@
       "DirectionIndex": 4
     },
     "DestroyWithCreator": 1,
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 20
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 20
+    },
     "FixedBornRotation": true,
     "Speed": 1500,
     "TimeLife": 10,
@@ -4389,14 +3516,10 @@
       "UseLocation": "Char",
       "SpawnSocket": "Petal06_a"
     },
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 30
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 30
+    },
     "GravityCoefficient": 1.5,
     "GravityAdapt": true,
     "GravityFactor": 1,
@@ -4416,22 +3539,14 @@
     "Tags": [
       "PauseRemovable"
     ],
-    "SpawnSocket": [
-      {
-        "UseLocation": "Char"
-      },
-      {
-        "SpawnSocket": "hook_arm_r"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 10
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Char",
+      "SpawnSocket": "hook_arm_r"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 10
+    },
     "GravityCoefficient": 1,
     "GravityAdapt": true,
     "GravityFactor": 1000,
@@ -4451,48 +3566,36 @@
     "AttachOwner": [
       1
     ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 70
-      },
-      {
-        "BoxWidth": 30
-      },
-      {
-        "BoxHeight": 70
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 70,
+      "BoxWidth": 30,
+      "BoxHeight": 70
+    },
     "Speed": 0,
     "TimeLife": 2,
     "BoundCount": -1,
-    "HitEnemy": {}
+    "HitEnemy": [
+      900606
+    ]
   },
   "900602": {
     "CreatureId": 900602,
     "AttachOwner": [
       1
     ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 70
-      },
-      {
-        "BoxWidth": 30
-      },
-      {
-        "BoxHeight": 70
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 70,
+      "BoxWidth": 30,
+      "BoxHeight": 70
+    },
     "Speed": 0,
     "TimeLife": 2,
     "BoundCount": -1,
-    "HitEnemy": {}
+    "HitEnemy": [
+      900613
+    ]
   },
   "950001": {
     "CreatureId": 950001,
@@ -4500,34 +3603,26 @@
       "PauseRemovable"
     ],
     "BPPath": "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_NE_Dajie_Treasure.BP_NE_Dajie_Treasure",
-    "Vars": [
-      {
-        "MaxSpeedRate": 1.5
-      }
-    ],
-    "SpawnSocket": [
-      {
-        "UseLocation": "Char"
-      },
-      {
-        "SpawnSocket": "rootpendant_right01_a"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 10
-      }
-    ],
+    "Vars": {
+      "MaxSpeedRate": 1.5
+    },
+    "SpawnSocket": {
+      "UseLocation": "Char",
+      "SpawnSocket": "rootpendant_right01_a"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 10
+    },
     "FixedBornRotation": true,
     "FixedMoveRotation": true,
     "GravityCoefficient": 1.5,
     "Speed": 800,
     "TimeLife": 10,
     "BoundCount": 1,
-    "HitScene": {},
+    "HitScene": [
+      950002
+    ],
     "BulletFXID": 950001
   },
   "950002": {
@@ -4536,34 +3631,26 @@
       "PauseRemovable"
     ],
     "BPPath": "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_NE_Dajie_Treasure.BP_NE_Dajie_Treasure",
-    "Vars": [
-      {
-        "MaxSpeedRate": 1.5
-      }
-    ],
-    "SpawnSocket": [
-      {
-        "UseLocation": "Char"
-      },
-      {
-        "SpawnSocket": "rootpendant_right01_a"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 10
-      }
-    ],
+    "Vars": {
+      "MaxSpeedRate": 1.5
+    },
+    "SpawnSocket": {
+      "UseLocation": "Char",
+      "SpawnSocket": "rootpendant_right01_a"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 10
+    },
     "FixedBornRotation": true,
     "FixedMoveRotation": true,
     "GravityCoefficient": 1.5,
     "Speed": 800,
     "TimeLife": 10,
     "BoundCount": 1,
-    "HitScene": {},
+    "HitScene": [
+      950006
+    ],
     "BulletFXID": 950001
   },
   "950003": {
@@ -4572,27 +3659,17 @@
       "PauseRemovable"
     ],
     "BPPath": "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_NE_Dajie_Treasure.BP_NE_Dajie_Treasure",
-    "Vars": [
-      {
-        "MaxSpeedRate": 1.5
-      }
-    ],
-    "SpawnSocket": [
-      {
-        "UseLocation": "Char"
-      },
-      {
-        "SpawnSocket": "rootpendant_right01_a"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 10
-      }
-    ],
+    "Vars": {
+      "MaxSpeedRate": 1.5
+    },
+    "SpawnSocket": {
+      "UseLocation": "Char",
+      "SpawnSocket": "rootpendant_right01_a"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 10
+    },
     "FixedBornRotation": true,
     "FixedMoveRotation": true,
     "GravityCoefficient": 1.5,
@@ -4610,34 +3687,26 @@
       "PauseRemovable"
     ],
     "BPPath": "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_NE_Dajie_Treasure.BP_NE_Dajie_Treasure",
-    "Vars": [
-      {
-        "MaxSpeedRate": 1.5
-      }
-    ],
-    "SpawnSocket": [
-      {
-        "UseLocation": "Char"
-      },
-      {
-        "SpawnSocket": "rootpendant_right01_a"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 10
-      }
-    ],
+    "Vars": {
+      "MaxSpeedRate": 1.5
+    },
+    "SpawnSocket": {
+      "UseLocation": "Char",
+      "SpawnSocket": "rootpendant_right01_a"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 10
+    },
     "FixedBornRotation": true,
     "FixedMoveRotation": true,
     "GravityCoefficient": 1.5,
     "Speed": 800,
     "TimeLife": 10,
     "BoundCount": 1,
-    "HitScene": {},
+    "HitScene": [
+      950008
+    ],
     "BulletFXID": 950001
   },
   "950005": {
@@ -4646,34 +3715,26 @@
       "PauseRemovable"
     ],
     "BPPath": "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_NE_Dajie_Treasure.BP_NE_Dajie_Treasure",
-    "Vars": [
-      {
-        "MaxSpeedRate": 1.5
-      }
-    ],
-    "SpawnSocket": [
-      {
-        "UseLocation": "Char"
-      },
-      {
-        "SpawnSocket": "rootpendant_right01_a"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 10
-      }
-    ],
+    "Vars": {
+      "MaxSpeedRate": 1.5
+    },
+    "SpawnSocket": {
+      "UseLocation": "Char",
+      "SpawnSocket": "rootpendant_right01_a"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 10
+    },
     "FixedBornRotation": true,
     "FixedMoveRotation": true,
     "GravityCoefficient": 1.5,
     "Speed": 800,
     "TimeLife": 10,
     "BoundCount": 1,
-    "HitScene": {},
+    "HitScene": [
+      950009
+    ],
     "BulletFXID": 950001
   },
   "950006": {
@@ -4682,22 +3743,14 @@
       "PauseRemovable"
     ],
     "BPPath": "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_NE_Dajie_Treasure02.BP_NE_Dajie_Treasure02",
-    "SpawnSocket": [
-      {
-        "UseLocation": "Char"
-      },
-      {
-        "SpawnSocket": "hook_arm_r"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 10
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Char",
+      "SpawnSocket": "hook_arm_r"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 10
+    },
     "GravityCoefficient": 2,
     "GravityAdapt": true,
     "GravityFactor": 9999,
@@ -4717,34 +3770,26 @@
       "PauseRemovable"
     ],
     "BPPath": "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_NE_Dajie_Treasure.BP_NE_Dajie_Treasure",
-    "Vars": [
-      {
-        "MaxSpeedRate": 1.5
-      }
-    ],
-    "SpawnSocket": [
-      {
-        "UseLocation": "Char"
-      },
-      {
-        "SpawnSocket": "rootpendant_right01_a"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 10
-      }
-    ],
+    "Vars": {
+      "MaxSpeedRate": 1.5
+    },
+    "SpawnSocket": {
+      "UseLocation": "Char",
+      "SpawnSocket": "rootpendant_right01_a"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 10
+    },
     "FixedBornRotation": true,
     "FixedMoveRotation": true,
     "GravityCoefficient": 1.5,
     "Speed": 800,
     "TimeLife": 10,
     "BoundCount": 1,
-    "HitScene": {},
+    "HitScene": [
+      950014
+    ],
     "BulletFXID": 950001
   },
   "950008": {
@@ -4753,34 +3798,26 @@
       "PauseRemovable"
     ],
     "BPPath": "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_NE_Dajie_Treasure.BP_NE_Dajie_Treasure",
-    "Vars": [
-      {
-        "MaxSpeedRate": 1.5
-      }
-    ],
-    "SpawnSocket": [
-      {
-        "UseLocation": "Char"
-      },
-      {
-        "SpawnSocket": "rootpendant_right01_a"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 10
-      }
-    ],
+    "Vars": {
+      "MaxSpeedRate": 1.5
+    },
+    "SpawnSocket": {
+      "UseLocation": "Char",
+      "SpawnSocket": "rootpendant_right01_a"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 10
+    },
     "FixedBornRotation": true,
     "FixedMoveRotation": true,
     "GravityCoefficient": 1.5,
     "Speed": 800,
     "TimeLife": 10,
     "BoundCount": 1,
-    "HitScene": {},
+    "HitScene": [
+      950015
+    ],
     "BulletFXID": 950001
   },
   "950009": {
@@ -4789,34 +3826,26 @@
       "PauseRemovable"
     ],
     "BPPath": "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_NE_Dajie_Treasure.BP_NE_Dajie_Treasure",
-    "Vars": [
-      {
-        "MaxSpeedRate": 1.5
-      }
-    ],
-    "SpawnSocket": [
-      {
-        "UseLocation": "Char"
-      },
-      {
-        "SpawnSocket": "rootpendant_right01_a"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 10
-      }
-    ],
+    "Vars": {
+      "MaxSpeedRate": 1.5
+    },
+    "SpawnSocket": {
+      "UseLocation": "Char",
+      "SpawnSocket": "rootpendant_right01_a"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 10
+    },
     "FixedBornRotation": true,
     "FixedMoveRotation": true,
     "GravityCoefficient": 1.5,
     "Speed": 800,
     "TimeLife": 10,
     "BoundCount": 1,
-    "HitScene": {},
+    "HitScene": [
+      950016
+    ],
     "BulletFXID": 950001
   },
   "950101": {
@@ -4825,30 +3854,26 @@
       "PauseRemovable"
     ],
     "BPPath": "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_NE_Haer_Creature01.BP_NE_Haer_Creature01",
-    "SpawnSocket": [
-      {
-        "UseLocation": "Char"
-      },
-      {
-        "SpawnSocket": "hook_arm_r"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 10
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Char",
+      "SpawnSocket": "hook_arm_r"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 10
+    },
     "GravityCoefficient": 1,
     "GravityAdapt": true,
     "GravityFactor": 9999,
     "Speed": 1300,
     "TimeLife": 10,
     "BoundCount": 1,
-    "HitEnemy": {},
-    "HitScene": {},
+    "HitEnemy": [
+      950106
+    ],
+    "HitScene": [
+      950107
+    ],
     "BulletFXID": 950101
   },
   "950102": {
@@ -4860,22 +3885,14 @@
     "AttachOwner": [
       1
     ],
-    "SpawnSocket": [
-      {
-        "UseLocation": "Char"
-      },
-      {
-        "SpawnSocket": "hook_arm_r"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 10
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Char",
+      "SpawnSocket": "hook_arm_r"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 10
+    },
     "Speed": 0,
     "TimeLife": 3,
     "BoundCount": -1
@@ -4886,35 +3903,27 @@
       "ExplodeBullet",
       "PauseInvisible"
     ],
-    "SpawnSocket": [
-      {
-        "UseLocation": "Weapon"
-      },
-      {
-        "SpawnSocket": "gunpoint_01"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 10
-      },
-      {
-        "BoxWidth": 5
-      },
-      {
-        "BoxHeight": 5
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Weapon",
+      "SpawnSocket": "gunpoint_01"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 10,
+      "BoxWidth": 5,
+      "BoxHeight": 5
+    },
     "GravityCoefficient": 1,
     "GravityAdapt": true,
     "Speed": 1500,
     "TimeLife": 5,
     "BoundCount": 1,
-    "HitEnemy": {},
-    "HitScene": {},
+    "HitEnemy": [
+      101023022
+    ],
+    "HitScene": [
+      101023023
+    ],
     "BulletFXID": 10108101
   },
   "1010501": {
@@ -4923,20 +3932,12 @@
       "PauseInvisible"
     ],
     "BPPath": "/Game/BluePrints/Combat/SkillCreatures/Player/BP_Saiqi_Missile_Skill01New.BP_Saiqi_Missile_Skill01New",
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 10
-      },
-      {
-        "BoxWidth": 5
-      },
-      {
-        "BoxHeight": 5
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 10,
+      "BoxWidth": 5,
+      "BoxHeight": 5
+    },
     "Speed": 1,
     "TimeLife": 3,
     "BoundCount": 1,
@@ -4952,20 +3953,12 @@
       "PauseInvisible"
     ],
     "BPPath": "/Game/BluePrints/Combat/SkillCreatures/Player/BP_Saiqi_Missile_Skill01New.BP_Saiqi_Missile_Skill01New",
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 10
-      },
-      {
-        "BoxWidth": 5
-      },
-      {
-        "BoxHeight": 5
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 10,
+      "BoxWidth": 5,
+      "BoxHeight": 5
+    },
     "Speed": 1,
     "TimeLife": 3,
     "BoundCount": 1,
@@ -4980,14 +3973,10 @@
     "Tags": [
       "Bullet"
     ],
-    "SpawnSocket": [
-      {
-        "UseLocation": "Weapon"
-      },
-      {
-        "SpawnSocket": "Root"
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Weapon",
+      "SpawnSocket": "Root"
+    },
     "ShapeInfo": {
       "ShapeType": "Sphere",
       "Radius": 680
@@ -5019,7 +4008,9 @@
     "Speed": 0,
     "TimeLife": -1,
     "BoundCount": -1,
-    "HitEnemy": {}
+    "HitEnemy": [
+      101053013
+    ]
   },
   "1010505": {
     "CreatureId": 1010505,
@@ -5027,24 +4018,18 @@
       "PauseInvisible"
     ],
     "BPPath": "/Game/BluePrints/Combat/SkillCreatures/Player/BP_Saiqi_Missile_Skill01New.BP_Saiqi_Missile_Skill01New",
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 10
-      },
-      {
-        "BoxWidth": 5
-      },
-      {
-        "BoxHeight": 5
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 10,
+      "BoxWidth": 5,
+      "BoxHeight": 5
+    },
     "Speed": 1,
     "TimeLife": 3,
     "BoundCount": 1,
-    "HitEnemy": {},
+    "HitEnemy": [
+      101053022
+    ],
     "BulletFXID": 10105302,
     "DelayPlayFX": 0.07
   },
@@ -5054,26 +4039,16 @@
       "PauseInvisible"
     ],
     "BPPath": "/Game/BluePrints/Combat/SkillCreatures/Player/Rouge/BP_Rou_SkillCreature_10106102.BP_Rou_SkillCreature_10106102",
-    "Vars": [
-      {
-        "Rou10106Bullet": 1
-      }
-    ],
+    "Vars": {
+      "Rou10106Bullet": 1
+    },
     "DestroyWithCreator": 1,
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 50
-      },
-      {
-        "BoxWidth": 10
-      },
-      {
-        "BoxHeight": 10
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 50,
+      "BoxWidth": 10,
+      "BoxHeight": 10
+    },
     "Speed": 600,
     "TimeLife": 10,
     "BoundCount": 1,
@@ -5090,26 +4065,16 @@
       "PauseInvisible"
     ],
     "BPPath": "/Game/BluePrints/Combat/SkillCreatures/Player/Rouge/BP_Rou_SkillCreature_10106102.BP_Rou_SkillCreature_10106102",
-    "Vars": [
-      {
-        "Rou10106Bullet": 2
-      }
-    ],
+    "Vars": {
+      "Rou10106Bullet": 2
+    },
     "DestroyWithCreator": 1,
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 50
-      },
-      {
-        "BoxWidth": 10
-      },
-      {
-        "BoxHeight": 10
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 50,
+      "BoxWidth": 10,
+      "BoxHeight": 10
+    },
     "Speed": 600,
     "TimeLife": 10,
     "BoundCount": 1,
@@ -5126,26 +4091,16 @@
       "PauseInvisible"
     ],
     "BPPath": "/Game/BluePrints/Combat/SkillCreatures/Player/Rouge/BP_Rou_SkillCreature_10106102.BP_Rou_SkillCreature_10106102",
-    "Vars": [
-      {
-        "Rou10106Bullet": 3
-      }
-    ],
+    "Vars": {
+      "Rou10106Bullet": 3
+    },
     "DestroyWithCreator": 1,
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 50
-      },
-      {
-        "BoxWidth": 10
-      },
-      {
-        "BoxHeight": 10
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 50,
+      "BoxWidth": 10,
+      "BoxHeight": 10
+    },
     "Speed": 600,
     "TimeLife": 10,
     "BoundCount": 1,
@@ -5162,26 +4117,16 @@
       "PauseInvisible"
     ],
     "BPPath": "/Game/BluePrints/Combat/SkillCreatures/Player/Rouge/BP_Rou_SkillCreature_10106102.BP_Rou_SkillCreature_10106102",
-    "Vars": [
-      {
-        "Rou10106Bullet": 4
-      }
-    ],
+    "Vars": {
+      "Rou10106Bullet": 4
+    },
     "DestroyWithCreator": 1,
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 50
-      },
-      {
-        "BoxWidth": 10
-      },
-      {
-        "BoxHeight": 10
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 50,
+      "BoxWidth": 10,
+      "BoxHeight": 10
+    },
     "Speed": 600,
     "TimeLife": 10,
     "BoundCount": 1,
@@ -5198,26 +4143,16 @@
       "PauseInvisible"
     ],
     "BPPath": "/Game/BluePrints/Combat/SkillCreatures/Player/Rouge/BP_Rou_SkillCreature_10106102.BP_Rou_SkillCreature_10106102",
-    "Vars": [
-      {
-        "Rou10106Bullet": 5
-      }
-    ],
+    "Vars": {
+      "Rou10106Bullet": 5
+    },
     "DestroyWithCreator": 1,
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 50
-      },
-      {
-        "BoxWidth": 10
-      },
-      {
-        "BoxHeight": 10
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 50,
+      "BoxWidth": 10,
+      "BoxHeight": 10
+    },
     "Speed": 600,
     "TimeLife": 10,
     "BoundCount": 1,
@@ -5234,26 +4169,16 @@
       "PauseInvisible"
     ],
     "BPPath": "/Game/BluePrints/Combat/SkillCreatures/Player/Rouge/BP_Rou_SkillCreature_10106202.BP_Rou_SkillCreature_10106202",
-    "Vars": [
-      {
-        "Rou10106Bullet": 1
-      }
-    ],
+    "Vars": {
+      "Rou10106Bullet": 1
+    },
     "DestroyWithCreator": 1,
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 50
-      },
-      {
-        "BoxWidth": 10
-      },
-      {
-        "BoxHeight": 10
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 50,
+      "BoxWidth": 10,
+      "BoxHeight": 10
+    },
     "Speed": 900,
     "TimeLife": 10,
     "BoundCount": 1,
@@ -5270,26 +4195,16 @@
       "PauseInvisible"
     ],
     "BPPath": "/Game/BluePrints/Combat/SkillCreatures/Player/Rouge/BP_Rou_SkillCreature_10106202.BP_Rou_SkillCreature_10106202",
-    "Vars": [
-      {
-        "Rou10106Bullet": 2
-      }
-    ],
+    "Vars": {
+      "Rou10106Bullet": 2
+    },
     "DestroyWithCreator": 1,
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 50
-      },
-      {
-        "BoxWidth": 10
-      },
-      {
-        "BoxHeight": 10
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 50,
+      "BoxWidth": 10,
+      "BoxHeight": 10
+    },
     "Speed": 900,
     "TimeLife": 10,
     "BoundCount": 1,
@@ -5306,26 +4221,16 @@
       "PauseInvisible"
     ],
     "BPPath": "/Game/BluePrints/Combat/SkillCreatures/Player/Rouge/BP_Rou_SkillCreature_10106202.BP_Rou_SkillCreature_10106202",
-    "Vars": [
-      {
-        "Rou10106Bullet": 3
-      }
-    ],
+    "Vars": {
+      "Rou10106Bullet": 3
+    },
     "DestroyWithCreator": 1,
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 50
-      },
-      {
-        "BoxWidth": 10
-      },
-      {
-        "BoxHeight": 10
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 50,
+      "BoxWidth": 10,
+      "BoxHeight": 10
+    },
     "Speed": 900,
     "TimeLife": 10,
     "BoundCount": 1,
@@ -5342,26 +4247,16 @@
       "PauseInvisible"
     ],
     "BPPath": "/Game/BluePrints/Combat/SkillCreatures/Player/Rouge/BP_Rou_SkillCreature_10106202.BP_Rou_SkillCreature_10106202",
-    "Vars": [
-      {
-        "Rou10106Bullet": 4
-      }
-    ],
+    "Vars": {
+      "Rou10106Bullet": 4
+    },
     "DestroyWithCreator": 1,
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 50
-      },
-      {
-        "BoxWidth": 10
-      },
-      {
-        "BoxHeight": 10
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 50,
+      "BoxWidth": 10,
+      "BoxHeight": 10
+    },
     "Speed": 900,
     "TimeLife": 10,
     "BoundCount": 1,
@@ -5378,26 +4273,16 @@
       "PauseInvisible"
     ],
     "BPPath": "/Game/BluePrints/Combat/SkillCreatures/Player/Rouge/BP_Rou_SkillCreature_10106202.BP_Rou_SkillCreature_10106202",
-    "Vars": [
-      {
-        "Rou10106Bullet": 5
-      }
-    ],
+    "Vars": {
+      "Rou10106Bullet": 5
+    },
     "DestroyWithCreator": 1,
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 50
-      },
-      {
-        "BoxWidth": 10
-      },
-      {
-        "BoxHeight": 10
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 50,
+      "BoxWidth": 10,
+      "BoxHeight": 10
+    },
     "Speed": 900,
     "TimeLife": 10,
     "BoundCount": 1,
@@ -5427,20 +4312,14 @@
       "PauseInvisible"
     ],
     "BPPath": "/Game/BluePrints/Combat/SkillCreatures/Player/BP_Polearm_Heavyattack.BP_Polearm_Heavyattack",
-    "Vars": [
-      {
-        "IsHeavyAttack": "True"
-      }
-    ],
+    "Vars": {
+      "IsHeavyAttack": "True"
+    },
     "DestroyWithCreator": 1,
-    "SpawnSocket": [
-      {
-        "UseLocation": "Weapon"
-      },
-      {
-        "SpawnSocket": "Root"
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Weapon",
+      "SpawnSocket": "Root"
+    },
     "ShapeInfo": {
       "ShapeType": "Box",
       "BoxLength": 100,
@@ -5450,7 +4329,9 @@
     "Speed": 3000,
     "TimeLife": 15,
     "BoundCount": -1,
-    "HitEnemy": {},
+    "HitEnemy": [
+      1020124
+    ],
     "HitOthers": [
       1,
       0,
@@ -5470,49 +4351,31 @@
     ],
     "EnterPool": true,
     "ClientOwner": true,
-    "Vars": [
-      {
-        "IsHeavyAttack": "True"
-      }
-    ],
-    "SpawnSocket": [
-      {
-        "UseLocation": "Weapon"
-      },
-      {
-        "SpawnSocket": "Root"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 100
-      },
-      {
-        "BoxWidth": 50
-      },
-      {
-        "BoxHeight": 50
-      }
-    ],
+    "Vars": {
+      "IsHeavyAttack": "True"
+    },
+    "SpawnSocket": {
+      "UseLocation": "Weapon",
+      "SpawnSocket": "Root"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 100,
+      "BoxWidth": 50,
+      "BoxHeight": 50
+    },
     "Speed": 3000,
     "TimeLife": 2,
     "BoundCount": -1,
-    "HitEnemy": {},
+    "HitEnemy": [
+      1020222
+    ],
     "BulletFXID": 1020201,
-    "WindInfo": [
-      {
-        "WindMotorType": "Omni"
-      },
-      {
-        "Strength": 50
-      },
-      {
-        "Radius": 2.5
-      }
-    ]
+    "WindInfo": {
+      "WindMotorType": "Omni",
+      "Strength": 50,
+      "Radius": 2.5
+    }
   },
   "1020202": {
     "CreatureId": 1020202,
@@ -5540,32 +4403,20 @@
     "ClientOwner": true,
     "AttackRangeType": "Normal",
     "AllowAttackRangeModify": [
-      "true",
-      "true",
-      "false"
+      true,
+      true,
+      false
     ],
-    "SpawnSocket": [
-      {
-        "UseLocation": "Char"
-      },
-      {
-        "SpawnSocket": "Root"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 100
-      },
-      {
-        "BoxWidth": 200
-      },
-      {
-        "BoxHeight": 20
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Char",
+      "SpawnSocket": "Root"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 100,
+      "BoxWidth": 200,
+      "BoxHeight": 20
+    },
     "Speed": 1000,
     "TimeLife": 3,
     "BoundCount": -1,
@@ -5573,17 +4424,11 @@
       1030218
     ],
     "BulletFXID": 1030201,
-    "WindInfo": [
-      {
-        "WindMotorType": "Directional"
-      },
-      {
-        "Strength": 50
-      },
-      {
-        "Radius": 3
-      }
-    ]
+    "WindInfo": {
+      "WindMotorType": "Directional",
+      "Strength": 50,
+      "Radius": 3
+    }
   },
   "1030202": {
     "CreatureId": 1030202,
@@ -5594,32 +4439,20 @@
     "ClientOwner": true,
     "AttackRangeType": "Normal",
     "AllowAttackRangeModify": [
-      "true",
-      "true",
-      "false"
+      true,
+      true,
+      false
     ],
-    "SpawnSocket": [
-      {
-        "UseLocation": "Char"
-      },
-      {
-        "SpawnSocket": "Root"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 100
-      },
-      {
-        "BoxWidth": 200
-      },
-      {
-        "BoxHeight": 20
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Char",
+      "SpawnSocket": "Root"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 100,
+      "BoxWidth": 200,
+      "BoxHeight": 20
+    },
     "Speed": 1000,
     "TimeLife": 3,
     "BoundCount": -1,
@@ -5627,17 +4460,11 @@
       1030218
     ],
     "BulletFXID": 1030202,
-    "WindInfo": [
-      {
-        "WindMotorType": "Directional"
-      },
-      {
-        "Strength": 50
-      },
-      {
-        "Radius": 3
-      }
-    ]
+    "WindInfo": {
+      "WindMotorType": "Directional",
+      "Strength": 50,
+      "Radius": 3
+    }
   },
   "1050101": {
     "CreatureId": 1050101,
@@ -5645,33 +4472,19 @@
       "PauseInvisible"
     ],
     "BPPath": "/Game/BluePrints/Combat/SkillCreatures/Player/BP_Swordwhip_HeavyAttack.BP_Swordwhip_HeavyAttack",
-    "Vars": [
-      {
-        "IsHeavyAttack": "True"
-      }
-    ],
-    "SpawnSocket": [
-      {
-        "UseLocation": "Char"
-      },
-      {
-        "SpawnSocket": "Root"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 100
-      },
-      {
-        "BoxWidth": 200
-      },
-      {
-        "BoxHeight": 20
-      }
-    ],
+    "Vars": {
+      "IsHeavyAttack": "True"
+    },
+    "SpawnSocket": {
+      "UseLocation": "Char",
+      "SpawnSocket": "Root"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 100,
+      "BoxWidth": 200,
+      "BoxHeight": 20
+    },
     "Speed": 0,
     "TimeLife": 3,
     "BoundCount": -1
@@ -5693,20 +4506,12 @@
       "UseLocation": "Weapon",
       "SpawnSocket": "gunpoint_001"
     },
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 10
-      },
-      {
-        "BoxWidth": 5
-      },
-      {
-        "BoxHeight": 5
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 10,
+      "BoxWidth": 5,
+      "BoxHeight": 5
+    },
     "Speed": 15000,
     "TimeLife": 0.8,
     "BoundCount": 1,
@@ -5735,20 +4540,12 @@
       "UseLocation": "Weapon",
       "SpawnSocket": "gunpoint_002"
     },
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 10
-      },
-      {
-        "BoxWidth": 5
-      },
-      {
-        "BoxHeight": 5
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 10,
+      "BoxWidth": 5,
+      "BoxHeight": 5
+    },
     "Speed": 15000,
     "TimeLife": 0.8,
     "BoundCount": 1,
@@ -5777,20 +4574,12 @@
       "UseLocation": "Weapon",
       "SpawnSocket": "gunpoint_003"
     },
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 10
-      },
-      {
-        "BoxWidth": 5
-      },
-      {
-        "BoxHeight": 5
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 10,
+      "BoxWidth": 5,
+      "BoxHeight": 5
+    },
     "Speed": 15000,
     "TimeLife": 0.8,
     "BoundCount": 1,
@@ -5816,28 +4605,16 @@
       0,
       90
     ],
-    "SpawnSocket": [
-      {
-        "UseLocation": "Weapon"
-      },
-      {
-        "SpawnSocket": "gunpoint_01"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 10
-      },
-      {
-        "BoxWidth": 5
-      },
-      {
-        "BoxHeight": 5
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Weapon",
+      "SpawnSocket": "gunpoint_01"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 10,
+      "BoxWidth": 5,
+      "BoxHeight": 5
+    },
     "Speed": 15000,
     "TimeLife": 0.8,
     "BoundCount": 1,
@@ -5863,28 +4640,16 @@
       0,
       90
     ],
-    "SpawnSocket": [
-      {
-        "UseLocation": "ChildWeapon"
-      },
-      {
-        "SpawnSocket": "gunpoint_01"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 10
-      },
-      {
-        "BoxWidth": 5
-      },
-      {
-        "BoxHeight": 5
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "ChildWeapon",
+      "SpawnSocket": "gunpoint_01"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 10,
+      "BoxWidth": 5,
+      "BoxHeight": 5
+    },
     "Speed": 15000,
     "TimeLife": 0.8,
     "BoundCount": 1,
@@ -5910,14 +4675,10 @@
       0,
       90
     ],
-    "SpawnSocket": [
-      {
-        "UseLocation": "Weapon"
-      },
-      {
-        "SpawnSocket": "gunpoint_01"
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Weapon",
+      "SpawnSocket": "gunpoint_01"
+    },
     "RayCrossSceneCount": 1,
     "Speed": 6500,
     "TimeLife": 3,
@@ -5949,14 +4710,10 @@
       0,
       90
     ],
-    "SpawnSocket": [
-      {
-        "UseLocation": "ChildWeapon"
-      },
-      {
-        "SpawnSocket": "gunpoint_01"
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "ChildWeapon",
+      "SpawnSocket": "gunpoint_01"
+    },
     "RayCrossSceneCount": 1,
     "Speed": 6500,
     "TimeLife": 3,
@@ -5988,28 +4745,16 @@
       0,
       90
     ],
-    "SpawnSocket": [
-      {
-        "UseLocation": "Weapon"
-      },
-      {
-        "SpawnSocket": "gunpoint_01"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 10
-      },
-      {
-        "BoxWidth": 5
-      },
-      {
-        "BoxHeight": 5
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Weapon",
+      "SpawnSocket": "gunpoint_01"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 10,
+      "BoxWidth": 5,
+      "BoxHeight": 5
+    },
     "Speed": 8000,
     "TimeLife": 0.8,
     "BoundCount": 1,
@@ -6035,28 +4780,16 @@
       0,
       90
     ],
-    "SpawnSocket": [
-      {
-        "UseLocation": "ChildWeapon"
-      },
-      {
-        "SpawnSocket": "gunpoint_01"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 10
-      },
-      {
-        "BoxWidth": 5
-      },
-      {
-        "BoxHeight": 5
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "ChildWeapon",
+      "SpawnSocket": "gunpoint_01"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 10,
+      "BoxWidth": 5,
+      "BoxHeight": 5
+    },
     "Speed": 8000,
     "TimeLife": 0.8,
     "BoundCount": 1,
@@ -6082,28 +4815,16 @@
       0,
       90
     ],
-    "SpawnSocket": [
-      {
-        "UseLocation": "Weapon"
-      },
-      {
-        "SpawnSocket": "gunpoint_01"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 10
-      },
-      {
-        "BoxWidth": 5
-      },
-      {
-        "BoxHeight": 5
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Weapon",
+      "SpawnSocket": "gunpoint_01"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 10,
+      "BoxWidth": 5,
+      "BoxHeight": 5
+    },
     "Speed": 8000,
     "TimeLife": 0.8,
     "BoundCount": 1,
@@ -6129,28 +4850,16 @@
       0,
       90
     ],
-    "SpawnSocket": [
-      {
-        "UseLocation": "ChildWeapon"
-      },
-      {
-        "SpawnSocket": "gunpoint_01"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 10
-      },
-      {
-        "BoxWidth": 5
-      },
-      {
-        "BoxHeight": 5
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "ChildWeapon",
+      "SpawnSocket": "gunpoint_01"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 10,
+      "BoxWidth": 5,
+      "BoxHeight": 5
+    },
     "Speed": 8000,
     "TimeLife": 0.8,
     "BoundCount": 1,
@@ -6171,35 +4880,29 @@
     "EnterPool": true,
     "UseBulletCreature": true,
     "EffectMultiple": true,
-    "SpawnSocket": [
-      {
-        "UseLocation": "Weapon"
-      },
-      {
-        "SpawnSocket": "gunpoint_01"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 10
-      },
-      {
-        "BoxWidth": 5
-      },
-      {
-        "BoxHeight": 5
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Weapon",
+      "SpawnSocket": "gunpoint_01"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 10,
+      "BoxWidth": 5,
+      "BoxHeight": 5
+    },
     "GravityCoefficient": 1,
     "GravityAdapt": true,
     "Speed": 5000,
     "TimeLife": 5,
     "BoundCount": 1,
-    "HitEnemy": {},
-    "HitScene": {},
+    "HitEnemy": [
+      2030112,
+      2030114
+    ],
+    "HitScene": [
+      2030113,
+      2030114
+    ],
     "BulletFXID": 2030101
   },
   "2030211": {
@@ -6211,41 +4914,40 @@
     "EnterPool": true,
     "UseBulletCreature": true,
     "EffectMultiple": true,
-    "SpawnSocket": [
-      {
-        "UseLocation": "Weapon"
-      },
-      {
-        "SpawnSocket": "gunpoint_01"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 10
-      },
-      {
-        "BoxWidth": 5
-      },
-      {
-        "BoxHeight": 5
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Weapon",
+      "SpawnSocket": "gunpoint_01"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 10,
+      "BoxWidth": 5,
+      "BoxHeight": 5
+    },
     "GravityCoefficient": 1,
     "GravityAdapt": true,
     "Speed": 5000,
     "TimeLife": 1,
     "BoundCount": 1,
-    "HitEnemy": {},
-    "HitScene": {},
+    "HitEnemy": [
+      2030212,
+      2030214,
+      2030215
+    ],
+    "HitScene": [
+      2030213,
+      2030214,
+      2030215
+    ],
     "HitOthers": [
       2,
       0,
       2
     ],
-    "DestroyEffects": {},
+    "DestroyEffects": [
+      2030212,
+      2030215
+    ],
     "BulletFXID": 2030101
   },
   "2030212": {
@@ -6256,20 +4958,12 @@
     ],
     "BPPath": "/Game/BluePrints/Combat/SkillCreatures/Player/BP_Cannon_20302.BP_Cannon_20302",
     "DestroyWithCreator": 1,
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 10
-      },
-      {
-        "BoxWidth": 5
-      },
-      {
-        "BoxHeight": 5
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 10,
+      "BoxWidth": 5,
+      "BoxHeight": 5
+    },
     "GravityCoefficient": 1,
     "GravityAdapt": true,
     "Speed": 5000,
@@ -6291,14 +4985,10 @@
       0,
       90
     ],
-    "SpawnSocket": [
-      {
-        "UseLocation": "Weapon"
-      },
-      {
-        "SpawnSocket": "gunpoint_01"
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Weapon",
+      "SpawnSocket": "gunpoint_01"
+    },
     "ShapeInfo": {
       "ShapeType": "Box",
       "BoxLength": 3,
@@ -6308,8 +4998,12 @@
     "Speed": 15000,
     "TimeLife": 0.8,
     "BoundCount": 1,
-    "HitEnemy": {},
-    "HitScene": {},
+    "HitEnemy": [
+      2040112
+    ],
+    "HitScene": [
+      2040113
+    ],
     "BulletFXID": 2040103
   },
   "2040211": {
@@ -6321,28 +5015,16 @@
     "ClientOwner": true,
     "BPPath": "/Game/BluePrints/Combat/SkillCreatures/Player/BP_Shotgun_20402.BP_Shotgun_20402",
     "DestroyWithCreator": 1,
-    "SpawnSocket": [
-      {
-        "UseLocation": "Weapon"
-      },
-      {
-        "SpawnSocket": "gunpoint_01"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 10
-      },
-      {
-        "BoxWidth": 10
-      },
-      {
-        "BoxHeight": 10
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Weapon",
+      "SpawnSocket": "gunpoint_01"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 10,
+      "BoxWidth": 10,
+      "BoxHeight": 10
+    },
     "RayCrossSceneCount": 1,
     "Speed": 2000,
     "TimeLife": -1,
@@ -6354,7 +5036,11 @@
     "HitScene": [
       10
     ],
-    "HitOthers": {},
+    "HitOthers": [
+      2,
+      2,
+      2
+    ],
     "DelayDestroyTime": 0.5,
     "BulletFXID": 2040201
   },
@@ -6367,28 +5053,16 @@
     "BPPath": "/Game/BluePrints/Combat/SkillCreatures/Player/BP_Shotgun_20403.BP_Shotgun_20403",
     "DestroyWithCreator": 1,
     "EffectMultiple": true,
-    "SpawnSocket": [
-      {
-        "UseLocation": "Weapon"
-      },
-      {
-        "SpawnSocket": "gunpoint_01"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 15
-      },
-      {
-        "BoxWidth": 15
-      },
-      {
-        "BoxHeight": 15
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Weapon",
+      "SpawnSocket": "gunpoint_01"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 15,
+      "BoxWidth": 15,
+      "BoxHeight": 15
+    },
     "TraceSpeed": 200,
     "TraceDelay": 0.11,
     "TraceRange": {
@@ -6398,8 +5072,14 @@
     "Speed": 1400,
     "TimeLife": -1,
     "BoundCount": 1,
-    "HitEnemy": {},
-    "HitScene": {},
+    "HitEnemy": [
+      2040313,
+      2040315
+    ],
+    "HitScene": [
+      2040314,
+      2040315
+    ],
     "BulletFXID": 2040301,
     "DelayPlayFX": 0.1
   },
@@ -6412,28 +5092,16 @@
     "EnterPool": true,
     "UseBulletCreature": true,
     "EffectMultiple": true,
-    "SpawnSocket": [
-      {
-        "UseLocation": "Weapon"
-      },
-      {
-        "SpawnSocket": "gunpoint_01"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 100
-      },
-      {
-        "BoxWidth": 50
-      },
-      {
-        "BoxHeight": 50
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Weapon",
+      "SpawnSocket": "gunpoint_01"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 100,
+      "BoxWidth": 50,
+      "BoxHeight": 50
+    },
     "Speed": 2000,
     "TimeLife": 5,
     "BoundCount": 1,
@@ -6446,17 +5114,11 @@
       2040413
     ],
     "BulletFXID": 2040301,
-    "WindInfo": [
-      {
-        "WindMotorType": "Omni"
-      },
-      {
-        "Strength": 50
-      },
-      {
-        "Radius": 2.5
-      }
-    ]
+    "WindInfo": {
+      "WindMotorType": "Omni",
+      "Strength": 50,
+      "Radius": 2.5
+    }
   },
   "2040402": {
     "CreatureId": 2040402,
@@ -6466,41 +5128,29 @@
     ],
     "BPPath": "/Game/BluePrints/Combat/SkillCreatures/Player/BP_Shotgun_20404.BP_Shotgun_20404",
     "DestroyWithCreator": 1,
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 100
-      },
-      {
-        "BoxWidth": 50
-      },
-      {
-        "BoxHeight": 50
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 100,
+      "BoxWidth": 50,
+      "BoxHeight": 50
+    },
     "Speed": 1000,
     "TimeLife": 5,
     "BoundCount": -1,
-    "HitEnemy": {},
+    "HitEnemy": [
+      2040414
+    ],
     "HitOthers": [
       0,
       0,
       1
     ],
     "BulletFXID": 2040301,
-    "WindInfo": [
-      {
-        "WindMotorType": "Omni"
-      },
-      {
-        "Strength": 50
-      },
-      {
-        "Radius": 2.5
-      }
-    ]
+    "WindInfo": {
+      "WindMotorType": "Omni",
+      "Strength": 50,
+      "Radius": 2.5
+    }
   },
   "2040511": {
     "CreatureId": 2040511,
@@ -6514,14 +5164,10 @@
       0,
       90
     ],
-    "SpawnSocket": [
-      {
-        "UseLocation": "Weapon"
-      },
-      {
-        "SpawnSocket": "gunpoint_01"
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Weapon",
+      "SpawnSocket": "gunpoint_01"
+    },
     "ShapeInfo": {
       "ShapeType": "Box",
       "BoxLength": 100,
@@ -6534,7 +5180,9 @@
     "HitEnemy": [
       110151
     ],
-    "HitScene": {},
+    "HitScene": [
+      2040513
+    ],
     "HitEnemyIgnore": 1,
     "BulletFXID": 2040502
   },
@@ -6546,33 +5194,25 @@
     ],
     "BPPath": "/Game/BluePrints/Combat/SkillCreatures/Player/BP_Shotgun_20405_HeavyBullet.BP_Shotgun_20405_HeavyBullet",
     "EffectMultiple": true,
-    "SpawnSocket": [
-      {
-        "UseLocation": "Weapon"
-      },
-      {
-        "SpawnSocket": "gunpoint_01"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 100
-      },
-      {
-        "BoxWidth": 50
-      },
-      {
-        "BoxHeight": 50
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Weapon",
+      "SpawnSocket": "gunpoint_01"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 100,
+      "BoxWidth": 50,
+      "BoxHeight": 50
+    },
     "Speed": 400,
     "TimeLife": 7,
     "BoundCount": 1,
-    "HitEnemy": {},
-    "HitScene": {},
+    "HitEnemy": [
+      2040515
+    ],
+    "HitScene": [
+      2040516
+    ],
     "HitEnemyIgnore": 1,
     "HitOthers": [
       0,
@@ -6594,33 +5234,25 @@
       0,
       90
     ],
-    "SpawnSocket": [
-      {
-        "UseLocation": "Weapon"
-      },
-      {
-        "SpawnSocket": "gunpoint_01"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 10
-      },
-      {
-        "BoxWidth": 5
-      },
-      {
-        "BoxHeight": 5
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Weapon",
+      "SpawnSocket": "gunpoint_01"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 10,
+      "BoxWidth": 5,
+      "BoxHeight": 5
+    },
     "Speed": 12000,
     "TimeLife": 2,
     "BoundCount": 1,
-    "HitEnemy": {},
-    "HitScene": {},
+    "HitEnemy": [
+      2050113
+    ],
+    "HitScene": [
+      2050114
+    ],
     "BulletFXID": 2050101
   },
   "2050511": {
@@ -6637,28 +5269,16 @@
       0,
       90
     ],
-    "SpawnSocket": [
-      {
-        "UseLocation": "Weapon"
-      },
-      {
-        "SpawnSocket": "gunpoint_01"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 10
-      },
-      {
-        "BoxWidth": 5
-      },
-      {
-        "BoxHeight": 5
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Weapon",
+      "SpawnSocket": "gunpoint_01"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 10,
+      "BoxWidth": 5,
+      "BoxHeight": 5
+    },
     "Speed": 12000,
     "TimeLife": 2,
     "BoundCount": 1,
@@ -6683,33 +5303,25 @@
     ],
     "ClientOwner": true,
     "BPPath": "/Game/BluePrints/Combat/SkillCreatures/Player/BP_Machinegun_20507.BP_Machinegun_20507",
-    "SpawnSocket": [
-      {
-        "UseLocation": "Weapon"
-      },
-      {
-        "SpawnSocket": "gunpoint_01"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 15
-      },
-      {
-        "BoxWidth": 15
-      },
-      {
-        "BoxHeight": 15
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Weapon",
+      "SpawnSocket": "gunpoint_01"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 15,
+      "BoxWidth": 15,
+      "BoxHeight": 15
+    },
     "Speed": 2500,
     "TimeLife": 5,
     "BoundCount": -1,
-    "HitEnemy": {},
-    "HitScene": {},
+    "HitEnemy": [
+      2050713
+    ],
+    "HitScene": [
+      2050714
+    ],
     "HitOthers": [
       0,
       0,
@@ -6730,34 +5342,24 @@
       0,
       90
     ],
-    "SpawnSocket": [
-      {
-        "UseLocation": "Weapon"
-      },
-      {
-        "SpawnSocket": "Root"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 10
-      },
-      {
-        "BoxWidth": 10
-      },
-      {
-        "BoxHeight": 10
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Weapon",
+      "SpawnSocket": "Root"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 10,
+      "BoxWidth": 10,
+      "BoxHeight": 10
+    },
     "GravityCoefficient": 1,
     "ParabolaDelay": 0.6,
     "Speed": 4000,
     "TimeLife": 20,
     "BoundCount": 1,
-    "HitEnemy": {},
+    "HitEnemy": [
+      2060112
+    ],
     "HitScene": [
       2060113
     ],
@@ -6776,34 +5378,24 @@
       0,
       90
     ],
-    "SpawnSocket": [
-      {
-        "UseLocation": "Weapon"
-      },
-      {
-        "SpawnSocket": "Root"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 30
-      },
-      {
-        "BoxWidth": 15
-      },
-      {
-        "BoxHeight": 15
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Weapon",
+      "SpawnSocket": "Root"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 30,
+      "BoxWidth": 15,
+      "BoxHeight": 15
+    },
     "GravityCoefficient": 1,
     "ParabolaDelay": 0.8,
     "Speed": 5000,
     "TimeLife": 20,
     "BoundCount": 3,
-    "HitEnemy": {},
+    "HitEnemy": [
+      2060122
+    ],
     "HitScene": [
       2060113
     ],
@@ -6827,14 +5419,10 @@
       0,
       90
     ],
-    "SpawnSocket": [
-      {
-        "UseLocation": "Weapon"
-      },
-      {
-        "SpawnSocket": "Root"
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Weapon",
+      "SpawnSocket": "Root"
+    },
     "ShapeInfo": {
       "ShapeType": "Box",
       "BoxLength": 60,
@@ -6846,7 +5434,9 @@
     "Speed": 6000,
     "TimeLife": 20,
     "BoundCount": 5,
-    "HitEnemy": {},
+    "HitEnemy": [
+      2060132
+    ],
     "HitScene": [
       2060113
     ],
@@ -6870,35 +5460,27 @@
       0,
       90
     ],
-    "SpawnSocket": [
-      {
-        "UseLocation": "Weapon"
-      },
-      {
-        "SpawnSocket": "Root"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 10
-      },
-      {
-        "BoxWidth": 10
-      },
-      {
-        "BoxHeight": 10
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Weapon",
+      "SpawnSocket": "Root"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 10,
+      "BoxWidth": 10,
+      "BoxHeight": 10
+    },
     "GravityCoefficient": 1,
     "ParabolaDelay": 1.5,
     "Speed": 4000,
     "TimeLife": 20,
     "BoundCount": 1,
-    "HitEnemy": {},
-    "HitScene": {},
+    "HitEnemy": [
+      2060212
+    ],
+    "HitScene": [
+      2060213
+    ],
     "BulletFXID": 2060201
   },
   "2069911": {
@@ -6914,34 +5496,24 @@
       0,
       90
     ],
-    "SpawnSocket": [
-      {
-        "UseLocation": "Weapon"
-      },
-      {
-        "SpawnSocket": "Root"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 10
-      },
-      {
-        "BoxWidth": 10
-      },
-      {
-        "BoxHeight": 10
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Weapon",
+      "SpawnSocket": "Root"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 10,
+      "BoxWidth": 10,
+      "BoxHeight": 10
+    },
     "GravityCoefficient": 1,
     "ParabolaDelay": 0.6,
     "Speed": 4000,
     "TimeLife": 20,
     "BoundCount": 1,
-    "HitEnemy": {},
+    "HitEnemy": [
+      2069912
+    ],
     "HitScene": [
       2069913
     ],
@@ -6960,34 +5532,24 @@
       0,
       90
     ],
-    "SpawnSocket": [
-      {
-        "UseLocation": "Weapon"
-      },
-      {
-        "SpawnSocket": "Root"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Box"
-      },
-      {
-        "BoxLength": 30
-      },
-      {
-        "BoxWidth": 15
-      },
-      {
-        "BoxHeight": 15
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Weapon",
+      "SpawnSocket": "Root"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Box",
+      "BoxLength": 30,
+      "BoxWidth": 15,
+      "BoxHeight": 15
+    },
     "GravityCoefficient": 1,
     "ParabolaDelay": 0.8,
     "Speed": 5000,
     "TimeLife": 20,
     "BoundCount": 3,
-    "HitEnemy": {},
+    "HitEnemy": [
+      2069922
+    ],
     "HitScene": [
       2069913
     ],
@@ -6999,27 +5561,23 @@
       "Bullet",
       "PauseRemovable"
     ],
-    "SpawnSocket": [
-      {
-        "UseLocation": "Char"
-      },
-      {
-        "SpawnSocket": "Mouth"
-      }
-    ],
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 10
-      }
-    ],
+    "SpawnSocket": {
+      "UseLocation": "Char",
+      "SpawnSocket": "Mouth"
+    },
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 10
+    },
     "Speed": 1000,
     "TimeLife": 20,
     "BoundCount": 1,
-    "HitEnemy": {},
-    "HitScene": {},
+    "HitEnemy": [
+      600000102
+    ],
+    "HitScene": [
+      600000104
+    ],
     "BulletFXID": 600000101
   },
   "600000501": {
@@ -7032,14 +5590,10 @@
       "UseLocation": "Char",
       "SpawnSocket": "spine_01"
     },
-    "ShapeInfo": [
-      {
-        "ShapeType": "Sphere"
-      },
-      {
-        "Radius": 50
-      }
-    ],
+    "ShapeInfo": {
+      "ShapeType": "Sphere",
+      "Radius": 50
+    },
     "GravityCoefficient": 1,
     "ParabolaDelay": 1.2,
     "GravityAdapt": true,

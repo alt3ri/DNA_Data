@@ -1,7 +1,16 @@
 {
   "WeaponATKModifierRate": {
     "WeaponModifierAttr": "WeaponATKModifierRate",
-    "AttrNames": {},
+    "AttrNames": [
+      "ATK_Default",
+      "ATK_Water",
+      "ATK_Fire",
+      "ATK_Wind",
+      "ATK_Thunder",
+      "ATK_Slash",
+      "ATK_Spike",
+      "ATK_Smash"
+    ],
     "RateAttr": "WeaponATKModifierRate",
     "ValueAttr": "WeaponATKModifierValue"
   },

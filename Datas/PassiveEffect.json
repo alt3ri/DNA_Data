@@ -181,11 +181,9 @@
   "1931": {
     "ID": 1931,
     "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Mod/BP_Char_1931.BP_Char_1931",
-    "Vars": [
-      {
-        "LastTime": 10
-      }
-    ],
+    "Vars": {
+      "LastTime": 10
+    },
     "UniquePassive": 1
   },
   "1941": {
@@ -227,41 +225,31 @@
   "2311": {
     "ID": 2311,
     "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Mod/BP_Melee_2311.BP_Melee_2311",
-    "Vars": [
-      {
-        "LastTime": 10
-      }
-    ]
+    "Vars": {
+      "LastTime": 10
+    }
   },
   "2321": {
     "ID": 2321,
     "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Mod/BP_Melee_2321.BP_Melee_2321",
-    "Vars": [
-      {
-        "LastTime": 10
-      }
-    ]
+    "Vars": {
+      "LastTime": 10
+    }
   },
   "2322": {
     "ID": 2322,
     "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Mod/BP_Melee_2322.BP_Melee_2322",
-    "Vars": [
-      {
-        "LastTime": 10
-      }
-    ]
+    "Vars": {
+      "LastTime": 10
+    }
   },
   "2401": {
     "ID": 2401,
     "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Mod/BP_Melee_2400.BP_Melee_2400",
-    "Vars": [
-      {
-        "AttrName": "FallAttackRate"
-      },
-      {
-        "AttackType": "FallAttack"
-      }
-    ],
+    "Vars": {
+      "AttrName": "FallAttackRate",
+      "AttackType": "FallAttack"
+    },
     "UniquePassive": 1
   },
   "2402": {
@@ -276,46 +264,34 @@
   "2501": {
     "ID": 2501,
     "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Mod/BP_Melee_2500.BP_Melee_2500",
-    "Vars": [
-      {
-        "AttrName": "GrRate"
-      },
-      {
-        "MonTag": "Mon.Gr"
-      }
-    ],
+    "Vars": {
+      "AttrName": "GrRate",
+      "MonTag": "Mon.Gr"
+    },
     "UniquePassive": 1
   },
   "2502": {
     "ID": 2502,
     "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Mod/BP_Melee_2500.BP_Melee_2500",
-    "Vars": [
-      {
-        "AttrName": "JtRate"
-      },
-      {
-        "MonTag": "Mon.Jt"
-      }
-    ],
+    "Vars": {
+      "AttrName": "JtRate",
+      "MonTag": "Mon.Jt"
+    },
     "UniquePassive": 1
   },
   "3301": {
     "ID": 3301,
     "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Mod/BP_Ranged_3301.BP_Ranged_3301",
-    "Vars": [
-      {
-        "LastTime": "#1"
-      }
-    ]
+    "Vars": {
+      "LastTime": "#1"
+    }
   },
   "3311": {
     "ID": 3311,
     "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Mod/BP_Ranged_3311.BP_Ranged_3311",
-    "Vars": [
-      {
-        "LastTime": "#1"
-      }
-    ]
+    "Vars": {
+      "LastTime": "#1"
+    }
   },
   "3321": {
     "ID": 3321,
@@ -327,38 +303,30 @@
   "3322": {
     "ID": 3322,
     "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Mod/BP_Ranged_3322.BP_Ranged_3322",
-    "Vars": [
-      {
-        "TriggerProb": "#1"
-      }
-    ]
+    "Vars": {
+      "TriggerProb": "#1"
+    }
   },
   "3331": {
     "ID": 3331,
     "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Mod/BP_Ranged_3331.BP_Ranged_3331",
-    "Vars": [
-      {
-        "LastTime": 10
-      }
-    ]
+    "Vars": {
+      "LastTime": 10
+    }
   },
   "3332": {
     "ID": 3332,
     "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Mod/BP_Ranged_3332.BP_Ranged_3332",
-    "Vars": [
-      {
-        "TriggerProb": "#1"
-      }
-    ]
+    "Vars": {
+      "TriggerProb": "#1"
+    }
   },
   "3341": {
     "ID": 3341,
     "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Mod/BP_Ranged_3341.BP_Ranged_3341",
-    "Vars": [
-      {
-        "BuffRate": "#1"
-      }
-    ]
+    "Vars": {
+      "BuffRate": "#1"
+    }
   },
   "3401": {
     "ID": 3401,
@@ -380,27 +348,19 @@
   "3501": {
     "ID": 3501,
     "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Mod/BP_Melee_2500.BP_Melee_2500",
-    "Vars": [
-      {
-        "AttrName": "GrRate"
-      },
-      {
-        "MonTag": "Mon.Gr"
-      }
-    ],
+    "Vars": {
+      "AttrName": "GrRate",
+      "MonTag": "Mon.Gr"
+    },
     "UniquePassive": 1
   },
   "3502": {
     "ID": 3502,
     "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Mod/BP_Melee_2500.BP_Melee_2500",
-    "Vars": [
-      {
-        "AttrName": "JtRate"
-      },
-      {
-        "MonTag": "Mon.Jt"
-      }
-    ],
+    "Vars": {
+      "AttrName": "JtRate",
+      "MonTag": "Mon.Jt"
+    },
     "UniquePassive": 1
   },
   "10001": {
@@ -429,11 +389,9 @@
   "10103": {
     "ID": 10103,
     "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Weapon/MeleePassive/BP_Sword_10103.BP_Sword_10103",
-    "Vars": [
-      {
-        "TriggerProb": "#1"
-      }
-    ]
+    "Vars": {
+      "TriggerProb": "#1"
+    }
   },
   "10104": {
     "ID": 10104,
@@ -446,11 +404,9 @@
   "10105": {
     "ID": 10105,
     "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Weapon/MeleePassive/BP_Sword_10105.BP_Sword_10105",
-    "Vars": [
-      {
-        "TriggerProb": "#1"
-      }
-    ]
+    "Vars": {
+      "TriggerProb": "#1"
+    }
   },
   "10200": {
     "ID": 10200,
@@ -459,29 +415,23 @@
   "10201": {
     "ID": 10201,
     "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Weapon/MeleePassive/BP_Polearm_10201.BP_Polearm_10201",
-    "Vars": [
-      {
-        "LastTime": 10
-      }
-    ]
+    "Vars": {
+      "LastTime": 10
+    }
   },
   "10202": {
     "ID": 10202,
     "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Weapon/MeleePassive/BP_Polearm_10202.BP_Polearm_10202",
-    "Vars": [
-      {
-        "BuffRate": "#1"
-      }
-    ]
+    "Vars": {
+      "BuffRate": "#1"
+    }
   },
   "10203": {
     "ID": 10203,
     "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Weapon/MeleePassive/BP_Polearm_10203.BP_Polearm_10203",
-    "Vars": [
-      {
-        "LastTime": "#1"
-      }
-    ]
+    "Vars": {
+      "LastTime": "#1"
+    }
   },
   "10204": {
     "ID": 10204,
@@ -495,11 +445,9 @@
   "10206": {
     "ID": 10206,
     "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Weapon/MeleePassive/BP_Polearm_10206.BP_Polearm_10206",
-    "Vars": [
-      {
-        "TriggerProb": "#1"
-      }
-    ]
+    "Vars": {
+      "TriggerProb": "#1"
+    }
   },
   "10301": {
     "ID": 10301,
@@ -512,29 +460,23 @@
   "10302": {
     "ID": 10302,
     "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Weapon/MeleePassive/BP_Claymore_10302.BP_Claymore_10302",
-    "Vars": [
-      {
-        "TriggerProb": "#1"
-      }
-    ]
+    "Vars": {
+      "TriggerProb": "#1"
+    }
   },
   "10501": {
     "ID": 10501,
     "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Weapon/MeleePassive/BP_Swordwhip_10501.BP_Swordwhip_10501",
-    "Vars": [
-      {
-        "BuffRate": "#1"
-      }
-    ]
+    "Vars": {
+      "BuffRate": "#1"
+    }
   },
   "10601": {
     "ID": 10601,
     "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Weapon/MeleePassive/BP_Katana_10601.BP_Katana_10601",
-    "Vars": [
-      {
-        "BuffRate": "#1"
-      }
-    ]
+    "Vars": {
+      "BuffRate": "#1"
+    }
   },
   "20201": {
     "ID": 20201,
@@ -573,29 +515,23 @@
   "20401": {
     "ID": 20401,
     "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Weapon/RangedPassive/BP_Shotgun_20401.BP_Shotgun_20401",
-    "Vars": [
-      {
-        "BuffRate": "#1"
-      }
-    ]
+    "Vars": {
+      "BuffRate": "#1"
+    }
   },
   "20403": {
     "ID": 20403,
     "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Weapon/RangedPassive/BP_Shotgun_20403.BP_Shotgun_20403",
-    "Vars": [
-      {
-        "BuffRate": "#1"
-      }
-    ]
+    "Vars": {
+      "BuffRate": "#1"
+    }
   },
   "20501": {
     "ID": 20501,
     "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Weapon/RangedPassive/BP_Machinegun_20501.BP_Machinegun_20501",
-    "Vars": [
-      {
-        "BuffRate": "#1"
-      }
-    ]
+    "Vars": {
+      "BuffRate": "#1"
+    }
   },
   "20502": {
     "ID": 20502,
@@ -604,11 +540,9 @@
   "20503": {
     "ID": 20503,
     "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Weapon/RangedPassive/BP_Machinegun_20503.BP_Machinegun_20503",
-    "Vars": [
-      {
-        "TriggerProb": "#1"
-      }
-    ]
+    "Vars": {
+      "TriggerProb": "#1"
+    }
   },
   "20504": {
     "ID": 20504,
@@ -820,26 +754,18 @@
   "310111": {
     "ID": 310111,
     "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Player/BP_Linen_Skill1.BP_Linen_Skill1",
-    "Vars": [
-      {
-        "WildFireRate": "#1"
-      },
-      {
-        "WildFireCountMax": 9
-      }
-    ]
+    "Vars": {
+      "WildFireRate": "#1",
+      "WildFireCountMax": 9
+    }
   },
   "310112": {
     "ID": 310112,
     "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Player/BP_Linen_Skill1Extra.BP_Linen_Skill1Extra",
-    "Vars": [
-      {
-        "WildFireRate": "#1"
-      },
-      {
-        "WildFireCountMax": 9
-      }
-    ]
+    "Vars": {
+      "WildFireRate": "#1",
+      "WildFireCountMax": 9
+    }
   },
   "310201": {
     "ID": 310201,
@@ -996,11 +922,9 @@
   "420202": {
     "ID": 420202,
     "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Player/BP_Landi_Extra.BP_Landi_Extra",
-    "Vars": [
-      {
-        "SpCost": 20
-      }
-    ]
+    "Vars": {
+      "SpCost": 20
+    }
   },
   "430101": {
     "ID": 430101,
@@ -1070,11 +994,9 @@
   "530101": {
     "ID": 530101,
     "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Player/BP_Saiqi_Skill1.BP_Saiqi_Skill1",
-    "Vars": [
-      {
-        "SpCost": 20
-      }
-    ]
+    "Vars": {
+      "SpCost": 20
+    }
   },
   "530102": {
     "ID": 530102,
@@ -1269,11 +1191,9 @@
   "1951001": {
     "ID": 1951001,
     "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Mod/BP_Char_1951_Buff.BP_Char_1951_Buff",
-    "Vars": [
-      {
-        "BuffRate": "#1"
-      }
-    ],
+    "Vars": {
+      "BuffRate": "#1"
+    },
     "UniquePassive": 1
   },
   "1952001": {
@@ -1288,11 +1208,9 @@
   "1961001": {
     "ID": 1961001,
     "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Mod/BP_Char_1961_Buff.BP_Char_1961_Buff",
-    "Vars": [
-      {
-        "BuffRate": "#1"
-      }
-    ],
+    "Vars": {
+      "BuffRate": "#1"
+    },
     "UniquePassive": 1
   },
   "2040501": {
@@ -1539,44 +1457,28 @@
   "10101001": {
     "ID": 10101001,
     "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/BP_Blessing_01_01.BP_Blessing_01_01",
-    "Vars": [
-      {
-        "AttrName": "FallAttackRate"
-      },
-      {
-        "AttackType": "FallAttack"
-      }
-    ]
+    "Vars": {
+      "AttrName": "FallAttackRate",
+      "AttackType": "FallAttack"
+    }
   },
   "10101101": {
     "ID": 10101101,
     "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/101/BP_10101101.BP_10101101",
-    "Vars": [
-      {
-        "DamageRate": "#1"
-      },
-      {
-        "TriggerProb": "#2"
-      },
-      {
-        "LastTime": "#3"
-      }
-    ]
+    "Vars": {
+      "DamageRate": "#1",
+      "TriggerProb": "#2",
+      "LastTime": "#3"
+    }
   },
   "10101102": {
     "ID": 10101102,
     "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/101/BP_10101102.BP_10101102",
-    "Vars": [
-      {
-        "DamageRate": "#1"
-      },
-      {
-        "TriggerProb": "#2"
-      },
-      {
-        "LastTime": "#3"
-      }
-    ]
+    "Vars": {
+      "DamageRate": "#1",
+      "TriggerProb": "#2",
+      "LastTime": "#3"
+    }
   },
   "10101103": {
     "ID": 10101103,
@@ -1592,11 +1494,9 @@
   "10101201": {
     "ID": 10101201,
     "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/101/BP_10101201.BP_10101201",
-    "Vars": [
-      {
-        "TriggerTime": "#1"
-      }
-    ]
+    "Vars": {
+      "TriggerTime": "#1"
+    }
   },
   "10101202": {
     "ID": 10101202,
@@ -1609,20 +1509,16 @@
   "10101203": {
     "ID": 10101203,
     "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/101/BP_10101203.BP_10101203",
-    "Vars": [
-      {
-        "DamageRate": "#1"
-      }
-    ]
+    "Vars": {
+      "DamageRate": "#1"
+    }
   },
   "10101301": {
     "ID": 10101301,
     "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/101/BP_10101301.BP_10101301",
-    "Vars": [
-      {
-        "DamageRate": "#1"
-      }
-    ]
+    "Vars": {
+      "DamageRate": "#1"
+    }
   },
   "10101302": {
     "ID": 10101302,
@@ -1645,11 +1541,9 @@
   "10101304": {
     "ID": 10101304,
     "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/101/BP_10101304.BP_10101304",
-    "Vars": [
-      {
-        "DamageRate": "#1"
-      }
-    ]
+    "Vars": {
+      "DamageRate": "#1"
+    }
   },
   "10102001": {
     "ID": 10102001,
@@ -1669,11 +1563,9 @@
   "10102103": {
     "ID": 10102103,
     "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/102/BP_10102103.BP_10102103",
-    "Vars": [
-      {
-        "LastTime": "#1"
-      }
-    ]
+    "Vars": {
+      "LastTime": "#1"
+    }
   },
   "10102104": {
     "ID": 10102104,
@@ -1690,11 +1582,9 @@
   "10102202": {
     "ID": 10102202,
     "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/102/BP_10102202.BP_10102202",
-    "Vars": [
-      {
-        "LastTime": "#1"
-      }
-    ]
+    "Vars": {
+      "LastTime": "#1"
+    }
   },
   "10102203": {
     "ID": 10102203,
@@ -1709,11 +1599,9 @@
   "10102301": {
     "ID": 10102301,
     "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/102/BP_10102301.BP_10102301",
-    "Vars": [
-      {
-        "DamageRate": "#1"
-      }
-    ]
+    "Vars": {
+      "DamageRate": "#1"
+    }
   },
   "10102302": {
     "ID": 10102302,
@@ -1726,14 +1614,10 @@
   "10102303": {
     "ID": 10102303,
     "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/102/BP_10102303.BP_10102303",
-    "Vars": [
-      {
-        "DamageRate": "#1"
-      },
-      {
-        "CD": "#2"
-      }
-    ]
+    "Vars": {
+      "DamageRate": "#1",
+      "CD": "#2"
+    }
   },
   "10102304": {
     "ID": 10102304,
@@ -1746,11 +1630,9 @@
   "10105102": {
     "ID": 10105102,
     "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/BP_Char_10105102.BP_Char_10105102",
-    "Vars": [
-      {
-        "CD": "#1"
-      }
-    ]
+    "Vars": {
+      "CD": "#1"
+    }
   },
   "10105103": {
     "ID": 10105103,
@@ -1763,11 +1645,9 @@
   "10105104": {
     "ID": 10105104,
     "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/BP_Char_10105104.BP_Char_10105104",
-    "Vars": [
-      {
-        "LastTime": "#1"
-      }
-    ]
+    "Vars": {
+      "LastTime": "#1"
+    }
   },
   "10105201": {
     "ID": 10105201,
@@ -1781,11 +1661,9 @@
   "10105202": {
     "ID": 10105202,
     "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/BP_Char_10105202.BP_Char_10105202",
-    "Vars": [
-      {
-        "CD": "#1"
-      }
-    ]
+    "Vars": {
+      "CD": "#1"
+    }
   },
   "10105203": {
     "ID": 10105203,
@@ -1797,11 +1675,9 @@
   "10105301": {
     "ID": 10105301,
     "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/BP_Char_10105301.BP_Char_10105301",
-    "Vars": [
-      {
-        "CD": "#1"
-      }
-    ]
+    "Vars": {
+      "CD": "#1"
+    }
   },
   "10105302": {
     "ID": 10105302,
@@ -1814,65 +1690,51 @@
   "10105303": {
     "ID": 10105303,
     "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/BP_Char_10105303.BP_Char_10105303",
-    "Vars": [
-      {
-        "DamageRate": "#1"
-      }
-    ]
+    "Vars": {
+      "DamageRate": "#1"
+    }
   },
   "10105304": {
     "ID": 10105304,
     "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/BP_Char_10105304.BP_Char_10105304",
-    "Vars": [
-      {
-        "DamageRate": "#1"
-      }
-    ]
+    "Vars": {
+      "DamageRate": "#1"
+    }
   },
   "10106101": {
     "ID": 10106101,
     "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/BP_Char_10106101.BP_Char_10106101",
-    "Vars": [
-      {
-        "TriggerProb": "#1"
-      }
-    ]
+    "Vars": {
+      "TriggerProb": "#1"
+    }
   },
   "10106102": {
     "ID": 10106102,
     "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/BP_Char_10106102.BP_Char_10106102",
-    "Vars": [
-      {
-        "TriggerTime": "#1"
-      }
-    ]
+    "Vars": {
+      "TriggerTime": "#1"
+    }
   },
   "10106103": {
     "ID": 10106103,
     "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/BP_Char_10106103.BP_Char_10106103",
-    "Vars": [
-      {
-        "TriggerProb": "#1"
-      }
-    ]
+    "Vars": {
+      "TriggerProb": "#1"
+    }
   },
   "10106104": {
     "ID": 10106104,
     "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/BP_Char_10106104.BP_Char_10106104",
-    "Vars": [
-      {
-        "LastTime": 300
-      }
-    ]
+    "Vars": {
+      "LastTime": 300
+    }
   },
   "10106201": {
     "ID": 10106201,
     "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/BP_Char_10106201.BP_Char_10106201",
-    "Vars": [
-      {
-        "DamageRate": "#1"
-      }
-    ]
+    "Vars": {
+      "DamageRate": "#1"
+    }
   },
   "10106202": {
     "ID": 10106202,
@@ -1885,11 +1747,9 @@
   "10106301": {
     "ID": 10106301,
     "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/BP_Char_10106301.BP_Char_10106301",
-    "Vars": [
-      {
-        "LastTime": 300
-      }
-    ]
+    "Vars": {
+      "LastTime": 300
+    }
   },
   "10106302": {
     "ID": 10106302,
@@ -1922,14 +1782,10 @@
   "10107102": {
     "ID": 10107102,
     "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/107/BP_10107102.BP_10107102",
-    "Vars": [
-      {
-        "DamageRate": "#1"
-      },
-      {
-        "CD": "#2"
-      }
-    ]
+    "Vars": {
+      "DamageRate": "#1",
+      "CD": "#2"
+    }
   },
   "10107103": {
     "ID": 10107103,
@@ -1938,11 +1794,9 @@
   "10107104": {
     "ID": 10107104,
     "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/107/BP_10107104.BP_10107104",
-    "Vars": [
-      {
-        "HpPercent": "#1"
-      }
-    ]
+    "Vars": {
+      "HpPercent": "#1"
+    }
   },
   "10107201": {
     "ID": 10107201,
@@ -1978,20 +1832,16 @@
   "10107303": {
     "ID": 10107303,
     "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/107/BP_10107303.BP_10107303",
-    "Vars": [
-      {
-        "CD": "#1"
-      }
-    ]
+    "Vars": {
+      "CD": "#1"
+    }
   },
   "10107304": {
     "ID": 10107304,
     "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Blessing/107/BP_10107304.BP_10107304",
-    "Vars": [
-      {
-        "HpPercent": "#1"
-      }
-    ]
+    "Vars": {
+      "HpPercent": "#1"
+    }
   },
   "20101001": {
     "ID": 20101001,
@@ -2009,32 +1859,20 @@
   "20104001": {
     "ID": 20104001,
     "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Treasure/BP_Melee_20104001.BP_Melee_20104001",
-    "Vars": [
-      {
-        "MaxDamageUp": 0.6
-      },
-      {
-        "Increment": 0.15
-      },
-      {
-        "EveryTimeChange": 0.01
-      }
-    ]
+    "Vars": {
+      "MaxDamageUp": 0.6,
+      "Increment": 0.15,
+      "EveryTimeChange": 0.01
+    }
   },
   "20105001": {
     "ID": 20105001,
     "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Treasure/BP_Ranged_20105001.BP_Ranged_20105001",
-    "Vars": [
-      {
-        "MaxDamageUp": 0.6
-      },
-      {
-        "Increment": 0.15
-      },
-      {
-        "EveryTimeChange": 0.01
-      }
-    ]
+    "Vars": {
+      "MaxDamageUp": 0.6,
+      "Increment": 0.15,
+      "EveryTimeChange": 0.01
+    }
   },
   "20108001": {
     "ID": 20108001,
@@ -2047,20 +1885,16 @@
   "20152001": {
     "ID": 20152001,
     "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Treasure/BP_Melee_20152001.BP_Melee_20152001",
-    "Vars": [
-      {
-        "DamageRate": -0.5
-      }
-    ]
+    "Vars": {
+      "DamageRate": -0.5
+    }
   },
   "20153001": {
     "ID": 20153001,
     "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Treasure/BP_Ranged_20153001.BP_Ranged_20153001",
-    "Vars": [
-      {
-        "DamageRate": -0.5
-      }
-    ]
+    "Vars": {
+      "DamageRate": -0.5
+    }
   },
   "20154001": {
     "ID": 20154001,

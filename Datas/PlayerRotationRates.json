@@ -1,7 +1,9 @@
 {
   "CrouchWalkSpeed": {
     "ParamentName": "CrouchWalkSpeed",
-    "ParamentValue": {}
+    "ParamentValue": [
+      160
+    ]
   },
   "NormalWalkSpeed": {
     "ParamentName": "NormalWalkSpeed",
@@ -27,11 +29,19 @@
   },
   "InAir": {
     "ParamentName": "InAir",
-    "ParamentValue": {}
+    "ParamentValue": [
+      0,
+      100,
+      0
+    ]
   },
   "BulletJump": {
     "ParamentName": "BulletJump",
-    "ParamentValue": {}
+    "ParamentValue": [
+      540,
+      20,
+      0
+    ]
   },
   "Skill": {
     "ParamentName": "Skill",
@@ -43,7 +53,11 @@
   },
   "Shooting": {
     "ParamentName": "Shooting",
-    "ParamentValue": {}
+    "ParamentValue": [
+      0,
+      5400,
+      0
+    ]
   },
   "Reload": {
     "ParamentName": "Reload",
@@ -85,7 +99,9 @@
   },
   "BoneHitCD": {
     "ParamentName": "BoneHitCD",
-    "ParamentValue": {}
+    "ParamentValue": [
+      0.9
+    ]
   },
   "LightHitTime": {
     "ParamentName": "LightHitTime",
@@ -107,7 +123,9 @@
   },
   "HeavyHitTime": {
     "ParamentName": "HeavyHitTime",
-    "ParamentValue": {}
+    "ParamentValue": [
+      1.5
+    ]
   },
   "HitRepelTime": {
     "ParamentName": "HitRepelTime",
@@ -141,7 +159,9 @@
   },
   "SecondJumpZVelocity": {
     "ParamentName": "SecondJumpZVelocity",
-    "ParamentValue": {}
+    "ParamentValue": [
+      1200
+    ]
   },
   "MaxInheritSpeed": {
     "ParamentName": "MaxInheritSpeed",
@@ -151,11 +171,15 @@
   },
   "SecondJumpCold": {
     "ParamentName": "SecondJumpCold",
-    "ParamentValue": {}
+    "ParamentValue": [
+      0.95
+    ]
   },
   "BulletPrepareJumpZVelocity": {
     "ParamentName": "BulletPrepareJumpZVelocity",
-    "ParamentValue": {}
+    "ParamentValue": [
+      0.01
+    ]
   },
   "BulletPrepareJumpDashVelocity": {
     "ParamentName": "BulletPrepareJumpDashVelocity",
@@ -183,7 +207,9 @@
   },
   "BulletActionEndTime": {
     "ParamentName": "BulletActionEndTime",
-    "ParamentValue": {}
+    "ParamentValue": [
+      0.8
+    ]
   },
   "BulletJumpResetCapTime": {
     "ParamentName": "BulletJumpResetCapTime",
@@ -193,7 +219,9 @@
   },
   "BulletJumpRecoverGravityTime": {
     "ParamentName": "BulletJumpRecoverGravityTime",
-    "ParamentValue": {}
+    "ParamentValue": [
+      0.11
+    ]
   },
   "BulletJumpProtectAngle": {
     "ParamentName": "BulletJumpProtectAngle",
@@ -251,11 +279,15 @@
   },
   "SecondJumpAllowSlideTime": {
     "ParamentName": "SecondJumpAllowSlideTime",
-    "ParamentValue": {}
+    "ParamentValue": [
+      0.35
+    ]
   },
   "BulletJumpAllowSlideTime": {
     "ParamentName": "BulletJumpAllowSlideTime",
-    "ParamentValue": {}
+    "ParamentValue": [
+      0.7
+    ]
   },
   "SecondJumpAllowShootTime": {
     "ParamentName": "SecondJumpAllowShootTime",
@@ -271,11 +303,15 @@
   },
   "CanWallJumpAngle": {
     "ParamentName": "CanWallJumpAngle",
-    "ParamentValue": {}
+    "ParamentValue": [
+      70
+    ]
   },
   "WallJumpXYSpeed": {
     "ParamentName": "WallJumpXYSpeed",
-    "ParamentValue": {}
+    "ParamentValue": [
+      10
+    ]
   },
   "WallJumpZSpeed": {
     "ParamentName": "WallJumpZSpeed",
@@ -303,7 +339,9 @@
   },
   "AvoidSpeed": {
     "ParamentName": "AvoidSpeed",
-    "ParamentValue": {}
+    "ParamentValue": [
+      1800
+    ]
   },
   "ForbidNextAvoidTime": {
     "ParamentName": "ForbidNextAvoidTime",
@@ -337,11 +375,16 @@
   },
   "HitFlyXYZ": {
     "ParamentName": "HitFlyXYZ",
-    "ParamentValue": {}
+    "ParamentValue": [
+      0,
+      1000
+    ]
   },
   "HitAddtiveDuration": {
     "ParamentName": "HitAddtiveDuration",
-    "ParamentValue": {}
+    "ParamentValue": [
+      0.3
+    ]
   },
   "HitAddtiveCoolDown": {
     "ParamentName": "HitAddtiveCoolDown",
@@ -369,11 +412,15 @@
   },
   "RegionRecoverySpeed": {
     "ParamentName": "RegionRecoverySpeed",
-    "ParamentValue": {}
+    "ParamentValue": [
+      -1
+    ]
   },
   "CanRecoveryDelayTime": {
     "ParamentName": "CanRecoveryDelayTime",
-    "ParamentValue": {}
+    "ParamentValue": [
+      1.8
+    ]
   },
   "StunToIdleBlendTime": {
     "ParamentName": "StunToIdleBlendTime",
@@ -383,6 +430,8 @@
   },
   "FlyingDodgeSpeed": {
     "ParamentName": "FlyingDodgeSpeed",
-    "ParamentValue": {}
+    "ParamentValue": [
+      3000
+    ]
   }
 }

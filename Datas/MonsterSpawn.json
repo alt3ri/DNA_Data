@@ -27,11 +27,9 @@
     "UnitSpawnTotalNum": 30,
     "Mode": "Level",
     "Tacmap": false,
-    "MultiInfo": [
-      {
-        "Mechanism": 39001
-      }
-    ],
+    "MultiInfo": {
+      "Mechanism": 39001
+    },
     "MultiPara": [
       1,
       2,
@@ -40,11 +38,9 @@
       5
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 1000,
     "FilterReachable": false
   },
@@ -76,11 +72,9 @@
     "UnitSpawnTotalNum": 999,
     "Mode": "Level",
     "Tacmap": false,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       2,
@@ -89,11 +83,9 @@
       5
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 1000,
     "FilterReachable": false
   },
@@ -127,11 +119,9 @@
     "Mode": "Level",
     "Tacmap": false,
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 1500,
     "UnitSpawnRadiusMax": 7000,
     "RandomSpawn": true,
@@ -167,11 +157,9 @@
     "Mode": "Level",
     "Tacmap": false,
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 500,
     "UnitSpawnRadiusMax": 7000,
     "RandomSpawn": true,
@@ -180,30 +168,30 @@
   "5": {
     "UnitSpawnId": 5,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 8002001",
-        "UnitNum = 3",
-        "UnitNumFix = 4",
-        "UnitLevel = 1"
-      ],
-      [
-        "UnitId = 8001001",
-        "UnitNum = 9",
-        "UnitNumFix = 10",
-        "UnitLevel = 1"
-      ],
-      [
-        "UnitId = 8003001",
-        "UnitNum = 2",
-        "UnitNumFix = 3",
-        "UnitLevel = 1"
-      ],
-      [
-        "UnitId = 6003001",
-        "UnitNum = 2",
-        "UnitNumFix = 3",
-        "UnitLevel = 1"
-      ]
+      {
+        "UnitId": 8002001,
+        "UnitNum": 3,
+        "UnitNumFix": 4,
+        "UnitLevel": 1
+      },
+      {
+        "UnitId": 8001001,
+        "UnitNum": 9,
+        "UnitNumFix": 10,
+        "UnitLevel": 1
+      },
+      {
+        "UnitId": 8003001,
+        "UnitNum": 2,
+        "UnitNumFix": 3,
+        "UnitLevel": 1
+      },
+      {
+        "UnitId": 6003001,
+        "UnitNum": 2,
+        "UnitNumFix": 3,
+        "UnitLevel": 1
+      }
     ],
     "Threshold": 10,
     "DetectTime": 4,
@@ -213,41 +201,39 @@
     "Mode": "Level",
     "Tacmap": false,
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 1500,
     "FilterReachable": false
   },
   "6": {
     "UnitSpawnId": 6,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 8002001",
-        "UnitNum = 3",
-        "UnitNumFix = 4",
-        "UnitLevel = 1"
-      ],
-      [
-        "UnitId = 8001001",
-        "UnitNum = 9",
-        "UnitNumFix = 10",
-        "UnitLevel = 1"
-      ],
-      [
-        "UnitId = 8003001",
-        "UnitNum = 2",
-        "UnitNumFix = 3",
-        "UnitLevel = 1"
-      ],
-      [
-        "UnitId = 6003001",
-        "UnitNum = 2",
-        "UnitNumFix = 3",
-        "UnitLevel = 1"
-      ]
+      {
+        "UnitId": 8002001,
+        "UnitNum": 3,
+        "UnitNumFix": 4,
+        "UnitLevel": 1
+      },
+      {
+        "UnitId": 8001001,
+        "UnitNum": 9,
+        "UnitNumFix": 10,
+        "UnitLevel": 1
+      },
+      {
+        "UnitId": 8003001,
+        "UnitNum": 2,
+        "UnitNumFix": 3,
+        "UnitLevel": 1
+      },
+      {
+        "UnitId": 6003001,
+        "UnitNum": 2,
+        "UnitNumFix": 3,
+        "UnitLevel": 1
+      }
     ],
     "Threshold": 10,
     "DetectTime": 6,
@@ -257,11 +243,9 @@
     "Mode": "Level",
     "Tacmap": false,
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 1000,
     "FilterReachable": false
   },
@@ -301,11 +285,9 @@
     "Mode": "Level",
     "Tacmap": false,
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 1,
     "UnitSpawnRadiusMax": 10000,
     "RandomSpawn": true,
@@ -320,12 +302,12 @@
         "UnitNumFix": 4,
         "UnitLevel": 1
       },
-      [
-        "UnitId = 7002001",
-        "UnitNum = 4",
-        "UnitNumFix = 4",
-        "UnitLevel = 1"
-      ],
+      {
+        "UnitId": 7002001,
+        "UnitNum": 4,
+        "UnitNumFix": 4,
+        "UnitLevel": 1
+      },
       {
         "UnitId": 7003001,
         "UnitNum": 4,
@@ -347,11 +329,9 @@
     "Mode": "Level",
     "Tacmap": false,
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 1,
     "UnitSpawnRadiusMax": 10000,
     "RandomSpawn": true,
@@ -393,11 +373,9 @@
     "Mode": "Level",
     "Tacmap": false,
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 1,
     "UnitSpawnRadiusMax": 10000,
     "RandomSpawn": true,
@@ -433,11 +411,9 @@
     "Mode": "Level",
     "Tacmap": false,
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 1,
     "UnitSpawnRadiusMax": 10000,
     "RandomSpawn": true,
@@ -479,11 +455,9 @@
     "Mode": "Level",
     "Tacmap": false,
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 1500,
     "UnitSpawnRadiusMax": 7000,
     "FilterReachable": false
@@ -491,12 +465,12 @@
   "103": {
     "UnitSpawnId": 103,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7002001",
-        "UnitNum = 5",
-        "UnitNumFix = 5",
-        "UnitLevel = 1"
-      ],
+      {
+        "UnitId": 7002001,
+        "UnitNum": 5,
+        "UnitNumFix": 5,
+        "UnitLevel": 1
+      },
       {
         "UnitId": 7001001,
         "UnitNum": 5,
@@ -516,11 +490,9 @@
     "UnitSpawnTotalNum": 35,
     "RegularLevel": true,
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 2500,
     "UnitSpawnRadiusMax": 7000,
     "RandomSpawn": true,
@@ -529,18 +501,18 @@
   "104": {
     "UnitSpawnId": 104,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7002001",
-        "UnitNum = 4",
-        "UnitNumFix = 4",
-        "UnitLevel = 1"
-      ],
-      [
-        "UnitId = 7003001",
-        "UnitNum = 2",
-        "UnitNumFix = 2",
-        "UnitLevel = 1"
-      ]
+      {
+        "UnitId": 7002001,
+        "UnitNum": 4,
+        "UnitNumFix": 4,
+        "UnitLevel": 1
+      },
+      {
+        "UnitId": 7003001,
+        "UnitNum": 2,
+        "UnitNumFix": 2,
+        "UnitLevel": 1
+      }
     ],
     "Threshold": 2,
     "DetectTime": 2,
@@ -549,11 +521,9 @@
     "UnitSpawnTotalNum": 6,
     "RegularLevel": true,
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 200,
     "UnitSpawnRadiusMax": 5000,
     "FilterReachable": false
@@ -561,36 +531,36 @@
   "201": {
     "UnitSpawnId": 201,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7001001",
-        "UnitNum = 6",
-        "UnitNumFix = 6",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7002001",
-        "UnitNum = 2",
-        "UnitNumFix = 2",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7003001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7012001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7013001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 7001001,
+        "UnitNum": 6,
+        "UnitNumFix": 6,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7002001,
+        "UnitNum": 2,
+        "UnitNumFix": 2,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7003001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7012001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7013001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      }
     ],
     "FirstPercentFix": 60,
     "Threshold": 8,
@@ -599,11 +569,9 @@
     "UnitSpawnTotalNum": 200,
     "Mode": "Player",
     "Tacmap": true,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -611,11 +579,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 1,
     "UnitSpawnRadiusMax": 10000,
     "RandomSpawn": true,
@@ -624,42 +590,42 @@
   "202": {
     "UnitSpawnId": 202,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 6014001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7002001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 6003001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7001001",
-        "UnitNum = 7",
-        "UnitNumFix = 7",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7012001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 6013001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 6014001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7002001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 6003001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7001001,
+        "UnitNum": 7,
+        "UnitNumFix": 7,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7012001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 6013001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      }
     ],
     "FirstPercentFix": 60,
     "Threshold": 12,
@@ -668,11 +634,9 @@
     "UnitSpawnTotalNum": 200,
     "Mode": "Player",
     "Tacmap": true,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -680,11 +644,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 1,
     "UnitSpawnRadiusMax": 10000,
     "RandomSpawn": true,
@@ -693,36 +655,36 @@
   "203": {
     "UnitSpawnId": 203,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7001001",
-        "UnitNum = 6",
-        "UnitNumFix = 6",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7002001",
-        "UnitNum = 2",
-        "UnitNumFix = 2",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7003001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7012001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7013001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 7001001,
+        "UnitNum": 6,
+        "UnitNumFix": 6,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7002001,
+        "UnitNum": 2,
+        "UnitNumFix": 2,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7003001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7012001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7013001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      }
     ],
     "FirstPercentFix": 60,
     "Threshold": 8,
@@ -731,11 +693,9 @@
     "UnitSpawnTotalNum": 200,
     "Mode": "Player",
     "Tacmap": true,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -743,11 +703,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 1,
     "UnitSpawnRadiusMax": 10000,
     "RandomSpawn": true,
@@ -756,42 +714,42 @@
   "204": {
     "UnitSpawnId": 204,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 6004001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7002001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 6003001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7001001",
-        "UnitNum = 7",
-        "UnitNumFix = 7",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7012001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 6013001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 6004001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7002001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 6003001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7001001,
+        "UnitNum": 7,
+        "UnitNumFix": 7,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7012001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 6013001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      }
     ],
     "FirstPercentFix": 60,
     "Threshold": 12,
@@ -800,11 +758,9 @@
     "UnitSpawnTotalNum": 200,
     "Mode": "Player",
     "Tacmap": true,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -812,11 +768,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 1,
     "UnitSpawnRadiusMax": 10000,
     "RandomSpawn": true,
@@ -826,36 +780,36 @@
     "UnitSpawnId": 205,
     "RelationId": 205,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7001001",
-        "UnitNum = 6",
-        "UnitNumFix = 6",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7002001",
-        "UnitNum = 2",
-        "UnitNumFix = 2",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7003001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7012001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7013001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 7001001,
+        "UnitNum": 6,
+        "UnitNumFix": 6,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7002001,
+        "UnitNum": 2,
+        "UnitNumFix": 2,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7003001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7012001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7013001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      }
     ],
     "FirstPercentFix": 60,
     "Threshold": 8,
@@ -864,11 +818,9 @@
     "UnitSpawnTotalNum": 200,
     "Mode": "Player",
     "Tacmap": true,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -876,11 +828,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 1,
     "UnitSpawnRadiusMax": 10000,
     "RandomSpawn": true,
@@ -890,42 +840,42 @@
     "UnitSpawnId": 206,
     "RelationId": 206,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 6014001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7002001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 6003001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7001001",
-        "UnitNum = 7",
-        "UnitNumFix = 7",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7012001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 6013001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 6014001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7002001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 6003001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7001001,
+        "UnitNum": 7,
+        "UnitNumFix": 7,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7012001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 6013001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      }
     ],
     "FirstPercentFix": 60,
     "Threshold": 12,
@@ -934,11 +884,9 @@
     "UnitSpawnTotalNum": 200,
     "Mode": "Player",
     "Tacmap": true,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -946,11 +894,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 1,
     "UnitSpawnRadiusMax": 10000,
     "RandomSpawn": true,
@@ -959,24 +905,24 @@
   "207": {
     "UnitSpawnId": 207,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 6001001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 6002001",
-        "UnitNum = 2",
-        "UnitNumFix = 2",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 6004001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 6001001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 6002001,
+        "UnitNum": 2,
+        "UnitNumFix": 2,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 6004001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      }
     ],
     "Threshold": 4,
     "DetectTime": 1,
@@ -985,11 +931,9 @@
     "Mode": "Player",
     "Tacmap": true,
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 1,
     "UnitSpawnRadiusMax": 6000,
     "RandomSpawn": true,
@@ -998,12 +942,12 @@
   "208": {
     "UnitSpawnId": 208,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 6001001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
+      {
+        "UnitId": 6001001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
       {
         "UnitId": 6002001,
         "UnitNum": 2,
@@ -1030,11 +974,9 @@
     "Mode": "Player",
     "Tacmap": true,
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Mechanism": 390014
-      }
-    ],
+    "PresetTargetInfo": {
+      "Mechanism": 390014
+    },
     "UnitSpawnRadiusMin": 1,
     "UnitSpawnRadiusMax": 4000,
     "RandomSpawn": true,
@@ -1043,24 +985,24 @@
   "301": {
     "UnitSpawnId": 301,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 6001001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 6002001",
-        "UnitNum = 4",
-        "UnitNumFix = 4",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 6011001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ],
+      {
+        "UnitId": 6001001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 6002001,
+        "UnitNum": 4,
+        "UnitNumFix": 4,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 6011001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      },
       {
         "UnitId": 6012001,
         "UnitNum": 4,
@@ -1074,11 +1016,9 @@
     "UnitSpawnTotalNum": 64,
     "Mode": "Level",
     "Tacmap": false,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -1086,11 +1026,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Mechanism": 39001
-      }
-    ],
+    "PresetTargetInfo": {
+      "Mechanism": 39001
+    },
     "UnitSpawnRadiusMin": 1000,
     "UnitSpawnRadiusMax": 8000,
     "RandomSpawn": true,
@@ -1099,24 +1037,24 @@
   "302": {
     "UnitSpawnId": 302,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7001001",
-        "UnitNum = 10",
-        "UnitNumFix = 10",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7012001",
-        "UnitNum = 2",
-        "UnitNumFix = 2",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7003001",
-        "UnitNum = 2",
-        "UnitNumFix = 2",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 7001001,
+        "UnitNum": 10,
+        "UnitNumFix": 10,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7012001,
+        "UnitNum": 2,
+        "UnitNumFix": 2,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7003001,
+        "UnitNum": 2,
+        "UnitNumFix": 2,
+        "UnitLevel": 0
+      }
     ],
     "Threshold": 6,
     "DetectTime": 19,
@@ -1124,11 +1062,9 @@
     "UnitSpawnTotalNum": 80,
     "Mode": "Level",
     "Tacmap": false,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -1136,11 +1072,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Mechanism": 39001
-      }
-    ],
+    "PresetTargetInfo": {
+      "Mechanism": 39001
+    },
     "UnitSpawnRadiusMin": 1000,
     "UnitSpawnRadiusMax": 8000,
     "RandomSpawn": true,
@@ -1150,24 +1084,24 @@
     "UnitSpawnId": 303,
     "RelationId": 303,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7001001",
-        "UnitNum = 10",
-        "UnitNumFix = 10",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7002001",
-        "UnitNum = 2",
-        "UnitNumFix = 2",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7013001",
-        "UnitNum = 2",
-        "UnitNumFix = 2",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 7001001,
+        "UnitNum": 10,
+        "UnitNumFix": 10,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7002001,
+        "UnitNum": 2,
+        "UnitNumFix": 2,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7013001,
+        "UnitNum": 2,
+        "UnitNumFix": 2,
+        "UnitLevel": 0
+      }
     ],
     "Threshold": 6,
     "DetectTime": 19,
@@ -1175,11 +1109,9 @@
     "UnitSpawnTotalNum": 80,
     "Mode": "Level",
     "Tacmap": false,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -1187,11 +1119,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Mechanism": 39001
-      }
-    ],
+    "PresetTargetInfo": {
+      "Mechanism": 39001
+    },
     "UnitSpawnRadiusMin": 1000,
     "UnitSpawnRadiusMax": 8000,
     "RandomSpawn": true,
@@ -1200,24 +1130,24 @@
   "304": {
     "UnitSpawnId": 304,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7001001",
-        "UnitNum = 10",
-        "UnitNumFix = 10",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7012001",
-        "UnitNum = 2",
-        "UnitNumFix = 2",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7003001",
-        "UnitNum = 2",
-        "UnitNumFix = 2",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 7001001,
+        "UnitNum": 10,
+        "UnitNumFix": 10,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7012001,
+        "UnitNum": 2,
+        "UnitNumFix": 2,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7003001,
+        "UnitNum": 2,
+        "UnitNumFix": 2,
+        "UnitLevel": 0
+      }
     ],
     "Threshold": 6,
     "DetectTime": 19,
@@ -1225,11 +1155,9 @@
     "UnitSpawnTotalNum": 80,
     "Mode": "Level",
     "Tacmap": false,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -1237,11 +1165,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Mechanism": 39001
-      }
-    ],
+    "PresetTargetInfo": {
+      "Mechanism": 39001
+    },
     "UnitSpawnRadiusMin": 1000,
     "UnitSpawnRadiusMax": 8000,
     "RandomSpawn": true,
@@ -1251,24 +1177,24 @@
     "UnitSpawnId": 305,
     "RelationId": 305,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7001001",
-        "UnitNum = 10",
-        "UnitNumFix = 10",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7002001",
-        "UnitNum = 2",
-        "UnitNumFix = 2",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7013001",
-        "UnitNum = 2",
-        "UnitNumFix = 2",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 7001001,
+        "UnitNum": 10,
+        "UnitNumFix": 10,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7002001,
+        "UnitNum": 2,
+        "UnitNumFix": 2,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7013001,
+        "UnitNum": 2,
+        "UnitNumFix": 2,
+        "UnitLevel": 0
+      }
     ],
     "Threshold": 6,
     "DetectTime": 19,
@@ -1276,11 +1202,9 @@
     "UnitSpawnTotalNum": 80,
     "Mode": "Level",
     "Tacmap": false,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -1288,11 +1212,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Mechanism": 39001
-      }
-    ],
+    "PresetTargetInfo": {
+      "Mechanism": 39001
+    },
     "UnitSpawnRadiusMin": 1000,
     "UnitSpawnRadiusMax": 8000,
     "RandomSpawn": true,
@@ -1301,24 +1223,24 @@
   "306": {
     "UnitSpawnId": 306,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7001001",
-        "UnitNum = 10",
-        "UnitNumFix = 10",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7012001",
-        "UnitNum = 2",
-        "UnitNumFix = 2",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7003001",
-        "UnitNum = 2",
-        "UnitNumFix = 2",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 7001001,
+        "UnitNum": 10,
+        "UnitNumFix": 10,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7012001,
+        "UnitNum": 2,
+        "UnitNumFix": 2,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7003001,
+        "UnitNum": 2,
+        "UnitNumFix": 2,
+        "UnitLevel": 0
+      }
     ],
     "Threshold": 6,
     "DetectTime": 19,
@@ -1326,11 +1248,9 @@
     "UnitSpawnTotalNum": 80,
     "Mode": "Level",
     "Tacmap": false,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -1338,11 +1258,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Mechanism": 39001
-      }
-    ],
+    "PresetTargetInfo": {
+      "Mechanism": 39001
+    },
     "UnitSpawnRadiusMin": 1000,
     "UnitSpawnRadiusMax": 8000,
     "RandomSpawn": true,
@@ -1351,12 +1269,12 @@
   "307": {
     "UnitSpawnId": 307,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7008001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 7008001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      }
     ],
     "Threshold": 1,
     "DetectTime": 40,
@@ -1364,11 +1282,9 @@
     "UnitSpawnTotalNum": 2,
     "Mode": "Level",
     "Tacmap": false,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -1376,11 +1292,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Mechanism": 39001
-      }
-    ],
+    "PresetTargetInfo": {
+      "Mechanism": 39001
+    },
     "UnitSpawnRadiusMin": 1000,
     "UnitSpawnRadiusMax": 8000,
     "RandomSpawn": true,
@@ -1389,12 +1303,12 @@
   "308": {
     "UnitSpawnId": 308,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7008001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 7008001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      }
     ],
     "Threshold": 1,
     "DetectTime": 40,
@@ -1402,11 +1316,9 @@
     "UnitSpawnTotalNum": 2,
     "Mode": "Level",
     "Tacmap": false,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -1414,11 +1326,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Mechanism": 39001
-      }
-    ],
+    "PresetTargetInfo": {
+      "Mechanism": 39001
+    },
     "UnitSpawnRadiusMin": 1000,
     "UnitSpawnRadiusMax": 8000,
     "RandomSpawn": true,
@@ -1428,24 +1338,24 @@
     "UnitSpawnId": 311,
     "RelationId": 311,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 6001001",
-        "UnitNum = 2",
-        "UnitNumFix = 2",
-        "UnitLevel = 0"
-      ],
+      {
+        "UnitId": 6001001,
+        "UnitNum": 2,
+        "UnitNumFix": 2,
+        "UnitLevel": 0
+      },
       {
         "UnitId": 6002001,
         "UnitNum": 5,
         "UnitNumFix": 5,
         "UnitLevel": 0
       },
-      [
-        "UnitId = 6011001",
-        "UnitNum = 2",
-        "UnitNumFix = 2",
-        "UnitLevel = 0"
-      ],
+      {
+        "UnitId": 6011001,
+        "UnitNum": 2,
+        "UnitNumFix": 2,
+        "UnitLevel": 0
+      },
       {
         "UnitId": 6012001,
         "UnitNum": 5,
@@ -1459,11 +1369,9 @@
     "UnitSpawnTotalNum": -1,
     "Mode": "Level",
     "Tacmap": false,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -1471,11 +1379,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Mechanism": 39008
-      }
-    ],
+    "PresetTargetInfo": {
+      "Mechanism": 39008
+    },
     "UnitSpawnRadiusMin": 1000,
     "UnitSpawnRadiusMax": 8000,
     "RandomSpawn": true,
@@ -1510,11 +1416,9 @@
     "UnitSpawnTotalNum": 999,
     "Mode": "Level",
     "Tacmap": false,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -1522,11 +1426,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Mechanism": 39008
-      }
-    ],
+    "PresetTargetInfo": {
+      "Mechanism": 39008
+    },
     "UnitSpawnRadiusMin": 1000,
     "UnitSpawnRadiusMax": 8000,
     "RandomSpawn": true,
@@ -1561,11 +1463,9 @@
     "UnitSpawnTotalNum": 999,
     "Mode": "Level",
     "Tacmap": false,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -1573,11 +1473,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Mechanism": 39008
-      }
-    ],
+    "PresetTargetInfo": {
+      "Mechanism": 39008
+    },
     "UnitSpawnRadiusMin": 1000,
     "UnitSpawnRadiusMax": 8000,
     "RandomSpawn": true,
@@ -1612,11 +1510,9 @@
     "UnitSpawnTotalNum": 999,
     "Mode": "Level",
     "Tacmap": false,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -1624,11 +1520,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Mechanism": 39008
-      }
-    ],
+    "PresetTargetInfo": {
+      "Mechanism": 39008
+    },
     "UnitSpawnRadiusMin": 1000,
     "UnitSpawnRadiusMax": 8000,
     "RandomSpawn": true,
@@ -1663,11 +1557,9 @@
     "UnitSpawnTotalNum": 999,
     "Mode": "Level",
     "Tacmap": false,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -1675,11 +1567,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Mechanism": 39008
-      }
-    ],
+    "PresetTargetInfo": {
+      "Mechanism": 39008
+    },
     "UnitSpawnRadiusMin": 1000,
     "UnitSpawnRadiusMax": 8000,
     "RandomSpawn": true,
@@ -1688,24 +1578,24 @@
   "316": {
     "UnitSpawnId": 316,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 6001001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ],
+      {
+        "UnitId": 6001001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      },
       {
         "UnitId": 6002001,
         "UnitNum": 1,
         "UnitNumFix": 1,
         "UnitLevel": 0
       },
-      [
-        "UnitId = 6012001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 6012001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      }
     ],
     "Threshold": 3,
     "DetectTime": 8,
@@ -1713,11 +1603,9 @@
     "UnitSpawnTotalNum": -1,
     "Mode": "Level",
     "Tacmap": false,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -1725,11 +1613,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 1000,
     "UnitSpawnRadiusMax": 8000,
     "RandomSpawn": true,
@@ -1763,11 +1649,9 @@
     "UnitSpawnTotalNum": 999,
     "Mode": "Level",
     "Tacmap": false,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -1775,11 +1659,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 1000,
     "UnitSpawnRadiusMax": 8000,
     "RandomSpawn": true,
@@ -1813,11 +1695,9 @@
     "UnitSpawnTotalNum": 999,
     "Mode": "Level",
     "Tacmap": false,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -1825,11 +1705,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 1000,
     "UnitSpawnRadiusMax": 8000,
     "RandomSpawn": true,
@@ -1863,11 +1741,9 @@
     "UnitSpawnTotalNum": 999,
     "Mode": "Level",
     "Tacmap": false,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -1875,11 +1751,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 1000,
     "UnitSpawnRadiusMax": 8000,
     "RandomSpawn": true,
@@ -1913,11 +1787,9 @@
     "UnitSpawnTotalNum": 999,
     "Mode": "Level",
     "Tacmap": false,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -1925,11 +1797,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 1000,
     "UnitSpawnRadiusMax": 8000,
     "RandomSpawn": true,
@@ -1938,42 +1808,42 @@
   "501": {
     "UnitSpawnId": 501,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7002001",
-        "UnitNum = 2",
-        "UnitNumFix = 2",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7001001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7003001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7014001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7012001",
-        "UnitNum = 2",
-        "UnitNumFix = 2",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7013001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 7002001,
+        "UnitNum": 2,
+        "UnitNumFix": 2,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7001001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7003001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7014001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7012001,
+        "UnitNum": 2,
+        "UnitNumFix": 2,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7013001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      }
     ],
     "FirstPercentFix": 60,
     "Threshold": 4,
@@ -1982,11 +1852,9 @@
     "UnitSpawnTotalNum": -1,
     "Mode": "Defence",
     "Tacmap": true,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -1994,11 +1862,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 1000,
     "UnitSpawnRadiusMax": 10000,
     "RandomSpawn": true,
@@ -2007,42 +1873,42 @@
   "502": {
     "UnitSpawnId": 502,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 6001001",
-        "UnitNum = 2",
-        "UnitNumFix = 2",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 6002001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 6003001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 6011001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 6012001",
-        "UnitNum = 2",
-        "UnitNumFix = 2",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 6013001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 6001001,
+        "UnitNum": 2,
+        "UnitNumFix": 2,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 6002001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 6003001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 6011001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 6012001,
+        "UnitNum": 2,
+        "UnitNumFix": 2,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 6013001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      }
     ],
     "FirstPercentFix": 60,
     "Threshold": 7,
@@ -2051,11 +1917,9 @@
     "UnitSpawnTotalNum": -1,
     "Mode": "Defence",
     "Tacmap": true,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -2063,11 +1927,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 1000,
     "UnitSpawnRadiusMax": 10000,
     "RandomSpawn": true,
@@ -2076,42 +1938,42 @@
   "503": {
     "UnitSpawnId": 503,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7002001",
-        "UnitNum = 2",
-        "UnitNumFix = 2",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7001001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7003001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7004001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7012001",
-        "UnitNum = 2",
-        "UnitNumFix = 2",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7013001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 7002001,
+        "UnitNum": 2,
+        "UnitNumFix": 2,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7001001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7003001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7004001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7012001,
+        "UnitNum": 2,
+        "UnitNumFix": 2,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7013001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      }
     ],
     "FirstPercentFix": 60,
     "Threshold": 7,
@@ -2120,11 +1982,9 @@
     "UnitSpawnTotalNum": -1,
     "Mode": "Defence",
     "Tacmap": true,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -2132,11 +1992,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 1000,
     "UnitSpawnRadiusMax": 10000,
     "RandomSpawn": true,
@@ -2145,42 +2003,42 @@
   "504": {
     "UnitSpawnId": 504,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 6001001",
-        "UnitNum = 2",
-        "UnitNumFix = 2",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 6002001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 6003001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 6011001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 6012001",
-        "UnitNum = 2",
-        "UnitNumFix = 2",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 6013001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 6001001,
+        "UnitNum": 2,
+        "UnitNumFix": 2,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 6002001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 6003001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 6011001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 6012001,
+        "UnitNum": 2,
+        "UnitNumFix": 2,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 6013001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      }
     ],
     "FirstPercentFix": 60,
     "Threshold": 7,
@@ -2189,11 +2047,9 @@
     "UnitSpawnTotalNum": -1,
     "Mode": "Defence",
     "Tacmap": true,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -2201,11 +2057,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 1000,
     "UnitSpawnRadiusMax": 10000,
     "RandomSpawn": true,
@@ -2214,42 +2068,42 @@
   "505": {
     "UnitSpawnId": 505,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7002001",
-        "UnitNum = 2",
-        "UnitNumFix = 2",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7001001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7003001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7014001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7012001",
-        "UnitNum = 2",
-        "UnitNumFix = 2",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7013001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 7002001,
+        "UnitNum": 2,
+        "UnitNumFix": 2,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7001001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7003001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7014001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7012001,
+        "UnitNum": 2,
+        "UnitNumFix": 2,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7013001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      }
     ],
     "FirstPercentFix": 60,
     "Threshold": 7,
@@ -2258,11 +2112,9 @@
     "UnitSpawnTotalNum": -1,
     "Mode": "Defence",
     "Tacmap": true,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -2270,11 +2122,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 1000,
     "UnitSpawnRadiusMax": 10000,
     "RandomSpawn": true,
@@ -2283,42 +2133,42 @@
   "506": {
     "UnitSpawnId": 506,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 6001001",
-        "UnitNum = 2",
-        "UnitNumFix = 2",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 6002001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 6003001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 6011001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 6012001",
-        "UnitNum = 2",
-        "UnitNumFix = 2",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 6013001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 6001001,
+        "UnitNum": 2,
+        "UnitNumFix": 2,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 6002001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 6003001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 6011001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 6012001,
+        "UnitNum": 2,
+        "UnitNumFix": 2,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 6013001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      }
     ],
     "FirstPercentFix": 60,
     "Threshold": 7,
@@ -2327,11 +2177,9 @@
     "UnitSpawnTotalNum": -1,
     "Mode": "Defence",
     "Tacmap": true,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -2339,11 +2187,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 1000,
     "UnitSpawnRadiusMax": 10000,
     "RandomSpawn": true,
@@ -2352,12 +2198,12 @@
   "511": {
     "UnitSpawnId": 511,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 6004013",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 5"
-      ]
+      {
+        "UnitId": 6004013,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 5
+      }
     ],
     "FirstPercentFix": 60,
     "Threshold": 1,
@@ -2366,11 +2212,9 @@
     "UnitSpawnTotalNum": 1,
     "Mode": "Player",
     "Tacmap": true,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -2378,23 +2222,21 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 1,
     "FilterReachable": false
   },
   "512": {
     "UnitSpawnId": 512,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 6004013",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 5"
-      ]
+      {
+        "UnitId": 6004013,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 5
+      }
     ],
     "FirstPercentFix": 60,
     "Threshold": 1,
@@ -2403,11 +2245,9 @@
     "UnitSpawnTotalNum": 1,
     "Mode": "Player",
     "Tacmap": true,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -2415,23 +2255,21 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 1,
     "FilterReachable": false
   },
   "513": {
     "UnitSpawnId": 513,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 6004013",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 5"
-      ]
+      {
+        "UnitId": 6004013,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 5
+      }
     ],
     "FirstPercentFix": 60,
     "Threshold": 1,
@@ -2440,11 +2278,9 @@
     "UnitSpawnTotalNum": 1,
     "Mode": "Player",
     "Tacmap": true,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -2452,23 +2288,21 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 1,
     "FilterReachable": false
   },
   "514": {
     "UnitSpawnId": 514,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 6004013",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 5"
-      ]
+      {
+        "UnitId": 6004013,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 5
+      }
     ],
     "FirstPercentFix": 60,
     "Threshold": 1,
@@ -2477,11 +2311,9 @@
     "UnitSpawnTotalNum": 1,
     "Mode": "Player",
     "Tacmap": true,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -2489,23 +2321,21 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 1,
     "FilterReachable": false
   },
   "521": {
     "UnitSpawnId": 521,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7002001",
-        "UnitNum = 4",
-        "UnitNumFix = 4",
-        "UnitLevel = 1"
-      ],
+      {
+        "UnitId": 7002001,
+        "UnitNum": 4,
+        "UnitNumFix": 4,
+        "UnitLevel": 1
+      },
       {
         "UnitId": 7001001,
         "UnitNum": 3,
@@ -2525,11 +2355,9 @@
     "UnitSpawnTotalNum": 999,
     "Mode": "Player",
     "Tacmap": true,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -2537,23 +2365,21 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 1000,
     "FilterReachable": false
   },
   "522": {
     "UnitSpawnId": 522,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7002001",
-        "UnitNum = 5",
-        "UnitNumFix = 5",
-        "UnitLevel = 1"
-      ]
+      {
+        "UnitId": 7002001,
+        "UnitNum": 5,
+        "UnitNumFix": 5,
+        "UnitLevel": 1
+      }
     ],
     "Threshold": 5,
     "DetectTime": 3,
@@ -2561,11 +2387,9 @@
     "UnitSpawnTotalNum": 5,
     "Mode": "Player",
     "Tacmap": true,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -2573,11 +2397,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 1000,
     "FilterReachable": false
   },
@@ -2611,11 +2433,9 @@
     "Mode": "Level",
     "Tacmap": false,
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 500,
     "UnitSpawnRadiusMax": 3000,
     "RandomSpawn": true,
@@ -2624,30 +2444,30 @@
   "10102": {
     "UnitSpawnId": 10102,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 6001001",
-        "UnitNum = 5",
-        "UnitNumFix = 5",
-        "UnitLevel = 20"
-      ],
-      [
-        "UnitId = 6002001",
-        "UnitNum = 5",
-        "UnitNumFix = 5",
-        "UnitLevel = 20"
-      ],
-      [
-        "UnitId = 6003001",
-        "UnitNum = 5",
-        "UnitNumFix = 5",
-        "UnitLevel = 20"
-      ],
-      [
-        "UnitId = 6004001",
-        "UnitNum = 2",
-        "UnitNumFix = 2",
-        "UnitLevel = 20"
-      ]
+      {
+        "UnitId": 6001001,
+        "UnitNum": 5,
+        "UnitNumFix": 5,
+        "UnitLevel": 20
+      },
+      {
+        "UnitId": 6002001,
+        "UnitNum": 5,
+        "UnitNumFix": 5,
+        "UnitLevel": 20
+      },
+      {
+        "UnitId": 6003001,
+        "UnitNum": 5,
+        "UnitNumFix": 5,
+        "UnitLevel": 20
+      },
+      {
+        "UnitId": 6004001,
+        "UnitNum": 2,
+        "UnitNumFix": 2,
+        "UnitLevel": 20
+      }
     ],
     "Threshold": 8,
     "DetectTime": 5,
@@ -2668,30 +2488,30 @@
   "10103": {
     "UnitSpawnId": 10103,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 6001001",
-        "UnitNum = 5",
-        "UnitNumFix = 5",
-        "UnitLevel = 20"
-      ],
-      [
-        "UnitId = 6002001",
-        "UnitNum = 5",
-        "UnitNumFix = 5",
-        "UnitLevel = 20"
-      ],
-      [
-        "UnitId = 6003001",
-        "UnitNum = 5",
-        "UnitNumFix = 5",
-        "UnitLevel = 20"
-      ],
-      [
-        "UnitId = 6004001",
-        "UnitNum = 2",
-        "UnitNumFix = 2",
-        "UnitLevel = 20"
-      ]
+      {
+        "UnitId": 6001001,
+        "UnitNum": 5,
+        "UnitNumFix": 5,
+        "UnitLevel": 20
+      },
+      {
+        "UnitId": 6002001,
+        "UnitNum": 5,
+        "UnitNumFix": 5,
+        "UnitLevel": 20
+      },
+      {
+        "UnitId": 6003001,
+        "UnitNum": 5,
+        "UnitNumFix": 5,
+        "UnitLevel": 20
+      },
+      {
+        "UnitId": 6004001,
+        "UnitNum": 2,
+        "UnitNumFix": 2,
+        "UnitLevel": 20
+      }
     ],
     "Threshold": 8,
     "DetectTime": 5,
@@ -2701,11 +2521,9 @@
     "Mode": "Level",
     "Tacmap": false,
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 500,
     "UnitSpawnRadiusMax": 10000,
     "RandomSpawn": true,
@@ -2747,11 +2565,9 @@
     "Mode": "Level",
     "Tacmap": false,
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 500,
     "UnitSpawnRadiusMax": 4000,
     "RandomSpawn": true,
@@ -2787,11 +2603,9 @@
     "Mode": "Level",
     "Tacmap": false,
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 500,
     "UnitSpawnRadiusMax": 3000,
     "FilterReachable": false
@@ -2826,11 +2640,9 @@
     "Mode": "Level",
     "Tacmap": false,
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 500,
     "UnitSpawnRadiusMax": 4000,
     "RandomSpawn": true,
@@ -2866,11 +2678,9 @@
     "Mode": "Level",
     "Tacmap": false,
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 500,
     "UnitSpawnRadiusMax": 4000,
     "FilterReachable": false
@@ -2878,30 +2688,30 @@
   "10401": {
     "UnitSpawnId": 10401,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 6001001",
-        "UnitNum = 2",
-        "UnitNumFix = 2",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 6002001",
-        "UnitNum = 2",
-        "UnitNumFix = 2",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 6011001",
-        "UnitNum = 2",
-        "UnitNumFix = 2",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 6012001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 6001001,
+        "UnitNum": 2,
+        "UnitNumFix": 2,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 6002001,
+        "UnitNum": 2,
+        "UnitNumFix": 2,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 6011001,
+        "UnitNum": 2,
+        "UnitNumFix": 2,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 6012001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      }
     ],
     "Threshold": 3,
     "DetectTime": 15,
@@ -2909,11 +2719,9 @@
     "UnitSpawnTotalNum": -1,
     "Mode": "Defence",
     "Tacmap": true,
-    "MultiInfo": [
-      {
-        "Mechanism": 49001
-      }
-    ],
+    "MultiInfo": {
+      "Mechanism": 49001
+    },
     "MultiPara": [
       1,
       2,
@@ -2922,11 +2730,9 @@
       5
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Mechanism": 49001
-      }
-    ],
+    "PresetTargetInfo": {
+      "Mechanism": 49001
+    },
     "UnitSpawnRadiusMin": 1000,
     "UnitSpawnRadiusMax": 10000,
     "RandomSpawn": true,
@@ -2935,24 +2741,24 @@
   "10402": {
     "UnitSpawnId": 10402,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7002001",
-        "UnitNum = 2",
-        "UnitNumFix = 2",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7001001",
-        "UnitNum = 4",
-        "UnitNumFix = 4",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7012001",
-        "UnitNum = 2",
-        "UnitNumFix = 2",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 7002001,
+        "UnitNum": 2,
+        "UnitNumFix": 2,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7001001,
+        "UnitNum": 4,
+        "UnitNumFix": 4,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7012001,
+        "UnitNum": 2,
+        "UnitNumFix": 2,
+        "UnitLevel": 0
+      }
     ],
     "Threshold": 4,
     "DetectTime": 15,
@@ -2960,11 +2766,9 @@
     "UnitSpawnTotalNum": -1,
     "Mode": "Defence",
     "Tacmap": true,
-    "MultiInfo": [
-      {
-        "Mechanism": 49002
-      }
-    ],
+    "MultiInfo": {
+      "Mechanism": 49002
+    },
     "MultiPara": [
       1,
       2,
@@ -2973,11 +2777,9 @@
       5
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Mechanism": 49002
-      }
-    ],
+    "PresetTargetInfo": {
+      "Mechanism": 49002
+    },
     "UnitSpawnRadiusMin": 1000,
     "UnitSpawnRadiusMax": 10000,
     "RandomSpawn": true,
@@ -2986,30 +2788,30 @@
   "10403": {
     "UnitSpawnId": 10403,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7002001",
-        "UnitNum = 2",
-        "UnitNumFix = 2",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7003001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7012001",
-        "UnitNum = 2",
-        "UnitNumFix = 2",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7013001",
-        "UnitNum = 2",
-        "UnitNumFix = 2",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 7002001,
+        "UnitNum": 2,
+        "UnitNumFix": 2,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7003001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7012001,
+        "UnitNum": 2,
+        "UnitNumFix": 2,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7013001,
+        "UnitNum": 2,
+        "UnitNumFix": 2,
+        "UnitLevel": 0
+      }
     ],
     "Threshold": 5,
     "DetectTime": 15,
@@ -3017,11 +2819,9 @@
     "UnitSpawnTotalNum": -1,
     "Mode": "Defence",
     "Tacmap": true,
-    "MultiInfo": [
-      {
-        "Mechanism": 49003
-      }
-    ],
+    "MultiInfo": {
+      "Mechanism": 49003
+    },
     "MultiPara": [
       1,
       2,
@@ -3030,11 +2830,9 @@
       5
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Mechanism": 49003
-      }
-    ],
+    "PresetTargetInfo": {
+      "Mechanism": 49003
+    },
     "UnitSpawnRadiusMin": 1000,
     "UnitSpawnRadiusMax": 10000,
     "RandomSpawn": true,
@@ -3056,11 +2854,9 @@
     "UnitSpawnTotalNum": -1,
     "Mode": "Player",
     "Tacmap": true,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.8,
@@ -3068,11 +2864,9 @@
       3
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 1000,
     "UnitSpawnRadiusMax": 10000,
     "RandomSpawn": true,
@@ -3112,11 +2906,9 @@
     "UnitSpawnTotalNum": -1,
     "Mode": "Player",
     "Tacmap": true,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.8,
@@ -3124,11 +2916,9 @@
       3
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 1000,
     "UnitSpawnRadiusMax": 10000,
     "FilterReachable": false
@@ -3149,11 +2939,9 @@
     "UnitSpawnTotalNum": 1,
     "Mode": "Player",
     "Tacmap": true,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -3161,11 +2949,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 1000,
     "UnitSpawnRadiusMax": 10000,
     "RandomSpawn": true,
@@ -3174,18 +2960,18 @@
   "10501": {
     "UnitSpawnId": 10501,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7003001",
-        "UnitNum = 2",
-        "UnitNumFix = 2",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7013001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 7003001,
+        "UnitNum": 2,
+        "UnitNumFix": 2,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7013001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      }
     ],
     "Threshold": 1,
     "DetectTime": 1,
@@ -3193,11 +2979,9 @@
     "UnitSpawnTotalNum": 999,
     "Mode": "Defence",
     "Tacmap": true,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -3205,11 +2989,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Mechanism": 49200
-      }
-    ],
+    "PresetTargetInfo": {
+      "Mechanism": 49200
+    },
     "UnitSpawnRadiusMin": 1500,
     "UnitSpawnRadiusMax": 10000,
     "RandomSpawn": true,
@@ -3218,18 +3000,18 @@
   "10502": {
     "UnitSpawnId": 10502,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7003001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7013001",
-        "UnitNum = 2",
-        "UnitNumFix = 2",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 7003001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7013001,
+        "UnitNum": 2,
+        "UnitNumFix": 2,
+        "UnitLevel": 0
+      }
     ],
     "Threshold": 4,
     "DetectTime": 1,
@@ -3237,11 +3019,9 @@
     "UnitSpawnTotalNum": 10,
     "Mode": "Defence",
     "Tacmap": true,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -3249,11 +3029,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Mechanism": 49200
-      }
-    ],
+    "PresetTargetInfo": {
+      "Mechanism": 49200
+    },
     "UnitSpawnRadiusMin": 1500,
     "UnitSpawnRadiusMax": 5000,
     "RandomSpawn": true,
@@ -3262,18 +3040,18 @@
   "10503": {
     "UnitSpawnId": 10503,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7002001",
-        "UnitNum = 2",
-        "UnitNumFix = 2",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7012001",
-        "UnitNum = 2",
-        "UnitNumFix = 2",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 7002001,
+        "UnitNum": 2,
+        "UnitNumFix": 2,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7012001,
+        "UnitNum": 2,
+        "UnitNumFix": 2,
+        "UnitLevel": 0
+      }
     ],
     "Threshold": 1,
     "DetectTime": 10,
@@ -3281,11 +3059,9 @@
     "UnitSpawnTotalNum": 999,
     "Mode": "Defence",
     "Tacmap": false,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -3293,11 +3069,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Mechanism": 49200
-      }
-    ],
+    "PresetTargetInfo": {
+      "Mechanism": 49200
+    },
     "UnitSpawnRadiusMin": 1500,
     "UnitSpawnRadiusMax": 10000,
     "RandomSpawn": true,
@@ -3306,18 +3080,18 @@
   "10504": {
     "UnitSpawnId": 10504,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7003001",
-        "UnitNum = 2",
-        "UnitNumFix = 2",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7013001",
-        "UnitNum = 2",
-        "UnitNumFix = 2",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 7003001,
+        "UnitNum": 2,
+        "UnitNumFix": 2,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7013001,
+        "UnitNum": 2,
+        "UnitNumFix": 2,
+        "UnitLevel": 0
+      }
     ],
     "Threshold": 1,
     "DetectTime": 10,
@@ -3325,11 +3099,9 @@
     "UnitSpawnTotalNum": 999,
     "Mode": "Defence",
     "Tacmap": false,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -3337,11 +3109,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Mechanism": 49200
-      }
-    ],
+    "PresetTargetInfo": {
+      "Mechanism": 49200
+    },
     "UnitSpawnRadiusMin": 1500,
     "UnitSpawnRadiusMax": 10000,
     "FilterReachable": true
@@ -3362,11 +3132,9 @@
     "UnitSpawnTotalNum": 10,
     "Mode": "Defence",
     "Tacmap": true,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -3374,11 +3142,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Mechanism": 49200
-      }
-    ],
+    "PresetTargetInfo": {
+      "Mechanism": 49200
+    },
     "UnitSpawnRadiusMin": 1500,
     "UnitSpawnRadiusMax": 10000,
     "FilterReachable": true
@@ -3406,11 +3172,9 @@
     "UnitSpawnTotalNum": 18,
     "Mode": "Defence",
     "Tacmap": true,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -3418,11 +3182,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Mechanism": 49200
-      }
-    ],
+    "PresetTargetInfo": {
+      "Mechanism": 49200
+    },
     "UnitSpawnRadiusMin": 1500,
     "UnitSpawnRadiusMax": 8000,
     "RandomSpawn": true,
@@ -3431,12 +3193,12 @@
   "10507": {
     "UnitSpawnId": 10507,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7003001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 7003001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      }
     ],
     "Threshold": 1,
     "DetectTime": 10,
@@ -3444,11 +3206,9 @@
     "UnitSpawnTotalNum": 3,
     "Mode": "Defence",
     "Tacmap": false,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -3456,11 +3216,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Mechanism": 49200
-      }
-    ],
+    "PresetTargetInfo": {
+      "Mechanism": 49200
+    },
     "UnitSpawnRadiusMin": 1500,
     "UnitSpawnRadiusMax": 10000,
     "FilterReachable": true
@@ -3481,11 +3239,9 @@
     "UnitSpawnTotalNum": 8,
     "Mode": "Defence",
     "Tacmap": true,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -3493,11 +3249,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Mechanism": 49200
-      }
-    ],
+    "PresetTargetInfo": {
+      "Mechanism": 49200
+    },
     "UnitSpawnRadiusMin": 1500,
     "UnitSpawnRadiusMax": 8000,
     "RandomSpawn": true,
@@ -3506,24 +3260,24 @@
   "10601": {
     "UnitSpawnId": 10601,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7001001",
-        "UnitNum = 4",
-        "UnitNumFix = 4",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7002001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7013001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 7001001,
+        "UnitNum": 4,
+        "UnitNumFix": 4,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7002001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7013001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      }
     ],
     "Threshold": 1,
     "DetectTime": 13,
@@ -3531,11 +3285,9 @@
     "UnitSpawnTotalNum": -1,
     "Mode": "Player",
     "Tacmap": true,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -3543,11 +3295,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "FilterReachable": false
   },
   "10602": {
@@ -3559,24 +3309,24 @@
         "UnitNumFix": 8,
         "UnitLevel": 0
       },
-      [
-        "UnitId = 7002001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7003001",
-        "UnitNum = 2",
-        "UnitNumFix = 2",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7012001",
-        "UnitNum = 2",
-        "UnitNumFix = 2",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 7002001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7003001,
+        "UnitNum": 2,
+        "UnitNumFix": 2,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7012001,
+        "UnitNum": 2,
+        "UnitNumFix": 2,
+        "UnitLevel": 0
+      }
     ],
     "FirstPercentFix": 60,
     "Threshold": 2,
@@ -3585,11 +3335,9 @@
     "UnitSpawnTotalNum": -1,
     "Mode": "Player",
     "Tacmap": true,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -3597,40 +3345,38 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "FilterReachable": false
   },
   "10603": {
     "UnitSpawnId": 10603,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7001001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7002001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7003001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7013001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 7001001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7002001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7003001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7013001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      }
     ],
     "FirstPercentFix": 60,
     "Threshold": 8,
@@ -3639,11 +3385,9 @@
     "UnitSpawnTotalNum": 1,
     "Mode": "Player",
     "Tacmap": true,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -3651,34 +3395,32 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "FilterReachable": false
   },
   "10701": {
     "UnitSpawnId": 10701,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7001001",
-        "UnitNum = 4",
-        "UnitNumFix = 4",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7002001",
-        "UnitNum = 2",
-        "UnitNumFix = 2",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7012001",
-        "UnitNum = 2",
-        "UnitNumFix = 2",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 7001001,
+        "UnitNum": 4,
+        "UnitNumFix": 4,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7002001,
+        "UnitNum": 2,
+        "UnitNumFix": 2,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7012001,
+        "UnitNum": 2,
+        "UnitNumFix": 2,
+        "UnitLevel": 0
+      }
     ],
     "Threshold": 4,
     "DetectTime": 15,
@@ -3686,11 +3428,9 @@
     "UnitSpawnTotalNum": 60,
     "Mode": "Player",
     "Tacmap": true,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -3698,11 +3438,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "FilterReachable": true
   },
   "10702": {
@@ -3721,11 +3459,9 @@
     "UnitSpawnTotalNum": 5,
     "Mode": "Player",
     "Tacmap": true,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -3733,28 +3469,26 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "FilterReachable": true
   },
   "10703": {
     "UnitSpawnId": 10703,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7003001",
-        "UnitNum = 2",
-        "UnitNumFix = 2",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7013001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 7003001,
+        "UnitNum": 2,
+        "UnitNumFix": 2,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7013001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      }
     ],
     "Threshold": 2,
     "DetectTime": 15,
@@ -3762,11 +3496,9 @@
     "UnitSpawnTotalNum": 30,
     "Mode": "Player",
     "Tacmap": true,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -3774,23 +3506,21 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "FilterReachable": true
   },
   "10801": {
     "UnitSpawnId": 10801,
     "RelationId": 701,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7001001",
-        "UnitNum = 4",
-        "UnitNumFix = 4",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 7001001,
+        "UnitNum": 4,
+        "UnitNumFix": 4,
+        "UnitLevel": 0
+      }
     ],
     "Threshold": 1,
     "DetectTime": 1,
@@ -3798,11 +3528,9 @@
     "UnitSpawnTotalNum": 999,
     "Mode": "Level",
     "Tacmap": true,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -3810,34 +3538,32 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "FilterReachable": false
   },
   "10802": {
     "UnitSpawnId": 10802,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7003001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7012001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7001001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 7003001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7012001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7001001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      }
     ],
     "Threshold": 1,
     "DetectTime": 1,
@@ -3845,11 +3571,9 @@
     "UnitSpawnTotalNum": 3,
     "Mode": "Level",
     "Tacmap": true,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -3857,23 +3581,21 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "FilterReachable": false
   },
   "10803": {
     "UnitSpawnId": 10803,
     "RelationId": 702,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7001001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 7001001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      }
     ],
     "Threshold": 1,
     "DetectTime": 1,
@@ -3881,11 +3603,9 @@
     "UnitSpawnTotalNum": 999,
     "Mode": "Level",
     "Tacmap": false,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -3893,46 +3613,44 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "FilterReachable": false
   },
   "10810": {
     "UnitSpawnId": 10810,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7003001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7002001",
-        "UnitNum = 4",
-        "UnitNumFix = 4",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7001001",
-        "UnitNum = 6",
-        "UnitNumFix = 6",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7013001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7012001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 7003001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7002001,
+        "UnitNum": 4,
+        "UnitNumFix": 4,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7001001,
+        "UnitNum": 6,
+        "UnitNumFix": 6,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7013001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7012001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      }
     ],
     "Threshold": 14,
     "DetectTime": 1,
@@ -3940,11 +3658,9 @@
     "UnitSpawnTotalNum": 300,
     "Mode": "Defence",
     "Tacmap": false,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -3952,11 +3668,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 100,
     "UnitSpawnRadiusMax": 3000,
     "FilterReachable": false
@@ -3964,36 +3678,36 @@
   "10811": {
     "UnitSpawnId": 10811,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7003001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7002001",
-        "UnitNum = 4",
-        "UnitNumFix = 4",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7001001",
-        "UnitNum = 6",
-        "UnitNumFix = 6",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7013001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7012001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 7003001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7002001,
+        "UnitNum": 4,
+        "UnitNumFix": 4,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7001001,
+        "UnitNum": 6,
+        "UnitNumFix": 6,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7013001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7012001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      }
     ],
     "Threshold": 14,
     "DetectTime": 1,
@@ -4001,11 +3715,9 @@
     "UnitSpawnTotalNum": 300,
     "Mode": "Defence",
     "Tacmap": false,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -4013,11 +3725,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 100,
     "UnitSpawnRadiusMax": 3000,
     "FilterReachable": false
@@ -4025,36 +3735,36 @@
   "10812": {
     "UnitSpawnId": 10812,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7003001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7002001",
-        "UnitNum = 4",
-        "UnitNumFix = 4",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7001001",
-        "UnitNum = 6",
-        "UnitNumFix = 6",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7013001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7012001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 7003001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7002001,
+        "UnitNum": 4,
+        "UnitNumFix": 4,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7001001,
+        "UnitNum": 6,
+        "UnitNumFix": 6,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7013001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7012001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      }
     ],
     "Threshold": 14,
     "DetectTime": 1,
@@ -4062,11 +3772,9 @@
     "UnitSpawnTotalNum": 300,
     "Mode": "Defence",
     "Tacmap": false,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -4074,11 +3782,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 100,
     "UnitSpawnRadiusMax": 3000,
     "FilterReachable": false
@@ -4086,36 +3792,36 @@
   "10813": {
     "UnitSpawnId": 10813,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7003001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7002001",
-        "UnitNum = 4",
-        "UnitNumFix = 4",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7001001",
-        "UnitNum = 6",
-        "UnitNumFix = 6",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7013001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7012001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 7003001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7002001,
+        "UnitNum": 4,
+        "UnitNumFix": 4,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7001001,
+        "UnitNum": 6,
+        "UnitNumFix": 6,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7013001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7012001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      }
     ],
     "Threshold": 14,
     "DetectTime": 1,
@@ -4123,11 +3829,9 @@
     "UnitSpawnTotalNum": 300,
     "Mode": "Defence",
     "Tacmap": false,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -4135,11 +3839,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 100,
     "UnitSpawnRadiusMax": 3000,
     "FilterReachable": false
@@ -4147,36 +3849,36 @@
   "10814": {
     "UnitSpawnId": 10814,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7003001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7002001",
-        "UnitNum = 4",
-        "UnitNumFix = 4",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7001001",
-        "UnitNum = 6",
-        "UnitNumFix = 6",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7013001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7012001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 7003001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7002001,
+        "UnitNum": 4,
+        "UnitNumFix": 4,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7001001,
+        "UnitNum": 6,
+        "UnitNumFix": 6,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7013001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7012001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      }
     ],
     "Threshold": 14,
     "DetectTime": 1,
@@ -4184,11 +3886,9 @@
     "UnitSpawnTotalNum": 300,
     "Mode": "Defence",
     "Tacmap": false,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -4196,11 +3896,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 100,
     "UnitSpawnRadiusMax": 3000,
     "FilterReachable": false
@@ -4208,36 +3906,36 @@
   "10815": {
     "UnitSpawnId": 10815,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7003001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7002001",
-        "UnitNum = 4",
-        "UnitNumFix = 4",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7001001",
-        "UnitNum = 6",
-        "UnitNumFix = 6",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7013001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7012001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 7003001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7002001,
+        "UnitNum": 4,
+        "UnitNumFix": 4,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7001001,
+        "UnitNum": 6,
+        "UnitNumFix": 6,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7013001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7012001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      }
     ],
     "Threshold": 14,
     "DetectTime": 1,
@@ -4245,11 +3943,9 @@
     "UnitSpawnTotalNum": 300,
     "Mode": "Defence",
     "Tacmap": false,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -4257,11 +3953,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 100,
     "UnitSpawnRadiusMax": 3000,
     "FilterReachable": false
@@ -4269,36 +3963,36 @@
   "10816": {
     "UnitSpawnId": 10816,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7003001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7002001",
-        "UnitNum = 4",
-        "UnitNumFix = 4",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7001001",
-        "UnitNum = 6",
-        "UnitNumFix = 6",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7013001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7012001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 7003001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7002001,
+        "UnitNum": 4,
+        "UnitNumFix": 4,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7001001,
+        "UnitNum": 6,
+        "UnitNumFix": 6,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7013001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7012001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      }
     ],
     "Threshold": 14,
     "DetectTime": 1,
@@ -4306,11 +4000,9 @@
     "UnitSpawnTotalNum": 300,
     "Mode": "Defence",
     "Tacmap": false,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -4318,11 +4010,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 100,
     "UnitSpawnRadiusMax": 3000,
     "FilterReachable": false
@@ -4330,36 +4020,36 @@
   "10817": {
     "UnitSpawnId": 10817,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7003001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7002001",
-        "UnitNum = 4",
-        "UnitNumFix = 4",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7001001",
-        "UnitNum = 6",
-        "UnitNumFix = 6",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7013001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7012001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 7003001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7002001,
+        "UnitNum": 4,
+        "UnitNumFix": 4,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7001001,
+        "UnitNum": 6,
+        "UnitNumFix": 6,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7013001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7012001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      }
     ],
     "Threshold": 14,
     "DetectTime": 1,
@@ -4367,11 +4057,9 @@
     "UnitSpawnTotalNum": 300,
     "Mode": "Defence",
     "Tacmap": false,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -4379,11 +4067,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 100,
     "UnitSpawnRadiusMax": 3000,
     "FilterReachable": false
@@ -4391,36 +4077,36 @@
   "10818": {
     "UnitSpawnId": 10818,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7003001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7002001",
-        "UnitNum = 4",
-        "UnitNumFix = 4",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7001001",
-        "UnitNum = 6",
-        "UnitNumFix = 6",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7013001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7012001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 7003001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7002001,
+        "UnitNum": 4,
+        "UnitNumFix": 4,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7001001,
+        "UnitNum": 6,
+        "UnitNumFix": 6,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7013001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7012001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      }
     ],
     "Threshold": 14,
     "DetectTime": 1,
@@ -4428,11 +4114,9 @@
     "UnitSpawnTotalNum": 300,
     "Mode": "Defence",
     "Tacmap": false,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -4440,11 +4124,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 100,
     "UnitSpawnRadiusMax": 3000,
     "FilterReachable": false
@@ -4452,36 +4134,36 @@
   "10819": {
     "UnitSpawnId": 10819,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7003001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7002001",
-        "UnitNum = 4",
-        "UnitNumFix = 4",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7001001",
-        "UnitNum = 6",
-        "UnitNumFix = 6",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7013001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7012001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 7003001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7002001,
+        "UnitNum": 4,
+        "UnitNumFix": 4,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7001001,
+        "UnitNum": 6,
+        "UnitNumFix": 6,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7013001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7012001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      }
     ],
     "Threshold": 14,
     "DetectTime": 1,
@@ -4489,11 +4171,9 @@
     "UnitSpawnTotalNum": 300,
     "Mode": "Defence",
     "Tacmap": false,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -4501,11 +4181,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 100,
     "UnitSpawnRadiusMax": 3000,
     "FilterReachable": false
@@ -4513,36 +4191,36 @@
   "10820": {
     "UnitSpawnId": 10820,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7003001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7002001",
-        "UnitNum = 4",
-        "UnitNumFix = 4",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7001001",
-        "UnitNum = 6",
-        "UnitNumFix = 6",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7013001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7012001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 7003001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7002001,
+        "UnitNum": 4,
+        "UnitNumFix": 4,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7001001,
+        "UnitNum": 6,
+        "UnitNumFix": 6,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7013001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7012001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      }
     ],
     "Threshold": 14,
     "DetectTime": 1,
@@ -4550,11 +4228,9 @@
     "UnitSpawnTotalNum": 300,
     "Mode": "Defence",
     "Tacmap": false,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -4562,11 +4238,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 100,
     "UnitSpawnRadiusMax": 3000,
     "FilterReachable": false
@@ -4574,36 +4248,36 @@
   "10821": {
     "UnitSpawnId": 10821,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7003001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7002001",
-        "UnitNum = 4",
-        "UnitNumFix = 4",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7001001",
-        "UnitNum = 6",
-        "UnitNumFix = 6",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7013001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7012001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 7003001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7002001,
+        "UnitNum": 4,
+        "UnitNumFix": 4,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7001001,
+        "UnitNum": 6,
+        "UnitNumFix": 6,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7013001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7012001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      }
     ],
     "Threshold": 14,
     "DetectTime": 1,
@@ -4611,11 +4285,9 @@
     "UnitSpawnTotalNum": 300,
     "Mode": "Defence",
     "Tacmap": false,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -4623,11 +4295,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 100,
     "UnitSpawnRadiusMax": 3000,
     "FilterReachable": false
@@ -4635,36 +4305,36 @@
   "10822": {
     "UnitSpawnId": 10822,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7003001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7002001",
-        "UnitNum = 4",
-        "UnitNumFix = 4",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7001001",
-        "UnitNum = 6",
-        "UnitNumFix = 6",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7013001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7012001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 7003001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7002001,
+        "UnitNum": 4,
+        "UnitNumFix": 4,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7001001,
+        "UnitNum": 6,
+        "UnitNumFix": 6,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7013001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7012001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      }
     ],
     "Threshold": 14,
     "DetectTime": 1,
@@ -4672,11 +4342,9 @@
     "UnitSpawnTotalNum": 300,
     "Mode": "Defence",
     "Tacmap": false,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -4684,11 +4352,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 100,
     "UnitSpawnRadiusMax": 3000,
     "FilterReachable": false
@@ -4696,36 +4362,36 @@
   "10823": {
     "UnitSpawnId": 10823,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7003001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7002001",
-        "UnitNum = 4",
-        "UnitNumFix = 4",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7001001",
-        "UnitNum = 6",
-        "UnitNumFix = 6",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7013001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7012001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 7003001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7002001,
+        "UnitNum": 4,
+        "UnitNumFix": 4,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7001001,
+        "UnitNum": 6,
+        "UnitNumFix": 6,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7013001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7012001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      }
     ],
     "Threshold": 14,
     "DetectTime": 1,
@@ -4733,11 +4399,9 @@
     "UnitSpawnTotalNum": 300,
     "Mode": "Defence",
     "Tacmap": false,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -4745,11 +4409,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 100,
     "UnitSpawnRadiusMax": 3000,
     "FilterReachable": false
@@ -4757,36 +4419,36 @@
   "10824": {
     "UnitSpawnId": 10824,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7003001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7002001",
-        "UnitNum = 4",
-        "UnitNumFix = 4",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7001001",
-        "UnitNum = 6",
-        "UnitNumFix = 6",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7013001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7012001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 7003001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7002001,
+        "UnitNum": 4,
+        "UnitNumFix": 4,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7001001,
+        "UnitNum": 6,
+        "UnitNumFix": 6,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7013001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7012001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      }
     ],
     "Threshold": 14,
     "DetectTime": 1,
@@ -4794,11 +4456,9 @@
     "UnitSpawnTotalNum": 300,
     "Mode": "Defence",
     "Tacmap": false,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -4806,11 +4466,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 100,
     "UnitSpawnRadiusMax": 3000,
     "FilterReachable": false
@@ -4818,36 +4476,36 @@
   "10825": {
     "UnitSpawnId": 10825,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7003001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7002001",
-        "UnitNum = 4",
-        "UnitNumFix = 4",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7001001",
-        "UnitNum = 6",
-        "UnitNumFix = 6",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7013001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7012001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 7003001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7002001,
+        "UnitNum": 4,
+        "UnitNumFix": 4,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7001001,
+        "UnitNum": 6,
+        "UnitNumFix": 6,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7013001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7012001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      }
     ],
     "Threshold": 14,
     "DetectTime": 1,
@@ -4855,11 +4513,9 @@
     "UnitSpawnTotalNum": 100,
     "Mode": "Defence",
     "Tacmap": false,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -4867,11 +4523,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 100,
     "UnitSpawnRadiusMax": 3000,
     "FilterReachable": false
@@ -4879,36 +4533,36 @@
   "10826": {
     "UnitSpawnId": 10826,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7003001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7002001",
-        "UnitNum = 4",
-        "UnitNumFix = 4",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7001001",
-        "UnitNum = 6",
-        "UnitNumFix = 6",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7013001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7012001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 7003001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7002001,
+        "UnitNum": 4,
+        "UnitNumFix": 4,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7001001,
+        "UnitNum": 6,
+        "UnitNumFix": 6,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7013001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7012001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      }
     ],
     "Threshold": 14,
     "DetectTime": 1,
@@ -4916,11 +4570,9 @@
     "UnitSpawnTotalNum": 100,
     "Mode": "Defence",
     "Tacmap": false,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -4928,11 +4580,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 100,
     "UnitSpawnRadiusMax": 3000,
     "FilterReachable": false
@@ -4940,36 +4590,36 @@
   "10827": {
     "UnitSpawnId": 10827,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7003001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7002001",
-        "UnitNum = 4",
-        "UnitNumFix = 4",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7001001",
-        "UnitNum = 6",
-        "UnitNumFix = 6",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7013001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7012001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 7003001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7002001,
+        "UnitNum": 4,
+        "UnitNumFix": 4,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7001001,
+        "UnitNum": 6,
+        "UnitNumFix": 6,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7013001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7012001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      }
     ],
     "Threshold": 14,
     "DetectTime": 1,
@@ -4977,11 +4627,9 @@
     "UnitSpawnTotalNum": 150,
     "Mode": "Defence",
     "Tacmap": false,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -4989,11 +4637,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 100,
     "UnitSpawnRadiusMax": 3000,
     "FilterReachable": false
@@ -5001,36 +4647,36 @@
   "10828": {
     "UnitSpawnId": 10828,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7003001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7002001",
-        "UnitNum = 4",
-        "UnitNumFix = 4",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7001001",
-        "UnitNum = 6",
-        "UnitNumFix = 6",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7013001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7012001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 7003001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7002001,
+        "UnitNum": 4,
+        "UnitNumFix": 4,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7001001,
+        "UnitNum": 6,
+        "UnitNumFix": 6,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7013001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7012001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      }
     ],
     "Threshold": 14,
     "DetectTime": 1,
@@ -5038,11 +4684,9 @@
     "UnitSpawnTotalNum": 100,
     "Mode": "Defence",
     "Tacmap": false,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -5050,11 +4694,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 100,
     "UnitSpawnRadiusMax": 3000,
     "FilterReachable": false
@@ -5062,36 +4704,36 @@
   "10829": {
     "UnitSpawnId": 10829,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7003001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7002001",
-        "UnitNum = 4",
-        "UnitNumFix = 4",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7001001",
-        "UnitNum = 6",
-        "UnitNumFix = 6",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7013001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7012001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 7003001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7002001,
+        "UnitNum": 4,
+        "UnitNumFix": 4,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7001001,
+        "UnitNum": 6,
+        "UnitNumFix": 6,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7013001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7012001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      }
     ],
     "Threshold": 14,
     "DetectTime": 1,
@@ -5099,11 +4741,9 @@
     "UnitSpawnTotalNum": 175,
     "Mode": "Defence",
     "Tacmap": false,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -5111,11 +4751,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 100,
     "UnitSpawnRadiusMax": 3000,
     "FilterReachable": false
@@ -5123,36 +4761,36 @@
   "10830": {
     "UnitSpawnId": 10830,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7003001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7002001",
-        "UnitNum = 4",
-        "UnitNumFix = 4",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7001001",
-        "UnitNum = 6",
-        "UnitNumFix = 6",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7013001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7012001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 7003001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7002001,
+        "UnitNum": 4,
+        "UnitNumFix": 4,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7001001,
+        "UnitNum": 6,
+        "UnitNumFix": 6,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7013001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7012001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      }
     ],
     "Threshold": 14,
     "DetectTime": 1,
@@ -5160,11 +4798,9 @@
     "UnitSpawnTotalNum": 100,
     "Mode": "Defence",
     "Tacmap": false,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -5172,11 +4808,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 100,
     "UnitSpawnRadiusMax": 3000,
     "FilterReachable": false
@@ -5184,36 +4818,36 @@
   "10831": {
     "UnitSpawnId": 10831,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7003001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7002001",
-        "UnitNum = 4",
-        "UnitNumFix = 4",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7001001",
-        "UnitNum = 6",
-        "UnitNumFix = 6",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7013001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7012001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 7003001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7002001,
+        "UnitNum": 4,
+        "UnitNumFix": 4,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7001001,
+        "UnitNum": 6,
+        "UnitNumFix": 6,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7013001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7012001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      }
     ],
     "Threshold": 14,
     "DetectTime": 1,
@@ -5221,11 +4855,9 @@
     "UnitSpawnTotalNum": 200,
     "Mode": "Defence",
     "Tacmap": false,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -5233,11 +4865,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 100,
     "UnitSpawnRadiusMax": 3000,
     "FilterReachable": false
@@ -5245,36 +4875,36 @@
   "10832": {
     "UnitSpawnId": 10832,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7003001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7002001",
-        "UnitNum = 4",
-        "UnitNumFix = 4",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7001001",
-        "UnitNum = 6",
-        "UnitNumFix = 6",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7013001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7012001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 7003001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7002001,
+        "UnitNum": 4,
+        "UnitNumFix": 4,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7001001,
+        "UnitNum": 6,
+        "UnitNumFix": 6,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7013001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7012001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      }
     ],
     "Threshold": 14,
     "DetectTime": 1,
@@ -5282,11 +4912,9 @@
     "UnitSpawnTotalNum": 100,
     "Mode": "Defence",
     "Tacmap": false,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -5294,11 +4922,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 100,
     "UnitSpawnRadiusMax": 3000,
     "FilterReachable": false
@@ -5306,36 +4932,36 @@
   "10833": {
     "UnitSpawnId": 10833,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7003001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7002001",
-        "UnitNum = 4",
-        "UnitNumFix = 4",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7001001",
-        "UnitNum = 6",
-        "UnitNumFix = 6",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7013001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7012001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 7003001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7002001,
+        "UnitNum": 4,
+        "UnitNumFix": 4,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7001001,
+        "UnitNum": 6,
+        "UnitNumFix": 6,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7013001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7012001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      }
     ],
     "Threshold": 14,
     "DetectTime": 1,
@@ -5343,11 +4969,9 @@
     "UnitSpawnTotalNum": 250,
     "Mode": "Defence",
     "Tacmap": false,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -5355,11 +4979,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 100,
     "UnitSpawnRadiusMax": 3000,
     "FilterReachable": false
@@ -5367,36 +4989,36 @@
   "10834": {
     "UnitSpawnId": 10834,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7003001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7002001",
-        "UnitNum = 4",
-        "UnitNumFix = 4",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7001001",
-        "UnitNum = 6",
-        "UnitNumFix = 6",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7013001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7012001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 7003001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7002001,
+        "UnitNum": 4,
+        "UnitNumFix": 4,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7001001,
+        "UnitNum": 6,
+        "UnitNumFix": 6,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7013001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7012001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      }
     ],
     "Threshold": 14,
     "DetectTime": 1,
@@ -5404,11 +5026,9 @@
     "UnitSpawnTotalNum": 100,
     "Mode": "Defence",
     "Tacmap": false,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -5416,11 +5036,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 100,
     "UnitSpawnRadiusMax": 3000,
     "FilterReachable": false
@@ -5428,36 +5046,36 @@
   "10835": {
     "UnitSpawnId": 10835,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7003001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7002001",
-        "UnitNum = 4",
-        "UnitNumFix = 4",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7001001",
-        "UnitNum = 6",
-        "UnitNumFix = 6",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7013001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7012001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 7003001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7002001,
+        "UnitNum": 4,
+        "UnitNumFix": 4,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7001001,
+        "UnitNum": 6,
+        "UnitNumFix": 6,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7013001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7012001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      }
     ],
     "Threshold": 14,
     "DetectTime": 1,
@@ -5465,11 +5083,9 @@
     "UnitSpawnTotalNum": 100,
     "Mode": "Defence",
     "Tacmap": false,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -5477,11 +5093,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 100,
     "UnitSpawnRadiusMax": 3000,
     "FilterReachable": false
@@ -5489,36 +5103,36 @@
   "10836": {
     "UnitSpawnId": 10836,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7003001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7002001",
-        "UnitNum = 4",
-        "UnitNumFix = 4",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7001001",
-        "UnitNum = 6",
-        "UnitNumFix = 6",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7013001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7012001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 7003001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7002001,
+        "UnitNum": 4,
+        "UnitNumFix": 4,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7001001,
+        "UnitNum": 6,
+        "UnitNumFix": 6,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7013001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7012001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      }
     ],
     "Threshold": 14,
     "DetectTime": 1,
@@ -5526,11 +5140,9 @@
     "UnitSpawnTotalNum": 100,
     "Mode": "Defence",
     "Tacmap": false,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -5538,11 +5150,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 100,
     "UnitSpawnRadiusMax": 3000,
     "FilterReachable": false
@@ -5550,36 +5160,36 @@
   "10837": {
     "UnitSpawnId": 10837,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7003001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7002001",
-        "UnitNum = 4",
-        "UnitNumFix = 4",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7001001",
-        "UnitNum = 6",
-        "UnitNumFix = 6",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7013001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7012001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 7003001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7002001,
+        "UnitNum": 4,
+        "UnitNumFix": 4,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7001001,
+        "UnitNum": 6,
+        "UnitNumFix": 6,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7013001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7012001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      }
     ],
     "Threshold": 14,
     "DetectTime": 1,
@@ -5587,11 +5197,9 @@
     "UnitSpawnTotalNum": 100,
     "Mode": "Defence",
     "Tacmap": false,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -5599,11 +5207,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 100,
     "UnitSpawnRadiusMax": 3000,
     "FilterReachable": false
@@ -5611,36 +5217,36 @@
   "10838": {
     "UnitSpawnId": 10838,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7003001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7002001",
-        "UnitNum = 4",
-        "UnitNumFix = 4",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7001001",
-        "UnitNum = 6",
-        "UnitNumFix = 6",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7013001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7012001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 7003001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7002001,
+        "UnitNum": 4,
+        "UnitNumFix": 4,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7001001,
+        "UnitNum": 6,
+        "UnitNumFix": 6,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7013001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7012001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      }
     ],
     "Threshold": 14,
     "DetectTime": 1,
@@ -5648,11 +5254,9 @@
     "UnitSpawnTotalNum": 100,
     "Mode": "Defence",
     "Tacmap": false,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -5660,11 +5264,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 100,
     "UnitSpawnRadiusMax": 3000,
     "FilterReachable": false
@@ -5672,36 +5274,36 @@
   "10839": {
     "UnitSpawnId": 10839,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7003001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7002001",
-        "UnitNum = 4",
-        "UnitNumFix = 4",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7001001",
-        "UnitNum = 6",
-        "UnitNumFix = 6",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7013001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7012001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 7003001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7002001,
+        "UnitNum": 4,
+        "UnitNumFix": 4,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7001001,
+        "UnitNum": 6,
+        "UnitNumFix": 6,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7013001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7012001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      }
     ],
     "Threshold": 14,
     "DetectTime": 1,
@@ -5709,11 +5311,9 @@
     "UnitSpawnTotalNum": 100,
     "Mode": "Defence",
     "Tacmap": false,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -5721,11 +5321,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 100,
     "UnitSpawnRadiusMax": 3000,
     "FilterReachable": false
@@ -5746,11 +5344,9 @@
     "UnitSpawnTotalNum": 3,
     "Mode": "Level",
     "Tacmap": true,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -5758,11 +5354,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Hostage": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Hostage": ""
+    },
     "UnitSpawnRadiusMin": 1,
     "UnitSpawnRadiusMax": 6000,
     "FilterReachable": false
@@ -5770,36 +5364,36 @@
   "10902": {
     "UnitSpawnId": 10902,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7003001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7002001",
-        "UnitNum = 2",
-        "UnitNumFix = 2",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7001001",
-        "UnitNum = 2",
-        "UnitNumFix = 2",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7013001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7012001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 7003001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7002001,
+        "UnitNum": 2,
+        "UnitNumFix": 2,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7001001,
+        "UnitNum": 2,
+        "UnitNumFix": 2,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7013001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7012001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      }
     ],
     "Threshold": 4,
     "DetectTime": 20,
@@ -5807,11 +5401,9 @@
     "UnitSpawnTotalNum": 999,
     "Mode": "Level",
     "Tacmap": true,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -5819,11 +5411,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 1,
     "UnitSpawnRadiusMax": 6000,
     "FilterReachable": false
@@ -5831,36 +5421,36 @@
   "10903": {
     "UnitSpawnId": 10903,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7004001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7002001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7003001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7012001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7013001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 7004001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7002001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7003001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7012001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7013001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      }
     ],
     "Threshold": 3,
     "DetectTime": 15,
@@ -5868,11 +5458,9 @@
     "UnitSpawnTotalNum": 999,
     "Mode": "Level",
     "Tacmap": true,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -5880,11 +5468,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Hostage": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Hostage": ""
+    },
     "UnitSpawnRadiusMin": 1,
     "UnitSpawnRadiusMax": 6000,
     "FilterReachable": false
@@ -5892,30 +5478,30 @@
   "10904": {
     "UnitSpawnId": 10904,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7003001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7002001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7001001",
-        "UnitNum = 2",
-        "UnitNumFix = 2",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7012001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 7003001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7002001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7001001,
+        "UnitNum": 2,
+        "UnitNumFix": 2,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7012001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      }
     ],
     "Threshold": 3,
     "DetectTime": 12,
@@ -5923,11 +5509,9 @@
     "UnitSpawnTotalNum": 5,
     "Mode": "Level",
     "Tacmap": true,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -5935,11 +5519,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 1,
     "UnitSpawnRadiusMax": 6000,
     "FilterReachable": false
@@ -5965,18 +5547,18 @@
         "UnitNumFix": 3,
         "UnitLevel": 0
       },
-      [
-        "UnitId = 7013001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7012001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 7013001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7012001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      }
     ],
     "Threshold": 5,
     "DetectTime": 3,
@@ -5984,11 +5566,9 @@
     "UnitSpawnTotalNum": 999,
     "Mode": "Player",
     "Tacmap": true,
-    "MultiInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "MultiInfo": {
+      "Player": ""
+    },
     "MultiPara": [
       1,
       1.6,
@@ -5996,11 +5576,9 @@
       2
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Hostage": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Hostage": ""
+    },
     "UnitSpawnRadiusMin": 1,
     "UnitSpawnRadiusMax": 6000,
     "FilterReachable": false
@@ -6008,24 +5586,24 @@
   "10906": {
     "UnitSpawnId": 10906,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7001001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
+      {
+        "UnitId": 7001001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
       {
         "UnitId": 7002001,
         "UnitNum": 2,
         "UnitNumFix": 2,
         "UnitLevel": 1
       },
-      [
-        "UnitId = 7004001",
-        "UnitNum = 2",
-        "UnitNumFix = 2",
-        "UnitLevel = 0"
-      ],
+      {
+        "UnitId": 7004001,
+        "UnitNum": 2,
+        "UnitNumFix": 2,
+        "UnitLevel": 0
+      },
       {
         "UnitId": 7001015,
         "UnitNum": 1,
@@ -6040,11 +5618,9 @@
     "Mode": "Player",
     "Tacmap": true,
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Mechanism": 390014
-      }
-    ],
+    "PresetTargetInfo": {
+      "Mechanism": 390014
+    },
     "UnitSpawnRadiusMin": 1,
     "UnitSpawnRadiusMax": 4000,
     "RandomSpawn": true,
@@ -6053,30 +5629,30 @@
   "20101": {
     "UnitSpawnId": 20101,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 6001001",
-        "UnitNum = 8",
-        "UnitNumFix = 8",
-        "UnitLevel = 35"
-      ],
-      [
-        "UnitId = 6002001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 35"
-      ],
-      [
-        "UnitId = 6003001",
-        "UnitNum = 5",
-        "UnitNumFix = 5",
-        "UnitLevel = 35"
-      ],
-      [
-        "UnitId = 6004001",
-        "UnitNum = 2",
-        "UnitNumFix = 2",
-        "UnitLevel = 35"
-      ]
+      {
+        "UnitId": 6001001,
+        "UnitNum": 8,
+        "UnitNumFix": 8,
+        "UnitLevel": 35
+      },
+      {
+        "UnitId": 6002001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 35
+      },
+      {
+        "UnitId": 6003001,
+        "UnitNum": 5,
+        "UnitNumFix": 5,
+        "UnitLevel": 35
+      },
+      {
+        "UnitId": 6004001,
+        "UnitNum": 2,
+        "UnitNumFix": 2,
+        "UnitLevel": 35
+      }
     ],
     "Threshold": 7,
     "DetectTime": 2,
@@ -6114,12 +5690,12 @@
         "UnitNumFix": 6,
         "UnitLevel": 35
       },
-      [
-        "UnitId = 6004001",
-        "UnitNum = 2",
-        "UnitNumFix = 2",
-        "UnitLevel = 35"
-      ]
+      {
+        "UnitId": 6004001,
+        "UnitNum": 2,
+        "UnitNumFix": 2,
+        "UnitLevel": 35
+      }
     ],
     "Threshold": 20,
     "DetectTime": 3,
@@ -6129,11 +5705,9 @@
     "Mode": "Level",
     "Tacmap": false,
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 500,
     "UnitSpawnRadiusMax": 1000,
     "FilterReachable": false
@@ -6159,12 +5733,12 @@
         "UnitNumFix": 10,
         "UnitLevel": 35
       },
-      [
-        "UnitId = 6004001",
-        "UnitNum = 2",
-        "UnitNumFix = 2",
-        "UnitLevel = 35"
-      ]
+      {
+        "UnitId": 6004001,
+        "UnitNum": 2,
+        "UnitNumFix": 2,
+        "UnitLevel": 35
+      }
     ],
     "Threshold": 20,
     "DetectTime": 1,
@@ -6174,11 +5748,9 @@
     "Mode": "Level",
     "Tacmap": false,
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 500,
     "UnitSpawnRadiusMax": 6000,
     "FilterReachable": false
@@ -6192,12 +5764,12 @@
         "UnitNumFix": 7,
         "UnitLevel": 35
       },
-      [
-        "UnitId = 6002001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 35"
-      ]
+      {
+        "UnitId": 6002001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 35
+      }
     ],
     "Threshold": 5,
     "DetectTime": 5,
@@ -6207,11 +5779,9 @@
     "Mode": "Level",
     "Tacmap": false,
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 2000,
     "UnitSpawnRadiusMax": 5000,
     "FilterReachable": false
@@ -6219,12 +5789,12 @@
   "20105": {
     "UnitSpawnId": 20105,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 6003001",
-        "UnitNum = 5",
-        "UnitNumFix = 5",
-        "UnitLevel = 35"
-      ],
+      {
+        "UnitId": 6003001,
+        "UnitNum": 5,
+        "UnitNumFix": 5,
+        "UnitLevel": 35
+      },
       {
         "UnitId": 6002001,
         "UnitNum": 10,
@@ -6240,11 +5810,9 @@
     "Mode": "Level",
     "Tacmap": false,
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 500,
     "UnitSpawnRadiusMax": 4000,
     "FilterReachable": false
@@ -6252,12 +5820,12 @@
   "20106": {
     "UnitSpawnId": 20106,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 6001001",
-        "UnitNum = 8",
-        "UnitNumFix = 8",
-        "UnitLevel = 35"
-      ],
+      {
+        "UnitId": 6001001,
+        "UnitNum": 8,
+        "UnitNumFix": 8,
+        "UnitLevel": 35
+      },
       {
         "UnitId": 6002001,
         "UnitNum": 5,
@@ -6307,12 +5875,12 @@
         "UnitNumFix": 2,
         "UnitLevel": 35
       },
-      [
-        "UnitId = 6004001",
-        "UnitNum = 2",
-        "UnitNumFix = 2",
-        "UnitLevel = 35"
-      ]
+      {
+        "UnitId": 6004001,
+        "UnitNum": 2,
+        "UnitNumFix": 2,
+        "UnitLevel": 35
+      }
     ],
     "Threshold": 3,
     "DetectTime": 35,
@@ -6322,11 +5890,9 @@
     "Mode": "Level",
     "Tacmap": false,
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 500,
     "UnitSpawnRadiusMax": 4000,
     "FilterReachable": false
@@ -6352,12 +5918,12 @@
         "UnitNumFix": 2,
         "UnitLevel": 35
       },
-      [
-        "UnitId = 7004001",
-        "UnitNum = 2",
-        "UnitNumFix = 2",
-        "UnitLevel = 35"
-      ]
+      {
+        "UnitId": 7004001,
+        "UnitNum": 2,
+        "UnitNumFix": 2,
+        "UnitLevel": 35
+      }
     ],
     "Threshold": 3,
     "DetectTime": 35,
@@ -6367,11 +5933,9 @@
     "Mode": "Level",
     "Tacmap": false,
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 500,
     "UnitSpawnRadiusMax": 4000,
     "FilterReachable": false
@@ -6397,12 +5961,12 @@
         "UnitNumFix": 5,
         "UnitLevel": 35
       },
-      [
-        "UnitId = 7004001",
-        "UnitNum = 2",
-        "UnitNumFix = 2",
-        "UnitLevel = 35"
-      ]
+      {
+        "UnitId": 7004001,
+        "UnitNum": 2,
+        "UnitNumFix": 2,
+        "UnitLevel": 35
+      }
     ],
     "Threshold": 6,
     "DetectTime": 10,
@@ -6412,11 +5976,9 @@
     "Mode": "Level",
     "Tacmap": false,
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 500,
     "UnitSpawnRadiusMax": 10000,
     "FilterReachable": false
@@ -6456,11 +6018,9 @@
     "Mode": "Level",
     "Tacmap": false,
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 1000,
     "UnitSpawnRadiusMax": 10000,
     "FilterReachable": false
@@ -6468,24 +6028,24 @@
   "10110101": {
     "UnitSpawnId": 10110101,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 6001001",
-        "UnitNum = 5",
-        "UnitNumFix = 5",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 6002001",
-        "UnitNum = 4",
-        "UnitNumFix = 4",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 6003001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 6001001,
+        "UnitNum": 5,
+        "UnitNumFix": 5,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 6002001,
+        "UnitNum": 4,
+        "UnitNumFix": 4,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 6003001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      }
     ],
     "Threshold": 5,
     "DetectTime": 2,
@@ -6494,11 +6054,9 @@
     "Mode": "Player",
     "Tacmap": false,
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 1200,
     "UnitSpawnRadiusMax": 3000,
     "RandomSpawn": true
@@ -6520,11 +6078,9 @@
     "Mode": "Player",
     "Tacmap": false,
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 1200,
     "UnitSpawnRadiusMax": 3000,
     "RandomSpawn": true
@@ -6532,30 +6088,30 @@
   "10110103": {
     "UnitSpawnId": 10110103,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7001001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7002001",
-        "UnitNum = 2",
-        "UnitNumFix = 2",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7003001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7004001",
-        "UnitNum = 2",
-        "UnitNumFix = 2",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 7001001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7002001,
+        "UnitNum": 2,
+        "UnitNumFix": 2,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7003001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7004001,
+        "UnitNum": 2,
+        "UnitNumFix": 2,
+        "UnitLevel": 0
+      }
     ],
     "Threshold": 5,
     "DetectTime": 2,
@@ -6564,11 +6120,9 @@
     "Mode": "Player",
     "Tacmap": false,
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 1200,
     "UnitSpawnRadiusMax": 3000,
     "RandomSpawn": true
@@ -6590,11 +6144,9 @@
     "Mode": "Player",
     "Tacmap": false,
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 1200,
     "UnitSpawnRadiusMax": 3000,
     "RandomSpawn": true
@@ -6602,12 +6154,12 @@
   "10110105": {
     "UnitSpawnId": 10110105,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7004001",
-        "UnitNum = 1",
-        "UnitNumFix = 0",
-        "UnitLevel = 3"
-      ]
+      {
+        "UnitId": 7004001,
+        "UnitNum": 1,
+        "UnitNumFix": 0,
+        "UnitLevel": 3
+      }
     ],
     "Threshold": 0,
     "DetectTime": 999,
@@ -6616,11 +6168,9 @@
     "Mode": "Player",
     "Tacmap": false,
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 1200,
     "UnitSpawnRadiusMax": 3000,
     "RandomSpawn": true
@@ -6628,24 +6178,24 @@
   "10110201": {
     "UnitSpawnId": 10110201,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 6001001",
-        "UnitNum = 5",
-        "UnitNumFix = 5",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 6002001",
-        "UnitNum = 4",
-        "UnitNumFix = 4",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 6003001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 6001001,
+        "UnitNum": 5,
+        "UnitNumFix": 5,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 6002001,
+        "UnitNum": 4,
+        "UnitNumFix": 4,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 6003001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      }
     ],
     "Threshold": 5,
     "DetectTime": 2,
@@ -6654,11 +6204,9 @@
     "Mode": "Player",
     "Tacmap": false,
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 1200,
     "UnitSpawnRadiusMax": 3000,
     "RandomSpawn": true
@@ -6680,11 +6228,9 @@
     "Mode": "Player",
     "Tacmap": false,
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 1200,
     "UnitSpawnRadiusMax": 3000,
     "RandomSpawn": true
@@ -6692,30 +6238,30 @@
   "10110203": {
     "UnitSpawnId": 10110203,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7001001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7002001",
-        "UnitNum = 2",
-        "UnitNumFix = 2",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7003001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7004001",
-        "UnitNum = 2",
-        "UnitNumFix = 2",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 7001001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7002001,
+        "UnitNum": 2,
+        "UnitNumFix": 2,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7003001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7004001,
+        "UnitNum": 2,
+        "UnitNumFix": 2,
+        "UnitLevel": 0
+      }
     ],
     "Threshold": 5,
     "DetectTime": 2,
@@ -6724,11 +6270,9 @@
     "Mode": "Player",
     "Tacmap": false,
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 1200,
     "UnitSpawnRadiusMax": 3000,
     "RandomSpawn": true
@@ -6750,11 +6294,9 @@
     "Mode": "Player",
     "Tacmap": false,
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 1200,
     "UnitSpawnRadiusMax": 3000,
     "RandomSpawn": true
@@ -6762,12 +6304,12 @@
   "10110205": {
     "UnitSpawnId": 10110205,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7004001",
-        "UnitNum = 1",
-        "UnitNumFix = 0",
-        "UnitLevel = 3"
-      ]
+      {
+        "UnitId": 7004001,
+        "UnitNum": 1,
+        "UnitNumFix": 0,
+        "UnitLevel": 3
+      }
     ],
     "Threshold": 0,
     "DetectTime": 999,
@@ -6776,11 +6318,9 @@
     "Mode": "Player",
     "Tacmap": false,
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 1200,
     "UnitSpawnRadiusMax": 3000,
     "RandomSpawn": true
@@ -6788,24 +6328,24 @@
   "10110301": {
     "UnitSpawnId": 10110301,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 6001001",
-        "UnitNum = 5",
-        "UnitNumFix = 5",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 6002001",
-        "UnitNum = 4",
-        "UnitNumFix = 4",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 6003001",
-        "UnitNum = 1",
-        "UnitNumFix = 1",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 6001001,
+        "UnitNum": 5,
+        "UnitNumFix": 5,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 6002001,
+        "UnitNum": 4,
+        "UnitNumFix": 4,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 6003001,
+        "UnitNum": 1,
+        "UnitNumFix": 1,
+        "UnitLevel": 0
+      }
     ],
     "Threshold": 5,
     "DetectTime": 2,
@@ -6814,11 +6354,9 @@
     "Mode": "Player",
     "Tacmap": false,
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 1200,
     "UnitSpawnRadiusMax": 3000,
     "RandomSpawn": true
@@ -6840,11 +6378,9 @@
     "Mode": "Player",
     "Tacmap": false,
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 1200,
     "UnitSpawnRadiusMax": 3000,
     "RandomSpawn": true
@@ -6852,30 +6388,30 @@
   "10110303": {
     "UnitSpawnId": 10110303,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7001001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7002001",
-        "UnitNum = 2",
-        "UnitNumFix = 2",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7003001",
-        "UnitNum = 3",
-        "UnitNumFix = 3",
-        "UnitLevel = 0"
-      ],
-      [
-        "UnitId = 7004001",
-        "UnitNum = 2",
-        "UnitNumFix = 2",
-        "UnitLevel = 0"
-      ]
+      {
+        "UnitId": 7001001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7002001,
+        "UnitNum": 2,
+        "UnitNumFix": 2,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7003001,
+        "UnitNum": 3,
+        "UnitNumFix": 3,
+        "UnitLevel": 0
+      },
+      {
+        "UnitId": 7004001,
+        "UnitNum": 2,
+        "UnitNumFix": 2,
+        "UnitLevel": 0
+      }
     ],
     "Threshold": 5,
     "DetectTime": 2,
@@ -6884,11 +6420,9 @@
     "Mode": "Player",
     "Tacmap": false,
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 1200,
     "UnitSpawnRadiusMax": 3000,
     "RandomSpawn": true
@@ -6910,11 +6444,9 @@
     "Mode": "Player",
     "Tacmap": false,
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 1200,
     "UnitSpawnRadiusMax": 3000,
     "RandomSpawn": true
@@ -6922,12 +6454,12 @@
   "10110305": {
     "UnitSpawnId": 10110305,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7004001",
-        "UnitNum = 1",
-        "UnitNumFix = 0",
-        "UnitLevel = 3"
-      ]
+      {
+        "UnitId": 7004001,
+        "UnitNum": 1,
+        "UnitNumFix": 0,
+        "UnitLevel": 3
+      }
     ],
     "Threshold": 0,
     "DetectTime": 999,
@@ -6936,11 +6468,9 @@
     "Mode": "Player",
     "Tacmap": false,
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 1200,
     "UnitSpawnRadiusMax": 3000,
     "RandomSpawn": true
@@ -6948,12 +6478,12 @@
   "-1": {
     "UnitSpawnId": -1,
     "MonsterSpawnInfos": [
-      [
-        "UnitId = 7003001",
-        "UnitNum = 2",
-        "UnitNumFix = 2",
-        "UnitLevel = 1"
-      ],
+      {
+        "UnitId": 7003001,
+        "UnitNum": 2,
+        "UnitNumFix": 2,
+        "UnitLevel": 1
+      },
       {
         "UnitId": 6001001,
         "UnitNum": 2,
@@ -6967,11 +6497,9 @@
     "UnitSpawnTotalNum": 999,
     "Mode": "Level",
     "Tacmap": false,
-    "MultiInfo": [
-      {
-        "Mechanism": 39001
-      }
-    ],
+    "MultiInfo": {
+      "Mechanism": 39001
+    },
     "MultiPara": [
       1,
       2,
@@ -6980,11 +6508,9 @@
       5
     ],
     "SpawnType": "Random",
-    "PresetTargetInfo": [
-      {
-        "Player": ""
-      }
-    ],
+    "PresetTargetInfo": {
+      "Player": ""
+    },
     "UnitSpawnRadiusMin": 0,
     "UnitSpawnRadiusMax": 9999999,
     "RandomSpawn": true,

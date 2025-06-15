@@ -141,16 +141,16 @@
   "MonJTBlastRobot": {
     "HitMontageId": "MonJTBlastRobot",
     "HitAddtiveDuration": 0.46,
-    "LightHitMontage": {},
+    "LightHitMontage": [
+      "LightHit1"
+    ],
     "DeadMontage": [
       "Die"
     ],
     "DeadDissolveTime": 2,
-    "SPDeadDissolveTime": [
-      {
-        "KillSelf": 0
-      }
-    ]
+    "SPDeadDissolveTime": {
+      "KillSelf": 0
+    }
   },
   "MonSQBaozha": {
     "HitMontageId": "MonSQBaozha",
@@ -182,11 +182,9 @@
       "HitFlyDie"
     ],
     "DeadDissolveTime": 2,
-    "SPDeadDissolveTime": [
-      {
-        "KillSelf": 0
-      }
-    ]
+    "SPDeadDissolveTime": {
+      "KillSelf": 0
+    }
   },
   "MonNEDajie": {
     "HitMontageId": "MonNEDajie",
@@ -195,7 +193,11 @@
       "LightHit1",
       "LightHit2"
     ],
-    "HeavyHitMontage": {},
+    "HeavyHitMontage": [
+      "HeavyHit1",
+      "HeavyHit2",
+      "HeavyHit3"
+    ],
     "DeadMontage": [
       "Die"
     ],
@@ -224,7 +226,9 @@
     "DisarmHitMontage": [
       "DisarmHit"
     ],
-    "DeadMontage": {},
+    "DeadMontage": [
+      "HaerDie"
+    ],
     "DeadHitFlyMontage": [
       "HitFlyDie"
     ],
@@ -263,7 +267,10 @@
     "HitMontageId": "BossSaiqi",
     "HitAddtiveDuration": 0.3,
     "HitAddtiveDirection": 1,
-    "LightHitMontage": {},
+    "LightHitMontage": [
+      "LightHit3",
+      "LightHit4"
+    ],
     "ConditionHitMontage": {
       "850205": "LightHit2",
       "850206": "LightHit2",
@@ -280,7 +287,10 @@
     "NotRotateWhenHit": true,
     "HitAddtiveDuration": 0.3,
     "HitAddtiveCoolDown": 0.5,
-    "LightHitMontage": {},
+    "LightHitMontage": [
+      "LightHit5",
+      "LightHit6"
+    ],
     "ConditionHitMontage": {
       "850301": "LightHit1",
       "850302": "LightHit2",
@@ -296,7 +306,9 @@
     "HitMontageId": "BossLianhuo",
     "HitAddtiveDuration": 0.3,
     "HitAddtiveDirection": 1,
-    "LightHitMontage": {},
+    "LightHitMontage": [
+      "LightHit"
+    ],
     "DeadMontage": [
       "Die"
     ],

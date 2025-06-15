@@ -6,34 +6,22 @@
     "Quests": {
       "10010101": {
         "nextQuestId": 10010102,
-        "SuccQuestDeliver": [
-          {
-            "DeliverType": 1
-          },
-          {
-            "Id": 100104
-          },
-          {
-            "StartIndex": 1
-          }
-        ]
+        "SuccQuestDeliver": {
+          "DeliverType": 1,
+          "Id": 100104,
+          "StartIndex": 1
+        }
       },
       "10010102": {
         "nextQuestId": 10010103
       },
       "10010103": {
         "nextQuestId": 10010104,
-        "StartQuestDeliver": [
-          {
-            "DeliverType": 1
-          },
-          {
-            "Id": 100104
-          },
-          {
-            "StartIndex": 1
-          }
-        ]
+        "StartQuestDeliver": {
+          "DeliverType": 1,
+          "Id": 100104,
+          "StartIndex": 1
+        }
       },
       "10010104": {
         "nextQuestId": 10010105
@@ -125,17 +113,11 @@
       },
       "10010306": {
         "nextQuestId": 10010307,
-        "SuccQuestDeliver": [
-          {
-            "DeliverType": 1
-          },
-          {
-            "Id": 100104
-          },
-          {
-            "StartIndex": 1
-          }
-        ]
+        "SuccQuestDeliver": {
+          "DeliverType": 1,
+          "Id": 100104,
+          "StartIndex": 1
+        }
       },
       "10010307": {
         "nextQuestId": 10010308
@@ -533,15 +515,13 @@
       "10020808": {
         "nextQuestId": 10020853
       },
-      "10020809": [
-        {
-          "SuccQuestDeliver": [
-            "DeliverType = 1",
-            "Id = 210101",
-            "StartIndex = 1"
-          ]
+      "10020809": {
+        "SuccQuestDeliver": {
+          "DeliverType": 1,
+          "Id": 210101,
+          "StartIndex": 1
         }
-      ],
+      },
       "10020851": {
         "nextQuestId": 10020807,
         "SuccQuestDeliver": {
@@ -597,17 +577,11 @@
       },
       "11010103": {
         "nextQuestId": 11010101,
-        "SuccQuestDeliver": [
-          {
-            "DeliverType": 1
-          },
-          {
-            "Id": 100104
-          },
-          {
-            "StartIndex": 1
-          }
-        ]
+        "SuccQuestDeliver": {
+          "DeliverType": 1,
+          "Id": 100104,
+          "StartIndex": 1
+        }
       },
       "11010104": {
         "nextQuestId": 11010105
@@ -810,15 +784,13 @@
       "11010905": {
         "nextQuestId": 11010906
       },
-      "11010906": [
-        {
-          "SuccQuestDeliver": [
-            "DeliverType = 1",
-            "Id = 210101",
-            "StartIndex = 1"
-          ]
+      "11010906": {
+        "SuccQuestDeliver": {
+          "DeliverType": 1,
+          "Id": 210101,
+          "StartIndex": 1
         }
-      ]
+      }
     }
   },
   "200101": {

@@ -3,7 +3,13 @@
     "ID": 1,
     "UnlockLevel": 0,
     "RoomTotal": 5,
-    "RoomRandom": {},
+    "RoomRandom": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
     "RoomLevel": [
       10,
       12,
@@ -17,7 +23,13 @@
     "ID": 2,
     "UnlockLevel": 0,
     "RoomTotal": 5,
-    "RoomRandom": {},
+    "RoomRandom": [
+      14,
+      14,
+      14,
+      14,
+      14
+    ],
     "RoomLevel": [
       10,
       12,
@@ -31,16 +43,26 @@
     "ID": 3,
     "UnlockLevel": 0,
     "RoomTotal": 2,
-    "RoomRandom": {},
-    "RoomLevel": {},
+    "RoomRandom": [
+      15,
+      15
+    ],
+    "RoomLevel": [
+      10,
+      12
+    ],
     "EndPointsRate": 1
   },
   {
     "ID": 4,
     "UnlockLevel": 0,
     "RoomTotal": 1,
-    "RoomRandom": {},
-    "RoomLevel": {},
+    "RoomRandom": [
+      2
+    ],
+    "RoomLevel": [
+      10
+    ],
     "EndPointsRate": 1
   },
   null,
@@ -143,24 +165,108 @@
     "ID": 101,
     "UnlockLevel": 10,
     "RoomTotal": 9,
-    "RoomRandom": {},
-    "RoomLevel": {},
+    "RoomRandom": [
+      1,
+      18,
+      17,
+      18,
+      18,
+      17,
+      18,
+      2,
+      3
+    ],
+    "RoomLevel": [
+      30,
+      31,
+      31,
+      32,
+      32,
+      33,
+      34,
+      1,
+      35
+    ],
     "EndPointsRate": 1
   },
   {
     "ID": 102,
     "UnlockLevel": 20,
     "RoomTotal": 13,
-    "RoomRandom": {},
-    "RoomLevel": {},
+    "RoomRandom": [
+      1,
+      18,
+      17,
+      18,
+      18,
+      17,
+      18,
+      2,
+      18,
+      17,
+      18,
+      2,
+      3
+    ],
+    "RoomLevel": [
+      40,
+      41,
+      41,
+      42,
+      42,
+      43,
+      43,
+      1,
+      44,
+      44,
+      45,
+      1,
+      47
+    ],
     "EndPointsRate": 1.4
   },
   {
     "ID": 103,
     "UnlockLevel": 30,
     "RoomTotal": 17,
-    "RoomRandom": {},
-    "RoomLevel": {},
+    "RoomRandom": [
+      1,
+      18,
+      17,
+      18,
+      18,
+      17,
+      18,
+      2,
+      18,
+      17,
+      14,
+      2,
+      18,
+      17,
+      18,
+      2,
+      3
+    ],
+    "RoomLevel": [
+      50,
+      51,
+      51,
+      52,
+      52,
+      53,
+      53,
+      1,
+      54,
+      55,
+      56,
+      1,
+      57,
+      58,
+      59,
+      1,
+      60
+    ],
     "EndPointsRate": 1.8
   },
   {
@@ -190,7 +296,29 @@
       2,
       3
     ],
-    "RoomLevel": {},
+    "RoomLevel": [
+      60,
+      61,
+      61,
+      62,
+      63,
+      64,
+      65,
+      1,
+      66,
+      67,
+      68,
+      1,
+      69,
+      70,
+      71,
+      1,
+      72,
+      73,
+      74,
+      1,
+      75
+    ],
     "EndPointsRate": 2.3
   },
   {
@@ -220,7 +348,29 @@
       2,
       3
     ],
-    "RoomLevel": {},
+    "RoomLevel": [
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      1,
+      78,
+      79,
+      80,
+      1,
+      82,
+      84,
+      86,
+      1,
+      88,
+      90,
+      92,
+      1,
+      95
+    ],
     "EndPointsRate": 2.5
   }
 ]

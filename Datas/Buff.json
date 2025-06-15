@@ -26,12 +26,15 @@
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
     "FresnelParams": {
-      "FresnelColor": {},
-      "FresnelColorRange": [
-        {
-          "Default": 0.5
-        }
+      "FresnelColor": [
+        1,
+        0.84682,
+        0.359142,
+        0
       ],
+      "FresnelColorRange": {
+        "Default": 0.5
+      },
       "FresnelColorStrength": {
         "Default": 50
       }
@@ -61,10 +64,10 @@
     "MergeRule1": "Global",
     "MergeRule2": "Merge",
     "AddAttrs": [
-      [
-        "AttrName = \"ATK",
-        "Rate = \"#1"
-      ]
+      {
+        "AttrName": "ATK",
+        "Rate": "#1"
+      }
     ]
   },
   "12": {
@@ -78,10 +81,10 @@
     "MergeRule1": "Global",
     "MergeRule2": "Merge",
     "AddAttrs": [
-      [
-        "AttrName = \"Def",
-        "Rate = \"#1"
-      ]
+      {
+        "AttrName": "Def",
+        "Rate": "#1"
+      }
     ]
   },
   "13": {
@@ -95,10 +98,10 @@
     "MergeRule1": "Global",
     "MergeRule2": "Merge",
     "AddAttrs": [
-      [
-        "AttrName = \"SkillIntensity",
-        "Rate = \"#1"
-      ]
+      {
+        "AttrName": "SkillIntensity",
+        "Rate": "#1"
+      }
     ]
   },
   "14": {
@@ -146,10 +149,10 @@
     "MergeRule1": "Global",
     "MergeRule2": "Merge",
     "AddAttrs": [
-      [
-        "AttrName = \"ATK",
-        "Rate = \"#1"
-      ]
+      {
+        "AttrName": "ATK",
+        "Rate": "#1"
+      }
     ]
   },
   "22": {
@@ -163,10 +166,10 @@
     "MergeRule1": "Global",
     "MergeRule2": "Merge",
     "AddAttrs": [
-      [
-        "AttrName = \"Def",
-        "Rate = \"#1"
-      ]
+      {
+        "AttrName": "Def",
+        "Rate": "#1"
+      }
     ]
   },
   "23": {
@@ -219,7 +222,14 @@
       "Shooting": 91,
       "HeavyShooting": 91
     },
-    "DisableSkills": {}
+    "DisableSkills": [
+      "FallAttack",
+      "HeavyAttack",
+      "SlideAttack",
+      "Skill1",
+      "Skill2",
+      "Reload"
+    ]
   },
   "97": {
     "BuffId": 97,
@@ -235,7 +245,9 @@
     "BPPath": "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff.BP_Buff",
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
-    "DisableSkills": {}
+    "DisableSkills": [
+      "Skill2"
+    ]
   },
   "99": {
     "BuffId": 99,
@@ -254,7 +266,11 @@
   },
   "101": {
     "BuffId": 101,
-    "BuffType": {},
+    "BuffType": [
+      20,
+      100,
+      101
+    ],
     "BPPath": "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff.BP_Buff",
     "IsShowInBillboard": true,
     "BuffTypeImgPath": "Dot_Dark",
@@ -288,18 +304,20 @@
   },
   "102": {
     "BuffId": 102,
-    "BuffType": {},
+    "BuffType": [
+      20,
+      100,
+      102
+    ],
     "BPPath": "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff.BP_Buff",
     "IsShowInBillboard": true,
     "BuffTypeImgPath": "Dot_Water",
     "MergeRule1": "Global",
     "MergeRule2": "NewFree",
     "MaxLayer": 6,
-    "FXMID": [
-      {
-        "ParamType": "Water"
-      }
-    ],
+    "FXMID": {
+      "ParamType": "Water"
+    },
     "DotDatas": [
       {
         "Type": "Dot",
@@ -317,18 +335,20 @@
   },
   "103": {
     "BuffId": 103,
-    "BuffType": {},
+    "BuffType": [
+      20,
+      100,
+      103
+    ],
     "BPPath": "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff.BP_Buff",
     "IsShowInBillboard": true,
     "BuffTypeImgPath": "Dot_Fire",
     "MergeRule1": "Global",
     "MergeRule2": "NewFree",
     "MaxLayer": 6,
-    "FXMID": [
-      {
-        "ParamType": "Fire"
-      }
-    ],
+    "FXMID": {
+      "ParamType": "Fire"
+    },
     "DotDatas": [
       {
         "Type": "Dot",
@@ -346,18 +366,20 @@
   },
   "104": {
     "BuffId": 104,
-    "BuffType": {},
+    "BuffType": [
+      20,
+      100,
+      104
+    ],
     "BPPath": "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff.BP_Buff",
     "IsShowInBillboard": true,
     "BuffTypeImgPath": "Dot_Thunder",
     "MergeRule1": "Global",
     "MergeRule2": "NewFree",
     "MaxLayer": 6,
-    "FXMID": [
-      {
-        "ParamType": "Thunder"
-      }
-    ],
+    "FXMID": {
+      "ParamType": "Thunder"
+    },
     "DotDatas": [
       {
         "Type": "Dot",
@@ -375,18 +397,20 @@
   },
   "105": {
     "BuffId": 105,
-    "BuffType": {},
+    "BuffType": [
+      20,
+      100,
+      105
+    ],
     "BPPath": "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff.BP_Buff",
     "IsShowInBillboard": true,
     "BuffTypeImgPath": "Dot_Wind",
     "MergeRule1": "Global",
     "MergeRule2": "NewFree",
     "MaxLayer": 6,
-    "FXMID": [
-      {
-        "ParamType": "Wind"
-      }
-    ],
+    "FXMID": {
+      "ParamType": "Wind"
+    },
     "DotDatas": [
       {
         "Type": "Dot",
@@ -404,7 +428,11 @@
   },
   "106": {
     "BuffId": 106,
-    "BuffType": {},
+    "BuffType": [
+      20,
+      100,
+      106
+    ],
     "BPPath": "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff_Element_Light.BP_Buff_Element_Light",
     "IsShowInBillboard": true,
     "BuffTypeImgPath": "Dot_Light",
@@ -464,7 +492,12 @@
   },
   "203": {
     "BuffId": 203,
-    "BuffType": {},
+    "BuffType": [
+      20,
+      41,
+      203,
+      49
+    ],
     "BPPath": "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff_Controll.BP_Buff_Controll",
     "IsShowInBillboard": true,
     "BuffTypeImgPath": "Stun",
@@ -495,18 +528,26 @@
   },
   "205": {
     "BuffId": 205,
-    "BuffType": {},
+    "BuffType": [
+      20,
+      43
+    ],
     "BPPath": "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff.BP_Buff",
     "IsShowInBillboard": true,
     "BuffTypeImgPath": "Taunt",
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
     "AllowSkillSustainModify": true,
-    "SpecialEffect": {}
+    "SpecialEffect": [
+      "Taunt"
+    ]
   },
   "206": {
     "BuffId": 206,
-    "BuffType": {},
+    "BuffType": [
+      20,
+      42
+    ],
     "BPPath": "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff.BP_Buff",
     "IsShowInBillboard": true,
     "BuffTypeImgPath": "Slowdown",
@@ -517,15 +558,18 @@
       2031
     ],
     "AddAttrs": [
-      [
-        "AttrName = \"MoveSpeedAddRate",
-        "Value = -0.8"
-      ]
+      {
+        "AttrName": "MoveSpeedAddRate",
+        "Value": -0.8
+      }
     ]
   },
   "207": {
     "BuffId": 207,
-    "BuffType": {},
+    "BuffType": [
+      20,
+      41
+    ],
     "BPPath": "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff.BP_Buff",
     "IsShowInBillboard": true,
     "BuffTypeImgPath": "Stun",
@@ -537,7 +581,10 @@
   },
   "301": {
     "BuffId": 301,
-    "BuffType": {},
+    "BuffType": [
+      11,
+      60
+    ],
     "ForbidBuffType": [
       41
     ],
@@ -548,7 +595,12 @@
     "MergeRule2": "Merge",
     "AllowSkillSustainModify": true,
     "FresnelParams": {
-      "FresnelColor": {},
+      "FresnelColor": [
+        1,
+        0.2,
+        0,
+        0
+      ],
       "FresnelColorRange": {
         "Default": 0.65
       },
@@ -560,7 +612,9 @@
     "SpecialEffect": [
       "Invincible"
     ],
-    "UISpecialEffect": {},
+    "UISpecialEffect": [
+      "InvincibleUI"
+    ],
     "NotEnterCharacterTagType": [
       "Hit"
     ],
@@ -579,7 +633,12 @@
     "MergeRule2": "Merge",
     "AllowSkillSustainModify": true,
     "DMMIParams": {
-      "DMMIColor": {},
+      "DMMIColor": [
+        10,
+        10,
+        10,
+        0
+      ],
       "DMMILineWidth": 0.5
     },
     "FXMID": {
@@ -691,13 +750,15 @@
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
     "MaxLayer": 4,
-    "BuffEffects": {},
+    "BuffEffects": [
+      4022
+    ],
     "AddAttrs": [
-      [
-        "AttrName = \"DamageRate",
-        "Value = \"#1",
-        "Stackable = 1"
-      ]
+      {
+        "AttrName": "DamageRate",
+        "Value": "#1",
+        "Stackable": 1
+      }
     ]
   },
   "404": {
@@ -711,7 +772,9 @@
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
     "MaxLayer": 3,
-    "AddPassiveEffect": {}
+    "AddPassiveEffect": [
+      404
+    ]
   },
   "405": {
     "BuffId": 405,
@@ -723,12 +786,14 @@
     "BuffTypeImgPath": "Berserk",
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
-    "BuffEffects": {},
+    "BuffEffects": [
+      4052
+    ],
     "AddAttrs": [
-      [
-        "AttrName = \"DEF",
-        "Rate = \"#1"
-      ],
+      {
+        "AttrName": "DEF",
+        "Rate": "#1"
+      },
       {
         "AttrName": "EnmityValue",
         "Value": "#2"
@@ -745,7 +810,9 @@
     "BuffTypeImgPath": "Damage_Up",
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
-    "AddPassiveEffect": {}
+    "AddPassiveEffect": [
+      407
+    ]
   },
   "408": {
     "BuffId": 408,
@@ -813,10 +880,10 @@
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
     "AddAttrs": [
-      [
-        "AttrName = \"SkillIntensity",
-        "Rate = \"#1"
-      ]
+      {
+        "AttrName": "SkillIntensity",
+        "Rate": "#1"
+      }
     ]
   },
   "1911": {
@@ -831,10 +898,10 @@
     "MergeRule2": "NewFree",
     "MaxLayer": 20,
     "AddAttrs": [
-      [
-        "AttrName = \"SkillIntensity",
-        "Rate = \"#1"
-      ]
+      {
+        "AttrName": "SkillIntensity",
+        "Rate": "#1"
+      }
     ]
   },
   "1922": {
@@ -868,10 +935,10 @@
     "MergeRule2": "NewFree",
     "MaxLayer": 120,
     "AddAttrs": [
-      [
-        "AttrName = \"ATK",
-        "Rate = \"#1"
-      ]
+      {
+        "AttrName": "ATK",
+        "Rate": "#1"
+      }
     ]
   },
   "1951": {
@@ -884,7 +951,9 @@
     "BuffTypeImgPath": "Damage_Up",
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
-    "AddPassiveEffect": {}
+    "AddPassiveEffect": [
+      1951001
+    ]
   },
   "1952": {
     "BuffId": 1952,
@@ -926,11 +995,11 @@
       104
     ],
     "AddAttrs": [
-      [
-        "AttrName = \"WeaponCRIModifierRate",
-        "Value = \"#1",
-        "Stackable = 1"
-      ]
+      {
+        "AttrName": "WeaponCRIModifierRate",
+        "Value": "#1",
+        "Stackable": 1
+      }
     ]
   },
   "2302": {
@@ -976,10 +1045,10 @@
       104
     ],
     "AddAttrs": [
-      [
-        "AttrName = \"AttackSpeedModifierRate",
-        "Value = \"#1"
-      ]
+      {
+        "AttrName": "AttackSpeedModifierRate",
+        "Value": "#1"
+      }
     ]
   },
   "2321": {
@@ -1000,10 +1069,10 @@
       104
     ],
     "AddAttrs": [
-      [
-        "AttrName = \"WeaponCRDModifierRate",
-        "Value = \"#1"
-      ]
+      {
+        "AttrName": "WeaponCRDModifierRate",
+        "Value": "#1"
+      }
     ]
   },
   "2322": {
@@ -1017,7 +1086,9 @@
     "MergeRule1": "Personal",
     "MergeRule2": "NewFree",
     "MaxLayer": 2,
-    "BuffEffects": {},
+    "BuffEffects": [
+      1026
+    ],
     "AddPassiveEffect": [
       104
     ],
@@ -1045,10 +1116,10 @@
       104
     ],
     "AddAttrs": [
-      [
-        "AttrName = \"AttackSpeedModifierRate",
-        "Value = \"#1"
-      ]
+      {
+        "AttrName": "AttackSpeedModifierRate",
+        "Value": "#1"
+      }
     ]
   },
   "3311": {
@@ -1068,10 +1139,10 @@
       104
     ],
     "AddAttrs": [
-      [
-        "AttrName = \"WeaponCRDModifierRate",
-        "Value = \"#1"
-      ]
+      {
+        "AttrName": "WeaponCRDModifierRate",
+        "Value": "#1"
+      }
     ]
   },
   "3321": {
@@ -1109,7 +1180,9 @@
     "MergeRule1": "Personal",
     "MergeRule2": "NewFree",
     "MaxLayer": 5,
-    "BuffEffects": {},
+    "BuffEffects": [
+      1023
+    ],
     "AddPassiveEffect": [
       104
     ],
@@ -1160,11 +1233,11 @@
       104
     ],
     "AddAttrs": [
-      [
-        "AttrName = \"AttackSpeedModifierRate",
-        "Value = \"#1",
-        "Stackable = 1"
-      ]
+      {
+        "AttrName": "AttackSpeedModifierRate",
+        "Value": "#1",
+        "Stackable": 1
+      }
     ]
   },
   "10203": {
@@ -1185,11 +1258,11 @@
       104
     ],
     "AddAttrs": [
-      [
-        "AttrName = \"WeaponCRIModifierRate",
-        "Value = \"#1",
-        "Stackable = 1"
-      ]
+      {
+        "AttrName": "WeaponCRIModifierRate",
+        "Value": "#1",
+        "Stackable": 1
+      }
     ]
   },
   "10204": {
@@ -1203,10 +1276,10 @@
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
     "AddAttrs": [
-      [
-        "AttrName = \"SkillIntensity",
-        "Rate = \"#1"
-      ]
+      {
+        "AttrName": "SkillIntensity",
+        "Rate": "#1"
+      }
     ]
   },
   "10301": {
@@ -1258,11 +1331,11 @@
       104
     ],
     "AddAttrs": [
-      [
-        "AttrName = \"AttackSpeedModifierRate",
-        "Value = \"#1",
-        "Stackable = 1"
-      ]
+      {
+        "AttrName": "AttackSpeedModifierRate",
+        "Value": "#1",
+        "Stackable": 1
+      }
     ]
   },
   "20203": {
@@ -1306,11 +1379,11 @@
       104
     ],
     "AddAttrs": [
-      [
-        "AttrName = \"DamageRate",
-        "Value = \"#1",
-        "Stackable = 1"
-      ]
+      {
+        "AttrName": "DamageRate",
+        "Value": "#1",
+        "Stackable": 1
+      }
     ]
   },
   "20502": {
@@ -1324,10 +1397,10 @@
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
     "AddAttrs": [
-      [
-        "AttrName = \"ATK",
-        "Rate = \"#1"
-      ]
+      {
+        "AttrName": "ATK",
+        "Rate": "#1"
+      }
     ]
   },
   "110101": {
@@ -1339,17 +1412,22 @@
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
     "AllowSkillSustainModify": true,
-    "VisualEffects": {},
+    "VisualEffects": [
+      110129
+    ],
     "EmissiveIntensity": {
       "Hair": 150
     },
     "FresnelParams": {
-      "FresnelColor": {},
-      "FresnelColorRange": [
-        {
-          "Default": 0.5
-        }
+      "FresnelColor": [
+        1,
+        0.6,
+        0.2,
+        0
       ],
+      "FresnelColorRange": {
+        "Default": 0.5
+      },
       "FresnelColorStrength": {
         "Default": 10,
         "FresnelColor": 10
@@ -1369,7 +1447,9 @@
     "ActivateSkills": {
       "110102": 110121
     },
-    "DisableSkills": {},
+    "DisableSkills": [
+      "FallAttack"
+    ],
     "NotEnterCharacterTagType": [
       "Hit"
     ]
@@ -1435,10 +1515,10 @@
         "Value": 1,
         "Type": "Dark"
       },
-      [
-        "AttrName = \"StrongValue",
-        "Value = 0.38"
-      ],
+      {
+        "AttrName": "StrongValue",
+        "Value": 0.38
+      },
       {
         "AttrName": "AttackSpeedModifierRate",
         "Value": 0.5
@@ -1453,7 +1533,9 @@
     "BPPath": "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff.BP_Buff",
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
-    "AddPassiveEffect": {},
+    "AddPassiveEffect": [
+      206
+    ],
     "AddAttrs": [
       {
         "AttrName": "BonusDamage",
@@ -1470,11 +1552,11 @@
     "MergeRule2": "Merge",
     "AllowSkillSustainModify": true,
     "DotDatas": [
-      [
-        "Type = \"SpChange",
-        "Interval = 1",
-        "Value = -6"
-      ]
+      {
+        "Type": "SpChange",
+        "Interval": 1,
+        "Value": -6
+      }
     ],
     "RemoveWhenSpZero": true,
     "ActivateSkills": {
@@ -1499,50 +1581,38 @@
     "BuffInitEffects": [
       180102
     ],
-    "FresnelParams": [
-      {
-        "FresnelColor": [
-          0.0068,
-          0.0492,
-          0.2,
-          0
-        ]
+    "FresnelParams": {
+      "FresnelColor": [
+        0.0068,
+        0.0492,
+        0.2,
+        0
+      ],
+      "FresnelColorRange": {
+        "Default": 0.4
       },
-      {
-        "FresnelColorRange": [
-          "Default = 0.4"
-        ]
-      },
-      {
-        "FresnelColorStrength": [
-          "Default = 200"
-        ]
+      "FresnelColorStrength": {
+        "Default": 200
       }
-    ],
-    "NextPassParams": [
-      {
-        "ShowyColor": [
-          1.719561,
-          12.030798,
-          50,
-          0
-        ]
-      },
-      {
-        "ShowyWidth": 0.3
-      },
-      {
-        "Showy": 1
-      }
-    ],
+    },
+    "NextPassParams": {
+      "ShowyColor": [
+        1.719561,
+        12.030798,
+        50,
+        0
+      ],
+      "ShowyWidth": 0.3,
+      "Showy": 1
+    },
     "AddAttrs": [
-      [
-        "AttrName = \"BonusDamage",
-        "Value = \"#1",
-        "Type = \"Light",
-        "AllowSkillIntensity = 1",
-        "Stackable = 1"
-      ]
+      {
+        "AttrName": "BonusDamage",
+        "Value": "#1",
+        "Type": "Light",
+        "AllowSkillIntensity": 1,
+        "Stackable": 1
+      }
     ]
   },
   "180112": {
@@ -1563,50 +1633,38 @@
     "BuffInitEffects": [
       180102
     ],
-    "FresnelParams": [
-      {
-        "FresnelColor": [
-          0.0068,
-          0.0492,
-          0.2,
-          0
-        ]
-      },
-      {
-        "FresnelColorRange": [
-          "Default = 0.4"
-        ]
-      },
-      {
-        "FresnelColorStrength": [
-          "Default = 200"
-        ]
-      }
-    ],
-    "NextPassParams": [
-      {
-        "ShowyColor": [
-          1.719561,
-          12.030798,
-          50,
-          0
-        ]
-      },
-      {
-        "ShowyWidth": 0.3
-      },
-      {
-        "Showy": 1
-      }
-    ],
-    "AddAttrs": [
-      [
-        "AttrName = \"BonusDamage",
-        "Value = \"#1",
-        "Type = \"Light",
-        "AllowSkillIntensity = 1",
-        "Stackable = 1"
+    "FresnelParams": {
+      "FresnelColor": [
+        0.0068,
+        0.0492,
+        0.2,
+        0
       ],
+      "FresnelColorRange": {
+        "Default": 0.4
+      },
+      "FresnelColorStrength": {
+        "Default": 200
+      }
+    },
+    "NextPassParams": {
+      "ShowyColor": [
+        1.719561,
+        12.030798,
+        50,
+        0
+      ],
+      "ShowyWidth": 0.3,
+      "Showy": 1
+    },
+    "AddAttrs": [
+      {
+        "AttrName": "BonusDamage",
+        "Value": "#1",
+        "Type": "Light",
+        "AllowSkillIntensity": 1,
+        "Stackable": 1
+      },
       {
         "AttrName": "SkillIntensity",
         "Value": 0.0216,
@@ -1645,21 +1703,22 @@
     "BuffTypeImgPath": "Dot_Water",
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
-    "FXMID": [
-      {
-        "ParamType": "Water"
-      }
-    ],
+    "FXMID": {
+      "ParamType": "Water"
+    },
     "DotDatas": [
-      [
-        "Type = \"Dot",
-        "Interval = 2",
-        "Rate = \"#1",
-        "AllowSkillIntensity = 1",
-        "DamageType = \"Water",
-        "DamageTag = T.RT_72",
-        "Immediately = 1"
-      ]
+      {
+        "Type": "Dot",
+        "Interval": 2,
+        "Rate": "#1",
+        "AllowSkillIntensity": 1,
+        "DamageType": "Water",
+        "DamageTag": [
+          "Dot",
+          "Skill"
+        ],
+        "Immediately": 1
+      }
     ],
     "Priority": 100
   },
@@ -1689,21 +1748,22 @@
     "BuffTypeImgPath": "Dot_Fire",
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
-    "FXMID": [
-      {
-        "ParamType": "Fire"
-      }
-    ],
+    "FXMID": {
+      "ParamType": "Fire"
+    },
     "DotDatas": [
-      [
-        "Type = \"Dot",
-        "Interval = 2",
-        "Rate = \"#1",
-        "AllowSkillIntensity = 1",
-        "DamageType = \"Fire",
-        "DamageTag = T.RT_72",
-        "Immediately = 1"
-      ]
+      {
+        "Type": "Dot",
+        "Interval": 2,
+        "Rate": "#1",
+        "AllowSkillIntensity": 1,
+        "DamageType": "Fire",
+        "DamageTag": [
+          "Dot",
+          "Skill"
+        ],
+        "Immediately": 1
+      }
     ],
     "Priority": 100
   },
@@ -1733,21 +1793,22 @@
     "BuffTypeImgPath": "Dot_Thunder",
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
-    "FXMID": [
-      {
-        "ParamType": "Thunder"
-      }
-    ],
+    "FXMID": {
+      "ParamType": "Thunder"
+    },
     "DotDatas": [
-      [
-        "Type = \"Dot",
-        "Interval = 2",
-        "Rate = \"#1",
-        "AllowSkillIntensity = 1",
-        "DamageType = \"Thunder",
-        "DamageTag = T.RT_72",
-        "Immediately = 1"
-      ]
+      {
+        "Type": "Dot",
+        "Interval": 2,
+        "Rate": "#1",
+        "AllowSkillIntensity": 1,
+        "DamageType": "Thunder",
+        "DamageTag": [
+          "Dot",
+          "Skill"
+        ],
+        "Immediately": 1
+      }
     ],
     "Priority": 100
   },
@@ -1777,21 +1838,22 @@
     "BuffTypeImgPath": "Dot_Wind",
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
-    "FXMID": [
-      {
-        "ParamType": "Wind"
-      }
-    ],
+    "FXMID": {
+      "ParamType": "Wind"
+    },
     "DotDatas": [
-      [
-        "Type = \"Dot",
-        "Interval = 2",
-        "Rate = \"#1",
-        "AllowSkillIntensity = 1",
-        "DamageType = \"Wind",
-        "DamageTag = T.RT_72",
-        "Immediately = 1"
-      ]
+      {
+        "Type": "Dot",
+        "Interval": 2,
+        "Rate": "#1",
+        "AllowSkillIntensity": 1,
+        "DamageType": "Wind",
+        "DamageTag": [
+          "Dot",
+          "Skill"
+        ],
+        "Immediately": 1
+      }
     ],
     "Priority": 100
   },
@@ -1808,16 +1870,18 @@
     "MergeRule2": "Merge",
     "MaxLayer": 1,
     "AllowSkillSustainModify": true,
-    "BuffEffects": {},
+    "BuffEffects": [
+      1041
+    ],
     "AddPassiveEffect": [
       202
     ],
     "AddAttrs": [
-      [
-        "AttrName = \"BonusDamage",
-        "Value = \"#1",
-        "Type = \"Water"
-      ]
+      {
+        "AttrName": "BonusDamage",
+        "Value": "#1",
+        "Type": "Water"
+      }
     ]
   },
   "180132": {
@@ -1833,8 +1897,12 @@
     "MergeRule2": "Merge",
     "MaxLayer": 1,
     "AllowSkillSustainModify": true,
-    "BuffEffects": {},
-    "AddPassiveEffect": {},
+    "BuffEffects": [
+      1042
+    ],
+    "AddPassiveEffect": [
+      203
+    ],
     "AddAttrs": [
       {
         "AttrName": "BonusDamage",
@@ -1856,8 +1924,12 @@
     "MergeRule2": "Merge",
     "MaxLayer": 1,
     "AllowSkillSustainModify": true,
-    "BuffEffects": {},
-    "AddPassiveEffect": {},
+    "BuffEffects": [
+      1044
+    ],
+    "AddPassiveEffect": [
+      204
+    ],
     "AddAttrs": [
       {
         "AttrName": "BonusDamage",
@@ -1879,8 +1951,12 @@
     "MergeRule2": "Merge",
     "MaxLayer": 1,
     "AllowSkillSustainModify": true,
-    "BuffEffects": {},
-    "AddPassiveEffect": {},
+    "BuffEffects": [
+      1043
+    ],
+    "AddPassiveEffect": [
+      205
+    ],
     "AddAttrs": [
       {
         "AttrName": "BonusDamage",
@@ -1915,27 +1991,28 @@
     "BuffTypeImgPath": "Dot_Water",
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
-    "FXMID": [
+    "FXMID": {
+      "ParamType": "Water"
+    },
+    "AddAttrs": [
       {
-        "ParamType": "Water"
+        "AttrName": "WaterDamagedRate",
+        "Value": 0.5
       }
     ],
-    "AddAttrs": [
-      [
-        "AttrName = \"WaterDamagedRate",
-        "Value = 0.5"
-      ]
-    ],
     "DotDatas": [
-      [
-        "Type = \"Dot",
-        "Interval = 2",
-        "Rate = \"#1",
-        "AllowSkillIntensity = 1",
-        "DamageType = \"Water",
-        "DamageTag = T.RT_72",
-        "Immediately = 1"
-      ]
+      {
+        "Type": "Dot",
+        "Interval": 2,
+        "Rate": "#1",
+        "AllowSkillIntensity": 1,
+        "DamageType": "Water",
+        "DamageTag": [
+          "Dot",
+          "Skill"
+        ],
+        "Immediately": 1
+      }
     ],
     "Priority": 100
   },
@@ -1965,27 +2042,28 @@
     "BuffTypeImgPath": "Dot_Fire",
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
-    "FXMID": [
+    "FXMID": {
+      "ParamType": "Fire"
+    },
+    "AddAttrs": [
       {
-        "ParamType": "Fire"
+        "AttrName": "FireDamagedRate",
+        "Value": 0.5
       }
     ],
-    "AddAttrs": [
-      [
-        "AttrName = \"FireDamagedRate",
-        "Value = 0.5"
-      ]
-    ],
     "DotDatas": [
-      [
-        "Type = \"Dot",
-        "Interval = 2",
-        "Rate = \"#1",
-        "AllowSkillIntensity = 1",
-        "DamageType = \"Fire",
-        "DamageTag = T.RT_72",
-        "Immediately = 1"
-      ]
+      {
+        "Type": "Dot",
+        "Interval": 2,
+        "Rate": "#1",
+        "AllowSkillIntensity": 1,
+        "DamageType": "Fire",
+        "DamageTag": [
+          "Dot",
+          "Skill"
+        ],
+        "Immediately": 1
+      }
     ],
     "Priority": 100
   },
@@ -2015,27 +2093,28 @@
     "BuffTypeImgPath": "Dot_Thunder",
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
-    "FXMID": [
+    "FXMID": {
+      "ParamType": "Thunder"
+    },
+    "AddAttrs": [
       {
-        "ParamType": "Thunder"
+        "AttrName": "ThunderDamagedRate",
+        "Value": 0.5
       }
     ],
-    "AddAttrs": [
-      [
-        "AttrName = \"ThunderDamagedRate",
-        "Value = 0.5"
-      ]
-    ],
     "DotDatas": [
-      [
-        "Type = \"Dot",
-        "Interval = 2",
-        "Rate = \"#1",
-        "AllowSkillIntensity = 1",
-        "DamageType = \"Thunder",
-        "DamageTag = T.RT_72",
-        "Immediately = 1"
-      ]
+      {
+        "Type": "Dot",
+        "Interval": 2,
+        "Rate": "#1",
+        "AllowSkillIntensity": 1,
+        "DamageType": "Thunder",
+        "DamageTag": [
+          "Dot",
+          "Skill"
+        ],
+        "Immediately": 1
+      }
     ],
     "Priority": 100
   },
@@ -2065,27 +2144,28 @@
     "BuffTypeImgPath": "Dot_Wind",
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
-    "FXMID": [
+    "FXMID": {
+      "ParamType": "Wind"
+    },
+    "AddAttrs": [
       {
-        "ParamType": "Wind"
+        "AttrName": "WindDamagedRate",
+        "Value": 0.5
       }
     ],
-    "AddAttrs": [
-      [
-        "AttrName = \"WindDamagedRate",
-        "Value = 0.5"
-      ]
-    ],
     "DotDatas": [
-      [
-        "Type = \"Dot",
-        "Interval = 2",
-        "Rate = \"#1",
-        "AllowSkillIntensity = 1",
-        "DamageType = \"Wind",
-        "DamageTag = T.RT_72",
-        "Immediately = 1"
-      ]
+      {
+        "Type": "Dot",
+        "Interval": 2,
+        "Rate": "#1",
+        "AllowSkillIntensity": 1,
+        "DamageType": "Wind",
+        "DamageTag": [
+          "Dot",
+          "Skill"
+        ],
+        "Immediately": 1
+      }
     ],
     "Priority": 100
   },
@@ -2117,7 +2197,9 @@
     "BuffTypeImgPath": "Common_Buff_Aura",
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
-    "VisualEffects": {},
+    "VisualEffects": [
+      20103
+    ],
     "Halo": {
       "BuffId": 201021,
       "Camp": "Friend",
@@ -2175,11 +2257,9 @@
     "BuffTypeImgPath": "Dot_Fire",
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
-    "FXMID": [
-      {
-        "ParamType": "Fire"
-      }
-    ],
+    "FXMID": {
+      "ParamType": "Fire"
+    },
     "AddAttrs": [
       {
         "AttrName": "DamagedRate",
@@ -2210,7 +2290,9 @@
     "BuffTypeImgPath": "Common_Buff_Aura",
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
-    "VisualEffects": {},
+    "VisualEffects": [
+      20211
+    ],
     "Halo": {
       "BuffId": 202011,
       "Camp": "Friend",
@@ -2227,7 +2309,9 @@
     "BuffTypeImgPath": "Atk_Down",
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
-    "BuffEffects": {},
+    "BuffEffects": [
+      20222
+    ],
     "AddAttrs": [
       {
         "AttrName": "ATK",
@@ -2285,12 +2369,14 @@
     "BuffTypeImgPath": "Slowdown",
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
-    "VisualEffects": {},
+    "VisualEffects": [
+      20212
+    ],
     "AddAttrs": [
-      [
-        "AttrName = \"MoveSpeedAddRate",
-        "Value = -0.8"
-      ]
+      {
+        "AttrName": "MoveSpeedAddRate",
+        "Value": -0.8
+      }
     ],
     "DotDatas": [
       {
@@ -2315,7 +2401,9 @@
     "BuffTypeImgPath": "Hot_Energy",
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
-    "BuffEffects": {},
+    "BuffEffects": [
+      20221
+    ],
     "BuffDamagedRate": {
       "Value": -0.3
     },
@@ -2350,26 +2438,27 @@
     "VisualEffects": [
       210102
     ],
-    "FXMID": [
-      {
-        "ParamType": "ShuimuDot"
-      }
-    ],
+    "FXMID": {
+      "ParamType": "ShuimuDot"
+    },
     "AddPassiveEffect": [
       210102
     ],
     "DotDatas": [
-      [
-        "Type = \"Dot",
-        "Interval = 2",
-        "Rate = \"#1",
-        "AllowSkillIntensity = 1",
-        "DamageType = \"Water",
-        "Stackable = 1",
-        "DamageTag = T.RT_72",
-        "PlaySe = 152",
-        "Immediately = 1"
-      ]
+      {
+        "Type": "Dot",
+        "Interval": 2,
+        "Rate": "#1",
+        "AllowSkillIntensity": 1,
+        "DamageType": "Water",
+        "Stackable": 1,
+        "DamageTag": [
+          "Dot",
+          "Skill"
+        ],
+        "PlaySe": 152,
+        "Immediately": 1
+      }
     ],
     "Priority": 999
   },
@@ -2389,26 +2478,27 @@
     "VisualEffects": [
       210102
     ],
-    "FXMID": [
-      {
-        "ParamType": "ShuimuDot"
-      }
-    ],
+    "FXMID": {
+      "ParamType": "ShuimuDot"
+    },
     "AddPassiveEffect": [
       210102
     ],
     "DotDatas": [
-      [
-        "Type = \"Dot",
-        "Interval = 2",
-        "Rate = \"#1",
-        "AllowSkillIntensity = 1",
-        "DamageType = \"Water",
-        "Stackable = 1",
-        "DamageTag = T.RT_72",
-        "PlaySe = 152",
-        "Immediately = 1"
-      ]
+      {
+        "Type": "Dot",
+        "Interval": 2,
+        "Rate": "#1",
+        "AllowSkillIntensity": 1,
+        "DamageType": "Water",
+        "Stackable": 1,
+        "DamageTag": [
+          "Dot",
+          "Skill"
+        ],
+        "PlaySe": 152,
+        "Immediately": 1
+      }
     ],
     "Priority": 999
   },
@@ -2433,14 +2523,21 @@
   },
   "230100": {
     "BuffId": 230100,
-    "BuffType": {},
+    "BuffType": [
+      21,
+      41,
+      49,
+      44
+    ],
     "BPPath": "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff_Controll_2301.BP_Buff_Controll_2301",
     "IsShowInBillboard": true,
     "BuffTypeImgPath": "Stun",
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
     "AllowSkillSustainModify": true,
-    "VisualEffects": {},
+    "VisualEffects": [
+      230104
+    ],
     "RagdollEnable": 1,
     "SetCharacterTag": "HitFly"
   },
@@ -2462,11 +2559,11 @@
       202
     ],
     "AddAttrs": [
-      [
-        "AttrName = \"BonusDamage",
-        "Value = \"#1",
-        "Type = \"Water"
-      ]
+      {
+        "AttrName": "BonusDamage",
+        "Value": "#1",
+        "Type": "Water"
+      }
     ]
   },
   "230102": {
@@ -2476,12 +2573,15 @@
     "MergeRule2": "Merge",
     "AllowSkillSustainModify": true,
     "FresnelParams": {
-      "FresnelColor": {},
-      "FresnelColorRange": [
-        {
-          "Default": 0.4
-        }
+      "FresnelColor": [
+        1,
+        0,
+        0,
+        1
       ],
+      "FresnelColorRange": {
+        "Default": 0.4
+      },
       "FresnelColorStrength": {
         "Default": 100,
         "FresnelColor": 100
@@ -2516,7 +2616,9 @@
     "BPPath": "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff_230110.BP_Buff_230110",
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
-    "VisualEffects": {}
+    "VisualEffects": [
+      230103
+    ]
   },
   "230121": {
     "BuffId": 230121,
@@ -2542,7 +2644,10 @@
   },
   "230122": {
     "BuffId": 230122,
-    "BuffType": {},
+    "BuffType": [
+      21,
+      41
+    ],
     "BPPath": "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff.BP_Buff",
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
@@ -2571,24 +2676,30 @@
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
     "AllowSkillSustainModify": true,
-    "VisualEffects": {},
+    "VisualEffects": [
+      240103,
+      240107
+    ],
     "FresnelParams": {
-      "FresnelColor": {},
-      "FresnelColorRange": [
-        {
-          "Default": 0.5
-        }
+      "FresnelColor": [
+        0.108477,
+        0.9003,
+        1,
+        0
       ],
+      "FresnelColorRange": {
+        "Default": 0.5
+      },
       "FresnelColorStrength": {
         "Default": 8,
         "FresnelColor": 8
       }
     },
     "AddAttrs": [
-      [
-        "AttrName = \"AttackSpeedModifierRate",
-        "Value = \"#1"
-      ]
+      {
+        "AttrName": "AttackSpeedModifierRate",
+        "Value": "#1"
+      }
     ]
   },
   "240111": {
@@ -2613,11 +2724,11 @@
     ],
     "EffectCreatureID": 240108,
     "AddAttrs": [
-      [
-        "AttrName = \"SkillIntensity",
-        "RateUseValue = 1",
-        "SupLimitRate = 0.8"
-      ]
+      {
+        "AttrName": "SkillIntensity",
+        "RateUseValue": 1,
+        "SupLimitRate": 0.8
+      }
     ]
   },
   "240122": {
@@ -2636,11 +2747,11 @@
     ],
     "EffectCreatureID": 240108,
     "AddAttrs": [
-      [
-        "AttrName = \"SkillIntensity",
-        "RateUseValue = 1",
-        "SupLimitRate = 0.8"
-      ],
+      {
+        "AttrName": "SkillIntensity",
+        "RateUseValue": 1,
+        "SupLimitRate": 0.8
+      },
       {
         "AttrName": "StrongValue",
         "Value": 0.2
@@ -2733,7 +2844,9 @@
     "BPPath": "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff.BP_Buff",
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
-    "AddPassiveEffect": {}
+    "AddPassiveEffect": [
+      240103
+    ]
   },
   "310111": {
     "BuffId": 310111,
@@ -2773,7 +2886,9 @@
     "VisualEffects": [
       310101
     ],
-    "AddPassiveEffect": {}
+    "AddPassiveEffect": [
+      310112
+    ]
   },
   "310120": {
     "BuffId": 310120,
@@ -2785,19 +2900,19 @@
     "MergeRule2": "Merge",
     "AllowSkillSustainModify": true,
     "DotDatas": [
-      [
-        "Type = \"SpChange",
-        "Interval = 1",
-        "Value = -15",
-        "DotDelay = 1.5"
-      ]
+      {
+        "Type": "SpChange",
+        "Interval": 1,
+        "Value": -15,
+        "DotDelay": 1.5
+      }
     ],
     "RemoveWhenSpZero": true,
     "UseSummonWeapon": 1,
     "AttackToFire": 1,
-    "ActivateSkills": [
-      310121
-    ],
+    "ActivateSkills": {
+      "310102": 310121
+    },
     "DisableSkills": [
       "Attack",
       "FallAttack",
@@ -2824,25 +2939,23 @@
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
     "AllowSkillSustainModify": true,
-    "BuffDamagedRate": [
-      {
-        "Value": -0.2
-      }
-    ],
+    "BuffDamagedRate": {
+      "Value": -0.2
+    },
     "DotDatas": [
-      [
-        "Type = \"SpChange",
-        "Interval = 1",
-        "Value = -15",
-        "DotDelay = 1.5"
-      ]
+      {
+        "Type": "SpChange",
+        "Interval": 1,
+        "Value": -15,
+        "DotDelay": 1.5
+      }
     ],
     "RemoveWhenSpZero": true,
     "UseSummonWeapon": 1,
     "AttackToFire": 1,
-    "ActivateSkills": [
-      310121
-    ],
+    "ActivateSkills": {
+      "310102": 310121
+    },
     "DisableSkills": [
       "Attack",
       "FallAttack",
@@ -2865,14 +2978,25 @@
     "BPPath": "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff.BP_Buff",
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
-    "VisualEffects": {},
+    "VisualEffects": [
+      310121,
+      310122,
+      310123,
+      310124,
+      310125,
+      310126,
+      310127
+    ],
     "FresnelParams": {
-      "FresnelColor": {},
-      "FresnelColorRange": [
-        {
-          "Default": 0.5
-        }
+      "FresnelColor": [
+        1,
+        0,
+        0,
+        0
       ],
+      "FresnelColorRange": {
+        "Default": 0.5
+      },
       "FresnelColorStrength": {
         "Default": 30,
         "FresnelColor": 30
@@ -2904,7 +3028,10 @@
   },
   "310131": {
     "BuffId": 310131,
-    "BuffType": {},
+    "BuffType": [
+      11,
+      310131
+    ],
     "BPPath": "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff.BP_Buff",
     "IsShowInBillboard": true,
     "BuffTypeImgPath": "Char_Linen_01",
@@ -2914,8 +3041,13 @@
   },
   "310132": {
     "BuffId": 310132,
-    "BuffType": {},
-    "ForbidBuffType": {},
+    "BuffType": [
+      10,
+      310131
+    ],
+    "ForbidBuffType": [
+      310131
+    ],
     "BPPath": "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff.BP_Buff",
     "IsShowInBillboard": true,
     "BuffTypeImgPath": "Char_Linen_02",
@@ -2940,12 +3072,14 @@
     "BuffTypeImgPath": "Morale",
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
-    "BuffEffects": {},
+    "BuffEffects": [
+      1007
+    ],
     "AddAttrs": [
-      [
-        "AttrName = \"StrongValue",
-        "Value = 0.38"
-      ]
+      {
+        "AttrName": "StrongValue",
+        "Value": 0.38
+      }
     ]
   },
   "310201": {
@@ -2959,7 +3093,9 @@
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
     "AllowSkillSustainModify": true,
-    "VisualEffects": {}
+    "VisualEffects": [
+      310205
+    ]
   },
   "310203": {
     "BuffId": 310203,
@@ -3005,11 +3141,9 @@
     "BuffInitEffects": [
       2002
     ],
-    "BuffDamageRate": [
-      {
-        "Value": -0.5
-      }
-    ]
+    "BuffDamageRate": {
+      "Value": -0.5
+    }
   },
   "310206": {
     "BuffId": 310206,
@@ -3087,20 +3221,19 @@
       "Body": 30
     },
     "FresnelParams": {
-      "FresnelColor": {},
-      "FresnelColorRange": [
-        {
-          "Default": 0.4
-        }
+      "FresnelColor": [
+        15,
+        0,
+        0,
+        0
       ],
-      "FresnelColorStrength": [
-        {
-          "Default": 1.5
-        },
-        {
-          "FresnelColor": 1.5
-        }
-      ]
+      "FresnelColorRange": {
+        "Default": 0.4
+      },
+      "FresnelColorStrength": {
+        "Default": 1.5,
+        "FresnelColor": 1.5
+      }
     },
     "ActivateSkills": {
       "310302": 310321
@@ -3130,7 +3263,9 @@
     "MergeRule2": "NewFree",
     "MaxLayer": 3,
     "AllowSkillSustainModify": true,
-    "BuffInitEffects": {},
+    "BuffInitEffects": [
+      1004
+    ],
     "AddAttrs": [
       {
         "AttrName": "SkillEfficiency",
@@ -3240,7 +3375,9 @@
     "BPPath": "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff.BP_Buff",
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
-    "AddPassiveEffect": {}
+    "AddPassiveEffect": [
+      320103
+    ]
   },
   "320111": {
     "BuffId": 320111,
@@ -3250,15 +3387,22 @@
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
     "AllowSkillSustainModify": true,
-    "VisualEffects": {},
+    "VisualEffects": [
+      320103,
+      320104,
+      320105,
+      320106,
+      320107,
+      320108
+    ],
     "AddPassiveEffect": [
       320102
     ],
     "AddAttrs": [
-      [
-        "AttrName = \"DEF",
-        "Rate = \"#1"
-      ]
+      {
+        "AttrName": "DEF",
+        "Rate": "#1"
+      }
     ],
     "Halo": {
       "BuffId": 320112,
@@ -3337,7 +3481,11 @@
   },
   "330112": {
     "BuffId": 330112,
-    "BuffType": {},
+    "BuffType": [
+      21,
+      41,
+      49
+    ],
     "BPPath": "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff_Controll.BP_Buff_Controll",
     "IsShowInBillboard": true,
     "BuffTypeImgPath": "Stun",
@@ -3382,7 +3530,9 @@
     "BPPath": "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff.BP_Buff",
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
-    "AddPassiveEffect": {}
+    "AddPassiveEffect": [
+      330103
+    ]
   },
   "330141": {
     "BuffId": 330141,
@@ -3470,7 +3620,9 @@
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
     "AllowSkillSustainModify": true,
-    "AddPassiveEffect": {},
+    "AddPassiveEffect": [
+      410103
+    ],
     "DotDatas": [
       {
         "Type": "SpChange",
@@ -3493,7 +3645,9 @@
     "BuffTypeImgPath": "Weapon_Range_Up",
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
-    "VisualEffects": {},
+    "VisualEffects": [
+      420102
+    ],
     "AddAttrs": [
       {
         "AttrName": "AttackRangeModifierValue",
@@ -3554,10 +3708,10 @@
       1025
     ],
     "AddAttrs": [
-      [
-        "AttrName = \"WeaponCRDModifierRate",
-        "Value = \"#1"
-      ]
+      {
+        "AttrName": "WeaponCRDModifierRate",
+        "Value": "#1"
+      }
     ]
   },
   "420132": {
@@ -3583,10 +3737,10 @@
       1025
     ],
     "AddAttrs": [
-      [
-        "AttrName = \"WeaponCRDModifierRate",
-        "Value = \"#1"
-      ]
+      {
+        "AttrName": "WeaponCRDModifierRate",
+        "Value": "#1"
+      }
     ]
   },
   "420133": {
@@ -3594,8 +3748,12 @@
     "BPPath": "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff.BP_Buff",
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
-    "VisualEffects": {},
-    "AddPassiveEffect": {},
+    "VisualEffects": [
+      420106
+    ],
+    "AddPassiveEffect": [
+      214
+    ],
     "AddAttrs": [
       {
         "AttrName": "BonusDamage",
@@ -3643,7 +3801,9 @@
     "MergeRule2": "NewFree",
     "MaxLayer": 10,
     "AllowSkillSustainModify": true,
-    "BuffInitEffects": {},
+    "BuffInitEffects": [
+      1011
+    ],
     "AddAttrs": [
       {
         "AttrName": "DEF",
@@ -3697,11 +3857,9 @@
     "MergeRule1": "Personal",
     "MergeRule2": "NewFree",
     "MaxLayer": 2,
-    "FXMID": [
-      {
-        "ParamType": "Thunder"
-      }
-    ],
+    "FXMID": {
+      "ParamType": "Thunder"
+    },
     "AddAttrs": [
       {
         "AttrName": "ATK",
@@ -3751,8 +3909,12 @@
     "BPPath": "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff.BP_Buff",
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
-    "VisualEffects": {},
-    "AddPassiveEffect": {}
+    "VisualEffects": [
+      430156
+    ],
+    "AddPassiveEffect": [
+      430103
+    ]
   },
   "430141": {
     "BuffId": 430141,
@@ -3770,7 +3932,9 @@
     "BPPath": "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff.BP_Buff",
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
-    "AddPassiveEffect": {}
+    "AddPassiveEffect": [
+      430104
+    ]
   },
   "510101": {
     "BuffId": 510101,
@@ -3787,10 +3951,10 @@
       1002
     ],
     "AddAttrs": [
-      [
-        "AttrName = \"DamageRate",
-        "Value = \"#1"
-      ]
+      {
+        "AttrName": "DamageRate",
+        "Value": "#1"
+      }
     ]
   },
   "510102": {
@@ -3821,54 +3985,40 @@
       510111,
       510112
     ],
-    "FresnelParams": [
-      {
-        "FresnelColor": [
-          10.88886,
-          2.91666,
-          20,
-          0
-        ]
+    "FresnelParams": {
+      "FresnelColor": [
+        10.88886,
+        2.91666,
+        20,
+        0
+      ],
+      "FresnelColorRange": {
+        "Default": 0.4
       },
-      {
-        "FresnelColorRange": [
-          "Default = 0.4"
-        ]
-      },
-      {
-        "FresnelColorStrength": [
-          "Default = 1.5",
-          "FresnelColor = 1.5"
-        ]
+      "FresnelColorStrength": {
+        "Default": 1.5,
+        "FresnelColor": 1.5
       }
-    ],
-    "NextPassParams": [
-      {
-        "ShowyColor": [
-          10.88886,
-          2.91666,
-          20,
-          0
-        ]
-      },
-      {
-        "ShowyWidth": 0.3
-      },
-      {
-        "Showy": 1
-      }
-    ],
-    "BuffDamagedRate": [
-      {
-        "Value": "#2"
-      }
-    ],
+    },
+    "NextPassParams": {
+      "ShowyColor": [
+        10.88886,
+        2.91666,
+        20,
+        0
+      ],
+      "ShowyWidth": 0.3,
+      "Showy": 1
+    },
+    "BuffDamagedRate": {
+      "Value": "#2"
+    },
     "AddAttrs": [
-      [
-        "AttrName = \"DamageRate",
-        "Value = \"#1",
-        "Type = \"Skill1"
-      ]
+      {
+        "AttrName": "DamageRate",
+        "Value": "#1",
+        "Type": "Skill1"
+      }
     ]
   },
   "510104": {
@@ -3915,20 +4065,50 @@
   },
   "510121": {
     "BuffId": 510121,
-    "BuffType": {},
+    "BuffType": [
+      510121,
+      70
+    ],
     "BPPath": "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff.BP_Buff",
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
-    "AddPassiveEffect": {},
+    "AddPassiveEffect": [
+      510102
+    ],
     "UseSummonWeapon": 1,
     "ActivateSkills": {
       "510101": 510111,
       "510102": 510121
     },
-    "DisableSkills": {},
-    "NotEnterCharacterTagType": {},
-    "ForbidenJumpState": {},
-    "CameraParam": {}
+    "DisableSkills": [
+      "HeavyAttack",
+      "SlideAttack",
+      "Shooting",
+      "HeavyShooting",
+      "Reload",
+      "Condemn"
+    ],
+    "NotEnterCharacterTagType": [
+      "LandHeavy",
+      "Hit",
+      "Crouch",
+      "Slide",
+      "Avoid",
+      "Interactive",
+      "Seating"
+    ],
+    "ForbidenJumpState": [
+      "ESecondJump",
+      "EWallJump",
+      "EBulletJump",
+      "Eclimb",
+      "EFlipEaves"
+    ],
+    "CameraParam": [
+      "SongluSkill02",
+      "0.2",
+      "50"
+    ]
   },
   "510122": {
     "BuffId": 510122,
@@ -3938,15 +4118,22 @@
     "BPPath": "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff.BP_Buff",
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
-    "VisualEffects": {},
-    "DotDatas": [
-      [
-        "Type = \"SpChange",
-        "Interval = 1",
-        "Value = -6"
-      ]
+    "VisualEffects": [
+      510102,
+      510104,
+      510103
     ],
-    "DisableSkills": {}
+    "DotDatas": [
+      {
+        "Type": "SpChange",
+        "Interval": 1,
+        "Value": -6
+      }
+    ],
+    "DisableSkills": [
+      "Attack",
+      "FallAttack"
+    ]
   },
   "510131": {
     "BuffId": 510131,
@@ -3969,54 +4156,40 @@
       510111,
       510112
     ],
-    "FresnelParams": [
-      {
-        "FresnelColor": [
-          10.88886,
-          2.91666,
-          20,
-          0
-        ]
+    "FresnelParams": {
+      "FresnelColor": [
+        10.88886,
+        2.91666,
+        20,
+        0
+      ],
+      "FresnelColorRange": {
+        "Default": 0.4
       },
-      {
-        "FresnelColorRange": [
-          "Default = 0.4"
-        ]
-      },
-      {
-        "FresnelColorStrength": [
-          "Default = 1.5",
-          "FresnelColor = 1.5"
-        ]
+      "FresnelColorStrength": {
+        "Default": 1.5,
+        "FresnelColor": 1.5
       }
-    ],
-    "NextPassParams": [
-      {
-        "ShowyColor": [
-          10.88886,
-          2.91666,
-          20,
-          0
-        ]
-      },
-      {
-        "ShowyWidth": 0.3
-      },
-      {
-        "Showy": 1
-      }
-    ],
-    "BuffDamagedRate": [
-      {
-        "Value": "#2"
-      }
-    ],
+    },
+    "NextPassParams": {
+      "ShowyColor": [
+        10.88886,
+        2.91666,
+        20,
+        0
+      ],
+      "ShowyWidth": 0.3,
+      "Showy": 1
+    },
+    "BuffDamagedRate": {
+      "Value": "#2"
+    },
     "AddAttrs": [
-      [
-        "AttrName = \"DamageRate",
-        "Value = \"#1",
-        "Type = \"Skill1"
-      ]
+      {
+        "AttrName": "DamageRate",
+        "Value": "#1",
+        "Type": "Skill1"
+      }
     ]
   },
   "530100": {
@@ -4041,10 +4214,10 @@
     ],
     "UseSummonWeapon": 1,
     "AttackToFire": 1,
-    "ActivateSkills": [
-      530111,
-      530121
-    ],
+    "ActivateSkills": {
+      "530101": 530111,
+      "530102": 530121
+    },
     "DisableSkills": [
       "FallAttack",
       "HeavyAttack",
@@ -4079,7 +4252,9 @@
     "MergeRule2": "NewFree",
     "MaxLayer": 12,
     "AllowSkillSustainModify": true,
-    "VisualEffects": {}
+    "VisualEffects": [
+      530101
+    ]
   },
   "530110": {
     "BuffId": 530110,
@@ -4104,10 +4279,10 @@
     ],
     "UseSummonWeapon": 1,
     "AttackToFire": 1,
-    "ActivateSkills": [
-      530111,
-      530121
-    ],
+    "ActivateSkills": {
+      "530101": 530111,
+      "530102": 530121
+    },
     "DisableSkills": [
       "FallAttack",
       "HeavyAttack",
@@ -4137,11 +4312,9 @@
     "BuffTypeImgPath": "Damage_Up",
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
-    "BuffDamagedRate": [
-      {
-        "Value": -0.2
-      }
-    ],
+    "BuffDamagedRate": {
+      "Value": -0.2
+    },
     "AddAttrs": [
       {
         "AttrName": "DamageRate",
@@ -4182,7 +4355,9 @@
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
     "AllowSkillSustainModify": true,
-    "BuffInitEffects": {},
+    "BuffInitEffects": [
+      1008
+    ],
     "AddAttrs": [
       {
         "AttrName": "EnmityValue",
@@ -4205,10 +4380,10 @@
       1001
     ],
     "AddAttrs": [
-      [
-        "AttrName = \"ATK",
-        "Rate = \"#1"
-      ]
+      {
+        "AttrName": "ATK",
+        "Rate": "#1"
+      }
     ]
   },
   "530133": {
@@ -4222,12 +4397,14 @@
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
     "AllowSkillSustainModify": true,
-    "BuffInitEffects": {},
+    "BuffInitEffects": [
+      1003
+    ],
     "AddAttrs": [
-      [
-        "AttrName = \"SkillIntensity",
-        "Rate = \"#1"
-      ]
+      {
+        "AttrName": "SkillIntensity",
+        "Rate": "#1"
+      }
     ]
   },
   "530134": {
@@ -4277,7 +4454,9 @@
     "BuffTypeImgPath": "Weapon_Spd_Down",
     "MergeRule1": "Global",
     "MergeRule2": "Merge",
-    "VisualEffects": {}
+    "VisualEffects": [
+      600100
+    ]
   },
   "600501": {
     "BuffId": 600501,
@@ -4289,7 +4468,9 @@
     "BuffTypeImgPath": "Dot_Common",
     "MergeRule1": "Global",
     "MergeRule2": "Merge",
-    "VisualEffects": {},
+    "VisualEffects": [
+      600503
+    ],
     "DotDatas": [
       {
         "Type": "Dot",
@@ -4304,14 +4485,20 @@
   },
   "600502": {
     "BuffId": 600502,
-    "BuffType": {},
+    "BuffType": [
+      11,
+      60,
+      600502
+    ],
     "ForbidBuffType": [
       41
     ],
     "BPPath": "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff.BP_Buff",
     "MergeRule1": "Global",
     "MergeRule2": "Merge",
-    "VisualEffects": {},
+    "VisualEffects": [
+      600505
+    ],
     "SpecialEffect": [
       "Invincible"
     ],
@@ -4348,31 +4535,37 @@
     "BuffTypeImgPath": "Team_Roused",
     "MergeRule1": "Global",
     "MergeRule2": "Merge",
-    "VisualEffects": {},
+    "VisualEffects": [
+      700502
+    ],
     "AddAttrs": [
-      [
-        "AttrName = \"MoveSpeedAddRate",
-        "Value = 0.5"
-      ],
-      [
-        "AttrName = \"ATK",
-        "Rate = 0.5"
-      ],
-      [
-        "AttrName = \"DamagedRate",
-        "Value = -0.5"
-      ]
+      {
+        "AttrName": "MoveSpeedAddRate",
+        "Value": 0.5
+      },
+      {
+        "AttrName": "ATK",
+        "Rate": 0.5
+      },
+      {
+        "AttrName": "DamagedRate",
+        "Value": -0.5
+      }
     ]
   },
   "700502": {
     "BuffId": 700502,
-    "BuffType": {},
+    "BuffType": [
+      30
+    ],
     "BPPath": "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff.BP_Buff",
     "IsShowInBillboard": true,
     "BuffTypeImgPath": "Team_Caster",
     "MergeRule1": "Global",
     "MergeRule2": "Merge",
-    "VisualEffects": {},
+    "VisualEffects": [
+      700501
+    ],
     "Halo": {
       "BuffId": 700501,
       "Camp": "OtherFriend",
@@ -4388,7 +4581,12 @@
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
     "EmissiveParams": {
-      "EmissiveColor": {}
+      "EmissiveColor": [
+        0.349,
+        2,
+        1.189,
+        1
+      ]
     },
     "DotDatas": [
       {
@@ -4408,16 +4606,18 @@
     "BuffTypeImgPath": "Hot_Up",
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
-    "VisualEffects": {},
+    "VisualEffects": [
+      700602
+    ],
     "AddAttrs": [
-      [
-        "AttrName = \"MoveSpeedAddRate",
-        "Value = 0.5"
-      ],
-      [
-        "AttrName = \"ATK",
-        "Rate = 0.5"
-      ]
+      {
+        "AttrName": "MoveSpeedAddRate",
+        "Value": 0.5
+      },
+      {
+        "AttrName": "ATK",
+        "Rate": 0.5
+      }
     ],
     "DotDatas": [
       {
@@ -4433,7 +4633,11 @@
   },
   "700701": {
     "BuffId": 700701,
-    "BuffType": {},
+    "BuffType": [
+      20,
+      49,
+      203
+    ],
     "BPPath": "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff.BP_Buff",
     "IsShowInBillboard": true,
     "BuffTypeImgPath": "Stun",
@@ -4449,21 +4653,20 @@
   },
   "701101": {
     "BuffId": 701101,
-    "BuffType": {},
+    "BuffType": [
+      11,
+      302
+    ],
     "BPPath": "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff_701101.BP_Buff_701101",
     "IsShowInBillboard": true,
     "BuffTypeImgPath": "Common_Buff",
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
     "AllowSkillSustainModify": true,
-    "FXMID": [
-      {
-        "Priority": 1
-      },
-      {
-        "ParamType": "Invisibility"
-      }
-    ]
+    "FXMID": {
+      "Priority": 1,
+      "ParamType": "Invisibility"
+    }
   },
   "701201": {
     "BuffId": 701201,
@@ -4473,7 +4676,9 @@
     "BPPath": "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff.BP_Buff",
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
-    "VisualEffects": {},
+    "VisualEffects": [
+      701201
+    ],
     "TimeDilation": 1.5
   },
   "800301": {
@@ -4486,7 +4691,9 @@
     "BuffTypeImgPath": "Es_Up",
     "MergeRule1": "Global",
     "MergeRule2": "Merge",
-    "AddPassiveEffect": {}
+    "AddPassiveEffect": [
+      800301
+    ]
   },
   "850001": {
     "BuffId": 850001,
@@ -4507,10 +4714,10 @@
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
     "AddAttrs": [
-      [
-        "AttrName = \"DamagedRate",
-        "Value = -1"
-      ]
+      {
+        "AttrName": "DamagedRate",
+        "Value": -1
+      }
     ],
     "SpecialEffect": [
       "Invincible"
@@ -4523,14 +4730,18 @@
     "BPPath": "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff.BP_Buff",
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
-    "SpecialEffect": {}
+    "SpecialEffect": [
+      "Invulnerability"
+    ]
   },
   "850202": {
     "BuffId": 850202,
     "BPPath": "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff.BP_Buff",
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
-    "AddPassiveEffect": {},
+    "AddPassiveEffect": [
+      850202
+    ],
     "EnableFlight": 1
   },
   "850203": {
@@ -4539,11 +4750,15 @@
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
     "MaxLayer": 3,
-    "SpecialEffect": {}
+    "SpecialEffect": [
+      "IgnoreInvulnerability"
+    ]
   },
   "850204": {
     "BuffId": 850204,
-    "BuffType": {},
+    "BuffType": [
+      42
+    ],
     "BPPath": "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff.BP_Buff",
     "MergeRule1": "Global",
     "MergeRule2": "Merge",
@@ -4551,10 +4766,10 @@
       2031
     ],
     "AddAttrs": [
-      [
-        "AttrName = \"MoveSpeedAddRate",
-        "Value = -0.5"
-      ]
+      {
+        "AttrName": "MoveSpeedAddRate",
+        "Value": -0.5
+      }
     ]
   },
   "850205": {
@@ -4562,39 +4777,45 @@
     "BPPath": "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff.BP_Buff",
     "MergeRule1": "Global",
     "MergeRule2": "Merge",
-    "BuffDamagedRate": [
-      {
-        "Value": -0.5
-      }
-    ]
+    "BuffDamagedRate": {
+      "Value": -0.5
+    }
   },
   "850206": {
     "BuffId": 850206,
     "BPPath": "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff.BP_Buff",
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
-    "VisualEffects": {}
+    "VisualEffects": [
+      850210
+    ]
   },
   "850207": {
     "BuffId": 850207,
     "BPPath": "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff.BP_Buff",
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
-    "VisualEffects": {}
+    "VisualEffects": [
+      850211
+    ]
   },
   "850208": {
     "BuffId": 850208,
     "BPPath": "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff.BP_Buff",
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
-    "VisualEffects": {}
+    "VisualEffects": [
+      850209
+    ]
   },
   "850209": {
     "BuffId": 850209,
     "BPPath": "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff.BP_Buff",
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
-    "VisualEffects": {}
+    "VisualEffects": [
+      850212
+    ]
   },
   "850210": {
     "BuffId": 850210,
@@ -4619,19 +4840,21 @@
     "BPPath": "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff.BP_Buff",
     "MergeRule1": "Global",
     "MergeRule2": "Merge",
-    "InitialEffect": {}
+    "InitialEffect": [
+      850324
+    ]
   },
   "850302": {
     "BuffId": 850302,
-    "ForbidBuffType": {},
+    "ForbidBuffType": [
+      40
+    ],
     "BPPath": "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff.BP_Buff",
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
-    "LockHp": [
-      {
-        "Rate": 1
-      }
-    ],
+    "LockHp": {
+      "Rate": 1
+    },
     "LockHpUI": 1
   },
   "850303": {
@@ -4655,18 +4878,18 @@
     "BPPath": "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff.BP_Buff",
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
-    "VisualEffects": {}
+    "VisualEffects": [
+      850306
+    ]
   },
   "850306": {
     "BuffId": 850306,
     "BPPath": "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff.BP_Buff",
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
-    "LockHp": [
-      {
-        "Rate": 1
-      }
-    ]
+    "LockHp": {
+      "Rate": 1
+    }
   },
   "850307": {
     "BuffId": 850307,
@@ -4707,18 +4930,16 @@
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
     "AddAttrs": [
-      [
-        "AttrName = \"DamagedRate",
-        "Value = -1"
-      ]
+      {
+        "AttrName": "DamagedRate",
+        "Value": -1
+      }
     ],
     "CannotBeHitted": true,
     "CannotBeCutTN": true,
-    "LockHp": [
-      {
-        "Rate": 1
-      }
-    ]
+    "LockHp": {
+      "Rate": 1
+    }
   },
   "850310": {
     "BuffId": 850310,
@@ -4728,7 +4949,11 @@
     "BPPath": "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff.BP_Buff",
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
-    "CameraParam": {}
+    "CameraParam": [
+      "BossShijingzheSkill15",
+      "0.5",
+      "100"
+    ]
   },
   "850311": {
     "BuffId": 850311,
@@ -4764,7 +4989,9 @@
     "BPPath": "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff.BP_Buff",
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
-    "VisualEffects": {}
+    "VisualEffects": [
+      850322
+    ]
   },
   "850401": {
     "BuffId": 850401,
@@ -4798,10 +5025,10 @@
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
     "AddAttrs": [
-      [
-        "AttrName = \"DamagedRate",
-        "Value = 1"
-      ]
+      {
+        "AttrName": "DamagedRate",
+        "Value": 1
+      }
     ],
     "TimeDilation": 0.1
   },
@@ -4818,10 +5045,10 @@
     ],
     "UseSummonWeapon": 1,
     "AttackToFire": 1,
-    "ActivateSkills": [
-      530111,
-      530121
-    ],
+    "ActivateSkills": {
+      "530101": 530111,
+      "530102": 530121
+    },
     "DisableSkills": [
       "FallAttack",
       "HeavyAttack",
@@ -4869,8 +5096,12 @@
     "BuffTypeImgPath": "Common_Buff",
     "MergeRule1": "Global",
     "MergeRule2": "Merge",
-    "VisualEffects": {},
-    "AddPassiveEffect": {}
+    "VisualEffects": [
+      850502
+    ],
+    "AddPassiveEffect": [
+      850501
+    ]
   },
   "850502": {
     "BuffId": 850502,
@@ -4880,7 +5111,11 @@
     "BPPath": "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff_BossLianhuoCamera.BP_Buff_BossLianhuoCamera",
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
-    "CameraParam": {},
+    "CameraParam": [
+      "BossMapSkill",
+      "0",
+      "99"
+    ],
     "BossSpCamera": {
       "BaseArmLength": 1500,
       "ArmRate": -0.5,
@@ -4921,7 +5156,9 @@
     "BPPath": "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff.BP_Buff",
     "MergeRule1": "Global",
     "MergeRule2": "Merge",
-    "VisualEffects": {},
+    "VisualEffects": [
+      900301
+    ],
     "Halo": {
       "BuffId": 900302,
       "Camp": "Friend",
@@ -4939,7 +5176,9 @@
     "BuffTypeImgPath": "Boost",
     "MergeRule1": "Global",
     "MergeRule2": "Merge",
-    "VisualEffects": {},
+    "VisualEffects": [
+      900302
+    ],
     "AddAttrs": [
       {
         "AttrName": "MoveSpeedAddRate",
@@ -4961,7 +5200,9 @@
     "BuffTypeImgPath": "Mon_Roused",
     "MergeRule1": "Global",
     "MergeRule2": "Merge",
-    "VisualEffects": {}
+    "VisualEffects": [
+      900303
+    ]
   },
   "900401": {
     "BuffId": 900401,
@@ -4973,7 +5214,9 @@
     "BuffTypeImgPath": "Mon_Roused",
     "MergeRule1": "Global",
     "MergeRule2": "Merge",
-    "VisualEffects": {}
+    "VisualEffects": [
+      900401
+    ]
   },
   "900601": {
     "BuffId": 900601,
@@ -4985,14 +5228,10 @@
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
     "EffectCreatureID": 900601,
-    "FXMID": [
-      {
-        "Priority": 1
-      },
-      {
-        "ParamType": "Invisibility"
-      }
-    ],
+    "FXMID": {
+      "Priority": 1,
+      "ParamType": "Invisibility"
+    },
     "Priority": 1000
   },
   "900602": {
@@ -5003,7 +5242,9 @@
     "BPPath": "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff.BP_Buff",
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
-    "SpecialEffect": {},
+    "SpecialEffect": [
+      "Invisible"
+    ],
     "Priority": 1001
   },
   "900603": {
@@ -5015,17 +5256,18 @@
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
     "DMMIParams": {
-      "DMMIColor": {},
+      "DMMIColor": [
+        1,
+        0.2,
+        0,
+        1
+      ],
       "DMMILineWidth": 0.3
     },
-    "FXMID": [
-      {
-        "Priority": 1
-      },
-      {
-        "ParamType": "Invisibility"
-      }
-    ],
+    "FXMID": {
+      "Priority": 1,
+      "ParamType": "Invisibility"
+    },
     "Priority": 1000
   },
   "950001": {
@@ -5040,10 +5282,10 @@
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
     "AddAttrs": [
-      [
-        "AttrName = \"MoveSpeedAddRate",
-        "Value = 0.5"
-      ]
+      {
+        "AttrName": "MoveSpeedAddRate",
+        "Value": 0.5
+      }
     ]
   },
   "950101": {
@@ -5055,22 +5297,29 @@
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
     "AddAttrs": [
-      [
-        "AttrName = \"SkillSpeed",
-        "Rate = 0.4"
-      ]
+      {
+        "AttrName": "SkillSpeed",
+        "Rate": 0.4
+      }
     ]
   },
   "1020121": {
     "BuffId": 1020121,
-    "BuffType": {},
+    "BuffType": [
+      70,
+      71
+    ],
     "BPPath": "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff.BP_Buff",
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
     "ActivateSkills": {
       "1020101": 1020105
     },
-    "DisableSkills": {},
+    "DisableSkills": [
+      "FallAttack",
+      "HeavyAttack",
+      "SlideAttack"
+    ],
     "DotDeathSe": 152
   },
   "1050121": {
@@ -5096,11 +5345,9 @@
     "BPPath": "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff.BP_Buff",
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
-    "BuffDamagedRate": [
-      {
-        "Value": "#1"
-      }
-    ]
+    "BuffDamagedRate": {
+      "Value": "#1"
+    }
   },
   "1952001": {
     "BuffId": 1952001,
@@ -5112,7 +5359,9 @@
     "BuffTypeImgPath": "Damage_Up",
     "MergeRule1": "Global",
     "MergeRule2": "Merge",
-    "AddPassiveEffect": {}
+    "AddPassiveEffect": [
+      1952001
+    ]
   },
   "1961001": {
     "BuffId": 1961001,
@@ -5124,7 +5373,9 @@
     "BuffTypeImgPath": "Damaged_Up",
     "MergeRule1": "Global",
     "MergeRule2": "Merge",
-    "AddPassiveEffect": {}
+    "AddPassiveEffect": [
+      1961001
+    ]
   },
   "2040501": {
     "BuffId": 2040501,
@@ -5141,10 +5392,10 @@
       230101
     ],
     "AddAttrs": [
-      [
-        "AttrName = \"MoveSpeedAddRate",
-        "Value = -0.5"
-      ]
+      {
+        "AttrName": "MoveSpeedAddRate",
+        "Value": -0.5
+      }
     ],
     "DotDeathSe": 152
   },
@@ -5202,11 +5453,11 @@
       1000
     ],
     "DotDatas": [
-      [
-        "Type = \"SpChange",
-        "Interval = 3",
-        "Value = 1"
-      ]
+      {
+        "Type": "SpChange",
+        "Interval": 3,
+        "Value": 1
+      }
     ]
   },
   "5000004": {
@@ -5248,7 +5499,9 @@
         "Stackable": 1
       }
     ],
-    "InitialEffect": {},
+    "InitialEffect": [
+      500000001
+    ],
     "DotDatas": [
       {
         "Type": "Hot",
@@ -5377,11 +5630,11 @@
       1000
     ],
     "DotDatas": [
-      [
-        "Type = \"SpChange",
-        "Interval = 3",
-        "Value = 1"
-      ]
+      {
+        "Type": "SpChange",
+        "Interval": 3,
+        "Value": 1
+      }
     ]
   },
   "5000014": {
@@ -5429,11 +5682,9 @@
     "BPPath": "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff.BP_Buff",
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
-    "LockHp": [
-      {
-        "Rate": 1
-      }
-    ]
+    "LockHp": {
+      "Rate": 1
+    }
   },
   "5000018": {
     "BuffId": 5000018,
@@ -5496,10 +5747,10 @@
     "MergeRule1": "Global",
     "MergeRule2": "Merge",
     "AddAttrs": [
-      [
-        "AttrName = \"DamagedRate",
-        "Value = -0.5"
-      ]
+      {
+        "AttrName": "DamagedRate",
+        "Value": -0.5
+      }
     ]
   },
   "6000003": {
@@ -5530,10 +5781,10 @@
     "MergeRule1": "Global",
     "MergeRule2": "Merge",
     "AddAttrs": [
-      [
-        "AttrName = \"DamagedRate",
-        "Value = 0.5"
-      ]
+      {
+        "AttrName": "DamagedRate",
+        "Value": 0.5
+      }
     ]
   },
   "6000005": {
@@ -5564,10 +5815,10 @@
     "MergeRule1": "Global",
     "MergeRule2": "Merge",
     "AddAttrs": [
-      [
-        "AttrName = \"DamagedRate",
-        "Value = 1"
-      ]
+      {
+        "AttrName": "DamagedRate",
+        "Value": 1
+      }
     ]
   },
   "6000007": {
@@ -5648,10 +5899,10 @@
     "MergeRule2": "Merge",
     "WeaknessType": "Water",
     "AddAttrs": [
-      [
-        "AttrName = \"WaterDamagedRate",
-        "Value = 0.5"
-      ]
+      {
+        "AttrName": "WaterDamagedRate",
+        "Value": 0.5
+      }
     ]
   },
   "6000014": {
@@ -5715,10 +5966,10 @@
     "MergeRule2": "Merge",
     "WeaknessType": "Fire",
     "AddAttrs": [
-      [
-        "AttrName = \"FireDamagedRate",
-        "Value = 0.5"
-      ]
+      {
+        "AttrName": "FireDamagedRate",
+        "Value": 0.5
+      }
     ]
   },
   "6000024": {
@@ -5782,10 +6033,10 @@
     "MergeRule2": "Merge",
     "WeaknessType": "Thunder",
     "AddAttrs": [
-      [
-        "AttrName = \"ThunderDamagedRate",
-        "Value = 0.5"
-      ]
+      {
+        "AttrName": "ThunderDamagedRate",
+        "Value": 0.5
+      }
     ]
   },
   "6000034": {
@@ -5849,10 +6100,10 @@
     "MergeRule2": "Merge",
     "WeaknessType": "Wind",
     "AddAttrs": [
-      [
-        "AttrName = \"WindDamagedRate",
-        "Value = 0.5"
-      ]
+      {
+        "AttrName": "WindDamagedRate",
+        "Value": 0.5
+      }
     ]
   },
   "6000044": {
@@ -6127,7 +6378,9 @@
     "MergeRule1": "Global",
     "MergeRule2": "Merge",
     "MaxLayer": 5,
-    "VisualEffects": {},
+    "VisualEffects": [
+      600000103
+    ],
     "TimeDilation": 0.96
   },
   "6000103": {
@@ -6140,7 +6393,9 @@
     "BuffTypeImgPath": "Dot_Common",
     "MergeRule1": "Global",
     "MergeRule2": "Merge",
-    "VisualEffects": {},
+    "VisualEffects": [
+      600101
+    ],
     "DotDatas": [
       {
         "Type": "Dot",
@@ -6173,19 +6428,21 @@
     "BuffTypeImgPath": "Damaged_Down",
     "MergeRule1": "Global",
     "MergeRule2": "Merge",
-    "VisualEffects": {},
-    "BuffDamagedRate": [
-      {
-        "Value": -0.5
-      }
-    ]
+    "VisualEffects": [
+      2030102
+    ],
+    "BuffDamagedRate": {
+      "Value": -0.5
+    }
   },
   "6000106": {
     "BuffId": 6000106,
     "BPPath": "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff.BP_Buff",
     "MergeRule1": "Global",
     "MergeRule2": "Merge",
-    "VisualEffects": {},
+    "VisualEffects": [
+      600000301
+    ],
     "Halo": {
       "BuffId": 6000107,
       "Camp": "Enemy",
@@ -6202,7 +6459,9 @@
     "BuffTypeImgPath": "Def_Down",
     "MergeRule1": "Global",
     "MergeRule2": "Merge",
-    "VisualEffects": {},
+    "VisualEffects": [
+      600000302
+    ],
     "AddAttrs": [
       {
         "AttrName": "DEF",
@@ -6250,7 +6509,11 @@
         "Type": "Dot",
         "Interval": 0.5,
         "Rate": 0.3,
-        "DamageTag": {}
+        "DamageTag": [
+          "Dot",
+          "PhantomAvoid",
+          "Blood"
+        ]
       }
     ]
   },
@@ -6298,20 +6561,22 @@
     "MergeRule1": "Global",
     "MergeRule2": "Merge",
     "MaxLayer": 3,
-    "VisualEffects": {},
+    "VisualEffects": [
+      600000802
+    ],
     "AddAttrs": [
       {
         "AttrName": "DEF",
         "Rate": 0.5
       },
-      [
-        "AttrName = \"ATK",
-        "Rate = 0.5"
-      ],
-      [
-        "AttrName = \"SkillSpeed",
-        "Rate = 0.4"
-      ],
+      {
+        "AttrName": "ATK",
+        "Rate": 0.5
+      },
+      {
+        "AttrName": "SkillSpeed",
+        "Rate": 0.4
+      },
       {
         "AttrName": "MoveSpeedAddRate",
         "Value": 0.4
@@ -6461,7 +6726,9 @@
     "BuffType": [
       11
     ],
-    "ForbidBuffType": {},
+    "ForbidBuffType": [
+      44
+    ],
     "BPPath": "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff.BP_Buff",
     "MergeRule1": "Global",
     "MergeRule2": "Merge",
@@ -6469,14 +6736,19 @@
   },
   "6000301": {
     "BuffId": 6000301,
-    "BuffType": {},
+    "BuffType": [
+      20,
+      103
+    ],
     "BPPath": "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff.BP_Buff",
     "IsShowInBillboard": true,
     "BuffTypeImgPath": "Dot_Fire",
     "MergeRule1": "Global",
     "MergeRule2": "NewFree",
     "MaxLayer": 6,
-    "VisualEffects": {},
+    "VisualEffects": [
+      2102
+    ],
     "DotDatas": [
       {
         "Type": "Dot",
@@ -6559,11 +6831,9 @@
     "VisualEffects": [
       10199003
     ],
-    "BuffDamagedRate": [
-      {
-        "Value": "#1"
-      }
-    ]
+    "BuffDamagedRate": {
+      "Value": "#1"
+    }
   },
   "10102104": {
     "BuffId": 10102104,
@@ -6623,10 +6893,10 @@
       10199002
     ],
     "AddAttrs": [
-      [
-        "AttrName = \"DamageRate",
-        "Value = \"#1"
-      ]
+      {
+        "AttrName": "DamageRate",
+        "Value": "#1"
+      }
     ]
   },
   "10106104": {
@@ -6642,11 +6912,9 @@
     "VisualEffects": [
       10199003
     ],
-    "BuffDamagedRate": [
-      {
-        "Value": "#1"
-      }
-    ]
+    "BuffDamagedRate": {
+      "Value": "#1"
+    }
   },
   "10106105": {
     "BuffId": 10106105,
@@ -6661,11 +6929,9 @@
     "VisualEffects": [
       10199003
     ],
-    "BuffDamagedRate": [
-      {
-        "Value": "#1"
-      }
-    ]
+    "BuffDamagedRate": {
+      "Value": "#1"
+    }
   },
   "10106301": {
     "BuffId": 10106301,
@@ -6681,10 +6947,10 @@
       10199002
     ],
     "AddAttrs": [
-      [
-        "AttrName = \"DamageRate",
-        "Value = \"#1"
-      ]
+      {
+        "AttrName": "DamageRate",
+        "Value": "#1"
+      }
     ]
   },
   "10106304": {
@@ -6720,11 +6986,9 @@
     "VisualEffects": [
       10199003
     ],
-    "BuffDamagedRate": [
-      {
-        "Value": "#1"
-      }
-    ]
+    "BuffDamagedRate": {
+      "Value": "#1"
+    }
   },
   "10107103": {
     "BuffId": 10107103,
@@ -6776,12 +7040,12 @@
       600000502
     ],
     "DotDatas": [
-      [
-        "Type = \"Hot",
-        "Interval = 1",
-        "Rate = \"#1",
-        "BaseAttr = \"MaxHp"
-      ]
+      {
+        "Type": "Hot",
+        "Interval": 1,
+        "Rate": "#1",
+        "BaseAttr": "MaxHp"
+      }
     ]
   },
   "10107202": {
@@ -6794,7 +7058,9 @@
     "BuffTypeImgPath": "Damage_Up",
     "MergeRule1": "Global",
     "MergeRule2": "Merge",
-    "VisualEffects": {}
+    "VisualEffects": [
+      10109101
+    ]
   },
   "10107302": {
     "BuffId": 10107302,
@@ -6806,7 +7072,9 @@
     "BuffTypeImgPath": "Damage_Up",
     "MergeRule1": "Global",
     "MergeRule2": "Merge",
-    "VisualEffects": {},
+    "VisualEffects": [
+      10109102
+    ],
     "AddAttrs": [
       {
         "AttrName": "MaxHp",
@@ -6822,7 +7090,9 @@
     "BPPath": "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff.BP_Buff",
     "MergeRule1": "Global",
     "MergeRule2": "Merge",
-    "VisualEffects": {}
+    "VisualEffects": [
+      10109103
+    ]
   },
   "10107304": {
     "BuffId": 10107304,
@@ -6859,12 +7129,12 @@
       600000502
     ],
     "DotDatas": [
-      [
-        "Type = \"Hot",
-        "Interval = 1",
-        "Rate = \"#1",
-        "BaseAttr = \"MaxHp"
-      ]
+      {
+        "Type": "Hot",
+        "Interval": 1,
+        "Rate": "#1",
+        "BaseAttr": "MaxHp"
+      }
     ]
   },
   "20101001": {
@@ -6882,11 +7152,9 @@
     "BuffTypeImgPath": "Endure",
     "MergeRule1": "Personal",
     "MergeRule2": "Merge",
-    "BuffDamagedRate": [
-      {
-        "Value": -0.5
-      }
-    ],
+    "BuffDamagedRate": {
+      "Value": -0.5
+    },
     "ForbidCatch": true,
     "NotEnterCharacterTagType": [
       "Hit"
@@ -6940,10 +7208,10 @@
     "MergeRule2": "Merge",
     "DeadNotRemove": true,
     "AddAttrs": [
-      [
-        "AttrName = \"DamageRate",
-        "Value = 0.75"
-      ]
+      {
+        "AttrName": "DamageRate",
+        "Value": 0.75
+      }
     ]
   },
   "20153001": {
@@ -6956,10 +7224,10 @@
     "MergeRule2": "Merge",
     "DeadNotRemove": true,
     "AddAttrs": [
-      [
-        "AttrName = \"DamageRate",
-        "Value = 0.75"
-      ]
+      {
+        "AttrName": "DamageRate",
+        "Value": 0.75
+      }
     ]
   },
   "20154001": {
@@ -6972,10 +7240,10 @@
     "MergeRule2": "Merge",
     "DeadNotRemove": true,
     "AddAttrs": [
-      [
-        "AttrName = \"DamagedRate",
-        "Value = 0.5"
-      ],
+      {
+        "AttrName": "DamagedRate",
+        "Value": 0.5
+      },
       {
         "AttrName": "DamageRate",
         "Value": 1
@@ -6989,10 +7257,10 @@
     "MergeRule2": "NewFree",
     "MaxLayer": 2,
     "AddAttrs": [
-      [
-        "AttrName = \"MoveSpeedAddRate",
-        "Value = -0.5"
-      ]
+      {
+        "AttrName": "MoveSpeedAddRate",
+        "Value": -0.5
+      }
     ]
   },
   "999999999": {
