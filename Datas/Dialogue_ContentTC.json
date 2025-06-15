@@ -480,7 +480,9 @@
     "VoiceName": "voice/$Locale$/story/1001/100110/190FBDDA"
   },
   "10011002": {
-    "ContentTC": "{nickname}，等下不要離我太遠。必要的話，就用我們的暗號。",
+    "ContentTC": [
+      "{nickname}，等下不要離我太遠。必要的話，就用我們的暗號。"
+    ],
     "DialogueId": 10011002,
     "ExStoryInfo": "Player",
     "GUID": "190FBE04",
@@ -1262,7 +1264,9 @@
     "VoiceName": "voice/$Locale$/story/1001/100120/191062E9"
   },
   "10012015": {
-    "ContentTC": "{nickname}，我來考考你。“眨眼三次”這個暗號——",
+    "ContentTC": [
+      "{nickname}，我來考考你。“眨眼三次”這個暗號——"
+    ],
     "DialogueId": 10012015,
     "Duration": 5,
     "ExStoryInfo": "Player",
@@ -1851,7 +1855,9 @@
     "VoiceName": "voice/$Locale$/story/1001/100184/19147BEA"
   },
   "10018402": {
-    "ContentTC": "{性别:她|他}。",
+    "ContentTC": [
+      "{性别:她|他}。"
+    ],
     "DialogueId": 10018402,
     "Duration": 1.5,
     "ExStoryInfo": "Player",
@@ -3259,7 +3265,9 @@
   },
   "10100613": {
     "Camera": "35.073242,71.52002,140.823242,0.001229,5.301156,-38.499496,25.0,160.39801,false,Manual,3.0",
-    "ContentTC": "{性别:喂、喂……兄弟你也老大不小了，別哭啊！|喂喂，你怎麽哭了？見鬼，長官沒說該怎麽對付掉眼淚的小姑娘啊！}",
+    "ContentTC": [
+      "性别:喂、喂……兄弟你也老大不小了，別哭啊！|喂喂，你怎麽哭了？見鬼，長官沒說該怎麽對付掉眼淚的小姑娘啊！"
+    ],
     "DefaultLookAt": "TalkNpc",
     "DialogueId": 10100613,
     "ExStoryInfo": "Player",
@@ -3272,7 +3280,9 @@
     "Scripts": "SEQ{\\\r\nPlayAnimation{ActorId{200004},AnimationId{\"Shock_Start\"},Duration{4.3}},PlayAnimation{ActorId{200004},AnimationId{\"Shock_End\"},Duration{1}}\\\r\n}",
     "SpeakNpcId": 200004,
     "SpeakNpcName": "UI_Npc_Name_Man_4",
-    "Subtitle": "{性别:Whoa... aren't you a bit old to be a crybaby, mate? Stop it...|Whoa... why are you crying? Darn it, Chief never told us how to deal with tearful young ladies!}",
+    "Subtitle": [
+      "性别:Whoa... aren't you a bit old to be a crybaby, mate? Stop it...|Whoa... why are you crying? Darn it, Chief never told us how to deal with tearful young ladies!"
+    ],
     "TalkActionId": [
       "100001:Sigh_Start"
     ],
@@ -4677,7 +4687,9 @@
   },
   "10101606": {
     "Camera": "12.244577,-256.895996,155.578934,0.001133,-7.899871,85.625313,35.0,100000.0,false,DoNotOverride,2.8",
-    "ContentTC": "{nickname}……這個名字在這座城市很少見呢。",
+    "ContentTC": [
+      "{nickname}……這個名字在這座城市很少見呢。"
+    ],
     "DialogueId": 10101606,
     "ExStoryInfo": "Player",
     "GUID": "1949CEBC",
@@ -7102,7 +7114,9 @@
   },
   "10103813": {
     "Camera": "292.52832,167.443359,168.015625,0.001284,0.0,-151.996902,35.0,100000.0,false,DoNotOverride,2.8",
-    "ContentTC": "{nickname}，你回來了！剛才的委托還順利嗎？",
+    "ContentTC": [
+      "{nickname}，你回來了！剛才的委托還順利嗎？"
+    ],
     "DefaultLookAt": "TalkNpc",
     "DialogueId": 10103813,
     "ExStoryInfo": "Player",
@@ -7163,7 +7177,10 @@
     "NextDialogue": 10103817,
     "Scripts": "SEQ{\\\r\nPlayAnimation{ActorId{200002},AnimationId{\"Angry01_Start\"},Duration{1.5}},\\\r\nPlayAnimation{ActorId{200002},AnimationId{\"Angry01_End\"},Duration{1}},\\\r\nPlayAnimation{ActorId{200002},AnimationId{\"Confident_Start\"},Duration{1}}\\\r\n}",
     "SpeakNpcId": 200002,
-    "Subtitle": "{性别:He|She} was the witness of my deeds! You had it all wrong! Made a fool of yourself this time, haven't you?\\\r\nServes you right for being so preachy all the time!",
+    "Subtitle": [
+      "{性别:He|She} was the witness of my deeds! You had it all wrong! Made a fool of yourself this time",
+      "haven't you?\\\r\nServes you right for being so preachy all the time!"
+    ],
     "VoiceName": "voice/$Locale$/story/1002/101038/194B39A4"
   },
   "10103817": {
@@ -7829,7 +7846,9 @@
     "VoiceName": "voice/$Locale$/story/1002/101045/194BAAD8"
   },
   "10104509": {
-    "ContentTC": "{nickname}，你呢？講講你的故鄉吧！那座海島是怎樣的？",
+    "ContentTC": [
+      "{nickname}，你呢？講講你的故鄉吧！那座海島是怎樣的？"
+    ],
     "DialogueId": 10104509,
     "Duration": 3,
     "ExStoryInfo": "Player",
@@ -10361,7 +10380,9 @@
   },
   "10106202": {
     "Camera": "-12.5896,-244.056641,126.941406,0.000154,-1.392361,30.217886,50.000008,466.308502,false,Manual,22.0",
-    "ContentTC": "{性别:大哥哥|大姐姐}，怎麽了？",
+    "ContentTC": [
+      "{性别:大哥哥|大姐姐}，怎麽了？"
+    ],
     "DialogueId": 10106202,
     "ExStoryInfo": "Player",
     "GUID": "194CC0C4",
@@ -11420,7 +11441,9 @@
   "10106803": {
     "Content": " ",
     "DialogueId": 10106803,
-    "DialoguePanelType": "{type:showpic;dir:Texture2D'/Game/UI/Texture/Dynamic/Image/Guide/T_Guide_Chapter01_QXQJ.T_Guide_Chapter01_QXQJ'}",
+    "DialoguePanelType": [
+      "type:showpic;dir:Texture2D'/Game/UI/Texture/Dynamic/Image/Guide/T_Guide_Chapter01_QXQJ.T_Guide_Chapter01_QXQJ'"
+    ],
     "NextDialogue": 10106804
   },
   "10106804": {
@@ -11500,7 +11523,9 @@
   },
   "10106903": {
     "Camera": "640.59375,168.029053,438.314453,0.001222,-1.999961,-44.75602,40.0,263.348267,false,Manual,5.0",
-    "ContentTC": "{nickname}，是你？！你怎麽在這裡？恩里克叔叔知道嗎……？唉，你先跟我來。",
+    "ContentTC": [
+      "{nickname}，是你？！你怎麽在這裡？恩里克叔叔知道嗎……？唉，你先跟我來。"
+    ],
     "DialogueId": 10106903,
     "Duration": 2,
     "ExStoryInfo": "Player",
@@ -11950,7 +11975,9 @@
   "10107028": {
     "ContentTC": "把這個也帶上吧。",
     "DialogueId": 10107028,
-    "DialoguePanelType": "{type:showpic;dir:Texture2D'/Game/UI/Texture/Dynamic/Image/Guide/T_Guide_Chapter01_Flower_2.T_Guide_Chapter01_Flower_2'}",
+    "DialoguePanelType": [
+      "type:showpic;dir:Texture2D'/Game/UI/Texture/Dynamic/Image/Guide/T_Guide_Chapter01_Flower_2.T_Guide_Chapter01_Flower_2'"
+    ],
     "GUID": "194D481E",
     "NextDialogue": 10107029,
     "SpeakNpcId": 200006,
@@ -12746,7 +12773,9 @@
   },
   "10107815": {
     "Camera": "69.327637,90.666016,155.106445,0.000005,3.399959,-113.332161,35.0,100000.0,false,DoNotOverride,2.8",
-    "ContentTC": "{nickname}，你的腦筋蠻靈光嘛，我都想和你長期搭夥了。說起來，既然你們能打敗礦坑那怪物，你本人應該還是挺擅長體術的吧？",
+    "ContentTC": [
+      "{nickname}，你的腦筋蠻靈光嘛，我都想和你長期搭夥了。說起來，既然你們能打敗礦坑那怪物，你本人應該還是挺擅長體術的吧？"
+    ],
     "DefaultLookAt": "TalkNpc",
     "DialogueId": 10107815,
     "ExStoryInfo": "Player",
@@ -15345,7 +15374,9 @@
     "Camera": "-208.4375,103.8125,105.65918,0.000269,-7.600928,8.117057,35.0,100000.0,false,DoNotOverride,22.0",
     "ContentTC": "這是……",
     "DialogueId": 10109704,
-    "DialoguePanelType": "{type:showpic;dir:Texture2D'/Game/UI/Texture/Dynamic/Image/Guide/T_Guide_Chapter01_Camera.T_Guide_Chapter01_Camera'}",
+    "DialoguePanelType": [
+      "type:showpic;dir:Texture2D'/Game/UI/Texture/Dynamic/Image/Guide/T_Guide_Chapter01_Camera.T_Guide_Chapter01_Camera'"
+    ],
     "ExStoryInfo": "Player",
     "GUID": "194EFF26",
     "NextDialogue": 10109705,
@@ -15434,7 +15465,9 @@
   },
   "10109712": {
     "Camera": "135.136719,-49.345703,64.782227,0.000262,2.599365,135.112839,35.0,100000.0,false,DoNotOverride,22.0",
-    "ContentTC": "{nickname}，謝謝你這些天陪我，但我沒有什麽值錢的東西。這個相機，就當做送給你的禮物吧。",
+    "ContentTC": [
+      "{nickname}，謝謝你這些天陪我，但我沒有什麽值錢的東西。這個相機，就當做送給你的禮物吧。"
+    ],
     "DialogueId": 10109712,
     "ExStoryInfo": "Player",
     "GUID": "194F0022",
@@ -17766,7 +17799,9 @@
     "Camera": "-226.919922,-71.93576,152.808594,0.000101,-4.997041,18.991802,40.0,309.457245,false,Manual,5.5",
     "ContentTC": "請你們帶上這個。",
     "DialogueId": 10110902,
-    "DialoguePanelType": "{type:showpic;dir:Texture2D'/Game/UI/Texture/Dynamic/Image/Guide/T_Guide_Chapter01_Flower_1.T_Guide_Chapter01_Flower_1'}",
+    "DialoguePanelType": [
+      "type:showpic;dir:Texture2D'/Game/UI/Texture/Dynamic/Image/Guide/T_Guide_Chapter01_Flower_1.T_Guide_Chapter01_Flower_1'"
+    ],
     "GUID": "194FC3DC",
     "NextDialogue": 10110903,
     "SpeakNpcId": 200045,
@@ -19432,7 +19467,9 @@
   },
   "10113109": {
     "Camera": "84.604492,-158.234375,121.661133,0.000088,5.199119,0.209052,35.0,394.088074,false,Manual,22.0",
-    "ContentTC": "{性别:難過就哭一場唄，兄弟。|想哭的話就哭一場吧，不用硬撐著。}",
+    "ContentTC": [
+      "性别:難過就哭一場唄，兄弟。|想哭的話就哭一場吧，不用硬撐著。"
+    ],
     "DialogueId": 10113109,
     "ExStoryInfo": "Player",
     "GUID": "19512DF2",
@@ -19782,7 +19819,9 @@
     "DialogueId": 10113304,
     "Duration": 3,
     "GUID": "19514DF0",
-    "Subtitle": "{性别:Her|His} name was—",
+    "Subtitle": [
+      "{性别:Her|His} name was—"
+    ],
     "VoiceName": "voice/$Locale$/story/1002/101133/19514DF0"
   },
   "10113401": {
@@ -20875,7 +20914,9 @@
     "VoiceName": "voice/$Locale$/story/1002/101195/195546A2"
   },
   "10119502": {
-    "ContentTC": "{nickname}，搭把手，一起按住他！",
+    "ContentTC": [
+      "{nickname}，搭把手，一起按住他！"
+    ],
     "DialogueId": 10119502,
     "Duration": 3,
     "ExStoryInfo": "Player",
@@ -20936,7 +20977,9 @@
     "VoiceName": "voice/$Locale$/story/1002/101197/1955679C"
   },
   "10119801": {
-    "ContentTC": "{nickname}，我也來幫忙吧！",
+    "ContentTC": [
+      "{nickname}，我也來幫忙吧！"
+    ],
     "DialogueId": 10119801,
     "Duration": 3,
     "ExStoryInfo": "Player",
@@ -22821,7 +22864,9 @@
   "11011017": {
     "ContentTC": "你們都是好樣的，你們的勇敢對得起胸口的帝國徽章，帝國不會讓你們在這裏白白流血。",
     "DialogueId": 11011017,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "GUID": "1B909EFA",
     "SpeakNpcId": 110010,
     "Subtitle": "Each one of you is a credit to the squad. You've shown courage that is truly worthy of your badge. The Empire will not let your efforts go to waste.",
@@ -22839,7 +22884,9 @@
   "11011019": {
     "ContentTC": "他們好好地執行任務呢。我已經聯系上了總指揮官，你們盡管放心休息，接下來就交給我們。",
     "DialogueId": 11011019,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "GUID": "1B909F4E",
     "SpeakNpcId": 110010,
     "Subtitle": "They are performing their duties, and I've reached out to the chief commander. Have a good rest and leave the fighting to us.",
@@ -22858,7 +22905,9 @@
   "11011021": {
     "ContentTC": "這不是夢。堅持住，別睡著。",
     "DialogueId": 11011021,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "GUID": "1B909FA2",
     "SpeakNpcId": 110010,
     "Subtitle": "This is not a dream. Stay with us, and don't fall asleep.",
@@ -22877,7 +22926,9 @@
   "11011023": {
     "ContentTC": "榮耀盡歸吾皇。",
     "DialogueId": 11011023,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "GUID": "1B909FF6",
     "SpeakNpcId": 110010,
     "Subtitle": "All glory to our Emperor.",
@@ -22906,7 +22957,9 @@
   "11011026": {
     "ContentTC": "以當前的戰況來看，援軍就在路上。我們很快會奪下要塞，把那群混蛋打得頭破血流。",
     "DialogueId": 11011026,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "GUID": "1B90A074",
     "SpeakNpcId": 110010,
     "Subtitle": "The tide of battle is in our favour. Reinforcements are on their way. Soon we will take the fortress and crush those bastards.",
@@ -23071,7 +23124,9 @@
     "VoiceName": "voice/$Locale$/story/1002/110111/1B90AE3C"
   },
   "11011111": {
-    "ContentTC": "{nickname2}，你來報告。",
+    "ContentTC": [
+      "{nickname2}，你來報告。"
+    ],
     "DialogueId": 11011111,
     "Duration": 3,
     "ExStoryInfo": "EXPlayer",
@@ -23165,7 +23220,9 @@
     "VoiceName": "voice/$Locale$/story/1002/110111/1B90AF38"
   },
   "11011117": {
-    "ContentTC": "{nickname2}，跟我走，繼續行動。",
+    "ContentTC": [
+      "{nickname2}，跟我走，繼續行動。"
+    ],
     "DialogueId": 11011117,
     "Duration": 3,
     "ExStoryInfo": "EXPlayer",
@@ -23362,7 +23419,9 @@
   },
   "11011131": {
     "Camera": "23.228516,144.847656,94.399902,0.000101,10.396067,-111.437241,35.0,100000.0,false,Manual,22.0",
-    "ContentTC": "{nickname2}，隨我繼續執行任務。",
+    "ContentTC": [
+      "{nickname2}，隨我繼續執行任務。"
+    ],
     "DialogueId": 11011131,
     "Duration": 3,
     "ExStoryInfo": "EXPlayer",
@@ -23741,7 +23800,9 @@
     "Camera": "-4.147461,-84.023438,209.185547,0.000071,-11.599573,57.385395,35.0,100000.0,false,Manual,22.0",
     "ContentTC": "喂？喂喂？聽到了嗎？<H>海伯利亞今日天氣怎麽樣？</>",
     "DialogueId": 11011317,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "FinalCamera": "130.579102,-94.488281,189.368927,0.00009,-6.599581,99.386292,35.0,100000.0,false,Manual,22.0",
     "GUID": "1B90D032",
@@ -23769,7 +23830,9 @@
   "11011319": {
     "ContentTC": "阿瓦爾長官？是您嗎？我是維克！",
     "DialogueId": 11011319,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "GUID": "1B90D086",
     "NextDialogue": 11011320,
@@ -23791,7 +23854,9 @@
   "11011321": {
     "ContentTC": "與您分開後，我和莫妮卡選擇了外環路線，現在已經抵達動力室附近。",
     "DialogueId": 11011321,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "GUID": "1B90D0DA",
     "NextDialogue": 11011322,
@@ -23816,7 +23881,9 @@
   "11011323": {
     "ContentTC": "我是來特地向您報告的，我們接下來會嘗試關閉動力裝置。",
     "DialogueId": 11011323,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "GUID": "1B90D12E",
     "NextDialogue": 11011324,
@@ -23839,7 +23906,9 @@
   "11011325": {
     "ContentTC": "先讓我們試試吧，長官！多耽誤一分鐘，其他人就多一分鐘危險。",
     "DialogueId": 11011325,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "GUID": "1B90D182",
     "NextDialogue": 11011326,
@@ -23862,7 +23931,9 @@
     "Camera": "216.523438,234.703125,186.789169,0.000391,-6.199831,-121.005493,35.0,100000.0,false,Manual,22.0",
     "ContentTC": "還有最後一件事……既然{nickname2}在您那邊的話，能不能告訴我“獅鷲”分隊的情況怎麽樣？我弟弟西蒙他……",
     "DialogueId": 11011327,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "ExStoryInfo": "EXPlayer",
     "GUID": "1B90D1D6",
@@ -23900,7 +23971,9 @@
   "11011330": {
     "ContentTC": "……啊……？",
     "DialogueId": 11011330,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "GUID": "1B90D254",
     "NextDialogue": 11011331,
@@ -23924,7 +23997,9 @@
   "11011332": {
     "ContentTC": "……明白了，多謝。",
     "DialogueId": 11011332,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "GUID": "1B90D2A8",
     "NextDialogue": 11011333,
     "Scripts": "PlayNormalSound{EventPath{\"event:/sfx/common/story/ex01/signal_off\"},PlayAs2D{true}}",
@@ -23997,7 +24072,9 @@
     "Camera": "-855.458252,1758.097656,-643.220276,0.00082,25.000942,53.20303,35.0,100000.0,false,Manual,22.0",
     "ContentTC": "莫妮卡，聽到……嗎？……",
     "DialogueId": 11011403,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "FinalCamera": "2.20343,1572.757812,-382.174683,0.000727,22.798645,70.400337,35.0,100000.0,false,Manual,22.0",
     "GUID": "1B90DE4E",
@@ -24012,7 +24089,9 @@
   "11011404": {
     "ContentTC": "動力室……快走……啊！",
     "DialogueId": 11011404,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "GUID": "1B90DE78",
     "NextDialogue": 11011405,
@@ -24024,7 +24103,9 @@
   "11011405": {
     "ContentTC": "……",
     "DialogueId": 11011405,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "NextDialogue": 11011406,
     "Scripts": "StopNormalSound{EventPath{\"event:/sfx/common/story/ex01/signal_off\"},PlayAs2D{true}}",
@@ -24416,7 +24497,9 @@
     "Camera": "32.20459,-111.064453,133.04126,0.000151,2.201254,141.389984,35.0,100000.0,false,Manual,22.0",
     "ContentTC": "阿瓦爾，你在哪？",
     "DialogueId": 11011506,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "FinalCamera": "80.955566,-13.558594,135.693237,0.000151,1.401165,172.787323,35.0,100000.0,false,Manual,22.0",
     "GUID": "1B90EF34",
@@ -24453,7 +24536,9 @@
   "11011509": {
     "ContentTC": "怎麽？連總指揮官的聲音都聽不出了？",
     "DialogueId": 11011509,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "GUID": "1B90EFB2",
     "NextDialogue": 11011510,
@@ -24475,7 +24560,9 @@
   "11011511": {
     "ContentTC": "今夜有雨。嘖，美術館裏的大理石雕都沒你腦筋硬。說吧，你們隊什麽情況了？",
     "DialogueId": 11011511,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "GUID": "1B90F006",
     "NextDialogue": 11011512,
@@ -24497,7 +24584,9 @@
   "11011513": {
     "ContentTC": "收起你陰陽怪氣的態度。這場仗打成這樣，你早該為此感到恥辱。",
     "DialogueId": 11011513,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "GUID": "1B90F05A",
     "NextDialogue": 11011514,
@@ -24519,7 +24608,9 @@
   "11011515": {
     "ContentTC": "阿瓦爾·赫德蘭，我再次警告你——註意你報告的口氣。",
     "DialogueId": 11011515,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "GUID": "1B90F0AE",
     "NextDialogue": 11011516,
@@ -24544,7 +24635,9 @@
   "11011517": {
     "ContentTC": "我沒空和你閑聊。我是問你，攻堅任務怎麽樣了。",
     "DialogueId": 11011517,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "GUID": "1B90F102",
     "NextDialogue": 11011518,
@@ -24566,7 +24659,9 @@
   "11011519": {
     "ContentTC": "你們的任務是迅速突擊，不許擅自中止行動。",
     "DialogueId": 11011519,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "GUID": "1B90F156",
     "NextDialogue": 11011520,
     "SnapShot": "TELEPHONE",
@@ -24577,7 +24672,9 @@
   "11011520": {
     "ContentTC": "偏離原有行動路線只會讓你驚動全要塞的敵人，我命令你，繼續沿原定路線向中央控製室進攻。",
     "DialogueId": 11011520,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "GUID": "1B90F180",
     "NextDialogue": 11011521,
     "SnapShot": "TELEPHONE",
@@ -24597,7 +24694,9 @@
   "11011522": {
     "ContentTC": "損失、損失、損失！別再和我提那見鬼的損失。你知不知道，你們的進度已經延誤了？",
     "DialogueId": 11011522,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "GUID": "1B90F1D4",
     "NextDialogue": 11011523,
     "SnapShot": "TELEPHONE",
@@ -24608,7 +24707,9 @@
   "11011523": {
     "ContentTC": "你們令軍團的旗幟蒙羞——海伯利亞的軍人，可不是因為一丁點損失就停步不前的懦夫！",
     "DialogueId": 11011523,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "GUID": "1B90F1FE",
     "NextDialogue": 11011524,
     "SnapShot": "TELEPHONE",
@@ -24619,7 +24720,9 @@
   "11011524": {
     "ContentTC": "從偉大的迪斯一世陛下到“『神之挽歌』攻勢”的昆圖斯軍團長，我們海伯利亞哪個偉大的統帥怕過損失？",
     "DialogueId": 11011524,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "GUID": "1B90F228",
     "NextDialogue": 11011525,
     "SnapShot": "TELEPHONE",
@@ -24630,7 +24733,9 @@
   "11011525": {
     "ContentTC": "你帶的可是十三軍團的精銳，攻下這小小的要塞還不是綽綽有余。",
     "DialogueId": 11011525,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "GUID": "1B90F252",
     "NextDialogue": 11011526,
     "SnapShot": "TELEPHONE",
@@ -24710,7 +24815,9 @@
     "Camera": "-110.046387,314.720703,266.5,0.000116,-22.99999,-83.390305,35.0,100000.0,false,Manual,22.0",
     "ContentTC": "這又是哪個？哦，阿瓦爾那個好學生，“獅鷲”分隊的隊長{nickname2}？",
     "DialogueId": 11011532,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "ExStoryInfo": "EXPlayer",
     "FinalCamera": "-120.473633,313.515625,266.5,0.000118,-22.999937,-83.390305,35.0,100000.0,false,Manual,22.0",
@@ -24734,7 +24841,9 @@
     "Camera": "-71.202637,15.898438,121.658752,0.000084,-1.799809,-61.785873,35.0,100000.0,false,Manual,22.0",
     "ContentTC": "這又是哪個？哦，阿瓦爾那個好學生，“獅鷲”分隊的隊長{nickname2}？",
     "DialogueId": 11011534,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "ExStoryInfo": "EXPlayer",
     "FinalCamera": "-82.985352,51.541016,131.751343,0.000089,-5.599737,-62.78595,35.0,100000.0,false,Manual,22.0",
@@ -24753,7 +24862,9 @@
     "Camera": "179.030273,36.109375,768.0271,0.000185,5.399223,150.822723,35.0,100000.0,false,Manual,22.0",
     "ContentTC": "你們先不用那麽著急，作戰會議已經開完了，“一角鯨”分隊的支援就在路上，我也會和他們一起親臨前線。",
     "DialogueId": 11011535,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "FinalCamera": "269.858887,-14.625,758.194946,0.000185,5.399223,150.822723,35.0,100000.0,false,Manual,22.0",
     "GUID": "1B90F3F6",
@@ -24767,7 +24878,9 @@
   "11011536": {
     "ContentTC": "繼續按原計劃前進，明白了嗎？海伯利亞的軍人，但凡一息尚存，就去給我戰鬥到最後一刻。",
     "DialogueId": 11011536,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "GUID": "1B90F420",
     "NextDialogue": 11011537,
@@ -24828,7 +24941,9 @@
   "11011540": {
     "ContentTC": "隊長、隊長！",
     "DialogueId": 11011540,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "GUID": "1B90F4C8",
     "NextDialogue": 11011541,
     "Scripts": "PlayNormalSound{EventPath{\"event:/sfx/common/story/ex01/signal_on\"},PlayAs2D{true}}",
@@ -24843,7 +24958,9 @@
   "11011541": {
     "ContentTC": "我是“獅鷲”分隊的西蒙，隊長，你在嗎？",
     "DialogueId": 11011541,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "GUID": "1B90F4F2",
     "NextDialogue": 11011542,
     "SnapShot": "TELEPHONE",
@@ -24865,7 +24982,9 @@
     "Camera": "-1101.448242,-314.363281,973.365723,0.000098,-0.200862,-106.786194,35.0,100000.0,false,Manual,22.0",
     "ContentTC": "軌道線這兒有大片穢獸，大家被困在裡面了，請求支援！",
     "DialogueId": 11011543,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "FinalCamera": "-1164.543945,-295.335938,973.365723,0.000098,-0.200862,-106.786194,35.0,100000.0,false,Manual,22.0",
     "GUID": "1B90F546",
     "NextDialogue": 11011544,
@@ -24878,7 +24997,9 @@
   "11011544": {
     "ContentTC": "拜托……你了！",
     "DialogueId": 11011544,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "GUID": "1B90F570",
     "NextDialogue": 11011545,
     "SnapShot": "TELEPHONE",
@@ -26140,7 +26261,9 @@
   "11011902": {
     "ContentTC": "“一角鯨”分隊在大橋這邊遇到些同盟的小花招，現在我們被耽擱在這兒了。",
     "DialogueId": 11011902,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "GUID": "1B91302C",
     "NextDialogue": 11011903,
@@ -26162,7 +26285,9 @@
   "11011904": {
     "ContentTC": "他們是“骸”，你不也是嗎？更何況，你那邊不還有一個實力堪比“骸”的{nickname2}？",
     "DialogueId": 11011904,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "ExStoryInfo": "EXPlayer",
     "GUID": "1B913080",
@@ -26175,7 +26300,9 @@
   "11011905": {
     "ContentTC": "中央控製室就在前面，距離你們在的那個4號炮臺只有不到五十米了。",
     "DialogueId": 11011905,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "GUID": "1B9130AA",
     "NextDialogue": 11011906,
@@ -26187,7 +26314,9 @@
   "11011906": {
     "ContentTC": "再前進這五十米，我們就可以將勝利獻給陛下了！這有什麽難？",
     "DialogueId": 11011906,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "GUID": "1B9130D4",
     "NextDialogue": 11011907,
@@ -26210,7 +26339,9 @@
   },
   "11011908": {
     "Camera": "-307.916016,-10.313782,130.371277,0.000038,0.9994,-22.646984,35.0,100000.0,false,Manual,22.0",
-    "ContentTC": "{nickname2}？還順利嗎？",
+    "ContentTC": [
+      "{nickname2}？還順利嗎？"
+    ],
     "DialogueId": 11011908,
     "Duration": 3,
     "ExStoryInfo": "EXPlayer",
@@ -27940,7 +28071,9 @@
     "VoiceName": "voice/$Locale$/story/1002/110125/1B9192F0"
   },
   "11012505": {
-    "ContentTC": "{nickname2}……天啊，你做了什麽！",
+    "ContentTC": [
+      "{nickname2}……天啊，你做了什麽！"
+    ],
     "DialogueId": 11012505,
     "Duration": 3,
     "ExStoryInfo": "EXPlayer",
@@ -28692,7 +28825,9 @@
   "11012809": {
     "ContentTC": "這是，年輕時的老師和……達芙涅？",
     "DialogueId": 11012809,
-    "DialoguePanelType": "{type:showpic;dir:Texture2D'/Game/UI/Texture/Dynamic/Image/Guide/T_Guide_Ex01_Pic.T_Guide_Ex01_Pic'}",
+    "DialoguePanelType": [
+      "type:showpic;dir:Texture2D'/Game/UI/Texture/Dynamic/Image/Guide/T_Guide_Ex01_Pic.T_Guide_Ex01_Pic'"
+    ],
     "Duration": 3,
     "ExStoryInfo": "EXPlayer",
     "GUID": "1B91C4FA",
@@ -29071,7 +29206,9 @@
   },
   "11012905": {
     "Camera": "39.005341,-496.773438,249.36821,0.005568,-6.569091,85.39138,35.0,100000.0,false,Manual,22.0",
-    "ContentTC": "{nickname2}，這裡不太對勁。按要塞原始的設計圖，中央控製室作為核心，擁有最頂尖的防禦系統，甚至配備了自毀裝置。",
+    "ContentTC": [
+      "{nickname2}，這裡不太對勁。按要塞原始的設計圖，中央控製室作為核心，擁有最頂尖的防禦系統，甚至配備了自毀裝置。"
+    ],
     "DialogueId": 11012905,
     "Duration": 3,
     "ExStoryInfo": "EXPlayer",
@@ -29379,7 +29516,9 @@
     "VoiceName": "voice/$Locale$/story/1002/110131/1B91F560"
   },
   "11013201": {
-    "Content": "{nickname2}队长。",
+    "Content": [
+      "{nickname2}队长。"
+    ],
     "DialogueId": 11013201,
     "Duration": 3,
     "ExStoryInfo": "EXPlayer",
@@ -30453,7 +30592,9 @@
     "Camera": "21.600922,84.398438,21.665161,0.000077,-20.199579,-112.073257,35.0,100000.0,false,Manual,22.0",
     "ContentTC": "…………",
     "DialogueId": 11014003,
-    "DialoguePanelType": "{type:showpic;dir:Texture2D'/Game/UI/Texture/Dynamic/Image/Guide/T_Guide_Ex01_DirtyPic.T_Guide_Ex01_DirtyPic'}",
+    "DialoguePanelType": [
+      "type:showpic;dir:Texture2D'/Game/UI/Texture/Dynamic/Image/Guide/T_Guide_Ex01_DirtyPic.T_Guide_Ex01_DirtyPic'"
+    ],
     "Duration": 3,
     "ExStoryInfo": "EXPlayer",
     "GUID": "1B9288DE",
@@ -30483,7 +30624,9 @@
     "Camera": "508.594055,-4106.466797,1392.813965,-0.000213,-4.605992,-128.67778,35.0,100000.0,false,Manual,22.0",
     "ContentTC": "龍莎要塞全體十三軍團士兵聽令。現通緝前“獅鷲”小隊醫務員、神棄者同盟間諜達芙涅·塞奧多爾。",
     "DialogueId": 11014005,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "FinalCamera": "591.160767,-4172.571289,1392.814087,-0.000214,-4.605992,-128.677704,35.0,100000.0,false,Manual,22.0",
     "GUID": "1B928932",
@@ -30498,7 +30641,9 @@
   "11014006": {
     "ContentTC": "任何人發現達芙涅·塞奧多爾，即刻處決。",
     "DialogueId": 11014006,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "GUID": "1B92895C",
     "NextDialogue": 11014007,
@@ -31285,7 +31430,9 @@
   "11014601": {
     "ContentTC": "達芙涅·塞奧多爾和不知名同夥躲進了地下水道，現在在1號儲水池附近。",
     "DialogueId": 11014601,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "GUID": "1B92EAFA",
     "NextDialogue": 11014602,
@@ -31297,7 +31444,9 @@
   "11014602": {
     "ContentTC": "向1號儲水池放水，逼他們出來！",
     "DialogueId": 11014602,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "GUID": "1B92EB24",
     "NextDialogue": 11014603,
@@ -31359,7 +31508,9 @@
   "11014803": {
     "ContentTC": "他們跑不了多遠！把剩下的穢獸也趕到地下去！",
     "DialogueId": 11014803,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "GUID": "1B930C1E",
     "NextDialogue": 11014804,
@@ -31370,7 +31521,9 @@
   "11014804": {
     "ContentTC": "封鎖所有地下出口，等叛徒出來，即刻處決。",
     "DialogueId": 11014804,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "GUID": "1B930C48",
     "NextDialogue": 11014805,
@@ -31381,7 +31534,9 @@
   "11014805": {
     "ContentTC": "快點，留給我們的時間不多了！",
     "DialogueId": 11014805,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "GUID": "1B930C72",
     "NextDialogue": 11014806,
@@ -32044,7 +32199,9 @@
   "11015146": {
     "ContentTC": "封鎖所有地下出口，等叛徒出來，即刻處決。",
     "DialogueId": 11015146,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "GUID": "1B934464",
     "GraphPath": "Texture2D'/Game/UI/UI_PNG/Story/Recall_Pictures/11014411.11014411'",
@@ -32057,7 +32214,9 @@
   "11015147": {
     "ContentTC": "快點，留給我們的時間不多了！",
     "DialogueId": 11015147,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "GUID": "1B93448E",
     "GraphPath": "Texture2D'/Game/UI/UI_PNG/Story/Recall_Pictures/11014411.11014411'",
@@ -32914,7 +33073,9 @@
     "GUID": "1B93C114",
     "NextDialogue": 11015907,
     "SpeakNpcName": "UI_Npc_DreamDafu",
-    "Subtitle": "{性别2:He|She} then deceived me about how my father died...",
+    "Subtitle": [
+      "{性别2:He|She} then deceived me about how my father died..."
+    ],
     "VoiceName": "voice/$Locale$/story/1002/110159/1B93C114"
   },
   "11015907": {
@@ -33729,7 +33890,9 @@
   },
   "11016801": {
     "Camera": "193.282227,65.876953,181.271759,0.00013,-2.593593,-83.41555,35.0,150.488785,false,Manual,22.0",
-    "ContentTC": "{nickname2}，海爾法典獄長吩咐了，帶塞奧多爾小姐過來。",
+    "ContentTC": [
+      "{nickname2}，海爾法典獄長吩咐了，帶塞奧多爾小姐過來。"
+    ],
     "DialogueId": 11016801,
     "Duration": 3,
     "ExStoryInfo": "EXPlayer",
@@ -34832,7 +34995,9 @@
     "VoiceName": "voice/$Locale$/story/1002/110171/1B9488BE"
   },
   "11017201": {
-    "ContentTC": "{nickname2}，你就什麽都不問？",
+    "ContentTC": [
+      "{nickname2}，你就什麽都不問？"
+    ],
     "DialogueId": 11017201,
     "Duration": 3,
     "ExStoryInfo": "EXPlayer",
@@ -34985,7 +35150,9 @@
   "11017411": {
     "Content": "好，月髓连接上了【待包装】",
     "DialogueId": 11017411,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "SpeakNpcId": 110010
   },
@@ -35016,14 +35183,18 @@
   "11017415": {
     "Content": "炮台的能源已经全部连通，回来汇合吧。【待包装】",
     "DialogueId": 11017415,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 5,
     "SpeakNpcId": 110010
   },
   "11017416": {
     "ContentTC": "準備好了，就啟動髓動輪出發吧。",
     "DialogueId": 11017416,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "SpeakNpcId": 110010,
     "Subtitle": "Go activate the Phoxynamo Wheels once you're ready."
   },
@@ -35081,7 +35252,9 @@
   "11017501": {
     "ContentTC": "動力室是整座要塞的“心臟”，維持要塞運轉的能源都來自裡面那台月髓艙。",
     "DialogueId": 11017501,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "NextDialogue": 11017502,
     "Scripts": "PlayNormalSound{EventPath{\"event:/sfx/common/story/ex01/signal_on\"},PlayAs2D{true}}",
     "SpeakNpcId": 110010,
@@ -35090,14 +35263,18 @@
   "11017502": {
     "ContentTC": "但直接攻擊月髓艙會引起爆炸，你得先去關掉四周的<H>髓動輪</>。",
     "DialogueId": 11017502,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "SpeakNpcId": 110010,
     "Subtitle": "But a direct attack would only lead to explosion, so you need to shut down the Phoxynamo Wheels around it first."
   },
   "11017503": {
     "ContentTC": "那些髓動輪，藍色的，你應該能認得出來吧？你現在要做的是把它們變成黃色。",
     "DialogueId": 11017503,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "NextDialogue": 11017504,
     "SpeakNpcId": 110010,
     "Subtitle": "You should be able to recognise those wheels, aka the blue ones, right? What you need to do is turn them yellow."
@@ -35105,7 +35282,9 @@
   "11017504": {
     "ContentTC": "老師，我早畢業了，不用這樣一步一步指導的。",
     "DialogueId": 11017504,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "ExStoryInfo": "EXPlayer",
     "NextDialogue": 11017505,
     "SpeakNpcId": 110022,
@@ -35114,7 +35293,9 @@
   "11017505": {
     "ContentTC": "……這小鬼！那你見機行事吧，必要時我再聯絡你。",
     "DialogueId": 11017505,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "SpeakNpcId": 110010,
     "Subtitle": "...You kiddo! Alright, play it by ear then. I'll contact you if necessary."
   },
@@ -35142,7 +35323,9 @@
   "11017509": {
     "ContentTC": "正東方向的門搞定，可以通過了。",
     "DialogueId": 11017509,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "SpeakNpcId": 110010,
     "Subtitle": "The door due east is now open. You can go that way."
   },
@@ -35170,7 +35353,9 @@
   "11017513": {
     "ContentTC": "你那邊……什麼動靜？",
     "DialogueId": 11017513,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "NextDialogue": 11017514,
     "SpeakNpcId": 110010,
     "Subtitle": "What's the noise... Everthing okay?"
@@ -35193,7 +35378,9 @@
   "11017516": {
     "ContentTC": "他*的……",
     "DialogueId": 11017516,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "NextDialogue": 11017517,
     "SpeakNpcId": 110010,
     "Subtitle": "Damn it!"
@@ -35208,7 +35395,9 @@
   "11017518": {
     "ContentTC": "過載風險？…………",
     "DialogueId": 11017518,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "NextDialogue": 11017519,
     "SpeakNpcId": 110010,
     "Subtitle": "Overload risk?"
@@ -35216,7 +35405,9 @@
   "11017519": {
     "ContentTC": "聽著，{nickname2}，你現在到動力室下層去，把所有備用髓動輪啟動後，立即撤離。",
     "DialogueId": 11017519,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "ExStoryInfo": "EXPlayer",
     "NextDialogue": 11017520,
     "SpeakNpcId": 110010,
@@ -35225,7 +35416,9 @@
   "11017520": {
     "ContentTC": "既然常規手段解決不了月髓艙，你就讓它自己搞壞自己。",
     "DialogueId": 11017520,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "NextDialogue": 11017521,
     "SpeakNpcId": 110010,
     "Subtitle": "Since we can't shut them down our way, we can let them do it in a self-destructive way."
@@ -35240,14 +35433,18 @@
   "11017601": {
     "ContentTC": "1號備用髓動輪可以操作了，啟動吧。",
     "DialogueId": 11017601,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "SpeakNpcId": 110010,
     "Subtitle": "Back-up Phoxynamo Wheel No.1 is ready. Now activate it."
   },
   "11017602": {
     "ContentTC": "幹得好，我會把剩下三台的髓動輪的操作許可權一一解鎖。",
     "DialogueId": 11017602,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "NextDialogue": 11017603,
     "SpeakNpcId": 110010,
     "Subtitle": "Well done. I'll unlock the control authority for the remaining three Phoxynamo Wheels."
@@ -35255,7 +35452,9 @@
   "11017603": {
     "ContentTC": "等黃色燈光亮起，你就啟動它。",
     "DialogueId": 11017603,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "SpeakNpcId": 110010,
     "Subtitle": "Activate them once the yellow light is on."
   },
@@ -35283,7 +35482,9 @@
   "11017607": {
     "ContentTC": "3號也可以了，去吧！",
     "DialogueId": 11017607,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "SpeakNpcId": 110010,
     "Subtitle": "No.3 is also ready. Go get it!"
   },
@@ -35298,14 +35499,18 @@
   "11017609": {
     "ContentTC": "乾淨俐落，做得漂亮。",
     "DialogueId": 11017609,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "SpeakNpcId": 110010,
     "Subtitle": "Quick and clean! Well done, kid."
   },
   "11017610": {
     "ContentTC": "許可權啟動了，這是最後一台！",
     "DialogueId": 11017610,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "SpeakNpcId": 110010,
     "Subtitle": "The control authority is unlocked. This is the last one!"
   },
@@ -35319,7 +35524,9 @@
   "11017612": {
     "ContentTC": "快！撤到安全門後面去！",
     "DialogueId": 11017612,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "NextDialogue": 11017613,
     "SpeakNpcId": 110010,
     "Subtitle": "Run! Get behind the safety door!"
@@ -37577,7 +37784,9 @@
   },
   "20000929": {
     "Camera": "136.048828,-53.867432,128.230469,0.0,0.0,-169.194504,30.0,100000.0,false,DoNotOverride,2.8",
-    "ContentTC": "{nickname}，你……真好啊。",
+    "ContentTC": [
+      "{nickname}，你……真好啊。"
+    ],
     "DefaultLookAt": "TalkNpc",
     "DialogueId": 20000929,
     "Duration": 3,
@@ -37650,7 +37859,9 @@
     "VoiceName": "voice/$Locale$/story/2001/200012/3212270A"
   },
   "20001301": {
-    "ContentTC": "{nickname}，你找到那種土壤了嗎？",
+    "ContentTC": [
+      "{nickname}，你找到那種土壤了嗎？"
+    ],
     "DialogueId": 20001301,
     "ExStoryInfo": "Player",
     "GUID": "32123772",
@@ -38401,7 +38612,9 @@
     "VoiceName": "voice/$Locale$/env/700011/7D2C4A72"
   },
   "50001401": {
-    "ContentTC": "{NickName}，又見面啦！我每天都在努力學習新知識哦，一起加油吧！",
+    "ContentTC": [
+      "{NickName}，又見面啦！我每天都在努力學習新知識哦，一起加油吧！"
+    ],
     "DefaultLookAt": "TalkNpc",
     "DialogueId": 50001401,
     "Duration": 3,
@@ -38639,7 +38852,9 @@
     "ContentTC": "滾開！賤種卡戎！",
     "DefaultLookAt": "TalkNpc",
     "DialogueId": 50002801,
-    "DialoguePanelType": "{type:Bubble;style:ExcitedBubble}",
+    "DialoguePanelType": [
+      "type:Bubble;style:ExcitedBubble"
+    ],
     "Duration": 3,
     "GUID": "7D2D408A",
     "LookAt": [
@@ -46746,7 +46961,9 @@
   },
   "51006105": {
     "Camera": "-47.697998,-122.447266,163.110352,0.000107,-15.799224,-21.20565,28.0,100000.0,false,DoNotOverride,2.8",
-    "ContentTC": "{性别：他|她}呀，是{nickname}，我新認識的小仆從，現在我在引導{性别：他|她}成為一名合格的狩月人。",
+    "ContentTC": [
+      "{性别：他|她}呀，是{nickname}，我新認識的小仆從，現在我在引導{性别：他|她}成為一名合格的狩月人。"
+    ],
     "DialogueId": 51006105,
     "ExStoryInfo": "Player",
     "LookAt": [
@@ -51299,7 +51516,9 @@
     "ContentTC": "啊，{nickname}！！你可真是我的救星，快來幫幫我。",
     "DialogueId": 71002101,
     "SpeakNpcId": 818007,
-    "Subtitle": "{nickname}! Thank goodness you're here! I need your help!"
+    "Subtitle": [
+      "{nickname}! Thank goodness you're here! I need your help!"
+    ]
   },
   "71002102": {
     "ContentTC": "我要把這箱物資送給淚湖那邊的同僚，但突然肚子好痛，你能不能幫我送一下！拜託拜託！",
@@ -51368,7 +51587,9 @@
     "Subtitle": "Ah, sorry, my bad! Lesson learned — won't happen again!"
   },
   "71002112": {
-    "ContentTC": "{nickname}，這點東西你收下當賠禮吧，連累了你，怪不好意思的。",
+    "ContentTC": [
+      "{nickname}，這點東西你收下當賠禮吧，連累了你，怪不好意思的。"
+    ],
     "DialogueId": 71002112,
     "SpeakNpcId": 818007,
     "Subtitle": "Here, {nickname}. Take this as an apology. Sorry for dragging you into this mess!"
@@ -51407,7 +51628,9 @@
     "Subtitle": "Ah, sorry, my bad! Lesson learned — won't happen again!"
   },
   "71002118": {
-    "ContentTC": "{nickname}，這點東西你收下當賠禮吧，連累了你，怪不好意思的。",
+    "ContentTC": [
+      "{nickname}，這點東西你收下當賠禮吧，連累了你，怪不好意思的。"
+    ],
     "DialogueId": 71002118,
     "SpeakNpcId": 818007,
     "Subtitle": "Here, {nickname}. Take this as an apology. Sorry for dragging you into this mess!"
@@ -52073,7 +52296,9 @@
     "VoiceName": "voice/$Locale$/inv/Fuluo/004/C84C3630"
   },
   "80010425": {
-    "Content": "{NickName}，我想，您拥有一位过于优秀的骑士。",
+    "Content": [
+      "{NickName}，我想，您拥有一位过于优秀的骑士。"
+    ],
     "DialogueId": 80010425,
     "ExStoryInfo": "Player",
     "GUID": "C84C365A",
@@ -52098,7 +52323,9 @@
     "VoiceName": "voice/$Locale$/inv/Fuluo/004/C84C36D8"
   },
   "80010429": {
-    "Content": "{NickName}，您真的是一个过于天真的家伙。",
+    "Content": [
+      "{NickName}，您真的是一个过于天真的家伙。"
+    ],
     "DialogueId": 80010429,
     "ExStoryInfo": "Player",
     "GUID": "C84C3702",
@@ -55298,7 +55525,9 @@
   },
   "80040301": {
     "Camera": "223.874207,-164.812988,108.091064,0.000004,2.199922,151.586334,35.0,100000.0,false,DoNotOverride,2.8",
-    "ContentTC": "{nickname}，{nickname}？",
+    "ContentTC": [
+      "{nickname}，{nickname}？"
+    ],
     "DefaultLookAt": "TalkNpc",
     "DialogueId": 80040301,
     "ExStoryInfo": "Player",
@@ -55486,7 +55715,9 @@
   },
   "80040314": {
     "Camera": "110.972656,229.919922,117.47998,0.000003,0.399996,-115.012459,35.0,100000.0,false,DoNotOverride,2.8",
-    "ContentTC": "{nickname}，你害怕嗎？",
+    "ContentTC": [
+      "{nickname}，你害怕嗎？"
+    ],
     "DialogueId": 80040314,
     "ExStoryInfo": "Player",
     "FacialId": [
@@ -55819,7 +56050,9 @@
   },
   "80040405": {
     "Camera": "192.182617,198.81543,123.755371,-0.519562,0.0,-141.410492,35.0,100000.0,false,DoNotOverride,2.8",
-    "ContentTC": "{nickname}……！你怎麼了？",
+    "ContentTC": [
+      "{nickname}……！你怎麼了？"
+    ],
     "DialogueId": 80040405,
     "ExStoryInfo": "Player",
     "GUID": "C85F6CF2",
@@ -56070,7 +56303,9 @@
   },
   "80040427": {
     "Camera": "-89.0,-19.983398,126.830017,0.0,0.0,57.791512,35.0,100000.0,false,DoNotOverride,2.8",
-    "ContentTC": "{nickname}，等明天你醒來，我們就一起離開吧。去自由的、遼闊的遠方。像你說的那樣——",
+    "ContentTC": [
+      "{nickname}，等明天你醒來，我們就一起離開吧。去自由的、遼闊的遠方。像你說的那樣——"
+    ],
     "DialogueId": 80040427,
     "ExStoryInfo": "Player",
     "FacialId": [
@@ -59413,7 +59648,9 @@
   },
   "80060401": {
     "Camera": "138.374878,24.149231,125.715088,-0.0,-0.799959,-137.395096,35.0,175.0,false,Manual,2.8",
-    "ContentTC": "{nickname}！那個……我有個很急很急的問題！你可以現在就回答我嗎？",
+    "ContentTC": [
+      "{nickname}！那個……我有個很急很急的問題！你可以現在就回答我嗎？"
+    ],
     "DialogueId": 80060401,
     "ExStoryInfo": "Player",
     "FacialId": [
@@ -61560,7 +61797,9 @@
   },
   "80080114": {
     "Camera": "-115.056641,157.29718,104.279297,0.000006,2.600007,-78.7966,35.0,100000.0,false,DoNotOverride,2.8",
-    "ContentTC": "{性别:他|她}說，那座島上有金色的砂礫、白色的迷叠香……當然，大海就更不必說了，有一百片淚湖連起來那麽大呢！",
+    "ContentTC": [
+      "{性别:他|她}說，那座島上有金色的砂礫、白色的迷叠香……當然，大海就更不必說了，有一百片淚湖連起來那麽大呢！"
+    ],
     "DefaultLookAt": "TalkNpc",
     "DialogueId": 80080114,
     "ExStoryInfo": "Player",
@@ -62146,7 +62385,9 @@
   },
   "80080216": {
     "Camera": "-312.857422,-61.016541,136.789062,0.0,0.0,3.203201,35.0,100000.0,false,DoNotOverride,2.8",
-    "ContentTC": "{nickname}只是個路過的陌生人，也許明天就離開了。連你會……都……不知道。我們更是活不了多久了。",
+    "ContentTC": [
+      "{nickname}只是個路過的陌生人，也許明天就離開了。連你會……都……不知道。我們更是活不了多久了。"
+    ],
     "DialogueId": 80080216,
     "ExStoryInfo": "Player",
     "GUID": "C878F070",
@@ -62273,7 +62514,9 @@
   },
   "80080226": {
     "Camera": "-30.181641,25.705566,134.960938,0.000002,0.0,-144.195145,35.0,100000.0,false,DoNotOverride,2.8",
-    "ContentTC": "{性别:他|她}不屬於冰湖城，我從一開始就知道，{性别:他|她}和這裡的人不一樣，不會像我們一直一直困在這裡。",
+    "ContentTC": [
+      "{性别:他|她}不屬於冰湖城，我從一開始就知道，{性别:他|她}和這裡的人不一樣，不會像我們一直一直困在這裡。"
+    ],
     "DialogueId": 80080226,
     "ExStoryInfo": "Player",
     "GUID": "C878F214",
@@ -65168,7 +65411,9 @@
     "VoiceName": "voice/$Locale$/inv/Shuimu/003/C885D2C0"
   },
   "80100321": {
-    "ContentTC": "{性别:他|她}會以剛強的身軀，承受我全部的毒……會以無瑕的心，接受我全部的愛……會用慈悲的手，拂去我全部的悲哀……",
+    "ContentTC": [
+      "{性别:他|她}會以剛強的身軀，承受我全部的毒……會以無瑕的心，接受我全部的愛……會用慈悲的手，拂去我全部的悲哀……"
+    ],
     "DialogueId": 80100321,
     "ExStoryInfo": "Player",
     "FacialId": [
@@ -65339,7 +65584,9 @@
     "VoiceName": "voice/$Locale$/inv/Shuimu/003/C885D50C"
   },
   "80100335": {
-    "ContentTC": "{性别:他|她}會以剛強的身軀，承受我全部的毒……會以無瑕的心，接受我全部的愛……會用慈悲的手，拂去我全部的悲哀……",
+    "ContentTC": [
+      "{性别:他|她}會以剛強的身軀，承受我全部的毒……會以無瑕的心，接受我全部的愛……會用慈悲的手，拂去我全部的悲哀……"
+    ],
     "DialogueId": 80100335,
     "ExStoryInfo": "Player",
     "GUID": "C885D536",

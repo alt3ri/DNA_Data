@@ -520,7 +520,18 @@
   "200009": {
     "TalkTriggerId": 200009,
     "TriggerCondition": {
-      "And": {}
+      "And": [
+        {
+          "QuestChainFinish": {
+            "QuestChainId": 200102
+          }
+        },
+        {
+          "QuestUnstart": {
+            "QuestId": 10020608
+          }
+        }
+      ]
     },
     "StoryLinePath": "SpecialSideStory/2001/200102_2_End.story",
     "TalkId": 200009
@@ -865,7 +876,18 @@
     "TalkTriggerId": 510001,
     "Type": "SideQuest",
     "TriggerCondition": {
-      "And": {}
+      "And": [
+        {
+          "ImprUncomp": {
+            "TalkTriggerId": 510001
+          }
+        },
+        {
+          "QuestChainFinish": {
+            "QuestChainId": 100203
+          }
+        }
+      ]
     },
     "StoryLinePath": "Impression/IceLakeCity/510001_Shali.story",
     "TalkId": 510001
@@ -896,7 +918,18 @@
     "TalkTriggerId": 510004,
     "Type": "SideQuest",
     "TriggerCondition": {
-      "And": {}
+      "And": [
+        {
+          "ImprUncomp": {
+            "TalkTriggerId": 510004
+          }
+        },
+        {
+          "QuestChainFinish": {
+            "QuestChainId": 100201
+          }
+        }
+      ]
     },
     "StoryLinePath": "Impression/IceLakeCity/510004_Aiersha_1.story",
     "TalkId": 510004
@@ -998,7 +1031,18 @@
     "TalkTriggerId": 510018,
     "Type": "SideQuest",
     "TriggerCondition": {
-      "And": {}
+      "And": [
+        {
+          "ImprUncomp": {
+            "TalkTriggerId": 510018
+          }
+        },
+        {
+          "QuestChainFinish": {
+            "QuestChainId": 100204
+          }
+        }
+      ]
     },
     "StoryLinePath": "Impression/IceLakeCity/510018_Wells.story",
     "TalkId": 510018
@@ -1018,7 +1062,18 @@
     "TalkTriggerId": 510020,
     "Type": "SideQuest",
     "TriggerCondition": {
-      "And": {}
+      "And": [
+        {
+          "ImprUncomp": {
+            "TalkTriggerId": 510020
+          }
+        },
+        {
+          "QuestChainFinish": {
+            "QuestChainId": 100201
+          }
+        }
+      ]
     },
     "StoryLinePath": "Impression/IceLakeCity/510020_Blue_1.story",
     "TalkId": 510019
@@ -1049,7 +1104,18 @@
     "TalkTriggerId": 510025,
     "Type": "SideQuest",
     "TriggerCondition": {
-      "And": {}
+      "And": [
+        {
+          "ImprUncomp": {
+            "TalkTriggerId": 510025
+          }
+        },
+        {
+          "QuestChainFinish": {
+            "QuestChainId": 100208
+          }
+        }
+      ]
     },
     "StoryLinePath": "Impression/IceLakeCity/510025_Lali_1.story",
     "TalkId": 510025
@@ -1069,7 +1135,18 @@
     "TalkTriggerId": 510029,
     "Type": "SideQuest",
     "TriggerCondition": {
-      "And": {}
+      "And": [
+        {
+          "ImprUncomp": {
+            "TalkTriggerId": 510029
+          }
+        },
+        {
+          "QuestChainFinish": {
+            "QuestChainId": 100202
+          }
+        }
+      ]
     },
     "StoryLinePath": "Impression/IceLakeCity/510029_Kami_1.story",
     "TalkId": 510029
@@ -1134,7 +1211,18 @@
     "TalkTriggerId": 510038,
     "Type": "SideQuest",
     "TriggerCondition": {
-      "And": {}
+      "And": [
+        {
+          "ImprUncomp": {
+            "TalkTriggerId": 510038
+          }
+        },
+        {
+          "QuestChainFinish": {
+            "QuestChainId": 100208
+          }
+        }
+      ]
     },
     "StoryLinePath": "Impression/IceLakeCity/510038_Faye_1.story",
     "TalkId": 510038
@@ -1188,7 +1276,18 @@
     "TalkTriggerId": 510050,
     "Type": "Impression",
     "TriggerCondition": {
-      "And": {}
+      "And": [
+        {
+          "QuestChainFinish": {
+            "QuestChainId": 100208
+          }
+        },
+        {
+          "QuestFinish": {
+            "QuestId": 20021301
+          }
+        }
+      ]
     },
     "StoryLinePath": "Impression/IceLakeCity/510050_Laina.story",
     "TalkId": 510050
@@ -1197,7 +1296,18 @@
     "TalkTriggerId": 510051,
     "Type": "SideQuest",
     "TriggerCondition": {
-      "And": {}
+      "And": [
+        {
+          "ImprUncomp": {
+            "TalkTriggerId": 510051
+          }
+        },
+        {
+          "QuestChainFinish": {
+            "QuestChainId": 100208
+          }
+        }
+      ]
     },
     "StoryLinePath": "Impression/IceLakeCity/510051_Maer_1.story",
     "TalkId": 510051,
@@ -1207,7 +1317,18 @@
     "TalkTriggerId": 510053,
     "Type": "SideQuest",
     "TriggerCondition": {
-      "And": {}
+      "And": [
+        {
+          "ImprUncomp": {
+            "TalkTriggerId": 510053
+          }
+        },
+        {
+          "QuestChainFinish": {
+            "QuestChainId": 100208
+          }
+        }
+      ]
     },
     "StoryLinePath": "Impression/IceLakeCity/510053_Makusi_1.story",
     "TalkId": 510053
@@ -1906,7 +2027,18 @@
     "TalkTriggerId": 5100350,
     "Type": "SideQuest",
     "TriggerCondition": {
-      "And": {}
+      "And": [
+        {
+          "QuestUnaccepted": {
+            "QuestChainId": 200207
+          }
+        },
+        {
+          "QuestChainFinish": {
+            "QuestChainId": 100202
+          }
+        }
+      ]
     },
     "StoryLinePath": "SpecialSideStory/2002/200207_Emma&Beilinda_start.story",
     "TalkId": 5100350

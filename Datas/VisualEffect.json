@@ -2608,7 +2608,40 @@
     "EffectId": 15021,
     "EffectPath": "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Mod_Jump_Wind_Loop.NS_Mod_Jump_Wind_Loop",
     "EffectParam": {
-      "BodyShapeOffset": {}
+      "BodyShapeOffset": [
+        {
+          "BattleCharTag": "Girl",
+          "Location": [
+            0,
+            100,
+            110
+          ]
+        },
+        {
+          "BattleCharTag": "Loli",
+          "Location": [
+            0,
+            90,
+            80
+          ]
+        },
+        {
+          "BattleCharTag": "Woman",
+          "Location": [
+            0,
+            110,
+            120
+          ]
+        },
+        {
+          "BattleCharTag": "Man",
+          "Location": [
+            0,
+            100,
+            150
+          ]
+        }
+      ]
     },
     "PlayLocation": {
       "socket": "Root"
@@ -2646,7 +2679,40 @@
         0,
         90
       ],
-      "BodyShapeOffset": {}
+      "BodyShapeOffset": [
+        {
+          "BattleCharTag": "Girl",
+          "Location": [
+            0,
+            0,
+            70
+          ]
+        },
+        {
+          "BattleCharTag": "Loli",
+          "Location": [
+            0,
+            0,
+            70
+          ]
+        },
+        {
+          "BattleCharTag": "Woman",
+          "Location": [
+            0,
+            0,
+            90
+          ]
+        },
+        {
+          "BattleCharTag": "Man",
+          "Location": [
+            0,
+            0,
+            90
+          ]
+        }
+      ]
     },
     "PlayLocation": {
       "socket": "Root"
@@ -2844,7 +2910,40 @@
     "EffectId": 230101,
     "EffectPath": "/Game/Asset/Effect/Niagara/Player/Zhangyu/zhangyu_skill_new/NS_Zhangyu_Skill01_Buff.NS_Zhangyu_Skill01_Buff",
     "EffectParam": {
-      "BodyShapeOffset": {}
+      "BodyShapeOffset": [
+        {
+          "BattleCharTag": "Girl",
+          "Location": [
+            0,
+            0,
+            20
+          ]
+        },
+        {
+          "BattleCharTag": "Loli",
+          "Location": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "BattleCharTag": "Woman",
+          "Location": [
+            0,
+            0,
+            40
+          ]
+        },
+        {
+          "BattleCharTag": "Man",
+          "Location": [
+            0,
+            0,
+            45
+          ]
+        }
+      ]
     },
     "PlayLocation": {
       "socket": "Root"
@@ -7408,7 +7507,40 @@
     "EffectId": 10199002,
     "EffectPath": "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_Buff_Loop.NS_Common_Buff_Loop",
     "EffectParam": {
-      "BodyShapeOffset": {}
+      "BodyShapeOffset": [
+        {
+          "BattleCharTag": "Girl",
+          "Location": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "BattleCharTag": "Loli",
+          "Location": [
+            0,
+            0,
+            -15
+          ]
+        },
+        {
+          "BattleCharTag": "Woman",
+          "Location": [
+            0,
+            0,
+            5
+          ]
+        },
+        {
+          "BattleCharTag": "Man",
+          "Location": [
+            0,
+            0,
+            15
+          ]
+        }
+      ]
     },
     "PlayLocation": {
       "socket": "Root"

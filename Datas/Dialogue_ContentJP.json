@@ -119,7 +119,9 @@
   "10010101": {
     "Camera": "67.539062,-1123.730225,550.733276,0.000081,-22.799314,91.999741,35.0,1000.0,false,Manual,2.8",
     "CameraTransform": "0,-8,8",
-    "ContentJP": "{性别:ベレ、僕は……|ベレ、私は……}",
+    "ContentJP": [
+      "性别:ベレ、僕は……|ベレ、私は……"
+    ],
     "DefaultLookAt": "KeepState",
     "DialogueId": 10010101,
     "DisableMouth": 1,
@@ -404,7 +406,9 @@
     "VoiceName": "voice/$Locale$/story/1001/100107/190F8CA2"
   },
   "10010702": {
-    "ContentJP": "{性别:穢獣が現れた時、ベレは村にいたんだよね？僕を探しに戻らなければ、ベレひとりで逃げられたはず……|穢獣が現れた時、ベレはまだ村にいたんだよね？私を探しに戻らなければ、ベレひとりで逃げられたはず……}",
+    "ContentJP": [
+      "性别:穢獣が現れた時、ベレは村にいたんだよね？僕を探しに戻らなければ、ベレひとりで逃げられたはず……|穢獣が現れた時、ベレはまだ村にいたんだよね？私を探しに戻らなければ、ベレひとりで逃げられたはず……"
+    ],
     "DialogueId": 10010702,
     "ExStoryInfo": "Player",
     "GUID": "190F8CCC",
@@ -480,7 +484,9 @@
     "VoiceName": "voice/$Locale$/story/1001/100110/190FBDDA"
   },
   "10011002": {
-    "ContentJP": "{nickname}、私からあまり離れないように。何かあったら合図を出して知らせて。",
+    "ContentJP": [
+      "{nickname}、私からあまり離れないように。何かあったら合図を出して知らせて。"
+    ],
     "DialogueId": 10011002,
     "ExStoryInfo": "Player",
     "GUID": "190FBE04",
@@ -1262,7 +1268,9 @@
     "VoiceName": "voice/$Locale$/story/1001/100120/191062E9"
   },
   "10012015": {
-    "ContentJP": "{nickname}、テストするよ。「まばたき3回」の合図は――",
+    "ContentJP": [
+      "{nickname}、テストするよ。「まばたき3回」の合図は――"
+    ],
     "DialogueId": 10012015,
     "Duration": 5,
     "ExStoryInfo": "Player",
@@ -1293,7 +1301,9 @@
     "VoiceName": "voice/$Locale$/story/1001/100120/191062F2"
   },
   "10012018": {
-    "ContentJP": "{性别:「僕たちが、また会う日まで」|「私たちが、また会う日まで」}",
+    "ContentJP": [
+      "性别:「僕たちが、また会う日まで」|「私たちが、また会う日まで」"
+    ],
     "DialogueId": 10012018,
     "DialoguePanelType": "None",
     "Duration": 3,
@@ -1436,7 +1446,9 @@
     "VoiceName": "voice/$Locale$/story/1001/100124/1910A408"
   },
   "10012405": {
-    "ContentJP": "{性别:僕たちが？そんな、何も思い出せない……|私たちが？そんな、何も思い出せない……}",
+    "ContentJP": [
+      "性别:僕たちが？そんな、何も思い出せない……|私たちが？そんな、何も思い出せない……"
+    ],
     "DialogueId": 10012405,
     "ExStoryInfo": "Player",
     "GUID": "1910A432",
@@ -1535,7 +1547,9 @@
   },
   "10012703": {
     "Camera": "136.882812,-238.855469,168.495239,0.000319,-18.601807,42.176678,35.0,100000.0,false,Manual,22.0",
-    "ContentJP": "{性别:その力とやらがなんだっていうんだ？僕は海に落ちて、もう二度と目覚めない。僕の物語はこれで全部おしまいだ。|その力がなんだっていうの？私は海に落ちて、もう二度と目覚めない。私の物語はこれで全部おしまいなのに。}",
+    "ContentJP": [
+      "性别:その力とやらがなんだっていうんだ？僕は海に落ちて、もう二度と目覚めない。僕の物語はこれで全部おしまいだ。|その力がなんだっていうの？私は海に落ちて、もう二度と目覚めない。私の物語はこれで全部おしまいなのに。"
+    ],
     "DefaultLookAt": "KeepState",
     "DialogueId": 10012703,
     "Duration": 5,
@@ -1580,7 +1594,9 @@
   },
   "10012706": {
     "Camera": "116.4375,-210.523438,168.495239,0.000323,-19.201778,29.174892,35.0,100000.0,false,Manual,22.0",
-    "ContentJP": "{性别:つまり……僕はまだ生きてるってこと？|つまり……私まだ生きてるってこと？}",
+    "ContentJP": [
+      "性别:つまり……僕はまだ生きてるってこと？|つまり……私まだ生きてるってこと？"
+    ],
     "DefaultLookAt": "KeepState",
     "DialogueId": 10012706,
     "Duration": 5,
@@ -1851,7 +1867,9 @@
     "VoiceName": "voice/$Locale$/story/1001/100184/19147BEA"
   },
   "10018402": {
-    "ContentJP": "{性别:彼女|彼}。",
+    "ContentJP": [
+      "{性别:彼女|彼}。"
+    ],
     "DialogueId": 10018402,
     "Duration": 1.5,
     "ExStoryInfo": "Player",
@@ -1896,7 +1914,9 @@
     "VoiceName": "voice/$Locale$/story/1001/100181/19144AB3"
   },
   "10018701": {
-    "ContentJP": "{性别:――“僕は誰？”|――“私は誰？”}",
+    "ContentJP": [
+      "性别:――“僕は誰？”|――“私は誰？”"
+    ],
     "DialogueId": 10018701,
     "Duration": 3,
     "ExStoryInfo": "Player",
@@ -2308,7 +2328,9 @@
     "VoiceName": "voice/$Locale$/story/1001/100258/19193A24"
   },
   "10025803": {
-    "ContentJP": "{性别:村の人がここに逃げ込んで来たのかな？でも、僕たちが来るまで扉は閉じていたはず……|村の人がここに逃げ込んで来たのかな？でも、私たちが来るまで扉は閉じていたはず……}",
+    "ContentJP": [
+      "性别:村の人がここに逃げ込んで来たのかな？でも、僕たちが来るまで扉は閉じていたはず……|村の人がここに逃げ込んで来たのかな？でも、私たちが来るまで扉は閉じていたはず……"
+    ],
     "DialogueId": 10025803,
     "ExStoryInfo": "Player",
     "GUID": "19193A4E",
@@ -2727,7 +2749,9 @@
   },
   "10100222": {
     "Camera": "2.539062,-275.099854,135.862793,0.001142,-1.500968,84.02774,35.0,155.0,false,Manual,2.8",
-    "ContentJP": "{性别:僕|私}……わかりました。一緒に行きます。",
+    "ContentJP": [
+      "{性别:僕|私}……わかりました。一緒に行きます。"
+    ],
     "DialogueId": 10100222,
     "ExStoryInfo": "Player",
     "FinalCamera": "2.539062,-275.099854,135.862793,0.001142,-1.500968,84.027733,35.0,1173.611328,false,Manual,10.0",
@@ -2740,7 +2764,9 @@
   },
   "10100223": {
     "Camera": "70.347656,-275.099854,135.862793,0.001142,-0.300877,104.799217,35.0,155.0,false,Manual,2.8",
-    "ContentJP": "{性别:僕|私}……分かりました。一緒に行きます。",
+    "ContentJP": [
+      "{性别:僕|私}……分かりました。一緒に行きます。"
+    ],
     "DialogueId": 10100223,
     "ExStoryInfo": "Player",
     "FinalCamera": "70.347656,-275.099854,135.862793,0.001142,-0.300877,104.799248,35.0,1023.135071,false,Manual,10.0",
@@ -3259,7 +3285,9 @@
   },
   "10100613": {
     "Camera": "35.073242,71.52002,140.823242,0.001229,5.301156,-38.499496,25.0,160.39801,false,Manual,3.0",
-    "ContentJP": "{性别:おいおい兄弟、もう大きいんだから、泣かないでくれよ？|おいおい、泣かないでくれよ？女の子が泣いた場合の対処法なんて、上官から聞いてないんだぞ俺は！}",
+    "ContentJP": [
+      "性别:おいおい兄弟、もう大きいんだから、泣かないでくれよ？|おいおい、泣かないでくれよ？女の子が泣いた場合の対処法なんて、上官から聞いてないんだぞ俺は！"
+    ],
     "DefaultLookAt": "TalkNpc",
     "DialogueId": 10100613,
     "ExStoryInfo": "Player",
@@ -3272,7 +3300,9 @@
     "Scripts": "SEQ{\\\r\nPlayAnimation{ActorId{200004},AnimationId{\"Shock_Start\"},Duration{4.3}},PlayAnimation{ActorId{200004},AnimationId{\"Shock_End\"},Duration{1}}\\\r\n}",
     "SpeakNpcId": 200004,
     "SpeakNpcName": "UI_Npc_Name_Man_4",
-    "Subtitle": "{性别:Whoa... aren't you a bit old to be a crybaby, mate? Stop it...|Whoa... why are you crying? Darn it, Chief never told us how to deal with tearful young ladies!}",
+    "Subtitle": [
+      "性别:Whoa... aren't you a bit old to be a crybaby, mate? Stop it...|Whoa... why are you crying? Darn it, Chief never told us how to deal with tearful young ladies!"
+    ],
     "TalkActionId": [
       "100001:Sigh_Start"
     ],
@@ -3378,7 +3408,9 @@
   },
   "10100802": {
     "Camera": "-134.595703,-58.141602,80.676758,0.001192,-1.999995,34.848515,35.000008,100000.0,false,DoNotOverride,2.8",
-    "ContentJP": "{nickname}って今まであまりうそついたことない感じ？まだ手が震えてるじゃないか。根っこはすっごくいい子に違いない。",
+    "ContentJP": [
+      "{nickname}って今まであまりうそついたことない感じ？まだ手が震えてるじゃないか。根っこはすっごくいい子に違いない。"
+    ],
     "DialogueId": 10100802,
     "ExStoryInfo": "Player",
     "GUID": "19494AD4",
@@ -3873,7 +3905,9 @@
     "VoiceName": "voice/$Locale$/story/1002/101008/19494FC0"
   },
   "10100901": {
-    "ContentJP": "{性别:さっきの「バケモノ屋敷」って……どういう意味かな？|さっきの「バケモノ屋敷」って……どういう意味なの？}",
+    "ContentJP": [
+      "性别:さっきの「バケモノ屋敷」って……どういう意味かな？|さっきの「バケモノ屋敷」って……どういう意味なの？"
+    ],
     "DialogueId": 10100901,
     "ExStoryInfo": "Player",
     "GUID": "19495B12",
@@ -4677,7 +4711,9 @@
   },
   "10101606": {
     "Camera": "12.244577,-256.895996,155.578934,0.001133,-7.899871,85.625313,35.0,100000.0,false,DoNotOverride,2.8",
-    "ContentJP": "{nickname}……この街では珍しい雰囲気のお名前。",
+    "ContentJP": [
+      "{nickname}……この街では珍しい雰囲気のお名前。"
+    ],
     "DialogueId": 10101606,
     "ExStoryInfo": "Player",
     "GUID": "1949CEBC",
@@ -7102,7 +7138,9 @@
   },
   "10103813": {
     "Camera": "292.52832,167.443359,168.015625,0.001284,0.0,-151.996902,35.0,100000.0,false,DoNotOverride,2.8",
-    "ContentJP": "{nickname}、お帰りなさい。さっきの依頼、うまくいったかな？",
+    "ContentJP": [
+      "{nickname}、お帰りなさい。さっきの依頼、うまくいったかな？"
+    ],
     "DefaultLookAt": "TalkNpc",
     "DialogueId": 10103813,
     "ExStoryInfo": "Player",
@@ -7163,7 +7201,10 @@
     "NextDialogue": 10103817,
     "Scripts": "SEQ{\\\r\nPlayAnimation{ActorId{200002},AnimationId{\"Angry01_Start\"},Duration{1.5}},\\\r\nPlayAnimation{ActorId{200002},AnimationId{\"Angry01_End\"},Duration{1}},\\\r\nPlayAnimation{ActorId{200002},AnimationId{\"Confident_Start\"},Duration{1}}\\\r\n}",
     "SpeakNpcId": 200002,
-    "Subtitle": "{性别:He|She} was the witness of my deeds! You had it all wrong! Made a fool of yourself this time, haven't you?\\\r\nServes you right for being so preachy all the time!",
+    "Subtitle": [
+      "{性别:He|She} was the witness of my deeds! You had it all wrong! Made a fool of yourself this time",
+      "haven't you?\\\r\nServes you right for being so preachy all the time!"
+    ],
     "VoiceName": "voice/$Locale$/story/1002/101038/194B39A4"
   },
   "10103817": {
@@ -7429,7 +7470,9 @@
   },
   "10104015": {
     "Camera": "-32.222351,-111.272461,129.767578,0.001251,2.701613,40.65152,40.0,100000.0,false,DoNotOverride,2.8",
-    "ContentJP": "{nickname}……そんな……",
+    "ContentJP": [
+      "{nickname}……そんな……"
+    ],
     "DialogueId": 10104015,
     "Duration": 1.5,
     "ExStoryInfo": "Player",
@@ -7829,7 +7872,9 @@
     "VoiceName": "voice/$Locale$/story/1002/101045/194BAAD8"
   },
   "10104509": {
-    "ContentJP": "{nickname}はどう？私、あなたの故郷のことが知りたい！海の小島ってどんな感じなの？",
+    "ContentJP": [
+      "{nickname}はどう？私、あなたの故郷のことが知りたい！海の小島ってどんな感じなの？"
+    ],
     "DialogueId": 10104509,
     "Duration": 3,
     "ExStoryInfo": "Player",
@@ -10198,7 +10243,9 @@
     "VoiceName": "voice/$Locale$/story/1002/101061/194CB0DA"
   },
   "10106104": {
-    "ContentJP": "{性别:僕|私}は{nickname}{性别:だよ|よ}。はじめまして。",
+    "ContentJP": [
+      "{性别:僕|私}は{nickname}{性别:だよ|よ}。はじめまして。"
+    ],
     "DialogueId": 10106104,
     "ExStoryInfo": "Player",
     "NextDialogue": 10106105,
@@ -10226,7 +10273,9 @@
     "VoiceName": "voice/$Locale$/story/1002/101061/194CB0DB"
   },
   "10106106": {
-    "ContentJP": "{性别:僕|私}は{nickname}{性别:だよ|よ}。アウトサイダーの恐ろしいファミリーって……あなたのことかな？",
+    "ContentJP": [
+      "{性别:僕|私}は{nickname}{性别:だよ|よ}。アウトサイダーの恐ろしいファミリーって……あなたのことかな？"
+    ],
     "DialogueId": 10106106,
     "ExStoryInfo": "Player",
     "NextDialogue": 10106107,
@@ -10361,7 +10410,9 @@
   },
   "10106202": {
     "Camera": "-12.5896,-244.056641,126.941406,0.000154,-1.392361,30.217886,50.000008,466.308502,false,Manual,22.0",
-    "ContentJP": "{性别:お兄さん|お姉さん}、どうしたの？",
+    "ContentJP": [
+      "{性别:お兄さん|お姉さん}、どうしたの？"
+    ],
     "DialogueId": 10106202,
     "ExStoryInfo": "Player",
     "GUID": "194CC0C4",
@@ -10375,7 +10426,9 @@
   },
   "10106203": {
     "Camera": "359.239105,172.433594,139.195312,0.000127,-1.989436,-103.023643,50.0,100000.0,false,Disable,2.8",
-    "ContentJP": "{性别:いや|ううん}、たいしたことじゃない{性别:んだ|の}。この甘い味で、家族を思い出しちゃっただけ……いつも料理に信じられないぐらい砂糖を入れちゃう人だったから。",
+    "ContentJP": [
+      "{性别:いや|ううん}、たいしたことじゃない{性别:んだ|の}。この甘い味で、家族を思い出しちゃっただけ……いつも料理に信じられないぐらい砂糖を入れちゃう人だったから。"
+    ],
     "DialogueId": 10106203,
     "ExStoryInfo": "Player",
     "FacialId": [
@@ -10390,7 +10443,9 @@
   },
   "10106204": {
     "Camera": "451.626221,-174.853516,114.742188,0.000139,-5.789609,144.97699,50.0,100000.0,false,Disable,2.8",
-    "ContentJP": "{性别:僕|私}の育った小島だと魚や塩はたくさん手に入るけど、砂糖は高級品で。だから小さい頃は砂糖を食べたことがなくて{性别:さ|ね}。",
+    "ContentJP": [
+      "{性别:僕|私}の育った小島だと魚や塩はたくさん手に入るけど、砂糖は高級品で。だから小さい頃は砂糖を食べたことがなくて{性别:さ|ね}。"
+    ],
     "DialogueId": 10106204,
     "ExStoryInfo": "Player",
     "FacialId": [
@@ -11298,7 +11353,9 @@
     "ToFinalCameraBlendTime": 20
   },
   "10106702": {
-    "ContentJP": "{nickname}です。",
+    "ContentJP": [
+      "{nickname}です。"
+    ],
     "DialogueId": 10106702,
     "Duration": 1.5,
     "ExStoryInfo": "Player",
@@ -11348,7 +11405,9 @@
   },
   "10106706": {
     "Camera": "43.533447,190.366211,130.659058,0.001232,1.999995,-65.366714,15.0,73.0,false,Manual,2.8",
-    "ContentJP": "{性别:僕|私}がよそ者なのは知っていますよね？アイスレイク城のルールなんて知りません。{性别:僕|私}の出身地では、報酬とモノを直接交換するのが取引なんで。",
+    "ContentJP": [
+      "{性别:僕|私}がよそ者なのは知っていますよね？アイスレイク城のルールなんて知りません。{性别:僕|私}の出身地では、報酬とモノを直接交換するのが取引なんで。"
+    ],
     "DialogueId": 10106706,
     "ExStoryInfo": "Player",
     "FinalCamera": "43.533447,190.366211,124.659058,0.001232,1.999995,-65.366714,15.0,73.0,false,Manual,2.8",
@@ -11420,7 +11479,9 @@
   "10106803": {
     "Content": " ",
     "DialogueId": 10106803,
-    "DialoguePanelType": "{type:showpic;dir:Texture2D'/Game/UI/Texture/Dynamic/Image/Guide/T_Guide_Chapter01_QXQJ.T_Guide_Chapter01_QXQJ'}",
+    "DialoguePanelType": [
+      "type:showpic;dir:Texture2D'/Game/UI/Texture/Dynamic/Image/Guide/T_Guide_Chapter01_QXQJ.T_Guide_Chapter01_QXQJ'"
+    ],
     "NextDialogue": 10106804
   },
   "10106804": {
@@ -11768,7 +11829,9 @@
     "VoiceName": "voice/$Locale$/story/1002/101070/194D45FC"
   },
   "10107016": {
-    "ContentJP": "{nickname}がたまに遊びに来てくれるのなら、みんなにあなたの故郷について話してあげて欲しいな。南のこと、海のこと、行ったことのない場所――きっとみんな喜んでくれるはず！",
+    "ContentJP": [
+      "{nickname}がたまに遊びに来てくれるのなら、みんなにあなたの故郷について話してあげて欲しいな。南のこと、海のこと、行ったことのない場所――きっとみんな喜んでくれるはず！"
+    ],
     "DialogueId": 10107016,
     "ExStoryInfo": "Player",
     "GUID": "194D4626",
@@ -11950,7 +12013,9 @@
   "10107028": {
     "ContentJP": "これも受け取って。",
     "DialogueId": 10107028,
-    "DialoguePanelType": "{type:showpic;dir:Texture2D'/Game/UI/Texture/Dynamic/Image/Guide/T_Guide_Chapter01_Flower_2.T_Guide_Chapter01_Flower_2'}",
+    "DialoguePanelType": [
+      "type:showpic;dir:Texture2D'/Game/UI/Texture/Dynamic/Image/Guide/T_Guide_Chapter01_Flower_2.T_Guide_Chapter01_Flower_2'"
+    ],
     "GUID": "194D481E",
     "NextDialogue": 10107029,
     "SpeakNpcId": 200006,
@@ -12910,7 +12975,9 @@
   },
   "10108005": {
     "Camera": "-128.875,632.25,-55.5,0.000378,13.805683,53.953995,35.0,216.84436,false,Manual,7.794054",
-    "ContentJP": "{性别:彼|彼女}が崖から転落した後、即座に周辺海域の捜査を開始しております。したがって理論上、捜査範囲外のエリアまで漂流することは、生死にかかわらず考えられません。残る可能性としては……",
+    "ContentJP": [
+      "{性别:彼|彼女}が崖から転落した後、即座に周辺海域の捜査を開始しております。したがって理論上、捜査範囲外のエリアまで漂流することは、生死にかかわらず考えられません。残る可能性としては……"
+    ],
     "DialogueId": 10108005,
     "ExStoryInfo": "Player",
     "GUID": "194DE892",
@@ -15345,7 +15412,9 @@
     "Camera": "-208.4375,103.8125,105.65918,0.000269,-7.600928,8.117057,35.0,100000.0,false,DoNotOverride,22.0",
     "ContentJP": "これは……",
     "DialogueId": 10109704,
-    "DialoguePanelType": "{type:showpic;dir:Texture2D'/Game/UI/Texture/Dynamic/Image/Guide/T_Guide_Chapter01_Camera.T_Guide_Chapter01_Camera'}",
+    "DialoguePanelType": [
+      "type:showpic;dir:Texture2D'/Game/UI/Texture/Dynamic/Image/Guide/T_Guide_Chapter01_Camera.T_Guide_Chapter01_Camera'"
+    ],
     "ExStoryInfo": "Player",
     "GUID": "194EFF26",
     "NextDialogue": 10109705,
@@ -15434,7 +15503,9 @@
   },
   "10109712": {
     "Camera": "135.136719,-49.345703,64.782227,0.000262,2.599365,135.112839,35.0,100000.0,false,DoNotOverride,22.0",
-    "ContentJP": "{nickname}、ここ最近、ずっと付き合ってくれてありがとう。でも私、高価なものを持っていなくて……だから私のカメラを、あなたに贈りたいの。",
+    "ContentJP": [
+      "{nickname}、ここ最近、ずっと付き合ってくれてありがとう。でも私、高価なものを持っていなくて……だから私のカメラを、あなたに贈りたいの。"
+    ],
     "DialogueId": 10109712,
     "ExStoryInfo": "Player",
     "GUID": "194F0022",
@@ -15736,7 +15807,9 @@
   },
   "10109908": {
     "Camera": "-63.460938,142.082031,81.953125,0.00031,0.198294,-143.27536,35.0,100000.0,false,DoNotOverride,22.0",
-    "ContentJP": "{性别:僕|私}はこの街に流れ着いた旅ガラスだからさ。サイキを連れて一緒に逃げることだってできる。――みんなで廃鉱山に行ったあの日みたいに。",
+    "ContentJP": [
+      "{性别:僕|私}はこの街に流れ着いた旅ガラスだからさ。サイキを連れて一緒に逃げることだってできる。――みんなで廃鉱山に行ったあの日みたいに。"
+    ],
     "DialogueId": 10109908,
     "ExStoryInfo": "Player",
     "GUID": "194F20C8",
@@ -16212,7 +16285,9 @@
     "VoiceName": "voice/$Locale$/story/1002/101102/194F52FC"
   },
   "10110216": {
-    "ContentJP": "{性别:僕|私}のことは詮索{性别:するな|しないで}。さもなくばこのことを大声で……",
+    "ContentJP": [
+      "{性别:僕|私}のことは詮索{性别:するな|しないで}。さもなくばこのことを大声で……"
+    ],
     "DialogueId": 10110216,
     "ExStoryInfo": "Player"
   },
@@ -17766,7 +17841,9 @@
     "Camera": "-226.919922,-71.93576,152.808594,0.000101,-4.997041,18.991802,40.0,309.457245,false,Manual,5.5",
     "ContentJP": "これを持っていって。",
     "DialogueId": 10110902,
-    "DialoguePanelType": "{type:showpic;dir:Texture2D'/Game/UI/Texture/Dynamic/Image/Guide/T_Guide_Chapter01_Flower_1.T_Guide_Chapter01_Flower_1'}",
+    "DialoguePanelType": [
+      "type:showpic;dir:Texture2D'/Game/UI/Texture/Dynamic/Image/Guide/T_Guide_Chapter01_Flower_1.T_Guide_Chapter01_Flower_1'"
+    ],
     "GUID": "194FC3DC",
     "NextDialogue": 10110903,
     "SpeakNpcId": 200045,
@@ -18215,7 +18292,9 @@
     "VoiceName": "voice/$Locale$/story/1002/101120/191B992C"
   },
   "10112003": {
-    "ContentJP": "{性别:なあ|ねえ}……答えて{性别:|よ}……",
+    "ContentJP": [
+      "{性别:なあ|ねえ}……答えて{性别:|よ}……"
+    ],
     "DialogueId": 10112003,
     "ExStoryInfo": "Player",
     "GUID": "191B9956",
@@ -19432,7 +19511,9 @@
   },
   "10113109": {
     "Camera": "84.604492,-158.234375,121.661133,0.000088,5.199119,0.209052,35.0,394.088074,false,Manual,22.0",
-    "ContentJP": "{性别:辛いときは泣いてもいいんだぞ。|泣きたい時は好きなだけ泣けばいいさ。意地を張るこたねぇよ}。",
+    "ContentJP": [
+      "{性别:辛いときは泣いてもいいんだぞ。|泣きたい時は好きなだけ泣けばいいさ。意地を張るこたねぇよ}。"
+    ],
     "DialogueId": 10113109,
     "ExStoryInfo": "Player",
     "GUID": "19512DF2",
@@ -19782,7 +19863,9 @@
     "DialogueId": 10113304,
     "Duration": 3,
     "GUID": "19514DF0",
-    "Subtitle": "{性别:Her|His} name was—",
+    "Subtitle": [
+      "{性别:Her|His} name was—"
+    ],
     "VoiceName": "voice/$Locale$/story/1002/101133/19514DF0"
   },
   "10113401": {
@@ -20875,7 +20958,9 @@
     "VoiceName": "voice/$Locale$/story/1002/101195/195546A2"
   },
   "10119502": {
-    "ContentJP": "{nickname}ちゃん、手伝って！捕まえちゃおう！",
+    "ContentJP": [
+      "{nickname}ちゃん、手伝って！捕まえちゃおう！"
+    ],
     "DialogueId": 10119502,
     "Duration": 3,
     "ExStoryInfo": "Player",
@@ -20936,7 +21021,9 @@
     "VoiceName": "voice/$Locale$/story/1002/101197/1955679C"
   },
   "10119801": {
-    "ContentJP": "{nickname}、私にも手伝わせて！",
+    "ContentJP": [
+      "{nickname}、私にも手伝わせて！"
+    ],
     "DialogueId": 10119801,
     "Duration": 3,
     "ExStoryInfo": "Player",
@@ -20991,7 +21078,9 @@
     "VoiceName": "voice/$Locale$/story/1002/101201/1955A912"
   },
   "10120102": {
-    "ContentJP": "{性别:僕|私}の脚から降りてよ、スノウ。これじゃ身動きできない。先にアイスレイク城に引き返してもいいよ、からかったりしないから。",
+    "ContentJP": [
+      "{性别:僕|私}の脚から降りてよ、スノウ。これじゃ身動きできない。先にアイスレイク城に引き返してもいいよ、からかったりしないから。"
+    ],
     "DialogueId": 10120102,
     "Duration": 3,
     "ExStoryInfo": "Player",
@@ -21084,7 +21173,9 @@
   "11010101": {
     "Camera": "-3847.1875,2457.945312,-1282.195801,0.000086,16.599463,-32.207474,28.0,502.63504,false,Manual,10.963819",
     "CameraBlendCurve": "-65898.53125,-64185.589844,560.368103,0.000755,-1.807036,-174.521179,35.0,100000.0,true,Manual,22.0",
-    "ContentJP": "{性别2:僕|私}は……またこの夢……",
+    "ContentJP": [
+      "{性别2:僕|私}は……またこの夢……"
+    ],
     "DialogueId": 11010101,
     "DisableMouth": 1,
     "Duration": 3,
@@ -22821,7 +22912,9 @@
   "11011017": {
     "ContentJP": "大儀だったぞ。お前らの戦いぶりは胸の帝国徽章にも恥じんほどに勇猛果敢であった。ここで流した血は決して無駄にはせん。",
     "DialogueId": 11011017,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "GUID": "1B909EFA",
     "SpeakNpcId": 110010,
     "Subtitle": "Each one of you is a credit to the squad. You've shown courage that is truly worthy of your badge. The Empire will not let your efforts go to waste.",
@@ -22839,7 +22932,9 @@
   "11011019": {
     "ContentJP": "順当に任務を遂行中だ。総司令にも連絡を取ったから、安心して休んでいいぞ。ここからは俺たちに任せておけ。",
     "DialogueId": 11011019,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "GUID": "1B909F4E",
     "SpeakNpcId": 110010,
     "Subtitle": "They are performing their duties, and I've reached out to the chief commander. Have a good rest and leave the fighting to us.",
@@ -22858,7 +22953,9 @@
   "11011021": {
     "ContentJP": "現実だぞ寝ぼけてる場合か。意識を強く持てよ。",
     "DialogueId": 11011021,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "GUID": "1B909FA2",
     "SpeakNpcId": 110010,
     "Subtitle": "This is not a dream. Stay with us, and don't fall asleep.",
@@ -22877,7 +22974,9 @@
   "11011023": {
     "ContentJP": "我らが皇帝に栄光あれ。",
     "DialogueId": 11011023,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "GUID": "1B909FF6",
     "SpeakNpcId": 110010,
     "Subtitle": "All glory to our Emperor.",
@@ -22906,7 +23005,9 @@
   "11011026": {
     "ContentJP": "今は援軍が駆けつけている真っ最中だ。到着すれば要塞の奪還は容易く終わる。野郎どもを血みどろになるまでぶちのめせるだろうさ。",
     "DialogueId": 11011026,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "GUID": "1B90A074",
     "SpeakNpcId": 110010,
     "Subtitle": "The tide of battle is in our favour. Reinforcements are on their way. Soon we will take the fortress and crush those bastards.",
@@ -23071,7 +23172,9 @@
     "VoiceName": "voice/$Locale$/story/1002/110111/1B90AE3C"
   },
   "11011111": {
-    "ContentJP": "{nickname2}、報告せよ。",
+    "ContentJP": [
+      "{nickname2}、報告せよ。"
+    ],
     "DialogueId": 11011111,
     "Duration": 3,
     "ExStoryInfo": "EXPlayer",
@@ -23165,7 +23268,9 @@
     "VoiceName": "voice/$Locale$/story/1002/110111/1B90AF38"
   },
   "11011117": {
-    "ContentJP": "{nickname2}、行くぞ。作戦続行だ。",
+    "ContentJP": [
+      "{nickname2}、行くぞ。作戦続行だ。"
+    ],
     "DialogueId": 11011117,
     "Duration": 3,
     "ExStoryInfo": "EXPlayer",
@@ -23362,7 +23467,9 @@
   },
   "11011131": {
     "Camera": "23.228516,144.847656,94.399902,0.000101,10.396067,-111.437241,35.0,100000.0,false,Manual,22.0",
-    "ContentJP": "{nickname2}、俺たちで任務を続行するぞ。",
+    "ContentJP": [
+      "{nickname2}、俺たちで任務を続行するぞ。"
+    ],
     "DialogueId": 11011131,
     "Duration": 3,
     "ExStoryInfo": "EXPlayer",
@@ -23741,7 +23848,9 @@
     "Camera": "-4.147461,-84.023438,209.185547,0.000071,-11.599573,57.385395,35.0,100000.0,false,Manual,22.0",
     "ContentJP": "応答を？どうか応答を、聞こえますか？<H>本日のヒュペリアの空模様は？</>",
     "DialogueId": 11011317,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "FinalCamera": "130.579102,-94.488281,189.368927,0.00009,-6.599581,99.386292,35.0,100000.0,false,Manual,22.0",
     "GUID": "1B90D032",
@@ -23769,7 +23878,9 @@
   "11011319": {
     "ContentJP": "アヴァール長官？ですか？俺です！ヴィックです！",
     "DialogueId": 11011319,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "GUID": "1B90D086",
     "NextDialogue": 11011320,
@@ -23791,7 +23902,9 @@
   "11011321": {
     "ContentJP": "長官との連絡が途絶えてからは、モニカとともに外周ルートを侵攻、現在は機関室付近に到着しています。",
     "DialogueId": 11011321,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "GUID": "1B90D0DA",
     "NextDialogue": 11011322,
@@ -23816,7 +23929,9 @@
   "11011323": {
     "ContentJP": "これから動力装置を切断します。そのご報告を。",
     "DialogueId": 11011323,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "GUID": "1B90D12E",
     "NextDialogue": 11011324,
@@ -23839,7 +23954,9 @@
   "11011325": {
     "ContentJP": "まずは我々が試します長官！どうか、現状は1分でも長引けば、1分も味方が危険に晒されます。",
     "DialogueId": 11011325,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "GUID": "1B90D182",
     "NextDialogue": 11011326,
@@ -23862,7 +23979,9 @@
     "Camera": "216.523438,234.703125,186.789169,0.000391,-6.199831,-121.005493,35.0,100000.0,false,Manual,22.0",
     "ContentJP": "最後に……私事ではありますが、「鷲獅子」隊の状況を教えていただけませんか？{nickname2}隊長が長官とご一緒なのであれば、弟のシーモンに関して……",
     "DialogueId": 11011327,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "ExStoryInfo": "EXPlayer",
     "GUID": "1B90D1D6",
@@ -23900,7 +24019,9 @@
   "11011330": {
     "ContentJP": "……えっ……？",
     "DialogueId": 11011330,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "GUID": "1B90D254",
     "NextDialogue": 11011331,
@@ -23924,7 +24045,9 @@
   "11011332": {
     "ContentJP": "……わかりました、ありがとうございます。",
     "DialogueId": 11011332,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "GUID": "1B90D2A8",
     "NextDialogue": 11011333,
     "Scripts": "PlayNormalSound{EventPath{\"event:/sfx/common/story/ex01/signal_off\"},PlayAs2D{true}}",
@@ -23997,7 +24120,9 @@
     "Camera": "-855.458252,1758.097656,-643.220276,0.00082,25.000942,53.20303,35.0,100000.0,false,Manual,22.0",
     "ContentJP": "聞こえ……か？……",
     "DialogueId": 11011403,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "FinalCamera": "2.20343,1572.757812,-382.174683,0.000727,22.798645,70.400337,35.0,100000.0,false,Manual,22.0",
     "GUID": "1B90DE4E",
@@ -24012,7 +24137,9 @@
   "11011404": {
     "ContentJP": "機関室……こちら……ぐはぁ！",
     "DialogueId": 11011404,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "GUID": "1B90DE78",
     "NextDialogue": 11011405,
@@ -24024,7 +24151,9 @@
   "11011405": {
     "ContentJP": "……",
     "DialogueId": 11011405,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "NextDialogue": 11011406,
     "Scripts": "StopNormalSound{EventPath{\"event:/sfx/common/story/ex01/signal_off\"},PlayAs2D{true}}",
@@ -24102,7 +24231,9 @@
     "VoiceName": "voice/$Locale$/story/1002/110114/1B90DF74"
   },
   "11011411": {
-    "ContentJP": "{nickname2}、お前は下で動力装置の停止に加勢せよ。ロックされたゲートはなんとかするから、ヴィックの救出を。",
+    "ContentJP": [
+      "{nickname2}、お前は下で動力装置の停止に加勢せよ。ロックされたゲートはなんとかするから、ヴィックの救出を。"
+    ],
     "DialogueId": 11011411,
     "Duration": 3,
     "ExStoryInfo": "EXPlayer",
@@ -24416,7 +24547,9 @@
     "Camera": "32.20459,-111.064453,133.04126,0.000151,2.201254,141.389984,35.0,100000.0,false,Manual,22.0",
     "ContentJP": "アヴァールよ、今どこにいる？",
     "DialogueId": 11011506,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "FinalCamera": "80.955566,-13.558594,135.693237,0.000151,1.401165,172.787323,35.0,100000.0,false,Manual,22.0",
     "GUID": "1B90EF34",
@@ -24453,7 +24586,9 @@
   "11011509": {
     "ContentJP": "何を？総司令官の声も忘れたのかね？",
     "DialogueId": 11011509,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "GUID": "1B90EFB2",
     "NextDialogue": 11011510,
@@ -24475,7 +24610,9 @@
   "11011511": {
     "ContentJP": "今夜は雨だ雨。まったく君の頭の硬さは大理石の彫像以上で扱いに困る。ほら、さっさと報告したまえ。君たち小隊の状況は？",
     "DialogueId": 11011511,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "GUID": "1B90F006",
     "NextDialogue": 11011512,
@@ -24497,7 +24634,9 @@
   "11011513": {
     "ContentJP": "舐めた態度はやめてもらおうか。現状の結果を恥じていないのかね君は？",
     "DialogueId": 11011513,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "GUID": "1B90F05A",
     "NextDialogue": 11011514,
@@ -24519,7 +24658,9 @@
   "11011515": {
     "ContentJP": "アヴァール・ハードランド、今一度だけ警告してやる——貴様、口の利き方には気をつけろよ。",
     "DialogueId": 11011515,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "GUID": "1B90F0AE",
     "NextDialogue": 11011516,
@@ -24544,7 +24685,9 @@
   "11011517": {
     "ContentJP": "戯言に付き合ってる暇はないのだが。さっさと強襲任務の現状を報告しろ。",
     "DialogueId": 11011517,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "GUID": "1B90F102",
     "NextDialogue": 11011518,
@@ -24566,7 +24709,9 @@
   "11011519": {
     "ContentJP": "君たちの任務は迅速な突撃であろう？何を勝手に作戦を中止している？",
     "DialogueId": 11011519,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "GUID": "1B90F156",
     "NextDialogue": 11011520,
     "SnapShot": "TELEPHONE",
@@ -24577,7 +24722,9 @@
   "11011520": {
     "ContentJP": "既存の作戦計画から逸脱すれば要塞内の警戒が厳重になる一方だ。命令を改めようではないか。中央制御室に計画通り攻撃を実行せよ。",
     "DialogueId": 11011520,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "GUID": "1B90F180",
     "NextDialogue": 11011521,
     "SnapShot": "TELEPHONE",
@@ -24597,7 +24744,9 @@
   "11011522": {
     "ContentJP": "損失！損失！損失！口を開けば不愉快な台詞を吐くばかりだな貴様は！貴様らの行動で遅れが発生していることを自覚したまえよ！",
     "DialogueId": 11011522,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "GUID": "1B90F1D4",
     "NextDialogue": 11011523,
     "SnapShot": "TELEPHONE",
@@ -24608,7 +24757,9 @@
   "11011523": {
     "ContentJP": "貴様らは帝国の軍旗に泥を塗るつもりだな——ヒュペリア軍人たるもの、僅かな損失で立ち止まる臆病者であっていいものか！",
     "DialogueId": 11011523,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "GUID": "1B90F1FE",
     "NextDialogue": 11011524,
     "SnapShot": "TELEPHONE",
@@ -24619,7 +24770,9 @@
   "11011524": {
     "ContentJP": "偉大なディズ1世陛下から「神の挽歌」の攻勢のクィントゥス軍団長まで！我々ヒュペリアが誇る偉大な統帥は損失など恐れていたかね？",
     "DialogueId": 11011524,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "GUID": "1B90F228",
     "NextDialogue": 11011525,
     "SnapShot": "TELEPHONE",
@@ -24630,7 +24783,9 @@
   "11011525": {
     "ContentJP": "君の率いているのは第十三軍団の精鋭であろう？小さな要塞ひとつを攻め落とすには十分すぎるほどの戦力だと思うのだがな。",
     "DialogueId": 11011525,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "GUID": "1B90F252",
     "NextDialogue": 11011526,
     "SnapShot": "TELEPHONE",
@@ -24710,7 +24865,9 @@
     "Camera": "-110.046387,314.720703,266.5,0.000116,-22.99999,-83.390305,35.0,100000.0,false,Manual,22.0",
     "ContentJP": "今話しているのは誰だ？ああ、アヴァールが気に入っている優秀な学生とやらか？「鷲獅子」隊の隊長の{nickname2}。",
     "DialogueId": 11011532,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "ExStoryInfo": "EXPlayer",
     "FinalCamera": "-120.473633,313.515625,266.5,0.000118,-22.999937,-83.390305,35.0,100000.0,false,Manual,22.0",
@@ -24734,7 +24891,9 @@
     "Camera": "-71.202637,15.898438,121.658752,0.000084,-1.799809,-61.785873,35.0,100000.0,false,Manual,22.0",
     "ContentJP": "今話しているのは誰だ？ああ、アヴァールが気に入っている優秀な学生とやらか？「鷲獅子」隊の隊長の{nickname2}。",
     "DialogueId": 11011534,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "ExStoryInfo": "EXPlayer",
     "FinalCamera": "-82.985352,51.541016,131.751343,0.000089,-5.599737,-62.78595,35.0,100000.0,false,Manual,22.0",
@@ -24753,7 +24912,9 @@
     "Camera": "179.030273,36.109375,768.0271,0.000185,5.399223,150.822723,35.0,100000.0,false,Manual,22.0",
     "ContentJP": "君たちに言われるまでもなく作戦会議には通してある。すでに「角鯨」隊は支援へ急行中であり、私も彼らと前線へ出向くつもりだ。",
     "DialogueId": 11011535,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "FinalCamera": "269.858887,-14.625,758.194946,0.000185,5.399223,150.822723,35.0,100000.0,false,Manual,22.0",
     "GUID": "1B90F3F6",
@@ -24767,7 +24928,9 @@
   "11011536": {
     "ContentJP": "当初の予定通りに作戦を遂行したまえ。いいな？ヒュペリアの軍人たるもの、命を尽くして戦うのだぞ。",
     "DialogueId": 11011536,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "GUID": "1B90F420",
     "NextDialogue": 11011537,
@@ -24828,7 +24991,9 @@
   "11011540": {
     "ContentJP": "隊長、隊長！",
     "DialogueId": 11011540,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "GUID": "1B90F4C8",
     "NextDialogue": 11011541,
     "Scripts": "PlayNormalSound{EventPath{\"event:/sfx/common/story/ex01/signal_on\"},PlayAs2D{true}}",
@@ -24843,7 +25008,9 @@
   "11011541": {
     "ContentJP": "こちら「鷲獅子」隊のシモンです！隊長、聞こえますでしょうか？",
     "DialogueId": 11011541,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "GUID": "1B90F4F2",
     "NextDialogue": 11011542,
     "SnapShot": "TELEPHONE",
@@ -24865,7 +25032,9 @@
     "Camera": "-1101.448242,-314.363281,973.365723,0.000098,-0.200862,-106.786194,35.0,100000.0,false,Manual,22.0",
     "ContentJP": "線路沿いに穢獣が多数！我々は窮地にあります！余裕あらばどうか……救援を！",
     "DialogueId": 11011543,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "FinalCamera": "-1164.543945,-295.335938,973.365723,0.000098,-0.200862,-106.786194,35.0,100000.0,false,Manual,22.0",
     "GUID": "1B90F546",
     "NextDialogue": 11011544,
@@ -24878,7 +25047,9 @@
   "11011544": {
     "ContentJP": "どうか、お願い……します……！",
     "DialogueId": 11011544,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "GUID": "1B90F570",
     "NextDialogue": 11011545,
     "SnapShot": "TELEPHONE",
@@ -24994,7 +25165,9 @@
     "VoiceName": "voice/$Locale$/story/1002/110115/1B90F6C0"
   },
   "11011553": {
-    "ContentJP": "{nickname2}、命令だ。お前の戦友を救助せよ。フルヴィスに責任を問われたら俺が命令したと答えてやれ。",
+    "ContentJP": [
+      "{nickname2}、命令だ。お前の戦友を救助せよ。フルヴィスに責任を問われたら俺が命令したと答えてやれ。"
+    ],
     "DialogueId": 11011553,
     "Duration": 3,
     "GUID": "1B90F6EA",
@@ -26140,7 +26313,9 @@
   "11011902": {
     "ContentJP": "同盟の連中が大橋に小細工を弄していてな。「角鯨」隊が対応に追われて我々は足を止めざるをえなくなった。",
     "DialogueId": 11011902,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "GUID": "1B91302C",
     "NextDialogue": 11011903,
@@ -26162,7 +26337,9 @@
   "11011904": {
     "ContentJP": "彼らは「骸」だが、君も同じくだろう？まして「骸」に匹敵する実力者の{nickname2}も君の下にいるではないか？",
     "DialogueId": 11011904,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "ExStoryInfo": "EXPlayer",
     "GUID": "1B913080",
@@ -26175,7 +26352,9 @@
   "11011905": {
     "ContentJP": "中央制御室は君たちのいる4番砲台から50mも離れていないだろうに。目前ではないか。",
     "DialogueId": 11011905,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "GUID": "1B9130AA",
     "NextDialogue": 11011906,
@@ -26187,7 +26366,9 @@
   "11011906": {
     "ContentJP": "あと50mの邁進で我々は陛下に勝利を捧げることができるのだぞ！？難しいことではあるまい！",
     "DialogueId": 11011906,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "GUID": "1B9130D4",
     "NextDialogue": 11011907,
@@ -26210,7 +26391,9 @@
   },
   "11011908": {
     "Camera": "-307.916016,-10.313782,130.371277,0.000038,0.9994,-22.646984,35.0,100000.0,false,Manual,22.0",
-    "ContentJP": "{nickname2}、まだ余力はあるか？",
+    "ContentJP": [
+      "{nickname2}、まだ余力はあるか？"
+    ],
     "DialogueId": 11011908,
     "Duration": 3,
     "ExStoryInfo": "EXPlayer",
@@ -26812,7 +26995,9 @@
     "VoiceName": "voice/$Locale$/story/1002/110122/"
   },
   "11012203": {
-    "ContentJP": "{nickname2}と俺、2名が先行する！他の者は周囲を警戒しつつ後に続け！",
+    "ContentJP": [
+      "{nickname2}と俺、2名が先行する！他の者は周囲を警戒しつつ後に続け！"
+    ],
     "DialogueId": 11012203,
     "Duration": 3,
     "ExStoryInfo": "EXPlayer",
@@ -27940,7 +28125,9 @@
     "VoiceName": "voice/$Locale$/story/1002/110125/1B9192F0"
   },
   "11012505": {
-    "ContentJP": "{nickname2}……お前、何をしているんだ！？",
+    "ContentJP": [
+      "{nickname2}……お前、何をしているんだ！？"
+    ],
     "DialogueId": 11012505,
     "Duration": 3,
     "ExStoryInfo": "EXPlayer",
@@ -28457,7 +28644,9 @@
   },
   "11012724": {
     "Camera": "370.016266,-80.672363,100.168213,0.0,0.0,143.474762,35.0,100000.0,false,DoNotOverride,2.8",
-    "ContentJP": "{nickname2}がいれば……{性别2:彼|彼女}の戦闘能力があれば、確かに……勝てる見込みがないわけでは……",
+    "ContentJP": [
+      "{nickname2}がいれば……{性别2:彼|彼女}の戦闘能力があれば、確かに……勝てる見込みがないわけでは……"
+    ],
     "DialogueId": 11012724,
     "Duration": 3,
     "ExStoryInfo": "EXPlayer",
@@ -28692,7 +28881,9 @@
   "11012809": {
     "ContentJP": "これは、若い時の教官と……ダフネ？",
     "DialogueId": 11012809,
-    "DialoguePanelType": "{type:showpic;dir:Texture2D'/Game/UI/Texture/Dynamic/Image/Guide/T_Guide_Ex01_Pic.T_Guide_Ex01_Pic'}",
+    "DialoguePanelType": [
+      "type:showpic;dir:Texture2D'/Game/UI/Texture/Dynamic/Image/Guide/T_Guide_Ex01_Pic.T_Guide_Ex01_Pic'"
+    ],
     "Duration": 3,
     "ExStoryInfo": "EXPlayer",
     "GUID": "1B91C4FA",
@@ -29071,7 +29262,9 @@
   },
   "11012905": {
     "Camera": "39.005341,-496.773438,249.36821,0.005568,-6.569091,85.39138,35.0,100000.0,false,Manual,22.0",
-    "ContentJP": "{nickname2}、妙だぞ。中央制御室が中核部なのは要塞の設計図上でも間違いないよな？最先端の防衛システムだけでなく、当然ながら自爆装置も備わっていたはずだ。",
+    "ContentJP": [
+      "{nickname2}、妙だぞ。中央制御室が中核部なのは要塞の設計図上でも間違いないよな？最先端の防衛システムだけでなく、当然ながら自爆装置も備わっていたはずだ。"
+    ],
     "DialogueId": 11012905,
     "Duration": 3,
     "ExStoryInfo": "EXPlayer",
@@ -29379,7 +29572,9 @@
     "VoiceName": "voice/$Locale$/story/1002/110131/1B91F560"
   },
   "11013201": {
-    "Content": "{nickname2}队长。",
+    "Content": [
+      "{nickname2}队长。"
+    ],
     "DialogueId": 11013201,
     "Duration": 3,
     "ExStoryInfo": "EXPlayer",
@@ -30453,7 +30648,9 @@
     "Camera": "21.600922,84.398438,21.665161,0.000077,-20.199579,-112.073257,35.0,100000.0,false,Manual,22.0",
     "ContentJP": "…………",
     "DialogueId": 11014003,
-    "DialoguePanelType": "{type:showpic;dir:Texture2D'/Game/UI/Texture/Dynamic/Image/Guide/T_Guide_Ex01_DirtyPic.T_Guide_Ex01_DirtyPic'}",
+    "DialoguePanelType": [
+      "type:showpic;dir:Texture2D'/Game/UI/Texture/Dynamic/Image/Guide/T_Guide_Ex01_DirtyPic.T_Guide_Ex01_DirtyPic'"
+    ],
     "Duration": 3,
     "ExStoryInfo": "EXPlayer",
     "GUID": "1B9288DE",
@@ -30483,7 +30680,9 @@
     "Camera": "508.594055,-4106.466797,1392.813965,-0.000213,-4.605992,-128.67778,35.0,100000.0,false,Manual,22.0",
     "ContentJP": "ロンザ要塞に残存している第十三軍団の兵士全員に命じます。フォーセイクン同盟のスパイであることが判明した元「鷲獅子」隊医務官ダフネ・セオドールは、現時刻より指名手配犯となりました。",
     "DialogueId": 11014005,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "FinalCamera": "591.160767,-4172.571289,1392.814087,-0.000214,-4.605992,-128.677704,35.0,100000.0,false,Manual,22.0",
     "GUID": "1B928932",
@@ -30498,7 +30697,9 @@
   "11014006": {
     "ContentJP": "総員、ダフネ・セオドールを発見次第、即時処刑せよ。",
     "DialogueId": 11014006,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "GUID": "1B92895C",
     "NextDialogue": 11014007,
@@ -31285,7 +31486,9 @@
   "11014601": {
     "ContentJP": "ダフネ・セオドールが氏名不詳の協力者とともに地下水路へ逃げ込みました。現在は1号貯水池の付近に潜伏している模様です。",
     "DialogueId": 11014601,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "GUID": "1B92EAFA",
     "NextDialogue": 11014602,
@@ -31297,7 +31500,9 @@
   "11014602": {
     "ContentJP": "貯水池1号へ直ちに放水を！ヤツらを炙り出せ！",
     "DialogueId": 11014602,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "GUID": "1B92EB24",
     "NextDialogue": 11014603,
@@ -31359,7 +31564,9 @@
   "11014803": {
     "ContentJP": "そう遠くまで逃れるのは不可能です！残っていた穢獣も地下へと追い立ててください！",
     "DialogueId": 11014803,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "GUID": "1B930C1E",
     "NextDialogue": 11014804,
@@ -31370,7 +31577,9 @@
   "11014804": {
     "ContentJP": "全ての地下出口を封鎖し、裏切り者は見つけ次第、即時処刑せよ！",
     "DialogueId": 11014804,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "GUID": "1B930C48",
     "NextDialogue": 11014805,
@@ -31381,7 +31590,9 @@
   "11014805": {
     "ContentJP": "早急に！我々に残された時間は多くありません！",
     "DialogueId": 11014805,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "GUID": "1B930C72",
     "NextDialogue": 11014806,
@@ -32044,7 +32255,9 @@
   "11015146": {
     "ContentJP": "全ての地下出口を封鎖し、裏切り者は見つけ次第、即時処刑せよ！",
     "DialogueId": 11015146,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "GUID": "1B934464",
     "GraphPath": "Texture2D'/Game/UI/UI_PNG/Story/Recall_Pictures/11014411.11014411'",
@@ -32057,7 +32270,9 @@
   "11015147": {
     "ContentJP": "早急に！我々に残された時間は多くありません！",
     "DialogueId": 11015147,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "GUID": "1B93448E",
     "GraphPath": "Texture2D'/Game/UI/UI_PNG/Story/Recall_Pictures/11014411.11014411'",
@@ -32896,7 +33111,9 @@
     "VoiceName": "voice/$Locale$/story/1002/110159/1B93C0C0"
   },
   "11015905": {
-    "ContentJP": "{nickname2}さんの手によって……殺されました……",
+    "ContentJP": [
+      "{nickname2}さんの手によって……殺されました……"
+    ],
     "DialogueId": 11015905,
     "Duration": 3,
     "ExStoryInfo": "EXPlayer",
@@ -32914,7 +33131,9 @@
     "GUID": "1B93C114",
     "NextDialogue": 11015907,
     "SpeakNpcName": "UI_Npc_DreamDafu",
-    "Subtitle": "{性别2:He|She} then deceived me about how my father died...",
+    "Subtitle": [
+      "{性别2:He|She} then deceived me about how my father died..."
+    ],
     "VoiceName": "voice/$Locale$/story/1002/110159/1B93C114"
   },
   "11015907": {
@@ -33729,7 +33948,9 @@
   },
   "11016801": {
     "Camera": "193.282227,65.876953,181.271759,0.00013,-2.593593,-83.41555,35.0,150.488785,false,Manual,22.0",
-    "ContentJP": "{nickname2}、ヘルファイア典獄のご命令にて、セオドール医務官をお連れしました。",
+    "ContentJP": [
+      "{nickname2}、ヘルファイア典獄のご命令にて、セオドール医務官をお連れしました。"
+    ],
     "DialogueId": 11016801,
     "Duration": 3,
     "ExStoryInfo": "EXPlayer",
@@ -34480,7 +34701,9 @@
     "VoiceName": "voice/$Locale$/story/1002/110170/1B9475E0"
   },
   "11017009": {
-    "ContentJP": "{nickname2}とふたりで話がしたい。無関係の者を全員出せ。",
+    "ContentJP": [
+      "{nickname2}とふたりで話がしたい。無関係の者を全員出せ。"
+    ],
     "DialogueId": 11017009,
     "Duration": 4,
     "ExStoryInfo": "EXPlayer",
@@ -34832,7 +35055,9 @@
     "VoiceName": "voice/$Locale$/story/1002/110171/1B9488BE"
   },
   "11017201": {
-    "ContentJP": "{nickname2}、お前は何も聞いてこないんだな？",
+    "ContentJP": [
+      "{nickname2}、お前は何も聞いてこないんだな？"
+    ],
     "DialogueId": 11017201,
     "Duration": 3,
     "ExStoryInfo": "EXPlayer",
@@ -34985,7 +35210,9 @@
   "11017411": {
     "Content": "好，月髓连接上了【待包装】",
     "DialogueId": 11017411,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "SpeakNpcId": 110010
   },
@@ -35016,14 +35243,18 @@
   "11017415": {
     "Content": "炮台的能源已经全部连通，回来汇合吧。【待包装】",
     "DialogueId": 11017415,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 5,
     "SpeakNpcId": 110010
   },
   "11017416": {
     "ContentJP": "接続先のイコル駆動輪を起動してくれないか？それが終わったら即座に出発できる。",
     "DialogueId": 11017416,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "SpeakNpcId": 110010,
     "Subtitle": "Go activate the Phoxynamo Wheels once you're ready."
   },
@@ -35081,7 +35312,9 @@
   "11017501": {
     "ContentJP": "機関室は端的に言えば要塞の「心臓部」だ。稼働に必要なエネルギーのすべてが内部にあるイコルキャビンから供給されている。",
     "DialogueId": 11017501,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "NextDialogue": 11017502,
     "Scripts": "PlayNormalSound{EventPath{\"event:/sfx/common/story/ex01/signal_on\"},PlayAs2D{true}}",
     "SpeakNpcId": 110010,
@@ -35090,14 +35323,18 @@
   "11017502": {
     "ContentJP": "だもんでイコルキャビンを破壊したいわけだが、高エネルギー体の爆発物を直接攻撃するなんてのは自殺行為だ。まずは周りの<H>イコル駆動輪</>から停止しなければならん。",
     "DialogueId": 11017502,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "SpeakNpcId": 110010,
     "Subtitle": "But a direct attack would only lead to explosion, so you need to shut down the Phoxynamo Wheels around it first."
   },
   "11017503": {
     "ContentJP": "イコル駆動輪は分かるか？稼働中は青色のヤツだ。そいつを黄色にするのが、今お前のやるべきことだな。",
     "DialogueId": 11017503,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "NextDialogue": 11017504,
     "SpeakNpcId": 110010,
     "Subtitle": "You should be able to recognise those wheels, aka the blue ones, right? What you need to do is turn them yellow."
@@ -35105,7 +35342,9 @@
   "11017504": {
     "ContentJP": "教官、私はもう卒業した身でありますから。昔のように手取り足取りの指導は不必要かと。",
     "DialogueId": 11017504,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "ExStoryInfo": "EXPlayer",
     "NextDialogue": 11017505,
     "SpeakNpcId": 110022,
@@ -35114,7 +35353,9 @@
   "11017505": {
     "ContentJP": "本当、お前は小生意気だな！なら状況に応じて柔軟に対応しろ。必要になったらまた連絡する。",
     "DialogueId": 11017505,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "SpeakNpcId": 110010,
     "Subtitle": "...You kiddo! Alright, play it by ear then. I'll contact you if necessary."
   },
@@ -35142,7 +35383,9 @@
   "11017509": {
     "ContentJP": "東ゲートの処理が終わったぞ。もう通れるはずだ。",
     "DialogueId": 11017509,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "SpeakNpcId": 110010,
     "Subtitle": "The door due east is now open. You can go that way."
   },
@@ -35170,7 +35413,9 @@
   "11017513": {
     "ContentJP": "そっちは……何の音だ！？",
     "DialogueId": 11017513,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "NextDialogue": 11017514,
     "SpeakNpcId": 110010,
     "Subtitle": "What's the noise... Everthing okay?"
@@ -35193,7 +35438,9 @@
   "11017516": {
     "ContentJP": "クソが……",
     "DialogueId": 11017516,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "NextDialogue": 11017517,
     "SpeakNpcId": 110010,
     "Subtitle": "Damn it!"
@@ -35208,15 +35455,21 @@
   "11017518": {
     "ContentJP": "オーバーロードするリスク…………",
     "DialogueId": 11017518,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "NextDialogue": 11017519,
     "SpeakNpcId": 110010,
     "Subtitle": "Overload risk?"
   },
   "11017519": {
-    "ContentJP": "{nickname2}、今すぐ機関室の下層へ向かって予備のイコル駆動輪をすべて起動せよ。終わったら速やかに退避だ。",
+    "ContentJP": [
+      "{nickname2}、今すぐ機関室の下層へ向かって予備のイコル駆動輪をすべて起動せよ。終わったら速やかに退避だ。"
+    ],
     "DialogueId": 11017519,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "ExStoryInfo": "EXPlayer",
     "NextDialogue": 11017520,
     "SpeakNpcId": 110010,
@@ -35225,7 +35478,9 @@
   "11017520": {
     "ContentJP": "通常の方法でイコルキャビンが停止できんのならば、自壊するよう仕向けるまでだ。",
     "DialogueId": 11017520,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "NextDialogue": 11017521,
     "SpeakNpcId": 110010,
     "Subtitle": "Since we can't shut them down our way, we can let them do it in a self-destructive way."
@@ -35240,14 +35495,18 @@
   "11017601": {
     "ContentJP": "予備1号のイコル駆動輪が操作可能になったぞ。起動してみろ。",
     "DialogueId": 11017601,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "SpeakNpcId": 110010,
     "Subtitle": "Back-up Phoxynamo Wheel No.1 is ready. Now activate it."
   },
   "11017602": {
     "ContentJP": "よくやった！残り3つの操作権限も解除していく一一ひとつずつ順にはなるが。",
     "DialogueId": 11017602,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "NextDialogue": 11017603,
     "SpeakNpcId": 110010,
     "Subtitle": "Well done. I'll unlock the control authority for the remaining three Phoxynamo Wheels."
@@ -35255,7 +35514,9 @@
   "11017603": {
     "ContentJP": "黄色に点灯したら、起動するんだ。",
     "DialogueId": 11017603,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "SpeakNpcId": 110010,
     "Subtitle": "Activate them once the yellow light is on."
   },
@@ -35283,7 +35544,9 @@
   "11017607": {
     "ContentJP": "3号も弄れるようにしたぞ！向かってくれ！",
     "DialogueId": 11017607,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "SpeakNpcId": 110010,
     "Subtitle": "No.3 is also ready. Go get it!"
   },
@@ -35298,14 +35561,18 @@
   "11017609": {
     "ContentJP": "見事な手際だ、完璧じゃないか。",
     "DialogueId": 11017609,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "SpeakNpcId": 110010,
     "Subtitle": "Quick and clean! Well done, kid."
   },
   "11017610": {
     "ContentJP": "権限有効！よし、こいつでしまいだ！",
     "DialogueId": 11017610,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "SpeakNpcId": 110010,
     "Subtitle": "The control authority is unlocked. This is the last one!"
   },
@@ -35319,7 +35586,9 @@
   "11017612": {
     "ContentJP": "急ぎ下がれ！セキュリティゲートの後ろまで！",
     "DialogueId": 11017612,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "NextDialogue": 11017613,
     "SpeakNpcId": 110010,
     "Subtitle": "Run! Get behind the safety door!"
@@ -36220,7 +36489,9 @@
   "20000604": {
     "Camera": "-342.55246,95.091553,79.582237,0.000212,6.399976,-15.852588,50.0,200.0,false,Disable,2.8",
     "CameraTransform": "0,0,0,0,0,-2.59741199999999,1.3",
-    "ContentJP": "{性别:僕|私}の故郷は……まあ確かに、都会ではない{性别:な|ね}。",
+    "ContentJP": [
+      "{性别:僕|私}の故郷は……まあ確かに、都会ではない{性别:な|ね}。"
+    ],
     "DialogueId": 20000604,
     "Duration": 3,
     "ExStoryInfo": "Player",
@@ -37498,7 +37769,9 @@
   },
   "20000924": {
     "Camera": "136.048828,-53.867432,128.230469,0.0,0.0,-169.194504,30.0,100000.0,false,DoNotOverride,2.8",
-    "ContentJP": "{nickname}は本当に優しいね……うん、その通り……切り取られないほうが、本当はいいのに。",
+    "ContentJP": [
+      "{nickname}は本当に優しいね……うん、その通り……切り取られないほうが、本当はいいのに。"
+    ],
     "DefaultLookAt": "TalkNpc",
     "DialogueId": 20000924,
     "Duration": 3,
@@ -37577,7 +37850,9 @@
   },
   "20000929": {
     "Camera": "136.048828,-53.867432,128.230469,0.0,0.0,-169.194504,30.0,100000.0,false,DoNotOverride,2.8",
-    "ContentJP": "{nickname}、あなたって……本当に優しいね。",
+    "ContentJP": [
+      "{nickname}、あなたって……本当に優しいね。"
+    ],
     "DefaultLookAt": "TalkNpc",
     "DialogueId": 20000929,
     "Duration": 3,
@@ -37650,7 +37925,9 @@
     "VoiceName": "voice/$Locale$/story/2001/200012/3212270A"
   },
   "20001301": {
-    "ContentJP": "{nickname}、土は見つかったかな？",
+    "ContentJP": [
+      "{nickname}、土は見つかったかな？"
+    ],
     "DialogueId": 20001301,
     "ExStoryInfo": "Player",
     "GUID": "32123772",
@@ -37659,7 +37936,9 @@
     "VoiceName": "voice/$Locale$/story/2001/200013/32123772"
   },
   "20001302": {
-    "ContentJP": "{性别:いや|ううん}、まだ見つからない。",
+    "ContentJP": [
+      "{性别:いや|ううん}、まだ見つからない。"
+    ],
     "DialogueId": 20001302,
     "ExStoryInfo": "Player",
     "GUID": "3212379C",
@@ -37683,7 +37962,9 @@
     "VoiceName": "voice/$Locale$/story/2001/200014/321247DA"
   },
   "20001402": {
-    "ContentJP": "{nickname}って、天上樹の下に行ったことはあるかな？本当に伝承みたいに――太陽をさえぎっちゃうくらいすっごく大きいの？根元から見上げたら……枝や葉っぱが水晶みたいに透明で、空が透けて見えたりする？",
+    "ContentJP": [
+      "{nickname}って、天上樹の下に行ったことはあるかな？本当に伝承みたいに――太陽をさえぎっちゃうくらいすっごく大きいの？根元から見上げたら……枝や葉っぱが水晶みたいに透明で、空が透けて見えたりする？"
+    ],
     "DialogueId": 20001402,
     "ExStoryInfo": "Player",
     "GUID": "32124804",
@@ -38401,7 +38682,9 @@
     "VoiceName": "voice/$Locale$/env/700011/7D2C4A72"
   },
   "50001401": {
-    "ContentJP": "{NickName}、また会ったね！僕は新しい知識を学んでいるところさ！お互い頑張ろう！",
+    "ContentJP": [
+      "{NickName}、また会ったね！僕は新しい知識を学んでいるところさ！お互い頑張ろう！"
+    ],
     "DefaultLookAt": "TalkNpc",
     "DialogueId": 50001401,
     "Duration": 3,
@@ -38639,7 +38922,9 @@
     "ContentJP": "失せろ！卑しいカロンめ！",
     "DefaultLookAt": "TalkNpc",
     "DialogueId": 50002801,
-    "DialoguePanelType": "{type:Bubble;style:ExcitedBubble}",
+    "DialoguePanelType": [
+      "type:Bubble;style:ExcitedBubble"
+    ],
     "Duration": 3,
     "GUID": "7D2D408A",
     "LookAt": [
@@ -39740,7 +40025,9 @@
     "Subtitle": "Once I've recovered, I will start my next adventure."
   },
   "51000813": {
-    "ContentJP": "{性别:あなたのお母さんを見つけたよ。名前はアニーで間違いないと思う。ポケットの中にあった手紙はあなたがお母さん宛に書いた物じゃないかな？|あなたのお母さんを見つけた。名前はアニーで間違いないと思う。ポケットの中にあった手紙はあなたがお母さん宛に書いた物じゃないか？}",
+    "ContentJP": [
+      "性别:あなたのお母さんを見つけたよ。名前はアニーで間違いないと思う。ポケットの中にあった手紙はあなたがお母さん宛に書いた物じゃないかな？|あなたのお母さんを見つけた。名前はアニーで間違いないと思う。ポケットの中にあった手紙はあなたがお母さん宛に書いた物じゃないか？"
+    ],
     "DialogueId": 51000813,
     "NextDialogue": 51000894,
     "SpeakNpcId": 100001,
@@ -41866,7 +42153,9 @@
     ]
   },
   "51002019": {
-    "ContentJP": "{性别:僕|私}もあの島の出身だから。",
+    "ContentJP": [
+      "{性别:僕|私}もあの島の出身だから。"
+    ],
     "DialogueId": 51002019,
     "NextDialogue": 51002020,
     "SpeakNpcId": 100001,
@@ -42373,7 +42662,9 @@
     ]
   },
   "51002602": {
-    "ContentJP": "{性别:私をお探しかな？|僕をお探しかい？}",
+    "ContentJP": [
+      "性别:私をお探しかな？|僕をお探しかい？"
+    ],
     "DialogueId": 51002602,
     "NextDialogue": 51002603,
     "SpeakNpcId": 100001,
@@ -42722,7 +43013,9 @@
     "SpeakNpcId": 100001
   },
   "51003201": {
-    "ContentJP": "{性别:アルコールやポップコーンに関係している子供といえば……見当をつけるのは簡単だね。「インスピレーション泥棒」の正体を暴きに劇場の近くまで行ってみよう。|アルコールやポップコーンに関係している子供といえば……見当をつけるのは簡単だ。「インスピレーション泥棒」の正体を暴きに劇場の近くまで行ってみよう。}",
+    "ContentJP": [
+      "性别:アルコールやポップコーンに関係している子供といえば……見当をつけるのは簡単だね。「インスピレーション泥棒」の正体を暴きに劇場の近くまで行ってみよう。|アルコールやポップコーンに関係している子供といえば……見当をつけるのは簡単だ。「インスピレーション泥棒」の正体を暴きに劇場の近くまで行ってみよう。"
+    ],
     "DialogueId": 51003201,
     "Duration": 3,
     "SpeakNpcId": 100001
@@ -42746,7 +43039,9 @@
     ]
   },
   "51003303": {
-    "ContentJP": "{性别:劇はもう終わったよ。どうしてまだここにいるの？|劇はもう終わったぞ。どうしてまだここにいるんだ？}",
+    "ContentJP": [
+      "性别:劇はもう終わったよ。どうしてまだここにいるの？|劇はもう終わったぞ。どうしてまだここにいるんだ？"
+    ],
     "DialogueId": 51003303,
     "NextDialogue": 51003304,
     "SpeakNpcId": 100001
@@ -42769,7 +43064,9 @@
     ]
   },
   "51003306": {
-    "ContentJP": "{性别:何を売っているのか見せてよ。|何を売っているのか見せてくれ。}",
+    "ContentJP": [
+      "性别:何を売っているのか見せてよ。|何を売っているのか見せてくれ。"
+    ],
     "DialogueId": 51003306,
     "NextDialogue": 51003307,
     "SpeakNpcId": 100001
@@ -42793,7 +43090,9 @@
     ]
   },
   "51003309": {
-    "ContentJP": "{性别:必ずそうだとは言い切れないと思うけど……ところで劇作家のバックさんって知っているかな？|必ずそうだとは言い切れないと思うけど……ところで劇作家のバックさんって知っているか？}",
+    "ContentJP": [
+      "性别:必ずそうだとは言い切れないと思うけど……ところで劇作家のバックさんって知っているかな？|必ずそうだとは言い切れないと思うけど……ところで劇作家のバックさんって知っているか？"
+    ],
     "DialogueId": 51003309,
     "NextDialogue": 51003310,
     "SpeakNpcId": 100001
@@ -42814,7 +43113,9 @@
     "SpeakNpcId": 700080
   },
   "51003312": {
-    "ContentJP": "{性别:尊敬している人の家だからって窓から忍び込んでいい理由にはならないよ。彼のコップにコッソリと発酵飲料を入れるのも。|尊敬している人の家だからって窓から忍び込んでいい理由にはならないさ。彼のコップにコッソリと発酵飲料を入れるのも。}",
+    "ContentJP": [
+      "性别:尊敬している人の家だからって窓から忍び込んでいい理由にはならないよ。彼のコップにコッソリと発酵飲料を入れるのも。|尊敬している人の家だからって窓から忍び込んでいい理由にはならないさ。彼のコップにコッソリと発酵飲料を入れるのも。"
+    ],
     "DialogueId": 51003312,
     "NextDialogue": 51003313,
     "SpeakNpcId": 100001
@@ -42829,7 +43130,9 @@
     ]
   },
   "51003314": {
-    "ContentJP": "{性别:バックさんはいつも夜中に創作活動する人みたいなの。あなたがやったことのせいで1ヶ月も脚本の筆が進まなかったみたいでね、謎の「インスピレーション泥棒」を見つけて欲しいって私を雇ったのよ。|バックさんはいつも夜中に創作活動する人みたいなんだ。あなたがやったことのせいで1ヶ月も脚本の筆が進まなかったみたいでさ、謎の「インスピレーション泥棒」を見つけて欲しいって僕を雇ったんだ。}",
+    "ContentJP": [
+      "性别:バックさんはいつも夜中に創作活動する人みたいなの。あなたがやったことのせいで1ヶ月も脚本の筆が進まなかったみたいでね、謎の「インスピレーション泥棒」を見つけて欲しいって私を雇ったのよ。|バックさんはいつも夜中に創作活動する人みたいなんだ。あなたがやったことのせいで1ヶ月も脚本の筆が進まなかったみたいでさ、謎の「インスピレーション泥棒」を見つけて欲しいって僕を雇ったんだ。"
+    ],
     "DialogueId": 51003314,
     "SpeakNpcId": 100001,
     "TalkActionId": [
@@ -42841,13 +43144,17 @@
     "DialogueId": 51003315
   },
   "51003316": {
-    "ContentJP": "{性别:冬を生き延びるための物資を買うには売った物の利益だけじゃ足りないはず。バックさんはお金がないといっても曲がりなりに貴族だから家が十分に暖かい。というわけで暖を取るためにバックさんの家に忍び込んだって感じかな？|冬を生き延びるための物資を買うには売った物の利益だけじゃ足りないはず。バックさんはお金がないといっても曲がりなりに貴族だから家が十分に暖かい。というわけで暖を取るためにバックさんの家に忍び込んだって感じだな？}",
+    "ContentJP": [
+      "性别:冬を生き延びるための物資を買うには売った物の利益だけじゃ足りないはず。バックさんはお金がないといっても曲がりなりに貴族だから家が十分に暖かい。というわけで暖を取るためにバックさんの家に忍び込んだって感じかな？|冬を生き延びるための物資を買うには売った物の利益だけじゃ足りないはず。バックさんはお金がないといっても曲がりなりに貴族だから家が十分に暖かい。というわけで暖を取るためにバックさんの家に忍び込んだって感じだな？"
+    ],
     "DialogueId": 51003316,
     "NextDialogue": 51003317,
     "SpeakNpcId": 100001
   },
   "51003317": {
-    "ContentJP": "{性别:バックさんを選んだ理由は、度数の低いお酒を少し口にするだけでも彼は眠り落ちてしまうから。寝てしまえば気づかれることなく安心して一夜を乗り越えられる……でしょ？|バックさんを選んだ理由は、度数の低いお酒を少し口にするだけでも彼は眠り落ちてしまうから。寝てしまえば気づかれることなく安心して一夜を乗り越えられる……だよな？}",
+    "ContentJP": [
+      "性别:バックさんを選んだ理由は、度数の低いお酒を少し口にするだけでも彼は眠り落ちてしまうから。寝てしまえば気づかれることなく安心して一夜を乗り越えられる……でしょ？|バックさんを選んだ理由は、度数の低いお酒を少し口にするだけでも彼は眠り落ちてしまうから。寝てしまえば気づかれることなく安心して一夜を乗り越えられる……だよな？"
+    ],
     "DialogueId": 51003317,
     "NextDialogue": 51003318,
     "SpeakNpcId": 100001
@@ -42871,7 +43178,9 @@
     ]
   },
   "51003320": {
-    "ContentJP": "{性别:私にどうするかを決める権利はないから、とりあえずバックさんのところまで連行するよ。|僕にどうするかを決める権利はないから、とりあえずバックさんのところまで連行するよ。}",
+    "ContentJP": [
+      "性别:私にどうするかを決める権利はないから、とりあえずバックさんのところまで連行するよ。|僕にどうするかを決める権利はないから、とりあえずバックさんのところまで連行するよ。"
+    ],
     "DialogueId": 51003320,
     "SpeakNpcId": 100001
   },
@@ -43409,7 +43718,9 @@
     "NextDialogue": 51003807
   },
   "51003807": {
-    "ContentJP": "{性别:それはただの髪の毛だよ。|それはただの髪の毛だ。}",
+    "ContentJP": [
+      "性别:それはただの髪の毛だよ。|それはただの髪の毛だ。"
+    ],
     "DialogueId": 51003807,
     "NextDialogue": 51003808,
     "SpeakNpcId": 100001
@@ -43583,7 +43894,9 @@
     ]
   },
   "51003906": {
-    "ContentJP": "{性别:あいつらに虐められているの？|あいつらに虐められているのか？}",
+    "ContentJP": [
+      "性别:あいつらに虐められているの？|あいつらに虐められているのか？"
+    ],
     "DialogueId": 51003906,
     "NextDialogue": 51003907,
     "SpeakNpcId": 100001,
@@ -43654,7 +43967,9 @@
     ]
   },
   "51003915": {
-    "ContentJP": "{性别:人を平気で傷つけられるヤツこそ悪いんだよ。|人を平気で傷つけられるヤツこそ悪いんだ。}",
+    "ContentJP": [
+      "性别:人を平気で傷つけられるヤツこそ悪いんだよ。|人を平気で傷つけられるヤツこそ悪いんだ。"
+    ],
     "DialogueId": 51003915,
     "NextDialogue": 51003916,
     "SpeakNpcId": 100001,
@@ -43678,7 +43993,9 @@
     ]
   },
   "51003918": {
-    "ContentJP": "{性别:悪魔だって言うなら、悪魔らしくやってやればいいじゃない。|悪魔だって言うなら、悪魔らしくやってやればいいじゃないか。}",
+    "ContentJP": [
+      "性别:悪魔だって言うなら、悪魔らしくやってやればいいじゃない。|悪魔だって言うなら、悪魔らしくやってやればいいじゃないか。"
+    ],
     "DialogueId": 51003918,
     "NextDialogue": 51003922,
     "SpeakNpcId": 100001,
@@ -43696,7 +44013,9 @@
     ]
   },
   "51003920": {
-    "ContentJP": "{性别:自分たちの享楽であなたに嘘をついているだけ。でも……|自分たちの享楽であなたに嘘をついているだけだ。でも……}",
+    "ContentJP": [
+      "性别:自分たちの享楽であなたに嘘をついているだけ。でも……|自分たちの享楽であなたに嘘をついているだけだ。でも……"
+    ],
     "DialogueId": 51003920,
     "NextDialogue": 51003921,
     "SpeakNpcId": 100001,
@@ -43705,7 +44024,9 @@
     ]
   },
   "51003921": {
-    "ContentJP": "{性别:悪魔だって言うなら、悪魔らしくやってやればいいじゃない。|悪魔だって言うなら、悪魔らしくやってやればいいじゃないか。}",
+    "ContentJP": [
+      "性别:悪魔だって言うなら、悪魔らしくやってやればいいじゃない。|悪魔だって言うなら、悪魔らしくやってやればいいじゃないか。"
+    ],
     "DialogueId": 51003921,
     "NextDialogue": 51003922,
     "SpeakNpcId": 100001
@@ -43869,7 +44190,9 @@
   },
   "51004103": {
     "Camera": "-97.533691,-5.197266,119.393066,0.000077,-0.399996,173.011871,20.0,100000.0,false,DoNotOverride,2.8",
-    "ContentJP": "{性别:待ちなよ。|待てよ。}",
+    "ContentJP": [
+      "性别:待ちなよ。|待てよ。"
+    ],
     "DialogueId": 51004103,
     "NextDialogue": 51004104,
     "SpeakNpcId": 100001,
@@ -43879,7 +44202,9 @@
   },
   "51004104": {
     "Camera": "-97.533691,-5.197266,119.393066,0.000077,-0.399996,173.011871,20.0,100000.0,false,DoNotOverride,2.8",
-    "ContentJP": "{性别:フェイはもう私という悪魔と契約を結んだ。あんたたちが危害を加えたりしたら、私は1分も経たず目の前に現れるから。忘れないでね。|フェイはもう僕という悪魔と契約を結んだ。あんたたちが危害を加えたりしたら、僕は1分も経たず目の前に現れるから。忘れるなよ。}",
+    "ContentJP": [
+      "性别:フェイはもう私という悪魔と契約を結んだ。あんたたちが危害を加えたりしたら、私は1分も経たず目の前に現れるから。忘れないでね。|フェイはもう僕という悪魔と契約を結んだ。あんたたちが危害を加えたりしたら、僕は1分も経たず目の前に現れるから。忘れるなよ。"
+    ],
     "DialogueId": 51004104,
     "NextDialogue": 51004105,
     "SpeakNpcId": 100001,
@@ -43901,7 +44226,9 @@
     "DialogueId": 51004106
   },
   "51004107": {
-    "ContentJP": "{性别:ほら、あいつらなんてこの程度だよ。|ほら、あいつらなんてこの程度さ。}",
+    "ContentJP": [
+      "性别:ほら、あいつらなんてこの程度だよ。|ほら、あいつらなんてこの程度さ。"
+    ],
     "DialogueId": 51004107,
     "NextDialogue": 51004108,
     "SpeakNpcId": 100001
@@ -43939,7 +44266,9 @@
     ]
   },
   "51004112": {
-    "ContentJP": "{性别:どういたしまして。これでしばらくは手を出してこないはず。私の住所を教えておくから——あいつらがまた来た時には私を探してね。それじゃ、家まで送るよ。|どういたしまして。これでしばらくは手を出してこないはず。僕の住所を教えておくから——あいつらがまた来た時には僕を探してくれ。それじゃ、家まで送るよ。}",
+    "ContentJP": [
+      "性别:どういたしまして。これでしばらくは手を出してこないはず。私の住所を教えておくから——あいつらがまた来た時には私を探してね。それじゃ、家まで送るよ。|どういたしまして。これでしばらくは手を出してこないはず。僕の住所を教えておくから——あいつらがまた来た時には僕を探してくれ。それじゃ、家まで送るよ。"
+    ],
     "DialogueId": 51004112,
     "NextDialogue": 51004113,
     "SpeakNpcId": 100001
@@ -43966,7 +44295,9 @@
     "DialogueId": 51004115
   },
   "51004116": {
-    "ContentJP": "{性别:もうあいつらの程度は見たでしょ？威張り散らしていようが、いざ自分より強いヤツが来たら逃げるしかできない。|もうあいつらの程度は見ただろ？威張り散らしていようが、いざ自分より強いヤツが来たら逃げるしかできない。}",
+    "ContentJP": [
+      "性别:もうあいつらの程度は見たでしょ？威張り散らしていようが、いざ自分より強いヤツが来たら逃げるしかできない。|もうあいつらの程度は見ただろ？威張り散らしていようが、いざ自分より強いヤツが来たら逃げるしかできない。"
+    ],
     "DialogueId": 51004116,
     "NextDialogue": 51004117,
     "SpeakNpcId": 100001,
@@ -43975,13 +44306,17 @@
     ]
   },
   "51004117": {
-    "ContentJP": "{性别:見掛け倒しの嘘つきなんだから、あいつらがペラペラ話していたことも嘘だらけ。フェイ、あなたは正真正銘のヒト族なの。下手な嘘に騙されちゃダメよ。|見掛け倒しの嘘つきなんだから、あいつらがペラペラ話していたことも嘘だらけ。フェイ、あなたは正真正銘のヒト族だよ。下手な嘘に騙されちゃダメだ。}",
+    "ContentJP": [
+      "性别:見掛け倒しの嘘つきなんだから、あいつらがペラペラ話していたことも嘘だらけ。フェイ、あなたは正真正銘のヒト族なの。下手な嘘に騙されちゃダメよ。|見掛け倒しの嘘つきなんだから、あいつらがペラペラ話していたことも嘘だらけ。フェイ、あなたは正真正銘のヒト族だよ。下手な嘘に騙されちゃダメだ。"
+    ],
     "DialogueId": 51004117,
     "NextDialogue": 51004118,
     "SpeakNpcId": 100001
   },
   "51004118": {
-    "ContentJP": "{性别:他人の悪意で自分を疑ったり、自分を責めたりしてはいけない……私の家族が聞かせてくれた教訓。覚えておいてね。|他人の悪意で自分を疑ったり、自分を責めたりしてはいけない……僕の家族が聞かせてくれた教訓。覚えておいて。}",
+    "ContentJP": [
+      "性别:他人の悪意で自分を疑ったり、自分を責めたりしてはいけない……私の家族が聞かせてくれた教訓。覚えておいてね。|他人の悪意で自分を疑ったり、自分を責めたりしてはいけない……僕の家族が聞かせてくれた教訓。覚えておいて。"
+    ],
     "DialogueId": 51004118,
     "NextDialogue": 51004119,
     "SpeakNpcId": 100001
@@ -44417,7 +44752,9 @@
     "SpeakNpcId": 700101
   },
   "51004308": {
-    "ContentJP": "{性别:そんな……私も彼女が別の場所で生活できるよう、手助けできるかも。|そんな……僕も彼女が別の場所で生活できるよう、手助けできるかも。}",
+    "ContentJP": [
+      "性别:そんな……私も彼女が別の場所で生活できるよう、手助けできるかも。|そんな……僕も彼女が別の場所で生活できるよう、手助けできるかも。"
+    ],
     "DialogueId": 51004308,
     "NextDialogue": 51004309,
     "SpeakNpcId": 100001
@@ -45653,7 +45990,9 @@
     ]
   },
   "51005704": {
-    "ContentJP": "{性别:……大丈夫？ボスに何かを言われちゃったの？|……大丈夫？ボスに何かを言われちゃったのか？}",
+    "ContentJP": [
+      "性别:……大丈夫？ボスに何かを言われちゃったの？|……大丈夫？ボスに何かを言われちゃったのか？"
+    ],
     "DialogueId": 51005704,
     "NextDialogue": 51005705
   },
@@ -46746,7 +47085,9 @@
   },
   "51006105": {
     "Camera": "-47.697998,-122.447266,163.110352,0.000107,-15.799224,-21.20565,28.0,100000.0,false,DoNotOverride,2.8",
-    "ContentJP": "{nickname}は最近知り合った我が下僕で、スノウが一人前の月狩り人へと導いてあげているのさ。",
+    "ContentJP": [
+      "{nickname}は最近知り合った我が下僕で、スノウが一人前の月狩り人へと導いてあげているのさ。"
+    ],
     "DialogueId": 51006105,
     "ExStoryInfo": "Player",
     "LookAt": [
@@ -47674,7 +48015,9 @@
   },
   "51006823": {
     "Camera": "-147.616211,-244.476562,79.759766,0.000266,7.39762,69.851921,80.0,318.95755,false,Manual,11.670671",
-    "ContentJP": "{性别:坊や|お嬢さん}、私はこの世界で長い、本当に長い時を生きてきたわ。無数の魂を見送り、何度もそんな言葉を聞いてきたの。",
+    "ContentJP": [
+      "{性别:坊や|お嬢さん}、私はこの世界で長い、本当に長い時を生きてきたわ。無数の魂を見送り、何度もそんな言葉を聞いてきたの。"
+    ],
     "DialogueId": 51006823,
     "FinalCamera": "-147.616211,-244.476562,87.290039,0.000268,7.39762,69.851921,80.0,318.95755,false,Manual,11.670671",
     "NextDialogue": 51006824,
@@ -47855,7 +48198,9 @@
     ]
   },
   "51006841": {
-    "ContentJP": "{性别:坊や|お嬢さん}、行く手が不確かででも、どうかその道を歩み続けてね。",
+    "ContentJP": [
+      "{性别:坊や|お嬢さん}、行く手が不確かででも、どうかその道を歩み続けてね。"
+    ],
     "DialogueId": 51006841,
     "NextDialogue": 51006842,
     "SpeakNpcId": 700133,
@@ -51299,7 +51644,9 @@
     "ContentJP": "あー、{nickname}！！マジで助かった、少し手伝ってくれよ？",
     "DialogueId": 71002101,
     "SpeakNpcId": 818007,
-    "Subtitle": "{nickname}! Thank goodness you're here! I need your help!"
+    "Subtitle": [
+      "{nickname}! Thank goodness you're here! I need your help!"
+    ]
   },
   "71002102": {
     "ContentJP": "この物資をダグリ湖の仲間に届けなきゃなんだけどさ、急に腹が痛くなっちまって。代わりに届けてくれないか？頼むって！",
@@ -51368,7 +51715,9 @@
     "Subtitle": "Ah, sorry, my bad! Lesson learned — won't happen again!"
   },
   "71002112": {
-    "ContentJP": "{nickname}、これ謝礼な。面倒かけてすまないな。",
+    "ContentJP": [
+      "{nickname}、これ謝礼な。面倒かけてすまないな。"
+    ],
     "DialogueId": 71002112,
     "SpeakNpcId": 818007,
     "Subtitle": "Here, {nickname}. Take this as an apology. Sorry for dragging you into this mess!"
@@ -51407,7 +51756,9 @@
     "Subtitle": "Ah, sorry, my bad! Lesson learned — won't happen again!"
   },
   "71002118": {
-    "ContentJP": "{nickname}、これ謝礼な。面倒かけてすまないな。",
+    "ContentJP": [
+      "{nickname}、これ謝礼な。面倒かけてすまないな。"
+    ],
     "DialogueId": 71002118,
     "SpeakNpcId": 818007,
     "Subtitle": "Here, {nickname}. Take this as an apology. Sorry for dragging you into this mess!"
@@ -52073,7 +52424,9 @@
     "VoiceName": "voice/$Locale$/inv/Fuluo/004/C84C3630"
   },
   "80010425": {
-    "Content": "{NickName}，我想，您拥有一位过于优秀的骑士。",
+    "Content": [
+      "{NickName}，我想，您拥有一位过于优秀的骑士。"
+    ],
     "DialogueId": 80010425,
     "ExStoryInfo": "Player",
     "GUID": "C84C365A",
@@ -52098,7 +52451,9 @@
     "VoiceName": "voice/$Locale$/inv/Fuluo/004/C84C36D8"
   },
   "80010429": {
-    "Content": "{NickName}，您真的是一个过于天真的家伙。",
+    "Content": [
+      "{NickName}，您真的是一个过于天真的家伙。"
+    ],
     "DialogueId": 80010429,
     "ExStoryInfo": "Player",
     "GUID": "C84C3702",
@@ -53431,7 +53786,9 @@
     "VoiceName": "voice/$Locale$/inv/Landi/001/C858D418"
   },
   "80030115": {
-    "ContentJP": "{性别:……ベレニカは無事なのか？|……ベレニカは無事なの？}",
+    "ContentJP": [
+      "性别:……ベレニカは無事なのか？|……ベレニカは無事なの？"
+    ],
     "DialogueId": 80030115,
     "ExStoryInfo": "Player",
     "NextDialogue": 80030116
@@ -53444,7 +53801,9 @@
     "VoiceName": "voice/$Locale$/inv/Landi/001/C858D419"
   },
   "80030117": {
-    "ContentJP": "{性别:いまさらとぼけてたって遅いぞ。|いまさらとぼけてたって遅いよ。}",
+    "ContentJP": [
+      "性别:いまさらとぼけてたって遅いぞ。|いまさらとぼけてたって遅いよ。"
+    ],
     "DialogueId": 80030117,
     "ExStoryInfo": "Player",
     "NextDialogue": 80030118
@@ -53499,7 +53858,9 @@
     "VoiceName": "voice/$Locale$/inv/Landi/001/C858D421"
   },
   "80030125": {
-    "ContentJP": "{性别:ランディーの保証が本当かどうか僕には確認できない。|ランディーの保証が本当かどうか私には確認できない。}",
+    "ContentJP": [
+      "性别:ランディーの保証が本当かどうか僕には確認できない。|ランディーの保証が本当かどうか私には確認できない。"
+    ],
     "DialogueId": 80030125,
     "ExStoryInfo": "Player",
     "GUID": "C858D422",
@@ -54434,7 +54795,9 @@
   },
   "80040108": {
     "Camera": "-242.41748,-160.47583,127.948975,0.000001,-1.000022,33.395008,35.0,100000.0,false,DoNotOverride,2.8",
-    "ContentJP": "{性别:ザクロが問題じゃなくて、ザクロと魚を一緒に煮ちゃうのが問題なんだって。変な味になっちゃうよ？|ザクロが問題じゃなくて、ザクロと魚を一緒に煮ちゃうのが問題なんだって。変な味になっちゃうでしょ？}",
+    "ContentJP": [
+      "性别:ザクロが問題じゃなくて、ザクロと魚を一緒に煮ちゃうのが問題なんだって。変な味になっちゃうよ？|ザクロが問題じゃなくて、ザクロと魚を一緒に煮ちゃうのが問題なんだって。変な味になっちゃうでしょ？"
+    ],
     "DefaultLookAt": "TalkNpc",
     "DialogueId": 80040108,
     "ExStoryInfo": "Player",
@@ -54644,7 +55007,9 @@
   },
   "80040122": {
     "Camera": "-90.027588,-69.366699,122.314087,0.0,0.599998,18.390762,35.0,100000.0,false,DoNotOverride,2.8",
-    "ContentJP": "{性别:そうだったんだ……|そうだったの……}",
+    "ContentJP": [
+      "性别:そうだったんだ……|そうだったの……"
+    ],
     "DefaultLookAt": "TalkNpc",
     "DialogueId": 80040122,
     "ExStoryInfo": "Player",
@@ -54693,7 +55058,9 @@
   },
   "80040125": {
     "Camera": "-90.027588,-69.366699,122.314087,0.0,0.599998,18.390762,35.0,100000.0,false,DoNotOverride,2.8",
-    "ContentJP": "{性别:いや、違う、そんなことないって！ベレが作ってくれる料理はいつもおいしいよ。ただイチゴの煮物と、エビのハチミツソテーだけはいまいちだったかなって。|ううん、違うの、そんなことないって！ベレが作ってくれる料理はいつもおいしいよ。ただイチゴの煮物と、エビのハチミツソテーだけはいまいちだったかなって。}",
+    "ContentJP": [
+      "性别:いや、違う、そんなことないって！ベレが作ってくれる料理はいつもおいしいよ。ただイチゴの煮物と、エビのハチミツソテーだけはいまいちだったかなって。|ううん、違うの、そんなことないって！ベレが作ってくれる料理はいつもおいしいよ。ただイチゴの煮物と、エビのハチミツソテーだけはいまいちだったかなって。"
+    ],
     "DefaultLookAt": "TalkNpc",
     "DialogueId": 80040125,
     "ExStoryInfo": "Player",
@@ -54743,7 +55110,9 @@
   },
   "80040128": {
     "Camera": "-242.41748,-160.47583,127.948975,0.000001,-1.000022,33.395008,35.0,100000.0,false,DoNotOverride,2.8",
-    "ContentJP": "{性别:もちろん。僕がベレに嘘ついたことないよね？|もちろん。私がベレに嘘ついたことないでしょ？}",
+    "ContentJP": [
+      "性别:もちろん。僕がベレに嘘ついたことないよね？|もちろん。私がベレに嘘ついたことないでしょ？"
+    ],
     "DefaultLookAt": "TalkNpc",
     "DialogueId": 80040128,
     "ExStoryInfo": "Player",
@@ -54780,7 +55149,9 @@
   },
   "80040131": {
     "Camera": "-242.41748,-160.47583,127.948975,0.000001,-1.000022,33.395008,35.0,100000.0,false,DoNotOverride,2.8",
-    "ContentJP": "{性别:少し甘くて、少し酸っぱ――いや、ダメ、秘密。|少し甘くて、少し酸っぱ——ううん、ダメ、秘密。}",
+    "ContentJP": [
+      "性别:少し甘くて、少し酸っぱ――いや、ダメ、秘密。|少し甘くて、少し酸っぱ——ううん、ダメ、秘密。"
+    ],
     "DefaultLookAt": "TalkNpc",
     "DialogueId": 80040131,
     "ExStoryInfo": "Player",
@@ -54996,7 +55367,9 @@
   },
   "80040208": {
     "Camera": "-114.930664,-76.211426,122.200439,0.000002,-0.500004,56.779747,35.0,100000.0,false,DoNotOverride,2.8",
-    "ContentJP": "{性别:なにかあったら、まずは自分の身を守ろうって、何度も言っているのに。|なにかあったら、まずは自分の身を守ろうねって、何度も言っているのに。}",
+    "ContentJP": [
+      "性别:なにかあったら、まずは自分の身を守ろうって、何度も言っているのに。|なにかあったら、まずは自分の身を守ろうねって、何度も言っているのに。"
+    ],
     "DefaultLookAt": "TalkNpc",
     "DialogueId": 80040208,
     "ExStoryInfo": "Player",
@@ -55010,7 +55383,9 @@
   },
   "80040209": {
     "Camera": "-114.930664,-76.211426,122.200439,0.000002,-0.500004,56.779747,35.0,100000.0,false,DoNotOverride,2.8",
-    "ContentJP": "{性别:さっきのワシだって、なんで真正面から攻撃を受け止めたんだ？避ければよかったのに――まだ痛むかな？|さっきのワシだって、なんで真正面から攻撃を受け止めたの？避ければよかったのに――まだ痛むかな？}",
+    "ContentJP": [
+      "性别:さっきのワシだって、なんで真正面から攻撃を受け止めたんだ？避ければよかったのに――まだ痛むかな？|さっきのワシだって、なんで真正面から攻撃を受け止めたの？避ければよかったのに――まだ痛むかな？"
+    ],
     "DefaultLookAt": "TalkNpc",
     "DialogueId": 80040209,
     "ExStoryInfo": "Player",
@@ -55039,7 +55414,9 @@
   },
   "80040211": {
     "Camera": "-114.930664,-76.211426,122.200439,0.000002,-0.500004,56.779747,35.0,100000.0,false,DoNotOverride,2.8",
-    "ContentJP": "{性别:ベレが避けたら僕だって避けるさ！|ベレが避けたら私だって避けるよ！}",
+    "ContentJP": [
+      "性别:ベレが避けたら僕だって避けるさ！|ベレが避けたら私だって避けるよ！"
+    ],
     "DefaultLookAt": "TalkNpc",
     "DialogueId": 80040211,
     "ExStoryInfo": "Player",
@@ -55096,7 +55473,9 @@
   },
   "80040215": {
     "Camera": "-114.930664,-76.211426,122.200439,0.000002,-0.500004,56.779747,35.0,100000.0,false,DoNotOverride,2.8",
-    "ContentJP": "{性别:あの時も「次はしない」って言ったのに。「ごめんね、次こそはしない」の繰り返しだったじゃないか。|あの時も「次はしない」って言ったのに。「ごめんね、次こそはしない」の繰り返しだったじゃない。}",
+    "ContentJP": [
+      "性别:あの時も「次はしない」って言ったのに。「ごめんね、次こそはしない」の繰り返しだったじゃないか。|あの時も「次はしない」って言ったのに。「ごめんね、次こそはしない」の繰り返しだったじゃない。"
+    ],
     "DefaultLookAt": "TalkNpc",
     "DialogueId": 80040215,
     "ExStoryInfo": "Player",
@@ -55141,7 +55520,9 @@
   },
   "80040218": {
     "Camera": "-114.930664,-76.211426,122.200439,0.000002,-0.500004,56.779747,35.0,100000.0,false,DoNotOverride,2.8",
-    "ContentJP": "{性别:大丈夫、話し上手にならなくてもいいさ。ベレの代わりに僕が話すから。ベレが僕の盾になってくれるなら、僕はベレの口になればいい。|大丈夫、話し上手にならなくてもいいの。ベレの代わりに私が話すから。ベレが私の盾になってくれるなら、私はベレの口になればいい。}",
+    "ContentJP": [
+      "性别:大丈夫、話し上手にならなくてもいいさ。ベレの代わりに僕が話すから。ベレが僕の盾になってくれるなら、僕はベレの口になればいい。|大丈夫、話し上手にならなくてもいいの。ベレの代わりに私が話すから。ベレが私の盾になってくれるなら、私はベレの口になればいい。"
+    ],
     "DefaultLookAt": "TalkNpc",
     "DialogueId": 80040218,
     "ExStoryInfo": "Player",
@@ -55159,7 +55540,9 @@
   },
   "80040219": {
     "Camera": "-114.930664,-76.211426,122.200439,0.000002,-0.500004,56.779747,35.0,100000.0,false,DoNotOverride,2.8",
-    "ContentJP": "{性别:だから約束――悪い癖は絶対に直すこと、いい？子供の頃と違ってベレは強くなったんだから、痛い思いをしてまで立ち向かわなくてもいいんだ。|だから約束――悪い癖は絶対に直すこと、いい？子供の頃と違ってベレは強くなったんだから、痛い思いをしてまで立ち向かわなくてもいいの。}",
+    "ContentJP": [
+      "性别:だから約束――悪い癖は絶対に直すこと、いい？子供の頃と違ってベレは強くなったんだから、痛い思いをしてまで立ち向かわなくてもいいんだ。|だから約束――悪い癖は絶対に直すこと、いい？子供の頃と違ってベレは強くなったんだから、痛い思いをしてまで立ち向かわなくてもいいの。"
+    ],
     "DefaultLookAt": "TalkNpc",
     "DialogueId": 80040219,
     "ExStoryInfo": "Player",
@@ -55185,7 +55568,9 @@
   },
   "80040221": {
     "Camera": "-213.724854,-181.670166,129.200439,0.000002,-0.500004,59.580364,35.0,100000.0,false,DoNotOverride,2.8",
-    "ContentJP": "{性别:……だったら僕もそうしよう。効率的な戦い方だっていうなら、僕も危険から逃げないで全力で向かっていかないと。|……だったら私もそうしよう。効率的な戦い方だっていうなら、私も危険から逃げないで全力で向かっていかないと。}",
+    "ContentJP": [
+      "性别:……だったら僕もそうしよう。効率的な戦い方だっていうなら、僕も危険から逃げないで全力で向かっていかないと。|……だったら私もそうしよう。効率的な戦い方だっていうなら、私も危険から逃げないで全力で向かっていかないと。"
+    ],
     "DefaultLookAt": "TalkNpc",
     "DialogueId": 80040221,
     "ExStoryInfo": "Player",
@@ -55221,7 +55606,9 @@
   },
   "80040223": {
     "Camera": "-114.930664,-76.211426,122.200439,0.000002,-0.500004,56.779747,35.0,100000.0,false,DoNotOverride,2.8",
-    "ContentJP": "{性别:何も違いなんてないさ。僕がこんなこと言ったらベレは心配になっちゃうんだよね？だったら僕だって同じぐらいベレを心配しているの、わかって欲しいな。|何も違いなんてないよ。私がこんなこと言ったらベレは心配になっちゃうんだよね？だったら私だって同じぐらいベレを心配しているの、わかって欲しいな。}",
+    "ContentJP": [
+      "性别:何も違いなんてないさ。僕がこんなこと言ったらベレは心配になっちゃうんだよね？だったら僕だって同じぐらいベレを心配しているの、わかって欲しいな。|何も違いなんてないよ。私がこんなこと言ったらベレは心配になっちゃうんだよね？だったら私だって同じぐらいベレを心配しているの、わかって欲しいな。"
+    ],
     "DefaultLookAt": "TalkNpc",
     "DialogueId": 80040223,
     "ExStoryInfo": "Player",
@@ -55239,7 +55626,9 @@
   },
   "80040224": {
     "Camera": "-114.930664,-76.211426,122.200439,0.000002,-0.500004,56.779747,35.0,100000.0,false,DoNotOverride,2.8",
-    "ContentJP": "{性别:お願い、自分のことをもっと大切にして。僕のためだと思って。|お願い、自分のことをもっと大切にして。私のためだと思って。}",
+    "ContentJP": [
+      "性别:お願い、自分のことをもっと大切にして。僕のためだと思って。|お願い、自分のことをもっと大切にして。私のためだと思って。"
+    ],
     "DefaultLookAt": "TalkNpc",
     "DialogueId": 80040224,
     "ExStoryInfo": "Player",
@@ -55256,7 +55645,9 @@
   },
   "80040225": {
     "Camera": "-1.343994,35.349365,120.142456,0.0,0.599957,-154.814041,35.0,100000.0,false,DoNotOverride,2.8",
-    "ContentJP": "{nickname}……そうだね……",
+    "ContentJP": [
+      "{nickname}……そうだね……"
+    ],
     "DialogueId": 80040225,
     "ExStoryInfo": "Player",
     "GUID": "C85F4F6A",
@@ -55298,7 +55689,9 @@
   },
   "80040301": {
     "Camera": "223.874207,-164.812988,108.091064,0.000004,2.199922,151.586334,35.0,100000.0,false,DoNotOverride,2.8",
-    "ContentJP": "{nickname}、{nickname}？",
+    "ContentJP": [
+      "{nickname}、{nickname}？"
+    ],
     "DefaultLookAt": "TalkNpc",
     "DialogueId": 80040301,
     "ExStoryInfo": "Player",
@@ -55322,7 +55715,9 @@
   },
   "80040303": {
     "Camera": "-33.737366,42.100586,110.538879,0.000003,0.0,-56.211189,35.0,100000.0,false,DoNotOverride,2.8",
-    "ContentJP": "{性别:ベレ！どうした？血だらけじゃないか……あの化け物にやられたのか？怪我は！？|ベレ！どうしたの？血だらけじゃない……あの化け物にやられたの？怪我は！？}",
+    "ContentJP": [
+      "性别:ベレ！どうした？血だらけじゃないか……あの化け物にやられたのか？怪我は！？|ベレ！どうしたの？血だらけじゃない……あの化け物にやられたの？怪我は！？"
+    ],
     "DefaultLookAt": "TalkNpc",
     "DialogueId": 80040303,
     "ExStoryInfo": "Player",
@@ -55357,7 +55752,9 @@
   },
   "80040305": {
     "Camera": "-33.737366,42.100586,110.538879,0.000003,0.0,-56.211189,35.0,100000.0,false,DoNotOverride,2.8",
-    "ContentJP": "{性别:やっぱり、そうか。隠れて正解だったな。化け物たちが狂ったみたいに山を降りるのを見たから……|やっぱり、そうだったのね。隠れて正解だったな。化け物たちが狂ったみたいに山を降りるのを見たから……}",
+    "ContentJP": [
+      "性别:やっぱり、そうか。隠れて正解だったな。化け物たちが狂ったみたいに山を降りるのを見たから……|やっぱり、そうだったのね。隠れて正解だったな。化け物たちが狂ったみたいに山を降りるのを見たから……"
+    ],
     "DefaultLookAt": "TalkNpc",
     "DialogueId": 80040305,
     "ExStoryInfo": "Player",
@@ -55390,7 +55787,9 @@
   },
   "80040307": {
     "Camera": "-33.737366,42.100586,110.538879,0.000003,0.0,-56.211189,35.0,100000.0,false,DoNotOverride,2.8",
-    "ContentJP": "{性别:ともかく……ベレが僕を見つけてくれてよかった。こっちから探しに行こうかと思ったけど、ベレは強いから却って足手まといになるかと思って。|ともかく……ベレが私を見つけてくれてよかった。こっちから探しに行こうかと思ったけど、ベレは強いから、却って足手まといになるかと思って。}",
+    "ContentJP": [
+      "性别:ともかく……ベレが僕を見つけてくれてよかった。こっちから探しに行こうかと思ったけど、ベレは強いから却って足手まといになるかと思って。|ともかく……ベレが私を見つけてくれてよかった。こっちから探しに行こうかと思ったけど、ベレは強いから、却って足手まといになるかと思って。"
+    ],
     "DefaultLookAt": "TalkNpc",
     "DialogueId": 80040307,
     "ExStoryInfo": "Player",
@@ -55434,7 +55833,9 @@
   },
   "80040310": {
     "Camera": "-112.998718,247.66333,131.741333,0.00001,-2.199915,-71.812279,35.0,100000.0,false,DoNotOverride,2.8",
-    "ContentJP": "{性别:村の人たちはどうなったんだ？|村の人たちはどうなったの？}",
+    "ContentJP": [
+      "性别:村の人たちはどうなったんだ？|村の人たちはどうなったの？"
+    ],
     "DefaultLookAt": "TalkNpc",
     "DialogueId": 80040310,
     "ExStoryInfo": "Player",
@@ -55470,7 +55871,9 @@
   },
   "80040312": {
     "Camera": "-33.737366,42.100586,110.538879,0.000003,0.0,-56.211189,35.0,100000.0,false,DoNotOverride,2.8",
-    "ContentJP": "{性别:じゃあ僕がさっきまで隠れていた洞窟に行こう。|じゃあ私がさっきまで隠れていた洞窟に行こう。}",
+    "ContentJP": [
+      "性别:じゃあ僕がさっきまで隠れていた洞窟に行こう。|じゃあ私がさっきまで隠れていた洞窟に行こう。"
+    ],
     "DefaultLookAt": "TalkNpc",
     "DialogueId": 80040312,
     "ExStoryInfo": "Player",
@@ -55486,7 +55889,9 @@
   },
   "80040314": {
     "Camera": "110.972656,229.919922,117.47998,0.000003,0.399996,-115.012459,35.0,100000.0,false,DoNotOverride,2.8",
-    "ContentJP": "{nickname}、怖くない？",
+    "ContentJP": [
+      "{nickname}、怖くない？"
+    ],
     "DialogueId": 80040314,
     "ExStoryInfo": "Player",
     "FacialId": [
@@ -55507,7 +55912,9 @@
   },
   "80040315": {
     "Camera": "-306.419434,-104.34668,140.47998,0.000005,-2.999996,12.990878,35.0,100000.0,false,DoNotOverride,2.8",
-    "ContentJP": "{性别:ベレと一緒なら、なにも怖くない。いや……本当は少しだけワクワクしてるかも。この状況ってもしかすると、<H>チャンス</>かもしれないよね。|ベレと一緒なら、なにも怖くない。ううん……本当は少しだけワクワクしてるかも。この状況ってもしかすると、<H>チャンス</>かもしれないよね。}",
+    "ContentJP": [
+      "性别:ベレと一緒なら、なにも怖くない。いや……本当は少しだけワクワクしてるかも。この状況ってもしかすると、<H>チャンス</>かもしれないよね。|ベレと一緒なら、なにも怖くない。ううん……本当は少しだけワクワクしてるかも。この状況ってもしかすると、<H>チャンス</>かもしれないよね。"
+    ],
     "DefaultLookAt": "TalkNpc",
     "DialogueId": 80040315,
     "ExStoryInfo": "Player",
@@ -55526,7 +55933,9 @@
   },
   "80040316": {
     "Camera": "-124.392578,-33.779297,127.513062,0.000005,-2.39993,23.590912,35.0,100000.0,false,DoNotOverride,2.8",
-    "ContentJP": "{性别:ずっと考えていたんだ。いつか……パーガトリー島から出られたらって。ベレはどう思う？|ずっと考えていたの。いつか……パーガトリー島から出られたらって。ベレはどう思う？}",
+    "ContentJP": [
+      "性别:ずっと考えていたんだ。いつか……パーガトリー島から出られたらって。ベレはどう思う？|ずっと考えていたの。いつか……パーガトリー島から出られたらって。ベレはどう思う？"
+    ],
     "DefaultLookAt": "TalkNpc",
     "DialogueId": 80040316,
     "ExStoryInfo": "Player",
@@ -55557,7 +55966,9 @@
   },
   "80040318": {
     "Camera": "-124.392578,-33.779297,127.513062,0.000005,-2.39993,23.590872,35.0,100000.0,false,DoNotOverride,2.8",
-    "ContentJP": "{性别:そうじゃないけど。ただ……パーガトリー島は狭すぎるんだ。1日もあれば一周できてしまう。|そうじゃないけど。ただ……パーガトリー島は狭すぎるの。1日もあれば一周できてしまうでしょ。}",
+    "ContentJP": [
+      "性别:そうじゃないけど。ただ……パーガトリー島は狭すぎるんだ。1日もあれば一周できてしまう。|そうじゃないけど。ただ……パーガトリー島は狭すぎるの。1日もあれば一周できてしまうでしょ。"
+    ],
     "DefaultLookAt": "TalkNpc",
     "DialogueId": 80040318,
     "ExStoryInfo": "Player",
@@ -55590,7 +56001,9 @@
   },
   "80040320": {
     "Camera": "-124.392578,-33.779297,127.513062,0.000005,-2.39993,23.590872,35.0,100000.0,false,DoNotOverride,2.8",
-    "ContentJP": "{性别:でも本当は違うって僕は知っている。あの本を覚えている？『樹に宿る月』……|でも本当は違うって私は知っている。あの本を覚えている？『樹に宿る月』……}",
+    "ContentJP": [
+      "性别:でも本当は違うって僕は知っている。あの本を覚えている？『樹に宿る月』……|でも本当は違うって私は知っている。あの本を覚えている？『樹に宿る月』……"
+    ],
     "DefaultLookAt": "TalkNpc",
     "DialogueId": 80040320,
     "ExStoryInfo": "Player",
@@ -55615,7 +56028,9 @@
   },
   "80040322": {
     "Camera": "513.433594,-98.505859,273.006531,0.000025,2.199225,-50.412094,35.0,100000.0,false,DoNotOverride,2.8",
-    "ContentJP": "{性别:うん。パーガトリー島は世界の中心じゃないって、その本が教えてくれたんだ。地図で見たらアリより小さい点みたいな島なんだって。遥か海の先、天上樹よりもっと遠いところには、広い広い陸地があるんだ――|うん。パーガトリー島は世界の中心じゃないって、その本が教えてくれたの。地図で見たらアリより小さい点みたいな島なんだって。遥か海の先、天上樹よりもっと遠いところには、広い広い陸地があるの――}",
+    "ContentJP": [
+      "性别:うん。パーガトリー島は世界の中心じゃないって、その本が教えてくれたんだ。地図で見たらアリより小さい点みたいな島なんだって。遥か海の先、天上樹よりもっと遠いところには、広い広い陸地があるんだ――|うん。パーガトリー島は世界の中心じゃないって、その本が教えてくれたの。地図で見たらアリより小さい点みたいな島なんだって。遥か海の先、天上樹よりもっと遠いところには、広い広い陸地があるの――"
+    ],
     "DefaultLookAt": "TalkNpc",
     "DialogueId": 80040322,
     "ExStoryInfo": "Player",
@@ -55660,7 +56075,9 @@
   },
   "80040325": {
     "Camera": "-124.392578,-33.779297,127.513062,0.000005,-2.39993,23.590872,35.0,100000.0,false,DoNotOverride,2.8",
-    "ContentJP": "{性别:ヒュペリアよりもっと北に行けば、連なる山と流氷の海、極北の世界。そこには数え切れないほどの小さな集落が点在しているんだって。集落ごとにいろんな風習があって、どれも風変わりでおもしろいんだ。|ヒュペリアよりもっと北に行けば、連なる山と流氷の海、極北の世界。そこには数え切れないほどの小さな集落が点在しているんだって。集落ごとにいろんな風習があって、どれも風変わりでおもしろいの。}",
+    "ContentJP": [
+      "性别:ヒュペリアよりもっと北に行けば、連なる山と流氷の海、極北の世界。そこには数え切れないほどの小さな集落が点在しているんだって。集落ごとにいろんな風習があって、どれも風変わりでおもしろいんだ。|ヒュペリアよりもっと北に行けば、連なる山と流氷の海、極北の世界。そこには数え切れないほどの小さな集落が点在しているんだって。集落ごとにいろんな風習があって、どれも風変わりでおもしろいの。"
+    ],
     "DefaultLookAt": "TalkNpc",
     "DialogueId": 80040325,
     "ExStoryInfo": "Player",
@@ -55675,7 +56092,9 @@
   },
   "80040326": {
     "Camera": "-124.392578,-33.779297,127.513062,0.000005,-2.39993,23.590872,35.0,100000.0,false,DoNotOverride,2.8",
-    "ContentJP": "{性别:島の南にはエリュシオン礼賛会があるんだ。ヒト族最古の国！神々の国だって言われていて、天よりも高い巨大な塔に神々が住んでいるらしいね。それから島の東には――|島の南にはエリュシオン礼賛会があるの。ヒト族最古の国！神々の国だって言われていて、天よりも高い巨大な塔に神々が住んでいるらしいね。それから島の東には――}",
+    "ContentJP": [
+      "性别:島の南にはエリュシオン礼賛会があるんだ。ヒト族最古の国！神々の国だって言われていて、天よりも高い巨大な塔に神々が住んでいるらしいね。それから島の東には――|島の南にはエリュシオン礼賛会があるの。ヒト族最古の国！神々の国だって言われていて、天よりも高い巨大な塔に神々が住んでいるらしいね。それから島の東には――"
+    ],
     "DefaultLookAt": "TalkNpc",
     "DialogueId": 80040326,
     "ExStoryInfo": "Player",
@@ -55690,7 +56109,9 @@
   },
   "80040327": {
     "Camera": "-306.419434,-104.34668,140.47998,0.000005,-2.999996,12.990878,35.0,100000.0,false,DoNotOverride,2.8",
-    "ContentJP": "{性别:ベレ、どうした？|ベレ、どうしたの？}",
+    "ContentJP": [
+      "性别:ベレ、どうした？|ベレ、どうしたの？"
+    ],
     "DefaultLookAt": "TalkNpc",
     "DialogueId": 80040327,
     "ExStoryInfo": "Player",
@@ -55726,7 +56147,9 @@
   },
   "80040329": {
     "Camera": "-124.392578,-33.779297,127.513062,0.000005,-2.39993,23.590872,35.0,100000.0,false,DoNotOverride,2.8",
-    "ContentJP": "{性别:そうだね。ベレは疲れているのに、僕ばかり話しちゃって、ごめん。まずは洞窟で休まないとだね。|そうだね。ベレは疲れているのに、私ばかり話しちゃって、ごめん。まずは洞窟で休まないとだね。}",
+    "ContentJP": [
+      "性别:そうだね。ベレは疲れているのに、僕ばかり話しちゃって、ごめん。まずは洞窟で休まないとだね。|そうだね。ベレは疲れているのに、私ばかり話しちゃって、ごめん。まずは洞窟で休まないとだね。"
+    ],
     "DefaultLookAt": "TalkNpc",
     "DialogueId": 80040329,
     "ExStoryInfo": "Player",
@@ -55819,7 +56242,9 @@
   },
   "80040405": {
     "Camera": "192.182617,198.81543,123.755371,-0.519562,0.0,-141.410492,35.0,100000.0,false,DoNotOverride,2.8",
-    "ContentJP": "{nickname}……！大丈夫？",
+    "ContentJP": [
+      "{nickname}……！大丈夫？"
+    ],
     "DialogueId": 80040405,
     "ExStoryInfo": "Player",
     "GUID": "C85F6CF2",
@@ -55831,7 +56256,9 @@
   },
   "80040406": {
     "Camera": "192.182617,198.81543,123.755371,-0.519562,0.0,-141.410492,35.0,100000.0,false,DoNotOverride,2.8",
-    "ContentJP": "{性别:ベレ、ごめん、僕……|ベレ、ごめん、私……}",
+    "ContentJP": [
+      "性别:ベレ、ごめん、僕……|ベレ、ごめん、私……"
+    ],
     "DialogueId": 80040406,
     "ExStoryInfo": "Player",
     "GUID": "C85F6D1C",
@@ -55907,7 +56334,9 @@
   },
   "80040414": {
     "Camera": "261.523438,-317.847656,112.167908,0.000088,0.0,120.388084,35.0,100000.0,false,DoNotOverride,2.8",
-    "ContentJP": "{nickname}はいつも私に聞くよね。どうしてベレはいつも助けてくれるのかって……うん、どうしてだろう？",
+    "ContentJP": [
+      "{nickname}はいつも私に聞くよね。どうしてベレはいつも助けてくれるのかって……うん、どうしてだろう？"
+    ],
     "DialogueId": 80040414,
     "ExStoryInfo": "Player",
     "FacialId": [
@@ -55924,7 +56353,9 @@
   },
   "80040415": {
     "Camera": "261.523438,-317.847656,112.167908,0.000088,0.0,120.988091,35.0,100000.0,false,DoNotOverride,2.8",
-    "ContentJP": "{nickname}の言うとおり、私もあなたと同じなのに。砂が目に入れば痛いし、手のひらをくすぐられたら笑っちゃうし、ナイフで切られたら血が出て、痛い。",
+    "ContentJP": [
+      "{nickname}の言うとおり、私もあなたと同じなのに。砂が目に入れば痛いし、手のひらをくすぐられたら笑っちゃうし、ナイフで切られたら血が出て、痛い。"
+    ],
     "DialogueId": 80040415,
     "ExStoryInfo": "Player",
     "FacialId": [
@@ -56070,7 +56501,9 @@
   },
   "80040427": {
     "Camera": "-89.0,-19.983398,126.830017,0.0,0.0,57.791512,35.0,100000.0,false,DoNotOverride,2.8",
-    "ContentJP": "{nickname}、一緒にここから出ようか。{nickname}が目を覚ましたら、自由で、広大な、遥か遠くへ。あなたが前に言ってくれたみたいな旅を――",
+    "ContentJP": [
+      "{nickname}、一緒にここから出ようか。{nickname}が目を覚ましたら、自由で、広大な、遥か遠くへ。あなたが前に言ってくれたみたいな旅を――"
+    ],
     "DialogueId": 80040427,
     "ExStoryInfo": "Player",
     "FacialId": [
@@ -56647,7 +57080,9 @@
     "NextDialogue": 80050207
   },
   "80050206": {
-    "ContentJP": "{性别:僕|私}の後ろに立ってごらん。冷たい風をさえぎってあげる。",
+    "ContentJP": [
+      "{性别:僕|私}の後ろに立ってごらん。冷たい風をさえぎってあげる。"
+    ],
     "DialogueId": 80050206,
     "ExStoryInfo": "Player",
     "GUID": "C865B4EC",
@@ -56694,7 +57129,9 @@
     "VoiceName": "voice/$Locale$/inv/Feina/002/C865B594"
   },
   "80050211": {
-    "ContentJP": "{性别:いや|ううん}、ニワトリのモモ肉に見える。",
+    "ContentJP": [
+      "{性别:いや|ううん}、ニワトリのモモ肉に見える。"
+    ],
     "DialogueId": 80050211,
     "ExStoryInfo": "Player",
     "GUID": "C865B5BE",
@@ -56722,7 +57159,9 @@
     "VoiceName": "voice/$Locale$/inv/Feina/002/C865B612"
   },
   "80050214": {
-    "ContentJP": "{性别:いや|ううん}、パンツを被ったイルカに見える。",
+    "ContentJP": [
+      "{性别:いや|ううん}、パンツを被ったイルカに見える。"
+    ],
     "DialogueId": 80050214,
     "ExStoryInfo": "Player",
     "GUID": "C865B63C",
@@ -56886,7 +57325,9 @@
     "VoiceName": "voice/$Locale$/inv/Feina/002/C865B8B2"
   },
   "80050230": {
-    "ContentJP": "{性别:僕|私}は好き。とてもきれいなお話だね。",
+    "ContentJP": [
+      "{性别:僕|私}は好き。とてもきれいなお話だね。"
+    ],
     "DialogueId": 80050230,
     "ExStoryInfo": "Player",
     "GUID": "C865B8DC",
@@ -56908,7 +57349,9 @@
     "VoiceName": "voice/$Locale$/inv/Feina/002/C865B906"
   },
   "80050232": {
-    "ContentJP": "{性别:僕|私}は好きじゃない。悲しすぎるよ。",
+    "ContentJP": [
+      "{性别:僕|私}は好きじゃない。悲しすぎるよ。"
+    ],
     "DialogueId": 80050232,
     "ExStoryInfo": "Player",
     "GUID": "C865B930",
@@ -57221,7 +57664,9 @@
     "VoiceName": "voice/$Locale$/inv/Feina/003/C865C6CE"
   },
   "80050316": {
-    "ContentJP": "{性别:どうしたんだ|どうしてたの}？あそこってたしか……",
+    "ContentJP": [
+      "{性别:どうしたんだ|どうしてたの}？あそこってたしか……"
+    ],
     "DialogueId": 80050316,
     "ExStoryInfo": "Player",
     "GUID": "C865C6F8",
@@ -57518,7 +57963,9 @@
     "NextDialogue": 80050411
   },
   "80050408": {
-    "ContentJP": "{性别:僕|私}、物語なんか書けないよ！？",
+    "ContentJP": [
+      "{性别:僕|私}、物語なんか書けないよ！？"
+    ],
     "DialogueId": 80050408,
     "ExStoryInfo": "Player",
     "GUID": "C865D610",
@@ -58410,7 +58857,9 @@
     "VoiceName": "voice/$Locale$/inv/Songlu/001/C86C1018"
   },
   "80060125": {
-    "ContentJP": "{性别:なんでそこまでして、いろんな食材にチャレンジするんだ？|なんでそこまでして、いろんな食材にチャレンジするの？}",
+    "ContentJP": [
+      "性别:なんでそこまでして、いろんな食材にチャレンジするんだ？|なんでそこまでして、いろんな食材にチャレンジするの？"
+    ],
     "DialogueId": 80060125,
     "ExStoryInfo": "Player",
     "GUID": "C86C1042",
@@ -59241,7 +59690,9 @@
     "VoiceName": "voice/$Locale$/inv/Songlu/003/C86C30BE"
   },
   "80060324": {
-    "ContentJP": "{性别:ヘーゼルナッツは走るのが速いだろ？|ヘーゼルナッツは走るのが速いじゃない？}",
+    "ContentJP": [
+      "性别:ヘーゼルナッツは走るのが速いだろ？|ヘーゼルナッツは走るのが速いじゃない？"
+    ],
     "DialogueId": 80060324,
     "ExStoryInfo": "Player",
     "GUID": "C86C30E8",
@@ -59262,7 +59713,9 @@
     "VoiceName": "voice/$Locale$/inv/Songlu/003/C86C3112"
   },
   "80060326": {
-    "ContentJP": "{性别:ヘーゼルナッツは食べ物を探せるだろ？|ヘーゼルナッツは食べ物を探せるじゃない？}",
+    "ContentJP": [
+      "性别:ヘーゼルナッツは食べ物を探せるだろ？|ヘーゼルナッツは食べ物を探せるじゃない？"
+    ],
     "DialogueId": 80060326,
     "ExStoryInfo": "Player",
     "GUID": "C86C313C",
@@ -59413,7 +59866,9 @@
   },
   "80060401": {
     "Camera": "138.374878,24.149231,125.715088,-0.0,-0.799959,-137.395096,35.0,175.0,false,Manual,2.8",
-    "ContentJP": "{nickname}！あの……とても急ぎな、質問があります！今すぐ答えてくれると嬉しいです！",
+    "ContentJP": [
+      "{nickname}！あの……とても急ぎな、質問があります！今すぐ答えてくれると嬉しいです！"
+    ],
     "DialogueId": 80060401,
     "ExStoryInfo": "Player",
     "FacialId": [
@@ -59736,7 +60191,9 @@
     "VoiceName": "voice/$Locale$/inv/Songlu/004/C86C4222"
   },
   "80060430": {
-    "ContentJP": "{性别:トリュフはたくさんの人をお腹いっぱいにしてるじゃないか。もう十分に立派だよ。|トリュフはたくさんの人をお腹いっぱいにしてるでしょ。もう十分に立派だよ。}",
+    "ContentJP": [
+      "性别:トリュフはたくさんの人をお腹いっぱいにしてるじゃないか。もう十分に立派だよ。|トリュフはたくさんの人をお腹いっぱいにしてるでしょ。もう十分に立派だよ。"
+    ],
     "DialogueId": 80060430,
     "ExStoryInfo": "Player",
     "GUID": "C86C424C",
@@ -59771,7 +60228,9 @@
     "VoiceName": "voice/$Locale$/inv/Songlu/004/C86C42A0"
   },
   "80060433": {
-    "ContentJP": "{nickname}って本当にお話し上手だねっ！今日は果物を採る時に木からゴロゴロって落っこちちゃったんだけど、今の言葉を聞いたら痛みが飛んでいったよっ！",
+    "ContentJP": [
+      "{nickname}って本当にお話し上手だねっ！今日は果物を採る時に木からゴロゴロって落っこちちゃったんだけど、今の言葉を聞いたら痛みが飛んでいったよっ！"
+    ],
     "DialogueId": 80060433,
     "ExStoryInfo": "Player",
     "FacialId": [
@@ -59837,7 +60296,9 @@
     "VoiceName": "voice/$Locale$/inv/Songlu/004/C86C439C"
   },
   "80060439": {
-    "ContentJP": "{nickname}は賢いけど、トリュフはアンポンタンだからなぁ。{nickname}でも全員を幸せにする方法が思いつかないなら、私じゃきっと見つけられないよね。",
+    "ContentJP": [
+      "{nickname}は賢いけど、トリュフはアンポンタンだからなぁ。{nickname}でも全員を幸せにする方法が思いつかないなら、私じゃきっと見つけられないよね。"
+    ],
     "DialogueId": 80060439,
     "ExStoryInfo": "Player",
     "FacialId": [
@@ -62059,7 +62520,9 @@
   },
   "80080209": {
     "Camera": "85.271484,124.675537,138.765625,0.000005,-0.999994,-133.190903,30.0,100000.0,false,DoNotOverride,2.8",
-    "ContentJP": "{nickname}のこと？{性别:彼|彼女}はよそから来た人だし、今は月狩り人で、保安署とは何も関係ないはずだよ。さっきは依頼のために来たみたいで……",
+    "ContentJP": [
+      "{nickname}のこと？{性别:彼|彼女}はよそから来た人だし、今は月狩り人で、保安署とは何も関係ないはずだよ。さっきは依頼のために来たみたいで……"
+    ],
     "DialogueId": 80080209,
     "ExStoryInfo": "Player",
     "GUID": "C878EF4A",
@@ -62146,7 +62609,9 @@
   },
   "80080216": {
     "Camera": "-312.857422,-61.016541,136.789062,0.0,0.0,3.203201,35.0,100000.0,false,DoNotOverride,2.8",
-    "ContentJP": "{nickname}はただの通りすがりの見知らぬ人。もしかすると明日にもこの街から離れるかもしれない。あなたは……何も……わかってない。私たちは長く生きられないのに。",
+    "ContentJP": [
+      "{nickname}はただの通りすがりの見知らぬ人。もしかすると明日にもこの街から離れるかもしれない。あなたは……何も……わかってない。私たちは長く生きられないのに。"
+    ],
     "DialogueId": 80080216,
     "ExStoryInfo": "Player",
     "GUID": "C878F070",
@@ -62321,7 +62786,9 @@
   },
   "80080230": {
     "Camera": "-30.181641,25.705566,134.960938,0.000002,0.0,-144.195145,35.0,100000.0,false,DoNotOverride,2.8",
-    "ContentJP": "{nickname}の記憶には存在するから。私の命は{性别:彼|彼女}と一緒に続いていくの。",
+    "ContentJP": [
+      "{nickname}の記憶には存在するから。私の命は{性别:彼|彼女}と一緒に続いていくの。"
+    ],
     "DialogueId": 80080230,
     "ExStoryInfo": "Player",
     "GUID": "C878F2BC",
@@ -62331,7 +62798,9 @@
   },
   "80080231": {
     "Camera": "-312.857422,-61.016541,136.789062,0.0,0.0,3.203201,35.0,100000.0,false,DoNotOverride,2.8",
-    "ContentJP": "{性别:彼|彼女}がサイキを忘れない保証は？",
+    "ContentJP": [
+      "{性别:彼|彼女}がサイキを忘れない保証は？"
+    ],
     "DialogueId": 80080231,
     "ExStoryInfo": "Player",
     "GUID": "C878F2E6",
@@ -62366,7 +62835,9 @@
   },
   "80080234": {
     "Camera": "-30.181641,25.705566,134.960938,0.000002,0.0,-144.195145,35.0,100000.0,false,DoNotOverride,2.8",
-    "ContentJP": "{nickname}の記憶に少しでもたくさんの私を残せるかもって。もちろん、勝手な想いだけど……",
+    "ContentJP": [
+      "{nickname}の記憶に少しでもたくさんの私を残せるかもって。もちろん、勝手な想いだけど……"
+    ],
     "DialogueId": 80080234,
     "ExStoryInfo": "Player",
     "GUID": "C878F364",
@@ -62594,7 +63065,9 @@
   },
   "80080304": {
     "Camera": "-96.466797,191.58667,114.650391,0.000046,4.999999,-93.795868,32.0,100000.0,false,DoNotOverride,2.8",
-    "ContentJP": "{性别:あの若造|あの娘}に引きとめられた時、お前さんも名残惜しそうだったからな。",
+    "ContentJP": [
+      "{性别:あの若造|あの娘}に引きとめられた時、お前さんも名残惜しそうだったからな。"
+    ],
     "DefaultLookAt": "TalkNpc",
     "DialogueId": 80080304,
     "ExStoryInfo": "Player",
@@ -63127,7 +63600,9 @@
     "VoiceName": "voice/$Locale$/inv/Zhangyu/001/C87F46B0"
   },
   "80090105": {
-    "ContentJP": "{性别:急に椅子がひとつ増えたの、タビテの変身だよね？|急に椅子がひとつ増えたの、タビテの変身でしょ？}",
+    "ContentJP": [
+      "性别:急に椅子がひとつ増えたの、タビテの変身だよね？|急に椅子がひとつ増えたの、タビテの変身でしょ？"
+    ],
     "DialogueId": 80090105,
     "ExStoryInfo": "Player",
     "GUID": "C87F46DA",
@@ -63141,7 +63616,9 @@
     "VoiceName": "voice/$Locale$/inv/Zhangyu/001/C87F4704"
   },
   "80090107": {
-    "ContentJP": "{性别:心配っていうより、うれしいよ。タビテが椅子に変身してまで僕を楽しませてくれたから。|心配っていうより、うれしいよ。タビテが椅子に変身してまで私を楽しませてくれたから。}",
+    "ContentJP": [
+      "性别:心配っていうより、うれしいよ。タビテが椅子に変身してまで僕を楽しませてくれたから。|心配っていうより、うれしいよ。タビテが椅子に変身してまで私を楽しませてくれたから。"
+    ],
     "DialogueId": 80090107,
     "ExStoryInfo": "Player",
     "GUID": "C87F472E",
@@ -63214,7 +63691,9 @@
     "VoiceName": "voice/$Locale$/inv/Zhangyu/001/C87F48A8"
   },
   "80090117": {
-    "ContentJP": "{性别:ふふっ――僕を目覚めさせるのは、悪魔の大泥棒さんの光り輝く勇姿さ！|ふふっ――私を目覚めさせるのは、悪魔の大泥棒さんの光り輝く勇姿ね！}",
+    "ContentJP": [
+      "性别:ふふっ――僕を目覚めさせるのは、悪魔の大泥棒さんの光り輝く勇姿さ！|ふふっ――私を目覚めさせるのは、悪魔の大泥棒さんの光り輝く勇姿ね！"
+    ],
     "DialogueId": 80090117,
     "ExStoryInfo": "Player",
     "GUID": "C87F48D2",
@@ -63306,7 +63785,9 @@
     "VoiceName": "voice/$Locale$/inv/Zhangyu/001/C87F4ACA"
   },
   "80090130": {
-    "ContentJP": "{性别:いや通りすがりの人はそこまで考えてないよ。「悪い大人」なんて言わなくてもさ？|いや通りすがりの人はそこまで考えてないよ。「悪い大人」なんて言わなくてもね？}",
+    "ContentJP": [
+      "性别:いや通りすがりの人はそこまで考えてないよ。「悪い大人」なんて言わなくてもさ？|いや通りすがりの人はそこまで考えてないよ。「悪い大人」なんて言わなくてもね？"
+    ],
     "DialogueId": 80090130,
     "ExStoryInfo": "Player",
     "GUID": "C87F4AF4",
@@ -63327,7 +63808,9 @@
     "VoiceName": "voice/$Locale$/inv/Zhangyu/001/C87F4B48"
   },
   "80090133": {
-    "ContentJP": "{性别:ずる賢い悪者がそんな能力を持っていたら、街全体が大騒ぎになっちゃうだろ？|ずる賢い悪者がそんな能力を持っていたら、街全体が大騒ぎになっちゃうでしょ？}",
+    "ContentJP": [
+      "性别:ずる賢い悪者がそんな能力を持っていたら、街全体が大騒ぎになっちゃうだろ？|ずる賢い悪者がそんな能力を持っていたら、街全体が大騒ぎになっちゃうでしょ？"
+    ],
     "DialogueId": 80090133,
     "ExStoryInfo": "Player",
     "GUID": "C87F4B72",
@@ -63464,7 +63947,9 @@
     "VoiceName": "voice/$Locale$/inv/Zhangyu/002/C87F57C0"
   },
   "80090209": {
-    "ContentJP": "{性别:うわ、痛そうだな！これからは僕がタビテの耳を守ってあげるからな！|うわ、痛そうだね！これから私がタビテの耳を守ってあげるね！}",
+    "ContentJP": [
+      "性别:うわ、痛そうだな！これからは僕がタビテの耳を守ってあげるからな！|うわ、痛そうだね！これから私がタビテの耳を守ってあげるね！"
+    ],
     "DialogueId": 80090209,
     "ExStoryInfo": "Player",
     "GUID": "C87F57EA",
@@ -63529,7 +64014,9 @@
     "VoiceName": "voice/$Locale$/inv/Zhangyu/002/C87F593A"
   },
   "80090218": {
-    "ContentJP": "{性别:タビテは悪魔なんて言うほどの悪い子じゃない。ただ……とっても特別だったんだ。|タビテは悪魔なんて言うほどの悪い子じゃない。ただ……とっても特別だったの。}",
+    "ContentJP": [
+      "性别:タビテは悪魔なんて言うほどの悪い子じゃない。ただ……とっても特別だったんだ。|タビテは悪魔なんて言うほどの悪い子じゃない。ただ……とっても特別だったの。"
+    ],
     "DialogueId": 80090218,
     "ExStoryInfo": "Player",
     "GUID": "C87F5964",
@@ -63649,7 +64136,9 @@
     "VoiceName": "voice/$Locale$/inv/Zhangyu/003/C87F67AA"
   },
   "80090306": {
-    "ContentJP": "{性别:悪さって……イタズラで済む範囲じゃなかったのか？|悪さって……イタズラで済む範囲じゃなかったの？}",
+    "ContentJP": [
+      "性别:悪さって……イタズラで済む範囲じゃなかったのか？|悪さって……イタズラで済む範囲じゃなかったの？"
+    ],
     "DialogueId": 80090306,
     "ExStoryInfo": "Player",
     "GUID": "C87F67D4",
@@ -63762,7 +64251,9 @@
     "VoiceName": "voice/$Locale$/inv/Zhangyu/003/C87F6A4A"
   },
   "80090322": {
-    "ContentJP": "{性别:僕も同じように呼んだらタビテが一緒に暮らしてくれるかなって……|私も同じように呼んだらタビテが一緒に暮らしてくれるかなって……}",
+    "ContentJP": [
+      "性别:僕も同じように呼んだらタビテが一緒に暮らしてくれるかなって……|私も同じように呼んだらタビテが一緒に暮らしてくれるかなって……"
+    ],
     "DialogueId": 80090322,
     "ExStoryInfo": "Player",
     "GUID": "C87F6A74",
@@ -64050,7 +64541,9 @@
     "VoiceName": "voice/$Locale$/inv/Zhangyu/004/C87F7A5E"
   },
   "80090420": {
-    "ContentJP": "{性别:……誰だ？|……誰なの？}",
+    "ContentJP": [
+      "性别:……誰だ？|……誰なの？"
+    ],
     "DialogueId": 80090420,
     "ExStoryInfo": "Player",
     "GUID": "C87F7A88",
@@ -64110,14 +64603,18 @@
     "VoiceName": "voice/$Locale$/inv/Zhangyu/004/C87F7BAE"
   },
   "80090428": {
-    "ContentJP": "{性别:タビテは大丈夫なのか？|タビテは大丈夫なの？}",
+    "ContentJP": [
+      "性别:タビテは大丈夫なのか？|タビテは大丈夫なの？"
+    ],
     "DialogueId": 80090428,
     "ExStoryInfo": "Player",
     "GUID": "C87F7BD8",
     "NextDialogue": 80090430
   },
   "80090429": {
-    "ContentJP": "{性别:僕、大丈夫なのか？|私、大丈夫なの？}",
+    "ContentJP": [
+      "性别:僕、大丈夫なのか？|私、大丈夫なの？"
+    ],
     "DialogueId": 80090429,
     "ExStoryInfo": "Player",
     "GUID": "C87F7C02",
@@ -64169,7 +64666,9 @@
     "VoiceName": "voice/$Locale$/inv/Zhangyu/004/C87F7CFE"
   },
   "80090436": {
-    "ContentJP": "{性别:そっか、夢か。僕、気絶しているんだね。|そっか、夢か。私、気絶しているのね。}",
+    "ContentJP": [
+      "性别:そっか、夢か。僕、気絶しているんだね。|そっか、夢か。私、気絶しているのね。"
+    ],
     "DialogueId": 80090436,
     "ExStoryInfo": "Player",
     "GUID": "C87F7D28",
@@ -65168,7 +65667,9 @@
     "VoiceName": "voice/$Locale$/inv/Shuimu/003/C885D2C0"
   },
   "80100321": {
-    "ContentJP": "{性别:彼|彼女}は丈夫な身体の持ち主で、私の毒のすべてを受け止めてくれる……曇りひとつない心で、私の愛のすべてを受け入れてくれるの。優しさにあふれた手で、私の悲しみのすべてを拭い去ってくれる……",
+    "ContentJP": [
+      "{性别:彼|彼女}は丈夫な身体の持ち主で、私の毒のすべてを受け止めてくれる……曇りひとつない心で、私の愛のすべてを受け入れてくれるの。優しさにあふれた手で、私の悲しみのすべてを拭い去ってくれる……"
+    ],
     "DialogueId": 80100321,
     "ExStoryInfo": "Player",
     "FacialId": [
@@ -65339,7 +65840,9 @@
     "VoiceName": "voice/$Locale$/inv/Shuimu/003/C885D50C"
   },
   "80100335": {
-    "ContentJP": "{性别:彼|彼女}は丈夫な身体の持ち主で、私の毒のすべてを受け止めてくれる……曇りひとつない心で、私の愛のすべてを受け入れてくれるの。優しさに溢れた手で、私の悲しみのすべてを拭い去ってくれる……",
+    "ContentJP": [
+      "{性别:彼|彼女}は丈夫な身体の持ち主で、私の毒のすべてを受け止めてくれる……曇りひとつない心で、私の愛のすべてを受け入れてくれるの。優しさに溢れた手で、私の悲しみのすべてを拭い去ってくれる……"
+    ],
     "DialogueId": 80100335,
     "ExStoryInfo": "Player",
     "GUID": "C885D536",
@@ -68227,7 +68730,9 @@
     "VoiceName": "voice/$Locale$/char/Heitao/vo_topic_03_1"
   },
   "90030303": {
-    "ContentJP": "{性别:でもやっぱり少し寒いな。|でもやっぱり少し寒いよ。}",
+    "ContentJP": [
+      "性别:でもやっぱり少し寒いな。|でもやっぱり少し寒いよ。"
+    ],
     "DialogueId": 90030303,
     "NextDialogue": 90030304,
     "SpeakNpcId": 100001,
@@ -68567,7 +69072,9 @@
     "VoiceName": "voice/$Locale$/char/Zhangyu/vo_welcome"
   },
   "90050101": {
-    "ContentJP": "{性别:ねえ、ベレ、僕は……|ねえ、ベレ、私は……}",
+    "ContentJP": [
+      "性别:ねえ、ベレ、僕は……|ねえ、ベレ、私は……"
+    ],
     "DialogueId": 90050101,
     "GUID": "E16E54B2",
     "LookAt": [
@@ -68640,7 +69147,9 @@
     "VoiceName": "voice/$Locale$/char/Zhangyu/vo_topic_02_2"
   },
   "90050204": {
-    "ContentJP": "{性别:部屋の真ん中に樽が唐突に現れたら、それは疑うよ……|部屋の真ん中に樽が唐突に現れたら、それは疑うでしょ……}",
+    "ContentJP": [
+      "性别:部屋の真ん中に樽が唐突に現れたら、それは疑うよ……|部屋の真ん中に樽が唐突に現れたら、それは疑うでしょ……"
+    ],
     "DialogueId": 90050204,
     "NextDialogue": 90050205,
     "SpeakNpcId": 100001
@@ -68667,7 +69176,9 @@
     "VoiceName": "voice/$Locale$/char/Zhangyu/vo_topic_03_1"
   },
   "90050303": {
-    "ContentJP": "{性别:一緒じゃないって、どこが違うのかな？|一緒じゃないって、どこが違うの？}",
+    "ContentJP": [
+      "性别:一緒じゃないって、どこが違うのかな？|一緒じゃないって、どこが違うの？"
+    ],
     "DialogueId": 90050303,
     "NextDialogue": 90050304,
     "SpeakNpcId": 100001,
@@ -68926,7 +69437,9 @@
     "VoiceName": "voice/$Locale$/char/Haier/vo_topic_05_1"
   },
   "90060502": {
-    "ContentJP": "{性别:意外だな！お酒、飲むんだ？|意外だね！お酒、飲むんだ？}",
+    "ContentJP": [
+      "性别:意外だな！お酒、飲むんだ？|意外だね！お酒、飲むんだ？"
+    ],
     "DialogueId": 90060502,
     "GUID": "E174FF1C",
     "LookAt": [
@@ -69186,7 +69699,9 @@
     "VoiceName": "voice/$Locale$/char/Landi/vo_topic_03_1"
   },
   "90080303": {
-    "ContentJP": "{性别:言い直してももう遅いって、全部聞こえちゃった。|言い直してももう遅いよ、全部聞こえちゃった。}",
+    "ContentJP": [
+      "性别:言い直してももう遅いって、全部聞こえちゃった。|言い直してももう遅いよ、全部聞こえちゃった。"
+    ],
     "DialogueId": 90080303,
     "GUID": "E181AFB6",
     "NextDialogue": 90080304,
@@ -69270,7 +69785,9 @@
     "VoiceName": "voice/$Locale$/char/Xibi/vo_topic_01_1"
   },
   "90090103": {
-    "ContentJP": "{性别:皇帝の後ろ盾があるから、そんなに横暴なんだな。|皇帝の後ろ盾があるから、そんなに横暴なのね。}",
+    "ContentJP": [
+      "性别:皇帝の後ろ盾があるから、そんなに横暴なんだな。|皇帝の後ろ盾があるから、そんなに横暴なのね。"
+    ],
     "DialogueId": 90090103,
     "GUID": "E187F786",
     "NextDialogue": 90090104,
@@ -70154,7 +70671,9 @@
     "VoiceName": "voice/$Locale$/char/Linen/vo_topic_03_1"
   },
   "90130303": {
-    "ContentJP": "{性别:僕がどうにかしてプレゼントしようか？|私がどうにかしてプレゼントしようか？}",
+    "ContentJP": [
+      "性别:僕がどうにかしてプレゼントしようか？|私がどうにかしてプレゼントしようか？"
+    ],
     "DialogueId": 90130303,
     "GUID": "E1A1BAD6",
     "NextDialogue": 90130304,
@@ -70272,7 +70791,9 @@
     "VoiceName": "voice/$Locale$/char/Xier/vo_topic_02_1"
   },
   "90140203": {
-    "ContentJP": "{性别:僕の知ってるメイドと違う。普通は大きなお屋敷を掃除するとかじゃない？|私の知ってるメイドと違う。普通は大きなお屋敷を掃除するとかじゃない？}",
+    "ContentJP": [
+      "性别:僕の知ってるメイドと違う。普通は大きなお屋敷を掃除するとかじゃない？|私の知ってるメイドと違う。普通は大きなお屋敷を掃除するとかじゃない？"
+    ],
     "DialogueId": 90140203,
     "GUID": "E1A8130E",
     "NextDialogue": 90140204,
@@ -70344,7 +70865,9 @@
     "VoiceName": "voice/$Locale$/char/Xier/vo_topic_04_1"
   },
   "90140403": {
-    "ContentJP": "{性别:ん？でも僕たちけっこう長いことおしゃべりしてるよね。|ん？でも私たちけっこう長いことおしゃべりしてるよね。}",
+    "ContentJP": [
+      "性别:ん？でも僕たちけっこう長いことおしゃべりしてるよね。|ん？でも私たちけっこう長いことおしゃべりしてるよね。"
+    ],
     "DialogueId": 90140403,
     "GUID": "E1A833DE",
     "NextDialogue": 90140404,
@@ -70485,7 +71008,9 @@
     "VoiceName": "voice/$Locale$/char/Feina/vo_topic_01_2"
   },
   "90150104": {
-    "ContentJP": "{性别:うっかり僕のことを踏み潰して、ぺっちゃんこに……？|うっかり私のことを踏み潰して、ぺっちゃんこに……？}",
+    "ContentJP": [
+      "性别:うっかり僕のことを踏み潰して、ぺっちゃんこに……？|うっかり私のことを踏み潰して、ぺっちゃんこに……？"
+    ],
     "DialogueId": 90150104,
     "GUID": "E1AE6B70",
     "NextDialogue": 90150105,
@@ -70556,7 +71081,9 @@
     ]
   },
   "90150207": {
-    "ContentJP": "{性别:えっと、お兄さんが迷子になってしまったら……そしたらフィーナが、パンを小さくちぎって落としながら探しにいくわ！パンの欠片が道になって、たどっていけば出口が見つけられるはず！|えっと、お姉さんが迷子になってしまったら……そしたらフィーナが、パンを小さくちぎって落としながら探しにいくわ！パンの欠片が道になって、たどっていけば出口が見つけられるはず！}",
+    "ContentJP": [
+      "性别:えっと、お兄さんが迷子になってしまったら……そしたらフィーナが、パンを小さくちぎって落としながら探しにいくわ！パンの欠片が道になって、たどっていけば出口が見つけられるはず！|えっと、お姉さんが迷子になってしまったら……そしたらフィーナが、パンを小さくちぎって落としながら探しにいくわ！パンの欠片が道になって、たどっていけば出口が見つけられるはず！"
+    ],
     "DialogueId": 90150207,
     "GUID": "E1AE7C56",
     "SpeakNpcId": 81801,
@@ -70656,14 +71183,18 @@
     "VoiceName": "voice/$Locale$/char/Feina/vo_topic_05_2"
   },
   "90150505": {
-    "ContentJP": "{性别:少なくとも僕の知っているアウトサイダーとは別人だ。|少なくとも私の知っているアウトサイダーとは別人ね。}",
+    "ContentJP": [
+      "性别:少なくとも僕の知っているアウトサイダーとは別人だ。|少なくとも私の知っているアウトサイダーとは別人ね。"
+    ],
     "DialogueId": 90150505,
     "GUID": "E1AEAD3A",
     "NextDialogue": 90150506,
     "SpeakNpcId": 100001
   },
   "90150506": {
-    "ContentJP": "{性别:え……じゃあアウトサイダーってお兄さんに優しくないの？本当にごめんなさい、私がデコピンして、態度を改めてもらうわ！|じゃあアウトサイダーってお姉さんに優しくないの？本当にごめんなさい、私がデコピンして、態度を改めてもらうわ！}",
+    "ContentJP": [
+      "性别:え……じゃあアウトサイダーってお兄さんに優しくないの？本当にごめんなさい、私がデコピンして、態度を改めてもらうわ！|じゃあアウトサイダーってお姉さんに優しくないの？本当にごめんなさい、私がデコピンして、態度を改めてもらうわ！"
+    ],
     "DialogueId": 90150506,
     "GUID": "E1AEAD64",
     "SpeakNpcId": 81801,
@@ -71355,7 +71886,9 @@
     "Subtitle": "From a small island in the South."
   },
   "101006062": {
-    "ContentJP": "{性别:僕|私}、カミラお姉さまの親戚でして。",
+    "ContentJP": [
+      "{性别:僕|私}、カミラお姉さまの親戚でして。"
+    ],
     "DialogueId": 101006062,
     "ExStoryInfo": "Player",
     "SpeakNpcId": 100001,
@@ -71447,7 +71980,9 @@
   },
   "101016051": {
     "Camera": "-84.848625,65.602051,154.461761,0.001125,-7.099694,-46.572994,35.0,100000.0,false,DoNotOverride,2.8",
-    "ContentJP": "{性别:僕|私}は{nickname}って名前だよ。",
+    "ContentJP": [
+      "{性别:僕|私}は{nickname}って名前だよ。"
+    ],
     "DialogueId": 101016051,
     "ExStoryInfo": "Player",
     "NextDialogue": 10101606,
@@ -71733,7 +72268,9 @@
     "Subtitle": "Thank you, Psyche. But I managed to get the Crystallo back from Outsider."
   },
   "101070031": {
-    "ContentJP": "{性别:僕|私}が身の上話を語ったら胸を打ったみたいで。",
+    "ContentJP": [
+      "{性别:僕|私}が身の上話を語ったら胸を打ったみたいで。"
+    ],
     "DialogueId": 101070031,
     "ExStoryInfo": "Player",
     "SpeakNpcId": 100001,
@@ -72068,7 +72605,9 @@
     "SpeakNpcId": 100001
   },
   "200009153": {
-    "ContentJP": "{性别:僕|私}もかわいそうに感じてしまうかな……",
+    "ContentJP": [
+      "{性别:僕|私}もかわいそうに感じてしまうかな……"
+    ],
     "DialogueId": 200009153,
     "ExStoryInfo": "Player",
     "NextDialogue": 20000918,
@@ -72576,15 +73115,21 @@
     "DialogueId": 510024141
   },
   "510025021": {
-    "ContentJP": "{性别:私は買わないけど、報酬の半分を分けてくれるなら、買い手を探してあげないこともない。|僕は買わないけど、報酬の半分を分けてくれるなら、買い手を探してやらないこともない。}",
+    "ContentJP": [
+      "性别:私は買わないけど、報酬の半分を分けてくれるなら、買い手を探してあげないこともない。|僕は買わないけど、報酬の半分を分けてくれるなら、買い手を探してやらないこともない。"
+    ],
     "DialogueId": 510025021
   },
   "510025022": {
-    "ContentJP": "{性别:何か手伝いが必要なの？|何か手伝いが必要なのか？}",
+    "ContentJP": [
+      "性别:何か手伝いが必要なの？|何か手伝いが必要なのか？"
+    ],
     "DialogueId": 510025022
   },
   "510025023": {
-    "ContentJP": "{性别:帝国がそんな商売を許すわけないじゃない。早く行かないと面倒事に巻き込まれるよ？|帝国がそんな商売を許すわけないじゃないか。早く行かないと面倒事に巻き込まれるぞ？}",
+    "ContentJP": [
+      "性别:帝国がそんな商売を許すわけないじゃない。早く行かないと面倒事に巻き込まれるよ？|帝国がそんな商売を許すわけないじゃないか。早く行かないと面倒事に巻き込まれるぞ？"
+    ],
     "DialogueId": 510025023
   },
   "510025024": {
@@ -72592,7 +73137,9 @@
     "DialogueId": 510025024
   },
   "510026031": {
-    "ContentJP": "{性别:ケビン、スラム街で月ノ石を違法に売っている人がいるの。|ケビン、スラム街で月ノ石を違法に売っている人がいるんだ。}",
+    "ContentJP": [
+      "性别:ケビン、スラム街で月ノ石を違法に売っている人がいるの。|ケビン、スラム街で月ノ石を違法に売っている人がいるんだ。"
+    ],
     "DialogueId": 510026031
   },
   "510029011": {
@@ -72658,11 +73205,15 @@
     ]
   },
   "510033051": {
-    "ContentJP": "{性别:売れ行きはどうだったの？今日の寒夜はしのげそう？|売れ行きはどうだった？今日の寒夜はしのげそうか？}",
+    "ContentJP": [
+      "性别:売れ行きはどうだったの？今日の寒夜はしのげそう？|売れ行きはどうだった？今日の寒夜はしのげそうか？"
+    ],
     "DialogueId": 510033051
   },
   "510033052": {
-    "ContentJP": "{性别:その量じゃ私が食べるには足りない。|その量じゃ僕が食べるには足りない。}",
+    "ContentJP": [
+      "性别:その量じゃ私が食べるには足りない。|その量じゃ僕が食べるには足りない。"
+    ],
     "DialogueId": 510033052
   },
   "510033053": {
@@ -72676,7 +73227,9 @@
     "SpeakNpcId": 700080
   },
   "510033141": {
-    "ContentJP": "{性别:あなたは彼を恨んでいない、彼の物も盗んでいない。だったらなぜ夜中にこっそり部屋に忍び込んだのか……恐らくだけど――|あなたは彼を恨んでいない、彼の物も盗んでいない。だったらなぜ夜中にこっそり部屋に忍び込んだのか……恐らくだけど――}",
+    "ContentJP": [
+      "性别:あなたは彼を恨んでいない、彼の物も盗んでいない。だったらなぜ夜中にこっそり部屋に忍び込んだのか……恐らくだけど――|あなたは彼を恨んでいない、彼の物も盗んでいない。だったらなぜ夜中にこっそり部屋に忍び込んだのか……恐らくだけど――"
+    ],
     "DialogueId": 510033141
   },
   "510035051": {
@@ -72692,7 +73245,9 @@
     "DialogueId": 510035053
   },
   "510035061": {
-    "ContentJP": "{性别:僕|私}が秘密をバラすように見える{性别:のか|かな}？",
+    "ContentJP": [
+      "{性别:僕|私}が秘密をバラすように見える{性别:のか|かな}？"
+    ],
     "DialogueId": 510035061
   },
   "510035141": {
@@ -72785,7 +73340,9 @@
     "SpeakNpcId": 100001
   },
   "510049173": {
-    "ContentJP": "{性别:この紙は私の手中にある……返して欲しくばそれ相応の対価を寄こしなさい。|この紙は僕の手中にある……返して欲しくばそれ相応の対価を寄こしなさい。}",
+    "ContentJP": [
+      "性别:この紙は私の手中にある……返して欲しくばそれ相応の対価を寄こしなさい。|この紙は僕の手中にある……返して欲しくばそれ相応の対価を寄こしなさい。"
+    ],
     "DialogueId": 510049173,
     "SpeakNpcId": 100001
   },
@@ -72808,7 +73365,9 @@
     "DialogueId": 510060173
   },
   "510067091": {
-    "ContentJP": "{性别:僕|私}だって勝てる見込みのないチャレンジには参加したくないな。",
+    "ContentJP": [
+      "{性别:僕|私}だって勝てる見込みのないチャレンジには参加したくないな。"
+    ],
     "DialogueId": 510067091
   },
   "510067092": {
@@ -73627,7 +74186,9 @@
     "NextDialogue": 80100310
   },
   "801003141": {
-    "ContentJP": "{性别:僕|私}は帝国の指名手配されている身だし。いまさら{性别:だよ|よ}。",
+    "ContentJP": [
+      "{性别:僕|私}は帝国の指名手配されている身だし。いまさら{性别:だよ|よ}。"
+    ],
     "DialogueId": 801003141,
     "ExStoryInfo": "Player",
     "NextDialogue": 80100315
@@ -73840,7 +74401,9 @@
     "NextDialogue": 80110328
   },
   "801103301": {
-    "ContentJP": "{性别:僕|私}はそうは思わない。ありきたりな話なんかじゃない。",
+    "ContentJP": [
+      "{性别:僕|私}はそうは思わない。ありきたりな話なんかじゃない。"
+    ],
     "DialogueId": 801103301,
     "ExStoryInfo": "Player",
     "NextDialogue": 80110331
@@ -74034,7 +74597,9 @@
     "DialogueId": 900300011
   },
   "900300013": {
-    "ContentJP": "{性别:アイスレイク城は本当に寒いな……|アイスレイク城は本当に寒いね……}",
+    "ContentJP": [
+      "性别:アイスレイク城は本当に寒いな……|アイスレイク城は本当に寒いね……"
+    ],
     "DialogueId": 900300013
   },
   "900300014": {
@@ -74050,7 +74615,9 @@
     "DialogueId": 900300016
   },
   "900300018": {
-    "ContentJP": "{性别:ベレ、僕、疲れちゃった。|ベレ、私、疲れちゃった。}",
+    "ContentJP": [
+      "性别:ベレ、僕、疲れちゃった。|ベレ、私、疲れちゃった。"
+    ],
     "DialogueId": 900300018
   },
   "900400011": {
@@ -74074,11 +74641,15 @@
     "DialogueId": 900400015
   },
   "900500011": {
-    "ContentJP": "{性别:今日は静かだね、別人みたいだ。|今日は静かだね、別人みたい。}",
+    "ContentJP": [
+      "性别:今日は静かだね、別人みたいだ。|今日は静かだね、別人みたい。"
+    ],
     "DialogueId": 900500011
   },
   "900500012": {
-    "ContentJP": "{性别:泥棒ってみんな用心深いよね？そんな人たちからよくモノを盗めるね。|泥棒ってみんな用心深いでしょ？そんな人たちからよくモノを盗めるね。}",
+    "ContentJP": [
+      "性别:泥棒ってみんな用心深いよね？そんな人たちからよくモノを盗めるね。|泥棒ってみんな用心深いでしょ？そんな人たちからよくモノを盗めるね。"
+    ],
     "DialogueId": 900500012
   },
   "900500013": {
@@ -74142,15 +74713,21 @@
     "DialogueId": 900800014
   },
   "900900011": {
-    "ContentJP": "{性别:第十三軍団っていったい何なんだ？|第十三軍団っていったい何なの？}",
+    "ContentJP": [
+      "性别:第十三軍団っていったい何なんだ？|第十三軍団っていったい何なの？"
+    ],
     "DialogueId": 900900011
   },
   "900900012": {
-    "ContentJP": "{性别:カロンなのに、なんで帝国のために体を張るんだ？|カロンなのに、なんで帝国のために体を張るの？}",
+    "ContentJP": [
+      "性别:カロンなのに、なんで帝国のために体を張るんだ？|カロンなのに、なんで帝国のために体を張るの？"
+    ],
     "DialogueId": 900900012
   },
   "900900013": {
-    "ContentJP": "{性别:勝手な理由で家族を奪われた人の気持ちは考えないのか？|勝手な理由で家族を奪われた人の気持ちは考えないの？}",
+    "ContentJP": [
+      "性别:勝手な理由で家族を奪われた人の気持ちは考えないのか？|勝手な理由で家族を奪われた人の気持ちは考えないの？"
+    ],
     "DialogueId": 900900013
   },
   "900900014": {
@@ -74166,7 +74743,9 @@
     "DialogueId": 901000012
   },
   "901000013": {
-    "ContentJP": "{性别:最近いつも花の香りがするな。|最近いつも花の香りがするね。}",
+    "ContentJP": [
+      "性别:最近いつも花の香りがするな。|最近いつも花の香りがするね。"
+    ],
     "DialogueId": 901000013
   },
   "901000014": {
@@ -74226,7 +74805,9 @@
     "DialogueId": 901300013
   },
   "901300014": {
-    "ContentJP": "{性别:どうしてそんなに一生懸命働いているんだ？|どうしてそんなに一生懸命働いているの？}",
+    "ContentJP": [
+      "性别:どうしてそんなに一生懸命働いているんだ？|どうしてそんなに一生懸命働いているの？"
+    ],
     "DialogueId": 901300014
   },
   "901400011": {
@@ -74254,7 +74835,9 @@
     "DialogueId": 901500011
   },
   "901500012": {
-    "ContentJP": "{性别:フィーナ、僕に聞かせられる秘密ってある？|フィーナ、私に聞かせられる秘密ってある？}",
+    "ContentJP": [
+      "性别:フィーナ、僕に聞かせられる秘密ってある？|フィーナ、私に聞かせられる秘密ってある？"
+    ],
     "DialogueId": 901500012
   },
   "901500013": {
@@ -74456,7 +75039,9 @@
     "DialogueId": 5100391301
   },
   "5100391302": {
-    "ContentJP": "{性别:なぜあんなのと遊ぶのよ？いっそ思い切り殴ろう。|なぜあんなのと遊ぶんだ？いっそ思い切り殴ろう。}",
+    "ContentJP": [
+      "性别:なぜあんなのと遊ぶのよ？いっそ思い切り殴ろう。|なぜあんなのと遊ぶんだ？いっそ思い切り殴ろう。"
+    ],
     "DialogueId": 5100391302
   },
   "5100391303": {
@@ -74469,17 +75054,23 @@
     "NextDialogue": 51004002
   },
   "5100400102": {
-    "ContentJP": "{性别:いつもあいつらに投げられていた言葉を、返してやればいいんだよ。|いつもあいつらに投げられていた言葉を、返してやればいいんだ。}",
+    "ContentJP": [
+      "性别:いつもあいつらに投げられていた言葉を、返してやればいいんだよ。|いつもあいつらに投げられていた言葉を、返してやればいいんだ。"
+    ],
     "DialogueId": 5100400102,
     "NextDialogue": 51004002
   },
   "5100400601": {
-    "ContentJP": "{性别:分かったならさっさと尻尾を巻いて逃げなさい。|分かったならさっさと尻尾を巻いて逃げろよ。}",
+    "ContentJP": [
+      "性别:分かったならさっさと尻尾を巻いて逃げなさい。|分かったならさっさと尻尾を巻いて逃げろよ。"
+    ],
     "DialogueId": 5100400601,
     "NextDialogue": 51004008
   },
   "5100400602": {
-    "ContentJP": "{性别:焦らなくったっていいじゃん？この子はみんなと仲良くお話がしたいのさ。|焦らなくったっていいじゃん？この子はみんなと仲良くお話がしたいんだ。}",
+    "ContentJP": [
+      "性别:焦らなくったっていいじゃん？この子はみんなと仲良くお話がしたいのさ。|焦らなくったっていいじゃん？この子はみんなと仲良くお話がしたいんだ。"
+    ],
     "DialogueId": 5100400602,
     "NextDialogue": 51004007
   },
@@ -74488,7 +75079,9 @@
     "DialogueId": 5100410901
   },
   "5100410902": {
-    "ContentJP": "{性别:ありがとう。でもあなたが彼らに抗えたことの方が重要だよ。私より格好よかった。|ありがとう。でもあなたが彼らに抗えたことの方が重要だ。僕より格好よかった。}",
+    "ContentJP": [
+      "性别:ありがとう。でもあなたが彼らに抗えたことの方が重要だよ。私より格好よかった。|ありがとう。でもあなたが彼らに抗えたことの方が重要だ。僕より格好よかった。"
+    ],
     "DialogueId": 5100410902
   },
   "5100411401": {
@@ -74524,12 +75117,16 @@
     "DialogueId": 5100413302
   },
   "5100414201": {
-    "ContentJP": "{nickname}だよ。",
+    "ContentJP": [
+      "{nickname}だよ。"
+    ],
     "DialogueId": 5100414201,
     "ExStoryInfo": "Player"
   },
   "5100414901": {
-    "ContentJP": "{性别:その通りよ。|その通りさ。}",
+    "ContentJP": [
+      "性别:その通りよ。|その通りさ。"
+    ],
     "DialogueId": 5100414901
   },
   "5100414902": {
@@ -74623,7 +75220,9 @@
     "DialogueId": 5100510501
   },
   "5100510502": {
-    "ContentJP": "{性别:こんな大都市に来たのは初めてだから、なんだか不思議な感じね。人にも出来事にも色々と触れはしたけど、実際まだ慣れないところはあるかな……|こんな大都市に来たのは初めてだから、なんだか不思議な感じだ。人にも出来事にも色々と触れはしたけど、実際まだ慣れないところはあるな……}",
+    "ContentJP": [
+      "性别:こんな大都市に来たのは初めてだから、なんだか不思議な感じね。人にも出来事にも色々と触れはしたけど、実際まだ慣れないところはあるかな……|こんな大都市に来たのは初めてだから、なんだか不思議な感じだ。人にも出来事にも色々と触れはしたけど、実際まだ慣れないところはあるな……"
+    ],
     "DialogueId": 5100510502
   },
   "5100510503": {
@@ -74631,15 +75230,21 @@
     "DialogueId": 5100510503
   },
   "5100511101": {
-    "ContentJP": "{性别:これって使い古しのモノだし、大した価値はないよね？|これって使い古しのモノだし、大した価値はないよな？}",
+    "ContentJP": [
+      "性别:これって使い古しのモノだし、大した価値はないよね？|これって使い古しのモノだし、大した価値はないよな？"
+    ],
     "DialogueId": 5100511101
   },
   "5100511102": {
-    "ContentJP": "{性别:確認しておくけど……盗品じゃないよね？|確認しておくけど……盗品じゃないよな？}",
+    "ContentJP": [
+      "性别:確認しておくけど……盗品じゃないよね？|確認しておくけど……盗品じゃないよな？"
+    ],
     "DialogueId": 5100511102
   },
   "5100511103": {
-    "ContentJP": "{性别:どこで手に入れたの？私にも教えて！|どこで手に入れたんだ？僕にも教えて！}",
+    "ContentJP": [
+      "性别:どこで手に入れたの？私にも教えて！|どこで手に入れたんだ？僕にも教えて！"
+    ],
     "DialogueId": 5100511103
   },
   "5100511501": {
@@ -74655,7 +75260,9 @@
     "DialogueId": 5100511503
   },
   "5100512501": {
-    "ContentJP": "{性别:これで足りるかな？|これで足りる}",
+    "ContentJP": [
+      "性别:これで足りるかな？|これで足りる"
+    ],
     "DialogueId": 5100512501
   },
   "5100512502": {
@@ -74678,38 +75285,54 @@
     "SpeakNpcId": 700115
   },
   "5100520201": {
-    "ContentJP": "{性别:処方箋はルナって医者の物だったよ。彼女はもともと吟遊詩人だったんだけど、カロン族を憎む人たちに声を奪われたみたいなの。そんな気持ちを唯一訴えられる方法が処方箋の文字って感じで。|処方箋はルナって医者の物だったよ。彼女はもともと吟遊詩人だったんだけど、カロン族を憎む人たちに声を奪われたみたいなんだ。そんな気持ちを唯一訴えられる方法が処方箋の文字って感じで。}",
+    "ContentJP": [
+      "性别:処方箋はルナって医者の物だったよ。彼女はもともと吟遊詩人だったんだけど、カロン族を憎む人たちに声を奪われたみたいなの。そんな気持ちを唯一訴えられる方法が処方箋の文字って感じで。|処方箋はルナって医者の物だったよ。彼女はもともと吟遊詩人だったんだけど、カロン族を憎む人たちに声を奪われたみたいなんだ。そんな気持ちを唯一訴えられる方法が処方箋の文字って感じで。"
+    ],
     "DialogueId": 5100520201,
     "NextDialogue": 51005203
   },
   "5100520202": {
-    "ContentJP": "{性别:切符販売員のジェシカは列車に乗ってこの街を離れたいと一番に願っていたみたい。だけど期限切れの切符を折り紙にして星を作って、奇跡の訪れを祈るだけしか彼女にはできなかったの。|切符販売員のジェシカは列車に乗ってこの街を離れたいと一番に願っていたみたい。だけど期限切れの切符を折り紙にして星を作って、奇跡の訪れを祈るだけしか彼女にはできなかったんだ。}",
+    "ContentJP": [
+      "性别:切符販売員のジェシカは列車に乗ってこの街を離れたいと一番に願っていたみたい。だけど期限切れの切符を折り紙にして星を作って、奇跡の訪れを祈るだけしか彼女にはできなかったの。|切符販売員のジェシカは列車に乗ってこの街を離れたいと一番に願っていたみたい。だけど期限切れの切符を折り紙にして星を作って、奇跡の訪れを祈るだけしか彼女にはできなかったんだ。"
+    ],
     "DialogueId": 5100520202,
     "NextDialogue": 51005204
   },
   "5100520203": {
-    "ContentJP": "{性别:鍵に関してはチェストに使えて、遺言書が見つかったの。それでレナさんが私の新しい大家になったんだけど、家賃は免除してくれたよ。|鍵に関してはチェストに使えて、遺言書が見つかったんだ。それでレナさんが僕の新しい大家になったんだけど、家賃は免除してくれたよ。}",
+    "ContentJP": [
+      "性别:鍵に関してはチェストに使えて、遺言書が見つかったの。それでレナさんが私の新しい大家になったんだけど、家賃は免除してくれたよ。|鍵に関してはチェストに使えて、遺言書が見つかったんだ。それでレナさんが僕の新しい大家になったんだけど、家賃は免除してくれたよ。"
+    ],
     "DialogueId": 5100520203,
     "NextDialogue": 51005205
   },
   "5100520801": {
-    "ContentJP": "{性别:アイスレイク城で何かをするなら「安全」が最優先だね。一線を越えたら他人も自分も害する結果になって、元も子もなくなるから。|アイスレイク城で何かをするなら「安全」が最優先だな。一線を越えたら他人も自分も害する結果になって、元も子もなくなるから。}",
+    "ContentJP": [
+      "性别:アイスレイク城で何かをするなら「安全」が最優先だね。一線を越えたら他人も自分も害する結果になって、元も子もなくなるから。|アイスレイク城で何かをするなら「安全」が最優先だな。一線を越えたら他人も自分も害する結果になって、元も子もなくなるから。"
+    ],
     "DialogueId": 5100520801
   },
   "5100520802": {
-    "ContentJP": "{性别:人生が順風満帆に進むことなんて滅多にないから。アイスレイク城で私たちが守れる唯一は、自分たちのルールだけなのかも。|人生が順風満帆に進むことなんて滅多にないから。アイスレイク城で僕たちが守れる唯一は、自分たちのルールだけなのかも。}",
+    "ContentJP": [
+      "性别:人生が順風満帆に進むことなんて滅多にないから。アイスレイク城で私たちが守れる唯一は、自分たちのルールだけなのかも。|人生が順風満帆に進むことなんて滅多にないから。アイスレイク城で僕たちが守れる唯一は、自分たちのルールだけなのかも。"
+    ],
     "DialogueId": 5100520802
   },
   "5100520803": {
-    "ContentJP": "{性别:ここに住む人の全員が「街の鉄則」の信奉者ってわけじゃないんだね。どれぐらい裏で背いている人がいるのかな？|ここに住む人の全員が「街の鉄則」の信奉者ってわけじゃないんだな。どれぐらい裏で背いている人がいるんだろう？}",
+    "ContentJP": [
+      "性别:ここに住む人の全員が「街の鉄則」の信奉者ってわけじゃないんだね。どれぐらい裏で背いている人がいるのかな？|ここに住む人の全員が「街の鉄則」の信奉者ってわけじゃないんだな。どれぐらい裏で背いている人がいるんだろう？"
+    ],
     "DialogueId": 5100520803
   },
   "5100520804": {
-    "ContentJP": "{性别:希望とか、信念とか、苦悩とか……残された数少ない何かをみんなが抱きしめているから、物語は紡がれるんだね。|希望とか、信念とか、苦悩とか……残された数少ない何かをみんなが抱きしめているから、物語は紡がれるんだな。}",
+    "ContentJP": [
+      "性别:希望とか、信念とか、苦悩とか……残された数少ない何かをみんなが抱きしめているから、物語は紡がれるんだね。|希望とか、信念とか、苦悩とか……残された数少ない何かをみんなが抱きしめているから、物語は紡がれるんだな。"
+    ],
     "DialogueId": 5100520804
   },
   "5100520805": {
-    "ContentJP": "{性别:爆発寸前の火薬庫みたいな場所がこの街だね！ダクリ湖が蒸発して干上がるも時間の問題かも！|爆発寸前の火薬庫みたいな場所がこの街だな！ダクリ湖が蒸発して干上がるも時間の問題かも！}",
+    "ContentJP": [
+      "性别:爆発寸前の火薬庫みたいな場所がこの街だね！ダクリ湖が蒸発して干上がるも時間の問題かも！|爆発寸前の火薬庫みたいな場所がこの街だな！ダクリ湖が蒸発して干上がるも時間の問題かも！"
+    ],
     "DialogueId": 5100520805
   },
   "5100521301": {
@@ -74739,7 +75362,9 @@
     "SpeakNpcId": 700116
   },
   "5100540601": {
-    "ContentJP": "{性别:そんな生じゃ、私は結構です！|そんな生じゃ、僕は結構です！}",
+    "ContentJP": [
+      "性别:そんな生じゃ、私は結構です！|そんな生じゃ、僕は結構です！"
+    ],
     "DialogueId": 5100540601
   },
   "5100540602": {
@@ -74844,7 +75469,9 @@
     "DialogueId": 51003001102
   },
   "51003001201": {
-    "ContentJP": "{性别:バックさん、私があなたの問題を引き受けます。|バックさん、僕があなたの問題を引き受けます。}",
+    "ContentJP": [
+      "性别:バックさん、私があなたの問題を引き受けます。|バックさん、僕があなたの問題を引き受けます。"
+    ],
     "DialogueId": 51003001201
   },
   "51003001202": {

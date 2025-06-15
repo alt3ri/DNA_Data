@@ -1851,7 +1851,9 @@
     "VoiceName": "voice/$Locale$/story/1001/100184/19147BEA"
   },
   "10018402": {
-    "ContentEN": "{性别:her|him}.",
+    "ContentEN": [
+      "{性别:her|him}."
+    ],
     "DialogueId": 10018402,
     "Duration": 1.5,
     "ExStoryInfo": "Player",
@@ -3259,7 +3261,9 @@
   },
   "10100613": {
     "Camera": "35.073242,71.52002,140.823242,0.001229,5.301156,-38.499496,25.0,160.39801,false,Manual,3.0",
-    "ContentEN": "{性别:Whoa... aren't you a bit old to be a crybaby, mate? Stop it...|Whoa... why are you crying? Darn it, Chief never told us how to deal with tearful young ladies!}",
+    "ContentEN": [
+      "性别:Whoa... aren't you a bit old to be a crybaby, mate? Stop it...|Whoa... why are you crying? Darn it, Chief never told us how to deal with tearful young ladies!"
+    ],
     "DefaultLookAt": "TalkNpc",
     "DialogueId": 10100613,
     "ExStoryInfo": "Player",
@@ -3272,7 +3276,9 @@
     "Scripts": "SEQ{\\\r\nPlayAnimation{ActorId{200004},AnimationId{\"Shock_Start\"},Duration{4.3}},PlayAnimation{ActorId{200004},AnimationId{\"Shock_End\"},Duration{1}}\\\r\n}",
     "SpeakNpcId": 200004,
     "SpeakNpcName": "UI_Npc_Name_Man_4",
-    "Subtitle": "{性别:Whoa... aren't you a bit old to be a crybaby, mate? Stop it...|Whoa... why are you crying? Darn it, Chief never told us how to deal with tearful young ladies!}",
+    "Subtitle": [
+      "性别:Whoa... aren't you a bit old to be a crybaby, mate? Stop it...|Whoa... why are you crying? Darn it, Chief never told us how to deal with tearful young ladies!"
+    ],
     "TalkActionId": [
       "100001:Sigh_Start"
     ],
@@ -4677,7 +4683,9 @@
   },
   "10101606": {
     "Camera": "12.244577,-256.895996,155.578934,0.001133,-7.899871,85.625313,35.0,100000.0,false,DoNotOverride,2.8",
-    "ContentEN": "{nickname}... That's quite an uncommon name in this city.",
+    "ContentEN": [
+      "{nickname}... That's quite an uncommon name in this city."
+    ],
     "DialogueId": 10101606,
     "ExStoryInfo": "Player",
     "GUID": "1949CEBC",
@@ -7102,7 +7110,12 @@
   },
   "10103813": {
     "Camera": "292.52832,167.443359,168.015625,0.001284,0.0,-151.996902,35.0,100000.0,false,DoNotOverride,2.8",
-    "ContentEN": "{nickname}, you're back! Everything okay? Did you catch that thief?",
+    "ContentEN": [
+      [
+        "nickname"
+      ],
+      "you're back! Everything okay? Did you catch that thief?"
+    ],
     "DefaultLookAt": "TalkNpc",
     "DialogueId": 10103813,
     "ExStoryInfo": "Player",
@@ -7153,7 +7166,9 @@
   },
   "10103816": {
     "Camera": "119.466187,36.506836,101.341797,0.001202,-9.999997,-103.137764,20.0,100000.0,false,DoNotOverride,2.8",
-    "ContentEN": "{性别:He|She} was the witness of my deeds! You had it all wrong! You've made a fool of yourself this time, haven't you? Serves you right for being so preachy all the time!",
+    "ContentEN": [
+      "{性别:He|She} was the witness of my deeds! You had it all wrong! You've made a fool of yourself this time, haven't you? Serves you right for being so preachy all the time!"
+    ],
     "DialogueId": 10103816,
     "ExStoryInfo": "Player",
     "GUID": "194B39A4",
@@ -7163,7 +7178,10 @@
     "NextDialogue": 10103817,
     "Scripts": "SEQ{\\\r\nPlayAnimation{ActorId{200002},AnimationId{\"Angry01_Start\"},Duration{1.5}},\\\r\nPlayAnimation{ActorId{200002},AnimationId{\"Angry01_End\"},Duration{1}},\\\r\nPlayAnimation{ActorId{200002},AnimationId{\"Confident_Start\"},Duration{1}}\\\r\n}",
     "SpeakNpcId": 200002,
-    "Subtitle": "{性别:He|She} was the witness of my deeds! You had it all wrong! Made a fool of yourself this time, haven't you?\\\r\nServes you right for being so preachy all the time!",
+    "Subtitle": [
+      "{性别:He|She} was the witness of my deeds! You had it all wrong! Made a fool of yourself this time",
+      "haven't you?\\\r\nServes you right for being so preachy all the time!"
+    ],
     "VoiceName": "voice/$Locale$/story/1002/101038/194B39A4"
   },
   "10103817": {
@@ -11420,7 +11438,9 @@
   "10106803": {
     "Content": " ",
     "DialogueId": 10106803,
-    "DialoguePanelType": "{type:showpic;dir:Texture2D'/Game/UI/Texture/Dynamic/Image/Guide/T_Guide_Chapter01_QXQJ.T_Guide_Chapter01_QXQJ'}",
+    "DialoguePanelType": [
+      "type:showpic;dir:Texture2D'/Game/UI/Texture/Dynamic/Image/Guide/T_Guide_Chapter01_QXQJ.T_Guide_Chapter01_QXQJ'"
+    ],
     "NextDialogue": 10106804
   },
   "10106804": {
@@ -11500,7 +11520,10 @@
   },
   "10106903": {
     "Camera": "640.59375,168.029053,438.314453,0.001222,-1.999961,-44.75602,40.0,263.348267,false,Manual,5.0",
-    "ContentEN": "{nickname}? What are you doing here? Does Mr Henrik know about this...? Ah, please come with me.",
+    "ContentEN": [
+      "{nickname}? What are you doing here? Does Mr Henrik know about this...? Ah",
+      "please come with me."
+    ],
     "DialogueId": 10106903,
     "Duration": 2,
     "ExStoryInfo": "Player",
@@ -11950,7 +11973,9 @@
   "10107028": {
     "ContentEN": "And take this, too.",
     "DialogueId": 10107028,
-    "DialoguePanelType": "{type:showpic;dir:Texture2D'/Game/UI/Texture/Dynamic/Image/Guide/T_Guide_Chapter01_Flower_2.T_Guide_Chapter01_Flower_2'}",
+    "DialoguePanelType": [
+      "type:showpic;dir:Texture2D'/Game/UI/Texture/Dynamic/Image/Guide/T_Guide_Chapter01_Flower_2.T_Guide_Chapter01_Flower_2'"
+    ],
     "GUID": "194D481E",
     "NextDialogue": 10107029,
     "SpeakNpcId": 200006,
@@ -15345,7 +15370,9 @@
     "Camera": "-208.4375,103.8125,105.65918,0.000269,-7.600928,8.117057,35.0,100000.0,false,DoNotOverride,22.0",
     "ContentEN": "This is a...",
     "DialogueId": 10109704,
-    "DialoguePanelType": "{type:showpic;dir:Texture2D'/Game/UI/Texture/Dynamic/Image/Guide/T_Guide_Chapter01_Camera.T_Guide_Chapter01_Camera'}",
+    "DialoguePanelType": [
+      "type:showpic;dir:Texture2D'/Game/UI/Texture/Dynamic/Image/Guide/T_Guide_Chapter01_Camera.T_Guide_Chapter01_Camera'"
+    ],
     "ExStoryInfo": "Player",
     "GUID": "194EFF26",
     "NextDialogue": 10109705,
@@ -15434,7 +15461,13 @@
   },
   "10109712": {
     "Camera": "135.136719,-49.345703,64.782227,0.000262,2.599365,135.112839,35.0,100000.0,false,DoNotOverride,22.0",
-    "ContentEN": "{nickname}, thank you for keeping me company these past days, but I don't have anything valuable to give you. Please take this camera as a gift from me.",
+    "ContentEN": [
+      [
+        "nickname"
+      ],
+      "thank you for keeping me company these past days",
+      "but I don't have anything valuable to give you. Please take this camera as a gift from me."
+    ],
     "DialogueId": 10109712,
     "ExStoryInfo": "Player",
     "GUID": "194F0022",
@@ -17766,7 +17799,9 @@
     "Camera": "-226.919922,-71.93576,152.808594,0.000101,-4.997041,18.991802,40.0,309.457245,false,Manual,5.5",
     "ContentEN": "Please take this with you.",
     "DialogueId": 10110902,
-    "DialoguePanelType": "{type:showpic;dir:Texture2D'/Game/UI/Texture/Dynamic/Image/Guide/T_Guide_Chapter01_Flower_1.T_Guide_Chapter01_Flower_1'}",
+    "DialoguePanelType": [
+      "type:showpic;dir:Texture2D'/Game/UI/Texture/Dynamic/Image/Guide/T_Guide_Chapter01_Flower_1.T_Guide_Chapter01_Flower_1'"
+    ],
     "GUID": "194FC3DC",
     "NextDialogue": 10110903,
     "SpeakNpcId": 200045,
@@ -19432,7 +19467,9 @@
   },
   "10113109": {
     "Camera": "84.604492,-158.234375,121.661133,0.000088,5.199119,0.209052,35.0,394.088074,false,Manual,22.0",
-    "ContentEN": "{性别:It's okay to let it out, man. You'll feel better after a good cry.|It's okay if you want to cry. Just let it all out.}",
+    "ContentEN": [
+      "性别:It's okay to let it out, man. You'll feel better after a good cry.|It's okay if you want to cry. Just let it all out."
+    ],
     "DialogueId": 10113109,
     "ExStoryInfo": "Player",
     "GUID": "19512DF2",
@@ -19782,7 +19819,9 @@
     "DialogueId": 10113304,
     "Duration": 3,
     "GUID": "19514DF0",
-    "Subtitle": "{性别:Her|His} name was—",
+    "Subtitle": [
+      "{性别:Her|His} name was—"
+    ],
     "VoiceName": "voice/$Locale$/story/1002/101133/19514DF0"
   },
   "10113401": {
@@ -20875,7 +20914,13 @@
     "VoiceName": "voice/$Locale$/story/1002/101195/195546A2"
   },
   "10119502": {
-    "ContentEN": "{nickname}, come on, let's pin him down!",
+    "ContentEN": [
+      [
+        "nickname"
+      ],
+      "come on",
+      "let's pin him down!"
+    ],
     "DialogueId": 10119502,
     "Duration": 3,
     "ExStoryInfo": "Player",
@@ -22821,7 +22866,9 @@
   "11011017": {
     "ContentEN": "Each one of you is a credit to the squad. You've shown courage that is truly worthy of your badge. The Empire will not let your efforts go to waste.",
     "DialogueId": 11011017,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "GUID": "1B909EFA",
     "SpeakNpcId": 110010,
     "Subtitle": "Each one of you is a credit to the squad. You've shown courage that is truly worthy of your badge. The Empire will not let your efforts go to waste.",
@@ -22839,7 +22886,9 @@
   "11011019": {
     "ContentEN": "They are performing their duties, and I've reached out to the chief commander. Have a good rest and leave the fighting to us.",
     "DialogueId": 11011019,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "GUID": "1B909F4E",
     "SpeakNpcId": 110010,
     "Subtitle": "They are performing their duties, and I've reached out to the chief commander. Have a good rest and leave the fighting to us.",
@@ -22858,7 +22907,9 @@
   "11011021": {
     "ContentEN": "This is not a dream. Stay with us, and don't fall asleep.",
     "DialogueId": 11011021,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "GUID": "1B909FA2",
     "SpeakNpcId": 110010,
     "Subtitle": "This is not a dream. Stay with us, and don't fall asleep.",
@@ -22877,7 +22928,9 @@
   "11011023": {
     "ContentEN": "All glory to our Emperor.",
     "DialogueId": 11011023,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "GUID": "1B909FF6",
     "SpeakNpcId": 110010,
     "Subtitle": "All glory to our Emperor.",
@@ -22906,7 +22959,9 @@
   "11011026": {
     "ContentEN": "The tide of battle is in our favour. Reinforcements are on their way. Soon we will take the fortress and crush those bastards.",
     "DialogueId": 11011026,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "GUID": "1B90A074",
     "SpeakNpcId": 110010,
     "Subtitle": "The tide of battle is in our favour. Reinforcements are on their way. Soon we will take the fortress and crush those bastards.",
@@ -23071,7 +23126,10 @@
     "VoiceName": "voice/$Locale$/story/1002/110111/1B90AE3C"
   },
   "11011111": {
-    "ContentEN": "{nickname2}. You, do the report please.",
+    "ContentEN": [
+      "{nickname2}. You",
+      "do the report please."
+    ],
     "DialogueId": 11011111,
     "Duration": 3,
     "ExStoryInfo": "EXPlayer",
@@ -23165,7 +23223,12 @@
     "VoiceName": "voice/$Locale$/story/1002/110111/1B90AF38"
   },
   "11011117": {
-    "ContentEN": "{nickname2}, you come with me and continue the mission.",
+    "ContentEN": [
+      [
+        "nickname2"
+      ],
+      "you come with me and continue the mission."
+    ],
     "DialogueId": 11011117,
     "Duration": 3,
     "ExStoryInfo": "EXPlayer",
@@ -23741,7 +23804,9 @@
     "Camera": "-4.147461,-84.023438,209.185547,0.000071,-11.599573,57.385395,35.0,100000.0,false,Manual,22.0",
     "ContentEN": "Hello? Does anyone copy? <H>What's the weather like in Hyperborea today?</>",
     "DialogueId": 11011317,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "FinalCamera": "130.579102,-94.488281,189.368927,0.00009,-6.599581,99.386292,35.0,100000.0,false,Manual,22.0",
     "GUID": "1B90D032",
@@ -23769,7 +23834,9 @@
   "11011319": {
     "ContentEN": "Commander Avar? Is that you? I'm Vic!",
     "DialogueId": 11011319,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "GUID": "1B90D086",
     "NextDialogue": 11011320,
@@ -23791,7 +23858,9 @@
   "11011321": {
     "ContentEN": "After we split our forces, Monica and I took the path along the outer perimeter. We're about to reach the engine room.",
     "DialogueId": 11011321,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "GUID": "1B90D0DA",
     "NextDialogue": 11011322,
@@ -23816,7 +23885,9 @@
   "11011323": {
     "ContentEN": "I'm calling you specifically to give you an update, sir. We'll make an attempt to shut down the power unit.",
     "DialogueId": 11011323,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "GUID": "1B90D12E",
     "NextDialogue": 11011324,
@@ -23839,7 +23910,9 @@
   "11011325": {
     "ContentEN": "Please, let us try, sir! Every moment we delay puts our comrades in greater danger.",
     "DialogueId": 11011325,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "GUID": "1B90D182",
     "NextDialogue": 11011326,
@@ -23862,7 +23935,9 @@
     "Camera": "216.523438,234.703125,186.789169,0.000391,-6.199831,-121.005493,35.0,100000.0,false,Manual,22.0",
     "ContentEN": "And one more thing... Since Captain {nickname2} is with you, may I ask how the Griffins are doing? My brother Simon is in that squad...",
     "DialogueId": 11011327,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "ExStoryInfo": "EXPlayer",
     "GUID": "1B90D1D6",
@@ -23900,7 +23975,9 @@
   "11011330": {
     "ContentEN": "...Wha...?",
     "DialogueId": 11011330,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "GUID": "1B90D254",
     "NextDialogue": 11011331,
@@ -23924,7 +24001,9 @@
   "11011332": {
     "ContentEN": "...Understood. Thank you, sir.",
     "DialogueId": 11011332,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "GUID": "1B90D2A8",
     "NextDialogue": 11011333,
     "Scripts": "PlayNormalSound{EventPath{\"event:/sfx/common/story/ex01/signal_off\"},PlayAs2D{true}}",
@@ -23997,7 +24076,9 @@
     "Camera": "-855.458252,1758.097656,-643.220276,0.00082,25.000942,53.20303,35.0,100000.0,false,Manual,22.0",
     "ContentEN": "Monica! Can... hear me?",
     "DialogueId": 11011403,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "FinalCamera": "2.20343,1572.757812,-382.174683,0.000727,22.798645,70.400337,35.0,100000.0,false,Manual,22.0",
     "GUID": "1B90DE4E",
@@ -24012,7 +24093,9 @@
   "11011404": {
     "ContentEN": "The engine room... Run... Argh...!",
     "DialogueId": 11011404,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "GUID": "1B90DE78",
     "NextDialogue": 11011405,
@@ -24024,7 +24107,9 @@
   "11011405": {
     "ContentEN": "... ...",
     "DialogueId": 11011405,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "NextDialogue": 11011406,
     "Scripts": "StopNormalSound{EventPath{\"event:/sfx/common/story/ex01/signal_off\"},PlayAs2D{true}}",
@@ -24416,7 +24501,9 @@
     "Camera": "32.20459,-111.064453,133.04126,0.000151,2.201254,141.389984,35.0,100000.0,false,Manual,22.0",
     "ContentEN": "Avar, where are you?",
     "DialogueId": 11011506,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "FinalCamera": "80.955566,-13.558594,135.693237,0.000151,1.401165,172.787323,35.0,100000.0,false,Manual,22.0",
     "GUID": "1B90EF34",
@@ -24453,7 +24540,9 @@
   "11011509": {
     "ContentEN": "What's your problem? Can't even recognise the chief commander's voice?",
     "DialogueId": 11011509,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "GUID": "1B90EFB2",
     "NextDialogue": 11011510,
@@ -24475,7 +24564,9 @@
   "11011511": {
     "ContentEN": "It's raining tonight. Tsk, I've seen marble sculptures in the gallery with more flexibility than your mind. Now, report on your squad.",
     "DialogueId": 11011511,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "GUID": "1B90F006",
     "NextDialogue": 11011512,
@@ -24497,7 +24588,9 @@
   "11011513": {
     "ContentEN": "Enough with your snide attitude. You should be ashamed of how this battle has turned out.",
     "DialogueId": 11011513,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "GUID": "1B90F05A",
     "NextDialogue": 11011514,
@@ -24519,7 +24612,9 @@
   "11011515": {
     "ContentEN": "Avar Hrodland, I'm warning you — Watch your tone when speaking to your superior!",
     "DialogueId": 11011515,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "GUID": "1B90F0AE",
     "NextDialogue": 11011516,
@@ -24544,7 +24639,9 @@
   "11011517": {
     "ContentEN": "I have no time for this right now. I am here to demand a progress update on the mission.",
     "DialogueId": 11011517,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "GUID": "1B90F102",
     "NextDialogue": 11011518,
@@ -24566,7 +24663,9 @@
   "11011519": {
     "ContentEN": "Your mission is a rapid infiltration assault. No field officer of mine is permitted to make their own bloody choices.",
     "DialogueId": 11011519,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "GUID": "1B90F156",
     "NextDialogue": 11011520,
     "SnapShot": "TELEPHONE",
@@ -24577,7 +24676,9 @@
   "11011520": {
     "ContentEN": "Straying off the planned course of action will only alert the entire fortress. I order you to stick to the plan and launch a direct assault on the central control room.",
     "DialogueId": 11011520,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "GUID": "1B90F180",
     "NextDialogue": 11011521,
     "SnapShot": "TELEPHONE",
@@ -24597,7 +24698,9 @@
   "11011522": {
     "ContentEN": "Casualties? Forget about your bloody casualties. All I know is that you're significantly behind schedule!",
     "DialogueId": 11011522,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "GUID": "1B90F1D4",
     "NextDialogue": 11011523,
     "SnapShot": "TELEPHONE",
@@ -24608,7 +24711,9 @@
   "11011523": {
     "ContentEN": "You've brought shame to the legion's banner — the soldiers of Hyperborea are not cowards who would stop because of trivial losses like this!",
     "DialogueId": 11011523,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "GUID": "1B90F1FE",
     "NextDialogue": 11011524,
     "SnapShot": "TELEPHONE",
@@ -24619,7 +24724,9 @@
   "11011524": {
     "ContentEN": "From Emperor Dis I to Legion Chief Quintus, the mastermind of the Divine Elegy offensive, no Hyperborean commander ever baulked at taking losses.",
     "DialogueId": 11011524,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "GUID": "1B90F228",
     "NextDialogue": 11011525,
     "SnapShot": "TELEPHONE",
@@ -24630,7 +24737,9 @@
   "11011525": {
     "ContentEN": "I gave you the elites of the 13th Legion. You should have more than enough resources to take this puny fort.",
     "DialogueId": 11011525,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "GUID": "1B90F252",
     "NextDialogue": 11011526,
     "SnapShot": "TELEPHONE",
@@ -24710,7 +24819,9 @@
     "Camera": "-110.046387,314.720703,266.5,0.000116,-22.99999,-83.390305,35.0,100000.0,false,Manual,22.0",
     "ContentEN": "And who is this? Oh, it's you, {nickname2}, Avar's favourite protege and the Captain of the Griffins, I presume?",
     "DialogueId": 11011532,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "ExStoryInfo": "EXPlayer",
     "FinalCamera": "-120.473633,313.515625,266.5,0.000118,-22.999937,-83.390305,35.0,100000.0,false,Manual,22.0",
@@ -24734,7 +24845,9 @@
     "Camera": "-71.202637,15.898438,121.658752,0.000084,-1.799809,-61.785873,35.0,100000.0,false,Manual,22.0",
     "ContentEN": "And who is this? Oh, it's you, {nickname2}, Avar's favourite protege and the Captain of the Griffins, I presume?",
     "DialogueId": 11011534,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "ExStoryInfo": "EXPlayer",
     "FinalCamera": "-82.985352,51.541016,131.751343,0.000089,-5.599737,-62.78595,35.0,100000.0,false,Manual,22.0",
@@ -24753,7 +24866,9 @@
     "Camera": "179.030273,36.109375,768.0271,0.000185,5.399223,150.822723,35.0,100000.0,false,Manual,22.0",
     "ContentEN": "What's the hurry? We have concluded our tactical meeting. Reinforcements from the Narwhals are on their way, and I'll be gracing the front with them.",
     "DialogueId": 11011535,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "FinalCamera": "269.858887,-14.625,758.194946,0.000185,5.399223,150.822723,35.0,100000.0,false,Manual,22.0",
     "GUID": "1B90F3F6",
@@ -24767,7 +24882,9 @@
   "11011536": {
     "ContentEN": "Stick to the plan, you hear me? As Hyperborean soldiers, you fight until your last breath or face the consequences!",
     "DialogueId": 11011536,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "GUID": "1B90F420",
     "NextDialogue": 11011537,
@@ -24828,7 +24945,9 @@
   "11011540": {
     "ContentEN": "Captain! Captain!",
     "DialogueId": 11011540,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "GUID": "1B90F4C8",
     "NextDialogue": 11011541,
     "Scripts": "PlayNormalSound{EventPath{\"event:/sfx/common/story/ex01/signal_on\"},PlayAs2D{true}}",
@@ -24843,7 +24962,9 @@
   "11011541": {
     "ContentEN": "This is Simon from the Griffins. Do you copy, Captain?",
     "DialogueId": 11011541,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "GUID": "1B90F4F2",
     "NextDialogue": 11011542,
     "SnapShot": "TELEPHONE",
@@ -24865,7 +24986,9 @@
     "Camera": "-1101.448242,-314.363281,973.365723,0.000098,-0.200862,-106.786194,35.0,100000.0,false,Manual,22.0",
     "ContentEN": "We're trapped by a Filthoid horde along the rail track. If you have any forces to spare, we need an extraction!",
     "DialogueId": 11011543,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "FinalCamera": "-1164.543945,-295.335938,973.365723,0.000098,-0.200862,-106.786194,35.0,100000.0,false,Manual,22.0",
     "GUID": "1B90F546",
     "NextDialogue": 11011544,
@@ -24878,7 +25001,9 @@
   "11011544": {
     "ContentEN": "Please... Captain!",
     "DialogueId": 11011544,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "GUID": "1B90F570",
     "NextDialogue": 11011545,
     "SnapShot": "TELEPHONE",
@@ -26140,7 +26265,9 @@
   "11011902": {
     "ContentEN": "The Forsakens sabotaged the Narwhals at the bridge. Now we're stuck here.",
     "DialogueId": 11011902,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "GUID": "1B91302C",
     "NextDialogue": 11011903,
@@ -26162,7 +26289,9 @@
   "11011904": {
     "ContentEN": "So what if they are Daimons? You're one too! Besides, don't you have {nickname2} on your side, who's as strong as any Daimon?",
     "DialogueId": 11011904,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "ExStoryInfo": "EXPlayer",
     "GUID": "1B913080",
@@ -26175,7 +26304,9 @@
   "11011905": {
     "ContentEN": "The central control room is just right ahead. It's less than fifty yards away from the Turret you're at.",
     "DialogueId": 11011905,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "GUID": "1B9130AA",
     "NextDialogue": 11011906,
@@ -26187,7 +26318,9 @@
   "11011906": {
     "ContentEN": "Fifty yards further, and we can dedicate the victory to His Majesty! What's so hard about that?",
     "DialogueId": 11011906,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "GUID": "1B9130D4",
     "NextDialogue": 11011907,
@@ -26210,7 +26343,9 @@
   },
   "11011908": {
     "Camera": "-307.916016,-10.313782,130.371277,0.000038,0.9994,-22.646984,35.0,100000.0,false,Manual,22.0",
-    "ContentEN": "{nickname2}? How are things going on your side?",
+    "ContentEN": [
+      "{nickname2}? How are things going on your side?"
+    ],
     "DialogueId": 11011908,
     "Duration": 3,
     "ExStoryInfo": "EXPlayer",
@@ -27940,7 +28075,10 @@
     "VoiceName": "voice/$Locale$/story/1002/110125/1B9192F0"
   },
   "11012505": {
-    "ContentEN": "{nickname2}...My god, what have you done!?",
+    "ContentEN": [
+      "{nickname2}...My god",
+      "what have you done!?"
+    ],
     "DialogueId": 11012505,
     "Duration": 3,
     "ExStoryInfo": "EXPlayer",
@@ -28692,7 +28830,9 @@
   "11012809": {
     "ContentEN": "It's a younger Sir Avar with… Daphne?",
     "DialogueId": 11012809,
-    "DialoguePanelType": "{type:showpic;dir:Texture2D'/Game/UI/Texture/Dynamic/Image/Guide/T_Guide_Ex01_Pic.T_Guide_Ex01_Pic'}",
+    "DialoguePanelType": [
+      "type:showpic;dir:Texture2D'/Game/UI/Texture/Dynamic/Image/Guide/T_Guide_Ex01_Pic.T_Guide_Ex01_Pic'"
+    ],
     "Duration": 3,
     "ExStoryInfo": "EXPlayer",
     "GUID": "1B91C4FA",
@@ -29071,7 +29211,12 @@
   },
   "11012905": {
     "Camera": "39.005341,-496.773438,249.36821,0.005568,-6.569091,85.39138,35.0,100000.0,false,Manual,22.0",
-    "ContentEN": "{nickname2}, something's off here. The original blueprints of the fortress show this room should have the strongest defence system, including a self-destruct mechanism.",
+    "ContentEN": [
+      [
+        "nickname2"
+      ],
+      "something's off here. The original blueprints of the fortress show this room should have the strongest defence system, including a self-destruct mechanism."
+    ],
     "DialogueId": 11012905,
     "Duration": 3,
     "ExStoryInfo": "EXPlayer",
@@ -29379,7 +29524,9 @@
     "VoiceName": "voice/$Locale$/story/1002/110131/1B91F560"
   },
   "11013201": {
-    "Content": "{nickname2}队长。",
+    "Content": [
+      "{nickname2}队长。"
+    ],
     "DialogueId": 11013201,
     "Duration": 3,
     "ExStoryInfo": "EXPlayer",
@@ -30453,7 +30600,9 @@
     "Camera": "21.600922,84.398438,21.665161,0.000077,-20.199579,-112.073257,35.0,100000.0,false,Manual,22.0",
     "ContentEN": "...",
     "DialogueId": 11014003,
-    "DialoguePanelType": "{type:showpic;dir:Texture2D'/Game/UI/Texture/Dynamic/Image/Guide/T_Guide_Ex01_DirtyPic.T_Guide_Ex01_DirtyPic'}",
+    "DialoguePanelType": [
+      "type:showpic;dir:Texture2D'/Game/UI/Texture/Dynamic/Image/Guide/T_Guide_Ex01_DirtyPic.T_Guide_Ex01_DirtyPic'"
+    ],
     "Duration": 3,
     "ExStoryInfo": "EXPlayer",
     "GUID": "1B9288DE",
@@ -30483,7 +30632,9 @@
     "Camera": "508.594055,-4106.466797,1392.813965,-0.000213,-4.605992,-128.67778,35.0,100000.0,false,Manual,22.0",
     "ContentEN": "Attention to all 13th Legion soldiers in Lonza Fortress. Daphne Theodore, the former Medic of Squad Griffins, is now classified as a Forsakens spy.",
     "DialogueId": 11014005,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "FinalCamera": "591.160767,-4172.571289,1392.814087,-0.000214,-4.605992,-128.677704,35.0,100000.0,false,Manual,22.0",
     "GUID": "1B928932",
@@ -30498,7 +30649,9 @@
   "11014006": {
     "ContentEN": "Daphne Theodore is to be executed upon sight.",
     "DialogueId": 11014006,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "GUID": "1B92895C",
     "NextDialogue": 11014007,
@@ -31285,7 +31438,9 @@
   "11014601": {
     "ContentEN": "Daphne Theodore and an unknown accomplice are currently hiding in the sewers near Reservoir 1.",
     "DialogueId": 11014601,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "GUID": "1B92EAFA",
     "NextDialogue": 11014602,
@@ -31297,7 +31452,9 @@
   "11014602": {
     "ContentEN": "Initiate the flooding of Reservoir 1 to force them out.",
     "DialogueId": 11014602,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "GUID": "1B92EB24",
     "NextDialogue": 11014603,
@@ -31359,7 +31516,9 @@
   "11014803": {
     "ContentEN": "They can't be far! Herd the remaining Filthoids into the tunnels!",
     "DialogueId": 11014803,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "GUID": "1B930C1E",
     "NextDialogue": 11014804,
@@ -31370,7 +31529,9 @@
   "11014804": {
     "ContentEN": "Seal all exits. Once they surface, we'll eliminate the traitors.",
     "DialogueId": 11014804,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "GUID": "1B930C48",
     "NextDialogue": 11014805,
@@ -31381,7 +31542,9 @@
   "11014805": {
     "ContentEN": "Hurry up! We're running out of time!",
     "DialogueId": 11014805,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "GUID": "1B930C72",
     "NextDialogue": 11014806,
@@ -32044,7 +32207,9 @@
   "11015146": {
     "ContentEN": "Seal all exits. Once they surface, we'll eliminate the traitors.",
     "DialogueId": 11015146,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "GUID": "1B934464",
     "GraphPath": "Texture2D'/Game/UI/UI_PNG/Story/Recall_Pictures/11014411.11014411'",
@@ -32057,7 +32222,9 @@
   "11015147": {
     "ContentEN": "Hurry up! We're running out of time!",
     "DialogueId": 11015147,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "GUID": "1B93448E",
     "GraphPath": "Texture2D'/Game/UI/UI_PNG/Story/Recall_Pictures/11014411.11014411'",
@@ -32907,14 +33074,18 @@
     "VoiceName": "voice/$Locale$/story/1002/110159/1B93C0EA"
   },
   "11015906": {
-    "ContentEN": "{性别2:He|She} then deceived me about how my father died...",
+    "ContentEN": [
+      "{性别2:He|She} then deceived me about how my father died..."
+    ],
     "DialogueId": 11015906,
     "Duration": 3,
     "ExStoryInfo": "EXPlayer",
     "GUID": "1B93C114",
     "NextDialogue": 11015907,
     "SpeakNpcName": "UI_Npc_DreamDafu",
-    "Subtitle": "{性别2:He|She} then deceived me about how my father died...",
+    "Subtitle": [
+      "{性别2:He|She} then deceived me about how my father died..."
+    ],
     "VoiceName": "voice/$Locale$/story/1002/110159/1B93C114"
   },
   "11015907": {
@@ -33729,7 +33900,12 @@
   },
   "11016801": {
     "Camera": "193.282227,65.876953,181.271759,0.00013,-2.593593,-83.41555,35.0,150.488785,false,Manual,22.0",
-    "ContentEN": "{nickname2}, Warden Hellfire has instructed me to bring Miss Theodore here.",
+    "ContentEN": [
+      [
+        "nickname2"
+      ],
+      "Warden Hellfire has instructed me to bring Miss Theodore here."
+    ],
     "DialogueId": 11016801,
     "Duration": 3,
     "ExStoryInfo": "EXPlayer",
@@ -34832,7 +35008,12 @@
     "VoiceName": "voice/$Locale$/story/1002/110171/1B9488BE"
   },
   "11017201": {
-    "ContentEN": "{nickname2}, so you're not going to ask me anything?",
+    "ContentEN": [
+      [
+        "nickname2"
+      ],
+      "so you're not going to ask me anything?"
+    ],
     "DialogueId": 11017201,
     "Duration": 3,
     "ExStoryInfo": "EXPlayer",
@@ -34985,7 +35166,9 @@
   "11017411": {
     "Content": "好，月髓连接上了【待包装】",
     "DialogueId": 11017411,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 3,
     "SpeakNpcId": 110010
   },
@@ -35016,14 +35199,18 @@
   "11017415": {
     "Content": "炮台的能源已经全部连通，回来汇合吧。【待包装】",
     "DialogueId": 11017415,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "Duration": 5,
     "SpeakNpcId": 110010
   },
   "11017416": {
     "ContentEN": "Go activate the Phoxynamo Wheels once you're ready.",
     "DialogueId": 11017416,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "SpeakNpcId": 110010,
     "Subtitle": "Go activate the Phoxynamo Wheels once you're ready."
   },
@@ -35081,7 +35268,9 @@
   "11017501": {
     "ContentEN": "The engine room is the \"heart\" of the entire fortress, and all the power that keeps the fortress running comes from the Phoxichor tank in there.",
     "DialogueId": 11017501,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "NextDialogue": 11017502,
     "Scripts": "PlayNormalSound{EventPath{\"event:/sfx/common/story/ex01/signal_on\"},PlayAs2D{true}}",
     "SpeakNpcId": 110010,
@@ -35090,14 +35279,18 @@
   "11017502": {
     "ContentEN": "But a direct attack would only lead to explosion, so you need to shut down the <H>Phoxynamo Wheels</> around it first.",
     "DialogueId": 11017502,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "SpeakNpcId": 110010,
     "Subtitle": "But a direct attack would only lead to explosion, so you need to shut down the Phoxynamo Wheels around it first."
   },
   "11017503": {
     "ContentEN": "You should be able to recognise those wheels, aka the blue ones, right? What you need to do is turn them yellow.",
     "DialogueId": 11017503,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "NextDialogue": 11017504,
     "SpeakNpcId": 110010,
     "Subtitle": "You should be able to recognise those wheels, aka the blue ones, right? What you need to do is turn them yellow."
@@ -35105,7 +35298,9 @@
   "11017504": {
     "ContentEN": "I graduated a long time ago, Sir. You don't have to lead me through all the basic steps.",
     "DialogueId": 11017504,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "ExStoryInfo": "EXPlayer",
     "NextDialogue": 11017505,
     "SpeakNpcId": 110022,
@@ -35114,7 +35309,9 @@
   "11017505": {
     "ContentEN": "...You kiddo! Alright, play it by ear then. I'll contact you if necessary.",
     "DialogueId": 11017505,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "SpeakNpcId": 110010,
     "Subtitle": "...You kiddo! Alright, play it by ear then. I'll contact you if necessary."
   },
@@ -35142,7 +35339,9 @@
   "11017509": {
     "ContentEN": "The door due east is now open. You can go that way.",
     "DialogueId": 11017509,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "SpeakNpcId": 110010,
     "Subtitle": "The door due east is now open. You can go that way."
   },
@@ -35170,7 +35369,9 @@
   "11017513": {
     "ContentEN": "What's the noise... Everthing okay?",
     "DialogueId": 11017513,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "NextDialogue": 11017514,
     "SpeakNpcId": 110010,
     "Subtitle": "What's the noise... Everthing okay?"
@@ -35193,7 +35394,9 @@
   "11017516": {
     "ContentEN": "Damn it!",
     "DialogueId": 11017516,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "NextDialogue": 11017517,
     "SpeakNpcId": 110010,
     "Subtitle": "Damn it!"
@@ -35208,7 +35411,9 @@
   "11017518": {
     "ContentEN": "Overload risk?",
     "DialogueId": 11017518,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "NextDialogue": 11017519,
     "SpeakNpcId": 110010,
     "Subtitle": "Overload risk?"
@@ -35216,7 +35421,9 @@
   "11017519": {
     "ContentEN": "Listen, {nickname2}. I need you to go to the lower floor of the engine room, activate all the back-up Phoxynamo Wheels, then evacuate immediately.",
     "DialogueId": 11017519,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "ExStoryInfo": "EXPlayer",
     "NextDialogue": 11017520,
     "SpeakNpcId": 110010,
@@ -35225,7 +35432,9 @@
   "11017520": {
     "ContentEN": "Since we can't shut them down our way, we can let them do it in a self-destructive way.",
     "DialogueId": 11017520,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "NextDialogue": 11017521,
     "SpeakNpcId": 110010,
     "Subtitle": "Since we can't shut them down our way, we can let them do it in a self-destructive way."
@@ -35240,14 +35449,18 @@
   "11017601": {
     "ContentEN": "Back-up Phoxynamo Wheel No.1 is ready. Now activate it.",
     "DialogueId": 11017601,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "SpeakNpcId": 110010,
     "Subtitle": "Back-up Phoxynamo Wheel No.1 is ready. Now activate it."
   },
   "11017602": {
     "ContentEN": "Well done. I'll unlock the control authority for the remaining three Phoxynamo Wheels.",
     "DialogueId": 11017602,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "NextDialogue": 11017603,
     "SpeakNpcId": 110010,
     "Subtitle": "Well done. I'll unlock the control authority for the remaining three Phoxynamo Wheels."
@@ -35255,7 +35468,9 @@
   "11017603": {
     "ContentEN": "Activate them once the yellow light is on.",
     "DialogueId": 11017603,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "SpeakNpcId": 110010,
     "Subtitle": "Activate them once the yellow light is on."
   },
@@ -35283,7 +35498,9 @@
   "11017607": {
     "ContentEN": "No.3 is also ready. Go get it!",
     "DialogueId": 11017607,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "SpeakNpcId": 110010,
     "Subtitle": "No.3 is also ready. Go get it!"
   },
@@ -35298,14 +35515,18 @@
   "11017609": {
     "ContentEN": "Quick and clean! Well done, kid.",
     "DialogueId": 11017609,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "SpeakNpcId": 110010,
     "Subtitle": "Quick and clean! Well done, kid."
   },
   "11017610": {
     "ContentEN": "The control authority is unlocked. This is the last one!",
     "DialogueId": 11017610,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "SpeakNpcId": 110010,
     "Subtitle": "The control authority is unlocked. This is the last one!"
   },
@@ -35319,7 +35540,9 @@
   "11017612": {
     "ContentEN": "Run! Get behind the safety door!",
     "DialogueId": 11017612,
-    "DialoguePanelType": "{type:Guide;style:Communicator}",
+    "DialoguePanelType": [
+      "type:Guide;style:Communicator"
+    ],
     "NextDialogue": 11017613,
     "SpeakNpcId": 110010,
     "Subtitle": "Run! Get behind the safety door!"
@@ -37577,7 +37800,9 @@
   },
   "20000929": {
     "Camera": "136.048828,-53.867432,128.230469,0.0,0.0,-169.194504,30.0,100000.0,false,DoNotOverride,2.8",
-    "ContentEN": "{nickname}... you are such a wonderful person.",
+    "ContentEN": [
+      "{nickname}... you are such a wonderful person."
+    ],
     "DefaultLookAt": "TalkNpc",
     "DialogueId": 20000929,
     "Duration": 3,
@@ -37650,7 +37875,12 @@
     "VoiceName": "voice/$Locale$/story/2001/200012/3212270A"
   },
   "20001301": {
-    "ContentEN": "{nickname}, did you manage to find the soil?",
+    "ContentEN": [
+      [
+        "nickname"
+      ],
+      "did you manage to find the soil?"
+    ],
     "DialogueId": 20001301,
     "ExStoryInfo": "Player",
     "GUID": "32123772",
@@ -38401,7 +38631,12 @@
     "VoiceName": "voice/$Locale$/env/700011/7D2C4A72"
   },
   "50001401": {
-    "ContentEN": "{Nickname}, lovely to see you again! I'm trying my best to learn new things every day, let's keep at it!",
+    "ContentEN": [
+      [
+        "Nickname"
+      ],
+      "lovely to see you again! I'm trying my best to learn new things every day, let's keep at it!"
+    ],
     "DefaultLookAt": "TalkNpc",
     "DialogueId": 50001401,
     "Duration": 3,
@@ -38639,7 +38874,9 @@
     "ContentEN": "Beat it, dirty Charon!",
     "DefaultLookAt": "TalkNpc",
     "DialogueId": 50002801,
-    "DialoguePanelType": "{type:Bubble;style:ExcitedBubble}",
+    "DialoguePanelType": [
+      "type:Bubble;style:ExcitedBubble"
+    ],
     "Duration": 3,
     "GUID": "7D2D408A",
     "LookAt": [
@@ -46746,7 +46983,9 @@
   },
   "51006105": {
     "Camera": "-47.697998,-122.447266,163.110352,0.000107,-15.799224,-21.20565,28.0,100000.0,false,DoNotOverride,2.8",
-    "ContentEN": "{性别:He|She} is my newly recruited little minion. I'm showing {性别:him|her} the ropes of being a qualified Phoxhunter.",
+    "ContentEN": [
+      "{性别:He|She} is my newly recruited little minion. I'm showing {性别:him|her} the ropes of being a qualified Phoxhunter."
+    ],
     "DialogueId": 51006105,
     "ExStoryInfo": "Player",
     "LookAt": [
@@ -51296,10 +51535,14 @@
     "Subtitle": "Oh... Well, if you won't stick around, I'd better leave. This place gives me the creeps..."
   },
   "71002101": {
-    "ContentEN": "{nickname}! Thank goodness you're here! I need your help!",
+    "ContentEN": [
+      "{nickname}! Thank goodness you're here! I need your help!"
+    ],
     "DialogueId": 71002101,
     "SpeakNpcId": 818007,
-    "Subtitle": "{nickname}! Thank goodness you're here! I need your help!"
+    "Subtitle": [
+      "{nickname}! Thank goodness you're here! I need your help!"
+    ]
   },
   "71002102": {
     "ContentEN": "I was supposed to deliver this crate of supplies to my colleagues across the Lamenting Lake, but I've suddenly got this terrible stomachache. Could you deliver it for me? Please, I'm begging you!",
@@ -52073,7 +52316,9 @@
     "VoiceName": "voice/$Locale$/inv/Fuluo/004/C84C3630"
   },
   "80010425": {
-    "Content": "{NickName}，我想，您拥有一位过于优秀的骑士。",
+    "Content": [
+      "{NickName}，我想，您拥有一位过于优秀的骑士。"
+    ],
     "DialogueId": 80010425,
     "ExStoryInfo": "Player",
     "GUID": "C84C365A",
@@ -52098,7 +52343,9 @@
     "VoiceName": "voice/$Locale$/inv/Fuluo/004/C84C36D8"
   },
   "80010429": {
-    "Content": "{NickName}，您真的是一个过于天真的家伙。",
+    "Content": [
+      "{NickName}，您真的是一个过于天真的家伙。"
+    ],
     "DialogueId": 80010429,
     "ExStoryInfo": "Player",
     "GUID": "C84C3702",
@@ -55298,7 +55545,12 @@
   },
   "80040301": {
     "Camera": "223.874207,-164.812988,108.091064,0.000004,2.199922,151.586334,35.0,100000.0,false,DoNotOverride,2.8",
-    "ContentEN": "{nickname}, {nickname}?",
+    "ContentEN": [
+      [
+        "nickname"
+      ],
+      "{nickname}?"
+    ],
     "DefaultLookAt": "TalkNpc",
     "DialogueId": 80040301,
     "ExStoryInfo": "Player",
@@ -55486,7 +55738,12 @@
   },
   "80040314": {
     "Camera": "110.972656,229.919922,117.47998,0.000003,0.399996,-115.012459,35.0,100000.0,false,DoNotOverride,2.8",
-    "ContentEN": "{nickname}, are you scared?",
+    "ContentEN": [
+      [
+        "nickname"
+      ],
+      "are you scared?"
+    ],
     "DialogueId": 80040314,
     "ExStoryInfo": "Player",
     "FacialId": [
@@ -55819,7 +56076,9 @@
   },
   "80040405": {
     "Camera": "192.182617,198.81543,123.755371,-0.519562,0.0,-141.410492,35.0,100000.0,false,DoNotOverride,2.8",
-    "ContentEN": "{nickname}! Are you okay?",
+    "ContentEN": [
+      "{nickname}! Are you okay?"
+    ],
     "DialogueId": 80040405,
     "ExStoryInfo": "Player",
     "GUID": "C85F6CF2",
@@ -56070,7 +56329,13 @@
   },
   "80040427": {
     "Camera": "-89.0,-19.983398,126.830017,0.0,0.0,57.791512,35.0,100000.0,false,DoNotOverride,2.8",
-    "ContentEN": "{nickname}, when you wake up tomorrow, let's leave this island. We'll find somewhere vast and free. Like you said—",
+    "ContentEN": [
+      [
+        "nickname"
+      ],
+      "when you wake up tomorrow",
+      "let's leave this island. We'll find somewhere vast and free. Like you said—"
+    ],
     "DialogueId": 80040427,
     "ExStoryInfo": "Player",
     "FacialId": [
@@ -56102,7 +56367,10 @@
     "VoiceName": "voice/$Locale$/inv/Heitao/004/C85F70E2"
   },
   "80050100": {
-    "ContentEN": "{性别:Mr|Miss} Unicorn, are you having a tea party? May I join you~?",
+    "ContentEN": [
+      "{性别:Mr|Miss} Unicorn",
+      "are you having a tea party? May I join you~?"
+    ],
     "DialogueId": 80050100,
     "ExStoryInfo": "Player",
     "GUID": "C865A388",
@@ -59413,7 +59681,9 @@
   },
   "80060401": {
     "Camera": "138.374878,24.149231,125.715088,-0.0,-0.799959,-137.395096,35.0,175.0,false,Manual,2.8",
-    "ContentEN": "{nickname}! I... I have a really important question! Can you answer it right now?",
+    "ContentEN": [
+      "{nickname}! I... I have a really important question! Can you answer it right now?"
+    ],
     "DialogueId": 80060401,
     "ExStoryInfo": "Player",
     "FacialId": [
@@ -61402,7 +61672,9 @@
   },
   "80080103": {
     "Camera": "-115.056641,157.29718,104.279297,0.000006,2.600007,-78.7966,35.0,100000.0,false,DoNotOverride,2.8",
-    "ContentEN": "{性别:He|She} wasn't exactly strong, but {性别:he|she} bravely stared down the Filthoid, not backing down an inch...",
+    "ContentEN": [
+      "{性别:He|She} wasn't exactly strong, but {性别:he|she} bravely stared down the Filthoid, not backing down an inch..."
+    ],
     "DefaultLookAt": "TalkNpc",
     "DialogueId": 80080103,
     "ExStoryInfo": "Player",
@@ -61560,7 +61832,9 @@
   },
   "80080114": {
     "Camera": "-115.056641,157.29718,104.279297,0.000006,2.600007,-78.7966,35.0,100000.0,false,DoNotOverride,2.8",
-    "ContentEN": "{性别:He|She} told me there's golden sand and white rosemary on that island... And the sea — it's as big as a hundred Lamenting Lakes put together!",
+    "ContentEN": [
+      "{性别:He|She} told me there's golden sand and white rosemary on that island... And the sea — it's as big as a hundred Lamenting Lakes put together!"
+    ],
     "DefaultLookAt": "TalkNpc",
     "DialogueId": 80080114,
     "ExStoryInfo": "Player",
@@ -61641,7 +61915,9 @@
   },
   "80080120": {
     "Camera": "-115.056641,157.29718,104.279297,0.000006,2.600007,-78.7966,35.0,100000.0,false,DoNotOverride,2.8",
-    "ContentEN": "{性别:He|She} didn't mention any of this... I'll ask for you all next time!",
+    "ContentEN": [
+      "{性别:He|She} didn't mention any of this... I'll ask for you all next time!"
+    ],
     "DefaultLookAt": "TalkNpc",
     "DialogueId": 80080120,
     "ExStoryInfo": "Player",
@@ -62146,7 +62422,10 @@
   },
   "80080216": {
     "Camera": "-312.857422,-61.016541,136.789062,0.0,0.0,3.203201,35.0,100000.0,false,DoNotOverride,2.8",
-    "ContentEN": "{性别:He|She} is just a stranger, and might just leave Icelake tomorrow. {性别:He|She} doesn't even know... what will happen to you... You know it — everyone here is not long for this world.",
+    "ContentEN": [
+      "{性别:He|She} is just a stranger",
+      "and might just leave Icelake tomorrow. {性别:He|She} doesn't even know... what will happen to you... You know it — everyone here is not long for this world."
+    ],
     "DialogueId": 80080216,
     "ExStoryInfo": "Player",
     "GUID": "C878F070",
@@ -62273,7 +62552,10 @@
   },
   "80080226": {
     "Camera": "-30.181641,25.705566,134.960938,0.000002,0.0,-144.195145,35.0,100000.0,false,DoNotOverride,2.8",
-    "ContentEN": "{性别:He|She} doesn't belong here. I've always known that {性别:he|she} is different — unlike us, trapped in Icelake forever.",
+    "ContentEN": [
+      "{性别:He|She} doesn't belong here. I've always known that {性别:he|she} is different — unlike us",
+      "trapped in Icelake forever."
+    ],
     "DialogueId": 80080226,
     "ExStoryInfo": "Player",
     "GUID": "C878F214",
@@ -65168,7 +65450,9 @@
     "VoiceName": "voice/$Locale$/inv/Shuimu/003/C885D2C0"
   },
   "80100321": {
-    "ContentEN": "{性别:His|Her} body is strong enough to withstand every drop of my venom... whose heart is pure enough to take in all my love... and whose hands are gentle enough to wipe away all my sorrows...",
+    "ContentEN": [
+      "{性别:His|Her} body is strong enough to withstand every drop of my venom... whose heart is pure enough to take in all my love... and whose hands are gentle enough to wipe away all my sorrows..."
+    ],
     "DialogueId": 80100321,
     "ExStoryInfo": "Player",
     "FacialId": [
@@ -65339,7 +65623,9 @@
     "VoiceName": "voice/$Locale$/inv/Shuimu/003/C885D50C"
   },
   "80100335": {
-    "ContentEN": "{性别:His|Her} body is strong enough to withstand every drop of my venom... whose heart is pure enough to take in all my love... and whose hands are gentle enough to wipe away all my sorrows...",
+    "ContentEN": [
+      "{性别:His|Her} body is strong enough to withstand every drop of my venom... whose heart is pure enough to take in all my love... and whose hands are gentle enough to wipe away all my sorrows..."
+    ],
     "DialogueId": 80100335,
     "ExStoryInfo": "Player",
     "GUID": "C885D536",
@@ -74524,7 +74810,9 @@
     "DialogueId": 5100413302
   },
   "5100414201": {
-    "ContentEN": "{nickname}.",
+    "ContentEN": [
+      "{nickname}."
+    ],
     "DialogueId": 5100414201,
     "ExStoryInfo": "Player"
   },

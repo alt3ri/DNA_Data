@@ -21,11 +21,8 @@
       "RebateNum": 25
     }
   ],
-  "Char": [
-    null,
-    null,
-    null,
-    {
+  "Char": {
+    "4": {
       "Type": "Char",
       "Rarity": 4,
       "RebateResId": 111,
@@ -33,7 +30,7 @@
       "RebateResIdUp": 111,
       "RebateNumUp": 25
     },
-    {
+    "5": {
       "Type": "Char",
       "Rarity": 5,
       "RebateResId": 111,
@@ -41,5 +38,5 @@
       "RebateResIdUp": 111,
       "RebateNumUp": 125
     }
-  ]
+  }
 }

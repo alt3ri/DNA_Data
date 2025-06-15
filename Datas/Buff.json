@@ -3725,13 +3725,9 @@
     "MergeRule1": "Personal",
     "MergeRule2": "NewFree",
     "MaxLayer": 10,
-    "LayerExtraBuff": [
-      null,
-      null,
-      null,
-      null,
-      420133
-    ],
+    "LayerExtraBuff": {
+      "5": 420133
+    },
     "AllowSkillSustainModify": true,
     "BuffInitEffects": [
       1025

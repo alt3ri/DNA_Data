@@ -97,7 +97,15 @@
           "Type": "DistanceDeActive",
           "DeActiveRange": 1000
         },
-        "EventsNextState": {}
+        "EventsNextState": [
+          {
+            "Function": "PlayMontage",
+            "MontagePath": "AnimMontage'/Game/BluePrints/Item/CombatProp/LaserMontage.LaserMontage'",
+            "Mesh": "Mesh",
+            "SectionName": "DeActive",
+            "CallBackName": "OnStart"
+          }
+        ]
       }
     ]
   },
@@ -115,7 +123,15 @@
           "Type": "DistanceActive",
           "ActiveRange": 1000
         },
-        "EventsNextState": {}
+        "EventsNextState": [
+          {
+            "Function": "PlayMontage",
+            "MontagePath": "AnimMontage'/Game/BluePrints/Item/CombatProp/LaserMontage.LaserMontage'",
+            "Mesh": "Mesh",
+            "SectionName": "Rise",
+            "CallBackName": "OnNotifyBegin"
+          }
+        ]
       }
     ]
   },
@@ -166,7 +182,15 @@
   },
   "13": {
     "StateId": 13,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "OpenMechanism"
+      },
+      {
+        "Function": "ChangeColor",
+        "ColorId": 0
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 14,
@@ -184,7 +208,15 @@
   },
   "14": {
     "StateId": 14,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "CloseMechanism"
+      },
+      {
+        "Function": "ChangeColor",
+        "ColorId": 1
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 13,
@@ -214,7 +246,17 @@
   },
   "25": {
     "StateId": 25,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "SetParam",
+        "Param": "CanOpen",
+        "Value": false
+      },
+      {
+        "Function": "SetBubbleWidget",
+        "Show": false
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 26,
@@ -226,7 +268,17 @@
   },
   "26": {
     "StateId": 26,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "SetParam",
+        "Param": "CanOpen",
+        "Value": true
+      },
+      {
+        "Function": "SetBubbleWidget",
+        "Show": true
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 27,
@@ -296,13 +348,27 @@
         "TypeNextState": {
           "Type": "Interactive"
         },
-        "EventsNextState": {}
+        "EventsNextState": [
+          {
+            "Function": "PlayFX",
+            "EffectId": 200,
+            "NeedFinish": true
+          }
+        ]
       }
     ]
   },
   "31": {
     "StateId": 31,
-    "EventsCurrentState": {}
+    "EventsCurrentState": [
+      {
+        "Function": "OpenMechanism"
+      },
+      {
+        "Function": "PlayFX",
+        "EffectId": 201
+      }
+    ]
   },
   "32": {
     "StateId": 32,
@@ -312,7 +378,12 @@
         "TypeNextState": {
           "Type": "Interactive"
         },
-        "EventsNextState": {}
+        "EventsNextState": [
+          {
+            "Function": "ShowToast",
+            "ToastText": "UI_TELEPORTPOINT_INTERACTIVE"
+          }
+        ]
       }
     ]
   },
@@ -478,7 +549,17 @@
   },
   "45": {
     "StateId": 45,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "SetParam",
+        "Param": "IsActive",
+        "Value": false
+      },
+      {
+        "Function": "ChangeColor",
+        "ColorId": 2
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 46,
@@ -605,7 +686,14 @@
   },
   "54": {
     "StateId": 54,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "PlayMontage",
+        "MontagePath": "AnimMontage'/Game/AssetDesign/Item/MiniGame/JH_MiniGame_Montage.JH_MiniGame_Montage'",
+        "Mesh": "Mesh",
+        "SectionName": "Idle"
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 55,
@@ -618,7 +706,14 @@
   },
   "55": {
     "StateId": 55,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "PlayMontage",
+        "MontagePath": "AnimMontage'/Game/AssetDesign/Item/MiniGame/JH_MiniGame_Montage.JH_MiniGame_Montage'",
+        "Mesh": "Mesh",
+        "SectionName": "Start"
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 56,
@@ -630,7 +725,17 @@
   },
   "56": {
     "StateId": 56,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "OpenMechanism"
+      },
+      {
+        "Function": "PlayMontage",
+        "MontagePath": "AnimMontage'/Game/AssetDesign/Item/MiniGame/JH_MiniGame_Montage.JH_MiniGame_Montage'",
+        "Mesh": "Mesh",
+        "SectionName": "End"
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 55,
@@ -643,7 +748,13 @@
   },
   "57": {
     "StateId": 57,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "PlayFX",
+        "EffectId": 208,
+        "Tag": "ABC"
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 58,
@@ -656,7 +767,16 @@
   },
   "58": {
     "StateId": 58,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "StopFX",
+        "Tag": "ABC"
+      },
+      {
+        "Function": "PlayFX",
+        "EffectId": 209
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 59,
@@ -679,7 +799,14 @@
   },
   "61": {
     "StateId": 61,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "PlayMontage",
+        "MontagePath": "AnimMontage'/Game/AssetDesign/Item/MiniGame/DG_MiniGame_Montage.DG_MiniGame_Montage'",
+        "Mesh": "Mesh",
+        "SectionName": "Idle"
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 62,
@@ -692,7 +819,14 @@
   },
   "62": {
     "StateId": 62,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "PlayMontage",
+        "MontagePath": "AnimMontage'/Game/AssetDesign/Item/MiniGame/DG_MiniGame_Montage.DG_MiniGame_Montage'",
+        "Mesh": "Mesh",
+        "SectionName": "Start"
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 63,
@@ -704,7 +838,17 @@
   },
   "63": {
     "StateId": 63,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "OpenMechanism"
+      },
+      {
+        "Function": "PlayMontage",
+        "MontagePath": "AnimMontage'/Game/AssetDesign/Item/MiniGame/DG_MiniGame_Montage.DG_MiniGame_Montage'",
+        "Mesh": "Mesh",
+        "SectionName": "End"
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 62,
@@ -788,11 +932,25 @@
   },
   "239": {
     "StateId": 239,
-    "EventsCurrentState": {}
+    "EventsCurrentState": [
+      {
+        "Function": "ActiveGuide"
+      },
+      {
+        "Function": "CombatPropActive"
+      }
+    ]
   },
   "240": {
     "StateId": 240,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "OpenMechanism"
+      },
+      {
+        "Function": "CombatPropActive"
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 241,
@@ -836,7 +994,13 @@
   },
   "242": {
     "StateId": 242,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "SetParam",
+        "Param": "ForceStop",
+        "Value": false
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 240,
@@ -948,7 +1112,18 @@
   },
   "300": {
     "StateId": 300,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "SetParam",
+        "Param": "CanOpen",
+        "Value": true
+      },
+      {
+        "Function": "PlayFX",
+        "EffectId": 10199001,
+        "Tag": "Fire"
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 301,
@@ -989,7 +1164,20 @@
   },
   "302": {
     "StateId": 302,
-    "EventsCurrentState": {}
+    "EventsCurrentState": [
+      {
+        "Function": "SetParam",
+        "Param": "OpenState",
+        "Value": true
+      },
+      {
+        "Function": "DeactiveGuide"
+      },
+      {
+        "Function": "StopFX",
+        "Tag": "Fire"
+      }
+    ]
   },
   "500": {
     "StateId": 500,
@@ -1044,7 +1232,17 @@
   },
   "502": {
     "StateId": 502,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "SetParam",
+        "Param": "CanOpen",
+        "Value": true
+      },
+      {
+        "Function": "ChangeColor",
+        "ColorId": 1
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 503,
@@ -1084,7 +1282,20 @@
   },
   "504": {
     "StateId": 504,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "SetParam",
+        "Param": "CanOpen",
+        "Value": false
+      },
+      {
+        "Function": "DeactiveGuide"
+      },
+      {
+        "Function": "ChangeColor",
+        "ColorId": 0
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 501,
@@ -1102,7 +1313,27 @@
   },
   "541": {
     "StateId": 541,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "SetParam",
+        "Param": "CanOpen",
+        "Value": false
+      },
+      {
+        "Function": "PlayMontage",
+        "MontagePath": "AnimMontage'/Game/AssetDesign/Item/MiniGame/JH_MiniGame_Montage.JH_MiniGame_Montage'",
+        "Mesh": "Mesh",
+        "SectionName": "Idle"
+      },
+      {
+        "Function": "StopFX",
+        "Tag": "JHB"
+      },
+      {
+        "Function": "ChangeColor",
+        "ColorId": 2
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 551,
@@ -1110,7 +1341,15 @@
           "Type": "DistanceActive",
           "ActiveRange": 1000
         },
-        "EventsNextState": {}
+        "EventsNextState": [
+          {
+            "Function": "PlayMontage",
+            "MontagePath": "AnimMontage'/Game/AssetDesign/Item/MiniGame/JH_MiniGame_Montage.JH_MiniGame_Montage'",
+            "Mesh": "Mesh",
+            "SectionName": "Start",
+            "CallBackName": "OnStart"
+          }
+        ]
       },
       {
         "NextStateId": 581,
@@ -1147,7 +1386,27 @@
   },
   "543": {
     "StateId": 543,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "SetParam",
+        "Param": "CanOpen",
+        "Value": false
+      },
+      {
+        "Function": "PlayMontage",
+        "MontagePath": "AnimMontage'/Game/AssetDesign/Item/MiniGame/DG_MiniGame_Montage.DG_MiniGame_Montage'",
+        "Mesh": "Mesh",
+        "SectionName": "Idle"
+      },
+      {
+        "Function": "StopFX",
+        "Tag": "DGB"
+      },
+      {
+        "Function": "ChangeColor",
+        "ColorId": 2
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 553,
@@ -1175,7 +1434,32 @@
   },
   "551": {
     "StateId": 551,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "SetParam",
+        "Param": "CanOpen",
+        "Value": true
+      },
+      {
+        "Function": "PlayMontage",
+        "MontagePath": "AnimMontage'/Game/AssetDesign/Item/MiniGame/JH_MiniGame_Montage.JH_MiniGame_Montage'",
+        "Mesh": "Mesh",
+        "SectionName": "Loop"
+      },
+      {
+        "Function": "StopFX",
+        "Tag": "JHA"
+      },
+      {
+        "Function": "PlayFX",
+        "EffectId": 900024,
+        "Tag": "JHA"
+      },
+      {
+        "Function": "ChangeColor",
+        "ColorId": 1
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 561,
@@ -1217,7 +1501,32 @@
   },
   "553": {
     "StateId": 553,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "SetParam",
+        "Param": "CanOpen",
+        "Value": true
+      },
+      {
+        "Function": "PlayMontage",
+        "MontagePath": "AnimMontage'/Game/AssetDesign/Item/MiniGame/DG_MiniGame_Montage.DG_MiniGame_Montage'",
+        "Mesh": "Mesh",
+        "SectionName": "Loop"
+      },
+      {
+        "Function": "StopFX",
+        "Tag": "DGA"
+      },
+      {
+        "Function": "PlayFX",
+        "EffectId": 900021,
+        "Tag": "DGA"
+      },
+      {
+        "Function": "ChangeColor",
+        "ColorId": 1
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 563,
@@ -1317,7 +1626,35 @@
   },
   "571": {
     "StateId": 571,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "SetParam",
+        "Param": "CanOpen",
+        "Value": false
+      },
+      {
+        "Function": "DeactiveGuide"
+      },
+      {
+        "Function": "PlayMontage",
+        "MontagePath": "AnimMontage'/Game/AssetDesign/Item/MiniGame/JH_MiniGame_Montage.JH_MiniGame_Montage'",
+        "Mesh": "Mesh",
+        "SectionName": "Loop"
+      },
+      {
+        "Function": "PlayFX",
+        "EffectId": 900025,
+        "Tag": "JHB"
+      },
+      {
+        "Function": "StopFX",
+        "Tag": "JHA"
+      },
+      {
+        "Function": "ChangeColor",
+        "ColorId": 0
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 541,
@@ -1335,7 +1672,16 @@
   },
   "572": {
     "StateId": 572,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "SetParam",
+        "Param": "CanOpen",
+        "Value": false
+      },
+      {
+        "Function": "DeactiveGuide"
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 542,
@@ -1393,7 +1739,31 @@
   },
   "581": {
     "StateId": 581,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "SetParam",
+        "Param": "CanOpen",
+        "Value": false
+      },
+      {
+        "Function": "PlayMontage",
+        "MontagePath": "AnimMontage'/Game/AssetDesign/Item/MiniGame/JH_MiniGame_Montage.JH_MiniGame_Montage'",
+        "Mesh": "Mesh",
+        "SectionName": "End"
+      },
+      {
+        "Function": "StopFX",
+        "Tag": "JHA"
+      },
+      {
+        "Function": "StopFX",
+        "Tag": "JHB"
+      },
+      {
+        "Function": "ChangeColor",
+        "ColorId": 2
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 541,
@@ -1423,7 +1793,26 @@
   },
   "583": {
     "StateId": 583,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "PlayMontage",
+        "MontagePath": "AnimMontage'/Game/AssetDesign/Item/MiniGame/DG_MiniGame_Montage.DG_MiniGame_Montage'",
+        "Mesh": "Mesh",
+        "SectionName": "End"
+      },
+      {
+        "Function": "StopFX",
+        "Tag": "DGA"
+      },
+      {
+        "Function": "StopFX",
+        "Tag": "DGB"
+      },
+      {
+        "Function": "ChangeColor",
+        "ColorId": 2
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 543,
@@ -1577,7 +1966,15 @@
   },
   "908": {
     "StateId": 908,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "CloseMechanism"
+      },
+      {
+        "Function": "SetConditionDoorState",
+        "DoorType": 1
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 909,
@@ -1589,7 +1986,15 @@
   },
   "909": {
     "StateId": 909,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "OpenMechanism"
+      },
+      {
+        "Function": "SetConditionDoorState",
+        "DoorType": 0
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 908,
@@ -1627,7 +2032,31 @@
   },
   "5431": {
     "StateId": 5431,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "SetParam",
+        "Param": "CanOpen",
+        "Value": false
+      },
+      {
+        "Function": "PlayMontage",
+        "MontagePath": "AnimMontage'/Game/AssetDesign/Item/MiniGame/DG_MiniGame_Montage.DG_MiniGame_Montage'",
+        "Mesh": "Mesh",
+        "SectionName": "Idle"
+      },
+      {
+        "Function": "ChangeColor",
+        "ColorId": 2
+      },
+      {
+        "Function": "StopFX",
+        "Tag": "DGA"
+      },
+      {
+        "Function": "StopFX",
+        "Tag": "DGB"
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 5531,
@@ -1645,7 +2074,32 @@
   },
   "5531": {
     "StateId": 5531,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "SetParam",
+        "Param": "CanOpen",
+        "Value": true
+      },
+      {
+        "Function": "PlayMontage",
+        "MontagePath": "AnimMontage'/Game/AssetDesign/Item/MiniGame/DG_MiniGame_Montage.DG_MiniGame_Montage'",
+        "Mesh": "Mesh",
+        "SectionName": "Loop"
+      },
+      {
+        "Function": "PlayFX",
+        "EffectId": 900021,
+        "Tag": "DGA"
+      },
+      {
+        "Function": "StopFX",
+        "Tag": "DGB"
+      },
+      {
+        "Function": "ChangeColor",
+        "ColorId": 1
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 5731,
@@ -1941,7 +2395,19 @@
   },
   "104010": {
     "StateId": 104010,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "CloseMechanism"
+      },
+      {
+        "Function": "SetConditionDoorState",
+        "DoorType": 0
+      },
+      {
+        "Function": "ChangeColor",
+        "ColorId": 0
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 104011,
@@ -2001,7 +2467,19 @@
   },
   "104012": {
     "StateId": 104012,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "CloseMechanism"
+      },
+      {
+        "Function": "SetConditionDoorState",
+        "DoorType": 1
+      },
+      {
+        "Function": "ChangeColor",
+        "ColorId": 1
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 104011,
@@ -2019,7 +2497,19 @@
   },
   "104013": {
     "StateId": 104013,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "CloseMechanism"
+      },
+      {
+        "Function": "SetConditionDoorState",
+        "DoorType": 2
+      },
+      {
+        "Function": "ChangeColor",
+        "ColorId": 2
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 104011,
@@ -2373,7 +2863,12 @@
   },
   "111016": {
     "StateId": 111016,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "ChangeColor",
+        "ColorId": 0
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 111017,
@@ -2453,7 +2948,15 @@
   },
   "111022": {
     "StateId": 111022,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "ChangeColor",
+        "ColorId": 1
+      },
+      {
+        "Function": "ActiveGuide"
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 111020,
@@ -2798,7 +3301,13 @@
   },
   "390060": {
     "StateId": 390060,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "SetParam",
+        "Param": "IsActive",
+        "Value": false
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 390061,
@@ -2810,11 +3319,28 @@
   },
   "390061": {
     "StateId": 390061,
-    "EventsCurrentState": {}
+    "EventsCurrentState": [
+      {
+        "Function": "SetParam",
+        "Param": "IsActive",
+        "Value": true
+      }
+    ]
   },
   "494001": {
     "StateId": 494001,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "SetParam",
+        "Param": "CanOpen",
+        "Value": true
+      },
+      {
+        "Function": "PlayFX",
+        "EffectId": 900033,
+        "Tag": "Training"
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 494002,
@@ -2849,7 +3375,12 @@
         "TypeNextState": {
           "Type": "Interactive"
         },
-        "EventsNextState": {}
+        "EventsNextState": [
+          {
+            "Function": "CreateSpecialMonster",
+            "RuleId": 1
+          }
+        ]
       }
     ]
   },
@@ -2901,7 +3432,17 @@
   },
   "610013": {
     "StateId": 610013,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "PlayFX",
+        "EffectId": 900029,
+        "Tag": "Star"
+      },
+      {
+        "Function": "StopFX",
+        "CompName": "Bling"
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 610015,
@@ -2914,7 +3455,17 @@
   },
   "610014": {
     "StateId": 610014,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "PlayFX",
+        "EffectId": 900030,
+        "Tag": "Star"
+      },
+      {
+        "Function": "StopFX",
+        "CompName": "Bling"
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 610015,
@@ -2953,7 +3504,20 @@
   },
   "610017": {
     "StateId": 610017,
-    "EventsCurrentState": {}
+    "EventsCurrentState": [
+      {
+        "Function": "OpenMechanism"
+      },
+      {
+        "Function": "SetParam",
+        "Param": "CanOpen",
+        "Value": false
+      },
+      {
+        "Function": "StopFX",
+        "CompName": "Bling"
+      }
+    ]
   },
   "610018": {
     "StateId": 610018,
@@ -2963,13 +3527,29 @@
         "TypeNextState": {
           "Type": "Interactive"
         },
-        "EventsNextState": {}
+        "EventsNextState": [
+          {
+            "Function": "CreateSpecialMonster",
+            "RuleId": 3
+          }
+        ]
       }
     ]
   },
   "610019": {
     "StateId": 610019,
-    "EventsCurrentState": {}
+    "EventsCurrentState": [
+      {
+        "Function": "OpenMechanism"
+      },
+      {
+        "Function": "StopFX",
+        "CompName": "Body"
+      },
+      {
+        "Function": "DestroySelf"
+      }
+    ]
   },
   "610020": {
     "StateId": 610020,
@@ -3071,7 +3651,21 @@
         "TypeNextState": {
           "Type": "Manual"
         },
-        "EventsNextState": {}
+        "EventsNextState": [
+          {
+            "Function": "PlayFX",
+            "EffectId": 900034,
+            "Tag": "Bomb"
+          },
+          {
+            "Function": "StopFX",
+            "CompName": "Bling"
+          },
+          {
+            "Function": "CreateSpecialMonster",
+            "RuleId": 2
+          }
+        ]
       }
     ]
   },
@@ -3095,7 +3689,21 @@
         "TypeNextState": {
           "Type": "Manual"
         },
-        "EventsNextState": {}
+        "EventsNextState": [
+          {
+            "Function": "PlayFX",
+            "EffectId": 900031,
+            "Tag": "Bomb"
+          },
+          {
+            "Function": "StopFX",
+            "CompName": "Bling"
+          },
+          {
+            "Function": "CreateSpecialMonster",
+            "RuleId": 2
+          }
+        ]
       }
     ]
   },
@@ -3119,7 +3727,13 @@
         "TypeNextState": {
           "Type": "Manual"
         },
-        "EventsNextState": {}
+        "EventsNextState": [
+          {
+            "Function": "PlayFX",
+            "EffectId": 900031,
+            "Tag": "Bomb"
+          }
+        ]
       }
     ]
   },
@@ -3233,7 +3847,18 @@
   },
   "701031": {
     "StateId": 701031,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "SetParam",
+        "Param": "CanOpen",
+        "Value": true
+      },
+      {
+        "Function": "PlayFX",
+        "EffectId": 211,
+        "Tag": "Loop"
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 701032,
@@ -3245,7 +3870,15 @@
   },
   "701032": {
     "StateId": 701032,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "OpenMechanism"
+      },
+      {
+        "Function": "StopFX",
+        "Tag": "Loop"
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 701033,
@@ -3284,7 +3917,24 @@
   },
   "701061": {
     "StateId": 701061,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "SetParam",
+        "Param": "CanOpen",
+        "Value": true
+      },
+      {
+        "Function": "StopFX",
+        "Tag": "Lock"
+      },
+      {
+        "Function": "PlayFX",
+        "EffectId": 209
+      },
+      {
+        "Function": "ActiveGuide"
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 701062,
@@ -3451,7 +4101,14 @@
   },
   "701300": {
     "StateId": 701300,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "ChangeFX",
+        "CompName": "Niagara",
+        "ColorLogoMul": 1.5,
+        "PositionMove": 0
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 701301,
@@ -3464,7 +4121,14 @@
   },
   "701301": {
     "StateId": 701301,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "ChangeFX",
+        "CompName": "Niagara",
+        "ColorLogoMul": 10,
+        "PositionMove": 1
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 701302,
@@ -3510,7 +4174,26 @@
   },
   "701303": {
     "StateId": 701303,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "StopFX",
+        "CompName": "Niagara"
+      },
+      {
+        "Function": "StopFX",
+        "Tag": "Start"
+      },
+      {
+        "Function": "PlayFX",
+        "EffectId": 216,
+        "Tag": "ok"
+      },
+      {
+        "Function": "SetParam",
+        "Param": "OpenState",
+        "Value": true
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 701304,
@@ -3536,7 +4219,13 @@
   },
   "701310": {
     "StateId": 701310,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "PlayFX",
+        "EffectId": 201,
+        "Tag": "Trap"
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 701311,
@@ -3549,7 +4238,20 @@
   },
   "701311": {
     "StateId": 701311,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "StopFX",
+        "Tag": "Trap"
+      },
+      {
+        "Function": "PlayFX",
+        "EffectId": 202,
+        "Tag": "Die"
+      },
+      {
+        "Function": "DeactiveGuide"
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 701312,
@@ -3562,7 +4264,14 @@
   },
   "701312": {
     "StateId": 701312,
-    "EventsCurrentState": {}
+    "EventsCurrentState": [
+      {
+        "Function": "OpenMechanism"
+      },
+      {
+        "Function": "DeactiveGuide"
+      }
+    ]
   },
   "701520": {
     "StateId": 701520,
@@ -3601,7 +4310,14 @@
   },
   "702000": {
     "StateId": 702000,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "ChangeFX",
+        "CompName": "Niagara",
+        "ColorLogoMul": 7,
+        "PositionMove": 0
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 702001,
@@ -3614,7 +4330,14 @@
   },
   "702001": {
     "StateId": 702001,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "ChangeFX",
+        "CompName": "Niagara",
+        "ColorLogoMul": 20,
+        "PositionMove": 1
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 702002,
@@ -3660,7 +4383,26 @@
   },
   "702003": {
     "StateId": 702003,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "StopFX",
+        "CompName": "Niagara"
+      },
+      {
+        "Function": "StopFX",
+        "Tag": "Start"
+      },
+      {
+        "Function": "PlayFX",
+        "EffectId": 214,
+        "Tag": "ok"
+      },
+      {
+        "Function": "SetParam",
+        "Param": "OpenState",
+        "Value": true
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 702004,
@@ -3917,7 +4659,20 @@
   },
   "705010": {
     "StateId": 705010,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "StopFX",
+        "Tag": "Start"
+      },
+      {
+        "Function": "StopFX",
+        "Tag": "Die"
+      },
+      {
+        "Function": "StopFX",
+        "Tag": "End"
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 705011,
@@ -3930,7 +4685,13 @@
   },
   "705011": {
     "StateId": 705011,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "PlayFX",
+        "EffectId": 217,
+        "Tag": "Start"
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 705012,
@@ -3950,7 +4711,23 @@
   },
   "705012": {
     "StateId": 705012,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "ChangeFX",
+        "Tag": "Start",
+        "DeadTime": true
+      },
+      {
+        "Function": "PlayFX",
+        "EffectId": 219,
+        "Tag": "Die"
+      },
+      {
+        "Function": "PlayFX",
+        "EffectId": 218,
+        "Tag": "End"
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 705013,
@@ -3969,7 +4746,21 @@
   },
   "705013": {
     "StateId": 705013,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "ChangeFX",
+        "Tag": "End",
+        "DeadTime": true
+      },
+      {
+        "Function": "StopFX",
+        "Tag": "Start"
+      },
+      {
+        "Function": "StopFX",
+        "Tag": "Die"
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 705010,
@@ -4006,7 +4797,22 @@
   },
   "705030": {
     "StateId": 705030,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "PlayMontage",
+        "MontagePath": "AnimMontage'/Game/AssetDesign/Item/MiniGame/DG_MiniGame_Montage.DG_MiniGame_Montage'",
+        "Mesh": "Mesh",
+        "SectionName": "Idle"
+      },
+      {
+        "Function": "StopFX",
+        "Tag": "DGB"
+      },
+      {
+        "Function": "ChangeColor",
+        "ColorId": 2
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 705031,
@@ -4111,7 +4917,26 @@
   },
   "705033": {
     "StateId": 705033,
-    "EventsCurrentState": {}
+    "EventsCurrentState": [
+      {
+        "Function": "PlayMontage",
+        "MontagePath": "AnimMontage'/Game/AssetDesign/Item/MiniGame/DG_MiniGame_Montage.DG_MiniGame_Montage'",
+        "Mesh": "Mesh",
+        "SectionName": "Idle"
+      },
+      {
+        "Function": "StopFX",
+        "Tag": "DGA"
+      },
+      {
+        "Function": "StopFX",
+        "Tag": "DGB"
+      },
+      {
+        "Function": "ChangeColor",
+        "ColorId": 2
+      }
+    ]
   },
   "705040": {
     "StateId": 705040,
@@ -4167,7 +4992,13 @@
   },
   "705051": {
     "StateId": 705051,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "PlayMontage",
+        "MontagePath": "AnimMontage'/Game/Asset/Scene/common/InterProps/Animation/Com_Hay/Ani_Com_Hay02A_Shake_Montage.Ani_Com_Hay02A_Shake_Montage'",
+        "Mesh": "SkeletalMesh"
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 705052,
@@ -4234,7 +5065,21 @@
   },
   "780031": {
     "StateId": 780031,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "PlayMontage",
+        "MontagePath": "AnimMontage'/Game/AssetDesign/Item/MiniGame/DG_MiniGame_Montage.DG_MiniGame_Montage'",
+        "Mesh": "Mesh",
+        "SectionName": "Idle"
+      },
+      {
+        "Function": "ChangeColor",
+        "ColorId": 2
+      },
+      {
+        "Function": "ActiveGuide"
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 780032,
@@ -4385,7 +5230,20 @@
         "TypeNextState": {
           "Type": "Hit"
         },
-        "EventsNextState": {}
+        "EventsNextState": [
+          {
+            "Function": "PlayMontage",
+            "MontagePath": "AnimMontage'/Game/AssetDesign/Item/MiniGame/DG_MiniGame_Montage.DG_MiniGame_Montage'",
+            "Mesh": "Mesh",
+            "SectionName": "Start",
+            "CallBackName": "OnStart"
+          },
+          {
+            "Function": "PlayFX",
+            "EffectId": 900020,
+            "NeedFinish": false
+          }
+        ]
       }
     ]
   },
@@ -4659,7 +5517,25 @@
         "TypeNextState": {
           "Type": "Interactive"
         },
-        "EventsNextState": {}
+        "EventsNextState": [
+          {
+            "Function": "ShowToast",
+            "ToastText": "UI_TELEPORTPOINT_INTERACTIVE"
+          },
+          {
+            "Function": "InteractiveEffect"
+          },
+          {
+            "Function": "PlayFX",
+            "EffectId": 220,
+            "NeedFinish": false
+          },
+          {
+            "Function": "PlayFX",
+            "EffectId": 221,
+            "NeedFinish": false
+          }
+        ]
       }
     ]
   },
@@ -4682,7 +5558,29 @@
   },
   "901002": {
     "StateId": 901002,
-    "EventsCurrentState": {}
+    "EventsCurrentState": [
+      {
+        "Function": "SetParam",
+        "Param": "CanOpen",
+        "Value": false
+      },
+      {
+        "Function": "PlayFX",
+        "EffectId": 222,
+        "Tag": "A"
+      },
+      {
+        "Function": "PlayFX",
+        "EffectId": 223,
+        "Tag": "B"
+      },
+      {
+        "Function": "AfterInteractiveEffect"
+      },
+      {
+        "Function": "DeactiveGuide"
+      }
+    ]
   },
   "904311": {
     "StateId": 904311,
@@ -4831,7 +5729,12 @@
   },
   "1060400": {
     "StateId": 1060400,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "ChangeColor",
+        "ColorId": 2
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 1060401,
@@ -5369,7 +6272,20 @@
   },
   "3900111": {
     "StateId": 3900111,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "CombatPropActive"
+      },
+      {
+        "Function": "ActiveGuide"
+      },
+      {
+        "Function": "PlayMontage",
+        "MontagePath": "AnimMontage'/Game/Asset/Scene/EN002_Imperial/Common/Prop/Animation/Shouwei_Maer_Montage.Shouwei_Maer_Montage'",
+        "Mesh": "Mesh",
+        "SectionName": "Start"
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 3900112,
@@ -5420,7 +6336,14 @@
   },
   "3900121": {
     "StateId": 3900121,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "CombatPropActive"
+      },
+      {
+        "Function": "ActiveGuide"
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 3900122,
@@ -5471,7 +6394,18 @@
   },
   "3900130": {
     "StateId": 3900130,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "CombatPropDeActive"
+      },
+      {
+        "Function": "DeactiveGuide"
+      },
+      {
+        "Function": "ChangeColor",
+        "ColorId": 2
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 3900131,
@@ -5555,7 +6489,16 @@
   },
   "3900141": {
     "StateId": 3900141,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "CombatPropDeActive"
+      },
+      {
+        "Function": "PlayFX",
+        "EffectId": 900035,
+        "Tag": "Lock"
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 3900142,
@@ -5568,7 +6511,14 @@
   },
   "3900142": {
     "StateId": 3900142,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "CombatPropActive"
+      },
+      {
+        "Function": "OpenMechanism"
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 3900143,
@@ -5580,11 +6530,32 @@
   },
   "3900143": {
     "StateId": 3900143,
-    "EventsCurrentState": {}
+    "EventsCurrentState": [
+      {
+        "Function": "CombatPropDeActive"
+      },
+      {
+        "Function": "PlayFX",
+        "EffectId": 900036,
+        "Tag": "Unlock"
+      },
+      {
+        "Function": "StopFX",
+        "Tag": "Lock"
+      }
+    ]
   },
   "3900700": {
     "StateId": 3900700,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "CombatPropDeActive"
+      },
+      {
+        "Function": "ChangeTrapSkillOpen",
+        "Open": false
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 3900701,
@@ -5596,7 +6567,15 @@
   },
   "3900701": {
     "StateId": 3900701,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "CombatPropActive"
+      },
+      {
+        "Function": "ChangeTrapSkillOpen",
+        "Open": true
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 3900700,
@@ -5734,7 +6713,22 @@
   },
   "3901600": {
     "StateId": 3901600,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "CombatPropDeActive"
+      },
+      {
+        "Function": "ChangeTrapSkillOpen",
+        "Open": false
+      },
+      {
+        "Function": "ChangeColor",
+        "ColorId": 2
+      },
+      {
+        "Function": "DeactiveGuide"
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 3901601,
@@ -5988,7 +6982,33 @@
   },
   "4900710": {
     "StateId": 4900710,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "SetParam",
+        "Param": "CanOpen",
+        "Value": true
+      },
+      {
+        "Function": "PlayMontage",
+        "MontagePath": "AnimMontage'/Game/AssetDesign/Item/MiniGame/JH_MiniGame_Montage.JH_MiniGame_Montage'",
+        "Mesh": "Mesh",
+        "SectionName": "Loop"
+      },
+      {
+        "Function": "PlayFX",
+        "EffectId": 900024,
+        "Tag": "JHA"
+      },
+      {
+        "Function": "ChangeColor",
+        "ColorId": 1
+      },
+      {
+        "Function": "SetParam",
+        "Param": "OpenState",
+        "Value": false
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 4900711,
@@ -6095,7 +7115,33 @@
   },
   "4900730": {
     "StateId": 4900730,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "SetParam",
+        "Param": "CanOpen",
+        "Value": true
+      },
+      {
+        "Function": "PlayMontage",
+        "MontagePath": "AnimMontage'/Game/AssetDesign/Item/MiniGame/DG_MiniGame_Montage.DG_MiniGame_Montage'",
+        "Mesh": "Mesh",
+        "SectionName": "Loop"
+      },
+      {
+        "Function": "PlayFX",
+        "EffectId": 900021,
+        "Tag": "DGA"
+      },
+      {
+        "Function": "ChangeColor",
+        "ColorId": 1
+      },
+      {
+        "Function": "SetParam",
+        "Param": "OpenState",
+        "Value": false
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 4900731,
@@ -6120,7 +7166,30 @@
   },
   "4900731": {
     "StateId": 4900731,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "OpenMechanism"
+      },
+      {
+        "Function": "PlayMontage",
+        "MontagePath": "AnimMontage'/Game/AssetDesign/Item/MiniGame/DG_MiniGame_Montage.DG_MiniGame_Montage'",
+        "Mesh": "Mesh",
+        "SectionName": "Loop"
+      },
+      {
+        "Function": "PlayFX",
+        "EffectId": 900022,
+        "Tag": "DGB"
+      },
+      {
+        "Function": "StopFX",
+        "Tag": "DGA"
+      },
+      {
+        "Function": "ChangeColor",
+        "ColorId": 0
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 4900730,
@@ -6138,7 +7207,36 @@
   },
   "4900732": {
     "StateId": 4900732,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "SetParam",
+        "Param": "CanOpen",
+        "Value": false
+      },
+      {
+        "Function": "PlayMontage",
+        "MontagePath": "AnimMontage'/Game/AssetDesign/Item/MiniGame/JH_MiniGame_Montage.JH_MiniGame_Montage'",
+        "Mesh": "Mesh",
+        "SectionName": "End"
+      },
+      {
+        "Function": "StopFX",
+        "Tag": "DGA"
+      },
+      {
+        "Function": "ChangeColor",
+        "ColorId": 2
+      },
+      {
+        "Function": "StopFX",
+        "Tag": "DGB"
+      },
+      {
+        "Function": "SetParam",
+        "Param": "OpenState",
+        "Value": false
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 4900730,
@@ -6206,7 +7304,37 @@
   },
   "4900751": {
     "StateId": 4900751,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "SetParam",
+        "Param": "CanOpen",
+        "Value": true
+      },
+      {
+        "Function": "PlayMontage",
+        "MontagePath": "AnimMontage'/Game/AssetDesign/Item/MiniGame/JH_MiniGame_Montage.JH_MiniGame_Montage'",
+        "Mesh": "Mesh",
+        "SectionName": "Loop"
+      },
+      {
+        "Function": "PlayFX",
+        "EffectId": 900024,
+        "Tag": "JHA"
+      },
+      {
+        "Function": "StopFX",
+        "Tag": "JHB"
+      },
+      {
+        "Function": "ChangeColor",
+        "ColorId": 1
+      },
+      {
+        "Function": "SetParam",
+        "Param": "OpenState",
+        "Value": false
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 4900752,
@@ -6299,7 +7427,21 @@
   },
   "4920010": {
     "StateId": 4920010,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "OpenMechanism"
+      },
+      {
+        "Function": "CombatPropActive"
+      },
+      {
+        "Function": "ChangeColor",
+        "ColorId": 0
+      },
+      {
+        "Function": "ActiveGuide"
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 4920011,
@@ -6354,7 +7496,20 @@
   },
   "4920012": {
     "StateId": 4920012,
-    "EventsCurrentState": {},
+    "EventsCurrentState": [
+      {
+        "Function": "SetParam",
+        "Param": "ForceStop",
+        "Value": false
+      },
+      {
+        "Function": "ChangeColor",
+        "ColorId": 1
+      },
+      {
+        "Function": "ActiveGuide"
+      }
+    ],
     "StateEvent": [
       {
         "NextStateId": 4920010,

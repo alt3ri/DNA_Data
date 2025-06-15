@@ -1,26 +1,72 @@
 {
   "6001": {
     "BattleGroupId": 6001,
-    "SkillShareRule": {}
+    "SkillShareRule": [
+      {
+        "SkillId": 600103,
+        "Count": 2,
+        "SkillCd": 10
+      }
+    ]
   },
   "6004": {
     "BattleGroupId": 6004,
-    "SkillShareRule": {}
+    "SkillShareRule": [
+      {
+        "SkillId": 600404,
+        "Count": 1,
+        "SkillCd": 5
+      }
+    ]
   },
   "7002": {
     "BattleGroupId": 7002,
-    "SkillShareRule": {}
+    "SkillShareRule": [
+      {
+        "SkillId": 700203,
+        "Count": 2,
+        "SkillCd": 10
+      }
+    ]
   },
   "7004": {
     "BattleGroupId": 7004,
-    "SkillShareRule": {}
+    "SkillShareRule": [
+      {
+        "SkillId": 700402,
+        "Count": 1,
+        "SkillCd": 5
+      }
+    ]
   },
   "9501": {
     "BattleGroupId": 9501,
-    "SkillShareRule": {}
+    "SkillShareRule": [
+      {
+        "SkillId": 950101,
+        "Count": 1,
+        "SkillCd": 3
+      },
+      {
+        "SkillId": 950102,
+        "Count": 1,
+        "SkillCd": 3
+      },
+      {
+        "SkillId": 950103,
+        "Count": 1,
+        "SkillCd": 1
+      }
+    ]
   },
   "700407": {
     "BattleGroupId": 700407,
-    "SkillShareRule": {}
+    "SkillShareRule": [
+      {
+        "SkillId": 700404,
+        "Count": 1,
+        "SkillCd": 1.5
+      }
+    ]
   }
 }
