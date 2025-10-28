@@ -1,126 +1,116 @@
 {
   "Birth": {
-    "SourceTag": "Birth",
-    "ActionMode": 1
+    "ActionMode": 1,
+    "SourceTag": "Birth"
   },
-  "Idle": {
-    "SourceTag": "Idle",
-    "ActionMode": 0
-  },
-  "Falling": {
-    "SourceTag": "Falling",
-    "ActionMode": 0
-  },
-  "LandHeavy": {
-    "SourceTag": "LandHeavy",
-    "ActionMode": 0
-  },
-  "Slide": {
-    "SourceTag": "Slide",
-    "ActionMode": 0
-  },
-  "Crouch": {
-    "SourceTag": "Crouch",
-    "ActionMode": 0
+  "CaptureSuccess": {
+    "ActionMode": 1,
+    "InterruptNavLink": true,
+    "SourceTag": "CaptureSuccess"
   },
   "Cover": {
-    "SourceTag": "Cover",
-    "ActionMode": 0
-  },
-  "Skill": {
-    "SourceTag": "Skill",
     "ActionMode": 0,
-    "TagType": [
-      "Skill"
-    ]
+    "SourceTag": "Cover"
   },
-  "Shooting": {
-    "SourceTag": "Shooting",
+  "Crouch": {
     "ActionMode": 0,
-    "TagType": [
-      "Skill"
-    ]
+    "SourceTag": "Crouch"
   },
-  "LightHit": {
-    "SourceTag": "LightHit",
-    "InterruptNavLink": true,
+  "Dead": {
     "ActionMode": 1,
-    "TagType": [
-      "Hit"
-    ],
-    "ResetCoverPointInfo": true
+    "ForbidAI": 1,
+    "InterruptNavLink": true,
+    "SourceTag": "Dead"
   },
-  "LightHitRanged": {
-    "SourceTag": "LightHitRanged",
-    "InterruptNavLink": true,
+  "Defeated": {
     "ActionMode": 1,
-    "TagType": [
-      "Hit"
-    ],
-    "ResetCoverPointInfo": true
+    "InterruptNavLink": true,
+    "SourceTag": "Defeated"
+  },
+  "Falling": {
+    "ActionMode": 0,
+    "SourceTag": "Falling"
   },
   "HeavyHit": {
-    "SourceTag": "HeavyHit",
-    "InterruptNavLink": true,
     "ActionMode": 1,
+    "InterruptNavLink": true,
+    "SourceTag": "HeavyHit",
     "TagType": [
       "Hit"
-    ],
-    "ResetCoverPointInfo": true
+    ]
   },
   "HitFly": {
-    "SourceTag": "HitFly",
-    "InterruptNavLink": true,
     "ActionMode": 1,
-    "TagType": [
-      "Hit"
-    ],
     "BreakableItem": {
       "Breakable": true
     },
-    "ResetCoverPointInfo": true
-  },
-  "Dead": {
-    "SourceTag": "Dead",
-    "ForbidAI": 1,
     "InterruptNavLink": true,
+    "SourceTag": "HitFly",
+    "TagType": [
+      "Hit"
+    ]
+  },
+  "Idle": {
+    "ActionMode": 0,
+    "SourceTag": "Idle"
+  },
+  "LandHeavy": {
+    "ActionMode": 0,
+    "SourceTag": "LandHeavy"
+  },
+  "LightHit": {
     "ActionMode": 1,
-    "ResetCoverPointInfo": true
+    "InterruptNavLink": true,
+    "SourceTag": "LightHit",
+    "TagType": [
+      "Hit"
+    ]
+  },
+  "LightHitRanged": {
+    "ActionMode": 1,
+    "InterruptNavLink": true,
+    "SourceTag": "LightHitRanged",
+    "TagType": [
+      "Hit"
+    ]
+  },
+  "Shooting": {
+    "ActionMode": 0,
+    "SourceTag": "Shooting",
+    "TagType": [
+      "Skill"
+    ]
+  },
+  "Skill": {
+    "ActionMode": 0,
+    "SourceTag": "Skill",
+    "TagType": [
+      "Skill"
+    ]
+  },
+  "Slide": {
+    "ActionMode": 0,
+    "SourceTag": "Slide"
   },
   "Stun": {
-    "SourceTag": "Stun",
-    "InterruptNavLink": true,
     "ActionMode": 1,
+    "InterruptNavLink": true,
+    "SourceTag": "Stun",
     "TagType": [
       "Controlled"
-    ],
-    "ResetCoverPointInfo": true
+    ]
   },
   "StunFloat": {
-    "SourceTag": "StunFloat",
-    "InterruptNavLink": true,
     "ActionMode": 1,
+    "InterruptNavLink": true,
+    "SourceTag": "StunFloat",
     "TagType": [
       "Controlled"
-    ],
-    "ResetCoverPointInfo": true
+    ]
   },
   "WaitForCaught": {
-    "SourceTag": "WaitForCaught",
-    "InterruptNavLink": true,
     "ActionMode": 1,
-    "ResetCoverPointInfo": true
-  },
-  "CaptureSuccess": {
-    "SourceTag": "CaptureSuccess",
     "InterruptNavLink": true,
-    "ActionMode": 1,
-    "ResetCoverPointInfo": true
-  },
-  "Defeated": {
-    "SourceTag": "Defeated",
-    "InterruptNavLink": true,
-    "ActionMode": 1,
-    "ResetCoverPointInfo": true
+    "SourceTag": "WaitForCaught"
   }
 }

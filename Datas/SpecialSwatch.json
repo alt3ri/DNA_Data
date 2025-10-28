@@ -1,14 +1,14 @@
 {
   "10001": {
-    "SepcialColorID": 10001,
-    "MaterialPath": "/Game/UI/Texture/Dynamic/Atlas/Armory/Btn_WBP_Armory_Change_Color1",
     "LinkedMaterial": "WPSkinCom01",
-    "ResourceID": 30110
+    "MaterialPath": "MaterialInstanceConstant'/Game/UI/WBP/Common/VX/Armory/MI_Armory_StarrySky.MI_Armory_StarrySky'",
+    "ResourceID": 30110,
+    "SepcialColorID": 10001
   },
   "10002": {
-    "SepcialColorID": 10002,
-    "MaterialPath": "/Game/UI/Texture/Dynamic/Atlas/Armory/Btn_WBP_Armory_Change_Color2",
     "LinkedMaterial": "WPSkinCom02",
-    "ResourceID": 30111
+    "MaterialPath": "MaterialInstanceConstant'/Game/UI/WBP/Common/VX/Armory/MI_Armory_Sand.MI_Armory_Sand'",
+    "ResourceID": 30111,
+    "SepcialColorID": 10002
   }
 }

@@ -1,56 +1,68 @@
 {
+  "BattleHitDirection": {
+    "AllowMulti": true,
+    "ConfigName": "BattleHitDirection",
+    "LimitCount": 4
+  },
   "Default": {
     "ConfigName": "Default"
   },
+  "MultiAndNotAddToStack": {
+    "AddToStack": false,
+    "AllowMulti": true,
+    "ConfigName": "MultiAndNotAddToStack"
+  },
+  "OnlyAddToStack": {
+    "AddToStack": true,
+    "ConfigName": "OnlyAddToStack"
+  },
   "OnlyAllowMulti": {
-    "ConfigName": "OnlyAllowMulti",
-    "AllowMulti": true
+    "AllowMulti": true,
+    "ConfigName": "OnlyAllowMulti"
+  },
+  "OnlyForceShow": {
+    "ConfigName": "OnlyForceShow",
+    "SpecialVisibleMode": "forceshow"
   },
   "OnlyUIMode": {
     "ConfigName": "OnlyUIMode",
     "NeedUIMode": true
   },
-  "OnlyAddToStack": {
-    "ConfigName": "OnlyAddToStack",
-    "AddToStack": true
+  "StackAndFullScreen": {
+    "AddToStack": true,
+    "ConfigName": "StackAndFullScreen",
+    "NeedUIMode": true,
+    "StopWorldRender": true
   },
   "StackAndMulti": {
-    "ConfigName": "StackAndMulti",
     "AddToStack": true,
-    "AllowMulti": true
+    "AllowMulti": true,
+    "ConfigName": "StackAndMulti"
   },
   "StackAndUIMode": {
-    "ConfigName": "StackAndUIMode",
     "AddToStack": true,
-    "NeedUIMode": true
-  },
-  "UIModeAndMulti": {
-    "ConfigName": "UIModeAndMulti",
-    "AllowMulti": true,
+    "ConfigName": "StackAndUIMode",
     "NeedUIMode": true
   },
   "UIModeAndForceShow": {
     "ConfigName": "UIModeAndForceShow",
-    "SpecialVisibleMode": "forceshow",
+    "NeedUIMode": true,
+    "SpecialVisibleMode": "forceshow"
+  },
+  "UIModeAndMulti": {
+    "AllowMulti": true,
+    "ConfigName": "UIModeAndMulti",
     "NeedUIMode": true
   },
-  "MultiAndNotAddToStack": {
-    "ConfigName": "MultiAndNotAddToStack",
-    "AddToStack": false,
-    "AllowMulti": true
+  "UIModeAndMultiStack": {
+    "AddToStack": true,
+    "AllowMulti": true,
+    "ConfigName": "UIModeAndMultiStack",
+    "NeedUIMode": true
   },
   "UIModeAndNotAddToStack": {
-    "ConfigName": "UIModeAndNotAddToStack",
     "AddToStack": false,
+    "ConfigName": "UIModeAndNotAddToStack",
     "NeedUIMode": true
-  },
-  "BattleHitDirection": {
-    "ConfigName": "BattleHitDirection",
-    "AllowMulti": true,
-    "LimitCount": 4
-  },
-  "OnlyForceShow": {
-    "ConfigName": "OnlyForceShow",
-    "SpecialVisibleMode": "forceshow"
   }
 }

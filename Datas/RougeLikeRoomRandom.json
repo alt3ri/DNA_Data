@@ -1,297 +1,95 @@
-[
-  {
-    "RoomRandom": 1,
+{
+  "1": {
     "RoomNum": [
       1
     ],
+    "RoomRandom": 1,
     "RoomType": [
       1
     ],
     "RoomTypeWeight": [
       1000
-    ],
-    "RoomTypeWeightAdd": [
-      0
     ]
   },
-  {
-    "RoomRandom": 2,
+  "2": {
     "RoomNum": [
       1
     ],
+    "RoomRandom": 2,
+    "RoomType": [
+      2
+    ],
+    "RoomTypeWeight": [
+      1000
+    ]
+  },
+  "3": {
+    "RoomNum": [
+      1
+    ],
+    "RoomRandom": 3,
+    "RoomType": [
+      3
+    ],
+    "RoomTypeWeight": [
+      1000
+    ]
+  },
+  "4": {
+    "RoomNum": [
+      1
+    ],
+    "RoomRandom": 4,
     "RoomType": [
       4
     ],
     "RoomTypeWeight": [
       1000
-    ],
-    "RoomTypeWeightAdd": [
-      0
     ]
   },
-  {
-    "RoomRandom": 3,
+  "5": {
     "RoomNum": [
       1
     ],
+    "RoomRandom": 5,
     "RoomType": [
       5
     ],
     "RoomTypeWeight": [
       1000
-    ],
-    "RoomTypeWeightAdd": [
-      0
     ]
   },
-  {
-    "RoomRandom": 4,
+  "6": {
     "RoomNum": [
-      2
+      1
     ],
-    "RoomType": [
-      1,
-      2
-    ],
-    "RoomTypeWeight": [
-      800,
-      200
-    ],
-    "RoomTypeWeightAdd": [
-      100,
-      200
-    ]
-  },
-  {
-    "RoomRandom": 5,
-    "RoomNum": [
-      2
-    ],
-    "RoomType": [
-      2,
-      3
-    ],
-    "RoomTypeWeight": [
-      500,
-      500
-    ],
-    "RoomTypeWeightAdd": [
-      200,
-      200
-    ]
-  },
-  {
     "RoomRandom": 6,
-    "RoomNum": [
-      2
-    ],
     "RoomType": [
-      1,
-      3
-    ],
-    "RoomTypeWeight": [
-      800,
-      200
-    ],
-    "RoomTypeWeightAdd": [
-      100,
-      200
-    ]
-  },
-  {
-    "RoomRandom": 7,
-    "RoomNum": [
-      2
-    ],
-    "RoomType": [
-      1,
-      2,
-      3
-    ],
-    "RoomTypeWeight": [
-      500,
-      250,
-      250
-    ],
-    "RoomTypeWeightAdd": [
-      100,
-      200,
-      200
-    ]
-  },
-  {
-    "RoomRandom": 8,
-    "RoomNum": [
-      3
-    ],
-    "RoomType": [
-      1,
-      2
-    ],
-    "RoomTypeWeight": [
-      800,
-      200
-    ],
-    "RoomTypeWeightAdd": [
-      100,
-      200
-    ]
-  },
-  {
-    "RoomRandom": 9,
-    "RoomNum": [
-      3
-    ],
-    "RoomType": [
-      1,
-      3
-    ],
-    "RoomTypeWeight": [
-      800,
-      200
-    ],
-    "RoomTypeWeightAdd": [
-      100,
-      200
-    ]
-  },
-  {
-    "RoomRandom": 10,
-    "RoomNum": [
-      3
-    ],
-    "RoomType": [
-      1,
-      2,
-      3
-    ],
-    "RoomTypeWeight": [
-      500,
-      250,
-      250
-    ],
-    "RoomTypeWeightAdd": [
-      100,
-      200,
-      200
-    ]
-  },
-  {
-    "RoomRandom": 11,
-    "RoomNum": [
-      2,
-      3
-    ],
-    "RoomType": [
-      1,
-      2
-    ],
-    "RoomTypeWeight": [
-      800,
-      200
-    ],
-    "RoomTypeWeightAdd": [
-      100,
-      200
-    ]
-  },
-  {
-    "RoomRandom": 12,
-    "RoomNum": [
-      2,
-      3
-    ],
-    "RoomType": [
-      1,
-      3
-    ],
-    "RoomTypeWeight": [
-      800,
-      200
-    ],
-    "RoomTypeWeightAdd": [
-      100,
-      200
-    ]
-  },
-  {
-    "RoomRandom": 13,
-    "RoomNum": [
-      2,
-      3
-    ],
-    "RoomType": [
-      1,
-      2,
-      3
-    ],
-    "RoomTypeWeight": [
-      500,
-      250,
-      250
-    ],
-    "RoomTypeWeightAdd": [
-      100,
-      200,
-      200
-    ]
-  },
-  {
-    "RoomRandom": 14,
-    "RoomNum": [
-      1
-    ],
-    "RoomType": [
-      2
+      6
     ],
     "RoomTypeWeight": [
       1000
-    ],
-    "RoomTypeWeightAdd": [
-      0
     ]
   },
-  {
-    "RoomRandom": 15,
-    "RoomNum": [
-      1
-    ],
-    "RoomType": [
-      3
-    ],
-    "RoomTypeWeight": [
-      1000
-    ],
-    "RoomTypeWeightAdd": [
-      0
-    ]
-  },
-  {
-    "RoomRandom": 16,
+  "21": {
     "RoomNum": [
       2
     ],
+    "RoomRandom": 21,
     "RoomType": [
       1,
-      2,
-      3
+      6
     ],
     "RoomTypeWeight": [
-      800,
-      150,
-      50
-    ],
-    "RoomTypeWeightAdd": [
-      100,
-      200,
-      200
+      500,
+      500
     ]
   },
-  {
-    "RoomRandom": 17,
+  "22": {
     "RoomNum": [
       2
     ],
+    "RoomRandom": 22,
     "RoomType": [
       1,
       3
@@ -299,25 +97,346 @@
     "RoomTypeWeight": [
       500,
       500
+    ]
+  },
+  "23": {
+    "RoomNum": [
+      2
     ],
-    "RoomTypeWeightAdd": [
+    "RoomRandom": 23,
+    "RoomType": [
+      1,
+      4
+    ],
+    "RoomTypeWeight": [
+      500,
+      500
+    ]
+  },
+  "24": {
+    "RoomNum": [
+      2
+    ],
+    "RoomRandom": 24,
+    "RoomType": [
+      3,
+      6
+    ],
+    "RoomTypeWeight": [
+      500,
+      500
+    ]
+  },
+  "25": {
+    "RoomNum": [
+      2
+    ],
+    "RoomRandom": 25,
+    "RoomType": [
+      4,
+      6
+    ],
+    "RoomTypeWeight": [
+      500,
+      500
+    ]
+  },
+  "26": {
+    "RoomNum": [
+      2
+    ],
+    "RoomRandom": 26,
+    "RoomType": [
+      3,
+      4
+    ],
+    "RoomTypeWeight": [
+      500,
+      500
+    ]
+  },
+  "41": {
+    "RoomNum": [
+      3
+    ],
+    "RoomRandom": 41,
+    "RoomType": [
+      1,
+      3,
+      6
+    ],
+    "RoomTypeWeight": [
+      500,
+      500,
+      500
+    ]
+  },
+  "42": {
+    "RoomNum": [
+      3
+    ],
+    "RoomRandom": 42,
+    "RoomType": [
+      1,
+      4,
+      6
+    ],
+    "RoomTypeWeight": [
+      500,
+      500,
+      500
+    ]
+  },
+  "43": {
+    "RoomNum": [
+      3
+    ],
+    "RoomRandom": 43,
+    "RoomType": [
+      1,
+      3,
+      4
+    ],
+    "RoomTypeWeight": [
+      500,
+      500,
+      500
+    ]
+  },
+  "44": {
+    "RoomNum": [
+      3
+    ],
+    "RoomRandom": 44,
+    "RoomType": [
+      3,
+      4,
+      6
+    ],
+    "RoomTypeWeight": [
+      500,
+      500,
+      500
+    ]
+  },
+  "61": {
+    "RoomNum": [
+      2
+    ],
+    "RoomRandom": 61,
+    "RoomType": [
+      1,
+      3,
+      6
+    ],
+    "RoomTypeWeight": [
+      500,
+      500,
+      500
+    ]
+  },
+  "62": {
+    "RoomNum": [
+      2
+    ],
+    "RoomRandom": 62,
+    "RoomType": [
+      1,
+      4,
+      6
+    ],
+    "RoomTypeWeight": [
+      500,
+      500,
+      500
+    ]
+  },
+  "63": {
+    "RoomNum": [
+      2
+    ],
+    "RoomRandom": 63,
+    "RoomType": [
+      1,
+      3,
+      4
+    ],
+    "RoomTypeWeight": [
+      500,
+      500,
+      500
+    ]
+  },
+  "64": {
+    "RoomNum": [
+      2
+    ],
+    "RoomRandom": 64,
+    "RoomType": [
+      3,
+      4,
+      6
+    ],
+    "RoomTypeWeight": [
+      500,
+      500,
+      500
+    ]
+  },
+  "65": {
+    "RoomNum": [
+      2
+    ],
+    "RoomRandom": 65,
+    "RoomType": [
+      1,
+      3,
+      4,
+      6
+    ],
+    "RoomTypeWeight": [
+      500,
+      500,
+      500,
+      500
+    ]
+  },
+  "66": {
+    "RoomNum": [
+      2
+    ],
+    "RoomRandom": 66,
+    "RoomType": [
+      1,
+      3,
+      6
+    ],
+    "RoomTypeWeight": [
+      200,
+      600,
+      200
+    ]
+  },
+  "67": {
+    "RoomNum": [
+      2
+    ],
+    "RoomRandom": 67,
+    "RoomType": [
+      1,
+      3,
+      6
+    ],
+    "RoomTypeWeight": [
+      200,
+      200,
+      600
+    ]
+  },
+  "68": {
+    "RoomNum": [
+      2
+    ],
+    "RoomRandom": 68,
+    "RoomType": [
+      1,
+      3,
+      6
+    ],
+    "RoomTypeWeight": [
+      600,
       200,
       200
     ]
   },
-  {
-    "RoomRandom": 18,
+  "81": {
     "RoomNum": [
-      2
+      3
     ],
+    "RoomRandom": 81,
     "RoomType": [
-      1
+      1,
+      3,
+      4,
+      6
     ],
     "RoomTypeWeight": [
-      1000
+      500,
+      500,
+      500,
+      500
+    ]
+  },
+  "82": {
+    "RoomNum": [
+      3
     ],
-    "RoomTypeWeightAdd": [
-      0
+    "RoomRandom": 82,
+    "RoomType": [
+      1,
+      3,
+      4,
+      6
+    ],
+    "RoomTypeWeight": [
+      600,
+      200,
+      200,
+      600
+    ]
+  },
+  "83": {
+    "RoomNum": [
+      3
+    ],
+    "RoomRandom": 83,
+    "RoomType": [
+      1,
+      3,
+      4,
+      6
+    ],
+    "RoomTypeWeight": [
+      600,
+      600,
+      200,
+      200
+    ]
+  },
+  "84": {
+    "RoomNum": [
+      3
+    ],
+    "RoomRandom": 84,
+    "RoomType": [
+      1,
+      3,
+      4,
+      6
+    ],
+    "RoomTypeWeight": [
+      600,
+      200,
+      600,
+      400
+    ]
+  },
+  "85": {
+    "RoomNum": [
+      3
+    ],
+    "RoomRandom": 85,
+    "RoomType": [
+      1,
+      3,
+      4,
+      6
+    ],
+    "RoomTypeWeight": [
+      600,
+      400,
+      600,
+      200
     ]
   }
-]
+}

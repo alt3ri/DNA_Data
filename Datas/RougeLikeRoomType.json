@@ -1,43 +1,56 @@
 [
   {
-    "RoomTypeId": 1,
     "DeliveryUnitId": 60001,
-    "Name": "RougeLike_RoomType_Name_1",
     "ESCIcon": "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Room01.T_Rouge_Room01",
-    "Icon": "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Room01.T_Rouge_Room01",
-    "SuccessText": "RougeLike_Room_B_Success",
+    "EnableAwardDelay": 1,
     "FailText": "RougeLike_Room_B_Fail",
-    "EnableAwardDelay": 1
+    "Icon": "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Room01.T_Rouge_Room01",
+    "IsShowBattlePanel": 1,
+    "Name": "RougeLike_RoomType_Name_1",
+    "RoomTypeId": 1,
+    "SuccessText": "RougeLike_Room_B_Success"
   },
   {
-    "RoomTypeId": 2,
     "DeliveryUnitId": 60002,
-    "Name": "RougeLike_RoomType_Name_2",
-    "ESCIcon": "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Room02.T_Rouge_Room02",
-    "Icon": "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Room02.T_Rouge_Room02",
-    "SuccessText": "RougeLike_Room_EB_Success",
+    "ESCIcon": "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Room04.T_Rouge_Room04",
+    "EnableAwardDelay": 1,
     "FailText": "RougeLike_Room_EB_Fail",
-    "EnableAwardDelay": 1
+    "Icon": "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Room04.T_Rouge_Room04",
+    "IsShowBattlePanel": 1,
+    "Name": "RougeLike_RoomType_Name_2",
+    "RoomTypeId": 2,
+    "SuccessText": "RougeLike_Room_EB_Success"
   },
   {
-    "RoomTypeId": 3,
     "DeliveryUnitId": 60003,
-    "Name": "RougeLike_RoomType_Name_3",
     "ESCIcon": "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingRoom_Event.T_Rouge_BlessingRoom_Event",
-    "Icon": "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingRoom_Event.T_Rouge_BlessingRoom_Event"
+    "Icon": "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingRoom_Event.T_Rouge_BlessingRoom_Event",
+    "Name": "RougeLike_RoomType_Name_3",
+    "RoomTypeId": 3
   },
   {
-    "RoomTypeId": 4,
     "DeliveryUnitId": 60004,
-    "Name": "RougeLike_RoomType_Name_4",
     "ESCIcon": "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingRoom_Shop.T_Rouge_BlessingRoom_Shop",
-    "Icon": "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingRoom_Shop.T_Rouge_BlessingRoom_Shop"
+    "Icon": "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingRoom_Shop.T_Rouge_BlessingRoom_Shop",
+    "Name": "RougeLike_RoomType_Name_4",
+    "RoomTypeId": 4
   },
   {
-    "RoomTypeId": 5,
     "DeliveryUnitId": 60005,
-    "Name": "RougeLike_RoomType_Name_5",
     "ESCIcon": "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Room03.T_Rouge_Room03",
-    "Icon": "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Room03.T_Rouge_Room03"
+    "Icon": "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Room03.T_Rouge_Room03",
+    "Name": "RougeLike_RoomType_Name_5",
+    "RoomTypeId": 5
+  },
+  {
+    "DeliveryUnitId": 60010,
+    "ESCIcon": "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Room01.T_Rouge_Room01",
+    "EnableAwardDelay": 1,
+    "FailText": "RougeLike_Room_B_Fail",
+    "Icon": "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Room01.T_Rouge_Room01",
+    "IsShowBattlePanel": 1,
+    "Name": "RougeLike_RoomType_Name_6",
+    "RoomTypeId": 6,
+    "SuccessText": "RougeLike_Room_B_Success"
   }
 ]

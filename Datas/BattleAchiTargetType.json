@@ -4,302 +4,329 @@
     "TargetType": "BluePrintTrigger"
   },
   "1001": {
-    "Id": 1001,
-    "TargetType": "Heal",
     "Args": {
       "DamageType": [
         "Default"
       ]
-    }
+    },
+    "Id": 1001,
+    "TargetType": "Heal"
   },
   "1010": {
-    "Id": 1010,
-    "TargetType": "Damage",
     "Args": {
       "DamageType": [
         "Light"
       ]
-    }
+    },
+    "Id": 1010,
+    "TargetType": "Damage"
   },
   "1011": {
-    "Id": 1011,
-    "TargetType": "Damage",
     "Args": {
       "DamageType": [
         "Dark"
       ]
-    }
+    },
+    "Id": 1011,
+    "TargetType": "Damage"
   },
   "1012": {
-    "Id": 1012,
-    "TargetType": "Damage",
     "Args": {
       "DamageType": [
         "Water"
       ]
-    }
+    },
+    "Id": 1012,
+    "TargetType": "Damage"
   },
   "1013": {
-    "Id": 1013,
-    "TargetType": "Damage",
     "Args": {
       "DamageType": [
         "Fire"
       ]
-    }
+    },
+    "Id": 1013,
+    "TargetType": "Damage"
   },
   "1014": {
-    "Id": 1014,
-    "TargetType": "Damage",
     "Args": {
       "DamageType": [
         "Thunder"
       ]
-    }
+    },
+    "Id": 1014,
+    "TargetType": "Damage"
   },
   "1015": {
-    "Id": 1015,
-    "TargetType": "Damage",
     "Args": {
       "DamageType": [
         "Wind"
       ]
-    }
+    },
+    "Id": 1015,
+    "TargetType": "Damage"
   },
   "1016": {
-    "Id": 1016,
-    "TargetType": "Damage",
     "Args": {
       "DamageType": [
         "Slash"
       ]
-    }
+    },
+    "Id": 1016,
+    "TargetType": "Damage"
   },
   "1017": {
-    "Id": 1017,
-    "TargetType": "Damage",
     "Args": {
       "DamageType": [
         "Spike"
       ]
-    }
+    },
+    "Id": 1017,
+    "TargetType": "Damage"
   },
   "1018": {
-    "Id": 1018,
-    "TargetType": "Damage",
     "Args": {
       "DamageType": [
         "Smash"
       ]
-    }
+    },
+    "Id": 1018,
+    "TargetType": "Damage"
   },
   "1021": {
-    "Id": 1021,
-    "TargetType": "Heal",
     "Args": {
       "DamageType": [
         "Default"
       ]
-    }
+    },
+    "Id": 1021,
+    "TargetType": "Heal"
   },
   "1022": {
-    "Id": 1022,
-    "TargetType": "Damage",
     "Args": {
       "DamageTag": [
         "Weapon"
       ]
-    }
+    },
+    "Id": 1022,
+    "TargetType": "Damage"
   },
   "1023": {
-    "Id": 1023,
-    "TargetType": "Damage",
     "Args": {
       "DamageTag": [
         "Skill"
       ]
-    }
+    },
+    "Id": 1023,
+    "TargetType": "Damage"
   },
   "1024": {
-    "Id": 1024,
-    "TargetType": "Damage",
     "Args": {
       "DamageTag": [
         "Melee"
       ]
-    }
+    },
+    "Id": 1024,
+    "TargetType": "Damage"
   },
   "1025": {
-    "Id": 1025,
-    "TargetType": "Damage",
     "Args": {
       "DamageTag": [
         "Ranged"
       ]
-    }
+    },
+    "Id": 1025,
+    "TargetType": "Damage"
   },
   "1026": {
-    "Id": 1026,
-    "TargetType": "Damage",
     "Args": {
       "DamageTag": [
-        "Cyclone",
-        "MagicMissile",
-        "SpiritualFire"
+        "RouB105"
       ]
-    }
+    },
+    "Id": 1026,
+    "TargetType": "Damage"
   },
   "1027": {
-    "Id": 1027,
-    "TargetType": "Damage",
     "Args": {
       "DamageTag": [
-        "RouStar"
+        "RouB106"
       ]
-    }
+    },
+    "Id": 1027,
+    "TargetType": "Damage"
+  },
+  "1028": {
+    "Args": {
+      "DamageTag": [
+        "RouB104"
+      ]
+    },
+    "Id": 1028,
+    "TargetType": "Damage"
   },
   "2000": {
     "Id": 2000,
     "TargetType": "OnTargetKilled"
   },
   "2001": {
-    "Id": 2001,
-    "TargetType": "OnTargetKilled",
     "Args": {
       "Tag": [
         "Mon.Gr"
       ]
-    }
+    },
+    "Id": 2001,
+    "TargetType": "OnTargetKilled"
   },
   "2002": {
-    "Id": 2002,
-    "TargetType": "OnTargetKilled",
     "Args": {
       "Tag": [
         "Mon.Jt"
       ]
-    }
+    },
+    "Id": 2002,
+    "TargetType": "OnTargetKilled"
   },
   "2003": {
-    "Id": 2003,
-    "TargetType": "OnTargetKilled",
     "Args": {
       "Tag": [
         "Mon.Jh"
       ]
-    }
+    },
+    "Id": 2003,
+    "TargetType": "OnTargetKilled"
   },
   "2004": {
-    "Id": 2004,
-    "TargetType": "OnTargetKilled",
     "Args": {
       "Tag": [
         "Mon.Strong"
       ]
-    }
+    },
+    "Id": 2004,
+    "TargetType": "OnTargetKilled"
   },
   "2005": {
-    "Id": 2005,
-    "TargetType": "OnTargetKilled",
     "Args": {
       "Tag": [
         "Mon.Sq"
       ]
-    }
+    },
+    "Id": 2005,
+    "TargetType": "OnTargetKilled"
+  },
+  "2006": {
+    "Args": {
+      "Tag": [
+        "Mon.Strong.Double"
+      ]
+    },
+    "Id": 2006,
+    "TargetType": "OnTargetKilled"
+  },
+  "2007": {
+    "Args": {
+      "Tag": [
+        "Mon.Strong.Triple"
+      ]
+    },
+    "Id": 2007,
+    "TargetType": "OnTargetKilled"
+  },
+  "2008": {
+    "Args": {
+      "Tag": [
+        "Mon.Treasure"
+      ]
+    },
+    "Id": 2008,
+    "TargetType": "OnTargetKilled"
   },
   "2011": {
-    "Id": 2011,
-    "TargetType": "OnTargetKilled",
     "Args": {
-      "SkillType": [
-        "Attack",
-        "HeavyAttack",
-        "SlideAttack",
-        "FallAttack"
+      "DamageTag": [
+        "Melee"
       ]
-    }
+    },
+    "Id": 2011,
+    "TargetType": "OnTargetKilled"
   },
   "2012": {
-    "Id": 2012,
-    "TargetType": "OnTargetKilled",
     "Args": {
-      "SkillType": [
-        "Shooting",
-        "HeavyShooting"
+      "DamageTag": [
+        "Ranged"
       ]
-    }
+    },
+    "Id": 2012,
+    "TargetType": "OnTargetKilled"
   },
   "2013": {
-    "Id": 2013,
-    "TargetType": "OnTargetKilled",
     "Args": {
-      "SkillType": [
+      "DamageTag": [
         "FallAttack"
       ]
-    }
+    },
+    "Id": 2013,
+    "TargetType": "OnTargetKilled"
   },
   "2014": {
-    "Id": 2014,
-    "TargetType": "OnTargetKilled",
     "Args": {
-      "SkillType": [
+      "DamageTag": [
         "HeavyAttack"
       ]
-    }
+    },
+    "Id": 2014,
+    "TargetType": "OnTargetKilled"
   },
   "2015": {
-    "Id": 2015,
-    "TargetType": "OnTargetKilled",
     "Args": {
-      "SkillType": [
+      "DamageTag": [
         "SlideAttack"
       ]
-    }
+    },
+    "Id": 2015,
+    "TargetType": "OnTargetKilled"
   },
   "2016": {
-    "Id": 2016,
-    "TargetType": "OnTargetKilled",
     "Args": {
       "DamageTag": [
         "Ray"
       ]
-    }
+    },
+    "Id": 2016,
+    "TargetType": "OnTargetKilled"
   },
   "2017": {
-    "Id": 2017,
-    "TargetType": "OnTargetKilled",
     "Args": {
       "DamageTag": [
         "Explode"
       ]
-    }
+    },
+    "Id": 2017,
+    "TargetType": "OnTargetKilled"
   },
   "2021": {
-    "Id": 2021,
-    "TargetType": "LimitTimeKillMonster",
     "Args": {
       "LimitTime": 3
-    }
+    },
+    "Id": 2021,
+    "TargetType": "LimitTimeKillMonster"
   },
   "2022": {
-    "Id": 2022,
-    "TargetType": "LimitTimeUseNormalSkill",
     "Args": {
       "LimitTime": 3
-    }
+    },
+    "Id": 2022,
+    "TargetType": "LimitTimeUseNormalSkill"
   },
   "2023": {
-    "Id": 2023,
-    "TargetType": "LimitTimeUseUltraSkill",
     "Args": {
       "LimitTime": 6
-    }
+    },
+    "Id": 2023,
+    "TargetType": "LimitTimeUseUltraSkill"
   },
   "2024": {
-    "Id": 2024,
-    "TargetType": "LimitTimeAddBuff",
     "Args": {
-      "LimitTime": 3,
       "BuffType": [
         101,
         102,
@@ -307,8 +334,11 @@
         104,
         105,
         106
-      ]
-    }
+      ],
+      "LimitTime": 3
+    },
+    "Id": 2024,
+    "TargetType": "LimitTimeAddBuff"
   },
   "2031": {
     "Id": 2031,
@@ -317,6 +347,10 @@
   "2032": {
     "Id": 2032,
     "TargetType": "PlayerUseUltraSkill"
+  },
+  "2033": {
+    "Id": 2033,
+    "TargetType": "PlayerUseSupportSkill"
   },
   "2041": {
     "Id": 2041,
@@ -347,36 +381,114 @@
     "TargetType": "BluePrintTrigger"
   },
   "2051": {
-    "Id": 2051,
-    "TargetType": "OnTargetKilled",
     "Args": {
       "UnitId": [
         70010051
       ]
-    }
+    },
+    "Id": 2051,
+    "TargetType": "OnTargetKilled"
   },
   "2052": {
     "Id": 2052,
     "TargetType": "BluePrintTrigger"
   },
   "2053": {
-    "Id": 2053,
-    "TargetType": "OnMonsterAddedBuff",
     "Args": {
       "BuffType": [
         203
       ],
       "CampFilter": "Monster"
-    }
+    },
+    "Id": 2053,
+    "TargetType": "OnMonsterAddedBuff"
+  },
+  "2101": {
+    "Id": 2101,
+    "TargetType": "BluePrintTrigger"
+  },
+  "2102": {
+    "Id": 2102,
+    "TargetType": "BluePrintTrigger"
+  },
+  "2103": {
+    "Id": 2103,
+    "TargetType": "BluePrintTrigger"
+  },
+  "2104": {
+    "Id": 2104,
+    "TargetType": "BluePrintTrigger"
+  },
+  "2105": {
+    "Id": 2105,
+    "TargetType": "BluePrintTrigger"
+  },
+  "2106": {
+    "Id": 2106,
+    "TargetType": "BluePrintTrigger"
+  },
+  "2107": {
+    "Id": 2107,
+    "TargetType": "BluePrintTrigger"
+  },
+  "2201": {
+    "Args": {
+      "UnitId": [
+        10004001,
+        10004061,
+        10004062
+      ]
+    },
+    "Id": 2201,
+    "TargetType": "OnTargetKilled"
+  },
+  "2202": {
+    "Args": {
+      "UnitId": [
+        10001001,
+        10001061,
+        10001062,
+        10002001
+      ]
+    },
+    "Id": 2202,
+    "TargetType": "OnTargetKilled"
+  },
+  "2203": {
+    "Args": {
+      "UnitId": [
+        8510002
+      ]
+    },
+    "Id": 2203,
+    "TargetType": "OnTargetKilled"
+  },
+  "2204": {
+    "Args": {
+      "UnitId": [
+        8518001
+      ]
+    },
+    "Id": 2204,
+    "TargetType": "OnTargetKilled"
+  },
+  "2205": {
+    "Args": {
+      "UnitId": [
+        8517001
+      ]
+    },
+    "Id": 2205,
+    "TargetType": "OnTargetKilled"
   },
   "3001": {
-    "Id": 3001,
-    "TargetType": "DamageOnDefeated",
     "Args": {
       "ExceptSkillType": [
         "Condemn"
       ]
-    }
+    },
+    "Id": 3001,
+    "TargetType": "DamageOnDefeated"
   },
   "3011": {
     "Id": 3011,
@@ -387,69 +499,69 @@
     "TargetType": "OnRecoverTeammate"
   },
   "3021": {
+    "CombatConditionId": 34,
     "Id": 3021,
-    "TargetType": "PlayerMove",
-    "CombatConditionId": 34
+    "TargetType": "PlayerMove"
   },
   "3031": {
-    "Id": 3031,
-    "TargetType": "OnBuffRemovedFromTarget",
     "Args": {
-      "CampFilter": "Enemy",
       "BuffType": [
         102
-      ]
-    }
+      ],
+      "CampFilter": "Enemy"
+    },
+    "Id": 3031,
+    "TargetType": "OnBuffRemovedFromTarget"
   },
   "3032": {
-    "Id": 3032,
-    "TargetType": "OnBuffRemovedFromTarget",
     "Args": {
-      "CampFilter": "Enemy",
       "BuffType": [
         103
-      ]
-    }
+      ],
+      "CampFilter": "Enemy"
+    },
+    "Id": 3032,
+    "TargetType": "OnBuffRemovedFromTarget"
   },
   "3033": {
-    "Id": 3033,
-    "TargetType": "OnBuffRemovedFromTarget",
     "Args": {
-      "CampFilter": "Enemy",
       "BuffType": [
         104
-      ]
-    }
+      ],
+      "CampFilter": "Enemy"
+    },
+    "Id": 3033,
+    "TargetType": "OnBuffRemovedFromTarget"
   },
   "3034": {
-    "Id": 3034,
-    "TargetType": "OnBuffRemovedFromTarget",
     "Args": {
-      "CampFilter": "Enemy",
       "BuffType": [
         105
-      ]
-    }
+      ],
+      "CampFilter": "Enemy"
+    },
+    "Id": 3034,
+    "TargetType": "OnBuffRemovedFromTarget"
   },
   "3035": {
-    "Id": 3035,
-    "TargetType": "OnBuffRemovedFromTarget",
     "Args": {
-      "CampFilter": "Enemy",
       "BuffType": [
         101
-      ]
-    }
+      ],
+      "CampFilter": "Enemy"
+    },
+    "Id": 3035,
+    "TargetType": "OnBuffRemovedFromTarget"
   },
   "3036": {
-    "Id": 3036,
-    "TargetType": "OnBuffRemovedFromTarget",
     "Args": {
-      "CampFilter": "Enemy",
       "BuffType": [
         106
-      ]
-    }
+      ],
+      "CampFilter": "Enemy"
+    },
+    "Id": 3036,
+    "TargetType": "OnBuffRemovedFromTarget"
   },
   "3041": {
     "Id": 3041,
@@ -457,113 +569,29 @@
   },
   "3042": {
     "Id": 3042,
-    "TargetType": "Damage",
     "RoleIdConstraints": {
       "AllPhantom": 1
-    }
+    },
+    "TargetType": "Damage"
   },
   "3043": {
-    "Id": 3043,
-    "TargetType": "Heal",
     "Args": {
       "DamageType": [
         "Default"
       ]
     },
+    "Id": 3043,
     "RoleIdConstraints": {
       "AllPhantom": 1
-    }
+    },
+    "TargetType": "Heal"
   },
   "3044": {
     "Id": 3044,
-    "TargetType": "Damaged",
     "RoleIdConstraints": {
       "AllPhantom": 1
-    }
-  },
-  "4001": {
-    "Id": 4001,
-    "TargetType": "OnAddBuffToOther",
-    "Args": {
-      "BuffType": [
-        210101
-      ]
     },
-    "RoleIdConstraints": {
-      "CharacterId": [
-        2101
-      ]
-    }
-  },
-  "4011": {
-    "Id": 4011,
-    "TargetType": "OnAddSp",
-    "Args": {
-      "Reason": 0
-    },
-    "RoleIdConstraints": {
-      "CharacterId": [
-        2401
-      ]
-    }
-  },
-  "4021": {
-    "Id": 4021,
-    "TargetType": "OnTargetKilled",
-    "RoleIdConstraints": {
-      "CharacterId": [
-        3101
-      ]
-    },
-    "CombatConditionId": 20
-  },
-  "4031": {
-    "Id": 4031,
-    "TargetType": "OnTagChanged",
-    "Args": {
-      "Tags": [
-        "Avoid"
-      ]
-    },
-    "RoleIdConstraints": {
-      "CharacterId": [
-        3102
-      ]
-    }
-  },
-  "4041": {
-    "Id": 4041,
-    "TargetType": "OnTargetKilled",
-    "Args": {
-      "SkillType": [
-        "FallAttack"
-      ]
-    },
-    "RoleIdConstraints": {
-      "CharacterId": [
-        4201
-      ]
-    }
-  },
-  "4051": {
-    "Id": 4051,
-    "TargetType": "PlayerMove",
-    "RoleIdConstraints": {
-      "CharacterId": [
-        5101
-      ]
-    },
-    "CombatConditionId": 510103
-  },
-  "4061": {
-    "Id": 4061,
-    "TargetType": "PlayerMove",
-    "RoleIdConstraints": {
-      "CharacterId": [
-        5301
-      ]
-    },
-    "CombatConditionId": 35
+    "TargetType": "Damaged"
   },
   "5001": {
     "Id": 5001,

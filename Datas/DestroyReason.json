@@ -1,306 +1,314 @@
 {
-  "GM": {
-    "DestroyReason": "GM",
-    "IsTriggerDestroyEvent": true,
-    "IsTriggrRelationSpawn": false,
-    "IsClearGuide": true,
-    "IsClearStaticCreatorRef": true,
-    "IsMonClearBattleInfo": true
-  },
-  "Pickup": {
-    "DestroyReason": "Pickup",
-    "IsTriggerDestroyEvent": true,
-    "IsTriggrRelationSpawn": false,
-    "IsClearGuide": true,
-    "IsClearStaticCreatorRef": true,
-    "IsMonClearBattleInfo": false
-  },
   "Breakable": {
     "DestroyReason": "Breakable",
+    "IsClearGuide": true,
+    "IsClearStaticCreatorRef": true,
+    "IsMonClearBattleInfo": false,
     "IsTriggerDestroyEvent": true,
-    "IsTriggrRelationSpawn": false,
-    "IsClearGuide": true,
-    "IsClearStaticCreatorRef": true,
-    "IsMonClearBattleInfo": false
-  },
-  "UnitLabel": {
-    "DestroyReason": "UnitLabel",
-    "IsTriggerDestroyEvent": true,
-    "IsTriggrRelationSpawn": false,
-    "IsClearGuide": true,
-    "IsClearStaticCreatorRef": true,
-    "IsMonClearBattleInfo": true
-  },
-  "NotTriggerGameModeEvent": {
-    "DestroyReason": "NotTriggerGameModeEvent",
-    "IsTriggerDestroyEvent": false,
-    "IsTriggrRelationSpawn": false,
-    "IsClearGuide": true,
-    "IsClearStaticCreatorRef": true,
-    "IsMonClearBattleInfo": true
-  },
-  "HardBossClear": {
-    "DestroyReason": "HardBossClear",
-    "IsTriggerDestroyEvent": false,
-    "IsTriggrRelationSpawn": false,
-    "IsClearGuide": true,
-    "IsClearStaticCreatorRef": true,
-    "IsMonClearBattleInfo": true
-  },
-  "LevelNotExsit": {
-    "DestroyReason": "LevelNotExsit",
-    "IsTriggerDestroyEvent": false,
-    "IsTriggrRelationSpawn": true,
-    "IsClearGuide": false,
-    "IsClearStaticCreatorRef": false,
-    "IsMonClearBattleInfo": true
-  },
-  "MonsterSpawnAdjust": {
-    "DestroyReason": "MonsterSpawnAdjust",
-    "IsTriggerDestroyEvent": false,
-    "IsTriggrRelationSpawn": true,
-    "IsClearGuide": true,
-    "IsClearStaticCreatorRef": false,
-    "IsMonClearBattleInfo": true
-  },
-  "LevelUnloadedSaveGame": {
-    "DestroyReason": "LevelUnloadedSaveGame",
-    "IsTriggerDestroyEvent": false,
-    "IsTriggrRelationSpawn": true,
-    "IsClearGuide": false,
-    "IsClearStaticCreatorRef": false,
-    "IsMonClearBattleInfo": true
-  },
-  "LevelUnloadedNotSaveGame": {
-    "DestroyReason": "LevelUnloadedNotSaveGame",
-    "IsTriggerDestroyEvent": false,
-    "IsTriggrRelationSpawn": true,
-    "IsClearGuide": true,
-    "IsClearStaticCreatorRef": true,
-    "IsMonClearBattleInfo": true
-  },
-  "RougeLevelUnloaded": {
-    "DestroyReason": "RougeLevelUnloaded",
-    "IsTriggerDestroyEvent": false,
-    "IsTriggrRelationSpawn": false,
-    "IsClearGuide": true,
-    "IsClearStaticCreatorRef": true,
-    "IsMonClearBattleInfo": true
-  },
-  "SpawnerClear": {
-    "DestroyReason": "SpawnerClear",
-    "IsTriggerDestroyEvent": false,
-    "IsTriggrRelationSpawn": false,
-    "IsClearGuide": true,
-    "IsClearStaticCreatorRef": true,
-    "IsMonClearBattleInfo": true
-  },
-  "MonsterNestItemClear": {
-    "DestroyReason": "MonsterNestItemClear",
-    "IsTriggerDestroyEvent": false,
-    "IsTriggrRelationSpawn": false,
-    "IsClearGuide": true,
-    "IsClearStaticCreatorRef": true,
-    "IsMonClearBattleInfo": true
-  },
-  "Training": {
-    "DestroyReason": "Training",
-    "IsTriggerDestroyEvent": false,
-    "IsTriggrRelationSpawn": false,
-    "IsClearGuide": true,
-    "IsClearStaticCreatorRef": true,
-    "IsMonClearBattleInfo": true
-  },
-  "RegionExploreGroup": {
-    "DestroyReason": "RegionExploreGroup",
-    "IsTriggerDestroyEvent": false,
-    "IsTriggrRelationSpawn": false,
-    "IsClearGuide": true,
-    "IsClearStaticCreatorRef": true,
-    "IsMonClearBattleInfo": true
-  },
-  "QuestChainClear": {
-    "DestroyReason": "QuestChainClear",
-    "IsTriggerDestroyEvent": false,
-    "IsTriggrRelationSpawn": false,
-    "IsClearGuide": true,
-    "IsClearStaticCreatorRef": true,
-    "IsMonClearBattleInfo": true
-  },
-  "SepcialQuestStart": {
-    "DestroyReason": "SepcialQuestStart",
-    "IsTriggerDestroyEvent": false,
-    "IsTriggrRelationSpawn": false,
-    "IsClearGuide": true,
-    "IsClearStaticCreatorRef": true,
-    "IsMonClearBattleInfo": true
-  },
-  "StoryLine": {
-    "DestroyReason": "StoryLine",
-    "IsTriggerDestroyEvent": false,
-    "IsTriggrRelationSpawn": false,
-    "IsClearGuide": true,
-    "IsClearStaticCreatorRef": true,
-    "IsMonClearBattleInfo": true
-  },
-  "TalkContext": {
-    "DestroyReason": "TalkContext",
-    "IsTriggerDestroyEvent": false,
-    "IsTriggrRelationSpawn": false,
-    "IsClearGuide": true,
-    "IsClearStaticCreatorRef": true,
-    "IsMonClearBattleInfo": true
-  },
-  "MonsterInitiate": {
-    "DestroyReason": "MonsterInitiate",
-    "IsTriggerDestroyEvent": true,
-    "IsTriggrRelationSpawn": false,
-    "IsClearGuide": true,
-    "IsClearStaticCreatorRef": true,
-    "IsMonClearBattleInfo": true
-  },
-  "MonsterDead": {
-    "DestroyReason": "MonsterDead",
-    "IsTriggerDestroyEvent": true,
-    "IsTriggrRelationSpawn": false,
-    "IsClearGuide": true,
-    "IsClearStaticCreatorRef": true,
-    "IsMonClearBattleInfo": false
-  },
-  "SummonDirectSourceChangeOrDied": {
-    "DestroyReason": "SummonDirectSourceChangeOrDied",
-    "IsTriggerDestroyEvent": false,
-    "IsTriggrRelationSpawn": false,
-    "IsClearGuide": true,
-    "IsClearStaticCreatorRef": true,
-    "IsMonClearBattleInfo": true
-  },
-  "HostageRescueEnd": {
-    "DestroyReason": "HostageRescueEnd",
-    "IsTriggerDestroyEvent": true,
-    "IsTriggrRelationSpawn": false,
-    "IsClearGuide": true,
-    "IsClearStaticCreatorRef": true,
-    "IsMonClearBattleInfo": true
-  },
-  "PhantomUseResource": {
-    "DestroyReason": "PhantomUseResource",
-    "IsTriggerDestroyEvent": true,
-    "IsTriggrRelationSpawn": false,
-    "IsClearGuide": true,
-    "IsClearStaticCreatorRef": true,
-    "IsMonClearBattleInfo": true
-  },
-  "PhantomChangeRole": {
-    "DestroyReason": "PhantomChangeRole",
-    "IsTriggerDestroyEvent": true,
-    "IsTriggrRelationSpawn": false,
-    "IsClearGuide": true,
-    "IsClearStaticCreatorRef": true,
-    "IsMonClearBattleInfo": true
-  },
-  "PhantomEnterDungeon": {
-    "DestroyReason": "PhantomEnterDungeon",
-    "IsTriggerDestroyEvent": true,
-    "IsTriggrRelationSpawn": false,
-    "IsClearGuide": true,
-    "IsClearStaticCreatorRef": true,
-    "IsMonClearBattleInfo": true
-  },
-  "PhantomExitDungeon": {
-    "DestroyReason": "PhantomExitDungeon",
-    "IsTriggerDestroyEvent": true,
-    "IsTriggrRelationSpawn": false,
-    "IsClearGuide": true,
-    "IsClearStaticCreatorRef": true,
-    "IsMonClearBattleInfo": true
-  },
-  "PhantomDieInRegion": {
-    "DestroyReason": "PhantomDieInRegion",
-    "IsTriggerDestroyEvent": true,
-    "IsTriggrRelationSpawn": false,
-    "IsClearGuide": true,
-    "IsClearStaticCreatorRef": true,
-    "IsMonClearBattleInfo": true
-  },
-  "MechanismDead": {
-    "DestroyReason": "MechanismDead",
-    "IsTriggerDestroyEvent": true,
-    "IsTriggrRelationSpawn": false,
-    "IsClearGuide": true,
-    "IsClearStaticCreatorRef": true,
-    "IsMonClearBattleInfo": false
-  },
-  "MechanismSummon": {
-    "DestroyReason": "MechanismSummon",
-    "IsTriggerDestroyEvent": true,
-    "IsTriggrRelationSpawn": false,
-    "IsClearGuide": true,
-    "IsClearStaticCreatorRef": true,
-    "IsMonClearBattleInfo": false
-  },
-  "MechanismLifeTime": {
-    "DestroyReason": "MechanismLifeTime",
-    "IsTriggerDestroyEvent": true,
-    "IsTriggrRelationSpawn": false,
-    "IsClearGuide": true,
-    "IsClearStaticCreatorRef": true,
-    "IsMonClearBattleInfo": false
-  },
-  "CombatStateChange": {
-    "DestroyReason": "CombatStateChange",
-    "IsTriggerDestroyEvent": true,
-    "IsTriggrRelationSpawn": false,
-    "IsClearGuide": true,
-    "IsClearStaticCreatorRef": true,
-    "IsMonClearBattleInfo": false
-  },
-  "Flexible": {
-    "DestroyReason": "Flexible",
-    "IsTriggerDestroyEvent": false,
-    "IsTriggrRelationSpawn": false,
-    "IsClearGuide": true,
-    "IsClearStaticCreatorRef": true,
-    "IsMonClearBattleInfo": true
-  },
-  "RecoverSubRegionDataCacheButBpBornHasAlreadyDead": {
-    "DestroyReason": "RecoverSubRegionDataCacheButBpBornHasAlreadyDead",
-    "IsTriggerDestroyEvent": false,
-    "IsTriggrRelationSpawn": false,
-    "IsClearGuide": true,
-    "IsClearStaticCreatorRef": true,
-    "IsMonClearBattleInfo": true
-  },
-  "PetAfterInteractive": {
-    "DestroyReason": "PetAfterInteractive",
-    "IsTriggerDestroyEvent": false,
-    "IsTriggrRelationSpawn": false,
-    "IsClearGuide": true,
-    "IsClearStaticCreatorRef": true,
-    "IsMonClearBattleInfo": false
-  },
-  "NoReason": {
-    "DestroyReason": "NoReason",
-    "IsTriggerDestroyEvent": true,
-    "IsTriggrRelationSpawn": false,
-    "IsClearGuide": true,
-    "IsClearStaticCreatorRef": true,
-    "IsMonClearBattleInfo": true
-  },
-  "EngineDestroy": {
-    "DestroyReason": "EngineDestroy",
-    "IsTriggerDestroyEvent": false,
-    "IsTriggrRelationSpawn": false,
-    "IsClearGuide": true,
-    "IsClearStaticCreatorRef": true,
-    "IsMonClearBattleInfo": true
+    "IsTriggrRelationSpawn": false
   },
   "Cache": {
     "DestroyReason": "Cache",
-    "IsTriggerDestroyEvent": true,
-    "IsTriggrRelationSpawn": false,
     "IsClearGuide": true,
     "IsClearStaticCreatorRef": true,
-    "IsMonClearBattleInfo": false
+    "IsMonClearBattleInfo": false,
+    "IsTriggerDestroyEvent": true,
+    "IsTriggrRelationSpawn": false
+  },
+  "CombatStateChange": {
+    "DestroyReason": "CombatStateChange",
+    "IsClearGuide": true,
+    "IsClearStaticCreatorRef": true,
+    "IsMonClearBattleInfo": false,
+    "IsTriggerDestroyEvent": true,
+    "IsTriggrRelationSpawn": false
+  },
+  "Dispatch": {
+    "DestroyReason": "Dispatch",
+    "IsClearGuide": true,
+    "IsClearStaticCreatorRef": true,
+    "IsMonClearBattleInfo": true,
+    "IsTriggerDestroyEvent": true,
+    "IsTriggrRelationSpawn": false
+  },
+  "EngineDestroy": {
+    "DestroyReason": "EngineDestroy",
+    "IsClearGuide": true,
+    "IsClearStaticCreatorRef": true,
+    "IsMonClearBattleInfo": true,
+    "IsTriggerDestroyEvent": false,
+    "IsTriggrRelationSpawn": false
+  },
+  "Flexible": {
+    "DestroyReason": "Flexible",
+    "IsClearGuide": true,
+    "IsClearStaticCreatorRef": true,
+    "IsMonClearBattleInfo": true,
+    "IsTriggerDestroyEvent": false,
+    "IsTriggrRelationSpawn": false
+  },
+  "GM": {
+    "DestroyReason": "GM",
+    "IsClearGuide": true,
+    "IsClearStaticCreatorRef": true,
+    "IsMonClearBattleInfo": true,
+    "IsTriggerDestroyEvent": true,
+    "IsTriggrRelationSpawn": false
+  },
+  "HardBossClear": {
+    "DestroyReason": "HardBossClear",
+    "IsClearGuide": true,
+    "IsClearStaticCreatorRef": true,
+    "IsMonClearBattleInfo": true,
+    "IsTriggerDestroyEvent": false,
+    "IsTriggrRelationSpawn": false
+  },
+  "HostageRescueEnd": {
+    "DestroyReason": "HostageRescueEnd",
+    "IsClearGuide": true,
+    "IsClearStaticCreatorRef": true,
+    "IsMonClearBattleInfo": true,
+    "IsTriggerDestroyEvent": true,
+    "IsTriggrRelationSpawn": false
+  },
+  "LevelNotExsit": {
+    "DestroyReason": "LevelNotExsit",
+    "IsClearGuide": false,
+    "IsClearStaticCreatorRef": false,
+    "IsMonClearBattleInfo": true,
+    "IsTriggerDestroyEvent": false,
+    "IsTriggrRelationSpawn": true
+  },
+  "LevelUnloadedNotSaveGame": {
+    "DestroyReason": "LevelUnloadedNotSaveGame",
+    "IsClearGuide": true,
+    "IsClearStaticCreatorRef": true,
+    "IsMonClearBattleInfo": true,
+    "IsTriggerDestroyEvent": false,
+    "IsTriggrRelationSpawn": true
+  },
+  "LevelUnloadedSaveGame": {
+    "DestroyReason": "LevelUnloadedSaveGame",
+    "IsClearGuide": false,
+    "IsClearStaticCreatorRef": false,
+    "IsMonClearBattleInfo": true,
+    "IsTriggerDestroyEvent": false,
+    "IsTriggrRelationSpawn": true
+  },
+  "MechanismDead": {
+    "DestroyReason": "MechanismDead",
+    "IsClearGuide": true,
+    "IsClearStaticCreatorRef": true,
+    "IsMonClearBattleInfo": false,
+    "IsTriggerDestroyEvent": true,
+    "IsTriggrRelationSpawn": false
+  },
+  "MechanismLifeTime": {
+    "DestroyReason": "MechanismLifeTime",
+    "IsClearGuide": true,
+    "IsClearStaticCreatorRef": true,
+    "IsMonClearBattleInfo": false,
+    "IsTriggerDestroyEvent": true,
+    "IsTriggrRelationSpawn": false
+  },
+  "MechanismSummon": {
+    "DestroyReason": "MechanismSummon",
+    "IsClearGuide": true,
+    "IsClearStaticCreatorRef": true,
+    "IsMonClearBattleInfo": false,
+    "IsTriggerDestroyEvent": true,
+    "IsTriggrRelationSpawn": false
+  },
+  "MonsterDead": {
+    "DestroyReason": "MonsterDead",
+    "IsClearGuide": true,
+    "IsClearStaticCreatorRef": true,
+    "IsMonClearBattleInfo": false,
+    "IsTriggerDestroyEvent": true,
+    "IsTriggrRelationSpawn": false
+  },
+  "MonsterInitiate": {
+    "DestroyReason": "MonsterInitiate",
+    "IsClearGuide": true,
+    "IsClearStaticCreatorRef": true,
+    "IsMonClearBattleInfo": true,
+    "IsTriggerDestroyEvent": true,
+    "IsTriggrRelationSpawn": false
+  },
+  "MonsterNestItemClear": {
+    "DestroyReason": "MonsterNestItemClear",
+    "IsClearGuide": true,
+    "IsClearStaticCreatorRef": true,
+    "IsMonClearBattleInfo": true,
+    "IsTriggerDestroyEvent": false,
+    "IsTriggrRelationSpawn": false
+  },
+  "MonsterSpawnAdjust": {
+    "DestroyReason": "MonsterSpawnAdjust",
+    "IsClearGuide": true,
+    "IsClearStaticCreatorRef": false,
+    "IsMonClearBattleInfo": true,
+    "IsTriggerDestroyEvent": false,
+    "IsTriggrRelationSpawn": true
+  },
+  "NoReason": {
+    "DestroyReason": "NoReason",
+    "IsClearGuide": true,
+    "IsClearStaticCreatorRef": true,
+    "IsMonClearBattleInfo": true,
+    "IsTriggerDestroyEvent": true,
+    "IsTriggrRelationSpawn": false
+  },
+  "NotTriggerGameModeEvent": {
+    "DestroyReason": "NotTriggerGameModeEvent",
+    "IsClearGuide": true,
+    "IsClearStaticCreatorRef": true,
+    "IsMonClearBattleInfo": true,
+    "IsTriggerDestroyEvent": false,
+    "IsTriggrRelationSpawn": false
+  },
+  "PetAfterInteractive": {
+    "DestroyReason": "PetAfterInteractive",
+    "IsClearGuide": true,
+    "IsClearStaticCreatorRef": true,
+    "IsMonClearBattleInfo": false,
+    "IsTriggerDestroyEvent": false,
+    "IsTriggrRelationSpawn": false
+  },
+  "PhantomChangeRole": {
+    "DestroyReason": "PhantomChangeRole",
+    "IsClearGuide": true,
+    "IsClearStaticCreatorRef": true,
+    "IsMonClearBattleInfo": true,
+    "IsTriggerDestroyEvent": true,
+    "IsTriggrRelationSpawn": false
+  },
+  "PhantomDieInRegion": {
+    "DestroyReason": "PhantomDieInRegion",
+    "IsClearGuide": true,
+    "IsClearStaticCreatorRef": true,
+    "IsMonClearBattleInfo": true,
+    "IsTriggerDestroyEvent": true,
+    "IsTriggrRelationSpawn": false
+  },
+  "PhantomEnterDungeon": {
+    "DestroyReason": "PhantomEnterDungeon",
+    "IsClearGuide": true,
+    "IsClearStaticCreatorRef": true,
+    "IsMonClearBattleInfo": true,
+    "IsTriggerDestroyEvent": true,
+    "IsTriggrRelationSpawn": false
+  },
+  "PhantomExitDungeon": {
+    "DestroyReason": "PhantomExitDungeon",
+    "IsClearGuide": true,
+    "IsClearStaticCreatorRef": true,
+    "IsMonClearBattleInfo": true,
+    "IsTriggerDestroyEvent": true,
+    "IsTriggrRelationSpawn": false
+  },
+  "PhantomUseResource": {
+    "DestroyReason": "PhantomUseResource",
+    "IsClearGuide": true,
+    "IsClearStaticCreatorRef": true,
+    "IsMonClearBattleInfo": true,
+    "IsTriggerDestroyEvent": true,
+    "IsTriggrRelationSpawn": false
+  },
+  "Pickup": {
+    "DestroyReason": "Pickup",
+    "IsClearGuide": true,
+    "IsClearStaticCreatorRef": true,
+    "IsMonClearBattleInfo": false,
+    "IsTriggerDestroyEvent": true,
+    "IsTriggrRelationSpawn": false
+  },
+  "QuestChainClear": {
+    "DestroyReason": "QuestChainClear",
+    "IsClearGuide": true,
+    "IsClearStaticCreatorRef": true,
+    "IsMonClearBattleInfo": true,
+    "IsTriggerDestroyEvent": false,
+    "IsTriggrRelationSpawn": false
+  },
+  "RecoverSubRegionDataCacheButBpBornHasAlreadyDead": {
+    "DestroyReason": "RecoverSubRegionDataCacheButBpBornHasAlreadyDead",
+    "IsClearGuide": true,
+    "IsClearStaticCreatorRef": true,
+    "IsMonClearBattleInfo": true,
+    "IsTriggerDestroyEvent": false,
+    "IsTriggrRelationSpawn": false
+  },
+  "RegionExploreGroup": {
+    "DestroyReason": "RegionExploreGroup",
+    "IsClearGuide": true,
+    "IsClearStaticCreatorRef": true,
+    "IsMonClearBattleInfo": true,
+    "IsTriggerDestroyEvent": false,
+    "IsTriggrRelationSpawn": false
+  },
+  "RougeLevelUnloaded": {
+    "DestroyReason": "RougeLevelUnloaded",
+    "IsClearGuide": true,
+    "IsClearStaticCreatorRef": true,
+    "IsMonClearBattleInfo": true,
+    "IsTriggerDestroyEvent": false,
+    "IsTriggrRelationSpawn": false
+  },
+  "SepcialQuestStart": {
+    "DestroyReason": "SepcialQuestStart",
+    "IsClearGuide": true,
+    "IsClearStaticCreatorRef": true,
+    "IsMonClearBattleInfo": true,
+    "IsTriggerDestroyEvent": false,
+    "IsTriggrRelationSpawn": false
+  },
+  "SpawnerClear": {
+    "DestroyReason": "SpawnerClear",
+    "IsClearGuide": true,
+    "IsClearStaticCreatorRef": true,
+    "IsMonClearBattleInfo": true,
+    "IsTriggerDestroyEvent": false,
+    "IsTriggrRelationSpawn": false
+  },
+  "StoryLine": {
+    "DestroyReason": "StoryLine",
+    "IsClearGuide": true,
+    "IsClearStaticCreatorRef": true,
+    "IsMonClearBattleInfo": true,
+    "IsTriggerDestroyEvent": false,
+    "IsTriggrRelationSpawn": false
+  },
+  "SummonDirectSourceChangeOrDied": {
+    "DestroyReason": "SummonDirectSourceChangeOrDied",
+    "IsClearGuide": true,
+    "IsClearStaticCreatorRef": true,
+    "IsMonClearBattleInfo": true,
+    "IsTriggerDestroyEvent": false,
+    "IsTriggrRelationSpawn": false
+  },
+  "TalkContext": {
+    "DestroyReason": "TalkContext",
+    "IsClearGuide": true,
+    "IsClearStaticCreatorRef": true,
+    "IsMonClearBattleInfo": true,
+    "IsTriggerDestroyEvent": false,
+    "IsTriggrRelationSpawn": false
+  },
+  "Training": {
+    "DestroyReason": "Training",
+    "IsClearGuide": true,
+    "IsClearStaticCreatorRef": true,
+    "IsMonClearBattleInfo": true,
+    "IsTriggerDestroyEvent": false,
+    "IsTriggrRelationSpawn": false
+  },
+  "UnitLabel": {
+    "DestroyReason": "UnitLabel",
+    "IsClearGuide": true,
+    "IsClearStaticCreatorRef": true,
+    "IsMonClearBattleInfo": true,
+    "IsTriggerDestroyEvent": true,
+    "IsTriggrRelationSpawn": false
   }
 }

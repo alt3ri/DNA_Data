@@ -1,455 +1,374 @@
 {
-  "Smile01": {
-    "FacialId": "Smile01",
-    "NpcEye1": "F_Smile01",
-    "Eye1BlendInTime": 0.4,
-    "NpcMouthLoop": "CM_F_Smile01"
-  },
-  "Smile02": {
-    "FacialId": "Smile02",
-    "NpcEye1": "F_Smile02",
-    "Eye1BlendInTime": 0.4
-  },
-  "Happy01": {
-    "FacialId": "Happy01",
-    "NpcEye1": "F_Happy01",
-    "Eye1BlendInTime": 0.4,
-    "NpcMouthLoop": "CM_F_Happy01"
-  },
-  "Happy02": {
-    "FacialId": "Happy02",
-    "NpcEye1": "F_Happy02",
-    "Eye1BlendInTime": 0.4
-  },
-  "Confident01": {
-    "FacialId": "Confident01",
-    "NpcEye1": "F_Confident01",
-    "Eye1BlendInTime": 0.4
-  },
-  "Confident02": {
-    "FacialId": "Confident02",
-    "NpcEye1": "F_Confident02",
-    "Eye1BlendInTime": 0.4
-  },
   "Ahaha01": {
-    "FacialId": "Ahaha01",
-    "NpcEye1": "F_Ahaha01",
     "Eye1BlendInTime": 0.4,
-    "NpcMouthLoop": "CM_F_Ahaha01"
+    "FacialId": "Ahaha01",
+    "NpcEye": "Ahaha01",
+    "NpcMouth": "Ahaha01_Mouth",
+    "SoundBaseMouth": "LipSyncBase_Smile_Mouth"
   },
   "Ahaha02": {
+    "Eye1BlendInTime": 0.4,
     "FacialId": "Ahaha02",
-    "NpcEye1": "F_Ahaha02",
-    "Eye1BlendInTime": 0.4
-  },
-  "Syouganai01": {
-    "FacialId": "Syouganai01",
-    "NpcEye1": "F_Syouganai01",
-    "Eye1BlendInTime": 0.6
-  },
-  "Satisfy01": {
-    "FacialId": "Satisfy01",
-    "NpcEye1": "F_Satisfy01",
-    "Eye1BlendInTime": 0.4
-  },
-  "Think01": {
-    "FacialId": "Think01",
-    "NpcEye1": "F_Think01",
-    "Eye1BlendInTime": 0.4
-  },
-  "Uninterested01": {
-    "FacialId": "Uninterested01",
-    "NpcEye1": "F_Uninterested01",
-    "Eye1BlendInTime": 0.4
-  },
-  "Doubt01": {
-    "FacialId": "Doubt01",
-    "NpcEye1": "F_Doubt01",
-    "Eye1BlendInTime": 0.4
-  },
-  "Shock01": {
-    "FacialId": "Shock01",
-    "NpcEye1": "F_Shock01",
-    "Eye1BlendInTime": 0.3,
-    "NpcMouthLoop": "CM_F_Shock01"
-  },
-  "Shock02": {
-    "FacialId": "Shock02",
-    "NpcEye1": "F_Shock02",
-    "Eye1BlendInTime": 0.3
-  },
-  "Unacceptable01": {
-    "FacialId": "Unacceptable01",
-    "NpcEye1": "F_Unacceptable01",
-    "Eye1BlendInTime": 0.4
-  },
-  "Unhappy01": {
-    "FacialId": "Unhappy01",
-    "NpcEye1": "F_Unhappy01",
-    "Eye1BlendInTime": 0.4
-  },
-  "Unhappy02": {
-    "FacialId": "Unhappy02",
-    "NpcEye1": "F_Unhappy02",
-    "Eye1BlendInTime": 0.4
-  },
-  "Iyada01": {
-    "FacialId": "Iyada01",
-    "NpcEye1": "F_Iyada01",
-    "Eye1BlendInTime": 0.4
-  },
-  "Disappoint01": {
-    "FacialId": "Disappoint01",
-    "NpcEye1": "F_Disappoint01",
-    "Eye1BlendInTime": 0.4
+    "NpcEye": "Ahaha02",
+    "NpcMouth": "Ahaha02_Mouth",
+    "SoundBaseMouth": "LipSyncBase_Smile_Mouth"
   },
   "Angry01": {
-    "FacialId": "Angry01",
-    "NpcEye1": "F_Angry01",
     "Eye1BlendInTime": 0.3,
-    "NpcMouthLoop": "CM_F_Angry01"
+    "FacialId": "Angry01",
+    "NpcEye": "Angry01",
+    "NpcMouth": "Angry01_Mouth",
+    "SoundBaseMouth": "LipSyncBase_Normal_Mouth"
   },
   "Angry02": {
+    "Eye1BlendInTime": 0.3,
     "FacialId": "Angry02",
-    "NpcEye1": "F_Angry02",
-    "Eye1BlendInTime": 0.3
+    "NpcEye": "Angry02",
+    "NpcMouth": "Angry02_Mouth",
+    "SoundBaseMouth": "LipSyncBase_Normal_Mouth"
   },
-  "Pain01": {
-    "FacialId": "Pain01",
-    "NpcEye1": "F_Pain01",
-    "Eye1BlendInTime": 0.4
+  "Angry03": {
+    "Eye1BlendInTime": 0.3,
+    "FacialId": "Angry03",
+    "NpcEye": "Angry03",
+    "NpcMouth": "Angry03_Mouth",
+    "SoundBaseMouth": "LipSyncBase_Normal_Mouth"
   },
-  "Sad01": {
-    "FacialId": "Sad01",
-    "NpcEye1": "F_Sad01",
+  "Beg": {
     "Eye1BlendInTime": 0.4,
-    "NpcMouthLoop": "CM_F_Sad01"
-  },
-  "Sad02": {
-    "FacialId": "Sad02",
-    "NpcEye1": "F_Sad02",
-    "Eye1BlendInTime": 0.4
+    "FacialId": "Beg",
+    "NpcEye": "Beg",
+    "NpcMouth": "Beg_Mouth",
+    "SoundBaseMouth": "LipSyncBase_Normal_Mouth"
   },
   "Blink": {
+    "Eye1BlendInTime": 0.4,
     "FacialId": "Blink",
-    "NpcEye1": "Blink",
-    "Eye1BlendInTime": 0.4
+    "NpcEye": "Blink",
+    "NpcMouth": "None_Mouth"
   },
-  "Closeeyes": {
-    "FacialId": "Closeeyes",
-    "NpcEye1": "F_Close",
-    "Eye1BlendInTime": 0.4
+  "CM_Ahaha01": {
+    "Eye1BlendInTime": 0.4,
+    "FacialId": "CM_Ahaha01",
+    "NpcEye": "Ahaha01",
+    "NpcMouth": "Smile01_Mouth"
+  },
+  "CM_Angry01": {
+    "Eye1BlendInTime": 0.4,
+    "FacialId": "CM_Angry01",
+    "NpcEye": "Angry01",
+    "NpcMouth": "Sad01_Mouth"
+  },
+  "CM_Happy01": {
+    "Eye1BlendInTime": 0.4,
+    "FacialId": "CM_Happy01",
+    "NpcEye": "Happy01",
+    "NpcMouth": "Smile01_Mouth"
+  },
+  "CM_Idle": {
+    "Eye1BlendInTime": 0.1,
+    "FacialId": "CM_Idle",
+    "NpcEye": "None",
+    "NpcMouth": "None_Mouth"
+  },
+  "CM_Sad01": {
+    "Eye1BlendInTime": 0.4,
+    "FacialId": "CM_Sad01",
+    "NpcEye": "Sad01",
+    "NpcMouth": "Sad01_Mouth"
+  },
+  "CM_Shock01": {
+    "Eye1BlendInTime": 0.4,
+    "FacialId": "CM_Shock01",
+    "NpcEye": "Shock01",
+    "NpcMouth": "None_Mouth"
+  },
+  "CM_Smile01": {
+    "Eye1BlendInTime": 0.4,
+    "FacialId": "CM_Smile01",
+    "NpcEye": "Smile01",
+    "NpcMouth": "Smile01_Mouth"
+  },
+  "Close": {
+    "Eye1BlendInTime": 0.4,
+    "FacialId": "Close",
+    "NpcEye": "Close",
+    "NpcMouth": "Close_Mouth",
+    "SoundBaseMouth": "LipSyncBase_Normal_Mouth"
+  },
+  "Confident01": {
+    "Eye1BlendInTime": 0.4,
+    "FacialId": "Confident01",
+    "NpcEye": "Confident01",
+    "NpcMouth": "Confident01_Mouth",
+    "SoundBaseMouth": "LipSyncBase_Normal_Mouth"
+  },
+  "Confident02": {
+    "Eye1BlendInTime": 0.4,
+    "FacialId": "Confident02",
+    "NpcEye": "Confident02",
+    "NpcMouth": "Confident02_Mouth",
+    "SoundBaseMouth": "LipSyncBase_Smile_Mouth"
+  },
+  "Curious": {
+    "Eye1BlendInTime": 0.4,
+    "FacialId": "Curious",
+    "NpcEye": "Curious",
+    "NpcMouth": "Curious_Mouth",
+    "SoundBaseMouth": "LipSyncBase_Normal_Mouth"
+  },
+  "Disappoint01": {
+    "Eye1BlendInTime": 0.4,
+    "FacialId": "Disappoint01",
+    "NpcEye": "Disappoint01",
+    "NpcMouth": "Disappoint01_Mouth",
+    "SoundBaseMouth": "LipSyncBase_Normal_Mouth"
+  },
+  "Doubt01": {
+    "Eye1BlendInTime": 0.4,
+    "FacialId": "Doubt01",
+    "NpcEye": "Doubt01",
+    "NpcMouth": "Doubt01_Mouth",
+    "SoundBaseMouth": "LipSyncBase_Normal_Mouth"
+  },
+  "Grief": {
+    "Eye1BlendInTime": 0.4,
+    "FacialId": "Grief",
+    "NpcEye": "Grief",
+    "NpcMouth": "Grief_Mouth",
+    "SoundBaseMouth": "LipSyncBase_Normal_Mouth"
+  },
+  "Guilty": {
+    "Eye1BlendInTime": 0.4,
+    "FacialId": "Guilty",
+    "NpcEye": "Guilty",
+    "NpcMouth": "Guilty_Mouth",
+    "SoundBaseMouth": "LipSyncBase_Normal_Mouth"
+  },
+  "Happy01": {
+    "Eye1BlendInTime": 0.4,
+    "FacialId": "Happy01",
+    "NpcEye": "Happy01",
+    "NpcMouth": "Happy01_Mouth",
+    "SoundBaseMouth": "LipSyncBase_Smile_Mouth"
+  },
+  "Happy02": {
+    "Eye1BlendInTime": 0.4,
+    "FacialId": "Happy02",
+    "NpcEye": "Happy02",
+    "NpcMouth": "Happy02_Mouth",
+    "SoundBaseMouth": "LipSyncBase_Smile_Mouth"
+  },
+  "Iyada01": {
+    "Eye1BlendInTime": 0.4,
+    "FacialId": "Iyada01",
+    "NpcEye": "Iyada01",
+    "NpcMouth": "Iyada01_Mouth",
+    "SoundBaseMouth": "LipSyncBase_Normal_Mouth"
+  },
+  "Nervous": {
+    "Eye1BlendInTime": 0.4,
+    "FacialId": "Nervous",
+    "NpcEye": "Nervous",
+    "NpcMouth": "Nervous_Mouth",
+    "SoundBaseMouth": "LipSyncBase_Normal_Mouth"
   },
   "None": {
+    "Eye1BlendInTime": 0.4,
     "FacialId": "None",
-    "NpcEye1": "F_None",
+    "NpcEye": "None",
+    "NpcMouth": "None_Mouth",
+    "SoundBaseMouth": "LipSyncBase_Normal_Mouth"
+  },
+  "Pain01": {
     "Eye1BlendInTime": 0.4,
-    "NpcMouthLoop": "CM_F_None"
+    "FacialId": "Pain01",
+    "NpcEye": "Pain01",
+    "NpcMouth": "Pain01_Mouth",
+    "SoundBaseMouth": "LipSyncBase_Normal_Mouth"
   },
-  "Smile02FM": {
-    "FacialId": "Smile02FM",
-    "NpcEye1": "F_Smile02",
+  "Panic": {
     "Eye1BlendInTime": 0.4,
-    "NpcMouthLoop": "M_Smile02"
+    "FacialId": "Panic",
+    "NpcEye": "Panic",
+    "NpcMouth": "Panic_Mouth",
+    "SoundBaseMouth": "LipSyncBase_Normal_Mouth"
   },
-  "Sad01M": {
-    "FacialId": "Sad01M",
-    "NpcEye1": "M_Sad01",
+  "Panic01": {
     "Eye1BlendInTime": 0.4,
-    "NpcMouthLoop": "CM_M_Sad01"
+    "FacialId": "Panic01",
+    "NpcEye": "Panic01",
+    "NpcMouth": "Panic01_Mouth",
+    "SoundBaseMouth": "LipSyncBase_Normal_Mouth"
   },
-  "Smile01M": {
-    "FacialId": "Smile01M",
-    "NpcEye1": "F_Smile01",
+  "PetPan_Common": {
     "Eye1BlendInTime": 0.4,
-    "NpcMouthLoop": "CM_M_Smile01"
+    "FacialId": "PetPan_Common",
+    "NpcEye": "Common"
   },
-  "Talk01M": {
-    "FacialId": "Talk01M",
-    "NpcEye1": "M_Talk01",
+  "PetPan_Cry": {
     "Eye1BlendInTime": 0.4,
-    "NpcMouthLoop": "CM_M_Talk01"
+    "FacialId": "PetPan_Cry",
+    "NpcEye": "Cry"
   },
-  "ExcitedTalk01M": {
-    "FacialId": "ExcitedTalk01M",
-    "NpcEye1": "M_ExcitedTalk01",
+  "PetPan_Dizzy": {
     "Eye1BlendInTime": 0.4,
-    "NpcMouthLoop": "CM_M_ExcitedTalk01"
+    "FacialId": "PetPan_Dizzy",
+    "NpcEye": "Dizzy"
   },
-  "HappyTalk01M": {
-    "FacialId": "HappyTalk01M",
-    "NpcEye1": "M_HappyTalk01",
+  "PetPan_Smile": {
     "Eye1BlendInTime": 0.4,
-    "NpcMouthLoop": "CM_M_HappyTalk01"
+    "FacialId": "PetPan_Smile",
+    "NpcEye": "Smile"
   },
-  "Shock02FM": {
-    "FacialId": "Shock02FM",
-    "NpcEye1": "F_Shock02",
+  "PetPan_Speechless": {
     "Eye1BlendInTime": 0.4,
-    "NpcMouthLoop": "M_Shock02"
+    "FacialId": "PetPan_Speechless",
+    "NpcEye": "Speechless"
   },
-  "NoneFM": {
-    "FacialId": "NoneFM",
-    "NpcEye1": "F_None",
+  "PetPan_Wink": {
     "Eye1BlendInTime": 0.4,
-    "NpcMouthLoop": "M_None"
+    "FacialId": "PetPan_Wink",
+    "NpcEye": "Wink"
   },
-  "NoneM": {
-    "FacialId": "NoneM",
-    "NpcEye1": "M_None",
+  "Sad01": {
     "Eye1BlendInTime": 0.4,
-    "NpcMouthLoop": "CM_M_None"
+    "FacialId": "Sad01",
+    "NpcEye": "Sad01",
+    "NpcMouth": "Sad01_Mouth",
+    "SoundBaseMouth": "LipSyncBase_Normal_Mouth"
   },
-  "CMNoneFM": {
-    "FacialId": "CMNoneFM",
-    "NpcEye1": "CM_F_None",
-    "Eye1BlendInTime": 0.1,
-    "NpcMouthLoop": "CM_M_None"
-  },
-  "Confident02FM": {
-    "FacialId": "Confident02FM",
-    "NpcEye1": "F_Confident02",
+  "Sad02": {
     "Eye1BlendInTime": 0.4,
-    "NpcMouthLoop": "M_Confident02"
+    "FacialId": "Sad02",
+    "NpcEye": "Sad02",
+    "NpcMouth": "Sad02_Mouth",
+    "SoundBaseMouth": "LipSyncBase_Normal_Mouth"
   },
-  "Saiqi100144": {
-    "FacialId": "Saiqi100144",
-    "NpcEye1": "M_Smile01",
-    "NpcMouthLoop": "F_Happy02",
-    "LoopTime": 2.5,
-    "NpcMouthStatic": "F_Happy01"
+  "Sad03": {
+    "Eye1BlendInTime": 0.4,
+    "FacialId": "Sad03",
+    "NpcEye": "Sad03",
+    "NpcMouth": "Sad03_Mouth",
+    "SoundBaseMouth": "LipSyncBase_Normal_Mouth"
   },
-  "Bai10013003": {
-    "FacialId": "Bai10013003",
-    "NpcEye1": "F_Angry01",
-    "NpcMouthLoop": "M_Confident02"
+  "Satisfy01": {
+    "Eye1BlendInTime": 0.4,
+    "FacialId": "Satisfy01",
+    "NpcEye": "Satisfy01",
+    "NpcMouth": "Satisfy01_Mouth",
+    "SoundBaseMouth": "LipSyncBase_Smile_Mouth"
   },
-  "Bai10013004": {
-    "FacialId": "Bai10013004",
-    "NpcEye1": "M_Confident02",
-    "NpcMouthLoop": "F_Happy03",
-    "LoopTime": 4,
-    "NpcMouthStatic": "F_Happy01"
+  "Shock01": {
+    "Eye1BlendInTime": 0.3,
+    "FacialId": "Shock01",
+    "NpcEye": "Shock01",
+    "NpcMouth": "Shock01_Mouth",
+    "SoundBaseMouth": "LipSyncBase_Normal_Mouth"
   },
-  "Bai10013005": {
-    "FacialId": "Bai10013005",
-    "NpcEye1": "F_Confident02",
-    "NpcMouthLoop": "M_Confident02"
+  "Shock02": {
+    "Eye1BlendInTime": 0.3,
+    "FacialId": "Shock02",
+    "NpcEye": "Shock02",
+    "NpcMouth": "Shock02_Mouth",
+    "SoundBaseMouth": "LipSyncBase_Normal_Mouth"
   },
-  "Bai10013009": {
-    "FacialId": "Bai10013009",
-    "NpcEye1": "F_Shock01",
-    "NpcMouthLoop": "M_Shock03"
+  "Shy": {
+    "Eye1BlendInTime": 0.4,
+    "FacialId": "Shy",
+    "NpcEye": "Shy",
+    "NpcMouth": "Shy_Mouth",
+    "SoundBaseMouth": "LipSyncBase_Normal_Mouth"
   },
-  "Nvzhu10013008": {
-    "FacialId": "Nvzhu10013008",
-    "NpcMouthLoop": "F_None",
-    "LoopTime": 2,
-    "NpcMouthStatic": "F_Shock01"
+  "Smile01": {
+    "Eye1BlendInTime": 0.4,
+    "FacialId": "Smile01",
+    "NpcEye": "Smile01",
+    "NpcMouth": "Smile01_Mouth",
+    "SoundBaseMouth": "LipSyncBase_Smile_Mouth"
   },
-  "Heitao10013008": {
-    "FacialId": "Heitao10013008",
-    "NpcMouthLoop": "F_None",
-    "LoopTime": 2,
-    "NpcMouthStatic": "F_Unhappy02"
+  "Smile02": {
+    "Eye1BlendInTime": 0.4,
+    "FacialId": "Smile02",
+    "NpcEye": "Smile02",
+    "NpcMouth": "Smile02_Mouth",
+    "SoundBaseMouth": "LipSyncBase_Smile_Mouth"
   },
-  "Heitao10013102": {
-    "FacialId": "Heitao10013102",
-    "NpcMouthLoop": "F_Heitao10013102_1",
-    "LoopTime": 4,
-    "NpcMouthStatic": "F_Heitao10013102"
+  "Smile03": {
+    "Eye1BlendInTime": 0.4,
+    "FacialId": "Smile03",
+    "NpcEye": "Smile03",
+    "NpcMouth": "Smile03_Mouth",
+    "SoundBaseMouth": "LipSyncBase_Smile_Mouth"
   },
-  "Nvzhu10013103": {
-    "FacialId": "Nvzhu10013103",
-    "NpcMouthLoop": "F_Ahaha02",
-    "LoopTime": 2,
-    "NpcMouthStatic": "F_Nvzhu10013103"
+  "Syouganai01": {
+    "Eye1BlendInTime": 0.6,
+    "FacialId": "Syouganai01",
+    "NpcEye": "Syouganai01",
+    "NpcMouth": "Syouganai01_Mouth",
+    "SoundBaseMouth": "LipSyncBase_Normal_Mouth"
   },
-  "Bai10013205": {
-    "FacialId": "Bai10013205",
-    "NpcMouthLoop": "F_Unhappy02",
-    "LoopTime": 7.2,
-    "MouthLoopBlendInTime": 0.7,
-    "NpcMouthStatic": "F_Happy01"
+  "Think01": {
+    "Eye1BlendInTime": 0.4,
+    "FacialId": "Think01",
+    "NpcEye": "Think01",
+    "NpcMouth": "Think01_Mouth",
+    "SoundBaseMouth": "LipSyncBase_Normal_Mouth"
   },
-  "Bai10013207": {
-    "FacialId": "Bai10013207",
-    "NpcEye1": "M_Confident02",
-    "NpcMouthLoop": "F_Happy02",
-    "LoopTime": 4,
-    "NpcMouthStatic": "F_Doubt01",
-    "MouthStaticBlendInTime": 0.4
+  "Unacceptable01": {
+    "Eye1BlendInTime": 0.4,
+    "FacialId": "Unacceptable01",
+    "NpcEye": "Unacceptable01",
+    "NpcMouth": "Unacceptable01_Mouth",
+    "SoundBaseMouth": "LipSyncBase_Normal_Mouth"
   },
-  "Bai10013601": {
-    "FacialId": "Bai10013601",
-    "NpcMouthLoop": "F_Syouganai01",
-    "LoopTime": 4.5,
-    "NpcMouthStatic": "F_Confident01"
+  "Unhappy01": {
+    "Eye1BlendInTime": 0.4,
+    "FacialId": "Unhappy01",
+    "NpcEye": "Unhappy01",
+    "NpcMouth": "Unhappy01_Mouth",
+    "SoundBaseMouth": "LipSyncBase_Normal_Mouth"
   },
-  "Bai10013603": {
-    "FacialId": "Bai10013603",
-    "NpcMouthLoop": "F_Sad02",
-    "LoopTime": 7,
-    "NpcMouthStatic": "F_Angry01"
+  "Unhappy02": {
+    "Eye1BlendInTime": 0.4,
+    "FacialId": "Unhappy02",
+    "NpcEye": "Unhappy02",
+    "NpcMouth": "Unhappy02_Mouth",
+    "SoundBaseMouth": "LipSyncBase_Normal_Mouth"
   },
-  "Bai10013805": {
-    "FacialId": "Bai10013805",
-    "NpcMouthLoop": "F_Shock02",
-    "LoopTime": 3,
-    "NpcMouthStatic": "F_Sad01"
+  "Unhappy03": {
+    "Eye1BlendInTime": 0.4,
+    "FacialId": "Unhappy03",
+    "NpcEye": "Unhappy03",
+    "NpcMouth": "Unhappy03_Mouth",
+    "SoundBaseMouth": "LipSyncBase_Normal_Mouth"
   },
-  "Nvzhu10013809": {
-    "FacialId": "Nvzhu10013809",
-    "NpcMouthLoop": "F_Shock02",
-    "LoopTime": 1.5,
-    "NpcMouthStatic": "F_Heitao10013102"
+  "Uninterested01": {
+    "Eye1BlendInTime": 0.4,
+    "FacialId": "Uninterested01",
+    "NpcEye": "Uninterested01",
+    "NpcMouth": "Uninterested01_Mouth",
+    "SoundBaseMouth": "LipSyncBase_Normal_Mouth"
   },
-  "Kami10013815": {
-    "FacialId": "Kami10013815",
-    "NpcMouthLoop": "F_Happy03",
-    "LoopTime": 3,
-    "NpcMouthStatic": "F_Confident02"
-  },
-  "Bai10014020": {
-    "FacialId": "Bai10014020",
-    "NpcMouthLoop": "F_Think01",
-    "LoopTime": 9.5,
-    "MouthLoopBlendInTime": 6,
-    "NpcMouthStatic": "F_Doubt01",
-    "MouthStaticBlendInTime": 0.5
-  },
-  "Bai10014021": {
-    "FacialId": "Bai10014021",
-    "NpcMouthLoop": "F_Doubt01",
-    "LoopTime": 4,
-    "NpcMouthStatic": "F_Happy02"
-  },
-  "Heitao100141": {
-    "FacialId": "Heitao100141",
-    "NpcEye1": "F_Heitao100141",
-    "NpcMouthLoop": "F_Shock01",
-    "LoopTime": 2,
-    "NpcMouthStatic": "F_Unhappy01"
-  },
-  "Bai10014109": {
-    "FacialId": "Bai10014109",
-    "NpcMouthLoop": "F_Pain01",
-    "LoopTime": 3,
-    "NpcMouthStatic": "F_Sad01"
-  },
-  "Saiqi100145": {
-    "FacialId": "Saiqi100145",
-    "NpcMouthLoop": "F_Shock01",
-    "LoopTime": 3,
-    "NpcMouthStatic": "F_Unacceptable01"
-  },
-  "Saiqi10014701": {
-    "FacialId": "Saiqi10014701",
-    "NpcMouthLoop": "F_Happy02",
-    "LoopTime": 4,
-    "NpcMouthStatic": "F_Happy01"
-  },
-  "Saiqi10014702": {
-    "FacialId": "Saiqi10014702",
-    "NpcMouthLoop": "F_Happy01",
-    "LoopTime": 4,
-    "NpcMouthStatic": "F_Sad01",
-    "MouthStaticBlendInTime": 0.5
-  },
-  "Saiqi10014703": {
-    "FacialId": "Saiqi10014703",
-    "NpcMouthLoop": "F_Shock01",
-    "LoopTime": 3.5,
-    "NpcMouthStatic": "F_Happy01",
-    "MouthStaticBlendInTime": 0.3
-  },
-  "Saiqi10014710": {
-    "FacialId": "Saiqi10014710",
-    "NpcMouthLoop": "F_Ahaha02",
-    "LoopTime": 5,
-    "MouthLoopBlendInTime": 0.5,
-    "NpcMouthStatic": "F_Shock01"
-  },
-  "Nvzhu100148": {
-    "FacialId": "Nvzhu100148",
-    "NpcMouthLoop": "F_Nvzhu100148",
-    "LoopTime": 2.5,
-    "MouthLoopBlendInTime": 0.4,
-    "NpcMouthStatic": "F_Happy02",
-    "MouthStaticBlendInTime": 0.4
-  },
-  "Bai10015709": {
-    "FacialId": "Bai10015709",
-    "NpcMouthLoop": "F_Angry01",
-    "LoopTime": 8,
-    "NpcMouthStatic": "F_Confident02"
-  },
-  "Kami10017203": {
-    "FacialId": "Kami10017203",
-    "NpcMouthLoop": "F_None",
-    "LoopTime": 4,
-    "NpcMouthStatic": "F_Doubt01"
-  },
-  "Bai10017301": {
-    "FacialId": "Bai10017301",
-    "NpcMouthLoop": "F_None",
-    "LoopTime": 4,
-    "NpcMouthStatic": "F_Angry01"
-  },
-  "Tiejiang20000504": {
-    "FacialId": "Tiejiang20000504",
-    "NpcMouthLoop": "F_Shock02",
-    "LoopTime": 2,
-    "MouthLoopBlendInTime": 0.3,
-    "NpcMouthStatic": "F_Angry01",
-    "MouthStaticBlendInTime": 0.3
-  },
-  "Nvzhu20000608": {
-    "FacialId": "Nvzhu20000608",
-    "NpcEye1": "F_Happy01",
+  "Yeer_EyeChanged": {
     "Eye1BlendInTime": 0.5,
-    "NpcMouthLoop": "M_Doubt01",
-    "LoopTime": 1,
-    "MouthLoopBlendInTime": 0.5,
-    "NpcMouthStatic": "M_None"
+    "FacialId": "Yeer_EyeChanged",
+    "NpcEye": "EyeChanged",
+    "NpcMouth": "EyeChanged_Mouth",
+    "SoundBaseMouth": "LipSyncBase_Normal_Mouth"
   },
-  "Bai20000609": {
-    "FacialId": "Bai20000609",
-    "NpcEye1": "M_None",
-    "Eye1BlendInTime": 0,
-    "NpcMouthLoop": "F_Sad01",
-    "LoopTime": 4.9,
-    "MouthLoopBlendInTime": 0.7,
-    "NpcMouthStatic": "F_Confident02",
-    "MouthStaticBlendInTime": 0.3
+  "Yeer_EyeChangedSad": {
+    "Eye1BlendInTime": 0.4,
+    "FacialId": "Yeer_EyeChangedSad",
+    "NpcEye": "EyeChangedSad",
+    "NpcMouth": "EyeChangedSad_Mouth",
+    "SoundBaseMouth": "LipSyncBase_Normal_Mouth"
   },
-  "Bai20000618": {
-    "FacialId": "Bai20000618",
-    "NpcMouthLoop": "F_Think01",
-    "LoopTime": 2.6,
-    "MouthLoopBlendInTime": 0.7,
-    "NpcMouthStatic": "F_Doubt01",
-    "MouthStaticBlendInTime": 0.4
-  },
-  "Nvzhu10109007": {
-    "FacialId": "Nvzhu10109007",
-    "NpcMouthLoop": "F_Angry01",
-    "LoopTime": 4,
-    "MouthLoopBlendInTime": 0.2,
-    "NpcMouthStatic": "F_Unhappy01",
-    "MouthStaticBlendInTime": 0.8
-  },
-  "Nvzhu10109009": {
-    "FacialId": "Nvzhu10109009",
-    "NpcMouthLoop": "F_Unhappy01",
-    "LoopTime": 1,
-    "MouthLoopBlendInTime": 0.2,
-    "NpcMouthStatic": "F_Shock01",
-    "MouthStaticBlendInTime": 0.3
-  },
-  "Maer_Angry01": {
-    "FacialId": "Maer_Angry01",
-    "NpcEye1": "F_Maer_Angry01",
-    "Eye1BlendInTime": 0.3
+  "Zhiliu_SpecialSad": {
+    "Eye1BlendInTime": 0.4,
+    "FacialId": "Zhiliu_SpecialSad",
+    "NpcEye": "Sad03",
+    "NpcMouth": "Smile02_Mouth",
+    "SoundBaseMouth": "LipSyncBase_Smile_Mouth"
   }
 }

@@ -1,4 +1,28 @@
 {
+  "CameraFadeAngleEnd": {
+    "ParamentName": "CameraFadeAngleEnd",
+    "ParamentValue": [
+      "10.0"
+    ]
+  },
+  "CameraFadeAngleStart": {
+    "ParamentName": "CameraFadeAngleStart",
+    "ParamentValue": [
+      "30.0"
+    ]
+  },
+  "CameraPitchLimitMax": {
+    "ParamentName": "CameraPitchLimitMax",
+    "ParamentValue": [
+      "89.9"
+    ]
+  },
+  "CameraPitchLimitMin": {
+    "ParamentName": "CameraPitchLimitMin",
+    "ParamentValue": [
+      "-89.9"
+    ]
+  },
   "EnterCollisionSpeed": {
     "ParamentName": "EnterCollisionSpeed",
     "ParamentValue": [
@@ -11,46 +35,10 @@
       "2.0"
     ]
   },
-  "TagAndTimeForResetPitch": {
-    "ParamentName": "TagAndTimeForResetPitch",
-    "ParamentValue": [
-      "Idle:3"
-    ]
-  },
-  "TimeToResetPitchMaxSpeed": {
-    "ParamentName": "TimeToResetPitchMaxSpeed",
-    "ParamentValue": [
-      "1.0"
-    ]
-  },
   "ResetPitchMaxSpeed": {
     "ParamentName": "ResetPitchMaxSpeed",
     "ParamentValue": [
       "3.0"
-    ]
-  },
-  "TagAndTimeForResetSpringArm": {
-    "ParamentName": "TagAndTimeForResetSpringArm",
-    "ParamentValue": [
-      "Idle:1.5"
-    ]
-  },
-  "TimeToResetSpringArmMaxSpeed": {
-    "ParamentName": "TimeToResetSpringArmMaxSpeed",
-    "ParamentValue": [
-      "1.0"
-    ]
-  },
-  "ResetSpringArmMaxSpeed": {
-    "ParamentName": "ResetSpringArmMaxSpeed",
-    "ParamentValue": [
-      "3.0"
-    ]
-  },
-  "TimeToResetSocketOffsetMaxSpeed": {
-    "ParamentName": "TimeToResetSocketOffsetMaxSpeed",
-    "ParamentValue": [
-      "1.0"
     ]
   },
   "ResetSocketOffsetMaxSpeed": {
@@ -59,28 +47,40 @@
       "4.0"
     ]
   },
-  "CameraFadeAngleStart": {
-    "ParamentName": "CameraFadeAngleStart",
+  "ResetSpringArmMaxSpeed": {
+    "ParamentName": "ResetSpringArmMaxSpeed",
     "ParamentValue": [
-      "30.0"
+      "3.0"
     ]
   },
-  "CameraFadeAngleEnd": {
-    "ParamentName": "CameraFadeAngleEnd",
+  "TagAndTimeForResetPitch": {
+    "ParamentName": "TagAndTimeForResetPitch",
     "ParamentValue": [
-      "10.0"
+      "Idle:3"
     ]
   },
-  "CameraPitchLimitMin": {
-    "ParamentName": "CameraPitchLimitMin",
+  "TagAndTimeForResetSpringArm": {
+    "ParamentName": "TagAndTimeForResetSpringArm",
     "ParamentValue": [
-      "-89.9"
+      "Idle:1.5"
     ]
   },
-  "CameraPitchLimitMax": {
-    "ParamentName": "CameraPitchLimitMax",
+  "TimeToResetPitchMaxSpeed": {
+    "ParamentName": "TimeToResetPitchMaxSpeed",
     "ParamentValue": [
-      "89.9"
+      "1.0"
+    ]
+  },
+  "TimeToResetSocketOffsetMaxSpeed": {
+    "ParamentName": "TimeToResetSocketOffsetMaxSpeed",
+    "ParamentValue": [
+      "1.0"
+    ]
+  },
+  "TimeToResetSpringArmMaxSpeed": {
+    "ParamentName": "TimeToResetSpringArmMaxSpeed",
+    "ParamentValue": [
+      "1.0"
     ]
   }
 }

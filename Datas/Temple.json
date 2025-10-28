@@ -1,384 +1,767 @@
 {
   "21": {
     "DungeonId": 21,
-    "SucRule": "Time",
-    "FbdRule": {
-      "NoSkill": 1,
-      "NoBattleWheel": 1
-    },
     "RewardId": [
-      7101
-    ]
+      7104
+    ],
+    "SucRule": "Time",
+    "UIHideCombo": 1
   },
   "22": {
     "DungeonId": 22,
-    "SucRule": "Score",
     "RewardId": [
-      7101,
+      7104,
       7102,
       7103
-    ]
+    ],
+    "SucRule": "Score",
+    "UIHideCombo": 1
   },
   "23": {
     "DungeonId": 23,
-    "SucRule": "Time",
     "RewardId": [
-      7101,
+      7104,
       7102,
       7103
-    ]
+    ],
+    "SucRule": "Time",
+    "UIHideCombo": 1
   },
   "27": {
     "DungeonId": 27,
-    "SucRule": "Time",
     "RewardId": [
-      7101,
+      7104,
       7102,
       7103
-    ]
+    ],
+    "SucRule": "Time",
+    "UIHideCombo": 1
   },
   "39": {
     "DungeonId": 39,
-    "SucRule": "Score",
     "RewardId": [
-      7101,
+      7104,
       7102,
       7103
-    ]
+    ],
+    "SucRule": "Score",
+    "UIHideCombo": 1
   },
   "40": {
     "DungeonId": 40,
-    "SucRule": "Score",
-    "FbdRule": {
-      "NoSkill": 1,
-      "NoBattleWheel": 1
-    },
     "RewardId": [
-      7101,
+      7104,
       7102,
       7103
-    ]
+    ],
+    "SucRule": "Score",
+    "UIHideCombo": 1
   },
   "41": {
     "DungeonId": 41,
-    "SucRule": "Score",
     "RewardId": [
-      7101,
+      7104,
       7102,
       7103
-    ]
+    ],
+    "SucRule": "Score",
+    "UIHideCombo": 1
   },
   "42": {
     "DungeonId": 42,
-    "SucRule": "Score",
-    "FbdRule": {
-      "NoSkill": 1,
-      "NoBattleWheel": 1
-    },
     "RewardId": [
-      7101,
+      7104,
       7102,
       7103
-    ]
-  },
-  "80101": {
-    "DungeonId": 80101,
-    "SucRule": "Score",
-    "RatingRange": [
-      0,
-      20,
-      35
     ],
-    "RewardId": [
-      7101,
-      7102,
-      7103
-    ]
-  },
-  "80102": {
-    "DungeonId": 80102,
     "SucRule": "Score",
-    "RatingRange": [
-      0,
-      30,
-      50
-    ],
-    "RewardId": [
-      7101,
-      7102,
-      7103
-    ]
+    "UIHideCombo": 1
   },
-  "80201": {
-    "DungeonId": 80201,
-    "SucRule": "Score",
-    "RatingRange": [
-      0,
-      15,
-      25
-    ],
-    "RewardId": [
-      7101,
-      7102,
-      7103
-    ]
-  },
-  "80202": {
-    "DungeonId": 80202,
-    "SucRule": "Score",
-    "RatingRange": [
-      0,
-      22,
-      44
-    ],
-    "RewardId": [
-      7101,
-      7102,
-      7103
-    ]
-  },
-  "80301": {
-    "DungeonId": 80301,
-    "SucRule": "CountDown",
+  "44": {
+    "DungeonId": 44,
     "RatingRange": [
       0,
       40,
       70
     ],
     "RewardId": [
-      7101,
+      7104,
       7102,
       7103
-    ]
+    ],
+    "SucRule": "CountDown",
+    "UIHideCombo": 1
+  },
+  "45": {
+    "DungeonId": 45,
+    "RatingRange": [
+      0,
+      120,
+      210
+    ],
+    "RewardId": [
+      7104,
+      7102,
+      7103
+    ],
+    "SucRule": "CountDown",
+    "UIHideCombo": 1
+  },
+  "46": {
+    "DungeonId": 46,
+    "RatingRange": [
+      0,
+      120,
+      210
+    ],
+    "RewardId": [
+      7104,
+      7102,
+      7103
+    ],
+    "SucRule": "CountDown",
+    "UIHideCombo": 1
+  },
+  "47": {
+    "DungeonId": 47,
+    "RatingRange": [
+      0,
+      40,
+      70
+    ],
+    "RewardId": [
+      7104,
+      7102,
+      7103
+    ],
+    "SucRule": "CountDown",
+    "UIHideCombo": 1
+  },
+  "48": {
+    "DungeonId": 48,
+    "RatingRange": [
+      0,
+      120,
+      240
+    ],
+    "RewardId": [
+      7104,
+      7102,
+      7103
+    ],
+    "SucRule": "CountDown",
+    "UIHideCombo": 1
+  },
+  "49": {
+    "DungeonId": 49,
+    "RatingRange": [
+      0,
+      120,
+      240
+    ],
+    "RewardId": [
+      7104,
+      7102,
+      7103
+    ],
+    "SucRule": "CountDown",
+    "UIHideCombo": 1
+  },
+  "80000": {
+    "DungeonId": 80000,
+    "RatingRange": [
+      0,
+      20,
+      35
+    ],
+    "RewardId": [
+      7104,
+      7102,
+      7103
+    ],
+    "SucRule": "CountDown",
+    "UIHideCombo": 1
+  },
+  "80101": {
+    "DungeonId": 80101,
+    "RatingRange": [
+      0,
+      20,
+      35
+    ],
+    "RewardId": [
+      7104,
+      7102,
+      7103
+    ],
+    "SucRule": "Score",
+    "UIHideCombo": 1
+  },
+  "80102": {
+    "DungeonId": 80102,
+    "RatingRange": [
+      0,
+      40,
+      55
+    ],
+    "RewardId": [
+      7104,
+      7102,
+      7103
+    ],
+    "SucRule": "Score",
+    "UIHideCombo": 1
+  },
+  "80201": {
+    "DungeonId": 80201,
+    "RatingRange": [
+      0,
+      15,
+      25
+    ],
+    "RewardId": [
+      7104,
+      7102,
+      7103
+    ],
+    "SucRule": "Score",
+    "UIHideCombo": 1
+  },
+  "80202": {
+    "DungeonId": 80202,
+    "RatingRange": [
+      0,
+      22,
+      44
+    ],
+    "RewardId": [
+      7104,
+      7102,
+      7103
+    ],
+    "SucRule": "Score",
+    "UIHideCombo": 1
+  },
+  "80301": {
+    "DungeonId": 80301,
+    "RatingRange": [
+      0,
+      90,
+      180
+    ],
+    "RewardId": [
+      7104,
+      7102,
+      7103
+    ],
+    "SucRule": "CountDown",
+    "UIHideCombo": 1
   },
   "80302": {
     "DungeonId": 80302,
-    "SucRule": "CountDown",
     "RatingRange": [
       0,
+      1620,
+      1710
+    ],
+    "RewardId": [
+      7104,
+      7102,
+      7103
+    ],
+    "SucRule": "CountDown",
+    "UIHideCombo": 1,
+    "UIShowType": 1
+  },
+  "80401": {
+    "DungeonId": 80401,
+    "RatingRange": [
+      1000,
+      2500,
+      3500
+    ],
+    "RewardId": [
+      7104,
+      7102,
+      7103
+    ],
+    "SucRule": "Score",
+    "UIHideCombo": 1,
+    "UIHideFailCond": 1
+  },
+  "80402": {
+    "DungeonId": 80402,
+    "RatingRange": [
+      2000,
+      3500,
+      4500
+    ],
+    "RewardId": [
+      7104,
+      7102,
+      7103
+    ],
+    "SucRule": "Score",
+    "UIHideCombo": 1,
+    "UIHideFailCond": 1
+  },
+  "80403": {
+    "DungeonId": 80403,
+    "RatingRange": [
+      5000,
+      7500,
+      8500
+    ],
+    "RewardId": [
+      7104,
+      7102,
+      7103
+    ],
+    "SucRule": "Score",
+    "UIHideCombo": 1,
+    "UIHideFailCond": 1
+  },
+  "80404": {
+    "DungeonId": 80404,
+    "RatingRange": [
+      4500,
+      6000,
+      7500
+    ],
+    "RewardId": [
+      7104,
+      7102,
+      7103
+    ],
+    "SucRule": "Score",
+    "UIHideCombo": 1,
+    "UIHideFailCond": 1
+  },
+  "80501": {
+    "DungeonId": 80501,
+    "RatingRange": [
+      0,
+      60,
+      120
+    ],
+    "RewardId": [
+      7104,
+      7102,
+      7103
+    ],
+    "SucRule": "CountDown",
+    "UIHideCombo": 1
+  },
+  "80502": {
+    "DungeonId": 80502,
+    "RatingRange": [
+      0,
+      1620,
+      1740
+    ],
+    "RewardId": [
+      7104,
+      7102,
+      7103
+    ],
+    "SucRule": "CountDown",
+    "UIHideCombo": 1,
+    "UIShowType": 1
+  },
+  "80601": {
+    "DungeonId": 80601,
+    "RatingRange": [
+      0,
+      60,
+      120
+    ],
+    "RewardId": [
+      7104,
+      7102,
+      7103
+    ],
+    "SucRule": "CountDown",
+    "UIHideCombo": 1
+  },
+  "80602": {
+    "DungeonId": 80602,
+    "RatingRange": [
+      0,
+      60,
+      120
+    ],
+    "RewardId": [
+      7104,
+      7102,
+      7103
+    ],
+    "SucRule": "CountDown",
+    "UIHideCombo": 1
+  },
+  "80701": {
+    "DungeonId": 80701,
+    "RewardId": [
+      7104
+    ],
+    "SucRule": "Time",
+    "UIHideCombo": 1
+  },
+  "80702": {
+    "DungeonId": 80702,
+    "RewardId": [
+      7104
+    ],
+    "SucRule": "Time",
+    "UIHideCombo": 1
+  },
+  "80703": {
+    "DungeonId": 80703,
+    "RewardId": [
+      7104
+    ],
+    "SucRule": "Time",
+    "UIHideCombo": 1
+  },
+  "80704": {
+    "DungeonId": 80704,
+    "RewardId": [
+      7104
+    ],
+    "SucRule": "Time",
+    "UIHideCombo": 1,
+    "UIShowType": 1
+  },
+  "80705": {
+    "DungeonId": 80705,
+    "RewardId": [
+      7104
+    ],
+    "SucRule": "Time",
+    "UIHideCombo": 1,
+    "UIShowType": 1
+  },
+  "80801": {
+    "DungeonId": 80801,
+    "RatingRange": [
+      1000,
+      2000,
+      3000
+    ],
+    "RewardId": [
+      7104,
+      7102,
+      7103
+    ],
+    "SucRule": "Score",
+    "UIHideCombo": 1,
+    "UIHideFailCond": 1
+  },
+  "80802": {
+    "DungeonId": 80802,
+    "RatingRange": [
+      1000,
+      3000,
+      5000
+    ],
+    "RewardId": [
+      7104,
+      7102,
+      7103
+    ],
+    "SucRule": "Score",
+    "UIHideCombo": 1,
+    "UIHideFailCond": 1
+  },
+  "80803": {
+    "DungeonId": 80803,
+    "RatingRange": [
+      3000,
+      5000,
+      7000
+    ],
+    "RewardId": [
+      7104,
+      7102,
+      7103
+    ],
+    "SucRule": "Score",
+    "UIHideCombo": 1,
+    "UIHideFailCond": 1
+  },
+  "80804": {
+    "DungeonId": 80804,
+    "RatingRange": [
+      3000,
+      5000,
+      7000
+    ],
+    "RewardId": [
+      7104,
+      7102,
+      7103
+    ],
+    "SucRule": "Score",
+    "UIHideCombo": 1,
+    "UIHideFailCond": 1
+  },
+  "80901": {
+    "DungeonId": 80901,
+    "RatingRange": [
+      10,
       20,
       40
     ],
     "RewardId": [
-      7101,
+      7104,
       7102,
       7103
-    ]
-  },
-  "80401": {
-    "DungeonId": 80401,
+    ],
     "SucRule": "Score",
+    "UIHideCombo": 1
+  },
+  "80902": {
+    "DungeonId": 80902,
+    "RatingRange": [
+      5,
+      15,
+      25
+    ],
+    "RewardId": [
+      7104,
+      7102,
+      7103
+    ],
+    "SucRule": "Score",
+    "UIHideCombo": 1,
+    "UIHideDes": 1
+  },
+  "80903": {
+    "DungeonId": 80903,
+    "RatingRange": [
+      10,
+      25,
+      40
+    ],
+    "RewardId": [
+      7104,
+      7102,
+      7103
+    ],
+    "SucRule": "Score",
+    "UIHideCombo": 1,
+    "UIHideDes": 1
+  },
+  "81001": {
+    "DungeonId": 81001,
+    "RatingRange": [
+      100,
+      150,
+      200
+    ],
+    "RewardId": [
+      7104,
+      7102,
+      7103
+    ],
+    "SucRule": "Score",
+    "UIHideCombo": 1
+  },
+  "81002": {
+    "DungeonId": 81002,
+    "RatingRange": [
+      80,
+      160,
+      240
+    ],
+    "RewardId": [
+      7104,
+      7102,
+      7103
+    ],
+    "SucRule": "Score",
+    "UIHideCombo": 1
+  },
+  "81003": {
+    "DungeonId": 81003,
+    "RatingRange": [
+      0,
+      1650,
+      1740
+    ],
+    "RewardId": [
+      7104,
+      7102,
+      7103
+    ],
+    "SucRule": "CountDown",
+    "UIHideCombo": 1,
+    "UIShowType": 1
+  },
+  "81101": {
+    "DungeonId": 81101,
+    "RatingRange": [
+      0,
+      120,
+      240
+    ],
+    "RewardId": [
+      7104,
+      7102,
+      7103
+    ],
+    "SucRule": "CountDown",
+    "UIHideCombo": 1
+  },
+  "81102": {
+    "DungeonId": 81102,
+    "RatingRange": [
+      0,
+      120,
+      240
+    ],
+    "RewardId": [
+      7104,
+      7102,
+      7103
+    ],
+    "SucRule": "CountDown",
+    "UIHideCombo": 1
+  },
+  "81103": {
+    "DungeonId": 81103,
+    "RatingRange": [
+      0,
+      120,
+      240
+    ],
+    "RewardId": [
+      7104,
+      7102,
+      7103
+    ],
+    "SucRule": "CountDown",
+    "UIHideCombo": 1
+  },
+  "81201": {
+    "DungeonId": 81201,
+    "RatingRange": [
+      2000,
+      3000,
+      4000
+    ],
+    "RewardId": [
+      7104,
+      7102,
+      7103
+    ],
+    "SucRule": "Score",
+    "UIHideCombo": 1,
+    "UIHideFailCond": 1
+  },
+  "81202": {
+    "DungeonId": 81202,
+    "RatingRange": [
+      2000,
+      3000,
+      4000
+    ],
+    "RewardId": [
+      7104,
+      7102,
+      7103
+    ],
+    "SucRule": "Score",
+    "UIHideCombo": 1,
+    "UIHideFailCond": 1
+  },
+  "81203": {
+    "DungeonId": 81203,
+    "RatingRange": [
+      2000,
+      4000,
+      6000
+    ],
+    "RewardId": [
+      7104,
+      7102,
+      7103
+    ],
+    "SucRule": "Score",
+    "UIHideCombo": 1,
+    "UIHideFailCond": 1
+  },
+  "81204": {
+    "DungeonId": 81204,
+    "RatingRange": [
+      4000
+    ],
+    "RewardId": [
+      7104
+    ],
+    "SucRule": "Score",
+    "UIHideCombo": 1,
+    "UIHideFailCond": 1
+  },
+  "81301": {
+    "DungeonId": 81301,
+    "RatingRange": [
+      30,
+      50,
+      80
+    ],
+    "RewardId": [
+      7104,
+      7102,
+      7103
+    ],
+    "SucRule": "Score",
+    "UIHideCombo": 1
+  },
+  "81401": {
+    "DungeonId": 81401,
+    "RatingRange": [
+      30,
+      50,
+      80
+    ],
+    "RewardId": [
+      7104,
+      7102,
+      7103
+    ],
+    "SucRule": "Score",
+    "UIHideCombo": 1
+  },
+  "81501": {
+    "DungeonId": 81501,
+    "RatingRange": [
+      500,
+      1500,
+      2500
+    ],
+    "RewardId": [
+      7104,
+      7102,
+      7103
+    ],
+    "SucRule": "Score",
+    "UIHideCombo": 1,
+    "UIHideFailCond": 1
+  },
+  "81502": {
+    "DungeonId": 81502,
     "RatingRange": [
       1000,
       2500,
       4000
     ],
     "RewardId": [
-      7101,
+      7104,
       7102,
       7103
-    ]
-  },
-  "80402": {
-    "DungeonId": 80402,
+    ],
     "SucRule": "Score",
-    "RatingRange": [
-      1500,
-      3500,
-      5000
-    ],
-    "RewardId": [
-      7101,
-      7102,
-      7103
-    ]
-  },
-  "80501": {
-    "DungeonId": 80501,
-    "SucRule": "CountDown",
-    "RatingRange": [
-      0,
-      20,
-      50
-    ],
-    "RewardId": [
-      7101,
-      7102,
-      7103
-    ]
-  },
-  "80502": {
-    "DungeonId": 80502,
-    "SucRule": "CountDown",
-    "UIShowType": 1,
-    "RatingRange": [
-      0,
-      1620,
-      1740
-    ],
-    "FbdRule": {
-      "NoBattleWheel": 1
-    },
-    "RewardId": [
-      7101,
-      7102,
-      7103
-    ]
-  },
-  "80601": {
-    "DungeonId": 80601,
-    "SucRule": "CountDown",
-    "RatingRange": [
-      0,
-      60,
-      120
-    ],
-    "RewardId": [
-      7101,
-      7102,
-      7103
-    ]
-  },
-  "80602": {
-    "DungeonId": 80602,
-    "SucRule": "CountDown",
-    "RatingRange": [
-      0,
-      60,
-      120
-    ],
-    "RewardId": [
-      7101,
-      7102,
-      7103
-    ]
-  },
-  "80701": {
-    "DungeonId": 80701,
-    "SucRule": "CountDown",
-    "FbdRule": {
-      "NoSkill": 1,
-      "NoBattleWheel": 1
-    },
-    "RewardId": [
-      7101
-    ]
-  },
-  "80702": {
-    "DungeonId": 80702,
-    "SucRule": "CountDown",
-    "FbdRule": {
-      "NoSkill": 1,
-      "NoBattleWheel": 1
-    },
-    "RewardId": [
-      7101
-    ]
-  },
-  "80703": {
-    "DungeonId": 80703,
-    "SucRule": "CountDown",
-    "FbdRule": {
-      "NoSkill": 1,
-      "NoBattleWheel": 1
-    },
-    "RewardId": [
-      7101
-    ]
-  },
-  "80801": {
-    "DungeonId": 80801,
-    "SucRule": "Score",
-    "RatingRange": [
-      0,
-      18,
-      36
-    ],
-    "FbdRule": {
-      "NoBattleWheel": 1
-    },
-    "RewardId": [
-      7101,
-      7102,
-      7103
-    ]
-  },
-  "80901": {
-    "DungeonId": 80901,
-    "SucRule": "Score",
-    "RatingRange": [
-      10,
-      20,
-      40
-    ],
-    "FbdRule": {
-      "NoSkill": 1,
-      "NoBattleWheel": 1,
-      "NoMelee": 1
-    },
-    "RewardId": [
-      7101,
-      7102,
-      7103
-    ]
-  },
-  "80902": {
-    "DungeonId": 80902,
-    "SucRule": "Score",
-    "RatingRange": [
-      5,
-      15,
-      25
-    ],
-    "FbdRule": {
-      "NoSkill": 1,
-      "NoBattleWheel": 1,
-      "NoRanged": 1
-    },
-    "RewardId": [
-      7101,
-      7102,
-      7103
-    ]
-  },
-  "81001": {
-    "DungeonId": 81001,
-    "SucRule": "Score",
-    "RatingRange": [
-      100,
-      150,
-      200
-    ],
-    "FbdRule": {
-      "NoRanged": 1,
-      "NoSkill": 1,
-      "NoMelee": 1,
-      "NoBattleWheel": 1
-    },
-    "RewardId": [
-      7101,
-      7102,
-      7103
-    ]
-  },
-  "81002": {
-    "DungeonId": 81002,
-    "SucRule": "Score",
-    "RatingRange": [
-      100,
-      160,
-      250
-    ],
-    "FbdRule": {
-      "NoRanged": 1,
-      "NoSkill": 1,
-      "NoMelee": 1,
-      "NoBattleWheel": 1
-    },
-    "RewardId": [
-      7101,
-      7102,
-      7103
-    ]
+    "UIHideCombo": 1,
+    "UIHideFailCond": 1
   }
 }

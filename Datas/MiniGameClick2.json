@@ -1,6 +1,11 @@
 [
   {
-    "GameMapId": 1,
+    "ClickEndInfo": [
+      60,
+      105,
+      165,
+      240
+    ],
     "ClickLevelInfo": [
       "Low",
       "Mid",
@@ -13,20 +18,20 @@
       135,
       180
     ],
-    "ClickEndInfo": [
-      60,
-      105,
-      165,
-      240
-    ],
+    "GameMapId": 1,
     "PointerSpeed": 0.5,
+    "PointerSpeedHigh": 7,
     "PointerSpeedLow": 15,
     "PointerSpeedMid": 10,
-    "PointerSpeedHigh": 7,
     "PointerSpeedResis": 0.2
   },
   {
-    "GameMapId": 2,
+    "ClickEndInfo": [
+      30,
+      105,
+      195,
+      240
+    ],
     "ClickLevelInfo": [
       "Low",
       "Mid",
@@ -39,20 +44,19 @@
       135,
       210
     ],
-    "ClickEndInfo": [
-      30,
-      105,
-      195,
-      240
-    ],
+    "GameMapId": 2,
     "PointerSpeed": 0.5,
+    "PointerSpeedHigh": 7,
     "PointerSpeedLow": 15,
     "PointerSpeedMid": 10,
-    "PointerSpeedHigh": 7,
     "PointerSpeedResis": 0.2
   },
   {
-    "GameMapId": 3,
+    "ClickEndInfo": [
+      45,
+      165,
+      240
+    ],
     "ClickLevelInfo": [
       "Mid",
       "Mid",
@@ -63,19 +67,19 @@
       75,
       195
     ],
-    "ClickEndInfo": [
-      45,
-      165,
-      240
-    ],
+    "GameMapId": 3,
     "PointerSpeed": 0.5,
+    "PointerSpeedHigh": 7,
     "PointerSpeedLow": 15,
     "PointerSpeedMid": 10,
-    "PointerSpeedHigh": 7,
     "PointerSpeedResis": 0.2
   },
   {
-    "GameMapId": 4,
+    "ClickEndInfo": [
+      60,
+      150,
+      240
+    ],
     "ClickLevelInfo": [
       "Low",
       "Mid",
@@ -86,15 +90,109 @@
       90,
       180
     ],
+    "GameMapId": 4,
+    "PointerSpeed": 0.5,
+    "PointerSpeedHigh": 7,
+    "PointerSpeedLow": 15,
+    "PointerSpeedMid": 10,
+    "PointerSpeedResis": 0.2
+  },
+  {
     "ClickEndInfo": [
+      30,
+      50,
+      90,
+      240
+    ],
+    "ClickLevelInfo": [
+      "High",
+      "Mid",
+      "High",
+      "Low"
+    ],
+    "ClickStartInfo": [
+      0,
+      40,
       60,
+      120
+    ],
+    "GameMapId": 5,
+    "PointerSpeed": 0.5,
+    "PointerSpeedHigh": 7,
+    "PointerSpeedLow": 15,
+    "PointerSpeedMid": 10,
+    "PointerSpeedResis": 0.2
+  },
+  {
+    "ClickEndInfo": [
+      20,
+      60,
+      110,
+      240
+    ],
+    "ClickLevelInfo": [
+      "High",
+      "Mid",
+      "Mid",
+      "Low"
+    ],
+    "ClickStartInfo": [
+      0,
+      30,
+      70,
+      120
+    ],
+    "GameMapId": 6,
+    "PointerSpeed": 0.5,
+    "PointerSpeedHigh": 7,
+    "PointerSpeedLow": 15,
+    "PointerSpeedMid": 10,
+    "PointerSpeedResis": 0.2
+  },
+  {
+    "ClickEndInfo": [
+      45,
       150,
       240
     ],
+    "ClickLevelInfo": [
+      "Mid",
+      "Low",
+      "High"
+    ],
+    "ClickStartInfo": [
+      0,
+      90,
+      195
+    ],
+    "GameMapId": 7,
     "PointerSpeed": 0.5,
+    "PointerSpeedHigh": 7,
     "PointerSpeedLow": 15,
     "PointerSpeedMid": 10,
+    "PointerSpeedResis": 0.2
+  },
+  {
+    "ClickEndInfo": [
+      70,
+      150,
+      240
+    ],
+    "ClickLevelInfo": [
+      "Low",
+      "High",
+      "Low"
+    ],
+    "ClickStartInfo": [
+      0,
+      80,
+      170
+    ],
+    "GameMapId": 8,
+    "PointerSpeed": 0.5,
     "PointerSpeedHigh": 7,
+    "PointerSpeedLow": 15,
+    "PointerSpeedMid": 10,
     "PointerSpeedResis": 0.2
   }
 ]

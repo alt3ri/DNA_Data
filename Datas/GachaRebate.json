@@ -1,42 +1,28 @@
 {
+  "Char": {
+    "4": {
+      "Rarity": 4,
+      "Type": "Char"
+    },
+    "5": {
+      "Rarity": 5,
+      "Type": "Char"
+    }
+  },
   "Weapon": [
     null,
     null,
     {
-      "Type": "Weapon",
       "Rarity": 3,
-      "RebateResId": 110,
-      "RebateNum": 20
+      "Type": "Weapon"
     },
     {
-      "Type": "Weapon",
       "Rarity": 4,
-      "RebateResId": 111,
-      "RebateNum": 5
+      "Type": "Weapon"
     },
     {
-      "Type": "Weapon",
       "Rarity": 5,
-      "RebateResId": 111,
-      "RebateNum": 25
+      "Type": "Weapon"
     }
-  ],
-  "Char": {
-    "4": {
-      "Type": "Char",
-      "Rarity": 4,
-      "RebateResId": 111,
-      "RebateNum": 10,
-      "RebateResIdUp": 111,
-      "RebateNumUp": 25
-    },
-    "5": {
-      "Type": "Char",
-      "Rarity": 5,
-      "RebateResId": 111,
-      "RebateNum": 50,
-      "RebateResIdUp": 111,
-      "RebateNumUp": 125
-    }
-  }
+  ]
 }

@@ -1,0 +1,6277 @@
+{
+  "10401": {
+    "Operations": [
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "185.064941,-192.025635,95.836349,0.000066,-0.600804,133.19693,70.0,100000.0,false,DoNotOverride,2.8"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10501": {
+    "Operations": [
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 700001,
+            "LookedInfo": 0
+          }
+        }
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10502": {
+    "Operations": [
+      {
+        "TurnTo": {
+          "TurnToDescription": {
+            "P1": 700001,
+            "P2": 0,
+            "Type": "Actor"
+          }
+        }
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10010101": {
+    "Operations": [
+      {
+        "DefaultLookAt": {
+          "LookAtType": "KeepState",
+          "SpeakActorId": 100001
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "67.539062,-1123.730225,550.733276,0.000081,-22.799314,91.999741,35.0,1000.0,false,Manual,2.8"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10010204": {
+    "Operations": [
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "10000,11000,2000,0.000046,-4.799929,73.987312,35.0,150.0,false,Manual,2.8"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10010205": {
+    "Operations": [
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "10000,11000,2000,0.000046,-4.799929,73.987312,35.0,150.0,false,Manual,2.8"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10010206": {
+    "Operations": [
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "10000,11000,2000,0.000046,-4.799929,73.987312,35.0,150.0,false,Manual,2.8"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10010401": {
+    "Operations": [
+      {
+        "PlayAnimation": {
+          "ActorId": 100001,
+          "AnimationId": "FuXiong_Start"
+        }
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10010402": {
+    "Operations": [
+      {
+        "PlayAnimation": {
+          "ActorId": 100001,
+          "AnimationId": "FuXiong_End"
+        }
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10010801": {
+    "Operations": [
+      {
+        "DefaultLookAt": {
+          "LookAtType": "KeepState",
+          "SpeakActorId": 100001
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100001,
+            "LookedInfo": "QuestPoint102"
+          }
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100003,
+            "LookedInfo": "QuestPoint102"
+          }
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100001,
+          "AnimationId": "Think_Start"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "233.692749,98.025391,337.437744,0.000525,-38.008308,-170.090546,35.000008,500.0,false,Disable,22.0"
+            }
+          },
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "233.692749,98.025391,306.806396,0.000525,-38.008308,-170.090546,35.000008,500.0,false,Disable,22.0",
+              "duration": 6
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10010802": {
+    "Operations": [
+      {
+        "DefaultLookAt": {
+          "LookAtType": "KeepState",
+          "SpeakActorId": 100003
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100003,
+          "AnimationId": "Agree"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "45.787476,-42.09668,191.500977,0.000512,-35.408981,145.509857,30.0,500.0,false,Disable,22.0"
+            }
+          },
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "25.377319,-28.079102,173.898438,0.000512,-35.408981,145.509857,30.0,500.0,false,Disable,22.0",
+              "duration": 8
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10011201": {
+    "Operations": [
+      {
+        "DefaultLookAt": {
+          "LookAtType": "KeepState",
+          "SpeakActorId": 100003
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100003,
+            "LookedInfo": 100001
+          }
+        }
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10011202": {
+    "Operations": [
+      {
+        "DefaultLookAt": {
+          "LookAtType": "KeepState",
+          "SpeakActorId": 100001
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100001,
+            "LookedInfo": 100003
+          }
+        }
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10011701": {
+    "Operations": [
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "296.236816,-263.102539,121.278221,0.001061,-1.789919,106.745049,35.0,100000.0,true,DoNotOverride,2.8"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10011702": {
+    "Operations": [
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "112.41748,326.53125,131.15976,0.001058,1.609964,-59.853107,35.0,100000.0,true,DoNotOverride,2.8"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10011704": {
+    "Operations": [
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "126.422852,269.644531,140.342804,0.001063,-0.790492,125.942245,35.0,100000.0,true,DoNotOverride,2.8"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10011707": {
+    "Operations": [
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "18.672363,118.146484,149.783295,0.001118,-3.591033,6.145676,35.0,100000.0,true,DoNotOverride,2.8"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10011708": {
+    "Operations": [
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "72.875488,434.009766,196.423553,0.001151,-10.991543,-107.454224,35.0,100000.0,true,DoNotOverride,2.8"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10011901": {
+    "Operations": [
+      {
+        "DefaultLookAt": {
+          "LookAtType": "TalkNpc",
+          "SpeakActorId": 100001
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100005,
+            "LookedInfo": 100001
+          }
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "-96.158203,-518.092773,149.132812,0.000238,-4.594996,74.178322,35.0,750.0,false,Manual,2.8"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10011902": {
+    "Operations": [
+      {
+        "DefaultLookAt": {
+          "LookAtType": "KeepState",
+          "SpeakActorId": 100005
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "-14.427734,54.794922,163.906128,0.000261,-4.995177,46.37698,35.0,150.0,false,Manual,2.8"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10011903": {
+    "Operations": [
+      {
+        "DefaultLookAt": {
+          "LookAtType": "KeepState",
+          "SpeakActorId": 100001
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100001,
+            "LookedInfo": 100005
+          }
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100001,
+          "AnimationId": "FuXiong_Start"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "347.469727,426.969727,126.664307,0.00029,-0.795136,-125.620972,35.0,750.0,false,Manual,2.8"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10011904": {
+    "Operations": [
+      {
+        "DefaultLookAt": {
+          "LookAtType": "KeepState",
+          "SpeakActorId": 100009
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100001,
+            "LookedInfo": 100005
+          }
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100001,
+          "AnimationId": "FuXiong_Start"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "347.469727,426.969727,126.664307,0.00029,-0.795136,-125.620972,35.0,750.0,false,Manual,2.8"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10011905": {
+    "Operations": [
+      {
+        "DefaultLookAt": {
+          "LookAtType": "KeepState",
+          "SpeakActorId": 100009
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100009,
+            "LookedInfo": 100005
+          }
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100001,
+          "AnimationId": "FuXiong_End"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "277.347656,83.216797,158.420532,0.000312,-4.19556,162.364807,35.0,750.0,false,Manual,2.8"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10011906": {
+    "Operations": [
+      {
+        "DefaultLookAt": {
+          "LookAtType": "KeepState",
+          "SpeakActorId": 100009
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100009,
+            "LookedInfo": 100005
+          }
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "-126.563477,-288.416992,141.312988,0.000402,-1.39551,62.961685,35.0,140.0,false,Manual,2.8"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10011907": {
+    "Operations": [
+      {
+        "DefaultLookAt": {
+          "LookAtType": "KeepState",
+          "SpeakActorId": 100005
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100005,
+            "LookedInfo": 100003
+          }
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "-14.427734,54.794922,163.906128,0.000261,-4.995177,46.37698,35.0,150.0,false,Manual,2.8"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10011908": {
+    "Operations": [
+      {
+        "DefaultLookAt": {
+          "LookAtType": "KeepState",
+          "SpeakActorId": 100005
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "231.490234,343.408203,158.371582,0.000419,-3.595459,-127.040527,35.0,500.0,false,Manual,2.8"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10011909": {
+    "Operations": [
+      {
+        "DefaultLookAt": {
+          "LookAtType": "KeepState",
+          "SpeakActorId": 100005
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100009,
+            "LookedInfo": 100009
+          }
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "-631.973633,57.709961,151.031982,0.000454,-2.995516,16.566053,35.0,830.0,false,Manual,2.8"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10011910": {
+    "Operations": [
+      {
+        "DefaultLookAt": {
+          "LookAtType": "Self",
+          "SpeakActorId": 100005
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100005,
+            "LookedInfo": 100001
+          }
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "67.922852,-1.688477,194.500366,0.000455,-21.995386,-82.626396,35.0,150.0,false,Manual,2.8"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10012001": {
+    "Operations": [
+      {
+        "DefaultLookAt": {
+          "LookAtType": "Self",
+          "SpeakActorId": 100003
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100005,
+            "LookedInfo": 100003
+          }
+        }
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10012003": {
+    "Operations": [
+      {
+        "DefaultLookAt": {
+          "LookAtType": "KeepState",
+          "SpeakActorId": 100005
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100005,
+            "LookedInfo": 100003
+          }
+        }
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10012006": {
+    "Operations": [
+      {
+        "DefaultLookAt": {
+          "LookAtType": "KeepState",
+          "SpeakActorId": 100003
+        }
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10012008": {
+    "Operations": [
+      {
+        "DefaultLookAt": {
+          "LookAtType": "KeepState",
+          "SpeakActorId": 100003
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100007,
+            "LookedInfo": 100005
+          }
+        }
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10012009": {
+    "Operations": [
+      {
+        "DefaultLookAt": {
+          "LookAtType": "KeepState",
+          "SpeakActorId": 100003
+        }
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10012010": {
+    "Operations": [
+      {
+        "DefaultLookAt": {
+          "LookAtType": "Self",
+          "SpeakActorId": 100005
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100005,
+            "LookedInfo": 100005
+          }
+        }
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10012011": {
+    "Operations": [
+      {
+        "DefaultLookAt": {
+          "LookAtType": "KeepState",
+          "SpeakActorId": 100001
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100005,
+            "LookedInfo": 100003
+          }
+        }
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10012602": {
+    "Operations": [
+      {
+        "DefaultLookAt": {
+          "LookAtType": "KeepState",
+          "SpeakActorId": 100001
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100001,
+            "LookedInfo": 100003
+          }
+        }
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10012701": {
+    "Operations": [
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "524.417969,-273.097656,72.024963,0.000254,10.998483,156.973907,35.0,100000.0,false,Manual,22.0"
+            }
+          },
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "511.515625,-301.914062,72.024963,0.000255,10.998483,151.374451,35.0,100000.0,false,Manual,22.0",
+              "duration": 6
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10012702": {
+    "Operations": [
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "317.9375,-203.148438,165.504761,0.000249,2.998658,152.974579,35.0,100000.0,false,Manual,22.0"
+            }
+          },
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "317.9375,-203.148438,165.504761,0.000249,2.998658,152.974579,35.0,100000.0,false,Manual,22.0",
+              "duration": 6
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10012703": {
+    "Operations": [
+      {
+        "DefaultLookAt": {
+          "LookAtType": "KeepState",
+          "SpeakActorId": 100001
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100001,
+            "LookedInfo": 100014
+          }
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "136.882812,-238.855469,168.495239,0.000319,-18.601807,42.176678,35.0,100000.0,false,Manual,22.0"
+            }
+          },
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "116.4375,-210.523438,168.495239,0.000323,-19.201778,29.174892,35.0,100000.0,false,Manual,22.0",
+              "duration": 10
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10012704": {
+    "Operations": [
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "699.554688,-957.21875,341.90564,0.000407,-14.001368,121.374519,35.0,100000.0,false,Manual,22.0"
+            }
+          },
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "249.050781,-1061.171875,341.90564,0.00044,-16.201441,91.573235,35.0,100000.0,false,Manual,22.0",
+              "duration": 20
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10012706": {
+    "Operations": [
+      {
+        "DefaultLookAt": {
+          "LookAtType": "KeepState",
+          "SpeakActorId": 100001
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100001,
+            "LookedInfo": 100014
+          }
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "116.4375,-210.523438,168.495239,0.000323,-19.201778,29.174892,35.0,100000.0,false,Manual,22.0"
+            }
+          },
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "136.882812,-238.855469,168.495239,0.000319,-18.601807,42.176678,35.0,100000.0,false,Manual,22.0",
+              "duration": 8
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10012707": {
+    "Operations": [
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "524.417969,-273.097656,72.024963,0.000254,10.998483,156.973907,35.0,100000.0,false,Manual,22.0"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10012708": {
+    "Operations": [
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "524.417969,-273.097656,72.024963,0.000254,10.998483,156.973907,35.0,100000.0,false,Manual,22.0"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10012709": {
+    "Operations": [
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "524.417969,-273.097656,72.024963,0.000254,10.998483,156.973907,35.0,100000.0,false,Manual,22.0"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10012710": {
+    "Operations": [
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "524.417969,-273.097656,72.024963,0.000254,10.998483,156.973907,35.0,100000.0,false,Manual,22.0"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10012712": {
+    "Operations": [
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "524.417969,-273.097656,72.024963,0.000254,10.998483,156.973907,35.0,100000.0,false,Manual,22.0"
+            }
+          },
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "511.515625,-301.914062,72.024963,0.000255,10.998483,151.374451,35.0,100000.0,false,Manual,22.0",
+              "duration": 6
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10012713": {
+    "Operations": [
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "317.9375,-203.148438,165.504761,0.000249,2.998658,152.974579,35.0,100000.0,false,Manual,22.0"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10012714": {
+    "Operations": [
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "317.9375,-203.148438,165.504761,0.000249,2.998658,152.974579,35.0,100000.0,false,Manual,22.0"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10018901": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 100003,
+          "FacialId": "Confident01"
+        }
+      },
+      {
+        "DefaultLookAt": {
+          "LookAtType": "KeepState",
+          "SpeakActorId": 100003
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100001,
+          "AnimationId": "Think_End"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "445.776367,-604.509766,186.644531,0.000533,7.394103,84.717964,24.0,500.0,false,Disable,22.0"
+            }
+          },
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "504.098145,26.331055,268.859863,0.000533,7.394103,84.717964,24.0,500.0,false,Disable,22.0",
+              "duration": 8
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10018902": {
+    "Operations": [
+      {
+        "DefaultLookAt": {
+          "LookAtType": "KeepState",
+          "SpeakActorId": 100003
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100001,
+            "LookedInfo": 100003
+          }
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100003,
+            "LookedInfo": 100001
+          }
+        }
+      },
+      {
+        "TurnTo": {
+          "TurnToDescription": {
+            "P1": 100003,
+            "P2": -40,
+            "Type": "Degree"
+          }
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "38.842773,139.664062,126.450684,0.000293,2.606147,-116.596527,40.0,195.358566,false,Manual,2.799999"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10018903": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 100001,
+          "FacialId": "Shock01"
+        }
+      },
+      {
+        "DefaultLookAt": {
+          "LookAtType": "KeepState",
+          "SpeakActorId": 100001
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "-180.119751,-33.829102,148.040039,0.000356,-7.595668,15.806756,35.000008,201.418701,false,Manual,2.8"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10018904": {
+    "Operations": [
+      {
+        "DefaultLookAt": {
+          "LookAtType": "KeepState",
+          "SpeakActorId": 100003
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100003,
+          "AnimationId": "Agree"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "-719.279663,652.294922,186.867676,0.000371,-7.196232,-42.994892,35.0,131.625381,false,Disable,8.286504"
+            }
+          },
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "-767.170166,696.94043,195.135254,0.000371,-7.196232,-42.994892,35.0,131.625381,false,Disable,8.286504",
+              "duration": 5
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030301": {
+    "Operations": [
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "-229.695435,48.554688,189.588501,0.000025,-8.400114,39.796463,35.0,100000.0,false,Manual,22.0"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030401": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 100001,
+          "FacialId": "Sad01"
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100001,
+            "LookedInfo": 200003
+          }
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 200003,
+            "LookedInfo": 100001
+          }
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100001,
+          "AnimationId": "Explain02_Start"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "67.060974,63.269043,215.128113,0.000134,-36.998093,133.003891,35.000015,115.415909,false,Manual,2.8"
+            }
+          },
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "58.562622,72.381348,205.739349,0.000134,-36.998093,133.003891,35.000015,115.415909,false,Manual,2.8",
+              "duration": 4
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030402": {
+    "Operations": [
+      {
+        "PlayAnimation": {
+          "ActorId": 200003,
+          "AnimationId": "Talk03_Start"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "86.758911,282.283203,92.856476,0.000164,8.390955,-113.792175,35.000008,284.956726,false,Manual,2.8"
+            }
+          },
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "86.758911,282.283203,92.856476,0.000164,14.190912,-114.991394,35.000008,284.956726,false,Manual,2.8",
+              "duration": 4
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030403": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 100001,
+          "FacialId": "None"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "86.758911,282.283203,92.856476,0.000164,14.190912,-114.991394,35.000008,284.956726,false,Manual,2.8"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030404": {
+    "Operations": [
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "59.167389,163.043945,135.496033,0.000192,6.398965,-111.022247,35.000011,119.762192,false,Manual,2.8"
+            }
+          },
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "59.167389,163.043945,135.496033,0.000189,11.398882,-111.421654,35.000011,119.762192,false,Manual,2.8",
+              "duration": 5
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030405": {
+    "Operations": [
+      {
+        "PlayAnimation": {
+          "ActorId": 200003,
+          "AnimationId": "Talk03_End"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "98.511124,-16.412109,172.841675,0.000207,-11.60333,130.153641,35.000019,142.834564,false,Manual,2.8"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030407": {
+    "Operations": [
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 200003,
+            "LookedInfo": 100001
+          }
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 200003,
+          "AnimationId": "Think_Start"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "59.416779,238.341797,108.856842,0.000246,13.794911,-108.023026,35.000011,142.834564,false,Manual,2.8"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030409": {
+    "Operations": [
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 200003,
+            "LookedInfo": 100001
+          }
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 200003,
+          "AnimationId": "Think_Start"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "59.416779,238.341797,108.856842,0.000246,13.794911,-108.023026,35.000011,142.834564,false,Manual,2.8"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030410": {
+    "Operations": [
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "219.686523,-167.925781,156.396484,0.00011,-10.203305,136.577377,25.0,142.250885,false,Manual,3.0"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030411": {
+    "Operations": [
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 200003,
+            "LookedInfo": 200003
+          }
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "166.64328,-62.497559,178.52565,0.000175,-8.403386,136.948242,35.000011,142.834564,false,Manual,22.0"
+            }
+          }
+        ]
+      },
+      {
+        "PARA": [
+          {
+            "SEQ": [
+              {
+                "Delay": {
+                  "DelaySeconds": 1.7
+                }
+              },
+              {
+                "CameraMoveTo": {
+                  "TargetPosition": "80.631256,-105.42334,178.525864,0.000194,-7.403289,115.154785,35.000011,142.834564,false,Manual,22.0",
+                  "duration": 1.3
+                }
+              }
+            ]
+          },
+          {
+            "SEQ": [
+              {
+                "PlayAnimation": {
+                  "ActorId": 200003,
+                  "AnimationId": "Think_End",
+                  "Duration": 1.5
+                }
+              },
+              {
+                "MoveTo": {
+                  "ActorId": 200003,
+                  "MoveSpeed": 90,
+                  "TargetPoint": "kami_01_turnleft",
+                  "Visibility": "Show"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030412": {
+    "Operations": [
+      {
+        "PlayNormalSound": {
+          "EventPath": "event:/sfx/common/story/01/flashing",
+          "PlayAs2D": true
+        }
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030416": {
+    "Operations": [
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "17.873657,-44.469727,169.63678,-0.001312,-19.399799,94.826927,35.000008,39.151329,false,Manual,3.0"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030417": {
+    "Operations": [
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "406.211243,-635.881592,325.041443,-0.001344,-16.600023,119.224098,35.0,240.900818,false,Manual,22.0"
+            }
+          },
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "391.624817,-609.80957,316.13501,-0.001344,-16.600023,119.224098,35.0,240.900818,false,Manual,22.0",
+              "duration": 5
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030418": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 100001,
+          "FacialId": "Shock01"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "18.131149,48.323242,139.37941,-0.001343,2.797912,103.41497,35.000011,171.651077,false,Manual,22"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030419": {
+    "Operations": [
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "80.631256,-105.42334,178.525864,0.000194,-7.403289,115.154785,35.000011,142.834564,false,Manual,22.0"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030420": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 100001,
+          "FacialId": "None"
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100001,
+          "AnimationId": "Explain02_End"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "80.631256,-105.42334,178.525864,0.000194,-7.403289,115.154785,35.000011,142.834564,false,Manual,22.0"
+            }
+          },
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "80.631256,-105.42334,178.525864,0.000194,-10.20336,110.953819,35.000015,142.834564,false,Manual,22.0",
+              "duration": 3
+            }
+          }
+        ]
+      },
+      {
+        "MoveTo": {
+          "ActorId": 200003,
+          "MoveSpeed": 90,
+          "TargetPoint": "kami_01_leave",
+          "Visibility": "Show"
+        }
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030422": {
+    "Operations": [
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "80.631256,-105.42334,178.525864,0.000194,-7.403289,115.154785,35.000011,142.834564,false,Manual,22.0"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030603": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 200002,
+          "FacialId": "Sad01"
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 200002,
+            "LookedInfo": 100001
+          }
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 200021,
+            "LookedInfo": 100001
+          }
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100001,
+            "LookedInfo": 200002
+          }
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 200002,
+          "AnimationId": "Explain02_Start"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "78.226898,5.710938,147.152344,0.000109,-17.401026,138.984924,35.000011,249.345123,false,Manual,3.0"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030604": {
+    "Operations": [
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100001,
+            "LookedInfo": 200021
+          }
+        }
+      },
+      {
+        "TurnTo": {
+          "TurnToDescription": {
+            "P1": 100304,
+            "P2": 100001,
+            "Type": "Actor"
+          }
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 200021,
+          "AnimationId": "Think_Start"
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 200002,
+          "AnimationId": "Explain02_End"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "-205.596069,-83.395508,180.607422,0.000126,-12.400939,31.861963,35.282173,428.945068,false,Manual,3.0"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030605": {
+    "Operations": [
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 200002,
+            "LookedInfo": 200021
+          }
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100001,
+            "LookedInfo": 200021
+          }
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 200021,
+            "LookedInfo": 200002
+          }
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 200002,
+          "AnimationId": "Angry01_Start"
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 200021,
+          "AnimationId": "Think_End"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "0.396332,244.167969,21.378906,0.000094,25.396158,-121.224731,35.000011,411.428223,false,Manual,22.0"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030606": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 200002,
+          "FacialId": "Angry01"
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 200021,
+          "AnimationId": "Confident_Start"
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 200002,
+          "AnimationId": "Angry01_End"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "23.498505,-207.322266,260.337891,0.00005,-27.40271,113.967453,35.000011,411.428162,false,Manual,3.0"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030607": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 200002,
+          "FacialId": "None"
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100001,
+          "AnimationId": "Think_Start"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "-405.321106,133.943359,83.382812,0.000094,-6.002507,-9.651911,35.0,681.079041,false,Manual,3.0"
+            }
+          },
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "-405.321106,133.943359,83.382812,0.000094,-1.002378,-9.6524,35.0,681.079041,false,Manual,3.0",
+              "duration": 4
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030608": {
+    "Operations": [
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 200002,
+            "LookedInfo": 100001
+          }
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 200021,
+            "LookedInfo": 100001
+          }
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100001,
+            "LookedInfo": 200002
+          }
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 200002,
+          "AnimationId": "Bai_Think2Confident"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "135.663208,-35.232422,147.521484,0.00007,-15.799928,131.26181,35.000023,217.486328,false,Manual,3.0"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030609": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 200002,
+          "FacialId": "Happy02"
+        }
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030610": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 200002,
+          "FacialId": "None"
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 200002,
+          "AnimationId": "Confident_End"
+        }
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030611": {
+    "Operations": [
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100001,
+            "LookedInfo": 200021
+          }
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "-205.596069,-83.395508,180.607422,0.000126,-12.400939,31.861963,35.282173,428.945068,false,Manual,3.0"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030612": {
+    "Operations": [
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100001,
+            "LookedInfo": 200021
+          }
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100001,
+          "AnimationId": "Explain01_Start"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "-205.596069,-83.395508,180.607422,0.000126,-12.400939,31.861963,35.282173,428.945068,false,Manual,3.0"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030613": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 200021,
+          "FacialId": "Angry01"
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 200002,
+            "LookedInfo": 100304
+          }
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 200021,
+          "AnimationId": "Explain01_Start"
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100001,
+          "AnimationId": "Explain02_End"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "190.638687,10.195312,120.152344,0.000129,5.198969,171.649811,35.282169,271.349274,false,Manual,3.0"
+            }
+          }
+        ]
+      },
+      {
+        "SetLocation": {
+          "ActorId": 200002,
+          "TargetPoint": "bai_02_walkin",
+          "Visibility": "Show"
+        }
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030614": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 200021,
+          "FacialId": "None"
+        }
+      },
+      {
+        "TurnTo": {
+          "TurnToDescription": {
+            "P1": 100304,
+            "P2": 200002,
+            "Type": "Actor"
+          }
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "1143.931641,-283.857422,7.660156,0.000062,9.59677,-69.447464,35.000023,100000.0,false,Manual,3.0"
+            }
+          }
+        ]
+      },
+      {
+        "PARA": [
+          {
+            "MoveTo": {
+              "ActorId": 200002,
+              "MoveSpeed": 90,
+              "TargetPoint": "bai_02_set",
+              "Visibility": "Show"
+            }
+          },
+          {
+            "SEQ": [
+              {
+                "Delay": {
+                  "DelaySeconds": 1.5
+                }
+              },
+              {
+                "CameraMoveTo": {
+                  "TargetPosition": "1180.628296,-769.296875,95.171875,0.000035,-15.803131,78.751785,35.000019,100000.0,false,Manual,3.0",
+                  "duration": 0
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030615": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 200002,
+          "FacialId": "Shock02"
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 200002,
+            "LookedInfo": 100304
+          }
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 200002,
+          "AnimationId": "Shock_Start"
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 200021,
+          "AnimationId": "Explain01_End"
+        }
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030616": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 200002,
+          "FacialId": "None"
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 200021,
+            "LookedInfo": 100304
+          }
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100001,
+            "LookedInfo": 100304
+          }
+        }
+      },
+      {
+        "TurnTo": {
+          "TurnToDescription": {
+            "P1": 100001,
+            "P2": 100304,
+            "Type": "Actor"
+          }
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 200021,
+          "AnimationId": "Confident_Start"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "1297.798462,-671.682617,65.072266,0.000065,-0.601719,155.368057,35.000008,116.489357,false,Manual,3.0"
+            }
+          },
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "1297.798462,-671.682617,65.072266,0.000066,-0.601685,155.368103,35.000008,2653.720459,false,Manual,3.0",
+              "duration": 4
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030617": {
+    "Operations": [
+      {
+        "PlayAnimation": {
+          "ActorId": 100001,
+          "AnimationId": "Explain01_End"
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 200002,
+          "AnimationId": "Shock_End"
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 200021,
+          "AnimationId": "Confident_End"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "230.647583,-1.03125,119.628906,0.000082,4.997772,170.560379,35.000011,203.140381,false,Manual,3.0"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030618": {
+    "Operations": [
+      {
+        "PlayAnimation": {
+          "ActorId": 200021,
+          "AnimationId": "AgreeHead"
+        }
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030619": {
+    "Operations": [
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 200021,
+            "LookedInfo": 100001
+          }
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100001,
+            "LookedInfo": 200021
+          }
+        }
+      },
+      {
+        "TurnTo": {
+          "TurnToDescription": {
+            "P1": 100001,
+            "P2": 200021,
+            "Type": "Actor"
+          }
+        }
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030620": {
+    "Operations": [
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 200002,
+            "LookedInfo": 100001
+          }
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 200021,
+          "AnimationId": "DisagreeHead"
+        }
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030621": {
+    "Operations": [
+      {
+        "PlayAnimation": {
+          "ActorId": 200021,
+          "AnimationId": "Talk01_Start"
+        }
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030625": {
+    "Operations": [
+      {
+        "TurnTo": {
+          "TurnToDescription": {
+            "P1": 100304,
+            "P2": 100001,
+            "Type": "Actor"
+          }
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 200021,
+          "AnimationId": "Talk01_End"
+        }
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030626": {
+    "Operations": [
+      {
+        "PlayAnimation": {
+          "ActorId": 100304,
+          "AnimationId": "Explain01_Start"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "3.56424,135.133789,143.957031,0.000086,-7.202332,-42.028748,35.000008,998.946716,false,Manual,3.0"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030627": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 100001,
+          "FacialId": "Unhappy01"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "3.56424,135.133789,143.957031,0.000086,-7.202332,-42.028748,35.000008,998.946716,false,Manual,3.0"
+            }
+          }
+        ]
+      },
+      {
+        "SEQ": [
+          {
+            "TurnTo": {
+              "TurnToDescription": {
+                "P1": 100001,
+                "P2": 100304,
+                "Type": "Actor"
+              }
+            }
+          },
+          {
+            "PlayAnimation": {
+              "ActorId": 100001,
+              "AnimationId": "Shock_Start",
+              "Duration": 1
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030628": {
+    "Operations": [
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 200021,
+            "LookedInfo": 100304
+          }
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100001,
+            "LookedInfo": 100304
+          }
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100001,
+          "AnimationId": "Shock_End"
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 200021,
+          "AnimationId": "DisagreeHead"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "230.647583,-1.03125,119.628906,0.000082,4.997772,170.560379,35.000011,203.140381,false,Manual,3.0"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030629": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 100001,
+          "FacialId": "None"
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100001,
+            "LookedInfo": 100001
+          }
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100001,
+          "AnimationId": "Sigh_Start"
+        }
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030630": {
+    "Operations": [
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100001,
+            "LookedInfo": 100304
+          }
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100001,
+          "AnimationId": "Sigh_End"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "-285.275513,162.134766,109.957031,0.000065,2.195619,-25.839436,35.000008,1787541766275072.0,false,Manual,3.0"
+            }
+          },
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "-285.275513,162.134766,109.957031,0.000065,-1.404328,-26.238977,35.000008,1787541766275072.0,false,Manual,3.0",
+              "duration": 3
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030631": {
+    "Operations": [
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 200002,
+            "LookedInfo": 200002
+          }
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100001,
+          "AnimationId": "Think_End"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "135.663208,-35.232422,147.521484,0.00007,-15.799928,131.26181,35.000023,217.486328,false,Manual,3.0"
+            }
+          },
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "146.945831,-49.921875,146.005859,0.000069,-6.599977,127.660065,35.000023,142.921875,false,Manual,3.0",
+              "duration": 1.5
+            }
+          }
+        ]
+      },
+      {
+        "MoveTo": {
+          "ActorId": 200002,
+          "MoveSpeed": 150,
+          "TargetPoint": "bai_02_runaway",
+          "Visibility": "Show"
+        }
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030701": {
+    "Operations": [
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 200021,
+            "LookedInfo": 100304
+          }
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100001,
+            "LookedInfo": 100304
+          }
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 200002,
+            "LookedInfo": 100304
+          }
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100304,
+            "LookedInfo": 100001
+          }
+        }
+      },
+      {
+        "TurnTo": {
+          "TurnToDescription": {
+            "P1": 100304,
+            "P2": 100001,
+            "Type": "Actor"
+          }
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100304,
+          "AnimationId": "AgreeHead"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "380.175964,73.087891,134.875,0.000271,-19.394896,-137.947372,35.000011,55.953648,false,Manual,3.0"
+            }
+          },
+          {
+            "CameraMoveTo": {
+              "Blend": "easeInOutQuad",
+              "TargetPosition": "380.175964,73.087891,134.875,0.000278,-2.194144,-169.342743,35.000011,355.630981,false,Manual,3.0",
+              "duration": 5
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030702": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 200002,
+          "FacialId": "Happy02"
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100304,
+            "LookedInfo": 200002
+          }
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 200002,
+          "AnimationId": "Explain02_Start"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "-89.270386,-159.456055,192.513672,0.000299,-23.794125,44.6567,35.000015,330.701721,false,Manual,3.0"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030703": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 200002,
+          "FacialId": "None"
+        }
+      },
+      {
+        "PlayFacial": {
+          "ActorId": 100304,
+          "FacialId": "Shock01"
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100304,
+          "AnimationId": "DisagreeHead"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "29.417786,145.418945,56.080078,0.000265,19.004721,-80.540367,35.000011,219.87709,false,Manual,3.0"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030704": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 100304,
+          "FacialId": "Unhappy01"
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100304,
+            "LookedInfo": 100001
+          }
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 200002,
+          "AnimationId": "Explain02_End"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "-373.256409,-7.81543,220.638672,0.000206,-19.196136,3.056015,25.0,219.87709,false,Manual,3.0"
+            }
+          },
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "-330.987732,-5.65625,205.90625,0.000206,-19.196136,2.856016,25.0,219.87709,false,Manual,3.0",
+              "duration": 3
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030705": {
+    "Operations": [
+      {
+        "PlayAnimation": {
+          "ActorId": 100304,
+          "AnimationId": "Explain01_Start"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "-196.299988,-7.27832,128.933594,0.000239,-0.99649,-6.538402,35.000015,391.724365,false,Manual,3.0"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030706": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 100001,
+          "FacialId": "Unhappy01"
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100001,
+          "AnimationId": "Shock_Start"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "-16.850769,-112.700195,139.550781,0.000263,-2.797638,120.662224,35.000015,98.697456,false,Manual,3.0"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030707": {
+    "Operations": [
+      {
+        "PlayAnimation": {
+          "ActorId": 100001,
+          "AnimationId": "Shock_End"
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100304,
+          "AnimationId": "Explain01_End"
+        }
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030708": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 100001,
+          "FacialId": "None"
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 200021,
+            "LookedInfo": 100001
+          }
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100001,
+            "LookedInfo": 200021
+          }
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 200021,
+          "AnimationId": "Give"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "20.996643,167.708008,186.025391,0.000272,-16.19771,-130.733917,35.000015,206.537537,false,Manual,3.0"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030709": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 100304,
+          "FacialId": "None"
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 200021,
+            "LookedInfo": 100304
+          }
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100001,
+            "LookedInfo": 100304
+          }
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100304,
+          "AnimationId": "Think_Start"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "20.996643,167.708008,186.025391,0.000272,-16.19771,-130.733917,35.000015,206.537537,false,Manual,3.0"
+            }
+          },
+          {
+            "CameraMoveTo": {
+              "Blend": "easeInOutQuad",
+              "TargetPosition": "20.996643,167.708008,186.025391,0.000264,-15.397602,-85.33358,35.000015,310.0784,false,Manual,3.0",
+              "duration": 3
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030710": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 100304,
+          "FacialId": "Unacceptable01"
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100304,
+          "AnimationId": "Think_End"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "-80.779236,-40.317383,131.921875,0.000267,3.401782,-7.736224,35.000019,150.850861,false,Manual,3.0"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030711": {
+    "Operations": [
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100304,
+            "LookedInfo": 200021
+          }
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 200021,
+          "AnimationId": "DisagreeHead"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "136.852234,-320.489258,75.955078,0.000275,7.598257,113.831276,35.000015,2333.739502,false,Manual,3.0"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030712": {
+    "Operations": [
+      {
+        "PlayAnimation": {
+          "ActorId": 200021,
+          "AnimationId": "Talk01_Start"
+        }
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030713": {
+    "Operations": [
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100001,
+            "LookedInfo": 200021
+          }
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 200021,
+            "LookedInfo": 100001
+          }
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100304,
+            "LookedInfo": 100001
+          }
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 200021,
+          "AnimationId": "Talk01_End"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "35.158813,-132.652344,109.820312,0.000287,8.387151,125.228546,35.000019,169.483948,false,Manual,3.0"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030714": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 200021,
+          "FacialId": "Shock01"
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100304,
+            "LookedInfo": 200021
+          }
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 200021,
+          "AnimationId": "Shock_Start"
+        }
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030715": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 200021,
+          "FacialId": "None"
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 200021,
+            "LookedInfo": 100304
+          }
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100001,
+            "LookedInfo": 100304
+          }
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100304,
+            "LookedInfo": 100001
+          }
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 200021,
+          "AnimationId": "Shock_End"
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100304,
+          "AnimationId": "AgreeHead"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "-203.567261,147.061523,100.875,0.000257,3.596395,-42.564396,35.000015,382.628754,false,Manual,3.0"
+            }
+          },
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "-204.68335,145.84668,116.058594,0.000257,3.596395,-42.564396,35.000015,382.628754,false,Manual,3.0",
+              "duration": 5
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030716": {
+    "Operations": [
+      {
+        "PlayAnimation": {
+          "ActorId": 100304,
+          "AnimationId": "Explain01_Start"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "-70.692688,-985.964844,130.398438,0.000275,-3.004272,85.63118,35.000011,8667.292969,false,Manual,3.0"
+            }
+          },
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "-68.961426,-964.299805,129.412109,0.000276,-2.604269,85.431206,35.000011,8667.292969,false,Manual,3.0",
+              "duration": 4
+            }
+          }
+        ]
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100304,
+            "LookedInfo": "lise_03_looking"
+          }
+        }
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030717": {
+    "Operations": [
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100304,
+            "LookedInfo": 200021
+          }
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 200021,
+          "AnimationId": "AgreeHead"
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100304,
+          "AnimationId": "Explain01_End"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "136.852234,-320.489258,75.955078,0.000275,7.598257,113.831276,35.000015,2333.739502,false,Manual,3.0"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030718": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 100304,
+          "FacialId": "None"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "136.852234,-320.489258,75.955078,0.000275,7.598257,113.831276,35.000015,2333.739502,false,Manual,3.0"
+            }
+          }
+        ]
+      },
+      {
+        "SEQ": [
+          {
+            "LookAt": {
+              "LookAtDescription": {
+                "LookId": 100304,
+                "LookedInfo": 100304
+              }
+            }
+          },
+          {
+            "MoveTo": {
+              "ActorId": 100304,
+              "MoveSpeed": 90,
+              "TargetPoint": "lise_03_leave",
+              "Visibility": "Show"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030719": {
+    "Operations": [
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100001,
+            "LookedInfo": 100304
+          }
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 200021,
+            "LookedInfo": 100001
+          }
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 200002,
+            "LookedInfo": 100001
+          }
+        }
+      },
+      {
+        "TurnTo": {
+          "TurnToDescription": {
+            "P1": 200021,
+            "P2": 100001,
+            "Type": "Actor"
+          }
+        }
+      },
+      {
+        "TurnTo": {
+          "TurnToDescription": {
+            "P1": 200002,
+            "P2": 100001,
+            "Type": "Actor"
+          }
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100001,
+          "AnimationId": "Think_Start"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "-159.366272,-113.829102,114.5625,0.000284,10.592667,64.027908,35.000015,465.831787,false,Manual,3.0"
+            }
+          }
+        ]
+      },
+      {
+        "SetLocation": {
+          "ActorId": 100304,
+          "TargetPoint": "lise_03_leave",
+          "Visibility": "Hide"
+        }
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030720": {
+    "Operations": [
+      {
+        "PlayAnimation": {
+          "ActorId": 200021,
+          "AnimationId": "Confident_Start"
+        }
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030721": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 100001,
+          "FacialId": "Think01"
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100001,
+            "LookedInfo": 100001
+          }
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 200021,
+          "AnimationId": "Confident_End"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "-6.562927,-65.756836,132.560547,0.000275,2.591961,141.833603,35.000015,88.261063,false,Manual,3.0"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030722": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 100001,
+          "FacialId": "Sad01"
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 200021,
+          "AnimationId": "Explain01_Start"
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100001,
+          "AnimationId": "Think_End"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "36.484009,179.044922,176.644531,0.000297,-14.006381,-127.376175,35.000019,315.452576,false,Manual,3.0"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030723": {
+    "Operations": [
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "36.484009,179.044922,176.644531,0.000297,-14.006381,-127.376175,35.000019,315.452576,false,Manual,3.0"
+            }
+          }
+        ]
+      },
+      {
+        "SEQ": [
+          {
+            "Delay": {
+              "DelaySeconds": 3
+            }
+          },
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "-22.493896,92.760742,157.833984,0.000282,-9.206241,-123.576553,35.000019,109.330856,false,Manual,3.0",
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030724": {
+    "Operations": [
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "7.651123,-118.004883,114.373047,0.000255,8.99109,120.035538,35.000015,173.219116,false,Manual,3.0"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030725": {
+    "Operations": [
+      {
+        "PlayAnimation": {
+          "ActorId": 200021,
+          "AnimationId": "Explain01_End"
+        }
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030726": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 100001,
+          "FacialId": "None"
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100001,
+          "AnimationId": "Sigh_Start"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "13.800354,86.224609,170.464844,0.000277,-12.408418,-140.354614,35.000015,93.577675,false,Manual,3.0"
+            }
+          },
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "13.800354,86.224609,170.464844,0.000275,-16.208271,-141.355072,35.000015,93.577675,false,Manual,3.0",
+              "duration": 3
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030728": {
+    "Operations": [
+      {
+        "TurnTo": {
+          "TurnToDescription": {
+            "P1": 100001,
+            "P2": 200021,
+            "Type": "Actor"
+          }
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100001,
+          "AnimationId": "Sigh_End"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "-405.713257,243.483398,93.306641,0.000202,3.588124,-31.563541,35.000015,535.205933,false,Manual,3.0"
+            }
+          },
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "-429.893585,258.337891,91.53125,0.000202,3.588124,-31.563541,35.000015,535.205933,false,Manual,3.0",
+              "duration": 4
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030801": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 200021,
+          "FacialId": "Doubt01"
+        }
+      },
+      {
+        "PlayFacial": {
+          "ActorId": 100001,
+          "FacialId": "Confident01"
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 200021,
+            "LookedInfo": 100304
+          }
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100304,
+            "LookedInfo": 100001
+          }
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 200021,
+          "AnimationId": "Talk03_Start"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "61.057617,108.540283,127.39502,-0.000122,5.801385,-131.604752,40.000011,1.5,false,DoNotOverride,1.2"
+            }
+          },
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "73.068359,122.071289,125.557617,-0.000122,5.801385,-131.604752,40.000011,1.5,false,DoNotOverride,1.2",
+              "duration": 10
+            }
+          }
+        ]
+      },
+      {
+        "SEQ": [
+          {
+            "Delay": {
+              "DelaySeconds": 2
+            }
+          },
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "68.806641,188.34668,131.112061,-0.000122,2.60125,-129.004272,35.0,299.586945,false,Manual,3.390601",
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030802": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 100304,
+          "FacialId": "Think01"
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100304,
+          "AnimationId": "AgreeHead"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "40.330078,-14.789795,129.912109,-0.000122,3.401612,100.797935,35.000019,1.5,false,DoNotOverride,1.2"
+            }
+          },
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "42.864258,-28.097412,129.106689,-0.000122,3.401612,100.798004,35.000019,1.5,false,DoNotOverride,1.2",
+              "duration": 10
+            }
+          }
+        ]
+      },
+      {
+        "SEQ": [
+          {
+            "Delay": {
+              "DelaySeconds": 2
+            }
+          },
+          {
+            "PlayAnimation": {
+              "ActorId": 100304,
+              "AnimationId": "Explain02_Start",
+              "Duration": 2
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030803": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 100304,
+          "FacialId": "Unhappy01"
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100304,
+          "AnimationId": "Explain02_End"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "938.864258,-1600.42627,644.140015,0.000063,-15.356232,125.519363,35.000008,3496.211426,false,Manual,1.2"
+            }
+          },
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "921.212891,-1613.348145,644.140015,0.000062,-15.156223,125.719307,35.000008,3496.211426,false,Manual,1.2",
+              "duration": 10
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030804": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 100304,
+          "FacialId": "Sad02"
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100304,
+          "AnimationId": "Explain01_Start"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "22.568359,-184.945801,150.498779,14.412785,-8.200291,103.409584,25.0,1.5,false,DoNotOverride,1.2"
+            }
+          },
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "17.014648,-186.657471,149.025391,14.414536,-7.200214,102.210579,25.0,1.5,false,DoNotOverride,1.2",
+              "duration": 10
+            }
+          }
+        ]
+      },
+      {
+        "SEQ": [
+          {
+            "Delay": {
+              "DelaySeconds": 5
+            }
+          },
+          {
+            "PlayAnimation": {
+              "ActorId": 100304,
+              "AnimationId": "Explain01_End",
+              "Duration": 2
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030805": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 100304,
+          "FacialId": "Confident01"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "23.945312,90.854004,160.98999,10.805622,-22.999117,107.011467,25.0,1.5,false,DoNotOverride,1.2"
+            }
+          },
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "18.341797,89.56958,158.005859,10.810204,-18.79888,98.613777,25.000002,1.5,false,DoNotOverride,1.2",
+              "duration": 10
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030806": {
+    "Operations": [
+      {
+        "PlayAnimation": {
+          "ActorId": 200021,
+          "AnimationId": "Talk03_End"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "154.362305,294.067871,116.455078,-0.000122,2.199355,-123.791985,40.000027,420.30722,false,Manual,1.2"
+            }
+          },
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "152.069336,295.810059,116.455078,-0.000122,2.199355,-122.592339,40.000027,420.30722,false,Manual,1.2",
+              "duration": 15
+            }
+          }
+        ]
+      },
+      {
+        "SEQ": [
+          {
+            "Delay": {
+              "DelaySeconds": 2
+            }
+          },
+          {
+            "PlayAnimation": {
+              "ActorId": 200021,
+              "AnimationId": "Talk02_Start",
+              "Duration": 2
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030807": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 100304,
+          "FacialId": "Confident01"
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100304,
+          "AnimationId": "Talk01_Start"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "35.023438,-85.893799,135.901367,-0.000122,-1.000022,97.196419,40.0,1.5,false,DoNotOverride,1.2"
+            }
+          },
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "39.05957,-117.875977,136.462891,-0.000122,-1.000022,97.196419,40.0,1.5,false,DoNotOverride,1.2",
+              "duration": 10
+            }
+          }
+        ]
+      },
+      {
+        "SEQ": [
+          {
+            "Delay": {
+              "DelaySeconds": 5
+            }
+          },
+          {
+            "PlayAnimation": {
+              "ActorId": 100304,
+              "AnimationId": "Talk01_End",
+              "Duration": 2
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030808": {
+    "Operations": [
+      {
+        "PlayAnimation": {
+          "ActorId": 100304,
+          "AnimationId": "Explain02_Start"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "37.841797,-240.143555,136.698242,-0.000122,-0.799986,100.997322,40.0,1.5,false,DoNotOverride,1.2"
+            }
+          },
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "27.549805,-242.12207,136.698242,-0.000122,-0.799959,99.197517,40.0,1.5,false,DoNotOverride,1.2",
+              "duration": 10
+            }
+          }
+        ]
+      },
+      {
+        "PARA": [
+          {
+            "SEQ": [
+              {
+                "Delay": {
+                  "DelaySeconds": 2
+                }
+              },
+              {
+                "PlayAnimation": {
+                  "ActorId": 200021,
+                  "AnimationId": "Talk02_End",
+                  "Duration": 2
+                }
+              }
+            ]
+          },
+          {
+            "SEQ": [
+              {
+                "SEQ": [
+                  {
+                    "Delay": {
+                      "DelaySeconds": 5
+                    }
+                  },
+                  {
+                    "CameraMoveTo": {
+                      "TargetPosition": "24.785156,58.79248,123.002441,-0.000123,3.599427,-100.993622,40.000011,1.5,false,DoNotOverride,1.2",
+                      "duration": 0
+                    }
+                  }
+                ]
+              },
+              {
+                "CameraMoveTo": {
+                  "TargetPosition": "32.329102,57.327148,123.002441,-0.000122,3.999438,-104.194237,40.000011,1.5,false,DoNotOverride,1.2",
+                  "duration": 10
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030810": {
+    "Operations": [
+      {
+        "PlayAnimation": {
+          "ActorId": 100304,
+          "AnimationId": "AgreeHead"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "202.821289,-682.109375,384.926758,-0.000121,-20.999859,108.990448,35.0,1.5,false,DoNotOverride,1.2"
+            }
+          },
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "177.298828,-690.292236,384.926758,-0.00012,-21.199854,106.390915,35.0,1.5,false,DoNotOverride,1.2",
+              "duration": 10
+            }
+          }
+        ]
+      },
+      {
+        "SEQ": [
+          {
+            "Delay": {
+              "DelaySeconds": 2
+            }
+          },
+          {
+            "PlayAnimation": {
+              "ActorId": 100304,
+              "AnimationId": "Explain02_End",
+              "Duration": 2
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030812": {
+    "Operations": [
+      {
+        "PlayAnimation": {
+          "ActorId": 100304,
+          "AnimationId": "DisagreeHead"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "202.821289,-682.109375,384.926758,-0.000121,-20.999859,108.990448,35.0,1.5,false,DoNotOverride,1.2"
+            }
+          },
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "177.298828,-690.292236,384.926758,-0.00012,-21.199854,106.390915,35.0,1.5,false,DoNotOverride,1.2",
+              "duration": 10
+            }
+          }
+        ]
+      },
+      {
+        "SEQ": [
+          {
+            "Delay": {
+              "DelaySeconds": 2
+            }
+          },
+          {
+            "PlayAnimation": {
+              "ActorId": 100304,
+              "AnimationId": "Explain02_End",
+              "Duration": 2
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030813": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 200002,
+          "FacialId": "Happy01"
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 200002,
+          "AnimationId": "Explain02_Start"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "32.081055,-28.242676,78.543457,-0.000123,11.19845,-70.9897,40.000027,1.5,false,DoNotOverride,1.2"
+            }
+          },
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "12.866211,27.515869,68.764893,-0.000122,8.398448,-71.189598,40.000027,1.5,false,DoNotOverride,1.2",
+              "duration": 0.5
+            }
+          }
+        ]
+      },
+      {
+        "SEQ": [
+          {
+            "Delay": {
+              "DelaySeconds": 2
+            }
+          },
+          {
+            "PlayAnimation": {
+              "ActorId": 200002,
+              "AnimationId": "Explain01_End",
+              "Duration": 2
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030814": {
+    "Operations": [
+      {
+        "PlayAnimation": {
+          "ActorId": 200002,
+          "AnimationId": "Agree"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "27.410156,-34.083984,136.467285,-0.000122,3.230529,-113.933205,30.0,1.5,false,DoNotOverride,1.2"
+            }
+          },
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "39.094727,-7.752686,134.841309,-0.000122,2.430516,-113.932823,30.0,1.5,false,DoNotOverride,1.2",
+              "duration": 10
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030815": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 100304,
+          "FacialId": "Doubt01"
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100304,
+          "AnimationId": "Explain01_Start"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "25.53418,-187.426025,140.700439,-0.000122,-2.369632,101.068672,30.0,1.5,false,DoNotOverride,1.2"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030816": {
+    "Operations": [
+      {
+        "PlayAnimation": {
+          "ActorId": 100001,
+          "AnimationId": "Confident_Start"
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100304,
+          "AnimationId": "Explain01_End"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "237.609375,311.72168,37.491455,-0.000121,10.798064,-126.589691,30.0,1.5,false,DoNotOverride,1.2"
+            }
+          },
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "258.552734,295.424072,37.491455,-0.000122,10.998025,-130.988983,30.0,1.5,false,DoNotOverride,1.2",
+              "duration": 10
+            }
+          }
+        ]
+      },
+      {
+        "SEQ": [
+          {
+            "Delay": {
+              "DelaySeconds": 1
+            }
+          },
+          {
+            "PlayAnimation": {
+              "ActorId": 100001,
+              "AnimationId": "Confident_End",
+              "Duration": 2
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030817": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 100304,
+          "FacialId": "Think01"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "8.558594,-5.310303,122.864258,-0.000121,5.400015,89.397499,35.0,1.5,false,DoNotOverride,1.2"
+            }
+          },
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "8.689453,7.668945,124.09082,-0.000121,5.400015,89.397499,35.0,1.5,false,DoNotOverride,1.2",
+              "duration": 10
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030818": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 100304,
+          "FacialId": "Confident01"
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100304,
+          "AnimationId": "AgreeHead"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "-120.288086,-367.168945,91.211426,-0.000122,4.400308,70.991791,35.000023,1.5,false,DoNotOverride,1.2"
+            }
+          },
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "-120.288086,-367.168945,91.211426,-0.000122,2.800302,70.991676,35.000023,1.5,false,DoNotOverride,1.2",
+              "duration": 10
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030819": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 100304,
+          "FacialId": "Doubt01"
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100304,
+            "LookedInfo": 200021
+          }
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "-36.814453,-5.089111,124.812256,-AA1160.000122,5.000607,71.789139,35.000023,1.5,false,DoNotOverride,1.2"
+            }
+          },
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "-29.711914,16.467773,126.797119,-0.000122,5.000607,71.588997,35.000023,1.5,false,DoNotOverride,1.2",
+              "duration": 6
+            }
+          }
+        ]
+      },
+      {
+        "SEQ": [
+          {
+            "Delay": {
+              "DelaySeconds": 4
+            }
+          },
+          {
+            "PlayAnimation": {
+              "ActorId": 100304,
+              "AnimationId": "Explain02_Start",
+              "Duration": 2
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030820": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 200021,
+          "FacialId": "Ahaha01"
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100304,
+            "LookedInfo": 100001
+          }
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 200021,
+          "AnimationId": "Sigh_Start"
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100304,
+          "AnimationId": "Explain02_End"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "134.194336,248.073242,103.617432,-0.000122,4.396907,-126.986076,30.000002,1.5,false,DoNotOverride,1.2"
+            }
+          },
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "129.308594,251.674316,103.617432,-0.000122,4.396907,-125.585915,30.000002,1.5,false,DoNotOverride,1.2",
+              "duration": 10
+            }
+          }
+        ]
+      },
+      {
+        "SEQ": [
+          {
+            "Delay": {
+              "DelaySeconds": 2
+            }
+          },
+          {
+            "PlayAnimation": {
+              "ActorId": 200021,
+              "AnimationId": "Sigh_End",
+              "Duration": 2
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030821": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 200021,
+          "FacialId": "Shock01"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "40.24707,133.596191,138.103271,-0.000122,2.000023,170.404037,35.0,1.5,false,DoNotOverride,1.2"
+            }
+          },
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "39.746094,130.626221,138.103271,-0.000122,2.000023,170.404037,35.0,1.5,false,DoNotOverride,1.2",
+              "duration": 8
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030822": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 100304,
+          "FacialId": "Confident01"
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100304,
+          "AnimationId": "Talk02_Start"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "155.024414,-651.978271,105.728516,-0.000122,7.398713,107.904366,40.000023,1.5,false,DoNotOverride,1.2"
+            }
+          },
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "155.024414,-651.978271,105.728516,-0.000122,2.598771,106.304527,40.000011,1.5,false,DoNotOverride,1.2",
+              "duration": 15
+            }
+          }
+        ]
+      },
+      {
+        "SEQ": [
+          {
+            "Delay": {
+              "DelaySeconds": 6
+            }
+          },
+          {
+            "PlayAnimation": {
+              "ActorId": 100304,
+              "AnimationId": "Talk02_End",
+              "Duration": 2
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030823": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 100001,
+          "FacialId": "Doubt01"
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100001,
+          "AnimationId": "Shock_Start"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "6.436523,-56.493652,135.884766,-0.000122,7.398474,-105.213242,35.000019,1.5,false,DoNotOverride,1.2"
+            }
+          },
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "13.727539,-29.676025,130.914795,-0.000122,6.607538,-104.814003,35.000023,1.5,false,DoNotOverride,1.2",
+              "duration": 0.5
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10030824": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 100001,
+          "FacialId": "Confident01"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "61.378906,214.812744,138.863037,-0.000122,-3.16205,-110.605522,35.000023,1.5,false,DoNotOverride,1.2"
+            }
+          },
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "54.251953,217.491455,138.863037,-0.000122,-2.962021,-109.205406,35.000023,1.5,false,DoNotOverride,1.2",
+              "duration": 5
+            }
+          }
+        ]
+      },
+      {
+        "PARA": [
+          {
+            "PlayAnimation": {
+              "ActorId": 100001,
+              "AnimationId": "Shock_End",
+              "Duration": 2
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10031001": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 100001,
+          "FacialId": "Doubt01"
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100304,
+            "LookedInfo": 100001
+          }
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100304,
+          "AnimationId": "Explain01_Start"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "-478.665039,-1042.830078,66.149902,0.000152,1.999353,62.608269,35.000008,941.904541,false,Manual,1.2"
+            }
+          },
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "-471.366211,-1046.613281,66.149902,0.000152,1.999353,62.608269,35.000008,941.904541,false,Manual,1.2",
+              "duration": 10
+            }
+          }
+        ]
+      },
+      {
+        "SEQ": [
+          {
+            "SEQ": [
+              {
+                "Delay": {
+                  "DelaySeconds": 5
+                }
+              },
+              {
+                "CameraMoveTo": {
+                  "TargetPosition": "-28.166992,-140.116943,104.505859,0.000152,11.999488,-42.391018,35.000011,941.904541,false,DoNotOverride,1.2",
+                  "duration": 0
+                }
+              }
+            ]
+          },
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "-25.53418,-137.13916,104.505859,0.000151,11.999488,-43.791016,35.000011,941.904541,false,DoNotOverride,1.2",
+              "duration": 5
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10031004": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 100304,
+          "FacialId": "Doubt01"
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100304,
+          "AnimationId": "Explain01_End"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "90.230469,-472.615723,119.978027,0.000191,-0.400393,102.218979,40.0,941.904541,false,DoNotOverride,1.2"
+            }
+          },
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "90.230469,-472.615723,130.0,0.000199,-0.400393,102.219009,40.0,941.904541,false,DoNotOverride,1.2",
+              "duration": 10
+            }
+          }
+        ]
+      },
+      {
+        "SEQ": [
+          {
+            "Delay": {
+              "DelaySeconds": 2
+            }
+          },
+          {
+            "LookAt": {
+              "LookAtDescription": {
+                "LookId": 100304,
+                "LookedInfo": 100001
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10031005": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 100001,
+          "FacialId": "None"
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100001,
+          "AnimationId": "ScratchHead_Start"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "-64.777344,-47.655518,128.217285,0.000165,-0.000854,-48.591522,40.0,941.904541,false,DoNotOverride,1.2"
+            }
+          },
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "-66.598633,-49.306152,128.217285,0.000165,-0.000854,-46.391235,40.0,941.904541,false,DoNotOverride,1.2",
+              "duration": 10
+            }
+          }
+        ]
+      },
+      {
+        "SEQ": [
+          {
+            "Delay": {
+              "DelaySeconds": 3
+            }
+          },
+          {
+            "PlayAnimation": {
+              "ActorId": 100001,
+              "AnimationId": "ScratchHead_End",
+              "Duration": 2
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10031006": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 100001,
+          "FacialId": "Think01"
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 200002,
+            "LookedInfo": 100001
+          }
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100001,
+          "AnimationId": "Think_Start"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "-401.587891,135.657227,245.506836,0.000158,-15.000843,-35.580502,35.0,941.904541,false,Manual,1.903106"
+            }
+          },
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "-408.319336,125.966064,245.506836,0.000153,-15.000843,-32.580688,35.0,941.904541,false,Manual,1.903106",
+              "duration": 10
+            }
+          }
+        ]
+      },
+      {
+        "SEQ": [
+          {
+            "Delay": {
+              "DelaySeconds": 3
+            }
+          },
+          {
+            "PlayAnimation": {
+              "ActorId": 200002,
+              "AnimationId": "Think_Start",
+              "Duration": 2
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10031007": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 200021,
+          "FacialId": "Sad01"
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 200021,
+            "LookedInfo": 100001
+          }
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 200021,
+          "AnimationId": "DisagreeHead"
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100001,
+          "AnimationId": "Think_End"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "124.522461,-52.962646,126.131836,0.000177,4.398307,-110.971413,35.0,941.904541,false,DoNotOverride,1.903106"
+            }
+          },
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "131.162109,-55.508545,126.131836,0.000174,4.398307,-112.770927,35.0,941.904541,false,DoNotOverride,1.903106",
+              "duration": 10
+            }
+          }
+        ]
+      },
+      {
+        "PARA": [
+          {
+            "SEQ": [
+              {
+                "Delay": {
+                  "DelaySeconds": 3
+                }
+              },
+              {
+                "LookAt": {
+                  "LookAtDescription": {
+                    "LookId": 100001,
+                    "LookedInfo": 200021
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "SEQ": [
+              {
+                "Delay": {
+                  "DelaySeconds": 3.5
+                }
+              },
+              {
+                "PlayAnimation": {
+                  "ActorId": 200021,
+                  "AnimationId": "Talk03_Start",
+                  "Duration": 2
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10031008": {
+    "Operations": [
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100001,
+            "LookedInfo": 100001
+          }
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 200002,
+          "AnimationId": "Think_End"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "114.541016,142.993408,51.0,0.000056,8.797734,-105.975533,35.0,941.904541,false,DoNotOverride,1.903106"
+            }
+          },
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "122.243164,140.819336,51.0,0.000055,8.797734,-107.575684,35.0,941.904541,false,DoNotOverride,1.903106",
+              "duration": 10
+            }
+          }
+        ]
+      },
+      {
+        "SEQ": [
+          {
+            "Delay": {
+              "DelaySeconds": 2
+            }
+          },
+          {
+            "PlayAnimation": {
+              "ActorId": 100001,
+              "AnimationId": "Explain02_Start",
+              "Duration": 2
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10031009": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 100001,
+          "FacialId": "Doubt01"
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 200021,
+            "LookedInfo": 100304
+          }
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100001,
+          "AnimationId": "Explain02_End"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "16.606445,-174.10498,173.058594,10.800163,-21.601551,-45.770706,35.0,941.904541,false,DoNotOverride,1.903106"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10031010": {
+    "Operations": [
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100001,
+            "LookedInfo": 100304
+          }
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 200021,
+          "AnimationId": "Talk03_End"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "120.47168,-462.604004,186.308594,0.000047,-12.402864,110.025742,35.0,941.904541,false,DoNotOverride,1.903106"
+            }
+          },
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "120.47168,-462.604004,186.308594,0.000047,-10.402828,110.02562,35.0,941.904541,false,DoNotOverride,1.903106",
+              "duration": 10
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10031101": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 100304,
+          "FacialId": "Think01"
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100304,
+            "LookedInfo": 100001
+          }
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 200021,
+            "LookedInfo": 100304
+          }
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 200002,
+            "LookedInfo": 100304
+          }
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100001,
+            "LookedInfo": 100304
+          }
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100304,
+          "AnimationId": "Think_Start"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "844.44043,-1090.708984,244.199707,0.000182,-7.000854,132.199615,50.000008,100000.0,false,Manual,22.0"
+            }
+          },
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "792.896484,-1033.864258,234.775391,0.000182,-7.000854,132.199615,50.000008,100000.0,false,Manual,22.0",
+              "duration": 5
+            }
+          }
+        ]
+      },
+      {
+        "SEQ": [
+          {
+            "Delay": {
+              "DelaySeconds": 4
+            }
+          },
+          {
+            "PlayAnimation": {
+              "ActorId": 100304,
+              "AnimationId": "Think_End",
+              "Duration": 2
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10031102": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 100304,
+          "FacialId": "None"
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100304,
+          "AnimationId": "Explain01_Start"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "164.110352,-295.21875,130.549805,0.000187,-2.201418,135.795242,35.0,324.824371,false,Manual,3.0"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10031103": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 200002,
+          "FacialId": "Shock01"
+        }
+      },
+      {
+        "PlayFacial": {
+          "ActorId": 200021,
+          "FacialId": "Shock01"
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100001,
+            "LookedInfo": 100304
+          }
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100001,
+          "AnimationId": "Explain01_Start"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "1.719727,-99.894531,130.34082,0.000209,1.398256,-61.207794,35.000011,324.828125,false,Manual,22.0"
+            }
+          }
+        ]
+      },
+      {
+        "SEQ": [
+          {
+            "Delay": {
+              "DelaySeconds": 7
+            }
+          },
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "56.811523,-148.78833,135.421875,0.000207,4.598254,-77.806282,35.000011,324.828125,false,Manual,22.0",
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10031104": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 100001,
+          "FacialId": "Think01"
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 200021,
+            "LookedInfo": 100001
+          }
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100001,
+          "AnimationId": "Think_Start"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "56.811523,-148.78833,135.421875,0.000208,4.59824,-76.605972,35.000015,324.828125,false,Manual,22.0"
+            }
+          }
+        ]
+      },
+      {
+        "SEQ": [
+          {
+            "Delay": {
+              "DelaySeconds": 6
+            }
+          },
+          {
+            "PlayAnimation": {
+              "ActorId": 100001,
+              "AnimationId": "Think_End",
+              "Duration": 2
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10031105": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 100001,
+          "FacialId": "None"
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 200021,
+            "LookedInfo": 100304
+          }
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100304,
+          "AnimationId": "Think_Start"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "149.513672,-169.366943,198.691895,0.000219,-21.601606,154.789032,35.0,324.824371,false,Manual,3.0"
+            }
+          }
+        ]
+      },
+      {
+        "SEQ": [
+          {
+            "Delay": {
+              "DelaySeconds": 3
+            }
+          },
+          {
+            "PlayAnimation": {
+              "ActorId": 100304,
+              "AnimationId": "Think_End",
+              "Duration": 2
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10031106": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 100001,
+          "FacialId": "Shock01"
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100001,
+          "AnimationId": "Think_End"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "5.640625,-44.589111,120.307129,0.000218,2.797017,-73.17907,35.000015,324.824371,false,Manual,3.0"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10031107": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 100001,
+          "FacialId": "None"
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100304,
+          "AnimationId": "Talk02_Start"
+        }
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10031108": {
+    "Operations": [
+      {
+        "PlayAnimation": {
+          "ActorId": 100304,
+          "AnimationId": "Talk02_End"
+        }
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10031109": {
+    "Operations": [
+      {
+        "PlayAnimation": {
+          "ActorId": 100001,
+          "AnimationId": "Explain02_Start"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "145.999023,-899.881348,124.759277,0.000267,33.387341,-12.212714,15.0,324.824371,false,Manual,3.0"
+            }
+          },
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "116.962891,-893.183594,105.121094,0.000266,33.387348,-12.612405,15.0,324.824371,false,Manual,3.0",
+              "duration": 5
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10031110": {
+    "Operations": [
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "5.640625,-44.589111,120.307129,0.000218,2.797017,-73.17907,35.000015,324.824371,false,Manual,3.0"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10031111": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 100304,
+          "FacialId": "Happy01"
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100304,
+          "AnimationId": "Explain02_Start"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "105.765625,-455.361328,108.25,0.000137,4.600098,105.407356,35.000008,100000.0,false,Manual,22.0"
+            }
+          }
+        ]
+      },
+      {
+        "SEQ": [
+          {
+            "Delay": {
+              "DelaySeconds": 3
+            }
+          },
+          {
+            "PlayAnimation": {
+              "ActorId": 100304,
+              "AnimationId": "Confident_Start",
+              "Duration": 2
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10031112": {
+    "Operations": [
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100304,
+            "LookedInfo": 200021
+          }
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100001,
+            "LookedInfo": 100304
+          }
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100304,
+          "AnimationId": "Confident_End"
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100001,
+          "AnimationId": "Explain02_End"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "124.522461,-52.962646,126.131836,0.000177,4.398307,-110.971375,35.0,941.904541,false,DoNotOverride,1.903106"
+            }
+          }
+        ]
+      },
+      {
+        "SEQ": [
+          {
+            "TurnTo": {
+              "TurnToDescription": {
+                "P1": 200021,
+                "P2": 100304,
+                "Type": "Actor"
+              }
+            }
+          },
+          {
+            "PlayAnimation": {
+              "ActorId": 200021,
+              "AnimationId": "Explain01_Start",
+              "Duration": 2
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10031113": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 100304,
+          "FacialId": "Shock01"
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 200021,
+          "AnimationId": "Explain01_End"
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100304,
+          "AnimationId": "DisagreeHead"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "90.230469,-472.615723,119.978027,0.000191,-0.400393,102.219055,40.0,941.904541,false,DoNotOverride,1.2"
+            }
+          }
+        ]
+      },
+      {
+        "SEQ": [
+          {
+            "Delay": {
+              "DelaySeconds": 3
+            }
+          },
+          {
+            "PlayAnimation": {
+              "ActorId": 100304,
+              "AnimationId": "Explain02_Start",
+              "Duration": 2
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10031115": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 100304,
+          "FacialId": "None"
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100304,
+            "LookedInfo": 100001
+          }
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100304,
+          "AnimationId": "Explain02_End"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "58.354492,-249.67041,147.177734,0.000189,-3.600589,110.819168,40.0,941.904541,false,DoNotOverride,1.2"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10031117": {
+    "Operations": [
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100304,
+            "LookedInfo": 100001
+          }
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100304,
+          "AnimationId": "Explain02_End"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "58.354492,-249.67041,147.177734,0.000189,-3.600589,110.819168,40.0,941.904541,false,DoNotOverride,1.2"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10031118": {
+    "Operations": [
+      {
+        "PlayAnimation": {
+          "ActorId": 200021,
+          "AnimationId": "Shock_Start"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "124.522461,-52.962646,126.131836,0.000177,4.398307,-110.971375,35.0,941.904541,false,DoNotOverride,1.903106"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10031119": {
+    "Operations": [
+      {
+        "PlayAnimation": {
+          "ActorId": 100304,
+          "AnimationId": "Explain02_End"
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 200021,
+          "AnimationId": "Shock_End"
+        }
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10031120": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 100304,
+          "FacialId": "Sad02"
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100304,
+          "AnimationId": "Explain01_Start"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "149.513672,-169.366943,198.691895,0.000219,-21.601578,154.789032,35.0,324.824371,false,Manual,3.0"
+            }
+          }
+        ]
+      },
+      {
+        "SEQ": [
+          {
+            "Delay": {
+              "DelaySeconds": 5
+            }
+          },
+          {
+            "PlayAnimation": {
+              "ActorId": 100304,
+              "AnimationId": "DisagreeHead",
+              "Duration": 2
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10031121": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 100304,
+          "FacialId": "Sad02"
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100304,
+          "AnimationId": "DisagreeHead"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "114.541016,142.993408,51.0,0.000056,8.797734,-105.975571,35.0,941.904541,false,DoNotOverride,1.903106"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10031122": {
+    "Operations": [
+      {
+        "PlayAnimation": {
+          "ActorId": 100304,
+          "AnimationId": "Explain01_End"
+        }
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10031123": {
+    "Operations": [
+      {
+        "PlayAnimation": {
+          "ActorId": 100001,
+          "AnimationId": "AgreeHead"
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100304,
+          "AnimationId": "Explain01_End"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "133.141602,-83.859375,106.349609,0.000045,10.39638,-116.369263,35.000011,941.904541,false,DoNotOverride,1.903106"
+            }
+          }
+        ]
+      },
+      {
+        "SEQ": [
+          {
+            "Delay": {
+              "DelaySeconds": 3
+            }
+          },
+          {
+            "PlayAnimation": {
+              "ActorId": 100001,
+              "AnimationId": "Explain01_Start",
+              "Duration": 2
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10031201": {
+    "Operations": [
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100304,
+            "LookedInfo": 100001
+          }
+        }
+      },
+      {
+        "TurnTo": {
+          "TurnToDescription": {
+            "P1": 100304,
+            "P2": 100001,
+            "Type": "Actor"
+          }
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "-802.193359,-200.429199,291.232422,0.000171,-5.395378,13.011268,35.000011,100000.0,false,Manual,22.0"
+            }
+          },
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "-802.193359,-200.429199,291.232422,0.000172,-13.395387,14.612322,35.000011,100000.0,false,Manual,22.0",
+              "duration": 5
+            }
+          }
+        ]
+      },
+      {
+        "SEQ": [
+          {
+            "Delay": {
+              "DelaySeconds": 3
+            }
+          },
+          {
+            "PlayAnimation": {
+              "ActorId": 100304,
+              "AnimationId": "Explain01_Start",
+              "Duration": 2
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10031202": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 100001,
+          "FacialId": "Think01"
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100001,
+            "LookedInfo": 100304
+          }
+        }
+      },
+      {
+        "TurnTo": {
+          "TurnToDescription": {
+            "P1": 100001,
+            "P2": 100304,
+            "Type": "Actor"
+          }
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100304,
+          "AnimationId": "Explain01_End"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "-71.710938,137.977051,125.391113,0.000207,1.204244,-66.988014,35.000023,358.523438,false,Manual,3.0"
+            }
+          }
+        ]
+      },
+      {
+        "SEQ": [
+          {
+            "Delay": {
+              "DelaySeconds": 3
+            }
+          },
+          {
+            "PlayAnimation": {
+              "ActorId": 100001,
+              "AnimationId": "Think_Start",
+              "Duration": 2
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10031203": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 100001,
+          "FacialId": "None"
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 200002,
+            "LookedInfo": 100304
+          }
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100001,
+          "AnimationId": "Think_End"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "-54.453125,66.138184,140.532715,0.000112,-0.197263,-73.591354,35.000011,100000.0,false,Manual,22.0"
+            }
+          }
+        ]
+      },
+      {
+        "SEQ": [
+          {
+            "Delay": {
+              "DelaySeconds": 2
+            }
+          },
+          {
+            "PlayAnimation": {
+              "ActorId": 100001,
+              "AnimationId": "DisagreeHead",
+              "Duration": 2
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10031204": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 100304,
+          "FacialId": "Ahaha01"
+        }
+      },
+      {
+        "TurnTo": {
+          "TurnToDescription": {
+            "P1": 200021,
+            "P2": 100304,
+            "Type": "Actor"
+          }
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100304,
+          "AnimationId": "Explain02_Start"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "-69.961914,-225.399414,156.75,0.000232,-6.595599,79.803307,35.000023,358.523438,false,Manual,3.0"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10031206": {
+    "Operations": [
+      {
+        "PlayAnimation": {
+          "ActorId": 100304,
+          "AnimationId": "Explain02_End"
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100001,
+          "AnimationId": "AgreeHead"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "-54.453125,66.138184,140.532715,0.000112,-0.197263,-73.591354,35.000011,100000.0,false,Manual,22.0"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10031208": {
+    "Operations": [
+      {
+        "PlayAnimation": {
+          "ActorId": 100304,
+          "AnimationId": "Explain02_End"
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100001,
+          "AnimationId": "DisagreeHead"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "-54.453125,66.138184,140.532715,0.000112,-0.197263,-73.591354,35.000011,100000.0,false,Manual,22.0"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10031209": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 100304,
+          "FacialId": "None"
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100304,
+          "AnimationId": "AgreeHead"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "-53.863281,-63.319824,136.021973,0.000113,2.80494,77.005501,35.000015,100000.0,false,Manual,22.0"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10031501": {
+    "Operations": [
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 200021,
+            "LookedInfo": 100304
+          }
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100001,
+            "LookedInfo": 100304
+          }
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 200002,
+            "LookedInfo": 100304
+          }
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100304,
+            "LookedInfo": 100001
+          }
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100304,
+          "AnimationId": "Explain01_Start"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "-300.109375,-328.852295,9.648438,0.000113,8.397396,46.788681,30.0,100000.0,false,Manual,3.0-300.109375,-328.852295,9.648438,0.000113,8.397396,46.788681,30.0,100000.0,false,Manual,22.0"
+            }
+          },
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "-300.109375,-328.852295,9.648438,0.000112,13.797432,46.589191,30.0,100000.0,false,Manual,22.0",
+              "duration": 4
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10031502": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 200021,
+          "FacialId": "Think01"
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100304,
+            "LookedInfo": 200021
+          }
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 200021,
+          "AnimationId": "Think_Start"
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100304,
+          "AnimationId": "Explain01_End"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "-196.082031,-87.382202,123.586182,0.000121,4.399837,29.404526,35.000011,100000.0,false,Manual,22.0"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10031503": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 200021,
+          "FacialId": "None"
+        }
+      },
+      {
+        "PlayFacial": {
+          "ActorId": 100304,
+          "FacialId": "Sad01"
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100304,
+          "AnimationId": "DisagreeHead"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "210.840332,-20.857056,160.915527,0.000128,-7.400673,172.395859,35.000011,328.483368,false,Manual,3.0"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10031504": {
+    "Operations": [
+      {
+        "PlayAnimation": {
+          "ActorId": 200021,
+          "AnimationId": "Think_End"
+        }
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10031505": {
+    "Operations": [
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100304,
+            "LookedInfo": 100304
+          }
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100304,
+          "AnimationId": "Sigh_Start"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "53.891113,3.93689,137.345459,0.00013,-1.601071,-174.00856,35.000011,103.373474,false,Manual,3.0"
+            }
+          },
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "16.574219,0.020508,136.559082,0.00013,-1.201041,-174.00856,35.000011,103.373474,false,Manual,3.0",
+              "duration": 4
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10031506": {
+    "Operations": [
+      {
+        "PlayAnimation": {
+          "ActorId": 100304,
+          "AnimationId": "Sigh_End"
+        }
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10031507": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 200021,
+          "FacialId": "Sad01"
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 200021,
+          "AnimationId": "DisagreeHead"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "-192.28125,-79.032227,113.535645,0.000153,6.002226,26.208307,35.000008,100000.0,false,Manual,22.0"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10031508": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 100304,
+          "FacialId": "Unhappy01"
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100304,
+          "AnimationId": "Explain02_Start"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "25.955078,-88.894897,153.555908,0.000082,-7.000821,146.786774,35.000011,100000.0,false,Manual,22.0"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10031509": {
+    "Operations": [
+      {
+        "SEQ": [
+          {
+            "Delay": {
+              "DelaySeconds": 3
+            }
+          },
+          {
+            "PlayAnimation": {
+              "ActorId": 100304,
+              "AnimationId": "Explain02_End",
+              "Duration": 2
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10031510": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 200021,
+          "FacialId": "Angry01"
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100001,
+            "LookedInfo": 200021
+          }
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 200021,
+          "AnimationId": "Talk03_Start"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "-75.790039,-151.490479,103.759521,0.000096,7.797897,37.589153,35.000015,320.964508,false,Manual,3.0"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10031511": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 100304,
+          "FacialId": "Sad02"
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100001,
+            "LookedInfo": 100304
+          }
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100304,
+          "AnimationId": "DisagreeHead"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "234.138672,-54.546997,140.426514,0.000134,-4.200279,171.592026,35.0,328.483368,false,Manual,22.0"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10031512": {
+    "Operations": [
+      {
+        "PlayAnimation": {
+          "ActorId": 200021,
+          "AnimationId": "Talk03_End"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "-75.790039,-151.490479,103.759521,0.000096,7.797897,37.589153,35.000015,320.964508,false,Manual,3.0"
+            }
+          }
+        ]
+      },
+      {
+        "SEQ": [
+          {
+            "Delay": {
+              "DelaySeconds": 2
+            }
+          },
+          {
+            "PlayAnimation": {
+              "ActorId": 200021,
+              "AnimationId": "DisagreeHead",
+              "Duration": 2
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10031513": {
+    "Operations": [
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100304,
+            "LookedInfo": 100001
+          }
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100001,
+          "AnimationId": "Confident_Start"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "-173.730469,-12.869507,127.995117,0.000144,-0.600647,-13.806776,35.000015,234.613907,false,Manual,3.0"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10031514": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 100304,
+          "FacialId": "None"
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100304,
+            "LookedInfo": 100001
+          }
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100304,
+          "AnimationId": "AgreeHead"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "129.509766,-215.724609,129.291016,0.000136,-1.800014,129.604965,35.000011,100000.0,false,Manual,22.0"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10031701": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 100304,
+          "FacialId": "Think01"
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 200021,
+            "LookedInfo": 100304
+          }
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100001,
+            "LookedInfo": 100304
+          }
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 200002,
+            "LookedInfo": 100304
+          }
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 100304,
+            "LookedInfo": 100001
+          }
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "-606.177734,-381.434937,-17.229248,-0.001038,12.606322,29.999029,35.000015,1068.077393,false,Manual,1.2"
+            }
+          },
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "-606.177734,-381.434937,-17.229248,-0.001038,10.206399,27.999102,35.000015,1068.077393,false,Manual,1.2",
+              "duration": 8
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10031702": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 100304,
+          "FacialId": "Doubt01"
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100304,
+          "AnimationId": "Think_Start"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "89.222656,-173.515381,134.491943,0.000058,-2.800077,128.408691,35.000008,1068.077393,false,DoNotOverride,1.2"
+            }
+          },
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "85.961914,-176.022827,134.491943,0.000058,-2.800077,125.808693,35.000008,1068.077393,false,DoNotOverride,1.2",
+              "duration": 10
+            }
+          }
+        ]
+      },
+      {
+        "SEQ": [
+          {
+            "Delay": {
+              "DelaySeconds": 8
+            }
+          },
+          {
+            "PlayAnimation": {
+              "ActorId": 100304,
+              "AnimationId": "Think_End",
+              "Duration": 2
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10031703": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 100001,
+          "FacialId": "Doubt01"
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100001,
+          "AnimationId": "Think_Start"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "-86.515625,-65.973633,106.226318,0.000065,7.599678,-10.196134,35.000011,1068.077393,false,DoNotOverride,1.2"
+            }
+          },
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "-85.334961,-59.396606,106.226318,0.000066,7.599678,-13.396557,35.000011,1068.077393,false,DoNotOverride,1.2",
+              "duration": 10
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10031704": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 100001,
+          "FacialId": "Confident01"
+        }
+      },
+      {
+        "LookAt": {
+          "LookAtDescription": {
+            "LookId": 200021,
+            "LookedInfo": 100001
+          }
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "-96.705078,-143.869263,95.202881,0.000087,9.999096,26.805567,35.000008,1068.077393,false,DoNotOverride,1.2"
+            }
+          },
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "-96.705078,-143.869263,104.202881,0.000087,9.999096,26.805567,35.000008,1068.077393,false,DoNotOverride,1.2",
+              "duration": 10
+            }
+          }
+        ]
+      },
+      {
+        "SEQ": [
+          {
+            "Delay": {
+              "DelaySeconds": 5
+            }
+          },
+          {
+            "PlayAnimation": {
+              "ActorId": 100001,
+              "AnimationId": "Think_End",
+              "Duration": 2
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10031705": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 100001,
+          "FacialId": "Doubt01"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "-18.842773,-73.567017,152.472168,14.402329,-18.200684,-16.794279,35.000008,1068.077393,false,DoNotOverride,1.2"
+            }
+          },
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "-17.683594,-69.659546,151.472412,14.402889,-18.200684,-20.594292,35.000008,1068.077393,false,DoNotOverride,1.2",
+              "duration": 10
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  },
+  "10031706": {
+    "Operations": [
+      {
+        "PlayFacial": {
+          "ActorId": 100304,
+          "FacialId": "Confident01"
+        }
+      },
+      {
+        "PlayAnimation": {
+          "ActorId": 100304,
+          "AnimationId": "AgreeHead"
+        }
+      },
+      {
+        "SEQ": [
+          {
+            "CameraMoveTo": {
+              "TargetPosition": "30.242188,-125.663452,122.202881,0.00007,2.198481,134.384232,35.000008,100000.0,false,Manual,22.0"
+            }
+          }
+        ]
+      }
+    ],
+    "bAllowClick": true
+  }
+}

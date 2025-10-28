@@ -1,194 +1,216 @@
 {
-  "Idle": {
-    "SourceTag": "Idle"
-  },
-  "Falling": {
-    "SourceTag": "Falling",
+  "Avoid": {
     "Interactive": 1,
-    "Seating": 1
-  },
-  "Slide": {
-    "SourceTag": "Slide",
     "LandHeavy": 1,
+    "Seating": 1,
     "Shooting": 1,
-    "Interactive": 1,
-    "Seating": 1
-  },
-  "Crouch": {
-    "SourceTag": "Crouch",
-    "Seating": 1
+    "Skill": 1,
+    "SourceTag": "Avoid"
   },
   "BulletJump": {
-    "SourceTag": "BulletJump",
+    "Interactive": 1,
     "LandHeavy": 1,
-    "Interactive": 1,
-    "Seating": 1
+    "Seating": 1,
+    "SourceTag": "BulletJump"
   },
-  "Avoid": {
-    "SourceTag": "Avoid",
-    "LandHeavy": 1,
-    "Skill": 1,
-    "Shooting": 1,
-    "Interactive": 1,
-    "Seating": 1
-  },
-  "LandHeavy": {
-    "SourceTag": "LandHeavy",
-    "Interactive": 1,
-    "Seating": 1
-  },
-  "Skill": {
-    "SourceTag": "Skill",
-    "LandHeavy": 1,
-    "Interactive": 1,
-    "Seating": 1
-  },
-  "Shooting": {
-    "SourceTag": "Shooting",
-    "LandHeavy": 1,
-    "Interactive": 1,
-    "Seating": 1
+  "Crouch": {
+    "Seating": 1,
+    "SourceTag": "Crouch"
   },
   "Dead": {
-    "SourceTag": "Dead",
-    "Idle": 1,
-    "Falling": 1,
-    "Slide": 1,
-    "Crouch": 1,
     "BulletJump": 1,
-    "LandHeavy": 1,
-    "Skill": 1,
-    "Shooting": 1,
+    "Crouch": 1,
+    "Falling": 1,
     "GrabHit": 1,
-    "HitFly": 1,
     "HeavyHit": 1,
-    "LightHitRanged": 1,
-    "LightHit": 1,
+    "HitFly": 1,
+    "Hook": 1,
+    "Idle": 1,
+    "Interactive": 1,
+    "LandHeavy": 1,
     "LevelEnter": 1,
     "LevelFinish": 1,
+    "LightHit": 1,
+    "LightHitRanged": 1,
+    "Seating": 1,
+    "Shooting": 1,
+    "Skill": 1,
+    "Slide": 1,
+    "SourceTag": "Dead",
+    "Stun": 1
+  },
+  "Falling": {
     "Interactive": 1,
     "Seating": 1,
-    "Stun": 1
+    "SourceTag": "Falling"
   },
   "GrabHit": {
-    "SourceTag": "GrabHit",
-    "Slide": 1,
-    "Crouch": 1,
     "BulletJump": 1,
-    "LandHeavy": 1,
-    "Skill": 1,
-    "Shooting": 1,
-    "HitFly": 1,
+    "Crouch": 1,
     "HeavyHit": 1,
-    "LightHitRanged": 1,
-    "LightHit": 1,
+    "HitFly": 1,
+    "Hook": 1,
     "Interactive": 1,
+    "LandHeavy": 1,
+    "LightHit": 1,
+    "LightHitRanged": 1,
+    "Shooting": 1,
+    "Skill": 1,
+    "Slide": 1,
+    "SourceTag": "GrabHit",
     "Stun": 1
   },
-  "HitFly": {
-    "SourceTag": "HitFly",
-    "Slide": 1,
-    "Crouch": 1,
-    "BulletJump": 1,
-    "LandHeavy": 1,
-    "Skill": 1,
-    "Shooting": 1,
+  "HeavyHit": {
     "HeavyHit": 1,
-    "LightHitRanged": 1,
-    "LightHit": 1,
+    "Hook": 1,
     "Interactive": 1,
+    "LandHeavy": 1,
+    "LightHit": 1,
+    "LightHitRanged": 1,
     "Seating": 1,
+    "SourceTag": "HeavyHit"
+  },
+  "HitFly": {
+    "BulletJump": 1,
+    "Crouch": 1,
+    "HeavyHit": 1,
+    "Hook": 1,
+    "Interactive": 1,
+    "LandHeavy": 1,
+    "LightHit": 1,
+    "LightHitRanged": 1,
+    "Seating": 1,
+    "Shooting": 1,
+    "Skill": 1,
+    "Slide": 1,
+    "SourceTag": "HitFly",
     "Stun": 1
   },
   "HitRepel": {
-    "SourceTag": "HitRepel",
-    "Interactive": 1,
-    "Seating": 1
-  },
-  "LightHit": {
-    "SourceTag": "LightHit",
-    "Interactive": 1,
-    "Seating": 1
-  },
-  "LightHitRanged": {
-    "SourceTag": "LightHitRanged",
-    "Interactive": 1,
-    "Seating": 1
-  },
-  "HeavyHit": {
-    "SourceTag": "HeavyHit",
-    "LandHeavy": 1,
-    "HeavyHit": 1,
-    "LightHitRanged": 1,
-    "LightHit": 1,
-    "Interactive": 1,
-    "Seating": 1
-  },
-  "LevelEnter": {
-    "SourceTag": "LevelEnter",
-    "GrabHit": 1,
-    "HitFly": 1,
-    "HeavyHit": 1,
-    "LightHitRanged": 1,
-    "LightHit": 1,
+    "Hook": 1,
     "Interactive": 1,
     "Seating": 1,
+    "SourceTag": "HitRepel"
+  },
+  "Hook": {
+    "GrabHit": 1,
+    "HeavyHit": 1,
+    "HitFly": 1,
+    "Interactive": 1,
+    "LightHit": 1,
+    "LightHitRanged": 1,
+    "Seating": 1,
+    "SourceTag": "Hook",
+    "Stun": 1
+  },
+  "Idle": {
+    "SourceTag": "Idle"
+  },
+  "Interactive": {
+    "GrabHit": 1,
+    "HeavyHit": 1,
+    "HitFly": 1,
+    "LightHit": 1,
+    "LightHitRanged": 1,
+    "Seating": 1,
+    "SourceTag": "Interactive",
+    "Stun": 1
+  },
+  "LandHeavy": {
+    "Interactive": 1,
+    "Seating": 1,
+    "SourceTag": "LandHeavy"
+  },
+  "LevelEnter": {
+    "GrabHit": 1,
+    "HeavyHit": 1,
+    "HitFly": 1,
+    "Hook": 1,
+    "Interactive": 1,
+    "LightHit": 1,
+    "LightHitRanged": 1,
+    "Seating": 1,
+    "SourceTag": "LevelEnter",
     "Stun": 1
   },
   "LevelFinish": {
-    "SourceTag": "LevelFinish",
     "GrabHit": 1,
-    "HitFly": 1,
     "HeavyHit": 1,
-    "LightHitRanged": 1,
-    "LightHit": 1,
+    "HitFly": 1,
+    "Hook": 1,
     "Interactive": 1,
+    "LightHit": 1,
+    "LightHitRanged": 1,
     "Seating": 1,
+    "SourceTag": "LevelFinish",
     "Stun": 1
   },
-  "Interactive": {
-    "SourceTag": "Interactive",
-    "GrabHit": 1,
-    "HitFly": 1,
-    "HeavyHit": 1,
-    "LightHitRanged": 1,
-    "LightHit": 1,
+  "LightHit": {
+    "Hook": 1,
+    "Interactive": 1,
     "Seating": 1,
-    "Stun": 1
+    "SourceTag": "LightHit"
+  },
+  "LightHitRanged": {
+    "Hook": 1,
+    "Interactive": 1,
+    "Seating": 1,
+    "SourceTag": "LightHitRanged"
   },
   "Recovery": {
-    "SourceTag": "Recovery",
     "GrabHit": 1,
-    "HitFly": 1,
     "HeavyHit": 1,
-    "LightHitRanged": 1,
-    "LightHit": 1,
+    "HitFly": 1,
     "Interactive": 1,
+    "LightHit": 1,
+    "LightHitRanged": 1,
     "Seating": 1,
+    "SourceTag": "Recovery",
     "Stun": 1
   },
   "Seating": {
-    "SourceTag": "Seating",
-    "Slide": 1,
-    "Crouch": 1,
-    "BulletJump": 1,
     "Avoid": 1,
-    "LandHeavy": 1,
+    "BulletJump": 1,
+    "Crouch": 1,
+    "Hook": 1,
     "Interactive": 1,
-    "Seating": 1
+    "LandHeavy": 1,
+    "Seating": 1,
+    "Slide": 1,
+    "SourceTag": "Seating"
+  },
+  "Shooting": {
+    "Interactive": 1,
+    "LandHeavy": 1,
+    "Seating": 1,
+    "SourceTag": "Shooting"
+  },
+  "Skill": {
+    "Interactive": 1,
+    "LandHeavy": 1,
+    "Seating": 1,
+    "SourceTag": "Skill"
+  },
+  "Slide": {
+    "Interactive": 1,
+    "LandHeavy": 1,
+    "Seating": 1,
+    "Shooting": 1,
+    "SourceTag": "Slide"
   },
   "Stun": {
-    "SourceTag": "Stun",
-    "Slide": 1,
-    "Crouch": 1,
     "BulletJump": 1,
-    "LandHeavy": 1,
-    "Skill": 1,
-    "Shooting": 1,
+    "Crouch": 1,
     "HeavyHit": 1,
-    "LightHitRanged": 1,
-    "LightHit": 1,
+    "Hook": 1,
     "Interactive": 1,
+    "LandHeavy": 1,
+    "LightHit": 1,
+    "LightHitRanged": 1,
+    "Shooting": 1,
+    "Skill": 1,
+    "Slide": 1,
+    "SourceTag": "Stun",
     "Stun": 1
   }
 }

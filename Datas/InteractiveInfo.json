@@ -1,38 +1,74 @@
 {
-  "Forge": {
-    "Id": "Forge",
-    "BPPath": "/Game/BluePrints/Story/Interactive/InteractiveComponent/InteractChild/BP_ForgeInteract.BP_ForgeInteract"
+  "AbyssMain": {
+    "BPPath": "/Game/BluePrints/Story/Interactive/InteractiveComponent/InteractChild/BP_AbyssMainInteract",
+    "Id": "AbyssMain"
   },
-  "Map": {
-    "Id": "Map",
-    "BPPath": "/Game/BluePrints/Story/Interactive/InteractiveComponent/InteractChild/BP_MapInteract.BP_MapInteract"
-  },
-  "Shop": {
-    "Id": "Shop",
-    "BPPath": "/Game/BluePrints/Story/Interactive/InteractiveComponent/InteractChild/BP_ShopInteract.BP_ShopInteract"
-  },
-  "Gacha": {
-    "Id": "Gacha",
-    "BPPath": "/Game/BluePrints/Story/Interactive/InteractiveComponent/InteractChild/BP_GachaInteract.BP_GachaInteract"
+  "AbyssShop": {
+    "BPPath": "/Game/BluePrints/Story/Interactive/InteractiveComponent/InteractChild/BP_AbyssShopInteract",
+    "Id": "AbyssShop"
   },
   "Biography": {
-    "Id": "Biography",
-    "BPPath": "/Game/BluePrints/Story/Interactive/InteractiveComponent/InteractChild/BP_BiographyInteract.BP_BiographyInteract"
+    "BPPath": "/Game/BluePrints/Story/Interactive/InteractiveComponent/InteractChild/BP_BiographyInteract.BP_BiographyInteract",
+    "Id": "Biography"
   },
-  "Play": {
-    "Id": "Play",
-    "BPPath": "/Game/BluePrints/Story/Interactive/InteractiveComponent/InteractChild/BP_PlayInteract"
+  "ExploreBadgeShop": {
+    "BPPath": "/Game/BluePrints/Story/Interactive/InteractiveComponent/InteractChild/BP_ExploreBadgeShopInteract",
+    "Id": "ExploreBadgeShop"
   },
-  "RougeLikeShop": {
-    "Id": "RougeLikeShop",
-    "BPPath": "/Game/BluePrints/Story/Interactive/InteractiveComponent/InteractChild/BP_RougeShopInteract.BP_RougeShopInteract"
+  "FishingShop": {
+    "BPPath": "/Game/BluePrints/Story/Interactive/InteractiveComponent/InteractChild/BP_FishingShopInteract",
+    "Id": "FishingShop"
   },
-  "PetNpcGame": {
-    "Id": "PetNpcGame",
-    "BPPath": "/Game/BluePrints/Story/Interactive/InteractiveComponent/BP_PetNPCInteractiveComponent.BP_PetNPCInteractiveComponent"
+  "Forge": {
+    "BPPath": "/Game/BluePrints/Story/Interactive/InteractiveComponent/InteractChild/BP_ForgeInteract.BP_ForgeInteract",
+    "Id": "Forge"
+  },
+  "Gacha": {
+    "BPPath": "/Game/BluePrints/Story/Interactive/InteractiveComponent/InteractChild/BP_GachaInteract.BP_GachaInteract",
+    "Id": "Gacha"
   },
   "ImpressionShop": {
-    "Id": "ImpressionShop",
-    "BPPath": "/Game/BluePrints/Story/Interactive/InteractiveComponent/InteractChild/BP_ImpressionShopInteract.BP_ImpressionShopInteract"
+    "BPPath": "/Game/BluePrints/Story/Interactive/InteractiveComponent/InteractChild/BP_ImpressionShopInteract.BP_ImpressionShopInteract",
+    "Id": "ImpressionShop"
+  },
+  "Map": {
+    "BPPath": "/Game/BluePrints/Story/Interactive/InteractiveComponent/InteractChild/BP_MapInteract.BP_MapInteract",
+    "Id": "Map"
+  },
+  "NpcTalk": {
+    "BPPath": "/Game/BluePrints/Story/Interactive/InteractiveComponent/BP_NpcTalkInteractiveComponent.BP_NpcTalkInteractiveComponent",
+    "Id": "NpcTalk"
+  },
+  "PetNpcGame": {
+    "BPPath": "/Game/BluePrints/Story/Interactive/InteractiveComponent/BP_PetNPCInteractiveComponent.BP_PetNPCInteractiveComponent",
+    "Id": "PetNpcGame"
+  },
+  "Play": {
+    "BPPath": "/Game/BluePrints/Story/Interactive/InteractiveComponent/InteractChild/BP_PlayInteract",
+    "Id": "Play"
+  },
+  "RLBShop": {
+    "BPPath": "/Game/BluePrints/Story/Interactive/InteractiveComponent/InteractChild/BP_RLBShopInteract.BP_RLBShopInteract",
+    "Id": "RLBShop"
+  },
+  "RLShopNpc": {
+    "BPPath": "/Game/BluePrints/Story/Interactive/InteractiveComponent/InteractChild/BP_RLShopInteractTalk.BP_RLShopInteractTalk",
+    "Id": "RLShopNpc"
+  },
+  "RLTShop": {
+    "BPPath": "/Game/BluePrints/Story/Interactive/InteractiveComponent/InteractChild/BP_RLTShopInteract.BP_RLTShopInteract",
+    "Id": "RLTShop"
+  },
+  "Shop": {
+    "BPPath": "/Game/BluePrints/Story/Interactive/InteractiveComponent/InteractChild/BP_ShopInteract.BP_ShopInteract",
+    "Id": "Shop"
+  },
+  "ZhiLiuEntrust": {
+    "BPPath": "/Game/BluePrints/Story/Interactive/InteractiveComponent/InteractChild/BP_ZhiLiuEntrustInteract",
+    "Id": "ZhiLiuEntrust"
+  },
+  "ZhiliuEventTask": {
+    "BPPath": "/Game/BluePrints/Story/Interactive/InteractiveComponent/InteractChild/BP_ZhiliuEventTaskInteract",
+    "Id": "ZhiliuEventTask"
   }
 }

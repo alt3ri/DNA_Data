@@ -1,6 +1,12 @@
 [
   {
+    "ChapterContent": "UI_DUNGEON_CONTENT_SURVIVAL_1",
     "ChapterId": 1,
+    "ChapterName": "UI_DUNGEON_TYPE_SURVIVAL",
+    "ChapterSubName": "UI_DUNGEON_DROP_CHARBREAK",
+    "Condition": [
+      3002
+    ],
     "DungeonList": [
       90401,
       90407,
@@ -10,33 +16,20 @@
       90431,
       90437
     ],
-    "Sequence": 40,
-    "ChapterName": "UI_DUNGEON_TYPE_SURVIVAL",
-    "ChapterSubName": "UI_DUNGEON_DROP_CHARBREAK",
-    "ChapterContent": "UI_DUNGEON_CONTENT_SURVIVAL_1",
+    "GuidanceTitle": 200001,
     "Icon": "/Game/UI/Texture/Dynamic/Atlas/Permanent/T_Permanent_IconMaterial.T_Permanent_IconMaterial",
-    "Path": "/Game/UI/UI_PNG/Prologue_Map/LevelSelected/Level_Survival.Level_Survival"
+    "Path": "/Game/UI/Texture/Dynamic/Image/Play/T_Play_Depute_Survival.T_Play_Depute_Survival",
+    "RewardViewId": 90007,
+    "Sequence": 40
   },
   {
+    "ChapterContent": "UI_DUNGEON_CONTENT_EXCAVATION_1",
     "ChapterId": 2,
-    "DungeonList": [
-      90101,
-      90103,
-      90105,
-      90107,
-      90109,
-      90111,
-      90113
+    "ChapterName": "UI_DUNGEON_TYPE_EXCAVATION",
+    "ChapterSubName": "UI_DUNGEON_DROP_COIN",
+    "Condition": [
+      3003
     ],
-    "Sequence": 32,
-    "ChapterName": "UI_DUNGEON_TYPE_DEFENCEPRO",
-    "ChapterSubName": "UI_DUNGEON_DROP_RangedWEAPONMOD",
-    "ChapterContent": "UI_DUNGEON_CONTENT_DEFENCE_1",
-    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Permanent/T_Permanent_IconMod.T_Permanent_IconMod",
-    "Path": "/Game/UI/UI_PNG/Prologue_Map/LevelSelected/Level_Defence.Level_Defence"
-  },
-  {
-    "ChapterId": 3,
     "DungeonList": [
       90201,
       90202,
@@ -46,15 +39,21 @@
       90206,
       90207
     ],
-    "Sequence": 10,
-    "ChapterName": "UI_DUNGEON_TYPE_EXCAVATION",
-    "ChapterSubName": "UI_DUNGEON_DROP_COIN",
-    "ChapterContent": "UI_DUNGEON_CONTENT_EXCAVATION_1",
+    "GuidanceTitle": 200001,
     "Icon": "/Game/UI/Texture/Dynamic/Atlas/Permanent/T_Permanent_IconCoin.T_Permanent_IconCoin",
-    "Path": "/Game/UI/UI_PNG/Prologue_Map/LevelSelected/Level_Excavation.Level_Excavation"
+    "Path": "/Game/UI/Texture/Dynamic/Image/Play/T_Play_Depute_Excavation.T_Play_Depute_Excavation",
+    "RewardViewId": 90000,
+    "Sequence": 10
   },
   {
-    "ChapterId": 4,
+    "ChapterContent": "UI_DUNGEON_CONTENT_DEFENCE_2",
+    "ChapterId": 3,
+    "ChapterName": "UI_DUNGEON_TYPE_DEFENCE",
+    "ChapterSubName": "UI_DUNGEON_DROP_SKILL",
+    "Condition": [
+      3001,
+      125
+    ],
     "DungeonList": [
       90106,
       90108,
@@ -62,37 +61,20 @@
       90112,
       90114
     ],
-    "Condition": [
-      3001,
-      130
-    ],
-    "Sequence": 70,
-    "ChapterName": "UI_DUNGEON_TYPE_DEFENCE",
-    "ChapterSubName": "UI_DUNGEON_DROP_SKILL",
-    "ChapterContent": "UI_DUNGEON_CONTENT_DEFENCE_2",
+    "GuidanceTitle": 200001,
     "Icon": "/Game/UI/Texture/Dynamic/Atlas/Permanent/T_Permanent_IconMaterial.T_Permanent_IconMaterial",
-    "Path": "/Game/UI/UI_PNG/Prologue_Map/LevelSelected/Level_Defence.Level_Defence"
+    "Path": "/Game/UI/Texture/Dynamic/Image/Play/T_Play_Depute_DefencePro.T_Play_Depute_DefencePro",
+    "RewardViewId": 90010,
+    "Sequence": 70
   },
   {
-    "ChapterId": 5,
-    "DungeonList": [
-      90305,
-      90306,
-      90307,
-      90308,
-      90309,
-      90310,
-      90311
+    "ChapterContent": "UI_DUNGEON_CONTENT_SABOTAGE_1",
+    "ChapterId": 4,
+    "ChapterName": "UI_DUNGEON_TYPE_SABOTAGE",
+    "ChapterSubName": "UI_DUNGEON_DROP_WEAPONBREAK",
+    "Condition": [
+      3002
     ],
-    "Sequence": 31,
-    "ChapterName": "UI_DUNGEON_TYPE_CAPTURE",
-    "ChapterSubName": "UI_DUNGEON_DROP_MeleeWEAPONMOD",
-    "ChapterContent": "UI_DUNGEON_CONTENT_CAPTURE_1",
-    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Permanent/T_Permanent_IconMod.T_Permanent_IconMod",
-    "Path": "/Game/UI/UI_PNG/Prologue_Map/LevelSelected/Level_Capture.Level_Capture"
-  },
-  {
-    "ChapterId": 6,
     "DungeonList": [
       90501,
       90502,
@@ -102,15 +84,20 @@
       90506,
       90507
     ],
-    "Sequence": 41,
-    "ChapterName": "UI_DUNGEON_TYPE_SABOTAGE",
-    "ChapterSubName": "UI_DUNGEON_DROP_WEAPONBREAK",
-    "ChapterContent": "UI_DUNGEON_CONTENT_SABOTAGE_1",
+    "GuidanceTitle": 200001,
     "Icon": "/Game/UI/Texture/Dynamic/Atlas/Permanent/T_Permanent_IconMaterial.T_Permanent_IconMaterial",
-    "Path": "/Game/UI/UI_PNG/Prologue_Map/LevelSelected/Level_Sabotage.Level_Sabotage"
+    "Path": "/Game/UI/Texture/Dynamic/Image/Play/T_Play_Depute_Sabotage.T_Play_Depute_Sabotage",
+    "RewardViewId": 90008,
+    "Sequence": 41
   },
   {
-    "ChapterId": 7,
+    "ChapterContent": "UI_DUNGEON_CONTENT_SURVIVALPRO_1",
+    "ChapterId": 5,
+    "ChapterName": "UI_DUNGEON_TYPE_SURVIVALPRO",
+    "ChapterSubName": "UI_DUNGEON_DROP_CHAREXP",
+    "Condition": [
+      3003
+    ],
     "DungeonList": [
       90601,
       90602,
@@ -120,15 +107,21 @@
       90606,
       90607
     ],
-    "Sequence": 20,
-    "ChapterName": "UI_DUNGEON_TYPE_SURVIVALPRO",
-    "ChapterSubName": "UI_DUNGEON_DROP_CHAREXP",
-    "ChapterContent": "UI_DUNGEON_CONTENT_SURVIVALPRO_1",
+    "GuidanceTitle": 200001,
     "Icon": "/Game/UI/Texture/Dynamic/Atlas/Permanent/T_Permanent_IconExp.T_Permanent_IconExp",
-    "Path": "/Game/UI/UI_PNG/Prologue_Map/LevelSelected/Level_SurvivalPro.Level_SurvivalPro"
+    "Path": "/Game/UI/Texture/Dynamic/Image/Play/T_Play_Depute_SurvivalPro.T_Play_Depute_SurvivalPro",
+    "RewardViewId": 90001,
+    "Sequence": 20
   },
   {
-    "ChapterId": 8,
+    "ChapterContent": "UI_DUNGEON_CONTENT_HIJACK_1",
+    "ChapterId": 6,
+    "ChapterName": "UI_DUNGEON_TYPE_HIJACK",
+    "ChapterSubName": "UI_DUNGEON_DROP_RESOURCE",
+    "Condition": [
+      3001,
+      125
+    ],
     "DungeonList": [
       90702,
       90703,
@@ -137,18 +130,20 @@
       90706,
       90707
     ],
-    "Condition": [
-      3001
-    ],
-    "Sequence": 80,
-    "ChapterName": "UI_DUNGEON_TYPE_HIJACK",
-    "ChapterSubName": "UI_DUNGEON_DROP_RESOURCE",
-    "ChapterContent": "UI_DUNGEON_CONTENT_HIJACK_1",
+    "GuidanceTitle": 200001,
     "Icon": "/Game/UI/Texture/Dynamic/Atlas/Permanent/T_Permanent_IconMaterial.T_Permanent_IconMaterial",
-    "Path": "/Game/UI/UI_PNG/Prologue_Map/LevelSelected/Level_Hijack.Level_Hijack"
+    "Path": "/Game/UI/Texture/Dynamic/Image/Play/T_Play_Depute_Hijack.T_Play_Depute_Hijack",
+    "RewardViewId": 90011,
+    "Sequence": 80
   },
   {
-    "ChapterId": 9,
+    "ChapterContent": "UI_DUNGEON_CONTENT_EXTERMINATE_1",
+    "ChapterId": 7,
+    "ChapterName": "UI_DUNGEON_TYPE_EXTERMINATE",
+    "ChapterSubName": "UI_DUNGEON_DROP_WEAPONEXP",
+    "Condition": [
+      3003
+    ],
     "DungeonList": [
       90801,
       90802,
@@ -158,15 +153,20 @@
       90806,
       90807
     ],
-    "Sequence": 21,
-    "ChapterName": "UI_DUNGEON_TYPE_EXTERMINATE",
-    "ChapterSubName": "UI_DUNGEON_DROP_WEAPONEXP",
-    "ChapterContent": "UI_DUNGEON_CONTENT_EXTERMINATE_1",
+    "GuidanceTitle": 200001,
     "Icon": "/Game/UI/Texture/Dynamic/Atlas/Permanent/T_Permanent_IconExp.T_Permanent_IconExp",
-    "Path": "/Game/UI/UI_PNG/Prologue_Map/LevelSelected/Level_Exterminate.Level_Exterminate"
+    "Path": "/Game/UI/Texture/Dynamic/Image/Play/T_Play_Depute_Exterminate.T_Play_Depute_Exterminate",
+    "RewardViewId": 90002,
+    "Sequence": 21
   },
   {
-    "ChapterId": 10,
+    "ChapterContent": "UI_DUNGEON_CONTENT_RESCUE_1",
+    "ChapterId": 8,
+    "ChapterName": "UI_DUNGEON_TYPE_RESCUE",
+    "ChapterSubName": "UI_DUNGEON_DROP_MODCOIN",
+    "Condition": [
+      3002
+    ],
     "DungeonList": [
       90902,
       90903,
@@ -175,44 +175,52 @@
       90906,
       90907
     ],
-    "Sequence": 54,
-    "ChapterName": "UI_DUNGEON_TYPE_RESCUE",
-    "ChapterSubName": "UI_DUNGEON_DROP_MODCOIN",
-    "ChapterContent": "UI_DUNGEON_CONTENT_RESCUE_1",
+    "GuidanceTitle": 200001,
     "Icon": "/Game/UI/Texture/Dynamic/Atlas/Permanent/T_Permanent_IconCoin.T_Permanent_IconCoin",
-    "Path": "/Game/UI/UI_PNG/Prologue_Map/LevelSelected/Level_Rescue.Level_Rescue"
+    "Path": "/Game/UI/Texture/Dynamic/Image/Play/T_Play_Depute_Rescue.T_Play_Depute_Rescue",
+    "RewardViewId": 90009,
+    "Sequence": 54
   },
   {
-    "ChapterId": 11,
-    "DungeonList": [
-      91001,
-      91002,
-      91003,
-      91004,
-      91005,
-      91006,
-      91007
+    "ChapterContent": "UI_DUNGEON_CONTENT_CAPTURE_1",
+    "ChapterId": 9,
+    "ChapterName": "UI_DUNGEON_TYPE_CAPTURE",
+    "ChapterSubName": "UI_DUNGEON_DROP_SKILL",
+    "Condition": [
+      3001,
+      125
     ],
-    "Sequence": 30,
-    "ChapterName": "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    "ChapterSubName": "UI_DUNGEON_DROP_CHARMOD",
-    "ChapterContent": "UI_DUNGEON_CONTENT_TESTING_1",
-    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Permanent/T_Permanent_IconMod.T_Permanent_IconMod",
-    "Path": "/Game/UI/UI_PNG/Prologue_Map/LevelSelected/Level_Exterminate.Level_Exterminate"
+    "DungeonList": [
+      90307,
+      90308,
+      90309,
+      90310,
+      90311
+    ],
+    "GuidanceTitle": 200001,
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Permanent/T_Permanent_IconMaterial.T_Permanent_IconMaterial",
+    "Path": "/Game/UI/Texture/Dynamic/Image/Play/T_Play_Depute_Capture.T_Play_Depute_Capture",
+    "RewardViewId": 90004,
+    "Sequence": 65
   },
   {
-    "ChapterId": 12,
+    "ChapterContent": "UI_DUNGEON_DES_TESTING_1",
+    "ChapterId": 10,
+    "ChapterName": "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
+    "ChapterSubName": "UI_DUNGEON_DROP_MOD",
+    "Condition": [
+      3002
+    ],
     "DungeonList": [
       91008,
       91009,
       91010,
       91011
     ],
-    "Sequence": 33,
-    "ChapterName": "UI_DUNGEON_TYPE_DEF_EXTERMINATE_ONLINE",
-    "ChapterSubName": "UI_DUNGEON_DROP_MOD",
-    "ChapterContent": "UI_DUNGEON_CONTENT_TESTING_1",
+    "GuidanceTitle": 200001,
     "Icon": "/Game/UI/Texture/Dynamic/Atlas/Permanent/T_Permanent_IconMod.T_Permanent_IconMod",
-    "Path": "/Game/UI/UI_PNG/Prologue_Map/LevelSelected/Level_Exterminate.Level_Exterminate"
+    "Path": "/Game/UI/Texture/Dynamic/Image/Play/T_Play_Depute_ExterminatePro.T_Play_Depute_ExterminatePro",
+    "RewardViewId": 90006,
+    "Sequence": 42
   }
 ]

@@ -1,16 +1,11 @@
 {
-  "MaxHp": {
-    "AttrName": "MaxHp",
-    "DefaultValue": 1,
-    "RoleAttrDisplay": "AlwaysTrue"
-  },
-  "ATK_Default": {
-    "AttrName": "ATK_Default",
+  "ATK_Dark": {
+    "AttrName": "ATK_Dark",
     "DefaultValue": 0,
     "RoleAttrDisplay": "OnlyModified"
   },
-  "ATK_Water": {
-    "AttrName": "ATK_Water",
+  "ATK_Default": {
+    "AttrName": "ATK_Default",
     "DefaultValue": 0,
     "RoleAttrDisplay": "OnlyModified"
   },
@@ -19,23 +14,8 @@
     "DefaultValue": 0,
     "RoleAttrDisplay": "OnlyModified"
   },
-  "ATK_Thunder": {
-    "AttrName": "ATK_Thunder",
-    "DefaultValue": 0,
-    "RoleAttrDisplay": "OnlyModified"
-  },
-  "ATK_Wind": {
-    "AttrName": "ATK_Wind",
-    "DefaultValue": 0,
-    "RoleAttrDisplay": "OnlyModified"
-  },
   "ATK_Light": {
     "AttrName": "ATK_Light",
-    "DefaultValue": 0,
-    "RoleAttrDisplay": "OnlyModified"
-  },
-  "ATK_Dark": {
-    "AttrName": "ATK_Dark",
     "DefaultValue": 0,
     "RoleAttrDisplay": "OnlyModified"
   },
@@ -54,34 +34,24 @@
     "DefaultValue": 0,
     "RoleAttrDisplay": "OnlyModified"
   },
-  "DamageRate_Normal": {
-    "AttrName": "DamageRate_Normal",
+  "ATK_Thunder": {
+    "AttrName": "ATK_Thunder",
     "DefaultValue": 0,
-    "RoleAttrDisplay": "AlwaysFalse"
+    "RoleAttrDisplay": "OnlyModified"
   },
-  "DEF": {
-    "AttrName": "DEF",
+  "ATK_Water": {
+    "AttrName": "ATK_Water",
     "DefaultValue": 0,
-    "RoleAttrDisplay": "AlwaysTrue"
+    "RoleAttrDisplay": "OnlyModified"
   },
-  "MaxES": {
-    "AttrName": "MaxES",
+  "ATK_Wind": {
+    "AttrName": "ATK_Wind",
     "DefaultValue": 0,
-    "RoleAttrDisplay": "AlwaysTrue"
+    "RoleAttrDisplay": "OnlyModified"
   },
-  "ESRecoverTime": {
-    "AttrName": "ESRecoverTime",
-    "DefaultValue": 2,
-    "RoleAttrDisplay": "AlwaysFalse"
-  },
-  "ESRecoverRate": {
-    "AttrName": "ESRecoverRate",
-    "DefaultValue": 0.05,
-    "RoleAttrDisplay": "AlwaysFalse"
-  },
-  "ESRecoverValue": {
-    "AttrName": "ESRecoverValue",
-    "DefaultValue": 15,
+  "AvoidChargeCd": {
+    "AttrName": "AvoidChargeCd",
+    "DefaultValue": 1.8,
     "RoleAttrDisplay": "AlwaysFalse"
   },
   "BaseOverShield": {
@@ -89,57 +59,58 @@
     "DefaultValue": 425,
     "RoleAttrDisplay": "AlwaysFalse"
   },
-  "OverShieldLevelGrow": {
-    "AttrName": "OverShieldLevelGrow",
-    "DefaultValue": 75,
+  "CollisionLevel": {
+    "AttrName": "CollisionLevel",
+    "DefaultValue": 100,
     "RoleAttrDisplay": "AlwaysFalse"
   },
-  "SkillSpeed": {
-    "AttrName": "SkillSpeed",
-    "DefaultValue": 1,
-    "RoleAttrDisplay": "AlwaysFalse"
-  },
-  "InitSp": {
-    "AttrName": "InitSp",
-    "DefaultValue": 1,
-    "RoleAttrDisplay": "AlwaysFalse"
-  },
-  "MaxSp": {
-    "AttrName": "MaxSp",
-    "DefaultValue": 1,
+  "DEF": {
+    "AttrName": "DEF",
+    "DefaultValue": 0,
     "RoleAttrDisplay": "AlwaysTrue"
   },
-  "SpRecoverTime": {
-    "AttrName": "SpRecoverTime",
-    "DefaultValue": 3,
-    "RoleAttrDisplay": "AlwaysFalse"
-  },
-  "SpRecoverRate": {
-    "AttrName": "SpRecoverRate",
-    "DefaultValue": 0.005,
-    "RoleAttrDisplay": "AlwaysFalse"
-  },
-  "SpRecoverValue": {
-    "AttrName": "SpRecoverValue",
-    "DefaultValue": 2,
-    "RoleAttrDisplay": "AlwaysFalse"
-  },
-  "SpRate": {
-    "AttrName": "SpRate",
+  "DamageRate_Normal": {
+    "AttrName": "DamageRate_Normal",
     "DefaultValue": 0,
     "RoleAttrDisplay": "AlwaysFalse"
   },
-  "Positioning": {
-    "AttrName": "Positioning",
+  "DropDistance": {
+    "AttrName": "DropDistance",
+    "DefaultValue": 1000,
+    "RoleAttrDisplay": "AlwaysFalse"
+  },
+  "ESRates": {
+    "AttrName": "ESRates",
+    "DefaultValue": 0,
+    "RoleAttrDisplay": "AlwaysFalse"
+  },
+  "ESRecoverRate": {
+    "AttrName": "ESRecoverRate",
+    "DefaultValue": 0.05,
+    "RoleAttrDisplay": "AlwaysFalse"
+  },
+  "ESRecoverTime": {
+    "AttrName": "ESRecoverTime",
+    "DefaultValue": 2,
+    "RoleAttrDisplay": "AlwaysFalse"
+  },
+  "ESRecoverValue": {
+    "AttrName": "ESRecoverValue",
+    "DefaultValue": 15,
+    "RoleAttrDisplay": "AlwaysFalse"
+  },
+  "EnmityValue": {
+    "AttrName": "EnmityValue",
+    "DefaultValue": 0,
     "RoleAttrDisplay": "AlwaysTrue"
   },
   "ExcelWeaponTag": {
     "AttrName": "ExcelWeaponTag",
     "RoleAttrDisplay": "AlwaysTrue"
   },
-  "ESRates": {
-    "AttrName": "ESRates",
-    "DefaultValue": 0,
+  "HitMontageRate": {
+    "AttrName": "HitMontageRate",
+    "DefaultValue": 1,
     "RoleAttrDisplay": "AlwaysFalse"
   },
   "HpRates": {
@@ -147,9 +118,44 @@
     "DefaultValue": 0,
     "RoleAttrDisplay": "AlwaysFalse"
   },
+  "InitSp": {
+    "AttrName": "InitSp",
+    "DefaultValue": 1,
+    "RoleAttrDisplay": "AlwaysFalse"
+  },
+  "MaxAvoidExecuteTimes": {
+    "AttrName": "MaxAvoidExecuteTimes",
+    "DefaultValue": 2,
+    "RoleAttrDisplay": "AlwaysFalse"
+  },
+  "MaxES": {
+    "AttrName": "MaxES",
+    "DefaultValue": 0,
+    "RoleAttrDisplay": "AlwaysTrue"
+  },
+  "MaxHp": {
+    "AttrName": "MaxHp",
+    "DefaultValue": 1,
+    "RoleAttrDisplay": "AlwaysTrue"
+  },
+  "MaxSp": {
+    "AttrName": "MaxSp",
+    "DefaultValue": 1,
+    "RoleAttrDisplay": "AlwaysTrue"
+  },
+  "MaxTN": {
+    "AttrName": "MaxTN",
+    "DefaultValue": 100,
+    "RoleAttrDisplay": "AlwaysFalse"
+  },
   "MonsterDamageRate": {
     "AttrName": "MonsterDamageRate",
     "DefaultValue": 1,
+    "RoleAttrDisplay": "AlwaysFalse"
+  },
+  "OverShieldLevelGrow": {
+    "AttrName": "OverShieldLevelGrow",
+    "DefaultValue": 75,
     "RoleAttrDisplay": "AlwaysFalse"
   },
   "PlayerDamagedRate": {
@@ -157,15 +163,14 @@
     "DefaultValue": 1,
     "RoleAttrDisplay": "AlwaysFalse"
   },
-  "SkillRange": {
-    "AttrName": "SkillRange",
-    "DefaultValue": 1,
+  "Positioning": {
+    "AttrName": "Positioning",
     "RoleAttrDisplay": "AlwaysTrue"
   },
-  "SkillSustain": {
-    "AttrName": "SkillSustain",
-    "DefaultValue": 1,
-    "RoleAttrDisplay": "AlwaysTrue"
+  "SPD": {
+    "AttrName": "SPD",
+    "DefaultValue": 600,
+    "RoleAttrDisplay": "AlwaysFalse"
   },
   "SkillEfficiency": {
     "AttrName": "SkillEfficiency",
@@ -177,44 +182,49 @@
     "DefaultValue": 1,
     "RoleAttrDisplay": "AlwaysTrue"
   },
-  "DropDistance": {
-    "AttrName": "DropDistance",
-    "DefaultValue": 600,
+  "SkillRange": {
+    "AttrName": "SkillRange",
+    "DefaultValue": 1,
+    "RoleAttrDisplay": "AlwaysTrue"
+  },
+  "SkillSpeed": {
+    "AttrName": "SkillSpeed",
+    "DefaultValue": 1,
     "RoleAttrDisplay": "AlwaysFalse"
   },
-  "SPD": {
-    "AttrName": "SPD",
-    "DefaultValue": 600,
+  "SkillSustain": {
+    "AttrName": "SkillSustain",
+    "DefaultValue": 1,
+    "RoleAttrDisplay": "AlwaysTrue"
+  },
+  "SpRate": {
+    "AttrName": "SpRate",
+    "DefaultValue": 0,
     "RoleAttrDisplay": "AlwaysFalse"
   },
-  "CollisionLevel": {
-    "AttrName": "CollisionLevel",
-    "DefaultValue": 100,
+  "SpRecoverRate": {
+    "AttrName": "SpRecoverRate",
+    "DefaultValue": 0.005,
     "RoleAttrDisplay": "AlwaysFalse"
   },
-  "MaxAvoidExecuteTimes": {
-    "AttrName": "MaxAvoidExecuteTimes",
+  "SpRecoverTime": {
+    "AttrName": "SpRecoverTime",
+    "DefaultValue": 3,
+    "RoleAttrDisplay": "AlwaysFalse"
+  },
+  "SpRecoverValue": {
+    "AttrName": "SpRecoverValue",
     "DefaultValue": 2,
     "RoleAttrDisplay": "AlwaysFalse"
   },
-  "AvoidChargeCd": {
-    "AttrName": "AvoidChargeCd",
-    "DefaultValue": 2.5,
-    "RoleAttrDisplay": "AlwaysFalse"
+  "StrongValue": {
+    "AttrName": "StrongValue",
+    "DefaultValue": 0,
+    "RoleAttrDisplay": "AlwaysTrue"
   },
   "TN": {
     "AttrName": "TN",
     "DefaultValue": 100,
-    "RoleAttrDisplay": "AlwaysFalse"
-  },
-  "MaxTN": {
-    "AttrName": "MaxTN",
-    "DefaultValue": 100,
-    "RoleAttrDisplay": "AlwaysFalse"
-  },
-  "TNResistance": {
-    "AttrName": "TNResistance",
-    "DefaultValue": 1,
     "RoleAttrDisplay": "AlwaysFalse"
   },
   "TNRecoverS": {
@@ -232,14 +242,9 @@
     "DefaultValue": 0.2,
     "RoleAttrDisplay": "AlwaysFalse"
   },
-  "StrongValue": {
-    "AttrName": "StrongValue",
-    "DefaultValue": 0,
-    "RoleAttrDisplay": "AlwaysTrue"
-  },
-  "EnmityValue": {
-    "AttrName": "EnmityValue",
-    "DefaultValue": 0,
-    "RoleAttrDisplay": "AlwaysTrue"
+  "TNResistance": {
+    "AttrName": "TNResistance",
+    "DefaultValue": 1,
+    "RoleAttrDisplay": "AlwaysFalse"
   }
 }

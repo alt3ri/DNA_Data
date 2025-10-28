@@ -1,12 +1,12 @@
 {
   "10101": {
-    "WeaponId": 10101,
-    "WeaponName": "UI_WEAPON_NAME_10101",
-    "WeaponDescribe": "UI_WEAPON_DESC_10101",
-    "WeaponRarity": 4,
-    "WeaponMaxLevel": 80,
-    "WeaponToCoinType": 101,
-    "WeaponValue": 4000,
+    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
+    "CollectRewardExp": 400,
+    "DecomposeReward": 160004,
+    "GUIPathVariableName": "Huipo",
+    "GUIPathVariableType": "Broadsword",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
+    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Broadsword_Huipo",
     "ModSlot": [
       -1,
       -1,
@@ -15,8 +15,7 @@
       -1,
       -1,
       -1,
-      2,
-      1
+      -1
     ],
     "ModSlotUnlock": [
       0,
@@ -26,27 +25,28 @@
       1,
       2,
       3,
-      4,
-      5
+      4
     ],
-    "ModApplicationType": [
-      2,
-      23,
+    "SkinApplicationType": [
       101
     ],
-    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Broadsword_Huipo.T_Head_Broadsword_Huipo",
-    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo.T_Bust_Broadsword_Huipo",
-    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo.T_Gacha_Broadsword_Huipo",
-    "Sound": "SOUND_ITEM_WEAPON"
+    "Sound": "SOUND_ITEM_WEAPON",
+    "WeaponDescribe": "UI_WEAPON_DESC_10101",
+    "WeaponId": 10101,
+    "WeaponMaxLevel": 80,
+    "WeaponName": "UI_WEAPON_NAME_10101",
+    "WeaponRarity": 5,
+    "WeaponToCoinType": 101,
+    "WeaponValue": 10000
   },
   "10102": {
-    "WeaponId": 10102,
-    "WeaponName": "UI_WEAPON_NAME_10102",
-    "WeaponDescribe": "UI_WEAPON_DESC_10102",
-    "WeaponRarity": 5,
-    "WeaponMaxLevel": 80,
-    "WeaponToCoinType": 101,
-    "WeaponValue": 10000,
+    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Guzi",
+    "CollectRewardExp": 400,
+    "DecomposeReward": 160004,
+    "GUIPathVariableName": "Guzi",
+    "GUIPathVariableType": "Broadsword",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Guzi",
+    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Broadsword_Guzi",
     "ModSlot": [
       -1,
       -1,
@@ -55,8 +55,7 @@
       -1,
       -1,
       -1,
-      2,
-      1
+      -1
     ],
     "ModSlotUnlock": [
       0,
@@ -66,27 +65,29 @@
       1,
       2,
       3,
-      4,
-      5
+      4
     ],
-    "ModApplicationType": [
-      2,
-      22,
+    "SkinApplicationType": [
       101
     ],
-    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Broadsword_Guzi.T_Head_Broadsword_Guzi",
-    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Guzi.T_Bust_Broadsword_Guzi",
-    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Guzi.T_Gacha_Broadsword_Guzi",
-    "Sound": "SOUND_ITEM_WEAPON"
+    "SortPriority": 5001,
+    "Sound": "SOUND_ITEM_WEAPON",
+    "WeaponDescribe": "UI_WEAPON_DESC_10102",
+    "WeaponId": 10102,
+    "WeaponMaxLevel": 80,
+    "WeaponName": "UI_WEAPON_NAME_10102",
+    "WeaponRarity": 5,
+    "WeaponToCoinType": 101,
+    "WeaponValue": 10000
   },
   "10103": {
-    "WeaponId": 10103,
-    "WeaponName": "UI_WEAPON_NAME_10103",
-    "WeaponDescribe": "UI_WEAPON_DESC_10103",
-    "WeaponRarity": 4,
-    "WeaponMaxLevel": 80,
-    "WeaponToCoinType": 101,
-    "WeaponValue": 4000,
+    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Sword_Zhuiyi",
+    "CollectRewardExp": 400,
+    "DecomposeReward": 160004,
+    "GUIPathVariableName": "Zhuiyi",
+    "GUIPathVariableType": "Sword",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Sword_Zhuiyi",
+    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Sword_Zhuiyi",
     "ModSlot": [
       -1,
       -1,
@@ -95,8 +96,7 @@
       -1,
       -1,
       -1,
-      2,
-      1
+      -1
     ],
     "ModSlotUnlock": [
       0,
@@ -106,27 +106,28 @@
       1,
       2,
       3,
-      4,
-      5
+      4
     ],
-    "ModApplicationType": [
-      2,
-      22,
+    "SkinApplicationType": [
       101
     ],
-    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Sword_Zhuiyi.T_Head_Sword_Zhuiyi",
-    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Sword_Zhuiyi.T_Bust_Sword_Zhuiyi",
-    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Sword_Zhuiyi.T_Gacha_Sword_Zhuiyi",
-    "Sound": "SOUND_ITEM_WEAPON"
+    "Sound": "SOUND_ITEM_WEAPON",
+    "WeaponDescribe": "UI_WEAPON_DESC_10103",
+    "WeaponId": 10103,
+    "WeaponMaxLevel": 80,
+    "WeaponName": "UI_WEAPON_NAME_10103",
+    "WeaponRarity": 5,
+    "WeaponToCoinType": 101,
+    "WeaponValue": 10000
   },
   "10104": {
-    "WeaponId": 10104,
-    "WeaponName": "UI_WEAPON_NAME_10104",
-    "WeaponDescribe": "UI_WEAPON_DESC_10104",
-    "WeaponRarity": 5,
-    "WeaponMaxLevel": 80,
-    "WeaponToCoinType": 101,
-    "WeaponValue": 10000,
+    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Sword_Huimou",
+    "CollectRewardExp": 400,
+    "DecomposeReward": 160004,
+    "GUIPathVariableName": "Huimou",
+    "GUIPathVariableType": "Sword",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Sword_Huimou",
+    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Sword_Huimou",
     "ModSlot": [
       -1,
       -1,
@@ -135,8 +136,7 @@
       -1,
       -1,
       -1,
-      2,
-      1
+      -1
     ],
     "ModSlotUnlock": [
       0,
@@ -146,27 +146,29 @@
       1,
       2,
       3,
-      4,
-      5
+      4
     ],
-    "ModApplicationType": [
-      2,
-      21,
+    "SkinApplicationType": [
       101
     ],
-    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Sword_Huimou.T_Head_Sword_Huimou",
-    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Sword_Huimou.T_Bust_Sword_Huimou",
-    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Sword_Huimou.T_Gacha_Sword_Huimou",
-    "Sound": "SOUND_ITEM_WEAPON"
+    "SortPriority": 5002,
+    "Sound": "SOUND_ITEM_WEAPON",
+    "WeaponDescribe": "UI_WEAPON_DESC_10104",
+    "WeaponId": 10104,
+    "WeaponMaxLevel": 80,
+    "WeaponName": "UI_WEAPON_NAME_10104",
+    "WeaponRarity": 5,
+    "WeaponToCoinType": 101,
+    "WeaponValue": 10000
   },
   "10105": {
-    "WeaponId": 10105,
-    "WeaponName": "UI_WEAPON_NAME_10105",
-    "WeaponDescribe": "UI_WEAPON_DESC_10105",
-    "WeaponRarity": 4,
-    "WeaponMaxLevel": 80,
-    "WeaponToCoinType": 101,
-    "WeaponValue": 4000,
+    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Sword_Liulang",
+    "CollectRewardExp": 400,
+    "DecomposeReward": 160004,
+    "GUIPathVariableName": "Liulang",
+    "GUIPathVariableType": "Sword",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Sword_Liulang",
+    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Sword_Liulang",
     "ModSlot": [
       -1,
       -1,
@@ -175,8 +177,7 @@
       -1,
       -1,
       -1,
-      2,
-      1
+      -1
     ],
     "ModSlotUnlock": [
       0,
@@ -186,107 +187,28 @@
       1,
       2,
       3,
-      4,
-      5
+      4
     ],
-    "ModApplicationType": [
-      2,
-      22,
+    "SkinApplicationType": [
       101
     ],
-    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Sword_Liulang.T_Head_Sword_Liulang",
-    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Sword_Liulang.T_Bust_Sword_Liulang",
-    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Sword_Liulang.T_Gacha_Sword_Liulang",
-    "Sound": "SOUND_ITEM_WEAPON"
-  },
-  "10197": {
-    "WeaponId": 10197,
-    "WeaponName": "UI_WEAPON_NAME_10197",
-    "WeaponDescribe": "UI_WEAPON_DESC_10197",
-    "WeaponRarity": 2,
-    "WeaponMaxLevel": 20,
+    "Sound": "SOUND_ITEM_WEAPON",
+    "WeaponDescribe": "UI_WEAPON_DESC_10105",
+    "WeaponId": 10105,
+    "WeaponMaxLevel": 80,
+    "WeaponName": "UI_WEAPON_NAME_10105",
+    "WeaponRarity": 5,
     "WeaponToCoinType": 101,
-    "WeaponValue": 300,
-    "ModSlot": [
-      -1,
-      -1,
-      -1,
-      -1,
-      -1,
-      -1,
-      -1,
-      -1,
-      -1
-    ],
-    "ModSlotUnlock": [
-      0,
-      0,
-      0,
-      0,
-      1,
-      99,
-      99,
-      99,
-      99
-    ],
-    "ModApplicationType": [
-      2,
-      22,
-      101
-    ],
-    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Sword_Jinshu.T_Head_Sword_Jinshu",
-    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Sword_Jinshu.T_Bust_Sword_Jinshu",
-    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Sword_Jinshu.T_Gacha_Sword_Jinshu",
-    "Sound": "SOUND_ITEM_WEAPON"
-  },
-  "10198": {
-    "WeaponId": 10198,
-    "WeaponName": "UI_WEAPON_NAME_10198",
-    "WeaponDescribe": "UI_WEAPON_DESC_10198",
-    "WeaponRarity": 3,
-    "WeaponMaxLevel": 20,
-    "WeaponToCoinType": 101,
-    "WeaponValue": 500,
-    "ModSlot": [
-      -1,
-      -1,
-      -1,
-      -1,
-      -1,
-      -1,
-      -1,
-      -1,
-      -1
-    ],
-    "ModSlotUnlock": [
-      0,
-      0,
-      0,
-      0,
-      1,
-      99,
-      99,
-      99,
-      99
-    ],
-    "ModApplicationType": [
-      2,
-      22,
-      101
-    ],
-    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Sword_Liandu.T_Head_Sword_Liandu",
-    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Sword_Liandu.T_Bust_Sword_Liandu",
-    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Sword_Liandu.T_Gacha_Sword_Liandu",
-    "Sound": "SOUND_ITEM_WEAPON"
+    "WeaponValue": 10000
   },
   "10201": {
-    "WeaponId": 10201,
-    "WeaponName": "UI_WEAPON_NAME_10201",
-    "WeaponDescribe": "UI_WEAPON_DESC_10201",
-    "WeaponRarity": 5,
-    "WeaponMaxLevel": 80,
-    "WeaponToCoinType": 101,
-    "WeaponValue": 10000,
+    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Polearm_Sairen",
+    "CollectRewardExp": 400,
+    "DecomposeReward": 160004,
+    "GUIPathVariableName": "Sairen",
+    "GUIPathVariableType": "Polearm",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Polearm_Sairen",
+    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Polearm_Sairen",
     "ModSlot": [
       -1,
       -1,
@@ -295,8 +217,7 @@
       -1,
       -1,
       -1,
-      3,
-      3
+      -1
     ],
     "ModSlotUnlock": [
       0,
@@ -306,27 +227,29 @@
       1,
       2,
       3,
-      4,
-      5
+      4
     ],
-    "ModApplicationType": [
-      2,
-      22,
+    "SkinApplicationType": [
       102
     ],
-    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Polearm_Sairen.T_Head_Polearm_Sairen",
-    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Polearm_Sairen.T_Bust_Polearm_Sairen",
-    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Polearm_Sairen.T_Gacha_Polearm_Sairen",
-    "Sound": "SOUND_ITEM_WEAPON"
+    "SortPriority": 5003,
+    "Sound": "SOUND_ITEM_WEAPON",
+    "WeaponDescribe": "UI_WEAPON_DESC_10201",
+    "WeaponId": 10201,
+    "WeaponMaxLevel": 80,
+    "WeaponName": "UI_WEAPON_NAME_10201",
+    "WeaponRarity": 5,
+    "WeaponToCoinType": 101,
+    "WeaponValue": 10000
   },
   "10202": {
-    "WeaponId": 10202,
-    "WeaponName": "UI_WEAPON_NAME_10202",
-    "WeaponDescribe": "UI_WEAPON_DESC_10202",
-    "WeaponRarity": 4,
-    "WeaponMaxLevel": 80,
-    "WeaponToCoinType": 101,
-    "WeaponValue": 4000,
+    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Polearm_Chunjue",
+    "CollectRewardExp": 400,
+    "DecomposeReward": 160004,
+    "GUIPathVariableName": "Chunjue",
+    "GUIPathVariableType": "Polearm",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Polearm_Chunjue",
+    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Polearm_Chunjue",
     "ModSlot": [
       -1,
       -1,
@@ -335,8 +258,7 @@
       -1,
       -1,
       -1,
-      3,
-      3
+      -1
     ],
     "ModSlotUnlock": [
       0,
@@ -346,27 +268,30 @@
       1,
       2,
       3,
-      4,
-      5
+      4
     ],
-    "ModApplicationType": [
-      2,
-      21,
+    "SkinApplicationType": [
       102
     ],
-    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Polearm_Chunjue.T_Head_Polearm_Chunjue",
-    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Polearm_Chunjue.T_Bust_Polearm_Chunjue",
-    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Polearm_Chunjue.T_Gacha_Polearm_Chunjue",
-    "Sound": "SOUND_ITEM_WEAPON"
+    "Sound": "SOUND_ITEM_WEAPON",
+    "WeaponDescribe": "UI_WEAPON_DESC_10202",
+    "WeaponId": 10202,
+    "WeaponMaxLevel": 80,
+    "WeaponName": "UI_WEAPON_NAME_10202",
+    "WeaponRarity": 5,
+    "WeaponToCoinType": 101,
+    "WeaponValue": 10000
   },
   "10203": {
-    "WeaponId": 10203,
-    "WeaponName": "UI_WEAPON_NAME_10203",
-    "WeaponDescribe": "UI_WEAPON_DESC_10203",
-    "WeaponRarity": 5,
-    "WeaponMaxLevel": 80,
-    "WeaponToCoinType": 101,
-    "WeaponValue": 10000,
+    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Polearm_Zuiqian",
+    "CollectRewardExp": 400,
+    "DecomposeReward": 160004,
+    "GMNot": 1,
+    "GUIPathVariableName": "Zuiqian",
+    "GUIPathVariableType": "Polearm",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Polearm_Zuiqian",
+    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Polearm_Zuiqian",
+    "IsNotOpen": true,
     "ModSlot": [
       -1,
       -1,
@@ -375,8 +300,7 @@
       -1,
       -1,
       -1,
-      3,
-      3
+      -1
     ],
     "ModSlotUnlock": [
       0,
@@ -386,351 +310,110 @@
       1,
       2,
       3,
-      4,
-      5
+      4
     ],
-    "ModApplicationType": [
-      2,
-      23,
+    "SkinApplicationType": [
       102
     ],
-    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Polearm_Zuiqian.T_Head_Polearm_Zuiqian",
-    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Polearm_Zuiqian.T_Bust_Polearm_Zuiqian",
-    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Polearm_Zuiqian.T_Gacha_Polearm_Zuiqian",
-    "Sound": "SOUND_ITEM_WEAPON"
+    "SortPriority": 5004,
+    "Sound": "SOUND_ITEM_WEAPON",
+    "WeaponDescribe": "UI_WEAPON_DESC_10203",
+    "WeaponId": 10203,
+    "WeaponMaxLevel": 80,
+    "WeaponName": "UI_WEAPON_NAME_10203",
+    "WeaponRarity": 5,
+    "WeaponToCoinType": 101,
+    "WeaponValue": 10000
   },
   "10204": {
-    "WeaponId": 10204,
-    "WeaponName": "UI_WEAPON_NAME_10204",
+    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Scythe_Xiji",
+    "CollectRewardExp": 400,
+    "DecomposeReward": 160004,
+    "GUIPathVariableName": "Xiji",
+    "GUIPathVariableType": "Scythe",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Scythe_Xiji",
+    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Scythe_Xiji",
+    "ModSlot": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "ModSlotUnlock": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "SkinApplicationType": [
+      102
+    ],
+    "SortPriority": 5005,
+    "Sound": "SOUND_ITEM_WEAPON",
     "WeaponDescribe": "UI_WEAPON_DESC_10204",
-    "WeaponRarity": 5,
+    "WeaponId": 10204,
     "WeaponMaxLevel": 80,
-    "WeaponToCoinType": 101,
-    "WeaponValue": 10000,
-    "ModSlot": [
-      -1,
-      -1,
-      -1,
-      -1,
-      -1,
-      -1,
-      -1,
-      3,
-      3
-    ],
-    "ModSlotUnlock": [
-      0,
-      0,
-      0,
-      0,
-      1,
-      2,
-      3,
-      4,
-      5
-    ],
-    "ModApplicationType": [
-      2,
-      21,
-      102
-    ],
-    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Scythe_Xiji.T_Head_Scythe_Xiji",
-    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Scythe_Xiji.T_Bust_Scythe_Xiji",
-    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Scythe_Xiji.T_Gacha_Scythe_Xiji",
-    "Sound": "SOUND_ITEM_WEAPON"
-  },
-  "10205": {
-    "WeaponId": 10205,
-    "IsNotOpen": 1,
-    "GMNot": 1,
-    "WeaponName": "UI_WEAPON_NAME_10205",
-    "WeaponDescribe": "UI_WEAPON_DESC_10205",
+    "WeaponName": "UI_WEAPON_NAME_10204",
     "WeaponRarity": 5,
-    "WeaponMaxLevel": 80,
     "WeaponToCoinType": 101,
-    "WeaponValue": 10000,
-    "ModSlot": [
-      -1,
-      -1,
-      -1,
-      -1,
-      -1,
-      -1,
-      -1,
-      3,
-      3
-    ],
-    "ModSlotUnlock": [
-      0,
-      0,
-      0,
-      0,
-      1,
-      2,
-      3,
-      4,
-      5
-    ],
-    "ModApplicationType": [
-      2,
-      102
-    ],
-    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Scythe_Jiushu.T_Head_Scythe_Jiushu",
-    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Scythe_Jiushu.T_Bust_Scythe_Jiushu",
-    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Scythe_Jiushu.T_Gacha_Scythe_Jiushu",
-    "Sound": "SOUND_ITEM_WEAPON"
+    "WeaponValue": 10000
   },
   "10206": {
-    "WeaponId": 10206,
-    "WeaponName": "UI_WEAPON_NAME_10206",
+    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Scythe_Chixing",
+    "CollectRewardExp": 400,
+    "DecomposeReward": 160004,
+    "GUIPathVariableName": "Chixing",
+    "GUIPathVariableType": "Scythe",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Scythe_Chixing",
+    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Scythe_Chixing",
+    "ModSlot": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "ModSlotUnlock": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "SkinApplicationType": [
+      102
+    ],
+    "Sound": "SOUND_ITEM_WEAPON",
     "WeaponDescribe": "UI_WEAPON_DESC_10206",
-    "WeaponRarity": 4,
+    "WeaponId": 10206,
     "WeaponMaxLevel": 80,
-    "WeaponToCoinType": 101,
-    "WeaponValue": 4000,
-    "ModSlot": [
-      -1,
-      -1,
-      -1,
-      -1,
-      -1,
-      -1,
-      -1,
-      3,
-      3
-    ],
-    "ModSlotUnlock": [
-      0,
-      0,
-      0,
-      0,
-      1,
-      2,
-      3,
-      4,
-      5
-    ],
-    "ModApplicationType": [
-      2,
-      21,
-      102
-    ],
-    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Scythe_Chixing.T_Head_Scythe_Chixing",
-    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Scythe_Chixing.T_Bust_Scythe_Chixing",
-    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Scythe_Chixing.T_Gacha_Scythe_Chixing",
-    "Sound": "SOUND_ITEM_WEAPON"
-  },
-  "10207": {
-    "WeaponId": 10207,
-    "IsNotOpen": 1,
-    "GMNot": 1,
-    "WeaponName": "UI_WEAPON_NAME_10207",
-    "WeaponDescribe": "UI_WEAPON_DESC_10207",
+    "WeaponName": "UI_WEAPON_NAME_10206",
     "WeaponRarity": 5,
-    "WeaponMaxLevel": 80,
     "WeaponToCoinType": 101,
-    "WeaponValue": 10000,
-    "ModSlot": [
-      -1,
-      -1,
-      -1,
-      -1,
-      -1,
-      -1,
-      -1,
-      3,
-      3
-    ],
-    "ModSlotUnlock": [
-      0,
-      0,
-      0,
-      0,
-      1,
-      2,
-      3,
-      4,
-      5
-    ],
-    "ModApplicationType": [
-      2,
-      102
-    ],
-    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Scythe_Weilan.T_Head_Scythe_Weilan",
-    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Scythe_Weilan.T_Bust_Scythe_Weilan",
-    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Scythe_Weilan.T_Gacha_Scythe_Weilan",
-    "Sound": "SOUND_ITEM_WEAPON"
-  },
-  "10208": {
-    "WeaponId": 10208,
-    "IsNotOpen": 1,
-    "GMNot": 1,
-    "WeaponName": "UI_WEAPON_NAME_10208",
-    "WeaponDescribe": "UI_WEAPON_DESC_10208",
-    "WeaponRarity": 5,
-    "WeaponMaxLevel": 80,
-    "WeaponToCoinType": 101,
-    "WeaponValue": 10000,
-    "ModSlot": [
-      -1,
-      -1,
-      -1,
-      -1,
-      -1,
-      -1,
-      -1,
-      3,
-      3
-    ],
-    "ModSlotUnlock": [
-      0,
-      0,
-      0,
-      0,
-      1,
-      2,
-      3,
-      4,
-      5
-    ],
-    "ModApplicationType": [
-      2,
-      102
-    ],
-    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Scythe_Yihe.T_Head_Scythe_Yihe",
-    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Scythe_Yihe.T_Bust_Scythe_Yihe",
-    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Scythe_Yihe.T_Gacha_Scythe_Yihe",
-    "Sound": "SOUND_ITEM_WEAPON"
-  },
-  "10209": {
-    "WeaponId": 10209,
-    "IsNotOpen": 1,
-    "GMNot": 1,
-    "WeaponName": "UI_WEAPON_NAME_10209",
-    "WeaponDescribe": "UI_WEAPON_DESC_10209",
-    "WeaponRarity": 5,
-    "WeaponMaxLevel": 80,
-    "WeaponToCoinType": 101,
-    "WeaponValue": 10000,
-    "ModSlot": [
-      -1,
-      -1,
-      -1,
-      -1,
-      -1,
-      -1,
-      -1,
-      3,
-      3
-    ],
-    "ModSlotUnlock": [
-      0,
-      0,
-      0,
-      0,
-      1,
-      2,
-      3,
-      4,
-      5
-    ],
-    "ModApplicationType": [
-      2,
-      102
-    ],
-    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Scythe_Zhuixin.T_Head_Scythe_Zhuixin",
-    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Scythe_Zhuixin.T_Bust_Scythe_Zhuixin",
-    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Scythe_Zhuixin.T_Gacha_Scythe_Zhuixin",
-    "Sound": "SOUND_ITEM_WEAPON"
-  },
-  "10298": {
-    "WeaponId": 10298,
-    "WeaponName": "UI_WEAPON_NAME_10298",
-    "WeaponDescribe": "UI_WEAPON_DESC_10298",
-    "WeaponRarity": 2,
-    "WeaponMaxLevel": 20,
-    "WeaponToCoinType": 101,
-    "WeaponValue": 300,
-    "ModSlot": [
-      -1,
-      -1,
-      -1,
-      -1,
-      -1,
-      -1,
-      -1,
-      -1,
-      -1
-    ],
-    "ModSlotUnlock": [
-      0,
-      0,
-      0,
-      0,
-      1,
-      99,
-      99,
-      99,
-      99
-    ],
-    "ModApplicationType": [
-      2,
-      21,
-      102
-    ],
-    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Polearm_Jinshu.T_Head_Polearm_Jinshu",
-    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Polearm_Jinshu.T_Bust_Polearm_Jinshu",
-    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Polearm_Jinshu.T_Gacha_Polearm_Jinshu",
-    "Sound": "SOUND_ITEM_WEAPON"
-  },
-  "10299": {
-    "WeaponId": 10299,
-    "WeaponName": "UI_WEAPON_NAME_10299",
-    "WeaponDescribe": "UI_WEAPON_DESC_10299",
-    "WeaponRarity": 3,
-    "WeaponMaxLevel": 20,
-    "WeaponToCoinType": 101,
-    "WeaponValue": 500,
-    "ModSlot": [
-      -1,
-      -1,
-      -1,
-      -1,
-      -1,
-      -1,
-      -1,
-      -1,
-      -1
-    ],
-    "ModSlotUnlock": [
-      0,
-      0,
-      0,
-      0,
-      1,
-      99,
-      99,
-      99,
-      99
-    ],
-    "ModApplicationType": [
-      2,
-      21,
-      102
-    ],
-    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Polearm_Liandu.T_Head_Polearm_Liandu",
-    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Polearm_Liandu.T_Bust_Polearm_Liandu",
-    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Polearm_Liandu.T_Gacha_Polearm_Liandu",
-    "Sound": "SOUND_ITEM_WEAPON"
+    "WeaponValue": 10000
   },
   "10301": {
-    "WeaponId": 10301,
-    "WeaponName": "UI_WEAPON_NAME_10301",
-    "WeaponDescribe": "UI_WEAPON_DESC_10301",
-    "WeaponRarity": 5,
-    "WeaponMaxLevel": 80,
-    "WeaponToCoinType": 101,
-    "WeaponValue": 10000,
+    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Claymore_Chengjie",
+    "CollectRewardExp": 400,
+    "DecomposeReward": 160004,
+    "GUIPathVariableName": "Chengjie",
+    "GUIPathVariableType": "Claymore",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Claymore_Chengjie",
+    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Claymore_Chengjie",
     "ModSlot": [
       -1,
       -1,
@@ -739,8 +422,7 @@
       -1,
       -1,
       -1,
-      1,
-      3
+      -1
     ],
     "ModSlotUnlock": [
       0,
@@ -750,67 +432,69 @@
       1,
       2,
       3,
-      4,
-      5
+      4
     ],
-    "ModApplicationType": [
-      2,
-      23,
+    "SkinApplicationType": [
       103
     ],
-    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Claymore_Chengjie.T_Head_Claymore_Chengjie",
-    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Claymore_Chengjie.T_Bust_Claymore_Chengjie",
-    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Claymore_Chengjie.T_Gacha_Claymore_Chengjie",
-    "Sound": "SOUND_ITEM_WEAPON"
+    "SortPriority": 5010,
+    "Sound": "SOUND_ITEM_WEAPON",
+    "WeaponDescribe": "UI_WEAPON_DESC_10301",
+    "WeaponId": 10301,
+    "WeaponMaxLevel": 80,
+    "WeaponName": "UI_WEAPON_NAME_10301",
+    "WeaponRarity": 5,
+    "WeaponToCoinType": 101,
+    "WeaponValue": 10000
   },
   "10302": {
-    "WeaponId": 10302,
-    "WeaponName": "UI_WEAPON_NAME_10302",
+    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Claymore_Rimian",
+    "CollectRewardExp": 400,
+    "DecomposeReward": 160004,
+    "GUIPathVariableName": "Rimian",
+    "GUIPathVariableType": "Claymore",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Claymore_Rimian",
+    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Claymore_Rimian",
+    "ModSlot": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "ModSlotUnlock": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "SkinApplicationType": [
+      103
+    ],
+    "Sound": "SOUND_ITEM_WEAPON",
     "WeaponDescribe": "UI_WEAPON_DESC_10302",
-    "WeaponRarity": 4,
+    "WeaponId": 10302,
     "WeaponMaxLevel": 80,
+    "WeaponName": "UI_WEAPON_NAME_10302",
+    "WeaponRarity": 5,
     "WeaponToCoinType": 101,
-    "WeaponValue": 4000,
-    "ModSlot": [
-      -1,
-      -1,
-      -1,
-      -1,
-      -1,
-      -1,
-      -1,
-      1,
-      3
-    ],
-    "ModSlotUnlock": [
-      0,
-      0,
-      0,
-      0,
-      1,
-      2,
-      3,
-      4,
-      5
-    ],
-    "ModApplicationType": [
-      2,
-      21,
-      103
-    ],
-    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Claymore_Rimian.T_Head_Claymore_Rimian",
-    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Claymore_Rimian.T_Bust_Claymore_Rimian",
-    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Claymore_Rimian.T_Gacha_Claymore_Rimian",
-    "Sound": "SOUND_ITEM_WEAPON"
+    "WeaponValue": 10000
   },
-  "10398": {
-    "WeaponId": 10398,
-    "WeaponName": "UI_WEAPON_NAME_10398",
-    "WeaponDescribe": "UI_WEAPON_DESC_10398",
-    "WeaponRarity": 2,
-    "WeaponMaxLevel": 20,
-    "WeaponToCoinType": 101,
-    "WeaponValue": 300,
+  "10303": {
+    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Claymore_Chixing",
+    "CollectRewardExp": 400,
+    "DecomposeReward": 160004,
+    "GUIPathVariableName": "Chixing",
+    "GUIPathVariableType": "Claymore",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Claymore_Chixing",
+    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Claymore_Chixing",
     "ModSlot": [
       -1,
       -1,
@@ -819,8 +503,7 @@
       -1,
       -1,
       -1,
-      1,
-      3
+      -1
     ],
     "ModSlotUnlock": [
       0,
@@ -830,27 +513,30 @@
       1,
       2,
       3,
-      4,
-      5
+      4
     ],
-    "ModApplicationType": [
-      2,
-      23,
+    "SkinApplicationType": [
       103
     ],
-    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Claymore_Jinshu.T_Head_Claymore_Jinshu",
-    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Claymore_Jinshu.T_Bust_Claymore_Jinshu",
-    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Claymore_Jinshu.T_Gacha_Claymore_Jinshu",
-    "Sound": "SOUND_ITEM_WEAPON"
+    "Sound": "SOUND_ITEM_WEAPON",
+    "WeaponDescribe": "UI_WEAPON_DESC_10303",
+    "WeaponId": 10303,
+    "WeaponMaxLevel": 80,
+    "WeaponName": "UI_WEAPON_NAME_10303",
+    "WeaponRarity": 5,
+    "WeaponToCoinType": 101,
+    "WeaponValue": 10000
   },
-  "10399": {
-    "WeaponId": 10399,
-    "WeaponName": "UI_WEAPON_NAME_10399",
-    "WeaponDescribe": "UI_WEAPON_DESC_10399",
-    "WeaponRarity": 3,
-    "WeaponMaxLevel": 20,
-    "WeaponToCoinType": 101,
-    "WeaponValue": 500,
+  "10304": {
+    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Claymore_Wangu",
+    "CollectRewardExp": 400,
+    "DecomposeReward": 160004,
+    "GMNot": 1,
+    "GUIPathVariableName": "Wangu",
+    "GUIPathVariableType": "Claymore",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Claymore_Wangu",
+    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Claymore_Wangu",
+    "IsNotOpen": true,
     "ModSlot": [
       -1,
       -1,
@@ -859,8 +545,7 @@
       -1,
       -1,
       -1,
-      1,
-      3
+      -1
     ],
     "ModSlotUnlock": [
       0,
@@ -870,27 +555,149 @@
       1,
       2,
       3,
-      4,
-      5
+      4
     ],
-    "ModApplicationType": [
-      2,
-      23,
+    "SkinApplicationType": [
       103
     ],
-    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Claymore_Liandu.T_Head_Claymore_Liandu",
-    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Claymore_Liandu.T_Bust_Claymore_Liandu",
-    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Claymore_Liandu.T_Gacha_Claymore_Liandu",
-    "Sound": "SOUND_ITEM_WEAPON"
+    "SortPriority": 5010,
+    "Sound": "SOUND_ITEM_WEAPON",
+    "WeaponDescribe": "UI_WEAPON_DESC_10304",
+    "WeaponId": 10304,
+    "WeaponMaxLevel": 80,
+    "WeaponName": "UI_WEAPON_NAME_10304",
+    "WeaponRarity": 5,
+    "WeaponToCoinType": 101,
+    "WeaponValue": 10000
+  },
+  "10401": {
+    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Dualblade_Shixiang",
+    "CollectRewardExp": 400,
+    "DecomposeReward": 160004,
+    "GUIPathVariableName": "Shixiang",
+    "GUIPathVariableType": "Dualblade",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Dualblade_Shixiang",
+    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Dualblade_Shixiang",
+    "ModSlot": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "ModSlotUnlock": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "SkinApplicationType": [
+      104
+    ],
+    "Sound": "SOUND_ITEM_WEAPON",
+    "WeaponDescribe": "UI_WEAPON_DESC_10401",
+    "WeaponId": 10401,
+    "WeaponMaxLevel": 80,
+    "WeaponName": "UI_WEAPON_NAME_10401",
+    "WeaponRarity": 5,
+    "WeaponToCoinType": 101,
+    "WeaponValue": 10000
+  },
+  "10402": {
+    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Dualblade_Liujin",
+    "CollectRewardExp": 400,
+    "DecomposeReward": 160004,
+    "GUIPathVariableName": "Liujin",
+    "GUIPathVariableType": "Dualblade",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Dualblade_Liujin",
+    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Dualblade_Liujin",
+    "ModSlot": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "ModSlotUnlock": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "SkinApplicationType": [
+      104
+    ],
+    "Sound": "SOUND_ITEM_WEAPON",
+    "WeaponDescribe": "UI_WEAPON_DESC_10402",
+    "WeaponId": 10402,
+    "WeaponMaxLevel": 80,
+    "WeaponName": "UI_WEAPON_NAME_10402",
+    "WeaponRarity": 5,
+    "WeaponToCoinType": 101,
+    "WeaponValue": 10000
+  },
+  "10403": {
+    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Dualblade_Yousha",
+    "CollectRewardExp": 400,
+    "DecomposeReward": 160004,
+    "GUIPathVariableName": "Yousha",
+    "GUIPathVariableType": "Dualblade",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Dualblade_Yousha",
+    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Dualblade_Yousha",
+    "ModSlot": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "ModSlotUnlock": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "SkinApplicationType": [
+      104
+    ],
+    "Sound": "SOUND_ITEM_WEAPON",
+    "WeaponDescribe": "UI_WEAPON_DESC_10403",
+    "WeaponId": 10403,
+    "WeaponMaxLevel": 80,
+    "WeaponName": "UI_WEAPON_NAME_10403",
+    "WeaponRarity": 5,
+    "WeaponToCoinType": 101,
+    "WeaponValue": 10000
   },
   "10501": {
-    "WeaponId": 10501,
-    "WeaponName": "UI_WEAPON_NAME_10501",
-    "WeaponDescribe": "UI_WEAPON_DESC_10501",
-    "WeaponRarity": 5,
-    "WeaponMaxLevel": 80,
-    "WeaponToCoinType": 101,
-    "WeaponValue": 10000,
+    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Swordwhip_Buyu",
+    "CollectRewardExp": 400,
+    "DecomposeReward": 160004,
+    "GUIPathVariableName": "Buyu",
+    "GUIPathVariableType": "Swordwhip",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Swordwhip_Buyu",
+    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Swordwhip_Buyu",
     "ModSlot": [
       -1,
       -1,
@@ -899,8 +706,7 @@
       -1,
       -1,
       -1,
-      3,
-      1
+      -1
     ],
     "ModSlotUnlock": [
       0,
@@ -910,68 +716,195 @@
       1,
       2,
       3,
-      4,
-      5
+      4
     ],
-    "ModApplicationType": [
+    "SkinApplicationType": [
+      105
+    ],
+    "SortPriority": 5011,
+    "Sound": "SOUND_ITEM_WEAPON",
+    "WeaponDescribe": "UI_WEAPON_DESC_10501",
+    "WeaponId": 10501,
+    "WeaponMaxLevel": 80,
+    "WeaponName": "UI_WEAPON_NAME_10501",
+    "WeaponRarity": 5,
+    "WeaponToCoinType": 101,
+    "WeaponValue": 10000
+  },
+  "10502": {
+    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Swordwhip_Zeshi",
+    "CollectRewardExp": 400,
+    "DecomposeReward": 160004,
+    "GMNot": 1,
+    "GUIPathVariableName": "Zeshi",
+    "GUIPathVariableType": "Swordwhip",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Swordwhip_Zeshi",
+    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Swordwhip_Zeshi",
+    "IsNotOpen": true,
+    "ModSlot": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "ModSlotUnlock": [
+      0,
+      0,
+      0,
+      0,
+      1,
       2,
-      23
+      3,
+      4
     ],
-    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Swordwhip_Buyu.T_Head_Swordwhip_Buyu",
-    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Swordwhip_Buyu.T_Bust_Swordwhip_Buyu",
-    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Sword_Buyu.T_Gacha_Sword_Buyu",
-    "Sound": "SOUND_ITEM_WEAPON"
+    "SkinApplicationType": [
+      105
+    ],
+    "SortPriority": 5011,
+    "Sound": "SOUND_ITEM_WEAPON",
+    "WeaponDescribe": "UI_WEAPON_DESC_10502",
+    "WeaponId": 10502,
+    "WeaponMaxLevel": 80,
+    "WeaponName": "UI_WEAPON_NAME_10502",
+    "WeaponRarity": 5,
+    "WeaponToCoinType": 101,
+    "WeaponValue": 10000
+  },
+  "10503": {
+    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Swordwhip_Chixing",
+    "CollectRewardExp": 400,
+    "DecomposeReward": 160004,
+    "GUIPathVariableName": "Chixing",
+    "GUIPathVariableType": "Swordwhip",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Swordwhip_Chixing",
+    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Swordwhip_Chixing",
+    "ModSlot": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "ModSlotUnlock": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "SkinApplicationType": [
+      105
+    ],
+    "SortPriority": 5011,
+    "Sound": "SOUND_ITEM_WEAPON",
+    "WeaponDescribe": "UI_WEAPON_DESC_10503",
+    "WeaponId": 10503,
+    "WeaponMaxLevel": 80,
+    "WeaponName": "UI_WEAPON_NAME_10503",
+    "WeaponRarity": 5,
+    "WeaponToCoinType": 101,
+    "WeaponValue": 10000
+  },
+  "10504": {
+    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Swordwhip_Canghu",
+    "CollectRewardExp": 400,
+    "DecomposeReward": 160004,
+    "GUIPathVariableName": "Canghu",
+    "GUIPathVariableType": "Swordwhip",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Swordwhip_Canghu",
+    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Swordwhip_Canghu",
+    "ModSlot": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "ModSlotUnlock": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "SkinApplicationType": [
+      105
+    ],
+    "SortPriority": 5011,
+    "Sound": "SOUND_ITEM_WEAPON",
+    "WeaponDescribe": "UI_WEAPON_DESC_10504",
+    "WeaponId": 10504,
+    "WeaponMaxLevel": 80,
+    "WeaponName": "UI_WEAPON_NAME_10504",
+    "WeaponRarity": 5,
+    "WeaponToCoinType": 101,
+    "WeaponValue": 10000
   },
   "10601": {
-    "WeaponId": 10601,
-    "WeaponName": "UI_WEAPON_NAME_10601",
+    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Katana_Feiqie",
+    "CollectRewardExp": 400,
+    "DecomposeReward": 160004,
+    "GUIPathVariableName": "Feiqie",
+    "GUIPathVariableType": "Katana",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Katana_Feiqie",
+    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Katana_Feiqie",
+    "ModSlot": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "ModSlotUnlock": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "SkinApplicationType": [
+      106
+    ],
+    "Sound": "SOUND_ITEM_WEAPON",
     "WeaponDescribe": "UI_WEAPON_DESC_10601",
-    "WeaponRarity": 4,
+    "WeaponId": 10601,
     "WeaponMaxLevel": 80,
+    "WeaponName": "UI_WEAPON_NAME_10601",
+    "WeaponRarity": 5,
     "WeaponToCoinType": 101,
-    "WeaponValue": 4000,
-    "ModSlot": [
-      -1,
-      -1,
-      -1,
-      -1,
-      -1,
-      -1,
-      -1,
-      3,
-      1
-    ],
-    "ModSlotUnlock": [
-      0,
-      0,
-      0,
-      0,
-      1,
-      2,
-      3,
-      4,
-      5
-    ],
-    "ModApplicationType": [
-      2,
-      21,
-      106
-    ],
-    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Katana_Feiqie.T_Head_Katana_Feiqie",
-    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Katana_Feiqie.T_Bust_Katana_Feiqie",
-    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Katana_Feiqie.T_Gacha_Katana_Feiqie",
-    "Sound": "SOUND_ITEM_WEAPON"
+    "WeaponValue": 10000
   },
-  "10698": {
-    "WeaponId": 10698,
-    "WeaponName": "UI_WEAPON_NAME_10698",
-    "WeaponDescribe": "UI_WEAPON_DESC_10698",
-    "WeaponRarity": 2,
-    "WeaponMaxLevel": 20,
-    "WeaponToCoinType": 101,
-    "WeaponValue": 300,
+  "10602": {
+    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Katana_Chixing",
+    "CollectRewardExp": 400,
+    "DecomposeReward": 160004,
+    "GUIPathVariableName": "Chixing",
+    "GUIPathVariableType": "Katana",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Katana_Chixing",
+    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Katana_Chixing",
     "ModSlot": [
-      -1,
       -1,
       -1,
       -1,
@@ -987,31 +920,31 @@
       0,
       0,
       1,
-      99,
-      99,
-      99,
-      99
-    ],
-    "ModApplicationType": [
       2,
-      21,
+      3,
+      4
+    ],
+    "SkinApplicationType": [
       106
     ],
-    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Katana_Jinshu.T_Head_Katana_Jinshu",
-    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Katana_Jinshu.T_Bust_Katana_Jinshu",
-    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Katana_Jinshu.T_Gacha_Katana_Jinshu",
-    "Sound": "SOUND_ITEM_WEAPON"
-  },
-  "10699": {
-    "WeaponId": 10699,
-    "WeaponName": "UI_WEAPON_NAME_10699",
-    "WeaponDescribe": "UI_WEAPON_DESC_10699",
-    "WeaponRarity": 3,
-    "WeaponMaxLevel": 20,
+    "Sound": "SOUND_ITEM_WEAPON",
+    "WeaponDescribe": "UI_WEAPON_DESC_10602",
+    "WeaponId": 10602,
+    "WeaponMaxLevel": 80,
+    "WeaponName": "UI_WEAPON_NAME_10602",
+    "WeaponRarity": 5,
     "WeaponToCoinType": 101,
-    "WeaponValue": 500,
+    "WeaponValue": 10000
+  },
+  "10603": {
+    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Katana_Yuli",
+    "CollectRewardExp": 400,
+    "DecomposeReward": 160004,
+    "GUIPathVariableName": "Yuli",
+    "GUIPathVariableType": "Katana",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Katana_Yuli",
+    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Katana_Yuli",
     "ModSlot": [
-      -1,
       -1,
       -1,
       -1,
@@ -1027,31 +960,30 @@
       0,
       0,
       1,
-      99,
-      99,
-      99,
-      99
-    ],
-    "ModApplicationType": [
       2,
-      21,
+      3,
+      4
+    ],
+    "SkinApplicationType": [
       106
     ],
-    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Katana_Liandu.T_Head_Katana_Liandu",
-    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Katana_Liandu.T_Bust_Katana_Liandu",
-    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Katana_Liandu.T_Gacha_Katana_Liandu",
-    "Sound": "SOUND_ITEM_WEAPON"
+    "Sound": "SOUND_ITEM_WEAPON",
+    "WeaponDescribe": "UI_WEAPON_DESC_10603",
+    "WeaponId": 10603,
+    "WeaponMaxLevel": 80,
+    "WeaponName": "UI_WEAPON_NAME_10603",
+    "WeaponRarity": 5,
+    "WeaponToCoinType": 101,
+    "WeaponValue": 10000
   },
   "20101": {
-    "WeaponId": 20101,
-    "IsNotOpen": 1,
-    "GMNot": 1,
-    "WeaponName": "UI_WEAPON_NAME_20101",
-    "WeaponDescribe": "UI_WEAPON_DESC_20101",
-    "WeaponRarity": 4,
-    "WeaponMaxLevel": 80,
-    "WeaponToCoinType": 101,
-    "WeaponValue": 4000,
+    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Pistol_Wuxu",
+    "CollectRewardExp": 400,
+    "DecomposeReward": 160004,
+    "GUIPathVariableName": "Wuxu",
+    "GUIPathVariableType": "Pistol",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Pistol_Wuxu",
+    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Pistol_Wuxu",
     "ModSlot": [
       -1,
       -1,
@@ -1060,8 +992,7 @@
       -1,
       -1,
       -1,
-      1,
-      1
+      -1
     ],
     "ModSlotUnlock": [
       0,
@@ -1071,25 +1002,111 @@
       1,
       2,
       3,
-      4,
-      5
+      4
     ],
-    "ModApplicationType": [
-      3
+    "SkinApplicationType": [
+      201
     ],
-    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Crossbow_Chixing.T_Head_Crossbow_Chixing",
-    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Crossbow_Chixing.T_Bust_Crossbow_Chixing",
-    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Crossbow_Jinshu.T_Gacha_Crossbow_Jinshu",
-    "Sound": "SOUND_ITEM_WEAPON"
+    "SortPriority": 5101,
+    "Sound": "SOUND_ITEM_WEAPON",
+    "WeaponDescribe": "UI_WEAPON_DESC_20101",
+    "WeaponId": 20101,
+    "WeaponMaxLevel": 80,
+    "WeaponName": "UI_WEAPON_NAME_20101",
+    "WeaponRarity": 5,
+    "WeaponToCoinType": 101,
+    "WeaponValue": 10000
+  },
+  "20102": {
+    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Pistol_Chixing",
+    "CollectRewardExp": 400,
+    "DecomposeReward": 160004,
+    "GUIPathVariableName": "Chixing",
+    "GUIPathVariableType": "Pistol",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Pistol_Chixing",
+    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Pistol_Chixing",
+    "ModSlot": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "ModSlotUnlock": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "SkinApplicationType": [
+      201
+    ],
+    "SortPriority": 5101,
+    "Sound": "SOUND_ITEM_WEAPON",
+    "WeaponDescribe": "UI_WEAPON_DESC_20102",
+    "WeaponId": 20102,
+    "WeaponMaxLevel": 80,
+    "WeaponName": "UI_WEAPON_NAME_20102",
+    "WeaponRarity": 5,
+    "WeaponToCoinType": 101,
+    "WeaponValue": 10000
+  },
+  "20103": {
+    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Pistol_Gaoyu",
+    "CollectRewardExp": 400,
+    "DecomposeReward": 160004,
+    "GUIPathVariableName": "Gaoyu",
+    "GUIPathVariableType": "Pistol",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Pistol_Gaoyu",
+    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Pistol_Gaoyu",
+    "ModSlot": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "ModSlotUnlock": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "SkinApplicationType": [
+      201
+    ],
+    "SortPriority": 5101,
+    "Sound": "SOUND_ITEM_WEAPON",
+    "WeaponDescribe": "UI_WEAPON_DESC_20103",
+    "WeaponId": 20103,
+    "WeaponMaxLevel": 80,
+    "WeaponName": "UI_WEAPON_NAME_20103",
+    "WeaponRarity": 5,
+    "WeaponToCoinType": 101,
+    "WeaponValue": 10000
   },
   "20201": {
-    "WeaponId": 20201,
-    "WeaponName": "UI_WEAPON_NAME_20201",
-    "WeaponDescribe": "UI_WEAPON_DESC_20201",
-    "WeaponRarity": 4,
-    "WeaponMaxLevel": 80,
-    "WeaponToCoinType": 101,
-    "WeaponValue": 4000,
+    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Crossbow_Chixing",
+    "CollectRewardExp": 400,
+    "DecomposeReward": 160004,
+    "GUIPathVariableName": "Chixing",
+    "GUIPathVariableType": "Crossbow",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Crossbow_Chixing",
+    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Crossbow_Chixing",
     "ModSlot": [
       -1,
       -1,
@@ -1098,8 +1115,7 @@
       -1,
       -1,
       -1,
-      1,
-      4
+      -1
     ],
     "ModSlotUnlock": [
       0,
@@ -1109,26 +1125,28 @@
       1,
       2,
       3,
-      4,
-      5
+      4
     ],
-    "ModApplicationType": [
-      3,
-      32
+    "SkinApplicationType": [
+      202
     ],
-    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Crossbow_Chixing.T_Head_Crossbow_Chixing",
-    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Crossbow_Chixing.T_Bust_Crossbow_Chixing",
-    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Crossbow_Chixing.T_Gacha_Crossbow_Chixing",
-    "Sound": "SOUND_ITEM_WEAPON"
+    "Sound": "SOUND_ITEM_WEAPON",
+    "WeaponDescribe": "UI_WEAPON_DESC_20201",
+    "WeaponId": 20201,
+    "WeaponMaxLevel": 80,
+    "WeaponName": "UI_WEAPON_NAME_20201",
+    "WeaponRarity": 5,
+    "WeaponToCoinType": 101,
+    "WeaponValue": 10000
   },
   "20203": {
-    "WeaponId": 20203,
-    "WeaponName": "UI_WEAPON_NAME_20203",
-    "WeaponDescribe": "UI_WEAPON_DESC_20203",
-    "WeaponRarity": 5,
-    "WeaponMaxLevel": 80,
-    "WeaponToCoinType": 101,
-    "WeaponValue": 10000,
+    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Crossbow_Lanse",
+    "CollectRewardExp": 400,
+    "DecomposeReward": 160004,
+    "GUIPathVariableName": "Lanse",
+    "GUIPathVariableType": "Crossbow",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Crossbow_Lanse",
+    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Crossbow_Lanse",
     "ModSlot": [
       -1,
       -1,
@@ -1137,9 +1155,49 @@
       -1,
       -1,
       -1,
+      -1
+    ],
+    "ModSlotUnlock": [
+      0,
+      0,
+      0,
+      0,
       1,
+      2,
+      3,
       4
     ],
+    "SkinApplicationType": [
+      202
+    ],
+    "SortPriority": 5101,
+    "Sound": "SOUND_ITEM_WEAPON",
+    "WeaponDescribe": "UI_WEAPON_DESC_20203",
+    "WeaponId": 20203,
+    "WeaponMaxLevel": 80,
+    "WeaponName": "UI_WEAPON_NAME_20203",
+    "WeaponRarity": 5,
+    "WeaponToCoinType": 101,
+    "WeaponValue": 10000
+  },
+  "20205": {
+    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Crossbow_Gaoyu",
+    "CollectRewardExp": 400,
+    "DecomposeReward": 160004,
+    "GUIPathVariableName": "Gaoyu",
+    "GUIPathVariableType": "Crossbow",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Crossbow_Gaoyu",
+    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Crossbow_Gaoyu",
+    "ModSlot": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
     "ModSlotUnlock": [
       0,
       0,
@@ -1148,108 +1206,28 @@
       1,
       2,
       3,
-      4,
-      5
+      4
     ],
-    "ModApplicationType": [
-      3,
-      32
+    "SkinApplicationType": [
+      202
     ],
-    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Crossbow_Lanse.T_Head_Crossbow_Lanse",
-    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Crossbow_Lanse.T_Bust_Crossbow_Lanse",
-    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Crossbow_Lanse.T_Gacha_Crossbow_Lanse",
-    "Sound": "SOUND_ITEM_WEAPON"
-  },
-  "20296": {
-    "WeaponId": 20296,
-    "WeaponName": "UI_WEAPON_NAME_20296",
-    "WeaponDescribe": "UI_WEAPON_DESC_20296",
-    "WeaponRarity": 2,
-    "WeaponMaxLevel": 20,
+    "Sound": "SOUND_ITEM_WEAPON",
+    "WeaponDescribe": "UI_WEAPON_DESC_20205",
+    "WeaponId": 20205,
+    "WeaponMaxLevel": 80,
+    "WeaponName": "UI_WEAPON_NAME_20205",
+    "WeaponRarity": 5,
     "WeaponToCoinType": 101,
-    "WeaponValue": 300,
-    "ModSlot": [
-      -1,
-      -1,
-      -1,
-      -1,
-      -1,
-      -1,
-      -1,
-      -1,
-      -1
-    ],
-    "ModSlotUnlock": [
-      0,
-      0,
-      0,
-      0,
-      1,
-      99,
-      99,
-      99,
-      99
-    ],
-    "ModApplicationType": [
-      3,
-      31,
-      32,
-      33
-    ],
-    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Crossbow_Jinshu.T_Head_Crossbow_Jinshu",
-    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Crossbow_Jinshu.T_Bust_Crossbow_Jinshu",
-    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Crossbow_Jinshu.T_Gacha_Crossbow_Jinshu",
-    "Sound": "SOUND_ITEM_WEAPON"
-  },
-  "20298": {
-    "WeaponId": 20298,
-    "WeaponName": "UI_WEAPON_NAME_20298",
-    "WeaponDescribe": "UI_WEAPON_DESC_20298",
-    "WeaponRarity": 3,
-    "WeaponMaxLevel": 20,
-    "WeaponToCoinType": 101,
-    "WeaponValue": 500,
-    "ModSlot": [
-      -1,
-      -1,
-      -1,
-      -1,
-      -1,
-      -1,
-      -1,
-      -1,
-      -1
-    ],
-    "ModSlotUnlock": [
-      0,
-      0,
-      0,
-      0,
-      1,
-      99,
-      99,
-      99,
-      99
-    ],
-    "ModApplicationType": [
-      3,
-      31,
-      32,
-      33
-    ],
-    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Crossbow_Liandu.T_Head_Crossbow_Liandu",
-    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Crossbow_Liandu.T_Bust_Crossbow_Liandu",
-    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Crossbow_Liandu.T_Gacha_Crossbow_Liandu",
-    "Sound": "SOUND_ITEM_WEAPON"
+    "WeaponValue": 10000
   },
   "20301": {
-    "WeaponId": 20301,
-    "WeaponName": "UI_WEAPON_NAME_20301",
-    "WeaponDescribe": "UI_WEAPON_DESC_20301",
-    "WeaponRarity": 5,
-    "WeaponMaxLevel": 80,
-    "WeaponToCoinType": 101,
-    "WeaponValue": 10000,
+    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Cannon_Qunxing",
+    "CollectRewardExp": 400,
+    "DecomposeReward": 160004,
+    "GUIPathVariableName": "Qunxing",
+    "GUIPathVariableType": "Cannon",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Cannon_Qunxing",
+    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Cannon_Qunxing",
     "ModSlot": [
       -1,
       -1,
@@ -1258,8 +1236,7 @@
       -1,
       -1,
       -1,
-      2,
-      1
+      -1
     ],
     "ModSlotUnlock": [
       0,
@@ -1269,69 +1246,114 @@
       1,
       2,
       3,
-      4,
-      5
+      4
     ],
-    "ModApplicationType": [
+    "SkinApplicationType": [
+      203
+    ],
+    "SortPriority": 5102,
+    "Sound": "SOUND_ITEM_WEAPON",
+    "WeaponDescribe": "UI_WEAPON_DESC_20301",
+    "WeaponId": 20301,
+    "WeaponMaxLevel": 80,
+    "WeaponName": "UI_WEAPON_NAME_20301",
+    "WeaponRarity": 5,
+    "WeaponToCoinType": 101,
+    "WeaponValue": 10000
+  },
+  "20302": {
+    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Cannon_Chiqiang",
+    "CollectRewardExp": 400,
+    "DecomposeReward": 160004,
+    "GMNot": 1,
+    "GUIPathVariableName": "Chiqiang",
+    "GUIPathVariableType": "Cannon",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Cannon_Chiqiang",
+    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Cannon_Chiqiang",
+    "IsNotOpen": true,
+    "ModSlot": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "ModSlotUnlock": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
       3,
-      33,
-      34
+      4
     ],
-    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Cannon_Chiqiang.T_Head_Cannon_Chiqiang",
-    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Cannon_Chiqiang.T_Bust_Cannon_Chiqiang",
-    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Cannon_Chiqiang.T_Gacha_Cannon_Chiqiang",
-    "Sound": "SOUND_ITEM_WEAPON"
+    "SkinApplicationType": [
+      203
+    ],
+    "SortPriority": 5102,
+    "Sound": "SOUND_ITEM_WEAPON",
+    "WeaponDescribe": "UI_WEAPON_DESC_20302",
+    "WeaponId": 20302,
+    "WeaponMaxLevel": 80,
+    "WeaponName": "UI_WEAPON_NAME_20302",
+    "WeaponRarity": 5,
+    "WeaponToCoinType": 101,
+    "WeaponValue": 10000
   },
   "20303": {
-    "WeaponId": 20303,
-    "WeaponName": "UI_WEAPON_NAME_20303",
+    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Cannon_Chixing",
+    "CollectRewardExp": 400,
+    "DecomposeReward": 160004,
+    "GUIPathVariableName": "Chixing",
+    "GUIPathVariableType": "Cannon",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Cannon_Chixing",
+    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Cannon_Chixing",
+    "ModSlot": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "ModSlotUnlock": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "SkinApplicationType": [
+      203
+    ],
+    "SortPriority": 5101,
+    "Sound": "SOUND_ITEM_WEAPON",
     "WeaponDescribe": "UI_WEAPON_DESC_20303",
-    "WeaponRarity": 4,
+    "WeaponId": 20303,
     "WeaponMaxLevel": 80,
+    "WeaponName": "UI_WEAPON_NAME_20303",
+    "WeaponRarity": 5,
     "WeaponToCoinType": 101,
-    "WeaponValue": 4000,
-    "ModSlot": [
-      -1,
-      -1,
-      -1,
-      -1,
-      -1,
-      -1,
-      -1,
-      2,
-      1
-    ],
-    "ModSlotUnlock": [
-      0,
-      0,
-      0,
-      0,
-      1,
-      2,
-      3,
-      4,
-      5
-    ],
-    "ModApplicationType": [
-      3,
-      33,
-      34
-    ],
-    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Cannon_Chixing.T_Head_Cannon_Chixing",
-    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Cannon_Chixing.T_Bust_Cannon_Chixing",
-    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Cannon_Chixing.T_Gacha_Cannon_Chixing",
-    "Sound": "SOUND_ITEM_WEAPON"
+    "WeaponValue": 10000
   },
-  "20398": {
-    "WeaponId": 20398,
-    "WeaponName": "UI_WEAPON_NAME_20398",
-    "WeaponDescribe": "UI_WEAPON_DESC_20398",
-    "WeaponRarity": 3,
-    "WeaponMaxLevel": 20,
-    "WeaponToCoinType": 101,
-    "WeaponValue": 500,
+  "20304": {
+    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Cannon_Guixu",
+    "CollectRewardExp": 400,
+    "DecomposeReward": 160004,
+    "GUIPathVariableName": "Guixu",
+    "GUIPathVariableType": "Cannon",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Cannon_Guixu",
+    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Cannon_Guixu",
     "ModSlot": [
-      -1,
       -1,
       -1,
       -1,
@@ -1347,31 +1369,32 @@
       0,
       0,
       1,
-      99,
-      99,
-      99,
-      99
-    ],
-    "ModApplicationType": [
+      2,
       3,
-      33,
-      34
+      4
     ],
-    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Cannon_Liandu.T_Head_Cannon_Liandu",
-    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Cannon_Liandu.T_Bust_Cannon_Liandu",
-    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Cannon_Liandu.T_Gacha_Cannon_Liandu",
-    "Sound": "SOUND_ITEM_WEAPON"
-  },
-  "20399": {
-    "WeaponId": 20399,
-    "WeaponName": "UI_WEAPON_NAME_20399",
-    "WeaponDescribe": "UI_WEAPON_DESC_20399",
-    "WeaponRarity": 2,
-    "WeaponMaxLevel": 20,
+    "SkinApplicationType": [
+      203
+    ],
+    "SortPriority": 5101,
+    "Sound": "SOUND_ITEM_WEAPON",
+    "WeaponDescribe": "UI_WEAPON_DESC_20304",
+    "WeaponId": 20304,
+    "WeaponMaxLevel": 80,
+    "WeaponName": "UI_WEAPON_NAME_20304",
+    "WeaponRarity": 5,
     "WeaponToCoinType": 101,
-    "WeaponValue": 300,
+    "WeaponValue": 10000
+  },
+  "20305": {
+    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Cannon_Yinbai",
+    "CollectRewardExp": 400,
+    "DecomposeReward": 160004,
+    "GUIPathVariableName": "Yinbai",
+    "GUIPathVariableType": "Cannon",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Cannon_Yinbai",
+    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Cannon_Yinbai",
     "ModSlot": [
-      -1,
       -1,
       -1,
       -1,
@@ -1387,29 +1410,31 @@
       0,
       0,
       1,
-      99,
-      99,
-      99,
-      99
-    ],
-    "ModApplicationType": [
+      2,
       3,
-      33,
-      34
+      4
     ],
-    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Cannon_Jinshu.T_Head_Cannon_Jinshu",
-    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Cannon_Jinshu.T_Bust_Cannon_Jinshu",
-    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Cannon_Jinshu.T_Gacha_Cannon_Jinshu",
-    "Sound": "SOUND_ITEM_WEAPON"
+    "SkinApplicationType": [
+      203
+    ],
+    "SortPriority": 5101,
+    "Sound": "SOUND_ITEM_WEAPON",
+    "WeaponDescribe": "UI_WEAPON_DESC_20305",
+    "WeaponId": 20305,
+    "WeaponMaxLevel": 80,
+    "WeaponName": "UI_WEAPON_NAME_20305",
+    "WeaponRarity": 5,
+    "WeaponToCoinType": 101,
+    "WeaponValue": 10000
   },
   "20401": {
-    "WeaponId": 20401,
-    "WeaponName": "UI_WEAPON_NAME_20401",
-    "WeaponDescribe": "UI_WEAPON_DESC_20401",
-    "WeaponRarity": 4,
-    "WeaponMaxLevel": 80,
-    "WeaponToCoinType": 101,
-    "WeaponValue": 4000,
+    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Shotgun_Chixing",
+    "CollectRewardExp": 400,
+    "DecomposeReward": 160004,
+    "GUIPathVariableName": "Chixing",
+    "GUIPathVariableType": "Shotgun",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Shotgun_Chixing",
+    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Shotgun_Chixing",
     "ModSlot": [
       -1,
       -1,
@@ -1418,8 +1443,7 @@
       -1,
       -1,
       -1,
-      2,
-      2
+      -1
     ],
     "ModSlotUnlock": [
       0,
@@ -1429,26 +1453,29 @@
       1,
       2,
       3,
-      4,
-      5
+      4
     ],
-    "ModApplicationType": [
-      3,
-      33
+    "SkinApplicationType": [
+      204
     ],
-    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Shotgun_Chixing.T_Head_Shotgun_Chixing",
-    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Shotgun_Chixing.T_Bust_Shotgun_Chixing",
-    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Shotgun_Chixing.T_Gacha_Shotgun_Chixing",
-    "Sound": "SOUND_ITEM_WEAPON"
+    "SortPriority": 5101,
+    "Sound": "SOUND_ITEM_WEAPON",
+    "WeaponDescribe": "UI_WEAPON_DESC_20401",
+    "WeaponId": 20401,
+    "WeaponMaxLevel": 80,
+    "WeaponName": "UI_WEAPON_NAME_20401",
+    "WeaponRarity": 5,
+    "WeaponToCoinType": 101,
+    "WeaponValue": 10000
   },
   "20402": {
-    "WeaponId": 20402,
-    "WeaponName": "UI_WEAPON_NAME_20402",
-    "WeaponDescribe": "UI_WEAPON_DESC_20402",
-    "WeaponRarity": 5,
-    "WeaponMaxLevel": 80,
-    "WeaponToCoinType": 101,
-    "WeaponValue": 10000,
+    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Shotgun_Banzi",
+    "CollectRewardExp": 400,
+    "DecomposeReward": 160004,
+    "GUIPathVariableName": "Banzi",
+    "GUIPathVariableType": "Shotgun",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Shotgun_Banzi",
+    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Shotgun_Banzi",
     "ModSlot": [
       -1,
       -1,
@@ -1457,8 +1484,7 @@
       -1,
       -1,
       -1,
-      2,
-      2
+      -1
     ],
     "ModSlotUnlock": [
       0,
@@ -1468,69 +1494,71 @@
       1,
       2,
       3,
-      4,
-      5
+      4
     ],
-    "ModApplicationType": [
-      3,
-      33,
-      34
+    "SkinApplicationType": [
+      204
     ],
-    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Shotgun_Banzi.T_Head_Shotgun_Banzi",
-    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Shotgun_Banzi.T_Bust_Shotgun_Banzi",
-    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Shotgun_Banzi.T_Gacha_Shotgun_Banzi",
-    "Sound": "SOUND_ITEM_WEAPON"
+    "SortPriority": 5103,
+    "Sound": "SOUND_ITEM_WEAPON",
+    "WeaponDescribe": "UI_WEAPON_DESC_20402",
+    "WeaponId": 20402,
+    "WeaponMaxLevel": 80,
+    "WeaponName": "UI_WEAPON_NAME_20402",
+    "WeaponRarity": 5,
+    "WeaponToCoinType": 101,
+    "WeaponValue": 10000
   },
   "20403": {
-    "WeaponId": 20403,
-    "WeaponName": "UI_WEAPON_NAME_20403",
+    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Shotgun_Shengcai",
+    "CollectRewardExp": 400,
+    "DecomposeReward": 160004,
+    "GUIPathVariableName": "Shengcai",
+    "GUIPathVariableType": "Shotgun",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Shotgun_Shengcai",
+    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Shotgun_Shengcai",
+    "ModSlot": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "ModSlotUnlock": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "SkinApplicationType": [
+      204
+    ],
+    "SortPriority": 5101,
+    "Sound": "SOUND_ITEM_WEAPON",
     "WeaponDescribe": "UI_WEAPON_DESC_20403",
-    "WeaponRarity": 4,
+    "WeaponId": 20403,
     "WeaponMaxLevel": 80,
+    "WeaponName": "UI_WEAPON_NAME_20403",
+    "WeaponRarity": 5,
     "WeaponToCoinType": 101,
-    "WeaponValue": 4000,
-    "ModSlot": [
-      -1,
-      -1,
-      -1,
-      -1,
-      -1,
-      -1,
-      -1,
-      2,
-      2
-    ],
-    "ModSlotUnlock": [
-      0,
-      0,
-      0,
-      0,
-      1,
-      2,
-      3,
-      4,
-      5
-    ],
-    "ModApplicationType": [
-      3,
-      31,
-      34
-    ],
-    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Shotgun_Shengcai.T_Head_Shotgun_Shengcai",
-    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Shotgun_Shengcai.T_Bust_Shotgun_Shengcai",
-    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Shotgun_Shengcai.T_Gacha_Shotgun_Shengcai",
-    "Sound": "SOUND_ITEM_WEAPON"
+    "WeaponValue": 10000
   },
-  "20498": {
-    "WeaponId": 20498,
-    "WeaponName": "UI_WEAPON_NAME_20498",
-    "WeaponDescribe": "UI_WEAPON_DESC_20498",
-    "WeaponRarity": 3,
-    "WeaponMaxLevel": 20,
-    "WeaponToCoinType": 101,
-    "WeaponValue": 500,
+  "20405": {
+    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Shotgun_Baopo",
+    "CollectRewardExp": 400,
+    "DecomposeReward": 160004,
+    "GUIPathVariableName": "Baopo",
+    "GUIPathVariableType": "Shotgun",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Shotgun_Baopo",
+    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Shotgun_Baopo",
     "ModSlot": [
-      -1,
       -1,
       -1,
       -1,
@@ -1546,71 +1574,31 @@
       0,
       0,
       1,
-      99,
-      99,
-      99,
-      99
-    ],
-    "ModApplicationType": [
+      2,
       3,
-      31,
-      32,
-      33
+      4
     ],
-    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Shotgun_Liandu.T_Head_Shotgun_Liandu",
-    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Shotgun_Liandu.T_Bust_Shotgun_Liandu",
-    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Shotgun_Liandu.T_Gacha_Shotgun_Liandu",
-    "Sound": "SOUND_ITEM_WEAPON"
-  },
-  "20499": {
-    "WeaponId": 20499,
-    "WeaponName": "UI_WEAPON_NAME_20499",
-    "WeaponDescribe": "UI_WEAPON_DESC_20499",
-    "WeaponRarity": 2,
-    "WeaponMaxLevel": 20,
+    "SkinApplicationType": [
+      204
+    ],
+    "SortPriority": 5103,
+    "Sound": "SOUND_ITEM_WEAPON",
+    "WeaponDescribe": "UI_WEAPON_DESC_20405",
+    "WeaponId": 20405,
+    "WeaponMaxLevel": 80,
+    "WeaponName": "UI_WEAPON_NAME_20405",
+    "WeaponRarity": 5,
     "WeaponToCoinType": 101,
-    "WeaponValue": 300,
-    "ModSlot": [
-      -1,
-      -1,
-      -1,
-      -1,
-      -1,
-      -1,
-      -1,
-      -1,
-      -1
-    ],
-    "ModSlotUnlock": [
-      0,
-      0,
-      0,
-      0,
-      1,
-      99,
-      99,
-      99,
-      99
-    ],
-    "ModApplicationType": [
-      3,
-      31,
-      32,
-      33
-    ],
-    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Shotgun_Jinshu.T_Head_Shotgun_Jinshu",
-    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Shotgun_Jinshu.T_Bust_Shotgun_Jinshu",
-    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Shotgun_Jinshu.T_Gacha_Shotgun_Jinshu",
-    "Sound": "SOUND_ITEM_WEAPON"
+    "WeaponValue": 10000
   },
   "20501": {
-    "WeaponId": 20501,
-    "WeaponName": "UI_WEAPON_NAME_20501",
-    "WeaponDescribe": "UI_WEAPON_DESC_20501",
-    "WeaponRarity": 4,
-    "WeaponMaxLevel": 80,
-    "WeaponToCoinType": 101,
-    "WeaponValue": 4000,
+    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Machinegun_Chixing",
+    "CollectRewardExp": 400,
+    "DecomposeReward": 160004,
+    "GUIPathVariableName": "Chixing",
+    "GUIPathVariableType": "Machinegun",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Machinegun_Chixing",
+    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Machinegun_Chixing",
     "ModSlot": [
       -1,
       -1,
@@ -1619,8 +1607,7 @@
       -1,
       -1,
       -1,
-      1,
-      3
+      -1
     ],
     "ModSlotUnlock": [
       0,
@@ -1630,26 +1617,29 @@
       1,
       2,
       3,
-      4,
-      5
+      4
     ],
-    "ModApplicationType": [
-      3,
-      31
+    "SkinApplicationType": [
+      205
     ],
-    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Machinegun_Chixing.T_Head_Machinegun_Chixing",
-    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Machinegun_Chixing.T_Bust_Machinegun_Chixing",
-    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Machinegun_Chixing.T_Gacha_Machinegun_Chixing",
-    "Sound": "SOUND_ITEM_WEAPON"
+    "SortPriority": 5101,
+    "Sound": "SOUND_ITEM_WEAPON",
+    "WeaponDescribe": "UI_WEAPON_DESC_20501",
+    "WeaponId": 20501,
+    "WeaponMaxLevel": 80,
+    "WeaponName": "UI_WEAPON_NAME_20501",
+    "WeaponRarity": 5,
+    "WeaponToCoinType": 101,
+    "WeaponValue": 10000
   },
   "20502": {
-    "WeaponId": 20502,
-    "WeaponName": "UI_WEAPON_NAME_20502",
-    "WeaponDescribe": "UI_WEAPON_DESC_20502",
-    "WeaponRarity": 5,
-    "WeaponMaxLevel": 80,
-    "WeaponToCoinType": 101,
-    "WeaponValue": 10000,
+    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Machinegun_Fangzhu",
+    "CollectRewardExp": 400,
+    "DecomposeReward": 160004,
+    "GUIPathVariableName": "Fangzhu",
+    "GUIPathVariableType": "Machinegun",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Machinegun_Fangzhu",
+    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Machinegun_Fangzhu",
     "ModSlot": [
       -1,
       -1,
@@ -1658,8 +1648,7 @@
       -1,
       -1,
       -1,
-      1,
-      3
+      -1
     ],
     "ModSlotUnlock": [
       0,
@@ -1669,27 +1658,29 @@
       1,
       2,
       3,
-      4,
-      5
+      4
     ],
-    "ModApplicationType": [
-      3,
-      32,
-      35
+    "SkinApplicationType": [
+      205
     ],
-    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Machinegun_Fangzhu.T_Head_Machinegun_Fangzhu",
-    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Machinegun_Fangzhu.T_Bust_Machinegun_Fangzhu",
-    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Machinegun_Fangzhu.T_Gacha_Machinegun_Fangzhu",
-    "Sound": "SOUND_ITEM_WEAPON"
+    "SortPriority": 5104,
+    "Sound": "SOUND_ITEM_WEAPON",
+    "WeaponDescribe": "UI_WEAPON_DESC_20502",
+    "WeaponId": 20502,
+    "WeaponMaxLevel": 80,
+    "WeaponName": "UI_WEAPON_NAME_20502",
+    "WeaponRarity": 5,
+    "WeaponToCoinType": 101,
+    "WeaponValue": 10000
   },
   "20503": {
-    "WeaponId": 20503,
-    "WeaponName": "UI_WEAPON_NAME_20503",
-    "WeaponDescribe": "UI_WEAPON_DESC_20503",
-    "WeaponRarity": 4,
-    "WeaponMaxLevel": 80,
-    "WeaponToCoinType": 101,
-    "WeaponValue": 4000,
+    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Machinegun_Qiqing",
+    "CollectRewardExp": 400,
+    "DecomposeReward": 160004,
+    "GUIPathVariableName": "Qiqing",
+    "GUIPathVariableType": "Machinegun",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Machinegun_Qiqing",
+    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Machinegun_Qiqing",
     "ModSlot": [
       -1,
       -1,
@@ -1698,8 +1689,7 @@
       -1,
       -1,
       -1,
-      1,
-      3
+      -1
     ],
     "ModSlotUnlock": [
       0,
@@ -1709,27 +1699,29 @@
       1,
       2,
       3,
-      4,
-      5
+      4
     ],
-    "ModApplicationType": [
-      3,
-      31,
-      35
+    "SkinApplicationType": [
+      205
     ],
-    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Machinegun_Qiqing.T_Head_Machinegun_Qiqing",
-    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Machinegun_Qiqing.T_Bust_Machinegun_Qiqing",
-    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Machinegun_Qiqing.T_Gacha_Machinegun_Qiqing",
-    "Sound": "SOUND_ITEM_WEAPON"
+    "SortPriority": 5101,
+    "Sound": "SOUND_ITEM_WEAPON",
+    "WeaponDescribe": "UI_WEAPON_DESC_20503",
+    "WeaponId": 20503,
+    "WeaponMaxLevel": 80,
+    "WeaponName": "UI_WEAPON_NAME_20503",
+    "WeaponRarity": 5,
+    "WeaponToCoinType": 101,
+    "WeaponValue": 10000
   },
   "20504": {
-    "WeaponId": 20504,
-    "WeaponName": "UI_WEAPON_NAME_20504",
-    "WeaponDescribe": "UI_WEAPON_DESC_20504",
-    "WeaponRarity": 5,
-    "WeaponMaxLevel": 80,
-    "WeaponToCoinType": 101,
-    "WeaponValue": 10000,
+    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Machinegun_Poxiao",
+    "CollectRewardExp": 400,
+    "DecomposeReward": 160004,
+    "GUIPathVariableName": "Poxiao",
+    "GUIPathVariableType": "Machinegun",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Machinegun_Poxiao",
+    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Machinegun_Poxiao",
     "ModSlot": [
       -1,
       -1,
@@ -1738,8 +1730,7 @@
       -1,
       -1,
       -1,
-      1,
-      3
+      -1
     ],
     "ModSlotUnlock": [
       0,
@@ -1749,27 +1740,29 @@
       1,
       2,
       3,
-      4,
-      5
+      4
     ],
-    "ModApplicationType": [
-      3,
-      32,
-      35
+    "SkinApplicationType": [
+      205
     ],
-    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Machinegun_Poxiao.T_Head_Machinegun_Poxiao",
-    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Machinegun_Poxiao.T_Bust_Machinegun_Poxiao",
-    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Machinegun_Poxiao.T_Gacha_Machinegun_Poxiao",
-    "Sound": "SOUND_ITEM_WEAPON"
+    "SortPriority": 5105,
+    "Sound": "SOUND_ITEM_WEAPON",
+    "WeaponDescribe": "UI_WEAPON_DESC_20504",
+    "WeaponId": 20504,
+    "WeaponMaxLevel": 80,
+    "WeaponName": "UI_WEAPON_NAME_20504",
+    "WeaponRarity": 5,
+    "WeaponToCoinType": 101,
+    "WeaponValue": 10000
   },
   "20507": {
-    "WeaponId": 20507,
-    "WeaponName": "UI_WEAPON_NAME_20507",
-    "WeaponDescribe": "UI_WEAPON_DESC_20507",
-    "WeaponRarity": 5,
-    "WeaponMaxLevel": 80,
-    "WeaponToCoinType": 101,
-    "WeaponValue": 10000,
+    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Machinegun_Yinlang",
+    "CollectRewardExp": 400,
+    "DecomposeReward": 160004,
+    "GUIPathVariableName": "Yinlang",
+    "GUIPathVariableType": "Machinegun",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Machinegun_Yinlang",
+    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Machinegun_Yinlang",
     "ModSlot": [
       -1,
       -1,
@@ -1778,8 +1771,7 @@
       -1,
       -1,
       -1,
-      1,
-      3
+      -1
     ],
     "ModSlotUnlock": [
       0,
@@ -1789,28 +1781,30 @@
       1,
       2,
       3,
-      4,
-      5
+      4
     ],
-    "ModApplicationType": [
-      3,
-      31
+    "SkinApplicationType": [
+      205
     ],
-    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Machinegun_Yinlang.T_Head_Machinegun_Yinlang",
-    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Machinegun_Yinlang.T_Bust_Machinegun_Yinlang",
-    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Machinegun_Yinlang.T_Gacha_Machinegun_Yinlang",
-    "Sound": "SOUND_ITEM_WEAPON"
-  },
-  "20598": {
-    "WeaponId": 20598,
-    "WeaponName": "UI_WEAPON_NAME_20598",
-    "WeaponDescribe": "UI_WEAPON_DESC_20598",
-    "WeaponRarity": 3,
-    "WeaponMaxLevel": 20,
+    "SortPriority": 5106,
+    "Sound": "SOUND_ITEM_WEAPON",
+    "WeaponDescribe": "UI_WEAPON_DESC_20507",
+    "WeaponId": 20507,
+    "WeaponMaxLevel": 80,
+    "WeaponName": "UI_WEAPON_NAME_20507",
+    "WeaponRarity": 5,
     "WeaponToCoinType": 101,
-    "WeaponValue": 500,
+    "WeaponValue": 10000
+  },
+  "20509": {
+    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Machinegun_Zhimeng",
+    "CollectRewardExp": 400,
+    "DecomposeReward": 160004,
+    "GUIPathVariableName": "Zhimeng",
+    "GUIPathVariableType": "Machinegun",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Machinegun_Zhimeng",
+    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Machinegun_Zhimeng",
     "ModSlot": [
-      -1,
       -1,
       -1,
       -1,
@@ -1826,30 +1820,34 @@
       0,
       0,
       1,
-      99,
-      99,
-      99,
-      99
-    ],
-    "ModApplicationType": [
+      2,
       3,
-      31
+      4
     ],
-    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Machinegun_Liandu.T_Head_Machinegun_Liandu",
-    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Machinegun_Liandu.T_Bust_Machinegun_Liandu",
-    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Machinegun_Liandu.T_Gacha_Machinegun_Liandu",
-    "Sound": "SOUND_ITEM_WEAPON"
-  },
-  "20599": {
-    "WeaponId": 20599,
-    "WeaponName": "UI_WEAPON_NAME_20599",
-    "WeaponDescribe": "UI_WEAPON_DESC_20599",
-    "WeaponRarity": 2,
-    "WeaponMaxLevel": 20,
+    "SkinApplicationType": [
+      205
+    ],
+    "SortPriority": 5105,
+    "Sound": "SOUND_ITEM_WEAPON",
+    "WeaponDescribe": "UI_WEAPON_DESC_20509",
+    "WeaponId": 20509,
+    "WeaponMaxLevel": 80,
+    "WeaponName": "UI_WEAPON_NAME_20509",
+    "WeaponRarity": 5,
     "WeaponToCoinType": 101,
-    "WeaponValue": 300,
+    "WeaponValue": 10000
+  },
+  "20510": {
+    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Machinegun_Ruohua",
+    "CollectRewardExp": 400,
+    "DecomposeReward": 160004,
+    "GMNot": 1,
+    "GUIPathVariableName": "Ruohua",
+    "GUIPathVariableType": "Machinegun",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Machinegun_Ruohua",
+    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Machinegun_Ruohua",
+    "IsNotOpen": true,
     "ModSlot": [
-      -1,
       -1,
       -1,
       -1,
@@ -1865,28 +1863,31 @@
       0,
       0,
       1,
-      99,
-      99,
-      99,
-      99
-    ],
-    "ModApplicationType": [
+      2,
       3,
-      31
+      4
     ],
-    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Machinegun_Jinshu.T_Head_Machinegun_Jinshu",
-    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Machinegun_Jinshu.T_Bust_Machinegun_Jinshu",
-    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Machinegun_Jinshu.T_Gacha_Machinegun_Jinshu",
-    "Sound": "SOUND_ITEM_WEAPON"
+    "SkinApplicationType": [
+      205
+    ],
+    "SortPriority": 5106,
+    "Sound": "SOUND_ITEM_WEAPON",
+    "WeaponDescribe": "UI_WEAPON_DESC_20510",
+    "WeaponId": 20510,
+    "WeaponMaxLevel": 80,
+    "WeaponName": "UI_WEAPON_NAME_20510",
+    "WeaponRarity": 5,
+    "WeaponToCoinType": 101,
+    "WeaponValue": 10000
   },
   "20601": {
-    "WeaponId": 20601,
-    "WeaponName": "UI_WEAPON_NAME_20601",
-    "WeaponDescribe": "UI_WEAPON_DESC_20601",
-    "WeaponRarity": 4,
-    "WeaponMaxLevel": 80,
-    "WeaponToCoinType": 101,
-    "WeaponValue": 4000,
+    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Bow_Shashi",
+    "CollectRewardExp": 400,
+    "DecomposeReward": 160004,
+    "GUIPathVariableName": "Shashi",
+    "GUIPathVariableType": "Bow",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Bow_Shashi",
+    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Bow_Shashi",
     "ModSlot": [
       -1,
       -1,
@@ -1895,8 +1896,7 @@
       -1,
       -1,
       -1,
-      1,
-      1
+      -1
     ],
     "ModSlotUnlock": [
       0,
@@ -1906,26 +1906,29 @@
       1,
       2,
       3,
-      4,
-      5
+      4
     ],
-    "ModApplicationType": [
-      3,
-      31
+    "SkinApplicationType": [
+      207
     ],
-    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Bow_Lieyan.T_Head_Bow_Lieyan",
-    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Bow_Lieyan.T_Bust_Bow_Lieyan",
-    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Bow_Lieyan.T_Gacha_Bow_Lieyan",
-    "Sound": "SOUND_ITEM_WEAPON"
+    "SortPriority": 5101,
+    "Sound": "SOUND_ITEM_WEAPON",
+    "WeaponDescribe": "UI_WEAPON_DESC_20601",
+    "WeaponId": 20601,
+    "WeaponMaxLevel": 80,
+    "WeaponName": "UI_WEAPON_NAME_20601",
+    "WeaponRarity": 5,
+    "WeaponToCoinType": 101,
+    "WeaponValue": 10000
   },
   "20602": {
-    "WeaponId": 20602,
-    "WeaponName": "UI_WEAPON_NAME_20602",
-    "WeaponDescribe": "UI_WEAPON_DESC_20602",
-    "WeaponRarity": 5,
-    "WeaponMaxLevel": 80,
-    "WeaponToCoinType": 101,
-    "WeaponValue": 10000,
+    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Bow_Huguang",
+    "CollectRewardExp": 400,
+    "DecomposeReward": 160004,
+    "GUIPathVariableName": "Huguang",
+    "GUIPathVariableType": "Bow",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Bow_Huguang",
+    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Bow_Huguang",
     "ModSlot": [
       -1,
       -1,
@@ -1934,8 +1937,7 @@
       -1,
       -1,
       -1,
-      1,
-      1
+      -1
     ],
     "ModSlotUnlock": [
       0,
@@ -1945,28 +1947,30 @@
       1,
       2,
       3,
-      4,
-      5
+      4
     ],
-    "ModApplicationType": [
-      3,
-      31
+    "SkinApplicationType": [
+      206
     ],
-    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Bow_Hugaung.T_Head_Bow_Hugaung",
-    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Bow_Hugaung.T_Bust_Bow_Hugaung",
-    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Bow_Huguang.T_Gacha_Bow_Huguang",
-    "Sound": "SOUND_ITEM_WEAPON"
-  },
-  "20698": {
-    "WeaponId": 20698,
-    "WeaponName": "UI_WEAPON_NAME_20698",
-    "WeaponDescribe": "UI_WEAPON_DESC_20698",
-    "WeaponRarity": 3,
-    "WeaponMaxLevel": 20,
+    "SortPriority": 5107,
+    "Sound": "SOUND_ITEM_WEAPON",
+    "WeaponDescribe": "UI_WEAPON_DESC_20602",
+    "WeaponId": 20602,
+    "WeaponMaxLevel": 80,
+    "WeaponName": "UI_WEAPON_NAME_20602",
+    "WeaponRarity": 5,
     "WeaponToCoinType": 101,
-    "WeaponValue": 500,
+    "WeaponValue": 10000
+  },
+  "20603": {
+    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Bow_Yinbu",
+    "CollectRewardExp": 400,
+    "DecomposeReward": 160004,
+    "GUIPathVariableName": "Yinbu",
+    "GUIPathVariableType": "Bow",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Bow_Yinbu",
+    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Bow_Yinbu",
     "ModSlot": [
-      -1,
       -1,
       -1,
       -1,
@@ -1982,30 +1986,32 @@
       0,
       0,
       1,
-      99,
-      99,
-      99,
-      99
-    ],
-    "ModApplicationType": [
+      2,
       3,
-      31
+      4
     ],
-    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Bow_Liandu.T_Head_Bow_Liandu",
-    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Bow_Liandu.T_Bust_Bow_Liandu",
-    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Bow_Liandu.T_Gacha_Bow_Liandu",
-    "Sound": "SOUND_ITEM_WEAPON"
-  },
-  "20699": {
-    "WeaponId": 20699,
-    "WeaponName": "UI_WEAPON_NAME_20699",
-    "WeaponDescribe": "UI_WEAPON_DESC_20699",
-    "WeaponRarity": 2,
-    "WeaponMaxLevel": 20,
+    "SkinApplicationType": [
+      207
+    ],
+    "SortPriority": 5107,
+    "Sound": "SOUND_ITEM_WEAPON",
+    "WeaponDescribe": "UI_WEAPON_DESC_20603",
+    "WeaponId": 20603,
+    "WeaponMaxLevel": 80,
+    "WeaponName": "UI_WEAPON_NAME_20603",
+    "WeaponRarity": 5,
     "WeaponToCoinType": 101,
-    "WeaponValue": 300,
+    "WeaponValue": 10000
+  },
+  "20604": {
+    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Bow_Chixing",
+    "CollectRewardExp": 400,
+    "DecomposeReward": 160004,
+    "GUIPathVariableName": "Chixing",
+    "GUIPathVariableType": "Bow",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Bow_Chixing",
+    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Bow_Chixing",
     "ModSlot": [
-      -1,
       -1,
       -1,
       -1,
@@ -2021,18 +2027,21 @@
       0,
       0,
       1,
-      99,
-      99,
-      99,
-      99
-    ],
-    "ModApplicationType": [
+      2,
       3,
-      31
+      4
     ],
-    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Bow_Jinshu.T_Head_Bow_Jinshu",
-    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Bow_Jinshu.T_Bust_Bow_Jinshu",
-    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Bow_Jinshu.T_Gacha_Bow_Jinshu",
-    "Sound": "SOUND_ITEM_WEAPON"
+    "SkinApplicationType": [
+      206
+    ],
+    "SortPriority": 5108,
+    "Sound": "SOUND_ITEM_WEAPON",
+    "WeaponDescribe": "UI_WEAPON_DESC_20604",
+    "WeaponId": 20604,
+    "WeaponMaxLevel": 80,
+    "WeaponName": "UI_WEAPON_NAME_20604",
+    "WeaponRarity": 5,
+    "WeaponToCoinType": 101,
+    "WeaponValue": 10000
   }
 }

@@ -1,7 +1,7 @@
 # Duet Night Abyss Data
 
 > Client region: Global</br>
-> Status: CBT3</br>
+> Status: Release</br>
 > Game Version: 1.0.0</br>
-> Resource Version: 1.0.16</br>
-> Patch verison: 210016
+> Resource Version: 1.0.27</br>
+> Patch verison: 710027

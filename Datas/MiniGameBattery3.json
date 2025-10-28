@@ -3,14 +3,6 @@
     "BatteryId": 1,
     "PointerNum": 2,
     "PointerSpeed": 4,
-    "SwitchStatus": [
-      0,
-      1,
-      0,
-      1,
-      1,
-      1
-    ],
     "SwitchPosition": [
       2,
       6,
@@ -18,12 +10,70 @@
       14,
       18,
       22
+    ],
+    "SwitchStatus": [
+      0,
+      1,
+      1,
+      0,
+      1,
+      1
     ]
   },
   {
     "BatteryId": 2,
     "PointerNum": 2,
     "PointerSpeed": 4,
+    "SwitchPosition": [
+      2,
+      6,
+      10,
+      14,
+      18,
+      22
+    ],
+    "SwitchStatus": [
+      1,
+      1,
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "BatteryId": 3,
+    "PointerNum": 2,
+    "PointerSpeed": 4,
+    "SwitchPosition": [
+      2,
+      6,
+      10,
+      14,
+      18,
+      22
+    ],
+    "SwitchStatus": [
+      0,
+      1,
+      0,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "BatteryId": 4,
+    "PointerNum": 2,
+    "PointerSpeed": 4,
+    "SwitchPosition": [
+      2,
+      6,
+      10,
+      14,
+      18,
+      22
+    ],
     "SwitchStatus": [
       1,
       0,
@@ -31,122 +81,54 @@
       1,
       1,
       0
-    ],
-    "SwitchPosition": [
-      2,
-      6,
-      10,
-      14,
-      18,
-      22
-    ]
-  },
-  {
-    "BatteryId": 3,
-    "PointerNum": 2,
-    "PointerSpeed": 4,
-    "SwitchStatus": [
-      0,
-      1,
-      0,
-      0,
-      0,
-      1
-    ],
-    "SwitchPosition": [
-      2,
-      6,
-      10,
-      14,
-      18,
-      22
-    ]
-  },
-  {
-    "BatteryId": 4,
-    "PointerNum": 2,
-    "PointerSpeed": 4,
-    "SwitchStatus": [
-      0,
-      1,
-      1,
-      0,
-      1,
-      1
-    ],
-    "SwitchPosition": [
-      2,
-      6,
-      10,
-      14,
-      18,
-      22
     ]
   },
   {
     "BatteryId": 5,
     "PointerNum": 2,
     "PointerSpeed": 4,
+    "SwitchPosition": [
+      2,
+      6,
+      10,
+      14,
+      18,
+      22
+    ],
     "SwitchStatus": [
-      0,
-      1,
-      1,
       1,
       0,
       1,
+      0,
       1,
       1
-    ],
-    "SwitchPosition": [
-      0,
-      3,
-      6,
-      9,
-      12,
-      15,
-      18,
-      21
     ]
   },
   {
     "BatteryId": 6,
     "PointerNum": 2,
     "PointerSpeed": 4,
+    "SwitchPosition": [
+      2,
+      6,
+      10,
+      14,
+      18,
+      22
+    ],
     "SwitchStatus": [
-      1,
-      1,
       0,
       1,
-      1,
-      1,
+      0,
+      0,
       0,
       1
-    ],
-    "SwitchPosition": [
-      0,
-      3,
-      6,
-      9,
-      12,
-      15,
-      18,
-      21
     ]
   },
   {
     "BatteryId": 7,
     "PointerNum": 2,
     "PointerSpeed": 4,
-    "SwitchStatus": [
-      0,
-      0,
-      0,
-      1,
-      0,
-      0,
-      0,
-      1
-    ],
     "SwitchPosition": [
       0,
       3,
@@ -156,22 +138,22 @@
       15,
       18,
       21
+    ],
+    "SwitchStatus": [
+      0,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1
     ]
   },
   {
     "BatteryId": 8,
     "PointerNum": 2,
     "PointerSpeed": 4,
-    "SwitchStatus": [
-      0,
-      1,
-      0,
-      1,
-      0,
-      1,
-      0,
-      1
-    ],
     "SwitchPosition": [
       0,
       3,
@@ -181,6 +163,116 @@
       15,
       18,
       21
+    ],
+    "SwitchStatus": [
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "BatteryId": 9,
+    "PointerNum": 2,
+    "PointerSpeed": 4,
+    "SwitchPosition": [
+      0,
+      3,
+      6,
+      9,
+      12,
+      15,
+      18,
+      21
+    ],
+    "SwitchStatus": [
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      1
+    ]
+  },
+  {
+    "BatteryId": 10,
+    "PointerNum": 2,
+    "PointerSpeed": 4,
+    "SwitchPosition": [
+      0,
+      3,
+      6,
+      9,
+      12,
+      15,
+      18,
+      21
+    ],
+    "SwitchStatus": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "BatteryId": 11,
+    "PointerNum": 2,
+    "PointerSpeed": 4,
+    "SwitchPosition": [
+      0,
+      3,
+      6,
+      9,
+      12,
+      15,
+      18,
+      21
+    ],
+    "SwitchStatus": [
+      1,
+      0,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "BatteryId": 12,
+    "PointerNum": 2,
+    "PointerSpeed": 4,
+    "SwitchPosition": [
+      0,
+      3,
+      6,
+      9,
+      12,
+      15,
+      18,
+      21
+    ],
+    "SwitchStatus": [
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1
     ]
   }
 ]

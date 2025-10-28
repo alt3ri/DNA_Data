@@ -1,57 +1,110 @@
 {
-  "Resource": {
-    "RewardType": "Resource",
+  "Char": {
+    "DungeonRewardSeq": 90,
+    "OperationGM": true,
+    "Remark": "角色",
+    "RewardType": "Char"
+  },
+  "CharAccessory": {
+    "DungeonRewardSeq": 70,
     "DungeonRewardType": true,
     "OperationGM": true,
-    "DungeonRewardSeq": 90,
-    "Remark": "资源"
+    "Remark": "角色配饰",
+    "RewardType": "CharAccessory",
+    "UniqueType": true
+  },
+  "Draft": {
+    "DungeonRewardSeq": 41,
+    "DungeonRewardType": true,
+    "OperationGM": true,
+    "Remark": "铸造图纸",
+    "RewardType": "Draft"
   },
   "Drop": {
     "RewardType": "Drop"
   },
-  "Mod": {
-    "RewardType": "Mod",
-    "DungeonRewardType": true,
+  "HeadFrame": {
+    "DungeonRewardSeq": 53,
     "OperationGM": true,
-    "DungeonRewardSeq": 70,
-    "Remark": "模组"
+    "Remark": "头像框",
+    "RewardType": "HeadFrame",
+    "UniqueType": true
   },
-  "Weapon": {
-    "RewardType": "Weapon",
-    "DungeonRewardType": true,
-    "OperationGM": true,
+  "HeadSculpture": {
     "DungeonRewardSeq": 60,
-    "Remark": "武器"
-  },
-  "Skin": {
-    "RewardType": "Skin",
     "OperationGM": true,
-    "Remark": "皮肤"
+    "Remark": "头像",
+    "RewardType": "HeadSculpture",
+    "UniqueType": true
   },
-  "Char": {
-    "RewardType": "Char",
-    "OperationGM": true,
-    "Remark": "角色"
-  },
-  "CharAccessory": {
-    "RewardType": "CharAccessory",
+  "Mod": {
+    "DungeonRewardSeq": 50,
     "DungeonRewardType": true,
     "OperationGM": true,
-    "DungeonRewardSeq": 100,
-    "Remark": "角色配饰"
-  },
-  "Draft": {
-    "RewardType": "Draft",
-    "DungeonRewardType": true,
-    "OperationGM": true,
-    "DungeonRewardSeq": 80,
-    "Remark": "铸造图纸"
+    "Remark": "魔之楔",
+    "RewardType": "Mod"
   },
   "Pet": {
-    "RewardType": "Pet",
+    "DungeonRewardSeq": 51,
     "DungeonRewardType": true,
     "OperationGM": true,
-    "DungeonRewardSeq": 110,
-    "Remark": "宠物"
+    "Remark": "宠物",
+    "RewardType": "Pet"
+  },
+  "Resource": {
+    "DungeonRewardSeq": 1,
+    "DungeonRewardType": true,
+    "OperationGM": true,
+    "Remark": "资源",
+    "RewardType": "Resource"
+  },
+  "Skin": {
+    "DungeonRewardSeq": 72,
+    "OperationGM": true,
+    "Remark": "角色皮肤",
+    "RewardType": "Skin",
+    "UniqueType": true
+  },
+  "Title": {
+    "DungeonRewardSeq": 62,
+    "OperationGM": true,
+    "Remark": "称号",
+    "RewardType": "Title",
+    "UniqueType": true
+  },
+  "TitleFrame": {
+    "DungeonRewardSeq": 63,
+    "OperationGM": true,
+    "Remark": "称号框",
+    "RewardType": "TitleFrame",
+    "UniqueType": true
+  },
+  "Walnut": {
+    "DungeonRewardSeq": 40,
+    "DungeonRewardType": true,
+    "OperationGM": true,
+    "Remark": "密函",
+    "RewardType": "Walnut"
+  },
+  "Weapon": {
+    "DungeonRewardSeq": 80,
+    "DungeonRewardType": true,
+    "OperationGM": true,
+    "Remark": "武器",
+    "RewardType": "Weapon"
+  },
+  "WeaponAccessory": {
+    "DungeonRewardSeq": 61,
+    "OperationGM": true,
+    "Remark": "武器配饰",
+    "RewardType": "WeaponAccessory",
+    "UniqueType": true
+  },
+  "WeaponSkin": {
+    "DungeonRewardSeq": 71,
+    "OperationGM": true,
+    "Remark": "武器皮肤",
+    "RewardType": "WeaponSkin",
+    "UniqueType": true
   }
 }
