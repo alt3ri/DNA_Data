@@ -1,34 +1,6 @@
 {
   "event:/ambience": {
     "EventPath": "event:/ambience",
-    "Priority": 10
-  },
-  "event:/bgm": {
-    "EventPath": "event:/bgm",
-    "Priority": 10
-  },
-  "event:/cine": {
-    "EventPath": "event:/cine",
-    "Priority": 100
-  },
-  "event:/sfx/common/scene": {
-    "EventPath": "event:/sfx/common/scene",
-    "Priority": 8
-  },
-  "event:/sfx/common/story": {
-    "EventPath": "event:/sfx/common/story",
-    "Priority": 100
-  },
-  "event:/snapshot": {
-    "EventPath": "event:/snapshot",
-    "Priority": 10
-  },
-  "event:/ui": {
-    "EventPath": "event:/ui",
-    "Priority": 8
-  },
-  "event:/voice": {
-    "EventPath": "event:/voice",
-    "Priority": 8
+    "Priority": "10\r\n  },\r\n  [\"event:/bgm\"] = {EventPath = \"event:/bgm\", Priority = 10},\r\n  [\"event:/cine\"] = {\r\n    EventPath = \"event:/cine\",\r\n    Priority = 100\r\n  },\r\n  [\"event:/sfx/common/scene\"] = {\r\n    EventPath = \"event:/sfx/common/scene\",\r\n    Priority = 8\r\n  },\r\n  [\"event:/sfx/common/story\"] = {\r\n    EventPath = \"event:/sfx/common/story\",\r\n    Priority = 100\r\n  },\r\n  [\"event:/snapshot\"] = {\r\n    EventPath = \"event:/snapshot\",\r\n    Priority = 10\r\n  },\r\n  [\"event:/ui\"] = {EventPath = \"event:/ui\", Priority = 8},\r\n  [\"event:/voice\"] = {\r\n    EventPath = \"event:/voice\",\r\n    Priority = 8"
   }
 }

@@ -1,26 +1,5 @@
 [
   {
-    "EffectId": [
-      900002
-    ],
-    "EffectParam": [
-      {
-        "IsAttached": false
-      }
-    ],
-    "VFXId": 1
-  },
-  {
-    "EffectId": [
-      900004
-    ],
-    "VFXId": 2
-  },
-  {
-    "EffectId": [
-      900007,
-      900008
-    ],
-    "VFXId": 3
+    "EffectId": "{\r\n      [1] = 900002\r\n    },\r\n    EffectParam = {\r\n      [1] = {IsAttached = false}\r\n    },\r\n    VFXId = 1\r\n  },\r\n  [2] = {\r\n    EffectId = {\r\n      [1] = 900004\r\n    },\r\n    VFXId = 2\r\n  },\r\n  [3] = {\r\n    EffectId = {\r\n      [1] = 900007,\r\n      [2] = 900008\r\n    },\r\n    VFXId = 3"
   }
 ]

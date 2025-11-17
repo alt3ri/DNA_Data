@@ -1,69 +1,8 @@
-{
-  "1": {
+[
+  {
     "CharGroupId": 1101,
     "DungeonId": 30,
     "TaskId": 1,
-    "TestDuration": 60
-  },
-  "2": {
-    "CharGroupPoolId": 1,
-    "DungeonId": 30,
-    "TaskId": 2,
-    "TestDuration": 15
-  },
-  "999": {
-    "CharGroupId": 9999,
-    "CharGroupPoolId": 1,
-    "DungeonId": 1,
-    "TaskId": 999,
-    "TestDuration": 30
-  },
-  "2101": {
-    "CharGroupId": 2101,
-    "DungeonId": 30,
-    "TaskId": 2101,
-    "TestDuration": 60
-  },
-  "2301": {
-    "CharGroupId": 2301,
-    "DungeonId": 30,
-    "TaskId": 2301,
-    "TestDuration": 60
-  },
-  "2401": {
-    "CharGroupId": 2401,
-    "DungeonId": 30,
-    "TaskId": 2401,
-    "TestDuration": 60
-  },
-  "3101": {
-    "CharGroupId": 3101,
-    "DungeonId": 30,
-    "TaskId": 3101,
-    "TestDuration": 60
-  },
-  "3102": {
-    "CharGroupId": 3102,
-    "DungeonId": 30,
-    "TaskId": 3102,
-    "TestDuration": 60
-  },
-  "4201": {
-    "CharGroupId": 4201,
-    "DungeonId": 30,
-    "TaskId": 4201,
-    "TestDuration": 60
-  },
-  "5101": {
-    "CharGroupId": 5101,
-    "DungeonId": 30,
-    "TaskId": 5101,
-    "TestDuration": 60
-  },
-  "5301": {
-    "CharGroupId": 5301,
-    "DungeonId": 30,
-    "TaskId": 5301,
-    "TestDuration": 60
+    "TestDuration": "60\r\n  },\r\n  [2] = {\r\n    CharGroupPoolId = 1,\r\n    DungeonId = 30,\r\n    TaskId = 2,\r\n    TestDuration = 15\r\n  },\r\n  [999] = {\r\n    CharGroupId = 9999,\r\n    CharGroupPoolId = 1,\r\n    DungeonId = 1,\r\n    TaskId = 999,\r\n    TestDuration = 30\r\n  },\r\n  [2101] = {\r\n    CharGroupId = 2101,\r\n    DungeonId = 30,\r\n    TaskId = 2101,\r\n    TestDuration = 60\r\n  },\r\n  [2301] = {\r\n    CharGroupId = 2301,\r\n    DungeonId = 30,\r\n    TaskId = 2301,\r\n    TestDuration = 60\r\n  },\r\n  [2401] = {\r\n    CharGroupId = 2401,\r\n    DungeonId = 30,\r\n    TaskId = 2401,\r\n    TestDuration = 60\r\n  },\r\n  [3101] = {\r\n    CharGroupId = 3101,\r\n    DungeonId = 30,\r\n    TaskId = 3101,\r\n    TestDuration = 60\r\n  },\r\n  [3102] = {\r\n    CharGroupId = 3102,\r\n    DungeonId = 30,\r\n    TaskId = 3102,\r\n    TestDuration = 60\r\n  },\r\n  [4201] = {\r\n    CharGroupId = 4201,\r\n    DungeonId = 30,\r\n    TaskId = 4201,\r\n    TestDuration = 60\r\n  },\r\n  [5101] = {\r\n    CharGroupId = 5101,\r\n    DungeonId = 30,\r\n    TaskId = 5101,\r\n    TestDuration = 60\r\n  },\r\n  [5301] = {\r\n    CharGroupId = 5301,\r\n    DungeonId = 30,\r\n    TaskId = 5301,\r\n    TestDuration = 60"
   }
-}
+]

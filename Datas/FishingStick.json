@@ -2,12 +2,7 @@
   {
     "FishingStickId": 1,
     "MoveCurve": [
-      "OutSine",
-      "InSine"
-    ],
-    "MoveParam": [
-      1.5,
-      0.9
+      "\"OutSine\",\r\n      [2] = \"InSine\"\r\n    },\r\n    MoveParam = {\r\n      [1] = 1.5,\r\n      [2] = 0.9"
     ]
   }
 ]

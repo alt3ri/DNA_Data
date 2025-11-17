@@ -25,37 +25,6 @@
     "Star3ItemId": 99993,
     "Star4ItemId": 99992,
     "Star5ItemId": 99991,
-    "TabId": 1
-  },
-  "9002": {
-    "BgBGM": "event:/bgm/1_0/0088_saiqi_skin",
-    "BgMusic": "event:/ui/btc/gacha_pool_saiqi_skin01",
-    "BubbleShowGoods": 140207,
-    "ConditionId": 4041,
-    "GachaCoreDes": "UI_SkinGacha_Core_GoldSkin",
-    "GachaCoreDesColor": 5,
-    "GachaCostNum10": 10,
-    "GachaCostRes": [
-      1004,
-      1003
-    ],
-    "GachaDes": "SkinGacha_Des_Special",
-    "GachaDisplayPath": "FileMediaSource'/Game/Asset/UIVideo/Gacha/Gacha_Pool_Saiqi01.Gacha_Pool_Saiqi01'",
-    "GachaDisplayType": 1,
-    "GachaEndTime": 1766394000,
-    "GachaHistoryType": 2,
-    "GachaId": 9002,
-    "GachaName": "SkinGacha_Name_Special_1",
-    "GachaNameBp": "WidgetBlueprint'/Game/UI/WBP/GachaNew/Widget/Title/WBP_Gacha_PoolTitle_Saiqi01.WBP_Gacha_PoolTitle_Saiqi01'",
-    "GachaStartTime": 1704081600,
-    "GachaTimes": 1,
-    "GachaType": "GACHA_SKIN_TYPE_SPECIAL",
-    "GachaWarning": "SkinGacha_Warning_Special",
-    "ProbabilityId": 1001,
-    "Sequence": 2,
-    "Star3ItemId": 99983,
-    "Star4ItemId": 99982,
-    "Star5ItemId": 99981,
-    "TabId": 2
+    "TabId": "1\r\n  },\r\n  [9002] = {\r\n    BgBGM = \"event:/bgm/1_0/0088_saiqi_skin\",\r\n    BgMusic = \"event:/ui/btc/gacha_pool_saiqi_skin01\",\r\n    BubbleShowGoods = 140207,\r\n    ConditionId = 4041,\r\n    GachaCoreDes = \"UI_SkinGacha_Core_GoldSkin\",\r\n    GachaCoreDesColor = 5,\r\n    GachaCostNum10 = 10,\r\n    GachaCostRes = {1004, 1003},\r\n    GachaDes = \"SkinGacha_Des_Special\",\r\n    GachaDisplayPath = \"FileMediaSource'/Game/Asset/UIVideo/Gacha/Gacha_Pool_Saiqi01.Gacha_Pool_Saiqi01'\",\r\n    GachaDisplayType = 1,\r\n    GachaEndTime = 1766394000,\r\n    GachaHistoryType = 2,\r\n    GachaId = 9002,\r\n    GachaName = \"SkinGacha_Name_Special_1\",\r\n    GachaNameBp = \"WidgetBlueprint'/Game/UI/WBP/GachaNew/Widget/Title/WBP_Gacha_PoolTitle_Saiqi01.WBP_Gacha_PoolTitle_Saiqi01'\",\r\n    GachaStartTime = 1704081600,\r\n    GachaTimes = 1,\r\n    GachaType = \"GACHA_SKIN_TYPE_SPECIAL\",\r\n    GachaWarning = \"SkinGacha_Warning_Special\",\r\n    ProbabilityId = 1001,\r\n    Sequence = 2,\r\n    Star3ItemId = 99983,\r\n    Star4ItemId = 99982,\r\n    Star5ItemId = 99981,\r\n    TabId = 2"
   }
 }

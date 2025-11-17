@@ -5,8 +5,7 @@
     "DungeonId": 91301,
     "KeyNeedNum": 6,
     "MechanismAddRageMap": {
-      "49603": 15,
-      "49604": 2
+      "49603": "15,\r\n  [49604] = 2"
     },
     "MonAddRage": 1,
     "OccupationTargetNum": 6,
@@ -14,129 +13,6 @@
       100,
       200
     ],
-    "SupervisorCreatorIds": [
-      1000000002,
-      1000000001
-    ]
-  },
-  "91302": {
-    "BlastMonInterval": 60,
-    "BreakableAddRage": 0.1,
-    "DungeonId": 91302,
-    "KeyNeedNum": 6,
-    "MechanismAddRageMap": {
-      "49603": 15,
-      "49604": 2
-    },
-    "MonAddRage": 1,
-    "OccupationTargetNum": 6,
-    "RageValueStages": [
-      100,
-      200
-    ],
-    "SupervisorCreatorIds": [
-      1000000002,
-      1000000001
-    ]
-  },
-  "91303": {
-    "BlastMonInterval": 60,
-    "BreakableAddRage": 0.1,
-    "DungeonId": 91303,
-    "KeyNeedNum": 6,
-    "MechanismAddRageMap": {
-      "49603": 15,
-      "49604": 2
-    },
-    "MonAddRage": 1,
-    "OccupationTargetNum": 6,
-    "RageValueStages": [
-      100,
-      200
-    ],
-    "SupervisorCreatorIds": [
-      1000000002,
-      1000000001
-    ]
-  },
-  "91304": {
-    "BlastMonInterval": 60,
-    "BreakableAddRage": 0.1,
-    "DungeonId": 91304,
-    "KeyNeedNum": 6,
-    "MechanismAddRageMap": {
-      "49603": 15,
-      "49604": 2
-    },
-    "MonAddRage": 1,
-    "OccupationTargetNum": 6,
-    "RageValueStages": [
-      100,
-      200
-    ],
-    "SupervisorCreatorIds": [
-      1000000002,
-      1000000001
-    ]
-  },
-  "91305": {
-    "BlastMonInterval": 60,
-    "BreakableAddRage": 0.1,
-    "DungeonId": 91305,
-    "KeyNeedNum": 6,
-    "MechanismAddRageMap": {
-      "49603": 15,
-      "49604": 2
-    },
-    "MonAddRage": 1,
-    "OccupationTargetNum": 6,
-    "RageValueStages": [
-      100,
-      200
-    ],
-    "SupervisorCreatorIds": [
-      1000000002,
-      1000000001
-    ]
-  },
-  "91306": {
-    "BlastMonInterval": 60,
-    "BreakableAddRage": 0.1,
-    "DungeonId": 91306,
-    "KeyNeedNum": 6,
-    "MechanismAddRageMap": {
-      "49603": 15,
-      "49604": 2
-    },
-    "MonAddRage": 1,
-    "OccupationTargetNum": 6,
-    "RageValueStages": [
-      100,
-      200
-    ],
-    "SupervisorCreatorIds": [
-      1000000002,
-      1000000001
-    ]
-  },
-  "91307": {
-    "BlastMonInterval": 60,
-    "BreakableAddRage": 0.1,
-    "DungeonId": 91307,
-    "KeyNeedNum": 6,
-    "MechanismAddRageMap": {
-      "49603": 15,
-      "49604": 2
-    },
-    "MonAddRage": 1,
-    "OccupationTargetNum": 6,
-    "RageValueStages": [
-      100,
-      200
-    ],
-    "SupervisorCreatorIds": [
-      1000000002,
-      1000000001
-    ]
+    "SupervisorCreatorIds": "T.RT_3\r\n  },\r\n  [91302] = {\r\n    BlastMonInterval = 60,\r\n    BreakableAddRage = 0.1,\r\n    DungeonId = 91302,\r\n    KeyNeedNum = 6,\r\n    MechanismAddRageMap = T.RT_1,\r\n    MonAddRage = 1,\r\n    OccupationTargetNum = 6,\r\n    RageValueStages = T.RT_2,\r\n    SupervisorCreatorIds = T.RT_3\r\n  },\r\n  [91303] = {\r\n    BlastMonInterval = 60,\r\n    BreakableAddRage = 0.1,\r\n    DungeonId = 91303,\r\n    KeyNeedNum = 6,\r\n    MechanismAddRageMap = T.RT_1,\r\n    MonAddRage = 1,\r\n    OccupationTargetNum = 6,\r\n    RageValueStages = T.RT_2,\r\n    SupervisorCreatorIds = T.RT_3\r\n  },\r\n  [91304] = {\r\n    BlastMonInterval = 60,\r\n    BreakableAddRage = 0.1,\r\n    DungeonId = 91304,\r\n    KeyNeedNum = 6,\r\n    MechanismAddRageMap = T.RT_1,\r\n    MonAddRage = 1,\r\n    OccupationTargetNum = 6,\r\n    RageValueStages = T.RT_2,\r\n    SupervisorCreatorIds = T.RT_3\r\n  },\r\n  [91305] = {\r\n    BlastMonInterval = 60,\r\n    BreakableAddRage = 0.1,\r\n    DungeonId = 91305,\r\n    KeyNeedNum = 6,\r\n    MechanismAddRageMap = T.RT_1,\r\n    MonAddRage = 1,\r\n    OccupationTargetNum = 6,\r\n    RageValueStages = T.RT_2,\r\n    SupervisorCreatorIds = T.RT_3\r\n  },\r\n  [91306] = {\r\n    BlastMonInterval = 60,\r\n    BreakableAddRage = 0.1,\r\n    DungeonId = 91306,\r\n    KeyNeedNum = 6,\r\n    MechanismAddRageMap = T.RT_1,\r\n    MonAddRage = 1,\r\n    OccupationTargetNum = 6,\r\n    RageValueStages = T.RT_2,\r\n    SupervisorCreatorIds = T.RT_3\r\n  },\r\n  [91307] = {\r\n    BlastMonInterval = 60,\r\n    BreakableAddRage = 0.1,\r\n    DungeonId = 91307,\r\n    KeyNeedNum = 6,\r\n    MechanismAddRageMap = T.RT_1,\r\n    MonAddRage = 1,\r\n    OccupationTargetNum = 6,\r\n    RageValueStages = T.RT_2,\r\n    SupervisorCreatorIds = T.RT_3"
   }
 }

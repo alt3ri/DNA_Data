@@ -10,22 +10,6 @@
         "QuestId": 10020802
       }
     },
-    "WBPPath": "WidgetBlueprint'/Game/UI/WBP/Common/Loading/Widget/WBP_Com_Loading_White.WBP_Com_Loading_White'"
-  },
-  {
-    "Id": 2,
-    "RegionType": {
-      "From": "Main",
-      "To": "EX"
-    },
-    "WBPPath": "WidgetBlueprint'/Game/UI/WBP/ChapterStart/Widget/WBP_Chapter_CharChange.WBP_Chapter_CharChange'"
-  },
-  {
-    "Id": 3,
-    "RegionType": {
-      "From": "EX",
-      "To": "Main"
-    },
-    "WBPPath": "WidgetBlueprint'/Game/UI/WBP/ChapterStart/Widget/WBP_Chapter_CharChange.WBP_Chapter_CharChange'"
+    "WBPPath": "WidgetBlueprint'/Game/UI/WBP/Common/Loading/Widget/WBP_Com_Loading_White.WBP_Com_Loading_White'\"\r\n  },\r\n  [2] = {\r\n    Id = 2,\r\n    RegionType = {From = \"Main\", To = \"EX\"},\r\n    WBPPath = \"WidgetBlueprint'/Game/UI/WBP/ChapterStart/Widget/WBP_Chapter_CharChange.WBP_Chapter_CharChange'\"\r\n  },\r\n  [3] = {\r\n    Id = 3,\r\n    RegionType = {From = \"EX\", To = \"Main\"},\r\n    WBPPath = \"WidgetBlueprint'/Game/UI/WBP/ChapterStart/Widget/WBP_Chapter_CharChange.WBP_Chapter_CharChange'"
   }
 ]

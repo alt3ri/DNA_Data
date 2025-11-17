@@ -11,20 +11,6 @@
     "RelativeRotation": 0,
     "SetPositionAndRotate": true,
     "SourceSocketName": "pelvis",
-    "TargetSocketName": "pelvis"
-  },
-  "7002": {
-    "AttachRuleId": 7002,
-    "IgnorePhysicAndGravity": true,
-    "IgnoreRVO": true,
-    "RelativeOffset": [
-      20,
-      0,
-      -50
-    ],
-    "RelativeRotation": 0,
-    "SetPositionAndRotate": true,
-    "SourceSocketName": "root",
-    "TargetSocketName": "hand_l"
+    "TargetSocketName": "pelvis\"\r\n  },\r\n  [7002] = {\r\n    AttachRuleId = 7002,\r\n    IgnorePhysicAndGravity = true,\r\n    IgnoreRVO = true,\r\n    RelativeOffset = {\r\n      20,\r\n      0,\r\n      -50\r\n    },\r\n    RelativeRotation = 0,\r\n    SetPositionAndRotate = true,\r\n    SourceSocketName = \"root\",\r\n    TargetSocketName = \"hand_l"
   }
 }

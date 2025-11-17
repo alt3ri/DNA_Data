@@ -5,26 +5,6 @@
     "TextMap": "DUNGEONSINGLE",
     "TextTitle": "UI_CharTrial_Title",
     "TexturePath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_MainMission.T_Gp_MainMission",
-    "WidgetPath": "Guide_Point"
-  },
-  {
-    "IsKillMonsterTask": true,
-    "MonsterSpawnId": [
-      9000101
-    ],
-    "TargetNum": 40,
-    "TaskId": 2,
-    "TextMap": "TARGET_DUNGEON_TRAINING_102",
-    "TextTitle": "UI_CharTrial_Title",
-    "TexturePath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_DefeatMission.T_Gp_DefeatMission",
-    "WidgetPath": "Guide_Point"
-  },
-  {
-    "IsKillMonsterTask": false,
-    "TaskId": 3,
-    "TextMap": "TARGET_DUNGEON_103",
-    "TextTitle": "UI_CharTrial_Title",
-    "TexturePath": "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_Evacuation.T_Gp_Evacuation",
-    "WidgetPath": "Guide_Point"
+    "WidgetPath": "Guide_Point\"\r\n  },\r\n  [2] = {\r\n    IsKillMonsterTask = true,\r\n    MonsterSpawnId = {9000101},\r\n    TargetNum = 40,\r\n    TaskId = 2,\r\n    TextMap = \"TARGET_DUNGEON_TRAINING_102\",\r\n    TextTitle = \"UI_CharTrial_Title\",\r\n    TexturePath = \"/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_DefeatMission.T_Gp_DefeatMission\",\r\n    WidgetPath = \"Guide_Point\"\r\n  },\r\n  [3] = {\r\n    IsKillMonsterTask = false,\r\n    TaskId = 3,\r\n    TextMap = \"TARGET_DUNGEON_103\",\r\n    TextTitle = \"UI_CharTrial_Title\",\r\n    TexturePath = \"/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_Evacuation.T_Gp_Evacuation\",\r\n    WidgetPath = \"Guide_Point"
   }
 ]

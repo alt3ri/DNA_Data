@@ -1,14 +1,6 @@
-{
-  "1": {
+[
+  {
     "BPPath": "Blueprint'/Game/BluePrints/Combat/PropEffect/PropEffectObject.PropEffectObject_C'",
-    "Id": 1
-  },
-  "42001": {
-    "BPPath": "Blueprint'/Game/BluePrints/Combat/PropEffect/PropEffectObject_42001.PropEffectObject_42001'",
-    "Id": 42001
-  },
-  "42002": {
-    "BPPath": "Blueprint'/Game/BluePrints/Combat/PropEffect/PropEffectObject_42002.PropEffectObject_42002'",
-    "Id": 42002
+    "Id": "1\r\n  },\r\n  [42001] = {\r\n    BPPath = \"Blueprint'/Game/BluePrints/Combat/PropEffect/PropEffectObject_42001.PropEffectObject_42001'\",\r\n    Id = 42001\r\n  },\r\n  [42002] = {\r\n    BPPath = \"Blueprint'/Game/BluePrints/Combat/PropEffect/PropEffectObject_42002.PropEffectObject_42002'\",\r\n    Id = 42002"
   }
-}
+]
