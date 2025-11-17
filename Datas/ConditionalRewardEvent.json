@@ -5,6 +5,23 @@
     "HideBPNode": [
       "CharTitle"
     ],
-    "RewardClaimCondition": "6014\r\n  },\r\n  [107002] = {\r\n    EventId = 107002,\r\n    EventReward = 107002,\r\n    HideBPNode = T.RT_1,\r\n    RewardClaimCondition = 6015\r\n  },\r\n  [107003] = {\r\n    EventId = 107003,\r\n    EventReward = 107006,\r\n    HideBPNode = T.RT_1,\r\n    RewardClaimCondition = 6022,\r\n    RewardUnlockTips = \"UI_RewardUnlockTips_107003\""
+    "RewardClaimCondition": 6014
+  },
+  "107002": {
+    "EventId": 107002,
+    "EventReward": 107002,
+    "HideBPNode": [
+      "CharTitle"
+    ],
+    "RewardClaimCondition": 6015
+  },
+  "107003": {
+    "EventId": 107003,
+    "EventReward": 107006,
+    "HideBPNode": [
+      "CharTitle"
+    ],
+    "RewardClaimCondition": 6022,
+    "RewardUnlockTips": "UI_RewardUnlockTips_107003"
   }
 }

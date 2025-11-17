@@ -1,11 +1,402 @@
 {
   "30002": {
     "Capture": [
-      "T.RT_1,\r\n  [2] = T.RT_2,\r\n  [3] = T.RT_3"
+      {
+        "CaptureMonsterId": 7001005,
+        "Weight": 1
+      },
+      {
+        "CaptureMonsterId": 7003005,
+        "Weight": 1
+      },
+      {
+        "CaptureMonsterId": 7002005,
+        "Weight": 4
+      }
     ],
     "CaptureCreatorId": 1100000001,
     "DungeonId": 30002,
     "FixLevel": 1,
-    "TreasureMonsterId": "9500001\r\n  },\r\n  [30004] = {\r\n    Capture = T.RT_4,\r\n    CaptureCreatorId = 1100000002,\r\n    DungeonId = 30004,\r\n    FixLevel = 1,\r\n    TreasureMonsterId = 9500001\r\n  },\r\n  [60401] = {\r\n    Capture = T.RT_4,\r\n    CaptureCreatorId = 1100000015,\r\n    DungeonId = 60401,\r\n    FixLevel = 1,\r\n    TreasureMonsterId = 9500001\r\n  },\r\n  [60402] = {\r\n    Capture = T.RT_4,\r\n    CaptureCreatorId = 1100000016,\r\n    DungeonId = 60402,\r\n    FixLevel = 1,\r\n    TreasureMonsterId = 9500001\r\n  },\r\n  [62401] = {\r\n    Capture = T.RT_4,\r\n    CaptureCreatorId = 1100000017,\r\n    DungeonId = 62401,\r\n    FixLevel = 1,\r\n    TreasureMonsterId = 9500001\r\n  },\r\n  [62402] = {\r\n    Capture = T.RT_4,\r\n    CaptureCreatorId = 1100000018,\r\n    DungeonId = 62402,\r\n    FixLevel = 1,\r\n    TreasureMonsterId = 9500001\r\n  },\r\n  [64401] = {\r\n    Capture = T.RT_4,\r\n    CaptureCreatorId = 1100000019,\r\n    DungeonId = 64401,\r\n    FixLevel = 1,\r\n    TreasureMonsterId = 9500001\r\n  },\r\n  [64402] = {\r\n    Capture = T.RT_4,\r\n    CaptureCreatorId = 1100000020,\r\n    DungeonId = 64402,\r\n    FixLevel = 1,\r\n    TreasureMonsterId = 9500001\r\n  },\r\n  [90301] = {\r\n    Capture = T.RT_4,\r\n    CaptureCreatorId = 1100000003,\r\n    DungeonId = 90301,\r\n    FixLevel = 1,\r\n    TreasureMonsterId = 9500001\r\n  },\r\n  [90302] = {\r\n    Capture = T.RT_4,\r\n    CaptureCreatorId = 1100000004,\r\n    DungeonId = 90302,\r\n    FixLevel = 1,\r\n    TreasureMonsterId = 9500001\r\n  },\r\n  [90303] = {\r\n    Capture = T.RT_4,\r\n    CaptureCreatorId = 1100000005,\r\n    DungeonId = 90303,\r\n    FixLevel = 1,\r\n    TreasureMonsterId = 9500001\r\n  },\r\n  [90304] = {\r\n    Capture = T.RT_4,\r\n    CaptureCreatorId = 1100000006,\r\n    DungeonId = 90304,\r\n    FixLevel = 1,\r\n    TreasureMonsterId = 9500001\r\n  },\r\n  [90305] = {\r\n    Capture = T.RT_6,\r\n    CaptureCreatorId = 1100000007,\r\n    DungeonId = 90305,\r\n    FixLevel = 1,\r\n    TreasureMonsterId = 9500001\r\n  },\r\n  [90306] = {\r\n    Capture = T.RT_6,\r\n    CaptureCreatorId = 1100000008,\r\n    DungeonId = 90306,\r\n    FixLevel = 1,\r\n    TreasureMonsterId = 9500001\r\n  },\r\n  [90307] = {\r\n    Capture = T.RT_6,\r\n    CaptureCreatorId = 1100000009,\r\n    DungeonId = 90307,\r\n    FixLevel = 1,\r\n    TreasureMonsterId = 9500001\r\n  },\r\n  [90308] = {\r\n    Capture = T.RT_6,\r\n    CaptureCreatorId = 1100000010,\r\n    DungeonId = 90308,\r\n    FixLevel = 1,\r\n    TreasureMonsterId = 9500001\r\n  },\r\n  [90309] = {\r\n    Capture = T.RT_6,\r\n    CaptureCreatorId = 1100000011,\r\n    DungeonId = 90309,\r\n    FixLevel = 1,\r\n    TreasureMonsterId = 9500001\r\n  },\r\n  [90310] = {\r\n    Capture = T.RT_6,\r\n    CaptureCreatorId = 1100000012,\r\n    DungeonId = 90310,\r\n    FixLevel = 1,\r\n    TreasureMonsterId = 9500001\r\n  },\r\n  [90311] = {\r\n    Capture = T.RT_6,\r\n    CaptureCreatorId = 1100000013,\r\n    DungeonId = 90311,\r\n    FixLevel = 1,\r\n    TreasureMonsterId = 9500001\r\n  },\r\n  [90312] = {\r\n    Capture = T.RT_6,\r\n    CaptureCreatorId = 1100000014,\r\n    DungeonId = 90312,\r\n    FixLevel = 1,\r\n    TreasureMonsterId = 9500001"
+    "TreasureMonsterId": 9500001
+  },
+  "30004": {
+    "Capture": [
+      {
+        "CaptureMonsterId": 7001005,
+        "Weight": 1
+      },
+      {
+        "CaptureMonsterId": 7003005,
+        "Weight": 1
+      },
+      {
+        "CaptureMonsterId": 7002005,
+        "Weight": 4
+      }
+    ],
+    "CaptureCreatorId": 1100000002,
+    "DungeonId": 30004,
+    "FixLevel": 1,
+    "TreasureMonsterId": 9500001
+  },
+  "60401": {
+    "Capture": [
+      {
+        "CaptureMonsterId": 7001005,
+        "Weight": 1
+      },
+      {
+        "CaptureMonsterId": 7003005,
+        "Weight": 1
+      },
+      {
+        "CaptureMonsterId": 7002005,
+        "Weight": 4
+      }
+    ],
+    "CaptureCreatorId": 1100000015,
+    "DungeonId": 60401,
+    "FixLevel": 1,
+    "TreasureMonsterId": 9500001
+  },
+  "60402": {
+    "Capture": [
+      {
+        "CaptureMonsterId": 7001005,
+        "Weight": 1
+      },
+      {
+        "CaptureMonsterId": 7003005,
+        "Weight": 1
+      },
+      {
+        "CaptureMonsterId": 7002005,
+        "Weight": 4
+      }
+    ],
+    "CaptureCreatorId": 1100000016,
+    "DungeonId": 60402,
+    "FixLevel": 1,
+    "TreasureMonsterId": 9500001
+  },
+  "62401": {
+    "Capture": [
+      {
+        "CaptureMonsterId": 7001005,
+        "Weight": 1
+      },
+      {
+        "CaptureMonsterId": 7003005,
+        "Weight": 1
+      },
+      {
+        "CaptureMonsterId": 7002005,
+        "Weight": 4
+      }
+    ],
+    "CaptureCreatorId": 1100000017,
+    "DungeonId": 62401,
+    "FixLevel": 1,
+    "TreasureMonsterId": 9500001
+  },
+  "62402": {
+    "Capture": [
+      {
+        "CaptureMonsterId": 7001005,
+        "Weight": 1
+      },
+      {
+        "CaptureMonsterId": 7003005,
+        "Weight": 1
+      },
+      {
+        "CaptureMonsterId": 7002005,
+        "Weight": 4
+      }
+    ],
+    "CaptureCreatorId": 1100000018,
+    "DungeonId": 62402,
+    "FixLevel": 1,
+    "TreasureMonsterId": 9500001
+  },
+  "64401": {
+    "Capture": [
+      {
+        "CaptureMonsterId": 7001005,
+        "Weight": 1
+      },
+      {
+        "CaptureMonsterId": 7003005,
+        "Weight": 1
+      },
+      {
+        "CaptureMonsterId": 7002005,
+        "Weight": 4
+      }
+    ],
+    "CaptureCreatorId": 1100000019,
+    "DungeonId": 64401,
+    "FixLevel": 1,
+    "TreasureMonsterId": 9500001
+  },
+  "64402": {
+    "Capture": [
+      {
+        "CaptureMonsterId": 7001005,
+        "Weight": 1
+      },
+      {
+        "CaptureMonsterId": 7003005,
+        "Weight": 1
+      },
+      {
+        "CaptureMonsterId": 7002005,
+        "Weight": 4
+      }
+    ],
+    "CaptureCreatorId": 1100000020,
+    "DungeonId": 64402,
+    "FixLevel": 1,
+    "TreasureMonsterId": 9500001
+  },
+  "90301": {
+    "Capture": [
+      {
+        "CaptureMonsterId": 7001005,
+        "Weight": 1
+      },
+      {
+        "CaptureMonsterId": 7003005,
+        "Weight": 1
+      },
+      {
+        "CaptureMonsterId": 7002005,
+        "Weight": 4
+      }
+    ],
+    "CaptureCreatorId": 1100000003,
+    "DungeonId": 90301,
+    "FixLevel": 1,
+    "TreasureMonsterId": 9500001
+  },
+  "90302": {
+    "Capture": [
+      {
+        "CaptureMonsterId": 7001005,
+        "Weight": 1
+      },
+      {
+        "CaptureMonsterId": 7003005,
+        "Weight": 1
+      },
+      {
+        "CaptureMonsterId": 7002005,
+        "Weight": 4
+      }
+    ],
+    "CaptureCreatorId": 1100000004,
+    "DungeonId": 90302,
+    "FixLevel": 1,
+    "TreasureMonsterId": 9500001
+  },
+  "90303": {
+    "Capture": [
+      {
+        "CaptureMonsterId": 7001005,
+        "Weight": 1
+      },
+      {
+        "CaptureMonsterId": 7003005,
+        "Weight": 1
+      },
+      {
+        "CaptureMonsterId": 7002005,
+        "Weight": 4
+      }
+    ],
+    "CaptureCreatorId": 1100000005,
+    "DungeonId": 90303,
+    "FixLevel": 1,
+    "TreasureMonsterId": 9500001
+  },
+  "90304": {
+    "Capture": [
+      {
+        "CaptureMonsterId": 7001005,
+        "Weight": 1
+      },
+      {
+        "CaptureMonsterId": 7003005,
+        "Weight": 1
+      },
+      {
+        "CaptureMonsterId": 7002005,
+        "Weight": 4
+      }
+    ],
+    "CaptureCreatorId": 1100000006,
+    "DungeonId": 90304,
+    "FixLevel": 1,
+    "TreasureMonsterId": 9500001
+  },
+  "90305": {
+    "Capture": [
+      {
+        "CaptureMonsterId": 7001005,
+        "Weight": 1
+      },
+      {
+        "CaptureMonsterId": 7003005,
+        "Weight": 1
+      },
+      {
+        "CaptureMonsterId": 7002005,
+        "Weight": 1
+      }
+    ],
+    "CaptureCreatorId": 1100000007,
+    "DungeonId": 90305,
+    "FixLevel": 1,
+    "TreasureMonsterId": 9500001
+  },
+  "90306": {
+    "Capture": [
+      {
+        "CaptureMonsterId": 7001005,
+        "Weight": 1
+      },
+      {
+        "CaptureMonsterId": 7003005,
+        "Weight": 1
+      },
+      {
+        "CaptureMonsterId": 7002005,
+        "Weight": 1
+      }
+    ],
+    "CaptureCreatorId": 1100000008,
+    "DungeonId": 90306,
+    "FixLevel": 1,
+    "TreasureMonsterId": 9500001
+  },
+  "90307": {
+    "Capture": [
+      {
+        "CaptureMonsterId": 7001005,
+        "Weight": 1
+      },
+      {
+        "CaptureMonsterId": 7003005,
+        "Weight": 1
+      },
+      {
+        "CaptureMonsterId": 7002005,
+        "Weight": 1
+      }
+    ],
+    "CaptureCreatorId": 1100000009,
+    "DungeonId": 90307,
+    "FixLevel": 1,
+    "TreasureMonsterId": 9500001
+  },
+  "90308": {
+    "Capture": [
+      {
+        "CaptureMonsterId": 7001005,
+        "Weight": 1
+      },
+      {
+        "CaptureMonsterId": 7003005,
+        "Weight": 1
+      },
+      {
+        "CaptureMonsterId": 7002005,
+        "Weight": 1
+      }
+    ],
+    "CaptureCreatorId": 1100000010,
+    "DungeonId": 90308,
+    "FixLevel": 1,
+    "TreasureMonsterId": 9500001
+  },
+  "90309": {
+    "Capture": [
+      {
+        "CaptureMonsterId": 7001005,
+        "Weight": 1
+      },
+      {
+        "CaptureMonsterId": 7003005,
+        "Weight": 1
+      },
+      {
+        "CaptureMonsterId": 7002005,
+        "Weight": 1
+      }
+    ],
+    "CaptureCreatorId": 1100000011,
+    "DungeonId": 90309,
+    "FixLevel": 1,
+    "TreasureMonsterId": 9500001
+  },
+  "90310": {
+    "Capture": [
+      {
+        "CaptureMonsterId": 7001005,
+        "Weight": 1
+      },
+      {
+        "CaptureMonsterId": 7003005,
+        "Weight": 1
+      },
+      {
+        "CaptureMonsterId": 7002005,
+        "Weight": 1
+      }
+    ],
+    "CaptureCreatorId": 1100000012,
+    "DungeonId": 90310,
+    "FixLevel": 1,
+    "TreasureMonsterId": 9500001
+  },
+  "90311": {
+    "Capture": [
+      {
+        "CaptureMonsterId": 7001005,
+        "Weight": 1
+      },
+      {
+        "CaptureMonsterId": 7003005,
+        "Weight": 1
+      },
+      {
+        "CaptureMonsterId": 7002005,
+        "Weight": 1
+      }
+    ],
+    "CaptureCreatorId": 1100000013,
+    "DungeonId": 90311,
+    "FixLevel": 1,
+    "TreasureMonsterId": 9500001
+  },
+  "90312": {
+    "Capture": [
+      {
+        "CaptureMonsterId": 7001005,
+        "Weight": 1
+      },
+      {
+        "CaptureMonsterId": 7003005,
+        "Weight": 1
+      },
+      {
+        "CaptureMonsterId": 7002005,
+        "Weight": 1
+      }
+    ],
+    "CaptureCreatorId": 1100000014,
+    "DungeonId": 90312,
+    "FixLevel": 1,
+    "TreasureMonsterId": 9500001
   }
 }

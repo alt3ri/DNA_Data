@@ -1,8 +1,216 @@
-[
-  {
+{
+  "1": {
     "BPPath": "/Game/BluePrints/Combat/PassiveEffect/BP_AbyssPassive_Test.BP_AbyssPassive_Test",
     "Camp": "Monster",
     "ID": 1,
-    "Vars": "{GrowVar = \"#1\", TestVar = 30}\r\n  },\r\n  [20030] = {\r\n    BPPath = \"/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Abyss/BP_AbyssGP_HitCountBuff.BP_AbyssGP_HitCountBuff\",\r\n    Camp = \"Player\",\r\n    ID = 20030,\r\n    Vars = {\r\n      Buff = 2010011,\r\n      HitCount = 5,\r\n      LastTime = 10\r\n    }\r\n  },\r\n  [20100] = {\r\n    BPPath = \"/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Abyss/BP_AbyssGP_BossLockHp.BP_AbyssGP_BossLockHp\",\r\n    Camp = \"Monster\",\r\n    GameplayTag = \"Mon.Boss\",\r\n    ID = 20100,\r\n    Vars = {\r\n      LastTime = 30,\r\n      LockHpBuff = 2010001,\r\n      LockHpRate = 0.5\r\n    }\r\n  },\r\n  [20102] = {\r\n    BPPath = \"/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Abyss/BP_AbyssGP_EsAddDamage.BP_AbyssGP_EsAddDamage\",\r\n    Camp = \"Monster\",\r\n    ID = 20102,\r\n    Vars = {DamageRate = 0.2}\r\n  },\r\n  [20201] = {\r\n    BPPath = \"/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Abyss/BP_AbyssGP_HittedRemoveBuff.BP_AbyssGP_HittedRemoveBuff\",\r\n    Camp = \"Monster\",\r\n    ID = 20201,\r\n    Vars = {Buff = 2010201}\r\n  },\r\n  [20202] = {\r\n    BPPath = \"/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Abyss/BP_AbyssGP_HittedRemoveBuff.BP_AbyssGP_HittedRemoveBuff\",\r\n    Camp = \"Monster\",\r\n    ID = 20202,\r\n    Vars = {Buff = 2010202, Condition = \"Crit\"}\r\n  },\r\n  [20203] = {\r\n    BPPath = \"/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Abyss/BP_AbyssGP_HittedRemoveBuff.BP_AbyssGP_HittedRemoveBuff\",\r\n    Camp = \"Monster\",\r\n    ID = 20203,\r\n    Vars = {\r\n      Buff = 2010203,\r\n      Condition = \"Tag\",\r\n      DamageTag = \"Ranged\"\r\n    }\r\n  },\r\n  [20301] = {\r\n    BPPath = \"/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Abyss/BP_AbyssGP_HitCountBuff.BP_AbyssGP_HitCountBuff\",\r\n    Camp = \"Player\",\r\n    ID = 20301,\r\n    Vars = {\r\n      Buff = 2010301,\r\n      HitCount = 5,\r\n      LastTime = 15\r\n    }\r\n  },\r\n  [20302] = {\r\n    BPPath = \"/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Abyss/BP_AbyssGP_AddBuff.BP_AbyssGP_AddBuff\",\r\n    Camp = \"Player\",\r\n    ID = 20302,\r\n    Vars = {Buff = 2010302}\r\n  },\r\n  [20303] = {\r\n    BPPath = \"/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Abyss/BP_AbyssGP_CritUpByBuff.BP_AbyssGP_CritUpByBuff\",\r\n    Camp = \"Player\",\r\n    ID = 20303,\r\n    Vars = {CritRate = 0.2}\r\n  },\r\n  [20304] = {\r\n    BPPath = \"/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Abyss/BP_AbyssGP_SpAddBuff.BP_AbyssGP_SpAddBuff\",\r\n    ID = 20304,\r\n    Vars = {\r\n      Buff = 2010304,\r\n      LastTime = 15,\r\n      SpCost = 15\r\n    }\r\n  },\r\n  [20401] = {\r\n    BPPath = \"/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Abyss/BP_AbyssGP_AddBuff.BP_AbyssGP_AddBuff\",\r\n    Camp = \"Monster\",\r\n    GameplayTag = \"Mon.Elite\",\r\n    ID = 20401,\r\n    Vars = {Buff = 2010101}\r\n  },\r\n  [20511] = {\r\n    BPPath = \"/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Abyss/BP_AbyssGP_DmgExchange.BP_AbyssGP_DmgExchange\",\r\n    Camp = \"Player\",\r\n    ID = 20511,\r\n    Vars = {\r\n      DownRate = -0.5,\r\n      DownTag = \"Dot\",\r\n      UpRate = 0.5,\r\n      UpTag = \"Weapon\"\r\n    }\r\n  },\r\n  [20512] = {\r\n    BPPath = \"/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Abyss/BP_AbyssGP_SkillTrigger.BP_AbyssGP_SkillTrigger\",\r\n    Camp = \"Player\",\r\n    ID = 20512,\r\n    Vars = {Buff = 2010512, TriggerProb = 1}\r\n  },\r\n  [30100] = {\r\n    BPPath = \"/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Raid/BP_RaidGP_Common.BP_RaidGP_Common\",\r\n    Camp = \"Monster\",\r\n    ID = 30100\r\n  },\r\n  [40101] = {\r\n    BPPath = \"/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Event/BP_EventGP_Wys_1.BP_EventGP_Wys_1\",\r\n    Camp = \"Player\",\r\n    ID = 40101\r\n  },\r\n  [40102] = {\r\n    BPPath = \"/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Event/BP_EventGP_Wys_2.BP_EventGP_Wys_2\",\r\n    Camp = \"Player\",\r\n    ID = 40102\r\n  },\r\n  [40103] = {\r\n    BPPath = \"/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Event/BP_EventGP_Wys_3.BP_EventGP_Wys_3\",\r\n    Camp = \"Player\",\r\n    ID = 40103\r\n  },\r\n  [40104] = {\r\n    BPPath = \"/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Event/BP_EventGP_Wys_4.BP_EventGP_Wys_4\",\r\n    Camp = \"Player\",\r\n    ID = 40104\r\n  },\r\n  [30101001] = {\r\n    BPPath = \"/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Contract/BP_Rou_Contract_30101001.BP_Rou_Contract_30101001\",\r\n    Camp = \"Player\",\r\n    ID = 30101001,\r\n    Vars = {HealRate = \"#1\"}\r\n  },\r\n  [30101002] = {\r\n    BPPath = \"/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Contract/BP_Rou_Contract_30101002.BP_Rou_Contract_30101002\",\r\n    Camp = \"Player\",\r\n    ID = 30101002\r\n  },\r\n  [30102001] = {\r\n    BPPath = \"/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Contract/BP_Rou_Contract_30102001.BP_Rou_Contract_30102001\",\r\n    Camp = \"Monster\",\r\n    ID = 30102001\r\n  },\r\n  [30102002] = {\r\n    BPPath = \"/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Contract/BP_Rou_Contract_30102002.BP_Rou_Contract_30102002\",\r\n    Camp = \"Monster\",\r\n    ID = 30102002\r\n  },\r\n  [30102003] = {\r\n    BPPath = \"/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Contract/BP_Rou_Contract_30102003.BP_Rou_Contract_30102003\",\r\n    Camp = \"Monster\",\r\n    ID = 30102003,\r\n    Vars = {DamagedRate = \"#1\"}\r\n  },\r\n  [30102004] = {\r\n    BPPath = \"/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Contract/BP_Rou_Contract_30102004.BP_Rou_Contract_30102004\",\r\n    Camp = \"Monster\",\r\n    ID = 30102004\r\n  },\r\n  [30103001] = {\r\n    BPPath = \"/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Contract/BP_Rou_Contract_30103001.BP_Rou_Contract_30103001\",\r\n    Camp = \"Player\",\r\n    ID = 30103001,\r\n    Vars = T.RT_1\r\n  },\r\n  [30103002] = {\r\n    BPPath = \"/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Contract/BP_Rou_Contract_30103002.BP_Rou_Contract_30103002\",\r\n    Camp = \"Player\",\r\n    ID = 30103002,\r\n    Vars = T.RT_1\r\n  },\r\n  [30103003] = {\r\n    BPPath = \"/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Contract/BP_Rou_Contract_30103003.BP_Rou_Contract_30103003\",\r\n    Camp = \"Player\",\r\n    ID = 30103003,\r\n    Vars = T.RT_1"
+    "Vars": {
+      "GrowVar": "#1",
+      "TestVar": 30
+    }
+  },
+  "20030": {
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Abyss/BP_AbyssGP_HitCountBuff.BP_AbyssGP_HitCountBuff",
+    "Camp": "Player",
+    "ID": 20030,
+    "Vars": {
+      "Buff": 2010011,
+      "HitCount": 5,
+      "LastTime": 10
+    }
+  },
+  "20100": {
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Abyss/BP_AbyssGP_BossLockHp.BP_AbyssGP_BossLockHp",
+    "Camp": "Monster",
+    "GameplayTag": "Mon.Boss",
+    "ID": 20100,
+    "Vars": {
+      "LastTime": 30,
+      "LockHpBuff": 2010001,
+      "LockHpRate": 0.5
+    }
+  },
+  "20102": {
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Abyss/BP_AbyssGP_EsAddDamage.BP_AbyssGP_EsAddDamage",
+    "Camp": "Monster",
+    "ID": 20102,
+    "Vars": {
+      "DamageRate": 0.2
+    }
+  },
+  "20201": {
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Abyss/BP_AbyssGP_HittedRemoveBuff.BP_AbyssGP_HittedRemoveBuff",
+    "Camp": "Monster",
+    "ID": 20201,
+    "Vars": {
+      "Buff": 2010201
+    }
+  },
+  "20202": {
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Abyss/BP_AbyssGP_HittedRemoveBuff.BP_AbyssGP_HittedRemoveBuff",
+    "Camp": "Monster",
+    "ID": 20202,
+    "Vars": {
+      "Buff": 2010202,
+      "Condition": "Crit"
+    }
+  },
+  "20203": {
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Abyss/BP_AbyssGP_HittedRemoveBuff.BP_AbyssGP_HittedRemoveBuff",
+    "Camp": "Monster",
+    "ID": 20203,
+    "Vars": {
+      "Buff": 2010203,
+      "Condition": "Tag",
+      "DamageTag": "Ranged"
+    }
+  },
+  "20301": {
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Abyss/BP_AbyssGP_HitCountBuff.BP_AbyssGP_HitCountBuff",
+    "Camp": "Player",
+    "ID": 20301,
+    "Vars": {
+      "Buff": 2010301,
+      "HitCount": 5,
+      "LastTime": 15
+    }
+  },
+  "20302": {
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Abyss/BP_AbyssGP_AddBuff.BP_AbyssGP_AddBuff",
+    "Camp": "Player",
+    "ID": 20302,
+    "Vars": {
+      "Buff": 2010302
+    }
+  },
+  "20303": {
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Abyss/BP_AbyssGP_CritUpByBuff.BP_AbyssGP_CritUpByBuff",
+    "Camp": "Player",
+    "ID": 20303,
+    "Vars": {
+      "CritRate": 0.2
+    }
+  },
+  "20304": {
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Abyss/BP_AbyssGP_SpAddBuff.BP_AbyssGP_SpAddBuff",
+    "ID": 20304,
+    "Vars": {
+      "Buff": 2010304,
+      "LastTime": 15,
+      "SpCost": 15
+    }
+  },
+  "20401": {
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Abyss/BP_AbyssGP_AddBuff.BP_AbyssGP_AddBuff",
+    "Camp": "Monster",
+    "GameplayTag": "Mon.Elite",
+    "ID": 20401,
+    "Vars": {
+      "Buff": 2010101
+    }
+  },
+  "20511": {
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Abyss/BP_AbyssGP_DmgExchange.BP_AbyssGP_DmgExchange",
+    "Camp": "Player",
+    "ID": 20511,
+    "Vars": {
+      "DownRate": -0.5,
+      "DownTag": "Dot",
+      "UpRate": 0.5,
+      "UpTag": "Weapon"
+    }
+  },
+  "20512": {
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Abyss/BP_AbyssGP_SkillTrigger.BP_AbyssGP_SkillTrigger",
+    "Camp": "Player",
+    "ID": 20512,
+    "Vars": {
+      "Buff": 2010512,
+      "TriggerProb": 1
+    }
+  },
+  "30100": {
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Raid/BP_RaidGP_Common.BP_RaidGP_Common",
+    "Camp": "Monster",
+    "ID": 30100
+  },
+  "40101": {
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Event/BP_EventGP_Wys_1.BP_EventGP_Wys_1",
+    "Camp": "Player",
+    "ID": 40101
+  },
+  "40102": {
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Event/BP_EventGP_Wys_2.BP_EventGP_Wys_2",
+    "Camp": "Player",
+    "ID": 40102
+  },
+  "40103": {
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Event/BP_EventGP_Wys_3.BP_EventGP_Wys_3",
+    "Camp": "Player",
+    "ID": 40103
+  },
+  "40104": {
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Event/BP_EventGP_Wys_4.BP_EventGP_Wys_4",
+    "Camp": "Player",
+    "ID": 40104
+  },
+  "30101001": {
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Contract/BP_Rou_Contract_30101001.BP_Rou_Contract_30101001",
+    "Camp": "Player",
+    "ID": 30101001,
+    "Vars": {
+      "HealRate": "#1"
+    }
+  },
+  "30101002": {
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Contract/BP_Rou_Contract_30101002.BP_Rou_Contract_30101002",
+    "Camp": "Player",
+    "ID": 30101002
+  },
+  "30102001": {
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Contract/BP_Rou_Contract_30102001.BP_Rou_Contract_30102001",
+    "Camp": "Monster",
+    "ID": 30102001
+  },
+  "30102002": {
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Contract/BP_Rou_Contract_30102002.BP_Rou_Contract_30102002",
+    "Camp": "Monster",
+    "ID": 30102002
+  },
+  "30102003": {
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Contract/BP_Rou_Contract_30102003.BP_Rou_Contract_30102003",
+    "Camp": "Monster",
+    "ID": 30102003,
+    "Vars": {
+      "DamagedRate": "#1"
+    }
+  },
+  "30102004": {
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Contract/BP_Rou_Contract_30102004.BP_Rou_Contract_30102004",
+    "Camp": "Monster",
+    "ID": 30102004
+  },
+  "30103001": {
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Contract/BP_Rou_Contract_30103001.BP_Rou_Contract_30103001",
+    "Camp": "Player",
+    "ID": 30103001,
+    "Vars": {
+      "Count": "#1"
+    }
+  },
+  "30103002": {
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Contract/BP_Rou_Contract_30103002.BP_Rou_Contract_30103002",
+    "Camp": "Player",
+    "ID": 30103002,
+    "Vars": {
+      "Count": "#1"
+    }
+  },
+  "30103003": {
+    "BPPath": "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/RougeLike/Contract/BP_Rou_Contract_30103003.BP_Rou_Contract_30103003",
+    "Camp": "Player",
+    "ID": 30103003,
+    "Vars": {
+      "Count": "#1"
+    }
   }
-]
+}

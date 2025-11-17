@@ -5,6 +5,135 @@
     "Sequence": 90,
     "TabDefaultSlot": 999,
     "TabId": 4,
-    "TabName": "UI_TAB_NAME_ALL\"\r\n  },\r\n  [2] = {\r\n    Id = 2,\r\n    ProductType = \"Weapon_Melee\",\r\n    Sequence = 80,\r\n    TabDefaultSlot = 999,\r\n    TabId = 4,\r\n    TabName = \"UI_Armory_Meleeweapon\"\r\n  },\r\n  [3] = {\r\n    Id = 3,\r\n    ProductType = \"Weapon_Ranged\",\r\n    Sequence = 70,\r\n    TabDefaultSlot = 999,\r\n    TabId = 4,\r\n    TabName = \"UI_Armory_Longrange\"\r\n  },\r\n  [4] = {\r\n    Id = 4,\r\n    ProductType = \"Mod_All\",\r\n    Sequence = 90,\r\n    TabDefaultSlot = 999,\r\n    TabId = 5,\r\n    TabName = \"UI_TAB_NAME_ALL\"\r\n  },\r\n  [5] = {\r\n    Id = 5,\r\n    ProductType = \"Mod_Char\",\r\n    Sequence = 80,\r\n    TabDefaultSlot = 999,\r\n    TabId = 5,\r\n    TabName = \"UI_Armory_Char\"\r\n  },\r\n  [6] = {\r\n    Id = 6,\r\n    ProductType = \"Mod_MeleeWeapon\",\r\n    Sequence = 70,\r\n    TabDefaultSlot = 999,\r\n    TabId = 5,\r\n    TabName = \"UI_Armory_Meleeweapon\"\r\n  },\r\n  [7] = {\r\n    Id = 7,\r\n    ProductType = \"Mod_RangedWeapon\",\r\n    Sequence = 60,\r\n    TabDefaultSlot = 999,\r\n    TabId = 5,\r\n    TabName = \"UI_Armory_Longrange\"\r\n  },\r\n  [8] = {\r\n    Id = 8,\r\n    ProductType = \"Mod_UltraWeapon\",\r\n    Sequence = 50,\r\n    TabDefaultSlot = 999,\r\n    TabId = 5,\r\n    TabName = \"UI_Armory_Signatureweapon\"\r\n  },\r\n  [9] = {\r\n    Id = 9,\r\n    ProductType = \"Resource_All\",\r\n    Sequence = 90,\r\n    TabDefaultSlot = 999,\r\n    TabId = 6,\r\n    TabName = \"UI_TAB_NAME_ALL\"\r\n  },\r\n  [10] = {\r\n    Id = 10,\r\n    ProductType = \"Resource_Consume\",\r\n    Sequence = 80,\r\n    TabDefaultSlot = 999,\r\n    TabId = 6,\r\n    TabName = \"Draft_Resource_Consume\"\r\n  },\r\n  [11] = {\r\n    Id = 11,\r\n    ProductType = \"Resource_Education\",\r\n    Sequence = 70,\r\n    TabDefaultSlot = 999,\r\n    TabId = 6,\r\n    TabName = \"Draft_Resource_Education\"\r\n  },\r\n  [12] = {\r\n    Id = 12,\r\n    ProductType = \"Resource_Combat\",\r\n    Sequence = 60,\r\n    TabDefaultSlot = 999,\r\n    TabId = 6,\r\n    TabName = \"Draft_Resource_Combat\"\r\n  },\r\n  [14] = {\r\n    Id = 14,\r\n    ProductType = \"Accessory_All\",\r\n    Sequence = 90,\r\n    TabDefaultSlot = 999,\r\n    TabId = 7,\r\n    TabName = \"UI_TAB_NAME_ALL\"\r\n  },\r\n  [15] = {\r\n    Id = 15,\r\n    ProductType = \"Accessory_Head\",\r\n    Sequence = 80,\r\n    TabDefaultSlot = 999,\r\n    TabId = 7,\r\n    TabName = \"UI_Dress_Head\"\r\n  },\r\n  [16] = {\r\n    Id = 16,\r\n    ProductType = \"Accessory_Face\",\r\n    Sequence = 70,\r\n    TabDefaultSlot = 999,\r\n    TabId = 7,\r\n    TabName = \"UI_Dress_Face\"\r\n  },\r\n  [17] = {\r\n    Id = 17,\r\n    ProductType = \"Accessory_Waist\",\r\n    Sequence = 60,\r\n    TabDefaultSlot = 999,\r\n    TabId = 7,\r\n    TabName = \"UI_Dress_Waist\"\r\n  },\r\n  [18] = {\r\n    Id = 18,\r\n    ProductType = \"Accessory_Back\",\r\n    Sequence = 50,\r\n    TabDefaultSlot = 999,\r\n    TabId = 7,\r\n    TabName = \"UI_Dress_Back"
+    "TabName": "UI_TAB_NAME_ALL"
+  },
+  {
+    "Id": 2,
+    "ProductType": "Weapon_Melee",
+    "Sequence": 80,
+    "TabDefaultSlot": 999,
+    "TabId": 4,
+    "TabName": "UI_Armory_Meleeweapon"
+  },
+  {
+    "Id": 3,
+    "ProductType": "Weapon_Ranged",
+    "Sequence": 70,
+    "TabDefaultSlot": 999,
+    "TabId": 4,
+    "TabName": "UI_Armory_Longrange"
+  },
+  {
+    "Id": 4,
+    "ProductType": "Mod_All",
+    "Sequence": 90,
+    "TabDefaultSlot": 999,
+    "TabId": 5,
+    "TabName": "UI_TAB_NAME_ALL"
+  },
+  {
+    "Id": 5,
+    "ProductType": "Mod_Char",
+    "Sequence": 80,
+    "TabDefaultSlot": 999,
+    "TabId": 5,
+    "TabName": "UI_Armory_Char"
+  },
+  {
+    "Id": 6,
+    "ProductType": "Mod_MeleeWeapon",
+    "Sequence": 70,
+    "TabDefaultSlot": 999,
+    "TabId": 5,
+    "TabName": "UI_Armory_Meleeweapon"
+  },
+  {
+    "Id": 7,
+    "ProductType": "Mod_RangedWeapon",
+    "Sequence": 60,
+    "TabDefaultSlot": 999,
+    "TabId": 5,
+    "TabName": "UI_Armory_Longrange"
+  },
+  {
+    "Id": 8,
+    "ProductType": "Mod_UltraWeapon",
+    "Sequence": 50,
+    "TabDefaultSlot": 999,
+    "TabId": 5,
+    "TabName": "UI_Armory_Signatureweapon"
+  },
+  {
+    "Id": 9,
+    "ProductType": "Resource_All",
+    "Sequence": 90,
+    "TabDefaultSlot": 999,
+    "TabId": 6,
+    "TabName": "UI_TAB_NAME_ALL"
+  },
+  {
+    "Id": 10,
+    "ProductType": "Resource_Consume",
+    "Sequence": 80,
+    "TabDefaultSlot": 999,
+    "TabId": 6,
+    "TabName": "Draft_Resource_Consume"
+  },
+  {
+    "Id": 11,
+    "ProductType": "Resource_Education",
+    "Sequence": 70,
+    "TabDefaultSlot": 999,
+    "TabId": 6,
+    "TabName": "Draft_Resource_Education"
+  },
+  {
+    "Id": 12,
+    "ProductType": "Resource_Combat",
+    "Sequence": 60,
+    "TabDefaultSlot": 999,
+    "TabId": 6,
+    "TabName": "Draft_Resource_Combat"
+  },
+  null,
+  {
+    "Id": 14,
+    "ProductType": "Accessory_All",
+    "Sequence": 90,
+    "TabDefaultSlot": 999,
+    "TabId": 7,
+    "TabName": "UI_TAB_NAME_ALL"
+  },
+  {
+    "Id": 15,
+    "ProductType": "Accessory_Head",
+    "Sequence": 80,
+    "TabDefaultSlot": 999,
+    "TabId": 7,
+    "TabName": "UI_Dress_Head"
+  },
+  {
+    "Id": 16,
+    "ProductType": "Accessory_Face",
+    "Sequence": 70,
+    "TabDefaultSlot": 999,
+    "TabId": 7,
+    "TabName": "UI_Dress_Face"
+  },
+  {
+    "Id": 17,
+    "ProductType": "Accessory_Waist",
+    "Sequence": 60,
+    "TabDefaultSlot": 999,
+    "TabId": 7,
+    "TabName": "UI_Dress_Waist"
+  },
+  {
+    "Id": 18,
+    "ProductType": "Accessory_Back",
+    "Sequence": 50,
+    "TabDefaultSlot": 999,
+    "TabId": 7,
+    "TabName": "UI_Dress_Back"
   }
 ]

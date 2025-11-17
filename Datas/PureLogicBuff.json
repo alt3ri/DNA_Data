@@ -1,7 +1,4134 @@
-[
-  {
+{
+  "1": {
     "BuffId": 1,
     "MergeRule1": "Personal",
-    "MergeRule2": "Merge\"\r\n  },\r\n  [2] = {\r\n    AddAttrs = {\r\n      [1] = {\r\n        AttrName = \"DamagedRate\",\r\n        RateZone = \"Phantom\",\r\n        Value = -0.5\r\n      }\r\n    },\r\n    BuffId = 2,\r\n    DeadNotRemove = true,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [97] = {\r\n    BuffId = 97,\r\n    DeadNotRemove = true,\r\n    ExpRate = -0.9999,\r\n    IsAvatarBuff = true,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [99] = {\r\n    BuffId = 99,\r\n    DeadNotRemove = true,\r\n    DotDatas = {\r\n      [1] = {\r\n        Interval = 0.5,\r\n        Type = \"SpChange\",\r\n        Value = 5\r\n      }\r\n    },\r\n    IsAvatarBuff = true,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [304] = {\r\n    BuffId = 304,\r\n    DeadNotRemove = true,\r\n    IsAvatarBuff = true,\r\n    LockHp = T.RT_3,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [306] = {\r\n    AddAttrs = {\r\n      [1] = {\r\n        AttrName = \"DamageRate\",\r\n        IndividualRateZone = 1,\r\n        Value = 0\r\n      }\r\n    },\r\n    BuffId = 306,\r\n    IsAvatarBuff = true,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [801] = {\r\n    AddAttrs = {\r\n      [1] = T.RT_8\r\n    },\r\n    BuffId = 801,\r\n    CombatConditionId = 502,\r\n    IsAvatarBuff = true,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [802] = {\r\n    AddAttrs = {\r\n      [1] = T.RT_9,\r\n      [2] = T.RT_8\r\n    },\r\n    BuffId = 802,\r\n    CombatConditionId = 502,\r\n    IsAvatarBuff = true,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [803] = {\r\n    AddAttrs = {\r\n      [1] = T.RT_10,\r\n      [2] = T.RT_9,\r\n      [3] = T.RT_8\r\n    },\r\n    BuffId = 803,\r\n    CombatConditionId = 502,\r\n    IsAvatarBuff = true,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [804] = {\r\n    AddAttrs = {\r\n      [1] = {AttrName = \"ATK\", Rate = \"#4\"},\r\n      [2] = T.RT_10,\r\n      [3] = T.RT_9,\r\n      [4] = T.RT_8\r\n    },\r\n    BuffId = 804,\r\n    CombatConditionId = 502,\r\n    IsAvatarBuff = true,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [903] = {\r\n    AllowSkillSustainModify = true,\r\n    BuffId = 903,\r\n    DeadNotRemove = true,\r\n    LockHp = T.RT_3,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [1315] = {\r\n    AddAttrs = {\r\n      [1] = {\r\n        AttrName = \"DamageRate\",\r\n        RateZone = \"BossDown\",\r\n        Value = \"#1\"\r\n      }\r\n    },\r\n    BuffId = 1315,\r\n    BuffType = {\r\n      [1] = 6000206\r\n    },\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [1316] = {\r\n    AddAttrs = {\r\n      [1] = {\r\n        AttrName = \"ATK\",\r\n        Rate = \"#1\",\r\n        Stackable = 1\r\n      }\r\n    },\r\n    BuffId = 1316,\r\n    MaxLayer = 3,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"NewFree\"\r\n  },\r\n  [1430] = {\r\n    BuffId = 1430,\r\n    HaloDatas = {\r\n      [1] = {\r\n        AuraRange = -1,\r\n        BuffId = 1430001,\r\n        Camp = \"Friend\"\r\n      }\r\n    },\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [1440] = {\r\n    BuffId = 1440,\r\n    HaloDatas = {\r\n      [1] = {\r\n        AuraRange = -1,\r\n        BuffId = 1440001,\r\n        Camp = \"Friend\"\r\n      }\r\n    },\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [1523] = {\r\n    BuffId = 1523,\r\n    LockHp = T.RT_3,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [1800] = {\r\n    AddAttrs = T.RT_44,\r\n    BuffId = 1800,\r\n    MaxLayer = 3,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"NewFree\"\r\n  },\r\n  [1961] = {\r\n    BuffId = 1961,\r\n    HaloDatas = {\r\n      [1] = {\r\n        AuraRange = -1,\r\n        BuffId = 1961001,\r\n        Camp = \"Enemy\"\r\n      }\r\n    },\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [1962] = {\r\n    AddAttrs = {\r\n      [1] = {\r\n        AttrName = \"ATK\",\r\n        RateUseValue = 1,\r\n        SupLimitRate = \"#1\"\r\n      }\r\n    },\r\n    BuffId = 1962,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [6111] = {\r\n    AddAttrs = {\r\n      [1] = {\r\n        AttrName = \"BonusDamage\",\r\n        Type = \"Dark\",\r\n        Value = 1\r\n      }\r\n    },\r\n    AddPassiveEffect = {\r\n      [1] = 201\r\n    },\r\n    BuffId = 6111,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [6113] = {\r\n    BuffId = 6113,\r\n    HaloDatas = {\r\n      [1] = {\r\n        AuraRange = -1,\r\n        BuffId = 6114,\r\n        Camp = \"Friend\"\r\n      }\r\n    },\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [6114] = {\r\n    AddAttrs = T.RT_12,\r\n    BuffId = 6114,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [6121] = {\r\n    AddAttrs = T.RT_19,\r\n    BuffId = 6121,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [6123] = {\r\n    BuffId = 6123,\r\n    HaloDatas = {\r\n      [1] = {\r\n        AuraRange = -1,\r\n        BuffId = 6124,\r\n        Camp = \"Friend\"\r\n      }\r\n    },\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [6124] = {\r\n    AddAttrs = T.RT_17,\r\n    BuffId = 6124,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [6131] = {\r\n    AddAttrs = T.RT_19,\r\n    BuffId = 6131,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [6133] = {\r\n    BuffId = 6133,\r\n    HaloDatas = {\r\n      [1] = {\r\n        AuraRange = -1,\r\n        BuffId = 6134,\r\n        Camp = \"Friend\"\r\n      }\r\n    },\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [6134] = {\r\n    AddAttrs = T.RT_17,\r\n    BuffId = 6134,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [6141] = {\r\n    AddAttrs = T.RT_17,\r\n    BuffId = 6141,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [6143] = {\r\n    BuffId = 6143,\r\n    HaloDatas = {\r\n      [1] = {\r\n        AuraRange = -1,\r\n        BuffId = 6144,\r\n        Camp = \"Friend\"\r\n      }\r\n    },\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [6144] = {\r\n    AddAttrs = T.RT_15,\r\n    BuffId = 6144,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [6151] = {\r\n    AddAttrs = T.RT_17,\r\n    BuffId = 6151,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [6153] = {\r\n    BuffId = 6153,\r\n    HaloDatas = {\r\n      [1] = {\r\n        AuraRange = -1,\r\n        BuffId = 6154,\r\n        Camp = \"Friend\"\r\n      }\r\n    },\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [6154] = {\r\n    AddAttrs = T.RT_15,\r\n    BuffId = 6154,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [6161] = {\r\n    AddAttrs = {\r\n      [1] = {\r\n        AttrName = \"BonusDamage\",\r\n        Type = \"Light\",\r\n        Value = 1\r\n      }\r\n    },\r\n    AddPassiveEffect = T.RT_13,\r\n    BuffId = 6161,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [6163] = {\r\n    BuffId = 6163,\r\n    HaloDatas = {\r\n      [1] = {\r\n        AuraRange = -1,\r\n        BuffId = 6164,\r\n        Camp = \"Friend\"\r\n      }\r\n    },\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [6164] = {\r\n    AddAttrs = T.RT_12,\r\n    BuffId = 6164,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [10503] = {\r\n    AddAttrs = {\r\n      [1] = {\r\n        AttrName = \"AttackRangeModifierValue\",\r\n        Value = \"#1\"\r\n      }\r\n    },\r\n    AddPassiveEffect = T.RT_64,\r\n    BuffId = 10503,\r\n    BuffType = T.RT_62,\r\n    DisperseBuffType = T.RT_63,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [100001] = {\r\n    BuffId = 100001,\r\n    HaloDatas = {\r\n      [1] = {\r\n        AuraRange = -1,\r\n        BuffId = 100002,\r\n        Camp = \"Friend\"\r\n      }\r\n    },\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [100002] = {\r\n    AddAttrs = T.RT_28,\r\n    BuffId = 100002,\r\n    MaxLayer = 2,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"NewFree\"\r\n  },\r\n  [100003] = {\r\n    BuffId = 100003,\r\n    HaloDatas = {\r\n      [1] = {\r\n        AuraRange = -1,\r\n        BuffId = 100004,\r\n        Camp = \"Friend\"\r\n      }\r\n    },\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [100004] = {\r\n    AddAttrs = {\r\n      [1] = {\r\n        AttrName = \"DamageRate\",\r\n        DamageTag = \"Skill\",\r\n        RateZone = \"Normal\",\r\n        Value = 0.08\r\n      }\r\n    },\r\n    BuffId = 100004,\r\n    MaxLayer = 2,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"NewFree\"\r\n  },\r\n  [100005] = {\r\n    BuffId = 100005,\r\n    HaloDatas = {\r\n      [1] = {\r\n        AuraRange = -1,\r\n        BuffId = 100006,\r\n        Camp = \"Friend\"\r\n      }\r\n    },\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [100006] = {\r\n    AddAttrs = {\r\n      [1] = {\r\n        AttrName = \"DamageRate\",\r\n        DamageTag = \"Weapon\",\r\n        RateZone = \"Normal\",\r\n        Value = 0.08\r\n      }\r\n    },\r\n    BuffId = 100006,\r\n    MaxLayer = 2,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"NewFree\"\r\n  },\r\n  [100007] = {\r\n    BuffId = 100007,\r\n    HaloDatas = {\r\n      [1] = {\r\n        AuraRange = -1,\r\n        BuffId = 100008,\r\n        Camp = \"Friend\"\r\n      }\r\n    },\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [100008] = {\r\n    AddAttrs = {\r\n      [1] = {AttrName = \"DEF\", Rate = 0.4}\r\n    },\r\n    BuffId = 100008,\r\n    MaxLayer = 2,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"NewFree\"\r\n  },\r\n  [100009] = {\r\n    BuffId = 100009,\r\n    HaloDatas = {\r\n      [1] = {\r\n        AuraRange = -1,\r\n        BuffId = 100010,\r\n        Camp = \"Friend\"\r\n      }\r\n    },\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [100010] = {\r\n    AddAttrs = {\r\n      [1] = {\r\n        AttrName = \"WeaponCRIModifierRate\",\r\n        Value = 0.4\r\n      }\r\n    },\r\n    BuffId = 100010,\r\n    MaxLayer = 2,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"NewFree\"\r\n  },\r\n  [110001] = {\r\n    BuffId = 110001,\r\n    HaloDatas = {\r\n      [1] = {\r\n        AuraRange = -1,\r\n        BuffId = 110002,\r\n        Camp = \"Friend\"\r\n      }\r\n    },\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [110002] = {\r\n    AddAttrs = T.RT_28,\r\n    BuffId = 110002,\r\n    CombatConditionId = 1001,\r\n    MaxLayer = 2,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"NewFree\"\r\n  },\r\n  [110003] = {\r\n    BuffId = 110003,\r\n    HaloDatas = {\r\n      [1] = {\r\n        AuraRange = -1,\r\n        BuffId = 110004,\r\n        Camp = \"Friend\"\r\n      }\r\n    },\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [110004] = {\r\n    AddAttrs = T.RT_26,\r\n    BuffId = 110004,\r\n    CombatConditionId = 1001,\r\n    MaxLayer = 2,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"NewFree\"\r\n  },\r\n  [110112] = {\r\n    AddAttrs = {\r\n      [1] = {\r\n        AttrName = \"ATK\",\r\n        Rate = 0.2,\r\n        Stackable = 1\r\n      }\r\n    },\r\n    BuffId = 110112,\r\n    MaxLayer = 4,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [110204] = {\r\n    AddAttrs = {\r\n      [1] = {\r\n        AttrName = \"WeaponCRDModifierRate\",\r\n        DamageTag = \"Melee\",\r\n        Value = 0.5\r\n      }\r\n    },\r\n    BuffId = 110204,\r\n    BuffType = T.RT_38,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [110223] = {\r\n    BuffId = 110223,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [110303] = {\r\n    AddAttrs = {\r\n      [1] = {\r\n        AttrName = \"ATK\",\r\n        BaseUseValue = 1,\r\n        Rate = \"#1\",\r\n        SupLimitValue = 315\r\n      },\r\n      [2] = {\r\n        AttrName = \"WalkSpeedModifier\",\r\n        Value = 0.5\r\n      },\r\n      [3] = {\r\n        AttrName = \"JumpVelocityModifier\",\r\n        Value = 0.1\r\n      }\r\n    },\r\n    BuffId = 110303,\r\n    BuffType = T.RT_2,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [110304] = {\r\n    BuffDamagedRate = {Value = -0.25},\r\n    BuffId = 110304,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [110401] = {\r\n    BuffId = 110401,\r\n    MaxLayer = 10,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [120231] = {\r\n    BuffId = 120231,\r\n    BuffType = T.RT_2,\r\n    ChangeWeaponNotClearCombo = true,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [150001] = {\r\n    BuffId = 150001,\r\n    HaloDatas = {\r\n      [1] = {\r\n        AuraRange = -1,\r\n        BuffId = 150002,\r\n        Camp = \"Friend\"\r\n      }\r\n    },\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [150002] = {\r\n    AddAttrs = T.RT_28,\r\n    BuffId = 150002,\r\n    CombatConditionId = 1006,\r\n    MaxLayer = 2,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"NewFree\"\r\n  },\r\n  [150003] = {\r\n    BuffId = 150003,\r\n    HaloDatas = {\r\n      [1] = {\r\n        AuraRange = -1,\r\n        BuffId = 150004,\r\n        Camp = \"Friend\"\r\n      }\r\n    },\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [150004] = {\r\n    AddAttrs = T.RT_26,\r\n    BuffId = 150004,\r\n    CombatConditionId = 1006,\r\n    MaxLayer = 2,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"NewFree\"\r\n  },\r\n  [150222] = {\r\n    AddAttrs = {\r\n      [1] = {AttrName = \"SkillRange\", ValueUseValue = 1}\r\n    },\r\n    AllowSkillSustainModify = true,\r\n    BuffId = 150222,\r\n    BuffType = T.RT_2,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [150223] = {\r\n    AllowSkillSustainModify = true,\r\n    BuffId = 150223,\r\n    BuffType = T.RT_2,\r\n    MaxLayer = 6,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [150231] = {\r\n    AddAttrs = {\r\n      [1] = {AttrName = \"SpRate\", Value = 0.25}\r\n    },\r\n    BuffId = 150231,\r\n    BuffType = T.RT_2,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [150301] = {\r\n    AddAttrs = T.RT_51,\r\n    BuffId = 150301,\r\n    BuffSpModify = T.RT_60,\r\n    LayerExtraBuff = T.RT_59,\r\n    MaxLayer = 100,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"NewFree\"\r\n  },\r\n  [150302] = {\r\n    AddAttrs = T.RT_48,\r\n    BuffId = 150302,\r\n    BuffSpModify = T.RT_58,\r\n    LayerExtraBuff = T.RT_56,\r\n    MaxLayer = 100,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"NewFree\"\r\n  },\r\n  [150305] = {\r\n    BuffId = 150305,\r\n    BuffSpModify = {\r\n      [150302] = T.RT_61\r\n    },\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [150306] = {\r\n    BuffId = 150306,\r\n    BuffSpModify = {\r\n      [150321] = T.RT_61\r\n    },\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [150307] = {\r\n    AddAttrs = T.RT_51,\r\n    BuffId = 150307,\r\n    BuffSpModify = T.RT_60,\r\n    LayerExtraBuff = T.RT_59,\r\n    MaxLayer = 100,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"NewFree\"\r\n  },\r\n  [150308] = {\r\n    AddAttrs = T.RT_48,\r\n    BuffId = 150308,\r\n    BuffSpModify = T.RT_58,\r\n    LayerExtraBuff = T.RT_56,\r\n    MaxLayer = 100,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"NewFree\"\r\n  },\r\n  [150311] = {\r\n    AddAttrs = {\r\n      [1] = {\r\n        AttrName = \"AttackSpeedModifierRate\",\r\n        Type = \"Ranged\",\r\n        Value = \"#1\"\r\n      }\r\n    },\r\n    BuffId = 150311,\r\n    BuffType = T.RT_52,\r\n    DisperseBuffType = T.RT_53,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [150312] = {\r\n    AddAttrs = T.RT_55,\r\n    BuffId = 150312,\r\n    BuffType = T.RT_53,\r\n    DisperseBuffType = T.RT_52,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [150331] = {\r\n    BuffId = 150331,\r\n    BuffType = {\r\n      [1] = 150331\r\n    },\r\n    DisperseBuffType = {\r\n      [1] = 150332,\r\n      [2] = 150333,\r\n      [3] = 150334\r\n    },\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\",\r\n    ReplaceSkillNodes = {\r\n      [1503104] = 1503202\r\n    }\r\n  },\r\n  [150332] = {\r\n    BuffId = 150332,\r\n    BuffType = {\r\n      [1] = 150332\r\n    },\r\n    DisperseBuffType = {\r\n      [1] = 150331,\r\n      [2] = 150333,\r\n      [3] = 150334\r\n    },\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\",\r\n    ReplaceSkillNodes = {\r\n      [1503104] = 1503203\r\n    }\r\n  },\r\n  [150333] = {\r\n    BuffId = 150333,\r\n    BuffType = {\r\n      [1] = 150333\r\n    },\r\n    DisperseBuffType = {\r\n      [1] = 150331,\r\n      [2] = 150332,\r\n      [3] = 150334\r\n    },\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\",\r\n    ReplaceSkillNodes = {\r\n      [1503104] = 1503204\r\n    }\r\n  },\r\n  [150341] = {\r\n    BuffId = 150341,\r\n    BuffType = {\r\n      [1] = 150341\r\n    },\r\n    DisperseBuffType = {\r\n      [1] = 150342,\r\n      [2] = 150343,\r\n      [3] = 150344\r\n    },\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\",\r\n    ReplaceSkillNodes = {\r\n      [1503124] = 1503201\r\n    }\r\n  },\r\n  [150342] = {\r\n    BuffId = 150342,\r\n    BuffType = {\r\n      [1] = 150342\r\n    },\r\n    DisperseBuffType = {\r\n      [1] = 150341,\r\n      [2] = 150343,\r\n      [3] = 150344\r\n    },\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\",\r\n    ReplaceSkillNodes = {\r\n      [1503124] = 1503203\r\n    }\r\n  },\r\n  [150343] = {\r\n    BuffId = 150343,\r\n    BuffType = {\r\n      [1] = 150343\r\n    },\r\n    DisperseBuffType = {\r\n      [1] = 150341,\r\n      [2] = 150342,\r\n      [3] = 150344\r\n    },\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\",\r\n    ReplaceSkillNodes = {\r\n      [1503124] = 1503204\r\n    }\r\n  },\r\n  [150351] = {\r\n    BuffId = 150351,\r\n    BuffType = {\r\n      [1] = 150351\r\n    },\r\n    DisperseBuffType = {\r\n      [1] = 150352,\r\n      [2] = 150353,\r\n      [3] = 150354\r\n    },\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\",\r\n    ReplaceSkillNodes = {\r\n      [1503144] = 1503201\r\n    }\r\n  },\r\n  [150352] = {\r\n    BuffId = 150352,\r\n    BuffType = {\r\n      [1] = 150352\r\n    },\r\n    DisperseBuffType = {\r\n      [1] = 150351,\r\n      [2] = 150353,\r\n      [3] = 150354\r\n    },\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\",\r\n    ReplaceSkillNodes = {\r\n      [1503144] = 1503202\r\n    }\r\n  },\r\n  [150353] = {\r\n    BuffId = 150353,\r\n    BuffType = {\r\n      [1] = 150353\r\n    },\r\n    DisperseBuffType = {\r\n      [1] = 150351,\r\n      [2] = 150352,\r\n      [3] = 150354\r\n    },\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\",\r\n    ReplaceSkillNodes = {\r\n      [1503144] = 1503204\r\n    }\r\n  },\r\n  [150361] = {\r\n    BuffId = 150361,\r\n    BuffType = {\r\n      [1] = 150361\r\n    },\r\n    DisperseBuffType = {\r\n      [1] = 150362,\r\n      [2] = 150363,\r\n      [3] = 150364\r\n    },\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\",\r\n    ReplaceSkillNodes = {\r\n      [1503164] = 1503201\r\n    }\r\n  },\r\n  [150362] = {\r\n    BuffId = 150362,\r\n    BuffType = {\r\n      [1] = 150362\r\n    },\r\n    DisperseBuffType = {\r\n      [1] = 150361,\r\n      [2] = 150363,\r\n      [3] = 150364\r\n    },\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\",\r\n    ReplaceSkillNodes = {\r\n      [1503164] = 1503202\r\n    }\r\n  },\r\n  [150363] = {\r\n    BuffId = 150363,\r\n    BuffType = {\r\n      [1] = 150363\r\n    },\r\n    DisperseBuffType = {\r\n      [1] = 150361,\r\n      [2] = 150362,\r\n      [3] = 150364\r\n    },\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\",\r\n    ReplaceSkillNodes = {\r\n      [1503164] = 1503203\r\n    }\r\n  },\r\n  [150371] = {\r\n    AddAttrs = T.RT_51,\r\n    BuffId = 150371,\r\n    MaxLayer = 100,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"NewFree\"\r\n  },\r\n  [150372] = {\r\n    AddAttrs = T.RT_48,\r\n    BuffId = 150372,\r\n    MaxLayer = 100,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"NewFree\"\r\n  },\r\n  [150373] = {\r\n    AddAttrs = T.RT_51,\r\n    BuffId = 150373,\r\n    MaxLayer = 100,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"NewFree\"\r\n  },\r\n  [150374] = {\r\n    AddAttrs = T.RT_48,\r\n    BuffId = 150374,\r\n    MaxLayer = 100,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"NewFree\"\r\n  },\r\n  [150409] = {\r\n    BuffId = 150409,\r\n    BuffType = T.RT_45,\r\n    DotDatas = {\r\n      [1] = {\r\n        DotDelay = 1,\r\n        Interval = 0.1,\r\n        Type = \"SecondSpChange\",\r\n        Value = 1\r\n      }\r\n    },\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"NewFree\"\r\n  },\r\n  [150410] = {\r\n    BuffId = 150410,\r\n    BuffType = T.RT_45,\r\n    DotDatas = {\r\n      [1] = {\r\n        DotDelay = 1,\r\n        Interval = 0.1,\r\n        Type = \"SecondSpChange\",\r\n        Value = 2\r\n      }\r\n    },\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"NewFree\"\r\n  },\r\n  [150421] = {\r\n    BuffId = 150421,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"NewFree\"\r\n  },\r\n  [180101] = {\r\n    AddAttrs = {\r\n      [1] = {\r\n        AllowSkillIntensity = 1,\r\n        AttrName = \"BonusDamage\",\r\n        Type = \"Light\",\r\n        Value = \"#1\"\r\n      }\r\n    },\r\n    AddPassiveEffect = T.RT_13,\r\n    BuffId = 180101,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [180121] = {\r\n    BuffId = 180121,\r\n    BuffType = T.RT_42,\r\n    HaloDatas = {\r\n      [1] = {\r\n        AllowSkillRange = 1,\r\n        AuraRange = 1000,\r\n        BuffId = 180122,\r\n        Camp = \"Enemy\"\r\n      }\r\n    },\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [180123] = {\r\n    BuffId = 180123,\r\n    BuffType = T.RT_42,\r\n    HaloDatas = {\r\n      [1] = {\r\n        AllowSkillRange = 1,\r\n        AuraRange = 1000,\r\n        BuffId = 180124,\r\n        Camp = \"Enemy\"\r\n      }\r\n    },\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [180125] = {\r\n    BuffId = 180125,\r\n    BuffType = T.RT_42,\r\n    HaloDatas = {\r\n      [1] = {\r\n        AllowSkillRange = 1,\r\n        AuraRange = 1000,\r\n        BuffId = 180126,\r\n        Camp = \"Enemy\"\r\n      }\r\n    },\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [180127] = {\r\n    BuffId = 180127,\r\n    BuffType = T.RT_42,\r\n    HaloDatas = {\r\n      [1] = {\r\n        AllowSkillRange = 1,\r\n        AuraRange = 1000,\r\n        BuffId = 180128,\r\n        Camp = \"Enemy\"\r\n      }\r\n    },\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [180191] = {\r\n    BuffId = 180191,\r\n    HaloDatas = {\r\n      [1] = {\r\n        AuraRange = -1,\r\n        BuffId = 180192,\r\n        Camp = \"Friend\"\r\n      }\r\n    },\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [180192] = {\r\n    AddAttrs = {\r\n      [1] = {\r\n        AttrName = \"DamageRate\",\r\n        DamageTag = \"Weapon\",\r\n        RateZone = \"Normal\",\r\n        Value = 0.1\r\n      }\r\n    },\r\n    BuffId = 180192,\r\n    CombatConditionId = 1031,\r\n    MaxLayer = 2,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"NewFree\"\r\n  },\r\n  [201021] = {\r\n    AddAttrs = T.RT_40,\r\n    BuffId = 201021,\r\n    BuffType = T.RT_38,\r\n    DotDatas = {\r\n      [1] = {\r\n        BaseAttr = \"MaxHp\",\r\n        DamageTag = T.RT_30,\r\n        DefaultHealFX = 1,\r\n        Interval = 1,\r\n        Rate = 0.5,\r\n        Type = \"Hot\"\r\n      }\r\n    },\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [210001] = {\r\n    BuffId = 210001,\r\n    HaloDatas = {\r\n      [1] = {\r\n        AuraRange = -1,\r\n        BuffId = 210002,\r\n        Camp = \"Friend\"\r\n      }\r\n    },\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [210002] = {\r\n    AddAttrs = T.RT_28,\r\n    BuffId = 210002,\r\n    CombatConditionId = 1002,\r\n    MaxLayer = 2,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"NewFree\"\r\n  },\r\n  [210003] = {\r\n    BuffId = 210003,\r\n    HaloDatas = {\r\n      [1] = {\r\n        AuraRange = -1,\r\n        BuffId = 210004,\r\n        Camp = \"Friend\"\r\n      }\r\n    },\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [210004] = {\r\n    AddAttrs = T.RT_26,\r\n    BuffId = 210004,\r\n    CombatConditionId = 1002,\r\n    MaxLayer = 2,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"NewFree\"\r\n  },\r\n  [210203] = {\r\n    BuffId = 210203,\r\n    BuffType = T.RT_2,\r\n    HaloDatas = {\r\n      [1] = {\r\n        AuraRange = -1,\r\n        BuffId = 210204,\r\n        Camp = \"Friend\"\r\n      }\r\n    },\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [230122] = {\r\n    BuffId = 230122,\r\n    BuffType = {\r\n      [1] = 21,\r\n      [2] = 41\r\n    },\r\n    DotDatas = {\r\n      [1] = {\r\n        DamageTag = {\r\n          [1] = \"Dot\",\r\n          [2] = \"Skill\"\r\n        },\r\n        DamageType = \"Water\",\r\n        Immediately = 1,\r\n        Interval = 2,\r\n        Rate = 2.8,\r\n        Type = \"Dot\"\r\n      }\r\n    },\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [240131] = {\r\n    BuffId = 240131,\r\n    HaloDatas = {\r\n      [1] = {\r\n        AuraRange = -1,\r\n        BuffId = 240132,\r\n        Camp = \"Friend\"\r\n      }\r\n    },\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [240132] = {\r\n    AddPassiveEffect = {\r\n      [1] = 240103\r\n    },\r\n    BuffId = 240132,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [240152] = {\r\n    BuffId = 240152,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [240153] = {\r\n    BuffId = 240153,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [240191] = {\r\n    BuffId = 240191,\r\n    HaloDatas = {\r\n      [1] = {\r\n        AuraRange = -1,\r\n        BuffId = 240192,\r\n        Camp = \"Friend\",\r\n        Condition = 1007\r\n      }\r\n    },\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [240192] = {\r\n    AddAttrs = {\r\n      [1] = {\r\n        AttrName = \"DamageRate\",\r\n        DamageTag = \"Skill\",\r\n        RateZone = \"Normal\",\r\n        Value = 0.1\r\n      }\r\n    },\r\n    BuffId = 240192,\r\n    MaxLayer = 2,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"NewFree\"\r\n  },\r\n  [310001] = {\r\n    BuffId = 310001,\r\n    HaloDatas = {\r\n      [1] = {\r\n        AuraRange = -1,\r\n        BuffId = 310002,\r\n        Camp = \"Friend\"\r\n      }\r\n    },\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [310002] = {\r\n    AddAttrs = T.RT_28,\r\n    BuffId = 310002,\r\n    CombatConditionId = 1003,\r\n    MaxLayer = 2,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"NewFree\"\r\n  },\r\n  [310003] = {\r\n    BuffId = 310003,\r\n    HaloDatas = {\r\n      [1] = {\r\n        AuraRange = -1,\r\n        BuffId = 310004,\r\n        Camp = \"Friend\"\r\n      }\r\n    },\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [310004] = {\r\n    AddAttrs = T.RT_26,\r\n    BuffId = 310004,\r\n    CombatConditionId = 1003,\r\n    MaxLayer = 2,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"NewFree\"\r\n  },\r\n  [310123] = {\r\n    BuffId = 310123,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\",\r\n    RemoveWhenSpZero = true\r\n  },\r\n  [310124] = {\r\n    AddAttrs = {\r\n      [1] = {\r\n        AttrName = \"AttackSpeedModifierRate\",\r\n        Stackable = 1,\r\n        Value = 0.03\r\n      }\r\n    },\r\n    BuffId = 310124,\r\n    MaxLayer = 35,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\",\r\n    RemoveWhenSpZero = true\r\n  },\r\n  [310206] = {\r\n    AddAttrs = T.RT_32,\r\n    AllowSkillSustainModify = true,\r\n    BuffId = 310206,\r\n    DotDatas = {\r\n      [1] = {\r\n        DotDelay = 0.5,\r\n        Interval = 1,\r\n        Type = \"SpChange\",\r\n        Value = -15\r\n      }\r\n    },\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\",\r\n    RemoveWhenSpZero = true\r\n  },\r\n  [310302] = {\r\n    BuffId = 310302,\r\n    HaloDatas = {\r\n      [1] = {\r\n        AuraRange = 1500,\r\n        BuffId = 310321,\r\n        Camp = \"Enemy\"\r\n      }\r\n    },\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [310311] = {\r\n    BuffId = 310311,\r\n    ForbidBuffType = {\r\n      [1] = 10,\r\n      [2] = 11,\r\n      [3] = 12,\r\n      [4] = 20,\r\n      [5] = 21,\r\n      [6] = 22,\r\n      [7] = 30,\r\n      [8] = 40,\r\n      [9] = 41,\r\n      [10] = 42,\r\n      [11] = 43,\r\n      [12] = 44,\r\n      [13] = 49,\r\n      [14] = 60,\r\n      [15] = 61,\r\n      [16] = 62,\r\n      [17] = 63\r\n    },\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [320102] = {\r\n    BuffId = 320102,\r\n    HaloDatas = {\r\n      [1] = {\r\n        AuraRange = -1,\r\n        BuffId = 320103,\r\n        Camp = \"OtherFriend\"\r\n      }\r\n    },\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [320103] = {\r\n    AddPassiveEffect = {\r\n      [1] = 320103\r\n    },\r\n    BuffId = 320103,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [320122] = {\r\n    BuffId = 320122,\r\n    MaxLayer = 5,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [320204] = {\r\n    BuffDamagedRate = {Value = -0.03},\r\n    BuffId = 320204,\r\n    MaxLayer = 10,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [320206] = {\r\n    AddPassiveEffect = {\r\n      [1] = 320204\r\n    },\r\n    BuffId = 320206,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [330131] = {\r\n    BuffId = 330131,\r\n    HaloDatas = {\r\n      [1] = {\r\n        AuraRange = -1,\r\n        BuffId = 330132,\r\n        Camp = \"OtherFriend\"\r\n      }\r\n    },\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [330132] = {\r\n    AddPassiveEffect = {\r\n      [1] = 330103\r\n    },\r\n    BuffId = 330132,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [330141] = {\r\n    BuffId = 330141,\r\n    HaloDatas = {\r\n      [1] = {\r\n        AuraRange = -1,\r\n        BuffId = 330142,\r\n        Camp = \"OtherFriend\"\r\n      }\r\n    },\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [410001] = {\r\n    BuffId = 410001,\r\n    HaloDatas = {\r\n      [1] = {\r\n        AuraRange = -1,\r\n        BuffId = 410002,\r\n        Camp = \"Friend\"\r\n      }\r\n    },\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [410002] = {\r\n    AddAttrs = T.RT_28,\r\n    BuffId = 410002,\r\n    CombatConditionId = 1004,\r\n    MaxLayer = 2,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"NewFree\"\r\n  },\r\n  [410003] = {\r\n    BuffId = 410003,\r\n    HaloDatas = {\r\n      [1] = {\r\n        AuraRange = -1,\r\n        BuffId = 410004,\r\n        Camp = \"Friend\"\r\n      }\r\n    },\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [410004] = {\r\n    AddAttrs = T.RT_26,\r\n    BuffId = 410004,\r\n    CombatConditionId = 1004,\r\n    MaxLayer = 2,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"NewFree\"\r\n  },\r\n  [410101] = {\r\n    BuffId = 410101,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [410211] = {\r\n    BuffId = 410211,\r\n    HaloDatas = {\r\n      [1] = {\r\n        AuraRange = -1,\r\n        BuffId = 410212,\r\n        Camp = \"Friend\"\r\n      }\r\n    },\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [410212] = {\r\n    AddPassiveEffect = {\r\n      [1] = 410212\r\n    },\r\n    BuffId = 410212,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [410242] = {\r\n    AddAttrs = T.RT_32,\r\n    BuffId = 410242,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [410252] = {\r\n    AddAttrs = {\r\n      [1] = {\r\n        AttrName = \"MoveSpeedAddRate\",\r\n        Value = -0.6\r\n      }\r\n    },\r\n    BuffId = 410252,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [420114] = {\r\n    BuffId = 420114,\r\n    MaxLayer = 6,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [420122] = {\r\n    BuffId = 420122,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [420123] = {\r\n    BuffId = 420123,\r\n    HaloDatas = {\r\n      [1] = {\r\n        AuraRange = -1,\r\n        BuffId = 420124,\r\n        Camp = \"Friend\"\r\n      },\r\n      [2] = {\r\n        AuraRange = -1,\r\n        BuffId = 420131,\r\n        Camp = \"Enemy\"\r\n      }\r\n    },\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [420191] = {\r\n    BuffId = 420191,\r\n    HaloDatas = {\r\n      [1] = {\r\n        AuraRange = -1,\r\n        BuffId = 420192,\r\n        Camp = \"Friend\"\r\n      }\r\n    },\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [420192] = {\r\n    AddAttrs = {\r\n      [1] = {\r\n        AttrName = \"StrongValue\",\r\n        Value = 0.15\r\n      }\r\n    },\r\n    BuffId = 420192,\r\n    CombatConditionId = 1004,\r\n    MaxLayer = 2,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"NewFree\"\r\n  },\r\n  [420200] = {\r\n    AddAttrs = {\r\n      [1] = {\r\n        AttrName = \"OverShieldLevelGrow\",\r\n        Value = 50\r\n      }\r\n    },\r\n    BuffId = 420200,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [430112] = {\r\n    BuffId = 430112,\r\n    BuffType = T.RT_20,\r\n    DotDatas = {\r\n      [1] = {\r\n        BaseAttr = \"MaxHp\",\r\n        Condition = 2,\r\n        DamageTag = T.RT_30,\r\n        DefaultHealFX = 0,\r\n        Interval = 1,\r\n        Rate = 0.1,\r\n        Type = \"Hot\"\r\n      }\r\n    },\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [430123] = {\r\n    BuffId = 430123,\r\n    ForbidBuffType = {\r\n      [1] = 10,\r\n      [2] = 11,\r\n      [3] = 12,\r\n      [4] = 20,\r\n      [5] = 21,\r\n      [6] = 22,\r\n      [7] = 30,\r\n      [8] = 40,\r\n      [9] = 41,\r\n      [10] = 42,\r\n      [11] = 43,\r\n      [12] = 44,\r\n      [13] = 49,\r\n      [14] = 60,\r\n      [15] = 61,\r\n      [16] = 62,\r\n      [17] = 63,\r\n      [18] = 999\r\n    },\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [510001] = {\r\n    BuffId = 510001,\r\n    HaloDatas = {\r\n      [1] = {\r\n        AuraRange = -1,\r\n        BuffId = 510002,\r\n        Camp = \"Friend\"\r\n      }\r\n    },\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [510002] = {\r\n    AddAttrs = T.RT_28,\r\n    BuffId = 510002,\r\n    CombatConditionId = 1005,\r\n    MaxLayer = 2,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"NewFree\"\r\n  },\r\n  [510003] = {\r\n    BuffId = 510003,\r\n    HaloDatas = {\r\n      [1] = {\r\n        AuraRange = -1,\r\n        BuffId = 510004,\r\n        Camp = \"Friend\"\r\n      }\r\n    },\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [510004] = {\r\n    AddAttrs = T.RT_26,\r\n    BuffId = 510004,\r\n    CombatConditionId = 1005,\r\n    MaxLayer = 2,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"NewFree\"\r\n  },\r\n  [510191] = {\r\n    BuffId = 510191,\r\n    HaloDatas = {\r\n      [1] = {\r\n        AuraRange = -1,\r\n        BuffId = 510192,\r\n        Camp = \"Friend\",\r\n        Condition = 1007\r\n      }\r\n    },\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [510192] = {\r\n    AddAttrs = {\r\n      [1] = {\r\n        AttrName = \"EnmityValue\",\r\n        Value = 0.05\r\n      }\r\n    },\r\n    BuffId = 510192,\r\n    MaxLayer = 2,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"NewFree\"\r\n  },\r\n  [530111] = {\r\n    BuffId = 530111,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [530113] = {\r\n    AddAttrs = {\r\n      [1] = {\r\n        AttrName = \"DamageRate\",\r\n        RateZone = \"Almighty\",\r\n        Value = 0.5\r\n      }\r\n    },\r\n    BuffId = 530113,\r\n    BuffType = T.RT_24,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [530122] = {\r\n    BuffId = 530122,\r\n    BuffType = T.RT_24,\r\n    DotDatas = {\r\n      [1] = {\r\n        DotDelay = 2.7,\r\n        EffectId = 530142,\r\n        Interval = 5,\r\n        Type = \"SkillEffect\"\r\n      }\r\n    },\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [540200] = {\r\n    BuffId = 540200,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [540206] = {\r\n    BuffId = 540206,\r\n    MaxLayer = 20,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [540231] = {\r\n    BuffId = 540231,\r\n    HaloDatas = {\r\n      [1] = {\r\n        AuraRange = -1,\r\n        BuffId = 540232,\r\n        Camp = \"Friend\"\r\n      }\r\n    },\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [540241] = {\r\n    BuffId = 540241,\r\n    HaloDatas = {\r\n      [1] = {\r\n        AuraRange = -1,\r\n        BuffId = 540242,\r\n        Camp = \"Friend\"\r\n      }\r\n    },\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [700221] = {\r\n    BuffId = 700221,\r\n    ForbidBuffType = {\r\n      [1] = 41,\r\n      [2] = 43\r\n    },\r\n    ForbidCatch = true,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [850001] = {\r\n    BuffId = 850001,\r\n    LockHp = T.RT_6,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [850002] = {\r\n    BuffId = 850002,\r\n    CannotBeCutTN = true,\r\n    CannotBeHitted = true,\r\n    ForbidBuffType = T.RT_5,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\",\r\n    SpecialEffect = T.RT_4\r\n  },\r\n  [850201] = {\r\n    BuffId = 850201,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [850203] = {\r\n    BuffId = 850203,\r\n    MaxLayer = 3,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [850205] = {\r\n    BuffDamagedRate = {Value = -0.5},\r\n    BuffId = 850205,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [850301] = {\r\n    BuffId = 850301,\r\n    InitialEffect = {\r\n      [1] = 850324\r\n    },\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [850303] = {\r\n    BuffId = 850303,\r\n    CannotBeCutTN = true,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [850304] = {\r\n    BuffId = 850304,\r\n    LockHp = {Rate = 0.1},\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [850306] = {\r\n    BuffId = 850306,\r\n    LockHp = T.RT_7,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [850308] = {\r\n    BuffId = 850308,\r\n    BuffType = T.RT_2,\r\n    CannotBeCutTN = true,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [850309] = {\r\n    BuffId = 850309,\r\n    CannotBeCutTN = true,\r\n    CannotBeHitted = true,\r\n    ForbidBuffType = T.RT_5,\r\n    LockHp = T.RT_7,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\",\r\n    NotEnterTarget = true,\r\n    SpecialEffect = T.RT_4\r\n  },\r\n  [850311] = {\r\n    BuffId = 850311,\r\n    CannotBeCutTN = true,\r\n    CannotBeHitted = true,\r\n    LockHp = T.RT_1,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [850401] = {\r\n    BuffId = 850401,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [850403] = {\r\n    BuffId = 850403,\r\n    BuffType = T.RT_2,\r\n    CannotBeCutTN = true,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [850901] = {\r\n    BuffId = 850901,\r\n    LockHp = T.RT_6,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [850902] = {\r\n    BuffId = 850902,\r\n    LockHp = {Rate = 0.8},\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [851203] = {\r\n    BuffId = 851203,\r\n    BuffType = T.RT_2,\r\n    CannotBeCutTN = true,\r\n    CannotBeHitted = true,\r\n    ForbidBuffType = T.RT_5,\r\n    LockHp = {Rate = 0.61},\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [851204] = {\r\n    BuffId = 851204,\r\n    BuffType = T.RT_2,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [851209] = {\r\n    BuffId = 851209,\r\n    LockHp = {Rate = 0.49},\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [851210] = {\r\n    BuffId = 851210,\r\n    LockHp = {Rate = 0.2},\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [851211] = {\r\n    BuffDamagedRate = {Value = -0.99},\r\n    BuffId = 851211,\r\n    LockHp = {Rate = 0.48},\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [851213] = {\r\n    BuffId = 851213,\r\n    BuffType = T.RT_2,\r\n    CannotBeCutTN = true,\r\n    CannotBeHitted = true,\r\n    ForbidBuffType = T.RT_5,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [851214] = {\r\n    BuffId = 851214,\r\n    BuffType = T.RT_2,\r\n    CannotBeCutTN = true,\r\n    CannotBeHitted = true,\r\n    ForbidBuffType = T.RT_5,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\",\r\n    NotEnterTarget = true,\r\n    SpecialEffect = T.RT_4\r\n  },\r\n  [851502] = {\r\n    BuffId = 851502,\r\n    LockHp = {Rate = 0.35},\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [851901] = {\r\n    BuffId = 851901,\r\n    LockHp = T.RT_1,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [900602] = {\r\n    BuffId = 900602,\r\n    BuffType = T.RT_2,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\",\r\n    Priority = 1001,\r\n    SpecialEffect = {\r\n      [1] = \"Invisible\"\r\n    }\r\n  },\r\n  [950101] = {\r\n    AddAttrs = {\r\n      [1] = {AttrName = \"SkillSpeed\", Rate = 0.4}\r\n    },\r\n    BuffId = 950101,\r\n    BuffType = T.RT_2,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [950401] = {\r\n    BuffId = 950401,\r\n    ForbidBuffType = {\r\n      [1] = 41,\r\n      [2] = 42,\r\n      [3] = 43\r\n    },\r\n    ForbidCatch = true,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [950403] = {\r\n    BuffId = 950403,\r\n    LockHp = T.RT_1,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [1030111] = {\r\n    AddAttrs = {\r\n      [1] = {\r\n        AttrName = \"MoveSpeedAddRate\",\r\n        Value = -0.4\r\n      }\r\n    },\r\n    BuffId = 1030111,\r\n    BuffType = T.RT_2,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [1030222] = {\r\n    AddAttrs = T.RT_66,\r\n    BuffId = 1030222,\r\n    BuffType = T.RT_2,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [1040141] = {\r\n    AddAttrs = T.RT_66,\r\n    BuffId = 1040141,\r\n    BuffType = T.RT_2,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [1060202] = {\r\n    BuffId = 1060202,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [1311001] = {\r\n    BuffDamagedRate = {Value = \"#1\"},\r\n    BuffId = 1311001,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [1430001] = {\r\n    AddAttrs = {\r\n      [1] = {\r\n        AttrName = \"SpRecoverValue\",\r\n        Value = \"#1\"\r\n      }\r\n    },\r\n    BuffId = 1430001,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [1440001] = {\r\n    AddAttrs = T.RT_44,\r\n    BuffId = 1440001,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [2010001] = {\r\n    BuffId = 2010001,\r\n    BuffType = T.RT_2,\r\n    LockHp = T.RT_6,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [2010035] = {\r\n    AddAttrs = {\r\n      [1] = T.RT_23,\r\n      [2] = T.RT_22\r\n    },\r\n    BuffId = 2010035,\r\n    BuffType = T.RT_41,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [2010051] = {\r\n    AddAttrs = {\r\n      [1] = T.RT_22,\r\n      [2] = T.RT_21\r\n    },\r\n    BuffId = 2010051,\r\n    BuffType = T.RT_41,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [2050501] = {\r\n    BuffId = 2050501,\r\n    MaxLayer = 10,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [4010009] = {\r\n    AddAttrs = {\r\n      [1] = {\r\n        AttrName = \"SupportSkillCD\",\r\n        Rate = -0.5\r\n      }\r\n    },\r\n    BuffId = 4010009,\r\n    BuffType = T.RT_2,\r\n    DeadNotRemove = true,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"NewFree\"\r\n  },\r\n  [5000006] = {\r\n    BuffId = 5000006,\r\n    DeadNotRemove = true,\r\n    DotDatas = {\r\n      [1] = {\r\n        AllowSkillIntensity = 1,\r\n        DamageTag = {\r\n          [1] = \"Dot\"\r\n        },\r\n        Interval = 0.2,\r\n        Rate = 1,\r\n        Type = \"Dot\"\r\n      }\r\n    },\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [5000012] = {\r\n    BuffId = 5000012,\r\n    BuffType = T.RT_29,\r\n    HaloDatas = {\r\n      [1] = {\r\n        AuraRange = 4000,\r\n        BuffId = 5000011,\r\n        Camp = \"OtherFriend\"\r\n      }\r\n    },\r\n    MaxLayer = 5,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"NewFree\"\r\n  },\r\n  [5000014] = {\r\n    BuffId = 5000014,\r\n    BuffType = T.RT_29,\r\n    HaloDatas = {\r\n      [1] = {\r\n        AuraRange = 4000,\r\n        BuffId = 5000013,\r\n        Camp = \"OtherFriend\"\r\n      }\r\n    },\r\n    MaxLayer = 5,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"NewFree\"\r\n  },\r\n  [5000016] = {\r\n    BuffId = 5000016,\r\n    BuffType = T.RT_29,\r\n    HaloDatas = {\r\n      [1] = {\r\n        AuraRange = 4000,\r\n        BuffId = 5000015,\r\n        Camp = \"OtherFriend\"\r\n      }\r\n    },\r\n    MaxLayer = 5,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"NewFree\"\r\n  },\r\n  [5000017] = {\r\n    BuffId = 5000017,\r\n    LockHp = T.RT_7,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [5000304] = {\r\n    AddAttrs = {\r\n      [1] = {\r\n        AttrName = \"DamageRate\",\r\n        RateZone = \"Normal\",\r\n        Value = 2\r\n      }\r\n    },\r\n    AddPassiveEffect = {\r\n      [1] = 5000304\r\n    },\r\n    BuffId = 5000304,\r\n    BuffType = T.RT_2,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [6000011] = {\r\n    AddAttrs = {\r\n      [1] = {\r\n        AttrName = \"WaterDamagedRate\",\r\n        Value = -0.5\r\n      }\r\n    },\r\n    BuffId = 6000011,\r\n    BuffType = T.RT_2,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [6000013] = {\r\n    AddAttrs = {\r\n      [1] = {\r\n        AttrName = \"WaterDamagedRate\",\r\n        Value = 0.5\r\n      }\r\n    },\r\n    BuffId = 6000013,\r\n    BuffType = T.RT_20,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\",\r\n    WeaknessType = \"Water\"\r\n  },\r\n  [6000014] = {\r\n    AddAttrs = {\r\n      [1] = {\r\n        AttrName = \"WaterDamagedRate\",\r\n        Value = 4\r\n      }\r\n    },\r\n    BuffId = 6000014,\r\n    BuffType = T.RT_20,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\",\r\n    WeaknessType = \"Water\"\r\n  },\r\n  [6000021] = {\r\n    AddAttrs = {\r\n      [1] = {\r\n        AttrName = \"FireDamagedRate\",\r\n        Value = -0.5\r\n      }\r\n    },\r\n    BuffId = 6000021,\r\n    BuffType = T.RT_2,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [6000023] = {\r\n    AddAttrs = {\r\n      [1] = {\r\n        AttrName = \"FireDamagedRate\",\r\n        Value = 0.5\r\n      }\r\n    },\r\n    BuffId = 6000023,\r\n    BuffType = T.RT_20,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\",\r\n    WeaknessType = \"Fire\"\r\n  },\r\n  [6000024] = {\r\n    AddAttrs = {\r\n      [1] = T.RT_23\r\n    },\r\n    BuffId = 6000024,\r\n    BuffType = T.RT_20,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\",\r\n    WeaknessType = \"Fire\"\r\n  },\r\n  [6000031] = {\r\n    AddAttrs = {\r\n      [1] = {\r\n        AttrName = \"ThunderDamagedRate\",\r\n        Value = -0.5\r\n      }\r\n    },\r\n    BuffId = 6000031,\r\n    BuffType = T.RT_2,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [6000033] = {\r\n    AddAttrs = {\r\n      [1] = {\r\n        AttrName = \"ThunderDamagedRate\",\r\n        Value = 0.5\r\n      }\r\n    },\r\n    BuffId = 6000033,\r\n    BuffType = T.RT_20,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\",\r\n    WeaknessType = \"Thunder\"\r\n  },\r\n  [6000034] = {\r\n    AddAttrs = {\r\n      [1] = {\r\n        AttrName = \"ThunderDamagedRate\",\r\n        Value = 4\r\n      }\r\n    },\r\n    BuffId = 6000034,\r\n    BuffType = T.RT_20,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\",\r\n    WeaknessType = \"Thunder\"\r\n  },\r\n  [6000041] = {\r\n    AddAttrs = {\r\n      [1] = {\r\n        AttrName = \"WindDamagedRate\",\r\n        Value = -0.5\r\n      }\r\n    },\r\n    BuffId = 6000041,\r\n    BuffType = T.RT_2,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [6000043] = {\r\n    AddAttrs = {\r\n      [1] = {\r\n        AttrName = \"WindDamagedRate\",\r\n        Value = 0.5\r\n      }\r\n    },\r\n    BuffId = 6000043,\r\n    BuffType = T.RT_20,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\",\r\n    WeaknessType = \"Wind\"\r\n  },\r\n  [6000044] = {\r\n    AddAttrs = {\r\n      [1] = T.RT_22\r\n    },\r\n    BuffId = 6000044,\r\n    BuffType = T.RT_20,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\",\r\n    WeaknessType = \"Wind\"\r\n  },\r\n  [6000051] = {\r\n    AddAttrs = {\r\n      [1] = {\r\n        AttrName = \"DarkDamagedRate\",\r\n        Value = -0.5\r\n      }\r\n    },\r\n    BuffId = 6000051,\r\n    BuffType = T.RT_2,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [6000052] = {\r\n    AddAttrs = {\r\n      [1] = {\r\n        AttrName = \"DarkDamagedRate\",\r\n        Value = -0.25\r\n      }\r\n    },\r\n    BuffId = 6000052,\r\n    BuffType = T.RT_2,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [6000053] = {\r\n    AddAttrs = {\r\n      [1] = {\r\n        AttrName = \"DarkDamagedRate\",\r\n        Value = 0.5\r\n      }\r\n    },\r\n    BuffId = 6000053,\r\n    BuffType = T.RT_20,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\",\r\n    WeaknessType = \"Dark\"\r\n  },\r\n  [6000054] = {\r\n    AddAttrs = {\r\n      [1] = T.RT_21\r\n    },\r\n    BuffId = 6000054,\r\n    BuffType = T.RT_20,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\",\r\n    WeaknessType = \"Dark\"\r\n  },\r\n  [6000061] = {\r\n    AddAttrs = {\r\n      [1] = {\r\n        AttrName = \"LightDamagedRate\",\r\n        Value = -0.5\r\n      }\r\n    },\r\n    BuffId = 6000061,\r\n    BuffType = T.RT_2,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [6000062] = {\r\n    AddAttrs = {\r\n      [1] = {\r\n        AttrName = \"LightDamagedRate\",\r\n        Value = -0.25\r\n      }\r\n    },\r\n    BuffId = 6000062,\r\n    BuffType = T.RT_2,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [6000063] = {\r\n    AddAttrs = {\r\n      [1] = {\r\n        AttrName = \"LightDamagedRate\",\r\n        Value = 0.5\r\n      }\r\n    },\r\n    BuffId = 6000063,\r\n    BuffType = T.RT_20,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\",\r\n    WeaknessType = \"Light\"\r\n  },\r\n  [6000064] = {\r\n    AddAttrs = {\r\n      [1] = {\r\n        AttrName = \"LightDamagedRate\",\r\n        Value = 4\r\n      }\r\n    },\r\n    BuffId = 6000064,\r\n    BuffType = T.RT_20,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\",\r\n    WeaknessType = \"Light\"\r\n  },\r\n  [6000071] = {\r\n    BuffId = 6000071,\r\n    BuffType = T.RT_2,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [6000072] = {\r\n    BuffId = 6000072,\r\n    BuffType = T.RT_20,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [6000073] = {\r\n    BuffId = 6000073,\r\n    BuffType = T.RT_2,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [6000074] = {\r\n    BuffId = 6000074,\r\n    BuffType = T.RT_20,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [6000075] = {\r\n    BuffId = 6000075,\r\n    BuffType = T.RT_2,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [6000076] = {\r\n    BuffId = 6000076,\r\n    BuffType = T.RT_20,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [6000077] = {\r\n    BuffId = 6000077,\r\n    BuffType = T.RT_2,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [6000078] = {\r\n    BuffId = 6000078,\r\n    BuffType = T.RT_20,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [6000079] = {\r\n    BuffId = 6000079,\r\n    BuffType = T.RT_2,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [6000080] = {\r\n    BuffId = 6000080,\r\n    BuffType = T.RT_20,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [6000081] = {\r\n    BuffId = 6000081,\r\n    BuffType = T.RT_2,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [6000082] = {\r\n    BuffId = 6000082,\r\n    BuffType = T.RT_20,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [6000204] = {\r\n    BuffId = 6000204,\r\n    CannotBeCutTN = true,\r\n    ForbidBuffType = {\r\n      [1] = 41\r\n    },\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\",\r\n    SpecialEffect = T.RT_4\r\n  },\r\n  [6000207] = {\r\n    BuffId = 6000207,\r\n    BuffType = T.RT_2,\r\n    CannotBeCutTN = true,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [6000208] = {\r\n    BuffId = 6000208,\r\n    BuffType = T.RT_2,\r\n    ForbidBuffType = {\r\n      [1] = 44\r\n    },\r\n    ForbidCatch = true,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [6000209] = {\r\n    BuffId = 6000209,\r\n    BuffType = T.RT_2,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\",\r\n    NotEnterTarget = true\r\n  },\r\n  [10101202] = {\r\n    BuffId = 10101202,\r\n    BuffType = T.RT_20,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [10101991] = {\r\n    AddAttrs = {\r\n      [1] = {\r\n        AttrName = \"WeaponCRIModifierRate\",\r\n        Stackable = 1,\r\n        Type = \"Melee\",\r\n        Value = 0.15\r\n      },\r\n      [2] = {\r\n        AttrName = \"WeaponCRDModifierRate\",\r\n        Stackable = 1,\r\n        Type = \"Melee\",\r\n        Value = 0.1\r\n      }\r\n    },\r\n    BuffId = 10101991,\r\n    BuffType = T.RT_2,\r\n    MaxLayer = 20,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [10102104] = {\r\n    AddAttrs = {\r\n      [1] = {\r\n        AttrName = \"DropDistance\",\r\n        Value = 750\r\n      }\r\n    },\r\n    BuffId = 10102104,\r\n    BuffType = T.RT_2,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [10102107] = {\r\n    BattlePetCdRate = -0.3,\r\n    BuffId = 10102107,\r\n    BuffType = T.RT_33,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [10102108] = {\r\n    BattlePetCdRate = -0.5,\r\n    BuffId = 10102108,\r\n    BuffType = T.RT_33,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [10102109] = {\r\n    AddAttrs = {\r\n      [1] = {AttrName = \"ATK\", Rate = 0.15}\r\n    },\r\n    BuffId = 10102109,\r\n    BuffType = T.RT_2,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [10102110] = {\r\n    AddAttrs = T.RT_40,\r\n    BuffId = 10102110,\r\n    BuffType = T.RT_2,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [10102991] = {\r\n    AddAttrs = {\r\n      [1] = {\r\n        AttrName = \"WeaponCRIModifierRate\",\r\n        Stackable = 1,\r\n        Type = \"Ranged\",\r\n        Value = 0.15\r\n      },\r\n      [2] = {\r\n        AttrName = \"WeaponCRDModifierRate\",\r\n        Stackable = 1,\r\n        Type = \"Ranged\",\r\n        Value = 0.1\r\n      }\r\n    },\r\n    BuffId = 10102991,\r\n    BuffType = T.RT_2,\r\n    MaxLayer = 20,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [10103106] = {\r\n    AddAttrs = {\r\n      [1] = {AttrName = \"SkillSpeed\", Rate = \"#1\"}\r\n    },\r\n    BuffId = 10103106,\r\n    BuffType = T.RT_2,\r\n    DeadNotRemove = true,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [10103991] = {\r\n    AddAttrs = {\r\n      [1] = {\r\n        AttrName = \"MaxES\",\r\n        Rate = 0.15,\r\n        Stackable = 1\r\n      }\r\n    },\r\n    BuffId = 10103991,\r\n    BuffType = T.RT_2,\r\n    MaxLayer = 20,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [10104302] = {\r\n    AddAttrs = T.RT_35,\r\n    BuffId = 10104302,\r\n    BuffType = T.RT_2,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [10104991] = {\r\n    AddAttrs = {\r\n      [1] = {\r\n        AttrName = \"DamageRate\",\r\n        RateZone = \"Rouge\",\r\n        Stackable = 1,\r\n        Value = 0.15\r\n      }\r\n    },\r\n    BuffId = 10104991,\r\n    BuffType = T.RT_2,\r\n    MaxLayer = 20,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [10105301] = {\r\n    AddAttrs = {\r\n      [1] = {AttrName = \"MaxSp\", RateUseValue = 1}\r\n    },\r\n    BuffId = 10105301,\r\n    BuffType = T.RT_2,\r\n    DeadNotRemove = true,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [10105303] = {\r\n    AddAttrs = {\r\n      [1] = {\r\n        AttrName = \"WeaponCRIModifierRate\",\r\n        Value = \"#1\"\r\n      }\r\n    },\r\n    BuffId = 10105303,\r\n    BuffType = T.RT_2,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"NewFree\"\r\n  },\r\n  [10105901] = {\r\n    AddAttrs = {\r\n      [1] = {AttrName = \"ATK\", Rate = 0.01}\r\n    },\r\n    BuffId = 10105901,\r\n    BuffType = T.RT_2,\r\n    MaxLayer = 60,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"NewFree\"\r\n  },\r\n  [10105903] = {\r\n    BuffId = 10105903,\r\n    BuffType = T.RT_2,\r\n    DotDatas = {\r\n      [1] = {\r\n        Immediately = 1,\r\n        Interval = 1,\r\n        Type = \"SpChange\",\r\n        Value = 2\r\n      }\r\n    },\r\n    MaxLayer = 6,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [10105991] = {\r\n    AddAttrs = {\r\n      [1] = {\r\n        AttrName = \"MaxSp\",\r\n        Rate = 0.1,\r\n        Stackable = 1\r\n      }\r\n    },\r\n    BuffId = 10105991,\r\n    BuffType = T.RT_2,\r\n    MaxLayer = 20,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [10106101] = {\r\n    AddAttrs = T.RT_90,\r\n    BuffId = 10106101,\r\n    BuffType = T.RT_2,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [10106102] = {\r\n    AddAttrs = T.RT_90,\r\n    BuffId = 10106102,\r\n    BuffType = T.RT_2,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [10106103] = {\r\n    AddAttrs = T.RT_88,\r\n    BuffId = 10106103,\r\n    BuffType = T.RT_2,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [10106104] = {\r\n    AddAttrs = T.RT_88,\r\n    BuffId = 10106104,\r\n    BuffType = T.RT_2,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [10106105] = {\r\n    AddAttrs = T.RT_86,\r\n    BuffId = 10106105,\r\n    BuffType = T.RT_2,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [10106106] = {\r\n    AddAttrs = T.RT_86,\r\n    BuffId = 10106106,\r\n    BuffType = T.RT_2,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [10106107] = {\r\n    AddAttrs = T.RT_84,\r\n    BuffId = 10106107,\r\n    BuffType = T.RT_2,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [10106108] = {\r\n    AddAttrs = T.RT_84,\r\n    BuffId = 10106108,\r\n    BuffType = T.RT_2,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [10106110] = {\r\n    AddAttrs = T.RT_82,\r\n    BuffId = 10106110,\r\n    BuffType = T.RT_2,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [10106111] = {\r\n    AddAttrs = T.RT_82,\r\n    BuffId = 10106111,\r\n    BuffType = T.RT_2,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [10106112] = {\r\n    AddAttrs = T.RT_80,\r\n    BuffId = 10106112,\r\n    BuffType = T.RT_2,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [10106113] = {\r\n    AddAttrs = T.RT_80,\r\n    BuffId = 10106113,\r\n    BuffType = T.RT_2,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [10106991] = {\r\n    AddAttrs = {\r\n      [1] = {\r\n        AttrName = \"SkillRange\",\r\n        Rate = 0.1,\r\n        Stackable = 1\r\n      }\r\n    },\r\n    BuffId = 10106991,\r\n    BuffType = T.RT_2,\r\n    MaxLayer = 20,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [10107101] = {\r\n    BuffId = 10107101,\r\n    BuffType = T.RT_2,\r\n    DotDatas = T.RT_78,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [10107102] = {\r\n    BuffId = 10107102,\r\n    BuffType = T.RT_2,\r\n    DotDatas = T.RT_78,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [10107103] = {\r\n    AddAttrs = T.RT_76,\r\n    BuffId = 10107103,\r\n    BuffType = T.RT_2,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [10107104] = {\r\n    AddAttrs = T.RT_76,\r\n    BuffId = 10107104,\r\n    BuffType = T.RT_2,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [10107106] = {\r\n    AddAttrs = T.RT_74,\r\n    BuffId = 10107106,\r\n    BuffType = T.RT_2,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [10107107] = {\r\n    AddAttrs = T.RT_74,\r\n    BuffId = 10107107,\r\n    BuffType = T.RT_2,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [10107108] = {\r\n    AddAttrs = T.RT_72,\r\n    BuffId = 10107108,\r\n    BuffType = T.RT_2,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [10107109] = {\r\n    AddAttrs = T.RT_72,\r\n    BuffId = 10107109,\r\n    BuffType = T.RT_2,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [10107110] = {\r\n    AddAttrs = T.RT_70,\r\n    BuffId = 10107110,\r\n    BuffType = T.RT_2,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [10107111] = {\r\n    AddAttrs = T.RT_70,\r\n    BuffId = 10107111,\r\n    BuffType = T.RT_2,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [10107113] = {\r\n    AddAttrs = T.RT_55,\r\n    BuffId = 10107113,\r\n    BuffType = T.RT_2,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [10107114] = {\r\n    AddAttrs = T.RT_55,\r\n    BuffId = 10107114,\r\n    BuffType = T.RT_2,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [10107115] = {\r\n    AddAttrs = T.RT_68,\r\n    BuffId = 10107115,\r\n    BuffType = T.RT_2,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [10107116] = {\r\n    AddAttrs = T.RT_68,\r\n    BuffId = 10107116,\r\n    BuffType = T.RT_2,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [10107125] = {\r\n    BuffId = 10107125,\r\n    BuffType = T.RT_2,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\",\r\n    OverrideAttrs = {AttrName = \"FakeHpRate\", Value = 0.4}\r\n  },\r\n  [10107126] = {\r\n    AddAttrs = {\r\n      [1] = {AttrName = \"DEF\", ValueUseValue = 1}\r\n    },\r\n    BuffId = 10107126,\r\n    BuffType = T.RT_2,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [10107991] = {\r\n    AddAttrs = {\r\n      [1] = {\r\n        AttrName = \"SkillSustain\",\r\n        Rate = 0.1,\r\n        Stackable = 1\r\n      }\r\n    },\r\n    BuffId = 10107991,\r\n    BuffType = T.RT_2,\r\n    MaxLayer = 20,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [10503001] = {\r\n    AddAttrs = {\r\n      [1] = {\r\n        AttrName = \"TriggerProbModifierRate\",\r\n        Value = \"#1\"\r\n      }\r\n    },\r\n    AddPassiveEffect = T.RT_64,\r\n    BuffId = 10503001,\r\n    BuffType = T.RT_63,\r\n    DisperseBuffType = T.RT_62,\r\n    MergeRule1 = \"Personal\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [20119001] = {\r\n    AddAttrs = {\r\n      [1] = {\r\n        AttrName = \"DamageRate\",\r\n        RateZone = \"Almighty\",\r\n        Value = 0.1\r\n      }\r\n    },\r\n    BuffId = 20119001,\r\n    BuffType = T.RT_2,\r\n    DeadNotRemove = true,\r\n    MaxLayer = 7,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"NewFree\"\r\n  },\r\n  [20151001] = {\r\n    AddAttrs = {\r\n      [1] = {\r\n        AttrName = \"SkillEfficiency\",\r\n        Rate = -0.5\r\n      },\r\n      [2] = {\r\n        AttrName = \"DamageRate\",\r\n        RateZone = \"Rouge\",\r\n        Value = 0.5\r\n      }\r\n    },\r\n    BuffId = 20151001,\r\n    BuffType = T.RT_33,\r\n    DeadNotRemove = true,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [20152001] = {\r\n    AddAttrs = T.RT_37,\r\n    BuffId = 20152001,\r\n    BuffType = T.RT_33,\r\n    DeadNotRemove = true,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [20153001] = {\r\n    AddAttrs = T.RT_37,\r\n    BuffId = 20153001,\r\n    BuffType = T.RT_33,\r\n    DeadNotRemove = true,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [20154001] = {\r\n    AddAttrs = {\r\n      [1] = {\r\n        AttrName = \"DamagedRate\",\r\n        RateZone = \"Normal\",\r\n        Value = 0.5\r\n      },\r\n      [2] = {\r\n        AttrName = \"DamageRate\",\r\n        RateZone = \"Rouge\",\r\n        Value = 1\r\n      }\r\n    },\r\n    BuffId = 20154001,\r\n    BuffType = T.RT_33,\r\n    DeadNotRemove = true,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [20156001] = {\r\n    AddAttrs = {\r\n      [1] = {\r\n        AttrName = \"CutTNModify\",\r\n        Value = 1\r\n      }\r\n    },\r\n    BuffId = 20156001,\r\n    BuffType = T.RT_2,\r\n    DeadNotRemove = true,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [20156002] = {\r\n    AddAttrs = {\r\n      [1] = {\r\n        AttrName = \"DamagedRate\",\r\n        RateZone = \"BossDown\",\r\n        Value = 1\r\n      }\r\n    },\r\n    BuffId = 20156002,\r\n    BuffType = T.RT_20,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [30101002] = {\r\n    AddAttrs = T.RT_35,\r\n    BuffId = 30101002,\r\n    BuffType = T.RT_33,\r\n    DeadNotRemove = true,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [30102001] = {\r\n    AddAttrs = {\r\n      [1] = {AttrName = \"MaxHp\", Rate = \"#1\"}\r\n    },\r\n    BuffId = 30102001,\r\n    BuffType = T.RT_33,\r\n    DeadNotRemove = true,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [30102002] = {\r\n    AddAttrs = T.RT_35,\r\n    BuffId = 30102002,\r\n    BuffType = T.RT_33,\r\n    DeadNotRemove = true,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [40101001] = {\r\n    BuffId = 40101001,\r\n    BuffType = T.RT_2,\r\n    DeadNotRemove = true,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [40101002] = {\r\n    BuffId = 40101002,\r\n    BuffType = T.RT_2,\r\n    DeadNotRemove = true,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [40101003] = {\r\n    BuffId = 40101003,\r\n    BuffType = T.RT_2,\r\n    DeadNotRemove = true,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [40101004] = {\r\n    BuffId = 40101004,\r\n    BuffType = T.RT_2,\r\n    DeadNotRemove = true,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [40101005] = {\r\n    BuffId = 40101005,\r\n    BuffType = T.RT_2,\r\n    DeadNotRemove = true,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [40101006] = {\r\n    AddAttrs = {\r\n      [1] = {\r\n        AttrName = \"DamagedRate\",\r\n        RateZone = \"Level\",\r\n        Value = 0.5\r\n      }\r\n    },\r\n    BuffId = 40101006,\r\n    BuffType = T.RT_2,\r\n    DeadNotRemove = true,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [40101008] = {\r\n    BuffId = 40101008,\r\n    BuffType = T.RT_2,\r\n    DeadNotRemove = true,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [40101009] = {\r\n    BuffId = 40101009,\r\n    BuffType = T.RT_2,\r\n    DeadNotRemove = true,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [40101010] = {\r\n    BuffId = 40101010,\r\n    BuffType = T.RT_2,\r\n    DeadNotRemove = true,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [40101011] = {\r\n    BuffId = 40101011,\r\n    BuffType = T.RT_2,\r\n    DeadNotRemove = true,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [40101012] = {\r\n    BuffId = 40101012,\r\n    BuffType = T.RT_2,\r\n    DeadNotRemove = true,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [40101013] = {\r\n    BuffId = 40101013,\r\n    BuffType = T.RT_2,\r\n    DeadNotRemove = true,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [40101014] = {\r\n    BuffId = 40101014,\r\n    BuffType = T.RT_2,\r\n    DeadNotRemove = true,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [40101015] = {\r\n    BuffId = 40101015,\r\n    BuffType = T.RT_2,\r\n    DeadNotRemove = true,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"Merge\"\r\n  },\r\n  [99999999] = {\r\n    AddAttrs = {\r\n      [1] = {\r\n        AttrName = \"MoveSpeedAddRate\",\r\n        Value = -0.5\r\n      }\r\n    },\r\n    BuffId = 99999999,\r\n    MaxLayer = 2,\r\n    MergeRule1 = \"Global\",\r\n    MergeRule2 = \"NewFree"
+    "MergeRule2": "Merge"
+  },
+  "2": {
+    "AddAttrs": [
+      {
+        "AttrName": "DamagedRate",
+        "RateZone": "Phantom",
+        "Value": -0.5
+      }
+    ],
+    "BuffId": 2,
+    "DeadNotRemove": true,
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "97": {
+    "BuffId": 97,
+    "DeadNotRemove": true,
+    "ExpRate": -0.9999,
+    "IsAvatarBuff": true,
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "99": {
+    "BuffId": 99,
+    "DeadNotRemove": true,
+    "DotDatas": [
+      {
+        "Interval": 0.5,
+        "Type": "SpChange",
+        "Value": 5
+      }
+    ],
+    "IsAvatarBuff": true,
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "304": {
+    "BuffId": 304,
+    "DeadNotRemove": true,
+    "IsAvatarBuff": true,
+    "LockHp": {
+      "Value": 1
+    },
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "306": {
+    "AddAttrs": [
+      {
+        "AttrName": "DamageRate",
+        "IndividualRateZone": 1,
+        "Value": 0
+      }
+    ],
+    "BuffId": 306,
+    "IsAvatarBuff": true,
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "801": {
+    "AddAttrs": [
+      {
+        "AttrName": "MaxES",
+        "Rate": "#1"
+      }
+    ],
+    "BuffId": 801,
+    "CombatConditionId": 502,
+    "IsAvatarBuff": true,
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "802": {
+    "AddAttrs": [
+      {
+        "AttrName": "DEF",
+        "Rate": "#2"
+      },
+      {
+        "AttrName": "MaxES",
+        "Rate": "#1"
+      }
+    ],
+    "BuffId": 802,
+    "CombatConditionId": 502,
+    "IsAvatarBuff": true,
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "803": {
+    "AddAttrs": [
+      {
+        "AttrName": "MaxHp",
+        "Rate": "#3"
+      },
+      {
+        "AttrName": "DEF",
+        "Rate": "#2"
+      },
+      {
+        "AttrName": "MaxES",
+        "Rate": "#1"
+      }
+    ],
+    "BuffId": 803,
+    "CombatConditionId": 502,
+    "IsAvatarBuff": true,
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "804": {
+    "AddAttrs": [
+      {
+        "AttrName": "ATK",
+        "Rate": "#4"
+      },
+      {
+        "AttrName": "MaxHp",
+        "Rate": "#3"
+      },
+      {
+        "AttrName": "DEF",
+        "Rate": "#2"
+      },
+      {
+        "AttrName": "MaxES",
+        "Rate": "#1"
+      }
+    ],
+    "BuffId": 804,
+    "CombatConditionId": 502,
+    "IsAvatarBuff": true,
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "903": {
+    "AllowSkillSustainModify": true,
+    "BuffId": 903,
+    "DeadNotRemove": true,
+    "LockHp": {
+      "Value": 1
+    },
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "1315": {
+    "AddAttrs": [
+      {
+        "AttrName": "DamageRate",
+        "RateZone": "BossDown",
+        "Value": "#1"
+      }
+    ],
+    "BuffId": 1315,
+    "BuffType": [
+      6000206
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "1316": {
+    "AddAttrs": [
+      {
+        "AttrName": "ATK",
+        "Rate": "#1",
+        "Stackable": 1
+      }
+    ],
+    "BuffId": 1316,
+    "MaxLayer": 3,
+    "MergeRule1": "Personal",
+    "MergeRule2": "NewFree"
+  },
+  "1430": {
+    "BuffId": 1430,
+    "HaloDatas": [
+      {
+        "AuraRange": -1,
+        "BuffId": 1430001,
+        "Camp": "Friend"
+      }
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "1440": {
+    "BuffId": 1440,
+    "HaloDatas": [
+      {
+        "AuraRange": -1,
+        "BuffId": 1440001,
+        "Camp": "Friend"
+      }
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "1523": {
+    "BuffId": 1523,
+    "LockHp": {
+      "Value": 1
+    },
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "1800": {
+    "AddAttrs": [
+      {
+        "AttrName": "DamageRate",
+        "RateZone": "Normal",
+        "Value": "#1"
+      }
+    ],
+    "BuffId": 1800,
+    "MaxLayer": 3,
+    "MergeRule1": "Personal",
+    "MergeRule2": "NewFree"
+  },
+  "1961": {
+    "BuffId": 1961,
+    "HaloDatas": [
+      {
+        "AuraRange": -1,
+        "BuffId": 1961001,
+        "Camp": "Enemy"
+      }
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "1962": {
+    "AddAttrs": [
+      {
+        "AttrName": "ATK",
+        "RateUseValue": 1,
+        "SupLimitRate": "#1"
+      }
+    ],
+    "BuffId": 1962,
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "6111": {
+    "AddAttrs": [
+      {
+        "AttrName": "BonusDamage",
+        "Type": "Dark",
+        "Value": 1
+      }
+    ],
+    "AddPassiveEffect": [
+      201
+    ],
+    "BuffId": 6111,
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "6113": {
+    "BuffId": 6113,
+    "HaloDatas": [
+      {
+        "AuraRange": -1,
+        "BuffId": 6114,
+        "Camp": "Friend"
+      }
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "6114": {
+    "AddAttrs": [
+      {
+        "AttrName": "WeaponCRIModifierRate",
+        "Value": 1
+      }
+    ],
+    "BuffId": 6114,
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "6121": {
+    "AddAttrs": [
+      {
+        "AttrName": "ATK",
+        "Rate": 1
+      }
+    ],
+    "BuffId": 6121,
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "6123": {
+    "BuffId": 6123,
+    "HaloDatas": [
+      {
+        "AuraRange": -1,
+        "BuffId": 6124,
+        "Camp": "Friend"
+      }
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "6124": {
+    "AddAttrs": [
+      {
+        "AttrName": "SkillIntensity",
+        "Rate": 1
+      }
+    ],
+    "BuffId": 6124,
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "6131": {
+    "AddAttrs": [
+      {
+        "AttrName": "ATK",
+        "Rate": 1
+      }
+    ],
+    "BuffId": 6131,
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "6133": {
+    "BuffId": 6133,
+    "HaloDatas": [
+      {
+        "AuraRange": -1,
+        "BuffId": 6134,
+        "Camp": "Friend"
+      }
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "6134": {
+    "AddAttrs": [
+      {
+        "AttrName": "SkillIntensity",
+        "Rate": 1
+      }
+    ],
+    "BuffId": 6134,
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "6141": {
+    "AddAttrs": [
+      {
+        "AttrName": "SkillIntensity",
+        "Rate": 1
+      }
+    ],
+    "BuffId": 6141,
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "6143": {
+    "BuffId": 6143,
+    "HaloDatas": [
+      {
+        "AuraRange": -1,
+        "BuffId": 6144,
+        "Camp": "Friend"
+      }
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "6144": {
+    "AddAttrs": [
+      {
+        "AttrName": "EnmityValue",
+        "Value": 1
+      }
+    ],
+    "BuffId": 6144,
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "6151": {
+    "AddAttrs": [
+      {
+        "AttrName": "SkillIntensity",
+        "Rate": 1
+      }
+    ],
+    "BuffId": 6151,
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "6153": {
+    "BuffId": 6153,
+    "HaloDatas": [
+      {
+        "AuraRange": -1,
+        "BuffId": 6154,
+        "Camp": "Friend"
+      }
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "6154": {
+    "AddAttrs": [
+      {
+        "AttrName": "EnmityValue",
+        "Value": 1
+      }
+    ],
+    "BuffId": 6154,
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "6161": {
+    "AddAttrs": [
+      {
+        "AttrName": "BonusDamage",
+        "Type": "Light",
+        "Value": 1
+      }
+    ],
+    "AddPassiveEffect": [
+      206
+    ],
+    "BuffId": 6161,
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "6163": {
+    "BuffId": 6163,
+    "HaloDatas": [
+      {
+        "AuraRange": -1,
+        "BuffId": 6164,
+        "Camp": "Friend"
+      }
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "6164": {
+    "AddAttrs": [
+      {
+        "AttrName": "WeaponCRIModifierRate",
+        "Value": 1
+      }
+    ],
+    "BuffId": 6164,
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "10503": {
+    "AddAttrs": [
+      {
+        "AttrName": "AttackRangeModifierValue",
+        "Value": "#1"
+      }
+    ],
+    "AddPassiveEffect": [
+      104
+    ],
+    "BuffId": 10503,
+    "BuffType": [
+      10503
+    ],
+    "DisperseBuffType": [
+      10503001
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "100001": {
+    "BuffId": 100001,
+    "HaloDatas": [
+      {
+        "AuraRange": -1,
+        "BuffId": 100002,
+        "Camp": "Friend"
+      }
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "100002": {
+    "AddAttrs": [
+      {
+        "AttrName": "ATK",
+        "Rate": 0.4
+      }
+    ],
+    "BuffId": 100002,
+    "MaxLayer": 2,
+    "MergeRule1": "Global",
+    "MergeRule2": "NewFree"
+  },
+  "100003": {
+    "BuffId": 100003,
+    "HaloDatas": [
+      {
+        "AuraRange": -1,
+        "BuffId": 100004,
+        "Camp": "Friend"
+      }
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "100004": {
+    "AddAttrs": [
+      {
+        "AttrName": "DamageRate",
+        "DamageTag": "Skill",
+        "RateZone": "Normal",
+        "Value": 0.08
+      }
+    ],
+    "BuffId": 100004,
+    "MaxLayer": 2,
+    "MergeRule1": "Global",
+    "MergeRule2": "NewFree"
+  },
+  "100005": {
+    "BuffId": 100005,
+    "HaloDatas": [
+      {
+        "AuraRange": -1,
+        "BuffId": 100006,
+        "Camp": "Friend"
+      }
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "100006": {
+    "AddAttrs": [
+      {
+        "AttrName": "DamageRate",
+        "DamageTag": "Weapon",
+        "RateZone": "Normal",
+        "Value": 0.08
+      }
+    ],
+    "BuffId": 100006,
+    "MaxLayer": 2,
+    "MergeRule1": "Global",
+    "MergeRule2": "NewFree"
+  },
+  "100007": {
+    "BuffId": 100007,
+    "HaloDatas": [
+      {
+        "AuraRange": -1,
+        "BuffId": 100008,
+        "Camp": "Friend"
+      }
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "100008": {
+    "AddAttrs": [
+      {
+        "AttrName": "DEF",
+        "Rate": 0.4
+      }
+    ],
+    "BuffId": 100008,
+    "MaxLayer": 2,
+    "MergeRule1": "Global",
+    "MergeRule2": "NewFree"
+  },
+  "100009": {
+    "BuffId": 100009,
+    "HaloDatas": [
+      {
+        "AuraRange": -1,
+        "BuffId": 100010,
+        "Camp": "Friend"
+      }
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "100010": {
+    "AddAttrs": [
+      {
+        "AttrName": "WeaponCRIModifierRate",
+        "Value": 0.4
+      }
+    ],
+    "BuffId": 100010,
+    "MaxLayer": 2,
+    "MergeRule1": "Global",
+    "MergeRule2": "NewFree"
+  },
+  "110001": {
+    "BuffId": 110001,
+    "HaloDatas": [
+      {
+        "AuraRange": -1,
+        "BuffId": 110002,
+        "Camp": "Friend"
+      }
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "110002": {
+    "AddAttrs": [
+      {
+        "AttrName": "ATK",
+        "Rate": 0.4
+      }
+    ],
+    "BuffId": 110002,
+    "CombatConditionId": 1001,
+    "MaxLayer": 2,
+    "MergeRule1": "Global",
+    "MergeRule2": "NewFree"
+  },
+  "110003": {
+    "BuffId": 110003,
+    "HaloDatas": [
+      {
+        "AuraRange": -1,
+        "BuffId": 110004,
+        "Camp": "Friend"
+      }
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "110004": {
+    "AddAttrs": [
+      {
+        "AttrName": "ATK",
+        "Rate": 0.5
+      }
+    ],
+    "BuffId": 110004,
+    "CombatConditionId": 1001,
+    "MaxLayer": 2,
+    "MergeRule1": "Global",
+    "MergeRule2": "NewFree"
+  },
+  "110112": {
+    "AddAttrs": [
+      {
+        "AttrName": "ATK",
+        "Rate": 0.2,
+        "Stackable": 1
+      }
+    ],
+    "BuffId": 110112,
+    "MaxLayer": 4,
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "110204": {
+    "AddAttrs": [
+      {
+        "AttrName": "WeaponCRDModifierRate",
+        "DamageTag": "Melee",
+        "Value": 0.5
+      }
+    ],
+    "BuffId": 110204,
+    "BuffType": [
+      10
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "110223": {
+    "BuffId": 110223,
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "110303": {
+    "AddAttrs": [
+      {
+        "AttrName": "ATK",
+        "BaseUseValue": 1,
+        "Rate": "#1",
+        "SupLimitValue": 315
+      },
+      {
+        "AttrName": "WalkSpeedModifier",
+        "Value": 0.5
+      },
+      {
+        "AttrName": "JumpVelocityModifier",
+        "Value": 0.1
+      }
+    ],
+    "BuffId": 110303,
+    "BuffType": [
+      11
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "110304": {
+    "BuffDamagedRate": {
+      "Value": -0.25
+    },
+    "BuffId": 110304,
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "110401": {
+    "BuffId": 110401,
+    "MaxLayer": 10,
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "120231": {
+    "BuffId": 120231,
+    "BuffType": [
+      11
+    ],
+    "ChangeWeaponNotClearCombo": true,
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "150001": {
+    "BuffId": 150001,
+    "HaloDatas": [
+      {
+        "AuraRange": -1,
+        "BuffId": 150002,
+        "Camp": "Friend"
+      }
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "150002": {
+    "AddAttrs": [
+      {
+        "AttrName": "ATK",
+        "Rate": 0.4
+      }
+    ],
+    "BuffId": 150002,
+    "CombatConditionId": 1006,
+    "MaxLayer": 2,
+    "MergeRule1": "Global",
+    "MergeRule2": "NewFree"
+  },
+  "150003": {
+    "BuffId": 150003,
+    "HaloDatas": [
+      {
+        "AuraRange": -1,
+        "BuffId": 150004,
+        "Camp": "Friend"
+      }
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "150004": {
+    "AddAttrs": [
+      {
+        "AttrName": "ATK",
+        "Rate": 0.5
+      }
+    ],
+    "BuffId": 150004,
+    "CombatConditionId": 1006,
+    "MaxLayer": 2,
+    "MergeRule1": "Global",
+    "MergeRule2": "NewFree"
+  },
+  "150222": {
+    "AddAttrs": [
+      {
+        "AttrName": "SkillRange",
+        "ValueUseValue": 1
+      }
+    ],
+    "AllowSkillSustainModify": true,
+    "BuffId": 150222,
+    "BuffType": [
+      11
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "150223": {
+    "AllowSkillSustainModify": true,
+    "BuffId": 150223,
+    "BuffType": [
+      11
+    ],
+    "MaxLayer": 6,
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "150231": {
+    "AddAttrs": [
+      {
+        "AttrName": "SpRate",
+        "Value": 0.25
+      }
+    ],
+    "BuffId": 150231,
+    "BuffType": [
+      11
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "150301": {
+    "AddAttrs": [
+      {
+        "AttrName": "DamageRate",
+        "DamageTag": "Melee",
+        "RateZone": "Normal",
+        "Stackable": 1,
+        "Value": "#1"
+      },
+      {
+        "AttrName": "TriggerProbModifierRate",
+        "Stackable": 1,
+        "Type": "Melee",
+        "Value": "#2"
+      }
+    ],
+    "BuffId": 150301,
+    "BuffSpModify": {
+      "150302": {
+        "Value": -0.3
+      }
+    },
+    "LayerExtraBuff": {
+      "100": 150305
+    },
+    "MaxLayer": 100,
+    "MergeRule1": "Personal",
+    "MergeRule2": "NewFree"
+  },
+  "150302": {
+    "AddAttrs": [
+      {
+        "AttrName": "DamageRate",
+        "DamageTag": "Ranged",
+        "RateZone": "Normal",
+        "Stackable": 1,
+        "Value": "#1"
+      },
+      {
+        "AttrName": "TriggerProbModifierRate",
+        "Stackable": 1,
+        "Type": "Ranged",
+        "Value": "#2"
+      }
+    ],
+    "BuffId": 150302,
+    "BuffSpModify": {
+      "150321": {
+        "Value": -0.3
+      }
+    },
+    "LayerExtraBuff": {
+      "100": 150306
+    },
+    "MaxLayer": 100,
+    "MergeRule1": "Personal",
+    "MergeRule2": "NewFree"
+  },
+  "150305": {
+    "BuffId": 150305,
+    "BuffSpModify": {
+      "150302": {
+        "Value": -20
+      }
+    },
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "150306": {
+    "BuffId": 150306,
+    "BuffSpModify": {
+      "150321": {
+        "Value": -20
+      }
+    },
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "150307": {
+    "AddAttrs": [
+      {
+        "AttrName": "DamageRate",
+        "DamageTag": "Melee",
+        "RateZone": "Normal",
+        "Stackable": 1,
+        "Value": "#1"
+      },
+      {
+        "AttrName": "TriggerProbModifierRate",
+        "Stackable": 1,
+        "Type": "Melee",
+        "Value": "#2"
+      }
+    ],
+    "BuffId": 150307,
+    "BuffSpModify": {
+      "150302": {
+        "Value": -0.3
+      }
+    },
+    "LayerExtraBuff": {
+      "100": 150305
+    },
+    "MaxLayer": 100,
+    "MergeRule1": "Personal",
+    "MergeRule2": "NewFree"
+  },
+  "150308": {
+    "AddAttrs": [
+      {
+        "AttrName": "DamageRate",
+        "DamageTag": "Ranged",
+        "RateZone": "Normal",
+        "Stackable": 1,
+        "Value": "#1"
+      },
+      {
+        "AttrName": "TriggerProbModifierRate",
+        "Stackable": 1,
+        "Type": "Ranged",
+        "Value": "#2"
+      }
+    ],
+    "BuffId": 150308,
+    "BuffSpModify": {
+      "150321": {
+        "Value": -0.3
+      }
+    },
+    "LayerExtraBuff": {
+      "100": 150306
+    },
+    "MaxLayer": 100,
+    "MergeRule1": "Personal",
+    "MergeRule2": "NewFree"
+  },
+  "150311": {
+    "AddAttrs": [
+      {
+        "AttrName": "AttackSpeedModifierRate",
+        "Type": "Ranged",
+        "Value": "#1"
+      }
+    ],
+    "BuffId": 150311,
+    "BuffType": [
+      150311
+    ],
+    "DisperseBuffType": [
+      150312
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "150312": {
+    "AddAttrs": [
+      {
+        "AttrName": "AttackSpeedModifierRate",
+        "Type": "Melee",
+        "Value": "#1"
+      }
+    ],
+    "BuffId": 150312,
+    "BuffType": [
+      150312
+    ],
+    "DisperseBuffType": [
+      150311
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "150331": {
+    "BuffId": 150331,
+    "BuffType": [
+      150331
+    ],
+    "DisperseBuffType": [
+      150332,
+      150333,
+      150334
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge",
+    "ReplaceSkillNodes": {
+      "1503104": 1503202
+    }
+  },
+  "150332": {
+    "BuffId": 150332,
+    "BuffType": [
+      150332
+    ],
+    "DisperseBuffType": [
+      150331,
+      150333,
+      150334
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge",
+    "ReplaceSkillNodes": {
+      "1503104": 1503203
+    }
+  },
+  "150333": {
+    "BuffId": 150333,
+    "BuffType": [
+      150333
+    ],
+    "DisperseBuffType": [
+      150331,
+      150332,
+      150334
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge",
+    "ReplaceSkillNodes": {
+      "1503104": 1503204
+    }
+  },
+  "150341": {
+    "BuffId": 150341,
+    "BuffType": [
+      150341
+    ],
+    "DisperseBuffType": [
+      150342,
+      150343,
+      150344
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge",
+    "ReplaceSkillNodes": {
+      "1503124": 1503201
+    }
+  },
+  "150342": {
+    "BuffId": 150342,
+    "BuffType": [
+      150342
+    ],
+    "DisperseBuffType": [
+      150341,
+      150343,
+      150344
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge",
+    "ReplaceSkillNodes": {
+      "1503124": 1503203
+    }
+  },
+  "150343": {
+    "BuffId": 150343,
+    "BuffType": [
+      150343
+    ],
+    "DisperseBuffType": [
+      150341,
+      150342,
+      150344
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge",
+    "ReplaceSkillNodes": {
+      "1503124": 1503204
+    }
+  },
+  "150351": {
+    "BuffId": 150351,
+    "BuffType": [
+      150351
+    ],
+    "DisperseBuffType": [
+      150352,
+      150353,
+      150354
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge",
+    "ReplaceSkillNodes": {
+      "1503144": 1503201
+    }
+  },
+  "150352": {
+    "BuffId": 150352,
+    "BuffType": [
+      150352
+    ],
+    "DisperseBuffType": [
+      150351,
+      150353,
+      150354
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge",
+    "ReplaceSkillNodes": {
+      "1503144": 1503202
+    }
+  },
+  "150353": {
+    "BuffId": 150353,
+    "BuffType": [
+      150353
+    ],
+    "DisperseBuffType": [
+      150351,
+      150352,
+      150354
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge",
+    "ReplaceSkillNodes": {
+      "1503144": 1503204
+    }
+  },
+  "150361": {
+    "BuffId": 150361,
+    "BuffType": [
+      150361
+    ],
+    "DisperseBuffType": [
+      150362,
+      150363,
+      150364
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge",
+    "ReplaceSkillNodes": {
+      "1503164": 1503201
+    }
+  },
+  "150362": {
+    "BuffId": 150362,
+    "BuffType": [
+      150362
+    ],
+    "DisperseBuffType": [
+      150361,
+      150363,
+      150364
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge",
+    "ReplaceSkillNodes": {
+      "1503164": 1503202
+    }
+  },
+  "150363": {
+    "BuffId": 150363,
+    "BuffType": [
+      150363
+    ],
+    "DisperseBuffType": [
+      150361,
+      150362,
+      150364
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge",
+    "ReplaceSkillNodes": {
+      "1503164": 1503203
+    }
+  },
+  "150371": {
+    "AddAttrs": [
+      {
+        "AttrName": "DamageRate",
+        "DamageTag": "Melee",
+        "RateZone": "Normal",
+        "Stackable": 1,
+        "Value": "#1"
+      },
+      {
+        "AttrName": "TriggerProbModifierRate",
+        "Stackable": 1,
+        "Type": "Melee",
+        "Value": "#2"
+      }
+    ],
+    "BuffId": 150371,
+    "MaxLayer": 100,
+    "MergeRule1": "Personal",
+    "MergeRule2": "NewFree"
+  },
+  "150372": {
+    "AddAttrs": [
+      {
+        "AttrName": "DamageRate",
+        "DamageTag": "Ranged",
+        "RateZone": "Normal",
+        "Stackable": 1,
+        "Value": "#1"
+      },
+      {
+        "AttrName": "TriggerProbModifierRate",
+        "Stackable": 1,
+        "Type": "Ranged",
+        "Value": "#2"
+      }
+    ],
+    "BuffId": 150372,
+    "MaxLayer": 100,
+    "MergeRule1": "Personal",
+    "MergeRule2": "NewFree"
+  },
+  "150373": {
+    "AddAttrs": [
+      {
+        "AttrName": "DamageRate",
+        "DamageTag": "Melee",
+        "RateZone": "Normal",
+        "Stackable": 1,
+        "Value": "#1"
+      },
+      {
+        "AttrName": "TriggerProbModifierRate",
+        "Stackable": 1,
+        "Type": "Melee",
+        "Value": "#2"
+      }
+    ],
+    "BuffId": 150373,
+    "MaxLayer": 100,
+    "MergeRule1": "Personal",
+    "MergeRule2": "NewFree"
+  },
+  "150374": {
+    "AddAttrs": [
+      {
+        "AttrName": "DamageRate",
+        "DamageTag": "Ranged",
+        "RateZone": "Normal",
+        "Stackable": 1,
+        "Value": "#1"
+      },
+      {
+        "AttrName": "TriggerProbModifierRate",
+        "Stackable": 1,
+        "Type": "Ranged",
+        "Value": "#2"
+      }
+    ],
+    "BuffId": 150374,
+    "MaxLayer": 100,
+    "MergeRule1": "Personal",
+    "MergeRule2": "NewFree"
+  },
+  "150409": {
+    "BuffId": 150409,
+    "BuffType": [
+      150409
+    ],
+    "DotDatas": [
+      {
+        "DotDelay": 1,
+        "Interval": 0.1,
+        "Type": "SecondSpChange",
+        "Value": 1
+      }
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "NewFree"
+  },
+  "150410": {
+    "BuffId": 150410,
+    "BuffType": [
+      150409
+    ],
+    "DotDatas": [
+      {
+        "DotDelay": 1,
+        "Interval": 0.1,
+        "Type": "SecondSpChange",
+        "Value": 2
+      }
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "NewFree"
+  },
+  "150421": {
+    "BuffId": 150421,
+    "MergeRule1": "Personal",
+    "MergeRule2": "NewFree"
+  },
+  "180101": {
+    "AddAttrs": [
+      {
+        "AllowSkillIntensity": 1,
+        "AttrName": "BonusDamage",
+        "Type": "Light",
+        "Value": "#1"
+      }
+    ],
+    "AddPassiveEffect": [
+      206
+    ],
+    "BuffId": 180101,
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "180121": {
+    "BuffId": 180121,
+    "BuffType": [
+      180120
+    ],
+    "HaloDatas": [
+      {
+        "AllowSkillRange": 1,
+        "AuraRange": 1000,
+        "BuffId": 180122,
+        "Camp": "Enemy"
+      }
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "180123": {
+    "BuffId": 180123,
+    "BuffType": [
+      180120
+    ],
+    "HaloDatas": [
+      {
+        "AllowSkillRange": 1,
+        "AuraRange": 1000,
+        "BuffId": 180124,
+        "Camp": "Enemy"
+      }
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "180125": {
+    "BuffId": 180125,
+    "BuffType": [
+      180120
+    ],
+    "HaloDatas": [
+      {
+        "AllowSkillRange": 1,
+        "AuraRange": 1000,
+        "BuffId": 180126,
+        "Camp": "Enemy"
+      }
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "180127": {
+    "BuffId": 180127,
+    "BuffType": [
+      180120
+    ],
+    "HaloDatas": [
+      {
+        "AllowSkillRange": 1,
+        "AuraRange": 1000,
+        "BuffId": 180128,
+        "Camp": "Enemy"
+      }
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "180191": {
+    "BuffId": 180191,
+    "HaloDatas": [
+      {
+        "AuraRange": -1,
+        "BuffId": 180192,
+        "Camp": "Friend"
+      }
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "180192": {
+    "AddAttrs": [
+      {
+        "AttrName": "DamageRate",
+        "DamageTag": "Weapon",
+        "RateZone": "Normal",
+        "Value": 0.1
+      }
+    ],
+    "BuffId": 180192,
+    "CombatConditionId": 1031,
+    "MaxLayer": 2,
+    "MergeRule1": "Global",
+    "MergeRule2": "NewFree"
+  },
+  "201021": {
+    "AddAttrs": [
+      {
+        "AttrName": "ATK",
+        "Rate": 0.3
+      }
+    ],
+    "BuffId": 201021,
+    "BuffType": [
+      10
+    ],
+    "DotDatas": [
+      {
+        "BaseAttr": "MaxHp",
+        "DamageTag": [
+          "Hot"
+        ],
+        "DefaultHealFX": 1,
+        "Interval": 1,
+        "Rate": 0.5,
+        "Type": "Hot"
+      }
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "210001": {
+    "BuffId": 210001,
+    "HaloDatas": [
+      {
+        "AuraRange": -1,
+        "BuffId": 210002,
+        "Camp": "Friend"
+      }
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "210002": {
+    "AddAttrs": [
+      {
+        "AttrName": "ATK",
+        "Rate": 0.4
+      }
+    ],
+    "BuffId": 210002,
+    "CombatConditionId": 1002,
+    "MaxLayer": 2,
+    "MergeRule1": "Global",
+    "MergeRule2": "NewFree"
+  },
+  "210003": {
+    "BuffId": 210003,
+    "HaloDatas": [
+      {
+        "AuraRange": -1,
+        "BuffId": 210004,
+        "Camp": "Friend"
+      }
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "210004": {
+    "AddAttrs": [
+      {
+        "AttrName": "ATK",
+        "Rate": 0.5
+      }
+    ],
+    "BuffId": 210004,
+    "CombatConditionId": 1002,
+    "MaxLayer": 2,
+    "MergeRule1": "Global",
+    "MergeRule2": "NewFree"
+  },
+  "210203": {
+    "BuffId": 210203,
+    "BuffType": [
+      11
+    ],
+    "HaloDatas": [
+      {
+        "AuraRange": -1,
+        "BuffId": 210204,
+        "Camp": "Friend"
+      }
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "230122": {
+    "BuffId": 230122,
+    "BuffType": [
+      21,
+      41
+    ],
+    "DotDatas": [
+      {
+        "DamageTag": [
+          "Dot",
+          "Skill"
+        ],
+        "DamageType": "Water",
+        "Immediately": 1,
+        "Interval": 2,
+        "Rate": 2.8,
+        "Type": "Dot"
+      }
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "240131": {
+    "BuffId": 240131,
+    "HaloDatas": [
+      {
+        "AuraRange": -1,
+        "BuffId": 240132,
+        "Camp": "Friend"
+      }
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "240132": {
+    "AddPassiveEffect": [
+      240103
+    ],
+    "BuffId": 240132,
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "240152": {
+    "BuffId": 240152,
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "240153": {
+    "BuffId": 240153,
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "240191": {
+    "BuffId": 240191,
+    "HaloDatas": [
+      {
+        "AuraRange": -1,
+        "BuffId": 240192,
+        "Camp": "Friend",
+        "Condition": 1007
+      }
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "240192": {
+    "AddAttrs": [
+      {
+        "AttrName": "DamageRate",
+        "DamageTag": "Skill",
+        "RateZone": "Normal",
+        "Value": 0.1
+      }
+    ],
+    "BuffId": 240192,
+    "MaxLayer": 2,
+    "MergeRule1": "Global",
+    "MergeRule2": "NewFree"
+  },
+  "310001": {
+    "BuffId": 310001,
+    "HaloDatas": [
+      {
+        "AuraRange": -1,
+        "BuffId": 310002,
+        "Camp": "Friend"
+      }
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "310002": {
+    "AddAttrs": [
+      {
+        "AttrName": "ATK",
+        "Rate": 0.4
+      }
+    ],
+    "BuffId": 310002,
+    "CombatConditionId": 1003,
+    "MaxLayer": 2,
+    "MergeRule1": "Global",
+    "MergeRule2": "NewFree"
+  },
+  "310003": {
+    "BuffId": 310003,
+    "HaloDatas": [
+      {
+        "AuraRange": -1,
+        "BuffId": 310004,
+        "Camp": "Friend"
+      }
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "310004": {
+    "AddAttrs": [
+      {
+        "AttrName": "ATK",
+        "Rate": 0.5
+      }
+    ],
+    "BuffId": 310004,
+    "CombatConditionId": 1003,
+    "MaxLayer": 2,
+    "MergeRule1": "Global",
+    "MergeRule2": "NewFree"
+  },
+  "310123": {
+    "BuffId": 310123,
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge",
+    "RemoveWhenSpZero": true
+  },
+  "310124": {
+    "AddAttrs": [
+      {
+        "AttrName": "AttackSpeedModifierRate",
+        "Stackable": 1,
+        "Value": 0.03
+      }
+    ],
+    "BuffId": 310124,
+    "MaxLayer": 35,
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge",
+    "RemoveWhenSpZero": true
+  },
+  "310206": {
+    "AddAttrs": [
+      {
+        "AttrName": "AlmightyDamageRate",
+        "Value": 0.55
+      }
+    ],
+    "AllowSkillSustainModify": true,
+    "BuffId": 310206,
+    "DotDatas": [
+      {
+        "DotDelay": 0.5,
+        "Interval": 1,
+        "Type": "SpChange",
+        "Value": -15
+      }
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge",
+    "RemoveWhenSpZero": true
+  },
+  "310302": {
+    "BuffId": 310302,
+    "HaloDatas": [
+      {
+        "AuraRange": 1500,
+        "BuffId": 310321,
+        "Camp": "Enemy"
+      }
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "310311": {
+    "BuffId": 310311,
+    "ForbidBuffType": [
+      10,
+      11,
+      12,
+      20,
+      21,
+      22,
+      30,
+      40,
+      41,
+      42,
+      43,
+      44,
+      49,
+      60,
+      61,
+      62,
+      63
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "320102": {
+    "BuffId": 320102,
+    "HaloDatas": [
+      {
+        "AuraRange": -1,
+        "BuffId": 320103,
+        "Camp": "OtherFriend"
+      }
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "320103": {
+    "AddPassiveEffect": [
+      320103
+    ],
+    "BuffId": 320103,
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "320122": {
+    "BuffId": 320122,
+    "MaxLayer": 5,
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "320204": {
+    "BuffDamagedRate": {
+      "Value": -0.03
+    },
+    "BuffId": 320204,
+    "MaxLayer": 10,
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "320206": {
+    "AddPassiveEffect": [
+      320204
+    ],
+    "BuffId": 320206,
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "330131": {
+    "BuffId": 330131,
+    "HaloDatas": [
+      {
+        "AuraRange": -1,
+        "BuffId": 330132,
+        "Camp": "OtherFriend"
+      }
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "330132": {
+    "AddPassiveEffect": [
+      330103
+    ],
+    "BuffId": 330132,
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "330141": {
+    "BuffId": 330141,
+    "HaloDatas": [
+      {
+        "AuraRange": -1,
+        "BuffId": 330142,
+        "Camp": "OtherFriend"
+      }
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "410001": {
+    "BuffId": 410001,
+    "HaloDatas": [
+      {
+        "AuraRange": -1,
+        "BuffId": 410002,
+        "Camp": "Friend"
+      }
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "410002": {
+    "AddAttrs": [
+      {
+        "AttrName": "ATK",
+        "Rate": 0.4
+      }
+    ],
+    "BuffId": 410002,
+    "CombatConditionId": 1004,
+    "MaxLayer": 2,
+    "MergeRule1": "Global",
+    "MergeRule2": "NewFree"
+  },
+  "410003": {
+    "BuffId": 410003,
+    "HaloDatas": [
+      {
+        "AuraRange": -1,
+        "BuffId": 410004,
+        "Camp": "Friend"
+      }
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "410004": {
+    "AddAttrs": [
+      {
+        "AttrName": "ATK",
+        "Rate": 0.5
+      }
+    ],
+    "BuffId": 410004,
+    "CombatConditionId": 1004,
+    "MaxLayer": 2,
+    "MergeRule1": "Global",
+    "MergeRule2": "NewFree"
+  },
+  "410101": {
+    "BuffId": 410101,
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "410211": {
+    "BuffId": 410211,
+    "HaloDatas": [
+      {
+        "AuraRange": -1,
+        "BuffId": 410212,
+        "Camp": "Friend"
+      }
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "410212": {
+    "AddPassiveEffect": [
+      410212
+    ],
+    "BuffId": 410212,
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "410242": {
+    "AddAttrs": [
+      {
+        "AttrName": "AlmightyDamageRate",
+        "Value": 0.55
+      }
+    ],
+    "BuffId": 410242,
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "410252": {
+    "AddAttrs": [
+      {
+        "AttrName": "MoveSpeedAddRate",
+        "Value": -0.6
+      }
+    ],
+    "BuffId": 410252,
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "420114": {
+    "BuffId": 420114,
+    "MaxLayer": 6,
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "420122": {
+    "BuffId": 420122,
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "420123": {
+    "BuffId": 420123,
+    "HaloDatas": [
+      {
+        "AuraRange": -1,
+        "BuffId": 420124,
+        "Camp": "Friend"
+      },
+      {
+        "AuraRange": -1,
+        "BuffId": 420131,
+        "Camp": "Enemy"
+      }
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "420191": {
+    "BuffId": 420191,
+    "HaloDatas": [
+      {
+        "AuraRange": -1,
+        "BuffId": 420192,
+        "Camp": "Friend"
+      }
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "420192": {
+    "AddAttrs": [
+      {
+        "AttrName": "StrongValue",
+        "Value": 0.15
+      }
+    ],
+    "BuffId": 420192,
+    "CombatConditionId": 1004,
+    "MaxLayer": 2,
+    "MergeRule1": "Global",
+    "MergeRule2": "NewFree"
+  },
+  "420200": {
+    "AddAttrs": [
+      {
+        "AttrName": "OverShieldLevelGrow",
+        "Value": 50
+      }
+    ],
+    "BuffId": 420200,
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "430112": {
+    "BuffId": 430112,
+    "BuffType": [
+      21
+    ],
+    "DotDatas": [
+      {
+        "BaseAttr": "MaxHp",
+        "Condition": 2,
+        "DamageTag": [
+          "Hot"
+        ],
+        "DefaultHealFX": 0,
+        "Interval": 1,
+        "Rate": 0.1,
+        "Type": "Hot"
+      }
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "430123": {
+    "BuffId": 430123,
+    "ForbidBuffType": [
+      10,
+      11,
+      12,
+      20,
+      21,
+      22,
+      30,
+      40,
+      41,
+      42,
+      43,
+      44,
+      49,
+      60,
+      61,
+      62,
+      63,
+      999
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "510001": {
+    "BuffId": 510001,
+    "HaloDatas": [
+      {
+        "AuraRange": -1,
+        "BuffId": 510002,
+        "Camp": "Friend"
+      }
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "510002": {
+    "AddAttrs": [
+      {
+        "AttrName": "ATK",
+        "Rate": 0.4
+      }
+    ],
+    "BuffId": 510002,
+    "CombatConditionId": 1005,
+    "MaxLayer": 2,
+    "MergeRule1": "Global",
+    "MergeRule2": "NewFree"
+  },
+  "510003": {
+    "BuffId": 510003,
+    "HaloDatas": [
+      {
+        "AuraRange": -1,
+        "BuffId": 510004,
+        "Camp": "Friend"
+      }
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "510004": {
+    "AddAttrs": [
+      {
+        "AttrName": "ATK",
+        "Rate": 0.5
+      }
+    ],
+    "BuffId": 510004,
+    "CombatConditionId": 1005,
+    "MaxLayer": 2,
+    "MergeRule1": "Global",
+    "MergeRule2": "NewFree"
+  },
+  "510191": {
+    "BuffId": 510191,
+    "HaloDatas": [
+      {
+        "AuraRange": -1,
+        "BuffId": 510192,
+        "Camp": "Friend",
+        "Condition": 1007
+      }
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "510192": {
+    "AddAttrs": [
+      {
+        "AttrName": "EnmityValue",
+        "Value": 0.05
+      }
+    ],
+    "BuffId": 510192,
+    "MaxLayer": 2,
+    "MergeRule1": "Global",
+    "MergeRule2": "NewFree"
+  },
+  "530111": {
+    "BuffId": 530111,
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "530113": {
+    "AddAttrs": [
+      {
+        "AttrName": "DamageRate",
+        "RateZone": "Almighty",
+        "Value": 0.5
+      }
+    ],
+    "BuffId": 530113,
+    "BuffType": [
+      530102
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "530122": {
+    "BuffId": 530122,
+    "BuffType": [
+      530102
+    ],
+    "DotDatas": [
+      {
+        "DotDelay": 2.7,
+        "EffectId": 530142,
+        "Interval": 5,
+        "Type": "SkillEffect"
+      }
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "540200": {
+    "BuffId": 540200,
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "540206": {
+    "BuffId": 540206,
+    "MaxLayer": 20,
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "540231": {
+    "BuffId": 540231,
+    "HaloDatas": [
+      {
+        "AuraRange": -1,
+        "BuffId": 540232,
+        "Camp": "Friend"
+      }
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "540241": {
+    "BuffId": 540241,
+    "HaloDatas": [
+      {
+        "AuraRange": -1,
+        "BuffId": 540242,
+        "Camp": "Friend"
+      }
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "700221": {
+    "BuffId": 700221,
+    "ForbidBuffType": [
+      41,
+      43
+    ],
+    "ForbidCatch": true,
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "850001": {
+    "BuffId": 850001,
+    "LockHp": {
+      "Rate": 0.5
+    },
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "850002": {
+    "BuffId": 850002,
+    "CannotBeCutTN": true,
+    "CannotBeHitted": true,
+    "ForbidBuffType": [
+      40,
+      41
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge",
+    "SpecialEffect": [
+      "Invincible"
+    ]
+  },
+  "850201": {
+    "BuffId": 850201,
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "850203": {
+    "BuffId": 850203,
+    "MaxLayer": 3,
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "850205": {
+    "BuffDamagedRate": {
+      "Value": -0.5
+    },
+    "BuffId": 850205,
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "850301": {
+    "BuffId": 850301,
+    "InitialEffect": [
+      850324
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "850303": {
+    "BuffId": 850303,
+    "CannotBeCutTN": true,
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "850304": {
+    "BuffId": 850304,
+    "LockHp": {
+      "Rate": 0.1
+    },
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "850306": {
+    "BuffId": 850306,
+    "LockHp": {
+      "Rate": 1
+    },
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "850308": {
+    "BuffId": 850308,
+    "BuffType": [
+      11
+    ],
+    "CannotBeCutTN": true,
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "850309": {
+    "BuffId": 850309,
+    "CannotBeCutTN": true,
+    "CannotBeHitted": true,
+    "ForbidBuffType": [
+      40,
+      41
+    ],
+    "LockHp": {
+      "Rate": 1
+    },
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge",
+    "NotEnterTarget": true,
+    "SpecialEffect": [
+      "Invincible"
+    ]
+  },
+  "850311": {
+    "BuffId": 850311,
+    "CannotBeCutTN": true,
+    "CannotBeHitted": true,
+    "LockHp": {
+      "Rate": 0.01
+    },
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "850401": {
+    "BuffId": 850401,
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "850403": {
+    "BuffId": 850403,
+    "BuffType": [
+      11
+    ],
+    "CannotBeCutTN": true,
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "850901": {
+    "BuffId": 850901,
+    "LockHp": {
+      "Rate": 0.5
+    },
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "850902": {
+    "BuffId": 850902,
+    "LockHp": {
+      "Rate": 0.8
+    },
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "851203": {
+    "BuffId": 851203,
+    "BuffType": [
+      11
+    ],
+    "CannotBeCutTN": true,
+    "CannotBeHitted": true,
+    "ForbidBuffType": [
+      40,
+      41
+    ],
+    "LockHp": {
+      "Rate": 0.61
+    },
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "851204": {
+    "BuffId": 851204,
+    "BuffType": [
+      11
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "851209": {
+    "BuffId": 851209,
+    "LockHp": {
+      "Rate": 0.49
+    },
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "851210": {
+    "BuffId": 851210,
+    "LockHp": {
+      "Rate": 0.2
+    },
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "851211": {
+    "BuffDamagedRate": {
+      "Value": -0.99
+    },
+    "BuffId": 851211,
+    "LockHp": {
+      "Rate": 0.48
+    },
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "851213": {
+    "BuffId": 851213,
+    "BuffType": [
+      11
+    ],
+    "CannotBeCutTN": true,
+    "CannotBeHitted": true,
+    "ForbidBuffType": [
+      40,
+      41
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "851214": {
+    "BuffId": 851214,
+    "BuffType": [
+      11
+    ],
+    "CannotBeCutTN": true,
+    "CannotBeHitted": true,
+    "ForbidBuffType": [
+      40,
+      41
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge",
+    "NotEnterTarget": true,
+    "SpecialEffect": [
+      "Invincible"
+    ]
+  },
+  "851502": {
+    "BuffId": 851502,
+    "LockHp": {
+      "Rate": 0.35
+    },
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "851901": {
+    "BuffId": 851901,
+    "LockHp": {
+      "Rate": 0.01
+    },
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "900602": {
+    "BuffId": 900602,
+    "BuffType": [
+      11
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge",
+    "Priority": 1001,
+    "SpecialEffect": [
+      "Invisible"
+    ]
+  },
+  "950101": {
+    "AddAttrs": [
+      {
+        "AttrName": "SkillSpeed",
+        "Rate": 0.4
+      }
+    ],
+    "BuffId": 950101,
+    "BuffType": [
+      11
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "950401": {
+    "BuffId": 950401,
+    "ForbidBuffType": [
+      41,
+      42,
+      43
+    ],
+    "ForbidCatch": true,
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "950403": {
+    "BuffId": 950403,
+    "LockHp": {
+      "Rate": 0.01
+    },
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "1030111": {
+    "AddAttrs": [
+      {
+        "AttrName": "MoveSpeedAddRate",
+        "Value": -0.4
+      }
+    ],
+    "BuffId": 1030111,
+    "BuffType": [
+      11
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "1030222": {
+    "AddAttrs": [
+      {
+        "AttrName": "MoveSpeedAddRate",
+        "Value": 1
+      }
+    ],
+    "BuffId": 1030222,
+    "BuffType": [
+      11
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "1040141": {
+    "AddAttrs": [
+      {
+        "AttrName": "MoveSpeedAddRate",
+        "Value": 1
+      }
+    ],
+    "BuffId": 1040141,
+    "BuffType": [
+      11
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "1060202": {
+    "BuffId": 1060202,
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "1311001": {
+    "BuffDamagedRate": {
+      "Value": "#1"
+    },
+    "BuffId": 1311001,
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "1430001": {
+    "AddAttrs": [
+      {
+        "AttrName": "SpRecoverValue",
+        "Value": "#1"
+      }
+    ],
+    "BuffId": 1430001,
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "1440001": {
+    "AddAttrs": [
+      {
+        "AttrName": "DamageRate",
+        "RateZone": "Normal",
+        "Value": "#1"
+      }
+    ],
+    "BuffId": 1440001,
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "2010001": {
+    "BuffId": 2010001,
+    "BuffType": [
+      11
+    ],
+    "LockHp": {
+      "Rate": 0.5
+    },
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "2010035": {
+    "AddAttrs": [
+      {
+        "AttrName": "FireDamagedRate",
+        "Value": 4
+      },
+      {
+        "AttrName": "WindDamagedRate",
+        "Value": 4
+      }
+    ],
+    "BuffId": 2010035,
+    "BuffType": [
+      999
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "2010051": {
+    "AddAttrs": [
+      {
+        "AttrName": "WindDamagedRate",
+        "Value": 4
+      },
+      {
+        "AttrName": "DarkDamagedRate",
+        "Value": 4
+      }
+    ],
+    "BuffId": 2010051,
+    "BuffType": [
+      999
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "2050501": {
+    "BuffId": 2050501,
+    "MaxLayer": 10,
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "4010009": {
+    "AddAttrs": [
+      {
+        "AttrName": "SupportSkillCD",
+        "Rate": -0.5
+      }
+    ],
+    "BuffId": 4010009,
+    "BuffType": [
+      11
+    ],
+    "DeadNotRemove": true,
+    "MergeRule1": "Global",
+    "MergeRule2": "NewFree"
+  },
+  "5000006": {
+    "BuffId": 5000006,
+    "DeadNotRemove": true,
+    "DotDatas": [
+      {
+        "AllowSkillIntensity": 1,
+        "DamageTag": [
+          "Dot"
+        ],
+        "Interval": 0.2,
+        "Rate": 1,
+        "Type": "Dot"
+      }
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "5000012": {
+    "BuffId": 5000012,
+    "BuffType": [
+      5000010
+    ],
+    "HaloDatas": [
+      {
+        "AuraRange": 4000,
+        "BuffId": 5000011,
+        "Camp": "OtherFriend"
+      }
+    ],
+    "MaxLayer": 5,
+    "MergeRule1": "Personal",
+    "MergeRule2": "NewFree"
+  },
+  "5000014": {
+    "BuffId": 5000014,
+    "BuffType": [
+      5000010
+    ],
+    "HaloDatas": [
+      {
+        "AuraRange": 4000,
+        "BuffId": 5000013,
+        "Camp": "OtherFriend"
+      }
+    ],
+    "MaxLayer": 5,
+    "MergeRule1": "Personal",
+    "MergeRule2": "NewFree"
+  },
+  "5000016": {
+    "BuffId": 5000016,
+    "BuffType": [
+      5000010
+    ],
+    "HaloDatas": [
+      {
+        "AuraRange": 4000,
+        "BuffId": 5000015,
+        "Camp": "OtherFriend"
+      }
+    ],
+    "MaxLayer": 5,
+    "MergeRule1": "Personal",
+    "MergeRule2": "NewFree"
+  },
+  "5000017": {
+    "BuffId": 5000017,
+    "LockHp": {
+      "Rate": 1
+    },
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "5000304": {
+    "AddAttrs": [
+      {
+        "AttrName": "DamageRate",
+        "RateZone": "Normal",
+        "Value": 2
+      }
+    ],
+    "AddPassiveEffect": [
+      5000304
+    ],
+    "BuffId": 5000304,
+    "BuffType": [
+      11
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "6000011": {
+    "AddAttrs": [
+      {
+        "AttrName": "WaterDamagedRate",
+        "Value": -0.5
+      }
+    ],
+    "BuffId": 6000011,
+    "BuffType": [
+      11
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "6000013": {
+    "AddAttrs": [
+      {
+        "AttrName": "WaterDamagedRate",
+        "Value": 0.5
+      }
+    ],
+    "BuffId": 6000013,
+    "BuffType": [
+      21
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge",
+    "WeaknessType": "Water"
+  },
+  "6000014": {
+    "AddAttrs": [
+      {
+        "AttrName": "WaterDamagedRate",
+        "Value": 4
+      }
+    ],
+    "BuffId": 6000014,
+    "BuffType": [
+      21
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge",
+    "WeaknessType": "Water"
+  },
+  "6000021": {
+    "AddAttrs": [
+      {
+        "AttrName": "FireDamagedRate",
+        "Value": -0.5
+      }
+    ],
+    "BuffId": 6000021,
+    "BuffType": [
+      11
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "6000023": {
+    "AddAttrs": [
+      {
+        "AttrName": "FireDamagedRate",
+        "Value": 0.5
+      }
+    ],
+    "BuffId": 6000023,
+    "BuffType": [
+      21
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge",
+    "WeaknessType": "Fire"
+  },
+  "6000024": {
+    "AddAttrs": [
+      {
+        "AttrName": "FireDamagedRate",
+        "Value": 4
+      }
+    ],
+    "BuffId": 6000024,
+    "BuffType": [
+      21
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge",
+    "WeaknessType": "Fire"
+  },
+  "6000031": {
+    "AddAttrs": [
+      {
+        "AttrName": "ThunderDamagedRate",
+        "Value": -0.5
+      }
+    ],
+    "BuffId": 6000031,
+    "BuffType": [
+      11
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "6000033": {
+    "AddAttrs": [
+      {
+        "AttrName": "ThunderDamagedRate",
+        "Value": 0.5
+      }
+    ],
+    "BuffId": 6000033,
+    "BuffType": [
+      21
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge",
+    "WeaknessType": "Thunder"
+  },
+  "6000034": {
+    "AddAttrs": [
+      {
+        "AttrName": "ThunderDamagedRate",
+        "Value": 4
+      }
+    ],
+    "BuffId": 6000034,
+    "BuffType": [
+      21
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge",
+    "WeaknessType": "Thunder"
+  },
+  "6000041": {
+    "AddAttrs": [
+      {
+        "AttrName": "WindDamagedRate",
+        "Value": -0.5
+      }
+    ],
+    "BuffId": 6000041,
+    "BuffType": [
+      11
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "6000043": {
+    "AddAttrs": [
+      {
+        "AttrName": "WindDamagedRate",
+        "Value": 0.5
+      }
+    ],
+    "BuffId": 6000043,
+    "BuffType": [
+      21
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge",
+    "WeaknessType": "Wind"
+  },
+  "6000044": {
+    "AddAttrs": [
+      {
+        "AttrName": "WindDamagedRate",
+        "Value": 4
+      }
+    ],
+    "BuffId": 6000044,
+    "BuffType": [
+      21
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge",
+    "WeaknessType": "Wind"
+  },
+  "6000051": {
+    "AddAttrs": [
+      {
+        "AttrName": "DarkDamagedRate",
+        "Value": -0.5
+      }
+    ],
+    "BuffId": 6000051,
+    "BuffType": [
+      11
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "6000052": {
+    "AddAttrs": [
+      {
+        "AttrName": "DarkDamagedRate",
+        "Value": -0.25
+      }
+    ],
+    "BuffId": 6000052,
+    "BuffType": [
+      11
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "6000053": {
+    "AddAttrs": [
+      {
+        "AttrName": "DarkDamagedRate",
+        "Value": 0.5
+      }
+    ],
+    "BuffId": 6000053,
+    "BuffType": [
+      21
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge",
+    "WeaknessType": "Dark"
+  },
+  "6000054": {
+    "AddAttrs": [
+      {
+        "AttrName": "DarkDamagedRate",
+        "Value": 4
+      }
+    ],
+    "BuffId": 6000054,
+    "BuffType": [
+      21
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge",
+    "WeaknessType": "Dark"
+  },
+  "6000061": {
+    "AddAttrs": [
+      {
+        "AttrName": "LightDamagedRate",
+        "Value": -0.5
+      }
+    ],
+    "BuffId": 6000061,
+    "BuffType": [
+      11
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "6000062": {
+    "AddAttrs": [
+      {
+        "AttrName": "LightDamagedRate",
+        "Value": -0.25
+      }
+    ],
+    "BuffId": 6000062,
+    "BuffType": [
+      11
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "6000063": {
+    "AddAttrs": [
+      {
+        "AttrName": "LightDamagedRate",
+        "Value": 0.5
+      }
+    ],
+    "BuffId": 6000063,
+    "BuffType": [
+      21
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge",
+    "WeaknessType": "Light"
+  },
+  "6000064": {
+    "AddAttrs": [
+      {
+        "AttrName": "LightDamagedRate",
+        "Value": 4
+      }
+    ],
+    "BuffId": 6000064,
+    "BuffType": [
+      21
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge",
+    "WeaknessType": "Light"
+  },
+  "6000071": {
+    "BuffId": 6000071,
+    "BuffType": [
+      11
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "6000072": {
+    "BuffId": 6000072,
+    "BuffType": [
+      21
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "6000073": {
+    "BuffId": 6000073,
+    "BuffType": [
+      11
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "6000074": {
+    "BuffId": 6000074,
+    "BuffType": [
+      21
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "6000075": {
+    "BuffId": 6000075,
+    "BuffType": [
+      11
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "6000076": {
+    "BuffId": 6000076,
+    "BuffType": [
+      21
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "6000077": {
+    "BuffId": 6000077,
+    "BuffType": [
+      11
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "6000078": {
+    "BuffId": 6000078,
+    "BuffType": [
+      21
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "6000079": {
+    "BuffId": 6000079,
+    "BuffType": [
+      11
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "6000080": {
+    "BuffId": 6000080,
+    "BuffType": [
+      21
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "6000081": {
+    "BuffId": 6000081,
+    "BuffType": [
+      11
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "6000082": {
+    "BuffId": 6000082,
+    "BuffType": [
+      21
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "6000204": {
+    "BuffId": 6000204,
+    "CannotBeCutTN": true,
+    "ForbidBuffType": [
+      41
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge",
+    "SpecialEffect": [
+      "Invincible"
+    ]
+  },
+  "6000207": {
+    "BuffId": 6000207,
+    "BuffType": [
+      11
+    ],
+    "CannotBeCutTN": true,
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "6000208": {
+    "BuffId": 6000208,
+    "BuffType": [
+      11
+    ],
+    "ForbidBuffType": [
+      44
+    ],
+    "ForbidCatch": true,
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "6000209": {
+    "BuffId": 6000209,
+    "BuffType": [
+      11
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge",
+    "NotEnterTarget": true
+  },
+  "10101202": {
+    "BuffId": 10101202,
+    "BuffType": [
+      21
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "10101991": {
+    "AddAttrs": [
+      {
+        "AttrName": "WeaponCRIModifierRate",
+        "Stackable": 1,
+        "Type": "Melee",
+        "Value": 0.15
+      },
+      {
+        "AttrName": "WeaponCRDModifierRate",
+        "Stackable": 1,
+        "Type": "Melee",
+        "Value": 0.1
+      }
+    ],
+    "BuffId": 10101991,
+    "BuffType": [
+      11
+    ],
+    "MaxLayer": 20,
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "10102104": {
+    "AddAttrs": [
+      {
+        "AttrName": "DropDistance",
+        "Value": 750
+      }
+    ],
+    "BuffId": 10102104,
+    "BuffType": [
+      11
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "10102107": {
+    "BattlePetCdRate": -0.3,
+    "BuffId": 10102107,
+    "BuffType": [
+      11,
+      10101101
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "10102108": {
+    "BattlePetCdRate": -0.5,
+    "BuffId": 10102108,
+    "BuffType": [
+      11,
+      10101101
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "10102109": {
+    "AddAttrs": [
+      {
+        "AttrName": "ATK",
+        "Rate": 0.15
+      }
+    ],
+    "BuffId": 10102109,
+    "BuffType": [
+      11
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "10102110": {
+    "AddAttrs": [
+      {
+        "AttrName": "ATK",
+        "Rate": 0.3
+      }
+    ],
+    "BuffId": 10102110,
+    "BuffType": [
+      11
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "10102991": {
+    "AddAttrs": [
+      {
+        "AttrName": "WeaponCRIModifierRate",
+        "Stackable": 1,
+        "Type": "Ranged",
+        "Value": 0.15
+      },
+      {
+        "AttrName": "WeaponCRDModifierRate",
+        "Stackable": 1,
+        "Type": "Ranged",
+        "Value": 0.1
+      }
+    ],
+    "BuffId": 10102991,
+    "BuffType": [
+      11
+    ],
+    "MaxLayer": 20,
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "10103106": {
+    "AddAttrs": [
+      {
+        "AttrName": "SkillSpeed",
+        "Rate": "#1"
+      }
+    ],
+    "BuffId": 10103106,
+    "BuffType": [
+      11
+    ],
+    "DeadNotRemove": true,
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "10103991": {
+    "AddAttrs": [
+      {
+        "AttrName": "MaxES",
+        "Rate": 0.15,
+        "Stackable": 1
+      }
+    ],
+    "BuffId": 10103991,
+    "BuffType": [
+      11
+    ],
+    "MaxLayer": 20,
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "10104302": {
+    "AddAttrs": [
+      {
+        "AttrName": "ATK",
+        "Rate": "#1"
+      }
+    ],
+    "BuffId": 10104302,
+    "BuffType": [
+      11
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "10104991": {
+    "AddAttrs": [
+      {
+        "AttrName": "DamageRate",
+        "RateZone": "Rouge",
+        "Stackable": 1,
+        "Value": 0.15
+      }
+    ],
+    "BuffId": 10104991,
+    "BuffType": [
+      11
+    ],
+    "MaxLayer": 20,
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "10105301": {
+    "AddAttrs": [
+      {
+        "AttrName": "MaxSp",
+        "RateUseValue": 1
+      }
+    ],
+    "BuffId": 10105301,
+    "BuffType": [
+      11
+    ],
+    "DeadNotRemove": true,
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "10105303": {
+    "AddAttrs": [
+      {
+        "AttrName": "WeaponCRIModifierRate",
+        "Value": "#1"
+      }
+    ],
+    "BuffId": 10105303,
+    "BuffType": [
+      11
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "NewFree"
+  },
+  "10105901": {
+    "AddAttrs": [
+      {
+        "AttrName": "ATK",
+        "Rate": 0.01
+      }
+    ],
+    "BuffId": 10105901,
+    "BuffType": [
+      11
+    ],
+    "MaxLayer": 60,
+    "MergeRule1": "Global",
+    "MergeRule2": "NewFree"
+  },
+  "10105903": {
+    "BuffId": 10105903,
+    "BuffType": [
+      11
+    ],
+    "DotDatas": [
+      {
+        "Immediately": 1,
+        "Interval": 1,
+        "Type": "SpChange",
+        "Value": 2
+      }
+    ],
+    "MaxLayer": 6,
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "10105991": {
+    "AddAttrs": [
+      {
+        "AttrName": "MaxSp",
+        "Rate": 0.1,
+        "Stackable": 1
+      }
+    ],
+    "BuffId": 10105991,
+    "BuffType": [
+      11
+    ],
+    "MaxLayer": 20,
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "10106101": {
+    "AddAttrs": [
+      {
+        "AttrName": "WeaponCRIModifierRate",
+        "Type": "Ranged",
+        "Value": "#1"
+      }
+    ],
+    "BuffId": 10106101,
+    "BuffType": [
+      11
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "10106102": {
+    "AddAttrs": [
+      {
+        "AttrName": "WeaponCRIModifierRate",
+        "Type": "Ranged",
+        "Value": "#1"
+      }
+    ],
+    "BuffId": 10106102,
+    "BuffType": [
+      11
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "10106103": {
+    "AddAttrs": [
+      {
+        "AttrName": "WeaponCRDModifierRate",
+        "Type": "Ranged",
+        "Value": "#1"
+      }
+    ],
+    "BuffId": 10106103,
+    "BuffType": [
+      11
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "10106104": {
+    "AddAttrs": [
+      {
+        "AttrName": "WeaponCRDModifierRate",
+        "Type": "Ranged",
+        "Value": "#1"
+      }
+    ],
+    "BuffId": 10106104,
+    "BuffType": [
+      11
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "10106105": {
+    "AddAttrs": [
+      {
+        "AttrName": "TriggerProbModifierRate",
+        "Type": "Ranged",
+        "Value": "#1"
+      }
+    ],
+    "BuffId": 10106105,
+    "BuffType": [
+      11
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "10106106": {
+    "AddAttrs": [
+      {
+        "AttrName": "TriggerProbModifierRate",
+        "Type": "Ranged",
+        "Value": "#1"
+      }
+    ],
+    "BuffId": 10106106,
+    "BuffType": [
+      11
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "10106107": {
+    "AddAttrs": [
+      {
+        "AttrName": "MultiShootModifierRate",
+        "Type": "Ranged",
+        "Value": "#1"
+      }
+    ],
+    "BuffId": 10106107,
+    "BuffType": [
+      11
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "10106108": {
+    "AddAttrs": [
+      {
+        "AttrName": "MultiShootModifierRate",
+        "Type": "Ranged",
+        "Value": "#1"
+      }
+    ],
+    "BuffId": 10106108,
+    "BuffType": [
+      11
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "10106110": {
+    "AddAttrs": [
+      {
+        "AttrName": "DamageRate",
+        "RateZone": "Almighty",
+        "Value": "#1"
+      }
+    ],
+    "BuffId": 10106110,
+    "BuffType": [
+      11
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "10106111": {
+    "AddAttrs": [
+      {
+        "AttrName": "DamageRate",
+        "RateZone": "Almighty",
+        "Value": "#1"
+      }
+    ],
+    "BuffId": 10106111,
+    "BuffType": [
+      11
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "10106112": {
+    "AddAttrs": [
+      {
+        "AttrName": "StrongValue",
+        "Value": "#1"
+      }
+    ],
+    "BuffId": 10106112,
+    "BuffType": [
+      11
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "10106113": {
+    "AddAttrs": [
+      {
+        "AttrName": "StrongValue",
+        "Value": "#1"
+      }
+    ],
+    "BuffId": 10106113,
+    "BuffType": [
+      11
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "10106991": {
+    "AddAttrs": [
+      {
+        "AttrName": "SkillRange",
+        "Rate": 0.1,
+        "Stackable": 1
+      }
+    ],
+    "BuffId": 10106991,
+    "BuffType": [
+      11
+    ],
+    "MaxLayer": 20,
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "10107101": {
+    "BuffId": 10107101,
+    "BuffType": [
+      11
+    ],
+    "DotDatas": [
+      {
+        "Interval": 3,
+        "Type": "SpChange",
+        "Value": "#1"
+      }
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "10107102": {
+    "BuffId": 10107102,
+    "BuffType": [
+      11
+    ],
+    "DotDatas": [
+      {
+        "Interval": 3,
+        "Type": "SpChange",
+        "Value": "#1"
+      }
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "10107103": {
+    "AddAttrs": [
+      {
+        "AttrName": "TriggerProbModifierRate",
+        "Type": "Melee",
+        "Value": "#1"
+      }
+    ],
+    "BuffId": 10107103,
+    "BuffType": [
+      11
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "10107104": {
+    "AddAttrs": [
+      {
+        "AttrName": "TriggerProbModifierRate",
+        "Type": "Melee",
+        "Value": "#1"
+      }
+    ],
+    "BuffId": 10107104,
+    "BuffType": [
+      11
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "10107106": {
+    "AddAttrs": [
+      {
+        "AttrName": "SkillIntensity",
+        "Rate": "#1"
+      }
+    ],
+    "BuffId": 10107106,
+    "BuffType": [
+      11
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "10107107": {
+    "AddAttrs": [
+      {
+        "AttrName": "SkillIntensity",
+        "Rate": "#1"
+      }
+    ],
+    "BuffId": 10107107,
+    "BuffType": [
+      11
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "10107108": {
+    "AddAttrs": [
+      {
+        "AttrName": "WeaponCRIModifierRate",
+        "Type": "Melee",
+        "Value": "#1"
+      }
+    ],
+    "BuffId": 10107108,
+    "BuffType": [
+      11
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "10107109": {
+    "AddAttrs": [
+      {
+        "AttrName": "WeaponCRIModifierRate",
+        "Type": "Melee",
+        "Value": "#1"
+      }
+    ],
+    "BuffId": 10107109,
+    "BuffType": [
+      11
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "10107110": {
+    "AddAttrs": [
+      {
+        "AttrName": "WeaponCRDModifierRate",
+        "Type": "Melee",
+        "Value": "#1"
+      }
+    ],
+    "BuffId": 10107110,
+    "BuffType": [
+      11
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "10107111": {
+    "AddAttrs": [
+      {
+        "AttrName": "WeaponCRDModifierRate",
+        "Type": "Melee",
+        "Value": "#1"
+      }
+    ],
+    "BuffId": 10107111,
+    "BuffType": [
+      11
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "10107113": {
+    "AddAttrs": [
+      {
+        "AttrName": "AttackSpeedModifierRate",
+        "Type": "Melee",
+        "Value": "#1"
+      }
+    ],
+    "BuffId": 10107113,
+    "BuffType": [
+      11
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "10107114": {
+    "AddAttrs": [
+      {
+        "AttrName": "AttackSpeedModifierRate",
+        "Type": "Melee",
+        "Value": "#1"
+      }
+    ],
+    "BuffId": 10107114,
+    "BuffType": [
+      11
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "10107115": {
+    "AddAttrs": [
+      {
+        "AttrName": "EnmityValue",
+        "Value": "#1"
+      }
+    ],
+    "BuffId": 10107115,
+    "BuffType": [
+      11
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "10107116": {
+    "AddAttrs": [
+      {
+        "AttrName": "EnmityValue",
+        "Value": "#1"
+      }
+    ],
+    "BuffId": 10107116,
+    "BuffType": [
+      11
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "10107125": {
+    "BuffId": 10107125,
+    "BuffType": [
+      11
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge",
+    "OverrideAttrs": {
+      "AttrName": "FakeHpRate",
+      "Value": 0.4
+    }
+  },
+  "10107126": {
+    "AddAttrs": [
+      {
+        "AttrName": "DEF",
+        "ValueUseValue": 1
+      }
+    ],
+    "BuffId": 10107126,
+    "BuffType": [
+      11
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "10107991": {
+    "AddAttrs": [
+      {
+        "AttrName": "SkillSustain",
+        "Rate": 0.1,
+        "Stackable": 1
+      }
+    ],
+    "BuffId": 10107991,
+    "BuffType": [
+      11
+    ],
+    "MaxLayer": 20,
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "10503001": {
+    "AddAttrs": [
+      {
+        "AttrName": "TriggerProbModifierRate",
+        "Value": "#1"
+      }
+    ],
+    "AddPassiveEffect": [
+      104
+    ],
+    "BuffId": 10503001,
+    "BuffType": [
+      10503001
+    ],
+    "DisperseBuffType": [
+      10503
+    ],
+    "MergeRule1": "Personal",
+    "MergeRule2": "Merge"
+  },
+  "20119001": {
+    "AddAttrs": [
+      {
+        "AttrName": "DamageRate",
+        "RateZone": "Almighty",
+        "Value": 0.1
+      }
+    ],
+    "BuffId": 20119001,
+    "BuffType": [
+      11
+    ],
+    "DeadNotRemove": true,
+    "MaxLayer": 7,
+    "MergeRule1": "Global",
+    "MergeRule2": "NewFree"
+  },
+  "20151001": {
+    "AddAttrs": [
+      {
+        "AttrName": "SkillEfficiency",
+        "Rate": -0.5
+      },
+      {
+        "AttrName": "DamageRate",
+        "RateZone": "Rouge",
+        "Value": 0.5
+      }
+    ],
+    "BuffId": 20151001,
+    "BuffType": [
+      11,
+      10101101
+    ],
+    "DeadNotRemove": true,
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "20152001": {
+    "AddAttrs": [
+      {
+        "AttrName": "DamageRate",
+        "RateZone": "Rouge",
+        "Value": 0.75
+      }
+    ],
+    "BuffId": 20152001,
+    "BuffType": [
+      11,
+      10101101
+    ],
+    "DeadNotRemove": true,
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "20153001": {
+    "AddAttrs": [
+      {
+        "AttrName": "DamageRate",
+        "RateZone": "Rouge",
+        "Value": 0.75
+      }
+    ],
+    "BuffId": 20153001,
+    "BuffType": [
+      11,
+      10101101
+    ],
+    "DeadNotRemove": true,
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "20154001": {
+    "AddAttrs": [
+      {
+        "AttrName": "DamagedRate",
+        "RateZone": "Normal",
+        "Value": 0.5
+      },
+      {
+        "AttrName": "DamageRate",
+        "RateZone": "Rouge",
+        "Value": 1
+      }
+    ],
+    "BuffId": 20154001,
+    "BuffType": [
+      11,
+      10101101
+    ],
+    "DeadNotRemove": true,
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "20156001": {
+    "AddAttrs": [
+      {
+        "AttrName": "CutTNModify",
+        "Value": 1
+      }
+    ],
+    "BuffId": 20156001,
+    "BuffType": [
+      11
+    ],
+    "DeadNotRemove": true,
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "20156002": {
+    "AddAttrs": [
+      {
+        "AttrName": "DamagedRate",
+        "RateZone": "BossDown",
+        "Value": 1
+      }
+    ],
+    "BuffId": 20156002,
+    "BuffType": [
+      21
+    ],
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "30101002": {
+    "AddAttrs": [
+      {
+        "AttrName": "ATK",
+        "Rate": "#1"
+      }
+    ],
+    "BuffId": 30101002,
+    "BuffType": [
+      11,
+      10101101
+    ],
+    "DeadNotRemove": true,
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "30102001": {
+    "AddAttrs": [
+      {
+        "AttrName": "MaxHp",
+        "Rate": "#1"
+      }
+    ],
+    "BuffId": 30102001,
+    "BuffType": [
+      11,
+      10101101
+    ],
+    "DeadNotRemove": true,
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "30102002": {
+    "AddAttrs": [
+      {
+        "AttrName": "ATK",
+        "Rate": "#1"
+      }
+    ],
+    "BuffId": 30102002,
+    "BuffType": [
+      11,
+      10101101
+    ],
+    "DeadNotRemove": true,
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "40101001": {
+    "BuffId": 40101001,
+    "BuffType": [
+      11
+    ],
+    "DeadNotRemove": true,
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "40101002": {
+    "BuffId": 40101002,
+    "BuffType": [
+      11
+    ],
+    "DeadNotRemove": true,
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "40101003": {
+    "BuffId": 40101003,
+    "BuffType": [
+      11
+    ],
+    "DeadNotRemove": true,
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "40101004": {
+    "BuffId": 40101004,
+    "BuffType": [
+      11
+    ],
+    "DeadNotRemove": true,
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "40101005": {
+    "BuffId": 40101005,
+    "BuffType": [
+      11
+    ],
+    "DeadNotRemove": true,
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "40101006": {
+    "AddAttrs": [
+      {
+        "AttrName": "DamagedRate",
+        "RateZone": "Level",
+        "Value": 0.5
+      }
+    ],
+    "BuffId": 40101006,
+    "BuffType": [
+      11
+    ],
+    "DeadNotRemove": true,
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "40101008": {
+    "BuffId": 40101008,
+    "BuffType": [
+      11
+    ],
+    "DeadNotRemove": true,
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "40101009": {
+    "BuffId": 40101009,
+    "BuffType": [
+      11
+    ],
+    "DeadNotRemove": true,
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "40101010": {
+    "BuffId": 40101010,
+    "BuffType": [
+      11
+    ],
+    "DeadNotRemove": true,
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "40101011": {
+    "BuffId": 40101011,
+    "BuffType": [
+      11
+    ],
+    "DeadNotRemove": true,
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "40101012": {
+    "BuffId": 40101012,
+    "BuffType": [
+      11
+    ],
+    "DeadNotRemove": true,
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "40101013": {
+    "BuffId": 40101013,
+    "BuffType": [
+      11
+    ],
+    "DeadNotRemove": true,
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "40101014": {
+    "BuffId": 40101014,
+    "BuffType": [
+      11
+    ],
+    "DeadNotRemove": true,
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "40101015": {
+    "BuffId": 40101015,
+    "BuffType": [
+      11
+    ],
+    "DeadNotRemove": true,
+    "MergeRule1": "Global",
+    "MergeRule2": "Merge"
+  },
+  "99999999": {
+    "AddAttrs": [
+      {
+        "AttrName": "MoveSpeedAddRate",
+        "Value": -0.5
+      }
+    ],
+    "BuffId": 99999999,
+    "MaxLayer": 2,
+    "MergeRule1": "Global",
+    "MergeRule2": "NewFree"
   }
-]
+}

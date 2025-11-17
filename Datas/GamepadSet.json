@@ -11,6 +11,318 @@
   "Attack": {
     "ActionName": "Attack",
     "IsAction": true,
-    "KeyRegion": "{\r\n      [1] = \"WB_Key_XYBA\",\r\n      [2] = \"WB_Key_RBT\",\r\n      [3] = \"WB_Key_XYBA\",\r\n      [4] = \"WB_Key_XYBA\"\r\n    },\r\n    KeyText = \"UI_Keyboard_Map_Attack\",\r\n    Order = 4,\r\n    TextHighLight = true\r\n  },\r\n  Avoid = {\r\n    ActionName = \"Avoid\",\r\n    IsAction = true,\r\n    KeyRegion = {\r\n      [1] = \"WB_Key_XYBA\",\r\n      [2] = \"WB_Key_XYBA\",\r\n      [3] = \"WB_Key_XYBA\",\r\n      [4] = \"WB_Key_RBT\"\r\n    },\r\n    KeyText = \"UI_Keyboard_Map_Avoid\",\r\n    Order = 7,\r\n    TextHighLight = true\r\n  },\r\n  BulletJump = {\r\n    ActionName = \"BulletJump\",\r\n    IsAction = true,\r\n    KeyRegion = T.RT_2,\r\n    KeyText = \"UI_CTL_BulletJump\",\r\n    Order = 21\r\n  },\r\n  Camera = {\r\n    ActionName = \"Camera\",\r\n    GamepadIcon = {\"R\"},\r\n    KeyRegion = T.RT_3,\r\n    KeyText = \"UI_CTL_Camera\",\r\n    Order = 22\r\n  },\r\n  ChangeCameraLengthDown = {\r\n    ActionName = \"ChangeCameraLengthDown\",\r\n    IsAction = true,\r\n    KeyRegion = T.RT_1,\r\n    KeyText = \"UI_CTL_ZoomOut\",\r\n    Order = 10\r\n  },\r\n  ChangeCameraLengthUp = {\r\n    ActionName = \"ChangeCameraLengthUp\",\r\n    IsAction = true,\r\n    KeyRegion = T.RT_1,\r\n    KeyText = \"UI_CTL_ZoomIn\",\r\n    Order = 9\r\n  },\r\n  ChangeSelect = {\r\n    ActionName = \"ChangeSelect\",\r\n    GamepadIcon = {\"Vertical\"},\r\n    KeyRegion = T.RT_4,\r\n    KeyText = \"UI_CTL_Switch\",\r\n    Order = 18\r\n  },\r\n  ChargeBullet = {\r\n    ActionName = \"ChargeBullet\",\r\n    IsAction = true,\r\n    KeyRegion = T.RT_1,\r\n    KeyText = \"UI_Keyboard_Map_ChargeBullet\",\r\n    Order = 16\r\n  },\r\n  Fire = {\r\n    ActionName = \"Fire\",\r\n    IsAction = true,\r\n    KeyRegion = {\r\n      [1] = \"WB_Key_RBT\"\r\n    },\r\n    KeyText = \"UI_Keyboard_Map_Fire\",\r\n    Order = 2\r\n  },\r\n  GamepadOpenSystem = {\r\n    ActionName = \"GamepadOpenSystem\",\r\n    IsAction = true,\r\n    KeyRegion = T.RT_4,\r\n    KeyText = \"UI_CTL_OpenSystem\",\r\n    Order = 17\r\n  },\r\n  GamepadUseSkill = {\r\n    ActionName = \"GamepadUseSkill\",\r\n    IsAction = true,\r\n    KeyRegion = {\r\n      [1] = \"WB_Key_LBT\",\r\n      [2] = \"WB_Key_LBT\",\r\n      [3] = \"WB_Key_XYBA\",\r\n      [4] = \"WB_Key_XYBA\"\r\n    },\r\n    KeyText = \"UI_CTL_UseSkill\",\r\n    Order = 8,\r\n    TextHighLight = true\r\n  },\r\n  Interactive = {\r\n    ActionName = \"Interactive\",\r\n    IsAction = true,\r\n    KeyRegion = {\r\n      [1] = \"WB_Key_XYBA\",\r\n      [2] = \"WB_Key_XYBA\",\r\n      [3] = \"WB_Key_XYBA\",\r\n      [4] = \"WB_Key_XYBA\"\r\n    },\r\n    KeyText = \"UI_Keyboard_Map_Interactive\",\r\n    Order = 5\r\n  },\r\n  Jump = {\r\n    ActionName = \"Jump\",\r\n    IsAction = true,\r\n    KeyRegion = {\r\n      [1] = \"WB_Key_XYBA\",\r\n      [2] = \"WB_Key_XYBA\",\r\n      [3] = \"WB_Key_RBT\",\r\n      [4] = \"WB_Key_XYBA\"\r\n    },\r\n    KeyText = \"UI_Keyboard_Map_Jump\",\r\n    Order = 6,\r\n    TextHighLight = true\r\n  },\r\n  LockMonster = {\r\n    ActionName = \"LockMonster\",\r\n    IsAction = true,\r\n    KeyRegion = T.RT_3,\r\n    KeyText = \"UI_Keyboard_Map_LockMonster\",\r\n    Order = 23\r\n  },\r\n  Move = {\r\n    ActionName = \"Move\",\r\n    GamepadIcon = {\"L\"},\r\n    KeyRegion = T.RT_2,\r\n    KeyText = \"UI_CTL_Move\",\r\n    Order = 20\r\n  },\r\n  OpenArmory = {\r\n    ActionName = \"OpenArmory\",\r\n    IsAction = true,\r\n    KeyRegion = T.RT_5,\r\n    KeyText = \"MAIN_UI_ARMORY\",\r\n    Order = 28\r\n  },\r\n  OpenBag = {\r\n    ActionName = \"OpenBag\",\r\n    IsAction = true,\r\n    KeyRegion = T.RT_5,\r\n    KeyText = \"MAIN_UI_BAG\",\r\n    Order = 31\r\n  },\r\n  OpenBattlePass = {\r\n    ActionName = \"OpenBattlePass\",\r\n    IsAction = true,\r\n    KeyRegion = T.RT_5,\r\n    KeyText = \"MAIN_UI_BATTLEPASS\",\r\n    Order = 26\r\n  },\r\n  OpenBattleWheel = {\r\n    ActionName = \"OpenBattleWheel\",\r\n    IsAction = true,\r\n    KeyRegion = {\r\n      [1] = \"WB_Key_LBT\"\r\n    },\r\n    KeyText = \"MAIN_UI_BATTLEWHEEL\",\r\n    Order = 1\r\n  },\r\n  OpenEvent = {\r\n    ActionName = \"OpenEvent\",\r\n    IsAction = true,\r\n    KeyRegion = T.RT_5,\r\n    KeyText = \"MAIN_UI_GAMEEVENT\",\r\n    Order = 29\r\n  },\r\n  OpenForge = {\r\n    ActionName = \"OpenForge\",\r\n    IsAction = true,\r\n    KeyRegion = T.RT_5,\r\n    KeyText = \"MAIN_UI_FORGE\",\r\n    Order = 33\r\n  },\r\n  OpenGacha = {\r\n    ActionName = \"OpenGacha\",\r\n    IsAction = true,\r\n    KeyRegion = T.RT_5,\r\n    KeyText = \"MAIN_UI_GACHA\",\r\n    Order = 32\r\n  },\r\n  OpenGuideBook = {\r\n    ActionName = \"OpenGuideBook\",\r\n    IsAction = true,\r\n    KeyRegion = T.RT_1,\r\n    KeyText = \"MAIN_UI_GUIDEBOOK\",\r\n    Order = 12\r\n  },\r\n  OpenMap = {\r\n    ActionName = \"OpenMap\",\r\n    IsAction = true,\r\n    KeyRegion = {\r\n      [1] = \"WB_Key_View\"\r\n    },\r\n    KeyText = \"MAIN_UI_MAP\",\r\n    Order = 24\r\n  },\r\n  OpenMenu = {\r\n    ActionName = \"OpenMenu\",\r\n    IsAction = true,\r\n    KeyRegion = {\r\n      [1] = \"WB_Key_Menu\"\r\n    },\r\n    KeyText = \"MAIN_UI_MENU\",\r\n    Order = 25\r\n  },\r\n  OpenPlay = {\r\n    ActionName = \"OpenPlay\",\r\n    IsAction = true,\r\n    KeyRegion = T.RT_5,\r\n    KeyText = \"MAIN_UI_PLAY\",\r\n    Order = 30\r\n  },\r\n  OpenTask = {\r\n    ActionName = \"OpenTask\",\r\n    IsAction = true,\r\n    KeyRegion = T.RT_5,\r\n    KeyText = \"MAIN_UI_QUEST\",\r\n    Order = 27\r\n  },\r\n  ShowTeamInfo = {\r\n    ActionName = \"ShowTeamInfo\",\r\n    IsAction = true,\r\n    KeyRegion = T.RT_4,\r\n    KeyText = \"UI_Keyboard_TeamInfo\",\r\n    Order = 19\r\n  },\r\n  Skill1 = {\r\n    ActionName = \"Skill1\",\r\n    IsAction = true,\r\n    KeyRegion = T.RT_1,\r\n    KeyText = \"UI_Keyboard_Map_Skill1\",\r\n    Order = 13\r\n  },\r\n  Skill2 = {\r\n    ActionName = \"Skill2\",\r\n    IsAction = true,\r\n    KeyRegion = T.RT_1,\r\n    KeyText = \"UI_Keyboard_Map_Skill2\",\r\n    Order = 14\r\n  },\r\n  Skill3 = {\r\n    ActionName = \"Skill3\",\r\n    IsAction = true,\r\n    KeyRegion = T.RT_1,\r\n    KeyText = \"UI_Keyboard_Map_Skill3\",\r\n    Order = 15\r\n  },\r\n  Slide = {\r\n    ActionName = \"Slide\",\r\n    IsAction = true,\r\n    KeyRegion = {\r\n      [1] = \"WB_Key_RBT\",\r\n      [2] = \"WB_Key_XYBA\",\r\n      [3] = \"WB_Key_LBT\",\r\n      [4] = \"WB_Key_LBT\"\r\n    },\r\n    KeyText = \"UI_Keyboard_Map_Slide\",\r\n    Order = 3,\r\n    TextHighLight = true"
+    "KeyRegion": [
+      "WB_Key_XYBA",
+      "WB_Key_RBT",
+      "WB_Key_XYBA",
+      "WB_Key_XYBA"
+    ],
+    "KeyText": "UI_Keyboard_Map_Attack",
+    "Order": 4,
+    "TextHighLight": true
+  },
+  "Avoid": {
+    "ActionName": "Avoid",
+    "IsAction": true,
+    "KeyRegion": [
+      "WB_Key_XYBA",
+      "WB_Key_XYBA",
+      "WB_Key_XYBA",
+      "WB_Key_RBT"
+    ],
+    "KeyText": "UI_Keyboard_Map_Avoid",
+    "Order": 7,
+    "TextHighLight": true
+  },
+  "BulletJump": {
+    "ActionName": "BulletJump",
+    "IsAction": true,
+    "KeyRegion": [
+      "WB_Key_L"
+    ],
+    "KeyText": "UI_CTL_BulletJump",
+    "Order": 21
+  },
+  "Camera": {
+    "ActionName": "Camera",
+    "GamepadIcon": [
+      "R"
+    ],
+    "KeyRegion": [
+      "WB_Key_R"
+    ],
+    "KeyText": "UI_CTL_Camera",
+    "Order": 22
+  },
+  "ChangeCameraLengthDown": {
+    "ActionName": "ChangeCameraLengthDown",
+    "IsAction": true,
+    "KeyRegion": [
+      "Combo1"
+    ],
+    "KeyText": "UI_CTL_ZoomOut",
+    "Order": 10
+  },
+  "ChangeCameraLengthUp": {
+    "ActionName": "ChangeCameraLengthUp",
+    "IsAction": true,
+    "KeyRegion": [
+      "Combo1"
+    ],
+    "KeyText": "UI_CTL_ZoomIn",
+    "Order": 9
+  },
+  "ChangeSelect": {
+    "ActionName": "ChangeSelect",
+    "GamepadIcon": [
+      "Vertical"
+    ],
+    "KeyRegion": [
+      "WB_Key_Direc"
+    ],
+    "KeyText": "UI_CTL_Switch",
+    "Order": 18
+  },
+  "ChargeBullet": {
+    "ActionName": "ChargeBullet",
+    "IsAction": true,
+    "KeyRegion": [
+      "Combo1"
+    ],
+    "KeyText": "UI_Keyboard_Map_ChargeBullet",
+    "Order": 16
+  },
+  "Fire": {
+    "ActionName": "Fire",
+    "IsAction": true,
+    "KeyRegion": [
+      "WB_Key_RBT"
+    ],
+    "KeyText": "UI_Keyboard_Map_Fire",
+    "Order": 2
+  },
+  "GamepadOpenSystem": {
+    "ActionName": "GamepadOpenSystem",
+    "IsAction": true,
+    "KeyRegion": [
+      "WB_Key_Direc"
+    ],
+    "KeyText": "UI_CTL_OpenSystem",
+    "Order": 17
+  },
+  "GamepadUseSkill": {
+    "ActionName": "GamepadUseSkill",
+    "IsAction": true,
+    "KeyRegion": [
+      "WB_Key_LBT",
+      "WB_Key_LBT",
+      "WB_Key_XYBA",
+      "WB_Key_XYBA"
+    ],
+    "KeyText": "UI_CTL_UseSkill",
+    "Order": 8,
+    "TextHighLight": true
+  },
+  "Interactive": {
+    "ActionName": "Interactive",
+    "IsAction": true,
+    "KeyRegion": [
+      "WB_Key_XYBA",
+      "WB_Key_XYBA",
+      "WB_Key_XYBA",
+      "WB_Key_XYBA"
+    ],
+    "KeyText": "UI_Keyboard_Map_Interactive",
+    "Order": 5
+  },
+  "Jump": {
+    "ActionName": "Jump",
+    "IsAction": true,
+    "KeyRegion": [
+      "WB_Key_XYBA",
+      "WB_Key_XYBA",
+      "WB_Key_RBT",
+      "WB_Key_XYBA"
+    ],
+    "KeyText": "UI_Keyboard_Map_Jump",
+    "Order": 6,
+    "TextHighLight": true
+  },
+  "LockMonster": {
+    "ActionName": "LockMonster",
+    "IsAction": true,
+    "KeyRegion": [
+      "WB_Key_R"
+    ],
+    "KeyText": "UI_Keyboard_Map_LockMonster",
+    "Order": 23
+  },
+  "Move": {
+    "ActionName": "Move",
+    "GamepadIcon": [
+      "L"
+    ],
+    "KeyRegion": [
+      "WB_Key_L"
+    ],
+    "KeyText": "UI_CTL_Move",
+    "Order": 20
+  },
+  "OpenArmory": {
+    "ActionName": "OpenArmory",
+    "IsAction": true,
+    "KeyRegion": [
+      "Combo2"
+    ],
+    "KeyText": "MAIN_UI_ARMORY",
+    "Order": 28
+  },
+  "OpenBag": {
+    "ActionName": "OpenBag",
+    "IsAction": true,
+    "KeyRegion": [
+      "Combo2"
+    ],
+    "KeyText": "MAIN_UI_BAG",
+    "Order": 31
+  },
+  "OpenBattlePass": {
+    "ActionName": "OpenBattlePass",
+    "IsAction": true,
+    "KeyRegion": [
+      "Combo2"
+    ],
+    "KeyText": "MAIN_UI_BATTLEPASS",
+    "Order": 26
+  },
+  "OpenBattleWheel": {
+    "ActionName": "OpenBattleWheel",
+    "IsAction": true,
+    "KeyRegion": [
+      "WB_Key_LBT"
+    ],
+    "KeyText": "MAIN_UI_BATTLEWHEEL",
+    "Order": 1
+  },
+  "OpenEvent": {
+    "ActionName": "OpenEvent",
+    "IsAction": true,
+    "KeyRegion": [
+      "Combo2"
+    ],
+    "KeyText": "MAIN_UI_GAMEEVENT",
+    "Order": 29
+  },
+  "OpenForge": {
+    "ActionName": "OpenForge",
+    "IsAction": true,
+    "KeyRegion": [
+      "Combo2"
+    ],
+    "KeyText": "MAIN_UI_FORGE",
+    "Order": 33
+  },
+  "OpenGacha": {
+    "ActionName": "OpenGacha",
+    "IsAction": true,
+    "KeyRegion": [
+      "Combo2"
+    ],
+    "KeyText": "MAIN_UI_GACHA",
+    "Order": 32
+  },
+  "OpenGuideBook": {
+    "ActionName": "OpenGuideBook",
+    "IsAction": true,
+    "KeyRegion": [
+      "Combo1"
+    ],
+    "KeyText": "MAIN_UI_GUIDEBOOK",
+    "Order": 12
+  },
+  "OpenMap": {
+    "ActionName": "OpenMap",
+    "IsAction": true,
+    "KeyRegion": [
+      "WB_Key_View"
+    ],
+    "KeyText": "MAIN_UI_MAP",
+    "Order": 24
+  },
+  "OpenMenu": {
+    "ActionName": "OpenMenu",
+    "IsAction": true,
+    "KeyRegion": [
+      "WB_Key_Menu"
+    ],
+    "KeyText": "MAIN_UI_MENU",
+    "Order": 25
+  },
+  "OpenPlay": {
+    "ActionName": "OpenPlay",
+    "IsAction": true,
+    "KeyRegion": [
+      "Combo2"
+    ],
+    "KeyText": "MAIN_UI_PLAY",
+    "Order": 30
+  },
+  "OpenTask": {
+    "ActionName": "OpenTask",
+    "IsAction": true,
+    "KeyRegion": [
+      "Combo2"
+    ],
+    "KeyText": "MAIN_UI_QUEST",
+    "Order": 27
+  },
+  "ShowTeamInfo": {
+    "ActionName": "ShowTeamInfo",
+    "IsAction": true,
+    "KeyRegion": [
+      "WB_Key_Direc"
+    ],
+    "KeyText": "UI_Keyboard_TeamInfo",
+    "Order": 19
+  },
+  "Skill1": {
+    "ActionName": "Skill1",
+    "IsAction": true,
+    "KeyRegion": [
+      "Combo1"
+    ],
+    "KeyText": "UI_Keyboard_Map_Skill1",
+    "Order": 13
+  },
+  "Skill2": {
+    "ActionName": "Skill2",
+    "IsAction": true,
+    "KeyRegion": [
+      "Combo1"
+    ],
+    "KeyText": "UI_Keyboard_Map_Skill2",
+    "Order": 14
+  },
+  "Skill3": {
+    "ActionName": "Skill3",
+    "IsAction": true,
+    "KeyRegion": [
+      "Combo1"
+    ],
+    "KeyText": "UI_Keyboard_Map_Skill3",
+    "Order": 15
+  },
+  "Slide": {
+    "ActionName": "Slide",
+    "IsAction": true,
+    "KeyRegion": [
+      "WB_Key_RBT",
+      "WB_Key_XYBA",
+      "WB_Key_LBT",
+      "WB_Key_LBT"
+    ],
+    "KeyText": "UI_Keyboard_Map_Slide",
+    "Order": 3,
+    "TextHighLight": true
   }
 }

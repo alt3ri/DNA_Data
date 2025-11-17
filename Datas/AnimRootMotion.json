@@ -1,8 +1,32 @@
-[
-  {
+{
+  "1": {
     "FilePath": "10001_heitao_KnockDown_Finish.uasset",
     "MainID": 1,
     "ResourcePath": "/Asset/Char/Player/Char001_Heitao/Animation",
-    "bEnableRootmotion": "true\r\n  },\r\n  [60000] = {\r\n    FilePath = \"*attack\",\r\n    MainID = 60000,\r\n    ResourcePath = \"/\",\r\n    bEnableRootmotion = true\r\n  },\r\n  [60001] = {\r\n    FilePath = \"attack.uasset\",\r\n    MainID = 60001,\r\n    ResourcePath = \"/*\",\r\n    bEnableRootmotion = true\r\n  },\r\n  [60002] = {\r\n    FilePath = \"attack.uasset\",\r\n    MainID = 60002,\r\n    ResourcePath = \"/Asset/Cinematics\",\r\n    bEnableRootmotion = true\r\n  },\r\n  [60003] = {\r\n    FilePath = \"attack.uasset\",\r\n    MainID = 60003,\r\n    ResourcePath = \"/Asset/Cinematics,/Asset/FX\",\r\n    bEnableRootmotion = true"
+    "bEnableRootmotion": true
+  },
+  "60000": {
+    "FilePath": "*attack",
+    "MainID": 60000,
+    "ResourcePath": "/",
+    "bEnableRootmotion": true
+  },
+  "60001": {
+    "FilePath": "attack.uasset",
+    "MainID": 60001,
+    "ResourcePath": "/*",
+    "bEnableRootmotion": true
+  },
+  "60002": {
+    "FilePath": "attack.uasset",
+    "MainID": 60002,
+    "ResourcePath": "/Asset/Cinematics",
+    "bEnableRootmotion": true
+  },
+  "60003": {
+    "FilePath": "attack.uasset",
+    "MainID": 60003,
+    "ResourcePath": "/Asset/Cinematics,/Asset/FX",
+    "bEnableRootmotion": true
   }
-]
+}

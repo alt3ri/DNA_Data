@@ -102,6 +102,636 @@
         "WordDampingRotation": 0.5
       }
     },
-    "KawaiiType": "hair\"\r\n  },\r\n  [1002] = {\r\n    KawaiiId = 1002,\r\n    KawaiiParament = {\r\n      EnterJump = {\r\n        Damping = 0.8,\r\n        LimitAngle = 0,\r\n        Radius = 3.0,\r\n        Stiffness = 0.6,\r\n        Width = 5,\r\n        WordDampingLocation = 0.7,\r\n        WordDampingRotation = 0.5\r\n      },\r\n      EnterSecJump = {\r\n        Damping = 0.8,\r\n        LimitAngle = 0,\r\n        Radius = 3.0,\r\n        Stiffness = 0.5,\r\n        Width = 5,\r\n        WordDampingLocation = 0.7,\r\n        WordDampingRotation = 0.5\r\n      },\r\n      Idle = T.RT_3,\r\n      InAir = {\r\n        Damping = 0.7,\r\n        LimitAngle = 0,\r\n        Radius = 3.0,\r\n        Stiffness = 0.5,\r\n        Width = 5,\r\n        WordDampingLocation = 0.7,\r\n        WordDampingRotation = 0.5\r\n      },\r\n      Land = T.RT_4,\r\n      LevelEnter = {\r\n        Damping = 0.8,\r\n        LimitAngle = 0,\r\n        Radius = 3.0,\r\n        Stiffness = 0.8,\r\n        Width = 5,\r\n        WordDampingLocation = 0.7,\r\n        WordDampingRotation = 0.5\r\n      },\r\n      RunLoop = T.RT_3,\r\n      RunStart = T.RT_3,\r\n      RunStop = T.RT_3,\r\n      SlideToIdle = T.RT_3,\r\n      StartSlide = T.RT_3\r\n    },\r\n    KawaiiType = \"cloak\"\r\n  },\r\n  [1003] = {\r\n    KawaiiId = 1003,\r\n    KawaiiParament = {\r\n      EnterJump = T.RT_3,\r\n      EnterSecJump = T.RT_3,\r\n      Idle = T.RT_3,\r\n      InAir = T.RT_3,\r\n      Land = T.RT_3,\r\n      LevelEnter = T.RT_3,\r\n      RunLoop = T.RT_3,\r\n      RunStart = T.RT_3,\r\n      RunStop = T.RT_3,\r\n      SlideToIdle = T.RT_3,\r\n      StartSlide = T.RT_3\r\n    },\r\n    KawaiiType = \"skirt\"\r\n  },\r\n  [1004] = {\r\n    KawaiiId = 1004,\r\n    KawaiiParament = {\r\n      EnterJump = T.RT_5,\r\n      EnterSecJump = T.RT_5,\r\n      Idle = T.RT_5,\r\n      InAir = T.RT_5,\r\n      Land = T.RT_5,\r\n      LevelEnter = T.RT_5,\r\n      RunLoop = T.RT_5,\r\n      RunStart = T.RT_5,\r\n      RunStop = T.RT_5,\r\n      SlideToIdle = T.RT_5,\r\n      StartSlide = T.RT_5\r\n    },\r\n    KawaiiType = \"hair\"\r\n  },\r\n  [1005] = {\r\n    KawaiiId = 1005,\r\n    KawaiiParament = {\r\n      EnterJump = T.RT_6,\r\n      EnterSecJump = T.RT_6,\r\n      Idle = T.RT_6,\r\n      InAir = {\r\n        Damping = 0.7,\r\n        LimitAngle = 0,\r\n        Radius = 3.0,\r\n        Stiffness = 0.5,\r\n        Width = 5,\r\n        WordDampingLocation = 0.8,\r\n        WordDampingRotation = 0.5\r\n      },\r\n      Land = {\r\n        Damping = 0.7,\r\n        LimitAngle = 0,\r\n        Radius = 3.0,\r\n        Stiffness = 0.3,\r\n        Width = 5,\r\n        WordDampingLocation = 0.9,\r\n        WordDampingRotation = 0.5\r\n      },\r\n      LevelEnter = T.RT_6,\r\n      RunLoop = {\r\n        Damping = 0.6,\r\n        LimitAngle = 0,\r\n        Radius = 3.0,\r\n        Stiffness = 0.3,\r\n        Width = 5,\r\n        WordDampingLocation = 0.8,\r\n        WordDampingRotation = 0.5\r\n      },\r\n      RunStart = T.RT_6,\r\n      RunStop = T.RT_6,\r\n      SlideToIdle = T.RT_6,\r\n      StartSlide = {\r\n        Damping = 0.6,\r\n        LimitAngle = 0,\r\n        Radius = 3.0,\r\n        Stiffness = 0.3,\r\n        Width = 5,\r\n        WordDampingLocation = 0.7,\r\n        WordDampingRotation = 0.5\r\n      }\r\n    },\r\n    KawaiiType = \"cloak\"\r\n  },\r\n  [1006] = {\r\n    KawaiiId = 1006,\r\n    KawaiiParament = {\r\n      EnterJump = T.RT_3,\r\n      EnterSecJump = T.RT_3,\r\n      Idle = T.RT_3,\r\n      InAir = {\r\n        Damping = 0.9,\r\n        LimitAngle = 0,\r\n        Radius = 3.0,\r\n        Stiffness = 0.9,\r\n        Width = 5,\r\n        WordDampingLocation = 0.9,\r\n        WordDampingRotation = 0.5\r\n      },\r\n      Land = T.RT_3,\r\n      LevelEnter = T.RT_3,\r\n      RunLoop = T.RT_3,\r\n      RunStart = T.RT_3,\r\n      RunStop = T.RT_4,\r\n      SlideToIdle = T.RT_3,\r\n      StartSlide = T.RT_3\r\n    },\r\n    KawaiiType = \"hair\"\r\n  },\r\n  [1007] = {\r\n    KawaiiId = 1007,\r\n    KawaiiParament = {\r\n      EnterJump = T.RT_2,\r\n      EnterSecJump = T.RT_2,\r\n      Idle = T.RT_2,\r\n      InAir = {\r\n        Damping = 0.7,\r\n        LimitAngle = 0,\r\n        Radius = 3.0,\r\n        Stiffness = 0.6,\r\n        Width = 5,\r\n        WordDampingLocation = 0.9,\r\n        WordDampingRotation = 0.5\r\n      },\r\n      Land = T.RT_2,\r\n      LevelEnter = T.RT_2,\r\n      RunLoop = T.RT_2,\r\n      RunStart = T.RT_2,\r\n      RunStop = T.RT_2,\r\n      SlideToIdle = T.RT_2,\r\n      StartSlide = T.RT_2\r\n    },\r\n    KawaiiType = \"cloak"
+    "KawaiiType": "hair"
+  },
+  "1002": {
+    "KawaiiId": 1002,
+    "KawaiiParament": {
+      "EnterJump": {
+        "Damping": 0.8,
+        "LimitAngle": 0,
+        "Radius": 3,
+        "Stiffness": 0.6,
+        "Width": 5,
+        "WordDampingLocation": 0.7,
+        "WordDampingRotation": 0.5
+      },
+      "EnterSecJump": {
+        "Damping": 0.8,
+        "LimitAngle": 0,
+        "Radius": 3,
+        "Stiffness": 0.5,
+        "Width": 5,
+        "WordDampingLocation": 0.7,
+        "WordDampingRotation": 0.5
+      },
+      "Idle": {
+        "Damping": 0.8,
+        "LimitAngle": 0,
+        "Radius": 3,
+        "Stiffness": 0.8,
+        "Width": 5,
+        "WordDampingLocation": 0.9,
+        "WordDampingRotation": 0.5
+      },
+      "InAir": {
+        "Damping": 0.7,
+        "LimitAngle": 0,
+        "Radius": 3,
+        "Stiffness": 0.5,
+        "Width": 5,
+        "WordDampingLocation": 0.7,
+        "WordDampingRotation": 0.5
+      },
+      "Land": {
+        "Damping": 0.9,
+        "LimitAngle": 0,
+        "Radius": 3,
+        "Stiffness": 0.8,
+        "Width": 5,
+        "WordDampingLocation": 0.9,
+        "WordDampingRotation": 0.5
+      },
+      "LevelEnter": {
+        "Damping": 0.8,
+        "LimitAngle": 0,
+        "Radius": 3,
+        "Stiffness": 0.8,
+        "Width": 5,
+        "WordDampingLocation": 0.7,
+        "WordDampingRotation": 0.5
+      },
+      "RunLoop": {
+        "Damping": 0.8,
+        "LimitAngle": 0,
+        "Radius": 3,
+        "Stiffness": 0.8,
+        "Width": 5,
+        "WordDampingLocation": 0.9,
+        "WordDampingRotation": 0.5
+      },
+      "RunStart": {
+        "Damping": 0.8,
+        "LimitAngle": 0,
+        "Radius": 3,
+        "Stiffness": 0.8,
+        "Width": 5,
+        "WordDampingLocation": 0.9,
+        "WordDampingRotation": 0.5
+      },
+      "RunStop": {
+        "Damping": 0.8,
+        "LimitAngle": 0,
+        "Radius": 3,
+        "Stiffness": 0.8,
+        "Width": 5,
+        "WordDampingLocation": 0.9,
+        "WordDampingRotation": 0.5
+      },
+      "SlideToIdle": {
+        "Damping": 0.8,
+        "LimitAngle": 0,
+        "Radius": 3,
+        "Stiffness": 0.8,
+        "Width": 5,
+        "WordDampingLocation": 0.9,
+        "WordDampingRotation": 0.5
+      },
+      "StartSlide": {
+        "Damping": 0.8,
+        "LimitAngle": 0,
+        "Radius": 3,
+        "Stiffness": 0.8,
+        "Width": 5,
+        "WordDampingLocation": 0.9,
+        "WordDampingRotation": 0.5
+      }
+    },
+    "KawaiiType": "cloak"
+  },
+  "1003": {
+    "KawaiiId": 1003,
+    "KawaiiParament": {
+      "EnterJump": {
+        "Damping": 0.8,
+        "LimitAngle": 0,
+        "Radius": 3,
+        "Stiffness": 0.8,
+        "Width": 5,
+        "WordDampingLocation": 0.9,
+        "WordDampingRotation": 0.5
+      },
+      "EnterSecJump": {
+        "Damping": 0.8,
+        "LimitAngle": 0,
+        "Radius": 3,
+        "Stiffness": 0.8,
+        "Width": 5,
+        "WordDampingLocation": 0.9,
+        "WordDampingRotation": 0.5
+      },
+      "Idle": {
+        "Damping": 0.8,
+        "LimitAngle": 0,
+        "Radius": 3,
+        "Stiffness": 0.8,
+        "Width": 5,
+        "WordDampingLocation": 0.9,
+        "WordDampingRotation": 0.5
+      },
+      "InAir": {
+        "Damping": 0.8,
+        "LimitAngle": 0,
+        "Radius": 3,
+        "Stiffness": 0.8,
+        "Width": 5,
+        "WordDampingLocation": 0.9,
+        "WordDampingRotation": 0.5
+      },
+      "Land": {
+        "Damping": 0.8,
+        "LimitAngle": 0,
+        "Radius": 3,
+        "Stiffness": 0.8,
+        "Width": 5,
+        "WordDampingLocation": 0.9,
+        "WordDampingRotation": 0.5
+      },
+      "LevelEnter": {
+        "Damping": 0.8,
+        "LimitAngle": 0,
+        "Radius": 3,
+        "Stiffness": 0.8,
+        "Width": 5,
+        "WordDampingLocation": 0.9,
+        "WordDampingRotation": 0.5
+      },
+      "RunLoop": {
+        "Damping": 0.8,
+        "LimitAngle": 0,
+        "Radius": 3,
+        "Stiffness": 0.8,
+        "Width": 5,
+        "WordDampingLocation": 0.9,
+        "WordDampingRotation": 0.5
+      },
+      "RunStart": {
+        "Damping": 0.8,
+        "LimitAngle": 0,
+        "Radius": 3,
+        "Stiffness": 0.8,
+        "Width": 5,
+        "WordDampingLocation": 0.9,
+        "WordDampingRotation": 0.5
+      },
+      "RunStop": {
+        "Damping": 0.8,
+        "LimitAngle": 0,
+        "Radius": 3,
+        "Stiffness": 0.8,
+        "Width": 5,
+        "WordDampingLocation": 0.9,
+        "WordDampingRotation": 0.5
+      },
+      "SlideToIdle": {
+        "Damping": 0.8,
+        "LimitAngle": 0,
+        "Radius": 3,
+        "Stiffness": 0.8,
+        "Width": 5,
+        "WordDampingLocation": 0.9,
+        "WordDampingRotation": 0.5
+      },
+      "StartSlide": {
+        "Damping": 0.8,
+        "LimitAngle": 0,
+        "Radius": 3,
+        "Stiffness": 0.8,
+        "Width": 5,
+        "WordDampingLocation": 0.9,
+        "WordDampingRotation": 0.5
+      }
+    },
+    "KawaiiType": "skirt"
+  },
+  "1004": {
+    "KawaiiId": 1004,
+    "KawaiiParament": {
+      "EnterJump": {
+        "Damping": 0.1,
+        "LimitAngle": 0,
+        "Radius": 3,
+        "Stiffness": 0.8,
+        "Width": 5,
+        "WordDampingLocation": 0.9,
+        "WordDampingRotation": 0.5
+      },
+      "EnterSecJump": {
+        "Damping": 0.1,
+        "LimitAngle": 0,
+        "Radius": 3,
+        "Stiffness": 0.8,
+        "Width": 5,
+        "WordDampingLocation": 0.9,
+        "WordDampingRotation": 0.5
+      },
+      "Idle": {
+        "Damping": 0.1,
+        "LimitAngle": 0,
+        "Radius": 3,
+        "Stiffness": 0.8,
+        "Width": 5,
+        "WordDampingLocation": 0.9,
+        "WordDampingRotation": 0.5
+      },
+      "InAir": {
+        "Damping": 0.1,
+        "LimitAngle": 0,
+        "Radius": 3,
+        "Stiffness": 0.8,
+        "Width": 5,
+        "WordDampingLocation": 0.9,
+        "WordDampingRotation": 0.5
+      },
+      "Land": {
+        "Damping": 0.1,
+        "LimitAngle": 0,
+        "Radius": 3,
+        "Stiffness": 0.8,
+        "Width": 5,
+        "WordDampingLocation": 0.9,
+        "WordDampingRotation": 0.5
+      },
+      "LevelEnter": {
+        "Damping": 0.1,
+        "LimitAngle": 0,
+        "Radius": 3,
+        "Stiffness": 0.8,
+        "Width": 5,
+        "WordDampingLocation": 0.9,
+        "WordDampingRotation": 0.5
+      },
+      "RunLoop": {
+        "Damping": 0.1,
+        "LimitAngle": 0,
+        "Radius": 3,
+        "Stiffness": 0.8,
+        "Width": 5,
+        "WordDampingLocation": 0.9,
+        "WordDampingRotation": 0.5
+      },
+      "RunStart": {
+        "Damping": 0.1,
+        "LimitAngle": 0,
+        "Radius": 3,
+        "Stiffness": 0.8,
+        "Width": 5,
+        "WordDampingLocation": 0.9,
+        "WordDampingRotation": 0.5
+      },
+      "RunStop": {
+        "Damping": 0.1,
+        "LimitAngle": 0,
+        "Radius": 3,
+        "Stiffness": 0.8,
+        "Width": 5,
+        "WordDampingLocation": 0.9,
+        "WordDampingRotation": 0.5
+      },
+      "SlideToIdle": {
+        "Damping": 0.1,
+        "LimitAngle": 0,
+        "Radius": 3,
+        "Stiffness": 0.8,
+        "Width": 5,
+        "WordDampingLocation": 0.9,
+        "WordDampingRotation": 0.5
+      },
+      "StartSlide": {
+        "Damping": 0.1,
+        "LimitAngle": 0,
+        "Radius": 3,
+        "Stiffness": 0.8,
+        "Width": 5,
+        "WordDampingLocation": 0.9,
+        "WordDampingRotation": 0.5
+      }
+    },
+    "KawaiiType": "hair"
+  },
+  "1005": {
+    "KawaiiId": 1005,
+    "KawaiiParament": {
+      "EnterJump": {
+        "Damping": 0.6,
+        "LimitAngle": 0,
+        "Radius": 3,
+        "Stiffness": 0.3,
+        "Width": 5,
+        "WordDampingLocation": 0.9,
+        "WordDampingRotation": 0.5
+      },
+      "EnterSecJump": {
+        "Damping": 0.6,
+        "LimitAngle": 0,
+        "Radius": 3,
+        "Stiffness": 0.3,
+        "Width": 5,
+        "WordDampingLocation": 0.9,
+        "WordDampingRotation": 0.5
+      },
+      "Idle": {
+        "Damping": 0.6,
+        "LimitAngle": 0,
+        "Radius": 3,
+        "Stiffness": 0.3,
+        "Width": 5,
+        "WordDampingLocation": 0.9,
+        "WordDampingRotation": 0.5
+      },
+      "InAir": {
+        "Damping": 0.7,
+        "LimitAngle": 0,
+        "Radius": 3,
+        "Stiffness": 0.5,
+        "Width": 5,
+        "WordDampingLocation": 0.8,
+        "WordDampingRotation": 0.5
+      },
+      "Land": {
+        "Damping": 0.7,
+        "LimitAngle": 0,
+        "Radius": 3,
+        "Stiffness": 0.3,
+        "Width": 5,
+        "WordDampingLocation": 0.9,
+        "WordDampingRotation": 0.5
+      },
+      "LevelEnter": {
+        "Damping": 0.6,
+        "LimitAngle": 0,
+        "Radius": 3,
+        "Stiffness": 0.3,
+        "Width": 5,
+        "WordDampingLocation": 0.9,
+        "WordDampingRotation": 0.5
+      },
+      "RunLoop": {
+        "Damping": 0.6,
+        "LimitAngle": 0,
+        "Radius": 3,
+        "Stiffness": 0.3,
+        "Width": 5,
+        "WordDampingLocation": 0.8,
+        "WordDampingRotation": 0.5
+      },
+      "RunStart": {
+        "Damping": 0.6,
+        "LimitAngle": 0,
+        "Radius": 3,
+        "Stiffness": 0.3,
+        "Width": 5,
+        "WordDampingLocation": 0.9,
+        "WordDampingRotation": 0.5
+      },
+      "RunStop": {
+        "Damping": 0.6,
+        "LimitAngle": 0,
+        "Radius": 3,
+        "Stiffness": 0.3,
+        "Width": 5,
+        "WordDampingLocation": 0.9,
+        "WordDampingRotation": 0.5
+      },
+      "SlideToIdle": {
+        "Damping": 0.6,
+        "LimitAngle": 0,
+        "Radius": 3,
+        "Stiffness": 0.3,
+        "Width": 5,
+        "WordDampingLocation": 0.9,
+        "WordDampingRotation": 0.5
+      },
+      "StartSlide": {
+        "Damping": 0.6,
+        "LimitAngle": 0,
+        "Radius": 3,
+        "Stiffness": 0.3,
+        "Width": 5,
+        "WordDampingLocation": 0.7,
+        "WordDampingRotation": 0.5
+      }
+    },
+    "KawaiiType": "cloak"
+  },
+  "1006": {
+    "KawaiiId": 1006,
+    "KawaiiParament": {
+      "EnterJump": {
+        "Damping": 0.8,
+        "LimitAngle": 0,
+        "Radius": 3,
+        "Stiffness": 0.8,
+        "Width": 5,
+        "WordDampingLocation": 0.9,
+        "WordDampingRotation": 0.5
+      },
+      "EnterSecJump": {
+        "Damping": 0.8,
+        "LimitAngle": 0,
+        "Radius": 3,
+        "Stiffness": 0.8,
+        "Width": 5,
+        "WordDampingLocation": 0.9,
+        "WordDampingRotation": 0.5
+      },
+      "Idle": {
+        "Damping": 0.8,
+        "LimitAngle": 0,
+        "Radius": 3,
+        "Stiffness": 0.8,
+        "Width": 5,
+        "WordDampingLocation": 0.9,
+        "WordDampingRotation": 0.5
+      },
+      "InAir": {
+        "Damping": 0.9,
+        "LimitAngle": 0,
+        "Radius": 3,
+        "Stiffness": 0.9,
+        "Width": 5,
+        "WordDampingLocation": 0.9,
+        "WordDampingRotation": 0.5
+      },
+      "Land": {
+        "Damping": 0.8,
+        "LimitAngle": 0,
+        "Radius": 3,
+        "Stiffness": 0.8,
+        "Width": 5,
+        "WordDampingLocation": 0.9,
+        "WordDampingRotation": 0.5
+      },
+      "LevelEnter": {
+        "Damping": 0.8,
+        "LimitAngle": 0,
+        "Radius": 3,
+        "Stiffness": 0.8,
+        "Width": 5,
+        "WordDampingLocation": 0.9,
+        "WordDampingRotation": 0.5
+      },
+      "RunLoop": {
+        "Damping": 0.8,
+        "LimitAngle": 0,
+        "Radius": 3,
+        "Stiffness": 0.8,
+        "Width": 5,
+        "WordDampingLocation": 0.9,
+        "WordDampingRotation": 0.5
+      },
+      "RunStart": {
+        "Damping": 0.8,
+        "LimitAngle": 0,
+        "Radius": 3,
+        "Stiffness": 0.8,
+        "Width": 5,
+        "WordDampingLocation": 0.9,
+        "WordDampingRotation": 0.5
+      },
+      "RunStop": {
+        "Damping": 0.9,
+        "LimitAngle": 0,
+        "Radius": 3,
+        "Stiffness": 0.8,
+        "Width": 5,
+        "WordDampingLocation": 0.9,
+        "WordDampingRotation": 0.5
+      },
+      "SlideToIdle": {
+        "Damping": 0.8,
+        "LimitAngle": 0,
+        "Radius": 3,
+        "Stiffness": 0.8,
+        "Width": 5,
+        "WordDampingLocation": 0.9,
+        "WordDampingRotation": 0.5
+      },
+      "StartSlide": {
+        "Damping": 0.8,
+        "LimitAngle": 0,
+        "Radius": 3,
+        "Stiffness": 0.8,
+        "Width": 5,
+        "WordDampingLocation": 0.9,
+        "WordDampingRotation": 0.5
+      }
+    },
+    "KawaiiType": "hair"
+  },
+  "1007": {
+    "KawaiiId": 1007,
+    "KawaiiParament": {
+      "EnterJump": {
+        "Damping": 0.8,
+        "LimitAngle": 0,
+        "Radius": 3,
+        "Stiffness": 0.6,
+        "Width": 5,
+        "WordDampingLocation": 0.9,
+        "WordDampingRotation": 0.5
+      },
+      "EnterSecJump": {
+        "Damping": 0.8,
+        "LimitAngle": 0,
+        "Radius": 3,
+        "Stiffness": 0.6,
+        "Width": 5,
+        "WordDampingLocation": 0.9,
+        "WordDampingRotation": 0.5
+      },
+      "Idle": {
+        "Damping": 0.8,
+        "LimitAngle": 0,
+        "Radius": 3,
+        "Stiffness": 0.6,
+        "Width": 5,
+        "WordDampingLocation": 0.9,
+        "WordDampingRotation": 0.5
+      },
+      "InAir": {
+        "Damping": 0.7,
+        "LimitAngle": 0,
+        "Radius": 3,
+        "Stiffness": 0.6,
+        "Width": 5,
+        "WordDampingLocation": 0.9,
+        "WordDampingRotation": 0.5
+      },
+      "Land": {
+        "Damping": 0.8,
+        "LimitAngle": 0,
+        "Radius": 3,
+        "Stiffness": 0.6,
+        "Width": 5,
+        "WordDampingLocation": 0.9,
+        "WordDampingRotation": 0.5
+      },
+      "LevelEnter": {
+        "Damping": 0.8,
+        "LimitAngle": 0,
+        "Radius": 3,
+        "Stiffness": 0.6,
+        "Width": 5,
+        "WordDampingLocation": 0.9,
+        "WordDampingRotation": 0.5
+      },
+      "RunLoop": {
+        "Damping": 0.8,
+        "LimitAngle": 0,
+        "Radius": 3,
+        "Stiffness": 0.6,
+        "Width": 5,
+        "WordDampingLocation": 0.9,
+        "WordDampingRotation": 0.5
+      },
+      "RunStart": {
+        "Damping": 0.8,
+        "LimitAngle": 0,
+        "Radius": 3,
+        "Stiffness": 0.6,
+        "Width": 5,
+        "WordDampingLocation": 0.9,
+        "WordDampingRotation": 0.5
+      },
+      "RunStop": {
+        "Damping": 0.8,
+        "LimitAngle": 0,
+        "Radius": 3,
+        "Stiffness": 0.6,
+        "Width": 5,
+        "WordDampingLocation": 0.9,
+        "WordDampingRotation": 0.5
+      },
+      "SlideToIdle": {
+        "Damping": 0.8,
+        "LimitAngle": 0,
+        "Radius": 3,
+        "Stiffness": 0.6,
+        "Width": 5,
+        "WordDampingLocation": 0.9,
+        "WordDampingRotation": 0.5
+      },
+      "StartSlide": {
+        "Damping": 0.8,
+        "LimitAngle": 0,
+        "Radius": 3,
+        "Stiffness": 0.6,
+        "Width": 5,
+        "WordDampingLocation": 0.9,
+        "WordDampingRotation": 0.5
+      }
+    },
+    "KawaiiType": "cloak"
   }
 }

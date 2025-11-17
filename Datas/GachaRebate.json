@@ -2,7 +2,27 @@
   "Char": {
     "4": {
       "Rarity": 4,
-      "Type": "Char\"},\r\n    [5] = {Rarity = 5, Type = \"Char\"}\r\n  },\r\n  Weapon = {\r\n    [3] = {Rarity = 3, Type = \"Weapon\"},\r\n    [4] = {Rarity = 4, Type = \"Weapon\"},\r\n    [5] = {Rarity = 5, Type = \"Weapon"
+      "Type": "Char"
+    },
+    "5": {
+      "Rarity": 5,
+      "Type": "Char"
     }
-  }
+  },
+  "Weapon": [
+    null,
+    null,
+    {
+      "Rarity": 3,
+      "Type": "Weapon"
+    },
+    {
+      "Rarity": 4,
+      "Type": "Weapon"
+    },
+    {
+      "Rarity": 5,
+      "Type": "Weapon"
+    }
+  ]
 }

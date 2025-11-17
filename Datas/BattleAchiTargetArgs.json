@@ -10,14 +10,192 @@
   },
   "Damage": {
     "ArgName": [
-      "DamageType\",\r\n  [2] = \"DamageTag\",\r\n  [3] = \"ExceptDamageTag"
+      "DamageType",
+      "DamageTag",
+      "ExceptDamageTag"
     ],
     "ArgType": [
-      "List(DamageType)\",\r\n  [2] = \"List(String)\",\r\n  [3] = \"List(String)"
+      "List(DamageType)",
+      "List(String)",
+      "List(String)"
     ],
     "TargetType": "Damage"
   },
   "DamageOnDefeated": {
-    "ArgName": "{\r\n      [1] = \"DamageType\",\r\n      [2] = \"DamageTag\",\r\n      [3] = \"ExceptSkillType\"\r\n    },\r\n    ArgType = {\r\n      [1] = \"List(DamageType)\",\r\n      [2] = \"List(String)\",\r\n      [3] = \"List(SkillType)\"\r\n    },\r\n    TargetType = \"DamageOnDefeated\"\r\n  },\r\n  Damaged = {\r\n    ArgName = {\r\n      [1] = \"DamageType\",\r\n      [2] = \"DamageTag\",\r\n      [3] = \"TrueValue\"\r\n    },\r\n    ArgType = {\r\n      [1] = \"List(DamageType)\",\r\n      [2] = \"List(String)\",\r\n      [3] = \"float\"\r\n    },\r\n    TargetType = \"Damaged\"\r\n  },\r\n  Heal = {\r\n    ArgName = T.RT_1,\r\n    ArgType = T.RT_2,\r\n    TargetType = \"Heal\"\r\n  },\r\n  LimitTimeAddBuff = {\r\n    ArgName = {\r\n      [1] = \"LimitTime\",\r\n      [2] = \"BuffType\"\r\n    },\r\n    ArgType = {\r\n      [1] = \"float\",\r\n      [2] = \"List(Int)\"\r\n    },\r\n    TargetType = \"LimitTimeAddBuff\"\r\n  },\r\n  LimitTimeKillMonster = {\r\n    ArgName = T.RT_3,\r\n    ArgType = T.RT_4,\r\n    TargetType = \"LimitTimeKillMonster\"\r\n  },\r\n  LimitTimeUseNormalSkill = {\r\n    ArgName = T.RT_3,\r\n    ArgType = T.RT_4,\r\n    TargetType = \"LimitTimeUseNormalSkill\"\r\n  },\r\n  LimitTimeUseUltraSkill = {\r\n    ArgName = T.RT_3,\r\n    ArgType = T.RT_4,\r\n    TargetType = \"LimitTimeUseUltraSkill\"\r\n  },\r\n  OnAddBuffToOther = {\r\n    ArgName = T.RT_5,\r\n    ArgType = T.RT_6,\r\n    TargetType = \"OnAddBuffToOther\"\r\n  },\r\n  OnAddPhantom = {\r\n    ArgName = {\r\n      [1] = \"PhantomId\"\r\n    },\r\n    ArgType = {\r\n      [1] = \"List(Int)\"\r\n    },\r\n    TargetType = \"OnAddPhantom\"\r\n  },\r\n  OnAddSp = {\r\n    ArgName = {\r\n      [1] = \"Reason\"\r\n    },\r\n    ArgType = {\r\n      [1] = \"Int\"\r\n    },\r\n    TargetType = \"OnAddSp\"\r\n  },\r\n  OnBuffRemovedFromTarget = {\r\n    ArgName = T.RT_5,\r\n    ArgType = T.RT_6,\r\n    TargetType = \"OnBuffRemovedFromTarget\"\r\n  },\r\n  OnDungeonEndWithoutPhantom = {\r\n    TargetType = \"OnDungeonEndWithoutPhantom\"\r\n  },\r\n  OnFinishHardBoss = {\r\n    TargetType = \"OnFinishHardBoss\"\r\n  },\r\n  OnMonsterAddedBuff = {\r\n    ArgName = T.RT_5,\r\n    ArgType = T.RT_6,\r\n    TargetType = \"OnMonsterAddedBuff\"\r\n  },\r\n  OnRecoverTeammate = {\r\n    TargetType = \"OnRecoverTeammate\"\r\n  },\r\n  OnTagChanged = {\r\n    ArgName = {\r\n      [1] = \"Tags\"\r\n    },\r\n    ArgType = {\r\n      [1] = \"List(String)\"\r\n    },\r\n    TargetType = \"OnTagChanged\"\r\n  },\r\n  OnTargetKilled = {\r\n    ArgName = {\r\n      [1] = \"BuffType\",\r\n      [2] = \"SkillType\",\r\n      [3] = \"UnitId\",\r\n      [4] = \"Tag\",\r\n      [5] = \"Time\",\r\n      [6] = \"DamageTag\"\r\n    },\r\n    ArgType = {\r\n      [1] = \"List(Int)\",\r\n      [2] = \"List(String)\",\r\n      [3] = \"List(Int)\",\r\n      [4] = \"List(String)\",\r\n      [5] = \"float\",\r\n      [6] = \"List(String)\"\r\n    },\r\n    TargetType = \"OnTargetKilled\"\r\n  },\r\n  PlayerMove = {TargetType = \"PlayerMove\"},\r\n  PlayerUseNormalSkill = {\r\n    TargetType = \"PlayerUseNormalSkill\"\r\n  },\r\n  PlayerUseSupportSkill = {\r\n    TargetType = \"PlayerUseSupportSkill\"\r\n  },\r\n  PlayerUseUltraSkill = {\r\n    TargetType = \"PlayerUseUltraSkill\""
+    "ArgName": [
+      "DamageType",
+      "DamageTag",
+      "ExceptSkillType"
+    ],
+    "ArgType": [
+      "List(DamageType)",
+      "List(String)",
+      "List(SkillType)"
+    ],
+    "TargetType": "DamageOnDefeated"
+  },
+  "Damaged": {
+    "ArgName": [
+      "DamageType",
+      "DamageTag",
+      "TrueValue"
+    ],
+    "ArgType": [
+      "List(DamageType)",
+      "List(String)",
+      "float"
+    ],
+    "TargetType": "Damaged"
+  },
+  "Heal": {
+    "ArgName": [
+      "DamageType",
+      "DamageTag",
+      "ExceptDamageTag"
+    ],
+    "ArgType": [
+      "List(DamageType)",
+      "List(String)",
+      "List(String)"
+    ],
+    "TargetType": "Heal"
+  },
+  "LimitTimeAddBuff": {
+    "ArgName": [
+      "LimitTime",
+      "BuffType"
+    ],
+    "ArgType": [
+      "float",
+      "List(Int)"
+    ],
+    "TargetType": "LimitTimeAddBuff"
+  },
+  "LimitTimeKillMonster": {
+    "ArgName": [
+      "LimitTime"
+    ],
+    "ArgType": [
+      "float"
+    ],
+    "TargetType": "LimitTimeKillMonster"
+  },
+  "LimitTimeUseNormalSkill": {
+    "ArgName": [
+      "LimitTime"
+    ],
+    "ArgType": [
+      "float"
+    ],
+    "TargetType": "LimitTimeUseNormalSkill"
+  },
+  "LimitTimeUseUltraSkill": {
+    "ArgName": [
+      "LimitTime"
+    ],
+    "ArgType": [
+      "float"
+    ],
+    "TargetType": "LimitTimeUseUltraSkill"
+  },
+  "OnAddBuffToOther": {
+    "ArgName": [
+      "BuffType",
+      "CampFilter"
+    ],
+    "ArgType": [
+      "List(Int)",
+      "String"
+    ],
+    "TargetType": "OnAddBuffToOther"
+  },
+  "OnAddPhantom": {
+    "ArgName": [
+      "PhantomId"
+    ],
+    "ArgType": [
+      "List(Int)"
+    ],
+    "TargetType": "OnAddPhantom"
+  },
+  "OnAddSp": {
+    "ArgName": [
+      "Reason"
+    ],
+    "ArgType": [
+      "Int"
+    ],
+    "TargetType": "OnAddSp"
+  },
+  "OnBuffRemovedFromTarget": {
+    "ArgName": [
+      "BuffType",
+      "CampFilter"
+    ],
+    "ArgType": [
+      "List(Int)",
+      "String"
+    ],
+    "TargetType": "OnBuffRemovedFromTarget"
+  },
+  "OnDungeonEndWithoutPhantom": {
+    "TargetType": "OnDungeonEndWithoutPhantom"
+  },
+  "OnFinishHardBoss": {
+    "TargetType": "OnFinishHardBoss"
+  },
+  "OnMonsterAddedBuff": {
+    "ArgName": [
+      "BuffType",
+      "CampFilter"
+    ],
+    "ArgType": [
+      "List(Int)",
+      "String"
+    ],
+    "TargetType": "OnMonsterAddedBuff"
+  },
+  "OnRecoverTeammate": {
+    "TargetType": "OnRecoverTeammate"
+  },
+  "OnTagChanged": {
+    "ArgName": [
+      "Tags"
+    ],
+    "ArgType": [
+      "List(String)"
+    ],
+    "TargetType": "OnTagChanged"
+  },
+  "OnTargetKilled": {
+    "ArgName": [
+      "BuffType",
+      "SkillType",
+      "UnitId",
+      "Tag",
+      "Time",
+      "DamageTag"
+    ],
+    "ArgType": [
+      "List(Int)",
+      "List(String)",
+      "List(Int)",
+      "List(String)",
+      "float",
+      "List(String)"
+    ],
+    "TargetType": "OnTargetKilled"
+  },
+  "PlayerMove": {
+    "TargetType": "PlayerMove"
+  },
+  "PlayerUseNormalSkill": {
+    "TargetType": "PlayerUseNormalSkill"
+  },
+  "PlayerUseSupportSkill": {
+    "TargetType": "PlayerUseSupportSkill"
+  },
+  "PlayerUseUltraSkill": {
+    "TargetType": "PlayerUseUltraSkill"
   }
 }

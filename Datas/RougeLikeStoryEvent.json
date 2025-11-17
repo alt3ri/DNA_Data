@@ -13,6 +13,316 @@
     "Id": 1,
     "RLArchiveSubId": 20000101,
     "StoryEventName": "StoryEvent_SeasonFirst01",
-    "StoryEventType": "StoryEventType_1\"\r\n  },\r\n  [2] = {\r\n    CutOffEvent = true,\r\n    EventCondition = {5151},\r\n    EventMainIcon = \"Texture2D'/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Story01.T_Rouge_Story01'\",\r\n    EventMinRoom = 1,\r\n    EventMoment = 2,\r\n    EventProbability = T.RT_1,\r\n    EventStoryline = \"Rogue/RouEvent_StoryFailed01\",\r\n    Id = 2,\r\n    RLArchiveSubId = 20000201,\r\n    StoryEventName = \"StoryEvent_Failed01\",\r\n    StoryEventType = \"StoryEventType_1\"\r\n  },\r\n  [3] = {\r\n    CutOffEvent = true,\r\n    EventCondition = {5152},\r\n    EventMainIcon = \"Texture2D'/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Story02.T_Rouge_Story02'\",\r\n    EventMinRoom = 8,\r\n    EventMoment = 1,\r\n    EventProbability = T.RT_1,\r\n    EventStoryline = \"Rogue/RouEvent_StorySuccess01\",\r\n    Id = 3,\r\n    RLArchiveSubId = 20000301,\r\n    StoryEventName = \"StoryEvent_Success01\",\r\n    StoryEventType = \"StoryEventType_1\"\r\n  },\r\n  [4] = {\r\n    EventMainIcon = \"Texture2D'/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Story03.T_Rouge_Story03'\",\r\n    EventMoment = -1,\r\n    EventProbability = T.RT_1,\r\n    EventStoryline = \"Rogue/RouEvent_StoryShop_1\",\r\n    Id = 4,\r\n    RLArchiveSubId = 20000401,\r\n    StoryEventName = \"StoryEvent_Shop01_1\",\r\n    StoryEventType = \"StoryEventType_1\"\r\n  },\r\n  [5] = {\r\n    EventMainIcon = \"Texture2D'/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Story03.T_Rouge_Story03'\",\r\n    EventMoment = -1,\r\n    EventProbability = T.RT_1,\r\n    EventStoryline = \"Rogue/RouEvent_StoryShop_2\",\r\n    Id = 5,\r\n    RLArchiveSubId = 20000402,\r\n    StoryEventName = \"StoryEvent_Shop01_2\",\r\n    StoryEventType = \"StoryEventType_1\"\r\n  },\r\n  [6] = {\r\n    EventMainIcon = \"Texture2D'/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Story03.T_Rouge_Story03'\",\r\n    EventMoment = -1,\r\n    EventProbability = T.RT_1,\r\n    EventStoryline = \"Rogue/RouEvent_StoryShop_3\",\r\n    Id = 6,\r\n    RLArchiveSubId = 20000403,\r\n    StoryEventName = \"StoryEvent_Shop01_3\",\r\n    StoryEventType = \"StoryEventType_1\"\r\n  },\r\n  [7] = {\r\n    EventMainIcon = \"Texture2D'/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Story03.T_Rouge_Story03'\",\r\n    EventMoment = -1,\r\n    EventProbability = T.RT_1,\r\n    EventStoryline = \"Rogue/RouEvent_StoryShop_4\",\r\n    Id = 7,\r\n    RLArchiveSubId = 20000404,\r\n    StoryEventName = \"StoryEvent_Shop01_4\",\r\n    StoryEventType = \"StoryEventType_1\"\r\n  },\r\n  [8] = {\r\n    EventMainIcon = \"Texture2D'/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Story03.T_Rouge_Story03'\",\r\n    EventMoment = -1,\r\n    EventProbability = T.RT_1,\r\n    EventStoryline = \"Rogue/RouEvent_StoryShop_5\",\r\n    Id = 8,\r\n    RLArchiveSubId = 20000405,\r\n    StoryEventName = \"StoryEvent_Shop01_5\",\r\n    StoryEventType = \"StoryEventType_1\"\r\n  },\r\n  [9] = {\r\n    EventMainIcon = \"Texture2D'/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Story03.T_Rouge_Story03'\",\r\n    EventMoment = -1,\r\n    EventProbability = T.RT_1,\r\n    EventStoryline = \"Rogue/RouEvent_StoryShop_6\",\r\n    Id = 9,\r\n    RLArchiveSubId = 20000406,\r\n    StoryEventName = \"StoryEvent_Shop01_6\",\r\n    StoryEventType = \"StoryEventType_1\"\r\n  },\r\n  [10] = {\r\n    EventMainIcon = \"Texture2D'/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Story03.T_Rouge_Story03'\",\r\n    EventMoment = -1,\r\n    EventProbability = T.RT_1,\r\n    EventStoryline = \"Rogue/RouEvent_StoryShop_7\",\r\n    Id = 10,\r\n    RLArchiveSubId = 20000407,\r\n    StoryEventName = \"StoryEvent_Shop01_7\",\r\n    StoryEventType = \"StoryEventType_1\"\r\n  },\r\n  [11] = {\r\n    EventCondition = {\r\n      5064,\r\n      5155,\r\n      5075\r\n    },\r\n    EventMainIcon = \"Texture2D'/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Story07.T_Rouge_Story07'\",\r\n    EventMinRoom = 2,\r\n    EventProbability = T.RT_1,\r\n    EventStoryline = \"Rogue/RouEvent_Story11\",\r\n    Id = 11,\r\n    RLArchiveSubId = 20000501,\r\n    StoryEventName = \"StoryEventName_11\",\r\n    StoryEventType = \"StoryEventType_1\"\r\n  },\r\n  [12] = {\r\n    EventCondition = {\r\n      5103,\r\n      5155,\r\n      5076\r\n    },\r\n    EventMainIcon = \"Texture2D'/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Story05.T_Rouge_Story05'\",\r\n    EventMinRoom = 6,\r\n    EventProbability = T.RT_1,\r\n    EventStoryline = \"Rogue/RouEvent_Story12\",\r\n    Id = 12,\r\n    RLArchiveSubId = 20000601,\r\n    StoryEventName = \"StoryEventName_12\",\r\n    StoryEventType = \"StoryEventType_1\"\r\n  },\r\n  [13] = {\r\n    EventCondition = {\r\n      5104,\r\n      5155,\r\n      5077\r\n    },\r\n    EventMainIcon = \"Texture2D'/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Story06.T_Rouge_Story06'\",\r\n    EventMinRoom = 10,\r\n    EventProbability = T.RT_1,\r\n    EventStoryline = \"Rogue/RouEvent_story13\",\r\n    Id = 13,\r\n    RLArchiveSubId = 20000602,\r\n    StoryEventName = \"StoryEventName_13\",\r\n    StoryEventType = \"StoryEventType_1\"\r\n  },\r\n  [14] = {\r\n    EventCondition = {\r\n      5065,\r\n      5105,\r\n      5195,\r\n      5075\r\n    },\r\n    EventMainIcon = \"Texture2D'/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Story04.T_Rouge_Story04'\",\r\n    EventMinRoom = 2,\r\n    EventProbability = T.RT_1,\r\n    EventStoryline = \"Rogue/RouEvent_story21\",\r\n    Id = 14,\r\n    RLArchiveSubId = 20000502,\r\n    StoryEventName = \"StoryEventName_21\",\r\n    StoryEventType = \"StoryEventType_1\"\r\n  },\r\n  [15] = {\r\n    EventCondition = {\r\n      5196,\r\n      5195,\r\n      5078\r\n    },\r\n    EventMainIcon = \"Texture2D'/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Story08.T_Rouge_Story08'\",\r\n    EventMinRoom = 8,\r\n    EventProbability = T.RT_1,\r\n    EventStoryline = \"Rogue/RouEvent_story22\",\r\n    Id = 15,\r\n    RLArchiveSubId = 20000701,\r\n    StoryEventName = \"StoryEventName_22\",\r\n    StoryEventType = \"StoryEventType_1\"\r\n  },\r\n  [16] = {\r\n    EventCondition = {\r\n      5197,\r\n      5195,\r\n      5079\r\n    },\r\n    EventMainIcon = \"Texture2D'/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Story09.T_Rouge_Story09'\",\r\n    EventMinRoom = 14,\r\n    EventProbability = T.RT_1,\r\n    EventStoryline = \"Rogue/RouEvent_story23\",\r\n    Id = 16,\r\n    RLArchiveSubId = 20000702,\r\n    StoryEventName = \"StoryEventName_23\",\r\n    StoryEventType = \"StoryEventType_1\"\r\n  },\r\n  [17] = {\r\n    EventCondition = {\r\n      5066,\r\n      5202,\r\n      5198,\r\n      5075\r\n    },\r\n    EventMainIcon = \"Texture2D'/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Story10.T_Rouge_Story10'\",\r\n    EventMinRoom = 2,\r\n    EventProbability = T.RT_1,\r\n    EventStoryline = \"Rogue/RouEvent_story31\",\r\n    Id = 17,\r\n    RLArchiveSubId = 20000503,\r\n    StoryEventName = \"StoryEventName_31\",\r\n    StoryEventType = \"StoryEventType_1\"\r\n  },\r\n  [18] = {\r\n    EventCondition = {\r\n      5199,\r\n      5198,\r\n      5080\r\n    },\r\n    EventMainIcon = \"Texture2D'/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Story11.T_Rouge_Story11'\",\r\n    EventMinRoom = 11,\r\n    EventProbability = T.RT_1,\r\n    EventStoryline = \"Rogue/RouEvent_story32\",\r\n    Id = 18,\r\n    RLArchiveSubId = 20000801,\r\n    StoryEventName = \"StoryEventName_32\",\r\n    StoryEventType = \"StoryEventType_1\"\r\n  },\r\n  [19] = {\r\n    EventCondition = {\r\n      5200,\r\n      5198,\r\n      5081\r\n    },\r\n    EventMainIcon = \"Texture2D'/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Story12.T_Rouge_Story12'\",\r\n    EventMinRoom = 20,\r\n    EventProbability = T.RT_1,\r\n    EventStoryline = \"Rogue/RouEvent_story33\",\r\n    Id = 19,\r\n    RLArchiveSubId = 20000802,\r\n    StoryEventName = \"StoryEventName_33\",\r\n    StoryEventType = \"StoryEventType_1\"\r\n  },\r\n  [20] = {\r\n    CutOffEvent = true,\r\n    EventCondition = {5201, 5198},\r\n    EventMainIcon = \"Texture2D'/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Story14.T_Rouge_Story14'\",\r\n    EventMinRoom = 20,\r\n    EventMoment = 1,\r\n    EventProbability = T.RT_1,\r\n    EventStoryline = \"Rogue/RouEvent_story34\",\r\n    Id = 20,\r\n    RLArchiveSubId = 20000901,\r\n    StoryEventName = \"StoryEventName_34\",\r\n    StoryEventType = \"StoryEventType_1"
+    "StoryEventType": "StoryEventType_1"
+  },
+  {
+    "CutOffEvent": true,
+    "EventCondition": [
+      5151
+    ],
+    "EventMainIcon": "Texture2D'/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Story01.T_Rouge_Story01'",
+    "EventMinRoom": 1,
+    "EventMoment": 2,
+    "EventProbability": [
+      1,
+      0.1
+    ],
+    "EventStoryline": "Rogue/RouEvent_StoryFailed01",
+    "Id": 2,
+    "RLArchiveSubId": 20000201,
+    "StoryEventName": "StoryEvent_Failed01",
+    "StoryEventType": "StoryEventType_1"
+  },
+  {
+    "CutOffEvent": true,
+    "EventCondition": [
+      5152
+    ],
+    "EventMainIcon": "Texture2D'/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Story02.T_Rouge_Story02'",
+    "EventMinRoom": 8,
+    "EventMoment": 1,
+    "EventProbability": [
+      1,
+      0.1
+    ],
+    "EventStoryline": "Rogue/RouEvent_StorySuccess01",
+    "Id": 3,
+    "RLArchiveSubId": 20000301,
+    "StoryEventName": "StoryEvent_Success01",
+    "StoryEventType": "StoryEventType_1"
+  },
+  {
+    "EventMainIcon": "Texture2D'/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Story03.T_Rouge_Story03'",
+    "EventMoment": -1,
+    "EventProbability": [
+      1,
+      0.1
+    ],
+    "EventStoryline": "Rogue/RouEvent_StoryShop_1",
+    "Id": 4,
+    "RLArchiveSubId": 20000401,
+    "StoryEventName": "StoryEvent_Shop01_1",
+    "StoryEventType": "StoryEventType_1"
+  },
+  {
+    "EventMainIcon": "Texture2D'/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Story03.T_Rouge_Story03'",
+    "EventMoment": -1,
+    "EventProbability": [
+      1,
+      0.1
+    ],
+    "EventStoryline": "Rogue/RouEvent_StoryShop_2",
+    "Id": 5,
+    "RLArchiveSubId": 20000402,
+    "StoryEventName": "StoryEvent_Shop01_2",
+    "StoryEventType": "StoryEventType_1"
+  },
+  {
+    "EventMainIcon": "Texture2D'/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Story03.T_Rouge_Story03'",
+    "EventMoment": -1,
+    "EventProbability": [
+      1,
+      0.1
+    ],
+    "EventStoryline": "Rogue/RouEvent_StoryShop_3",
+    "Id": 6,
+    "RLArchiveSubId": 20000403,
+    "StoryEventName": "StoryEvent_Shop01_3",
+    "StoryEventType": "StoryEventType_1"
+  },
+  {
+    "EventMainIcon": "Texture2D'/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Story03.T_Rouge_Story03'",
+    "EventMoment": -1,
+    "EventProbability": [
+      1,
+      0.1
+    ],
+    "EventStoryline": "Rogue/RouEvent_StoryShop_4",
+    "Id": 7,
+    "RLArchiveSubId": 20000404,
+    "StoryEventName": "StoryEvent_Shop01_4",
+    "StoryEventType": "StoryEventType_1"
+  },
+  {
+    "EventMainIcon": "Texture2D'/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Story03.T_Rouge_Story03'",
+    "EventMoment": -1,
+    "EventProbability": [
+      1,
+      0.1
+    ],
+    "EventStoryline": "Rogue/RouEvent_StoryShop_5",
+    "Id": 8,
+    "RLArchiveSubId": 20000405,
+    "StoryEventName": "StoryEvent_Shop01_5",
+    "StoryEventType": "StoryEventType_1"
+  },
+  {
+    "EventMainIcon": "Texture2D'/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Story03.T_Rouge_Story03'",
+    "EventMoment": -1,
+    "EventProbability": [
+      1,
+      0.1
+    ],
+    "EventStoryline": "Rogue/RouEvent_StoryShop_6",
+    "Id": 9,
+    "RLArchiveSubId": 20000406,
+    "StoryEventName": "StoryEvent_Shop01_6",
+    "StoryEventType": "StoryEventType_1"
+  },
+  {
+    "EventMainIcon": "Texture2D'/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Story03.T_Rouge_Story03'",
+    "EventMoment": -1,
+    "EventProbability": [
+      1,
+      0.1
+    ],
+    "EventStoryline": "Rogue/RouEvent_StoryShop_7",
+    "Id": 10,
+    "RLArchiveSubId": 20000407,
+    "StoryEventName": "StoryEvent_Shop01_7",
+    "StoryEventType": "StoryEventType_1"
+  },
+  {
+    "EventCondition": [
+      5064,
+      5155,
+      5075
+    ],
+    "EventMainIcon": "Texture2D'/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Story07.T_Rouge_Story07'",
+    "EventMinRoom": 2,
+    "EventProbability": [
+      1,
+      0.1
+    ],
+    "EventStoryline": "Rogue/RouEvent_Story11",
+    "Id": 11,
+    "RLArchiveSubId": 20000501,
+    "StoryEventName": "StoryEventName_11",
+    "StoryEventType": "StoryEventType_1"
+  },
+  {
+    "EventCondition": [
+      5103,
+      5155,
+      5076
+    ],
+    "EventMainIcon": "Texture2D'/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Story05.T_Rouge_Story05'",
+    "EventMinRoom": 6,
+    "EventProbability": [
+      1,
+      0.1
+    ],
+    "EventStoryline": "Rogue/RouEvent_Story12",
+    "Id": 12,
+    "RLArchiveSubId": 20000601,
+    "StoryEventName": "StoryEventName_12",
+    "StoryEventType": "StoryEventType_1"
+  },
+  {
+    "EventCondition": [
+      5104,
+      5155,
+      5077
+    ],
+    "EventMainIcon": "Texture2D'/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Story06.T_Rouge_Story06'",
+    "EventMinRoom": 10,
+    "EventProbability": [
+      1,
+      0.1
+    ],
+    "EventStoryline": "Rogue/RouEvent_story13",
+    "Id": 13,
+    "RLArchiveSubId": 20000602,
+    "StoryEventName": "StoryEventName_13",
+    "StoryEventType": "StoryEventType_1"
+  },
+  {
+    "EventCondition": [
+      5065,
+      5105,
+      5195,
+      5075
+    ],
+    "EventMainIcon": "Texture2D'/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Story04.T_Rouge_Story04'",
+    "EventMinRoom": 2,
+    "EventProbability": [
+      1,
+      0.1
+    ],
+    "EventStoryline": "Rogue/RouEvent_story21",
+    "Id": 14,
+    "RLArchiveSubId": 20000502,
+    "StoryEventName": "StoryEventName_21",
+    "StoryEventType": "StoryEventType_1"
+  },
+  {
+    "EventCondition": [
+      5196,
+      5195,
+      5078
+    ],
+    "EventMainIcon": "Texture2D'/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Story08.T_Rouge_Story08'",
+    "EventMinRoom": 8,
+    "EventProbability": [
+      1,
+      0.1
+    ],
+    "EventStoryline": "Rogue/RouEvent_story22",
+    "Id": 15,
+    "RLArchiveSubId": 20000701,
+    "StoryEventName": "StoryEventName_22",
+    "StoryEventType": "StoryEventType_1"
+  },
+  {
+    "EventCondition": [
+      5197,
+      5195,
+      5079
+    ],
+    "EventMainIcon": "Texture2D'/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Story09.T_Rouge_Story09'",
+    "EventMinRoom": 14,
+    "EventProbability": [
+      1,
+      0.1
+    ],
+    "EventStoryline": "Rogue/RouEvent_story23",
+    "Id": 16,
+    "RLArchiveSubId": 20000702,
+    "StoryEventName": "StoryEventName_23",
+    "StoryEventType": "StoryEventType_1"
+  },
+  {
+    "EventCondition": [
+      5066,
+      5202,
+      5198,
+      5075
+    ],
+    "EventMainIcon": "Texture2D'/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Story10.T_Rouge_Story10'",
+    "EventMinRoom": 2,
+    "EventProbability": [
+      1,
+      0.1
+    ],
+    "EventStoryline": "Rogue/RouEvent_story31",
+    "Id": 17,
+    "RLArchiveSubId": 20000503,
+    "StoryEventName": "StoryEventName_31",
+    "StoryEventType": "StoryEventType_1"
+  },
+  {
+    "EventCondition": [
+      5199,
+      5198,
+      5080
+    ],
+    "EventMainIcon": "Texture2D'/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Story11.T_Rouge_Story11'",
+    "EventMinRoom": 11,
+    "EventProbability": [
+      1,
+      0.1
+    ],
+    "EventStoryline": "Rogue/RouEvent_story32",
+    "Id": 18,
+    "RLArchiveSubId": 20000801,
+    "StoryEventName": "StoryEventName_32",
+    "StoryEventType": "StoryEventType_1"
+  },
+  {
+    "EventCondition": [
+      5200,
+      5198,
+      5081
+    ],
+    "EventMainIcon": "Texture2D'/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Story12.T_Rouge_Story12'",
+    "EventMinRoom": 20,
+    "EventProbability": [
+      1,
+      0.1
+    ],
+    "EventStoryline": "Rogue/RouEvent_story33",
+    "Id": 19,
+    "RLArchiveSubId": 20000802,
+    "StoryEventName": "StoryEventName_33",
+    "StoryEventType": "StoryEventType_1"
+  },
+  {
+    "CutOffEvent": true,
+    "EventCondition": [
+      5201,
+      5198
+    ],
+    "EventMainIcon": "Texture2D'/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Story14.T_Rouge_Story14'",
+    "EventMinRoom": 20,
+    "EventMoment": 1,
+    "EventProbability": [
+      1,
+      0.1
+    ],
+    "EventStoryline": "Rogue/RouEvent_story34",
+    "Id": 20,
+    "RLArchiveSubId": 20000901,
+    "StoryEventName": "StoryEventName_34",
+    "StoryEventType": "StoryEventType_1"
   }
 ]

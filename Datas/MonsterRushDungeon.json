@@ -9,6 +9,90 @@
     "StaticCreatorList": [
       851500101
     ],
-    "TargetNum": "100\r\n  },\r\n  [40202] = {\r\n    Description = \"无关卡效果\",\r\n    LevelId = 40202,\r\n    MonsterList = {4020201, 4020202},\r\n    StaticCreatorList = {850100101},\r\n    TargetNum = 100\r\n  },\r\n  [40203] = {\r\n    Description = \"无关卡效果\",\r\n    LevelId = 40203,\r\n    MonsterList = {4020301, 4020302},\r\n    StaticCreatorList = {851300101},\r\n    TargetNum = 100\r\n  },\r\n  [40204] = {\r\n    Description = \"Test\",\r\n    GlobalPassiveList = {40101},\r\n    LevelId = 40204,\r\n    MonsterList = {4020401, 4020402},\r\n    StaticCreatorList = T.RT_1,\r\n    TargetNum = 100\r\n  },\r\n  [40205] = {\r\n    Description = \"Test\",\r\n    GlobalPassiveList = {40102},\r\n    LevelId = 40205,\r\n    MonsterList = {4020501, 4020502},\r\n    StaticCreatorList = T.RT_1,\r\n    TargetNum = 100\r\n  },\r\n  [40206] = {\r\n    Description = \"Test\",\r\n    GlobalPassiveList = {40103},\r\n    LevelId = 40206,\r\n    MonsterList = {4020601, 4020602},\r\n    StaticCreatorList = T.RT_1,\r\n    TargetNum = 100\r\n  },\r\n  [40207] = {\r\n    Description = \"Test\",\r\n    GlobalPassiveList = {40104},\r\n    LevelId = 40207,\r\n    MonsterList = {4020701, 4020702},\r\n    StaticCreatorList = {850000201},\r\n    TargetNum = 100"
+    "TargetNum": 100
+  },
+  "40202": {
+    "Description": "无关卡效果",
+    "LevelId": 40202,
+    "MonsterList": [
+      4020201,
+      4020202
+    ],
+    "StaticCreatorList": [
+      850100101
+    ],
+    "TargetNum": 100
+  },
+  "40203": {
+    "Description": "无关卡效果",
+    "LevelId": 40203,
+    "MonsterList": [
+      4020301,
+      4020302
+    ],
+    "StaticCreatorList": [
+      851300101
+    ],
+    "TargetNum": 100
+  },
+  "40204": {
+    "Description": "Test",
+    "GlobalPassiveList": [
+      40101
+    ],
+    "LevelId": 40204,
+    "MonsterList": [
+      4020401,
+      4020402
+    ],
+    "StaticCreatorList": [
+      851400101
+    ],
+    "TargetNum": 100
+  },
+  "40205": {
+    "Description": "Test",
+    "GlobalPassiveList": [
+      40102
+    ],
+    "LevelId": 40205,
+    "MonsterList": [
+      4020501,
+      4020502
+    ],
+    "StaticCreatorList": [
+      851400101
+    ],
+    "TargetNum": 100
+  },
+  "40206": {
+    "Description": "Test",
+    "GlobalPassiveList": [
+      40103
+    ],
+    "LevelId": 40206,
+    "MonsterList": [
+      4020601,
+      4020602
+    ],
+    "StaticCreatorList": [
+      851400101
+    ],
+    "TargetNum": 100
+  },
+  "40207": {
+    "Description": "Test",
+    "GlobalPassiveList": [
+      40104
+    ],
+    "LevelId": 40207,
+    "MonsterList": [
+      4020701,
+      4020702
+    ],
+    "StaticCreatorList": [
+      850000201
+    ],
+    "TargetNum": 100
   }
 }

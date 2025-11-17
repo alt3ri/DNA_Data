@@ -1,6 +1,233 @@
-[
-  null,
-  {
-    "Accuracys": "{\r\n      [1] = {\r\n        Accuracy = 20,\r\n        Range = T.RT_1\r\n      },\r\n      [2] = {\r\n        Accuracy = 0,\r\n        Range = T.RT_2\r\n      },\r\n      [3] = {\r\n        Accuracy = 20,\r\n        Range = T.RT_3\r\n      },\r\n      [4] = {\r\n        Accuracy = 20,\r\n        Range = T.RT_4\r\n      },\r\n      [5] = {\r\n        Accuracy = 20,\r\n        Range = T.RT_5\r\n      },\r\n      [6] = {\r\n        Accuracy = 20,\r\n        Range = {125, 150}\r\n      }\r\n    },\r\n    BulletAccId = 2\r\n  },\r\n  [101] = {\r\n    Accuracys = {\r\n      [1] = {\r\n        Accuracy = 38,\r\n        Range = T.RT_1\r\n      },\r\n      [2] = {\r\n        Accuracy = 30,\r\n        Range = T.RT_2\r\n      },\r\n      [3] = {\r\n        Accuracy = 18,\r\n        Range = T.RT_3\r\n      },\r\n      [4] = {\r\n        Accuracy = 9,\r\n        Range = T.RT_4\r\n      },\r\n      [5] = {\r\n        Accuracy = 5,\r\n        Range = T.RT_5\r\n      }\r\n    },\r\n    BulletAccId = 101\r\n  },\r\n  [102] = {\r\n    Accuracys = {\r\n      [1] = {\r\n        Accuracy = 38,\r\n        Range = {0, 100}\r\n      },\r\n      [2] = {\r\n        Accuracy = 30,\r\n        Range = {100, 200}\r\n      },\r\n      [3] = {\r\n        Accuracy = 18,\r\n        Range = {200, 300}\r\n      },\r\n      [4] = {\r\n        Accuracy = 9,\r\n        Range = {300, 400}\r\n      },\r\n      [5] = {\r\n        Accuracy = 5,\r\n        Range = {400, 500}\r\n      }\r\n    },\r\n    BulletAccId = 102\r\n  },\r\n  [103] = {\r\n    Accuracys = {\r\n      [1] = {\r\n        Accuracy = 70,\r\n        Range = {0, 376}\r\n      },\r\n      [2] = {\r\n        Accuracy = 30,\r\n        Range = {376, 752}\r\n      }\r\n    },\r\n    BulletAccId = 103\r\n  },\r\n  [104] = {\r\n    Accuracys = {\r\n      [1] = {\r\n        Accuracy = 70,\r\n        Range = {0, 282}\r\n      },\r\n      [2] = {\r\n        Accuracy = 30,\r\n        Range = {282, 564}\r\n      }\r\n    },\r\n    BulletAccId = 104\r\n  },\r\n  [105] = {\r\n    Accuracys = {\r\n      [1] = {\r\n        Accuracy = 70,\r\n        Range = {0, 188}\r\n      },\r\n      [2] = {\r\n        Accuracy = 30,\r\n        Range = {188, 376}\r\n      }\r\n    },\r\n    BulletAccId = 105\r\n  },\r\n  [600201] = {\r\n    Accuracys = {\r\n      [1] = {\r\n        Accuracy = 38,\r\n        Range = {0, 30}\r\n      },\r\n      [2] = {\r\n        Accuracy = 30,\r\n        Range = {30, 60}\r\n      },\r\n      [3] = {\r\n        Accuracy = 18,\r\n        Range = {60, 100}\r\n      },\r\n      [4] = {\r\n        Accuracy = 9,\r\n        Range = {100, 140}\r\n      },\r\n      [5] = {\r\n        Accuracy = 3,\r\n        Range = {140, 200}\r\n      },\r\n      [6] = {\r\n        Accuracy = 2,\r\n        Range = {200, 250}\r\n      }\r\n    },\r\n    BulletAccId = 600201"
+{
+  "2": {
+    "Accuracys": [
+      {
+        "Accuracy": 20,
+        "Range": [
+          0,
+          25
+        ]
+      },
+      {
+        "Accuracy": 0,
+        "Range": [
+          25,
+          50
+        ]
+      },
+      {
+        "Accuracy": 20,
+        "Range": [
+          50,
+          75
+        ]
+      },
+      {
+        "Accuracy": 20,
+        "Range": [
+          75,
+          100
+        ]
+      },
+      {
+        "Accuracy": 20,
+        "Range": [
+          100,
+          125
+        ]
+      },
+      {
+        "Accuracy": 20,
+        "Range": [
+          125,
+          150
+        ]
+      }
+    ],
+    "BulletAccId": 2
+  },
+  "101": {
+    "Accuracys": [
+      {
+        "Accuracy": 38,
+        "Range": [
+          0,
+          25
+        ]
+      },
+      {
+        "Accuracy": 30,
+        "Range": [
+          25,
+          50
+        ]
+      },
+      {
+        "Accuracy": 18,
+        "Range": [
+          50,
+          75
+        ]
+      },
+      {
+        "Accuracy": 9,
+        "Range": [
+          75,
+          100
+        ]
+      },
+      {
+        "Accuracy": 5,
+        "Range": [
+          100,
+          125
+        ]
+      }
+    ],
+    "BulletAccId": 101
+  },
+  "102": {
+    "Accuracys": [
+      {
+        "Accuracy": 38,
+        "Range": [
+          0,
+          100
+        ]
+      },
+      {
+        "Accuracy": 30,
+        "Range": [
+          100,
+          200
+        ]
+      },
+      {
+        "Accuracy": 18,
+        "Range": [
+          200,
+          300
+        ]
+      },
+      {
+        "Accuracy": 9,
+        "Range": [
+          300,
+          400
+        ]
+      },
+      {
+        "Accuracy": 5,
+        "Range": [
+          400,
+          500
+        ]
+      }
+    ],
+    "BulletAccId": 102
+  },
+  "103": {
+    "Accuracys": [
+      {
+        "Accuracy": 70,
+        "Range": [
+          0,
+          376
+        ]
+      },
+      {
+        "Accuracy": 30,
+        "Range": [
+          376,
+          752
+        ]
+      }
+    ],
+    "BulletAccId": 103
+  },
+  "104": {
+    "Accuracys": [
+      {
+        "Accuracy": 70,
+        "Range": [
+          0,
+          282
+        ]
+      },
+      {
+        "Accuracy": 30,
+        "Range": [
+          282,
+          564
+        ]
+      }
+    ],
+    "BulletAccId": 104
+  },
+  "105": {
+    "Accuracys": [
+      {
+        "Accuracy": 70,
+        "Range": [
+          0,
+          188
+        ]
+      },
+      {
+        "Accuracy": 30,
+        "Range": [
+          188,
+          376
+        ]
+      }
+    ],
+    "BulletAccId": 105
+  },
+  "600201": {
+    "Accuracys": [
+      {
+        "Accuracy": 38,
+        "Range": [
+          0,
+          30
+        ]
+      },
+      {
+        "Accuracy": 30,
+        "Range": [
+          30,
+          60
+        ]
+      },
+      {
+        "Accuracy": 18,
+        "Range": [
+          60,
+          100
+        ]
+      },
+      {
+        "Accuracy": 9,
+        "Range": [
+          100,
+          140
+        ]
+      },
+      {
+        "Accuracy": 3,
+        "Range": [
+          140,
+          200
+        ]
+      },
+      {
+        "Accuracy": 2,
+        "Range": [
+          200,
+          250
+        ]
+      }
+    ],
+    "BulletAccId": 600201
   }
-]
+}

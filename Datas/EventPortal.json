@@ -4,6 +4,82 @@
     "JumpUIId": 13,
     "JumpUnlockCondition": 4170,
     "JumpUnlockTips": "EventPortal_UnlockTips_103001",
-    "RewardPreview": "1030011\r\n  },\r\n  [103002] = {\r\n    EventId = 103002,\r\n    EventShop = 28,\r\n    JumpUIId = 14,\r\n    JumpUnlockCondition = 8002,\r\n    JumpUnlockTips = \"EventPortal_UnlockTips_Common\",\r\n    RewardPreview = 1030021,\r\n    SubBPPath2 = \"/Game/UI/WBP/Activity/Widget/Abyss/WBP_Activity_Abyss_Progress.WBP_Activity_Abyss_Progress\"\r\n  },\r\n  [103003] = {\r\n    EventId = 103003,\r\n    JumpFinishCondition = 6009,\r\n    JumpFinishDes = \"UI_EventPortalFinish\",\r\n    JumpUIId = 37,\r\n    JumpUnlockCondition = 100204,\r\n    JumpUnlockTips = \"EventPortal_UnlockTips_103003\",\r\n    RewardPreview = 50510\r\n  },\r\n  [103004] = {\r\n    EventId = 103004,\r\n    JumpFinishCondition = 6010,\r\n    JumpFinishDes = \"UI_EventPortalFinish\",\r\n    JumpUIId = 17,\r\n    JumpUnlockCondition = 110105,\r\n    JumpUnlockTips = \"EventPortal_UnlockTips_103004\",\r\n    RewardPreview = 50518\r\n  },\r\n  [103005] = {\r\n    EventId = 103005,\r\n    JumpUIId = 36,\r\n    JumpUnlockCondition = 8001,\r\n    JumpUnlockTips = \"EventPortal_UnlockTips_Common\",\r\n    RewardPreview = 1030051\r\n  },\r\n  [103006] = {\r\n    EventId = 103006,\r\n    IsUseTabJumpBtn = false,\r\n    JumpUIId = 36,\r\n    JumpUnlockTips = \"EventPortal_UnlockTips_Common\",\r\n    RewardPreview = 1030071,\r\n    SubBPPath2 = \"/Game/UI/WBP/Activity/Widget/JJGame/WBP_Activity_JJGame_TaskEntryBtn.WBP_Activity_JJGame_TaskEntryBtn\"\r\n  },\r\n  [103010] = {\r\n    EventId = 103010,\r\n    JumpUIId = 54,\r\n    JumpUnlockTips = \"EventPortal_UnlockTips_Common\",\r\n    RewardBPPath = \"/Game/UI/WBP/Activity/Widget/FeinaEvent/WBP_Activity_FeinaEvent_LTReward_RText.WBP_Activity_FeinaEvent_LTReward_RText\",\r\n    RewardPreview = 1030062\r\n  },\r\n  [103012] = {\r\n    EventId = 103012,\r\n    JumpFinishCondition = 6019,\r\n    JumpFinishDes = \"UI_EventPortalFinish\",\r\n    JumpUIId = 13,\r\n    JumpUnlockCondition = 4170,\r\n    JumpUnlockTips = \"EventPortal_UnlockTips_103012\",\r\n    RewardPreview = 103012\r\n  },\r\n  [103013] = {\r\n    EventId = 103013,\r\n    JumpFinishCondition = 6020,\r\n    JumpFinishDes = \"UI_EventPortalFinish\",\r\n    JumpUIId = 67,\r\n    JumpUnlockCondition = 100202,\r\n    JumpUnlockTips = \"EventPortal_UnlockTips_103013\",\r\n    RewardPreview = 50577\r\n  },\r\n  [1030022] = {\r\n    EventId = 1030022,\r\n    EventShop = 28,\r\n    JumpUIId = 14,\r\n    JumpUnlockCondition = 8002,\r\n    JumpUnlockTips = \"EventPortal_UnlockTips_Common\",\r\n    RewardPreview = 1030022,\r\n    SubBPPath2 = \"/Game/UI/WBP/Activity/Widget/Abyss/WBP_Activity_Abyss_Progress.WBP_Activity_Abyss_Progress\""
+    "RewardPreview": 1030011
+  },
+  "103002": {
+    "EventId": 103002,
+    "EventShop": 28,
+    "JumpUIId": 14,
+    "JumpUnlockCondition": 8002,
+    "JumpUnlockTips": "EventPortal_UnlockTips_Common",
+    "RewardPreview": 1030021,
+    "SubBPPath2": "/Game/UI/WBP/Activity/Widget/Abyss/WBP_Activity_Abyss_Progress.WBP_Activity_Abyss_Progress"
+  },
+  "103003": {
+    "EventId": 103003,
+    "JumpFinishCondition": 6009,
+    "JumpFinishDes": "UI_EventPortalFinish",
+    "JumpUIId": 37,
+    "JumpUnlockCondition": 100204,
+    "JumpUnlockTips": "EventPortal_UnlockTips_103003",
+    "RewardPreview": 50510
+  },
+  "103004": {
+    "EventId": 103004,
+    "JumpFinishCondition": 6010,
+    "JumpFinishDes": "UI_EventPortalFinish",
+    "JumpUIId": 17,
+    "JumpUnlockCondition": 110105,
+    "JumpUnlockTips": "EventPortal_UnlockTips_103004",
+    "RewardPreview": 50518
+  },
+  "103005": {
+    "EventId": 103005,
+    "JumpUIId": 36,
+    "JumpUnlockCondition": 8001,
+    "JumpUnlockTips": "EventPortal_UnlockTips_Common",
+    "RewardPreview": 1030051
+  },
+  "103006": {
+    "EventId": 103006,
+    "IsUseTabJumpBtn": false,
+    "JumpUIId": 36,
+    "JumpUnlockTips": "EventPortal_UnlockTips_Common",
+    "RewardPreview": 1030071,
+    "SubBPPath2": "/Game/UI/WBP/Activity/Widget/JJGame/WBP_Activity_JJGame_TaskEntryBtn.WBP_Activity_JJGame_TaskEntryBtn"
+  },
+  "103010": {
+    "EventId": 103010,
+    "JumpUIId": 54,
+    "JumpUnlockTips": "EventPortal_UnlockTips_Common",
+    "RewardBPPath": "/Game/UI/WBP/Activity/Widget/FeinaEvent/WBP_Activity_FeinaEvent_LTReward_RText.WBP_Activity_FeinaEvent_LTReward_RText",
+    "RewardPreview": 1030062
+  },
+  "103012": {
+    "EventId": 103012,
+    "JumpFinishCondition": 6019,
+    "JumpFinishDes": "UI_EventPortalFinish",
+    "JumpUIId": 13,
+    "JumpUnlockCondition": 4170,
+    "JumpUnlockTips": "EventPortal_UnlockTips_103012",
+    "RewardPreview": 103012
+  },
+  "103013": {
+    "EventId": 103013,
+    "JumpFinishCondition": 6020,
+    "JumpFinishDes": "UI_EventPortalFinish",
+    "JumpUIId": 67,
+    "JumpUnlockCondition": 100202,
+    "JumpUnlockTips": "EventPortal_UnlockTips_103013",
+    "RewardPreview": 50577
+  },
+  "1030022": {
+    "EventId": 1030022,
+    "EventShop": 28,
+    "JumpUIId": 14,
+    "JumpUnlockCondition": 8002,
+    "JumpUnlockTips": "EventPortal_UnlockTips_Common",
+    "RewardPreview": 1030022,
+    "SubBPPath2": "/Game/UI/WBP/Activity/Widget/Abyss/WBP_Activity_Abyss_Progress.WBP_Activity_Abyss_Progress"
   }
 }

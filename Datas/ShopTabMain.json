@@ -2,6 +2,92 @@
   "110": {
     "Icon": "Texture2D'/Game/UI/Texture/Dynamic/Atlas/Tab/T_Tab_Shop_Recharge.T_Tab_Shop_Recharge'",
     "MainName": "UI_SHOP_MAINTAB_PAY",
-    "MainTabId": "110\r\n  },\r\n  [120] = {\r\n    Icon = \"Texture2D'/Game/UI/Texture/Dynamic/Atlas/Tab/T_Tab_ShopClothes.T_Tab_ShopClothes'\",\r\n    MainName = \"UI_SHOP_MAINTAB_SKIN\",\r\n    MainTabId = 120,\r\n    ReddotNode = \"Shop_Skin\"\r\n  },\r\n  [130] = {\r\n    Icon = \"Texture2D'/Game/UI/Texture/Dynamic/Atlas/Tab/T_Tab_Mod.T_Tab_Mod'\",\r\n    MainName = \"UI_SHOP_MAINTAB_MOD\",\r\n    MainTabId = 130\r\n  },\r\n  [140] = {\r\n    Icon = \"Texture2D'/Game/UI/Texture/Dynamic/Atlas/Tab/T_Tab_Gacha.T_Tab_Gacha'\",\r\n    MainName = \"UI_SHOP_MAINTAB_GACHA\",\r\n    MainTabId = 140,\r\n    ReddotNode = \"Shop_Gacha\"\r\n  },\r\n  [150] = {\r\n    Icon = \"Texture2D'/Game/UI/Texture/Dynamic/Atlas/Tab/T_Tab_Item.T_Tab_Item'\",\r\n    MainName = \"UI_SHOP_MAINTAB_ITEM\",\r\n    MainTabId = 150,\r\n    ReddotNode = \"Shop_Item\"\r\n  },\r\n  [160] = {\r\n    Icon = \"Texture2D'/Game/UI/Texture/Dynamic/Atlas/Tab/T_Tab_Shop_PayGift.T_Tab_Shop_PayGift'\",\r\n    MainName = \"UI_SHOP_MAINTAB_PACK\",\r\n    MainTabId = 160,\r\n    ReddotNode = \"Shop_Pack\"\r\n  },\r\n  [170] = {\r\n    Icon = \"Texture2D'/Game/UI/Texture/Dynamic/Atlas/Tab/T_Tab_Shop_Banner.T_Tab_Shop_Banner'\",\r\n    MainName = \"UI_SHOP_MAINTAB_BANNER\",\r\n    MainTabId = 170\r\n  },\r\n  [180] = {\r\n    ConditionId = \"SecretLetterShopTab\",\r\n    Icon = \"Texture2D'/Game/UI/Texture/Dynamic/Atlas/Tab/T_Tab_Shop_Walnut.T_Tab_Shop_Walnut'\",\r\n    MainName = \"MAIN_UI_WALNUTBAG\",\r\n    MainTabId = 180,\r\n    ReddotNode = \"Shop_Walnut\",\r\n    UnlockHide = true\r\n  },\r\n  [200] = {\r\n    Icon = \"Texture2D'/Game/UI/Texture/Dynamic/Atlas/Tab/T_Tab_Shop_Complex.T_Tab_Shop_Complex'\",\r\n    MainName = \"UI_SHOP_MAINTAB_COMPLEX\",\r\n    MainTabId = 200\r\n  },\r\n  [701] = {\r\n    Icon = \"Texture2D'/Game/UI/Texture/Dynamic/Atlas/Tab/T_Tab_PurgatorioIsland.T_Tab_PurgatorioIsland'\",\r\n    MainName = \"UI_SHOP_TAB_ExploreBadge_Prologue\",\r\n    MainTabId = 701\r\n  },\r\n  [702] = {\r\n    Icon = \"Texture2D'/Game/UI/Texture/Dynamic/Atlas/Tab/T_Tab_IceLake.T_Tab_IceLake'\",\r\n    MainName = \"UI_SHOP_TAB_ExploreBadge_Chapter01\",\r\n    MainTabId = 702\r\n  },\r\n  [703] = {\r\n    ConditionId = \"LonzaFortressShopTab\",\r\n    Icon = \"Texture2D'/Game/UI/Texture/Dynamic/Atlas/Tab/T_Tab_Fortress.T_Tab_Fortress'\",\r\n    MainName = \"UI_SHOP_TAB_ExploreBadge_EXChapter01\",\r\n    MainTabId = 703,\r\n    UnlockHide = true\r\n  },\r\n  [801] = {\r\n    Icon = \"Texture2D'/Game/UI/Texture/Dynamic/Atlas/Tab/T_Tab_Item.T_Tab_Item'\",\r\n    MainName = \"UI_SHOP_MAINTAB_ITEM\",\r\n    MainTabId = 801\r\n  },\r\n  [10000] = {\r\n    ConditionId = \"Abyss\",\r\n    Icon = \"Texture2D'/Game/UI/Texture/Dynamic/Atlas/Tab/T_Tab_ShopClothes.T_Tab_ShopClothes'\",\r\n    MainName = \"Abyss_ExchangeStore\",\r\n    MainTabId = 10000\r\n  },\r\n  [10001] = {\r\n    Icon = \"Texture2D'/Game/UI/Texture/Dynamic/Atlas/Tab/T_Tab_ShopClothes.T_Tab_ShopClothes'\",\r\n    MainName = \"UI_SHOP_TAB_Fishing\",\r\n    MainTabId = 10001\r\n  },\r\n  [10002] = {\r\n    ConditionId = \"Rouge\",\r\n    Icon = \"Texture2D'/Game/UI/Texture/Dynamic/Atlas/Tab/T_Tab_ShopClothes.T_Tab_ShopClothes'\",\r\n    MainName = \"Rouge_ExchangeShop\",\r\n    MainTabId = 10002"
+    "MainTabId": 110
+  },
+  "120": {
+    "Icon": "Texture2D'/Game/UI/Texture/Dynamic/Atlas/Tab/T_Tab_ShopClothes.T_Tab_ShopClothes'",
+    "MainName": "UI_SHOP_MAINTAB_SKIN",
+    "MainTabId": 120,
+    "ReddotNode": "Shop_Skin"
+  },
+  "130": {
+    "Icon": "Texture2D'/Game/UI/Texture/Dynamic/Atlas/Tab/T_Tab_Mod.T_Tab_Mod'",
+    "MainName": "UI_SHOP_MAINTAB_MOD",
+    "MainTabId": 130
+  },
+  "140": {
+    "Icon": "Texture2D'/Game/UI/Texture/Dynamic/Atlas/Tab/T_Tab_Gacha.T_Tab_Gacha'",
+    "MainName": "UI_SHOP_MAINTAB_GACHA",
+    "MainTabId": 140,
+    "ReddotNode": "Shop_Gacha"
+  },
+  "150": {
+    "Icon": "Texture2D'/Game/UI/Texture/Dynamic/Atlas/Tab/T_Tab_Item.T_Tab_Item'",
+    "MainName": "UI_SHOP_MAINTAB_ITEM",
+    "MainTabId": 150,
+    "ReddotNode": "Shop_Item"
+  },
+  "160": {
+    "Icon": "Texture2D'/Game/UI/Texture/Dynamic/Atlas/Tab/T_Tab_Shop_PayGift.T_Tab_Shop_PayGift'",
+    "MainName": "UI_SHOP_MAINTAB_PACK",
+    "MainTabId": 160,
+    "ReddotNode": "Shop_Pack"
+  },
+  "170": {
+    "Icon": "Texture2D'/Game/UI/Texture/Dynamic/Atlas/Tab/T_Tab_Shop_Banner.T_Tab_Shop_Banner'",
+    "MainName": "UI_SHOP_MAINTAB_BANNER",
+    "MainTabId": 170
+  },
+  "180": {
+    "ConditionId": "SecretLetterShopTab",
+    "Icon": "Texture2D'/Game/UI/Texture/Dynamic/Atlas/Tab/T_Tab_Shop_Walnut.T_Tab_Shop_Walnut'",
+    "MainName": "MAIN_UI_WALNUTBAG",
+    "MainTabId": 180,
+    "ReddotNode": "Shop_Walnut",
+    "UnlockHide": true
+  },
+  "200": {
+    "Icon": "Texture2D'/Game/UI/Texture/Dynamic/Atlas/Tab/T_Tab_Shop_Complex.T_Tab_Shop_Complex'",
+    "MainName": "UI_SHOP_MAINTAB_COMPLEX",
+    "MainTabId": 200
+  },
+  "701": {
+    "Icon": "Texture2D'/Game/UI/Texture/Dynamic/Atlas/Tab/T_Tab_PurgatorioIsland.T_Tab_PurgatorioIsland'",
+    "MainName": "UI_SHOP_TAB_ExploreBadge_Prologue",
+    "MainTabId": 701
+  },
+  "702": {
+    "Icon": "Texture2D'/Game/UI/Texture/Dynamic/Atlas/Tab/T_Tab_IceLake.T_Tab_IceLake'",
+    "MainName": "UI_SHOP_TAB_ExploreBadge_Chapter01",
+    "MainTabId": 702
+  },
+  "703": {
+    "ConditionId": "LonzaFortressShopTab",
+    "Icon": "Texture2D'/Game/UI/Texture/Dynamic/Atlas/Tab/T_Tab_Fortress.T_Tab_Fortress'",
+    "MainName": "UI_SHOP_TAB_ExploreBadge_EXChapter01",
+    "MainTabId": 703,
+    "UnlockHide": true
+  },
+  "801": {
+    "Icon": "Texture2D'/Game/UI/Texture/Dynamic/Atlas/Tab/T_Tab_Item.T_Tab_Item'",
+    "MainName": "UI_SHOP_MAINTAB_ITEM",
+    "MainTabId": 801
+  },
+  "10000": {
+    "ConditionId": "Abyss",
+    "Icon": "Texture2D'/Game/UI/Texture/Dynamic/Atlas/Tab/T_Tab_ShopClothes.T_Tab_ShopClothes'",
+    "MainName": "Abyss_ExchangeStore",
+    "MainTabId": 10000
+  },
+  "10001": {
+    "Icon": "Texture2D'/Game/UI/Texture/Dynamic/Atlas/Tab/T_Tab_ShopClothes.T_Tab_ShopClothes'",
+    "MainName": "UI_SHOP_TAB_Fishing",
+    "MainTabId": 10001
+  },
+  "10002": {
+    "ConditionId": "Rouge",
+    "Icon": "Texture2D'/Game/UI/Texture/Dynamic/Atlas/Tab/T_Tab_ShopClothes.T_Tab_ShopClothes'",
+    "MainName": "Rouge_ExchangeShop",
+    "MainTabId": 10002
   }
 }

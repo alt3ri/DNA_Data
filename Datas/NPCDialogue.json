@@ -5,6 +5,105 @@
     "BlendOutTime": 0.2,
     "Content": "UI_Bai_Beibao_Start",
     "DialogueID": 21000101,
-    "MontageSection": "Start\"\r\n  },\r\n  [21000102] = {\r\n    ActionMontage = \"/Game/Asset/Char/Npc/NPC_BaiBB/Animation/Montage/Interactive/NPC_BaiBB_Performance_Montage\",\r\n    BlendInTime = 0.2,\r\n    BlendOutTime = 0,\r\n    Content = \"UI_Bai_Beibao_Finish\",\r\n    DialogueID = 21000102,\r\n    MontageSection = \"Finish\"\r\n  },\r\n  [21000201] = {\r\n    ActionMontage = \"/Game/Asset/Char/Npc/NPC_BaiDZ/Animation/Montage/Interactive/NPC_BaiDZ_Performance_Montage\",\r\n    BlendInTime = 0.2,\r\n    BlendOutTime = 0.2,\r\n    DialogueID = 21000201,\r\n    MontageSection = \"Start\"\r\n  },\r\n  [21000202] = {\r\n    ActionMontage = \"/Game/Asset/Char/Npc/NPC_BaiDZ/Animation/Montage/Interactive/Npc_BaiDZ_Performance_Montage\",\r\n    BlendInTime = 0.2,\r\n    BlendOutTime = 0,\r\n    DialogueID = 21000202,\r\n    MontageSection = \"Task\"\r\n  },\r\n  [21000203] = {\r\n    ActionMontage = \"/Game/Asset/Char/Npc/NPC_BaiDZ/Animation/Montage/Interactive/Npc_BaiDZ_Performance_Montage\",\r\n    BlendInTime = 0.2,\r\n    BlendOutTime = 0,\r\n    DialogueID = 21000203,\r\n    MontageSection = \"End\"\r\n  },\r\n  [21000301] = {\r\n    ActionMontage = \"/Game/Asset/Char/Npc/NPC_BaiSD/Animation/Montage/Interactive/NPC_BaiSD_Performance_Montage\",\r\n    BlendInTime = 0.2,\r\n    BlendOutTime = 0.2,\r\n    DialogueID = 21000301,\r\n    MontageSection = \"Write\"\r\n  },\r\n  [21000302] = {\r\n    ActionMontage = \"/Game/Asset/Char/Npc/NPC_BaiSD/Animation/Montage/Interactive/NPC_BaiSD_Performance_Montage\",\r\n    BlendInTime = 0.2,\r\n    BlendOutTime = 0,\r\n    DialogueID = 21000302,\r\n    MontageSection = \"Idle02\"\r\n  },\r\n  [21000303] = {\r\n    ActionMontage = \"/Game/Asset/Char/Npc/NPC_BaiSD/Animation/Montage/Interactive/NPC_BaiSD_Performance_Montage\",\r\n    BlendInTime = 0.2,\r\n    BlendOutTime = 0.2,\r\n    DialogueID = 21000303,\r\n    MontageSection = \"Idle02\"\r\n  },\r\n  [21000304] = {\r\n    ActionMontage = \"/Game/Asset/Char/Npc/NPC_BaiSD/Animation/Montage/Interactive/NPC_BaiSD_Performance_Montage\",\r\n    BlendInTime = 0.2,\r\n    BlendOutTime = 0,\r\n    DialogueID = 21000304,\r\n    MontageSection = \"Idle02\"\r\n  },\r\n  [21000401] = {\r\n    ActionMontage = \"/Game/Asset/Char/Npc/NPC_BaiTX/Animation/Montage/Interactive/NPC_BaiTX_Performance_Montage\",\r\n    BlendInTime = 0.2,\r\n    BlendOutTime = 0.2,\r\n    DialogueID = 21000401,\r\n    MontageSection = \"Start02\"\r\n  },\r\n  [21000402] = {\r\n    ActionMontage = \"/Game/Asset/Char/Npc/NPC_BaiTX/Animation/Montage/Interactive/NPC_BaiTX_Performance_Montage\",\r\n    BlendInTime = 0.2,\r\n    BlendOutTime = 0,\r\n    DialogueID = 21000402,\r\n    MontageSection = \"End\"\r\n  },\r\n  [21000501] = {\r\n    ActionMontage = \"/Game/Asset/Char/Npc/NPC_BaiTX/Animation/Montage/Interactive/NPC_BaiTX_Performance_Montage\",\r\n    BlendInTime = 0.2,\r\n    BlendOutTime = 0.2,\r\n    DialogueID = 21000501,\r\n    MontageSection = \"Start03\"\r\n  },\r\n  [21000502] = {\r\n    ActionMontage = \"/Game/Asset/Char/Npc/NPC_BaiTX/Animation/Montage/Interactive/NPC_BaiTX_Performance_Montage\",\r\n    BlendInTime = 0.2,\r\n    BlendOutTime = 0,\r\n    DialogueID = 21000502,\r\n    MontageSection = \"End02\"\r\n  },\r\n  [21000503] = {\r\n    ActionMontage = \"/Game/Asset/Char/Npc/NPC_BaiTX/Animation/Montage/Interactive/NPC_BaiTX_Performance_Montage\",\r\n    BlendInTime = 0.2,\r\n    BlendOutTime = 0.2,\r\n    DialogueID = 21000503,\r\n    MontageSection = \"Start02\"\r\n  },\r\n  [21000504] = {\r\n    ActionMontage = \"/Game/Asset/Char/Npc/NPC_BaiTX/Animation/Montage/Interactive/NPC_BaiTX_Performance_Montage\",\r\n    BlendInTime = 0.2,\r\n    BlendOutTime = 0,\r\n    DialogueID = 21000504,\r\n    MontageSection = \"End"
+    "MontageSection": "Start"
+  },
+  "21000102": {
+    "ActionMontage": "/Game/Asset/Char/Npc/NPC_BaiBB/Animation/Montage/Interactive/NPC_BaiBB_Performance_Montage",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0,
+    "Content": "UI_Bai_Beibao_Finish",
+    "DialogueID": 21000102,
+    "MontageSection": "Finish"
+  },
+  "21000201": {
+    "ActionMontage": "/Game/Asset/Char/Npc/NPC_BaiDZ/Animation/Montage/Interactive/NPC_BaiDZ_Performance_Montage",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0.2,
+    "DialogueID": 21000201,
+    "MontageSection": "Start"
+  },
+  "21000202": {
+    "ActionMontage": "/Game/Asset/Char/Npc/NPC_BaiDZ/Animation/Montage/Interactive/Npc_BaiDZ_Performance_Montage",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0,
+    "DialogueID": 21000202,
+    "MontageSection": "Task"
+  },
+  "21000203": {
+    "ActionMontage": "/Game/Asset/Char/Npc/NPC_BaiDZ/Animation/Montage/Interactive/Npc_BaiDZ_Performance_Montage",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0,
+    "DialogueID": 21000203,
+    "MontageSection": "End"
+  },
+  "21000301": {
+    "ActionMontage": "/Game/Asset/Char/Npc/NPC_BaiSD/Animation/Montage/Interactive/NPC_BaiSD_Performance_Montage",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0.2,
+    "DialogueID": 21000301,
+    "MontageSection": "Write"
+  },
+  "21000302": {
+    "ActionMontage": "/Game/Asset/Char/Npc/NPC_BaiSD/Animation/Montage/Interactive/NPC_BaiSD_Performance_Montage",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0,
+    "DialogueID": 21000302,
+    "MontageSection": "Idle02"
+  },
+  "21000303": {
+    "ActionMontage": "/Game/Asset/Char/Npc/NPC_BaiSD/Animation/Montage/Interactive/NPC_BaiSD_Performance_Montage",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0.2,
+    "DialogueID": 21000303,
+    "MontageSection": "Idle02"
+  },
+  "21000304": {
+    "ActionMontage": "/Game/Asset/Char/Npc/NPC_BaiSD/Animation/Montage/Interactive/NPC_BaiSD_Performance_Montage",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0,
+    "DialogueID": 21000304,
+    "MontageSection": "Idle02"
+  },
+  "21000401": {
+    "ActionMontage": "/Game/Asset/Char/Npc/NPC_BaiTX/Animation/Montage/Interactive/NPC_BaiTX_Performance_Montage",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0.2,
+    "DialogueID": 21000401,
+    "MontageSection": "Start02"
+  },
+  "21000402": {
+    "ActionMontage": "/Game/Asset/Char/Npc/NPC_BaiTX/Animation/Montage/Interactive/NPC_BaiTX_Performance_Montage",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0,
+    "DialogueID": 21000402,
+    "MontageSection": "End"
+  },
+  "21000501": {
+    "ActionMontage": "/Game/Asset/Char/Npc/NPC_BaiTX/Animation/Montage/Interactive/NPC_BaiTX_Performance_Montage",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0.2,
+    "DialogueID": 21000501,
+    "MontageSection": "Start03"
+  },
+  "21000502": {
+    "ActionMontage": "/Game/Asset/Char/Npc/NPC_BaiTX/Animation/Montage/Interactive/NPC_BaiTX_Performance_Montage",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0,
+    "DialogueID": 21000502,
+    "MontageSection": "End02"
+  },
+  "21000503": {
+    "ActionMontage": "/Game/Asset/Char/Npc/NPC_BaiTX/Animation/Montage/Interactive/NPC_BaiTX_Performance_Montage",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0.2,
+    "DialogueID": 21000503,
+    "MontageSection": "Start02"
+  },
+  "21000504": {
+    "ActionMontage": "/Game/Asset/Char/Npc/NPC_BaiTX/Animation/Montage/Interactive/NPC_BaiTX_Performance_Montage",
+    "BlendInTime": 0.2,
+    "BlendOutTime": 0,
+    "DialogueID": 21000504,
+    "MontageSection": "End"
   }
 }

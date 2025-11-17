@@ -1,6 +1,629 @@
-[
-  {
+{
+  "1": {
     "Id": 1,
-    "TargetType": "BluePrintTrigger\"\r\n  },\r\n  [1001] = {\r\n    Args = T.RT_2,\r\n    Id = 1001,\r\n    TargetType = \"Heal\"\r\n  },\r\n  [1010] = {\r\n    Args = {\r\n      DamageType = {\"Light\"}\r\n    },\r\n    Id = 1010,\r\n    TargetType = \"Damage\"\r\n  },\r\n  [1011] = {\r\n    Args = {\r\n      DamageType = {\"Dark\"}\r\n    },\r\n    Id = 1011,\r\n    TargetType = \"Damage\"\r\n  },\r\n  [1012] = {\r\n    Args = {\r\n      DamageType = {\"Water\"}\r\n    },\r\n    Id = 1012,\r\n    TargetType = \"Damage\"\r\n  },\r\n  [1013] = {\r\n    Args = {\r\n      DamageType = {\"Fire\"}\r\n    },\r\n    Id = 1013,\r\n    TargetType = \"Damage\"\r\n  },\r\n  [1014] = {\r\n    Args = {\r\n      DamageType = {\"Thunder\"}\r\n    },\r\n    Id = 1014,\r\n    TargetType = \"Damage\"\r\n  },\r\n  [1015] = {\r\n    Args = {\r\n      DamageType = {\"Wind\"}\r\n    },\r\n    Id = 1015,\r\n    TargetType = \"Damage\"\r\n  },\r\n  [1016] = {\r\n    Args = {\r\n      DamageType = {\"Slash\"}\r\n    },\r\n    Id = 1016,\r\n    TargetType = \"Damage\"\r\n  },\r\n  [1017] = {\r\n    Args = {\r\n      DamageType = {\"Spike\"}\r\n    },\r\n    Id = 1017,\r\n    TargetType = \"Damage\"\r\n  },\r\n  [1018] = {\r\n    Args = {\r\n      DamageType = {\"Smash\"}\r\n    },\r\n    Id = 1018,\r\n    TargetType = \"Damage\"\r\n  },\r\n  [1021] = {\r\n    Args = T.RT_2,\r\n    Id = 1021,\r\n    TargetType = \"Heal\"\r\n  },\r\n  [1022] = {\r\n    Args = {\r\n      DamageTag = {\"Weapon\"}\r\n    },\r\n    Id = 1022,\r\n    TargetType = \"Damage\"\r\n  },\r\n  [1023] = {\r\n    Args = {\r\n      DamageTag = {\"Skill\"}\r\n    },\r\n    Id = 1023,\r\n    TargetType = \"Damage\"\r\n  },\r\n  [1024] = {\r\n    Args = T.RT_4,\r\n    Id = 1024,\r\n    TargetType = \"Damage\"\r\n  },\r\n  [1025] = {\r\n    Args = T.RT_6,\r\n    Id = 1025,\r\n    TargetType = \"Damage\"\r\n  },\r\n  [1026] = {\r\n    Args = {\r\n      DamageTag = {\"RouB105\"}\r\n    },\r\n    Id = 1026,\r\n    TargetType = \"Damage\"\r\n  },\r\n  [1027] = {\r\n    Args = {\r\n      DamageTag = {\"RouB106\"}\r\n    },\r\n    Id = 1027,\r\n    TargetType = \"Damage\"\r\n  },\r\n  [1028] = {\r\n    Args = {\r\n      DamageTag = {\"RouB104\"}\r\n    },\r\n    Id = 1028,\r\n    TargetType = \"Damage\"\r\n  },\r\n  [2000] = {\r\n    Id = 2000,\r\n    TargetType = \"OnTargetKilled\"\r\n  },\r\n  [2001] = {\r\n    Args = {\r\n      Tag = {\"Mon.Gr\"}\r\n    },\r\n    Id = 2001,\r\n    TargetType = \"OnTargetKilled\"\r\n  },\r\n  [2002] = {\r\n    Args = {\r\n      Tag = {\"Mon.Jt\"}\r\n    },\r\n    Id = 2002,\r\n    TargetType = \"OnTargetKilled\"\r\n  },\r\n  [2003] = {\r\n    Args = {\r\n      Tag = {\"Mon.Jh\"}\r\n    },\r\n    Id = 2003,\r\n    TargetType = \"OnTargetKilled\"\r\n  },\r\n  [2004] = {\r\n    Args = {\r\n      Tag = {\"Mon.Strong\"}\r\n    },\r\n    Id = 2004,\r\n    TargetType = \"OnTargetKilled\"\r\n  },\r\n  [2005] = {\r\n    Args = {\r\n      Tag = {\"Mon.Sq\"}\r\n    },\r\n    Id = 2005,\r\n    TargetType = \"OnTargetKilled\"\r\n  },\r\n  [2006] = {\r\n    Args = {\r\n      Tag = {\r\n        \"Mon.Strong.Double\"\r\n      }\r\n    },\r\n    Id = 2006,\r\n    TargetType = \"OnTargetKilled\"\r\n  },\r\n  [2007] = {\r\n    Args = {\r\n      Tag = {\r\n        \"Mon.Strong.Triple\"\r\n      }\r\n    },\r\n    Id = 2007,\r\n    TargetType = \"OnTargetKilled\"\r\n  },\r\n  [2008] = {\r\n    Args = {\r\n      Tag = {\r\n        \"Mon.Treasure\"\r\n      }\r\n    },\r\n    Id = 2008,\r\n    TargetType = \"OnTargetKilled\"\r\n  },\r\n  [2011] = {\r\n    Args = T.RT_4,\r\n    Id = 2011,\r\n    TargetType = \"OnTargetKilled\"\r\n  },\r\n  [2012] = {\r\n    Args = T.RT_6,\r\n    Id = 2012,\r\n    TargetType = \"OnTargetKilled\"\r\n  },\r\n  [2013] = {\r\n    Args = {\r\n      DamageTag = {\"FallAttack\"}\r\n    },\r\n    Id = 2013,\r\n    TargetType = \"OnTargetKilled\"\r\n  },\r\n  [2014] = {\r\n    Args = {\r\n      DamageTag = {\r\n        \"HeavyAttack\"\r\n      }\r\n    },\r\n    Id = 2014,\r\n    TargetType = \"OnTargetKilled\"\r\n  },\r\n  [2015] = {\r\n    Args = {\r\n      DamageTag = {\r\n        \"SlideAttack\"\r\n      }\r\n    },\r\n    Id = 2015,\r\n    TargetType = \"OnTargetKilled\"\r\n  },\r\n  [2016] = {\r\n    Args = {\r\n      DamageTag = {\"Ray\"}\r\n    },\r\n    Id = 2016,\r\n    TargetType = \"OnTargetKilled\"\r\n  },\r\n  [2017] = {\r\n    Args = {\r\n      DamageTag = {\"Explode\"}\r\n    },\r\n    Id = 2017,\r\n    TargetType = \"OnTargetKilled\"\r\n  },\r\n  [2021] = {\r\n    Args = T.RT_7,\r\n    Id = 2021,\r\n    TargetType = \"LimitTimeKillMonster\"\r\n  },\r\n  [2022] = {\r\n    Args = T.RT_7,\r\n    Id = 2022,\r\n    TargetType = \"LimitTimeUseNormalSkill\"\r\n  },\r\n  [2023] = {\r\n    Args = {LimitTime = 6},\r\n    Id = 2023,\r\n    TargetType = \"LimitTimeUseUltraSkill\"\r\n  },\r\n  [2024] = {\r\n    Args = {\r\n      BuffType = {\r\n        101,\r\n        102,\r\n        103,\r\n        104,\r\n        105,\r\n        106\r\n      },\r\n      LimitTime = 3\r\n    },\r\n    Id = 2024,\r\n    TargetType = \"LimitTimeAddBuff\"\r\n  },\r\n  [2031] = {\r\n    Id = 2031,\r\n    TargetType = \"PlayerUseNormalSkill\"\r\n  },\r\n  [2032] = {\r\n    Id = 2032,\r\n    TargetType = \"PlayerUseUltraSkill\"\r\n  },\r\n  [2033] = {\r\n    Id = 2033,\r\n    TargetType = \"PlayerUseSupportSkill\"\r\n  },\r\n  [2041] = {\r\n    Id = 2041,\r\n    TargetType = \"BluePrintTrigger\"\r\n  },\r\n  [2042] = {\r\n    Id = 2042,\r\n    TargetType = \"BluePrintTrigger\"\r\n  },\r\n  [2043] = {\r\n    Id = 2043,\r\n    TargetType = \"BluePrintTrigger\"\r\n  },\r\n  [2044] = {\r\n    Id = 2044,\r\n    TargetType = \"BluePrintTrigger\"\r\n  },\r\n  [2045] = {\r\n    Id = 2045,\r\n    TargetType = \"BluePrintTrigger\"\r\n  },\r\n  [2046] = {\r\n    Id = 2046,\r\n    TargetType = \"BluePrintTrigger\"\r\n  },\r\n  [2047] = {\r\n    Id = 2047,\r\n    TargetType = \"BluePrintTrigger\"\r\n  },\r\n  [2051] = {\r\n    Args = {\r\n      UnitId = {70010051}\r\n    },\r\n    Id = 2051,\r\n    TargetType = \"OnTargetKilled\"\r\n  },\r\n  [2052] = {\r\n    Id = 2052,\r\n    TargetType = \"BluePrintTrigger\"\r\n  },\r\n  [2053] = {\r\n    Args = {\r\n      BuffType = {203},\r\n      CampFilter = \"Monster\"\r\n    },\r\n    Id = 2053,\r\n    TargetType = \"OnMonsterAddedBuff\"\r\n  },\r\n  [2101] = {\r\n    Id = 2101,\r\n    TargetType = \"BluePrintTrigger\"\r\n  },\r\n  [2102] = {\r\n    Id = 2102,\r\n    TargetType = \"BluePrintTrigger\"\r\n  },\r\n  [2103] = {\r\n    Id = 2103,\r\n    TargetType = \"BluePrintTrigger\"\r\n  },\r\n  [2104] = {\r\n    Id = 2104,\r\n    TargetType = \"BluePrintTrigger\"\r\n  },\r\n  [2105] = {\r\n    Id = 2105,\r\n    TargetType = \"BluePrintTrigger\"\r\n  },\r\n  [2106] = {\r\n    Id = 2106,\r\n    TargetType = \"BluePrintTrigger\"\r\n  },\r\n  [2107] = {\r\n    Id = 2107,\r\n    TargetType = \"BluePrintTrigger\"\r\n  },\r\n  [2201] = {\r\n    Args = {\r\n      UnitId = {\r\n        10004001,\r\n        10004061,\r\n        10004062\r\n      }\r\n    },\r\n    Id = 2201,\r\n    TargetType = \"OnTargetKilled\"\r\n  },\r\n  [2202] = {\r\n    Args = {\r\n      UnitId = {\r\n        10001001,\r\n        10001061,\r\n        10001062,\r\n        10002001\r\n      }\r\n    },\r\n    Id = 2202,\r\n    TargetType = \"OnTargetKilled\"\r\n  },\r\n  [2203] = {\r\n    Args = {\r\n      UnitId = {8510002}\r\n    },\r\n    Id = 2203,\r\n    TargetType = \"OnTargetKilled\"\r\n  },\r\n  [2204] = {\r\n    Args = {\r\n      UnitId = {8518001}\r\n    },\r\n    Id = 2204,\r\n    TargetType = \"OnTargetKilled\"\r\n  },\r\n  [2205] = {\r\n    Args = {\r\n      UnitId = {8517001}\r\n    },\r\n    Id = 2205,\r\n    TargetType = \"OnTargetKilled\"\r\n  },\r\n  [3001] = {\r\n    Args = {\r\n      ExceptSkillType = {\"Condemn\"}\r\n    },\r\n    Id = 3001,\r\n    TargetType = \"DamageOnDefeated\"\r\n  },\r\n  [3011] = {\r\n    Id = 3011,\r\n    TargetType = \"AddOverEnergyShield\"\r\n  },\r\n  [3012] = {\r\n    Id = 3012,\r\n    TargetType = \"OnRecoverTeammate\"\r\n  },\r\n  [3021] = {\r\n    CombatConditionId = 34,\r\n    Id = 3021,\r\n    TargetType = \"PlayerMove\"\r\n  },\r\n  [3031] = {\r\n    Args = {\r\n      BuffType = {102},\r\n      CampFilter = \"Enemy\"\r\n    },\r\n    Id = 3031,\r\n    TargetType = \"OnBuffRemovedFromTarget\"\r\n  },\r\n  [3032] = {\r\n    Args = {\r\n      BuffType = {103},\r\n      CampFilter = \"Enemy\"\r\n    },\r\n    Id = 3032,\r\n    TargetType = \"OnBuffRemovedFromTarget\"\r\n  },\r\n  [3033] = {\r\n    Args = {\r\n      BuffType = {104},\r\n      CampFilter = \"Enemy\"\r\n    },\r\n    Id = 3033,\r\n    TargetType = \"OnBuffRemovedFromTarget\"\r\n  },\r\n  [3034] = {\r\n    Args = {\r\n      BuffType = {105},\r\n      CampFilter = \"Enemy\"\r\n    },\r\n    Id = 3034,\r\n    TargetType = \"OnBuffRemovedFromTarget\"\r\n  },\r\n  [3035] = {\r\n    Args = {\r\n      BuffType = {101},\r\n      CampFilter = \"Enemy\"\r\n    },\r\n    Id = 3035,\r\n    TargetType = \"OnBuffRemovedFromTarget\"\r\n  },\r\n  [3036] = {\r\n    Args = {\r\n      BuffType = {106},\r\n      CampFilter = \"Enemy\"\r\n    },\r\n    Id = 3036,\r\n    TargetType = \"OnBuffRemovedFromTarget\"\r\n  },\r\n  [3041] = {\r\n    Id = 3041,\r\n    TargetType = \"OnAddPhantom\"\r\n  },\r\n  [3042] = {\r\n    Id = 3042,\r\n    RoleIdConstraints = T.RT_8,\r\n    TargetType = \"Damage\"\r\n  },\r\n  [3043] = {\r\n    Args = T.RT_2,\r\n    Id = 3043,\r\n    RoleIdConstraints = T.RT_8,\r\n    TargetType = \"Heal\"\r\n  },\r\n  [3044] = {\r\n    Id = 3044,\r\n    RoleIdConstraints = T.RT_8,\r\n    TargetType = \"Damaged\"\r\n  },\r\n  [5001] = {\r\n    Id = 5001,\r\n    TargetType = \"OnFinishHardBoss\"\r\n  },\r\n  [5011] = {\r\n    Id = 5011,\r\n    TargetType = \"OnDungeonEndWithoutPhantom\"\r\n  },\r\n  [5021] = {\r\n    Id = 5021,\r\n    TargetType = \"OnDungeonEndWithoutPhantom\"\r\n  },\r\n  [5031] = {\r\n    Id = 5031,\r\n    TargetType = \"OnTargetKilled\",\r\n    TopProgressLimit = true\r\n  },\r\n  [5041] = {\r\n    Id = 5041,\r\n    TargetType = \"ClearWithoutPhantomAndDamaged\"\r\n  },\r\n  [5051] = {\r\n    Id = 5051,\r\n    TargetType = \"BluePrintTrigger\"\r\n  },\r\n  [5052] = {\r\n    Id = 5052,\r\n    TargetType = \"BluePrintTrigger\"\r\n  },\r\n  [5053] = {\r\n    Id = 5053,\r\n    TargetType = \"BluePrintTrigger"
+    "TargetType": "BluePrintTrigger"
+  },
+  "1001": {
+    "Args": {
+      "DamageType": [
+        "Default"
+      ]
+    },
+    "Id": 1001,
+    "TargetType": "Heal"
+  },
+  "1010": {
+    "Args": {
+      "DamageType": [
+        "Light"
+      ]
+    },
+    "Id": 1010,
+    "TargetType": "Damage"
+  },
+  "1011": {
+    "Args": {
+      "DamageType": [
+        "Dark"
+      ]
+    },
+    "Id": 1011,
+    "TargetType": "Damage"
+  },
+  "1012": {
+    "Args": {
+      "DamageType": [
+        "Water"
+      ]
+    },
+    "Id": 1012,
+    "TargetType": "Damage"
+  },
+  "1013": {
+    "Args": {
+      "DamageType": [
+        "Fire"
+      ]
+    },
+    "Id": 1013,
+    "TargetType": "Damage"
+  },
+  "1014": {
+    "Args": {
+      "DamageType": [
+        "Thunder"
+      ]
+    },
+    "Id": 1014,
+    "TargetType": "Damage"
+  },
+  "1015": {
+    "Args": {
+      "DamageType": [
+        "Wind"
+      ]
+    },
+    "Id": 1015,
+    "TargetType": "Damage"
+  },
+  "1016": {
+    "Args": {
+      "DamageType": [
+        "Slash"
+      ]
+    },
+    "Id": 1016,
+    "TargetType": "Damage"
+  },
+  "1017": {
+    "Args": {
+      "DamageType": [
+        "Spike"
+      ]
+    },
+    "Id": 1017,
+    "TargetType": "Damage"
+  },
+  "1018": {
+    "Args": {
+      "DamageType": [
+        "Smash"
+      ]
+    },
+    "Id": 1018,
+    "TargetType": "Damage"
+  },
+  "1021": {
+    "Args": {
+      "DamageType": [
+        "Default"
+      ]
+    },
+    "Id": 1021,
+    "TargetType": "Heal"
+  },
+  "1022": {
+    "Args": {
+      "DamageTag": [
+        "Weapon"
+      ]
+    },
+    "Id": 1022,
+    "TargetType": "Damage"
+  },
+  "1023": {
+    "Args": {
+      "DamageTag": [
+        "Skill"
+      ]
+    },
+    "Id": 1023,
+    "TargetType": "Damage"
+  },
+  "1024": {
+    "Args": {
+      "DamageTag": [
+        "Melee"
+      ]
+    },
+    "Id": 1024,
+    "TargetType": "Damage"
+  },
+  "1025": {
+    "Args": {
+      "DamageTag": [
+        "Ranged"
+      ]
+    },
+    "Id": 1025,
+    "TargetType": "Damage"
+  },
+  "1026": {
+    "Args": {
+      "DamageTag": [
+        "RouB105"
+      ]
+    },
+    "Id": 1026,
+    "TargetType": "Damage"
+  },
+  "1027": {
+    "Args": {
+      "DamageTag": [
+        "RouB106"
+      ]
+    },
+    "Id": 1027,
+    "TargetType": "Damage"
+  },
+  "1028": {
+    "Args": {
+      "DamageTag": [
+        "RouB104"
+      ]
+    },
+    "Id": 1028,
+    "TargetType": "Damage"
+  },
+  "2000": {
+    "Id": 2000,
+    "TargetType": "OnTargetKilled"
+  },
+  "2001": {
+    "Args": {
+      "Tag": [
+        "Mon.Gr"
+      ]
+    },
+    "Id": 2001,
+    "TargetType": "OnTargetKilled"
+  },
+  "2002": {
+    "Args": {
+      "Tag": [
+        "Mon.Jt"
+      ]
+    },
+    "Id": 2002,
+    "TargetType": "OnTargetKilled"
+  },
+  "2003": {
+    "Args": {
+      "Tag": [
+        "Mon.Jh"
+      ]
+    },
+    "Id": 2003,
+    "TargetType": "OnTargetKilled"
+  },
+  "2004": {
+    "Args": {
+      "Tag": [
+        "Mon.Strong"
+      ]
+    },
+    "Id": 2004,
+    "TargetType": "OnTargetKilled"
+  },
+  "2005": {
+    "Args": {
+      "Tag": [
+        "Mon.Sq"
+      ]
+    },
+    "Id": 2005,
+    "TargetType": "OnTargetKilled"
+  },
+  "2006": {
+    "Args": {
+      "Tag": [
+        "Mon.Strong.Double"
+      ]
+    },
+    "Id": 2006,
+    "TargetType": "OnTargetKilled"
+  },
+  "2007": {
+    "Args": {
+      "Tag": [
+        "Mon.Strong.Triple"
+      ]
+    },
+    "Id": 2007,
+    "TargetType": "OnTargetKilled"
+  },
+  "2008": {
+    "Args": {
+      "Tag": [
+        "Mon.Treasure"
+      ]
+    },
+    "Id": 2008,
+    "TargetType": "OnTargetKilled"
+  },
+  "2011": {
+    "Args": {
+      "DamageTag": [
+        "Melee"
+      ]
+    },
+    "Id": 2011,
+    "TargetType": "OnTargetKilled"
+  },
+  "2012": {
+    "Args": {
+      "DamageTag": [
+        "Ranged"
+      ]
+    },
+    "Id": 2012,
+    "TargetType": "OnTargetKilled"
+  },
+  "2013": {
+    "Args": {
+      "DamageTag": [
+        "FallAttack"
+      ]
+    },
+    "Id": 2013,
+    "TargetType": "OnTargetKilled"
+  },
+  "2014": {
+    "Args": {
+      "DamageTag": [
+        "HeavyAttack"
+      ]
+    },
+    "Id": 2014,
+    "TargetType": "OnTargetKilled"
+  },
+  "2015": {
+    "Args": {
+      "DamageTag": [
+        "SlideAttack"
+      ]
+    },
+    "Id": 2015,
+    "TargetType": "OnTargetKilled"
+  },
+  "2016": {
+    "Args": {
+      "DamageTag": [
+        "Ray"
+      ]
+    },
+    "Id": 2016,
+    "TargetType": "OnTargetKilled"
+  },
+  "2017": {
+    "Args": {
+      "DamageTag": [
+        "Explode"
+      ]
+    },
+    "Id": 2017,
+    "TargetType": "OnTargetKilled"
+  },
+  "2021": {
+    "Args": {
+      "LimitTime": 3
+    },
+    "Id": 2021,
+    "TargetType": "LimitTimeKillMonster"
+  },
+  "2022": {
+    "Args": {
+      "LimitTime": 3
+    },
+    "Id": 2022,
+    "TargetType": "LimitTimeUseNormalSkill"
+  },
+  "2023": {
+    "Args": {
+      "LimitTime": 6
+    },
+    "Id": 2023,
+    "TargetType": "LimitTimeUseUltraSkill"
+  },
+  "2024": {
+    "Args": {
+      "BuffType": [
+        101,
+        102,
+        103,
+        104,
+        105,
+        106
+      ],
+      "LimitTime": 3
+    },
+    "Id": 2024,
+    "TargetType": "LimitTimeAddBuff"
+  },
+  "2031": {
+    "Id": 2031,
+    "TargetType": "PlayerUseNormalSkill"
+  },
+  "2032": {
+    "Id": 2032,
+    "TargetType": "PlayerUseUltraSkill"
+  },
+  "2033": {
+    "Id": 2033,
+    "TargetType": "PlayerUseSupportSkill"
+  },
+  "2041": {
+    "Id": 2041,
+    "TargetType": "BluePrintTrigger"
+  },
+  "2042": {
+    "Id": 2042,
+    "TargetType": "BluePrintTrigger"
+  },
+  "2043": {
+    "Id": 2043,
+    "TargetType": "BluePrintTrigger"
+  },
+  "2044": {
+    "Id": 2044,
+    "TargetType": "BluePrintTrigger"
+  },
+  "2045": {
+    "Id": 2045,
+    "TargetType": "BluePrintTrigger"
+  },
+  "2046": {
+    "Id": 2046,
+    "TargetType": "BluePrintTrigger"
+  },
+  "2047": {
+    "Id": 2047,
+    "TargetType": "BluePrintTrigger"
+  },
+  "2051": {
+    "Args": {
+      "UnitId": [
+        70010051
+      ]
+    },
+    "Id": 2051,
+    "TargetType": "OnTargetKilled"
+  },
+  "2052": {
+    "Id": 2052,
+    "TargetType": "BluePrintTrigger"
+  },
+  "2053": {
+    "Args": {
+      "BuffType": [
+        203
+      ],
+      "CampFilter": "Monster"
+    },
+    "Id": 2053,
+    "TargetType": "OnMonsterAddedBuff"
+  },
+  "2101": {
+    "Id": 2101,
+    "TargetType": "BluePrintTrigger"
+  },
+  "2102": {
+    "Id": 2102,
+    "TargetType": "BluePrintTrigger"
+  },
+  "2103": {
+    "Id": 2103,
+    "TargetType": "BluePrintTrigger"
+  },
+  "2104": {
+    "Id": 2104,
+    "TargetType": "BluePrintTrigger"
+  },
+  "2105": {
+    "Id": 2105,
+    "TargetType": "BluePrintTrigger"
+  },
+  "2106": {
+    "Id": 2106,
+    "TargetType": "BluePrintTrigger"
+  },
+  "2107": {
+    "Id": 2107,
+    "TargetType": "BluePrintTrigger"
+  },
+  "2201": {
+    "Args": {
+      "UnitId": [
+        10004001,
+        10004061,
+        10004062
+      ]
+    },
+    "Id": 2201,
+    "TargetType": "OnTargetKilled"
+  },
+  "2202": {
+    "Args": {
+      "UnitId": [
+        10001001,
+        10001061,
+        10001062,
+        10002001
+      ]
+    },
+    "Id": 2202,
+    "TargetType": "OnTargetKilled"
+  },
+  "2203": {
+    "Args": {
+      "UnitId": [
+        8510002
+      ]
+    },
+    "Id": 2203,
+    "TargetType": "OnTargetKilled"
+  },
+  "2204": {
+    "Args": {
+      "UnitId": [
+        8518001
+      ]
+    },
+    "Id": 2204,
+    "TargetType": "OnTargetKilled"
+  },
+  "2205": {
+    "Args": {
+      "UnitId": [
+        8517001
+      ]
+    },
+    "Id": 2205,
+    "TargetType": "OnTargetKilled"
+  },
+  "3001": {
+    "Args": {
+      "ExceptSkillType": [
+        "Condemn"
+      ]
+    },
+    "Id": 3001,
+    "TargetType": "DamageOnDefeated"
+  },
+  "3011": {
+    "Id": 3011,
+    "TargetType": "AddOverEnergyShield"
+  },
+  "3012": {
+    "Id": 3012,
+    "TargetType": "OnRecoverTeammate"
+  },
+  "3021": {
+    "CombatConditionId": 34,
+    "Id": 3021,
+    "TargetType": "PlayerMove"
+  },
+  "3031": {
+    "Args": {
+      "BuffType": [
+        102
+      ],
+      "CampFilter": "Enemy"
+    },
+    "Id": 3031,
+    "TargetType": "OnBuffRemovedFromTarget"
+  },
+  "3032": {
+    "Args": {
+      "BuffType": [
+        103
+      ],
+      "CampFilter": "Enemy"
+    },
+    "Id": 3032,
+    "TargetType": "OnBuffRemovedFromTarget"
+  },
+  "3033": {
+    "Args": {
+      "BuffType": [
+        104
+      ],
+      "CampFilter": "Enemy"
+    },
+    "Id": 3033,
+    "TargetType": "OnBuffRemovedFromTarget"
+  },
+  "3034": {
+    "Args": {
+      "BuffType": [
+        105
+      ],
+      "CampFilter": "Enemy"
+    },
+    "Id": 3034,
+    "TargetType": "OnBuffRemovedFromTarget"
+  },
+  "3035": {
+    "Args": {
+      "BuffType": [
+        101
+      ],
+      "CampFilter": "Enemy"
+    },
+    "Id": 3035,
+    "TargetType": "OnBuffRemovedFromTarget"
+  },
+  "3036": {
+    "Args": {
+      "BuffType": [
+        106
+      ],
+      "CampFilter": "Enemy"
+    },
+    "Id": 3036,
+    "TargetType": "OnBuffRemovedFromTarget"
+  },
+  "3041": {
+    "Id": 3041,
+    "TargetType": "OnAddPhantom"
+  },
+  "3042": {
+    "Id": 3042,
+    "RoleIdConstraints": {
+      "AllPhantom": 1
+    },
+    "TargetType": "Damage"
+  },
+  "3043": {
+    "Args": {
+      "DamageType": [
+        "Default"
+      ]
+    },
+    "Id": 3043,
+    "RoleIdConstraints": {
+      "AllPhantom": 1
+    },
+    "TargetType": "Heal"
+  },
+  "3044": {
+    "Id": 3044,
+    "RoleIdConstraints": {
+      "AllPhantom": 1
+    },
+    "TargetType": "Damaged"
+  },
+  "5001": {
+    "Id": 5001,
+    "TargetType": "OnFinishHardBoss"
+  },
+  "5011": {
+    "Id": 5011,
+    "TargetType": "OnDungeonEndWithoutPhantom"
+  },
+  "5021": {
+    "Id": 5021,
+    "TargetType": "OnDungeonEndWithoutPhantom"
+  },
+  "5031": {
+    "Id": 5031,
+    "TargetType": "OnTargetKilled",
+    "TopProgressLimit": true
+  },
+  "5041": {
+    "Id": 5041,
+    "TargetType": "ClearWithoutPhantomAndDamaged"
+  },
+  "5051": {
+    "Id": 5051,
+    "TargetType": "BluePrintTrigger"
+  },
+  "5052": {
+    "Id": 5052,
+    "TargetType": "BluePrintTrigger"
+  },
+  "5053": {
+    "Id": 5053,
+    "TargetType": "BluePrintTrigger"
   }
-]
+}

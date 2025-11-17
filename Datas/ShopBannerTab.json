@@ -14,6 +14,52 @@
     "Sequence": 1,
     "StartTime": 1735704000,
     "SwitchTime": 10,
-    "Text1": "UI_Skin_Name_530101\"\r\n  },\r\n  [2] = {\r\n    ActivityId = 105102011,\r\n    BannerIcon = \"Texture2D'/Game/UI/Texture/Dynamic/Image/Shop/T_Shop_Recommend_MonthCard.T_Shop_Recommend_MonthCard'\",\r\n    Bp = \"WBP_Shop_Banner_MonthCard\",\r\n    Id = 2,\r\n    IsMonthlyCardBanner = true,\r\n    MarkText = \"UI_Banner_Tab_SpSale_10\",\r\n    Sequence = 2,\r\n    StartTime = 1735704000,\r\n    SwitchTime = 10,\r\n    Text1 = \"UI_Banner_MonthlyCard\"\r\n  },\r\n  [3] = {\r\n    BannerIcon = \"Texture2D'/Game/UI/Texture/Dynamic/Image/Shop/T_Shop_Recommend_NewPlayerGift.T_Shop_Recommend_NewPlayerGift'\",\r\n    Bp = \"WBP_Shop_Recommend_Gift4_1\",\r\n    GoodsId = \"com.hero.dna.Pay_Bundle1\",\r\n    Id = 3,\r\n    ItemId = 160107,\r\n    MarkText = \"UI_Banner_Tab_SaleForNew\",\r\n    PreviewId = {\r\n      20601,\r\n      20305,\r\n      10601,\r\n      10302\r\n    },\r\n    PreviewType = \"Weapon\",\r\n    Sequence = 3,\r\n    StartTime = 1735704000,\r\n    SwitchTime = 10,\r\n    Text1 = \"Pack_Name_Shop_Start_01\"\r\n  },\r\n  [4] = {\r\n    BannerIcon = \"Texture2D'/Game/UI/Texture/Dynamic/Image/Shop/T_Shop_Recommend_WeaponSkin01.T_Shop_Recommend_WeaponSkin01'\",\r\n    Bp = \"WBP_Shop_Recommend_WeaponSkin\",\r\n    Id = 4,\r\n    ItemId = 120101,\r\n    MarkText = \"UI_Banner_Tab_WeaponSkinForNew\",\r\n    PreviewId = {3010202},\r\n    PreviewType = \"WeaponSkin\",\r\n    Sequence = 4,\r\n    StartTime = 1735704000,\r\n    SwitchTime = 10,\r\n    Text1 = \"UI_WeaponSkin_Name_3010202"
+    "Text1": "UI_Skin_Name_530101"
+  },
+  {
+    "ActivityId": 105102011,
+    "BannerIcon": "Texture2D'/Game/UI/Texture/Dynamic/Image/Shop/T_Shop_Recommend_MonthCard.T_Shop_Recommend_MonthCard'",
+    "Bp": "WBP_Shop_Banner_MonthCard",
+    "Id": 2,
+    "IsMonthlyCardBanner": true,
+    "MarkText": "UI_Banner_Tab_SpSale_10",
+    "Sequence": 2,
+    "StartTime": 1735704000,
+    "SwitchTime": 10,
+    "Text1": "UI_Banner_MonthlyCard"
+  },
+  {
+    "BannerIcon": "Texture2D'/Game/UI/Texture/Dynamic/Image/Shop/T_Shop_Recommend_NewPlayerGift.T_Shop_Recommend_NewPlayerGift'",
+    "Bp": "WBP_Shop_Recommend_Gift4_1",
+    "GoodsId": "com.hero.dna.Pay_Bundle1",
+    "Id": 3,
+    "ItemId": 160107,
+    "MarkText": "UI_Banner_Tab_SaleForNew",
+    "PreviewId": [
+      20601,
+      20305,
+      10601,
+      10302
+    ],
+    "PreviewType": "Weapon",
+    "Sequence": 3,
+    "StartTime": 1735704000,
+    "SwitchTime": 10,
+    "Text1": "Pack_Name_Shop_Start_01"
+  },
+  {
+    "BannerIcon": "Texture2D'/Game/UI/Texture/Dynamic/Image/Shop/T_Shop_Recommend_WeaponSkin01.T_Shop_Recommend_WeaponSkin01'",
+    "Bp": "WBP_Shop_Recommend_WeaponSkin",
+    "Id": 4,
+    "ItemId": 120101,
+    "MarkText": "UI_Banner_Tab_WeaponSkinForNew",
+    "PreviewId": [
+      3010202
+    ],
+    "PreviewType": "WeaponSkin",
+    "Sequence": 4,
+    "StartTime": 1735704000,
+    "SwitchTime": 10,
+    "Text1": "UI_WeaponSkin_Name_3010202"
   }
 ]

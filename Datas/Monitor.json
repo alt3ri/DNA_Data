@@ -1,10 +1,130 @@
-[
-  {
+{
+  "1": {
     "MonitorId": 1,
     "MonitorType": "Resource",
     "SourceType": 0,
     "SubId": 100,
     "TimeInterval": 1,
-    "Value": "50000\r\n  },\r\n  [2] = {\r\n    MonitorId = 2,\r\n    MonitorType = \"Resource\",\r\n    SourceType = 0,\r\n    SubId = 100,\r\n    TimeInterval = 60,\r\n    Value = 200000\r\n  },\r\n  [3] = {\r\n    MonitorId = 3,\r\n    MonitorType = \"Resource\",\r\n    SourceType = 0,\r\n    SubId = 100,\r\n    TimeInterval = 1440,\r\n    Value = 1000000\r\n  },\r\n  [4] = {\r\n    MonitorId = 4,\r\n    MonitorType = \"Resource\",\r\n    SourceType = 0,\r\n    SubId = 102,\r\n    TimeInterval = 60,\r\n    Value = 50000\r\n  },\r\n  [5] = {\r\n    MonitorId = 5,\r\n    MonitorType = \"Resource\",\r\n    SourceType = 0,\r\n    SubId = 110,\r\n    TimeInterval = 60,\r\n    Value = 10000\r\n  },\r\n  [6] = {\r\n    MonitorId = 6,\r\n    MonitorType = \"Resource\",\r\n    SourceType = 0,\r\n    SubId = 111,\r\n    TimeInterval = 60,\r\n    Value = 10000\r\n  },\r\n  [7] = {\r\n    MonitorId = 7,\r\n    MonitorType = \"Resource\",\r\n    SourceType = 0,\r\n    SubId = 201,\r\n    TimeInterval = 60,\r\n    Value = 100\r\n  },\r\n  [8] = {\r\n    MonitorId = 8,\r\n    MonitorType = \"Resource\",\r\n    SourceType = 0,\r\n    SubId = 202,\r\n    TimeInterval = 60,\r\n    Value = 100\r\n  },\r\n  [9] = {\r\n    MonitorId = 9,\r\n    MonitorType = \"Resource\",\r\n    SourceType = 0,\r\n    SubId = 204,\r\n    TimeInterval = 60,\r\n    Value = 100\r\n  },\r\n  [10] = {\r\n    MonitorId = 10,\r\n    MonitorType = \"Resource\",\r\n    SourceType = 0,\r\n    SubId = 211,\r\n    TimeInterval = 1,\r\n    Value = 2000\r\n  },\r\n  [11] = {\r\n    MonitorId = 11,\r\n    MonitorType = \"Resource\",\r\n    SourceType = 0,\r\n    SubId = 211,\r\n    TimeInterval = 60,\r\n    Value = 7500\r\n  },\r\n  [12] = {\r\n    MonitorId = 12,\r\n    MonitorType = \"Resource\",\r\n    SourceType = 0,\r\n    SubId = 211,\r\n    TimeInterval = 1440,\r\n    Value = 100000\r\n  },\r\n  [10001] = {\r\n    MonitorId = 10001,\r\n    MonitorType = \"reward\",\r\n    SourceType = 0,\r\n    SubId = 10600101,\r\n    TimeInterval = 1440,\r\n    Value = 1\r\n  },\r\n  [10002] = {\r\n    MonitorId = 10002,\r\n    MonitorType = \"reward\",\r\n    SourceType = 0,\r\n    SubId = 10600102,\r\n    TimeInterval = 1440,\r\n    Value = 1\r\n  },\r\n  [10003] = {\r\n    MonitorId = 10003,\r\n    MonitorType = \"reward\",\r\n    SourceType = 0,\r\n    SubId = 10600103,\r\n    TimeInterval = 1440,\r\n    Value = 1\r\n  },\r\n  [10004] = {\r\n    MonitorId = 10004,\r\n    MonitorType = \"reward\",\r\n    SourceType = 0,\r\n    SubId = 10600104,\r\n    TimeInterval = 1440,\r\n    Value = 1"
+    "Value": 50000
+  },
+  "2": {
+    "MonitorId": 2,
+    "MonitorType": "Resource",
+    "SourceType": 0,
+    "SubId": 100,
+    "TimeInterval": 60,
+    "Value": 200000
+  },
+  "3": {
+    "MonitorId": 3,
+    "MonitorType": "Resource",
+    "SourceType": 0,
+    "SubId": 100,
+    "TimeInterval": 1440,
+    "Value": 1000000
+  },
+  "4": {
+    "MonitorId": 4,
+    "MonitorType": "Resource",
+    "SourceType": 0,
+    "SubId": 102,
+    "TimeInterval": 60,
+    "Value": 50000
+  },
+  "5": {
+    "MonitorId": 5,
+    "MonitorType": "Resource",
+    "SourceType": 0,
+    "SubId": 110,
+    "TimeInterval": 60,
+    "Value": 10000
+  },
+  "6": {
+    "MonitorId": 6,
+    "MonitorType": "Resource",
+    "SourceType": 0,
+    "SubId": 111,
+    "TimeInterval": 60,
+    "Value": 10000
+  },
+  "7": {
+    "MonitorId": 7,
+    "MonitorType": "Resource",
+    "SourceType": 0,
+    "SubId": 201,
+    "TimeInterval": 60,
+    "Value": 100
+  },
+  "8": {
+    "MonitorId": 8,
+    "MonitorType": "Resource",
+    "SourceType": 0,
+    "SubId": 202,
+    "TimeInterval": 60,
+    "Value": 100
+  },
+  "9": {
+    "MonitorId": 9,
+    "MonitorType": "Resource",
+    "SourceType": 0,
+    "SubId": 204,
+    "TimeInterval": 60,
+    "Value": 100
+  },
+  "10": {
+    "MonitorId": 10,
+    "MonitorType": "Resource",
+    "SourceType": 0,
+    "SubId": 211,
+    "TimeInterval": 1,
+    "Value": 2000
+  },
+  "11": {
+    "MonitorId": 11,
+    "MonitorType": "Resource",
+    "SourceType": 0,
+    "SubId": 211,
+    "TimeInterval": 60,
+    "Value": 7500
+  },
+  "12": {
+    "MonitorId": 12,
+    "MonitorType": "Resource",
+    "SourceType": 0,
+    "SubId": 211,
+    "TimeInterval": 1440,
+    "Value": 100000
+  },
+  "10001": {
+    "MonitorId": 10001,
+    "MonitorType": "reward",
+    "SourceType": 0,
+    "SubId": 10600101,
+    "TimeInterval": 1440,
+    "Value": 1
+  },
+  "10002": {
+    "MonitorId": 10002,
+    "MonitorType": "reward",
+    "SourceType": 0,
+    "SubId": 10600102,
+    "TimeInterval": 1440,
+    "Value": 1
+  },
+  "10003": {
+    "MonitorId": 10003,
+    "MonitorType": "reward",
+    "SourceType": 0,
+    "SubId": 10600103,
+    "TimeInterval": 1440,
+    "Value": 1
+  },
+  "10004": {
+    "MonitorId": 10004,
+    "MonitorType": "reward",
+    "SourceType": 0,
+    "SubId": 10600104,
+    "TimeInterval": 1440,
+    "Value": 1
   }
-]
+}

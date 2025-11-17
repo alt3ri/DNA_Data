@@ -8,6 +8,58 @@
     "InterfaceJumpId": 58,
     "RegionPointId": 2612,
     "ShopEntryId": 1,
-    "ShopName": "UI_ImpressionShop_ShopName_1011\"\r\n  },\r\n  [2] = {\r\n    BackgroundIcon = \"Texture2D'/Game/UI/Texture/Dynamic/Image/Shop/T_Shop_JumpEntry_Area_1172_2850.T_Shop_JumpEntry_Area_1172_2850'\",\r\n    CoinId = {29001, 29002},\r\n    EntrySort = 99,\r\n    InterfaceJumpId = 60,\r\n    RegionPointId = 2613,\r\n    ShopEntryId = 2,\r\n    ShopName = \"UI_SHOP_ExploreBadge\"\r\n  },\r\n  [3] = {\r\n    BackgroundIcon = \"Texture2D'/Game/UI/Texture/Dynamic/Image/Shop/T_Shop_JumpEntry_Fishing_1172_2850.T_Shop_JumpEntry_Fishing_1172_2850'\",\r\n    CoinId = {210},\r\n    EntrySort = 98,\r\n    InterfaceJumpId = 59,\r\n    RefreshTime = {DAY = 1},\r\n    RegionPointId = 2614,\r\n    ShopEntryId = 3,\r\n    ShopName = \"EntryTitle_406003\"\r\n  },\r\n  [4] = {\r\n    BackgroundIcon = \"Texture2D'/Game/UI/Texture/Dynamic/Image/Shop/T_Shop_JumpEntry_Abyss_1172_2850.T_Shop_JumpEntry_Abyss_1172_2850'\",\r\n    CoinId = {214},\r\n    EntrySort = 97,\r\n    InterfaceJumpId = 28,\r\n    RefreshTime = {WEEK = 1},\r\n    ShopEntryId = 4,\r\n    ShopName = \"Abyss_ExchangeStore\"\r\n  },\r\n  [5] = {\r\n    BackgroundIcon = \"Texture2D'/Game/UI/Texture/Dynamic/Image/Shop/T_Shop_JumpEntry_Rouge_1172_2850.T_Shop_JumpEntry_Rouge_1172_2850'\",\r\n    CoinId = {215},\r\n    EntrySort = 96,\r\n    InterfaceJumpId = 55,\r\n    RefreshTime = {WEEK = 8},\r\n    ShopEntryId = 5,\r\n    ShopName = \"UI_RougeExchangeShop_Title"
+    "ShopName": "UI_ImpressionShop_ShopName_1011"
+  },
+  {
+    "BackgroundIcon": "Texture2D'/Game/UI/Texture/Dynamic/Image/Shop/T_Shop_JumpEntry_Area_1172_2850.T_Shop_JumpEntry_Area_1172_2850'",
+    "CoinId": [
+      29001,
+      29002
+    ],
+    "EntrySort": 99,
+    "InterfaceJumpId": 60,
+    "RegionPointId": 2613,
+    "ShopEntryId": 2,
+    "ShopName": "UI_SHOP_ExploreBadge"
+  },
+  {
+    "BackgroundIcon": "Texture2D'/Game/UI/Texture/Dynamic/Image/Shop/T_Shop_JumpEntry_Fishing_1172_2850.T_Shop_JumpEntry_Fishing_1172_2850'",
+    "CoinId": [
+      210
+    ],
+    "EntrySort": 98,
+    "InterfaceJumpId": 59,
+    "RefreshTime": {
+      "DAY": 1
+    },
+    "RegionPointId": 2614,
+    "ShopEntryId": 3,
+    "ShopName": "EntryTitle_406003"
+  },
+  {
+    "BackgroundIcon": "Texture2D'/Game/UI/Texture/Dynamic/Image/Shop/T_Shop_JumpEntry_Abyss_1172_2850.T_Shop_JumpEntry_Abyss_1172_2850'",
+    "CoinId": [
+      214
+    ],
+    "EntrySort": 97,
+    "InterfaceJumpId": 28,
+    "RefreshTime": {
+      "WEEK": 1
+    },
+    "ShopEntryId": 4,
+    "ShopName": "Abyss_ExchangeStore"
+  },
+  {
+    "BackgroundIcon": "Texture2D'/Game/UI/Texture/Dynamic/Image/Shop/T_Shop_JumpEntry_Rouge_1172_2850.T_Shop_JumpEntry_Rouge_1172_2850'",
+    "CoinId": [
+      215
+    ],
+    "EntrySort": 96,
+    "InterfaceJumpId": 55,
+    "RefreshTime": {
+      "WEEK": 8
+    },
+    "ShopEntryId": 5,
+    "ShopName": "UI_RougeExchangeShop_Title"
   }
 ]

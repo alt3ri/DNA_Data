@@ -15,6 +15,273 @@
     "TaskReward": [
       7301
     ],
-    "TaskType": "Jump\"\r\n  },\r\n  [2] = {\r\n    DisplayId = \"02\",\r\n    JumpTaskTypeParam = T.RT_1,\r\n    QuestPhaseId = 1,\r\n    Target = 1,\r\n    TargetId = T.RT_2,\r\n    TaskDes = \"UI_ModGuideBook_Task_Des_02\",\r\n    TaskId = 2,\r\n    TaskName = \"UI_ModGuideBook_Task_Title_LevelUp_01\",\r\n    TaskReward = {7302},\r\n    TaskType = \"Jump\"\r\n  },\r\n  [3] = {\r\n    CollectTaskTypeParam = {21005, 21006},\r\n    DisplayId = \"03\",\r\n    NoRepeatField = \"ModId\",\r\n    QuestPhaseId = 1,\r\n    Target = 2,\r\n    TargetId = {30201},\r\n    TaskDes = \"UI_ModGuideBook_Task_Des_03\",\r\n    TaskId = 3,\r\n    TaskName = \"UI_ModGuideBook_Task_Title_Collect_01\",\r\n    TaskReward = {7303},\r\n    TaskType = \"Collect\"\r\n  },\r\n  [4] = {\r\n    CollectTaskTypeParam = {22007, 22008},\r\n    DisplayId = \"04\",\r\n    NoRepeatField = \"ModId\",\r\n    QuestPhaseId = 1,\r\n    Target = 2,\r\n    TargetId = {30202},\r\n    TaskDes = \"UI_ModGuideBook_Task_Des_04\",\r\n    TaskId = 4,\r\n    TaskName = \"UI_ModGuideBook_Task_Title_Collect_02\",\r\n    TaskReward = {7304},\r\n    TaskType = \"Collect\"\r\n  },\r\n  [5] = {\r\n    CollectTaskTypeParam = {23007, 23008},\r\n    DisplayId = \"05\",\r\n    NoRepeatField = \"ModId\",\r\n    QuestPhaseId = 1,\r\n    Target = 2,\r\n    TargetId = {30203},\r\n    TaskDes = \"UI_ModGuideBook_Task_Des_05\",\r\n    TaskId = 5,\r\n    TaskName = \"UI_ModGuideBook_Task_Title_Collect_03\",\r\n    TaskReward = {7305},\r\n    TaskType = \"Collect\"\r\n  },\r\n  [6] = {\r\n    DisplayId = \"06\",\r\n    JumpTaskTypeParam = T.RT_1,\r\n    QuestPhaseId = 2,\r\n    Target = 1,\r\n    TargetId = {30405},\r\n    TaskDes = \"UI_ModGuideBook_Task_Des_06\",\r\n    TaskId = 6,\r\n    TaskName = \"UI_ModGuideBook_Task_Title_Equip_02\",\r\n    TaskReward = {7306},\r\n    TaskType = \"Jump\"\r\n  },\r\n  [7] = {\r\n    DisplayId = \"07\",\r\n    JumpTaskTypeParam = T.RT_1,\r\n    QuestPhaseId = 2,\r\n    Target = 4,\r\n    TargetId = T.RT_2,\r\n    TaskDes = \"UI_ModGuideBook_Task_Des_07\",\r\n    TaskId = 7,\r\n    TaskName = \"UI_ModGuideBook_Task_Title_LevelUp_02\",\r\n    TaskReward = {7307},\r\n    TaskType = \"Jump\"\r\n  },\r\n  [8] = {\r\n    CollectTaskTypeParam = {31215, 31216},\r\n    DisplayId = \"08\",\r\n    NoRepeatField = \"ModId\",\r\n    QuestPhaseId = 2,\r\n    Target = 2,\r\n    TargetId = {30204},\r\n    TaskDes = \"UI_ModGuideBook_Task_Des_08\",\r\n    TaskId = 8,\r\n    TaskName = \"UI_ModGuideBook_Task_Title_Collect_04\",\r\n    TaskReward = {7308},\r\n    TaskType = \"Collect\"\r\n  },\r\n  [9] = {\r\n    CollectTaskTypeParam = {31217, 31218},\r\n    DisplayId = \"09\",\r\n    NoRepeatField = \"ModId\",\r\n    QuestPhaseId = 2,\r\n    Target = 2,\r\n    TargetId = {30210},\r\n    TaskDes = \"UI_ModGuideBook_Task_Des_09\",\r\n    TaskId = 9,\r\n    TaskName = \"UI_ModGuideBook_Task_Title_Collect_05\",\r\n    TaskReward = {7314},\r\n    TaskType = \"Collect\"\r\n  },\r\n  [10] = {\r\n    CollectTaskTypeParam = {32004, 32005},\r\n    DisplayId = \"10\",\r\n    NoRepeatField = \"ModId\",\r\n    QuestPhaseId = 2,\r\n    Target = 2,\r\n    TargetId = {30205},\r\n    TaskDes = \"UI_ModGuideBook_Task_Des_11\",\r\n    TaskId = 10,\r\n    TaskName = \"UI_ModGuideBook_Task_Title_Collect_07\",\r\n    TaskReward = {7309},\r\n    TaskType = \"Collect\"\r\n  },\r\n  [11] = {\r\n    CollectTaskTypeParam = {33004, 33005},\r\n    DisplayId = \"11\",\r\n    NoRepeatField = \"ModId\",\r\n    QuestPhaseId = 3,\r\n    Target = 2,\r\n    TargetId = {30206},\r\n    TaskDes = \"UI_ModGuideBook_Task_Des_10\",\r\n    TaskId = 11,\r\n    TaskName = \"UI_ModGuideBook_Task_Title_Collect_06\",\r\n    TaskReward = {7310},\r\n    TaskType = \"Collect\"\r\n  },\r\n  [12] = {\r\n    CollectTaskTypeParam = {\r\n      31301,\r\n      31201,\r\n      31202,\r\n      31203,\r\n      31204\r\n    },\r\n    DisplayId = \"12\",\r\n    NoRepeatField = \"ModId\",\r\n    QuestPhaseId = 3,\r\n    Target = 5,\r\n    TargetId = {30207},\r\n    TaskDes = \"UI_ModGuideBook_Task_Des_12\",\r\n    TaskId = 12,\r\n    TaskName = \"UI_ModGuideBook_Task_Title_Collect_08\",\r\n    TaskReward = {7311},\r\n    TaskType = \"Collect\"\r\n  },\r\n  [13] = {\r\n    CollectTaskTypeParam = {32301, 32302},\r\n    DisplayId = \"13\",\r\n    NoRepeatField = \"ModId\",\r\n    QuestPhaseId = 3,\r\n    Target = 2,\r\n    TargetId = {30208},\r\n    TaskDes = \"UI_ModGuideBook_Task_Des_13\",\r\n    TaskId = 13,\r\n    TaskName = \"UI_ModGuideBook_Task_Title_Collect_09\",\r\n    TaskReward = {7312},\r\n    TaskType = \"Collect\"\r\n  },\r\n  [14] = {\r\n    CollectTaskTypeParam = {33311, 33331},\r\n    DisplayId = \"14\",\r\n    NoRepeatField = \"ModId\",\r\n    QuestPhaseId = 3,\r\n    Target = 2,\r\n    TargetId = {30209},\r\n    TaskDes = \"UI_ModGuideBook_Task_Des_14\",\r\n    TaskId = 14,\r\n    TaskName = \"UI_ModGuideBook_Task_Title_Collect_10\",\r\n    TaskReward = {7313},\r\n    TaskType = \"Collect"
+    "TaskType": "Jump"
+  },
+  {
+    "DisplayId": "02",
+    "JumpTaskTypeParam": [
+      4
+    ],
+    "QuestPhaseId": 1,
+    "Target": 1,
+    "TargetId": [
+      30601,
+      30602,
+      30603,
+      30604,
+      30605,
+      30606
+    ],
+    "TaskDes": "UI_ModGuideBook_Task_Des_02",
+    "TaskId": 2,
+    "TaskName": "UI_ModGuideBook_Task_Title_LevelUp_01",
+    "TaskReward": [
+      7302
+    ],
+    "TaskType": "Jump"
+  },
+  {
+    "CollectTaskTypeParam": [
+      21005,
+      21006
+    ],
+    "DisplayId": "03",
+    "NoRepeatField": "ModId",
+    "QuestPhaseId": 1,
+    "Target": 2,
+    "TargetId": [
+      30201
+    ],
+    "TaskDes": "UI_ModGuideBook_Task_Des_03",
+    "TaskId": 3,
+    "TaskName": "UI_ModGuideBook_Task_Title_Collect_01",
+    "TaskReward": [
+      7303
+    ],
+    "TaskType": "Collect"
+  },
+  {
+    "CollectTaskTypeParam": [
+      22007,
+      22008
+    ],
+    "DisplayId": "04",
+    "NoRepeatField": "ModId",
+    "QuestPhaseId": 1,
+    "Target": 2,
+    "TargetId": [
+      30202
+    ],
+    "TaskDes": "UI_ModGuideBook_Task_Des_04",
+    "TaskId": 4,
+    "TaskName": "UI_ModGuideBook_Task_Title_Collect_02",
+    "TaskReward": [
+      7304
+    ],
+    "TaskType": "Collect"
+  },
+  {
+    "CollectTaskTypeParam": [
+      23007,
+      23008
+    ],
+    "DisplayId": "05",
+    "NoRepeatField": "ModId",
+    "QuestPhaseId": 1,
+    "Target": 2,
+    "TargetId": [
+      30203
+    ],
+    "TaskDes": "UI_ModGuideBook_Task_Des_05",
+    "TaskId": 5,
+    "TaskName": "UI_ModGuideBook_Task_Title_Collect_03",
+    "TaskReward": [
+      7305
+    ],
+    "TaskType": "Collect"
+  },
+  {
+    "DisplayId": "06",
+    "JumpTaskTypeParam": [
+      4
+    ],
+    "QuestPhaseId": 2,
+    "Target": 1,
+    "TargetId": [
+      30405
+    ],
+    "TaskDes": "UI_ModGuideBook_Task_Des_06",
+    "TaskId": 6,
+    "TaskName": "UI_ModGuideBook_Task_Title_Equip_02",
+    "TaskReward": [
+      7306
+    ],
+    "TaskType": "Jump"
+  },
+  {
+    "DisplayId": "07",
+    "JumpTaskTypeParam": [
+      4
+    ],
+    "QuestPhaseId": 2,
+    "Target": 4,
+    "TargetId": [
+      30601,
+      30602,
+      30603,
+      30604,
+      30605,
+      30606
+    ],
+    "TaskDes": "UI_ModGuideBook_Task_Des_07",
+    "TaskId": 7,
+    "TaskName": "UI_ModGuideBook_Task_Title_LevelUp_02",
+    "TaskReward": [
+      7307
+    ],
+    "TaskType": "Jump"
+  },
+  {
+    "CollectTaskTypeParam": [
+      31215,
+      31216
+    ],
+    "DisplayId": "08",
+    "NoRepeatField": "ModId",
+    "QuestPhaseId": 2,
+    "Target": 2,
+    "TargetId": [
+      30204
+    ],
+    "TaskDes": "UI_ModGuideBook_Task_Des_08",
+    "TaskId": 8,
+    "TaskName": "UI_ModGuideBook_Task_Title_Collect_04",
+    "TaskReward": [
+      7308
+    ],
+    "TaskType": "Collect"
+  },
+  {
+    "CollectTaskTypeParam": [
+      31217,
+      31218
+    ],
+    "DisplayId": "09",
+    "NoRepeatField": "ModId",
+    "QuestPhaseId": 2,
+    "Target": 2,
+    "TargetId": [
+      30210
+    ],
+    "TaskDes": "UI_ModGuideBook_Task_Des_09",
+    "TaskId": 9,
+    "TaskName": "UI_ModGuideBook_Task_Title_Collect_05",
+    "TaskReward": [
+      7314
+    ],
+    "TaskType": "Collect"
+  },
+  {
+    "CollectTaskTypeParam": [
+      32004,
+      32005
+    ],
+    "DisplayId": "10",
+    "NoRepeatField": "ModId",
+    "QuestPhaseId": 2,
+    "Target": 2,
+    "TargetId": [
+      30205
+    ],
+    "TaskDes": "UI_ModGuideBook_Task_Des_11",
+    "TaskId": 10,
+    "TaskName": "UI_ModGuideBook_Task_Title_Collect_07",
+    "TaskReward": [
+      7309
+    ],
+    "TaskType": "Collect"
+  },
+  {
+    "CollectTaskTypeParam": [
+      33004,
+      33005
+    ],
+    "DisplayId": "11",
+    "NoRepeatField": "ModId",
+    "QuestPhaseId": 3,
+    "Target": 2,
+    "TargetId": [
+      30206
+    ],
+    "TaskDes": "UI_ModGuideBook_Task_Des_10",
+    "TaskId": 11,
+    "TaskName": "UI_ModGuideBook_Task_Title_Collect_06",
+    "TaskReward": [
+      7310
+    ],
+    "TaskType": "Collect"
+  },
+  {
+    "CollectTaskTypeParam": [
+      31301,
+      31201,
+      31202,
+      31203,
+      31204
+    ],
+    "DisplayId": "12",
+    "NoRepeatField": "ModId",
+    "QuestPhaseId": 3,
+    "Target": 5,
+    "TargetId": [
+      30207
+    ],
+    "TaskDes": "UI_ModGuideBook_Task_Des_12",
+    "TaskId": 12,
+    "TaskName": "UI_ModGuideBook_Task_Title_Collect_08",
+    "TaskReward": [
+      7311
+    ],
+    "TaskType": "Collect"
+  },
+  {
+    "CollectTaskTypeParam": [
+      32301,
+      32302
+    ],
+    "DisplayId": "13",
+    "NoRepeatField": "ModId",
+    "QuestPhaseId": 3,
+    "Target": 2,
+    "TargetId": [
+      30208
+    ],
+    "TaskDes": "UI_ModGuideBook_Task_Des_13",
+    "TaskId": 13,
+    "TaskName": "UI_ModGuideBook_Task_Title_Collect_09",
+    "TaskReward": [
+      7312
+    ],
+    "TaskType": "Collect"
+  },
+  {
+    "CollectTaskTypeParam": [
+      33311,
+      33331
+    ],
+    "DisplayId": "14",
+    "NoRepeatField": "ModId",
+    "QuestPhaseId": 3,
+    "Target": 2,
+    "TargetId": [
+      30209
+    ],
+    "TaskDes": "UI_ModGuideBook_Task_Des_14",
+    "TaskId": 14,
+    "TaskName": "UI_ModGuideBook_Task_Title_Collect_10",
+    "TaskReward": [
+      7313
+    ],
+    "TaskType": "Collect"
   }
 ]

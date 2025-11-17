@@ -6,6 +6,22 @@
     "JumpLink": "https://dnabbs.yingxiong.com",
     "JumpTips": "UI_FollowCommunity",
     "Reward": 107003,
-    "RewardMark": "true\r\n  },\r\n  [2] = {\r\n    CommunityId = 2,\r\n    Icon = \"Texture2D'/Game/UI/Texture/Dynamic/Atlas/SNS/T_Icon_Sns_Weixin.T_Icon_Sns_Weixin'\",\r\n    JobTips = \"FollowCommunity_WeCom\",\r\n    JumpLink = \"https://huke.163.com/wxUrlScheme?shareInfo=KGECZ-PzF_PfE59khJhhLpIbxMjDgC_HlhO6xgvMS-3CIvz3RfnPEA8mXZOsdobO2fAlxAWJG7jVJF5KN37kRj6L3C-al1ek6SVF9uwsgEqMfz19MzMPKdnU5Dz6URrr&type=drainage&appid=wxfe42d57febf7bf0d\",\r\n    JumpTips = \"UI_JumpCommunity\",\r\n    Reward = 107004\r\n  },\r\n  [3] = {\r\n    CommunityId = 3,\r\n    Icon = \"Texture2D'/Game/UI/Texture/Dynamic/Atlas/SNS/T_Icon_Sns_Douyin.T_Icon_Sns_Douyin'\",\r\n    JobTips = \"FollowCommunity_Douyin\",\r\n    JumpLink = \"https://v.douyin.com/O8ILZ72QUZM/ 8@3.com\",\r\n    JumpTips = \"UI_JumpCommunity\",\r\n    Reward = 107004"
+    "RewardMark": true
+  },
+  {
+    "CommunityId": 2,
+    "Icon": "Texture2D'/Game/UI/Texture/Dynamic/Atlas/SNS/T_Icon_Sns_Weixin.T_Icon_Sns_Weixin'",
+    "JobTips": "FollowCommunity_WeCom",
+    "JumpLink": "https://huke.163.com/wxUrlScheme?shareInfo=KGECZ-PzF_PfE59khJhhLpIbxMjDgC_HlhO6xgvMS-3CIvz3RfnPEA8mXZOsdobO2fAlxAWJG7jVJF5KN37kRj6L3C-al1ek6SVF9uwsgEqMfz19MzMPKdnU5Dz6URrr&type=drainage&appid=wxfe42d57febf7bf0d",
+    "JumpTips": "UI_JumpCommunity",
+    "Reward": 107004
+  },
+  {
+    "CommunityId": 3,
+    "Icon": "Texture2D'/Game/UI/Texture/Dynamic/Atlas/SNS/T_Icon_Sns_Douyin.T_Icon_Sns_Douyin'",
+    "JobTips": "FollowCommunity_Douyin",
+    "JumpLink": "https://v.douyin.com/O8ILZ72QUZM/ 8@3.com",
+    "JumpTips": "UI_JumpCommunity",
+    "Reward": 107004
   }
 ]

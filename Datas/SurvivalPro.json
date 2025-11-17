@@ -1,7 +1,51 @@
 {
   "91401": {
     "BuffDescribe": {
-      "5000016": "\"100%\"\r\n    },\r\n    ButcherMonsterId = 8501002,\r\n    ButcherMonsterSpawnMinWave = 2,\r\n    ButcherMonsterSpawnProbability = {0, 0},\r\n    DungeonId = 91401,\r\n    LoopRule = {3, 4},\r\n    MonsterFirstSpawnId = T.RT_1,\r\n    MonsterSpawnDelay = 20,\r\n    MonsterSpawnId = {\r\n      [1] = {100502},\r\n      [2] = {100503},\r\n      [3] = {100504},\r\n      [4] = {100505},\r\n      [5] = T.RT_1\r\n    },\r\n    RoundTime = 180,\r\n    SpLoopRule = {1},\r\n    SpMonster = {\r\n      [1] = {\r\n        SpMonsterSpawnId = {512},\r\n        SpMonsterSpawnTime = 80\r\n      }"
-    }
+      "5000016": "100%"
+    },
+    "ButcherMonsterId": 8501002,
+    "ButcherMonsterSpawnMinWave": 2,
+    "ButcherMonsterSpawnProbability": [
+      0,
+      0
+    ],
+    "DungeonId": 91401,
+    "LoopRule": [
+      3,
+      4
+    ],
+    "MonsterFirstSpawnId": [
+      100506
+    ],
+    "MonsterSpawnDelay": 20,
+    "MonsterSpawnId": [
+      [
+        100502
+      ],
+      [
+        100503
+      ],
+      [
+        100504
+      ],
+      [
+        100505
+      ],
+      [
+        100506
+      ]
+    ],
+    "RoundTime": 180,
+    "SpLoopRule": [
+      1
+    ],
+    "SpMonster": [
+      {
+        "SpMonsterSpawnId": [
+          512
+        ],
+        "SpMonsterSpawnTime": 80
+      }
+    ]
   }
 }

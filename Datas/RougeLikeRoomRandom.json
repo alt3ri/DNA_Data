@@ -1,5 +1,5 @@
-[
-  {
+{
+  "1": {
     "RoomNum": [
       1
     ],
@@ -7,6 +7,436 @@
     "RoomType": [
       1
     ],
-    "RoomTypeWeight": "T.RT_2\r\n  },\r\n  [2] = {\r\n    RoomNum = T.RT_1,\r\n    RoomRandom = 2,\r\n    RoomType = T.RT_3,\r\n    RoomTypeWeight = T.RT_2\r\n  },\r\n  [3] = {\r\n    RoomNum = T.RT_1,\r\n    RoomRandom = 3,\r\n    RoomType = T.RT_5,\r\n    RoomTypeWeight = T.RT_2\r\n  },\r\n  [4] = {\r\n    RoomNum = T.RT_1,\r\n    RoomRandom = 4,\r\n    RoomType = {4},\r\n    RoomTypeWeight = T.RT_2\r\n  },\r\n  [5] = {\r\n    RoomNum = T.RT_1,\r\n    RoomRandom = 5,\r\n    RoomType = {5},\r\n    RoomTypeWeight = T.RT_2\r\n  },\r\n  [6] = {\r\n    RoomNum = T.RT_1,\r\n    RoomRandom = 6,\r\n    RoomType = {6},\r\n    RoomTypeWeight = T.RT_2\r\n  },\r\n  [21] = {\r\n    RoomNum = T.RT_3,\r\n    RoomRandom = 21,\r\n    RoomType = {1, 6},\r\n    RoomTypeWeight = T.RT_4\r\n  },\r\n  [22] = {\r\n    RoomNum = T.RT_3,\r\n    RoomRandom = 22,\r\n    RoomType = {1, 3},\r\n    RoomTypeWeight = T.RT_4\r\n  },\r\n  [23] = {\r\n    RoomNum = T.RT_3,\r\n    RoomRandom = 23,\r\n    RoomType = {1, 4},\r\n    RoomTypeWeight = T.RT_4\r\n  },\r\n  [24] = {\r\n    RoomNum = T.RT_3,\r\n    RoomRandom = 24,\r\n    RoomType = {3, 6},\r\n    RoomTypeWeight = T.RT_4\r\n  },\r\n  [25] = {\r\n    RoomNum = T.RT_3,\r\n    RoomRandom = 25,\r\n    RoomType = {4, 6},\r\n    RoomTypeWeight = T.RT_4\r\n  },\r\n  [26] = {\r\n    RoomNum = T.RT_3,\r\n    RoomRandom = 26,\r\n    RoomType = {3, 4},\r\n    RoomTypeWeight = T.RT_4\r\n  },\r\n  [41] = {\r\n    RoomNum = T.RT_5,\r\n    RoomRandom = 41,\r\n    RoomType = T.RT_6,\r\n    RoomTypeWeight = T.RT_7\r\n  },\r\n  [42] = {\r\n    RoomNum = T.RT_5,\r\n    RoomRandom = 42,\r\n    RoomType = T.RT_8,\r\n    RoomTypeWeight = T.RT_7\r\n  },\r\n  [43] = {\r\n    RoomNum = T.RT_5,\r\n    RoomRandom = 43,\r\n    RoomType = T.RT_9,\r\n    RoomTypeWeight = T.RT_7\r\n  },\r\n  [44] = {\r\n    RoomNum = T.RT_5,\r\n    RoomRandom = 44,\r\n    RoomType = T.RT_10,\r\n    RoomTypeWeight = T.RT_7\r\n  },\r\n  [61] = {\r\n    RoomNum = T.RT_3,\r\n    RoomRandom = 61,\r\n    RoomType = T.RT_6,\r\n    RoomTypeWeight = T.RT_7\r\n  },\r\n  [62] = {\r\n    RoomNum = T.RT_3,\r\n    RoomRandom = 62,\r\n    RoomType = T.RT_8,\r\n    RoomTypeWeight = T.RT_7\r\n  },\r\n  [63] = {\r\n    RoomNum = T.RT_3,\r\n    RoomRandom = 63,\r\n    RoomType = T.RT_9,\r\n    RoomTypeWeight = T.RT_7\r\n  },\r\n  [64] = {\r\n    RoomNum = T.RT_3,\r\n    RoomRandom = 64,\r\n    RoomType = T.RT_10,\r\n    RoomTypeWeight = T.RT_7\r\n  },\r\n  [65] = {\r\n    RoomNum = T.RT_3,\r\n    RoomRandom = 65,\r\n    RoomType = T.RT_11,\r\n    RoomTypeWeight = T.RT_12\r\n  },\r\n  [66] = {\r\n    RoomNum = T.RT_3,\r\n    RoomRandom = 66,\r\n    RoomType = T.RT_6,\r\n    RoomTypeWeight = {\r\n      200,\r\n      600,\r\n      200\r\n    }\r\n  },\r\n  [67] = {\r\n    RoomNum = T.RT_3,\r\n    RoomRandom = 67,\r\n    RoomType = T.RT_6,\r\n    RoomTypeWeight = {\r\n      200,\r\n      200,\r\n      600\r\n    }\r\n  },\r\n  [68] = {\r\n    RoomNum = T.RT_3,\r\n    RoomRandom = 68,\r\n    RoomType = T.RT_6,\r\n    RoomTypeWeight = {\r\n      600,\r\n      200,\r\n      200\r\n    }\r\n  },\r\n  [81] = {\r\n    RoomNum = T.RT_5,\r\n    RoomRandom = 81,\r\n    RoomType = T.RT_11,\r\n    RoomTypeWeight = T.RT_12\r\n  },\r\n  [82] = {\r\n    RoomNum = T.RT_5,\r\n    RoomRandom = 82,\r\n    RoomType = T.RT_11,\r\n    RoomTypeWeight = {\r\n      600,\r\n      200,\r\n      200,\r\n      600\r\n    }\r\n  },\r\n  [83] = {\r\n    RoomNum = T.RT_5,\r\n    RoomRandom = 83,\r\n    RoomType = T.RT_11,\r\n    RoomTypeWeight = {\r\n      600,\r\n      600,\r\n      200,\r\n      200\r\n    }\r\n  },\r\n  [84] = {\r\n    RoomNum = T.RT_5,\r\n    RoomRandom = 84,\r\n    RoomType = T.RT_11,\r\n    RoomTypeWeight = {\r\n      600,\r\n      200,\r\n      600,\r\n      400\r\n    }\r\n  },\r\n  [85] = {\r\n    RoomNum = T.RT_5,\r\n    RoomRandom = 85,\r\n    RoomType = T.RT_11,\r\n    RoomTypeWeight = {\r\n      600,\r\n      400,\r\n      600,\r\n      200\r\n    }"
+    "RoomTypeWeight": [
+      1000
+    ]
+  },
+  "2": {
+    "RoomNum": [
+      1
+    ],
+    "RoomRandom": 2,
+    "RoomType": [
+      2
+    ],
+    "RoomTypeWeight": [
+      1000
+    ]
+  },
+  "3": {
+    "RoomNum": [
+      1
+    ],
+    "RoomRandom": 3,
+    "RoomType": [
+      3
+    ],
+    "RoomTypeWeight": [
+      1000
+    ]
+  },
+  "4": {
+    "RoomNum": [
+      1
+    ],
+    "RoomRandom": 4,
+    "RoomType": [
+      4
+    ],
+    "RoomTypeWeight": [
+      1000
+    ]
+  },
+  "5": {
+    "RoomNum": [
+      1
+    ],
+    "RoomRandom": 5,
+    "RoomType": [
+      5
+    ],
+    "RoomTypeWeight": [
+      1000
+    ]
+  },
+  "6": {
+    "RoomNum": [
+      1
+    ],
+    "RoomRandom": 6,
+    "RoomType": [
+      6
+    ],
+    "RoomTypeWeight": [
+      1000
+    ]
+  },
+  "21": {
+    "RoomNum": [
+      2
+    ],
+    "RoomRandom": 21,
+    "RoomType": [
+      1,
+      6
+    ],
+    "RoomTypeWeight": [
+      500,
+      500
+    ]
+  },
+  "22": {
+    "RoomNum": [
+      2
+    ],
+    "RoomRandom": 22,
+    "RoomType": [
+      1,
+      3
+    ],
+    "RoomTypeWeight": [
+      500,
+      500
+    ]
+  },
+  "23": {
+    "RoomNum": [
+      2
+    ],
+    "RoomRandom": 23,
+    "RoomType": [
+      1,
+      4
+    ],
+    "RoomTypeWeight": [
+      500,
+      500
+    ]
+  },
+  "24": {
+    "RoomNum": [
+      2
+    ],
+    "RoomRandom": 24,
+    "RoomType": [
+      3,
+      6
+    ],
+    "RoomTypeWeight": [
+      500,
+      500
+    ]
+  },
+  "25": {
+    "RoomNum": [
+      2
+    ],
+    "RoomRandom": 25,
+    "RoomType": [
+      4,
+      6
+    ],
+    "RoomTypeWeight": [
+      500,
+      500
+    ]
+  },
+  "26": {
+    "RoomNum": [
+      2
+    ],
+    "RoomRandom": 26,
+    "RoomType": [
+      3,
+      4
+    ],
+    "RoomTypeWeight": [
+      500,
+      500
+    ]
+  },
+  "41": {
+    "RoomNum": [
+      3
+    ],
+    "RoomRandom": 41,
+    "RoomType": [
+      1,
+      3,
+      6
+    ],
+    "RoomTypeWeight": [
+      500,
+      500,
+      500
+    ]
+  },
+  "42": {
+    "RoomNum": [
+      3
+    ],
+    "RoomRandom": 42,
+    "RoomType": [
+      1,
+      4,
+      6
+    ],
+    "RoomTypeWeight": [
+      500,
+      500,
+      500
+    ]
+  },
+  "43": {
+    "RoomNum": [
+      3
+    ],
+    "RoomRandom": 43,
+    "RoomType": [
+      1,
+      3,
+      4
+    ],
+    "RoomTypeWeight": [
+      500,
+      500,
+      500
+    ]
+  },
+  "44": {
+    "RoomNum": [
+      3
+    ],
+    "RoomRandom": 44,
+    "RoomType": [
+      3,
+      4,
+      6
+    ],
+    "RoomTypeWeight": [
+      500,
+      500,
+      500
+    ]
+  },
+  "61": {
+    "RoomNum": [
+      2
+    ],
+    "RoomRandom": 61,
+    "RoomType": [
+      1,
+      3,
+      6
+    ],
+    "RoomTypeWeight": [
+      500,
+      500,
+      500
+    ]
+  },
+  "62": {
+    "RoomNum": [
+      2
+    ],
+    "RoomRandom": 62,
+    "RoomType": [
+      1,
+      4,
+      6
+    ],
+    "RoomTypeWeight": [
+      500,
+      500,
+      500
+    ]
+  },
+  "63": {
+    "RoomNum": [
+      2
+    ],
+    "RoomRandom": 63,
+    "RoomType": [
+      1,
+      3,
+      4
+    ],
+    "RoomTypeWeight": [
+      500,
+      500,
+      500
+    ]
+  },
+  "64": {
+    "RoomNum": [
+      2
+    ],
+    "RoomRandom": 64,
+    "RoomType": [
+      3,
+      4,
+      6
+    ],
+    "RoomTypeWeight": [
+      500,
+      500,
+      500
+    ]
+  },
+  "65": {
+    "RoomNum": [
+      2
+    ],
+    "RoomRandom": 65,
+    "RoomType": [
+      1,
+      3,
+      4,
+      6
+    ],
+    "RoomTypeWeight": [
+      500,
+      500,
+      500,
+      500
+    ]
+  },
+  "66": {
+    "RoomNum": [
+      2
+    ],
+    "RoomRandom": 66,
+    "RoomType": [
+      1,
+      3,
+      6
+    ],
+    "RoomTypeWeight": [
+      200,
+      600,
+      200
+    ]
+  },
+  "67": {
+    "RoomNum": [
+      2
+    ],
+    "RoomRandom": 67,
+    "RoomType": [
+      1,
+      3,
+      6
+    ],
+    "RoomTypeWeight": [
+      200,
+      200,
+      600
+    ]
+  },
+  "68": {
+    "RoomNum": [
+      2
+    ],
+    "RoomRandom": 68,
+    "RoomType": [
+      1,
+      3,
+      6
+    ],
+    "RoomTypeWeight": [
+      600,
+      200,
+      200
+    ]
+  },
+  "81": {
+    "RoomNum": [
+      3
+    ],
+    "RoomRandom": 81,
+    "RoomType": [
+      1,
+      3,
+      4,
+      6
+    ],
+    "RoomTypeWeight": [
+      500,
+      500,
+      500,
+      500
+    ]
+  },
+  "82": {
+    "RoomNum": [
+      3
+    ],
+    "RoomRandom": 82,
+    "RoomType": [
+      1,
+      3,
+      4,
+      6
+    ],
+    "RoomTypeWeight": [
+      600,
+      200,
+      200,
+      600
+    ]
+  },
+  "83": {
+    "RoomNum": [
+      3
+    ],
+    "RoomRandom": 83,
+    "RoomType": [
+      1,
+      3,
+      4,
+      6
+    ],
+    "RoomTypeWeight": [
+      600,
+      600,
+      200,
+      200
+    ]
+  },
+  "84": {
+    "RoomNum": [
+      3
+    ],
+    "RoomRandom": 84,
+    "RoomType": [
+      1,
+      3,
+      4,
+      6
+    ],
+    "RoomTypeWeight": [
+      600,
+      200,
+      600,
+      400
+    ]
+  },
+  "85": {
+    "RoomNum": [
+      3
+    ],
+    "RoomRandom": 85,
+    "RoomType": [
+      1,
+      3,
+      4,
+      6
+    ],
+    "RoomTypeWeight": [
+      600,
+      400,
+      600,
+      200
+    ]
   }
-]
+}

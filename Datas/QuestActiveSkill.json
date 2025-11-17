@@ -14,7 +14,65 @@
       "Skill3",
       "Fire",
       "Avoid",
-      "Crouch\"\r\n    }\r\n  },\r\n  [10010105] = {\r\n    ActiveType = \"Lock\",\r\n    InactiveorActive = \"Active\",\r\n    QuestId = 10010105,\r\n    QuestStartorSuccess = \"Success\",\r\n    SkillId = {\r\n      \"Jump\",\r\n      \"Slide\",\r\n      \"BulletJump\",\r\n      \"Crouch\"\r\n    }\r\n  },\r\n  [10010107] = {\r\n    ActiveType = \"Lock\",\r\n    InactiveorActive = \"Active\",\r\n    QuestId = 10010107,\r\n    QuestStartorSuccess = \"Success\",\r\n    SkillId = {\"Attack\", \"Avoid\"}\r\n  },\r\n  [10010111] = {\r\n    ActiveType = \"Lock\",\r\n    InactiveorActive = \"Active\",\r\n    QuestId = 10010111,\r\n    QuestStartorSuccess = \"Success\",\r\n    SkillId = {\"Fire\"}\r\n  },\r\n  [10010212] = {\r\n    ActiveType = \"Lock\",\r\n    InactiveorActive = \"Active\",\r\n    QuestId = 10010212,\r\n    QuestStartorSuccess = \"Success\",\r\n    SkillId = {\"Skill1\"}\r\n  },\r\n  [10010306] = {\r\n    ActiveType = \"Lock\",\r\n    InactiveorActive = \"Active\",\r\n    QuestId = 10010306,\r\n    QuestStartorSuccess = \"Success\",\r\n    SkillId = {\"Skill2\"}\r\n  },\r\n  [20010305] = {\r\n    ActiveType = \"Lock\",\r\n    InactiveorActive = \"Active\",\r\n    QuestId = 20010305,\r\n    QuestStartorSuccess = \"Success\",\r\n    SkillId = {\"Skill3"
+      "Crouch"
+    ]
+  },
+  "10010105": {
+    "ActiveType": "Lock",
+    "InactiveorActive": "Active",
+    "QuestId": 10010105,
+    "QuestStartorSuccess": "Success",
+    "SkillId": [
+      "Jump",
+      "Slide",
+      "BulletJump",
+      "Crouch"
+    ]
+  },
+  "10010107": {
+    "ActiveType": "Lock",
+    "InactiveorActive": "Active",
+    "QuestId": 10010107,
+    "QuestStartorSuccess": "Success",
+    "SkillId": [
+      "Attack",
+      "Avoid"
+    ]
+  },
+  "10010111": {
+    "ActiveType": "Lock",
+    "InactiveorActive": "Active",
+    "QuestId": 10010111,
+    "QuestStartorSuccess": "Success",
+    "SkillId": [
+      "Fire"
+    ]
+  },
+  "10010212": {
+    "ActiveType": "Lock",
+    "InactiveorActive": "Active",
+    "QuestId": 10010212,
+    "QuestStartorSuccess": "Success",
+    "SkillId": [
+      "Skill1"
+    ]
+  },
+  "10010306": {
+    "ActiveType": "Lock",
+    "InactiveorActive": "Active",
+    "QuestId": 10010306,
+    "QuestStartorSuccess": "Success",
+    "SkillId": [
+      "Skill2"
+    ]
+  },
+  "20010305": {
+    "ActiveType": "Lock",
+    "InactiveorActive": "Active",
+    "QuestId": 20010305,
+    "QuestStartorSuccess": "Success",
+    "SkillId": [
+      "Skill3"
     ]
   }
 }

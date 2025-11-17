@@ -13,6 +13,208 @@
     ],
     "NormalSpawnOnlyRelation": false,
     "NormalSpawnRule": 10802,
-    "TargetNum": "80\r\n  },\r\n  [60901] = {\r\n    DungeonId = 60901,\r\n    EliteRange = T.RT_1,\r\n    EliteSpawnOnlyRelation = true,\r\n    EliteSpawnRule = 110801,\r\n    NormalRange = T.RT_1,\r\n    NormalSpawnOnlyRelation = false,\r\n    NormalSpawnRule = 110802,\r\n    TargetNum = 40\r\n  },\r\n  [60902] = {\r\n    DungeonId = 60902,\r\n    EliteRange = T.RT_2,\r\n    EliteSpawnOnlyRelation = true,\r\n    EliteSpawnRule = 10801,\r\n    NormalRange = T.RT_1,\r\n    NormalSpawnOnlyRelation = false,\r\n    NormalSpawnRule = 10802,\r\n    TargetNum = 40\r\n  },\r\n  [62901] = {\r\n    DungeonId = 62901,\r\n    EliteRange = T.RT_1,\r\n    EliteSpawnOnlyRelation = true,\r\n    EliteSpawnRule = 110801,\r\n    NormalRange = T.RT_1,\r\n    NormalSpawnOnlyRelation = false,\r\n    NormalSpawnRule = 110802,\r\n    TargetNum = 40\r\n  },\r\n  [62902] = {\r\n    DungeonId = 62902,\r\n    EliteRange = T.RT_2,\r\n    EliteSpawnOnlyRelation = true,\r\n    EliteSpawnRule = 10801,\r\n    NormalRange = T.RT_1,\r\n    NormalSpawnOnlyRelation = false,\r\n    NormalSpawnRule = 10802,\r\n    TargetNum = 40\r\n  },\r\n  [64901] = {\r\n    DungeonId = 64901,\r\n    EliteRange = T.RT_1,\r\n    EliteSpawnOnlyRelation = true,\r\n    EliteSpawnRule = 110801,\r\n    NormalRange = T.RT_1,\r\n    NormalSpawnOnlyRelation = false,\r\n    NormalSpawnRule = 110802,\r\n    TargetNum = 40\r\n  },\r\n  [64902] = {\r\n    DungeonId = 64902,\r\n    EliteRange = T.RT_2,\r\n    EliteSpawnOnlyRelation = true,\r\n    EliteSpawnRule = 10801,\r\n    NormalRange = T.RT_1,\r\n    NormalSpawnOnlyRelation = false,\r\n    NormalSpawnRule = 10802,\r\n    TargetNum = 40\r\n  },\r\n  [90801] = {\r\n    DungeonId = 90801,\r\n    EliteRange = {9998, 9999},\r\n    EliteSpawnOnlyRelation = true,\r\n    EliteSpawnRule = 110801,\r\n    NormalRange = T.RT_1,\r\n    NormalSpawnOnlyRelation = false,\r\n    NormalSpawnRule = 110802,\r\n    TargetNum = 40\r\n  },\r\n  [90802] = {\r\n    DungeonId = 90802,\r\n    EliteRange = T.RT_1,\r\n    EliteSpawnOnlyRelation = true,\r\n    EliteSpawnRule = 110801,\r\n    NormalRange = T.RT_1,\r\n    NormalSpawnOnlyRelation = false,\r\n    NormalSpawnRule = 110802,\r\n    TargetNum = 40\r\n  },\r\n  [90803] = {\r\n    DungeonId = 90803,\r\n    EliteRange = T.RT_2,\r\n    EliteSpawnOnlyRelation = true,\r\n    EliteSpawnRule = 10801,\r\n    NormalRange = T.RT_1,\r\n    NormalSpawnOnlyRelation = false,\r\n    NormalSpawnRule = 10802,\r\n    TargetNum = 40\r\n  },\r\n  [90804] = {\r\n    DungeonId = 90804,\r\n    EliteRange = T.RT_2,\r\n    EliteSpawnOnlyRelation = true,\r\n    EliteSpawnRule = 10801,\r\n    NormalRange = T.RT_1,\r\n    NormalSpawnOnlyRelation = false,\r\n    NormalSpawnRule = 10802,\r\n    TargetNum = 40\r\n  },\r\n  [90805] = {\r\n    DungeonId = 90805,\r\n    EliteRange = T.RT_3,\r\n    EliteSpawnOnlyRelation = true,\r\n    EliteSpawnRule = 110801,\r\n    NormalRange = T.RT_1,\r\n    NormalSpawnOnlyRelation = false,\r\n    NormalSpawnRule = 110802,\r\n    TargetNum = 40\r\n  },\r\n  [90806] = {\r\n    DungeonId = 90806,\r\n    EliteRange = T.RT_3,\r\n    EliteSpawnOnlyRelation = true,\r\n    EliteSpawnRule = 10801,\r\n    NormalRange = T.RT_1,\r\n    NormalSpawnOnlyRelation = false,\r\n    NormalSpawnRule = 10802,\r\n    TargetNum = 40\r\n  },\r\n  [90807] = {\r\n    DungeonId = 90807,\r\n    EliteRange = T.RT_2,\r\n    EliteSpawnOnlyRelation = true,\r\n    EliteSpawnRule = 10801,\r\n    NormalRange = T.RT_1,\r\n    NormalSpawnOnlyRelation = false,\r\n    NormalSpawnRule = 10802,\r\n    TargetNum = 40"
+    "TargetNum": 80
+  },
+  "60901": {
+    "DungeonId": 60901,
+    "EliteRange": [
+      33,
+      35
+    ],
+    "EliteSpawnOnlyRelation": true,
+    "EliteSpawnRule": 110801,
+    "NormalRange": [
+      33,
+      35
+    ],
+    "NormalSpawnOnlyRelation": false,
+    "NormalSpawnRule": 110802,
+    "TargetNum": 40
+  },
+  "60902": {
+    "DungeonId": 60902,
+    "EliteRange": [
+      18
+    ],
+    "EliteSpawnOnlyRelation": true,
+    "EliteSpawnRule": 10801,
+    "NormalRange": [
+      33,
+      35
+    ],
+    "NormalSpawnOnlyRelation": false,
+    "NormalSpawnRule": 10802,
+    "TargetNum": 40
+  },
+  "62901": {
+    "DungeonId": 62901,
+    "EliteRange": [
+      33,
+      35
+    ],
+    "EliteSpawnOnlyRelation": true,
+    "EliteSpawnRule": 110801,
+    "NormalRange": [
+      33,
+      35
+    ],
+    "NormalSpawnOnlyRelation": false,
+    "NormalSpawnRule": 110802,
+    "TargetNum": 40
+  },
+  "62902": {
+    "DungeonId": 62902,
+    "EliteRange": [
+      18
+    ],
+    "EliteSpawnOnlyRelation": true,
+    "EliteSpawnRule": 10801,
+    "NormalRange": [
+      33,
+      35
+    ],
+    "NormalSpawnOnlyRelation": false,
+    "NormalSpawnRule": 10802,
+    "TargetNum": 40
+  },
+  "64901": {
+    "DungeonId": 64901,
+    "EliteRange": [
+      33,
+      35
+    ],
+    "EliteSpawnOnlyRelation": true,
+    "EliteSpawnRule": 110801,
+    "NormalRange": [
+      33,
+      35
+    ],
+    "NormalSpawnOnlyRelation": false,
+    "NormalSpawnRule": 110802,
+    "TargetNum": 40
+  },
+  "64902": {
+    "DungeonId": 64902,
+    "EliteRange": [
+      18
+    ],
+    "EliteSpawnOnlyRelation": true,
+    "EliteSpawnRule": 10801,
+    "NormalRange": [
+      33,
+      35
+    ],
+    "NormalSpawnOnlyRelation": false,
+    "NormalSpawnRule": 10802,
+    "TargetNum": 40
+  },
+  "90801": {
+    "DungeonId": 90801,
+    "EliteRange": [
+      9998,
+      9999
+    ],
+    "EliteSpawnOnlyRelation": true,
+    "EliteSpawnRule": 110801,
+    "NormalRange": [
+      33,
+      35
+    ],
+    "NormalSpawnOnlyRelation": false,
+    "NormalSpawnRule": 110802,
+    "TargetNum": 40
+  },
+  "90802": {
+    "DungeonId": 90802,
+    "EliteRange": [
+      33,
+      35
+    ],
+    "EliteSpawnOnlyRelation": true,
+    "EliteSpawnRule": 110801,
+    "NormalRange": [
+      33,
+      35
+    ],
+    "NormalSpawnOnlyRelation": false,
+    "NormalSpawnRule": 110802,
+    "TargetNum": 40
+  },
+  "90803": {
+    "DungeonId": 90803,
+    "EliteRange": [
+      18
+    ],
+    "EliteSpawnOnlyRelation": true,
+    "EliteSpawnRule": 10801,
+    "NormalRange": [
+      33,
+      35
+    ],
+    "NormalSpawnOnlyRelation": false,
+    "NormalSpawnRule": 10802,
+    "TargetNum": 40
+  },
+  "90804": {
+    "DungeonId": 90804,
+    "EliteRange": [
+      18
+    ],
+    "EliteSpawnOnlyRelation": true,
+    "EliteSpawnRule": 10801,
+    "NormalRange": [
+      33,
+      35
+    ],
+    "NormalSpawnOnlyRelation": false,
+    "NormalSpawnRule": 10802,
+    "TargetNum": 40
+  },
+  "90805": {
+    "DungeonId": 90805,
+    "EliteRange": [
+      18,
+      22
+    ],
+    "EliteSpawnOnlyRelation": true,
+    "EliteSpawnRule": 110801,
+    "NormalRange": [
+      33,
+      35
+    ],
+    "NormalSpawnOnlyRelation": false,
+    "NormalSpawnRule": 110802,
+    "TargetNum": 40
+  },
+  "90806": {
+    "DungeonId": 90806,
+    "EliteRange": [
+      18,
+      22
+    ],
+    "EliteSpawnOnlyRelation": true,
+    "EliteSpawnRule": 10801,
+    "NormalRange": [
+      33,
+      35
+    ],
+    "NormalSpawnOnlyRelation": false,
+    "NormalSpawnRule": 10802,
+    "TargetNum": 40
+  },
+  "90807": {
+    "DungeonId": 90807,
+    "EliteRange": [
+      18
+    ],
+    "EliteSpawnOnlyRelation": true,
+    "EliteSpawnRule": 10801,
+    "NormalRange": [
+      33,
+      35
+    ],
+    "NormalSpawnOnlyRelation": false,
+    "NormalSpawnRule": 10802,
+    "TargetNum": 40
   }
 }

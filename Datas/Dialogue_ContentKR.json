@@ -5,6 +5,1757 @@
     "GUID": "00067932",
     "NextDialogue": 10102,
     "SpeakNpcId": 100003,
-    "VoiceName": "\"voice/ch/story/0/101/00067932\"\r\n        },\r\n        [10102] = {\r\n          Content = \"嗯，这个缺口的切角好整齐，感觉刚好可以插进一把剑\",\r\n          DialogueId = 10102,\r\n          ExStoryInfo = \"Player\",\r\n          GUID = \"0006795C\",\r\n          NextDialogue = 10103,\r\n          SpeakNpcId = 100001,\r\n          VoiceName = \"voice/ch/story/0/101/0006795C\"\r\n        },\r\n        [10103] = {\r\n          Content = \"我来试试...果然，刚好没过剑身，像是个“钥匙孔”。\",\r\n          DialogueId = 10103,\r\n          GUID = \"00067986\",\r\n          SpeakNpcId = 100003,\r\n          VoiceName = \"voice/ch/story/0/101/00067986\"\r\n        },\r\n        [10201] = {\r\n          Content = \"我来转动剑柄试试\",\r\n          DialogueId = 10201,\r\n          ExStoryInfo = \"Player\",\r\n          GUID = \"0006899A\",\r\n          NextDialogue = 10202,\r\n          SpeakNpcId = 100001,\r\n          VoiceName = \"voice/ch/story/0/102/0006899A\"\r\n        },\r\n        [10202] = {\r\n          Content = \"（远处传来了一声闷响，接着眼前的石门缓缓打开）\",\r\n          DialogueId = 10202,\r\n          GUID = \"000689C4\",\r\n          NextDialogue = 10203,\r\n          VoiceName = \"voice/ch/story/0/102/000689C4\"\r\n        },\r\n        [10203] = {\r\n          Content = \"原来这把剑就是开门的钥匙\",\r\n          DialogueId = 10203,\r\n          GUID = \"000689EE\",\r\n          NextDialogue = 10204,\r\n          SpeakNpcId = 100003,\r\n          VoiceName = \"voice/ch/story/0/102/000689EE\"\r\n        },\r\n        [10204] = {\r\n          Content = \"我们进去看看吧\",\r\n          DialogueId = 10204,\r\n          ExStoryInfo = \"Player\",\r\n          GUID = \"00068A18\",\r\n          SpeakNpcId = 100001,\r\n          VoiceName = \"voice/ch/story/0/102/00068A18\"\r\n        },\r\n        [10301] = {\r\n          Content = \"还是先把剑拔出来吧，这是我们仅存的武器了\",\r\n          DialogueId = 10301,\r\n          ExStoryInfo = \"Player\",\r\n          GUID = \"00069A02\",\r\n          NextDialogue = 10302,\r\n          SpeakNpcId = 100001,\r\n          VoiceName = \"voice/ch/story/0/103/00069A02\"\r\n        },\r\n        [10302] = {\r\n          Content = \"嗯，我再去四周看看有什么出口\",\r\n          DialogueId = 10302,\r\n          GUID = \"00069A2C\",\r\n          SpeakNpcId = 100003,\r\n          VoiceName = \"voice/ch/story/0/103/00069A2C\"\r\n        },\r\n        [10401] = {\r\n          Camera = \"185.064941,-192.025635,95.836349,0.000066,-0.600804,133.19693,70.0,100000.0,false,DoNotOverride,2.8\",\r\n          Content = \"我是引导员……………………哦吼！\",\r\n          DialogueId = 10401,\r\n          Duration = 4,\r\n          ExStoryInfo = \"Player\",\r\n          GUID = \"0006AA6A\",\r\n          SpeakNpcId = 100001,\r\n          VoiceName = \"voice/ch/story/0/104/0006AA6A\"\r\n        },\r\n        [10501] = {\r\n          Content = \"我是路人NPC看向功能测试台本\",\r\n          DialogueId = 10501,\r\n          GUID = \"0006BAD2\",\r\n          LookAt = {\r\n            [1] = \"700001:n(0)\"\r\n          },\r\n          NextDialogue = 10502,\r\n          SpeakNpcId = 700001\r\n        },\r\n        [10502] = {\r\n          Content = \"我是路人NPC转向功能测试台本\",\r\n          DialogueId = 10502,\r\n          GUID = \"0006BAFC\",\r\n          SpeakNpcId = 700001,\r\n          TurnTo = {\r\n            [1] = \"700001:n(0)\"\r\n          }\r\n        },\r\n        [730001] = {\r\n          Content = \"不知谁画下的格子图案，似乎与泪湖那边的几块浮冰存在着对应关系。如果按照顺序踩掉那些浮冰的话，或许会发生一些神奇的事。\",\r\n          DialogueId = 730001,\r\n          GUID = \"01D3D5CA\",\r\n          SpeakNpcId = 810001\r\n        },\r\n        [1000101] = {\r\n          Content = \"村子可能还是很危险，一定要小心。\",\r\n          DialogueId = 1000101,\r\n          ExStoryInfo = \"Player\",\r\n          GUID = \"0280EF12\",\r\n          SpeakNpcId = 100001,\r\n          VoiceName = \"voice/$Locale$/story/1001/10001/0280EF12\"\r\n        },\r\n        [1000201] = {\r\n          Content = \"自投罗网么？简直愚钝得可爱。\",\r\n          DialogueId = 1000201,\r\n          GUID = \"0280FF7A\",\r\n          SpeakNpcId = 100005,\r\n          VoiceName = \"voice/$Locale$/story/1001/10002/0280FF7A\"\r\n        },\r\n        [6100101] = {\r\n          ContentKR = \"모닥불 부근에서 왠지 모르게 수선화가 가득 핀 물이 솟아오른다.\n한 여인이 수면에 비친 그림자를 내려다보고 있다. 흐릿하지만 아름다운 그 그림자는 마치 별빛에 취한 듯하다.\",\r\n          DialogueId = 6100101,\r\n          GUID = \"0F455DD2\",\r\n          NextDialogue = 6100102,\r\n          RougeTalkActorType = 3\r\n        },\r\n        [6100102] = {\r\n          ContentKR = \"\"내가 사랑하는 사람은, 도대체 어디에 있나요?\"\n\"아트라시아 전체를 돌아다녔고, 루카 공화국의 푸른 섬과 화서의 푸르른 골짜기를 찾아 헤맸고, 이스엘의 바람이 머무는 숲속을 찾아 헤맸고, 아스카드 봄날에 부서진 살얼음을 찾아 헤맸어요.\"\",\r\n          DialogueId = 6100102,\r\n          GUID = \"0F455DFC\",\r\n          NextDialogue = 6100103,\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room301_Char01\"\r\n        },\r\n        [6100103] = {\r\n          ContentKR = \"\"하지만 아직도 사랑하는 사람을 찾지 못했어요.\"\n\"저만큼이나 아름다운 미인이, 이 엘리시안의 성스러운 호수에 갇혀 있는 것 같아요.\"\n그녀는 호수 면에 비친 그림자를 보고 중얼중얼 혼잣말을 한다.\",\r\n          DialogueId = 6100103,\r\n          GUID = \"0F455E26\",\r\n          NextOptions = {\r\n            [1] = 6100104,\r\n            [2] = 6100106\r\n          },\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room301_Char01\"\r\n        },\r\n        [6100104] = {\r\n          ContentKR = \"\"그건 단지 당신의 그림자일 뿐이에요.\"\",\r\n          DialogueId = 6100104,\r\n          GUID = \"0F455E50\",\r\n          IsKeyOption = true,\r\n          NextDialogue = 6100105,\r\n          RougeTalkActorType = 2,\r\n          SpeakNpcId = 910004\r\n        },\r\n        [6100105] = {\r\n          ContentKR = \"\"당신은 누구죠? 지나가는 여행자인가요?\"\n그녀는 고개를 들어, 살짝 당신을 힐끗 본다.\n\"만약 그녀를 구할 방법을 찾는다면, 다시 저를 만나러 오세요.\"\",\r\n          DialogueId = 6100105,\r\n          GUID = \"0F455E7A\",\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room301_Char01\"\r\n        },\r\n        [6100106] = {\r\n          ContentKR = \"호수에서 수선화를 따려고 시도한다.\",\r\n          DialogueId = 6100106,\r\n          GUID = \"0F455EA4\",\r\n          IsKeyOption = true,\r\n          RougeTalkActorType = 2,\r\n          SpeakNpcId = 910004\r\n        },\r\n        [6100201] = {\r\n          ContentKR = \"외로운 노인이 산처럼 쌓인 무기 더미 옆에서 쉬지 않고 망치를 휘두른다.\n망치를 한 번 두드리자, 만물이 가라앉는다.\n망치를 두 번 두드리자, 불꽃이 튄다.\n당신이 다가갔지만, 노인은 고개를 들지 않는다.\",\r\n          DialogueId = 6100201,\r\n          GUID = \"0F456E3A\",\r\n          NextDialogue = 6100202,\r\n          RougeTalkActorType = 3\r\n        },\r\n        [6100202] = {\r\n          ContentKR = \"\"또 하나가 죽는구나.\"\n\"지금이 몇 년도지?\"\",\r\n          DialogueId = 6100202,\r\n          GUID = \"0F456E64\",\r\n          NextOptions = {\r\n            [1] = 6100203\r\n          },\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room302_Char01\"\r\n        },\r\n        [6100203] = {\r\n          ContentKR = \"대답한다.\",\r\n          DialogueId = 6100203,\r\n          GUID = \"0F456E8E\",\r\n          NextDialogue = 6100204,\r\n          RougeTalkActorType = 2,\r\n          SpeakNpcId = 910004\r\n        },\r\n        [6100204] = {\r\n          ContentKR = \"당신은 입을 벌리고, 답을 말하려 하지만...\n지금이 몇 년도... 지금이 어느 해더라?\n긴 어둠 속에서, 당신은 이미 시간의 감각을 잊어버렸다.\",\r\n          DialogueId = 6100204,\r\n          GUID = \"0F456EB8\",\r\n          NextDialogue = 6100206,\r\n          RougeTalkActorType = 3\r\n        },\r\n        [6100206] = {\r\n          ContentKR = \"그는 당신의 대답을 기다리지 못한다.\",\r\n          DialogueId = 6100206,\r\n          GUID = \"0F456F0C\",\r\n          NextDialogue = 6100207,\r\n          RougeTalkActorType = 3\r\n        },\r\n        [6100207] = {\r\n          ContentKR = \"\"보아하니 자네도 똑같구먼.\" 그는 한숨을 쉰다.\n\"난 여기에서 얼마나 오래 갇혀있었는지 기억도 나지 않아. 아무것도 잡지 못했지, 얼굴 주름이랑 이 망치 빼고는.\"\",\r\n          DialogueId = 6100207,\r\n          GUID = \"0F456F36\",\r\n          NextDialogue = 6100208,\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room302_Char01\"\r\n        },\r\n        [6100208] = {\r\n          ContentKR = \"\"불이 꺼지기 전에... 말해 봐, 뭘 원하지?\"\",\r\n          DialogueId = 6100208,\r\n          GUID = \"0F456F60\",\r\n          NextOptions = {\r\n            [1] = 6100209,\r\n            [2] = 6100210\r\n          },\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room302_Char01\"\r\n        },\r\n        [6100209] = {\r\n          ContentKR = \"쌓여 있는 무기 중 하나를 고른다.\",\r\n          DialogueId = 6100209,\r\n          GUID = \"0F456F8A\",\r\n          IsKeyOption = true,\r\n          RougeTalkActorType = 2,\r\n          SpeakNpcId = 910004\r\n        },\r\n        [6100210] = {\r\n          ContentKR = \"하나 만들어 달라고 부탁한다.\",\r\n          DialogueId = 6100210,\r\n          GUID = \"0F456FB4\",\r\n          IsKeyOption = true,\r\n          RougeTalkActorType = 2,\r\n          SpeakNpcId = 910004\r\n        },\r\n        [6100301] = {\r\n          ContentKR = \"노랫소리가 적막한 모닥불가에 울려 퍼진다.\n한 여자가 느릿느릿 걸어온다. 그녀의 발걸음은 깃털처럼 가볍지만, 목소리는 새처럼 은은하다.\",\r\n          DialogueId = 6100301,\r\n          GUID = \"0F457EA2\",\r\n          NextDialogue = 6100302,\r\n          RougeTalkActorType = 3\r\n        },\r\n        [6100302] = {\r\n          ContentKR = \"깊은 졸음이 쏟아진다.\n당신 눈앞의 어둠이 종이처럼 구겨져, 물에 젖는다.\n......\",\r\n          DialogueId = 6100302,\r\n          GUID = \"0F457ECC\",\r\n          NextDialogue = 6100303,\r\n          RougeTalkActorType = 3\r\n        },\r\n        [6100303] = {\r\n          ContentKR = \"당신은 오후의 숲과 샘을 거닌다.\n흐르는 물은 융단 같은 풀밭 사이에서 소리를 내고, 햇빛은 무성한 잎사귀 틈을 비집고 나와 다발로 쏟아진다.\n조용히 아침이슬을 홀짝이는 흰 날다람쥐, 바다고양이, 노란 산토끼는 발자국 소리에 놀라지 않는다. 당신은...\",\r\n          DialogueId = 6100303,\r\n          GUID = \"0F457EF6\",\r\n          NextOptions = {\r\n            [1] = 6100304,\r\n            [2] = 6100306\r\n          },\r\n          RougeTalkActorType = 3\r\n        },\r\n        [6100304] = {\r\n          ContentKR = \"이슬 한 방울을 받는다.\",\r\n          DialogueId = 6100304,\r\n          GUID = \"0F457F20\",\r\n          IsKeyOption = true,\r\n          NextDialogue = 6100305,\r\n          RougeTalkActorType = 2,\r\n          SpeakNpcId = 910004\r\n        },\r\n        [6100305] = {\r\n          ContentKR = \"당신은 황혼의 선술집에 앉아 있다.\n음유시인은 풍금을 연주하고, 귀항 선원은 박자를 맞추며 합창을 한다.\n짭조름한 저녁 바람에 달콤한 맥아주를 마시며, 당신은 북적이는 군중 속으로 걸어가 흥겨운 춤을 춘다. 당신은...\",\r\n          DialogueId = 6100305,\r\n          GUID = \"0F457F4A\",\r\n          NextDialogue = 6100308,\r\n          RougeTalkActorType = 3\r\n        },\r\n        [6100306] = {\r\n          ContentKR = \"한 줄기의 햇살을 안는다.\",\r\n          DialogueId = 6100306,\r\n          GUID = \"0F457F74\",\r\n          IsKeyOption = true,\r\n          NextDialogue = 6100307,\r\n          RougeTalkActorType = 2,\r\n          SpeakNpcId = 910004\r\n        },\r\n        [6100307] = {\r\n          ContentKR = \"당신은 성당의 유리창 아래로 엎드린다.\n거대한 그림 위의 백의 여신은 자비롭게 당신을 내려다본다. 높고, 고요하고, 슬프게.\n만월의 신이 알록달록한 모자이크 아래로 내려와, 당신의 이마에 입 맞추고, 당신의 뺨에 차가운 보석 관을 씌운다...\",\r\n          DialogueId = 6100307,\r\n          GUID = \"0F457F9E\",\r\n          NextDialogue = 6100308,\r\n          RougeTalkActorType = 3\r\n        },\r\n        [6100308] = {\r\n          ContentKR = \"퉁!\n누군가가 당신의 이마를 튕긴다. 당신은 통증에 깜짝 놀라 일어난다.\",\r\n          DialogueId = 6100308,\r\n          GUID = \"0F457FC8\",\r\n          NextDialogue = 6100309,\r\n          RougeTalkActorType = 3\r\n        },\r\n        [6100309] = {\r\n          ContentKR = \"\"이 엘리시안 최고의 직몽가가 고생고생해서 꿈을 짓고 있는데, 당신은 거기 누워서 잠을 자면서도 쿠퍼 하나도 내놓지 않는군요!\"\",\r\n          DialogueId = 6100309,\r\n          GUID = \"0F457FF2\",\r\n          NextDialogue = 6100310,\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room303_Char01\"\r\n        },\r\n        [6100310] = {\r\n          ContentKR = \"\"얼른 일어나요! 자면 안 돼요!\"\n그녀는 화를 내며, 또 당신의 이마를 한 대 때린다.\",\r\n          DialogueId = 6100310,\r\n          GUID = \"0F45801C\",\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room303_Char01\"\r\n        },\r\n        [6100401] = {\r\n          ContentKR = \"한 노인이 모닥불 옆으로 걸어간다. 그의 손에 랜턴이 들려 있는 것이 보인다.\",\r\n          DialogueId = 6100401,\r\n          GUID = \"0F458F0A\",\r\n          NextDialogue = 6100402,\r\n          RougeTalkActorType = 3\r\n        },\r\n        [6100402] = {\r\n          ContentKR = \"\"어디 보자... 오! 자네도 랜턴이 하나 있었군!\"\n\"하지만 모든 불은 결국 꺼질 거네. 알다시피, 만약 심연에서 랜턴이 비치지 않는다면, 영원히 어둠 속에서 길을 잃게 될 테지.\"\",\r\n          DialogueId = 6100402,\r\n          GUID = \"0F458F34\",\r\n          NextDialogue = 6100403,\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room304_Char01\"\r\n        },\r\n        [6100403] = {\r\n          ContentKR = \"\"랜턴을 하나 더 사서 만일의 사태에 대비하게. 작은 빛 하나가, 자네 목숨을 구해 줄지도 몰라.\"\",\r\n          DialogueId = 6100403,\r\n          GUID = \"0F458F5E\",\r\n          NextOptions = {\r\n            [1] = 6100404,\r\n            [2] = 6100406,\r\n            [3] = 6100408\r\n          },\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room304_Char01\"\r\n        },\r\n        [6100404] = {\r\n          ContentKR = \"랜턴을 산다.\",\r\n          DialogueId = 6100404,\r\n          GUID = \"0F458F88\",\r\n          IsKeyOption = true,\r\n          NextDialogue = 6100405,\r\n          RougeTalkActorType = 2,\r\n          SpeakNpcId = 910004\r\n        },\r\n        [6100405] = {\r\n          ContentKR = \"\"오... 자네는 정말 통 큰 여행자로군! 별의 신의 축복이 자네와 함께하기를 바라네.\"\n그는 주름마저 보이지 않을 만큼 활짝 웃는다.\",\r\n          DialogueId = 6100405,\r\n          GUID = \"0F458FB2\",\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room304_Char01\"\r\n        },\r\n        [6100406] = {\r\n          ContentKR = \"다른 유용한 물건이 있는지 없는지 묻는다.\",\r\n          DialogueId = 6100406,\r\n          GUID = \"0F458FDC\",\r\n          IsKeyOption = true,\r\n          NextDialogue = 6100407,\r\n          RougeTalkActorType = 2,\r\n          SpeakNpcId = 910004\r\n        },\r\n        [6100407] = {\r\n          ContentKR = \"\"오... 자네는 정말 통 큰 여행자로군! 별의 신의 축복이 자네와 함께하기를 바라네.\"\n그는 주름마저 보이지 않을 만큼 활짝 웃는다.\",\r\n          DialogueId = 6100407,\r\n          GUID = \"0F459006\",\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room304_Char01\"\r\n        },\r\n        [6100408] = {\r\n          ContentKR = \"거래를 거절한다.\",\r\n          DialogueId = 6100408,\r\n          GUID = \"0F459030\",\r\n          IsKeyOption = true,\r\n          NextDialogue = 6100409,\r\n          RougeTalkActorType = 2,\r\n          SpeakNpcId = 910004\r\n        },\r\n        [6100409] = {\r\n          ContentKR = \"\"오... 맙소사, 얼마 되지도 않는 돈 때문에 목숨마저 돌보지 않을 만큼 가난했던 건가. 부디 번영의 신께서 축복을 내리길 바라네...\"\n그는 불만 가득한 얼굴로 떠났다.\",\r\n          DialogueId = 6100409,\r\n          GUID = \"0F45905A\",\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room304_Char01\"\r\n        },\r\n        [6100501] = {\r\n          ContentKR = \"\"길 잃은 여행자들이여, 신들이 길을 인도하리.\"\",\r\n          DialogueId = 6100501,\r\n          GUID = \"0F459F72\",\r\n          NextDialogue = 6100502,\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room305_Char01\"\r\n        },\r\n        [6100502] = {\r\n          ContentKR = \"아이들의 합창이 당신의 머릿속에서 울려 퍼지고, 모닥불의 희미한 빛이 점점 더 큰 빛 속으로 녹아들면서, 당신은 몸이 가벼워지는 것을 느낀다.\n당신은 공중에 뜬 채로, 천 줄기 부드러운 바람에 흔들린다. 손 닿을 거리에 새하얀 구름이 있고, 거룩한 금빛 탑은 구름 사이에서 당신을 엄숙히 초대한다.\",\r\n          DialogueId = 6100502,\r\n          GUID = \"0F459F9C\",\r\n          NextDialogue = 6100503,\r\n          RougeTalkActorType = 3\r\n        },\r\n        [6100503] = {\r\n          ContentKR = \"\"오라, 신의 은총을 받아, 구름 위 하늘로 오르노라. 속세에 미련 없으리, 더없는 행복이 기다릴지어다.\"\",\r\n          DialogueId = 6100503,\r\n          GUID = \"0F459FC6\",\r\n          NextOptions = {\r\n            [1] = 6100504,\r\n            [2] = 6100506,\r\n            [3] = 6100508\r\n          },\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room305_Char01\"\r\n        },\r\n        [6100504] = {\r\n          ContentKR = \"지상에 남는다.\",\r\n          DialogueId = 6100504,\r\n          GUID = \"0F459FF0\",\r\n          IsKeyOption = true,\r\n          NextDialogue = 6100505,\r\n          RougeTalkActorType = 2,\r\n          SpeakNpcId = 910004\r\n        },\r\n        [6100505] = {\r\n          ContentKR = \"알다시피 하늘에서 떨어지는 행복 뒤에는, 반드시 그에 따른 대가가 있다.\n허황된 천국의 길보다, 당신은 자신이 남긴 발자국 하나하나를 믿으려 한다.\",\r\n          DialogueId = 6100505,\r\n          GUID = \"0F45A01A\",\r\n          RougeTalkActorType = 3\r\n        },\r\n        [6100506] = {\r\n          ContentKR = \"은총을 받아들인다.\",\r\n          DialogueId = 6100506,\r\n          GUID = \"0F45A044\",\r\n          IsKeyOption = true,\r\n          NextDialogue = 6100507,\r\n          RougeTalkActorType = 2,\r\n          SpeakNpcId = 910004\r\n        },\r\n        [6100507] = {\r\n          ContentKR = \"어머니의 부드러운 포옹처럼, 구름이 당신을 감싸안는다.\n금빛 대문이 천천히 열리고, 당신은 신의 그림자가 문 뒤로 스쳐 지나가는 것을 본 듯하다. 구름이 걷히고 당신은 지상으로 돌아온다.\",\r\n          DialogueId = 6100507,\r\n          GUID = \"0F45A06E\",\r\n          NextDialogue = 6100510,\r\n          RougeTalkActorType = 3\r\n        },\r\n        [6100508] = {\r\n          ContentKR = \"구름 한 점을 잡아 본다.\",\r\n          DialogueId = 6100508,\r\n          GUID = \"0F45A098\",\r\n          IsKeyOption = true,\r\n          NextDialogue = 6100509,\r\n          RougeTalkActorType = 2,\r\n          SpeakNpcId = 910004\r\n        },\r\n        [6100509] = {\r\n          ContentKR = \"당신은 하늘을 향해 힘껏 손을 뻗어 보지만, 부드러워 보이는 구름은 당신의 손가락을 활활 태운다.\n빛은 사라지고, 귓가에 바람 소리가 윙윙거린다. 당신은 자신이 추락하고 있다는 것을 깨닫는다.\",\r\n          DialogueId = 6100509,\r\n          GUID = \"0F45A0C2\",\r\n          NextDialogue = 6100510,\r\n          RougeTalkActorType = 3\r\n        },\r\n        [6100510] = {\r\n          ContentKR = \"맞다, 당신은 잊고 있었다. 심연 속에 하늘은 존재하지 않는다.\",\r\n          DialogueId = 6100510,\r\n          GUID = \"0F45A0EC\",\r\n          RougeTalkActorType = 3\r\n        },\r\n        [6100601] = {\r\n          ContentKR = \"야위고 작은 그림자가 걸어온다.\n가까이 온 그녀는, 키가 크지 않은 소녀였다.\",\r\n          DialogueId = 6100601,\r\n          GUID = \"0F45AFDA\",\r\n          NextDialogue = 6100602,\r\n          RougeTalkActorType = 3\r\n        },\r\n        [6100602] = {\r\n          ContentKR = \"\"실례합니다... 혹시... 여기서... 불 좀 쬘 수 있을까요?\"\n소녀는 오들오들 떨고 있다. 치맛자락에서 물방울이 뚝뚝 떨어지는 것이 보인다. 드레스가 흠뻑 젖어 있다.\",\r\n          DialogueId = 6100602,\r\n          GUID = \"0F45B004\",\r\n          NextDialogue = 6100603,\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room306_Char01\"\r\n        },\r\n        [6100603] = {\r\n          ContentKR = \"\"엄마를 잃어버렸어요... 추워요... 불 좀 쬐게 해주세요! 잠깐이면 돼요.\"\",\r\n          DialogueId = 6100603,\r\n          GUID = \"0F45B02E\",\r\n          NextOptions = {\r\n            [1] = 6100604,\r\n            [2] = 6100613\r\n          },\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room306_Char01\"\r\n        },\r\n        [6100604] = {\r\n          ContentKR = \"동의한다.\",\r\n          DialogueId = 6100604,\r\n          GUID = \"0F45B058\",\r\n          IsKeyOption = true,\r\n          NextDialogue = 6100605,\r\n          RougeTalkActorType = 2,\r\n          SpeakNpcId = 910004\r\n        },\r\n        [6100605] = {\r\n          ContentKR = \"\"감사합니다.\"\n그녀는 오돌오돌 떨며, 감사의 인사를 한다.\",\r\n          DialogueId = 6100605,\r\n          GUID = \"0F45B082\",\r\n          NextDialogue = 6100606,\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room306_Char01\"\r\n        },\r\n        [6100606] = {\r\n          ContentKR = \"왜 여기에 온 건지 묻는다.\",\r\n          DialogueId = 6100606,\r\n          GUID = \"0F45B0AC\",\r\n          NextDialogue = 6100607,\r\n          RougeTalkActorType = 2,\r\n          SpeakNpcId = 910004\r\n        },\r\n        [6100607] = {\r\n          ContentKR = \"\"왜... 왜요...? 아... 생각났어요...\"\n\"아빠랑... 엄마... 는 휘페르보레아 사람인데... 엘리시안으로... 도망...\"\n\"바다에서... 배가... 검은 소용돌이에...\"\",\r\n          DialogueId = 6100607,\r\n          GUID = \"0F45B0D6\",\r\n          NextDialogue = 6100608,\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room306_Char01\"\r\n        },\r\n        [6100608] = {\r\n          ContentKR = \"검은 소용돌이. 당신도 알다시피, 그것은 흑조다. 배고픈 심연이 형체를 가진 모든 것을 뱃속으로 삼키는 것이다.\",\r\n          DialogueId = 6100608,\r\n          GUID = \"0F45B100\",\r\n          NextDialogue = 6100609,\r\n          RougeTalkActorType = 3\r\n        },\r\n        [6100609] = {\r\n          ContentKR = \"왜 엘리시안에 가려고 하는지 묻는다.\",\r\n          DialogueId = 6100609,\r\n          GUID = \"0F45B12A\",\r\n          NextDialogue = 6100610,\r\n          RougeTalkActorType = 2,\r\n          SpeakNpcId = 910004\r\n        },\r\n        [6100610] = {\r\n          ContentKR = \"\"엄마 말이... 우린 '악마의 아이'라고...\"\n\"최악의 상황으로 심연에 떨어진다고 해도... 휘페르보레아에 남는 것보다는... 나을 테니까...\"\",\r\n          DialogueId = 6100610,\r\n          GUID = \"0F45B154\",\r\n          NextDialogue = 6100611,\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room306_Char01\"\r\n        },\r\n        [6100611] = {\r\n          ContentKR = \"\"불을 쬐게 해 주셔서 감사하고... 알려주셔서 감사해요... 저는 이미 이 세상에 없어요.\"\",\r\n          DialogueId = 6100611,\r\n          GUID = \"0F45B17E\",\r\n          NextDialogue = 6100612,\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room306_Char01\"\r\n        },\r\n        [6100612] = {\r\n          ContentKR = \"그녀는 사라졌다. 처음부터 아무도 없었던 것처럼, 당신 곁에는 바싹바싹 타오르는 모닥불만이 남아 있다.\",\r\n          DialogueId = 6100612,\r\n          GUID = \"0F45B1A8\",\r\n          RougeTalkActorType = 3\r\n        },\r\n        [6100613] = {\r\n          ContentKR = \"거절한다.\",\r\n          DialogueId = 6100613,\r\n          GUID = \"0F45B1D2\",\r\n          IsKeyOption = true,\r\n          NextDialogue = 6100614,\r\n          RougeTalkActorType = 2,\r\n          SpeakNpcId = 910004\r\n        },\r\n        [6100614] = {\r\n          ContentKR = \"\"죄... 죄송합니다... 귀찮게 해서 죄송합니다.\"\",\r\n          DialogueId = 6100614,\r\n          GUID = \"0F45B1FC\",\r\n          NextDialogue = 6100615,\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room306_Char01\"\r\n        },\r\n        [6100615] = {\r\n          ContentKR = \"소녀는 덜덜 떨면서 가버렸다. 아무도 오지 않았던 것처럼, 당신 곁에는 활활 타오르는 모닥불만이 남아 있다.\",\r\n          DialogueId = 6100615,\r\n          GUID = \"0F45B226\",\r\n          RougeTalkActorType = 3\r\n        },\r\n        [6100701] = {\r\n          ContentKR = \"\"안녕하세요!\"\",\r\n          DialogueId = 6100701,\r\n          GUID = \"0F45C042\",\r\n          NextDialogue = 6100702,\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room307_Char01\"\r\n        },\r\n        [6100702] = {\r\n          ContentKR = \"배낭을 멘 쾌활한 청년이 모닥불 옆으로 다가와, 큰소리로 인사를 한다.\",\r\n          DialogueId = 6100702,\r\n          GUID = \"0F45C06C\",\r\n          NextDialogue = 6100703,\r\n          RougeTalkActorType = 3\r\n        },\r\n        [6100703] = {\r\n          ContentKR = \"\"좀 실례되는 말이지만, 당신은 아직 살아있군요! 맞죠?\"\",\r\n          DialogueId = 6100703,\r\n          GUID = \"0F45C096\",\r\n          NextOptions = {\r\n            [1] = 6100704,\r\n            [2] = 6100711\r\n          },\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room307_Char01\"\r\n        },\r\n        [6100704] = {\r\n          ContentKR = \"고개를 끄덕인다.\",\r\n          DialogueId = 6100704,\r\n          GUID = \"0F45C0C0\",\r\n          IsKeyOption = true,\r\n          NextDialogue = 6100705,\r\n          RougeTalkActorType = 2,\r\n          SpeakNpcId = 910004\r\n        },\r\n        [6100705] = {\r\n          ContentKR = \"\"여기서 살아있는 사람을 만날 줄은 정말 몰랐어요. 당신도 저처럼, 엄청난 행운아네요!\"\",\r\n          DialogueId = 6100705,\r\n          GUID = \"0F45C0EA\",\r\n          NextDialogue = 6100706,\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room307_Char01\"\r\n        },\r\n        [6100706] = {\r\n          ContentKR = \"\"저는 열여섯 살 되던 해에 아버지와 함께 노래를 한 곡 썼는데, 성재로부터 신성 모독 판결을 받았어요.\"\n\"재수라곤 더럽게 없는 아버지처럼 저도 목이 날아갈 뻔했는데, 사형 집행인이 처형일에 벼락을 맞아 사면됐죠.\"\",\r\n          DialogueId = 6100706,\r\n          GUID = \"0F45C114\",\r\n          NextDialogue = 6100707,\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room307_Char01\"\r\n        },\r\n        [6100707] = {\r\n          ContentKR = \"\"스무 살 되던 해에 유랑 상인 무리에 합류했는데, 북쪽 숲에서 강도를 당했어요. 납치돼서 동굴에 버려졌죠.\"\n\"동료들처럼 굶어 죽나 했는데, 일주일째 되는 날 아침 돼지 한 마리가 깨우더니, 한 소녀가 먹을 걸 주더라고요. 천사를 만난 줄 알았죠.\"\",\r\n          DialogueId = 6100707,\r\n          GUID = \"0F45C13E\",\r\n          NextDialogue = 6100708,\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room307_Char01\"\r\n        },\r\n        [6100708] = {\r\n          ContentKR = \"\"그 후 전 상인으로서 기사단을 따라 심연으로 왔어요. 손에 든 랜턴이 하나둘 꺼졌고, 기사 나리 하나는 넘어지면서 자신의 검에 목을 찔렸어요. 제가 유일한 생존자였죠.\"\n\"그래서 전 운명의 여신을 믿게 됐어요. 여신께선 제게 더없는 행운과 행복을 주실 거예요.\"\",\r\n          DialogueId = 6100708,\r\n          GUID = \"0F45C168\",\r\n          NextDialogue = 6100709,\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room307_Char01\"\r\n        },\r\n        [6100709] = {\r\n          ContentKR = \"\"그분이 절 인도했다는 건, 이곳 깊숙이 유일무이한 보물이 절 기다리고 있다는 뜻이죠. 이제, 전 그걸 찾아서 떠나야 해요.\"\n그가 무거운 배낭을 짊어진다.\",\r\n          DialogueId = 6100709,\r\n          GUID = \"0F45C192\",\r\n          NextDialogue = 6100710,\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room307_Char01\"\r\n        },\r\n        [6100710] = {\r\n          ContentKR = \"\"참, 저기요! 그분께서 당신을 살아남게 했으니, 당신도 당신만의 유일무이한 행운을 만나게 될 거예요!\"\n그는 두 주먹을 불끈 쥐고, 크게 웃는다.\n\"우리의 행복을 위하여!\"\",\r\n          DialogueId = 6100710,\r\n          GUID = \"0F45C1BC\",\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room307_Char01\"\r\n        },\r\n        [6100711] = {\r\n          ContentKR = \"누워서 죽은 척한다.\",\r\n          DialogueId = 6100711,\r\n          GUID = \"0F45C1E6\",\r\n          IsKeyOption = true,\r\n          NextDialogue = 6100712,\r\n          RougeTalkActorType = 2,\r\n          SpeakNpcId = 910004\r\n        },\r\n        [6100712] = {\r\n          ContentKR = \"\"기절했나?\"\n그는 쪼그리고 앉아, 당신이 숨을 쉬는지 코에 손을 댄다.\n\"설마, 당신도 그들과 같은 망령인가요?\"\",\r\n          DialogueId = 6100712,\r\n          GUID = \"0F45C210\",\r\n          NextDialogue = 6100713,\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room307_Char01\"\r\n        },\r\n        [6100713] = {\r\n          ContentKR = \"당신은 침묵한다.\n그는 배낭을 내려놓고, 물과 음식을 꺼낸다.\",\r\n          DialogueId = 6100713,\r\n          GUID = \"0F45C23A\",\r\n          NextDialogue = 6100714,\r\n          RougeTalkActorType = 3\r\n        },\r\n        [6100714] = {\r\n          ContentKR = \"\"불쌍한 친구, 이걸 놓고 갈게요! 성탑에 첫 번째 햇살이 비출 때, 당신이 깨어나서 처음처럼 건강해지기를 바라요.\"\",\r\n          DialogueId = 6100714,\r\n          GUID = \"0F45C264\",\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room307_Char01\"\r\n        },\r\n        [6100801] = {\r\n          ContentKR = \"같은 줄기에서 자라난 검붉은 꽃 한 쌍이 어둠 속에서 그윽한 빛을 발하고 있다.\n당신이 랜턴을 들자, 희끗희끗한 금발머리 몇 가닥과 몇 마디의 창백한 등뼈가 비친다. 이건 사람 모양의 필토이드일까? 아니면 곧 필토이드가 될 사람일까?\n당신은 경계하며 무기를 움켜쥐지만, 그것은 당신을 공격하지 않는다. 다만 어둠 속에 박힌 검붉은 눈동자로, 당신을 소리 없이 주시하고 있을 뿐이다.\",\r\n          DialogueId = 6100801,\r\n          GUID = \"0F45D0AA\",\r\n          NextDialogue = 6100802,\r\n          RougeTalkActorType = 3\r\n        },\r\n        [6100802] = {\r\n          ContentKR = \"갑자기, 그것이 목에서 뭔가 산산조각 나는 소리를 낸다. 날카로운 돌멩이들이 서도 부딪치며 내는 소리 같기도 하고, 어떤 리듬을 타는 것 같기도 하다. 이유는 모르지만, 당신은 그 의미를 이해할 수 있을 것 같다.\",\r\n          DialogueId = 6100802,\r\n          GUID = \"0F45D0D4\",\r\n          NextDialogue = 6100803,\r\n          RougeTalkActorType = 3\r\n        },\r\n        [6100803] = {\r\n          ContentKR = \"\"랜턴을 든 여행자님, 가지 마세요. 당신의 랜턴에 비친 제 모습이 여전히 아름다운가요? 제발 알려주세요.\"\",\r\n          DialogueId = 6100803,\r\n          GUID = \"0F45D0FE\",\r\n          NextDialogue = 6100804,\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room308_Char01\"\r\n        },\r\n        [6100804] = {\r\n          ContentKR = \"\"전 윤기 나게 머리를 빗고 곱게 땋았어요.\" 필토이드가 머리 뒤의 갈라진 피부를 어루만진다.\n\"치마의 주름도 가지런히 다려, 화려한 보석으로 장식했어요.\" 필토이드가 표면에 깊이 박힌 결정을 어루만진다.\n\"사랑하는 이가 준 목걸이를 목에 걸고, 그의 간절한 마음을 생각해요.\" 필토이드가 목 사이로 뻗은 뼈마디를 어루만진다.\",\r\n          DialogueId = 6100804,\r\n          GUID = \"0F45D128\",\r\n          NextOptions = {\r\n            [1] = 6100805,\r\n            [2] = 6100808\r\n          },\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room308_Char01\"\r\n        },\r\n        [6100805] = {\r\n          ContentKR = \"\"네, 아름답습니다.\"\",\r\n          DialogueId = 6100805,\r\n          GUID = \"0F45D152\",\r\n          IsKeyOption = true,\r\n          NextDialogue = 6100806,\r\n          RougeTalkActorType = 2,\r\n          SpeakNpcId = 910004\r\n        },\r\n        [6100806] = {\r\n          ContentKR = \"마치 바람에 흔들리는 꽃잎처럼, 붉은 눈동자가 가늘게 떨린다.\",\r\n          DialogueId = 6100806,\r\n          GUID = \"0F45D17C\",\r\n          NextDialogue = 6100807,\r\n          RougeTalkActorType = 3\r\n        },\r\n        [6100807] = {\r\n          ContentKR = \"\"감사합니다, 친절한 여행자님. 제 감사의 선물을 받아 주세요.\"\n\"혹시 제 애인을 만난다면, 제가 영원히 사랑할 거라고 전해 주세요.\"\",\r\n          DialogueId = 6100807,\r\n          GUID = \"0F45D1A6\",\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room308_Char01\"\r\n        },\r\n        [6100808] = {\r\n          ContentKR = \"\"당신은 무서운 괴물입니다.\"\",\r\n          DialogueId = 6100808,\r\n          GUID = \"0F45D1D0\",\r\n          IsKeyOption = true,\r\n          NextDialogue = 6100809,\r\n          RougeTalkActorType = 2,\r\n          SpeakNpcId = 910004\r\n        },\r\n        [6100809] = {\r\n          ContentKR = \"험상궂은 발톱이 그 붉은 눈동자를 덮는다.\",\r\n          DialogueId = 6100809,\r\n          GUID = \"0F45D1FA\",\r\n          NextDialogue = 6100810,\r\n          RougeTalkActorType = 3\r\n        },\r\n        [6100810] = {\r\n          ContentKR = \"\"오, 안 돼! 이렇게 못생긴 내 모습을 사랑하는 사람에게 보여주고 싶지 않아요.\"\n\"자비로운 여행자님, 저를 끝내주세요.\"\",\r\n          DialogueId = 6100810,\r\n          GUID = \"0F45D224\",\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room308_Char01\"\r\n        },\r\n        [6100901] = {\r\n          ContentKR = \"\"안녕하세요, 낯선 여행자님.\"\",\r\n          DialogueId = 6100901,\r\n          GUID = \"0F45E112\",\r\n          NextDialogue = 6100902,\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room309_Char01\"\r\n        },\r\n        [6100902] = {\r\n          ContentKR = \"화려한 옷차림의 한 청년이 모닥불에 흔들리는 빛과 그림자 속에서 걸음을 멈추고, 당신을 향해 우아하게 인사한다.\",\r\n          DialogueId = 6100902,\r\n          GUID = \"0F45E13C\",\r\n          NextDialogue = 6100903,\r\n          RougeTalkActorType = 3\r\n        },\r\n        [6100903] = {\r\n          ContentKR = \"\"전 빨간 눈동자를 가진 여인을 찾고 있어요. 혹시 그녀가 얼마나 아름다운지 본 적 있으세요?\"\",\r\n          DialogueId = 6100903,\r\n          GUID = \"0F45E166\",\r\n          NextDialogue = 6100904,\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room309_Char01\"\r\n        },\r\n        [6100904] = {\r\n          ContentKR = \"\"그녀는 세상에서 가장 아름다운 목소리를 가지고 있어요. 나이팅게일도 무색할 정도죠.\"\n\"그녀는 봄날에 피는 금잔화처럼, 부드럽고 아름다운 금빛 머리카락을 가지고 있어요.\"\n\"그녀는 화려하면서도 단아한 원피스를 입고 있어요. 치맛자락에는 별처럼 빛나는 보석이 가득 달려 있죠.\"\n\"그녀는 제가 선물한 목걸이를 하고 있어요. 신비롭고 그윽한 검붉은 색 수정이 마치 절 응시하는 그녀의 눈처럼 보이죠.\"\",\r\n          DialogueId = 6100904,\r\n          GUID = \"0F45E190\",\r\n          NextDialogue = 6100905,\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room309_Char01\"\r\n        },\r\n        [6100905] = {\r\n          ContentKR = \"그런 여인을 본 적이 없다.\",\r\n          DialogueId = 6100905,\r\n          GUID = \"0F45E1BA\",\r\n          NextDialogue = 6100906,\r\n          RougeTalkActorType = 2,\r\n          SpeakNpcId = 910004\r\n        },\r\n        [6100906] = {\r\n          ContentKR = \"\"그래요...\"\n그는 우울하게 눈을 내리깔지만, 곧 우아한 모습으로 돌아온다.\n\"괜찮아요, 계속 찾아보면 되니까요.\"\",\r\n          DialogueId = 6100906,\r\n          GUID = \"0F45E1E4\",\r\n          NextDialogue = 6100907,\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room309_Char01\"\r\n        },\r\n        [6100907] = {\r\n          ContentKR = \"청년이 모닥불 옆에 앉자, 밝은 불길이 그의 눈동자에 비친다.\",\r\n          DialogueId = 6100907,\r\n          GUID = \"0F45E20E\",\r\n          NextDialogue = 6100908,\r\n          RougeTalkActorType = 3\r\n        },\r\n        [6100908] = {\r\n          ContentKR = \"\"저는 그녀와 오래전에 약혼했어요. 성인이 되면 혼례를 올리기로 했죠. 그런데 그녀가 신의 은총을 입어, 이마의 성흔이 점점 뚜렷해지더니, 열네 살 생일 전날 밤 사자가 찾아와서 데려갔어요.\"\n\"그녀는 떠나기 전에 저에게 다른 짝을 찾으라는 편지를 남겼죠. 하지만 전 맹세했어요. 이번 생은 오직 그녀와 함께하겠다고요.\"\n\"그녀를 찾으면, 다시 이 세상에 데려올 거예요. 만월의 신께선 사람들에게 사랑의 아름다움을 노래하라고 가르치셨으니, 반드시 저희를 도와주실 거예요.\"\",\r\n          DialogueId = 6100908,\r\n          GUID = \"0F45E238\",\r\n          NextOptions = {\r\n            [1] = 6100909,\r\n            [2] = 6100911\r\n          },\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room309_Char01\"\r\n        },\r\n        [6100909] = {\r\n          ContentKR = \"하루빨리 연인을 찾기를 바란다.\",\r\n          DialogueId = 6100909,\r\n          GUID = \"0F45E262\",\r\n          IsKeyOption = true,\r\n          NextDialogue = 6100910,\r\n          RougeTalkActorType = 2,\r\n          SpeakNpcId = 910004\r\n        },\r\n        [6100910] = {\r\n          ContentKR = \"\"정말 고맙습니다, 친절한 여행자님.\"\n\"작은 선물이지만 받아주세요. 당신도 원하는 것을 얻길 바랍니다.\"\",\r\n          DialogueId = 6100910,\r\n          GUID = \"0F45E28C\",\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room309_Char01\"\r\n        },\r\n        [6100911] = {\r\n          ContentKR = \"\"만약 신이 동의하지 않으면요?\"\",\r\n          DialogueId = 6100911,\r\n          GUID = \"0F45E2B6\",\r\n          IsKeyOption = true,\r\n          NextDialogue = 6100912,\r\n          RougeTalkActorType = 2,\r\n          SpeakNpcId = 910004\r\n        },\r\n        [6100912] = {\r\n          ContentKR = \"그는 당신을 향해 담담하게 미소 짓는다.\n\"그러면 이 몸을 성스러운 호수에 바쳐, 영혼이나마 영원히 그녀와 함께하겠습니다.\"\",\r\n          DialogueId = 6100912,\r\n          GUID = \"0F45E2E0\",\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room309_Char01\"\r\n        },\r\n        [6101001] = {\r\n          ContentKR = \"모닥불 옆에 한 여인이 나타난다. 그녀는 활활 타오르는 모닥불에 왼손을 뻗어 재를 묻히고, 바닥에 당신이 알아볼 수 없는 글을 쓴다.\",\r\n          DialogueId = 6101001,\r\n          GUID = \"0F45F17A\",\r\n          NextDialogue = 6101002,\r\n          RougeTalkActorType = 3\r\n        },\r\n        [6101002] = {\r\n          ContentKR = \"\"아, 시간을 거스르는 여행자여, 그대의 동반자는 절망이요, 죽음은 그림자처럼 따라다닌다네.\"\n그녀가 낮은 소리로 읊조린다.\",\r\n          DialogueId = 6101002,\r\n          GUID = \"0F45F1A4\",\r\n          NextOptions = {\r\n            [1] = 6101003,\r\n            [2] = 6101005\r\n          },\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room310_Char01\"\r\n        },\r\n        [6101003] = {\r\n          ContentKR = \"뭘 하고 있는지 묻는다.\",\r\n          DialogueId = 6101003,\r\n          GUID = \"0F45F1CE\",\r\n          IsKeyOption = true,\r\n          NextDialogue = 6101004,\r\n          RougeTalkActorType = 2,\r\n          SpeakNpcId = 910004\r\n        },\r\n        [6101004] = {\r\n          ContentKR = \"\"오, 친구여! 보시다시피, 저는 시인입니다.\"\n\"저는 지금 제 1001번째 작품을 창작하고 있어요. 맞습니다. 당신을 위한 시죠!\"\",\r\n          DialogueId = 6101004,\r\n          GUID = \"0F45F1F8\",\r\n          NextDialogue = 6101008,\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room310_Char01\"\r\n        },\r\n        [6101005] = {\r\n          ContentKR = \"\"불꽃이 뜨겁지 않나요?\"\",\r\n          DialogueId = 6101005,\r\n          GUID = \"0F45F222\",\r\n          IsKeyOption = true,\r\n          NextDialogue = 6101006,\r\n          RougeTalkActorType = 2,\r\n          SpeakNpcId = 910004\r\n        },\r\n        [6101006] = {\r\n          ContentKR = \"여자가 깔깔거리며 웃는다.\",\r\n          DialogueId = 6101006,\r\n          GUID = \"0F45F24C\",\r\n          NextDialogue = 6101007,\r\n          RougeTalkActorType = 3\r\n        },\r\n        [6101007] = {\r\n          ContentKR = \"\"잘 보세요, 친구.\"\n그녀가 당신의 눈앞에 손바닥을 편다. 하얀 손은 흠결 없이 멀쩡하다.\n\"당신처럼 지혜로운 여행자는, 이 불이 진짜가 아니라는 걸 눈치챘겠죠. 저도 마찬가지로 진짜가 아니고요.\"\",\r\n          DialogueId = 6101007,\r\n          GUID = \"0F45F276\",\r\n          NextDialogue = 6101008,\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room310_Char01\"\r\n        },\r\n        [6101008] = {\r\n          ContentKR = \"시인이 다시 손을 뻗어 모닥불을 휘젓는다. 가느다란 손끝이 무용수의 두 발처럼 날렵하게 불 속을 누빈다.\",\r\n          DialogueId = 6101008,\r\n          GUID = \"0F45F2A0\",\r\n          NextDialogue = 6101009,\r\n          RougeTalkActorType = 3\r\n        },\r\n        [6101009] = {\r\n          ContentKR = \"\"이곳은 정말 아름다운 곳이죠, 그렇지 않나요?\"\n\"저는 마침내 육체적인 고통에서 벗어났어요. 다시는 지루한 일들로 제 창작을 방해받지 않게 됐죠. 전 무한한 자유와 영원한 시간을 얻었어요.\"\n\"여행자님, 여기 멈춰서 한 줄기 빛을 가져다주셔서 감사해요. 제 시를 받아주세요. 반드시 이 끝없는 윤회에서 벗어나, 소망을 이루시길 바랄게요.\"\",\r\n          DialogueId = 6101009,\r\n          GUID = \"0F45F2CA\",\r\n          NextDialogue = 6101010,\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room310_Char01\"\r\n        },\r\n        [6101010] = {\r\n          ContentKR = \"시인이 손을 뻗자, 연기가 폭풍처럼 순식간에 눈앞을 가린다.\n연기가 흩어지자, 시인은 이미 사라진 뒤였다.\",\r\n          DialogueId = 6101010,\r\n          GUID = \"0F45F2F4\",\r\n          RougeTalkActorType = 3\r\n        },\r\n        [6101101] = {\r\n          ContentKR = \"\"안녕하세요, 혹시 당신의 빛을 좀 빌려주실 수 있을까요.\"\",\r\n          DialogueId = 6101101,\r\n          GUID = \"0F4601E2\",\r\n          NextDialogue = 6101102,\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room311_Char01\"\r\n        },\r\n        [6101102] = {\r\n          ContentKR = \"소년이 어리숙한 걸음으로 짐짓 점잖은 체하며, 천천히 모닥불 옆에 앉는다.\n너무 큰 턱시도를 입고 있어, 앙상한 체구가 안쓰러워 보일 정도다. 그는 불빛 아래 얇은 책 한 권을 들고, 아주 그럴듯하게 낭독하기 시작한다.\",\r\n          DialogueId = 6101102,\r\n          GUID = \"0F46020C\",\r\n          NextDialogue = 6101103,\r\n          RougeTalkActorType = 3\r\n        },\r\n        [6101103] = {\r\n          ContentKR = \"\"화염의 신이여, 우리에게 지혜를 주소서... 물의 신이시여, 우리에게 풍요를 주소서...\"\",\r\n          DialogueId = 6101103,\r\n          GUID = \"0F460236\",\r\n          NextOptions = {\r\n            [1] = 6101104\r\n          },\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room311_Char01\"\r\n        },\r\n        [6101104] = {\r\n          ContentKR = \"뭘 읽는 건가요?\",\r\n          DialogueId = 6101104,\r\n          GUID = \"0F460260\",\r\n          NextDialogue = 6101105,\r\n          RougeTalkActorType = 2,\r\n          SpeakNpcId = 910004\r\n        },\r\n        [6101105] = {\r\n          ContentKR = \"\"아, 형들이 준 책을 읽고 있어요.\" 소년은 부끄러워하며 머리를 쓰다듬는다. \"신을 뵙기 전에 더 똑똑해져야 하거든요.\"\n\"전 어릴 때부터 집안에서 가장 맹한 아이였어요. 형들은 저보다 훨씬 똑똑했죠. 그런데 신께서 하필이면 절 뽑으신 거예요. 다들 말도 안 된다고 했죠.\"\n\"형들이 이 성가책을 주면서 아홉 신을 뵙기 전에 잘 읽으라고 했어요. 집안 망신시키지 않도록요.\"\",\r\n          DialogueId = 6101105,\r\n          GUID = \"0F46028A\",\r\n          NextDialogue = 6101106,\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room311_Char01\"\r\n        },\r\n        [6101106] = {\r\n          ContentKR = \"소년이 몸을 움직여 당신 곁에 더 가까이 앉는다. 그리곤 책을 치켜들고, 같이 보자는 눈짓을 한다.\",\r\n          DialogueId = 6101106,\r\n          GUID = \"0F4602B4\",\r\n          NextDialogue = 6101107,\r\n          RougeTalkActorType = 3\r\n        },\r\n        [6101107] = {\r\n          ContentKR = \"\"저랑 같이 보실래요?\"\",\r\n          DialogueId = 6101107,\r\n          GUID = \"0F4602DE\",\r\n          NextOptions = {\r\n            [1] = 6101108,\r\n            [2] = 6101112\r\n          },\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room311_Char01\"\r\n        },\r\n        [6101108] = {\r\n          ContentKR = \"함께 책을 읽는다.\",\r\n          DialogueId = 6101108,\r\n          GUID = \"0F460308\",\r\n          IsKeyOption = true,\r\n          NextDialogue = 6101109,\r\n          RougeTalkActorType = 2,\r\n          SpeakNpcId = 910004\r\n        },\r\n        [6101109] = {\r\n          ContentKR = \"당신은 제안을 받아들여 책으로 시선을 옮긴다. 놀랍게도 책장엔 누군가가 시커먼 펜으로 쓴, 당신이 상상조차 하지 못할 악담과 상스러운 말들로 뒤덮여 있다.\n글자는 순식간에 검은 가시덤불이 되어, 책장을 뚫고 나와, 사냥에 나선 독사처럼 몸을 휘감는다. 시야가 천천히 흐려진다.\n당신은 살아남기 위해 본능적으로 몸을 뒤로 젖혀, 시선을 책장 밖으로 옮긴다.\",\r\n          DialogueId = 6101109,\r\n          GUID = \"0F460332\",\r\n          NextDialogue = 6101110,\r\n          RougeTalkActorType = 3\r\n        },\r\n        [6101110] = {\r\n          ContentKR = \"\"어? 왜 그러세요? 책에 무서운 거라도 있나요?\"\n소년은 당신을 곤혹스럽게 바라보지만, 눈빛은 여전히 맑고 투명하다.\",\r\n          DialogueId = 6101110,\r\n          GUID = \"0F46035C\",\r\n          NextDialogue = 6101111,\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room311_Char01\"\r\n        },\r\n        [6101111] = {\r\n          ContentKR = \"당신은 입을 열지만, 아무 소리도 내지 못한다.\n검은 가시덤불은 소년을 뒤덮어 삼켰다. 곧이어 소년과 책, 가시덤불은 모두 사라져 버렸다.\",\r\n          DialogueId = 6101111,\r\n          GUID = \"0F460386\",\r\n          RougeTalkActorType = 3\r\n        },\r\n        [6101112] = {\r\n          ContentKR = \"함께 읽기를 거절한다.\",\r\n          DialogueId = 6101112,\r\n          GUID = \"0F4603B0\",\r\n          IsKeyOption = true,\r\n          NextDialogue = 6101113,\r\n          RougeTalkActorType = 2,\r\n          SpeakNpcId = 910004\r\n        },\r\n        [6101113] = {\r\n          ContentKR = \"당신은 여기에 공부하러 온 것이 아니다.\",\r\n          DialogueId = 6101113,\r\n          GUID = \"0F4603DA\",\r\n          NextDialogue = 6101114,\r\n          RougeTalkActorType = 3\r\n        },\r\n        [6101114] = {\r\n          ContentKR = \"\"알았어요. 그럼 저 혼자 읽을게요...\"\n소년이 책을 다시 무릎 위에 놓는다.\",\r\n          DialogueId = 6101114,\r\n          GUID = \"0F460404\",\r\n          NextDialogue = 6101115,\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room311_Char01\"\r\n        },\r\n        [6101115] = {\r\n          ContentKR = \"갑자기 책에서 검은 가시덤불이 뻗어 나온다.\n놀랄 새도 없이, 가시덤불은 소년을 뒤덮어 삼켰다. 곧이어 소년과 책, 가시덤불은 모두 사라져 버렸다.\",\r\n          DialogueId = 6101115,\r\n          GUID = \"0F46042E\",\r\n          RougeTalkActorType = 3\r\n        },\r\n        [6101201] = {\r\n          ContentKR = \"한 중년 여인이 침울한 얼굴로 모닥불 앞에 앉았으나, 불빛은 그녀의 어두운 눈을 비추지 못했다.\",\r\n          DialogueId = 6101201,\r\n          GUID = \"0F46124A\",\r\n          NextDialogue = 6101202,\r\n          RougeTalkActorType = 3\r\n        },\r\n        [6101202] = {\r\n          ContentKR = \"\"안녕하세요, 낯선 분. 실례지만 여기가 어디인가요?\"\",\r\n          DialogueId = 6101202,\r\n          GUID = \"0F461274\",\r\n          NextDialogue = 6101203,\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room312_Char01\"\r\n        },\r\n        [6101203] = {\r\n          ContentKR = \"대답한다.\",\r\n          DialogueId = 6101203,\r\n          GUID = \"0F46129E\",\r\n          NextDialogue = 6101204,\r\n          RougeTalkActorType = 3\r\n        },\r\n        [6101204] = {\r\n          ContentKR = \"\"성스러운 호수...? 심연...?\" 그녀의 말투는 막막함과 당혹스러움으로 가득 차 있다. \"전 어째서 그런 말들을 들어본 적 없는 것 같죠...\"\n그녀는 주름 골이 가득한 자신의 손바닥을 바라본다. \"제가 여기 왜 왔는지 잊어버렸어요.\"\",\r\n          DialogueId = 6101204,\r\n          GUID = \"0F4612C8\",\r\n          NextOptions = {\r\n            [1] = 6101205,\r\n            [2] = 6101207\r\n          },\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room312_Char01\"\r\n        },\r\n        [6101205] = {\r\n          ContentKR = \"성스러운 호수의 역사를 알려준다.\",\r\n          DialogueId = 6101205,\r\n          GUID = \"0F4612F2\",\r\n          IsKeyOption = true,\r\n          NextDialogue = 6101206,\r\n          RougeTalkActorType = 2,\r\n          SpeakNpcId = 910004\r\n        },\r\n        [6101206] = {\r\n          ContentKR = \"\"몸에 성흔이 생긴 사람은... 이곳으로 오게 된다고요...?\"\n\"아... 생각났어요. 제 아이가 여기 있어요. 아이의 눈가에 날개를 퍼덕이며 날아오르려는 나비 같은 성흔이 나타났어요.\"\",\r\n          DialogueId = 6101206,\r\n          GUID = \"0F46131C\",\r\n          NextDialogue = 6101210,\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room312_Char01\"\r\n        },\r\n        [6101207] = {\r\n          ContentKR = \"소지품을 살펴보라고 조언한다.\",\r\n          DialogueId = 6101207,\r\n          GUID = \"0F461346\",\r\n          IsKeyOption = true,\r\n          NextDialogue = 6101208,\r\n          RougeTalkActorType = 2,\r\n          SpeakNpcId = 910004\r\n        },\r\n        [6101208] = {\r\n          ContentKR = \"\"그 말이 맞아요.\"\n그녀는 손을 주머니에 넣어, 은색 브로치 하나를 더듬어 꺼낸다.\",\r\n          DialogueId = 6101208,\r\n          GUID = \"0F461370\",\r\n          NextDialogue = 6101209,\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room312_Char01\"\r\n        },\r\n        [6101209] = {\r\n          ContentKR = \"\"아... 생각났어요.\" 그녀는 조심스럽게 소매 끝으로 브로치를 깨끗이 닦는다. \"이건 제가 그 아이에게 준 선물이에요.\"\",\r\n          DialogueId = 6101209,\r\n          GUID = \"0F46139A\",\r\n          NextDialogue = 6101210,\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room312_Char01\"\r\n        },\r\n        [6101210] = {\r\n          ContentKR = \"고개를 든 여자의 눈에, 불빛이 또렷이 비친다.\",\r\n          DialogueId = 6101210,\r\n          GUID = \"0F4613C4\",\r\n          NextDialogue = 6101211,\r\n          RougeTalkActorType = 3\r\n        },\r\n        [6101211] = {\r\n          ContentKR = \"\"전 제 아이를 찾기 위해 여기 왔어요.\"\n\"그들은 제가 집에 없는 틈을 타, 깊이 잠든 아이를 데리고 갔어요. 그 아이는 어려서부터 낯을 가리는 아이예요. 깨어났을 때 낯익은 얼굴이 보이지 않으면 무서워할 거예요.\"\n\"제가 곁에 있어 줘야 해요... 맞아요, 전 아이를 찾으러 왔어요.\"\",\r\n          DialogueId = 6101211,\r\n          GUID = \"0F4613EE\",\r\n          NextDialogue = 6101212,\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room312_Char01\"\r\n        },\r\n        [6101212] = {\r\n          ContentKR = \"\"아이가 떠난 지 얼마나 됐나요?\"\",\r\n          DialogueId = 6101212,\r\n          GUID = \"0F461418\",\r\n          NextDialogue = 6101213,\r\n          RougeTalkActorType = 2,\r\n          SpeakNpcId = 910004\r\n        },\r\n        [6101213] = {\r\n          ContentKR = \"\"10일 전... 아니, 10달... 아니, 10년... 아... 생각이 안 나요.\"\",\r\n          DialogueId = 6101213,\r\n          GUID = \"0F461442\",\r\n          NextDialogue = 6101214,\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room312_Char01\"\r\n        },\r\n        [6101214] = {\r\n          ContentKR = \"여인은 말을 잃은 채, 멍한 얼굴로, 꼼짝도 하지 않는다. 마치 호흡마저 멈춘 것 같다.\n당신이 무슨 말을 해도, 그녀는 아무런 반응이 없다.\",\r\n          DialogueId = 6101214,\r\n          GUID = \"0F46146C\",\r\n          RougeTalkActorType = 3\r\n        },\r\n        [6101301] = {\r\n          ContentKR = \"\"펑!\"\n갑자기 눈앞의 모닥불이 더 활활 타오른다.\n금발 소녀가 치맛자락에 황금빛 자갈을 싸서, 자갈을 모닥불 한가운데 하나씩 던져 넣는 게 보인다.\",\r\n          DialogueId = 6101301,\r\n          GUID = \"0F4622B2\",\r\n          NextDialogue = 6101302,\r\n          RougeTalkActorType = 3\r\n        },\r\n        [6101302] = {\r\n          ContentKR = \"불빛은 마치 생애 첫 봄을 맞아 미친 듯이 가지를 뻗어 싹을 피우는 초목처럼 점점 거세게 타오른다.\",\r\n          DialogueId = 6101302,\r\n          GUID = \"0F4622DC\",\r\n          NextOptions = {\r\n            [1] = 6101303,\r\n            [2] = 6101305\r\n          },\r\n          RougeTalkActorType = 3\r\n        },\r\n        [6101303] = {\r\n          ContentKR = \"불길의 아름다움을 칭찬한다.\",\r\n          DialogueId = 6101303,\r\n          GUID = \"0F462306\",\r\n          IsKeyOption = true,\r\n          NextDialogue = 6101304,\r\n          RougeTalkActorType = 2,\r\n          SpeakNpcId = 910004\r\n        },\r\n        [6101304] = {\r\n          ContentKR = \"\"맞아요!\" 그녀가 불길처럼 뜨겁게 말한다. \"저와 같은 생각을 하는 사람을 만나서 기뻐요.\"\",\r\n          DialogueId = 6101304,\r\n          GUID = \"0F462330\",\r\n          NextDialogue = 6101307,\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room313_Char01\"\r\n        },\r\n        [6101305] = {\r\n          ContentKR = \"돌이 어디서 났는지 묻는다.\",\r\n          DialogueId = 6101305,\r\n          GUID = \"0F46235A\",\r\n          IsKeyOption = true,\r\n          NextDialogue = 6101306,\r\n          RougeTalkActorType = 2,\r\n          SpeakNpcId = 910004\r\n        },\r\n        [6101306] = {\r\n          ContentKR = \"\"근처에서 주운 돌이에요.\" 그녀가 설명한다. \"제 생각엔 이 돌들이 어떤 화염 마법 수정이 아닌가 싶어요.\"\",\r\n          DialogueId = 6101306,\r\n          GUID = \"0F462384\",\r\n          NextDialogue = 6101307,\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room313_Char01\"\r\n        },\r\n        [6101307] = {\r\n          ContentKR = \"소녀는 계속 돌멩이를 던진다. 착시인지는 몰라도, 불길이 소녀에게 점점 다가오며, 금빛 머리카락을 부드럽게 핥는 듯하다.\",\r\n          DialogueId = 6101307,\r\n          GUID = \"0F4623AE\",\r\n          NextDialogue = 6101308,\r\n          RougeTalkActorType = 3\r\n        },\r\n        [6101308] = {\r\n          ContentKR = \"\"내일이면 모닥불은 원래대로 돌아가고, 이 자갈들은 다시 근처에 흩어질 거예요.\"\n\"그래서 전 이 돌을 매일 주워서 다시 던져야 해요. 총 146개에서 한 개도 빠지면 안 돼요.\"\",\r\n          DialogueId = 6101308,\r\n          GUID = \"0F4623D8\",\r\n          NextDialogue = 6101309,\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room313_Char01\"\r\n        },\r\n        [6101309] = {\r\n          ContentKR = \"\"무의미한 일 아닐까요?\"\",\r\n          DialogueId = 6101309,\r\n          GUID = \"0F462402\",\r\n          NextDialogue = 6101310,\r\n          RougeTalkActorType = 2,\r\n          SpeakNpcId = 910004\r\n        },\r\n        [6101310] = {\r\n          ContentKR = \"소녀는 고개를 갸웃하더니, 눈을 깜박이며, 천진난만한 미소를 짓는다.\",\r\n          DialogueId = 6101310,\r\n          GUID = \"0F46242C\",\r\n          NextDialogue = 6101311,\r\n          RougeTalkActorType = 3\r\n        },\r\n        [6101311] = {\r\n          ContentKR = \"\"아뇨, 저는 불을 좋아해요.\" 그녀가 말한다. \"저는 불이 춤추듯 타오를 때의 모습을 보며 거센 불길 소리를 듣는 게 좋아요.\"\n\"아시겠지만 여긴 혼란스러운 공간이잖아요. 눈을 감아도 모닥불이 곁에 있고, 깨어나 보면 호수 밑바닥에 있죠.\"\n\"하지만 이 돌멩이들은 달라요. 주변이 어떻게 변하든, 이것들은 항상 다시 나타나죠. 내일도 이 돌멩이들을 찾아낼 수 있다고 생각하면 안심하고 잠들 수 있어요.\"\",\r\n          DialogueId = 6101311,\r\n          GUID = \"0F462456\",\r\n          NextDialogue = 6101312,\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room313_Char01\"\r\n        },\r\n        [6101312] = {\r\n          ContentKR = \"\"저는 확실한 것들이 좋아요.\"\",\r\n          DialogueId = 6101312,\r\n          GUID = \"0F462480\",\r\n          NextDialogue = 6101313,\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room313_Char01\"\r\n        },\r\n        [6101313] = {\r\n          ContentKR = \"소녀는 그 말과 함께 마지막 돌을 던진다.\n불빛이 그녀를 완전히 감싸고, 금빛 머리카락이 불꽃과 하나가 되어 더 이상 경계를 분간할 수 없게 되었다.\",\r\n          DialogueId = 6101313,\r\n          GUID = \"0F4624AA\",\r\n          RougeTalkActorType = 3\r\n        },\r\n        [6101401] = {\r\n          ContentKR = \"\"우... 어...\"\",\r\n          DialogueId = 6101401,\r\n          GUID = \"0F46331A\",\r\n          NextDialogue = 6101402,\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room314_Char01\"\r\n        },\r\n        [6101402] = {\r\n          ContentKR = \"아래쪽에서 약한 신음소리가 들려온다. 뼈만 앙상하게 남은 남자가 모닥불 옆에 쓰러져 있는 게 보인다. 오랫동안 굶은 것 같다.\",\r\n          DialogueId = 6101402,\r\n          GUID = \"0F463344\",\r\n          NextOptions = {\r\n            [1] = 6101403,\r\n            [2] = 6101409\r\n          },\r\n          RougeTalkActorType = 3\r\n        },\r\n        [6101403] = {\r\n          ContentKR = \"음식을 조금 나누어 준다.\",\r\n          DialogueId = 6101403,\r\n          GUID = \"0F46336E\",\r\n          IsKeyOption = true,\r\n          NextDialogue = 6101404,\r\n          RougeTalkActorType = 2,\r\n          SpeakNpcId = 910004\r\n        },\r\n        [6101404] = {\r\n          ContentKR = \"\"...고맙습니다, 좋은 분이시네요. 하지만 저는 음식이 필요 없어요.\"\n\"전 검은 물결에 휩쓸려 들어왔어요. 이미 돌아갈 수 없죠. 음식을 아무리 먹어도 돌아갈 수 없어요.\"\n\"당신을 보니 엘리시안 소녀 한 명이 생각나네요... 당신처럼 착한 아이였죠.\"\",\r\n          DialogueId = 6101404,\r\n          GUID = \"0F463398\",\r\n          NextDialogue = 6101405,\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room314_Char01\"\r\n        },\r\n        [6101405] = {\r\n          ContentKR = \"\"금발 머리를 하고 분홍색 돼지를 타고 있었죠. 제가 허기진 채 길을 걷고 있을 때, 저한테 빵 한 조각을 건네줬어요...\"\n\"하지만 그때 전 오만해서, 교회의 자비를 받고 싶지 않았어요. 소녀가 선의란 걸 알면서도 큰 소리로 욕했죠.\"\",\r\n          DialogueId = 6101405,\r\n          GUID = \"0F4633C2\",\r\n          NextDialogue = 6101406,\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room314_Char01\"\r\n        },\r\n        [6101406] = {\r\n          ContentKR = \"\"제 삶을 돌이켜 보면... 저한테 진심으로 대해준 사람은 그 소녀가 유일했어요.\"\n\"신앙, 인종, 출신... 사람들은 항상 이런 걸로... 자신을 미화하죠... 하지만 아무리 대단한 이름을 가져도, 진정한 선이 가져다주는 빛을 덮을 수는 없어요...\"\",\r\n          DialogueId = 6101406,\r\n          GUID = \"0F4633EC\",\r\n          NextDialogue = 6101407,\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room314_Char01\"\r\n        },\r\n        [6101407] = {\r\n          ContentKR = \"\"다시 돌아갈 수 있다면... 그 소녀에게 직접 사과하고 싶어요... 하지만, 이미... 기회가 없겠죠...\"\",\r\n          DialogueId = 6101407,\r\n          GUID = \"0F463416\",\r\n          NextDialogue = 6101408,\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room314_Char01\"\r\n        },\r\n        [6101408] = {\r\n          ContentKR = \"남자의 목소리는 점점 가벼워졌고, 당신이 눈을 깜빡이자 그의 모습은 사라졌다.\n공기 중에 갓 구운 빵의 향기가 풍겨온다.\",\r\n          DialogueId = 6101408,\r\n          GUID = \"0F463440\",\r\n          RougeTalkActorType = 3\r\n        },\r\n        [6101409] = {\r\n          ContentKR = \"아무것도 하지 않는다.\",\r\n          DialogueId = 6101409,\r\n          GUID = \"0F46346A\",\r\n          IsKeyOption = true,\r\n          NextDialogue = 6101410,\r\n          RougeTalkActorType = 2,\r\n          SpeakNpcId = 910004\r\n        },\r\n        [6101410] = {\r\n          ContentKR = \"불쌍해 보이긴 하지만, 당신도 보급품이 얼마 남지 않았다.\n이 험난한 심연에선, 먼저 자신부터 살아남아야 한다.\",\r\n          DialogueId = 6101410,\r\n          GUID = \"0F463494\",\r\n          RougeTalkActorType = 3\r\n        },\r\n        [6101501] = {\r\n          ContentKR = \"한 줄기 금빛이 공중에서 번뜩인다. 태양이 떠오르는 줄 알았지만 자세히 보니 온몸이 황금빛인 새 한 마리다.\n새는 공중을 빙빙 돌며 내려와 당신 곁에 우아하게 날개를 접고 앉는다. 금빛 깃털이 모닥불에 비쳐, 귀족 소녀가 아끼는 금장식보다 더 섬세하게 빛난다.\",\r\n          DialogueId = 6101501,\r\n          GUID = \"0F464382\",\r\n          NextOptions = {\r\n            [1] = 6101502,\r\n            [2] = 6101505,\r\n            [3] = 6101509\r\n          },\r\n          RougeTalkActorType = 3\r\n        },\r\n        [6101502] = {\r\n          ContentKR = \"새에게 물을 먹인다.\",\r\n          DialogueId = 6101502,\r\n          GUID = \"0F4643AC\",\r\n          IsKeyOption = true,\r\n          NextDialogue = 6101503,\r\n          RougeTalkActorType = 2,\r\n          SpeakNpcId = 910004\r\n        },\r\n        [6101503] = {\r\n          ContentKR = \"당신은 손바닥에 물을 조금 붓고, 새에게 오라고 손짓한다.\",\r\n          DialogueId = 6101503,\r\n          GUID = \"0F4643D6\",\r\n          NextDialogue = 6101504,\r\n          RougeTalkActorType = 3\r\n        },\r\n        [6101504] = {\r\n          ContentKR = \"새는 고개를 갸웃거리며 경계 태세로 당신을 관찰한다. 잠시 후 새는 금빛 부리를 내밀고 손바닥 위의 물을 작은 입으로 홀짝홀짝 마신다.\n물을 다 마시자, 새는 즐겁게 깃털을 펄럭이고, 당신에게 감사하다는 듯 소리를 낸 후, 하늘로 빙빙 돌아 날아간다.\",\r\n          DialogueId = 6101504,\r\n          GUID = \"0F464400\",\r\n          RougeTalkActorType = 3\r\n        },\r\n        [6101505] = {\r\n          ContentKR = \"새의 꽁무니에서 깃털 하나를 뽑는다.\",\r\n          DialogueId = 6101505,\r\n          GUID = \"0F46442A\",\r\n          IsKeyOption = true,\r\n          NextDialogue = 6101506,\r\n          RougeTalkActorType = 2,\r\n          SpeakNpcId = 910004\r\n        },\r\n        [6101506] = {\r\n          ContentKR = \"새가 눈을 감고 쉬고 있을 때, 조용히 손을 뻗어 꼬리 깃털 하나를 뽑는다. 상등품 황금 같은 깃털이니 분명히 가치가 훌륭할 것이다.\",\r\n          DialogueId = 6101506,\r\n          GUID = \"0F464454\",\r\n          NextDialogue = 6101507,\r\n          RougeTalkActorType = 3\r\n        },\r\n        [6101507] = {\r\n          ContentKR = \"새는 화가 나서 소리를 지르고, 날개를 퍼덕이며 날아든다. 그리곤 당신의 손바닥에 금으로 된 용암을 떨어뜨리듯 온 힘을 다해 쪼아대, 손바닥에 선명한 붉은 자국을 남긴다.\",\r\n          DialogueId = 6101507,\r\n          GUID = \"0F46447E\",\r\n          NextDialogue = 6101508,\r\n          RougeTalkActorType = 3\r\n        },\r\n        [6101508] = {\r\n          ContentKR = \"지독한 고통에서 정신을 차렸을 때, 새는 이미 먼 곳으로 날아가 버렸다.\",\r\n          DialogueId = 6101508,\r\n          GUID = \"0F4644A8\",\r\n          RougeTalkActorType = 3\r\n        },\r\n        [6101509] = {\r\n          ContentKR = \"새의 머리에서 깃털 하나를 뽑는다.\",\r\n          DialogueId = 6101509,\r\n          GUID = \"0F4644D2\",\r\n          IsKeyOption = true,\r\n          NextDialogue = 6101510,\r\n          RougeTalkActorType = 2,\r\n          SpeakNpcId = 910004\r\n        },\r\n        [6101510] = {\r\n          ContentKR = \"살며시 새의 머리 가까이 손을 뻗어보지만, 힘을 주기도 전에 새가 당신의 의도를 알아채고 눈을 뜬다.\n새는 화가 나서 소리를 지르고, 날개를 퍼덕이며 날아든다. 그리곤 당신의 손바닥에 금으로 된 용암을 떨어뜨리듯 온 힘을 다해 쪼아대, 손바닥에 선명한 붉은 자국을 남긴다.\",\r\n          DialogueId = 6101510,\r\n          GUID = \"0F4644FC\",\r\n          NextDialogue = 6101511,\r\n          RougeTalkActorType = 3\r\n        },\r\n        [6101511] = {\r\n          ContentKR = \"지독한 고통에서 정신을 차렸을 때, 새는 이미 먼 곳으로 날아가 버렸다.\",\r\n          DialogueId = 6101511,\r\n          GUID = \"0F464526\",\r\n          RougeTalkActorType = 3\r\n        },\r\n        [6101601] = {\r\n          ContentKR = \"근처에서 더러운 썩은 내가 풍겨온다.\n쳐다보니 어린 소녀가 모닥불 가까이에서 나타나는 게 보인다. 빰과 팔뚝은 무시무시한 종기가 가득하다. 모닥불에 반사된 눈동자의 생명의 빛이 아니었다면, 당신은 눈앞에 보이는 게 시체라고 생각했을 것이다.\",\r\n          DialogueId = 6101601,\r\n          GUID = \"0F4653EA\",\r\n          NextOptions = {\r\n            [1] = 6101602,\r\n            [2] = 6101606,\r\n            [3] = 6101612\r\n          },\r\n          RougeTalkActorType = 3\r\n        },\r\n        [6101602] = {\r\n          ContentKR = \"당신은 배낭에서 약을 찾아내, 소녀에게 건네준다.\",\r\n          DialogueId = 6101602,\r\n          GUID = \"0F465414\",\r\n          IsKeyOption = true,\r\n          NextDialogue = 6101603,\r\n          RougeTalkActorType = 2,\r\n          SpeakNpcId = 910004\r\n        },\r\n        [6101603] = {\r\n          ContentKR = \"\"감사합니다... 친절한 여행자님...\"\n그녀는 천천히 고개를 들어 당신을 바라본다. 입가에 맺힌 미소가 진짜 웃음인지, 아니면 통증으로 인한 근육의 뒤틀림인지 확실하지 않다.\",\r\n          DialogueId = 6101603,\r\n          GUID = \"0F46543E\",\r\n          NextDialogue = 6101604,\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room316_Char01\"\r\n        },\r\n        [6101604] = {\r\n          ContentKR = \"\"하지만 도와주지... 않으셔도 돼요...\" 그녀가 낮은 목소리로 말한다. \"사제님께서, 전 저주를 받아 심연병에 걸린 거라고 하셨어요. 제가 받아야 할 죄업이래요...\"\n\"저는 진심으로 참회해야 해요... 그러면, 다 나을 거예요... 그전까진 누구에게도 가까이 가면 안 돼요.\"\",\r\n          DialogueId = 6101604,\r\n          GUID = \"0F465468\",\r\n          NextDialogue = 6101605,\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room316_Char01\"\r\n        },\r\n        [6101605] = {\r\n          ContentKR = \"소녀는 비틀거리며 몸을 일으켜, 어둠 속으로 사라졌다.\",\r\n          DialogueId = 6101605,\r\n          GUID = \"0F465492\",\r\n          RougeTalkActorType = 3\r\n        },\r\n        [6101606] = {\r\n          ContentKR = \"소녀의 상처를 치료해 본다.\",\r\n          DialogueId = 6101606,\r\n          GUID = \"0F4654BC\",\r\n          IsKeyOption = true,\r\n          NextDialogue = 6101607,\r\n          RougeTalkActorType = 2,\r\n          SpeakNpcId = 910004\r\n        },\r\n        [6101607] = {\r\n          ContentKR = \"당신은 조심스럽게 소녀에게 다가가, 그녀의 몸에 난 상처의 상태를 확인하려고 한다.\",\r\n          DialogueId = 6101607,\r\n          GUID = \"0F4654E6\",\r\n          NextDialogue = 6101608,\r\n          RougeTalkActorType = 3\r\n        },\r\n        [6101608] = {\r\n          ContentKR = \"\"콜록, 콜록...!\"\n그녀가 강하게 기침을 하자, 검붉은 피가 당신이 내민 손에 튀며, 불길한 검은 연기가 피어오른다.\",\r\n          DialogueId = 6101608,\r\n          GUID = \"0F465510\",\r\n          NextDialogue = 6101609,\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room316_Char01\"\r\n        },\r\n        [6101609] = {\r\n          ContentKR = \"\"죄, 죄송해요...!\"\n그녀는 비틀거리며 몸을 일으켜 뒤로 물러나려 하지만, 또 실수로 땅에 넘어지고 만다.\",\r\n          DialogueId = 6101609,\r\n          GUID = \"0F46553A\",\r\n          NextDialogue = 6101610,\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room316_Char01\"\r\n        },\r\n        [6101610] = {\r\n          ContentKR = \"\"사제님께서, 전 저주를 받아 심연병에 걸린 거라고 하셨어요. 제가 받아야 할 죄업이래요...\"\n\"저는 진심으로 참회해야 해요... 그러면, 다 나을 거예요... 그전까진 누구에게도 가까이 가면 안 돼요.\"\",\r\n          DialogueId = 6101610,\r\n          GUID = \"0F465564\",\r\n          NextDialogue = 6101611,\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room316_Char01\"\r\n        },\r\n        [6101611] = {\r\n          ContentKR = \"소녀는 다시 힘겹게 일어나 비틀거리며, 어둠 속으로 사라졌다.\",\r\n          DialogueId = 6101611,\r\n          GUID = \"0F46558E\",\r\n          RougeTalkActorType = 3\r\n        },\r\n        [6101612] = {\r\n          ContentKR = \"그녀에게서 멀리 떨어진다.\",\r\n          DialogueId = 6101612,\r\n          GUID = \"0F4655B8\",\r\n          IsKeyOption = true,\r\n          NextDialogue = 6101613,\r\n          RougeTalkActorType = 2,\r\n          SpeakNpcId = 910004\r\n        },\r\n        [6101613] = {\r\n          ContentKR = \"당신은 소녀가 어떤 위험한 병에 걸렸을 수도 있음을 직감하고, 얼른 일어나서 그녀에게서 떨어진다.\",\r\n          DialogueId = 6101613,\r\n          GUID = \"0F4655E2\",\r\n          NextDialogue = 6101614,\r\n          RougeTalkActorType = 3\r\n        },\r\n        [6101614] = {\r\n          ContentKR = \"\"놀라게 해서 죄송해요... 어, 얼른 다른 곳으로 갈게요...\"\",\r\n          DialogueId = 6101614,\r\n          GUID = \"0F46560C\",\r\n          NextDialogue = 6101615,\r\n          RougeTalkActorType = 1,\r\n          SpeakNpcId = 910005,\r\n          SpeakNpcName = \"RougeLike_Room316_Char01\"\r\n        },\r\n        [6101615] = {\r\n          ContentKR = \"소녀는 비틀거리며 몸을 일으켜, 어둠 속으로 사라졌다.\",\r\n          DialogueId = 6101615,\r\n          GUID = \"0F465636\",\r\n          RougeTalkActorType = 3\r\n        },\r\n        [6101701] = {\r\n          ContentKR = \"당신은 모닥불 옆에 앉아서 쉬며, 들고 있던 랜턴을 발 옆에 놓는다.\n손가락을 랜턴에서 떼는 순간, 땅에 갑자기 물빛이 번진다. 반응할 겨를도 없이, 램프가 물속에서 소용돌이치며 삼켜진다.\",\r\n          DialogueId = 6101701,\r\n          GUID = \"0F466452\",\r\n          NextDialogue = 6101702,\r\n          RougeTalkActorType = 3\r\n        },\r\n        [6101702] = {\r\n          ContentKR = \"우스꽝스러운 새 마스크를 쓴 사람이 물속에서 몸을 반쯤 내밀고 머리를 흔들더니, 두 팔을 벌린다. 그러자 모양은 같고 재질이 다른 세 개의 랜턴이 물 위에 떠오른다.\",\r\n          DialogueId = 6101702,\r\n          GUID = \"0F46647C\",\r\n          NextDialogue = 6101703,\r\n          RougeTalkActorType = 3"
+    "VoiceName": "voice/ch/story/0/101/00067932"
+  },
+  "10102": {
+    "Content": "嗯，这个缺口的切角好整齐，感觉刚好可以插进一把剑",
+    "DialogueId": 10102,
+    "ExStoryInfo": "Player",
+    "GUID": "0006795C",
+    "NextDialogue": 10103,
+    "SpeakNpcId": 100001,
+    "VoiceName": "voice/ch/story/0/101/0006795C"
+  },
+  "10103": {
+    "Content": "我来试试...果然，刚好没过剑身，像是个“钥匙孔”。",
+    "DialogueId": 10103,
+    "GUID": "00067986",
+    "SpeakNpcId": 100003,
+    "VoiceName": "voice/ch/story/0/101/00067986"
+  },
+  "10201": {
+    "Content": "我来转动剑柄试试",
+    "DialogueId": 10201,
+    "ExStoryInfo": "Player",
+    "GUID": "0006899A",
+    "NextDialogue": 10202,
+    "SpeakNpcId": 100001,
+    "VoiceName": "voice/ch/story/0/102/0006899A"
+  },
+  "10202": {
+    "Content": "（远处传来了一声闷响，接着眼前的石门缓缓打开）",
+    "DialogueId": 10202,
+    "GUID": "000689C4",
+    "NextDialogue": 10203,
+    "VoiceName": "voice/ch/story/0/102/000689C4"
+  },
+  "10203": {
+    "Content": "原来这把剑就是开门的钥匙",
+    "DialogueId": 10203,
+    "GUID": "000689EE",
+    "NextDialogue": 10204,
+    "SpeakNpcId": 100003,
+    "VoiceName": "voice/ch/story/0/102/000689EE"
+  },
+  "10204": {
+    "Content": "我们进去看看吧",
+    "DialogueId": 10204,
+    "ExStoryInfo": "Player",
+    "GUID": "00068A18",
+    "SpeakNpcId": 100001,
+    "VoiceName": "voice/ch/story/0/102/00068A18"
+  },
+  "10301": {
+    "Content": "还是先把剑拔出来吧，这是我们仅存的武器了",
+    "DialogueId": 10301,
+    "ExStoryInfo": "Player",
+    "GUID": "00069A02",
+    "NextDialogue": 10302,
+    "SpeakNpcId": 100001,
+    "VoiceName": "voice/ch/story/0/103/00069A02"
+  },
+  "10302": {
+    "Content": "嗯，我再去四周看看有什么出口",
+    "DialogueId": 10302,
+    "GUID": "00069A2C",
+    "SpeakNpcId": 100003,
+    "VoiceName": "voice/ch/story/0/103/00069A2C"
+  },
+  "10401": {
+    "Camera": "185.064941,-192.025635,95.836349,0.000066,-0.600804,133.19693,70.0,100000.0,false,DoNotOverride,2.8",
+    "Content": "我是引导员……………………哦吼！",
+    "DialogueId": 10401,
+    "Duration": 4,
+    "ExStoryInfo": "Player",
+    "GUID": "0006AA6A",
+    "SpeakNpcId": 100001,
+    "VoiceName": "voice/ch/story/0/104/0006AA6A"
+  },
+  "10501": {
+    "Content": "我是路人NPC看向功能测试台本",
+    "DialogueId": 10501,
+    "GUID": "0006BAD2",
+    "LookAt": [
+      "700001:n(0)"
+    ],
+    "NextDialogue": 10502,
+    "SpeakNpcId": 700001
+  },
+  "10502": {
+    "Content": "我是路人NPC转向功能测试台本",
+    "DialogueId": 10502,
+    "GUID": "0006BAFC",
+    "SpeakNpcId": 700001,
+    "TurnTo": [
+      "700001:n(0)"
+    ]
+  },
+  "730001": {
+    "Content": "不知谁画下的格子图案，似乎与泪湖那边的几块浮冰存在着对应关系。如果按照顺序踩掉那些浮冰的话，或许会发生一些神奇的事。",
+    "DialogueId": 730001,
+    "GUID": "01D3D5CA",
+    "SpeakNpcId": 810001
+  },
+  "1000101": {
+    "Content": "村子可能还是很危险，一定要小心。",
+    "DialogueId": 1000101,
+    "ExStoryInfo": "Player",
+    "GUID": "0280EF12",
+    "SpeakNpcId": 100001,
+    "VoiceName": "voice/$Locale$/story/1001/10001/0280EF12"
+  },
+  "1000201": {
+    "Content": "自投罗网么？简直愚钝得可爱。",
+    "DialogueId": 1000201,
+    "GUID": "0280FF7A",
+    "SpeakNpcId": 100005,
+    "VoiceName": "voice/$Locale$/story/1001/10002/0280FF7A"
+  },
+  "6100101": {
+    "ContentKR": "모닥불 부근에서 왠지 모르게 수선화가 가득 핀 물이 솟아오른다.\n한 여인이 수면에 비친 그림자를 내려다보고 있다. 흐릿하지만 아름다운 그 그림자는 마치 별빛에 취한 듯하다.",
+    "DialogueId": 6100101,
+    "GUID": "0F455DD2",
+    "NextDialogue": 6100102,
+    "RougeTalkActorType": 3
+  },
+  "6100102": {
+    "1": "도대체 어디에 있나요?\"\n\"아트라시아 전체를 돌아다녔고",
+    "2": "루카 공화국의 푸른 섬과 화서의 푸르른 골짜기를 찾아 헤맸고",
+    "3": "이스엘의 바람이 머무는 숲속을 찾아 헤맸고",
+    "4": "아스카드 봄날에 부서진 살얼음을 찾아 헤맸어요.\"\"",
+    "ContentKR": "\"\"내가 사랑하는 사람은",
+    "DialogueId": 6100102,
+    "GUID": "0F455DFC",
+    "NextDialogue": 6100103,
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room301_Char01"
+  },
+  "6100103": {
+    "1": "이 엘리시안의 성스러운 호수에 갇혀 있는 것 같아요.\"\n그녀는 호수 면에 비친 그림자를 보고 중얼중얼 혼잣말을 한다.\"",
+    "ContentKR": "\"\"하지만 아직도 사랑하는 사람을 찾지 못했어요.\"\n\"저만큼이나 아름다운 미인이",
+    "DialogueId": 6100103,
+    "GUID": "0F455E26",
+    "NextOptions": [
+      6100104,
+      6100106
+    ],
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room301_Char01"
+  },
+  "6100104": {
+    "ContentKR": "\"그건 단지 당신의 그림자일 뿐이에요.\"",
+    "DialogueId": 6100104,
+    "GUID": "0F455E50",
+    "IsKeyOption": true,
+    "NextDialogue": 6100105,
+    "RougeTalkActorType": 2,
+    "SpeakNpcId": 910004
+  },
+  "6100105": {
+    "1": "다시 저를 만나러 오세요.\"\"",
+    "ContentKR": "\"\"당신은 누구죠? 지나가는 여행자인가요?\"\n그녀는 고개를 들어, 살짝 당신을 힐끗 본다.\n\"만약 그녀를 구할 방법을 찾는다면",
+    "DialogueId": 6100105,
+    "GUID": "0F455E7A",
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room301_Char01"
+  },
+  "6100106": {
+    "ContentKR": "호수에서 수선화를 따려고 시도한다.",
+    "DialogueId": 6100106,
+    "GUID": "0F455EA4",
+    "IsKeyOption": true,
+    "RougeTalkActorType": 2,
+    "SpeakNpcId": 910004
+  },
+  "6100201": {
+    "ContentKR": "외로운 노인이 산처럼 쌓인 무기 더미 옆에서 쉬지 않고 망치를 휘두른다.\n망치를 한 번 두드리자, 만물이 가라앉는다.\n망치를 두 번 두드리자, 불꽃이 튄다.\n당신이 다가갔지만, 노인은 고개를 들지 않는다.",
+    "DialogueId": 6100201,
+    "GUID": "0F456E3A",
+    "NextDialogue": 6100202,
+    "RougeTalkActorType": 3
+  },
+  "6100202": {
+    "ContentKR": "\"또 하나가 죽는구나.\"\n\"지금이 몇 년도지?\"",
+    "DialogueId": 6100202,
+    "GUID": "0F456E64",
+    "NextOptions": [
+      6100203
+    ],
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room302_Char01"
+  },
+  "6100203": {
+    "ContentKR": "대답한다.",
+    "DialogueId": 6100203,
+    "GUID": "0F456E8E",
+    "NextDialogue": 6100204,
+    "RougeTalkActorType": 2,
+    "SpeakNpcId": 910004
+  },
+  "6100204": {
+    "ContentKR": "당신은 입을 벌리고, 답을 말하려 하지만...\n지금이 몇 년도... 지금이 어느 해더라?\n긴 어둠 속에서, 당신은 이미 시간의 감각을 잊어버렸다.",
+    "DialogueId": 6100204,
+    "GUID": "0F456EB8",
+    "NextDialogue": 6100206,
+    "RougeTalkActorType": 3
+  },
+  "6100206": {
+    "ContentKR": "그는 당신의 대답을 기다리지 못한다.",
+    "DialogueId": 6100206,
+    "GUID": "0F456F0C",
+    "NextDialogue": 6100207,
+    "RougeTalkActorType": 3
+  },
+  "6100207": {
+    "1": "얼굴 주름이랑 이 망치 빼고는.\"\"",
+    "ContentKR": "\"\"보아하니 자네도 똑같구먼.\" 그는 한숨을 쉰다.\n\"난 여기에서 얼마나 오래 갇혀있었는지 기억도 나지 않아. 아무것도 잡지 못했지",
+    "DialogueId": 6100207,
+    "GUID": "0F456F36",
+    "NextDialogue": 6100208,
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room302_Char01"
+  },
+  "6100208": {
+    "1": "뭘 원하지?\"\"",
+    "ContentKR": "\"\"불이 꺼지기 전에... 말해 봐",
+    "DialogueId": 6100208,
+    "GUID": "0F456F60",
+    "NextOptions": [
+      6100209,
+      6100210
+    ],
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room302_Char01"
+  },
+  "6100209": {
+    "ContentKR": "쌓여 있는 무기 중 하나를 고른다.",
+    "DialogueId": 6100209,
+    "GUID": "0F456F8A",
+    "IsKeyOption": true,
+    "RougeTalkActorType": 2,
+    "SpeakNpcId": 910004
+  },
+  "6100210": {
+    "ContentKR": "하나 만들어 달라고 부탁한다.",
+    "DialogueId": 6100210,
+    "GUID": "0F456FB4",
+    "IsKeyOption": true,
+    "RougeTalkActorType": 2,
+    "SpeakNpcId": 910004
+  },
+  "6100301": {
+    "ContentKR": "노랫소리가 적막한 모닥불가에 울려 퍼진다.\n한 여자가 느릿느릿 걸어온다. 그녀의 발걸음은 깃털처럼 가볍지만, 목소리는 새처럼 은은하다.",
+    "DialogueId": 6100301,
+    "GUID": "0F457EA2",
+    "NextDialogue": 6100302,
+    "RougeTalkActorType": 3
+  },
+  "6100302": {
+    "ContentKR": "깊은 졸음이 쏟아진다.\n당신 눈앞의 어둠이 종이처럼 구겨져, 물에 젖는다.\n......",
+    "DialogueId": 6100302,
+    "GUID": "0F457ECC",
+    "NextDialogue": 6100303,
+    "RougeTalkActorType": 3
+  },
+  "6100303": {
+    "ContentKR": "당신은 오후의 숲과 샘을 거닌다.\n흐르는 물은 융단 같은 풀밭 사이에서 소리를 내고, 햇빛은 무성한 잎사귀 틈을 비집고 나와 다발로 쏟아진다.\n조용히 아침이슬을 홀짝이는 흰 날다람쥐, 바다고양이, 노란 산토끼는 발자국 소리에 놀라지 않는다. 당신은...",
+    "DialogueId": 6100303,
+    "GUID": "0F457EF6",
+    "NextOptions": [
+      6100304,
+      6100306
+    ],
+    "RougeTalkActorType": 3
+  },
+  "6100304": {
+    "ContentKR": "이슬 한 방울을 받는다.",
+    "DialogueId": 6100304,
+    "GUID": "0F457F20",
+    "IsKeyOption": true,
+    "NextDialogue": 6100305,
+    "RougeTalkActorType": 2,
+    "SpeakNpcId": 910004
+  },
+  "6100305": {
+    "ContentKR": "당신은 황혼의 선술집에 앉아 있다.\n음유시인은 풍금을 연주하고, 귀항 선원은 박자를 맞추며 합창을 한다.\n짭조름한 저녁 바람에 달콤한 맥아주를 마시며, 당신은 북적이는 군중 속으로 걸어가 흥겨운 춤을 춘다. 당신은...",
+    "DialogueId": 6100305,
+    "GUID": "0F457F4A",
+    "NextDialogue": 6100308,
+    "RougeTalkActorType": 3
+  },
+  "6100306": {
+    "ContentKR": "한 줄기의 햇살을 안는다.",
+    "DialogueId": 6100306,
+    "GUID": "0F457F74",
+    "IsKeyOption": true,
+    "NextDialogue": 6100307,
+    "RougeTalkActorType": 2,
+    "SpeakNpcId": 910004
+  },
+  "6100307": {
+    "ContentKR": "당신은 성당의 유리창 아래로 엎드린다.\n거대한 그림 위의 백의 여신은 자비롭게 당신을 내려다본다. 높고, 고요하고, 슬프게.\n만월의 신이 알록달록한 모자이크 아래로 내려와, 당신의 이마에 입 맞추고, 당신의 뺨에 차가운 보석 관을 씌운다...",
+    "DialogueId": 6100307,
+    "GUID": "0F457F9E",
+    "NextDialogue": 6100308,
+    "RougeTalkActorType": 3
+  },
+  "6100308": {
+    "ContentKR": "퉁!\n누군가가 당신의 이마를 튕긴다. 당신은 통증에 깜짝 놀라 일어난다.",
+    "DialogueId": 6100308,
+    "GUID": "0F457FC8",
+    "NextDialogue": 6100309,
+    "RougeTalkActorType": 3
+  },
+  "6100309": {
+    "1": "당신은 거기 누워서 잠을 자면서도 쿠퍼 하나도 내놓지 않는군요!\"\"",
+    "ContentKR": "\"\"이 엘리시안 최고의 직몽가가 고생고생해서 꿈을 짓고 있는데",
+    "DialogueId": 6100309,
+    "GUID": "0F457FF2",
+    "NextDialogue": 6100310,
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room303_Char01"
+  },
+  "6100310": {
+    "ContentKR": "\"얼른 일어나요! 자면 안 돼요!\"\n그녀는 화를 내며, 또 당신의 이마를 한 대 때린다.",
+    "DialogueId": 6100310,
+    "GUID": "0F45801C",
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room303_Char01"
+  },
+  "6100401": {
+    "ContentKR": "한 노인이 모닥불 옆으로 걸어간다. 그의 손에 랜턴이 들려 있는 것이 보인다.",
+    "DialogueId": 6100401,
+    "GUID": "0F458F0A",
+    "NextDialogue": 6100402,
+    "RougeTalkActorType": 3
+  },
+  "6100402": {
+    "1": "만약 심연에서 랜턴이 비치지 않는다면",
+    "2": "영원히 어둠 속에서 길을 잃게 될 테지.\"\"",
+    "ContentKR": "\"\"어디 보자... 오! 자네도 랜턴이 하나 있었군!\"\n\"하지만 모든 불은 결국 꺼질 거네. 알다시피",
+    "DialogueId": 6100402,
+    "GUID": "0F458F34",
+    "NextDialogue": 6100403,
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room304_Char01"
+  },
+  "6100403": {
+    "1": "자네 목숨을 구해 줄지도 몰라.\"\"",
+    "ContentKR": "\"\"랜턴을 하나 더 사서 만일의 사태에 대비하게. 작은 빛 하나가",
+    "DialogueId": 6100403,
+    "GUID": "0F458F5E",
+    "NextOptions": [
+      6100404,
+      6100406,
+      6100408
+    ],
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room304_Char01"
+  },
+  "6100404": {
+    "ContentKR": "랜턴을 산다.",
+    "DialogueId": 6100404,
+    "GUID": "0F458F88",
+    "IsKeyOption": true,
+    "NextDialogue": 6100405,
+    "RougeTalkActorType": 2,
+    "SpeakNpcId": 910004
+  },
+  "6100405": {
+    "ContentKR": "\"오... 자네는 정말 통 큰 여행자로군! 별의 신의 축복이 자네와 함께하기를 바라네.\"\n그는 주름마저 보이지 않을 만큼 활짝 웃는다.",
+    "DialogueId": 6100405,
+    "GUID": "0F458FB2",
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room304_Char01"
+  },
+  "6100406": {
+    "ContentKR": "다른 유용한 물건이 있는지 없는지 묻는다.",
+    "DialogueId": 6100406,
+    "GUID": "0F458FDC",
+    "IsKeyOption": true,
+    "NextDialogue": 6100407,
+    "RougeTalkActorType": 2,
+    "SpeakNpcId": 910004
+  },
+  "6100407": {
+    "ContentKR": "\"오... 자네는 정말 통 큰 여행자로군! 별의 신의 축복이 자네와 함께하기를 바라네.\"\n그는 주름마저 보이지 않을 만큼 활짝 웃는다.",
+    "DialogueId": 6100407,
+    "GUID": "0F459006",
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room304_Char01"
+  },
+  "6100408": {
+    "ContentKR": "거래를 거절한다.",
+    "DialogueId": 6100408,
+    "GUID": "0F459030",
+    "IsKeyOption": true,
+    "NextDialogue": 6100409,
+    "RougeTalkActorType": 2,
+    "SpeakNpcId": 910004
+  },
+  "6100409": {
+    "1": "얼마 되지도 않는 돈 때문에 목숨마저 돌보지 않을 만큼 가난했던 건가. 부디 번영의 신께서 축복을 내리길 바라네...\"\n그는 불만 가득한 얼굴로 떠났다.\"",
+    "ContentKR": "\"\"오... 맙소사",
+    "DialogueId": 6100409,
+    "GUID": "0F45905A",
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room304_Char01"
+  },
+  "6100501": {
+    "1": "신들이 길을 인도하리.\"\"",
+    "ContentKR": "\"\"길 잃은 여행자들이여",
+    "DialogueId": 6100501,
+    "GUID": "0F459F72",
+    "NextDialogue": 6100502,
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room305_Char01"
+  },
+  "6100502": {
+    "ContentKR": "아이들의 합창이 당신의 머릿속에서 울려 퍼지고, 모닥불의 희미한 빛이 점점 더 큰 빛 속으로 녹아들면서, 당신은 몸이 가벼워지는 것을 느낀다.\n당신은 공중에 뜬 채로, 천 줄기 부드러운 바람에 흔들린다. 손 닿을 거리에 새하얀 구름이 있고, 거룩한 금빛 탑은 구름 사이에서 당신을 엄숙히 초대한다.",
+    "DialogueId": 6100502,
+    "GUID": "0F459F9C",
+    "NextDialogue": 6100503,
+    "RougeTalkActorType": 3
+  },
+  "6100503": {
+    "1": "신의 은총을 받아",
+    "2": "구름 위 하늘로 오르노라. 속세에 미련 없으리",
+    "3": "더없는 행복이 기다릴지어다.\"\"",
+    "ContentKR": "\"\"오라",
+    "DialogueId": 6100503,
+    "GUID": "0F459FC6",
+    "NextOptions": [
+      6100504,
+      6100506,
+      6100508
+    ],
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room305_Char01"
+  },
+  "6100504": {
+    "ContentKR": "지상에 남는다.",
+    "DialogueId": 6100504,
+    "GUID": "0F459FF0",
+    "IsKeyOption": true,
+    "NextDialogue": 6100505,
+    "RougeTalkActorType": 2,
+    "SpeakNpcId": 910004
+  },
+  "6100505": {
+    "ContentKR": "알다시피 하늘에서 떨어지는 행복 뒤에는, 반드시 그에 따른 대가가 있다.\n허황된 천국의 길보다, 당신은 자신이 남긴 발자국 하나하나를 믿으려 한다.",
+    "DialogueId": 6100505,
+    "GUID": "0F45A01A",
+    "RougeTalkActorType": 3
+  },
+  "6100506": {
+    "ContentKR": "은총을 받아들인다.",
+    "DialogueId": 6100506,
+    "GUID": "0F45A044",
+    "IsKeyOption": true,
+    "NextDialogue": 6100507,
+    "RougeTalkActorType": 2,
+    "SpeakNpcId": 910004
+  },
+  "6100507": {
+    "ContentKR": "어머니의 부드러운 포옹처럼, 구름이 당신을 감싸안는다.\n금빛 대문이 천천히 열리고, 당신은 신의 그림자가 문 뒤로 스쳐 지나가는 것을 본 듯하다. 구름이 걷히고 당신은 지상으로 돌아온다.",
+    "DialogueId": 6100507,
+    "GUID": "0F45A06E",
+    "NextDialogue": 6100510,
+    "RougeTalkActorType": 3
+  },
+  "6100508": {
+    "ContentKR": "구름 한 점을 잡아 본다.",
+    "DialogueId": 6100508,
+    "GUID": "0F45A098",
+    "IsKeyOption": true,
+    "NextDialogue": 6100509,
+    "RougeTalkActorType": 2,
+    "SpeakNpcId": 910004
+  },
+  "6100509": {
+    "ContentKR": "당신은 하늘을 향해 힘껏 손을 뻗어 보지만, 부드러워 보이는 구름은 당신의 손가락을 활활 태운다.\n빛은 사라지고, 귓가에 바람 소리가 윙윙거린다. 당신은 자신이 추락하고 있다는 것을 깨닫는다.",
+    "DialogueId": 6100509,
+    "GUID": "0F45A0C2",
+    "NextDialogue": 6100510,
+    "RougeTalkActorType": 3
+  },
+  "6100510": {
+    "ContentKR": "맞다, 당신은 잊고 있었다. 심연 속에 하늘은 존재하지 않는다.",
+    "DialogueId": 6100510,
+    "GUID": "0F45A0EC",
+    "RougeTalkActorType": 3
+  },
+  "6100601": {
+    "ContentKR": "야위고 작은 그림자가 걸어온다.\n가까이 온 그녀는, 키가 크지 않은 소녀였다.",
+    "DialogueId": 6100601,
+    "GUID": "0F45AFDA",
+    "NextDialogue": 6100602,
+    "RougeTalkActorType": 3
+  },
+  "6100602": {
+    "ContentKR": "\"실례합니다... 혹시... 여기서... 불 좀 쬘 수 있을까요?\"\n소녀는 오들오들 떨고 있다. 치맛자락에서 물방울이 뚝뚝 떨어지는 것이 보인다. 드레스가 흠뻑 젖어 있다.",
+    "DialogueId": 6100602,
+    "GUID": "0F45B004",
+    "NextDialogue": 6100603,
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room306_Char01"
+  },
+  "6100603": {
+    "ContentKR": "\"엄마를 잃어버렸어요... 추워요... 불 좀 쬐게 해주세요! 잠깐이면 돼요.\"",
+    "DialogueId": 6100603,
+    "GUID": "0F45B02E",
+    "NextOptions": [
+      6100604,
+      6100613
+    ],
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room306_Char01"
+  },
+  "6100604": {
+    "ContentKR": "동의한다.",
+    "DialogueId": 6100604,
+    "GUID": "0F45B058",
+    "IsKeyOption": true,
+    "NextDialogue": 6100605,
+    "RougeTalkActorType": 2,
+    "SpeakNpcId": 910004
+  },
+  "6100605": {
+    "ContentKR": "\"감사합니다.\"\n그녀는 오돌오돌 떨며, 감사의 인사를 한다.",
+    "DialogueId": 6100605,
+    "GUID": "0F45B082",
+    "NextDialogue": 6100606,
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room306_Char01"
+  },
+  "6100606": {
+    "ContentKR": "왜 여기에 온 건지 묻는다.",
+    "DialogueId": 6100606,
+    "GUID": "0F45B0AC",
+    "NextDialogue": 6100607,
+    "RougeTalkActorType": 2,
+    "SpeakNpcId": 910004
+  },
+  "6100607": {
+    "ContentKR": "\"왜... 왜요...? 아... 생각났어요...\"\n\"아빠랑... 엄마... 는 휘페르보레아 사람인데... 엘리시안으로... 도망...\"\n\"바다에서... 배가... 검은 소용돌이에...\"",
+    "DialogueId": 6100607,
+    "GUID": "0F45B0D6",
+    "NextDialogue": 6100608,
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room306_Char01"
+  },
+  "6100608": {
+    "ContentKR": "검은 소용돌이. 당신도 알다시피, 그것은 흑조다. 배고픈 심연이 형체를 가진 모든 것을 뱃속으로 삼키는 것이다.",
+    "DialogueId": 6100608,
+    "GUID": "0F45B100",
+    "NextDialogue": 6100609,
+    "RougeTalkActorType": 3
+  },
+  "6100609": {
+    "ContentKR": "왜 엘리시안에 가려고 하는지 묻는다.",
+    "DialogueId": 6100609,
+    "GUID": "0F45B12A",
+    "NextDialogue": 6100610,
+    "RougeTalkActorType": 2,
+    "SpeakNpcId": 910004
+  },
+  "6100610": {
+    "ContentKR": "\"엄마 말이... 우린 '악마의 아이'라고...\"\n\"최악의 상황으로 심연에 떨어진다고 해도... 휘페르보레아에 남는 것보다는... 나을 테니까...\"",
+    "DialogueId": 6100610,
+    "GUID": "0F45B154",
+    "NextDialogue": 6100611,
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room306_Char01"
+  },
+  "6100611": {
+    "ContentKR": "\"불을 쬐게 해 주셔서 감사하고... 알려주셔서 감사해요... 저는 이미 이 세상에 없어요.\"",
+    "DialogueId": 6100611,
+    "GUID": "0F45B17E",
+    "NextDialogue": 6100612,
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room306_Char01"
+  },
+  "6100612": {
+    "ContentKR": "그녀는 사라졌다. 처음부터 아무도 없었던 것처럼, 당신 곁에는 바싹바싹 타오르는 모닥불만이 남아 있다.",
+    "DialogueId": 6100612,
+    "GUID": "0F45B1A8",
+    "RougeTalkActorType": 3
+  },
+  "6100613": {
+    "ContentKR": "거절한다.",
+    "DialogueId": 6100613,
+    "GUID": "0F45B1D2",
+    "IsKeyOption": true,
+    "NextDialogue": 6100614,
+    "RougeTalkActorType": 2,
+    "SpeakNpcId": 910004
+  },
+  "6100614": {
+    "ContentKR": "\"죄... 죄송합니다... 귀찮게 해서 죄송합니다.\"",
+    "DialogueId": 6100614,
+    "GUID": "0F45B1FC",
+    "NextDialogue": 6100615,
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room306_Char01"
+  },
+  "6100615": {
+    "ContentKR": "소녀는 덜덜 떨면서 가버렸다. 아무도 오지 않았던 것처럼, 당신 곁에는 활활 타오르는 모닥불만이 남아 있다.",
+    "DialogueId": 6100615,
+    "GUID": "0F45B226",
+    "RougeTalkActorType": 3
+  },
+  "6100701": {
+    "ContentKR": "\"안녕하세요!\"",
+    "DialogueId": 6100701,
+    "GUID": "0F45C042",
+    "NextDialogue": 6100702,
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room307_Char01"
+  },
+  "6100702": {
+    "ContentKR": "배낭을 멘 쾌활한 청년이 모닥불 옆으로 다가와, 큰소리로 인사를 한다.",
+    "DialogueId": 6100702,
+    "GUID": "0F45C06C",
+    "NextDialogue": 6100703,
+    "RougeTalkActorType": 3
+  },
+  "6100703": {
+    "1": "당신은 아직 살아있군요! 맞죠?\"\"",
+    "ContentKR": "\"\"좀 실례되는 말이지만",
+    "DialogueId": 6100703,
+    "GUID": "0F45C096",
+    "NextOptions": [
+      6100704,
+      6100711
+    ],
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room307_Char01"
+  },
+  "6100704": {
+    "ContentKR": "고개를 끄덕인다.",
+    "DialogueId": 6100704,
+    "GUID": "0F45C0C0",
+    "IsKeyOption": true,
+    "NextDialogue": 6100705,
+    "RougeTalkActorType": 2,
+    "SpeakNpcId": 910004
+  },
+  "6100705": {
+    "1": "엄청난 행운아네요!\"\"",
+    "ContentKR": "\"\"여기서 살아있는 사람을 만날 줄은 정말 몰랐어요. 당신도 저처럼",
+    "DialogueId": 6100705,
+    "GUID": "0F45C0EA",
+    "NextDialogue": 6100706,
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room307_Char01"
+  },
+  "6100706": {
+    "1": "성재로부터 신성 모독 판결을 받았어요.\"\n\"재수라곤 더럽게 없는 아버지처럼 저도 목이 날아갈 뻔했는데",
+    "2": "사형 집행인이 처형일에 벼락을 맞아 사면됐죠.\"\"",
+    "ContentKR": "\"\"저는 열여섯 살 되던 해에 아버지와 함께 노래를 한 곡 썼는데",
+    "DialogueId": 6100706,
+    "GUID": "0F45C114",
+    "NextDialogue": 6100707,
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room307_Char01"
+  },
+  "6100707": {
+    "1": "북쪽 숲에서 강도를 당했어요. 납치돼서 동굴에 버려졌죠.\"\n\"동료들처럼 굶어 죽나 했는데",
+    "2": "일주일째 되는 날 아침 돼지 한 마리가 깨우더니",
+    "3": "한 소녀가 먹을 걸 주더라고요. 천사를 만난 줄 알았죠.\"\"",
+    "ContentKR": "\"\"스무 살 되던 해에 유랑 상인 무리에 합류했는데",
+    "DialogueId": 6100707,
+    "GUID": "0F45C13E",
+    "NextDialogue": 6100708,
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room307_Char01"
+  },
+  "6100708": {
+    "1": "기사 나리 하나는 넘어지면서 자신의 검에 목을 찔렸어요. 제가 유일한 생존자였죠.\"\n\"그래서 전 운명의 여신을 믿게 됐어요. 여신께선 제게 더없는 행운과 행복을 주실 거예요.\"\"",
+    "ContentKR": "\"\"그 후 전 상인으로서 기사단을 따라 심연으로 왔어요. 손에 든 랜턴이 하나둘 꺼졌고",
+    "DialogueId": 6100708,
+    "GUID": "0F45C168",
+    "NextDialogue": 6100709,
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room307_Char01"
+  },
+  "6100709": {
+    "1": "이곳 깊숙이 유일무이한 보물이 절 기다리고 있다는 뜻이죠. 이제",
+    "2": "전 그걸 찾아서 떠나야 해요.\"\n그가 무거운 배낭을 짊어진다.\"",
+    "ContentKR": "\"\"그분이 절 인도했다는 건",
+    "DialogueId": 6100709,
+    "GUID": "0F45C192",
+    "NextDialogue": 6100710,
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room307_Char01"
+  },
+  "6100710": {
+    "1": "저기요! 그분께서 당신을 살아남게 했으니",
+    "2": "당신도 당신만의 유일무이한 행운을 만나게 될 거예요!\"\n그는 두 주먹을 불끈 쥐고, 크게 웃는다.\n\"우리의 행복을 위하여!\"\"",
+    "ContentKR": "\"\"참",
+    "DialogueId": 6100710,
+    "GUID": "0F45C1BC",
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room307_Char01"
+  },
+  "6100711": {
+    "ContentKR": "누워서 죽은 척한다.",
+    "DialogueId": 6100711,
+    "GUID": "0F45C1E6",
+    "IsKeyOption": true,
+    "NextDialogue": 6100712,
+    "RougeTalkActorType": 2,
+    "SpeakNpcId": 910004
+  },
+  "6100712": {
+    "1": "당신도 그들과 같은 망령인가요?\"\"",
+    "ContentKR": "\"\"기절했나?\"\n그는 쪼그리고 앉아, 당신이 숨을 쉬는지 코에 손을 댄다.\n\"설마",
+    "DialogueId": 6100712,
+    "GUID": "0F45C210",
+    "NextDialogue": 6100713,
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room307_Char01"
+  },
+  "6100713": {
+    "ContentKR": "당신은 침묵한다.\n그는 배낭을 내려놓고, 물과 음식을 꺼낸다.",
+    "DialogueId": 6100713,
+    "GUID": "0F45C23A",
+    "NextDialogue": 6100714,
+    "RougeTalkActorType": 3
+  },
+  "6100714": {
+    "1": "이걸 놓고 갈게요! 성탑에 첫 번째 햇살이 비출 때",
+    "2": "당신이 깨어나서 처음처럼 건강해지기를 바라요.\"\"",
+    "ContentKR": "\"\"불쌍한 친구",
+    "DialogueId": 6100714,
+    "GUID": "0F45C264",
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room307_Char01"
+  },
+  "6100801": {
+    "ContentKR": "같은 줄기에서 자라난 검붉은 꽃 한 쌍이 어둠 속에서 그윽한 빛을 발하고 있다.\n당신이 랜턴을 들자, 희끗희끗한 금발머리 몇 가닥과 몇 마디의 창백한 등뼈가 비친다. 이건 사람 모양의 필토이드일까? 아니면 곧 필토이드가 될 사람일까?\n당신은 경계하며 무기를 움켜쥐지만, 그것은 당신을 공격하지 않는다. 다만 어둠 속에 박힌 검붉은 눈동자로, 당신을 소리 없이 주시하고 있을 뿐이다.",
+    "DialogueId": 6100801,
+    "GUID": "0F45D0AA",
+    "NextDialogue": 6100802,
+    "RougeTalkActorType": 3
+  },
+  "6100802": {
+    "ContentKR": "갑자기, 그것이 목에서 뭔가 산산조각 나는 소리를 낸다. 날카로운 돌멩이들이 서도 부딪치며 내는 소리 같기도 하고, 어떤 리듬을 타는 것 같기도 하다. 이유는 모르지만, 당신은 그 의미를 이해할 수 있을 것 같다.",
+    "DialogueId": 6100802,
+    "GUID": "0F45D0D4",
+    "NextDialogue": 6100803,
+    "RougeTalkActorType": 3
+  },
+  "6100803": {
+    "1": "가지 마세요. 당신의 랜턴에 비친 제 모습이 여전히 아름다운가요? 제발 알려주세요.\"\"",
+    "ContentKR": "\"\"랜턴을 든 여행자님",
+    "DialogueId": 6100803,
+    "GUID": "0F45D0FE",
+    "NextDialogue": 6100804,
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room308_Char01"
+  },
+  "6100804": {
+    "1": "화려한 보석으로 장식했어요.\" 필토이드가 표면에 깊이 박힌 결정을 어루만진다.\n\"사랑하는 이가 준 목걸이를 목에 걸고",
+    "2": "그의 간절한 마음을 생각해요.\" 필토이드가 목 사이로 뻗은 뼈마디를 어루만진다.\"",
+    "ContentKR": "\"\"전 윤기 나게 머리를 빗고 곱게 땋았어요.\" 필토이드가 머리 뒤의 갈라진 피부를 어루만진다.\n\"치마의 주름도 가지런히 다려",
+    "DialogueId": 6100804,
+    "GUID": "0F45D128",
+    "NextOptions": [
+      6100805,
+      6100808
+    ],
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room308_Char01"
+  },
+  "6100805": {
+    "1": "아름답습니다.\"\"",
+    "ContentKR": "\"\"네",
+    "DialogueId": 6100805,
+    "GUID": "0F45D152",
+    "IsKeyOption": true,
+    "NextDialogue": 6100806,
+    "RougeTalkActorType": 2,
+    "SpeakNpcId": 910004
+  },
+  "6100806": {
+    "ContentKR": "마치 바람에 흔들리는 꽃잎처럼, 붉은 눈동자가 가늘게 떨린다.",
+    "DialogueId": 6100806,
+    "GUID": "0F45D17C",
+    "NextDialogue": 6100807,
+    "RougeTalkActorType": 3
+  },
+  "6100807": {
+    "1": "친절한 여행자님. 제 감사의 선물을 받아 주세요.\"\n\"혹시 제 애인을 만난다면",
+    "2": "제가 영원히 사랑할 거라고 전해 주세요.\"\"",
+    "ContentKR": "\"\"감사합니다",
+    "DialogueId": 6100807,
+    "GUID": "0F45D1A6",
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room308_Char01"
+  },
+  "6100808": {
+    "ContentKR": "\"당신은 무서운 괴물입니다.\"",
+    "DialogueId": 6100808,
+    "GUID": "0F45D1D0",
+    "IsKeyOption": true,
+    "NextDialogue": 6100809,
+    "RougeTalkActorType": 2,
+    "SpeakNpcId": 910004
+  },
+  "6100809": {
+    "ContentKR": "험상궂은 발톱이 그 붉은 눈동자를 덮는다.",
+    "DialogueId": 6100809,
+    "GUID": "0F45D1FA",
+    "NextDialogue": 6100810,
+    "RougeTalkActorType": 3
+  },
+  "6100810": {
+    "1": "안 돼! 이렇게 못생긴 내 모습을 사랑하는 사람에게 보여주고 싶지 않아요.\"\n\"자비로운 여행자님",
+    "2": "저를 끝내주세요.\"\"",
+    "ContentKR": "\"\"오",
+    "DialogueId": 6100810,
+    "GUID": "0F45D224",
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room308_Char01"
+  },
+  "6100901": {
+    "1": "낯선 여행자님.\"\"",
+    "ContentKR": "\"\"안녕하세요",
+    "DialogueId": 6100901,
+    "GUID": "0F45E112",
+    "NextDialogue": 6100902,
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room309_Char01"
+  },
+  "6100902": {
+    "ContentKR": "화려한 옷차림의 한 청년이 모닥불에 흔들리는 빛과 그림자 속에서 걸음을 멈추고, 당신을 향해 우아하게 인사한다.",
+    "DialogueId": 6100902,
+    "GUID": "0F45E13C",
+    "NextDialogue": 6100903,
+    "RougeTalkActorType": 3
+  },
+  "6100903": {
+    "ContentKR": "\"전 빨간 눈동자를 가진 여인을 찾고 있어요. 혹시 그녀가 얼마나 아름다운지 본 적 있으세요?\"",
+    "DialogueId": 6100903,
+    "GUID": "0F45E166",
+    "NextDialogue": 6100904,
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room309_Char01"
+  },
+  "6100904": {
+    "1": "부드럽고 아름다운 금빛 머리카락을 가지고 있어요.\"\n\"그녀는 화려하면서도 단아한 원피스를 입고 있어요. 치맛자락에는 별처럼 빛나는 보석이 가득 달려 있죠.\"\n\"그녀는 제가 선물한 목걸이를 하고 있어요. 신비롭고 그윽한 검붉은 색 수정이 마치 절 응시하는 그녀의 눈처럼 보이죠.\"\"",
+    "ContentKR": "\"\"그녀는 세상에서 가장 아름다운 목소리를 가지고 있어요. 나이팅게일도 무색할 정도죠.\"\n\"그녀는 봄날에 피는 금잔화처럼",
+    "DialogueId": 6100904,
+    "GUID": "0F45E190",
+    "NextDialogue": 6100905,
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room309_Char01"
+  },
+  "6100905": {
+    "ContentKR": "그런 여인을 본 적이 없다.",
+    "DialogueId": 6100905,
+    "GUID": "0F45E1BA",
+    "NextDialogue": 6100906,
+    "RougeTalkActorType": 2,
+    "SpeakNpcId": 910004
+  },
+  "6100906": {
+    "1": "계속 찾아보면 되니까요.\"\"",
+    "ContentKR": "\"\"그래요...\"\n그는 우울하게 눈을 내리깔지만, 곧 우아한 모습으로 돌아온다.\n\"괜찮아요",
+    "DialogueId": 6100906,
+    "GUID": "0F45E1E4",
+    "NextDialogue": 6100907,
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room309_Char01"
+  },
+  "6100907": {
+    "ContentKR": "청년이 모닥불 옆에 앉자, 밝은 불길이 그의 눈동자에 비친다.",
+    "DialogueId": 6100907,
+    "GUID": "0F45E20E",
+    "NextDialogue": 6100908,
+    "RougeTalkActorType": 3
+  },
+  "6100908": {
+    "1": "이마의 성흔이 점점 뚜렷해지더니",
+    "2": "열네 살 생일 전날 밤 사자가 찾아와서 데려갔어요.\"\n\"그녀는 떠나기 전에 저에게 다른 짝을 찾으라는 편지를 남겼죠. 하지만 전 맹세했어요. 이번 생은 오직 그녀와 함께하겠다고요.\"\n\"그녀를 찾으면",
+    "3": "다시 이 세상에 데려올 거예요. 만월의 신께선 사람들에게 사랑의 아름다움을 노래하라고 가르치셨으니",
+    "4": "반드시 저희를 도와주실 거예요.\"\"",
+    "ContentKR": "\"\"저는 그녀와 오래전에 약혼했어요. 성인이 되면 혼례를 올리기로 했죠. 그런데 그녀가 신의 은총을 입어",
+    "DialogueId": 6100908,
+    "GUID": "0F45E238",
+    "NextOptions": [
+      6100909,
+      6100911
+    ],
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room309_Char01"
+  },
+  "6100909": {
+    "ContentKR": "하루빨리 연인을 찾기를 바란다.",
+    "DialogueId": 6100909,
+    "GUID": "0F45E262",
+    "IsKeyOption": true,
+    "NextDialogue": 6100910,
+    "RougeTalkActorType": 2,
+    "SpeakNpcId": 910004
+  },
+  "6100910": {
+    "1": "친절한 여행자님.\"\n\"작은 선물이지만 받아주세요. 당신도 원하는 것을 얻길 바랍니다.\"\"",
+    "ContentKR": "\"\"정말 고맙습니다",
+    "DialogueId": 6100910,
+    "GUID": "0F45E28C",
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room309_Char01"
+  },
+  "6100911": {
+    "ContentKR": "\"만약 신이 동의하지 않으면요?\"",
+    "DialogueId": 6100911,
+    "GUID": "0F45E2B6",
+    "IsKeyOption": true,
+    "NextDialogue": 6100912,
+    "RougeTalkActorType": 2,
+    "SpeakNpcId": 910004
+  },
+  "6100912": {
+    "1": "영혼이나마 영원히 그녀와 함께하겠습니다.\"\"",
+    "ContentKR": "\"그는 당신을 향해 담담하게 미소 짓는다.\n\"그러면 이 몸을 성스러운 호수에 바쳐",
+    "DialogueId": 6100912,
+    "GUID": "0F45E2E0",
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room309_Char01"
+  },
+  "6101001": {
+    "ContentKR": "모닥불 옆에 한 여인이 나타난다. 그녀는 활활 타오르는 모닥불에 왼손을 뻗어 재를 묻히고, 바닥에 당신이 알아볼 수 없는 글을 쓴다.",
+    "DialogueId": 6101001,
+    "GUID": "0F45F17A",
+    "NextDialogue": 6101002,
+    "RougeTalkActorType": 3
+  },
+  "6101002": {
+    "1": "시간을 거스르는 여행자여",
+    "2": "그대의 동반자는 절망이요",
+    "3": "죽음은 그림자처럼 따라다닌다네.\"\n그녀가 낮은 소리로 읊조린다.\"",
+    "ContentKR": "\"\"아",
+    "DialogueId": 6101002,
+    "GUID": "0F45F1A4",
+    "NextOptions": [
+      6101003,
+      6101005
+    ],
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room310_Char01"
+  },
+  "6101003": {
+    "ContentKR": "뭘 하고 있는지 묻는다.",
+    "DialogueId": 6101003,
+    "GUID": "0F45F1CE",
+    "IsKeyOption": true,
+    "NextDialogue": 6101004,
+    "RougeTalkActorType": 2,
+    "SpeakNpcId": 910004
+  },
+  "6101004": {
+    "1": "친구여! 보시다시피",
+    "2": "저는 시인입니다.\"\n\"저는 지금 제 1001번째 작품을 창작하고 있어요. 맞습니다. 당신을 위한 시죠!\"\"",
+    "ContentKR": "\"\"오",
+    "DialogueId": 6101004,
+    "GUID": "0F45F1F8",
+    "NextDialogue": 6101008,
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room310_Char01"
+  },
+  "6101005": {
+    "ContentKR": "\"불꽃이 뜨겁지 않나요?\"",
+    "DialogueId": 6101005,
+    "GUID": "0F45F222",
+    "IsKeyOption": true,
+    "NextDialogue": 6101006,
+    "RougeTalkActorType": 2,
+    "SpeakNpcId": 910004
+  },
+  "6101006": {
+    "ContentKR": "여자가 깔깔거리며 웃는다.",
+    "DialogueId": 6101006,
+    "GUID": "0F45F24C",
+    "NextDialogue": 6101007,
+    "RougeTalkActorType": 3
+  },
+  "6101007": {
+    "1": "친구.\"\n그녀가 당신의 눈앞에 손바닥을 편다. 하얀 손은 흠결 없이 멀쩡하다.\n\"당신처럼 지혜로운 여행자는",
+    "2": "이 불이 진짜가 아니라는 걸 눈치챘겠죠. 저도 마찬가지로 진짜가 아니고요.\"\"",
+    "ContentKR": "\"\"잘 보세요",
+    "DialogueId": 6101007,
+    "GUID": "0F45F276",
+    "NextDialogue": 6101008,
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room310_Char01"
+  },
+  "6101008": {
+    "ContentKR": "시인이 다시 손을 뻗어 모닥불을 휘젓는다. 가느다란 손끝이 무용수의 두 발처럼 날렵하게 불 속을 누빈다.",
+    "DialogueId": 6101008,
+    "GUID": "0F45F2A0",
+    "NextDialogue": 6101009,
+    "RougeTalkActorType": 3
+  },
+  "6101009": {
+    "1": "그렇지 않나요?\"\n\"저는 마침내 육체적인 고통에서 벗어났어요. 다시는 지루한 일들로 제 창작을 방해받지 않게 됐죠. 전 무한한 자유와 영원한 시간을 얻었어요.\"\n\"여행자님",
+    "2": "여기 멈춰서 한 줄기 빛을 가져다주셔서 감사해요. 제 시를 받아주세요. 반드시 이 끝없는 윤회에서 벗어나",
+    "3": "소망을 이루시길 바랄게요.\"\"",
+    "ContentKR": "\"\"이곳은 정말 아름다운 곳이죠",
+    "DialogueId": 6101009,
+    "GUID": "0F45F2CA",
+    "NextDialogue": 6101010,
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room310_Char01"
+  },
+  "6101010": {
+    "ContentKR": "시인이 손을 뻗자, 연기가 폭풍처럼 순식간에 눈앞을 가린다.\n연기가 흩어지자, 시인은 이미 사라진 뒤였다.",
+    "DialogueId": 6101010,
+    "GUID": "0F45F2F4",
+    "RougeTalkActorType": 3
+  },
+  "6101101": {
+    "1": "혹시 당신의 빛을 좀 빌려주실 수 있을까요.\"\"",
+    "ContentKR": "\"\"안녕하세요",
+    "DialogueId": 6101101,
+    "GUID": "0F4601E2",
+    "NextDialogue": 6101102,
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room311_Char01"
+  },
+  "6101102": {
+    "ContentKR": "소년이 어리숙한 걸음으로 짐짓 점잖은 체하며, 천천히 모닥불 옆에 앉는다.\n너무 큰 턱시도를 입고 있어, 앙상한 체구가 안쓰러워 보일 정도다. 그는 불빛 아래 얇은 책 한 권을 들고, 아주 그럴듯하게 낭독하기 시작한다.",
+    "DialogueId": 6101102,
+    "GUID": "0F46020C",
+    "NextDialogue": 6101103,
+    "RougeTalkActorType": 3
+  },
+  "6101103": {
+    "1": "우리에게 지혜를 주소서... 물의 신이시여",
+    "2": "우리에게 풍요를 주소서...\"\"",
+    "ContentKR": "\"\"화염의 신이여",
+    "DialogueId": 6101103,
+    "GUID": "0F460236",
+    "NextOptions": [
+      6101104
+    ],
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room311_Char01"
+  },
+  "6101104": {
+    "ContentKR": "뭘 읽는 건가요?",
+    "DialogueId": 6101104,
+    "GUID": "0F460260",
+    "NextDialogue": 6101105,
+    "RougeTalkActorType": 2,
+    "SpeakNpcId": 910004
+  },
+  "6101105": {
+    "1": "형들이 준 책을 읽고 있어요.\" 소년은 부끄러워하며 머리를 쓰다듬는다. \"신을 뵙기 전에 더 똑똑해져야 하거든요.\"\n\"전 어릴 때부터 집안에서 가장 맹한 아이였어요. 형들은 저보다 훨씬 똑똑했죠. 그런데 신께서 하필이면 절 뽑으신 거예요. 다들 말도 안 된다고 했죠.\"\n\"형들이 이 성가책을 주면서 아홉 신을 뵙기 전에 잘 읽으라고 했어요. 집안 망신시키지 않도록요.\"\"",
+    "ContentKR": "\"\"아",
+    "DialogueId": 6101105,
+    "GUID": "0F46028A",
+    "NextDialogue": 6101106,
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room311_Char01"
+  },
+  "6101106": {
+    "ContentKR": "소년이 몸을 움직여 당신 곁에 더 가까이 앉는다. 그리곤 책을 치켜들고, 같이 보자는 눈짓을 한다.",
+    "DialogueId": 6101106,
+    "GUID": "0F4602B4",
+    "NextDialogue": 6101107,
+    "RougeTalkActorType": 3
+  },
+  "6101107": {
+    "ContentKR": "\"저랑 같이 보실래요?\"",
+    "DialogueId": 6101107,
+    "GUID": "0F4602DE",
+    "NextOptions": [
+      6101108,
+      6101112
+    ],
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room311_Char01"
+  },
+  "6101108": {
+    "ContentKR": "함께 책을 읽는다.",
+    "DialogueId": 6101108,
+    "GUID": "0F460308",
+    "IsKeyOption": true,
+    "NextDialogue": 6101109,
+    "RougeTalkActorType": 2,
+    "SpeakNpcId": 910004
+  },
+  "6101109": {
+    "ContentKR": "당신은 제안을 받아들여 책으로 시선을 옮긴다. 놀랍게도 책장엔 누군가가 시커먼 펜으로 쓴, 당신이 상상조차 하지 못할 악담과 상스러운 말들로 뒤덮여 있다.\n글자는 순식간에 검은 가시덤불이 되어, 책장을 뚫고 나와, 사냥에 나선 독사처럼 몸을 휘감는다. 시야가 천천히 흐려진다.\n당신은 살아남기 위해 본능적으로 몸을 뒤로 젖혀, 시선을 책장 밖으로 옮긴다.",
+    "DialogueId": 6101109,
+    "GUID": "0F460332",
+    "NextDialogue": 6101110,
+    "RougeTalkActorType": 3
+  },
+  "6101110": {
+    "ContentKR": "\"어? 왜 그러세요? 책에 무서운 거라도 있나요?\"\n소년은 당신을 곤혹스럽게 바라보지만, 눈빛은 여전히 맑고 투명하다.",
+    "DialogueId": 6101110,
+    "GUID": "0F46035C",
+    "NextDialogue": 6101111,
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room311_Char01"
+  },
+  "6101111": {
+    "ContentKR": "당신은 입을 열지만, 아무 소리도 내지 못한다.\n검은 가시덤불은 소년을 뒤덮어 삼켰다. 곧이어 소년과 책, 가시덤불은 모두 사라져 버렸다.",
+    "DialogueId": 6101111,
+    "GUID": "0F460386",
+    "RougeTalkActorType": 3
+  },
+  "6101112": {
+    "ContentKR": "함께 읽기를 거절한다.",
+    "DialogueId": 6101112,
+    "GUID": "0F4603B0",
+    "IsKeyOption": true,
+    "NextDialogue": 6101113,
+    "RougeTalkActorType": 2,
+    "SpeakNpcId": 910004
+  },
+  "6101113": {
+    "ContentKR": "당신은 여기에 공부하러 온 것이 아니다.",
+    "DialogueId": 6101113,
+    "GUID": "0F4603DA",
+    "NextDialogue": 6101114,
+    "RougeTalkActorType": 3
+  },
+  "6101114": {
+    "ContentKR": "\"알았어요. 그럼 저 혼자 읽을게요...\"\n소년이 책을 다시 무릎 위에 놓는다.",
+    "DialogueId": 6101114,
+    "GUID": "0F460404",
+    "NextDialogue": 6101115,
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room311_Char01"
+  },
+  "6101115": {
+    "ContentKR": "갑자기 책에서 검은 가시덤불이 뻗어 나온다.\n놀랄 새도 없이, 가시덤불은 소년을 뒤덮어 삼켰다. 곧이어 소년과 책, 가시덤불은 모두 사라져 버렸다.",
+    "DialogueId": 6101115,
+    "GUID": "0F46042E",
+    "RougeTalkActorType": 3
+  },
+  "6101201": {
+    "ContentKR": "한 중년 여인이 침울한 얼굴로 모닥불 앞에 앉았으나, 불빛은 그녀의 어두운 눈을 비추지 못했다.",
+    "DialogueId": 6101201,
+    "GUID": "0F46124A",
+    "NextDialogue": 6101202,
+    "RougeTalkActorType": 3
+  },
+  "6101202": {
+    "1": "낯선 분. 실례지만 여기가 어디인가요?\"\"",
+    "ContentKR": "\"\"안녕하세요",
+    "DialogueId": 6101202,
+    "GUID": "0F461274",
+    "NextDialogue": 6101203,
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room312_Char01"
+  },
+  "6101203": {
+    "ContentKR": "대답한다.",
+    "DialogueId": 6101203,
+    "GUID": "0F46129E",
+    "NextDialogue": 6101204,
+    "RougeTalkActorType": 3
+  },
+  "6101204": {
+    "ContentKR": "\"성스러운 호수...? 심연...?\" 그녀의 말투는 막막함과 당혹스러움으로 가득 차 있다. \"전 어째서 그런 말들을 들어본 적 없는 것 같죠...\"\n그녀는 주름 골이 가득한 자신의 손바닥을 바라본다. \"제가 여기 왜 왔는지 잊어버렸어요.\"",
+    "DialogueId": 6101204,
+    "GUID": "0F4612C8",
+    "NextOptions": [
+      6101205,
+      6101207
+    ],
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room312_Char01"
+  },
+  "6101205": {
+    "ContentKR": "성스러운 호수의 역사를 알려준다.",
+    "DialogueId": 6101205,
+    "GUID": "0F4612F2",
+    "IsKeyOption": true,
+    "NextDialogue": 6101206,
+    "RougeTalkActorType": 2,
+    "SpeakNpcId": 910004
+  },
+  "6101206": {
+    "ContentKR": "\"몸에 성흔이 생긴 사람은... 이곳으로 오게 된다고요...?\"\n\"아... 생각났어요. 제 아이가 여기 있어요. 아이의 눈가에 날개를 퍼덕이며 날아오르려는 나비 같은 성흔이 나타났어요.\"",
+    "DialogueId": 6101206,
+    "GUID": "0F46131C",
+    "NextDialogue": 6101210,
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room312_Char01"
+  },
+  "6101207": {
+    "ContentKR": "소지품을 살펴보라고 조언한다.",
+    "DialogueId": 6101207,
+    "GUID": "0F461346",
+    "IsKeyOption": true,
+    "NextDialogue": 6101208,
+    "RougeTalkActorType": 2,
+    "SpeakNpcId": 910004
+  },
+  "6101208": {
+    "ContentKR": "\"그 말이 맞아요.\"\n그녀는 손을 주머니에 넣어, 은색 브로치 하나를 더듬어 꺼낸다.",
+    "DialogueId": 6101208,
+    "GUID": "0F461370",
+    "NextDialogue": 6101209,
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room312_Char01"
+  },
+  "6101209": {
+    "ContentKR": "\"아... 생각났어요.\" 그녀는 조심스럽게 소매 끝으로 브로치를 깨끗이 닦는다. \"이건 제가 그 아이에게 준 선물이에요.\"",
+    "DialogueId": 6101209,
+    "GUID": "0F46139A",
+    "NextDialogue": 6101210,
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room312_Char01"
+  },
+  "6101210": {
+    "ContentKR": "고개를 든 여자의 눈에, 불빛이 또렷이 비친다.",
+    "DialogueId": 6101210,
+    "GUID": "0F4613C4",
+    "NextDialogue": 6101211,
+    "RougeTalkActorType": 3
+  },
+  "6101211": {
+    "1": "깊이 잠든 아이를 데리고 갔어요. 그 아이는 어려서부터 낯을 가리는 아이예요. 깨어났을 때 낯익은 얼굴이 보이지 않으면 무서워할 거예요.\"\n\"제가 곁에 있어 줘야 해요... 맞아요",
+    "2": "전 아이를 찾으러 왔어요.\"\"",
+    "ContentKR": "\"\"전 제 아이를 찾기 위해 여기 왔어요.\"\n\"그들은 제가 집에 없는 틈을 타",
+    "DialogueId": 6101211,
+    "GUID": "0F4613EE",
+    "NextDialogue": 6101212,
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room312_Char01"
+  },
+  "6101212": {
+    "ContentKR": "\"아이가 떠난 지 얼마나 됐나요?\"",
+    "DialogueId": 6101212,
+    "GUID": "0F461418",
+    "NextDialogue": 6101213,
+    "RougeTalkActorType": 2,
+    "SpeakNpcId": 910004
+  },
+  "6101213": {
+    "1": "10달... 아니",
+    "2": "10년... 아... 생각이 안 나요.\"\"",
+    "ContentKR": "\"\"10일 전... 아니",
+    "DialogueId": 6101213,
+    "GUID": "0F461442",
+    "NextDialogue": 6101214,
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room312_Char01"
+  },
+  "6101214": {
+    "ContentKR": "여인은 말을 잃은 채, 멍한 얼굴로, 꼼짝도 하지 않는다. 마치 호흡마저 멈춘 것 같다.\n당신이 무슨 말을 해도, 그녀는 아무런 반응이 없다.",
+    "DialogueId": 6101214,
+    "GUID": "0F46146C",
+    "RougeTalkActorType": 3
+  },
+  "6101301": {
+    "ContentKR": "\"펑!\"\n갑자기 눈앞의 모닥불이 더 활활 타오른다.\n금발 소녀가 치맛자락에 황금빛 자갈을 싸서, 자갈을 모닥불 한가운데 하나씩 던져 넣는 게 보인다.",
+    "DialogueId": 6101301,
+    "GUID": "0F4622B2",
+    "NextDialogue": 6101302,
+    "RougeTalkActorType": 3
+  },
+  "6101302": {
+    "ContentKR": "불빛은 마치 생애 첫 봄을 맞아 미친 듯이 가지를 뻗어 싹을 피우는 초목처럼 점점 거세게 타오른다.",
+    "DialogueId": 6101302,
+    "GUID": "0F4622DC",
+    "NextOptions": [
+      6101303,
+      6101305
+    ],
+    "RougeTalkActorType": 3
+  },
+  "6101303": {
+    "ContentKR": "불길의 아름다움을 칭찬한다.",
+    "DialogueId": 6101303,
+    "GUID": "0F462306",
+    "IsKeyOption": true,
+    "NextDialogue": 6101304,
+    "RougeTalkActorType": 2,
+    "SpeakNpcId": 910004
+  },
+  "6101304": {
+    "ContentKR": "\"맞아요!\" 그녀가 불길처럼 뜨겁게 말한다. \"저와 같은 생각을 하는 사람을 만나서 기뻐요.\"",
+    "DialogueId": 6101304,
+    "GUID": "0F462330",
+    "NextDialogue": 6101307,
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room313_Char01"
+  },
+  "6101305": {
+    "ContentKR": "돌이 어디서 났는지 묻는다.",
+    "DialogueId": 6101305,
+    "GUID": "0F46235A",
+    "IsKeyOption": true,
+    "NextDialogue": 6101306,
+    "RougeTalkActorType": 2,
+    "SpeakNpcId": 910004
+  },
+  "6101306": {
+    "ContentKR": "\"근처에서 주운 돌이에요.\" 그녀가 설명한다. \"제 생각엔 이 돌들이 어떤 화염 마법 수정이 아닌가 싶어요.\"",
+    "DialogueId": 6101306,
+    "GUID": "0F462384",
+    "NextDialogue": 6101307,
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room313_Char01"
+  },
+  "6101307": {
+    "ContentKR": "소녀는 계속 돌멩이를 던진다. 착시인지는 몰라도, 불길이 소녀에게 점점 다가오며, 금빛 머리카락을 부드럽게 핥는 듯하다.",
+    "DialogueId": 6101307,
+    "GUID": "0F4623AE",
+    "NextDialogue": 6101308,
+    "RougeTalkActorType": 3
+  },
+  "6101308": {
+    "1": "이 자갈들은 다시 근처에 흩어질 거예요.\"\n\"그래서 전 이 돌을 매일 주워서 다시 던져야 해요. 총 146개에서 한 개도 빠지면 안 돼요.\"\"",
+    "ContentKR": "\"\"내일이면 모닥불은 원래대로 돌아가고",
+    "DialogueId": 6101308,
+    "GUID": "0F4623D8",
+    "NextDialogue": 6101309,
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room313_Char01"
+  },
+  "6101309": {
+    "ContentKR": "\"무의미한 일 아닐까요?\"",
+    "DialogueId": 6101309,
+    "GUID": "0F462402",
+    "NextDialogue": 6101310,
+    "RougeTalkActorType": 2,
+    "SpeakNpcId": 910004
+  },
+  "6101310": {
+    "ContentKR": "소녀는 고개를 갸웃하더니, 눈을 깜박이며, 천진난만한 미소를 짓는다.",
+    "DialogueId": 6101310,
+    "GUID": "0F46242C",
+    "NextDialogue": 6101311,
+    "RougeTalkActorType": 3
+  },
+  "6101311": {
+    "1": "저는 불을 좋아해요.\" 그녀가 말한다. \"저는 불이 춤추듯 타오를 때의 모습을 보며 거센 불길 소리를 듣는 게 좋아요.\"\n\"아시겠지만 여긴 혼란스러운 공간이잖아요. 눈을 감아도 모닥불이 곁에 있고",
+    "2": "깨어나 보면 호수 밑바닥에 있죠.\"\n\"하지만 이 돌멩이들은 달라요. 주변이 어떻게 변하든",
+    "3": "이것들은 항상 다시 나타나죠. 내일도 이 돌멩이들을 찾아낼 수 있다고 생각하면 안심하고 잠들 수 있어요.\"\"",
+    "ContentKR": "\"\"아뇨",
+    "DialogueId": 6101311,
+    "GUID": "0F462456",
+    "NextDialogue": 6101312,
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room313_Char01"
+  },
+  "6101312": {
+    "ContentKR": "\"저는 확실한 것들이 좋아요.\"",
+    "DialogueId": 6101312,
+    "GUID": "0F462480",
+    "NextDialogue": 6101313,
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room313_Char01"
+  },
+  "6101313": {
+    "ContentKR": "소녀는 그 말과 함께 마지막 돌을 던진다.\n불빛이 그녀를 완전히 감싸고, 금빛 머리카락이 불꽃과 하나가 되어 더 이상 경계를 분간할 수 없게 되었다.",
+    "DialogueId": 6101313,
+    "GUID": "0F4624AA",
+    "RougeTalkActorType": 3
+  },
+  "6101401": {
+    "ContentKR": "\"우... 어...\"",
+    "DialogueId": 6101401,
+    "GUID": "0F46331A",
+    "NextDialogue": 6101402,
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room314_Char01"
+  },
+  "6101402": {
+    "ContentKR": "아래쪽에서 약한 신음소리가 들려온다. 뼈만 앙상하게 남은 남자가 모닥불 옆에 쓰러져 있는 게 보인다. 오랫동안 굶은 것 같다.",
+    "DialogueId": 6101402,
+    "GUID": "0F463344",
+    "NextOptions": [
+      6101403,
+      6101409
+    ],
+    "RougeTalkActorType": 3
+  },
+  "6101403": {
+    "ContentKR": "음식을 조금 나누어 준다.",
+    "DialogueId": 6101403,
+    "GUID": "0F46336E",
+    "IsKeyOption": true,
+    "NextDialogue": 6101404,
+    "RougeTalkActorType": 2,
+    "SpeakNpcId": 910004
+  },
+  "6101404": {
+    "1": "좋은 분이시네요. 하지만 저는 음식이 필요 없어요.\"\n\"전 검은 물결에 휩쓸려 들어왔어요. 이미 돌아갈 수 없죠. 음식을 아무리 먹어도 돌아갈 수 없어요.\"\n\"당신을 보니 엘리시안 소녀 한 명이 생각나네요... 당신처럼 착한 아이였죠.\"\"",
+    "ContentKR": "\"\"...고맙습니다",
+    "DialogueId": 6101404,
+    "GUID": "0F463398",
+    "NextDialogue": 6101405,
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room314_Char01"
+  },
+  "6101405": {
+    "1": "저한테 빵 한 조각을 건네줬어요...\"\n\"하지만 그때 전 오만해서",
+    "2": "교회의 자비를 받고 싶지 않았어요. 소녀가 선의란 걸 알면서도 큰 소리로 욕했죠.\"\"",
+    "ContentKR": "\"\"금발 머리를 하고 분홍색 돼지를 타고 있었죠. 제가 허기진 채 길을 걷고 있을 때",
+    "DialogueId": 6101405,
+    "GUID": "0F4633C2",
+    "NextDialogue": 6101406,
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room314_Char01"
+  },
+  "6101406": {
+    "1": "인종",
+    "2": "출신... 사람들은 항상 이런 걸로... 자신을 미화하죠... 하지만 아무리 대단한 이름을 가져도",
+    "3": "진정한 선이 가져다주는 빛을 덮을 수는 없어요...\"\"",
+    "ContentKR": "\"\"제 삶을 돌이켜 보면... 저한테 진심으로 대해준 사람은 그 소녀가 유일했어요.\"\n\"신앙",
+    "DialogueId": 6101406,
+    "GUID": "0F4633EC",
+    "NextDialogue": 6101407,
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room314_Char01"
+  },
+  "6101407": {
+    "1": "이미... 기회가 없겠죠...\"\"",
+    "ContentKR": "\"\"다시 돌아갈 수 있다면... 그 소녀에게 직접 사과하고 싶어요... 하지만",
+    "DialogueId": 6101407,
+    "GUID": "0F463416",
+    "NextDialogue": 6101408,
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room314_Char01"
+  },
+  "6101408": {
+    "ContentKR": "남자의 목소리는 점점 가벼워졌고, 당신이 눈을 깜빡이자 그의 모습은 사라졌다.\n공기 중에 갓 구운 빵의 향기가 풍겨온다.",
+    "DialogueId": 6101408,
+    "GUID": "0F463440",
+    "RougeTalkActorType": 3
+  },
+  "6101409": {
+    "ContentKR": "아무것도 하지 않는다.",
+    "DialogueId": 6101409,
+    "GUID": "0F46346A",
+    "IsKeyOption": true,
+    "NextDialogue": 6101410,
+    "RougeTalkActorType": 2,
+    "SpeakNpcId": 910004
+  },
+  "6101410": {
+    "ContentKR": "불쌍해 보이긴 하지만, 당신도 보급품이 얼마 남지 않았다.\n이 험난한 심연에선, 먼저 자신부터 살아남아야 한다.",
+    "DialogueId": 6101410,
+    "GUID": "0F463494",
+    "RougeTalkActorType": 3
+  },
+  "6101501": {
+    "ContentKR": "한 줄기 금빛이 공중에서 번뜩인다. 태양이 떠오르는 줄 알았지만 자세히 보니 온몸이 황금빛인 새 한 마리다.\n새는 공중을 빙빙 돌며 내려와 당신 곁에 우아하게 날개를 접고 앉는다. 금빛 깃털이 모닥불에 비쳐, 귀족 소녀가 아끼는 금장식보다 더 섬세하게 빛난다.",
+    "DialogueId": 6101501,
+    "GUID": "0F464382",
+    "NextOptions": [
+      6101502,
+      6101505,
+      6101509
+    ],
+    "RougeTalkActorType": 3
+  },
+  "6101502": {
+    "ContentKR": "새에게 물을 먹인다.",
+    "DialogueId": 6101502,
+    "GUID": "0F4643AC",
+    "IsKeyOption": true,
+    "NextDialogue": 6101503,
+    "RougeTalkActorType": 2,
+    "SpeakNpcId": 910004
+  },
+  "6101503": {
+    "ContentKR": "당신은 손바닥에 물을 조금 붓고, 새에게 오라고 손짓한다.",
+    "DialogueId": 6101503,
+    "GUID": "0F4643D6",
+    "NextDialogue": 6101504,
+    "RougeTalkActorType": 3
+  },
+  "6101504": {
+    "ContentKR": "새는 고개를 갸웃거리며 경계 태세로 당신을 관찰한다. 잠시 후 새는 금빛 부리를 내밀고 손바닥 위의 물을 작은 입으로 홀짝홀짝 마신다.\n물을 다 마시자, 새는 즐겁게 깃털을 펄럭이고, 당신에게 감사하다는 듯 소리를 낸 후, 하늘로 빙빙 돌아 날아간다.",
+    "DialogueId": 6101504,
+    "GUID": "0F464400",
+    "RougeTalkActorType": 3
+  },
+  "6101505": {
+    "ContentKR": "새의 꽁무니에서 깃털 하나를 뽑는다.",
+    "DialogueId": 6101505,
+    "GUID": "0F46442A",
+    "IsKeyOption": true,
+    "NextDialogue": 6101506,
+    "RougeTalkActorType": 2,
+    "SpeakNpcId": 910004
+  },
+  "6101506": {
+    "ContentKR": "새가 눈을 감고 쉬고 있을 때, 조용히 손을 뻗어 꼬리 깃털 하나를 뽑는다. 상등품 황금 같은 깃털이니 분명히 가치가 훌륭할 것이다.",
+    "DialogueId": 6101506,
+    "GUID": "0F464454",
+    "NextDialogue": 6101507,
+    "RougeTalkActorType": 3
+  },
+  "6101507": {
+    "ContentKR": "새는 화가 나서 소리를 지르고, 날개를 퍼덕이며 날아든다. 그리곤 당신의 손바닥에 금으로 된 용암을 떨어뜨리듯 온 힘을 다해 쪼아대, 손바닥에 선명한 붉은 자국을 남긴다.",
+    "DialogueId": 6101507,
+    "GUID": "0F46447E",
+    "NextDialogue": 6101508,
+    "RougeTalkActorType": 3
+  },
+  "6101508": {
+    "ContentKR": "지독한 고통에서 정신을 차렸을 때, 새는 이미 먼 곳으로 날아가 버렸다.",
+    "DialogueId": 6101508,
+    "GUID": "0F4644A8",
+    "RougeTalkActorType": 3
+  },
+  "6101509": {
+    "ContentKR": "새의 머리에서 깃털 하나를 뽑는다.",
+    "DialogueId": 6101509,
+    "GUID": "0F4644D2",
+    "IsKeyOption": true,
+    "NextDialogue": 6101510,
+    "RougeTalkActorType": 2,
+    "SpeakNpcId": 910004
+  },
+  "6101510": {
+    "ContentKR": "살며시 새의 머리 가까이 손을 뻗어보지만, 힘을 주기도 전에 새가 당신의 의도를 알아채고 눈을 뜬다.\n새는 화가 나서 소리를 지르고, 날개를 퍼덕이며 날아든다. 그리곤 당신의 손바닥에 금으로 된 용암을 떨어뜨리듯 온 힘을 다해 쪼아대, 손바닥에 선명한 붉은 자국을 남긴다.",
+    "DialogueId": 6101510,
+    "GUID": "0F4644FC",
+    "NextDialogue": 6101511,
+    "RougeTalkActorType": 3
+  },
+  "6101511": {
+    "ContentKR": "지독한 고통에서 정신을 차렸을 때, 새는 이미 먼 곳으로 날아가 버렸다.",
+    "DialogueId": 6101511,
+    "GUID": "0F464526",
+    "RougeTalkActorType": 3
+  },
+  "6101601": {
+    "ContentKR": "근처에서 더러운 썩은 내가 풍겨온다.\n쳐다보니 어린 소녀가 모닥불 가까이에서 나타나는 게 보인다. 빰과 팔뚝은 무시무시한 종기가 가득하다. 모닥불에 반사된 눈동자의 생명의 빛이 아니었다면, 당신은 눈앞에 보이는 게 시체라고 생각했을 것이다.",
+    "DialogueId": 6101601,
+    "GUID": "0F4653EA",
+    "NextOptions": [
+      6101602,
+      6101606,
+      6101612
+    ],
+    "RougeTalkActorType": 3
+  },
+  "6101602": {
+    "ContentKR": "당신은 배낭에서 약을 찾아내, 소녀에게 건네준다.",
+    "DialogueId": 6101602,
+    "GUID": "0F465414",
+    "IsKeyOption": true,
+    "NextDialogue": 6101603,
+    "RougeTalkActorType": 2,
+    "SpeakNpcId": 910004
+  },
+  "6101603": {
+    "ContentKR": "\"감사합니다... 친절한 여행자님...\"\n그녀는 천천히 고개를 들어 당신을 바라본다. 입가에 맺힌 미소가 진짜 웃음인지, 아니면 통증으로 인한 근육의 뒤틀림인지 확실하지 않다.",
+    "DialogueId": 6101603,
+    "GUID": "0F46543E",
+    "NextDialogue": 6101604,
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room316_Char01"
+  },
+  "6101604": {
+    "1": "전 저주를 받아 심연병에 걸린 거라고 하셨어요. 제가 받아야 할 죄업이래요...\"\n\"저는 진심으로 참회해야 해요... 그러면",
+    "2": "다 나을 거예요... 그전까진 누구에게도 가까이 가면 안 돼요.\"\"",
+    "ContentKR": "\"\"하지만 도와주지... 않으셔도 돼요...\" 그녀가 낮은 목소리로 말한다. \"사제님께서",
+    "DialogueId": 6101604,
+    "GUID": "0F465468",
+    "NextDialogue": 6101605,
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room316_Char01"
+  },
+  "6101605": {
+    "ContentKR": "소녀는 비틀거리며 몸을 일으켜, 어둠 속으로 사라졌다.",
+    "DialogueId": 6101605,
+    "GUID": "0F465492",
+    "RougeTalkActorType": 3
+  },
+  "6101606": {
+    "ContentKR": "소녀의 상처를 치료해 본다.",
+    "DialogueId": 6101606,
+    "GUID": "0F4654BC",
+    "IsKeyOption": true,
+    "NextDialogue": 6101607,
+    "RougeTalkActorType": 2,
+    "SpeakNpcId": 910004
+  },
+  "6101607": {
+    "ContentKR": "당신은 조심스럽게 소녀에게 다가가, 그녀의 몸에 난 상처의 상태를 확인하려고 한다.",
+    "DialogueId": 6101607,
+    "GUID": "0F4654E6",
+    "NextDialogue": 6101608,
+    "RougeTalkActorType": 3
+  },
+  "6101608": {
+    "1": "콜록...!\"\n그녀가 강하게 기침을 하자, 검붉은 피가 당신이 내민 손에 튀며, 불길한 검은 연기가 피어오른다.\"",
+    "ContentKR": "\"\"콜록",
+    "DialogueId": 6101608,
+    "GUID": "0F465510",
+    "NextDialogue": 6101609,
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room316_Char01"
+  },
+  "6101609": {
+    "1": "죄송해요...!\"\n그녀는 비틀거리며 몸을 일으켜 뒤로 물러나려 하지만, 또 실수로 땅에 넘어지고 만다.\"",
+    "ContentKR": "\"\"죄",
+    "DialogueId": 6101609,
+    "GUID": "0F46553A",
+    "NextDialogue": 6101610,
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room316_Char01"
+  },
+  "6101610": {
+    "1": "전 저주를 받아 심연병에 걸린 거라고 하셨어요. 제가 받아야 할 죄업이래요...\"\n\"저는 진심으로 참회해야 해요... 그러면",
+    "2": "다 나을 거예요... 그전까진 누구에게도 가까이 가면 안 돼요.\"\"",
+    "ContentKR": "\"\"사제님께서",
+    "DialogueId": 6101610,
+    "GUID": "0F465564",
+    "NextDialogue": 6101611,
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room316_Char01"
+  },
+  "6101611": {
+    "ContentKR": "소녀는 다시 힘겹게 일어나 비틀거리며, 어둠 속으로 사라졌다.",
+    "DialogueId": 6101611,
+    "GUID": "0F46558E",
+    "RougeTalkActorType": 3
+  },
+  "6101612": {
+    "ContentKR": "그녀에게서 멀리 떨어진다.",
+    "DialogueId": 6101612,
+    "GUID": "0F4655B8",
+    "IsKeyOption": true,
+    "NextDialogue": 6101613,
+    "RougeTalkActorType": 2,
+    "SpeakNpcId": 910004
+  },
+  "6101613": {
+    "ContentKR": "당신은 소녀가 어떤 위험한 병에 걸렸을 수도 있음을 직감하고, 얼른 일어나서 그녀에게서 떨어진다.",
+    "DialogueId": 6101613,
+    "GUID": "0F4655E2",
+    "NextDialogue": 6101614,
+    "RougeTalkActorType": 3
+  },
+  "6101614": {
+    "1": "얼른 다른 곳으로 갈게요...\"\"",
+    "ContentKR": "\"\"놀라게 해서 죄송해요... 어",
+    "DialogueId": 6101614,
+    "GUID": "0F46560C",
+    "NextDialogue": 6101615,
+    "RougeTalkActorType": 1,
+    "SpeakNpcId": 910005,
+    "SpeakNpcName": "RougeLike_Room316_Char01"
+  },
+  "6101615": {
+    "ContentKR": "소녀는 비틀거리며 몸을 일으켜, 어둠 속으로 사라졌다.",
+    "DialogueId": 6101615,
+    "GUID": "0F465636",
+    "RougeTalkActorType": 3
+  },
+  "6101701": {
+    "ContentKR": "당신은 모닥불 옆에 앉아서 쉬며, 들고 있던 랜턴을 발 옆에 놓는다.\n손가락을 랜턴에서 떼는 순간, 땅에 갑자기 물빛이 번진다. 반응할 겨를도 없이, 램프가 물속에서 소용돌이치며 삼켜진다.",
+    "DialogueId": 6101701,
+    "GUID": "0F466452",
+    "NextDialogue": 6101702,
+    "RougeTalkActorType": 3
+  },
+  "6101702": {
+    "ContentKR": "우스꽝스러운 새 마스크를 쓴 사람이 물속에서 몸을 반쯤 내밀고 머리를 흔들더니, 두 팔을 벌린다. 그러자 모양은 같고 재질이 다른 세 개의 랜턴이 물 위에 떠오른다.",
+    "DialogueId": 6101702,
+    "GUID": "0F46647C",
+    "NextDialogue": 6101703,
+    "RougeTalkActorType": 3
   }
 }

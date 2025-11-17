@@ -1,6 +1,450 @@
-[
-  {
+{
+  "1": {
     "Id": 1,
-    "Param": "{\r\n      [1] = 1\r\n    },\r\n    RoomCount = -1,\r\n    ServerBuild = \"MRTExtraTimes\"\r\n  },\r\n  [2] = {\r\n    Id = 2,\r\n    Param = {\r\n      [1] = 200\r\n    },\r\n    RoomCount = 0,\r\n    ServerBuild = \"GetToken\"\r\n  },\r\n  [3] = {\r\n    Id = 3,\r\n    Param = {\r\n      [1] = 0.8\r\n    },\r\n    RoomCount = -1,\r\n    ServerBuild = \"ShopDiscount\"\r\n  },\r\n  [4] = {\r\n    Id = 4,\r\n    Param = T.RT_3,\r\n    RoomCount = 0,\r\n    ServerBuild = \"GetBlessing\"\r\n  },\r\n  [5] = {\r\n    Id = 5,\r\n    Param = T.RT_8,\r\n    RoomCount = 0,\r\n    ServerBuild = \"ReplaceAllBlessing\"\r\n  },\r\n  [6] = {\r\n    Id = 6,\r\n    Param = T.RT_8,\r\n    RoomCount = 0,\r\n    ServerBuild = \"ReplaceAllTreasure\"\r\n  },\r\n  [7] = {\r\n    Id = 7,\r\n    RoomCount = 3,\r\n    RoomType = T.RT_6,\r\n    ServerBuild = \"DisableGetToken\"\r\n  },\r\n  [8] = {\r\n    Id = 8,\r\n    RoomCount = 2,\r\n    RoomType = T.RT_5,\r\n    ServerBuild = \"DisableGetToken\"\r\n  },\r\n  [9] = {\r\n    Id = 9,\r\n    Param = T.RT_1,\r\n    RoomCount = -1,\r\n    ServerBuild = \"EndPointsExtraRate\"\r\n  },\r\n  [10] = {\r\n    Id = 10,\r\n    Param = T.RT_1,\r\n    RoomCount = -1,\r\n    ServerBuild = \"TokenExtraRate\"\r\n  },\r\n  [11] = {\r\n    Id = 11,\r\n    Param = {\r\n      [1] = 13\r\n    },\r\n    RoomCount = 0,\r\n    ServerBuild = \"GetTreasure\"\r\n  },\r\n  [12] = {\r\n    Id = 12,\r\n    Param = {\r\n      [1] = 1.5\r\n    },\r\n    RoomCount = -1,\r\n    ServerBuild = \"ShopDiscount\"\r\n  },\r\n  [13] = {\r\n    Id = 13,\r\n    Param = T.RT_2,\r\n    RoomCount = -1,\r\n    ServerBuild = \"ChoiceNumber\"\r\n  },\r\n  [14] = {\r\n    Id = 14,\r\n    RoomCount = -1,\r\n    ServerBuild = \"RandomChoice\"\r\n  },\r\n  [15] = {\r\n    Id = 15,\r\n    Param = {\r\n      [1] = 0,\r\n      [2] = 1\r\n    },\r\n    RoomCount = -1,\r\n    ServerBuild = \"RefreshCost\"\r\n  },\r\n  [16] = {\r\n    Id = 16,\r\n    Param = T.RT_3,\r\n    RoomCount = 0,\r\n    ServerBuild = \"GetTreasure\"\r\n  },\r\n  [17] = {\r\n    Id = 17,\r\n    Param = T.RT_4,\r\n    RoomCount = 0,\r\n    ServerBuild = \"GetBlessing\"\r\n  },\r\n  [18] = {\r\n    Id = 18,\r\n    Param = T.RT_4,\r\n    RoomCount = 0,\r\n    ServerBuild = \"GetTreasure\"\r\n  },\r\n  [19] = {\r\n    Id = 19,\r\n    Param = {\r\n      [1] = 0.3\r\n    },\r\n    RoomCount = -1,\r\n    ServerBuild = \"EndPointsExtraRate\"\r\n  },\r\n  [20] = {\r\n    Id = 20,\r\n    Param = T.RT_2,\r\n    RoomCount = 4,\r\n    ServerBuild = \"RefreshRate\"\r\n  },\r\n  [21] = {\r\n    Id = 21,\r\n    Param = {\r\n      [1] = 1000,\r\n      [2] = 500\r\n    },\r\n    RoomCount = -1,\r\n    ServerBuild = \"RecoverTimes\"\r\n  },\r\n  [22] = {\r\n    Id = 22,\r\n    Param = {\r\n      [1] = 1,\r\n      [2] = T.RT_5\r\n    },\r\n    RoomCount = -1,\r\n    RoomType = T.RT_6,\r\n    ServerBuild = \"MRTAutoUpgrade\"\r\n  },\r\n  [23] = {\r\n    Id = 23,\r\n    Param = {\r\n      [1] = \"Mon.Strong\",\r\n      [2] = 3,\r\n      [3] = 24\r\n    },\r\n    RoomCount = -1,\r\n    ServerBuild = \"KillMonster\"\r\n  },\r\n  [24] = {\r\n    Id = 24,\r\n    Param = {\r\n      [1] = 150\r\n    },\r\n    RoomCount = 0,\r\n    ServerBuild = \"GetToken\"\r\n  },\r\n  [25] = {\r\n    Id = 25,\r\n    Param = {\r\n      [1] = 50\r\n    },\r\n    RoomCount = -1,\r\n    ServerBuild = \"EffectByToken\"\r\n  },\r\n  [26] = {\r\n    Id = 26,\r\n    Param = {\r\n      [1] = \"Blessing\",\r\n      [2] = 50\r\n    },\r\n    RoomCount = 0,\r\n    ServerBuild = \"GetTokenByAwardCount\"\r\n  },\r\n  [27] = {\r\n    Id = 27,\r\n    Param = {\r\n      [1] = \"Blessing\",\r\n      [2] = {2, 3}\r\n    },\r\n    RoomCount = 2,\r\n    RoomType = T.RT_6,\r\n    ServerBuild = \"MRTLimitRarity\"\r\n  },\r\n  [28] = {\r\n    Id = 28,\r\n    Param = {\r\n      [1] = 1.2\r\n    },\r\n    RoomCount = 4,\r\n    ServerBuild = \"ShopDiscount\"\r\n  },\r\n  [29] = {\r\n    Id = 29,\r\n    Param = T.RT_7,\r\n    RoomCount = 0,\r\n    ServerBuild = \"GetToken\"\r\n  },\r\n  [30] = {\r\n    Id = 30,\r\n    Param = T.RT_2,\r\n    RoomCount = 4,\r\n    ServerBuild = \"RefreshRate\"\r\n  },\r\n  [31] = {\r\n    Id = 31,\r\n    Param = T.RT_7,\r\n    RoomCount = 0,\r\n    ServerBuild = \"GetToken\"\r\n  },\r\n  [32] = {\r\n    Id = 32,\r\n    RoomCount = 6,\r\n    ServerBuild = \"DisableGetToken\"\r\n  },\r\n  [33] = {\r\n    Id = 33,\r\n    Param = {\r\n      [1] = 1000\r\n    },\r\n    RoomCount = 0,\r\n    ServerBuild = \"GetToken\"\r\n  },\r\n  [34] = {\r\n    Id = 34,\r\n    Param = {\r\n      [1] = \"Blessing\",\r\n      [2] = 1,\r\n      [3] = 1\r\n    },\r\n    RoomCount = 0,\r\n    ServerBuild = \"GetGroupAwardByCount\"\r\n  },\r\n  [35] = {\r\n    Id = 35,\r\n    Param = {\r\n      [1] = 21\r\n    },\r\n    RoomCount = 0,\r\n    ServerBuild = \"GetBlessing\"\r\n  },\r\n  [36] = {\r\n    Id = 36,\r\n    Param = {\r\n      [1] = \"Blessing\",\r\n      [2] = T.RT_5,\r\n      [3] = 1.8\r\n    },\r\n    RoomCount = -1,\r\n    ServerBuild = \"GroupWeightRate\"\r\n  },\r\n  [37] = {\r\n    Id = 37,\r\n    Param = {\r\n      [1] = 22\r\n    },\r\n    RoomCount = 0,\r\n    ServerBuild = \"GetBlessing\"\r\n  },\r\n  [38] = {\r\n    Id = 38,\r\n    Param = {\r\n      [1] = \"Blessing\",\r\n      [2] = {2},\r\n      [3] = 1.8\r\n    },\r\n    RoomCount = -1,\r\n    ServerBuild = \"GroupWeightRate\"\r\n  },\r\n  [39] = {\r\n    Id = 39,\r\n    Param = {\r\n      [1] = 23\r\n    },\r\n    RoomCount = 0,\r\n    ServerBuild = \"GetBlessing\"\r\n  },\r\n  [40] = {\r\n    Id = 40,\r\n    Param = {\r\n      [1] = \"Blessing\",\r\n      [2] = {3},\r\n      [3] = 1.8\r\n    },\r\n    RoomCount = -1,\r\n    ServerBuild = \"GroupWeightRate\"\r\n  },\r\n  [41] = {\r\n    Id = 41,\r\n    Param = {\r\n      [1] = 24\r\n    },\r\n    RoomCount = 0,\r\n    ServerBuild = \"GetBlessing\"\r\n  },\r\n  [42] = {\r\n    Id = 42,\r\n    Param = {\r\n      [1] = \"Blessing\",\r\n      [2] = {4},\r\n      [3] = 1.8\r\n    },\r\n    RoomCount = -1,\r\n    ServerBuild = \"GroupWeightRate\"\r\n  },\r\n  [43] = {\r\n    Id = 43,\r\n    Param = {\r\n      [1] = 25\r\n    },\r\n    RoomCount = 0,\r\n    ServerBuild = \"GetBlessing\"\r\n  },\r\n  [44] = {\r\n    Id = 44,\r\n    Param = {\r\n      [1] = \"Blessing\",\r\n      [2] = {5},\r\n      [3] = 1.8\r\n    },\r\n    RoomCount = -1,\r\n    ServerBuild = \"GroupWeightRate\"\r\n  },\r\n  [45] = {\r\n    Id = 45,\r\n    Param = {\r\n      [1] = 26\r\n    },\r\n    RoomCount = 0,\r\n    ServerBuild = \"GetBlessing\"\r\n  },\r\n  [46] = {\r\n    Id = 46,\r\n    Param = {\r\n      [1] = \"Blessing\",\r\n      [2] = {6},\r\n      [3] = 1.8\r\n    },\r\n    RoomCount = -1,\r\n    ServerBuild = \"GroupWeightRate\"\r\n  },\r\n  [47] = {\r\n    Id = 47,\r\n    Param = {\r\n      [1] = 27\r\n    },\r\n    RoomCount = 0,\r\n    ServerBuild = \"GetBlessing\"\r\n  },\r\n  [48] = {\r\n    Id = 48,\r\n    Param = {\r\n      [1] = \"Blessing\",\r\n      [2] = {7},\r\n      [3] = 1.8\r\n    },\r\n    RoomCount = -1,\r\n    ServerBuild = \"GroupWeightRate\"\r\n  },\r\n  [49] = {\r\n    Id = 49,\r\n    RoomCount = 1,\r\n    ServerBuild = \"Skip\"\r\n  },\r\n  [50] = {\r\n    Id = 50,\r\n    RoomCount = 6,\r\n    ServerBuild = \"Skip\"\r\n  },\r\n  [999] = {\r\n    Id = 999,\r\n    RoomCount = 1,\r\n    ServerBuild = \"DisableGetToken\""
+    "Param": [
+      1
+    ],
+    "RoomCount": -1,
+    "ServerBuild": "MRTExtraTimes"
+  },
+  "2": {
+    "Id": 2,
+    "Param": [
+      200
+    ],
+    "RoomCount": 0,
+    "ServerBuild": "GetToken"
+  },
+  "3": {
+    "Id": 3,
+    "Param": [
+      0.8
+    ],
+    "RoomCount": -1,
+    "ServerBuild": "ShopDiscount"
+  },
+  "4": {
+    "Id": 4,
+    "Param": [
+      4,
+      4
+    ],
+    "RoomCount": 0,
+    "ServerBuild": "GetBlessing"
+  },
+  "5": {
+    "Id": 5,
+    "Param": [
+      6
+    ],
+    "RoomCount": 0,
+    "ServerBuild": "ReplaceAllBlessing"
+  },
+  "6": {
+    "Id": 6,
+    "Param": [
+      6
+    ],
+    "RoomCount": 0,
+    "ServerBuild": "ReplaceAllTreasure"
+  },
+  "7": {
+    "Id": 7,
+    "RoomCount": 3,
+    "RoomType": [
+      1,
+      6
+    ],
+    "ServerBuild": "DisableGetToken"
+  },
+  "8": {
+    "Id": 8,
+    "RoomCount": 2,
+    "RoomType": [
+      1
+    ],
+    "ServerBuild": "DisableGetToken"
+  },
+  "9": {
+    "Id": 9,
+    "Param": [
+      0.2
+    ],
+    "RoomCount": -1,
+    "ServerBuild": "EndPointsExtraRate"
+  },
+  "10": {
+    "Id": 10,
+    "Param": [
+      0.2
+    ],
+    "RoomCount": -1,
+    "ServerBuild": "TokenExtraRate"
+  },
+  "11": {
+    "Id": 11,
+    "Param": [
+      13
+    ],
+    "RoomCount": 0,
+    "ServerBuild": "GetTreasure"
+  },
+  "12": {
+    "Id": 12,
+    "Param": [
+      1.5
+    ],
+    "RoomCount": -1,
+    "ServerBuild": "ShopDiscount"
+  },
+  "13": {
+    "Id": 13,
+    "Param": [
+      2
+    ],
+    "RoomCount": -1,
+    "ServerBuild": "ChoiceNumber"
+  },
+  "14": {
+    "Id": 14,
+    "RoomCount": -1,
+    "ServerBuild": "RandomChoice"
+  },
+  "15": {
+    "Id": 15,
+    "Param": [
+      0,
+      1
+    ],
+    "RoomCount": -1,
+    "ServerBuild": "RefreshCost"
+  },
+  "16": {
+    "Id": 16,
+    "Param": [
+      4,
+      4
+    ],
+    "RoomCount": 0,
+    "ServerBuild": "GetTreasure"
+  },
+  "17": {
+    "Id": 17,
+    "Param": [
+      5,
+      5
+    ],
+    "RoomCount": 0,
+    "ServerBuild": "GetBlessing"
+  },
+  "18": {
+    "Id": 18,
+    "Param": [
+      5,
+      5
+    ],
+    "RoomCount": 0,
+    "ServerBuild": "GetTreasure"
+  },
+  "19": {
+    "Id": 19,
+    "Param": [
+      0.3
+    ],
+    "RoomCount": -1,
+    "ServerBuild": "EndPointsExtraRate"
+  },
+  "20": {
+    "Id": 20,
+    "Param": [
+      2
+    ],
+    "RoomCount": 4,
+    "ServerBuild": "RefreshRate"
+  },
+  "21": {
+    "Id": 21,
+    "Param": [
+      1000,
+      500
+    ],
+    "RoomCount": -1,
+    "ServerBuild": "RecoverTimes"
+  },
+  "22": {
+    "Id": 22,
+    "Param": [
+      1,
+      [
+        1
+      ]
+    ],
+    "RoomCount": -1,
+    "RoomType": [
+      1,
+      6
+    ],
+    "ServerBuild": "MRTAutoUpgrade"
+  },
+  "23": {
+    "Id": 23,
+    "Param": [
+      "Mon.Strong",
+      3,
+      24
+    ],
+    "RoomCount": -1,
+    "ServerBuild": "KillMonster"
+  },
+  "24": {
+    "Id": 24,
+    "Param": [
+      150
+    ],
+    "RoomCount": 0,
+    "ServerBuild": "GetToken"
+  },
+  "25": {
+    "Id": 25,
+    "Param": [
+      50
+    ],
+    "RoomCount": -1,
+    "ServerBuild": "EffectByToken"
+  },
+  "26": {
+    "Id": 26,
+    "Param": [
+      "Blessing",
+      50
+    ],
+    "RoomCount": 0,
+    "ServerBuild": "GetTokenByAwardCount"
+  },
+  "27": {
+    "Id": 27,
+    "Param": [
+      "Blessing",
+      [
+        2,
+        3
+      ]
+    ],
+    "RoomCount": 2,
+    "RoomType": [
+      1,
+      6
+    ],
+    "ServerBuild": "MRTLimitRarity"
+  },
+  "28": {
+    "Id": 28,
+    "Param": [
+      1.2
+    ],
+    "RoomCount": 4,
+    "ServerBuild": "ShopDiscount"
+  },
+  "29": {
+    "Id": 29,
+    "Param": [
+      300
+    ],
+    "RoomCount": 0,
+    "ServerBuild": "GetToken"
+  },
+  "30": {
+    "Id": 30,
+    "Param": [
+      2
+    ],
+    "RoomCount": 4,
+    "ServerBuild": "RefreshRate"
+  },
+  "31": {
+    "Id": 31,
+    "Param": [
+      300
+    ],
+    "RoomCount": 0,
+    "ServerBuild": "GetToken"
+  },
+  "32": {
+    "Id": 32,
+    "RoomCount": 6,
+    "ServerBuild": "DisableGetToken"
+  },
+  "33": {
+    "Id": 33,
+    "Param": [
+      1000
+    ],
+    "RoomCount": 0,
+    "ServerBuild": "GetToken"
+  },
+  "34": {
+    "Id": 34,
+    "Param": [
+      "Blessing",
+      1,
+      1
+    ],
+    "RoomCount": 0,
+    "ServerBuild": "GetGroupAwardByCount"
+  },
+  "35": {
+    "Id": 35,
+    "Param": [
+      21
+    ],
+    "RoomCount": 0,
+    "ServerBuild": "GetBlessing"
+  },
+  "36": {
+    "Id": 36,
+    "Param": [
+      "Blessing",
+      [
+        1
+      ],
+      1.8
+    ],
+    "RoomCount": -1,
+    "ServerBuild": "GroupWeightRate"
+  },
+  "37": {
+    "Id": 37,
+    "Param": [
+      22
+    ],
+    "RoomCount": 0,
+    "ServerBuild": "GetBlessing"
+  },
+  "38": {
+    "Id": 38,
+    "Param": [
+      "Blessing",
+      [
+        2
+      ],
+      1.8
+    ],
+    "RoomCount": -1,
+    "ServerBuild": "GroupWeightRate"
+  },
+  "39": {
+    "Id": 39,
+    "Param": [
+      23
+    ],
+    "RoomCount": 0,
+    "ServerBuild": "GetBlessing"
+  },
+  "40": {
+    "Id": 40,
+    "Param": [
+      "Blessing",
+      [
+        3
+      ],
+      1.8
+    ],
+    "RoomCount": -1,
+    "ServerBuild": "GroupWeightRate"
+  },
+  "41": {
+    "Id": 41,
+    "Param": [
+      24
+    ],
+    "RoomCount": 0,
+    "ServerBuild": "GetBlessing"
+  },
+  "42": {
+    "Id": 42,
+    "Param": [
+      "Blessing",
+      [
+        4
+      ],
+      1.8
+    ],
+    "RoomCount": -1,
+    "ServerBuild": "GroupWeightRate"
+  },
+  "43": {
+    "Id": 43,
+    "Param": [
+      25
+    ],
+    "RoomCount": 0,
+    "ServerBuild": "GetBlessing"
+  },
+  "44": {
+    "Id": 44,
+    "Param": [
+      "Blessing",
+      [
+        5
+      ],
+      1.8
+    ],
+    "RoomCount": -1,
+    "ServerBuild": "GroupWeightRate"
+  },
+  "45": {
+    "Id": 45,
+    "Param": [
+      26
+    ],
+    "RoomCount": 0,
+    "ServerBuild": "GetBlessing"
+  },
+  "46": {
+    "Id": 46,
+    "Param": [
+      "Blessing",
+      [
+        6
+      ],
+      1.8
+    ],
+    "RoomCount": -1,
+    "ServerBuild": "GroupWeightRate"
+  },
+  "47": {
+    "Id": 47,
+    "Param": [
+      27
+    ],
+    "RoomCount": 0,
+    "ServerBuild": "GetBlessing"
+  },
+  "48": {
+    "Id": 48,
+    "Param": [
+      "Blessing",
+      [
+        7
+      ],
+      1.8
+    ],
+    "RoomCount": -1,
+    "ServerBuild": "GroupWeightRate"
+  },
+  "49": {
+    "Id": 49,
+    "RoomCount": 1,
+    "ServerBuild": "Skip"
+  },
+  "50": {
+    "Id": 50,
+    "RoomCount": 6,
+    "ServerBuild": "Skip"
+  },
+  "999": {
+    "Id": 999,
+    "RoomCount": 1,
+    "ServerBuild": "DisableGetToken"
   }
-]
+}

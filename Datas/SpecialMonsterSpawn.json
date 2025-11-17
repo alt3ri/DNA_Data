@@ -6,6 +6,24 @@
     "SpawnProbability": 0.1,
     "SpecialmonsterCD": 10,
     "UnitId": 9500051,
-    "WeeklyLimit": "7\r\n  },\r\n  [2] = {\r\n    Condition = 1000401,\r\n    Id = 2,\r\n    SpawnLocation = \"Local\",\r\n    SpawnProbability = 0.1,\r\n    SpecialmonsterCD = 10,\r\n    UnitId = 7007051,\r\n    WeeklyLimit = 7\r\n  },\r\n  [3] = {\r\n    Condition = 1000401,\r\n    Id = 3,\r\n    SpawnLocation = \"Offvision:1000\",\r\n    SpawnProbability = 0.1,\r\n    SpecialmonsterCD = 10,\r\n    UnitId = 6004051,\r\n    WeeklyLimit = 7"
+    "WeeklyLimit": 7
+  },
+  {
+    "Condition": 1000401,
+    "Id": 2,
+    "SpawnLocation": "Local",
+    "SpawnProbability": 0.1,
+    "SpecialmonsterCD": 10,
+    "UnitId": 7007051,
+    "WeeklyLimit": 7
+  },
+  {
+    "Condition": 1000401,
+    "Id": 3,
+    "SpawnLocation": "Offvision:1000",
+    "SpawnProbability": 0.1,
+    "SpecialmonsterCD": 10,
+    "UnitId": 6004051,
+    "WeeklyLimit": 7
   }
 ]

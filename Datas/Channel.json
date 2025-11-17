@@ -10,6 +10,71 @@
     "Name": "UI_Channel_Name_1",
     "PlayerMax": 3000,
     "Remark": "组队频道",
-    "SIcon": "/Game/UI/Texture/Dynamic/Atlas/Chat/T_Chat_ChannelRecruit_B\"\r\n  },\r\n  [2] = {\r\n    ChannelType = 2,\r\n    Des = \"UI_Channel_Notice_2\",\r\n    Icon = \"/Game/UI/Texture/Dynamic/Atlas/Chat/T_ChatChannel_Question\",\r\n    IsNotice = false,\r\n    JoinOption = 1,\r\n    MessageCD = 3,\r\n    MessageMax = 100,\r\n    Name = \"UI_Channel_Name_2\",\r\n    PlayerMax = 3000,\r\n    Remark = \"疑难解答频道\",\r\n    SIcon = \"/Game/UI/Texture/Dynamic/Atlas/Chat/T_ChatChannel_Question_B\"\r\n  },\r\n  [3] = {\r\n    ChannelType = 3,\r\n    Des = \"UI_Channel_Notice_4\",\r\n    Icon = \"/Game/UI/Texture/Dynamic/Atlas/Chat/T_ChatChannel_Team\",\r\n    IsNotice = true,\r\n    JoinOption = 0,\r\n    MessageCD = 0,\r\n    MessageMax = 100,\r\n    Name = \"UI_Channel_Name_4\",\r\n    PlayerMax = 4,\r\n    Remark = \"小队频道\",\r\n    SIcon = \"/Game/UI/Texture/Dynamic/Atlas/Chat/T_Chat_ChannelTeam_B\"\r\n  },\r\n  [4] = {\r\n    ChannelType = 4,\r\n    Des = \"UI_Channel_Notice_5\",\r\n    Icon = \"/Game/UI/Texture/Dynamic/Atlas/Chat/T_ChatChannel_Friend\",\r\n    IsNotice = true,\r\n    JoinOption = 1,\r\n    MessageCD = 0,\r\n    MessageMax = 50,\r\n    Name = \"UI_Channel_Name_5\",\r\n    PlayerMax = 2,\r\n    Remark = \"好友频道\",\r\n    SIcon = \"/Game/UI/Texture/Dynamic/Atlas/Chat/T_Chat_ChannelFriend_B\"\r\n  },\r\n  [5] = {\r\n    ChannelType = 5,\r\n    Des = \"UI_Channel_Notice_6\",\r\n    Icon = \"/Game/UI/Texture/Dynamic/Atlas/Chat/T_ChatChannel_Area\",\r\n    IsNotice = false,\r\n    JoinOption = 1,\r\n    MessageCD = 3,\r\n    MessageMax = 100,\r\n    Name = \"UI_Channel_Name_6\",\r\n    PlayerMax = 3000,\r\n    Remark = \"区域联机\",\r\n    SIcon = \"/Game/UI/Texture/Dynamic/Atlas/Chat/T_ChatChannel_Area_B\"\r\n  },\r\n  [6] = {\r\n    ChannelType = 6,\r\n    Des = \"UI_Channel_Notice_5\",\r\n    Icon = \"/Game/UI/Texture/Dynamic/Atlas/Chat/T_Chatchannel_Result\",\r\n    IsNotice = true,\r\n    JoinOption = 1,\r\n    MessageCD = 0,\r\n    MessageMax = 100,\r\n    Name = \"UI_Channel_Name_7\",\r\n    PlayerMax = 4,\r\n    Remark = \"临时小队频道\",\r\n    SIcon = \"/Game/UI/Texture/Dynamic/Atlas/Chat/T_Chatchannel_Result_B"
+    "SIcon": "/Game/UI/Texture/Dynamic/Atlas/Chat/T_Chat_ChannelRecruit_B"
+  },
+  {
+    "ChannelType": 2,
+    "Des": "UI_Channel_Notice_2",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Chat/T_ChatChannel_Question",
+    "IsNotice": false,
+    "JoinOption": 1,
+    "MessageCD": 3,
+    "MessageMax": 100,
+    "Name": "UI_Channel_Name_2",
+    "PlayerMax": 3000,
+    "Remark": "疑难解答频道",
+    "SIcon": "/Game/UI/Texture/Dynamic/Atlas/Chat/T_ChatChannel_Question_B"
+  },
+  {
+    "ChannelType": 3,
+    "Des": "UI_Channel_Notice_4",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Chat/T_ChatChannel_Team",
+    "IsNotice": true,
+    "JoinOption": 0,
+    "MessageCD": 0,
+    "MessageMax": 100,
+    "Name": "UI_Channel_Name_4",
+    "PlayerMax": 4,
+    "Remark": "小队频道",
+    "SIcon": "/Game/UI/Texture/Dynamic/Atlas/Chat/T_Chat_ChannelTeam_B"
+  },
+  {
+    "ChannelType": 4,
+    "Des": "UI_Channel_Notice_5",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Chat/T_ChatChannel_Friend",
+    "IsNotice": true,
+    "JoinOption": 1,
+    "MessageCD": 0,
+    "MessageMax": 50,
+    "Name": "UI_Channel_Name_5",
+    "PlayerMax": 2,
+    "Remark": "好友频道",
+    "SIcon": "/Game/UI/Texture/Dynamic/Atlas/Chat/T_Chat_ChannelFriend_B"
+  },
+  {
+    "ChannelType": 5,
+    "Des": "UI_Channel_Notice_6",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Chat/T_ChatChannel_Area",
+    "IsNotice": false,
+    "JoinOption": 1,
+    "MessageCD": 3,
+    "MessageMax": 100,
+    "Name": "UI_Channel_Name_6",
+    "PlayerMax": 3000,
+    "Remark": "区域联机",
+    "SIcon": "/Game/UI/Texture/Dynamic/Atlas/Chat/T_ChatChannel_Area_B"
+  },
+  {
+    "ChannelType": 6,
+    "Des": "UI_Channel_Notice_5",
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Chat/T_Chatchannel_Result",
+    "IsNotice": true,
+    "JoinOption": 1,
+    "MessageCD": 0,
+    "MessageMax": 100,
+    "Name": "UI_Channel_Name_7",
+    "PlayerMax": 4,
+    "Remark": "临时小队频道",
+    "SIcon": "/Game/UI/Texture/Dynamic/Atlas/Chat/T_Chatchannel_Result_B"
   }
 ]

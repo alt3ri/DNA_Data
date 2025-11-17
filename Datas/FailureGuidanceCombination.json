@@ -9,6 +9,42 @@
     ],
     "GuidanceTitle1": "UI_DungeonFail_Tips1",
     "GuidanceTitle2": "UI_DungeonFail_Tips2",
-    "GuidanceType": "1\r\n  },\r\n  [100002] = {\r\n    CombinationId = 100002,\r\n    GuidanceModuleId = {\r\n      1001,\r\n      1002,\r\n      1004,\r\n      1005\r\n    },\r\n    GuidanceTitle1 = \"UI_DungeonFail_Tips1\",\r\n    GuidanceTitle2 = \"UI_DungeonFail_Tips2\",\r\n    GuidanceType = 1\r\n  },\r\n  [100003] = {\r\n    CombinationId = 100003,\r\n    GuidanceModuleId = T.RT_1,\r\n    GuidanceTitle1 = \"UI_DungeonFail_Tips1\",\r\n    GuidanceTitle2 = \"UI_DungeonFail_Tips2\",\r\n    GuidanceType = 1\r\n  },\r\n  [200001] = {\r\n    CombinationId = 200001,\r\n    GuidanceModuleId = T.RT_1,\r\n    GuidanceTitle1 = \"UI_DungeonFail_Tips1\",\r\n    GuidanceTitle2 = \"UI_DungeonFail_Tips2\",\r\n    GuidanceType = 2"
+    "GuidanceType": 1
+  },
+  "100002": {
+    "CombinationId": 100002,
+    "GuidanceModuleId": [
+      1001,
+      1002,
+      1004,
+      1005
+    ],
+    "GuidanceTitle1": "UI_DungeonFail_Tips1",
+    "GuidanceTitle2": "UI_DungeonFail_Tips2",
+    "GuidanceType": 1
+  },
+  "100003": {
+    "CombinationId": 100003,
+    "GuidanceModuleId": [
+      1001,
+      1002,
+      1003,
+      1005
+    ],
+    "GuidanceTitle1": "UI_DungeonFail_Tips1",
+    "GuidanceTitle2": "UI_DungeonFail_Tips2",
+    "GuidanceType": 1
+  },
+  "200001": {
+    "CombinationId": 200001,
+    "GuidanceModuleId": [
+      1001,
+      1002,
+      1003,
+      1005
+    ],
+    "GuidanceTitle1": "UI_DungeonFail_Tips1",
+    "GuidanceTitle2": "UI_DungeonFail_Tips2",
+    "GuidanceType": 2
   }
 }

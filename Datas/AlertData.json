@@ -1,6 +1,766 @@
-[
-  {
+{
+  "1": {
     "AlertId": 1,
-    "AlertRanges": "{\r\n      [1] = {\r\n        AlertRange = T.RT_1,\r\n        AlertRangeDownSpeed = -40,\r\n        AlertRangeHearId = 1,\r\n        AlertRangeSightId = 1,\r\n        AlertRangeUpSpeed = 80\r\n      },\r\n      [2] = {\r\n        AlertRange = T.RT_2,\r\n        AlertRangeDownSpeed = -24,\r\n        AlertRangeHearId = 2,\r\n        AlertRangeSightId = 2,\r\n        AlertRangeUpSpeed = 120\r\n      }\r\n    },\r\n    AlertResetChange = 0,\r\n    BroadCastAlertValue = 40,\r\n    BroadCastDis = 1500,\r\n    CanBroadCastAlert = true,\r\n    CommonAlertHearId = 2,\r\n    CommonAlertSetValue = 99,\r\n    CommonAlertSightId = 2,\r\n    FightStateBroarCastTime = 0.5,\r\n    MaxAlertValue = 240\r\n  },\r\n  [10] = {\r\n    AlertId = 10,\r\n    AlertRanges = {\r\n      [1] = {\r\n        AlertRange = T.RT_3,\r\n        AlertRangeDownSpeed = 0,\r\n        AlertRangeHearId = 10,\r\n        AlertRangeSightId = 10,\r\n        AlertRangeUpSpeed = 120\r\n      }\r\n    },\r\n    AlertResetChange = 0,\r\n    BroadCastAlertValue = 40,\r\n    BroadCastDis = 500,\r\n    CanBroadCastAlert = true,\r\n    CommonAlertHearId = 10,\r\n    CommonAlertSetValue = 99,\r\n    CommonAlertSightId = 10,\r\n    FightStateBroarCastTime = 0.5,\r\n    MaxAlertValue = 240\r\n  },\r\n  [11] = {\r\n    AlertId = 11,\r\n    AlertRanges = {\r\n      [1] = {\r\n        AlertRange = T.RT_3,\r\n        AlertRangeDownSpeed = 0,\r\n        AlertRangeHearId = 10,\r\n        AlertRangeSightId = 11,\r\n        AlertRangeUpSpeed = 120\r\n      }\r\n    },\r\n    AlertResetChange = 0,\r\n    BroadCastAlertValue = 40,\r\n    BroadCastDis = 10000,\r\n    CanBroadCastAlert = true,\r\n    CommonAlertHearId = 10,\r\n    CommonAlertSetValue = 99,\r\n    CommonAlertSightId = 11,\r\n    FightStateBroarCastTime = 0.5,\r\n    MaxAlertValue = 240\r\n  },\r\n  [101] = {\r\n    AlarmMode = \"UseAlarmMechanism\",\r\n    AlertId = 101,\r\n    AlertRanges = T.RT_6,\r\n    AlertResetChange = 0,\r\n    BroadCastAlertValue = 40,\r\n    BroadCastDis = 2000,\r\n    CanBroadCastAlert = true,\r\n    CommonAlertHearId = 2,\r\n    CommonAlertRequestTime = 1,\r\n    CommonAlertSetValue = 99,\r\n    CommonAlertSightId = 2,\r\n    FightStateBroarCastTime = 0.5,\r\n    MaxAlertValue = 240,\r\n    RequestFightDistance = 5000\r\n  },\r\n  [102] = {\r\n    AlertId = 102,\r\n    AlertRanges = T.RT_6,\r\n    AlertResetChange = 0,\r\n    BroadCastAlertValue = 40,\r\n    BroadCastDis = 2000,\r\n    CanBroadCastAlert = true,\r\n    CommonAlertHearId = 2,\r\n    CommonAlertRequestTime = 1,\r\n    CommonAlertSetValue = 99,\r\n    CommonAlertSightId = 2,\r\n    FightStateBroarCastTime = 0.5,\r\n    MaxAlertValue = 240,\r\n    RequestFightDistance = 5000\r\n  },\r\n  [103] = {\r\n    AlertId = 103,\r\n    AlertRanges = {\r\n      [1] = {\r\n        AlertRange = T.RT_1,\r\n        AlertRangeDownSpeed = -40,\r\n        AlertRangeHearId = 103,\r\n        AlertRangeSightId = 103,\r\n        AlertRangeUpSpeed = 40\r\n      },\r\n      [2] = {\r\n        AlertRange = T.RT_2,\r\n        AlertRangeDownSpeed = -24,\r\n        AlertRangeHearId = 103,\r\n        AlertRangeSightId = 103,\r\n        AlertRangeUpSpeed = 20\r\n      }\r\n    },\r\n    AlertResetChange = 0,\r\n    BroadCastAlertValue = 40,\r\n    BroadCastDis = 3000,\r\n    CanBroadCastAlert = true,\r\n    CommonAlertHearId = 103,\r\n    CommonAlertSetValue = 99,\r\n    CommonAlertSightId = 103,\r\n    FightStateBroarCastTime = 0.5,\r\n    MaxAlertValue = 240,\r\n    RequestFightDistance = 5000\r\n  },\r\n  [104] = {\r\n    AlertId = 104,\r\n    AlertRanges = T.RT_6,\r\n    AlertResetChange = 0,\r\n    BroadCastDis = 0,\r\n    CommonAlertHearId = 2,\r\n    CommonAlertSetValue = 99,\r\n    CommonAlertSightId = 2,\r\n    MaxAlertValue = 240\r\n  },\r\n  [105] = {\r\n    AlertId = 105,\r\n    AlertRanges = {\r\n      [1] = {\r\n        AlertRange = T.RT_1,\r\n        AlertRangeDownSpeed = 0,\r\n        AlertRangeHearId = 4,\r\n        AlertRangeSightId = 4,\r\n        AlertRangeUpSpeed = 9999\r\n      },\r\n      [2] = {\r\n        AlertRange = T.RT_2,\r\n        AlertRangeDownSpeed = 0,\r\n        AlertRangeHearId = 4,\r\n        AlertRangeSightId = 4,\r\n        AlertRangeUpSpeed = 9999\r\n      }\r\n    },\r\n    AlertResetChange = 0,\r\n    BroadCastAlertValue = 40,\r\n    BroadCastDis = 2000,\r\n    CanBroadCastAlert = true,\r\n    CommonAlertHearId = 4,\r\n    CommonAlertSetValue = 99,\r\n    CommonAlertSightId = 4,\r\n    FightStateBroarCastTime = 0.5,\r\n    MaxAlertValue = 240,\r\n    RequestFightDistance = 5000\r\n  },\r\n  [201] = {\r\n    AlertId = 201,\r\n    AlertRanges = {\r\n      [1] = {\r\n        AlertRange = T.RT_1,\r\n        AlertRangeDownSpeed = -40,\r\n        AlertRangeHearId = 3,\r\n        AlertRangeSightId = 3,\r\n        AlertRangeUpSpeed = 40\r\n      },\r\n      [2] = {\r\n        AlertRange = T.RT_2,\r\n        AlertRangeDownSpeed = -24,\r\n        AlertRangeHearId = 3,\r\n        AlertRangeSightId = 3,\r\n        AlertRangeUpSpeed = 60\r\n      }\r\n    },\r\n    AlertResetChange = 0,\r\n    BroadCastAlertValue = 40,\r\n    BroadCastDis = 1500,\r\n    CanBroadCastAlert = true,\r\n    CommonAlertHearId = 2,\r\n    CommonAlertSetValue = 99,\r\n    CommonAlertSightId = 2,\r\n    FightStateBroarCastTime = 0.5,\r\n    MaxAlertValue = 240\r\n  },\r\n  [202] = {\r\n    AlertId = 202,\r\n    AlertRanges = T.RT_6,\r\n    AlertResetChange = 0,\r\n    BroadCastAlertValue = 40,\r\n    BroadCastDis = 7000,\r\n    CanBroadCastAlert = true,\r\n    CommonAlertHearId = 2,\r\n    CommonAlertSetValue = 99,\r\n    CommonAlertSightId = 2,\r\n    FightStateBroarCastTime = 0.5,\r\n    MaxAlertValue = 240\r\n  },\r\n  [203] = {\r\n    AlertId = 203,\r\n    AlertRanges = T.RT_6,\r\n    AlertResetChange = 0,\r\n    BroadCastAlertValue = 40,\r\n    BroadCastDis = 7000,\r\n    CanBroadCastAlert = true,\r\n    CommonAlertHearId = 2,\r\n    CommonAlertRequestTime = 1,\r\n    CommonAlertSetValue = 99,\r\n    CommonAlertSightId = 2,\r\n    FightStateBroarCastTime = 0.5,\r\n    MaxAlertValue = 240,\r\n    RequestFightDistance = 5000\r\n  },\r\n  [6001005] = {\r\n    AlertId = 6001005,\r\n    AlertRanges = {\r\n      [1] = {\r\n        AlertRange = T.RT_1,\r\n        AlertRangeDownSpeed = -40,\r\n        AlertRangeHearId = 1,\r\n        AlertRangeSightId = 1,\r\n        AlertRangeUpSpeed = 30\r\n      },\r\n      [2] = T.RT_5\r\n    },\r\n    AlertResetChange = 0,\r\n    BroadCastAlertValue = 40,\r\n    BroadCastDis = 800,\r\n    CanBroadCastAlert = true,\r\n    CommonAlertHearId = 2,\r\n    CommonAlertSetValue = 99,\r\n    CommonAlertSightId = 2,\r\n    FightStateBroarCastTime = 0.5,\r\n    MaxAlertValue = 240,\r\n    RequestFightDistance = 1000\r\n  },\r\n  [6001006] = {\r\n    AlertId = 6001006,\r\n    AlertRanges = {\r\n      [1] = {\r\n        AlertRange = T.RT_1,\r\n        AlertRangeDownSpeed = -40,\r\n        AlertRangeHearId = 1,\r\n        AlertRangeSightId = 1,\r\n        AlertRangeUpSpeed = 240\r\n      },\r\n      [2] = {\r\n        AlertRange = T.RT_2,\r\n        AlertRangeDownSpeed = -24,\r\n        AlertRangeHearId = 2,\r\n        AlertRangeSightId = 2,\r\n        AlertRangeUpSpeed = 240\r\n      }\r\n    },\r\n    AlertResetChange = 0,\r\n    BroadCastAlertValue = 40,\r\n    BroadCastDis = 1700,\r\n    CanBroadCastAlert = true,\r\n    CommonAlertHearId = 2,\r\n    CommonAlertSetValue = 99,\r\n    CommonAlertSightId = 2,\r\n    FightStateBroarCastTime = 0.5,\r\n    MaxAlertValue = 240,\r\n    RequestFightDistance = 1000\r\n  },\r\n  [6002002] = {\r\n    AlertId = 6002002,\r\n    AlertRanges = {\r\n      [1] = {\r\n        AlertRange = T.RT_1,\r\n        AlertRangeDownSpeed = -40,\r\n        AlertRangeHearId = 1,\r\n        AlertRangeSightId = 6002002,\r\n        AlertRangeUpSpeed = 30\r\n      },\r\n      [2] = T.RT_5\r\n    },\r\n    AlertResetChange = 0,\r\n    BroadCastAlertValue = 40,\r\n    BroadCastDis = 500,\r\n    CanBroadCastAlert = true,\r\n    CommonAlertHearId = 2,\r\n    CommonAlertSetValue = 99,\r\n    CommonAlertSightId = 2,\r\n    FightStateBroarCastTime = 0.5,\r\n    MaxAlertValue = 240,\r\n    RequestFightDistance = 1000\r\n  },\r\n  [6003001] = {\r\n    AlertId = 6003001,\r\n    AlertRanges = {\r\n      [1] = T.RT_7,\r\n      [2] = T.RT_5\r\n    },\r\n    AlertResetChange = 0,\r\n    BroadCastAlertValue = 40,\r\n    BroadCastDis = 500,\r\n    CanBroadCastAlert = true,\r\n    CommonAlertHearId = 2,\r\n    CommonAlertSetValue = 99,\r\n    CommonAlertSightId = 2,\r\n    FightStateBroarCastTime = 0.5,\r\n    MaxAlertValue = 240,\r\n    RequestFightDistance = 1000\r\n  },\r\n  [7001001] = {\r\n    AlertId = 7001001,\r\n    AlertRanges = T.RT_6,\r\n    AlertResetChange = 0,\r\n    BroadCastAlertValue = 40,\r\n    BroadCastDis = 0,\r\n    CommonAlertHearId = 2,\r\n    CommonAlertSetValue = 99,\r\n    CommonAlertSightId = 2,\r\n    FightStateBroarCastTime = 0.5,\r\n    MaxAlertValue = 240\r\n  },\r\n  [7002102] = {\r\n    AlertId = 7002102,\r\n    AlertRanges = T.RT_6,\r\n    AlertResetChange = 0,\r\n    BroadCastAlertValue = 40,\r\n    BroadCastDis = 0,\r\n    CommonAlertHearId = 2,\r\n    CommonAlertSetValue = 99,\r\n    CommonAlertSightId = 2,\r\n    MaxAlertValue = 240\r\n  },\r\n  [7002103] = {\r\n    AlertId = 7002103,\r\n    AlertRanges = T.RT_10,\r\n    AlertResetChange = 0,\r\n    BroadCastAlertValue = 40,\r\n    BroadCastDis = 0,\r\n    CommonAlertHearId = 2,\r\n    CommonAlertSetValue = 99,\r\n    CommonAlertSightId = 2,\r\n    MaxAlertValue = 240\r\n  },\r\n  [7003051] = {\r\n    AlertId = 7003051,\r\n    AlertRanges = T.RT_10,\r\n    AlertResetChange = 0,\r\n    BroadCastAlertValue = 40,\r\n    BroadCastDis = 0,\r\n    CommonAlertHearId = 2,\r\n    CommonAlertSetValue = 99,\r\n    CommonAlertSightId = 2,\r\n    MaxAlertValue = 240\r\n  },\r\n  [7008001] = {\r\n    AlertId = 7008001,\r\n    AlertRanges = {\r\n      [1] = {\r\n        AlertRange = T.RT_1,\r\n        AlertRangeDownSpeed = -40,\r\n        AlertRangeHearId = 1,\r\n        AlertRangeSightId = 7008001,\r\n        AlertRangeUpSpeed = 40\r\n      },\r\n      [2] = T.RT_5\r\n    },\r\n    AlertResetChange = 0,\r\n    BroadCastAlertValue = 40,\r\n    BroadCastDis = 0,\r\n    CommonAlertHearId = 2,\r\n    CommonAlertSetValue = 99,\r\n    CommonAlertSightId = 2,\r\n    FightStateBroarCastTime = 0.5,\r\n    MaxAlertValue = 240\r\n  },\r\n  [8504002] = {\r\n    AlertId = 8504002,\r\n    AlertRanges = {\r\n      [1] = {\r\n        AlertRange = T.RT_3,\r\n        AlertRangeDownSpeed = 0,\r\n        AlertRangeHearId = 10,\r\n        AlertRangeSightId = 3,\r\n        AlertRangeUpSpeed = 120\r\n      }\r\n    },\r\n    AlertResetChange = 0,\r\n    BroadCastAlertValue = 40,\r\n    BroadCastDis = 500,\r\n    CommonAlertHearId = 3,\r\n    CommonAlertSetValue = 99,\r\n    CommonAlertSightId = 3,\r\n    FightStateBroarCastTime = 0.5,\r\n    MaxAlertValue = 240\r\n  },\r\n  [9501001] = {\r\n    AlertId = 9501001,\r\n    AlertRanges = {\r\n      [1] = T.RT_7,\r\n      [2] = {\r\n        AlertRange = T.RT_2,\r\n        AlertRangeDownSpeed = -24,\r\n        AlertRangeHearId = 2,\r\n        AlertRangeSightId = 6003001,\r\n        AlertRangeUpSpeed = 60\r\n      }\r\n    },\r\n    AlertResetChange = 0,\r\n    BroadCastAlertValue = 40,\r\n    BroadCastDis = 2000,\r\n    CanBroadCastAlert = true,\r\n    CommonAlertHearId = 2,\r\n    CommonAlertSetValue = 99,\r\n    CommonAlertSightId = 6003001,\r\n    FightStateBroarCastTime = 0.5,\r\n    MaxAlertValue = 240,\r\n    RequestFightDistance = 1000\r\n  },\r\n  [9800001] = {\r\n    AlertId = 9800001,\r\n    AlertRanges = {\r\n      [1] = {\r\n        AlertRange = T.RT_1,\r\n        AlertRangeDownSpeed = 0,\r\n        AlertRangeHearId = 1,\r\n        AlertRangeSightId = 9800001,\r\n        AlertRangeUpSpeed = 240\r\n      },\r\n      [2] = {\r\n        AlertRange = T.RT_2,\r\n        AlertRangeDownSpeed = 0,\r\n        AlertRangeUpSpeed = 0\r\n      }\r\n    },\r\n    AlertResetChange = 0,\r\n    BroadCastDis = 0,\r\n    MaxAlertValue = 240\r\n  },\r\n  [9802001] = {\r\n    AlertId = 9802001,\r\n    AlertRanges = {\r\n      [1] = {\r\n        AlertRange = T.RT_1,\r\n        AlertRangeDownSpeed = 0,\r\n        AlertRangeHearId = 9802001,\r\n        AlertRangeSightId = 9802001,\r\n        AlertRangeUpSpeed = 0\r\n      }\r\n    },\r\n    AlertResetChange = 0,\r\n    BroadCastDis = 0,\r\n    MaxAlertValue = 240"
+    "AlertRanges": [
+      {
+        "AlertRange": [
+          0,
+          120
+        ],
+        "AlertRangeDownSpeed": -40,
+        "AlertRangeHearId": 1,
+        "AlertRangeSightId": 1,
+        "AlertRangeUpSpeed": 80
+      },
+      {
+        "AlertRange": [
+          120,
+          240
+        ],
+        "AlertRangeDownSpeed": -24,
+        "AlertRangeHearId": 2,
+        "AlertRangeSightId": 2,
+        "AlertRangeUpSpeed": 120
+      }
+    ],
+    "AlertResetChange": 0,
+    "BroadCastAlertValue": 40,
+    "BroadCastDis": 1500,
+    "CanBroadCastAlert": true,
+    "CommonAlertHearId": 2,
+    "CommonAlertSetValue": 99,
+    "CommonAlertSightId": 2,
+    "FightStateBroarCastTime": 0.5,
+    "MaxAlertValue": 240
+  },
+  "10": {
+    "AlertId": 10,
+    "AlertRanges": [
+      {
+        "AlertRange": [
+          0,
+          240
+        ],
+        "AlertRangeDownSpeed": 0,
+        "AlertRangeHearId": 10,
+        "AlertRangeSightId": 10,
+        "AlertRangeUpSpeed": 120
+      }
+    ],
+    "AlertResetChange": 0,
+    "BroadCastAlertValue": 40,
+    "BroadCastDis": 500,
+    "CanBroadCastAlert": true,
+    "CommonAlertHearId": 10,
+    "CommonAlertSetValue": 99,
+    "CommonAlertSightId": 10,
+    "FightStateBroarCastTime": 0.5,
+    "MaxAlertValue": 240
+  },
+  "11": {
+    "AlertId": 11,
+    "AlertRanges": [
+      {
+        "AlertRange": [
+          0,
+          240
+        ],
+        "AlertRangeDownSpeed": 0,
+        "AlertRangeHearId": 10,
+        "AlertRangeSightId": 11,
+        "AlertRangeUpSpeed": 120
+      }
+    ],
+    "AlertResetChange": 0,
+    "BroadCastAlertValue": 40,
+    "BroadCastDis": 10000,
+    "CanBroadCastAlert": true,
+    "CommonAlertHearId": 10,
+    "CommonAlertSetValue": 99,
+    "CommonAlertSightId": 11,
+    "FightStateBroarCastTime": 0.5,
+    "MaxAlertValue": 240
+  },
+  "101": {
+    "AlarmMode": "UseAlarmMechanism",
+    "AlertId": 101,
+    "AlertRanges": [
+      {
+        "AlertRange": [
+          0,
+          120
+        ],
+        "AlertRangeDownSpeed": -40,
+        "AlertRangeHearId": 1,
+        "AlertRangeSightId": 1,
+        "AlertRangeUpSpeed": 40
+      },
+      {
+        "AlertRange": [
+          120,
+          240
+        ],
+        "AlertRangeDownSpeed": -24,
+        "AlertRangeHearId": 2,
+        "AlertRangeSightId": 2,
+        "AlertRangeUpSpeed": 60
+      }
+    ],
+    "AlertResetChange": 0,
+    "BroadCastAlertValue": 40,
+    "BroadCastDis": 2000,
+    "CanBroadCastAlert": true,
+    "CommonAlertHearId": 2,
+    "CommonAlertRequestTime": 1,
+    "CommonAlertSetValue": 99,
+    "CommonAlertSightId": 2,
+    "FightStateBroarCastTime": 0.5,
+    "MaxAlertValue": 240,
+    "RequestFightDistance": 5000
+  },
+  "102": {
+    "AlertId": 102,
+    "AlertRanges": [
+      {
+        "AlertRange": [
+          0,
+          120
+        ],
+        "AlertRangeDownSpeed": -40,
+        "AlertRangeHearId": 1,
+        "AlertRangeSightId": 1,
+        "AlertRangeUpSpeed": 40
+      },
+      {
+        "AlertRange": [
+          120,
+          240
+        ],
+        "AlertRangeDownSpeed": -24,
+        "AlertRangeHearId": 2,
+        "AlertRangeSightId": 2,
+        "AlertRangeUpSpeed": 60
+      }
+    ],
+    "AlertResetChange": 0,
+    "BroadCastAlertValue": 40,
+    "BroadCastDis": 2000,
+    "CanBroadCastAlert": true,
+    "CommonAlertHearId": 2,
+    "CommonAlertRequestTime": 1,
+    "CommonAlertSetValue": 99,
+    "CommonAlertSightId": 2,
+    "FightStateBroarCastTime": 0.5,
+    "MaxAlertValue": 240,
+    "RequestFightDistance": 5000
+  },
+  "103": {
+    "AlertId": 103,
+    "AlertRanges": [
+      {
+        "AlertRange": [
+          0,
+          120
+        ],
+        "AlertRangeDownSpeed": -40,
+        "AlertRangeHearId": 103,
+        "AlertRangeSightId": 103,
+        "AlertRangeUpSpeed": 40
+      },
+      {
+        "AlertRange": [
+          120,
+          240
+        ],
+        "AlertRangeDownSpeed": -24,
+        "AlertRangeHearId": 103,
+        "AlertRangeSightId": 103,
+        "AlertRangeUpSpeed": 20
+      }
+    ],
+    "AlertResetChange": 0,
+    "BroadCastAlertValue": 40,
+    "BroadCastDis": 3000,
+    "CanBroadCastAlert": true,
+    "CommonAlertHearId": 103,
+    "CommonAlertSetValue": 99,
+    "CommonAlertSightId": 103,
+    "FightStateBroarCastTime": 0.5,
+    "MaxAlertValue": 240,
+    "RequestFightDistance": 5000
+  },
+  "104": {
+    "AlertId": 104,
+    "AlertRanges": [
+      {
+        "AlertRange": [
+          0,
+          120
+        ],
+        "AlertRangeDownSpeed": -40,
+        "AlertRangeHearId": 1,
+        "AlertRangeSightId": 1,
+        "AlertRangeUpSpeed": 40
+      },
+      {
+        "AlertRange": [
+          120,
+          240
+        ],
+        "AlertRangeDownSpeed": -24,
+        "AlertRangeHearId": 2,
+        "AlertRangeSightId": 2,
+        "AlertRangeUpSpeed": 60
+      }
+    ],
+    "AlertResetChange": 0,
+    "BroadCastDis": 0,
+    "CommonAlertHearId": 2,
+    "CommonAlertSetValue": 99,
+    "CommonAlertSightId": 2,
+    "MaxAlertValue": 240
+  },
+  "105": {
+    "AlertId": 105,
+    "AlertRanges": [
+      {
+        "AlertRange": [
+          0,
+          120
+        ],
+        "AlertRangeDownSpeed": 0,
+        "AlertRangeHearId": 4,
+        "AlertRangeSightId": 4,
+        "AlertRangeUpSpeed": 9999
+      },
+      {
+        "AlertRange": [
+          120,
+          240
+        ],
+        "AlertRangeDownSpeed": 0,
+        "AlertRangeHearId": 4,
+        "AlertRangeSightId": 4,
+        "AlertRangeUpSpeed": 9999
+      }
+    ],
+    "AlertResetChange": 0,
+    "BroadCastAlertValue": 40,
+    "BroadCastDis": 2000,
+    "CanBroadCastAlert": true,
+    "CommonAlertHearId": 4,
+    "CommonAlertSetValue": 99,
+    "CommonAlertSightId": 4,
+    "FightStateBroarCastTime": 0.5,
+    "MaxAlertValue": 240,
+    "RequestFightDistance": 5000
+  },
+  "201": {
+    "AlertId": 201,
+    "AlertRanges": [
+      {
+        "AlertRange": [
+          0,
+          120
+        ],
+        "AlertRangeDownSpeed": -40,
+        "AlertRangeHearId": 3,
+        "AlertRangeSightId": 3,
+        "AlertRangeUpSpeed": 40
+      },
+      {
+        "AlertRange": [
+          120,
+          240
+        ],
+        "AlertRangeDownSpeed": -24,
+        "AlertRangeHearId": 3,
+        "AlertRangeSightId": 3,
+        "AlertRangeUpSpeed": 60
+      }
+    ],
+    "AlertResetChange": 0,
+    "BroadCastAlertValue": 40,
+    "BroadCastDis": 1500,
+    "CanBroadCastAlert": true,
+    "CommonAlertHearId": 2,
+    "CommonAlertSetValue": 99,
+    "CommonAlertSightId": 2,
+    "FightStateBroarCastTime": 0.5,
+    "MaxAlertValue": 240
+  },
+  "202": {
+    "AlertId": 202,
+    "AlertRanges": [
+      {
+        "AlertRange": [
+          0,
+          120
+        ],
+        "AlertRangeDownSpeed": -40,
+        "AlertRangeHearId": 1,
+        "AlertRangeSightId": 1,
+        "AlertRangeUpSpeed": 40
+      },
+      {
+        "AlertRange": [
+          120,
+          240
+        ],
+        "AlertRangeDownSpeed": -24,
+        "AlertRangeHearId": 2,
+        "AlertRangeSightId": 2,
+        "AlertRangeUpSpeed": 60
+      }
+    ],
+    "AlertResetChange": 0,
+    "BroadCastAlertValue": 40,
+    "BroadCastDis": 7000,
+    "CanBroadCastAlert": true,
+    "CommonAlertHearId": 2,
+    "CommonAlertSetValue": 99,
+    "CommonAlertSightId": 2,
+    "FightStateBroarCastTime": 0.5,
+    "MaxAlertValue": 240
+  },
+  "203": {
+    "AlertId": 203,
+    "AlertRanges": [
+      {
+        "AlertRange": [
+          0,
+          120
+        ],
+        "AlertRangeDownSpeed": -40,
+        "AlertRangeHearId": 1,
+        "AlertRangeSightId": 1,
+        "AlertRangeUpSpeed": 40
+      },
+      {
+        "AlertRange": [
+          120,
+          240
+        ],
+        "AlertRangeDownSpeed": -24,
+        "AlertRangeHearId": 2,
+        "AlertRangeSightId": 2,
+        "AlertRangeUpSpeed": 60
+      }
+    ],
+    "AlertResetChange": 0,
+    "BroadCastAlertValue": 40,
+    "BroadCastDis": 7000,
+    "CanBroadCastAlert": true,
+    "CommonAlertHearId": 2,
+    "CommonAlertRequestTime": 1,
+    "CommonAlertSetValue": 99,
+    "CommonAlertSightId": 2,
+    "FightStateBroarCastTime": 0.5,
+    "MaxAlertValue": 240,
+    "RequestFightDistance": 5000
+  },
+  "6001005": {
+    "AlertId": 6001005,
+    "AlertRanges": [
+      {
+        "AlertRange": [
+          0,
+          120
+        ],
+        "AlertRangeDownSpeed": -40,
+        "AlertRangeHearId": 1,
+        "AlertRangeSightId": 1,
+        "AlertRangeUpSpeed": 30
+      },
+      {
+        "AlertRange": [
+          120,
+          240
+        ],
+        "AlertRangeDownSpeed": -24,
+        "AlertRangeHearId": 2,
+        "AlertRangeSightId": 2,
+        "AlertRangeUpSpeed": 60
+      }
+    ],
+    "AlertResetChange": 0,
+    "BroadCastAlertValue": 40,
+    "BroadCastDis": 800,
+    "CanBroadCastAlert": true,
+    "CommonAlertHearId": 2,
+    "CommonAlertSetValue": 99,
+    "CommonAlertSightId": 2,
+    "FightStateBroarCastTime": 0.5,
+    "MaxAlertValue": 240,
+    "RequestFightDistance": 1000
+  },
+  "6001006": {
+    "AlertId": 6001006,
+    "AlertRanges": [
+      {
+        "AlertRange": [
+          0,
+          120
+        ],
+        "AlertRangeDownSpeed": -40,
+        "AlertRangeHearId": 1,
+        "AlertRangeSightId": 1,
+        "AlertRangeUpSpeed": 240
+      },
+      {
+        "AlertRange": [
+          120,
+          240
+        ],
+        "AlertRangeDownSpeed": -24,
+        "AlertRangeHearId": 2,
+        "AlertRangeSightId": 2,
+        "AlertRangeUpSpeed": 240
+      }
+    ],
+    "AlertResetChange": 0,
+    "BroadCastAlertValue": 40,
+    "BroadCastDis": 1700,
+    "CanBroadCastAlert": true,
+    "CommonAlertHearId": 2,
+    "CommonAlertSetValue": 99,
+    "CommonAlertSightId": 2,
+    "FightStateBroarCastTime": 0.5,
+    "MaxAlertValue": 240,
+    "RequestFightDistance": 1000
+  },
+  "6002002": {
+    "AlertId": 6002002,
+    "AlertRanges": [
+      {
+        "AlertRange": [
+          0,
+          120
+        ],
+        "AlertRangeDownSpeed": -40,
+        "AlertRangeHearId": 1,
+        "AlertRangeSightId": 6002002,
+        "AlertRangeUpSpeed": 30
+      },
+      {
+        "AlertRange": [
+          120,
+          240
+        ],
+        "AlertRangeDownSpeed": -24,
+        "AlertRangeHearId": 2,
+        "AlertRangeSightId": 2,
+        "AlertRangeUpSpeed": 60
+      }
+    ],
+    "AlertResetChange": 0,
+    "BroadCastAlertValue": 40,
+    "BroadCastDis": 500,
+    "CanBroadCastAlert": true,
+    "CommonAlertHearId": 2,
+    "CommonAlertSetValue": 99,
+    "CommonAlertSightId": 2,
+    "FightStateBroarCastTime": 0.5,
+    "MaxAlertValue": 240,
+    "RequestFightDistance": 1000
+  },
+  "6003001": {
+    "AlertId": 6003001,
+    "AlertRanges": [
+      {
+        "AlertRange": [
+          0,
+          120
+        ],
+        "AlertRangeDownSpeed": -40,
+        "AlertRangeHearId": 1,
+        "AlertRangeSightId": 6003001,
+        "AlertRangeUpSpeed": 40
+      },
+      {
+        "AlertRange": [
+          120,
+          240
+        ],
+        "AlertRangeDownSpeed": -24,
+        "AlertRangeHearId": 2,
+        "AlertRangeSightId": 2,
+        "AlertRangeUpSpeed": 60
+      }
+    ],
+    "AlertResetChange": 0,
+    "BroadCastAlertValue": 40,
+    "BroadCastDis": 500,
+    "CanBroadCastAlert": true,
+    "CommonAlertHearId": 2,
+    "CommonAlertSetValue": 99,
+    "CommonAlertSightId": 2,
+    "FightStateBroarCastTime": 0.5,
+    "MaxAlertValue": 240,
+    "RequestFightDistance": 1000
+  },
+  "7001001": {
+    "AlertId": 7001001,
+    "AlertRanges": [
+      {
+        "AlertRange": [
+          0,
+          120
+        ],
+        "AlertRangeDownSpeed": -40,
+        "AlertRangeHearId": 1,
+        "AlertRangeSightId": 1,
+        "AlertRangeUpSpeed": 40
+      },
+      {
+        "AlertRange": [
+          120,
+          240
+        ],
+        "AlertRangeDownSpeed": -24,
+        "AlertRangeHearId": 2,
+        "AlertRangeSightId": 2,
+        "AlertRangeUpSpeed": 60
+      }
+    ],
+    "AlertResetChange": 0,
+    "BroadCastAlertValue": 40,
+    "BroadCastDis": 0,
+    "CommonAlertHearId": 2,
+    "CommonAlertSetValue": 99,
+    "CommonAlertSightId": 2,
+    "FightStateBroarCastTime": 0.5,
+    "MaxAlertValue": 240
+  },
+  "7002102": {
+    "AlertId": 7002102,
+    "AlertRanges": [
+      {
+        "AlertRange": [
+          0,
+          120
+        ],
+        "AlertRangeDownSpeed": -40,
+        "AlertRangeHearId": 1,
+        "AlertRangeSightId": 1,
+        "AlertRangeUpSpeed": 40
+      },
+      {
+        "AlertRange": [
+          120,
+          240
+        ],
+        "AlertRangeDownSpeed": -24,
+        "AlertRangeHearId": 2,
+        "AlertRangeSightId": 2,
+        "AlertRangeUpSpeed": 60
+      }
+    ],
+    "AlertResetChange": 0,
+    "BroadCastAlertValue": 40,
+    "BroadCastDis": 0,
+    "CommonAlertHearId": 2,
+    "CommonAlertSetValue": 99,
+    "CommonAlertSightId": 2,
+    "MaxAlertValue": 240
+  },
+  "7002103": {
+    "AlertId": 7002103,
+    "AlertRanges": [
+      {
+        "AlertRange": [
+          0,
+          120
+        ],
+        "AlertRangeDownSpeed": 0,
+        "AlertRangeHearId": 1,
+        "AlertRangeSightId": 1,
+        "AlertRangeUpSpeed": 9999
+      },
+      {
+        "AlertRange": [
+          120,
+          240
+        ],
+        "AlertRangeDownSpeed": 0,
+        "AlertRangeHearId": 2,
+        "AlertRangeSightId": 2,
+        "AlertRangeUpSpeed": 9999
+      }
+    ],
+    "AlertResetChange": 0,
+    "BroadCastAlertValue": 40,
+    "BroadCastDis": 0,
+    "CommonAlertHearId": 2,
+    "CommonAlertSetValue": 99,
+    "CommonAlertSightId": 2,
+    "MaxAlertValue": 240
+  },
+  "7003051": {
+    "AlertId": 7003051,
+    "AlertRanges": [
+      {
+        "AlertRange": [
+          0,
+          120
+        ],
+        "AlertRangeDownSpeed": 0,
+        "AlertRangeHearId": 1,
+        "AlertRangeSightId": 1,
+        "AlertRangeUpSpeed": 9999
+      },
+      {
+        "AlertRange": [
+          120,
+          240
+        ],
+        "AlertRangeDownSpeed": 0,
+        "AlertRangeHearId": 2,
+        "AlertRangeSightId": 2,
+        "AlertRangeUpSpeed": 9999
+      }
+    ],
+    "AlertResetChange": 0,
+    "BroadCastAlertValue": 40,
+    "BroadCastDis": 0,
+    "CommonAlertHearId": 2,
+    "CommonAlertSetValue": 99,
+    "CommonAlertSightId": 2,
+    "MaxAlertValue": 240
+  },
+  "7008001": {
+    "AlertId": 7008001,
+    "AlertRanges": [
+      {
+        "AlertRange": [
+          0,
+          120
+        ],
+        "AlertRangeDownSpeed": -40,
+        "AlertRangeHearId": 1,
+        "AlertRangeSightId": 7008001,
+        "AlertRangeUpSpeed": 40
+      },
+      {
+        "AlertRange": [
+          120,
+          240
+        ],
+        "AlertRangeDownSpeed": -24,
+        "AlertRangeHearId": 2,
+        "AlertRangeSightId": 2,
+        "AlertRangeUpSpeed": 60
+      }
+    ],
+    "AlertResetChange": 0,
+    "BroadCastAlertValue": 40,
+    "BroadCastDis": 0,
+    "CommonAlertHearId": 2,
+    "CommonAlertSetValue": 99,
+    "CommonAlertSightId": 2,
+    "FightStateBroarCastTime": 0.5,
+    "MaxAlertValue": 240
+  },
+  "8504002": {
+    "AlertId": 8504002,
+    "AlertRanges": [
+      {
+        "AlertRange": [
+          0,
+          240
+        ],
+        "AlertRangeDownSpeed": 0,
+        "AlertRangeHearId": 10,
+        "AlertRangeSightId": 3,
+        "AlertRangeUpSpeed": 120
+      }
+    ],
+    "AlertResetChange": 0,
+    "BroadCastAlertValue": 40,
+    "BroadCastDis": 500,
+    "CommonAlertHearId": 3,
+    "CommonAlertSetValue": 99,
+    "CommonAlertSightId": 3,
+    "FightStateBroarCastTime": 0.5,
+    "MaxAlertValue": 240
+  },
+  "9501001": {
+    "AlertId": 9501001,
+    "AlertRanges": [
+      {
+        "AlertRange": [
+          0,
+          120
+        ],
+        "AlertRangeDownSpeed": -40,
+        "AlertRangeHearId": 1,
+        "AlertRangeSightId": 6003001,
+        "AlertRangeUpSpeed": 40
+      },
+      {
+        "AlertRange": [
+          120,
+          240
+        ],
+        "AlertRangeDownSpeed": -24,
+        "AlertRangeHearId": 2,
+        "AlertRangeSightId": 6003001,
+        "AlertRangeUpSpeed": 60
+      }
+    ],
+    "AlertResetChange": 0,
+    "BroadCastAlertValue": 40,
+    "BroadCastDis": 2000,
+    "CanBroadCastAlert": true,
+    "CommonAlertHearId": 2,
+    "CommonAlertSetValue": 99,
+    "CommonAlertSightId": 6003001,
+    "FightStateBroarCastTime": 0.5,
+    "MaxAlertValue": 240,
+    "RequestFightDistance": 1000
+  },
+  "9800001": {
+    "AlertId": 9800001,
+    "AlertRanges": [
+      {
+        "AlertRange": [
+          0,
+          120
+        ],
+        "AlertRangeDownSpeed": 0,
+        "AlertRangeHearId": 1,
+        "AlertRangeSightId": 9800001,
+        "AlertRangeUpSpeed": 240
+      },
+      {
+        "AlertRange": [
+          120,
+          240
+        ],
+        "AlertRangeDownSpeed": 0,
+        "AlertRangeUpSpeed": 0
+      }
+    ],
+    "AlertResetChange": 0,
+    "BroadCastDis": 0,
+    "MaxAlertValue": 240
+  },
+  "9802001": {
+    "AlertId": 9802001,
+    "AlertRanges": [
+      {
+        "AlertRange": [
+          0,
+          120
+        ],
+        "AlertRangeDownSpeed": 0,
+        "AlertRangeHearId": 9802001,
+        "AlertRangeSightId": 9802001,
+        "AlertRangeUpSpeed": 0
+      }
+    ],
+    "AlertResetChange": 0,
+    "BroadCastDis": 0,
+    "MaxAlertValue": 240
   }
-]
+}
