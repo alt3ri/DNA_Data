@@ -1,4 +1,8 @@
 {
+  "ActivePropEffectId": {
+    "ConditionLogic": "C",
+    "ConditionType": "ActivePropEffectId"
+  },
   "AvatarStatus": {
     "AutoTrigger": true,
     "ConditionLogic": "S",
@@ -21,6 +25,11 @@
     "AutoTrigger": true,
     "ConditionLogic": "S",
     "ConditionType": "CurrentCharId"
+  },
+  "DailyFreeTicketAmount": {
+    "AutoTrigger": true,
+    "ConditionLogic": "S",
+    "ConditionType": "DailyFreeTicketAmount"
   },
   "DailyLoginEnd": {
     "ConditionLogic": "S",
@@ -104,6 +113,10 @@
     "ConditionLogic": "C",
     "ConditionType": "InStoryMode"
   },
+  "IsCurrentCharEquipMod": {
+    "ConditionLogic": "C",
+    "ConditionType": "IsCurrentCharEquipMod"
+  },
   "IsSpecialQuest": {
     "ConditionType": "IsSpecialQuest"
   },
@@ -154,6 +167,10 @@
     "ConditionLogic": "S",
     "ConditionName": "UI_QUEST_CONDITION_FINISHQUEST",
     "ConditionType": "QuestChain"
+  },
+  "RegionCapturePet": {
+    "ConditionLogic": "S",
+    "ConditionType": "RegionCapturePet"
   },
   "RougeLikeComplete": {
     "AutoTrigger": true,
@@ -211,6 +228,17 @@
   "TimeArrived": {
     "ConditionLogic": "S",
     "ConditionType": "TimeArrived"
+  },
+  "TrueQuest": {
+    "AutoTrigger": true,
+    "ConditionLogic": "S",
+    "ConditionType": "TrueQuest"
+  },
+  "TrueQuestChain": {
+    "AutoTrigger": true,
+    "ConditionLogic": "S",
+    "ConditionName": "UI_QUEST_CONDITION_FINISHQUEST",
+    "ConditionType": "TrueQuestChain"
   },
   "VarEqual": {
     "ConditionLogic": "S",

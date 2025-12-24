@@ -1192,8 +1192,8 @@
       "DPad_Up"
     ]
   },
-  "TrainingKillMonsters": {
-    "ActionName": "TrainingKillMonsters",
+  "TrainingInvincible": {
+    "ActionName": "TrainingInvincible",
     "GamepadIcon": [
       [
         "Down"
@@ -1213,6 +1213,60 @@
       "DPad_Down",
       "DPad_Down",
       "DPad_Down"
+    ]
+  },
+  "TrainingKillMonsters": {
+    "ActionName": "TrainingKillMonsters",
+    "GamepadIcon": [
+      [
+        "Right",
+        "B"
+      ],
+      [
+        "Right",
+        "B"
+      ],
+      [
+        "Right",
+        "B"
+      ],
+      [
+        "Right",
+        "B"
+      ]
+    ],
+    "SystemInput": [
+      "StoryInteractiveClose",
+      "StoryInteractiveClose",
+      "StoryInteractiveClose",
+      "StoryInteractiveClose"
+    ]
+  },
+  "TrainingMonstersActive": {
+    "ActionName": "TrainingMonstersActive",
+    "GamepadIcon": [
+      [
+        "Right",
+        "A"
+      ],
+      [
+        "Right",
+        "A"
+      ],
+      [
+        "Right",
+        "A"
+      ],
+      [
+        "Right",
+        "A"
+      ]
+    ],
+    "SystemInput": [
+      "StoryInteractive",
+      "StoryInteractive",
+      "StoryInteractive",
+      "StoryInteractive"
     ]
   },
   "TrainingOpenSetup": {

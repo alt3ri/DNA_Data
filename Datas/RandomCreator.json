@@ -1468,6 +1468,24 @@
     "RuleType": 2,
     "UnitType": "Monster"
   },
+  "7040001": {
+    "Count": 1,
+    "NotOverLap": 1,
+    "RandomId": 7040001,
+    "RandomInfos": [
+      {
+        "UnitId": 20520,
+        "Weight": 1
+      },
+      {
+        "UnitId": 20521,
+        "Weight": 1
+      }
+    ],
+    "RegionDataType": 5,
+    "RuleType": 1,
+    "UnitType": "Drop"
+  },
   "8000101": {
     "Count": 16,
     "NotOverLap": 1,
@@ -1632,8 +1650,12 @@
     "RandomId": 8010102,
     "RandomInfos": [
       {
-        "UnitId": 1017,
+        "UnitId": 1016,
         "Weight": 1
+      },
+      {
+        "UnitId": 1017,
+        "Weight": 2
       },
       {
         "UnitId": 1018,
@@ -2048,6 +2070,230 @@
     "Count": 4,
     "NotOverLap": 1,
     "RandomId": 8011203,
+    "RandomInfos": [
+      {
+        "UnitId": 1024,
+        "Weight": 1
+      }
+    ],
+    "RegionDataType": 6,
+    "RuleType": 1,
+    "UnitType": "Mechanism"
+  },
+  "8012001": {
+    "Count": 25,
+    "NotOverLap": 1,
+    "RandomId": 8012001,
+    "RandomInfos": [
+      {
+        "UnitId": 1039,
+        "Weight": 1
+      }
+    ],
+    "RegionDataType": 6,
+    "RuleType": 1,
+    "UnitType": "Mechanism"
+  },
+  "8012002": {
+    "Count": 30,
+    "NotOverLap": 1,
+    "RandomId": 8012002,
+    "RandomInfos": [
+      {
+        "UnitId": 1028,
+        "Weight": 1
+      }
+    ],
+    "RegionDataType": 6,
+    "RuleType": 1,
+    "UnitType": "Mechanism"
+  },
+  "8012003": {
+    "Count": 30,
+    "NotOverLap": 1,
+    "RandomId": 8012003,
+    "RandomInfos": [
+      {
+        "UnitId": 1037,
+        "Weight": 1
+      }
+    ],
+    "RegionDataType": 6,
+    "RuleType": 1,
+    "UnitType": "Mechanism"
+  },
+  "8012004": {
+    "Count": 16,
+    "NotOverLap": 1,
+    "RandomId": 8012004,
+    "RandomInfos": [
+      {
+        "UnitId": 1040,
+        "Weight": 1
+      }
+    ],
+    "RegionDataType": 6,
+    "RuleType": 1,
+    "UnitType": "Mechanism"
+  },
+  "8012005": {
+    "Count": 16,
+    "NotOverLap": 1,
+    "RandomId": 8012005,
+    "RandomInfos": [
+      {
+        "UnitId": 1029,
+        "Weight": 1
+      }
+    ],
+    "RegionDataType": 6,
+    "RuleType": 1,
+    "UnitType": "Mechanism"
+  },
+  "8012006": {
+    "Count": 24,
+    "NotOverLap": 1,
+    "RandomId": 8012006,
+    "RandomInfos": [
+      {
+        "UnitId": 1030,
+        "Weight": 1
+      }
+    ],
+    "RegionDataType": 6,
+    "RuleType": 1,
+    "UnitType": "Mechanism"
+  },
+  "8012007": {
+    "Count": 16,
+    "NotOverLap": 1,
+    "RandomId": 8012007,
+    "RandomInfos": [
+      {
+        "UnitId": 1038,
+        "Weight": 1
+      }
+    ],
+    "RegionDataType": 6,
+    "RuleType": 1,
+    "UnitType": "Mechanism"
+  },
+  "8012008": {
+    "Count": 12,
+    "NotOverLap": 1,
+    "RandomId": 8012008,
+    "RandomInfos": [
+      {
+        "UnitId": 1036,
+        "Weight": 1
+      }
+    ],
+    "RegionDataType": 6,
+    "RuleType": 1,
+    "UnitType": "Mechanism"
+  },
+  "8012009": {
+    "Count": 18,
+    "NotOverLap": 1,
+    "RandomId": 8012009,
+    "RandomInfos": [
+      {
+        "UnitId": 1036,
+        "Weight": 1
+      }
+    ],
+    "RegionDataType": 6,
+    "RuleType": 1,
+    "UnitType": "Mechanism"
+  },
+  "8012010": {
+    "Count": 7,
+    "NotOverLap": 1,
+    "RandomId": 8012010,
+    "RandomInfos": [
+      {
+        "UnitId": 1039,
+        "Weight": 1
+      }
+    ],
+    "RegionDataType": 6,
+    "RuleType": 1,
+    "UnitType": "Mechanism"
+  },
+  "8012011": {
+    "Count": 4,
+    "NotOverLap": 1,
+    "RandomId": 8012011,
+    "RandomInfos": [
+      {
+        "UnitId": 1039,
+        "Weight": 1
+      }
+    ],
+    "RegionDataType": 6,
+    "RuleType": 1,
+    "UnitType": "Mechanism"
+  },
+  "8012012": {
+    "Count": 21,
+    "NotOverLap": 1,
+    "RandomId": 8012012,
+    "RandomInfos": [
+      {
+        "UnitId": 1028,
+        "Weight": 1
+      }
+    ],
+    "RegionDataType": 6,
+    "RuleType": 1,
+    "UnitType": "Mechanism"
+  },
+  "8012013": {
+    "Count": 6,
+    "NotOverLap": 1,
+    "RandomId": 8012013,
+    "RandomInfos": [
+      {
+        "UnitId": 1039,
+        "Weight": 1
+      }
+    ],
+    "RegionDataType": 6,
+    "RuleType": 1,
+    "UnitType": "Mechanism"
+  },
+  "8012015": {
+    "Count": 9,
+    "NotOverLap": 1,
+    "RandomId": 8012015,
+    "RandomInfos": [
+      {
+        "UnitId": 1028,
+        "Weight": 1
+      }
+    ],
+    "RegionDataType": 6,
+    "RuleType": 1,
+    "UnitType": "Mechanism"
+  },
+  "8012016": {
+    "Count": 17,
+    "NotOverLap": 1,
+    "RandomId": 8012016,
+    "RandomInfos": [
+      {
+        "UnitId": 1028,
+        "Weight": 1
+      }
+    ],
+    "RegionDataType": 6,
+    "RuleType": 1,
+    "UnitType": "Mechanism"
+  },
+  "8012017": {
+    "Count": 8,
+    "NotOverLap": 1,
+    "RandomId": 8012017,
     "RandomInfos": [
       {
         "UnitId": 1024,

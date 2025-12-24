@@ -3,7 +3,9 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss",
+      "Abyss"
     ],
     "Count": [
       [
@@ -45,6 +47,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -71,7 +74,8 @@
       "Dungeon",
       "Shop_Main",
       "Shop_Abyss",
-      "Text_HardBoss"
+      "HardBoss",
+      "Abyss"
     ],
     "Count": [
       [
@@ -113,6 +117,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -139,7 +144,8 @@
       "Dungeon",
       "Shop_Main",
       "Shop_Abyss",
-      "Text_HardBoss"
+      "HardBoss",
+      "Abyss"
     ],
     "Count": [
       [
@@ -181,6 +187,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -206,7 +213,9 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss",
+      "Abyss"
     ],
     "Count": [
       [
@@ -248,6 +257,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -269,11 +279,83 @@
     "WalnutNumber": 1,
     "WalnutType": 1
   },
+  "1004": {
+    "AccessKey": [
+      "Dungeon",
+      "Shop_Main",
+      "Shop_Abyss",
+      "HardBoss",
+      "Abyss"
+    ],
+    "Count": [
+      [
+        10
+      ],
+      [
+        2
+      ],
+      [
+        1
+      ],
+      [
+        1
+      ],
+      [
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Walnut/Avatar/T_Walnut_Char_Kezhou.T_Walnut_Char_Kezhou",
+    "Id": [
+      1001503,
+      1001503,
+      30001,
+      2012,
+      2008,
+      211
+    ],
+    "Mode": "SequenceCeiling",
+    "Name": "UI_Name_Walnut_1004",
+    "Param": [
+      1,
+      7,
+      10,
+      13,
+      13,
+      13
+    ],
+    "Rarity": 5,
+    "ReleaseVersion": 110,
+    "ResourceToCoinType": 211,
+    "ResourceValue": 5,
+    "RewardLv": [
+      1,
+      2,
+      3
+    ],
+    "Sound": "SOUND_ITEM_MIHAN",
+    "Type": [
+      "Resource",
+      "Resource",
+      "Resource",
+      "Resource",
+      "Resource",
+      "Resource"
+    ],
+    "WalnutId": 1004,
+    "WalnutIndex": "A",
+    "WalnutNumber": 1,
+    "WalnutType": 1
+  },
   "1005": {
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss",
+      "Abyss"
     ],
     "Count": [
       [
@@ -315,6 +397,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 105,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -340,7 +423,9 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss",
+      "Abyss"
     ],
     "Count": [
       [
@@ -382,6 +467,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -408,7 +494,8 @@
       "Dungeon",
       "Shop_Main",
       "Shop_Abyss",
-      "Text_HardBoss"
+      "HardBoss",
+      "Abyss"
     ],
     "Count": [
       [
@@ -450,6 +537,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -471,11 +559,83 @@
     "WalnutNumber": 1,
     "WalnutType": 1
   },
+  "1008": {
+    "AccessKey": [
+      "Dungeon",
+      "Shop_Main",
+      "Shop_Abyss",
+      "HardBoss",
+      "Abyss"
+    ],
+    "Count": [
+      [
+        10
+      ],
+      [
+        2
+      ],
+      [
+        1
+      ],
+      [
+        1
+      ],
+      [
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Walnut/Avatar/T_Walnut_Char_Baiheng.T_Walnut_Char_Baiheng",
+    "Id": [
+      1002401,
+      1002401,
+      30001,
+      2012,
+      2008,
+      211
+    ],
+    "Mode": "SequenceCeiling",
+    "Name": "UI_Name_Walnut_1008",
+    "Param": [
+      1,
+      7,
+      10,
+      13,
+      13,
+      13
+    ],
+    "Rarity": 5,
+    "ReleaseVersion": 110,
+    "ResourceToCoinType": 211,
+    "ResourceValue": 5,
+    "RewardLv": [
+      1,
+      2,
+      3
+    ],
+    "Sound": "SOUND_ITEM_MIHAN",
+    "Type": [
+      "Resource",
+      "Resource",
+      "Resource",
+      "Resource",
+      "Resource",
+      "Resource"
+    ],
+    "WalnutId": 1008,
+    "WalnutIndex": "A",
+    "WalnutNumber": 1,
+    "WalnutType": 1
+  },
   "1009": {
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss",
+      "Abyss"
     ],
     "Count": [
       [
@@ -517,6 +677,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -538,12 +699,83 @@
     "WalnutNumber": 1,
     "WalnutType": 1
   },
+  "1010": {
+    "AccessKey": [
+      "Dungeon",
+      "Shop_Main",
+      "Shop_Abyss",
+      "HardBoss",
+      "Abyss"
+    ],
+    "Count": [
+      [
+        10
+      ],
+      [
+        2
+      ],
+      [
+        1
+      ],
+      [
+        1
+      ],
+      [
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Walnut/Avatar/T_Walnut_Char_Xier.T_Walnut_Char_Xier",
+    "Id": [
+      1003102,
+      1003102,
+      30001,
+      2012,
+      2008,
+      211
+    ],
+    "Mode": "SequenceCeiling",
+    "Name": "UI_Name_Walnut_1010",
+    "Param": [
+      1,
+      7,
+      10,
+      13,
+      13,
+      13
+    ],
+    "Rarity": 5,
+    "ReleaseVersion": 140,
+    "ResourceToCoinType": 211,
+    "ResourceValue": 5,
+    "RewardLv": [
+      1,
+      2,
+      3
+    ],
+    "Sound": "SOUND_ITEM_MIHAN",
+    "Type": [
+      "Resource",
+      "Resource",
+      "Resource",
+      "Resource",
+      "Resource",
+      "Resource"
+    ],
+    "WalnutId": 1010,
+    "WalnutIndex": "A",
+    "WalnutNumber": 1,
+    "WalnutType": 1
+  },
   "1011": {
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
       "Shop_Abyss",
-      "Text_HardBoss"
+      "HardBoss",
+      "Abyss"
     ],
     "Count": [
       [
@@ -585,6 +817,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -611,7 +844,8 @@
       "Dungeon",
       "Shop_Main",
       "Shop_Abyss",
-      "Text_HardBoss"
+      "HardBoss",
+      "Abyss"
     ],
     "Count": [
       [
@@ -653,6 +887,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -674,11 +909,83 @@
     "WalnutNumber": 1,
     "WalnutType": 1
   },
+  "1013": {
+    "AccessKey": [
+      "Dungeon",
+      "Shop_Main",
+      "Shop_Abyss",
+      "HardBoss",
+      "Abyss"
+    ],
+    "Count": [
+      [
+        10
+      ],
+      [
+        2
+      ],
+      [
+        1
+      ],
+      [
+        1
+      ],
+      [
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Walnut/Avatar/T_Walnut_Char_Kami.T_Walnut_Char_Kami",
+    "Id": [
+      1003202,
+      1003202,
+      30001,
+      2012,
+      2008,
+      211
+    ],
+    "Mode": "SequenceCeiling",
+    "Name": "UI_Name_Walnut_1013",
+    "Param": [
+      1,
+      7,
+      10,
+      13,
+      13,
+      13
+    ],
+    "Rarity": 5,
+    "ReleaseVersion": 149,
+    "ResourceToCoinType": 211,
+    "ResourceValue": 5,
+    "RewardLv": [
+      1,
+      2,
+      3
+    ],
+    "Sound": "SOUND_ITEM_MIHAN",
+    "Type": [
+      "Resource",
+      "Resource",
+      "Resource",
+      "Resource",
+      "Resource",
+      "Resource"
+    ],
+    "WalnutId": 1013,
+    "WalnutIndex": "A",
+    "WalnutNumber": 1,
+    "WalnutType": 1
+  },
   "1014": {
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss",
+      "Abyss"
     ],
     "Count": [
       [
@@ -720,6 +1027,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -746,7 +1054,8 @@
       "Dungeon",
       "Shop_Main",
       "Shop_Abyss",
-      "Text_HardBoss"
+      "HardBoss",
+      "Abyss"
     ],
     "Count": [
       [
@@ -788,6 +1097,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -809,11 +1119,153 @@
     "WalnutNumber": 1,
     "WalnutType": 1
   },
+  "1016": {
+    "AccessKey": [
+      "Dungeon",
+      "Shop_Main",
+      "Shop_Abyss",
+      "HardBoss",
+      "Abyss"
+    ],
+    "Count": [
+      [
+        10
+      ],
+      [
+        2
+      ],
+      [
+        1
+      ],
+      [
+        1
+      ],
+      [
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Walnut/Avatar/T_Walnut_Char_Zhiliu.T_Walnut_Char_Zhiliu",
+    "Id": [
+      1004102,
+      1004102,
+      30001,
+      2012,
+      2008,
+      211
+    ],
+    "Mode": "SequenceCeiling",
+    "Name": "UI_Name_Walnut_1016",
+    "Param": [
+      1,
+      7,
+      10,
+      13,
+      13,
+      13
+    ],
+    "Rarity": 5,
+    "ReleaseVersion": 120,
+    "ResourceToCoinType": 211,
+    "ResourceValue": 5,
+    "RewardLv": [
+      1,
+      2,
+      3
+    ],
+    "Sound": "SOUND_ITEM_MIHAN",
+    "Type": [
+      "Resource",
+      "Resource",
+      "Resource",
+      "Resource",
+      "Resource",
+      "Resource"
+    ],
+    "WalnutId": 1016,
+    "WalnutIndex": "A",
+    "WalnutNumber": 1,
+    "WalnutType": 1
+  },
+  "1017": {
+    "AccessKey": [
+      "Dungeon",
+      "Shop_Main",
+      "Shop_Abyss",
+      "HardBoss",
+      "Abyss"
+    ],
+    "Count": [
+      [
+        10
+      ],
+      [
+        2
+      ],
+      [
+        1
+      ],
+      [
+        1
+      ],
+      [
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Walnut/Avatar/T_Walnut_Char_Yuming.T_Walnut_Char_Yuming",
+    "Id": [
+      1004201,
+      1004201,
+      30001,
+      2012,
+      2008,
+      211
+    ],
+    "Mode": "SequenceCeiling",
+    "Name": "UI_Name_Walnut_1017",
+    "Param": [
+      1,
+      7,
+      10,
+      13,
+      13,
+      13
+    ],
+    "Rarity": 5,
+    "ReleaseVersion": 125,
+    "ResourceToCoinType": 211,
+    "ResourceValue": 5,
+    "RewardLv": [
+      1,
+      2,
+      3
+    ],
+    "Sound": "SOUND_ITEM_MIHAN",
+    "Type": [
+      "Resource",
+      "Resource",
+      "Resource",
+      "Resource",
+      "Resource",
+      "Resource"
+    ],
+    "WalnutId": 1017,
+    "WalnutIndex": "A",
+    "WalnutNumber": 1,
+    "WalnutType": 1
+  },
   "1018": {
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss",
+      "Abyss"
     ],
     "Count": [
       [
@@ -855,6 +1307,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -880,7 +1333,9 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss",
+      "Abyss"
     ],
     "Count": [
       [
@@ -922,6 +1377,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -948,7 +1404,8 @@
       "Dungeon",
       "Shop_Main",
       "Shop_Abyss",
-      "Text_HardBoss"
+      "HardBoss",
+      "Abyss"
     ],
     "Count": [
       [
@@ -990,6 +1447,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -1015,7 +1473,9 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss",
+      "Abyss"
     ],
     "Count": [
       [
@@ -1057,6 +1517,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -1083,7 +1544,8 @@
       "Dungeon",
       "Shop_Main",
       "Shop_Abyss",
-      "Text_Abyss"
+      "HardBoss",
+      "Abyss"
     ],
     "Count": [
       [
@@ -1125,6 +1587,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -1150,7 +1613,9 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss",
+      "Abyss"
     ],
     "Count": [
       [
@@ -1192,6 +1657,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -1217,7 +1683,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -1259,6 +1726,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -1284,7 +1752,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -1326,6 +1795,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -1351,7 +1821,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -1393,6 +1864,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -1418,7 +1890,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -1460,6 +1933,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -1485,7 +1959,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -1527,6 +2002,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -1552,7 +2028,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -1594,6 +2071,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -1619,7 +2097,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -1661,6 +2140,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -1686,7 +2166,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -1728,6 +2209,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -1753,7 +2235,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -1795,6 +2278,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -1820,7 +2304,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -1862,6 +2347,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -1887,7 +2373,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -1929,6 +2416,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -1954,7 +2442,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -1996,6 +2485,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -2021,7 +2511,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -2063,6 +2554,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -2088,7 +2580,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -2130,6 +2623,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -2155,7 +2649,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -2197,6 +2692,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -2222,7 +2718,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -2264,6 +2761,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -2289,7 +2787,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -2331,6 +2830,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -2356,7 +2856,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -2398,6 +2899,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -2423,7 +2925,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -2465,6 +2968,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -2490,7 +2994,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -2532,6 +3037,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -2557,7 +3063,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -2599,6 +3106,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -2624,7 +3132,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -2666,6 +3175,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -2691,7 +3201,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -2733,6 +3244,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -2758,7 +3270,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -2800,6 +3313,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -2825,7 +3339,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -2867,6 +3382,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -2893,7 +3409,7 @@
       "Dungeon",
       "Shop_Main",
       "Shop_Abyss",
-      "Text_HardBoss"
+      "HardBoss"
     ],
     "Count": [
       [
@@ -2935,6 +3451,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -2961,7 +3478,7 @@
       "Dungeon",
       "Shop_Main",
       "Shop_Abyss",
-      "Text_HardBoss"
+      "HardBoss"
     ],
     "Count": [
       [
@@ -3003,6 +3520,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -3029,7 +3547,7 @@
       "Dungeon",
       "Shop_Main",
       "Shop_Abyss",
-      "Text_HardBoss"
+      "HardBoss"
     ],
     "Count": [
       [
@@ -3071,6 +3589,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -3096,7 +3615,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -3138,6 +3658,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -3164,7 +3685,7 @@
       "Dungeon",
       "Shop_Main",
       "Shop_Abyss",
-      "Text_HardBoss"
+      "HardBoss"
     ],
     "Count": [
       [
@@ -3206,6 +3727,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -3232,7 +3754,7 @@
       "Dungeon",
       "Shop_Main",
       "Shop_Abyss",
-      "Text_HardBoss"
+      "HardBoss"
     ],
     "Count": [
       [
@@ -3274,6 +3796,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -3300,7 +3823,7 @@
       "Dungeon",
       "Shop_Main",
       "Shop_Abyss",
-      "Text_HardBoss"
+      "HardBoss"
     ],
     "Count": [
       [
@@ -3342,6 +3865,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -3368,7 +3892,7 @@
       "Dungeon",
       "Shop_Main",
       "Shop_Abyss",
-      "Text_HardBoss"
+      "HardBoss"
     ],
     "Count": [
       [
@@ -3410,6 +3934,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -3436,7 +3961,7 @@
       "Dungeon",
       "Shop_Main",
       "Shop_Abyss",
-      "Text_HardBoss"
+      "HardBoss"
     ],
     "Count": [
       [
@@ -3478,6 +4003,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -3504,7 +4030,7 @@
       "Dungeon",
       "Shop_Main",
       "Shop_Abyss",
-      "Text_HardBoss"
+      "HardBoss"
     ],
     "Count": [
       [
@@ -3546,6 +4072,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -3572,7 +4099,7 @@
       "Dungeon",
       "Shop_Main",
       "Shop_Abyss",
-      "Text_HardBoss"
+      "HardBoss"
     ],
     "Count": [
       [
@@ -3614,6 +4141,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -3640,7 +4168,7 @@
       "Dungeon",
       "Shop_Main",
       "Shop_Abyss",
-      "Text_HardBoss"
+      "HardBoss"
     ],
     "Count": [
       [
@@ -3682,6 +4210,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -3708,7 +4237,7 @@
       "Dungeon",
       "Shop_Main",
       "Shop_Abyss",
-      "Text_HardBoss"
+      "HardBoss"
     ],
     "Count": [
       [
@@ -3750,6 +4279,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -3776,7 +4306,7 @@
       "Dungeon",
       "Shop_Main",
       "Shop_Abyss",
-      "Text_HardBoss"
+      "HardBoss"
     ],
     "Count": [
       [
@@ -3818,6 +4348,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -3844,7 +4375,7 @@
       "Dungeon",
       "Shop_Main",
       "Shop_Abyss",
-      "Text_HardBoss"
+      "HardBoss"
     ],
     "Count": [
       [
@@ -3886,6 +4417,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -3912,7 +4444,7 @@
       "Dungeon",
       "Shop_Main",
       "Shop_Abyss",
-      "Text_HardBoss"
+      "HardBoss"
     ],
     "Count": [
       [
@@ -3954,6 +4486,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -3980,7 +4513,7 @@
       "Dungeon",
       "Shop_Main",
       "Shop_Abyss",
-      "Text_HardBoss"
+      "HardBoss"
     ],
     "Count": [
       [
@@ -4022,6 +4555,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -4048,7 +4582,7 @@
       "Dungeon",
       "Shop_Main",
       "Shop_Abyss",
-      "Text_HardBoss"
+      "HardBoss"
     ],
     "Count": [
       [
@@ -4090,6 +4624,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -4116,7 +4651,7 @@
       "Dungeon",
       "Shop_Main",
       "Shop_Abyss",
-      "Text_HardBoss"
+      "HardBoss"
     ],
     "Count": [
       [
@@ -4158,6 +4693,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -4179,11 +4715,357 @@
     "WalnutNumber": 1,
     "WalnutType": 2
   },
+  "2045": {
+    "AccessKey": [
+      "Dungeon",
+      "Shop_Main",
+      "Shop_Abyss",
+      "HardBoss"
+    ],
+    "Count": [
+      [
+        1
+      ],
+      [
+        1
+      ],
+      [
+        1
+      ],
+      [
+        1
+      ],
+      [
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Walnut/T_Walnut_Weapon.T_Walnut_Weapon",
+    "Id": [
+      910203,
+      12024,
+      30002,
+      12025,
+      211,
+      2008
+    ],
+    "Mode": "SequenceCeiling",
+    "Name": "UI_Name_Walnut_2045",
+    "Param": [
+      1,
+      7,
+      10,
+      13,
+      13,
+      13
+    ],
+    "Rarity": 5,
+    "ReleaseVersion": 120,
+    "ResourceToCoinType": 211,
+    "ResourceValue": 5,
+    "RewardLv": [
+      1,
+      2,
+      3
+    ],
+    "Sound": "SOUND_ITEM_MIHAN",
+    "Type": [
+      "Draft",
+      "Resource",
+      "Resource",
+      "Resource",
+      "Resource",
+      "Resource"
+    ],
+    "WalnutId": 2045,
+    "WalnutIndex": "A",
+    "WalnutNumber": 1,
+    "WalnutType": 2
+  },
+  "2046": {
+    "AccessKey": [
+      "Dungeon",
+      "Shop_Main",
+      "Shop_Abyss",
+      "HardBoss"
+    ],
+    "Count": [
+      [
+        1
+      ],
+      [
+        1
+      ],
+      [
+        1
+      ],
+      [
+        1
+      ],
+      [
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Walnut/T_Walnut_Weapon.T_Walnut_Weapon",
+    "Id": [
+      910304,
+      12055,
+      30002,
+      12056,
+      211,
+      2008
+    ],
+    "Mode": "SequenceCeiling",
+    "Name": "UI_Name_Walnut_2046",
+    "Param": [
+      1,
+      7,
+      10,
+      13,
+      13,
+      13
+    ],
+    "Rarity": 5,
+    "ReleaseVersion": 120,
+    "ResourceToCoinType": 211,
+    "ResourceValue": 5,
+    "RewardLv": [
+      1,
+      2,
+      3
+    ],
+    "Sound": "SOUND_ITEM_MIHAN",
+    "Type": [
+      "Draft",
+      "Resource",
+      "Resource",
+      "Resource",
+      "Resource",
+      "Resource"
+    ],
+    "WalnutId": 2046,
+    "WalnutIndex": "A",
+    "WalnutNumber": 1,
+    "WalnutType": 2
+  },
+  "2047": {
+    "AccessKey": [
+      "Dungeon",
+      "Shop_Main",
+      "Shop_Abyss",
+      "HardBoss"
+    ],
+    "Count": [
+      [
+        1
+      ],
+      [
+        1
+      ],
+      [
+        1
+      ],
+      [
+        1
+      ],
+      [
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Walnut/Melee/T_Walnut_Swordwhip_Zeshi.T_Walnut_Swordwhip_Zeshi",
+    "Id": [
+      910502,
+      12057,
+      30002,
+      12058,
+      211,
+      2008
+    ],
+    "Mode": "SequenceCeiling",
+    "Name": "UI_Name_Walnut_2047",
+    "Param": [
+      1,
+      7,
+      10,
+      13,
+      13,
+      13
+    ],
+    "Rarity": 5,
+    "ReleaseVersion": 110,
+    "ResourceToCoinType": 211,
+    "ResourceValue": 5,
+    "RewardLv": [
+      1,
+      2,
+      3
+    ],
+    "Sound": "SOUND_ITEM_MIHAN",
+    "Type": [
+      "Draft",
+      "Resource",
+      "Resource",
+      "Resource",
+      "Resource",
+      "Resource"
+    ],
+    "WalnutId": 2047,
+    "WalnutIndex": "A",
+    "WalnutNumber": 1,
+    "WalnutType": 2
+  },
+  "2048": {
+    "AccessKey": [
+      "Dungeon",
+      "Shop_Main",
+      "Shop_Abyss",
+      "HardBoss"
+    ],
+    "Count": [
+      [
+        1
+      ],
+      [
+        1
+      ],
+      [
+        1
+      ],
+      [
+        1
+      ],
+      [
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Walnut/T_Walnut_Weapon.T_Walnut_Weapon",
+    "Id": [
+      920302,
+      12059,
+      30002,
+      12060,
+      12061,
+      211
+    ],
+    "Mode": "SequenceCeiling",
+    "Name": "UI_Name_Walnut_2048",
+    "Param": [
+      1,
+      7,
+      10,
+      13,
+      13,
+      13
+    ],
+    "Rarity": 5,
+    "ReleaseVersion": 140,
+    "ResourceToCoinType": 211,
+    "ResourceValue": 5,
+    "RewardLv": [
+      1,
+      2,
+      3
+    ],
+    "Sound": "SOUND_ITEM_MIHAN",
+    "Type": [
+      "Draft",
+      "Resource",
+      "Resource",
+      "Resource",
+      "Resource",
+      "Resource"
+    ],
+    "WalnutId": 2048,
+    "WalnutIndex": "A",
+    "WalnutNumber": 1,
+    "WalnutType": 2
+  },
+  "2049": {
+    "AccessKey": [
+      "Dungeon",
+      "Shop_Main",
+      "Shop_Abyss",
+      "HardBoss"
+    ],
+    "Count": [
+      [
+        1
+      ],
+      [
+        1
+      ],
+      [
+        1
+      ],
+      [
+        1
+      ],
+      [
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Walnut/Range/T_Walnut_Machinegun_Ruohua.T_Walnut_Machinegun_Ruohua",
+    "Id": [
+      920510,
+      12062,
+      30002,
+      12063,
+      12064,
+      211
+    ],
+    "Mode": "SequenceCeiling",
+    "Name": "UI_Name_Walnut_2049",
+    "Param": [
+      1,
+      7,
+      10,
+      13,
+      13,
+      13
+    ],
+    "Rarity": 5,
+    "ReleaseVersion": 110,
+    "ResourceToCoinType": 211,
+    "ResourceValue": 5,
+    "RewardLv": [
+      1,
+      2,
+      3
+    ],
+    "Sound": "SOUND_ITEM_MIHAN",
+    "Type": [
+      "Draft",
+      "Resource",
+      "Resource",
+      "Resource",
+      "Resource",
+      "Resource"
+    ],
+    "WalnutId": 2049,
+    "WalnutIndex": "A",
+    "WalnutNumber": 1,
+    "WalnutType": 2
+  },
   "2050": {
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -4225,6 +5107,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 105,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -4246,11 +5129,150 @@
     "WalnutNumber": 1,
     "WalnutType": 2
   },
+  "2051": {
+    "AccessKey": [
+      "Dungeon",
+      "Shop_Main",
+      "Shop_Abyss",
+      "HardBoss"
+    ],
+    "Count": [
+      [
+        1
+      ],
+      [
+        1
+      ],
+      [
+        1
+      ],
+      [
+        1
+      ],
+      [
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Walnut/Melee/T_Walnut_Polearm_Yihe.T_Walnut_Polearm_Yihe",
+    "Id": [
+      910208,
+      12133,
+      30002,
+      12134,
+      211,
+      2008
+    ],
+    "Mode": "SequenceCeiling",
+    "Name": "UI_Name_Walnut_2051",
+    "Param": [
+      1,
+      7,
+      10,
+      13,
+      13,
+      13
+    ],
+    "Rarity": 5,
+    "ReleaseVersion": 110,
+    "ResourceToCoinType": 211,
+    "ResourceValue": 5,
+    "RewardLv": [
+      1,
+      2,
+      3
+    ],
+    "Sound": "SOUND_ITEM_MIHAN",
+    "Type": [
+      "Draft",
+      "Resource",
+      "Resource",
+      "Resource",
+      "Resource",
+      "Resource"
+    ],
+    "WalnutId": 2051,
+    "WalnutIndex": "A",
+    "WalnutNumber": 1,
+    "WalnutType": 2
+  },
+  "2052": {
+    "AccessKey": [
+      "Dungeon",
+      "Shop_Main",
+      "Shop_Abyss",
+      "HardBoss"
+    ],
+    "Count": [
+      [
+        1
+      ],
+      [
+        1
+      ],
+      [
+        1
+      ],
+      [
+        1
+      ],
+      [
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Walnut/Range/T_Walnut_Machinegun_Quewu.T_Walnut_Machinegun_Quewu",
+    "Id": [
+      920506,
+      12135,
+      30002,
+      12136,
+      12137,
+      211
+    ],
+    "Mode": "SequenceCeiling",
+    "Name": "UI_Name_Walnut_2052",
+    "Param": [
+      1,
+      7,
+      10,
+      13,
+      13,
+      13
+    ],
+    "Rarity": 5,
+    "ReleaseVersion": 110,
+    "ResourceToCoinType": 211,
+    "ResourceValue": 5,
+    "RewardLv": [
+      1,
+      2,
+      3
+    ],
+    "Sound": "SOUND_ITEM_MIHAN",
+    "Type": [
+      "Draft",
+      "Resource",
+      "Resource",
+      "Resource",
+      "Resource",
+      "Resource"
+    ],
+    "WalnutId": 2052,
+    "WalnutIndex": "A",
+    "WalnutNumber": 1,
+    "WalnutType": 2
+  },
   "151321": {
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -4292,6 +5314,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -4317,7 +5340,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -4359,6 +5383,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -4384,7 +5409,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -4426,6 +5452,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -4451,7 +5478,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -4493,6 +5521,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -4518,7 +5547,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -4560,6 +5590,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -4585,7 +5616,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -4627,6 +5659,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -4652,7 +5685,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -4694,6 +5728,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -4719,7 +5754,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -4761,6 +5797,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -4786,7 +5823,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -4828,6 +5866,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -4853,7 +5892,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -4895,6 +5935,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -4920,7 +5961,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -4962,6 +6004,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -4987,7 +6030,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -5029,6 +6073,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -5054,7 +6099,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -5096,6 +6142,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -5121,7 +6168,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -5163,6 +6211,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -5188,7 +6237,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -5230,6 +6280,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -5255,7 +6306,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -5297,6 +6349,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -5322,7 +6375,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -5364,6 +6418,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -5389,7 +6444,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -5431,6 +6487,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -5456,7 +6513,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -5498,6 +6556,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -5523,7 +6582,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -5565,6 +6625,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -5590,7 +6651,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -5632,6 +6694,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -5657,7 +6720,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -5699,6 +6763,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -5724,7 +6789,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -5766,6 +6832,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -5791,7 +6858,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -5833,6 +6901,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -5858,7 +6927,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -5900,6 +6970,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -5925,7 +6996,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -5967,6 +7039,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -5992,7 +7065,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -6034,6 +7108,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -6059,7 +7134,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -6101,6 +7177,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -6126,7 +7203,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -6168,6 +7246,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -6193,7 +7272,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -6235,6 +7315,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -6260,7 +7341,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -6302,6 +7384,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -6327,7 +7410,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -6369,6 +7453,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -6394,7 +7479,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -6436,6 +7522,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -6461,7 +7548,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -6503,6 +7591,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -6528,7 +7617,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -6570,6 +7660,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -6595,7 +7686,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -6637,6 +7729,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -6662,7 +7755,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -6704,6 +7798,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -6729,7 +7824,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -6771,6 +7867,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -6796,7 +7893,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -6838,6 +7936,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -6863,7 +7962,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -6905,6 +8005,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -6930,7 +8031,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -6972,6 +8074,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -6997,7 +8100,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -7039,6 +8143,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -7064,7 +8169,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -7106,6 +8212,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -7131,7 +8238,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -7173,6 +8281,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -7198,7 +8307,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -7240,6 +8350,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -7265,7 +8376,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -7307,6 +8419,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -7332,7 +8445,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -7374,6 +8488,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -7399,7 +8514,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -7441,6 +8557,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -7466,7 +8583,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -7508,6 +8626,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -7533,7 +8652,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -7575,6 +8695,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -7600,7 +8721,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -7642,6 +8764,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -7667,7 +8790,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -7709,6 +8833,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -7734,7 +8859,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -7776,6 +8902,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -7801,7 +8928,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -7843,6 +8971,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -7868,7 +8997,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -7910,6 +9040,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -7935,7 +9066,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -7977,6 +9109,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -8002,7 +9135,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -8044,6 +9178,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -8069,7 +9204,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -8111,6 +9247,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -8136,7 +9273,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -8178,6 +9316,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -8203,7 +9342,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -8245,6 +9385,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -8270,7 +9411,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -8312,6 +9454,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -8337,7 +9480,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -8379,6 +9523,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -8400,11 +9545,150 @@
     "WalnutNumber": 1,
     "WalnutType": 3
   },
+  "151755": {
+    "AccessKey": [
+      "Dungeon",
+      "Shop_Main",
+      "Shop_Abyss",
+      "HardBoss"
+    ],
+    "Count": [
+      [
+        1
+      ],
+      [
+        100
+      ],
+      [
+        50
+      ],
+      [
+        30
+      ],
+      [
+        20
+      ],
+      [
+        10
+      ]
+    ],
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_FeatheredSnake01_Green",
+    "Id": [
+      151755,
+      102,
+      102,
+      102,
+      102,
+      102
+    ],
+    "Mode": "SequenceCeiling",
+    "Name": "UI_Name_Walnut_151755",
+    "Param": [
+      1,
+      7,
+      10,
+      13,
+      13,
+      13
+    ],
+    "Rarity": 5,
+    "ReleaseVersion": 110,
+    "ResourceToCoinType": 211,
+    "ResourceValue": 5,
+    "RewardLv": [
+      1,
+      2,
+      3
+    ],
+    "Sound": "SOUND_ITEM_MIHAN",
+    "Type": [
+      "Draft",
+      "Resource",
+      "Resource",
+      "Resource",
+      "Resource",
+      "Resource"
+    ],
+    "WalnutId": 151755,
+    "WalnutIndex": "A",
+    "WalnutNumber": 1,
+    "WalnutType": 3
+  },
+  "151756": {
+    "AccessKey": [
+      "Dungeon",
+      "Shop_Main",
+      "Shop_Abyss",
+      "HardBoss"
+    ],
+    "Count": [
+      [
+        1
+      ],
+      [
+        100
+      ],
+      [
+        50
+      ],
+      [
+        30
+      ],
+      [
+        20
+      ],
+      [
+        10
+      ]
+    ],
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_FeatheredSnake01_Green",
+    "Id": [
+      151756,
+      102,
+      102,
+      102,
+      102,
+      102
+    ],
+    "Mode": "SequenceCeiling",
+    "Name": "UI_Name_Walnut_151756",
+    "Param": [
+      1,
+      7,
+      10,
+      13,
+      13,
+      13
+    ],
+    "Rarity": 5,
+    "ReleaseVersion": 110,
+    "ResourceToCoinType": 211,
+    "ResourceValue": 5,
+    "RewardLv": [
+      1,
+      2,
+      3
+    ],
+    "Sound": "SOUND_ITEM_MIHAN",
+    "Type": [
+      "Draft",
+      "Resource",
+      "Resource",
+      "Resource",
+      "Resource",
+      "Resource"
+    ],
+    "WalnutId": 151756,
+    "WalnutIndex": "A",
+    "WalnutNumber": 1,
+    "WalnutType": 3
+  },
   "151761": {
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -8446,6 +9730,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -8471,7 +9756,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -8513,6 +9799,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -8538,7 +9825,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -8580,6 +9868,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -8605,7 +9894,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -8647,6 +9937,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -8672,7 +9963,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -8714,6 +10006,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -8739,7 +10032,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -8781,6 +10075,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -8806,7 +10101,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -8848,6 +10144,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -8873,7 +10170,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -8915,6 +10213,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -8940,7 +10239,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -8982,6 +10282,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -9007,7 +10308,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -9049,6 +10351,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -9074,7 +10377,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -9116,6 +10420,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -9141,7 +10446,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -9183,6 +10489,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -9208,7 +10515,8 @@
     "AccessKey": [
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     ],
     "Count": [
       [
@@ -9250,6 +10558,7 @@
       13
     ],
     "Rarity": 5,
+    "ReleaseVersion": 100,
     "ResourceToCoinType": 211,
     "ResourceValue": 5,
     "RewardLv": [
@@ -9267,6 +10576,282 @@
       "Resource"
     ],
     "WalnutId": 151962,
+    "WalnutIndex": "A",
+    "WalnutNumber": 1,
+    "WalnutType": 3
+  },
+  "156151": {
+    "AccessKey": [
+      "Dungeon",
+      "Shop_Main",
+      "Shop_Abyss",
+      "HardBoss"
+    ],
+    "Count": [
+      [
+        1
+      ],
+      [
+        100
+      ],
+      [
+        50
+      ],
+      [
+        30
+      ],
+      [
+        20
+      ],
+      [
+        10
+      ]
+    ],
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Changeling01",
+    "Id": [
+      156151,
+      102,
+      102,
+      102,
+      102,
+      102
+    ],
+    "Mode": "SequenceCeiling",
+    "Name": "UI_Name_Walnut_156151",
+    "Param": [
+      1,
+      7,
+      10,
+      13,
+      13,
+      13
+    ],
+    "Rarity": 5,
+    "ReleaseVersion": 110,
+    "ResourceToCoinType": 211,
+    "ResourceValue": 5,
+    "RewardLv": [
+      1,
+      2,
+      3
+    ],
+    "Sound": "SOUND_ITEM_MIHAN",
+    "Type": [
+      "Draft",
+      "Resource",
+      "Resource",
+      "Resource",
+      "Resource",
+      "Resource"
+    ],
+    "WalnutId": 156151,
+    "WalnutIndex": "A",
+    "WalnutNumber": 1,
+    "WalnutType": 3
+  },
+  "156152": {
+    "AccessKey": [
+      "Dungeon",
+      "Shop_Main",
+      "Shop_Abyss",
+      "HardBoss"
+    ],
+    "Count": [
+      [
+        1
+      ],
+      [
+        100
+      ],
+      [
+        50
+      ],
+      [
+        30
+      ],
+      [
+        20
+      ],
+      [
+        10
+      ]
+    ],
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Siren01_Green",
+    "Id": [
+      156152,
+      102,
+      102,
+      102,
+      102,
+      102
+    ],
+    "Mode": "SequenceCeiling",
+    "Name": "UI_Name_Walnut_156152",
+    "Param": [
+      1,
+      7,
+      10,
+      13,
+      13,
+      13
+    ],
+    "Rarity": 5,
+    "ReleaseVersion": 110,
+    "ResourceToCoinType": 211,
+    "ResourceValue": 5,
+    "RewardLv": [
+      1,
+      2,
+      3
+    ],
+    "Sound": "SOUND_ITEM_MIHAN",
+    "Type": [
+      "Draft",
+      "Resource",
+      "Resource",
+      "Resource",
+      "Resource",
+      "Resource"
+    ],
+    "WalnutId": 156152,
+    "WalnutIndex": "A",
+    "WalnutNumber": 1,
+    "WalnutType": 3
+  },
+  "156153": {
+    "AccessKey": [
+      "Dungeon",
+      "Shop_Main",
+      "Shop_Abyss",
+      "HardBoss"
+    ],
+    "Count": [
+      [
+        1
+      ],
+      [
+        100
+      ],
+      [
+        50
+      ],
+      [
+        30
+      ],
+      [
+        20
+      ],
+      [
+        10
+      ]
+    ],
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Changeling01",
+    "Id": [
+      156153,
+      102,
+      102,
+      102,
+      102,
+      102
+    ],
+    "Mode": "SequenceCeiling",
+    "Name": "UI_Name_Walnut_156153",
+    "Param": [
+      1,
+      7,
+      10,
+      13,
+      13,
+      13
+    ],
+    "Rarity": 5,
+    "ReleaseVersion": 110,
+    "ResourceToCoinType": 211,
+    "ResourceValue": 5,
+    "RewardLv": [
+      1,
+      2,
+      3
+    ],
+    "Sound": "SOUND_ITEM_MIHAN",
+    "Type": [
+      "Draft",
+      "Resource",
+      "Resource",
+      "Resource",
+      "Resource",
+      "Resource"
+    ],
+    "WalnutId": 156153,
+    "WalnutIndex": "A",
+    "WalnutNumber": 1,
+    "WalnutType": 3
+  },
+  "156154": {
+    "AccessKey": [
+      "Dungeon",
+      "Shop_Main",
+      "Shop_Abyss",
+      "HardBoss"
+    ],
+    "Count": [
+      [
+        1
+      ],
+      [
+        100
+      ],
+      [
+        50
+      ],
+      [
+        30
+      ],
+      [
+        20
+      ],
+      [
+        10
+      ]
+    ],
+    "Icon": "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Siren01_Green",
+    "Id": [
+      156154,
+      102,
+      102,
+      102,
+      102,
+      102
+    ],
+    "Mode": "SequenceCeiling",
+    "Name": "UI_Name_Walnut_156154",
+    "Param": [
+      1,
+      7,
+      10,
+      13,
+      13,
+      13
+    ],
+    "Rarity": 5,
+    "ReleaseVersion": 110,
+    "ResourceToCoinType": 211,
+    "ResourceValue": 5,
+    "RewardLv": [
+      1,
+      2,
+      3
+    ],
+    "Sound": "SOUND_ITEM_MIHAN",
+    "Type": [
+      "Draft",
+      "Resource",
+      "Resource",
+      "Resource",
+      "Resource",
+      "Resource"
+    ],
+    "WalnutId": 156154,
     "WalnutIndex": "A",
     "WalnutNumber": 1,
     "WalnutType": 3

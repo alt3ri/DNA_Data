@@ -27,9 +27,12 @@
       3,
       4
     ],
+    "OpenVersion": 10,
+    "ReleaseVersion": 100,
     "SkinApplicationType": [
       101
     ],
+    "SortPriority": 10101,
     "Sound": "SOUND_ITEM_WEAPON",
     "WeaponDescribe": "UI_WEAPON_DESC_10101",
     "WeaponId": 10101,
@@ -67,10 +70,12 @@
       3,
       4
     ],
+    "OpenVersion": 10,
+    "ReleaseVersion": 100,
     "SkinApplicationType": [
       101
     ],
-    "SortPriority": 5001,
+    "SortPriority": 10102,
     "Sound": "SOUND_ITEM_WEAPON",
     "WeaponDescribe": "UI_WEAPON_DESC_10102",
     "WeaponId": 10102,
@@ -108,9 +113,12 @@
       3,
       4
     ],
+    "OpenVersion": 10,
+    "ReleaseVersion": 100,
     "SkinApplicationType": [
       101
     ],
+    "SortPriority": 10103,
     "Sound": "SOUND_ITEM_WEAPON",
     "WeaponDescribe": "UI_WEAPON_DESC_10103",
     "WeaponId": 10103,
@@ -148,10 +156,12 @@
       3,
       4
     ],
+    "OpenVersion": 10,
+    "ReleaseVersion": 100,
     "SkinApplicationType": [
       101
     ],
-    "SortPriority": 5002,
+    "SortPriority": 10104,
     "Sound": "SOUND_ITEM_WEAPON",
     "WeaponDescribe": "UI_WEAPON_DESC_10104",
     "WeaponId": 10104,
@@ -189,9 +199,12 @@
       3,
       4
     ],
+    "OpenVersion": 10,
+    "ReleaseVersion": 100,
     "SkinApplicationType": [
       101
     ],
+    "SortPriority": 10105,
     "Sound": "SOUND_ITEM_WEAPON",
     "WeaponDescribe": "UI_WEAPON_DESC_10105",
     "WeaponId": 10105,
@@ -229,10 +242,12 @@
       3,
       4
     ],
+    "OpenVersion": 10,
+    "ReleaseVersion": 100,
     "SkinApplicationType": [
       102
     ],
-    "SortPriority": 5003,
+    "SortPriority": 10201,
     "Sound": "SOUND_ITEM_WEAPON",
     "WeaponDescribe": "UI_WEAPON_DESC_10201",
     "WeaponId": 10201,
@@ -270,9 +285,12 @@
       3,
       4
     ],
+    "OpenVersion": 10,
+    "ReleaseVersion": 100,
     "SkinApplicationType": [
       102
     ],
+    "SortPriority": 10202,
     "Sound": "SOUND_ITEM_WEAPON",
     "WeaponDescribe": "UI_WEAPON_DESC_10202",
     "WeaponId": 10202,
@@ -286,12 +304,10 @@
     "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Polearm_Zuiqian",
     "CollectRewardExp": 400,
     "DecomposeReward": 160004,
-    "GMNot": 1,
     "GUIPathVariableName": "Zuiqian",
     "GUIPathVariableType": "Polearm",
     "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Polearm_Zuiqian",
     "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Polearm_Zuiqian",
-    "IsNotOpen": true,
     "ModSlot": [
       -1,
       -1,
@@ -312,10 +328,12 @@
       3,
       4
     ],
+    "OpenVersion": 12,
+    "ReleaseVersion": 120,
     "SkinApplicationType": [
       102
     ],
-    "SortPriority": 5004,
+    "SortPriority": 10203,
     "Sound": "SOUND_ITEM_WEAPON",
     "WeaponDescribe": "UI_WEAPON_DESC_10203",
     "WeaponId": 10203,
@@ -353,10 +371,12 @@
       3,
       4
     ],
+    "OpenVersion": 10,
+    "ReleaseVersion": 100,
     "SkinApplicationType": [
       102
     ],
-    "SortPriority": 5005,
+    "SortPriority": 10204,
     "Sound": "SOUND_ITEM_WEAPON",
     "WeaponDescribe": "UI_WEAPON_DESC_10204",
     "WeaponId": 10204,
@@ -394,14 +414,60 @@
       3,
       4
     ],
+    "OpenVersion": 10,
+    "ReleaseVersion": 100,
     "SkinApplicationType": [
       102
     ],
+    "SortPriority": 10206,
     "Sound": "SOUND_ITEM_WEAPON",
     "WeaponDescribe": "UI_WEAPON_DESC_10206",
     "WeaponId": 10206,
     "WeaponMaxLevel": 80,
     "WeaponName": "UI_WEAPON_NAME_10206",
+    "WeaponRarity": 5,
+    "WeaponToCoinType": 101,
+    "WeaponValue": 10000
+  },
+  "10208": {
+    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Scythe_Yihe",
+    "CollectRewardExp": 400,
+    "DecomposeReward": 160004,
+    "GUIPathVariableName": "Yihe",
+    "GUIPathVariableType": "Scythe",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Scythe_Yihe",
+    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Scythe_Yihe",
+    "ModSlot": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "ModSlotUnlock": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "OpenVersion": 11,
+    "ReleaseVersion": 110,
+    "SkinApplicationType": [
+      102
+    ],
+    "SortPriority": 10208,
+    "Sound": "SOUND_ITEM_WEAPON",
+    "WeaponDescribe": "UI_WEAPON_DESC_10208",
+    "WeaponId": 10208,
+    "WeaponMaxLevel": 80,
+    "WeaponName": "UI_WEAPON_NAME_10208",
     "WeaponRarity": 5,
     "WeaponToCoinType": 101,
     "WeaponValue": 10000
@@ -434,10 +500,12 @@
       3,
       4
     ],
+    "OpenVersion": 10,
+    "ReleaseVersion": 100,
     "SkinApplicationType": [
       103
     ],
-    "SortPriority": 5010,
+    "SortPriority": 10301,
     "Sound": "SOUND_ITEM_WEAPON",
     "WeaponDescribe": "UI_WEAPON_DESC_10301",
     "WeaponId": 10301,
@@ -475,9 +543,12 @@
       3,
       4
     ],
+    "OpenVersion": 10,
+    "ReleaseVersion": 100,
     "SkinApplicationType": [
       103
     ],
+    "SortPriority": 10302,
     "Sound": "SOUND_ITEM_WEAPON",
     "WeaponDescribe": "UI_WEAPON_DESC_10302",
     "WeaponId": 10302,
@@ -515,9 +586,12 @@
       3,
       4
     ],
+    "OpenVersion": 10,
+    "ReleaseVersion": 100,
     "SkinApplicationType": [
       103
     ],
+    "SortPriority": 10303,
     "Sound": "SOUND_ITEM_WEAPON",
     "WeaponDescribe": "UI_WEAPON_DESC_10303",
     "WeaponId": 10303,
@@ -531,12 +605,10 @@
     "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Claymore_Wangu",
     "CollectRewardExp": 400,
     "DecomposeReward": 160004,
-    "GMNot": 1,
     "GUIPathVariableName": "Wangu",
     "GUIPathVariableType": "Claymore",
     "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Claymore_Wangu",
     "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Claymore_Wangu",
-    "IsNotOpen": true,
     "ModSlot": [
       -1,
       -1,
@@ -557,10 +629,12 @@
       3,
       4
     ],
+    "OpenVersion": 12,
+    "ReleaseVersion": 120,
     "SkinApplicationType": [
       103
     ],
-    "SortPriority": 5010,
+    "SortPriority": 10304,
     "Sound": "SOUND_ITEM_WEAPON",
     "WeaponDescribe": "UI_WEAPON_DESC_10304",
     "WeaponId": 10304,
@@ -598,9 +672,12 @@
       3,
       4
     ],
+    "OpenVersion": 10,
+    "ReleaseVersion": 100,
     "SkinApplicationType": [
       104
     ],
+    "SortPriority": 10401,
     "Sound": "SOUND_ITEM_WEAPON",
     "WeaponDescribe": "UI_WEAPON_DESC_10401",
     "WeaponId": 10401,
@@ -638,9 +715,12 @@
       3,
       4
     ],
+    "OpenVersion": 10,
+    "ReleaseVersion": 100,
     "SkinApplicationType": [
       104
     ],
+    "SortPriority": 10402,
     "Sound": "SOUND_ITEM_WEAPON",
     "WeaponDescribe": "UI_WEAPON_DESC_10402",
     "WeaponId": 10402,
@@ -678,9 +758,12 @@
       3,
       4
     ],
+    "OpenVersion": 10,
+    "ReleaseVersion": 100,
     "SkinApplicationType": [
       104
     ],
+    "SortPriority": 10403,
     "Sound": "SOUND_ITEM_WEAPON",
     "WeaponDescribe": "UI_WEAPON_DESC_10403",
     "WeaponId": 10403,
@@ -718,10 +801,12 @@
       3,
       4
     ],
+    "OpenVersion": 10,
+    "ReleaseVersion": 100,
     "SkinApplicationType": [
       105
     ],
-    "SortPriority": 5011,
+    "SortPriority": 10501,
     "Sound": "SOUND_ITEM_WEAPON",
     "WeaponDescribe": "UI_WEAPON_DESC_10501",
     "WeaponId": 10501,
@@ -735,12 +820,10 @@
     "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Swordwhip_Zeshi",
     "CollectRewardExp": 400,
     "DecomposeReward": 160004,
-    "GMNot": 1,
     "GUIPathVariableName": "Zeshi",
     "GUIPathVariableType": "Swordwhip",
     "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Swordwhip_Zeshi",
     "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Swordwhip_Zeshi",
-    "IsNotOpen": true,
     "ModSlot": [
       -1,
       -1,
@@ -761,10 +844,12 @@
       3,
       4
     ],
+    "OpenVersion": 11,
+    "ReleaseVersion": 110,
     "SkinApplicationType": [
       105
     ],
-    "SortPriority": 5011,
+    "SortPriority": 10502,
     "Sound": "SOUND_ITEM_WEAPON",
     "WeaponDescribe": "UI_WEAPON_DESC_10502",
     "WeaponId": 10502,
@@ -802,10 +887,12 @@
       3,
       4
     ],
+    "OpenVersion": 10,
+    "ReleaseVersion": 100,
     "SkinApplicationType": [
       105
     ],
-    "SortPriority": 5011,
+    "SortPriority": 10503,
     "Sound": "SOUND_ITEM_WEAPON",
     "WeaponDescribe": "UI_WEAPON_DESC_10503",
     "WeaponId": 10503,
@@ -843,10 +930,12 @@
       3,
       4
     ],
+    "OpenVersion": 10,
+    "ReleaseVersion": 100,
     "SkinApplicationType": [
       105
     ],
-    "SortPriority": 5011,
+    "SortPriority": 10504,
     "Sound": "SOUND_ITEM_WEAPON",
     "WeaponDescribe": "UI_WEAPON_DESC_10504",
     "WeaponId": 10504,
@@ -884,9 +973,12 @@
       3,
       4
     ],
+    "OpenVersion": 10,
+    "ReleaseVersion": 100,
     "SkinApplicationType": [
       106
     ],
+    "SortPriority": 10601,
     "Sound": "SOUND_ITEM_WEAPON",
     "WeaponDescribe": "UI_WEAPON_DESC_10601",
     "WeaponId": 10601,
@@ -924,9 +1016,12 @@
       3,
       4
     ],
+    "OpenVersion": 10,
+    "ReleaseVersion": 100,
     "SkinApplicationType": [
       106
     ],
+    "SortPriority": 10602,
     "Sound": "SOUND_ITEM_WEAPON",
     "WeaponDescribe": "UI_WEAPON_DESC_10602",
     "WeaponId": 10602,
@@ -964,9 +1059,12 @@
       3,
       4
     ],
+    "OpenVersion": 10,
+    "ReleaseVersion": 100,
     "SkinApplicationType": [
       106
     ],
+    "SortPriority": 10603,
     "Sound": "SOUND_ITEM_WEAPON",
     "WeaponDescribe": "UI_WEAPON_DESC_10603",
     "WeaponId": 10603,
@@ -1004,10 +1102,12 @@
       3,
       4
     ],
+    "OpenVersion": 10,
+    "ReleaseVersion": 100,
     "SkinApplicationType": [
       201
     ],
-    "SortPriority": 5101,
+    "SortPriority": 20101,
     "Sound": "SOUND_ITEM_WEAPON",
     "WeaponDescribe": "UI_WEAPON_DESC_20101",
     "WeaponId": 20101,
@@ -1045,10 +1145,12 @@
       3,
       4
     ],
+    "OpenVersion": 10,
+    "ReleaseVersion": 100,
     "SkinApplicationType": [
       201
     ],
-    "SortPriority": 5101,
+    "SortPriority": 20102,
     "Sound": "SOUND_ITEM_WEAPON",
     "WeaponDescribe": "UI_WEAPON_DESC_20102",
     "WeaponId": 20102,
@@ -1086,10 +1188,12 @@
       3,
       4
     ],
+    "OpenVersion": 10,
+    "ReleaseVersion": 100,
     "SkinApplicationType": [
       201
     ],
-    "SortPriority": 5101,
+    "SortPriority": 20103,
     "Sound": "SOUND_ITEM_WEAPON",
     "WeaponDescribe": "UI_WEAPON_DESC_20103",
     "WeaponId": 20103,
@@ -1127,9 +1231,12 @@
       3,
       4
     ],
+    "OpenVersion": 10,
+    "ReleaseVersion": 100,
     "SkinApplicationType": [
       202
     ],
+    "SortPriority": 20201,
     "Sound": "SOUND_ITEM_WEAPON",
     "WeaponDescribe": "UI_WEAPON_DESC_20201",
     "WeaponId": 20201,
@@ -1167,10 +1274,12 @@
       3,
       4
     ],
+    "OpenVersion": 10,
+    "ReleaseVersion": 100,
     "SkinApplicationType": [
       202
     ],
-    "SortPriority": 5101,
+    "SortPriority": 20203,
     "Sound": "SOUND_ITEM_WEAPON",
     "WeaponDescribe": "UI_WEAPON_DESC_20203",
     "WeaponId": 20203,
@@ -1208,9 +1317,12 @@
       3,
       4
     ],
+    "OpenVersion": 10,
+    "ReleaseVersion": 100,
     "SkinApplicationType": [
       202
     ],
+    "SortPriority": 20205,
     "Sound": "SOUND_ITEM_WEAPON",
     "WeaponDescribe": "UI_WEAPON_DESC_20205",
     "WeaponId": 20205,
@@ -1248,10 +1360,12 @@
       3,
       4
     ],
+    "OpenVersion": 10,
+    "ReleaseVersion": 100,
     "SkinApplicationType": [
       203
     ],
-    "SortPriority": 5102,
+    "SortPriority": 20301,
     "Sound": "SOUND_ITEM_WEAPON",
     "WeaponDescribe": "UI_WEAPON_DESC_20301",
     "WeaponId": 20301,
@@ -1265,12 +1379,10 @@
     "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Cannon_Chiqiang",
     "CollectRewardExp": 400,
     "DecomposeReward": 160004,
-    "GMNot": 1,
     "GUIPathVariableName": "Chiqiang",
     "GUIPathVariableType": "Cannon",
     "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Cannon_Chiqiang",
     "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Cannon_Chiqiang",
-    "IsNotOpen": true,
     "ModSlot": [
       -1,
       -1,
@@ -1291,10 +1403,12 @@
       3,
       4
     ],
+    "OpenVersion": 14,
+    "ReleaseVersion": 140,
     "SkinApplicationType": [
       203
     ],
-    "SortPriority": 5102,
+    "SortPriority": 20302,
     "Sound": "SOUND_ITEM_WEAPON",
     "WeaponDescribe": "UI_WEAPON_DESC_20302",
     "WeaponId": 20302,
@@ -1332,10 +1446,12 @@
       3,
       4
     ],
+    "OpenVersion": 10,
+    "ReleaseVersion": 100,
     "SkinApplicationType": [
       203
     ],
-    "SortPriority": 5101,
+    "SortPriority": 20303,
     "Sound": "SOUND_ITEM_WEAPON",
     "WeaponDescribe": "UI_WEAPON_DESC_20303",
     "WeaponId": 20303,
@@ -1373,10 +1489,12 @@
       3,
       4
     ],
+    "OpenVersion": 10,
+    "ReleaseVersion": 100,
     "SkinApplicationType": [
       203
     ],
-    "SortPriority": 5101,
+    "SortPriority": 20304,
     "Sound": "SOUND_ITEM_WEAPON",
     "WeaponDescribe": "UI_WEAPON_DESC_20304",
     "WeaponId": 20304,
@@ -1414,10 +1532,12 @@
       3,
       4
     ],
+    "OpenVersion": 10,
+    "ReleaseVersion": 100,
     "SkinApplicationType": [
       203
     ],
-    "SortPriority": 5101,
+    "SortPriority": 20305,
     "Sound": "SOUND_ITEM_WEAPON",
     "WeaponDescribe": "UI_WEAPON_DESC_20305",
     "WeaponId": 20305,
@@ -1455,10 +1575,12 @@
       3,
       4
     ],
+    "OpenVersion": 10,
+    "ReleaseVersion": 100,
     "SkinApplicationType": [
       204
     ],
-    "SortPriority": 5101,
+    "SortPriority": 20401,
     "Sound": "SOUND_ITEM_WEAPON",
     "WeaponDescribe": "UI_WEAPON_DESC_20401",
     "WeaponId": 20401,
@@ -1496,10 +1618,12 @@
       3,
       4
     ],
+    "OpenVersion": 10,
+    "ReleaseVersion": 100,
     "SkinApplicationType": [
       204
     ],
-    "SortPriority": 5103,
+    "SortPriority": 20402,
     "Sound": "SOUND_ITEM_WEAPON",
     "WeaponDescribe": "UI_WEAPON_DESC_20402",
     "WeaponId": 20402,
@@ -1537,10 +1661,12 @@
       3,
       4
     ],
+    "OpenVersion": 10,
+    "ReleaseVersion": 100,
     "SkinApplicationType": [
       204
     ],
-    "SortPriority": 5101,
+    "SortPriority": 20403,
     "Sound": "SOUND_ITEM_WEAPON",
     "WeaponDescribe": "UI_WEAPON_DESC_20403",
     "WeaponId": 20403,
@@ -1578,10 +1704,12 @@
       3,
       4
     ],
+    "OpenVersion": 10,
+    "ReleaseVersion": 100,
     "SkinApplicationType": [
       204
     ],
-    "SortPriority": 5103,
+    "SortPriority": 20405,
     "Sound": "SOUND_ITEM_WEAPON",
     "WeaponDescribe": "UI_WEAPON_DESC_20405",
     "WeaponId": 20405,
@@ -1619,10 +1747,12 @@
       3,
       4
     ],
+    "OpenVersion": 10,
+    "ReleaseVersion": 100,
     "SkinApplicationType": [
       205
     ],
-    "SortPriority": 5101,
+    "SortPriority": 20501,
     "Sound": "SOUND_ITEM_WEAPON",
     "WeaponDescribe": "UI_WEAPON_DESC_20501",
     "WeaponId": 20501,
@@ -1660,10 +1790,12 @@
       3,
       4
     ],
+    "OpenVersion": 10,
+    "ReleaseVersion": 100,
     "SkinApplicationType": [
       205
     ],
-    "SortPriority": 5104,
+    "SortPriority": 20502,
     "Sound": "SOUND_ITEM_WEAPON",
     "WeaponDescribe": "UI_WEAPON_DESC_20502",
     "WeaponId": 20502,
@@ -1701,10 +1833,12 @@
       3,
       4
     ],
+    "OpenVersion": 10,
+    "ReleaseVersion": 100,
     "SkinApplicationType": [
       205
     ],
-    "SortPriority": 5101,
+    "SortPriority": 20503,
     "Sound": "SOUND_ITEM_WEAPON",
     "WeaponDescribe": "UI_WEAPON_DESC_20503",
     "WeaponId": 20503,
@@ -1742,15 +1876,60 @@
       3,
       4
     ],
+    "OpenVersion": 10,
+    "ReleaseVersion": 100,
     "SkinApplicationType": [
       205
     ],
-    "SortPriority": 5105,
+    "SortPriority": 20504,
     "Sound": "SOUND_ITEM_WEAPON",
     "WeaponDescribe": "UI_WEAPON_DESC_20504",
     "WeaponId": 20504,
     "WeaponMaxLevel": 80,
     "WeaponName": "UI_WEAPON_NAME_20504",
+    "WeaponRarity": 5,
+    "WeaponToCoinType": 101,
+    "WeaponValue": 10000
+  },
+  "20506": {
+    "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Machinegun_Quewu",
+    "CollectRewardExp": 400,
+    "DecomposeReward": 160004,
+    "GUIPathVariableName": "Quewu",
+    "GUIPathVariableType": "Machinegun",
+    "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Machinegun_Quewu",
+    "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Machinegun_Quewu",
+    "ModSlot": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "ModSlotUnlock": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "OpenVersion": 11,
+    "ReleaseVersion": 110,
+    "SkinApplicationType": [
+      205
+    ],
+    "SortPriority": 20506,
+    "Sound": "SOUND_ITEM_WEAPON",
+    "WeaponDescribe": "UI_WEAPON_DESC_20506",
+    "WeaponId": 20506,
+    "WeaponMaxLevel": 80,
+    "WeaponName": "UI_WEAPON_NAME_20506",
     "WeaponRarity": 5,
     "WeaponToCoinType": 101,
     "WeaponValue": 10000
@@ -1783,10 +1962,12 @@
       3,
       4
     ],
+    "OpenVersion": 10,
+    "ReleaseVersion": 100,
     "SkinApplicationType": [
       205
     ],
-    "SortPriority": 5106,
+    "SortPriority": 20507,
     "Sound": "SOUND_ITEM_WEAPON",
     "WeaponDescribe": "UI_WEAPON_DESC_20507",
     "WeaponId": 20507,
@@ -1824,10 +2005,12 @@
       3,
       4
     ],
+    "OpenVersion": 10,
+    "ReleaseVersion": 100,
     "SkinApplicationType": [
       205
     ],
-    "SortPriority": 5105,
+    "SortPriority": 20509,
     "Sound": "SOUND_ITEM_WEAPON",
     "WeaponDescribe": "UI_WEAPON_DESC_20509",
     "WeaponId": 20509,
@@ -1841,12 +2024,10 @@
     "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Machinegun_Ruohua",
     "CollectRewardExp": 400,
     "DecomposeReward": 160004,
-    "GMNot": 1,
     "GUIPathVariableName": "Ruohua",
     "GUIPathVariableType": "Machinegun",
     "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Machinegun_Ruohua",
     "Icon": "/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Machinegun_Ruohua",
-    "IsNotOpen": true,
     "ModSlot": [
       -1,
       -1,
@@ -1867,10 +2048,12 @@
       3,
       4
     ],
+    "OpenVersion": 11,
+    "ReleaseVersion": 110,
     "SkinApplicationType": [
       205
     ],
-    "SortPriority": 5106,
+    "SortPriority": 20510,
     "Sound": "SOUND_ITEM_WEAPON",
     "WeaponDescribe": "UI_WEAPON_DESC_20510",
     "WeaponId": 20510,
@@ -1908,10 +2091,12 @@
       3,
       4
     ],
+    "OpenVersion": 10,
+    "ReleaseVersion": 100,
     "SkinApplicationType": [
-      206
+      207
     ],
-    "SortPriority": 5101,
+    "SortPriority": 20601,
     "Sound": "SOUND_ITEM_WEAPON",
     "WeaponDescribe": "UI_WEAPON_DESC_20601",
     "WeaponId": 20601,
@@ -1949,10 +2134,12 @@
       3,
       4
     ],
+    "OpenVersion": 10,
+    "ReleaseVersion": 100,
     "SkinApplicationType": [
       206
     ],
-    "SortPriority": 5107,
+    "SortPriority": 20602,
     "Sound": "SOUND_ITEM_WEAPON",
     "WeaponDescribe": "UI_WEAPON_DESC_20602",
     "WeaponId": 20602,
@@ -1990,10 +2177,12 @@
       3,
       4
     ],
+    "OpenVersion": 10,
+    "ReleaseVersion": 100,
     "SkinApplicationType": [
-      206
+      207
     ],
-    "SortPriority": 5107,
+    "SortPriority": 20603,
     "Sound": "SOUND_ITEM_WEAPON",
     "WeaponDescribe": "UI_WEAPON_DESC_20603",
     "WeaponId": 20603,
@@ -2031,10 +2220,12 @@
       3,
       4
     ],
+    "OpenVersion": 10,
+    "ReleaseVersion": 100,
     "SkinApplicationType": [
-      207
+      206
     ],
-    "SortPriority": 5108,
+    "SortPriority": 20604,
     "Sound": "SOUND_ITEM_WEAPON",
     "WeaponDescribe": "UI_WEAPON_DESC_20604",
     "WeaponId": 20604,

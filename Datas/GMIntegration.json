@@ -18,12 +18,18 @@
   },
   "Batt01": {
     "GMCommands": [
+      "sgm sl 42",
+      "sgm ct 60",
       "gm UnlockRegionTeleport 1",
       "gm MockAllSystemCondition",
-      "gm SuccessAllSystemGuide",
-      "gm SuccQuestChain 120103",
-      "gm SuccQuest 12010503",
-      "gm skipregion 1 104201 1"
+      "sgm qcf 100102",
+      "sgm qcf 100103",
+      "sgm qc 10020101",
+      "sgm qcf 120101",
+      "sgm qcf 120103",
+      "sgm qc 12010504",
+      "gm skipregion 1 104201 1",
+      "gm SuccessAllSystemGuide"
     ],
     "GMDisplayName": "古战场幻境1",
     "GMIntegrationName": "Batt01",
@@ -31,12 +37,18 @@
   },
   "Batt02": {
     "GMCommands": [
+      "sgm sl 42",
+      "sgm ct 60",
       "gm UnlockRegionTeleport 1",
       "gm MockAllSystemCondition",
-      "gm SuccessAllSystemGuide",
-      "gm SuccQuestChain 120103",
-      "gm SuccQuest 12010517",
-      "gm skipregion 1 104601 1"
+      "sgm qcf 100102",
+      "sgm qcf 100103",
+      "sgm qc 10020101",
+      "sgm qcf 120101",
+      "sgm qcf 120103",
+      "sgm qc 12010517",
+      "gm skipregion 1 104601 1",
+      "gm SuccessAllSystemGuide"
     ],
     "GMDisplayName": "古战场幻境2",
     "GMIntegrationName": "Batt02",
@@ -44,12 +56,18 @@
   },
   "Batt03": {
     "GMCommands": [
+      "sgm sl 42",
+      "sgm ct 60",
       "gm UnlockRegionTeleport 1",
       "gm MockAllSystemCondition",
-      "gm SuccessAllSystemGuide",
-      "gm SuccQuestChain 120103",
-      "gm SuccQuest 12010518",
-      "gm skipregion 1 104701 1"
+      "sgm qcf 100102",
+      "sgm qcf 100103",
+      "sgm qc 10020101",
+      "sgm qcf 120101",
+      "sgm qcf 120103",
+      "sgm qc 12010518",
+      "gm skipregion 1 104701 1",
+      "gm SuccessAllSystemGuide"
     ],
     "GMDisplayName": "古战场幻境3",
     "GMIntegrationName": "Batt03",
@@ -89,18 +107,18 @@
   },
   "CE_EX01_2": {
     "GMCommands": [
-      "gm succquestchain 100102",
-      "gm succquestchain 100103",
-      "gm succquestchain 100201",
-      "gm succquestchain 200101",
-      "gm succquestchain 100202",
-      "gm succquestchain 100203",
-      "gm succquestchain 100204",
-      "gm succquestchain 100205",
-      "gm succquestchain 200102",
-      "gm succquestchain 100206",
-      "gm succquestchain 100207",
-      "gm succquestchain 100208",
+      "sgm qcf 100102",
+      "sgm qcf 100103",
+      "sgm qcf 100201",
+      "sgm qcf 200101",
+      "sgm qcf 100202",
+      "sgm qcf 100203",
+      "sgm qcf 100204",
+      "sgm qcf 100205",
+      "sgm qcf 200102",
+      "sgm qcf 100206",
+      "sgm qcf 100207",
+      "sgm qcf 100208",
       "sgm aitv 1011 Morality 60",
       "sgm aitv 1011 Empathy 60",
       "sgm aitv 1011 Wisdom 60",
@@ -157,25 +175,18 @@
     "GMDisplayName": "解锁序章动态事件",
     "GMIntegrationName": "DynPrologue"
   },
-  "East01": {
-    "GMCommands": [
-      "gm UnlockRegionTeleport 1",
-      "gm MockAllSystemCondition",
-      "gm SuccessAllSystemGuide",
-      "gm skipregion 1 104101 1",
-      "gm succquestchain 990103"
-    ],
-    "GMDisplayName": "东国一期（总）",
-    "GMIntegrationName": "East01",
-    "GMTab": "任务"
-  },
   "East01C1": {
     "GMCommands": [
+      "sgm sl 42",
+      "sgm ct 60",
       "gm UnlockRegionTeleport 1",
       "gm MockAllSystemCondition",
-      "gm SuccessAllSystemGuide",
-      "gm succquestchain 990103",
-      "gm skipregion 1 104108 1"
+      "sgm qcf 100102",
+      "sgm qcf 100103",
+      "sgm qc 10020101",
+      "sgm qcf 120003",
+      "gm skipregion 1 104108 1",
+      "gm SuccessAllSystemGuide"
     ],
     "GMDisplayName": "东国一期（一）",
     "GMIntegrationName": "East01C1",
@@ -183,11 +194,16 @@
   },
   "East01C2": {
     "GMCommands": [
+      "sgm sl 42",
+      "sgm ct 60",
       "gm UnlockRegionTeleport 1",
       "gm MockAllSystemCondition",
-      "gm SuccessAllSystemGuide",
-      "gm succquestchain 120101",
-      "gm skipregion 1 104110 1"
+      "sgm qcf 100102",
+      "sgm qcf 100103",
+      "sgm qc 10020101",
+      "sgm qcf 120101",
+      "gm skipregion 1 104110 1",
+      "gm SuccessAllSystemGuide"
     ],
     "GMDisplayName": "东国一期（二）",
     "GMIntegrationName": "East01C2",
@@ -195,11 +211,16 @@
   },
   "East01C3": {
     "GMCommands": [
+      "sgm sl 42",
+      "sgm ct 60",
       "gm UnlockRegionTeleport 1",
       "gm MockAllSystemCondition",
-      "gm SuccessAllSystemGuide",
-      "gm succquestchain 120102",
-      "gm skipregion 1 104109 1"
+      "sgm qcf 100102",
+      "sgm qcf 100103",
+      "sgm qc 10020101",
+      "sgm qcf 120102",
+      "gm skipregion 1 104109 1",
+      "gm SuccessAllSystemGuide"
     ],
     "GMDisplayName": "东国一期（三）",
     "GMIntegrationName": "East01C3",
@@ -207,11 +228,16 @@
   },
   "East01C4": {
     "GMCommands": [
+      "sgm sl 42",
+      "sgm ct 60",
       "gm UnlockRegionTeleport 1",
       "gm MockAllSystemCondition",
-      "gm SuccessAllSystemGuide",
-      "gm succquestchain 120103",
-      "gm skipregion 1 104110 1"
+      "sgm qcf 100102",
+      "sgm qcf 100103",
+      "sgm qc 10020101",
+      "sgm qc 12010317",
+      "gm skipregion 1 104106 1",
+      "gm SuccessAllSystemGuide"
     ],
     "GMDisplayName": "东国一期（扶疏线）",
     "GMIntegrationName": "East01C4",
@@ -219,11 +245,16 @@
   },
   "East01C5": {
     "GMCommands": [
+      "sgm sl 42",
+      "sgm ct 60",
       "gm UnlockRegionTeleport 1",
       "gm MockAllSystemCondition",
-      "gm SuccessAllSystemGuide",
-      "gm succquestchain 120103",
-      "gm skipregion 1 104109 1"
+      "sgm qcf 100102",
+      "sgm qcf 100103",
+      "sgm qc 10020101",
+      "sgm qcf 120104",
+      "gm skipregion 1 104109 1",
+      "gm SuccessAllSystemGuide"
     ],
     "GMDisplayName": "东国一期（虬先生线）",
     "GMIntegrationName": "East01C5",
@@ -231,12 +262,17 @@
   },
   "East01C6": {
     "GMCommands": [
+      "sgm sl 42",
+      "sgm ct 60",
       "gm UnlockRegionTeleport 1",
       "gm MockAllSystemCondition",
-      "gm SuccessAllSystemGuide",
-      "gm succquestchain 120104",
-      "gm succquestchain 120105",
-      "gm skipregion 1 104110 1"
+      "sgm qcf 100102",
+      "sgm qcf 100103",
+      "sgm qc 10020101",
+      "sgm qcf 120104",
+      "sgm qcf 120105",
+      "gm skipregion 1 104110 1",
+      "gm SuccessAllSystemGuide"
     ],
     "GMDisplayName": "东国一期（六）",
     "GMIntegrationName": "East01C6",
@@ -245,17 +281,32 @@
   "EastOpen": {
     "GMCommands": [
       "gm SystemCommonUnlock",
-      "gm succquestchain 100102",
-      "gm succquestchain 100103",
-      "gm succquestchain 100201",
-      "gm succquestchain 100208",
-      "gm succquestchain 100301",
-      "gm succquestchain 100307",
+      "sgm qcf 100102",
+      "sgm qcf 100103",
+      "sgm qcf 100201",
+      "sgm qcf 100208",
+      "sgm qcf 100301",
+      "sgm qcf 100307",
       "sgm sl 40",
-      "gm skipregion 1 101107 1"
+      "gm skipregion 1 101107 1",
+      "gm SuccessAllSystemGuide"
     ],
     "GMDisplayName": "东国引入",
     "GMIntegrationName": "EastOpen",
+    "GMTab": "任务"
+  },
+  "FakeQuest1002": {
+    "GMCommands": [
+      "gm FSG 2002",
+      "gm FSG 2038",
+      "gm FSG 2055",
+      "gm FSG 2015",
+      "sgm qcf 100102",
+      "sgm qcf 100103",
+      "sgm qc 10020107"
+    ],
+    "GMDisplayName": "提前完成第一章",
+    "GMIntegrationName": "FakeQuest1002",
     "GMTab": "任务"
   },
   "Feina01": {
@@ -263,7 +314,7 @@
       "gm UnlockRegionTeleport 1",
       "gm MockAllSystemCondition",
       "gm SuccessAllSystemGuide",
-      "gm SuccQuestChain 100208",
+      "sgm qcf 990103",
       "gm skipregion 1 101105 1",
       "gm aade",
       "gm CompleteCondition 4220"
@@ -277,7 +328,7 @@
       "gm UnlockRegionTeleport 1",
       "gm MockAllSystemCondition",
       "gm SuccessAllSystemGuide",
-      "gm SuccQuestChain 120111",
+      "sgm qcf 120111",
       "gm skipregion 1 101105 1",
       "gm aade",
       "gm CompleteCondition 4220"
@@ -291,7 +342,7 @@
       "gm UnlockRegionTeleport 1",
       "gm MockAllSystemCondition",
       "gm SuccessAllSystemGuide",
-      "gm SuccQuestChain 120112",
+      "sgm qcf 120112",
       "gm skipregion 1 101105 1",
       "gm aade",
       "gm CompleteCondition 4220"
@@ -305,7 +356,7 @@
       "gm UnlockRegionTeleport 1",
       "gm MockAllSystemCondition",
       "gm SuccessAllSystemGuide",
-      "gm SuccQuestChain 120113",
+      "sgm qcf 120113",
       "gm skipregion 1 101105 1",
       "gm aade",
       "gm CompleteCondition 4220"
@@ -319,8 +370,8 @@
       "gm UnlockRegionTeleport 1",
       "gm MockAllSystemCondition",
       "gm SuccessAllSystemGuide",
-      "gm SuccQuestChain 120113",
-      "gm SuccQuest 12011407",
+      "sgm qcf 120113",
+      "sgm qc 12011406",
       "gm skipregion 1 101103 6",
       "gm aade"
     ],
@@ -333,8 +384,8 @@
       "gm UnlockRegionTeleport 1",
       "gm MockAllSystemCondition",
       "gm SuccessAllSystemGuide",
-      "gm SuccQuestChain 120113",
-      "gm SuccQuest 12011405",
+      "sgm qcf 120113",
+      "sgm qc 12011405",
       "gm skipregion 1 101103 6",
       "gm aade"
     ],
@@ -347,8 +398,8 @@
       "gm UnlockRegionTeleport 1",
       "gm MockAllSystemCondition",
       "gm SuccessAllSystemGuide",
-      "gm SuccQuestChain 120113",
-      "gm SuccQuest 12011411",
+      "sgm qcf 120113",
+      "sgm qc 12011411",
       "gm skipregion 1 101105 1",
       "gm aade"
     ],
@@ -671,14 +722,93 @@
     "GMDisplayName": "解锁教学手册条目",
     "GMIntegrationName": "GuideBook"
   },
-  "Nai01": {
+  "HeilongBoss": {
     "GMCommands": [
+      "sgm sl 42",
+      "sgm ct 60",
       "gm UnlockRegionTeleport 1",
       "gm MockAllSystemCondition",
-      "gm SuccessAllSystemGuide",
-      "gm SuccQuestChain 120103",
-      "gm SuccQuest 12010415",
-      "gm skipregion 1 104301 1"
+      "sgm qcf 100102",
+      "sgm qcf 100103",
+      "sgm qc 10020101",
+      "sgm qcf 120104",
+      "sgm qcf 120105",
+      "gm skipregion 1 105701 1",
+      "sgm qc 12010605",
+      "gm SuccessAllSystemGuide"
+    ],
+    "GMDisplayName": "东国一期（黑龙BOSS战）",
+    "GMIntegrationName": "HeilongBoss",
+    "GMTab": "任务"
+  },
+  "HeilongBossAlt": {
+    "GMCommands": [
+      "sgm sl 42",
+      "sgm ct 60",
+      "gm UnlockRegionTeleport 1",
+      "gm MockAllSystemCondition",
+      "sgm qcf 100102",
+      "sgm qcf 100103",
+      "sgm qc 10020101",
+      "sgm qcf 120104",
+      "sgm qcf 120105",
+      "sgm qc 12010602",
+      "gm skipregion 1 105701 1",
+      "gm SuccessAllSystemGuide"
+    ],
+    "GMDisplayName": "东国一期（到达黑龙祭坛）",
+    "GMIntegrationName": "HeilongBossAlt"
+  },
+  "HeilonglingFight": {
+    "GMCommands": [
+      "sgm sl 42",
+      "sgm ct 60",
+      "gm UnlockRegionTeleport 1",
+      "gm MockAllSystemCondition",
+      "sgm qcf 100102",
+      "sgm qcf 100103",
+      "sgm qc 10020101",
+      "sgm qcf 120102",
+      "gm skipregion 1 104105 1",
+      "sgm qc 12010352",
+      "gm SuccessAllSystemGuide"
+    ],
+    "GMDisplayName": "东国一期（采集黑龙鳞）",
+    "GMIntegrationName": "HeilonglingFight"
+  },
+  "JuqueBoss": {
+    "GMCommands": [
+      "sgm sl 42",
+      "sgm ct 60",
+      "gm UnlockRegionTeleport 1",
+      "gm MockAllSystemCondition",
+      "sgm qcf 100102",
+      "sgm qcf 100103",
+      "sgm qc 10020101",
+      "sgm qcf 120103",
+      "sgm qc 12010518",
+      "gm SS:SetInt(\"East01Nai03Phase\",1)",
+      "gm skipregion 1 104701 1",
+      "gm SuccessAllSystemGuide"
+    ],
+    "GMDisplayName": "东国一期（巨阙BOSS战）",
+    "GMIntegrationName": "JuqueBoss",
+    "GMTab": "任务"
+  },
+  "Nai01": {
+    "GMCommands": [
+      "sgm sl 42",
+      "sgm ct 60",
+      "gm UnlockRegionTeleport 1",
+      "gm MockAllSystemCondition",
+      "sgm qcf 100102",
+      "sgm qcf 100103",
+      "sgm qc 10020101",
+      "sgm qcf 120101",
+      "sgm qcf 120103",
+      "sgm qc 12010415",
+      "gm skipregion 1 104301 1",
+      "gm SuccessAllSystemGuide"
     ],
     "GMDisplayName": "扶疏幻境1",
     "GMIntegrationName": "Nai01",
@@ -686,12 +816,18 @@
   },
   "Nai02": {
     "GMCommands": [
+      "sgm sl 42",
+      "sgm ct 60",
       "gm UnlockRegionTeleport 1",
       "gm MockAllSystemCondition",
-      "gm SuccessAllSystemGuide",
-      "gm SuccQuestChain 120103",
-      "gm SuccQuest 12010416",
-      "gm skipregion 1 104401 1"
+      "sgm qcf 100102",
+      "sgm qcf 100103",
+      "sgm qc 10020101",
+      "sgm qcf 120101",
+      "sgm qcf 120103",
+      "sgm qc 12010416",
+      "gm skipregion 1 104401 1",
+      "gm SuccessAllSystemGuide"
     ],
     "GMDisplayName": "扶疏幻境2",
     "GMIntegrationName": "Nai02",
@@ -699,16 +835,39 @@
   },
   "Nai03": {
     "GMCommands": [
+      "sgm sl 42",
+      "sgm ct 60",
       "gm UnlockRegionTeleport 1",
       "gm MockAllSystemCondition",
-      "gm SuccessAllSystemGuide",
-      "gm SuccQuestChain 120103",
-      "gm SuccQuest 12010417",
-      "gm skipregion 1 105001 1"
+      "sgm qcf 100102",
+      "sgm qcf 100103",
+      "sgm qc 10020101",
+      "sgm qcf 120101",
+      "sgm qcf 120103",
+      "sgm qc 12010417",
+      "gm skipregion 1 105001 1",
+      "gm SuccessAllSystemGuide"
     ],
     "GMDisplayName": "扶疏幻境3",
     "GMIntegrationName": "Nai03",
     "GMTab": "任务"
+  },
+  "PorJiebei": {
+    "GMCommands": [
+      "sgm sl 42",
+      "sgm ct 60",
+      "gm UnlockRegionTeleport 1",
+      "gm MockAllSystemCondition",
+      "sgm qcf 100102",
+      "sgm qcf 100103",
+      "sgm qc 10020101",
+      "sgm qcf 120003",
+      "sgm qc 12010107",
+      "gm skipregion 1 104108 2",
+      "gm SuccessAllSystemGuide"
+    ],
+    "GMDisplayName": "东国一期（界碑移动）",
+    "GMIntegrationName": "PorJiebei"
   },
   "ResetDispatch": {
     "GMCommands": [
@@ -870,13 +1029,13 @@
       "gm MockAllSystemCondition",
       "gm SuccessAllSystemGuide",
       "gm skipRegion 1 101101 1",
-      "gm succquestchain 100201",
-      "gm succquestchain 100202",
-      "gm succquestchain 100203",
-      "gm succquestchain 100204",
-      "gm succquestchain 100205",
-      "gm succquestchain 100206",
-      "gm succquestchain 100208",
+      "sgm qcf 100201",
+      "sgm qcf 100202",
+      "sgm qcf 100203",
+      "sgm qcf 100204",
+      "sgm qcf 100205",
+      "sgm qcf 100206",
+      "sgm qcf 100208",
       "sgm aitv 1011 Morality 100",
       "sgm aitv 1011 Empathy 100",
       "sgm aitv 1011 Wisdom 100",
@@ -886,14 +1045,31 @@
     "GMIntegrationName": "SSS",
     "GMTab": "任务"
   },
+  "SprFight": {
+    "GMCommands": [
+      "sgm sl 42",
+      "sgm ct 60",
+      "gm UnlockRegionTeleport 1",
+      "gm MockAllSystemCondition",
+      "sgm qcf 100102",
+      "sgm qcf 100103",
+      "sgm qc 10020101",
+      "sgm qcf 120102",
+      "sgm qc 12010312",
+      "gm skipregion 1 104107 2",
+      "gm SuccessAllSystemGuide"
+    ],
+    "GMDisplayName": "东国一期（百年春保卫战）",
+    "GMIntegrationName": "SprFight",
+    "GMTab": "任务"
+  },
   "StartChapter01": {
     "GMCommands": [
       "sgm aoc 1601",
-      "gm succquestchain 100102",
-      "gm succquestchain 100103",
+      "sgm qcf 100102",
+      "sgm qcf 100103",
       "gm skipregion 1 101103 10",
-      "gm TestTrackingQuest 100201",
-      "sgm FSG 3001"
+      "gm TestTrackingQuest 100201"
     ],
     "GMDisplayName": "直接开始第一章",
     "GMIntegrationName": "StartChapter01",
@@ -918,8 +1094,8 @@
   },
   "TrainingGroundQuest": {
     "GMCommands": [
-      "gm succquestchain 100103",
-      "gm startquest 10020109",
+      "sgm qcf 100103",
+      "sgm stq 10020109",
       "gm TestTrackingQuest 100201",
       "gm cm 6001001 1 1"
     ],
@@ -971,12 +1147,31 @@
   },
   "XibiBoss": {
     "GMCommands": [
-      "gm succquestchain 100102",
-      "gm succquest 10010305",
+      "sgm qcf 100102",
+      "sgm qc 10010305",
       "gm skipregion 1 100103 1"
     ],
     "GMDisplayName": "序章（西比尔boss战）",
     "GMIntegrationName": "XibiBoss",
+    "GMTab": "任务"
+  },
+  "YumingBoss": {
+    "GMCommands": [
+      "sgm sl 42",
+      "sgm ct 60",
+      "gm UnlockRegionTeleport 1",
+      "gm MockAllSystemCondition",
+      "sgm qcf 100102",
+      "sgm qcf 100103",
+      "sgm qc 10020101",
+      "sgm qcf 120103",
+      "gm skipregion 1 104102 1",
+      "sgm qc 12010518",
+      "sgm qc 12010513",
+      "gm SuccessAllSystemGuide"
+    ],
+    "GMDisplayName": "东国一期（煜明BOSS战）",
+    "GMIntegrationName": "YumingBoss",
     "GMTab": "任务"
   },
   "alch": {
@@ -1000,14 +1195,14 @@
       "gm SystemCommonUnlock",
       "sgm sl 60",
       "sgm ct 50",
-      "gm succquestchain 100202",
-      "gm succquestchain 100102",
-      "gm succquestchain 100103",
-      "gm succquestchain 100201",
-      "gm succquestchain 100208",
-      "gm succquestchain 110109",
-      "gm succquestchain 200227",
-      "gm succquest 20021501",
+      "sgm qcf 100202",
+      "sgm qcf 100102",
+      "sgm qcf 100103",
+      "sgm qcf 100201",
+      "sgm qcf 100208",
+      "sgm qcf 110109",
+      "sgm qcf 200227",
+      "sgm qc 20021501",
       "gm TestTrackingQuest 100301"
     ],
     "GMDisplayName": "第二章第一幕",
@@ -1019,14 +1214,14 @@
       "gm SystemCommonUnlock",
       "sgm sl 60",
       "sgm ct 50",
-      "gm succquestchain 100202",
-      "gm succquestchain 100102",
-      "gm succquestchain 100103",
-      "gm succquestchain 100201",
-      "gm succquestchain 100208",
-      "gm succquestchain 110109",
-      "gm succquestchain 100301",
-      "gm succquest 20021501",
+      "sgm qcf 100202",
+      "sgm qcf 100102",
+      "sgm qcf 100103",
+      "sgm qcf 100201",
+      "sgm qcf 100208",
+      "sgm qcf 110109",
+      "sgm qcf 100301",
+      "sgm qc 20021501",
       "gm TestTrackingQuest 100302"
     ],
     "GMDisplayName": "第二章第二幕",
@@ -1038,15 +1233,15 @@
       "gm SystemCommonUnlock",
       "sgm sl 60",
       "sgm ct 50",
-      "gm succquestchain 100202",
-      "gm succquestchain 100102",
-      "gm succquestchain 100103",
-      "gm succquestchain 100201",
-      "gm succquestchain 100208",
-      "gm succquestchain 110109",
-      "gm succquestchain 100301",
-      "gm succquest 20021501",
-      "gm succquestchain 100302",
+      "sgm qcf 100202",
+      "sgm qcf 100102",
+      "sgm qcf 100103",
+      "sgm qcf 100201",
+      "sgm qcf 100208",
+      "sgm qcf 110109",
+      "sgm qcf 100301",
+      "sgm qc 20021501",
+      "sgm qcf 100302",
       "gm TestTrackingQuest 100303"
     ],
     "GMDisplayName": "第二章第三幕",
@@ -1058,16 +1253,16 @@
       "gm SystemCommonUnlock",
       "sgm sl 60",
       "sgm ct 50",
-      "gm succquestchain 100202",
-      "gm succquestchain 100102",
-      "gm succquestchain 100103",
-      "gm succquestchain 100201",
-      "gm succquestchain 100208",
-      "gm succquestchain 110109",
-      "gm succquestchain 100301",
-      "gm succquest 20021501",
-      "gm succquestchain 100302",
-      "gm succquestchain 100303",
+      "sgm qcf 100202",
+      "sgm qcf 100102",
+      "sgm qcf 100103",
+      "sgm qcf 100201",
+      "sgm qcf 100208",
+      "sgm qcf 110109",
+      "sgm qcf 100301",
+      "sgm qc 20021501",
+      "sgm qcf 100302",
+      "sgm qcf 100303",
       "gm TestTrackingQuest 100304"
     ],
     "GMDisplayName": "第二章第四幕",
@@ -1079,17 +1274,17 @@
       "gm SystemCommonUnlock",
       "sgm sl 60",
       "sgm ct 50",
-      "gm succquestchain 100202",
-      "gm succquestchain 100102",
-      "gm succquestchain 100103",
-      "gm succquestchain 100201",
-      "gm succquestchain 100208",
-      "gm succquestchain 110109",
-      "gm succquestchain 100301",
-      "gm succquest 20021501",
-      "gm succquestchain 100302",
-      "gm succquestchain 100303",
-      "gm succquestchain 100304",
+      "sgm qcf 100202",
+      "sgm qcf 100102",
+      "sgm qcf 100103",
+      "sgm qcf 100201",
+      "sgm qcf 100208",
+      "sgm qcf 110109",
+      "sgm qcf 100301",
+      "sgm qc 20021501",
+      "sgm qcf 100302",
+      "sgm qcf 100303",
+      "sgm qcf 100304",
       "gm TestTrackingQuest 100305"
     ],
     "GMDisplayName": "第二章第五幕",
@@ -1101,18 +1296,18 @@
       "gm SystemCommonUnlock",
       "sgm sl 60",
       "sgm ct 50",
-      "gm succquestchain 100202",
-      "gm succquestchain 100102",
-      "gm succquestchain 100103",
-      "gm succquestchain 100201",
-      "gm succquestchain 100208",
-      "gm succquestchain 110109",
-      "gm succquestchain 100301",
-      "gm succquest 20021501",
-      "gm succquestchain 100302",
-      "gm succquestchain 100303",
-      "gm succquestchain 100304",
-      "gm succquestchain 100305",
+      "sgm qcf 100202",
+      "sgm qcf 100102",
+      "sgm qcf 100103",
+      "sgm qcf 100201",
+      "sgm qcf 100208",
+      "sgm qcf 110109",
+      "sgm qcf 100301",
+      "sgm qc 20021501",
+      "sgm qcf 100302",
+      "sgm qcf 100303",
+      "sgm qcf 100304",
+      "sgm qcf 100305",
       "gm TestTrackingQuest 100306",
       "gm SS = UE4.USubsystemBlueprintLibrary.GetGameInstanceSubsystem(GWorld.GameInstance, UStorySubsystem:StaticClass())",
       "gm SS:SetInt(\"thea100306\", 3)",
@@ -1141,7 +1336,7 @@
   "dream": {
     "GMCommands": [
       "gm SystemCommonUnlock",
-      "gm succquestchain 100207",
+      "sgm qcf 100207",
       "gm skipregion 1 101401 1"
     ],
     "GMIntegrationName": "dream"
@@ -1149,8 +1344,8 @@
   "dreamboss1": {
     "GMCommands": [
       "gm SystemCommonUnlock",
-      "gm succquestchain 100207",
-      "gm startquest 10020803",
+      "sgm qcf 100207",
+      "sgm stq 10020803",
       "gm skipregion 1 101402 1"
     ],
     "GMIntegrationName": "dreamboss1"
@@ -1158,8 +1353,8 @@
   "dreamboss2": {
     "GMCommands": [
       "gm SystemCommonUnlock",
-      "gm succquestchain 100207",
-      "gm startquest 10020804",
+      "sgm qcf 100207",
+      "sgm stq 10020804",
       "gm skipregion 1 101402 1"
     ],
     "GMIntegrationName": "dreamboss2"
@@ -1167,7 +1362,7 @@
   "enlike": {
     "GMCommands": [
       "gm SystemCommonUnlock",
-      "gm succquestchain 100206",
+      "sgm qcf 100206",
       "sgm ar 2001 15000"
     ],
     "GMDisplayName": "第一章（恩里克之死）",
@@ -1177,12 +1372,12 @@
   "ex01": {
     "GMCommands": [
       "gm SystemCommonUnlock1",
-      "gm succquestchain 100102",
-      "gm succquestchain 100103",
-      "gm succquestchain 100201",
-      "gm succquestchain 100208",
-      "gm succquestchain 200215",
-      "gm succquestchain 200104",
+      "sgm qcf 100102",
+      "sgm qcf 100103",
+      "sgm qcf 100201",
+      "sgm qcf 100208",
+      "sgm qcf 200215",
+      "sgm qcf 200104",
       "gm TestTrackingQuest 110101",
       "sgm sl 60"
     ],
@@ -1225,8 +1420,8 @@
   "ex01Haier": {
     "GMCommands": [
       "gm SystemCommonUnlock",
-      "gm succquestchain 110108",
-      "gm succquest 11010908",
+      "sgm qcf 110108",
+      "sgm qc 11010908",
       "gm skipregion 1 102104 1"
     ],
     "GMDisplayName": "EX01海尔法",
@@ -1237,8 +1432,8 @@
     "GMCommands": [
       "gm SystemCommonUnlock",
       "gm skipregion 1 102102 3",
-      "gm succquestchain 110107",
-      "gm succquest 11010809",
+      "sgm qcf 110107",
+      "sgm qc 11010809",
       "gm TestTrackingQuest 11010810"
     ],
     "GMDisplayName": "EX01下水道前埋伏",
@@ -1249,8 +1444,8 @@
     "GMCommands": [
       "gm SystemCommonUnlock",
       "gm skipregion 1 102101 3",
-      "gm succquestchain 110101",
-      "gm succquest 11010305",
+      "sgm qcf 110101",
+      "sgm qc 11010305",
       "gm TestTrackingQuest 11010306"
     ],
     "GMDisplayName": "EX01能源室下层",
@@ -1261,8 +1456,8 @@
     "GMCommands": [
       "gm SystemCommonUnlock",
       "gm skipregion 1 102101 3",
-      "gm succquestchain 110101",
-      "gm succquest 11010313",
+      "sgm qcf 110101",
+      "sgm qc 11010313",
       "gm TestTrackingQuest 11010305"
     ],
     "GMDisplayName": "EX01能源室上层",
@@ -1273,8 +1468,8 @@
     "GMCommands": [
       "gm SystemCommonUnlock",
       "gm skipregion 1 102102 3",
-      "gm succquestchain 110103",
-      "gm succquest 11010523",
+      "sgm qcf 110103",
+      "sgm qc 11010523",
       "gm TestTrackingQuest 11010526"
     ],
     "GMDisplayName": "EX01推车-准备",
@@ -1285,8 +1480,8 @@
     "GMCommands": [
       "gm SystemCommonUnlock",
       "gm skipregion 1 102102 2",
-      "gm succquestchain 110103",
-      "gm succquest 11010512",
+      "sgm qcf 110103",
+      "sgm qc 11010512",
       "gm TestTrackingQuest 11010513"
     ],
     "GMDisplayName": "EX01大炮玩法",
@@ -1297,8 +1492,8 @@
     "GMCommands": [
       "gm SystemCommonUnlock",
       "gm skipregion 1 102103 3",
-      "gm succquestchain 110107",
-      "gm succquest 11010814",
+      "sgm qcf 110107",
+      "sgm qc 11010814",
       "gm TestTrackingQuest 11010801"
     ],
     "GMDisplayName": "EX01下水道",
@@ -1309,7 +1504,7 @@
     "GMCommands": [
       "gm SystemCommonUnlock",
       "gm skipregion 1 102104 3",
-      "gm succquestchain 110108"
+      "sgm qcf 110108"
     ],
     "GMDisplayName": "EX01监狱审判",
     "GMIntegrationName": "ex01Shenpan",
@@ -1319,8 +1514,8 @@
     "GMCommands": [
       "gm SystemCommonUnlock",
       "gm skipregion 1 102102 3",
-      "gm succquestchain 110103",
-      "gm succquest 11010511",
+      "sgm qcf 110103",
+      "sgm qc 11010511",
       "gm TestTrackingQuest 11010512"
     ],
     "GMDisplayName": "EX01推车-炮台",
@@ -1330,9 +1525,9 @@
   "findsaiqi1": {
     "GMCommands": [
       "sgm sl 19",
-      "gm succquestchain 100206",
-      "gm succquestchain 200215",
-      "gm succquest 10020705",
+      "sgm qcf 100206",
+      "sgm qcf 200215",
+      "sgm qc 10020705",
       "gm skipregion 1 101101 10"
     ],
     "GMDisplayName": "第一章（追踪赛琪-城门前）",
@@ -1342,9 +1537,9 @@
   "findsaiqi2": {
     "GMCommands": [
       "sgm sl 19",
-      "gm succquestchain 100206",
-      "gm succquestchain 200215",
-      "gm succquest 10020706",
+      "sgm qcf 100206",
+      "sgm qcf 200215",
+      "sgm qc 10020706",
       "gm skipregion 1 101103 1"
     ],
     "GMDisplayName": "第一章（追踪赛琪-冰湖下）",
@@ -1354,7 +1549,7 @@
   "fish": {
     "GMCommands": [
       "SystemCommonUnlock",
-      "gm succquest 20021501",
+      "sgm qc 20021501",
       "sgm ar 5110100 1",
       "sgm ar 5110200 1",
       "sgm ar 5110300 1",
@@ -1372,7 +1567,7 @@
   "fish_icelake": {
     "GMCommands": [
       "SystemCommonUnlock",
-      "gm succquest 20021501",
+      "sgm qc 20021501",
       "sgm ar 5110100 1",
       "sgm ar 5210100 99",
       "sgm ar 5210200 99",
@@ -1410,8 +1605,8 @@
   "ht": {
     "GMCommands": [
       "gm SystemCommonUnlock",
-      "gm succquestchain 100204",
-      "gm startquest 10020506",
+      "sgm qcf 100204",
+      "sgm stq 10020506",
       "gm skipregion 1 101101 8",
       "gm TestTrackingQuest 100205"
     ],
@@ -1429,9 +1624,9 @@
     "GMCommands": [
       "gm SystemCommonUnlock",
       "sgm sl 19",
-      "gm succquestchain 100206",
-      "gm succquestchain 200102",
-      "gm startquest 10020708",
+      "sgm qcf 100206",
+      "sgm qcf 200102",
+      "sgm stq 10020708",
       "gm skipregion 1 101103 2"
     ],
     "GMIntegrationName": "icelakeboss"
@@ -1480,9 +1675,9 @@
     "GMCommands": [
       "gm SystemCommonUnlock",
       "sgm sl 12",
-      "gm succquestchain 100202",
-      "gm succquestchain 200103",
-      "gm startquest 10020305",
+      "sgm qcf 100202",
+      "sgm qcf 200103",
+      "sgm stq 10020305",
       null,
       "gm skipregion 1 101301 1",
       "gm TestTrackingQuest 100203"
@@ -1538,12 +1733,12 @@
   },
   "letmeplay": {
     "GMCommands": [
-      "gm succquestchain 200101",
-      "gm succquestchain 200102",
-      "gm succquestchain 200103",
-      "gm succquestchain 200215",
-      "gm succquestchain 200228",
-      "gm succquestchain 200229",
+      "sgm qcf 200101",
+      "sgm qcf 200102",
+      "sgm qcf 200103",
+      "sgm qcf 200215",
+      "sgm qcf 200228",
+      "sgm qcf 200229",
       "sgm ar 2001 50000"
     ],
     "GMDisplayName": "清所有卡主线支线",
@@ -1609,9 +1804,9 @@
   "searchsaiqi": {
     "GMCommands": [
       "sgm ar 2001 8000",
-      "gm succquestchain 100206",
-      "gm succquestchain 200102",
-      "gm startquest 10020705",
+      "sgm qcf 100206",
+      "sgm qcf 200102",
+      "sgm stq 10020705",
       "gm skipregion 1 101101 2"
     ],
     "GMIntegrationName": "searchsaiqi"
@@ -1627,9 +1822,9 @@
   "sew": {
     "GMCommands": [
       "gm SystemCommonUnlock",
-      "gm succquestchain 100201",
-      "gm succquestchain 200101",
-      "gm succquest 10020210",
+      "sgm qcf 100201",
+      "sgm qcf 200101",
+      "sgm qc 10020210",
       "gm skipregion 1 101702 3"
     ],
     "GMIntegrationName": "sew"
@@ -1694,9 +1889,9 @@
     "GMCommands": [
       "gm SystemCommonUnlock",
       "sgm sl 12",
-      "gm succquestchain 100202",
-      "gm succquestchain 200103",
-      "gm startquest 10020312",
+      "sgm qcf 100202",
+      "sgm qcf 200103",
+      "sgm stq 10020312",
       "gm skipregion 1 101304 1"
     ],
     "GMIntegrationName": "sjz"
@@ -1768,8 +1963,8 @@
   "waitsaiqi": {
     "GMCommands": [
       "sgm ar 2001 8000",
-      "gm succquestchain 100206",
-      "gm succquestchain 200102",
+      "sgm qcf 100206",
+      "sgm qcf 200102",
       "gm skipregion 1 101101 2"
     ],
     "GMIntegrationName": "waitsaiqi"
@@ -1777,10 +1972,10 @@
   "walk": {
     "GMCommands": [
       "gm SystemCommonUnlock",
-      "gm succquestchain 100205",
-      "gm succquestchain 200102",
+      "sgm qcf 100205",
+      "sgm qcf 200102",
       "gm skipregion 1 101103 1",
-      "gm startquest 10020608"
+      "sgm stq 10020608"
     ],
     "GMIntegrationName": "walk"
   },

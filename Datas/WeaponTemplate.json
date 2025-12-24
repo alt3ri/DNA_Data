@@ -1,4 +1,39 @@
 {
+  "111": {
+    "RuleId": 111,
+    "WeaponId": 10103,
+    "WeaponLevel": 1
+  },
+  "203": {
+    "RuleId": 203,
+    "WeaponId": 10204,
+    "WeaponLevel": 20
+  },
+  "205": {
+    "RuleId": 205,
+    "WeaponId": 10103,
+    "WeaponLevel": 45
+  },
+  "207": {
+    "RuleId": 207,
+    "WeaponId": 10101,
+    "WeaponLevel": 45
+  },
+  "210": {
+    "RuleId": 210,
+    "WeaponId": 10203,
+    "WeaponLevel": 55
+  },
+  "211": {
+    "RuleId": 211,
+    "WeaponId": 10502,
+    "WeaponLevel": 55
+  },
+  "212": {
+    "RuleId": 212,
+    "WeaponId": 10202,
+    "WeaponLevel": 55
+  },
   "2010101": {
     "ModId": [
       22007,
@@ -8446,6 +8481,27 @@
     "WeaponId": 10601,
     "WeaponLevel": 50
   },
+  "10103001": {
+    "ModId": [
+      22007,
+      22008,
+      32102,
+      32004,
+      32005,
+      42001
+    ],
+    "ModLevel": [
+      3,
+      3,
+      5,
+      5,
+      5,
+      5
+    ],
+    "RuleId": 10103001,
+    "WeaponId": 10103,
+    "WeaponLevel": 60
+  },
   "10105001": {
     "RuleId": 10105001,
     "WeaponId": 10105,
@@ -8455,6 +8511,27 @@
     "RuleId": 10204001,
     "WeaponId": 10204,
     "WeaponLevel": 30
+  },
+  "10502001": {
+    "ModId": [
+      22007,
+      22008,
+      32101,
+      32004,
+      32005,
+      42001
+    ],
+    "ModLevel": [
+      3,
+      3,
+      5,
+      5,
+      5,
+      5
+    ],
+    "RuleId": 10502001,
+    "WeaponId": 10502,
+    "WeaponLevel": 60
   },
   "11010101": {
     "ModId": [
@@ -10925,6 +11002,48 @@
     "WeaponId": 20405,
     "WeaponLevel": 50
   },
+  "20501001": {
+    "ModId": [
+      23007,
+      23008,
+      33101,
+      33004,
+      33005,
+      43001
+    ],
+    "ModLevel": [
+      3,
+      3,
+      5,
+      5,
+      5,
+      5
+    ],
+    "RuleId": 20501001,
+    "WeaponId": 20501,
+    "WeaponLevel": 60
+  },
+  "20502001": {
+    "ModId": [
+      23007,
+      23008,
+      33102,
+      33004,
+      33005,
+      43001
+    ],
+    "ModLevel": [
+      3,
+      3,
+      5,
+      5,
+      5,
+      5
+    ],
+    "RuleId": 20502001,
+    "WeaponId": 20502,
+    "WeaponLevel": 60
+  },
   "20503001": {
     "RuleId": 20503001,
     "WeaponId": 20503,
@@ -11000,6 +11119,30 @@
     "RuleId": 701020401,
     "WeaponCostumeId": 1020401,
     "WeaponId": 10204,
+    "WeaponLevel": 70
+  },
+  "702050301": {
+    "ModId": [
+      33004,
+      33005,
+      43001,
+      43002,
+      43003,
+      43006,
+      53007
+    ],
+    "ModLevel": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "RuleId": 702050301,
+    "WeaponCostumeId": 3010501,
+    "WeaponId": 20503,
     "WeaponLevel": 70
   },
   "702060201": {

@@ -175,11 +175,11 @@
     "TalkTriggerId": 1001
   },
   "1003": {
-    "BuffId": [
-      97
-    ],
     "QuestChainId": 110101,
     "QuestFailTalkTriggerId": 1002,
+    "ServerEffectId": [
+      1
+    ],
     "SpecialConfigId": 1003,
     "StoryPath": "SpecialQuest1101110102boss.story",
     "SubRegionIds": [
@@ -189,15 +189,17 @@
     "UniversalConfigId": 1003
   },
   "1004": {
-    "BuffId": [
-      97
-    ],
     "QuestChainId": 110101,
     "QuestFailTalkTriggerId": 1002,
+    "ServerEffectId": [
+      1
+    ],
     "SpecialConfigId": 1004,
     "StoryPath": "SpecialQuest1101ProtectDafu.story",
+    "SubRegionIds": [
+      102101
+    ],
     "TalkTriggerId": 1001,
-    "TriggerBoxStaticCreatorId": 1640042,
     "UniversalConfigId": 1004
   },
   "1005": {
@@ -252,11 +254,11 @@
     "UniversalConfigId": 1010
   },
   "1011": {
-    "BuffId": [
-      97
-    ],
     "QuestChainId": 110101,
     "QuestFailTalkTriggerId": 1002,
+    "ServerEffectId": [
+      1
+    ],
     "SpecialConfigId": 1011,
     "StoryPath": "SpecialQuest1101HelpDafu.story",
     "SubRegionIds": [
@@ -287,11 +289,11 @@
     "UniversalConfigId": 1013
   },
   "1014": {
-    "BuffId": [
-      97
-    ],
     "QuestChainId": 110109,
     "QuestFailTalkTriggerId": 1002,
+    "ServerEffectId": [
+      1
+    ],
     "SpecialConfigId": 1014,
     "StoryPath": "SpecialQuest1101Shenpan01.story",
     "SubRegionIds": [
@@ -312,11 +314,11 @@
     "UniversalConfigId": 1015
   },
   "1017": {
-    "BuffId": [
-      97
-    ],
     "QuestChainId": 110107,
     "QuestFailTalkTriggerId": 1002,
+    "ServerEffectId": [
+      1
+    ],
     "SpecialConfigId": 1017,
     "StoryPath": "SpecialQuest1101Wake.story",
     "SubRegionIds": [
@@ -335,11 +337,11 @@
     "UniversalConfigId": 1018
   },
   "1019": {
-    "BuffId": [
-      97
-    ],
     "QuestChainId": 110107,
     "QuestFailTalkTriggerId": 1002,
+    "ServerEffectId": [
+      1
+    ],
     "SpecialConfigId": 1019,
     "StoryPath": "SpecialQuest1101ZhongKongJIGUAN.story",
     "TalkTriggerId": 1001,
@@ -369,11 +371,11 @@
     "UniversalConfigId": 1023
   },
   "1024": {
-    "BuffId": [
-      97
-    ],
     "QuestChainId": 110109,
     "QuestFailTalkTriggerId": 1002,
+    "ServerEffectId": [
+      1
+    ],
     "SpecialConfigId": 1024,
     "StoryPath": "SpecialQuest1101Shenpan02.story",
     "SubRegionIds": [
@@ -384,11 +386,13 @@
   },
   "1025": {
     "BuffId": [
-      97,
       304
     ],
     "QuestChainId": 110109,
     "QuestFailTalkTriggerId": 1002,
+    "ServerEffectId": [
+      1
+    ],
     "SpecialConfigId": 1025,
     "StoryPath": "SpecialQuest1101Shenpan03.story",
     "SubRegionIds": [
@@ -409,12 +413,12 @@
     "UniversalConfigId": 1026
   },
   "1028": {
-    "BuffId": [
-      97
-    ],
     "FailCustomEvent": "Fail",
     "QuestChainId": 100305,
     "QuestFailTalkTriggerId": 1002,
+    "ServerEffectId": [
+      1
+    ],
     "SpecialConfigId": 1028,
     "StoryPath": "SpecialQuest1003100305battle1pre.story",
     "SubRegionIds": [
@@ -424,12 +428,12 @@
     "UniversalConfigId": 1030
   },
   "1029": {
-    "BuffId": [
-      97
-    ],
     "FailCustomEvent": "Fail",
     "QuestChainId": 100305,
     "QuestFailTalkTriggerId": 1002,
+    "ServerEffectId": [
+      1
+    ],
     "SpecialConfigId": 1029,
     "StoryPath": "SpecialQuest1003100305escape.story",
     "SubRegionIds": [
@@ -439,12 +443,12 @@
     "UniversalConfigId": 1030
   },
   "1030": {
-    "BuffId": [
-      97
-    ],
     "FailCustomEvent": "Fail",
     "QuestChainId": 100305,
     "QuestFailTalkTriggerId": 1002,
+    "ServerEffectId": [
+      1
+    ],
     "SpecialConfigId": 1030,
     "StoryPath": "SpecialQuest1003100305battle.story",
     "SubRegionIds": [
@@ -454,12 +458,12 @@
     "UniversalConfigId": 1030
   },
   "1031": {
-    "BuffId": [
-      97
-    ],
     "FailCustomEvent": "Fail",
     "QuestChainId": 100305,
     "QuestFailTalkTriggerId": 1002,
+    "ServerEffectId": [
+      1
+    ],
     "SpecialConfigId": 1031,
     "StoryPath": "SpecialQuest1003100305battle2.story",
     "SubRegionIds": [
@@ -469,12 +473,12 @@
     "UniversalConfigId": 1030
   },
   "1032": {
-    "BuffId": [
-      97
-    ],
     "FailCustomEvent": "Fail",
     "QuestChainId": 100305,
     "QuestFailTalkTriggerId": 1002,
+    "ServerEffectId": [
+      1
+    ],
     "SpecialConfigId": 1032,
     "StoryPath": "SpecialQuest1003100305battle3.story",
     "SubRegionIds": [
@@ -484,12 +488,12 @@
     "UniversalConfigId": 1030
   },
   "1033": {
-    "BuffId": [
-      97
-    ],
     "FailCustomEvent": "Fail",
     "QuestChainId": 100305,
     "QuestFailTalkTriggerId": 1002,
+    "ServerEffectId": [
+      1
+    ],
     "SpecialConfigId": 1033,
     "StoryPath": "SpecialQuest1003100305battle4.story",
     "SubRegionIds": [
@@ -499,12 +503,12 @@
     "UniversalConfigId": 1035
   },
   "1034": {
-    "BuffId": [
-      97
-    ],
     "FailCustomEvent": "Fail",
     "QuestChainId": 100305,
     "QuestFailTalkTriggerId": 1002,
+    "ServerEffectId": [
+      1
+    ],
     "SpecialConfigId": 1034,
     "StoryPath": "SpecialQuest1003100305battle5.story",
     "SubRegionIds": [
@@ -541,7 +545,7 @@
     "StoryPath": "SpecialQuest1003100302sewsp3.story",
     "TalkTriggerId": 1001,
     "TriggerBoxStaticCreatorId": 1720209,
-    "UniversalConfigId": 1035
+    "UniversalConfigId": 1036
   },
   "1040": {
     "FailCustomEvent": "Fail",
@@ -556,12 +560,12 @@
     "UniversalConfigId": 1040
   },
   "1041": {
-    "BuffId": [
-      97
-    ],
     "FailCustomEvent": "Fail",
     "QuestChainId": 100305,
     "QuestFailTalkTriggerId": 1002,
+    "ServerEffectId": [
+      1
+    ],
     "SpecialConfigId": 1041,
     "StoryPath": "SpecialQuest1003100306thea.story",
     "SubRegionIds": [
@@ -571,12 +575,12 @@
     "UniversalConfigId": 1034
   },
   "1042": {
-    "BuffId": [
-      97
-    ],
     "FailCustomEvent": "Fail",
     "QuestChainId": 100306,
     "QuestFailTalkTriggerId": 1002,
+    "ServerEffectId": [
+      1
+    ],
     "SpecialConfigId": 1042,
     "StoryPath": "SpecialQuest1003100306thea2.story",
     "SubRegionIds": [
@@ -623,12 +627,12 @@
     "UniversalConfigId": 1035
   },
   "1046": {
-    "BuffId": [
-      97
-    ],
     "FailCustomEvent": "Fail",
     "QuestChainId": 100305,
     "QuestFailTalkTriggerId": 1002,
+    "ServerEffectId": [
+      1
+    ],
     "SpecialConfigId": 1046,
     "StoryPath": "SpecialQuest1003100306theaout.story",
     "TalkTriggerId": 1001,
@@ -646,11 +650,11 @@
     "UniversalConfigId": 1047
   },
   "1048": {
-    "BuffId": [
-      97
-    ],
     "QuestChainId": 110108,
     "QuestFailTalkTriggerId": 1002,
+    "ServerEffectId": [
+      1
+    ],
     "SpecialConfigId": 1048,
     "StoryPath": "SpecialQuest1101ShenpanPre.story",
     "SubRegionIds": [
@@ -702,12 +706,12 @@
     "UniversalConfigId": 1052
   },
   "1053": {
-    "BuffId": [
-      97
-    ],
     "FailCustomEvent": "Fail",
     "QuestChainId": 100305,
     "QuestFailTalkTriggerId": 1002,
+    "ServerEffectId": [
+      1
+    ],
     "SpecialConfigId": 1053,
     "StoryPath": "SpecialQuest1003100306thea1.story",
     "SubRegionIds": [
@@ -722,8 +726,10 @@
     "QuestFailTalkTriggerId": 1002,
     "SpecialConfigId": 1054,
     "StoryPath": "SpecialQuestSide200103_Pet01Battle01.story",
+    "SubRegionIds": [
+      101103
+    ],
     "TalkTriggerId": 1001,
-    "TriggerBoxStaticCreatorId": 1240985,
     "UniversalConfigId": 1054
   },
   "1055": {
@@ -758,10 +764,410 @@
     "TalkTriggerId": 1001,
     "UniversalConfigId": 1057
   },
+  "2001": {
+    "FailCustomEvent": "Fail",
+    "QuestChainId": 120104,
+    "QuestFailTalkTriggerId": 1002,
+    "ServerEffectId": [
+      1
+    ],
+    "SpecialConfigId": 2001,
+    "StoryPath": "SpecialQuest1201Nai01.story",
+    "SubRegionIds": [
+      104301
+    ],
+    "TalkTriggerId": 1001,
+    "UniversalConfigId": 2001
+  },
+  "2002": {
+    "FailCustomEvent": "Fail",
+    "QuestChainId": 120104,
+    "QuestFailTalkTriggerId": 1002,
+    "ServerEffectId": [
+      1
+    ],
+    "SpecialConfigId": 2002,
+    "StoryPath": "SpecialQuest1201Nai02.story",
+    "SubRegionIds": [
+      104401
+    ],
+    "TalkTriggerId": 1001,
+    "UniversalConfigId": 2002
+  },
+  "2003": {
+    "FailCustomEvent": "Fail",
+    "QuestChainId": 120104,
+    "QuestFailTalkTriggerId": 1002,
+    "ServerEffectId": [
+      1
+    ],
+    "SpecialConfigId": 2003,
+    "StoryPath": "SpecialQuest1201Nai03.story",
+    "SubRegionIds": [
+      105001
+    ],
+    "TalkTriggerId": 1001,
+    "UniversalConfigId": 2003
+  },
+  "2004": {
+    "FailCustomEvent": "Fail",
+    "QuestChainId": 120101,
+    "QuestFailTalkTriggerId": 1002,
+    "SpecialConfigId": 2004,
+    "StoryPath": "SpecialQuest1201Port01.story",
+    "TalkTriggerId": 1001,
+    "TriggerBoxStaticCreatorId": 2090061,
+    "UniversalConfigId": 2004
+  },
+  "2005": {
+    "FailCustomEvent": "Fail",
+    "QuestChainId": 120102,
+    "QuestFailTalkTriggerId": 1002,
+    "SpecialConfigId": 2005,
+    "StoryPath": "SpecialQuest1201Cav01.story",
+    "SubRegionIds": [
+      104103
+    ],
+    "TalkTriggerId": 1001,
+    "UniversalConfigId": 2005
+  },
+  "2006": {
+    "FailCustomEvent": "Fail",
+    "QuestChainId": 120102,
+    "QuestFailTalkTriggerId": 1002,
+    "SpecialConfigId": 2006,
+    "StoryPath": "SpecialQuest1201Cav02.story",
+    "SubRegionIds": [
+      104103
+    ],
+    "TalkTriggerId": 1001,
+    "UniversalConfigId": 2007
+  },
+  "2007": {
+    "FailCustomEvent": "Fail",
+    "QuestChainId": 120102,
+    "QuestFailTalkTriggerId": 1002,
+    "SpecialConfigId": 2007,
+    "StoryPath": "SpecialQuest1201Cav02.story",
+    "SubRegionIds": [
+      104103
+    ],
+    "TalkTriggerId": 1001,
+    "UniversalConfigId": 2005
+  },
+  "2008": {
+    "FailCustomEvent": "Fail",
+    "QuestChainId": 120105,
+    "QuestFailTalkTriggerId": 1002,
+    "SpecialConfigId": 2008,
+    "StoryPath": "SpecialQuest1201Batt01.story",
+    "SubRegionIds": [
+      104201
+    ],
+    "TalkTriggerId": 1001,
+    "UniversalConfigId": 2006
+  },
+  "2009": {
+    "FailCustomEvent": "Fail",
+    "QuestChainId": 120105,
+    "QuestFailTalkTriggerId": 1002,
+    "SpecialConfigId": 2009,
+    "StoryPath": "SpecialQuest1201Batt02.story",
+    "SubRegionIds": [
+      104601
+    ],
+    "TalkTriggerId": 1001,
+    "UniversalConfigId": 2006
+  },
+  "2010": {
+    "FailCustomEvent": "Fail",
+    "QuestChainId": 120105,
+    "QuestFailTalkTriggerId": 1002,
+    "SpecialConfigId": 2010,
+    "StoryPath": "SpecialQuest1201Batt03.story",
+    "SubRegionIds": [
+      104701
+    ],
+    "TalkTriggerId": 1001,
+    "UniversalConfigId": 2006
+  },
+  "2011": {
+    "FailCustomEvent": "Fail",
+    "QuestChainId": 120105,
+    "QuestFailTalkTriggerId": 1002,
+    "SpecialConfigId": 2011,
+    "StoryPath": "SpecialQuest1201YumingBossFight.story",
+    "SubRegionIds": [
+      104102
+    ],
+    "TalkTriggerId": 1001,
+    "UniversalConfigId": 2011
+  },
+  "2012": {
+    "FailCustomEvent": "Fail",
+    "QuestChainId": 120106,
+    "QuestFailTalkTriggerId": 1002,
+    "SpecialConfigId": 2012,
+    "StoryPath": "SpecialQuest1201HeilongBossFight.story",
+    "SubRegionIds": [
+      105701
+    ],
+    "TalkTriggerId": 1001,
+    "UniversalConfigId": 2012
+  },
+  "2013": {
+    "FailCustomEvent": "Fail",
+    "QuestChainId": 120101,
+    "QuestFailTalkTriggerId": 1002,
+    "ServerEffectId": [
+      1
+    ],
+    "SpecialConfigId": 2013,
+    "StoryPath": "SpecialQuest1201PortJiebei.story",
+    "SubRegionIds": [
+      104108
+    ],
+    "TalkTriggerId": 1001,
+    "UniversalConfigId": 2013
+  },
+  "2014": {
+    "FailCustomEvent": "Fail",
+    "QuestChainId": 120106,
+    "QuestFailTalkTriggerId": 1002,
+    "ServerEffectId": [
+      1
+    ],
+    "SpecialConfigId": 2014,
+    "StoryPath": "SpecialQuest1201HeilongBossHook.story",
+    "SubRegionIds": [
+      105701
+    ],
+    "TalkTriggerId": 1001,
+    "UniversalConfigId": 2014
+  },
+  "2015": {
+    "FailCustomEvent": "Fail",
+    "QuestChainId": 120106,
+    "QuestFailTalkTriggerId": 1002,
+    "ServerEffectId": [
+      1
+    ],
+    "SpecialConfigId": 2015,
+    "StoryPath": "SpecialQuest1201HeilongBossWalk.story",
+    "SubRegionIds": [
+      105701
+    ],
+    "TalkTriggerId": 1001,
+    "UniversalConfigId": 2015
+  },
+  "2016": {
+    "FailCustomEvent": "Fail",
+    "QuestChainId": 120103,
+    "QuestFailTalkTriggerId": 1002,
+    "SpecialConfigId": 2016,
+    "StoryPath": "SpecialQuest1201Shi01Fight.story",
+    "SubRegionIds": [
+      104109
+    ],
+    "TalkTriggerId": 1001,
+    "UniversalConfigId": 2016
+  },
+  "2017": {
+    "FailCustomEvent": "Fail",
+    "QuestChainId": 120103,
+    "QuestFailTalkTriggerId": 1002,
+    "ServerEffectId": [
+      1
+    ],
+    "SpecialConfigId": 2017,
+    "StoryPath": "SpecialQuest1201FilWalk01.story",
+    "SubRegionIds": [
+      104105
+    ],
+    "TalkTriggerId": 1001,
+    "UniversalConfigId": 2017
+  },
+  "2018": {
+    "FailCustomEvent": "Fail",
+    "QuestChainId": 120103,
+    "QuestFailTalkTriggerId": 1002,
+    "SpecialConfigId": 2018,
+    "StoryPath": "SpecialQuest1201FilFight01.story",
+    "SubRegionIds": [
+      104105
+    ],
+    "TalkTriggerId": 1001,
+    "UniversalConfigId": 2018
+  },
+  "2019": {
+    "FailCustomEvent": "Fail",
+    "QuestChainId": 120103,
+    "QuestFailTalkTriggerId": 1002,
+    "ServerEffectId": [
+      1
+    ],
+    "SpecialConfigId": 2019,
+    "StoryPath": "SpecialQuest1201FilWalk02.story",
+    "SubRegionIds": [
+      104105
+    ],
+    "TalkTriggerId": 1001,
+    "UniversalConfigId": 2019
+  },
+  "2020": {
+    "FailCustomEvent": "Fail",
+    "QuestChainId": 120103,
+    "QuestFailTalkTriggerId": 1002,
+    "SpecialConfigId": 2020,
+    "StoryPath": "SpecialQuest1201SprFight01.story",
+    "SubRegionIds": [
+      104107
+    ],
+    "TalkTriggerId": 1001,
+    "UniversalConfigId": 2020
+  },
+  "2021": {
+    "FailCustomEvent": "Fail",
+    "QuestChainId": 120103,
+    "QuestFailTalkTriggerId": 1002,
+    "SpecialConfigId": 2021,
+    "StoryPath": "SpecialQuest1201SprFight02.story",
+    "SubRegionIds": [
+      104110
+    ],
+    "TalkTriggerId": 1001,
+    "UniversalConfigId": 2021
+  },
+  "2022": {
+    "FailCustomEvent": "Fail",
+    "QuestChainId": 120103,
+    "QuestFailTalkTriggerId": 1002,
+    "SpecialConfigId": 2022,
+    "StoryPath": "SpecialQuest1201SprFight03.story",
+    "SubRegionIds": [
+      104110
+    ],
+    "TalkTriggerId": 1001,
+    "UniversalConfigId": 2022
+  },
+  "2023": {
+    "FailCustomEvent": "Fail",
+    "QuestChainId": 120103,
+    "QuestFailTalkTriggerId": 1002,
+    "SpecialConfigId": 2023,
+    "StoryPath": "SpecialQuest1201FilMech.story",
+    "SubRegionIds": [
+      104105
+    ],
+    "TalkTriggerId": 1001,
+    "UniversalConfigId": 2023
+  },
+  "2024": {
+    "FailCustomEvent": "Fail",
+    "QuestChainId": 120104,
+    "QuestFailTalkTriggerId": 1002,
+    "ServerEffectId": [
+      1
+    ],
+    "SpecialConfigId": 2024,
+    "StoryPath": "SpecialQuest1201FushuHosWalk01.story",
+    "SubRegionIds": [
+      104106
+    ],
+    "TalkTriggerId": 1001,
+    "UniversalConfigId": 2024
+  },
+  "2025": {
+    "FailCustomEvent": "Fail",
+    "QuestChainId": 120104,
+    "QuestFailTalkTriggerId": 1002,
+    "SpecialConfigId": 2025,
+    "StoryPath": "SpecialQuest1201FushuHosWalk02.story",
+    "SubRegionIds": [
+      104106
+    ],
+    "TalkTriggerId": 1001,
+    "UniversalConfigId": 2025
+  },
+  "2026": {
+    "FailCustomEvent": "Fail",
+    "QuestChainId": 120104,
+    "QuestFailTalkTriggerId": 1002,
+    "SpecialConfigId": 2026,
+    "StoryPath": "SpecialQuest1201FushuCenWuyou01Mech.story",
+    "SubRegionIds": [
+      104104
+    ],
+    "TalkTriggerId": 1001,
+    "UniversalConfigId": 2026
+  },
+  "2027": {
+    "FailCustomEvent": "Fail",
+    "QuestChainId": 120104,
+    "QuestFailTalkTriggerId": 1002,
+    "SpecialConfigId": 2027,
+    "StoryPath": "SpecialQuest1201FushuCenWuyou01Walk.story",
+    "SubRegionIds": [
+      104104
+    ],
+    "TalkTriggerId": 1001,
+    "UniversalConfigId": 2027
+  },
+  "2028": {
+    "FailCustomEvent": "Fail",
+    "QuestChainId": 120104,
+    "QuestFailTalkTriggerId": 1002,
+    "SpecialConfigId": 2028,
+    "StoryPath": "SpecialQuest1201FushuCenWuyou02Mech.story",
+    "SubRegionIds": [
+      104104
+    ],
+    "TalkTriggerId": 1001,
+    "UniversalConfigId": 2028
+  },
+  "2029": {
+    "FailCustomEvent": "Fail",
+    "QuestChainId": 120104,
+    "QuestFailTalkTriggerId": 1002,
+    "SpecialConfigId": 2029,
+    "StoryPath": "SpecialQuest1201FushuCenWuyou02Walk.story",
+    "SubRegionIds": [
+      104104
+    ],
+    "TalkTriggerId": 1001,
+    "UniversalConfigId": 2029
+  },
+  "2030": {
+    "FailCustomEvent": "Fail",
+    "QuestChainId": 120104,
+    "QuestFailTalkTriggerId": 1002,
+    "SpecialConfigId": 2030,
+    "StoryPath": "SpecialQuest1201FushuCenWuyou03Mech.story",
+    "SubRegionIds": [
+      104104
+    ],
+    "TalkTriggerId": 1001,
+    "UniversalConfigId": 2030
+  },
+  "2031": {
+    "FailCustomEvent": "Fail",
+    "QuestChainId": 120104,
+    "QuestFailTalkTriggerId": 1002,
+    "SpecialConfigId": 2031,
+    "StoryPath": "SpecialQuest1201FushuCenWuyou03Walk.story",
+    "SubRegionIds": [
+      104104
+    ],
+    "TalkTriggerId": 1001,
+    "UniversalConfigId": 2031
+  },
   "2051": {
     "FailCustomEvent": "Fail",
     "QuestChainId": 120111,
     "QuestFailTalkTriggerId": 1002,
+    "ServerEffectId": [
+      1
+    ],
     "SpecialConfigId": 2051,
     "StoryPath": "SpecialQuestActiveFinaFeinaDay01Home.story",
     "SubRegionIds": [
@@ -774,6 +1180,9 @@
     "FailCustomEvent": "Fail",
     "QuestChainId": 120111,
     "QuestFailTalkTriggerId": 1002,
+    "ServerEffectId": [
+      1
+    ],
     "SpecialConfigId": 2052,
     "StoryPath": "SpecialQuestActiveFinaFeinaDay01Walk.story",
     "SubRegionIds": [
@@ -786,6 +1195,9 @@
     "FailCustomEvent": "Fail",
     "QuestChainId": 120111,
     "QuestFailTalkTriggerId": 1002,
+    "ServerEffectId": [
+      1
+    ],
     "SpecialConfigId": 2053,
     "StoryPath": "SpecialQuestActiveFinaFeinaDay01Catch01.story",
     "SubRegionIds": [
@@ -798,6 +1210,9 @@
     "FailCustomEvent": "Fail",
     "QuestChainId": 120111,
     "QuestFailTalkTriggerId": 1002,
+    "ServerEffectId": [
+      1
+    ],
     "SpecialConfigId": 2054,
     "StoryPath": "SpecialQuestActiveFinaFeinaDay01Catch02.story",
     "SubRegionIds": [
@@ -810,6 +1225,9 @@
     "FailCustomEvent": "Fail",
     "QuestChainId": 120111,
     "QuestFailTalkTriggerId": 1002,
+    "ServerEffectId": [
+      1
+    ],
     "SpecialConfigId": 2055,
     "StoryPath": "SpecialQuestActiveFinaFeinaDay01Catch03.story",
     "SubRegionIds": [
@@ -822,6 +1240,9 @@
     "FailCustomEvent": "Fail",
     "QuestChainId": 120111,
     "QuestFailTalkTriggerId": 1002,
+    "ServerEffectId": [
+      1
+    ],
     "SpecialConfigId": 2056,
     "StoryPath": "SpecialQuestActiveFinaFeinaDay01Back.story",
     "SubRegionIds": [
@@ -834,6 +1255,9 @@
     "FailCustomEvent": "Fail",
     "QuestChainId": 120111,
     "QuestFailTalkTriggerId": 1002,
+    "ServerEffectId": [
+      1
+    ],
     "SpecialConfigId": 2057,
     "StoryPath": "SpecialQuestActiveFinaFeinaDay01Sleep.story",
     "SubRegionIds": [
@@ -846,6 +1270,9 @@
     "FailCustomEvent": "Fail",
     "QuestChainId": 120112,
     "QuestFailTalkTriggerId": 1002,
+    "ServerEffectId": [
+      1
+    ],
     "SpecialConfigId": 2058,
     "StoryPath": "SpecialQuestActiveFinaFeinaDay02Home.story",
     "SubRegionIds": [
@@ -858,6 +1285,9 @@
     "FailCustomEvent": "Fail",
     "QuestChainId": 120112,
     "QuestFailTalkTriggerId": 1002,
+    "ServerEffectId": [
+      1
+    ],
     "SpecialConfigId": 2059,
     "StoryPath": "SpecialQuestActiveFinaFeinaDay02Walk.story",
     "SubRegionIds": [
@@ -870,6 +1300,9 @@
     "FailCustomEvent": "Fail",
     "QuestChainId": 120112,
     "QuestFailTalkTriggerId": 1002,
+    "ServerEffectId": [
+      1
+    ],
     "SpecialConfigId": 2060,
     "StoryPath": "SpecialQuestActiveFinaFeinaDay02Survey01.story",
     "SubRegionIds": [
@@ -882,6 +1315,9 @@
     "FailCustomEvent": "Fail",
     "QuestChainId": 120112,
     "QuestFailTalkTriggerId": 1002,
+    "ServerEffectId": [
+      1
+    ],
     "SpecialConfigId": 2061,
     "StoryPath": "SpecialQuestActiveFinaFeinaDay02Survey02.story",
     "SubRegionIds": [
@@ -894,6 +1330,9 @@
     "FailCustomEvent": "Fail",
     "QuestChainId": 120112,
     "QuestFailTalkTriggerId": 1002,
+    "ServerEffectId": [
+      1
+    ],
     "SpecialConfigId": 2062,
     "StoryPath": "SpecialQuestActiveFinaFeinaDay02Back01.story",
     "SubRegionIds": [
@@ -906,6 +1345,9 @@
     "FailCustomEvent": "Fail",
     "QuestChainId": 120112,
     "QuestFailTalkTriggerId": 1002,
+    "ServerEffectId": [
+      1
+    ],
     "SpecialConfigId": 2063,
     "StoryPath": "SpecialQuestActiveFinaFeinaDay02Back02.story",
     "SubRegionIds": [
@@ -918,6 +1360,9 @@
     "FailCustomEvent": "Fail",
     "QuestChainId": 120113,
     "QuestFailTalkTriggerId": 1002,
+    "ServerEffectId": [
+      1
+    ],
     "SpecialConfigId": 2064,
     "StoryPath": "SpecialQuestActiveFinaFeinaDay03Home.story",
     "SubRegionIds": [
@@ -930,6 +1375,9 @@
     "FailCustomEvent": "Fail",
     "QuestChainId": 120113,
     "QuestFailTalkTriggerId": 1002,
+    "ServerEffectId": [
+      1
+    ],
     "SpecialConfigId": 2065,
     "StoryPath": "SpecialQuestActiveFinaFeinaDay03Walk.story",
     "SubRegionIds": [
@@ -942,6 +1390,9 @@
     "FailCustomEvent": "Fail",
     "QuestChainId": 120113,
     "QuestFailTalkTriggerId": 1002,
+    "ServerEffectId": [
+      1
+    ],
     "SpecialConfigId": 2066,
     "StoryPath": "SpecialQuestActiveFinaFeinaDay03Catch.story",
     "SubRegionIds": [
@@ -954,6 +1405,9 @@
     "FailCustomEvent": "Fail",
     "QuestChainId": 120113,
     "QuestFailTalkTriggerId": 1002,
+    "ServerEffectId": [
+      1
+    ],
     "SpecialConfigId": 2067,
     "StoryPath": "SpecialQuestActiveFinaFeinaDay03HomeBook.story",
     "SubRegionIds": [
@@ -966,6 +1420,9 @@
     "FailCustomEvent": "Fail",
     "QuestChainId": 120114,
     "QuestFailTalkTriggerId": 1002,
+    "ServerEffectId": [
+      1
+    ],
     "SpecialConfigId": 2070,
     "StoryPath": "SpecialQuestActiveFinaFeinaDay04Home.story",
     "SubRegionIds": [
@@ -978,6 +1435,9 @@
     "FailCustomEvent": "Fail",
     "QuestChainId": 120114,
     "QuestFailTalkTriggerId": 1002,
+    "ServerEffectId": [
+      1
+    ],
     "SpecialConfigId": 2071,
     "StoryPath": "SpecialQuestActiveFinaFeinaDay04Walk01.story",
     "SubRegionIds": [
@@ -990,6 +1450,9 @@
     "FailCustomEvent": "Fail",
     "QuestChainId": 120114,
     "QuestFailTalkTriggerId": 1002,
+    "ServerEffectId": [
+      1
+    ],
     "SpecialConfigId": 2072,
     "StoryPath": "SpecialQuestActiveFinaFeinaDay04Walk02.story",
     "SubRegionIds": [
@@ -1002,6 +1465,9 @@
     "FailCustomEvent": "Fail",
     "QuestChainId": 120114,
     "QuestFailTalkTriggerId": 1002,
+    "ServerEffectId": [
+      1
+    ],
     "SpecialConfigId": 2073,
     "StoryPath": "SpecialQuestActiveFinaFeinaDay04HomeCry.story",
     "SubRegionIds": [
@@ -1014,6 +1480,9 @@
     "FailCustomEvent": "Fail",
     "QuestChainId": 120114,
     "QuestFailTalkTriggerId": 1002,
+    "ServerEffectId": [
+      1
+    ],
     "SpecialConfigId": 2074,
     "StoryPath": "SpecialQuestActiveFinaFeinaDay04Find01.story",
     "SubRegionIds": [
@@ -1026,6 +1495,9 @@
     "FailCustomEvent": "Fail",
     "QuestChainId": 120114,
     "QuestFailTalkTriggerId": 1002,
+    "ServerEffectId": [
+      1
+    ],
     "SpecialConfigId": 2075,
     "StoryPath": "SpecialQuestActiveFinaFeinaDay04Find02.story",
     "SubRegionIds": [
@@ -1038,6 +1510,9 @@
     "FailCustomEvent": "Fail",
     "QuestChainId": 120114,
     "QuestFailTalkTriggerId": 1002,
+    "ServerEffectId": [
+      1
+    ],
     "SpecialConfigId": 2076,
     "StoryPath": "SpecialQuestActiveFinaFeinaDay04Thief.story",
     "SubRegionIds": [
@@ -1050,6 +1525,9 @@
     "FailCustomEvent": "Fail",
     "QuestChainId": 120114,
     "QuestFailTalkTriggerId": 1002,
+    "ServerEffectId": [
+      1
+    ],
     "SpecialConfigId": 2077,
     "StoryPath": "SpecialQuestActiveFinaFeinaDay04Fight.story",
     "SubRegionIds": [
@@ -1062,6 +1540,9 @@
     "FailCustomEvent": "Fail",
     "QuestChainId": 120114,
     "QuestFailTalkTriggerId": 1002,
+    "ServerEffectId": [
+      1
+    ],
     "SpecialConfigId": 2078,
     "StoryPath": "SpecialQuestActiveFinaFeinaDay04BackCity01.story",
     "SubRegionIds": [
@@ -1074,6 +1555,9 @@
     "FailCustomEvent": "Fail",
     "QuestChainId": 120114,
     "QuestFailTalkTriggerId": 1002,
+    "ServerEffectId": [
+      1
+    ],
     "SpecialConfigId": 2079,
     "StoryPath": "SpecialQuestActiveFinaFeinaDay04BackCity02.story",
     "SubRegionIds": [
@@ -1086,6 +1570,9 @@
     "FailCustomEvent": "Fail",
     "QuestChainId": 120114,
     "QuestFailTalkTriggerId": 1002,
+    "ServerEffectId": [
+      1
+    ],
     "SpecialConfigId": 2080,
     "StoryPath": "SpecialQuestActiveFinaFeinaDay04Back.story",
     "SubRegionIds": [
@@ -1098,6 +1585,9 @@
     "FailCustomEvent": "Fail",
     "QuestChainId": 120114,
     "QuestFailTalkTriggerId": 1002,
+    "ServerEffectId": [
+      1
+    ],
     "SpecialConfigId": 2081,
     "StoryPath": "SpecialQuestActiveFinaFeinaDay04HomeParty.story",
     "SubRegionIds": [
@@ -1110,6 +1600,9 @@
     "FailCustomEvent": "Fail",
     "QuestChainId": 120114,
     "QuestFailTalkTriggerId": 1002,
+    "ServerEffectId": [
+      1
+    ],
     "SpecialConfigId": 2082,
     "StoryPath": "SpecialQuestActiveFinaFeinaDay04StoryEnd.story",
     "SubRegionIds": [
@@ -1143,6 +1636,16 @@
     "TriggerBoxStaticCreatorId": 1191197,
     "UniversalConfigId": 12000208
   },
+  "12000307": {
+    "FailCustomEvent": "East00SteathEnd",
+    "QuestChainId": 120003,
+    "QuestFailTalkTriggerId": 1002,
+    "SpecialConfigId": 12000307,
+    "StoryPath": "SpecialQuest1200East00Stealth.story",
+    "TalkTriggerId": 1001,
+    "TriggerBoxStaticCreatorId": 1191130,
+    "UniversalConfigId": 12000307
+  },
   "20020901": {
     "FailCustomEvent": "Fail",
     "QuestChainId": 200209,
@@ -1152,5 +1655,29 @@
     "TalkTriggerId": 1001,
     "TriggerBoxStaticCreatorId": 1191807,
     "UniversalConfigId": 20020901
+  },
+  "20030401": {
+    "FailCustomEvent": "Fail",
+    "QuestChainId": 200304,
+    "QuestFailTalkTriggerId": 1002,
+    "SpecialConfigId": 20030401,
+    "StoryPath": "SpecialQuestSide200304_MuXiBattle01.story",
+    "SubRegionIds": [
+      104108
+    ],
+    "TalkTriggerId": 1001,
+    "UniversalConfigId": 20030401
+  },
+  "20030402": {
+    "FailCustomEvent": "Fail",
+    "QuestChainId": 200304,
+    "QuestFailTalkTriggerId": 1002,
+    "SpecialConfigId": 20030402,
+    "StoryPath": "SpecialQuestSide200304_MuXiBattle02.story",
+    "SubRegionIds": [
+      104108
+    ],
+    "TalkTriggerId": 1001,
+    "UniversalConfigId": 20030402
   }
 }

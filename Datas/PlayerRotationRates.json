@@ -37,6 +37,12 @@
       0.9
     ]
   },
+  "BuffAnimFlyDodgeSpeed": {
+    "ParamentName": "BuffAnimFlyDodgeSpeed",
+    "ParamentValue": [
+      1500
+    ]
+  },
   "BulletActionEndTime": {
     "ParamentName": "BulletActionEndTime",
     "ParamentValue": [
@@ -123,17 +129,29 @@
       70
     ]
   },
+  "ContrZIgnoreAngle": {
+    "ParamentName": "ContrZIgnoreAngle",
+    "ParamentValue": [
+      20
+    ]
+  },
   "CrouchWalkSpeed": {
     "ParamentName": "CrouchWalkSpeed",
     "ParamentValue": [
       160
     ]
   },
+  "DodgeZeroFrictionTime": {
+    "ParamentName": "DodgeZeroFrictionTime",
+    "ParamentValue": [
+      0.2
+    ]
+  },
   "Drift": {
     "ParamentName": "Drift",
     "ParamentValue": [
       0,
-      108,
+      0,
       0
     ]
   },
@@ -250,6 +268,18 @@
       0.5
     ]
   },
+  "JetRushDodgeSpeed": {
+    "ParamentName": "JetRushDodgeSpeed",
+    "ParamentValue": [
+      3000
+    ]
+  },
+  "JetRushDodgeSpeedTime": {
+    "ParamentName": "JetRushDodgeSpeedTime",
+    "ParamentValue": [
+      0.3
+    ]
+  },
   "LandHeavyTime": {
     "ParamentName": "LandHeavyTime",
     "ParamentValue": [
@@ -332,11 +362,49 @@
       0
     ]
   },
+  "RideFlyHoldTime": {
+    "ParamentName": "RideFlyHoldTime",
+    "ParamentValue": [
+      0.5
+    ]
+  },
+  "RideMoveAcceleration": {
+    "ParamentName": "RideMoveAcceleration",
+    "ParamentValue": [
+      512
+    ]
+  },
+  "RideMoveFirstJumpZ": {
+    "ParamentName": "RideMoveFirstJumpZ",
+    "ParamentValue": [
+      1300
+    ]
+  },
+  "RideMoveFly": {
+    "ParamentName": "RideMoveFly",
+    "ParamentValue": [
+      0,
+      108,
+      0
+    ]
+  },
+  "RideMoveFlyAcceleration": {
+    "ParamentName": "RideMoveFlyAcceleration",
+    "ParamentValue": [
+      2048
+    ]
+  },
+  "RideMoveFlySpeed": {
+    "ParamentName": "RideMoveFlySpeed ",
+    "ParamentValue": [
+      1000
+    ]
+  },
   "RideMoveMax": {
     "ParamentName": "RideMoveMax",
     "ParamentValue": [
       0,
-      360,
+      54,
       0
     ]
   },
@@ -354,10 +422,40 @@
       500
     ]
   },
+  "RideMoveSecondJumpZ": {
+    "ParamentName": "RideMoveSecondJumpZ",
+    "ParamentValue": [
+      1560
+    ]
+  },
+  "RideMoveTurnAngle1": {
+    "ParamentName": "RideMoveTurnAngle1",
+    "ParamentValue": [
+      85
+    ]
+  },
+  "RideMoveTurnAngle2": {
+    "ParamentName": "RideMoveTurnAngle2",
+    "ParamentValue": [
+      135
+    ]
+  },
+  "RideMoveTurnFinTime": {
+    "ParamentName": "RideMoveTurnFinTime",
+    "ParamentValue": [
+      1.1
+    ]
+  },
+  "RideMoveTurnVelocity": {
+    "ParamentName": "RideMoveTurnVelocity",
+    "ParamentValue": [
+      200
+    ]
+  },
   "RideSprintTime": {
     "ParamentName": "RideSprintTime",
     "ParamentValue": [
-      0.6
+      0.5
     ]
   },
   "SecondJumpAllowShootTime": {

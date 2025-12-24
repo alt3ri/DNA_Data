@@ -1,4 +1,30 @@
 {
+  "99001": {
+    "EndTime": 1768770000,
+    "ItemId": 99001,
+    "ItemType": "DailyPack",
+    "Price": 680,
+    "PriceType": 99,
+    "PurchaseLimit": 6,
+    "Sequence": 1,
+    "StartTime": 1766408400,
+    "SubTabId": 99010,
+    "TypeId": 9001,
+    "TypeNum": 1
+  },
+  "99002": {
+    "EndTime": 1770667200,
+    "ItemId": 99002,
+    "ItemType": "DailyPack",
+    "Price": 680,
+    "PriceType": 99,
+    "PurchaseLimit": 6,
+    "Sequence": 2,
+    "StartTime": 1768874400,
+    "SubTabId": 99010,
+    "TypeId": 9002,
+    "TypeNum": 1
+  },
   "110101": {
     "IsSpPopup": 1,
     "ItemId": 110101,
@@ -71,6 +97,30 @@
     "TypeId": 99,
     "TypeNum": 6480
   },
+  "110107": {
+    "IsSpPopup": 1,
+    "ItemId": 110107,
+    "ItemType": "Resource",
+    "Price": 12880,
+    "PriceType": 99,
+    "Sequence": 92,
+    "StartTime": 1766408400,
+    "SubTabId": 1101,
+    "TypeId": 99,
+    "TypeNum": 12880
+  },
+  "110108": {
+    "IsSpPopup": 1,
+    "ItemId": 110108,
+    "ItemType": "Resource",
+    "Price": 32980,
+    "PriceType": 99,
+    "Sequence": 91,
+    "StartTime": 1766408400,
+    "SubTabId": 1101,
+    "TypeId": 99,
+    "TypeNum": 32980
+  },
   "120101": {
     "IsSpPopup": 1,
     "ItemId": 120101,
@@ -78,7 +128,7 @@
     "Price": 980,
     "PriceType": 99,
     "PurchaseLimit": 1,
-    "Sequence": 100,
+    "Sequence": 1152,
     "SoldOutDisplay": true,
     "StartTime": 1672545600,
     "SubTabId": 1201,
@@ -120,7 +170,7 @@
     "Price": 1280,
     "PriceType": 99,
     "PurchaseLimit": 1,
-    "Sequence": 101,
+    "Sequence": 5000,
     "StartTime": 1672545600,
     "SubTabId": 1201,
     "TypeId": 110006,
@@ -134,7 +184,7 @@
     "PriceType": 99,
     "PurchaseLimit": 1,
     "Require": 120105,
-    "Sequence": 101,
+    "Sequence": 5000,
     "StartTime": 1672545600,
     "SubTabId": 1201,
     "TypeId": 110006,
@@ -147,10 +197,386 @@
     "Price": 1280,
     "PriceType": 99,
     "Require": 120106,
-    "Sequence": 101,
+    "Sequence": 5000,
     "StartTime": 1672545600,
     "SubTabId": 1201,
     "TypeId": 110006,
+    "TypeNum": 1
+  },
+  "120108": {
+    "IsSpPopup": 1,
+    "ItemId": 120108,
+    "ItemType": "WeaponSkin",
+    "Price": 1280,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 2000,
+    "SoldOutDisplay": true,
+    "StartTime": 1764036000,
+    "SubTabId": 1201,
+    "TypeId": 3010102,
+    "TypeNum": 1
+  },
+  "120109": {
+    "IsSpPopup": 1,
+    "ItemId": 120109,
+    "ItemType": "Resource",
+    "Price": 1280,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 5001,
+    "StartTime": 1766408400,
+    "SubTabId": 1201,
+    "TypeId": 110012,
+    "TypeNum": 1
+  },
+  "120110": {
+    "IsSpPopup": 1,
+    "ItemId": 120110,
+    "ItemType": "Resource",
+    "Price": 1280,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Require": 120109,
+    "Sequence": 5001,
+    "StartTime": 1766408400,
+    "SubTabId": 1201,
+    "TypeId": 110012,
+    "TypeNum": 1
+  },
+  "120111": {
+    "IsSpPopup": 1,
+    "ItemId": 120111,
+    "ItemType": "Resource",
+    "Price": 1280,
+    "PriceType": 99,
+    "Require": 120110,
+    "Sequence": 5001,
+    "StartTime": 1766408400,
+    "SubTabId": 1201,
+    "TypeId": 110012,
+    "TypeNum": 1
+  },
+  "120112": {
+    "IsSpPopup": 1,
+    "ItemId": 120112,
+    "ItemType": "WeaponSkin",
+    "Price": 680,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 1096,
+    "SoldOutDisplay": true,
+    "StartTime": 1766408400,
+    "SubTabId": 1201,
+    "TypeId": 3010204,
+    "TypeNum": 1
+  },
+  "120113": {
+    "IsSpPopup": 1,
+    "ItemId": 120113,
+    "ItemType": "WeaponSkin",
+    "Price": 680,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 1097,
+    "SoldOutDisplay": true,
+    "StartTime": 1766408400,
+    "SubTabId": 1201,
+    "TypeId": 3010405,
+    "TypeNum": 1
+  },
+  "120114": {
+    "IsSpPopup": 1,
+    "ItemId": 120114,
+    "ItemType": "WeaponSkin",
+    "Price": 680,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 1100,
+    "SoldOutDisplay": true,
+    "StartTime": 1766408400,
+    "SubTabId": 1201,
+    "TypeId": 3010106,
+    "TypeNum": 1
+  },
+  "120115": {
+    "IsSpPopup": 1,
+    "ItemId": 120115,
+    "ItemType": "WeaponSkin",
+    "Price": 680,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 1098,
+    "SoldOutDisplay": true,
+    "StartTime": 1766408400,
+    "SubTabId": 1201,
+    "TypeId": 3010705,
+    "TypeNum": 1
+  },
+  "120117": {
+    "IsSpPopup": 1,
+    "ItemId": 120117,
+    "ItemType": "WeaponSkin",
+    "Price": 680,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 1099,
+    "SoldOutDisplay": true,
+    "StartTime": 1766408400,
+    "SubTabId": 1201,
+    "TypeId": 3010605,
+    "TypeNum": 1
+  },
+  "120118": {
+    "IsSpPopup": 1,
+    "ItemId": 120118,
+    "ItemType": "WeaponSkin",
+    "Price": 980,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 1153,
+    "SoldOutDisplay": true,
+    "StartTime": 1767664800,
+    "SubTabId": 1201,
+    "TypeId": 3010403,
+    "TypeNum": 1
+  },
+  "120119": {
+    "IsSpPopup": 1,
+    "ItemId": 120119,
+    "ItemType": "WeaponSkin",
+    "Price": 980,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 1156,
+    "SoldOutDisplay": true,
+    "StartTime": 1767664800,
+    "SubTabId": 1201,
+    "TypeId": 3010104,
+    "TypeNum": 1
+  },
+  "120120": {
+    "IsSpPopup": 1,
+    "ItemId": 120120,
+    "ItemType": "WeaponSkin",
+    "Price": 980,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 1154,
+    "SoldOutDisplay": true,
+    "StartTime": 1767664800,
+    "SubTabId": 1201,
+    "TypeId": 3010701,
+    "TypeNum": 1
+  },
+  "120121": {
+    "IsSpPopup": 1,
+    "ItemId": 120121,
+    "ItemType": "WeaponSkin",
+    "Price": 980,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 1151,
+    "SoldOutDisplay": true,
+    "StartTime": 1767664800,
+    "SubTabId": 1201,
+    "TypeId": 3010801,
+    "TypeNum": 1
+  },
+  "120122": {
+    "IsSpPopup": 1,
+    "ItemId": 120122,
+    "ItemType": "WeaponSkin",
+    "Price": 980,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 1155,
+    "SoldOutDisplay": true,
+    "StartTime": 1767664800,
+    "SubTabId": 1201,
+    "TypeId": 3010601,
+    "TypeNum": 1
+  },
+  "120123": {
+    "IsSpPopup": 1,
+    "ItemId": 120123,
+    "ItemType": "WeaponSkin",
+    "Price": 680,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 1139,
+    "SoldOutDisplay": true,
+    "StartTime": 1768874400,
+    "SubTabId": 1201,
+    "TypeId": 3011101,
+    "TypeNum": 1
+  },
+  "120124": {
+    "IsSpPopup": 1,
+    "ItemId": 120124,
+    "ItemType": "WeaponSkin",
+    "Price": 680,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 1140,
+    "SoldOutDisplay": true,
+    "StartTime": 1768874400,
+    "SubTabId": 1201,
+    "TypeId": 3010502,
+    "TypeNum": 1
+  },
+  "120125": {
+    "IsSpPopup": 1,
+    "ItemId": 120125,
+    "ItemType": "WeaponSkin",
+    "Price": 680,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 1143,
+    "SoldOutDisplay": true,
+    "StartTime": 1768874400,
+    "SubTabId": 1201,
+    "TypeId": 3010302,
+    "TypeNum": 1
+  },
+  "120126": {
+    "IsSpPopup": 1,
+    "ItemId": 120126,
+    "ItemType": "WeaponSkin",
+    "Price": 680,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 1142,
+    "SoldOutDisplay": true,
+    "StartTime": 1768874400,
+    "SubTabId": 1201,
+    "TypeId": 3010901,
+    "TypeNum": 1
+  },
+  "120127": {
+    "IsSpPopup": 1,
+    "ItemId": 120127,
+    "ItemType": "WeaponSkin",
+    "Price": 680,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 1141,
+    "SoldOutDisplay": true,
+    "StartTime": 1768874400,
+    "SubTabId": 1201,
+    "TypeId": 3011201,
+    "TypeNum": 1
+  },
+  "120128": {
+    "IsSpPopup": 1,
+    "ItemId": 120128,
+    "ItemType": "WeaponSkin",
+    "Price": 680,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 1138,
+    "SoldOutDisplay": true,
+    "StartTime": 1768874400,
+    "SubTabId": 1201,
+    "TypeId": 3011001,
+    "TypeNum": 1
+  },
+  "120129": {
+    "IsSpPopup": 1,
+    "ItemId": 120129,
+    "ItemType": "WeaponSkin",
+    "Price": 680,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 1144,
+    "SoldOutDisplay": true,
+    "StartTime": 1768874400,
+    "SubTabId": 1201,
+    "TypeId": 3010303,
+    "TypeNum": 1
+  },
+  "120130": {
+    "IsSpPopup": 1,
+    "ItemId": 120130,
+    "ItemType": "WeaponSkin",
+    "Price": 680,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 1150,
+    "SoldOutDisplay": true,
+    "StartTime": 1769479200,
+    "SubTabId": 1201,
+    "TypeId": 3010105,
+    "TypeNum": 1
+  },
+  "120131": {
+    "IsSpPopup": 1,
+    "ItemId": 120131,
+    "ItemType": "WeaponSkin",
+    "Price": 680,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 1149,
+    "SoldOutDisplay": true,
+    "StartTime": 1769479200,
+    "SubTabId": 1201,
+    "TypeId": 3010603,
+    "TypeNum": 1
+  },
+  "120132": {
+    "IsSpPopup": 1,
+    "ItemId": 120132,
+    "ItemType": "WeaponSkin",
+    "Price": 680,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 1146,
+    "SoldOutDisplay": true,
+    "StartTime": 1769479200,
+    "SubTabId": 1201,
+    "TypeId": 3010203,
+    "TypeNum": 1
+  },
+  "120133": {
+    "IsSpPopup": 1,
+    "ItemId": 120133,
+    "ItemType": "WeaponSkin",
+    "Price": 680,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 1147,
+    "SoldOutDisplay": true,
+    "StartTime": 1769479200,
+    "SubTabId": 1201,
+    "TypeId": 3010404,
+    "TypeNum": 1
+  },
+  "120134": {
+    "IsSpPopup": 1,
+    "ItemId": 120134,
+    "ItemType": "WeaponSkin",
+    "Price": 680,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 1148,
+    "SoldOutDisplay": true,
+    "StartTime": 1769479200,
+    "SubTabId": 1201,
+    "TypeId": 3010703,
+    "TypeNum": 1
+  },
+  "120135": {
+    "IsSpPopup": 1,
+    "ItemId": 120135,
+    "ItemType": "WeaponSkin",
+    "Price": 680,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 1145,
+    "SoldOutDisplay": true,
+    "StartTime": 1769479200,
+    "SubTabId": 1201,
+    "TypeId": 3010802,
     "TypeNum": 1
   },
   "120201": {
@@ -161,7 +587,7 @@
     "Price": 680,
     "PriceType": 99,
     "PurchaseLimit": 1,
-    "Sequence": 109,
+    "Sequence": 112,
     "SoldOutDisplay": true,
     "StartTime": 1764036000,
     "SubTabId": 1202,
@@ -400,7 +826,7 @@
     "Price": 0,
     "PriceType": 99,
     "PurchaseLimit": 1,
-    "Sequence": 110,
+    "Sequence": 9999,
     "SoldOutDisplay": true,
     "StartTime": 1672545600,
     "SubTabId": 1202,
@@ -419,6 +845,183 @@
     "StartTime": 1764036000,
     "SubTabId": 1202,
     "TypeId": 10031,
+    "TypeNum": 1
+  },
+  "120221": {
+    "EndTime": 1766394000,
+    "IsSpPopup": 1,
+    "ItemId": 120221,
+    "ItemType": "CharAccessory",
+    "Price": 680,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 110,
+    "SoldOutDisplay": true,
+    "StartTime": 1764036000,
+    "SubTabId": 1202,
+    "TypeId": 10058,
+    "TypeNum": 1
+  },
+  "120222": {
+    "EndTime": 1766394000,
+    "IsSpPopup": 1,
+    "ItemId": 120222,
+    "ItemType": "CharAccessory",
+    "Price": 680,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 109,
+    "SoldOutDisplay": true,
+    "StartTime": 1764036000,
+    "SubTabId": 1202,
+    "TypeId": 10059,
+    "TypeNum": 1
+  },
+  "120223": {
+    "EndTime": 1766394000,
+    "IsSpPopup": 1,
+    "ItemId": 120223,
+    "ItemType": "CharAccessory",
+    "Price": 680,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 111,
+    "SoldOutDisplay": true,
+    "StartTime": 1764036000,
+    "SubTabId": 1202,
+    "TypeId": 10060,
+    "TypeNum": 1
+  },
+  "120224": {
+    "EndTime": 1770667200,
+    "IsSpPopup": 1,
+    "ItemId": 120224,
+    "ItemType": "CharAccessory",
+    "Price": 480,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 142,
+    "SoldOutDisplay": true,
+    "StartTime": 1766408400,
+    "SubTabId": 1202,
+    "TypeId": 10049,
+    "TypeNum": 1
+  },
+  "120225": {
+    "EndTime": 1770667200,
+    "IsSpPopup": 1,
+    "ItemId": 120225,
+    "ItemType": "CharAccessory",
+    "Price": 300,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 143,
+    "SoldOutDisplay": true,
+    "StartTime": 1766408400,
+    "SubTabId": 1202,
+    "TypeId": 10036,
+    "TypeNum": 1
+  },
+  "120226": {
+    "EndTime": 1770667200,
+    "IsSpPopup": 1,
+    "ItemId": 120226,
+    "ItemType": "CharAccessory",
+    "Price": 680,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 150,
+    "SoldOutDisplay": true,
+    "StartTime": 1768874400,
+    "SubTabId": 1202,
+    "TypeId": 10056,
+    "TypeNum": 1
+  },
+  "120227": {
+    "EndTime": 1770667200,
+    "IsSpPopup": 1,
+    "ItemId": 120227,
+    "ItemType": "CharAccessory",
+    "Price": 680,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 149,
+    "SoldOutDisplay": true,
+    "StartTime": 1768874400,
+    "SubTabId": 1202,
+    "TypeId": 10063,
+    "TypeNum": 1
+  },
+  "120228": {
+    "EndTime": 1770667200,
+    "IsSpPopup": 1,
+    "ItemId": 120228,
+    "ItemType": "CharAccessory",
+    "Price": 680,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 148,
+    "SoldOutDisplay": true,
+    "StartTime": 1768874400,
+    "SubTabId": 1202,
+    "TypeId": 10061,
+    "TypeNum": 1
+  },
+  "120229": {
+    "EndTime": 1770667200,
+    "IsSpPopup": 1,
+    "ItemId": 120229,
+    "ItemType": "CharAccessory",
+    "Price": 680,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 147,
+    "SoldOutDisplay": true,
+    "StartTime": 1768874400,
+    "SubTabId": 1202,
+    "TypeId": 10062,
+    "TypeNum": 1
+  },
+  "120230": {
+    "IsSpPopup": 1,
+    "ItemId": 120230,
+    "ItemType": "CharAccessory",
+    "Price": 300,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 146,
+    "SoldOutDisplay": true,
+    "StartTime": 1768874400,
+    "SubTabId": 1202,
+    "TypeId": 10057,
+    "TypeNum": 1
+  },
+  "120231": {
+    "IsSpPopup": 1,
+    "ItemId": 120231,
+    "ItemType": "CharAccessory",
+    "Price": 300,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 144,
+    "SoldOutDisplay": true,
+    "StartTime": 1768874400,
+    "SubTabId": 1202,
+    "TypeId": 10066,
+    "TypeNum": 1
+  },
+  "120232": {
+    "IsSpPopup": 1,
+    "ItemId": 120232,
+    "ItemType": "CharAccessory",
+    "Price": 300,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 145,
+    "SoldOutDisplay": true,
+    "StartTime": 1768874400,
+    "SubTabId": 1202,
+    "TypeId": 10065,
     "TypeNum": 1
   },
   "120301": {
@@ -505,6 +1108,141 @@
     "TypeId": 20006,
     "TypeNum": 1
   },
+  "120307": {
+    "EndTime": 1770667200,
+    "IsSpPopup": 1,
+    "ItemId": 120307,
+    "ItemType": "CharAccessory",
+    "Price": 680,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 145,
+    "SoldOutDisplay": true,
+    "StartTime": 1766408400,
+    "SubTabId": 1203,
+    "TypeId": 20040,
+    "TypeNum": 1
+  },
+  "120308": {
+    "EndTime": 1770667200,
+    "IsSpPopup": 1,
+    "ItemId": 120308,
+    "ItemType": "CharAccessory",
+    "Price": 680,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 143,
+    "SoldOutDisplay": true,
+    "StartTime": 1766408400,
+    "SubTabId": 1203,
+    "TypeId": 20045,
+    "TypeNum": 1
+  },
+  "120309": {
+    "EndTime": 1770667200,
+    "IsSpPopup": 1,
+    "ItemId": 120309,
+    "ItemType": "CharAccessory",
+    "Price": 680,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 144,
+    "SoldOutDisplay": true,
+    "StartTime": 1766408400,
+    "SubTabId": 1203,
+    "TypeId": 20046,
+    "TypeNum": 1
+  },
+  "120310": {
+    "EndTime": 1770667200,
+    "IsSpPopup": 1,
+    "ItemId": 120310,
+    "ItemType": "CharAccessory",
+    "Price": 680,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 142,
+    "SoldOutDisplay": true,
+    "StartTime": 1766408400,
+    "SubTabId": 1203,
+    "TypeId": 20047,
+    "TypeNum": 1
+  },
+  "120311": {
+    "EndTime": 1770667200,
+    "IsSpPopup": 1,
+    "ItemId": 120311,
+    "ItemType": "CharAccessory",
+    "Price": 300,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 146,
+    "SoldOutDisplay": true,
+    "StartTime": 1766408400,
+    "SubTabId": 1203,
+    "TypeId": 20041,
+    "TypeNum": 1
+  },
+  "120312": {
+    "EndTime": 1770667200,
+    "IsSpPopup": 1,
+    "ItemId": 120312,
+    "ItemType": "CharAccessory",
+    "Price": 680,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 150,
+    "SoldOutDisplay": true,
+    "StartTime": 1768874400,
+    "SubTabId": 1203,
+    "TypeId": 20042,
+    "TypeNum": 1
+  },
+  "120313": {
+    "EndTime": 1770667200,
+    "IsSpPopup": 1,
+    "ItemId": 120313,
+    "ItemType": "CharAccessory",
+    "Price": 680,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 149,
+    "SoldOutDisplay": true,
+    "StartTime": 1768874400,
+    "SubTabId": 1203,
+    "TypeId": 20051,
+    "TypeNum": 1
+  },
+  "120314": {
+    "EndTime": 1770667200,
+    "IsSpPopup": 1,
+    "ItemId": 120314,
+    "ItemType": "CharAccessory",
+    "Price": 680,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 148,
+    "SoldOutDisplay": true,
+    "StartTime": 1768874400,
+    "SubTabId": 1203,
+    "TypeId": 20049,
+    "TypeNum": 1
+  },
+  "120315": {
+    "EndTime": 1770667200,
+    "IsSpPopup": 1,
+    "ItemId": 120315,
+    "ItemType": "CharAccessory",
+    "Price": 680,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 147,
+    "SoldOutDisplay": true,
+    "StartTime": 1768874400,
+    "SubTabId": 1203,
+    "TypeId": 20050,
+    "TypeNum": 1
+  },
   "120401": {
     "IsSpPopup": 1,
     "ItemId": 120401,
@@ -541,11 +1279,160 @@
     "Price": 680,
     "PriceType": 99,
     "PurchaseLimit": 1,
-    "Sequence": 100,
+    "Sequence": 103,
     "SoldOutDisplay": true,
     "StartTime": 1764036000,
     "SubTabId": 1204,
     "TypeId": 30017,
+    "TypeNum": 1
+  },
+  "120404": {
+    "EndTime": 1766394000,
+    "IsSpPopup": 1,
+    "ItemId": 120404,
+    "ItemType": "CharAccessory",
+    "Price": 680,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 100,
+    "SoldOutDisplay": true,
+    "StartTime": 1764036000,
+    "SubTabId": 1204,
+    "TypeId": 30022,
+    "TypeNum": 1
+  },
+  "120405": {
+    "EndTime": 1766394000,
+    "IsSpPopup": 1,
+    "ItemId": 120405,
+    "ItemType": "CharAccessory",
+    "Price": 680,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 101,
+    "SoldOutDisplay": true,
+    "StartTime": 1764036000,
+    "SubTabId": 1204,
+    "TypeId": 30023,
+    "TypeNum": 1
+  },
+  "120406": {
+    "EndTime": 1766394000,
+    "IsSpPopup": 1,
+    "ItemId": 120406,
+    "ItemType": "CharAccessory",
+    "Price": 680,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 102,
+    "SoldOutDisplay": true,
+    "StartTime": 1764036000,
+    "SubTabId": 1204,
+    "TypeId": 30024,
+    "TypeNum": 1
+  },
+  "120407": {
+    "EndTime": 1770667200,
+    "IsSpPopup": 1,
+    "ItemId": 120407,
+    "ItemType": "CharAccessory",
+    "Price": 680,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 148,
+    "SoldOutDisplay": true,
+    "StartTime": 1766408400,
+    "SubTabId": 1204,
+    "TypeId": 30018,
+    "TypeNum": 1
+  },
+  "120408": {
+    "EndTime": 1770667200,
+    "IsSpPopup": 1,
+    "ItemId": 120408,
+    "ItemType": "CharAccessory",
+    "Price": 680,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 147,
+    "SoldOutDisplay": true,
+    "StartTime": 1766408400,
+    "SubTabId": 1204,
+    "TypeId": 30025,
+    "TypeNum": 1
+  },
+  "120409": {
+    "EndTime": 1770667200,
+    "IsSpPopup": 1,
+    "ItemId": 120409,
+    "ItemType": "CharAccessory",
+    "Price": 680,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 146,
+    "SoldOutDisplay": true,
+    "StartTime": 1766408400,
+    "SubTabId": 1204,
+    "TypeId": 30027,
+    "TypeNum": 1
+  },
+  "120410": {
+    "EndTime": 1770667200,
+    "IsSpPopup": 1,
+    "ItemId": 120410,
+    "ItemType": "CharAccessory",
+    "Price": 680,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 145,
+    "SoldOutDisplay": true,
+    "StartTime": 1766408400,
+    "SubTabId": 1204,
+    "TypeId": 30026,
+    "TypeNum": 1
+  },
+  "120411": {
+    "EndTime": 1770667200,
+    "IsSpPopup": 1,
+    "ItemId": 120411,
+    "ItemType": "CharAccessory",
+    "Price": 480,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 150,
+    "SoldOutDisplay": true,
+    "StartTime": 1766408400,
+    "SubTabId": 1204,
+    "TypeId": 40011,
+    "TypeNum": 1
+  },
+  "120412": {
+    "EndTime": 1770667200,
+    "IsSpPopup": 1,
+    "ItemId": 120412,
+    "ItemType": "CharAccessory",
+    "Price": 480,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 149,
+    "SoldOutDisplay": true,
+    "StartTime": 1766408400,
+    "SubTabId": 1204,
+    "TypeId": 30019,
+    "TypeNum": 1
+  },
+  "120413": {
+    "IsSpPopup": 1,
+    "ItemId": 120413,
+    "ItemType": "CharAccessory",
+    "Price": 680,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 144,
+    "SoldOutDisplay": true,
+    "StartTime": 1766408400,
+    "SubTabId": 1204,
+    "TypeId": 30016,
     "TypeNum": 1
   },
   "120501": {
@@ -574,6 +1461,235 @@
     "StartTime": 1672545600,
     "SubTabId": 1205,
     "TypeId": 40001,
+    "TypeNum": 1
+  },
+  "120503": {
+    "IsSpPopup": 1,
+    "ItemId": 120503,
+    "ItemType": "CharAccessory",
+    "Price": 980,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 96,
+    "SoldOutDisplay": true,
+    "StartTime": 1764036000,
+    "SubTabId": 1205,
+    "TypeId": 40017,
+    "TypeNum": 1
+  },
+  "120504": {
+    "IsSpPopup": 1,
+    "ItemId": 120504,
+    "ItemType": "CharAccessory",
+    "Price": 980,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 97,
+    "SoldOutDisplay": true,
+    "StartTime": 1764036000,
+    "SubTabId": 1205,
+    "TypeId": 40018,
+    "TypeNum": 1
+  },
+  "120505": {
+    "IsSpPopup": 1,
+    "ItemId": 120505,
+    "ItemType": "CharAccessory",
+    "Price": 980,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 95,
+    "SoldOutDisplay": true,
+    "StartTime": 1764036000,
+    "SubTabId": 1205,
+    "TypeId": 40019,
+    "TypeNum": 1
+  },
+  "120506": {
+    "IsSpPopup": 1,
+    "ItemId": 120506,
+    "ItemType": "CharAccessory",
+    "Price": 980,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 98,
+    "SoldOutDisplay": true,
+    "StartTime": 1764036000,
+    "SubTabId": 1205,
+    "TypeId": 40020,
+    "TypeNum": 1
+  },
+  "120507": {
+    "IsSpPopup": 1,
+    "ItemId": 120507,
+    "ItemType": "CharAccessory",
+    "Price": 1280,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 145,
+    "SoldOutDisplay": true,
+    "StartTime": 1766408400,
+    "SubTabId": 1205,
+    "TypeId": 40014,
+    "TypeNum": 1
+  },
+  "120508": {
+    "IsSpPopup": 1,
+    "ItemId": 120508,
+    "ItemType": "CharAccessory",
+    "Price": 1280,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 144,
+    "SoldOutDisplay": true,
+    "StartTime": 1766408400,
+    "SubTabId": 1205,
+    "TypeId": 40015,
+    "TypeNum": 1
+  },
+  "120509": {
+    "EndTime": 1770667200,
+    "IsSpPopup": 1,
+    "ItemId": 120509,
+    "ItemType": "CharAccessory",
+    "Price": 980,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 146,
+    "SoldOutDisplay": true,
+    "StartTime": 1766408400,
+    "SubTabId": 1205,
+    "TypeId": 40009,
+    "TypeNum": 1
+  },
+  "120510": {
+    "EndTime": 1770667200,
+    "IsSpPopup": 1,
+    "ItemId": 120510,
+    "ItemType": "CharAccessory",
+    "Price": 980,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 150,
+    "SoldOutDisplay": true,
+    "StartTime": 1768874400,
+    "SubTabId": 1205,
+    "TypeId": 40012,
+    "TypeNum": 1
+  },
+  "120511": {
+    "EndTime": 1770667200,
+    "IsSpPopup": 1,
+    "ItemId": 120511,
+    "ItemType": "CharAccessory",
+    "Price": 980,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 149,
+    "SoldOutDisplay": true,
+    "StartTime": 1768874400,
+    "SubTabId": 1205,
+    "TypeId": 40023,
+    "TypeNum": 1
+  },
+  "120512": {
+    "EndTime": 1770667200,
+    "IsSpPopup": 1,
+    "ItemId": 120512,
+    "ItemType": "CharAccessory",
+    "Price": 980,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 148,
+    "SoldOutDisplay": true,
+    "StartTime": 1768874400,
+    "SubTabId": 1205,
+    "TypeId": 40021,
+    "TypeNum": 1
+  },
+  "120513": {
+    "EndTime": 1770667200,
+    "IsSpPopup": 1,
+    "ItemId": 120513,
+    "ItemType": "CharAccessory",
+    "Price": 980,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 147,
+    "SoldOutDisplay": true,
+    "StartTime": 1768874400,
+    "SubTabId": 1205,
+    "TypeId": 40022,
+    "TypeNum": 1
+  },
+  "120514": {
+    "IsSpPopup": 1,
+    "ItemId": 120514,
+    "ItemType": "CharAccessory",
+    "Price": 680,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 143,
+    "SoldOutDisplay": true,
+    "StartTime": 1768874400,
+    "SubTabId": 1205,
+    "TypeId": 40016,
+    "TypeNum": 1
+  },
+  "120515": {
+    "IsSpPopup": 1,
+    "ItemId": 120515,
+    "ItemType": "CharAccessory",
+    "Price": 680,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 141,
+    "SoldOutDisplay": true,
+    "StartTime": 1768874400,
+    "SubTabId": 1205,
+    "TypeId": 40025,
+    "TypeNum": 1
+  },
+  "120516": {
+    "IsSpPopup": 1,
+    "ItemId": 120516,
+    "ItemType": "CharAccessory",
+    "Price": 680,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 142,
+    "SoldOutDisplay": true,
+    "StartTime": 1768874400,
+    "SubTabId": 1205,
+    "TypeId": 40024,
+    "TypeNum": 1
+  },
+  "120701": {
+    "IsSpPopup": 1,
+    "ItemId": 120701,
+    "ItemType": "CharAccessory",
+    "Price": 680,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 99,
+    "SoldOutDisplay": true,
+    "StartTime": 1766408400,
+    "SubTabId": 1207,
+    "TypeId": 21002,
+    "TypeNum": 1
+  },
+  "120702": {
+    "IsSpPopup": 1,
+    "ItemId": 120702,
+    "ItemType": "CharAccessory",
+    "Price": 680,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 100,
+    "SoldOutDisplay": true,
+    "StartTime": 1768874400,
+    "SubTabId": 1207,
+    "TypeId": 11002,
     "TypeNum": 1
   },
   "140104": {
@@ -776,10 +1892,10 @@
     "IsSpPopup": 1,
     "ItemId": 140118,
     "ItemType": "CharAccessory",
-    "Price": 100,
+    "Price": 30,
     "PriceType": 110,
     "PurchaseLimit": 1,
-    "Sequence": 245,
+    "Sequence": 181,
     "SoldOutDisplay": true,
     "StartTime": 1672545600,
     "SubTabId": 1402,
@@ -793,7 +1909,7 @@
     "Price": 20,
     "PriceType": 110,
     "PurchaseLimit": 1,
-    "Sequence": 241,
+    "Sequence": 179,
     "SoldOutDisplay": true,
     "StartTime": 1672545600,
     "SubTabId": 1402,
@@ -807,7 +1923,7 @@
     "Price": 20,
     "PriceType": 110,
     "PurchaseLimit": 1,
-    "Sequence": 240,
+    "Sequence": 178,
     "SoldOutDisplay": true,
     "StartTime": 1672545600,
     "SubTabId": 1402,
@@ -821,7 +1937,7 @@
     "Price": 20,
     "PriceType": 110,
     "PurchaseLimit": 1,
-    "Sequence": 239,
+    "Sequence": 177,
     "SoldOutDisplay": true,
     "StartTime": 1672545600,
     "SubTabId": 1402,
@@ -835,7 +1951,7 @@
     "Price": 20,
     "PriceType": 110,
     "PurchaseLimit": 1,
-    "Sequence": 238,
+    "Sequence": 176,
     "SoldOutDisplay": true,
     "StartTime": 1672545600,
     "SubTabId": 1402,
@@ -849,7 +1965,7 @@
     "Price": 20,
     "PriceType": 110,
     "PurchaseLimit": 1,
-    "Sequence": 237,
+    "Sequence": 175,
     "SoldOutDisplay": true,
     "StartTime": 1672545600,
     "SubTabId": 1402,
@@ -863,7 +1979,7 @@
     "Price": 20,
     "PriceType": 110,
     "PurchaseLimit": 1,
-    "Sequence": 236,
+    "Sequence": 174,
     "SoldOutDisplay": true,
     "StartTime": 1672545600,
     "SubTabId": 1402,
@@ -877,7 +1993,7 @@
     "Price": 20,
     "PriceType": 110,
     "PurchaseLimit": 1,
-    "Sequence": 235,
+    "Sequence": 173,
     "SoldOutDisplay": true,
     "StartTime": 1672545600,
     "SubTabId": 1402,
@@ -891,7 +2007,7 @@
     "Price": 20,
     "PriceType": 110,
     "PurchaseLimit": 1,
-    "Sequence": 234,
+    "Sequence": 172,
     "SoldOutDisplay": true,
     "StartTime": 1672545600,
     "SubTabId": 1402,
@@ -905,7 +2021,7 @@
     "Price": 20,
     "PriceType": 110,
     "PurchaseLimit": 1,
-    "Sequence": 233,
+    "Sequence": 171,
     "SoldOutDisplay": true,
     "StartTime": 1672545600,
     "SubTabId": 1402,
@@ -919,7 +2035,7 @@
     "Price": 20,
     "PriceType": 110,
     "PurchaseLimit": 1,
-    "Sequence": 232,
+    "Sequence": 170,
     "SoldOutDisplay": true,
     "StartTime": 1672545600,
     "SubTabId": 1402,
@@ -933,7 +2049,7 @@
     "Price": 20,
     "PriceType": 110,
     "PurchaseLimit": 1,
-    "Sequence": 231,
+    "Sequence": 169,
     "SoldOutDisplay": true,
     "StartTime": 1672545600,
     "SubTabId": 1402,
@@ -947,7 +2063,7 @@
     "Price": 20,
     "PriceType": 110,
     "PurchaseLimit": 1,
-    "Sequence": 230,
+    "Sequence": 168,
     "SoldOutDisplay": true,
     "StartTime": 1672545600,
     "SubTabId": 1402,
@@ -958,10 +2074,10 @@
     "IsSpPopup": 1,
     "ItemId": 140133,
     "ItemType": "Resource",
-    "Price": 100,
+    "Price": 60,
     "PriceType": 110,
     "PurchaseLimit": 1,
-    "Sequence": 244,
+    "Sequence": 166,
     "SoldOutDisplay": true,
     "StartTime": 1672545600,
     "SubTabId": 1402,
@@ -972,10 +2088,10 @@
     "IsSpPopup": 1,
     "ItemId": 140134,
     "ItemType": "Resource",
-    "Price": 100,
+    "Price": 60,
     "PriceType": 110,
     "PurchaseLimit": 1,
-    "Sequence": 243,
+    "Sequence": 165,
     "SoldOutDisplay": true,
     "StartTime": 1672545600,
     "SubTabId": 1402,
@@ -986,10 +2102,10 @@
     "IsSpPopup": 1,
     "ItemId": 140135,
     "ItemType": "Resource",
-    "Price": 100,
+    "Price": 60,
     "PriceType": 110,
     "PurchaseLimit": 1,
-    "Sequence": 242,
+    "Sequence": 164,
     "SoldOutDisplay": true,
     "StartTime": 1672545600,
     "SubTabId": 1402,
@@ -997,6 +2113,7 @@
     "TypeNum": 1
   },
   "140136": {
+    "IsAccessItem": 2,
     "ItemId": 140136,
     "ItemType": "Resource",
     "Price": 3,
@@ -1005,7 +2122,7 @@
     "RefreshTime": {
       "WEEK": 4
     },
-    "Sequence": 157,
+    "Sequence": 160,
     "StartTime": 1672545600,
     "SubTabId": 1402,
     "TypeId": 101,
@@ -1035,7 +2152,7 @@
     "RefreshTime": {
       "WEEK": 4
     },
-    "Sequence": 160,
+    "Sequence": 158,
     "StartTime": 1672545600,
     "SubTabId": 1402,
     "TypeId": 2013,
@@ -1072,13 +2189,14 @@
     "TypeNum": 2
   },
   "140143": {
+    "EndTime": 1766350800,
     "ItemId": 140143,
     "ItemType": "Resource",
     "Price": 35,
     "PriceType": 110,
     "PurchaseLimit": 2,
     "RefreshTime": {
-      "WEEK": 8
+      "DAY": 1086
     },
     "Sequence": 256,
     "StartTime": 1672545600,
@@ -1087,13 +2205,14 @@
     "TypeNum": 1
   },
   "140144": {
+    "EndTime": 1766350800,
     "ItemId": 140144,
     "ItemType": "Resource",
     "Price": 25,
     "PriceType": 110,
     "PurchaseLimit": 2,
     "RefreshTime": {
-      "WEEK": 8
+      "DAY": 1086
     },
     "Sequence": 257,
     "StartTime": 1672545600,
@@ -1102,13 +2221,14 @@
     "TypeNum": 1
   },
   "140145": {
+    "EndTime": 1766350800,
     "ItemId": 140145,
     "ItemType": "Resource",
     "Price": 8,
     "PriceType": 110,
     "PurchaseLimit": 5,
     "RefreshTime": {
-      "WEEK": 8
+      "DAY": 1086
     },
     "Sequence": 258,
     "StartTime": 1672545600,
@@ -1117,13 +2237,14 @@
     "TypeNum": 1
   },
   "140146": {
+    "EndTime": 1766350800,
     "ItemId": 140146,
     "ItemType": "Resource",
     "Price": 8,
     "PriceType": 110,
     "PurchaseLimit": 5,
     "RefreshTime": {
-      "WEEK": 8
+      "DAY": 1086
     },
     "Sequence": 259,
     "StartTime": 1672545600,
@@ -1132,13 +2253,14 @@
     "TypeNum": 1
   },
   "140147": {
+    "EndTime": 1766350800,
     "ItemId": 140147,
     "ItemType": "Resource",
     "Price": 6,
     "PriceType": 110,
     "PurchaseLimit": 5,
     "RefreshTime": {
-      "WEEK": 8
+      "DAY": 1086
     },
     "Sequence": 255,
     "StartTime": 1672545600,
@@ -1147,16 +2269,107 @@
     "TypeNum": 1
   },
   "140148": {
+    "EndTime": 1766350800,
     "ItemId": 140148,
     "ItemType": "Resource",
     "Price": 6,
     "PriceType": 110,
     "PurchaseLimit": 5,
     "RefreshTime": {
-      "WEEK": 8
+      "DAY": 1086
     },
     "Sequence": 254,
     "StartTime": 1672545600,
+    "SubTabId": 1402,
+    "TypeId": 30108,
+    "TypeNum": 1
+  },
+  "140149": {
+    "ItemId": 140149,
+    "ItemType": "Resource",
+    "Price": 35,
+    "PriceType": 110,
+    "PurchaseLimit": 2,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 256,
+    "StartTime": 1766350800,
+    "SubTabId": 1402,
+    "TypeId": 201,
+    "TypeNum": 1
+  },
+  "140150": {
+    "ItemId": 140150,
+    "ItemType": "Resource",
+    "Price": 25,
+    "PriceType": 110,
+    "PurchaseLimit": 2,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 257,
+    "StartTime": 1766350800,
+    "SubTabId": 1402,
+    "TypeId": 202,
+    "TypeNum": 1
+  },
+  "140151": {
+    "ItemId": 140151,
+    "ItemType": "Resource",
+    "Price": 8,
+    "PriceType": 110,
+    "PurchaseLimit": 5,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 258,
+    "StartTime": 1766350800,
+    "SubTabId": 1402,
+    "TypeId": 1001,
+    "TypeNum": 1
+  },
+  "140152": {
+    "ItemId": 140152,
+    "ItemType": "Resource",
+    "Price": 8,
+    "PriceType": 110,
+    "PurchaseLimit": 5,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 259,
+    "StartTime": 1766350800,
+    "SubTabId": 1402,
+    "TypeId": 1003,
+    "TypeNum": 1
+  },
+  "140153": {
+    "ItemId": 140153,
+    "ItemType": "Resource",
+    "Price": 6,
+    "PriceType": 110,
+    "PurchaseLimit": 5,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 255,
+    "StartTime": 1766350800,
+    "SubTabId": 1402,
+    "TypeId": 30101,
+    "TypeNum": 1
+  },
+  "140154": {
+    "ItemId": 140154,
+    "ItemType": "Resource",
+    "Price": 6,
+    "PriceType": 110,
+    "PurchaseLimit": 5,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 254,
+    "StartTime": 1766350800,
     "SubTabId": 1402,
     "TypeId": 30108,
     "TypeNum": 1
@@ -1170,7 +2383,7 @@
     "Price": 25,
     "PriceType": 111,
     "PurchaseLimit": 1,
-    "Sequence": 97,
+    "Sequence": 100,
     "SoldOutDisplay": true,
     "StartTime": 1672545600,
     "SubTabId": 1401,
@@ -1189,7 +2402,7 @@
     "Price": 18,
     "PriceType": 111,
     "PurchaseLimit": 1,
-    "Sequence": 96,
+    "Sequence": 99,
     "SoldOutDisplay": true,
     "StartTime": 1672545600,
     "SubTabId": 1401,
@@ -1256,7 +2469,7 @@
     "Price": 6,
     "PriceType": 111,
     "PurchaseLimit": 1,
-    "Sequence": 95,
+    "Sequence": 98,
     "SoldOutDisplay": true,
     "StartTime": 1672545600,
     "SubTabId": 1401,
@@ -1272,7 +2485,7 @@
     "Price": 50,
     "PriceType": 111,
     "PurchaseLimit": 1,
-    "Sequence": 100,
+    "Sequence": 103,
     "SoldOutDisplay": true,
     "StartTime": 1672545600,
     "SubTabId": 1401,
@@ -1288,7 +2501,7 @@
     "Price": 50,
     "PriceType": 111,
     "PurchaseLimit": 1,
-    "Sequence": 99,
+    "Sequence": 102,
     "SoldOutDisplay": true,
     "StartTime": 1672545600,
     "SubTabId": 1401,
@@ -1304,7 +2517,7 @@
     "Price": 50,
     "PriceType": 111,
     "PurchaseLimit": 1,
-    "Sequence": 98,
+    "Sequence": 101,
     "SoldOutDisplay": true,
     "StartTime": 1672545600,
     "SubTabId": 1401,
@@ -1365,7 +2578,7 @@
     "ItemType": "Resource",
     "Price": 1,
     "PriceType": 111,
-    "Sequence": 83,
+    "Sequence": 79,
     "StartTime": 1672545600,
     "SubTabId": 1401,
     "TypeId": 30101,
@@ -1377,7 +2590,7 @@
     "ItemType": "Resource",
     "Price": 1,
     "PriceType": 111,
-    "Sequence": 82,
+    "Sequence": 78,
     "StartTime": 1672545600,
     "SubTabId": 1401,
     "TypeId": 30108,
@@ -1392,7 +2605,7 @@
     "Price": 20,
     "PriceType": 110,
     "PurchaseLimit": 1,
-    "Sequence": 87,
+    "Sequence": 83,
     "SoldOutDisplay": true,
     "StartTime": 1672545600,
     "SubTabId": 1401,
@@ -1408,7 +2621,7 @@
     "Price": 20,
     "PriceType": 110,
     "PurchaseLimit": 1,
-    "Sequence": 86,
+    "Sequence": 82,
     "SoldOutDisplay": true,
     "StartTime": 1672545600,
     "SubTabId": 1401,
@@ -1424,7 +2637,7 @@
     "Price": 20,
     "PriceType": 110,
     "PurchaseLimit": 1,
-    "Sequence": 85,
+    "Sequence": 81,
     "SoldOutDisplay": true,
     "StartTime": 1672545600,
     "SubTabId": 1401,
@@ -1440,7 +2653,7 @@
     "Price": 20,
     "PriceType": 110,
     "PurchaseLimit": 1,
-    "Sequence": 84,
+    "Sequence": 80,
     "SoldOutDisplay": true,
     "StartTime": 1672545600,
     "SubTabId": 1401,
@@ -1463,11 +2676,623 @@
     "TypeId": 70001,
     "TypeNum": 1
   },
+  "140220": {
+    "EndTime": 1766955600,
+    "IsAccessItem": 2,
+    "IsSpPopup": 1,
+    "ItemId": 140220,
+    "ItemType": "CharAccessory",
+    "Price": 6,
+    "PriceType": 111,
+    "PurchaseLimit": 1,
+    "Sequence": 97,
+    "SoldOutDisplay": true,
+    "StartTime": 1764036000,
+    "SubTabId": 1401,
+    "TypeId": 80011,
+    "TypeNum": 1
+  },
+  "140222": {
+    "EndTime": 1766955600,
+    "IsAccessItem": 2,
+    "IsSpPopup": 1,
+    "ItemId": 140222,
+    "ItemType": "CharAccessory",
+    "Price": 6,
+    "PriceType": 111,
+    "PurchaseLimit": 1,
+    "Sequence": 95,
+    "SoldOutDisplay": true,
+    "StartTime": 1764036000,
+    "SubTabId": 1401,
+    "TypeId": 80013,
+    "TypeNum": 1
+  },
+  "140223": {
+    "EndTime": 1766955600,
+    "IsAccessItem": 2,
+    "IsSpPopup": 1,
+    "ItemId": 140223,
+    "ItemType": "CharAccessory",
+    "Price": 6,
+    "PriceType": 111,
+    "PurchaseLimit": 1,
+    "Sequence": 96,
+    "SoldOutDisplay": true,
+    "StartTime": 1764036000,
+    "SubTabId": 1401,
+    "TypeId": 80012,
+    "TypeNum": 1
+  },
+  "140224": {
+    "EndTime": 1766955600,
+    "IsAccessItem": 2,
+    "IsSpPopup": 1,
+    "ItemId": 140224,
+    "ItemType": "CharAccessory",
+    "Price": 6,
+    "PriceType": 111,
+    "PurchaseLimit": 1,
+    "Sequence": 87,
+    "SoldOutDisplay": true,
+    "StartTime": 1764036000,
+    "SubTabId": 1401,
+    "TypeId": 70011,
+    "TypeNum": 1
+  },
+  "140225": {
+    "EndTime": 1766955600,
+    "IsAccessItem": 2,
+    "IsSpPopup": 1,
+    "ItemId": 140225,
+    "ItemType": "CharAccessory",
+    "Price": 6,
+    "PriceType": 111,
+    "PurchaseLimit": 1,
+    "Sequence": 85,
+    "SoldOutDisplay": true,
+    "StartTime": 1764036000,
+    "SubTabId": 1401,
+    "TypeId": 70012,
+    "TypeNum": 1
+  },
+  "140226": {
+    "EndTime": 1766955600,
+    "IsAccessItem": 2,
+    "IsSpPopup": 1,
+    "ItemId": 140226,
+    "ItemType": "CharAccessory",
+    "Price": 6,
+    "PriceType": 111,
+    "PurchaseLimit": 1,
+    "Sequence": 84,
+    "SoldOutDisplay": true,
+    "StartTime": 1764036000,
+    "SubTabId": 1401,
+    "TypeId": 70013,
+    "TypeNum": 1
+  },
+  "140227": {
+    "EndTime": 1771189200,
+    "IsAccessItem": 2,
+    "IsSpPopup": 1,
+    "ItemId": 140227,
+    "ItemType": "Resource",
+    "Price": 50,
+    "PriceType": 111,
+    "PurchaseLimit": 1,
+    "Sequence": 200,
+    "SoldOutDisplay": true,
+    "StartTime": 1766408400,
+    "SubTabId": 1401,
+    "TypeId": 41020,
+    "TypeNum": 1
+  },
+  "140228": {
+    "EndTime": 1771189200,
+    "IsAccessItem": 2,
+    "IsSpPopup": 1,
+    "ItemId": 140228,
+    "ItemType": "Resource",
+    "Price": 50,
+    "PriceType": 111,
+    "PurchaseLimit": 1,
+    "Sequence": 198,
+    "SoldOutDisplay": true,
+    "StartTime": 1766408400,
+    "SubTabId": 1401,
+    "TypeId": 41021,
+    "TypeNum": 1
+  },
+  "140229": {
+    "EndTime": 1771189200,
+    "IsAccessItem": 2,
+    "IsSpPopup": 1,
+    "ItemId": 140229,
+    "ItemType": "Resource",
+    "Price": 50,
+    "PriceType": 111,
+    "PurchaseLimit": 1,
+    "Sequence": 199,
+    "SoldOutDisplay": true,
+    "StartTime": 1766408400,
+    "SubTabId": 1401,
+    "TypeId": 41022,
+    "TypeNum": 1
+  },
+  "140230": {
+    "EndTime": 1771189200,
+    "IsAccessItem": 2,
+    "IsSpPopup": 1,
+    "ItemId": 140230,
+    "ItemType": "Skin",
+    "Price": 25,
+    "PriceType": 111,
+    "PurchaseLimit": 1,
+    "Sequence": 197,
+    "SoldOutDisplay": true,
+    "StartTime": 1766408400,
+    "SubTabId": 1401,
+    "SuitRewardId": [
+      12100
+    ],
+    "TypeId": 240101,
+    "TypeNum": 1
+  },
+  "140231": {
+    "EndTime": 1771189200,
+    "IsAccessItem": 2,
+    "IsSpPopup": 1,
+    "ItemId": 140231,
+    "ItemType": "WeaponSkin",
+    "Price": 18,
+    "PriceType": 111,
+    "PurchaseLimit": 1,
+    "Sequence": 196,
+    "SoldOutDisplay": true,
+    "StartTime": 1766408400,
+    "SubTabId": 1401,
+    "SuitRewardId": [
+      12100
+    ],
+    "TypeId": 3010501,
+    "TypeNum": 1
+  },
+  "140232": {
+    "EndTime": 1771189200,
+    "IsAccessItem": 2,
+    "IsSpPopup": 1,
+    "ItemId": 140232,
+    "ItemType": "CharAccessory",
+    "Price": 6,
+    "PriceType": 111,
+    "PurchaseLimit": 1,
+    "Sequence": 195,
+    "SoldOutDisplay": true,
+    "StartTime": 1766408400,
+    "SubTabId": 1401,
+    "TypeId": 80002,
+    "TypeNum": 1
+  },
+  "140233": {
+    "EndTime": 1771189200,
+    "IsAccessItem": 2,
+    "IsSpPopup": 1,
+    "ItemId": 140233,
+    "ItemType": "CharAccessory",
+    "Price": 6,
+    "PriceType": 111,
+    "PurchaseLimit": 1,
+    "Sequence": 192,
+    "SoldOutDisplay": true,
+    "StartTime": 1766408400,
+    "SubTabId": 1401,
+    "TypeId": 80021,
+    "TypeNum": 1
+  },
+  "140234": {
+    "EndTime": 1771189200,
+    "IsAccessItem": 2,
+    "IsSpPopup": 1,
+    "ItemId": 140234,
+    "ItemType": "CharAccessory",
+    "Price": 6,
+    "PriceType": 111,
+    "PurchaseLimit": 1,
+    "Sequence": 194,
+    "SoldOutDisplay": true,
+    "StartTime": 1766408400,
+    "SubTabId": 1401,
+    "TypeId": 80022,
+    "TypeNum": 1
+  },
+  "140235": {
+    "EndTime": 1771189200,
+    "IsAccessItem": 2,
+    "IsSpPopup": 1,
+    "ItemId": 140235,
+    "ItemType": "CharAccessory",
+    "Price": 6,
+    "PriceType": 111,
+    "PurchaseLimit": 1,
+    "Sequence": 193,
+    "SoldOutDisplay": true,
+    "StartTime": 1766408400,
+    "SubTabId": 1401,
+    "TypeId": 80023,
+    "TypeNum": 1
+  },
+  "140236": {
+    "EndTime": 1771189200,
+    "IsAccessItem": 2,
+    "IsSpPopup": 1,
+    "ItemId": 140236,
+    "ItemType": "Resource",
+    "Price": 6,
+    "PriceType": 111,
+    "PurchaseLimit": 1,
+    "Sequence": 187,
+    "SoldOutDisplay": true,
+    "StartTime": 1766408400,
+    "SubTabId": 1401,
+    "TypeId": 41019,
+    "TypeNum": 1
+  },
+  "140237": {
+    "EndTime": 1771189200,
+    "IsAccessItem": 2,
+    "IsSpPopup": 1,
+    "ItemId": 140237,
+    "ItemType": "CharAccessory",
+    "Price": 6,
+    "PriceType": 111,
+    "PurchaseLimit": 1,
+    "Sequence": 186,
+    "SoldOutDisplay": true,
+    "StartTime": 1766408400,
+    "SubTabId": 1401,
+    "TypeId": 70002,
+    "TypeNum": 1
+  },
+  "140238": {
+    "EndTime": 1771189200,
+    "IsAccessItem": 2,
+    "IsSpPopup": 1,
+    "ItemId": 140238,
+    "ItemType": "CharAccessory",
+    "Price": 6,
+    "PriceType": 111,
+    "PurchaseLimit": 1,
+    "Sequence": 184,
+    "SoldOutDisplay": true,
+    "StartTime": 1766408400,
+    "SubTabId": 1401,
+    "TypeId": 70021,
+    "TypeNum": 1
+  },
+  "140239": {
+    "EndTime": 1771189200,
+    "IsAccessItem": 2,
+    "IsSpPopup": 1,
+    "ItemId": 140239,
+    "ItemType": "CharAccessory",
+    "Price": 6,
+    "PriceType": 111,
+    "PurchaseLimit": 1,
+    "Sequence": 185,
+    "SoldOutDisplay": true,
+    "StartTime": 1766408400,
+    "SubTabId": 1401,
+    "TypeId": 70022,
+    "TypeNum": 1
+  },
+  "140240": {
+    "EndTime": 1771189200,
+    "IsAccessItem": 2,
+    "IsSpPopup": 1,
+    "ItemId": 140240,
+    "ItemType": "CharAccessory",
+    "Price": 6,
+    "PriceType": 111,
+    "PurchaseLimit": 1,
+    "Sequence": 183,
+    "SoldOutDisplay": true,
+    "StartTime": 1766408400,
+    "SubTabId": 1401,
+    "TypeId": 70023,
+    "TypeNum": 1
+  },
+  "140241": {
+    "EndTime": 1771189200,
+    "IsAccessItem": 2,
+    "IsSpPopup": 1,
+    "ItemId": 140241,
+    "ItemType": "CharAccessory",
+    "Price": 6,
+    "PriceType": 111,
+    "PurchaseLimit": 1,
+    "Sequence": 181,
+    "SoldOutDisplay": true,
+    "StartTime": 1766408400,
+    "SubTabId": 1401,
+    "TypeId": 21003,
+    "TypeNum": 1
+  },
+  "140242": {
+    "EndTime": 1771189200,
+    "IsAccessItem": 2,
+    "IsSpPopup": 1,
+    "ItemId": 140242,
+    "ItemType": "CharAccessory",
+    "Price": 6,
+    "PriceType": 111,
+    "PurchaseLimit": 1,
+    "Sequence": 182,
+    "SoldOutDisplay": true,
+    "StartTime": 1766408400,
+    "SubTabId": 1401,
+    "TypeId": 11003,
+    "TypeNum": 1
+  },
+  "140243": {
+    "EndTime": 1771189200,
+    "IsAccessItem": 2,
+    "IsSpPopup": 1,
+    "ItemId": 140243,
+    "ItemType": "CharAccessory",
+    "Price": 4,
+    "PriceType": 111,
+    "PurchaseLimit": 1,
+    "Sequence": 191,
+    "SoldOutDisplay": true,
+    "StartTime": 1766408400,
+    "SubTabId": 1401,
+    "TypeId": 10053,
+    "TypeNum": 1
+  },
+  "140244": {
+    "EndTime": 1771189200,
+    "IsAccessItem": 2,
+    "IsSpPopup": 1,
+    "ItemId": 140244,
+    "ItemType": "CharAccessory",
+    "Price": 4,
+    "PriceType": 111,
+    "PurchaseLimit": 1,
+    "Sequence": 190,
+    "SoldOutDisplay": true,
+    "StartTime": 1766408400,
+    "SubTabId": 1401,
+    "TypeId": 10054,
+    "TypeNum": 1
+  },
+  "140245": {
+    "EndTime": 1771189200,
+    "IsAccessItem": 2,
+    "IsSpPopup": 1,
+    "ItemId": 140245,
+    "ItemType": "CharAccessory",
+    "Price": 4,
+    "PriceType": 111,
+    "PurchaseLimit": 1,
+    "Sequence": 188,
+    "SoldOutDisplay": true,
+    "StartTime": 1766408400,
+    "SubTabId": 1401,
+    "TypeId": 10055,
+    "TypeNum": 1
+  },
+  "140246": {
+    "EndTime": 1771189200,
+    "IsAccessItem": 2,
+    "IsSpPopup": 1,
+    "ItemId": 140246,
+    "ItemType": "CharAccessory",
+    "Price": 4,
+    "PriceType": 111,
+    "PurchaseLimit": 1,
+    "Sequence": 189,
+    "SoldOutDisplay": true,
+    "StartTime": 1766408400,
+    "SubTabId": 1401,
+    "TypeId": 10064,
+    "TypeNum": 1
+  },
+  "140247": {
+    "EndTime": 1771189200,
+    "IsAccessItem": 2,
+    "IsSpPopup": 1,
+    "ItemId": 140247,
+    "ItemType": "WeaponAccessory",
+    "Price": 20,
+    "PriceType": 110,
+    "PurchaseLimit": 1,
+    "Sequence": 180,
+    "SoldOutDisplay": true,
+    "StartTime": 1766408400,
+    "SubTabId": 1401,
+    "TypeId": 10024,
+    "TypeNum": 1
+  },
+  "140248": {
+    "EndTime": 1771189200,
+    "IsAccessItem": 2,
+    "IsSpPopup": 1,
+    "ItemId": 140248,
+    "ItemType": "WeaponAccessory",
+    "Price": 20,
+    "PriceType": 110,
+    "PurchaseLimit": 1,
+    "Sequence": 178,
+    "SoldOutDisplay": true,
+    "StartTime": 1766408400,
+    "SubTabId": 1401,
+    "TypeId": 10025,
+    "TypeNum": 1
+  },
+  "140249": {
+    "EndTime": 1771189200,
+    "IsAccessItem": 2,
+    "IsSpPopup": 1,
+    "ItemId": 140249,
+    "ItemType": "WeaponAccessory",
+    "Price": 20,
+    "PriceType": 110,
+    "PurchaseLimit": 1,
+    "Sequence": 179,
+    "SoldOutDisplay": true,
+    "StartTime": 1766408400,
+    "SubTabId": 1401,
+    "TypeId": 10026,
+    "TypeNum": 1
+  },
+  "140250": {
+    "EndTime": 1771189200,
+    "IsAccessItem": 2,
+    "IsSpPopup": 1,
+    "ItemId": 140250,
+    "ItemType": "WeaponAccessory",
+    "Price": 20,
+    "PriceType": 110,
+    "PurchaseLimit": 1,
+    "Sequence": 177,
+    "SoldOutDisplay": true,
+    "StartTime": 1766408400,
+    "SubTabId": 1401,
+    "TypeId": 10027,
+    "TypeNum": 1
+  },
+  "140251": {
+    "EndTime": 1771189200,
+    "IsAccessItem": 2,
+    "IsSpPopup": 1,
+    "ItemId": 140251,
+    "ItemType": "WeaponAccessory",
+    "Price": 20,
+    "PriceType": 110,
+    "PurchaseLimit": 1,
+    "Sequence": 176,
+    "SoldOutDisplay": true,
+    "StartTime": 1766408400,
+    "SubTabId": 1401,
+    "TypeId": 10028,
+    "TypeNum": 1
+  },
+  "140252": {
+    "EndTime": 1771189200,
+    "IsAccessItem": 2,
+    "IsSpPopup": 1,
+    "ItemId": 140252,
+    "ItemType": "WeaponAccessory",
+    "Price": 20,
+    "PriceType": 110,
+    "PurchaseLimit": 1,
+    "Sequence": 175,
+    "SoldOutDisplay": true,
+    "StartTime": 1766408400,
+    "SubTabId": 1401,
+    "TypeId": 10029,
+    "TypeNum": 1
+  },
+  "140253": {
+    "IsAccessItem": 2,
+    "IsSpPopup": 1,
+    "ItemId": 140253,
+    "ItemType": "HeadSculpture",
+    "Price": 0,
+    "PriceType": 111,
+    "PurchaseLimit": 1,
+    "Require": 140228,
+    "Sequence": 9997,
+    "StartTime": 1766408400,
+    "SubTabId": 1401,
+    "TypeId": 30089,
+    "TypeNum": 1
+  },
+  "140254": {
+    "IsAccessItem": 2,
+    "IsSpPopup": 1,
+    "ItemId": 140254,
+    "ItemType": "HeadSculpture",
+    "Price": 0,
+    "PriceType": 111,
+    "PurchaseLimit": 1,
+    "Require": 140227,
+    "Sequence": 9999,
+    "StartTime": 1766408400,
+    "SubTabId": 1401,
+    "TypeId": 30090,
+    "TypeNum": 1
+  },
+  "140255": {
+    "IsAccessItem": 2,
+    "IsSpPopup": 1,
+    "ItemId": 140255,
+    "ItemType": "HeadSculpture",
+    "Price": 0,
+    "PriceType": 111,
+    "PurchaseLimit": 1,
+    "Require": 140229,
+    "Sequence": 9998,
+    "StartTime": 1766408400,
+    "SubTabId": 1401,
+    "TypeId": 30091,
+    "TypeNum": 1
+  },
+  "140256": {
+    "IsAccessItem": 2,
+    "IsSpPopup": 1,
+    "ItemId": 140256,
+    "ItemType": "HeadSculpture",
+    "Price": 0,
+    "PriceType": 111,
+    "PurchaseLimit": 1,
+    "Require": 140207,
+    "Sequence": 9996,
+    "StartTime": 1766408400,
+    "SubTabId": 1401,
+    "TypeId": 30092,
+    "TypeNum": 1
+  },
+  "140257": {
+    "IsAccessItem": 2,
+    "IsSpPopup": 1,
+    "ItemId": 140257,
+    "ItemType": "HeadSculpture",
+    "Price": 0,
+    "PriceType": 111,
+    "PurchaseLimit": 1,
+    "Require": 140209,
+    "Sequence": 9995,
+    "StartTime": 1766408400,
+    "SubTabId": 1401,
+    "TypeId": 30093,
+    "TypeNum": 1
+  },
+  "140258": {
+    "IsAccessItem": 2,
+    "IsSpPopup": 1,
+    "ItemId": 140258,
+    "ItemType": "HeadSculpture",
+    "Price": 0,
+    "PriceType": 111,
+    "PurchaseLimit": 1,
+    "Require": 140208,
+    "Sequence": 9994,
+    "StartTime": 1766408400,
+    "SubTabId": 1401,
+    "TypeId": 30094,
+    "TypeNum": 1
+  },
   "150101": {
     "ItemId": 150101,
     "ItemType": "Resource",
     "Price": 30,
     "PriceType": 99,
+    "PurchaseLimit": 999,
+    "RefreshTime": {
+      "DAY": 1
+    },
     "Sequence": 92,
     "StartTime": 1672545600,
     "SubTabId": 1500,
@@ -1690,6 +3515,17 @@
     "TypeId": 1001502,
     "TypeNum": 1
   },
+  "150120": {
+    "ItemId": 150120,
+    "ItemType": "Resource",
+    "Price": 150,
+    "PriceType": 99,
+    "Sequence": 90,
+    "StartTime": 1768856400,
+    "SubTabId": 1502,
+    "TypeId": 1001503,
+    "TypeNum": 1
+  },
   "150122": {
     "ItemId": 150122,
     "ItemType": "Resource",
@@ -1721,6 +3557,17 @@
     "StartTime": 1672545600,
     "SubTabId": 1502,
     "TypeId": 1002301,
+    "TypeNum": 1
+  },
+  "150125": {
+    "ItemId": 150125,
+    "ItemType": "Resource",
+    "Price": 150,
+    "PriceType": 99,
+    "Sequence": 85,
+    "StartTime": 1672545600,
+    "SubTabId": 1502,
+    "TypeId": 1002401,
     "TypeNum": 1
   },
   "150126": {
@@ -1844,6 +3691,69 @@
     "TypeId": 1005401,
     "TypeNum": 1
   },
+  "150301": {
+    "ItemId": 150301,
+    "ItemType": "Resource",
+    "Price": 30,
+    "PriceType": 100,
+    "PurchaseLimit": 12,
+    "RefreshTime": {
+      "WEEK": 1
+    },
+    "Sequence": 92,
+    "StartTime": 1672545600,
+    "SubTabId": 1501,
+    "TypeId": 207,
+    "TypeNum": 1
+  },
+  "150302": {
+    "IsAccessItem": 1,
+    "ItemId": 150302,
+    "ItemType": "Resource",
+    "Price": 2680,
+    "PriceType": 99,
+    "PurchaseLimit": 3,
+    "RefreshTime": {
+      "WEEK": 1
+    },
+    "Sequence": 98,
+    "StartTime": 1672545600,
+    "SubTabId": 1500,
+    "TypeId": 3016,
+    "TypeNum": 1
+  },
+  "150303": {
+    "IsAccessItem": 1,
+    "ItemId": 150303,
+    "ItemType": "Resource",
+    "Price": 10,
+    "PriceType": 99,
+    "PurchaseLimit": 9999,
+    "RefreshTime": {
+      "DAY": 1
+    },
+    "Sequence": 90,
+    "StartTime": 1672545600,
+    "SubTabId": 1500,
+    "TypeId": 101,
+    "TypeNum": 10000
+  },
+  "150304": {
+    "IsAccessItem": 1,
+    "ItemId": 150304,
+    "ItemType": "Resource",
+    "Price": 50,
+    "PriceType": 99,
+    "PurchaseLimit": 999,
+    "RefreshTime": {
+      "DAY": 1
+    },
+    "Sequence": 91,
+    "StartTime": 1672545600,
+    "SubTabId": 1500,
+    "TypeId": 20013,
+    "TypeNum": 10
+  },
   "151000": {
     "ItemId": 151000,
     "ItemType": "Walnut",
@@ -1855,6 +3765,18 @@
     "TypeId": 1000,
     "TypeNum": 1,
     "UnlockLevel": 15
+  },
+  "151002": {
+    "ItemId": 151002,
+    "ItemType": "Walnut",
+    "Price": 10,
+    "PriceType": 211,
+    "Sequence": 98,
+    "StartTime": 1672545600,
+    "SubTabId": 1801,
+    "TypeId": 1002,
+    "TypeNum": 1,
+    "UnlockLevel": 35
   },
   "151003": {
     "ItemId": 151003,
@@ -1880,6 +3802,18 @@
     "TypeNum": 1,
     "UnlockLevel": 29
   },
+  "151007": {
+    "ItemId": 151007,
+    "ItemType": "Walnut",
+    "Price": 10,
+    "PriceType": 211,
+    "Sequence": 93,
+    "StartTime": 1672545600,
+    "SubTabId": 1801,
+    "TypeId": 1007,
+    "TypeNum": 1,
+    "UnlockLevel": 35
+  },
   "151009": {
     "ItemId": 151009,
     "ItemType": "Walnut",
@@ -1903,6 +3837,18 @@
     "TypeId": 1014,
     "TypeNum": 1,
     "UnlockLevel": 5
+  },
+  "151015": {
+    "ItemId": 151015,
+    "ItemType": "Walnut",
+    "Price": 10,
+    "PriceType": 211,
+    "Sequence": 85,
+    "StartTime": 1768856400,
+    "SubTabId": 1801,
+    "TypeId": 1015,
+    "TypeNum": 1,
+    "UnlockLevel": 35
   },
   "151018": {
     "ItemId": 151018,
@@ -2252,6 +4198,66 @@
     "TypeNum": 1,
     "UnlockLevel": 62
   },
+  "152026": {
+    "ItemId": 152026,
+    "ItemType": "Walnut",
+    "Price": 10,
+    "PriceType": 211,
+    "Sequence": 75,
+    "StartTime": 1672545600,
+    "SubTabId": 1802,
+    "TypeId": 2026,
+    "TypeNum": 1,
+    "UnlockLevel": 25
+  },
+  "152028": {
+    "ItemId": 152028,
+    "ItemType": "Walnut",
+    "Price": 10,
+    "PriceType": 211,
+    "Sequence": 73,
+    "StartTime": 1768856400,
+    "SubTabId": 1802,
+    "TypeId": 2028,
+    "TypeNum": 1,
+    "UnlockLevel": 25
+  },
+  "152040": {
+    "ItemId": 152040,
+    "ItemType": "Walnut",
+    "Price": 10,
+    "PriceType": 211,
+    "Sequence": 61,
+    "StartTime": 1768856400,
+    "SubTabId": 1802,
+    "TypeId": 2040,
+    "TypeNum": 1,
+    "UnlockLevel": 55
+  },
+  "152042": {
+    "ItemId": 152042,
+    "ItemType": "Walnut",
+    "Price": 10,
+    "PriceType": 211,
+    "Sequence": 59,
+    "StartTime": 1672545600,
+    "SubTabId": 1802,
+    "TypeId": 2042,
+    "TypeNum": 1,
+    "UnlockLevel": 60
+  },
+  "152044": {
+    "ItemId": 152044,
+    "ItemType": "Walnut",
+    "Price": 10,
+    "PriceType": 211,
+    "Sequence": 57,
+    "StartTime": 1672545600,
+    "SubTabId": 1802,
+    "TypeId": 2044,
+    "TypeNum": 1,
+    "UnlockLevel": 55
+  },
   "159101": {
     "IsAccessItem": 2,
     "ItemId": 159101,
@@ -2442,6 +4448,18 @@
     "StartTime": 1672545600,
     "SubTabId": 1503,
     "TypeId": 10501,
+    "TypeNum": 1
+  },
+  "159123": {
+    "IsAccessItem": 2,
+    "ItemId": 159123,
+    "ItemType": "Weapon",
+    "Price": 3280,
+    "PriceType": 99,
+    "Sequence": 67,
+    "StartTime": 1672545600,
+    "SubTabId": 1503,
+    "TypeId": 10502,
     "TypeNum": 1
   },
   "159124": {
@@ -2732,6 +4750,18 @@
     "TypeId": 20507,
     "TypeNum": 1
   },
+  "159149": {
+    "IsAccessItem": 2,
+    "ItemId": 159149,
+    "ItemType": "Weapon",
+    "Price": 3280,
+    "PriceType": 99,
+    "Sequence": 41,
+    "StartTime": 1768856400,
+    "SubTabId": 1503,
+    "TypeId": 20510,
+    "TypeNum": 1
+  },
   "159150": {
     "IsAccessItem": 2,
     "ItemId": 159150,
@@ -2790,6 +4820,30 @@
     "StartTime": 1672545600,
     "SubTabId": 1503,
     "TypeId": 20604,
+    "TypeNum": 1
+  },
+  "159155": {
+    "IsAccessItem": 2,
+    "ItemId": 159155,
+    "ItemType": "Weapon",
+    "Price": 3280,
+    "PriceType": 99,
+    "Sequence": 100,
+    "StartTime": 1768856400,
+    "SubTabId": 1503,
+    "TypeId": 10208,
+    "TypeNum": 1
+  },
+  "159156": {
+    "IsAccessItem": 2,
+    "ItemId": 159156,
+    "ItemType": "Weapon",
+    "Price": 3280,
+    "PriceType": 99,
+    "Sequence": 101,
+    "StartTime": 1766437200,
+    "SubTabId": 1503,
+    "TypeId": 20506,
     "TypeNum": 1
   },
   "160101": {
@@ -2977,6 +5031,243 @@
     "TypeId": 12107,
     "TypeNum": 1
   },
+  "160112": {
+    "Bg": 1,
+    "EndTime": 1770665400,
+    "IsSpPopup": 1,
+    "ItemId": 160112,
+    "ItemType": "Reward",
+    "Price": 3,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 112,
+    "ShowBonus": 430,
+    "StartTime": 1766408400,
+    "SubTabId": 1601,
+    "TypeId": 12110,
+    "TypeNum": 1
+  },
+  "160113": {
+    "Bg": 1,
+    "EndTime": 1770665400,
+    "IsSpPopup": 1,
+    "ItemId": 160113,
+    "ItemType": "Reward",
+    "Price": 18,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Require": 160112,
+    "Sequence": 111,
+    "ShowBonus": 170,
+    "StartTime": 1766408400,
+    "SubTabId": 1601,
+    "TypeId": 12111,
+    "TypeNum": 1
+  },
+  "160114": {
+    "Bg": 1,
+    "EndTime": 1770665400,
+    "IsSpPopup": 1,
+    "ItemId": 160114,
+    "ItemType": "Reward",
+    "Price": 68,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Require": 160113,
+    "Sequence": 110,
+    "ShowBonus": 90,
+    "StartTime": 1766408400,
+    "SubTabId": 1601,
+    "TypeId": 12112,
+    "TypeNum": 1
+  },
+  "160115": {
+    "Bg": 1,
+    "EndTime": 1770665400,
+    "IsSpPopup": 1,
+    "ItemId": 160115,
+    "ItemType": "Reward",
+    "Price": 128,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 109,
+    "ShowBonus": 50,
+    "StartTime": 1766408400,
+    "SubTabId": 1601,
+    "TypeId": 12113,
+    "TypeNum": 1
+  },
+  "160116": {
+    "Bg": 1,
+    "EndTime": 1770665400,
+    "IsSpPopup": 1,
+    "ItemId": 160116,
+    "ItemType": "Reward",
+    "Price": 168,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Require": 160115,
+    "Sequence": 108,
+    "ShowBonus": 40,
+    "StartTime": 1766408400,
+    "SubTabId": 1601,
+    "TypeId": 12114,
+    "TypeNum": 1
+  },
+  "160117": {
+    "Bg": 1,
+    "EndTime": 1770665400,
+    "IsSpPopup": 1,
+    "ItemId": 160117,
+    "ItemType": "Reward",
+    "Price": 268,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Require": 160116,
+    "Sequence": 107,
+    "ShowBonus": 40,
+    "StartTime": 1766408400,
+    "SubTabId": 1601,
+    "TypeId": 12115,
+    "TypeNum": 1
+  },
+  "160118": {
+    "Bg": 1,
+    "EndTime": 1770667200,
+    "IsSpPopup": 1,
+    "ItemDes": "Pack_Des_MainChar_General_2",
+    "ItemId": 160118,
+    "ItemType": "Reward",
+    "Price": 6,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "RexclusionGroup": [
+      160118,
+      160317
+    ],
+    "Sequence": 114,
+    "ShowBonus": 2030,
+    "StartTime": 1766408400,
+    "SubTabId": 1601,
+    "TypeId": 12116,
+    "TypeNum": 1
+  },
+  "160119": {
+    "Bg": 1,
+    "EndTime": 1768770000,
+    "IsSpPopup": 1,
+    "ItemId": 160119,
+    "ItemType": "Reward",
+    "Price": 68,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 105,
+    "ShowBonus": 120,
+    "StartTime": 1766408400,
+    "SubTabId": 1601,
+    "TypeId": 12119,
+    "TypeNum": 1
+  },
+  "160120": {
+    "Bg": 1,
+    "EndTime": 1768770000,
+    "IsSpPopup": 1,
+    "ItemId": 160120,
+    "ItemType": "Reward",
+    "Price": 88,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Require": 160119,
+    "Sequence": 105,
+    "ShowBonus": 70,
+    "StartTime": 1766408400,
+    "SubTabId": 1601,
+    "TypeId": 12119,
+    "TypeNum": 1
+  },
+  "160121": {
+    "Bg": 1,
+    "EndTime": 1768770000,
+    "IsSpPopup": 1,
+    "ItemId": 160121,
+    "ItemType": "Reward",
+    "Price": 108,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Require": 160120,
+    "Sequence": 105,
+    "ShowBonus": 30,
+    "StartTime": 1766408400,
+    "SubTabId": 1601,
+    "TypeId": 12119,
+    "TypeNum": 1
+  },
+  "160122": {
+    "Bg": 1,
+    "EndTime": 1770667200,
+    "IsSpPopup": 1,
+    "ItemId": 160122,
+    "ItemType": "Reward",
+    "Price": 68,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 106,
+    "ShowBonus": 120,
+    "StartTime": 1768874400,
+    "SubTabId": 1601,
+    "TypeId": 12120,
+    "TypeNum": 1
+  },
+  "160123": {
+    "Bg": 1,
+    "EndTime": 1770667200,
+    "IsSpPopup": 1,
+    "ItemId": 160123,
+    "ItemType": "Reward",
+    "Price": 88,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Require": 160122,
+    "Sequence": 106,
+    "ShowBonus": 70,
+    "StartTime": 1768874400,
+    "SubTabId": 1601,
+    "TypeId": 12120,
+    "TypeNum": 1
+  },
+  "160124": {
+    "Bg": 1,
+    "EndTime": 1770667200,
+    "IsSpPopup": 1,
+    "ItemId": 160124,
+    "ItemType": "Reward",
+    "Price": 108,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Require": 160123,
+    "Sequence": 106,
+    "ShowBonus": 30,
+    "StartTime": 1768874400,
+    "SubTabId": 1601,
+    "TypeId": 12120,
+    "TypeNum": 1
+  },
+  "160125": {
+    "Bg": 1,
+    "EndTime": 1770667200,
+    "IsSpPopup": 1,
+    "ItemId": 160125,
+    "ItemType": "Reward",
+    "Price": 168,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "Sequence": 113,
+    "ShowBonus": 100,
+    "StartTime": 1766408400,
+    "SubTabId": 1601,
+    "TypeId": 12121,
+    "TypeNum": 1
+  },
   "160201": {
     "Bg": 1,
     "IsSpPopup": 1,
@@ -3024,7 +5315,7 @@
     "RefreshTime": {
       "WEEK": 1
     },
-    "Sequence": 94,
+    "Sequence": 92,
     "ShowBonus": 60,
     "StartTime": 1672545600,
     "SubTabId": 1605,
@@ -3042,7 +5333,7 @@
     "RefreshTime": {
       "WEEK": 1
     },
-    "Sequence": 93,
+    "Sequence": 91,
     "ShowBonus": 70,
     "StartTime": 1672545600,
     "SubTabId": 1605,
@@ -3060,7 +5351,7 @@
     "RefreshTime": {
       "WEEK": 1
     },
-    "Sequence": 96,
+    "Sequence": 94,
     "ShowBonus": 60,
     "StartTime": 1672545600,
     "SubTabId": 1605,
@@ -3078,7 +5369,7 @@
     "RefreshTime": {
       "WEEK": 1
     },
-    "Sequence": 95,
+    "Sequence": 93,
     "ShowBonus": 70,
     "StartTime": 1672545600,
     "SubTabId": 1605,
@@ -3193,6 +5484,79 @@
     "StartTime": 1672545600,
     "SubTabId": 1605,
     "TypeId": 12056,
+    "TypeNum": 1
+  },
+  "160214": {
+    "Bg": 2,
+    "IsSpPopup": 1,
+    "ItemId": 160214,
+    "ItemType": "Reward",
+    "Price": 300,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "RefreshTime": {
+      "WEEK": 1
+    },
+    "Sequence": 96,
+    "ShowBonus": 20,
+    "StartTime": 1766408400,
+    "SubTabId": 1605,
+    "TypeId": 12057,
+    "TypeNum": 1
+  },
+  "160215": {
+    "Bg": 2,
+    "IsSpPopup": 1,
+    "ItemId": 160215,
+    "ItemType": "Reward",
+    "Price": 680,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "RefreshTime": {
+      "WEEK": 1
+    },
+    "Require": 160214,
+    "Sequence": 95,
+    "ShowBonus": 30,
+    "StartTime": 1766408400,
+    "SubTabId": 1605,
+    "TypeId": 12058,
+    "TypeNum": 1
+  },
+  "160216": {
+    "Bg": 2,
+    "IsSpPopup": 1,
+    "ItemId": 160216,
+    "ItemType": "Reward",
+    "Price": 300,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "RefreshTime": {
+      "WEEK": 1
+    },
+    "Sequence": 90,
+    "ShowBonus": 100,
+    "StartTime": 1766408400,
+    "SubTabId": 1605,
+    "TypeId": 12059,
+    "TypeNum": 1
+  },
+  "160217": {
+    "Bg": 2,
+    "IsSpPopup": 1,
+    "ItemId": 160217,
+    "ItemType": "Reward",
+    "Price": 680,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "RefreshTime": {
+      "WEEK": 1
+    },
+    "Sequence": 89,
+    "ShowBonus": 120,
+    "StartTime": 1766408400,
+    "SubTabId": 1605,
+    "TypeId": 12060,
     "TypeNum": 1
   },
   "160301": {
@@ -3339,7 +5703,7 @@
     "PriceType": 99,
     "PurchaseLimit": 4,
     "RefreshTime": {
-      "WEEK": 8
+      "WEEK": 4
     },
     "Sequence": 80,
     "ShowBonus": 200,
@@ -3357,7 +5721,7 @@
     "PriceType": 99,
     "PurchaseLimit": 4,
     "RefreshTime": {
-      "WEEK": 8
+      "WEEK": 4
     },
     "Sequence": 79,
     "ShowBonus": 200,
@@ -3375,7 +5739,7 @@
     "PriceType": 99,
     "PurchaseLimit": 4,
     "RefreshTime": {
-      "WEEK": 8
+      "WEEK": 4
     },
     "Sequence": 78,
     "ShowBonus": 200,
@@ -3393,7 +5757,7 @@
     "PriceType": 99,
     "PurchaseLimit": 4,
     "RefreshTime": {
-      "WEEK": 8
+      "WEEK": 4
     },
     "Sequence": 77,
     "ShowBonus": 200,
@@ -3411,7 +5775,7 @@
     "PriceType": 99,
     "PurchaseLimit": 4,
     "RefreshTime": {
-      "WEEK": 8
+      "WEEK": 4
     },
     "Sequence": 76,
     "ShowBonus": 200,
@@ -3429,7 +5793,7 @@
     "PriceType": 99,
     "PurchaseLimit": 4,
     "RefreshTime": {
-      "WEEK": 8
+      "WEEK": 4
     },
     "Sequence": 75,
     "ShowBonus": 200,
@@ -3447,7 +5811,7 @@
     "PriceType": 99,
     "PurchaseLimit": 4,
     "RefreshTime": {
-      "WEEK": 8
+      "WEEK": 4
     },
     "Sequence": 74,
     "ShowBonus": 200,
@@ -3473,6 +5837,25 @@
     "StartTime": 1764018001,
     "SubTabId": 1606,
     "TypeId": 12107,
+    "TypeNum": 1
+  },
+  "160317": {
+    "Bg": 1,
+    "IsSpPopup": 1,
+    "ItemDes": "Pack_Des_MainChar_General_2",
+    "ItemId": 160317,
+    "ItemType": "Reward",
+    "Price": 128,
+    "PriceType": 99,
+    "PurchaseLimit": 1,
+    "RexclusionGroup": [
+      160118,
+      160317
+    ],
+    "Sequence": 72,
+    "StartTime": 1770667201,
+    "SubTabId": 1606,
+    "TypeId": 12116,
     "TypeNum": 1
   },
   "651321": {
@@ -3856,6 +6239,30 @@
     "StartTime": 1672545600,
     "SubTabId": 1803,
     "TypeId": 151754,
+    "TypeNum": 1,
+    "UnlockLevel": 50
+  },
+  "651755": {
+    "ItemId": 651755,
+    "ItemType": "Walnut",
+    "Price": 10,
+    "PriceType": 211,
+    "Sequence": 1001,
+    "StartTime": 1672545600,
+    "SubTabId": 1803,
+    "TypeId": 151755,
+    "TypeNum": 1,
+    "UnlockLevel": 50
+  },
+  "651756": {
+    "ItemId": 651756,
+    "ItemType": "Walnut",
+    "Price": 10,
+    "PriceType": 211,
+    "Sequence": 1002,
+    "StartTime": 1672545600,
+    "SubTabId": 1803,
+    "TypeId": 151756,
     "TypeNum": 1,
     "UnlockLevel": 50
   },
@@ -4285,6 +6692,71 @@
     "TypeId": 31524,
     "TypeNum": 1,
     "UnlockLevel": 35
+  },
+  "704001": {
+    "ItemId": 704001,
+    "ItemType": "Resource",
+    "Price": 5,
+    "PriceType": 29004,
+    "PurchaseLimit": 1,
+    "Sequence": 100,
+    "StartTime": 1672545600,
+    "SubTabId": 7040,
+    "TypeId": 10100,
+    "TypeNum": 1,
+    "UnlockLevel": 35
+  },
+  "704002": {
+    "ItemId": 704002,
+    "ItemType": "Resource",
+    "Price": 4,
+    "PriceType": 29004,
+    "PurchaseLimit": 1,
+    "Sequence": 150,
+    "StartTime": 1672545600,
+    "SubTabId": 7040,
+    "TypeId": 201,
+    "TypeNum": 1,
+    "UnlockLevel": 25
+  },
+  "704003": {
+    "ItemId": 704003,
+    "ItemType": "Resource",
+    "Price": 4,
+    "PriceType": 29004,
+    "PurchaseLimit": 1,
+    "Sequence": 149,
+    "StartTime": 1672545600,
+    "SubTabId": 7040,
+    "TypeId": 202,
+    "TypeNum": 1,
+    "UnlockLevel": 25
+  },
+  "704004": {
+    "ItemId": 704004,
+    "ItemType": "WeaponAccessory",
+    "Price": 3,
+    "PriceType": 29004,
+    "PurchaseLimit": 1,
+    "Sequence": 148,
+    "StartTime": 1672545600,
+    "SubTabId": 7040,
+    "TypeId": 10017,
+    "TypeNum": 1,
+    "UnlockLevel": 25
+  },
+  "704005": {
+    "ItemId": 704005,
+    "ItemType": "WeaponAccessory",
+    "Price": 2,
+    "PriceType": 29004,
+    "PurchaseLimit": 1,
+    "Sequence": 147,
+    "StartTime": 1672545600,
+    "SubTabId": 7040,
+    "TypeId": 10021,
+    "TypeNum": 1,
+    "UnlockLevel": 25
   },
   "801001": {
     "ItemId": 801001,
@@ -4901,7 +7373,7 @@
     "PriceType": 210,
     "PurchaseLimit": 20,
     "RefreshTime": {
-      "WEEK": 8
+      "WEEK": 4
     },
     "Require": 801126,
     "Sequence": 37,
@@ -4918,7 +7390,7 @@
     "PriceType": 210,
     "PurchaseLimit": 20,
     "RefreshTime": {
-      "WEEK": 8
+      "WEEK": 4
     },
     "Require": 801127,
     "Sequence": 38,
@@ -4949,7 +7421,7 @@
     "PriceType": 210,
     "PurchaseLimit": 20,
     "RefreshTime": {
-      "WEEK": 8
+      "WEEK": 4
     },
     "Require": 801129,
     "Sequence": 40,
@@ -4966,7 +7438,7 @@
     "PriceType": 210,
     "PurchaseLimit": 20,
     "RefreshTime": {
-      "WEEK": 8
+      "WEEK": 4
     },
     "Require": 801130,
     "Sequence": 41,
@@ -5111,7 +7583,472 @@
     "TypeNum": 1,
     "UnlockLevel": 1
   },
+  "802001": {
+    "ItemId": 802001,
+    "ItemType": "Resource",
+    "Price": 1000,
+    "PriceType": 101,
+    "PurchaseLimit": 10,
+    "RefreshTime": {
+      "DAY": 1
+    },
+    "Sequence": 1,
+    "StartTime": 1672545600,
+    "SubTabId": 8020,
+    "TypeId": 5210100,
+    "TypeNum": 1,
+    "UnlockLevel": 1
+  },
+  "802002": {
+    "ItemId": 802002,
+    "ItemType": "Resource",
+    "Price": 10,
+    "PriceType": 210,
+    "PurchaseLimit": 20,
+    "RefreshTime": {
+      "WEEK": 1
+    },
+    "Sequence": 2,
+    "StartTime": 1672545600,
+    "SubTabId": 8020,
+    "TypeId": 5210200,
+    "TypeNum": 10
+  },
+  "802003": {
+    "ItemId": 802003,
+    "ItemType": "Resource",
+    "Price": 20,
+    "PriceType": 210,
+    "PurchaseLimit": 10,
+    "RefreshTime": {
+      "WEEK": 1
+    },
+    "Sequence": 3,
+    "StartTime": 1672545600,
+    "SubTabId": 8020,
+    "TypeId": 5210300,
+    "TypeNum": 10
+  },
+  "802004": {
+    "ItemId": 802004,
+    "ItemType": "Resource",
+    "Price": 50,
+    "PriceType": 210,
+    "PurchaseLimit": 5,
+    "RefreshTime": {
+      "WEEK": 1
+    },
+    "Sequence": 4,
+    "StartTime": 1672545600,
+    "SubTabId": 8020,
+    "TypeId": 5210400,
+    "TypeNum": 10
+  },
+  "802005": {
+    "ItemId": 802005,
+    "ItemType": "Pet",
+    "Price": 20000,
+    "PriceType": 210,
+    "PurchaseLimit": 1,
+    "Sequence": 50,
+    "StartTime": 1672545600,
+    "SubTabId": 8020,
+    "TypeId": 4942,
+    "TypeNum": 1
+  },
+  "802006": {
+    "ItemId": 802006,
+    "ItemType": "Pet",
+    "Price": 20000,
+    "PriceType": 210,
+    "PurchaseLimit": 1,
+    "Sequence": 50,
+    "StartTime": 1672545600,
+    "SubTabId": 8020,
+    "TypeId": 4943,
+    "TypeNum": 1
+  },
+  "802101": {
+    "ItemId": 802101,
+    "ItemType": "Resource",
+    "Price": 15,
+    "PriceType": 210,
+    "PurchaseLimit": 10,
+    "Sequence": 11,
+    "StartTime": 1672545600,
+    "SubTabId": 8021,
+    "TypeId": 2012,
+    "TypeNum": 1,
+    "UnlockLevel": 1
+  },
+  "802102": {
+    "ItemId": 802102,
+    "ItemType": "Resource",
+    "Price": 15,
+    "PriceType": 210,
+    "PurchaseLimit": 10,
+    "Sequence": 12,
+    "StartTime": 1672545600,
+    "SubTabId": 8021,
+    "TypeId": 2008,
+    "TypeNum": 1,
+    "UnlockLevel": 1
+  },
+  "802103": {
+    "ItemId": 802103,
+    "ItemType": "Resource",
+    "Price": 20,
+    "PriceType": 210,
+    "PurchaseLimit": 10,
+    "Sequence": 13,
+    "StartTime": 1672545600,
+    "SubTabId": 8021,
+    "TypeId": 3005,
+    "TypeNum": 1,
+    "UnlockLevel": 1
+  },
+  "802104": {
+    "ItemId": 802104,
+    "ItemType": "Resource",
+    "Price": 100,
+    "PriceType": 210,
+    "PurchaseLimit": 5,
+    "Sequence": 14,
+    "StartTime": 1672545600,
+    "SubTabId": 8021,
+    "TypeId": 101,
+    "TypeNum": 10000,
+    "UnlockLevel": 1
+  },
+  "802105": {
+    "ItemId": 802105,
+    "ItemType": "Resource",
+    "Price": 50,
+    "PriceType": 210,
+    "PurchaseLimit": 5,
+    "Sequence": 15,
+    "StartTime": 1672545600,
+    "SubTabId": 8021,
+    "TypeId": 102,
+    "TypeNum": 100,
+    "UnlockLevel": 35
+  },
+  "802106": {
+    "ItemId": 802106,
+    "ItemType": "Resource",
+    "Price": 60,
+    "PriceType": 210,
+    "PurchaseLimit": 30,
+    "Require": 802101,
+    "Sequence": 16,
+    "StartTime": 1672545600,
+    "SubTabId": 8021,
+    "TypeId": 2013,
+    "TypeNum": 1,
+    "UnlockLevel": 35
+  },
+  "802107": {
+    "ItemId": 802107,
+    "ItemType": "Resource",
+    "Price": 60,
+    "PriceType": 210,
+    "PurchaseLimit": 30,
+    "Require": 802102,
+    "Sequence": 17,
+    "StartTime": 1672545600,
+    "SubTabId": 8021,
+    "TypeId": 2009,
+    "TypeNum": 1,
+    "UnlockLevel": 35
+  },
+  "802108": {
+    "ItemId": 802108,
+    "ItemType": "Resource",
+    "Price": 70,
+    "PriceType": 210,
+    "PurchaseLimit": 20,
+    "Require": 802103,
+    "Sequence": 18,
+    "StartTime": 1672545600,
+    "SubTabId": 8021,
+    "TypeId": 3006,
+    "TypeNum": 1,
+    "UnlockLevel": 35
+  },
+  "802109": {
+    "ItemId": 802109,
+    "ItemType": "Resource",
+    "Price": 200,
+    "PriceType": 210,
+    "PurchaseLimit": 20,
+    "Require": 802104,
+    "Sequence": 19,
+    "StartTime": 1672545600,
+    "SubTabId": 8021,
+    "TypeId": 101,
+    "TypeNum": 20000,
+    "UnlockLevel": 35
+  },
+  "802110": {
+    "ItemId": 802110,
+    "ItemType": "Resource",
+    "Price": 250,
+    "PriceType": 210,
+    "PurchaseLimit": 10,
+    "Require": 802105,
+    "Sequence": 20,
+    "StartTime": 1672545600,
+    "SubTabId": 8021,
+    "TypeId": 102,
+    "TypeNum": 500,
+    "UnlockLevel": 35
+  },
+  "802111": {
+    "ItemId": 802111,
+    "ItemType": "Resource",
+    "Price": 4000,
+    "PriceType": 210,
+    "PurchaseLimit": 1,
+    "Sequence": 21,
+    "StartTime": 1672545600,
+    "SubTabId": 8021,
+    "TypeId": 10100,
+    "TypeNum": 1,
+    "UnlockLevel": 35
+  },
+  "802112": {
+    "ItemId": 802112,
+    "ItemType": "Resource",
+    "Price": 1600,
+    "PriceType": 210,
+    "PurchaseLimit": 1,
+    "Sequence": 22,
+    "StartTime": 1672545600,
+    "SubTabId": 8021,
+    "TypeId": 1001,
+    "TypeNum": 1,
+    "UnlockLevel": 35
+  },
+  "802113": {
+    "ItemId": 802113,
+    "ItemType": "Resource",
+    "Price": 200,
+    "PriceType": 210,
+    "PurchaseLimit": 10,
+    "Sequence": 23,
+    "StartTime": 1672545600,
+    "SubTabId": 8021,
+    "TypeId": 1002,
+    "TypeNum": 1,
+    "UnlockLevel": 35
+  },
+  "802114": {
+    "ItemId": 802114,
+    "ItemType": "Resource",
+    "Price": 1000,
+    "PriceType": 210,
+    "PurchaseLimit": 6,
+    "Sequence": 24,
+    "StartTime": 1672545600,
+    "SubTabId": 8021,
+    "TypeId": 3001,
+    "TypeNum": 10,
+    "UnlockLevel": 35
+  },
+  "802115": {
+    "ItemId": 802115,
+    "ItemType": "Resource",
+    "Price": 4000,
+    "PriceType": 210,
+    "PurchaseLimit": 4,
+    "Sequence": 25,
+    "StartTime": 1672545600,
+    "SubTabId": 8021,
+    "TypeId": 211,
+    "TypeNum": 12,
+    "UnlockLevel": 55
+  },
+  "802116": {
+    "ItemId": 802116,
+    "ItemType": "Resource",
+    "Price": 140,
+    "PriceType": 210,
+    "PurchaseLimit": 30,
+    "Require": 802106,
+    "Sequence": 26,
+    "StartTime": 1672545600,
+    "SubTabId": 8021,
+    "TypeId": 2014,
+    "TypeNum": 1,
+    "UnlockLevel": 55
+  },
+  "802117": {
+    "ItemId": 802117,
+    "ItemType": "Resource",
+    "Price": 140,
+    "PriceType": 210,
+    "PurchaseLimit": 30,
+    "Require": 802107,
+    "Sequence": 27,
+    "StartTime": 1672545600,
+    "SubTabId": 8021,
+    "TypeId": 2010,
+    "TypeNum": 1,
+    "UnlockLevel": 55
+  },
+  "802118": {
+    "ItemId": 802118,
+    "ItemType": "Resource",
+    "Price": 70,
+    "PriceType": 210,
+    "PurchaseLimit": 50,
+    "Require": 802108,
+    "Sequence": 28,
+    "StartTime": 1672545600,
+    "SubTabId": 8021,
+    "TypeId": 3006,
+    "TypeNum": 1,
+    "UnlockLevel": 55
+  },
+  "802119": {
+    "ItemId": 802119,
+    "ItemType": "Resource",
+    "Price": 500,
+    "PriceType": 210,
+    "PurchaseLimit": 20,
+    "Require": 802109,
+    "Sequence": 29,
+    "StartTime": 1672545600,
+    "SubTabId": 8021,
+    "TypeId": 101,
+    "TypeNum": 50000,
+    "UnlockLevel": 55
+  },
+  "802120": {
+    "ItemId": 802120,
+    "ItemType": "Resource",
+    "Price": 500,
+    "PriceType": 210,
+    "PurchaseLimit": 20,
+    "Require": 802110,
+    "Sequence": 30,
+    "StartTime": 1672545600,
+    "SubTabId": 8021,
+    "TypeId": 102,
+    "TypeNum": 1000,
+    "UnlockLevel": 55
+  },
+  "802121": {
+    "ItemId": 802121,
+    "ItemType": "Resource",
+    "Price": 4000,
+    "PriceType": 210,
+    "PurchaseLimit": 1,
+    "Require": 802111,
+    "Sequence": 31,
+    "StartTime": 1672545600,
+    "SubTabId": 8021,
+    "TypeId": 10100,
+    "TypeNum": 1,
+    "UnlockLevel": 55
+  },
+  "802122": {
+    "ItemId": 802122,
+    "ItemType": "Resource",
+    "Price": 1600,
+    "PriceType": 210,
+    "PurchaseLimit": 1,
+    "Require": 802112,
+    "Sequence": 32,
+    "StartTime": 1672545600,
+    "SubTabId": 8021,
+    "TypeId": 1001,
+    "TypeNum": 1,
+    "UnlockLevel": 55
+  },
+  "802123": {
+    "ItemId": 802123,
+    "ItemType": "Resource",
+    "Price": 200,
+    "PriceType": 210,
+    "PurchaseLimit": 20,
+    "Require": 802113,
+    "Sequence": 33,
+    "StartTime": 1672545600,
+    "SubTabId": 8021,
+    "TypeId": 1002,
+    "TypeNum": 1,
+    "UnlockLevel": 55
+  },
+  "802124": {
+    "ItemId": 802124,
+    "ItemType": "Resource",
+    "Price": 1000,
+    "PriceType": 210,
+    "PurchaseLimit": 15,
+    "Require": 802114,
+    "Sequence": 34,
+    "StartTime": 1672545600,
+    "SubTabId": 8021,
+    "TypeId": 3001,
+    "TypeNum": 10,
+    "UnlockLevel": 55
+  },
+  "802125": {
+    "ItemId": 802125,
+    "ItemType": "Resource",
+    "Price": 5000,
+    "PriceType": 210,
+    "PurchaseLimit": 4,
+    "Require": 802115,
+    "Sequence": 35,
+    "StartTime": 1672545600,
+    "SubTabId": 8021,
+    "TypeId": 211,
+    "TypeNum": 15,
+    "UnlockLevel": 55
+  },
+  "802126": {
+    "ItemId": 802126,
+    "ItemType": "Title",
+    "Price": 5000,
+    "PriceType": 210,
+    "PurchaseLimit": 1,
+    "Sequence": 1,
+    "StartTime": 1672545600,
+    "SubTabId": 8021,
+    "TypeId": 10022,
+    "TypeNum": 1,
+    "UnlockLevel": 30
+  },
+  "802127": {
+    "ItemId": 802127,
+    "ItemType": "Title",
+    "Price": 5000,
+    "PriceType": 210,
+    "PurchaseLimit": 1,
+    "Sequence": 2,
+    "StartTime": 1672545600,
+    "SubTabId": 8021,
+    "TypeId": 20061,
+    "TypeNum": 1,
+    "UnlockLevel": 30
+  },
+  "802128": {
+    "ItemId": 802128,
+    "ItemType": "Title",
+    "Price": 5000,
+    "PriceType": 210,
+    "PurchaseLimit": 1,
+    "Sequence": 3,
+    "StartTime": 1672545600,
+    "SubTabId": 8021,
+    "TypeId": 20065,
+    "TypeNum": 1,
+    "UnlockLevel": 30
+  },
   "10000101": {
+    "EndTime": 1768770000,
     "ItemId": 10000101,
     "ItemType": "Resource",
     "Price": 20,
@@ -5127,6 +8064,7 @@
     "TypeNum": 1
   },
   "10000102": {
+    "EndTime": 1768770000,
     "ItemId": 10000102,
     "ItemType": "Resource",
     "Price": 20,
@@ -5142,6 +8080,7 @@
     "TypeNum": 1
   },
   "10000103": {
+    "EndTime": 1768770000,
     "ItemId": 10000103,
     "ItemType": "Resource",
     "Price": 25,
@@ -5157,6 +8096,7 @@
     "TypeNum": 1
   },
   "10000104": {
+    "EndTime": 1768770000,
     "ItemId": 10000104,
     "ItemType": "Resource",
     "Price": 25,
@@ -5172,6 +8112,7 @@
     "TypeNum": 5000
   },
   "10000105": {
+    "EndTime": 1768770000,
     "ItemId": 10000105,
     "ItemType": "Resource",
     "Price": 25,
@@ -5187,6 +8128,7 @@
     "TypeNum": 100
   },
   "10000106": {
+    "EndTime": 1768770000,
     "ItemId": 10000106,
     "ItemType": "Resource",
     "Price": 5000,
@@ -5202,6 +8144,7 @@
     "TypeNum": 1
   },
   "10000107": {
+    "EndTime": 1768770000,
     "ItemId": 10000107,
     "ItemType": "Resource",
     "Price": 25,
@@ -5241,6 +8184,7 @@
     "TypeNum": 1
   },
   "10000110": {
+    "EndTime": 1768770000,
     "ItemId": 10000110,
     "ItemType": "Resource",
     "Price": 300,
@@ -5256,6 +8200,7 @@
     "TypeNum": 1
   },
   "10000111": {
+    "EndTime": 1768770000,
     "ItemId": 10000111,
     "ItemType": "Resource",
     "Price": 300,
@@ -5295,6 +8240,60 @@
     "StartTime": 1764018000,
     "SubTabId": 100001,
     "TypeId": 2050,
+    "TypeNum": 1
+  },
+  "10000114": {
+    "EndTime": 1768874400,
+    "ItemId": 10000114,
+    "ItemType": "Walnut",
+    "Price": 75,
+    "PriceType": 214,
+    "PurchaseLimit": 10,
+    "Sequence": 101,
+    "StartTime": 1766437200,
+    "SubTabId": 100001,
+    "TypeId": 2047,
+    "TypeNum": 1
+  },
+  "10000115": {
+    "EndTime": 1768874400,
+    "ItemId": 10000115,
+    "ItemType": "Walnut",
+    "Price": 150,
+    "PriceType": 214,
+    "PurchaseLimit": 20,
+    "Require": 10000114,
+    "Sequence": 102,
+    "StartTime": 1766437200,
+    "SubTabId": 100001,
+    "TypeId": 2047,
+    "TypeNum": 1
+  },
+  "10000116": {
+    "EndTime": 1770688800,
+    "ItemId": 10000116,
+    "ItemType": "Walnut",
+    "Price": 75,
+    "PriceType": 214,
+    "PurchaseLimit": 10,
+    "Sequence": 101,
+    "StartTime": 1768874400,
+    "SubTabId": 100001,
+    "TypeId": 2049,
+    "TypeNum": 1
+  },
+  "10000117": {
+    "EndTime": 1770688800,
+    "ItemId": 10000117,
+    "ItemType": "Walnut",
+    "Price": 150,
+    "PriceType": 214,
+    "PurchaseLimit": 20,
+    "Require": 10000116,
+    "Sequence": 102,
+    "StartTime": 1768874400,
+    "SubTabId": 100001,
+    "TypeId": 2049,
     "TypeNum": 1
   },
   "10000500": {
@@ -5348,6 +8347,123 @@
     "TypeId": 102004,
     "TypeNum": 1,
     "UnlockLevel": 50
+  },
+  "10000601": {
+    "EndTime": 1770688800,
+    "ItemId": 10000601,
+    "ItemType": "Resource",
+    "Price": 20,
+    "PriceType": 214,
+    "PurchaseLimit": 10,
+    "Sequence": 90,
+    "StartTime": 1768770000,
+    "SubTabId": 100001,
+    "TypeId": 2013,
+    "TypeNum": 1
+  },
+  "10000602": {
+    "EndTime": 1770688800,
+    "ItemId": 10000602,
+    "ItemType": "Resource",
+    "Price": 20,
+    "PriceType": 214,
+    "PurchaseLimit": 10,
+    "Sequence": 80,
+    "StartTime": 1768770000,
+    "SubTabId": 100001,
+    "TypeId": 2009,
+    "TypeNum": 1
+  },
+  "10000603": {
+    "EndTime": 1770688800,
+    "ItemId": 10000603,
+    "ItemType": "Resource",
+    "Price": 25,
+    "PriceType": 214,
+    "PurchaseLimit": 10,
+    "Sequence": 70,
+    "StartTime": 1768770000,
+    "SubTabId": 100001,
+    "TypeId": 3006,
+    "TypeNum": 1
+  },
+  "10000604": {
+    "EndTime": 1770688800,
+    "ItemId": 10000604,
+    "ItemType": "Resource",
+    "Price": 25,
+    "PriceType": 214,
+    "PurchaseLimit": 10,
+    "Sequence": 50,
+    "StartTime": 1768770000,
+    "SubTabId": 100001,
+    "TypeId": 101,
+    "TypeNum": 5000
+  },
+  "10000605": {
+    "EndTime": 1770688800,
+    "ItemId": 10000605,
+    "ItemType": "Resource",
+    "Price": 25,
+    "PriceType": 214,
+    "PurchaseLimit": 10,
+    "Sequence": 60,
+    "StartTime": 1768770000,
+    "SubTabId": 100001,
+    "TypeId": 102,
+    "TypeNum": 100
+  },
+  "10000606": {
+    "EndTime": 1770688800,
+    "ItemId": 10000606,
+    "ItemType": "Resource",
+    "Price": 2500,
+    "PriceType": 214,
+    "PurchaseLimit": 1,
+    "Sequence": 100,
+    "StartTime": 1768770000,
+    "SubTabId": 100001,
+    "TypeId": 3007,
+    "TypeNum": 1
+  },
+  "10000607": {
+    "EndTime": 1770688800,
+    "ItemId": 10000607,
+    "ItemType": "Resource",
+    "Price": 25,
+    "PriceType": 214,
+    "Require": 10000604,
+    "Sequence": 40,
+    "StartTime": 1768770000,
+    "SubTabId": 100001,
+    "TypeId": 101,
+    "TypeNum": 2000
+  },
+  "10000608": {
+    "EndTime": 1770688800,
+    "ItemId": 10000608,
+    "ItemType": "Resource",
+    "Price": 300,
+    "PriceType": 214,
+    "PurchaseLimit": 2,
+    "Sequence": 99,
+    "StartTime": 1768770000,
+    "SubTabId": 100001,
+    "TypeId": 20027,
+    "TypeNum": 1
+  },
+  "10000609": {
+    "EndTime": 1770688800,
+    "ItemId": 10000609,
+    "ItemType": "Resource",
+    "Price": 300,
+    "PriceType": 214,
+    "PurchaseLimit": 2,
+    "Sequence": 98,
+    "StartTime": 1768770000,
+    "SubTabId": 100001,
+    "TypeId": 20028,
+    "TypeNum": 1
   },
   "10001101": {
     "ItemId": 10001101,
@@ -5436,7 +8552,7 @@
     "RefreshTime": {
       "WEEK": 1
     },
-    "Sequence": 25,
+    "Sequence": 30,
     "StartTime": 1672545600,
     "SubTabId": 100021,
     "TypeId": 101,
@@ -5451,7 +8567,7 @@
     "RefreshTime": {
       "WEEK": 1
     },
-    "Sequence": 30,
+    "Sequence": 25,
     "StartTime": 1672545600,
     "SubTabId": 100021,
     "TypeId": 102,
@@ -5521,14 +8637,28 @@
     "TypeNum": 1,
     "UnlockLevel": 45
   },
+  "10002110": {
+    "ItemId": 10002110,
+    "ItemType": "Mod",
+    "Price": 2000,
+    "PriceType": 215,
+    "PurchaseLimit": 1,
+    "Sequence": 100,
+    "StartTime": 1672545600,
+    "SubTabId": 100021,
+    "TypeId": 104003,
+    "TypeNum": 1,
+    "UnlockLevel": 45
+  },
   "10002201": {
+    "EndTime": 1766350800,
     "ItemId": 10002201,
     "ItemType": "Draft",
     "Price": 7500,
     "PriceType": 215,
     "PurchaseLimit": 2,
     "RefreshTime": {
-      "WEEK": 8
+      "DAY": 1086
     },
     "Sequence": 100,
     "StartTime": 1672545600,
@@ -5538,13 +8668,14 @@
     "UnlockLevel": 55
   },
   "10002202": {
+    "EndTime": 1766350800,
     "ItemId": 10002202,
     "ItemType": "Draft",
     "Price": 7500,
     "PriceType": 215,
     "PurchaseLimit": 2,
     "RefreshTime": {
-      "WEEK": 8
+      "DAY": 1086
     },
     "Sequence": 99,
     "StartTime": 1672545600,
@@ -5554,13 +8685,14 @@
     "UnlockLevel": 55
   },
   "10002203": {
+    "EndTime": 1766350800,
     "ItemId": 10002203,
     "ItemType": "Draft",
     "Price": 7500,
     "PriceType": 215,
     "PurchaseLimit": 2,
     "RefreshTime": {
-      "WEEK": 8
+      "DAY": 1086
     },
     "Sequence": 98,
     "StartTime": 1672545600,
@@ -5570,13 +8702,14 @@
     "UnlockLevel": 55
   },
   "10002204": {
+    "EndTime": 1766350800,
     "ItemId": 10002204,
     "ItemType": "Draft",
     "Price": 7500,
     "PriceType": 215,
     "PurchaseLimit": 2,
     "RefreshTime": {
-      "WEEK": 8
+      "DAY": 1086
     },
     "Sequence": 97,
     "StartTime": 1672545600,
@@ -5586,13 +8719,14 @@
     "UnlockLevel": 55
   },
   "10002205": {
+    "EndTime": 1766350800,
     "ItemId": 10002205,
     "ItemType": "Draft",
     "Price": 7500,
     "PriceType": 215,
     "PurchaseLimit": 2,
     "RefreshTime": {
-      "WEEK": 8
+      "DAY": 1086
     },
     "Sequence": 96,
     "StartTime": 1672545600,
@@ -5602,13 +8736,14 @@
     "UnlockLevel": 55
   },
   "10002206": {
+    "EndTime": 1766350800,
     "ItemId": 10002206,
     "ItemType": "Draft",
     "Price": 7500,
     "PriceType": 215,
     "PurchaseLimit": 2,
     "RefreshTime": {
-      "WEEK": 8
+      "DAY": 1086
     },
     "Sequence": 95,
     "StartTime": 1672545600,
@@ -5618,13 +8753,14 @@
     "UnlockLevel": 55
   },
   "10002207": {
+    "EndTime": 1766350800,
     "ItemId": 10002207,
     "ItemType": "Draft",
     "Price": 7500,
     "PriceType": 215,
     "PurchaseLimit": 2,
     "RefreshTime": {
-      "WEEK": 8
+      "DAY": 1086
     },
     "Sequence": 94,
     "StartTime": 1672545600,
@@ -5634,13 +8770,14 @@
     "UnlockLevel": 55
   },
   "10002208": {
+    "EndTime": 1766350800,
     "ItemId": 10002208,
     "ItemType": "Draft",
     "Price": 7500,
     "PriceType": 215,
     "PurchaseLimit": 2,
     "RefreshTime": {
-      "WEEK": 8
+      "DAY": 1086
     },
     "Sequence": 93,
     "StartTime": 1672545600,
@@ -5650,13 +8787,14 @@
     "UnlockLevel": 55
   },
   "10002209": {
+    "EndTime": 1766350800,
     "ItemId": 10002209,
     "ItemType": "Draft",
     "Price": 7500,
     "PriceType": 215,
     "PurchaseLimit": 2,
     "RefreshTime": {
-      "WEEK": 8
+      "DAY": 1086
     },
     "Sequence": 92,
     "StartTime": 1672545600,
@@ -5666,13 +8804,14 @@
     "UnlockLevel": 55
   },
   "10002210": {
+    "EndTime": 1766350800,
     "ItemId": 10002210,
     "ItemType": "Mod",
     "Price": 2000,
     "PriceType": 215,
     "PurchaseLimit": 6,
     "RefreshTime": {
-      "WEEK": 8
+      "DAY": 1086
     },
     "Sequence": 91,
     "StartTime": 1672545600,
@@ -5682,13 +8821,14 @@
     "UnlockLevel": 45
   },
   "10002211": {
+    "EndTime": 1766350800,
     "ItemId": 10002211,
     "ItemType": "Mod",
     "Price": 2000,
     "PriceType": 215,
     "PurchaseLimit": 6,
     "RefreshTime": {
-      "WEEK": 8
+      "DAY": 1086
     },
     "Sequence": 90,
     "StartTime": 1672545600,
@@ -5698,13 +8838,14 @@
     "UnlockLevel": 45
   },
   "10002212": {
+    "EndTime": 1766350800,
     "ItemId": 10002212,
     "ItemType": "Mod",
     "Price": 2000,
     "PriceType": 215,
     "PurchaseLimit": 6,
     "RefreshTime": {
-      "WEEK": 8
+      "DAY": 1086
     },
     "Sequence": 89,
     "StartTime": 1672545600,
@@ -5714,13 +8855,14 @@
     "UnlockLevel": 45
   },
   "10002213": {
+    "EndTime": 1766350800,
     "ItemId": 10002213,
     "ItemType": "Mod",
     "Price": 2000,
     "PriceType": 215,
     "PurchaseLimit": 6,
     "RefreshTime": {
-      "WEEK": 8
+      "DAY": 1086
     },
     "Sequence": 88,
     "StartTime": 1672545600,
@@ -5730,13 +8872,14 @@
     "UnlockLevel": 45
   },
   "10002214": {
+    "EndTime": 1766350800,
     "ItemId": 10002214,
     "ItemType": "Mod",
     "Price": 2000,
     "PriceType": 215,
     "PurchaseLimit": 6,
     "RefreshTime": {
-      "WEEK": 8
+      "DAY": 1086
     },
     "Sequence": 87,
     "StartTime": 1672545600,
@@ -5746,13 +8889,14 @@
     "UnlockLevel": 45
   },
   "10002215": {
+    "EndTime": 1766350800,
     "ItemId": 10002215,
     "ItemType": "Mod",
     "Price": 2000,
     "PriceType": 215,
     "PurchaseLimit": 6,
     "RefreshTime": {
-      "WEEK": 8
+      "DAY": 1086
     },
     "Sequence": 86,
     "StartTime": 1672545600,
@@ -5762,13 +8906,14 @@
     "UnlockLevel": 45
   },
   "10002216": {
+    "EndTime": 1766350800,
     "ItemId": 10002216,
     "ItemType": "Mod",
     "Price": 2000,
     "PriceType": 215,
     "PurchaseLimit": 6,
     "RefreshTime": {
-      "WEEK": 8
+      "DAY": 1086
     },
     "Sequence": 85,
     "StartTime": 1672545600,
@@ -5778,13 +8923,14 @@
     "UnlockLevel": 45
   },
   "10002217": {
+    "EndTime": 1766350800,
     "ItemId": 10002217,
     "ItemType": "Mod",
     "Price": 2000,
     "PriceType": 215,
     "PurchaseLimit": 6,
     "RefreshTime": {
-      "WEEK": 8
+      "DAY": 1086
     },
     "Sequence": 84,
     "StartTime": 1672545600,
@@ -5794,13 +8940,14 @@
     "UnlockLevel": 45
   },
   "10002218": {
+    "EndTime": 1766350800,
     "ItemId": 10002218,
     "ItemType": "Mod",
     "Price": 2000,
     "PriceType": 215,
     "PurchaseLimit": 6,
     "RefreshTime": {
-      "WEEK": 8
+      "DAY": 1086
     },
     "Sequence": 83,
     "StartTime": 1672545600,
@@ -6026,13 +9173,14 @@
     "UnlockLevel": 15
   },
   "10002301": {
+    "EndTime": 1766350800,
     "ItemId": 10002301,
     "ItemType": "Draft",
     "Price": 7500,
     "PriceType": 215,
     "PurchaseLimit": 2,
     "RefreshTime": {
-      "WEEK": 8
+      "DAY": 1086
     },
     "Sequence": 100,
     "StartTime": 1672545600,
@@ -6042,13 +9190,14 @@
     "UnlockLevel": 55
   },
   "10002302": {
+    "EndTime": 1766350800,
     "ItemId": 10002302,
     "ItemType": "Draft",
     "Price": 7500,
     "PriceType": 215,
     "PurchaseLimit": 2,
     "RefreshTime": {
-      "WEEK": 8
+      "DAY": 1086
     },
     "Sequence": 99,
     "StartTime": 1672545600,
@@ -6058,13 +9207,14 @@
     "UnlockLevel": 55
   },
   "10002303": {
+    "EndTime": 1766350800,
     "ItemId": 10002303,
     "ItemType": "Draft",
     "Price": 7500,
     "PriceType": 215,
     "PurchaseLimit": 2,
     "RefreshTime": {
-      "WEEK": 8
+      "DAY": 1086
     },
     "Sequence": 98,
     "StartTime": 1672545600,
@@ -6074,13 +9224,14 @@
     "UnlockLevel": 55
   },
   "10002304": {
+    "EndTime": 1766350800,
     "ItemId": 10002304,
     "ItemType": "Draft",
     "Price": 7500,
     "PriceType": 215,
     "PurchaseLimit": 2,
     "RefreshTime": {
-      "WEEK": 8
+      "DAY": 1086
     },
     "Sequence": 97,
     "StartTime": 1672545600,
@@ -6090,13 +9241,14 @@
     "UnlockLevel": 55
   },
   "10002305": {
+    "EndTime": 1766350800,
     "ItemId": 10002305,
     "ItemType": "Draft",
     "Price": 7500,
     "PriceType": 215,
     "PurchaseLimit": 2,
     "RefreshTime": {
-      "WEEK": 8
+      "DAY": 1086
     },
     "Sequence": 96,
     "StartTime": 1672545600,
@@ -6106,13 +9258,14 @@
     "UnlockLevel": 55
   },
   "10002306": {
+    "EndTime": 1766350800,
     "ItemId": 10002306,
     "ItemType": "Draft",
     "Price": 7500,
     "PriceType": 215,
     "PurchaseLimit": 2,
     "RefreshTime": {
-      "WEEK": 8
+      "DAY": 1086
     },
     "Sequence": 95,
     "StartTime": 1672545600,
@@ -6122,13 +9275,14 @@
     "UnlockLevel": 55
   },
   "10002307": {
+    "EndTime": 1766350800,
     "ItemId": 10002307,
     "ItemType": "Draft",
     "Price": 7500,
     "PriceType": 215,
     "PurchaseLimit": 2,
     "RefreshTime": {
-      "WEEK": 8
+      "DAY": 1086
     },
     "Sequence": 94,
     "StartTime": 1672545600,
@@ -6138,13 +9292,14 @@
     "UnlockLevel": 55
   },
   "10002308": {
+    "EndTime": 1766350800,
     "ItemId": 10002308,
     "ItemType": "Draft",
     "Price": 7500,
     "PriceType": 215,
     "PurchaseLimit": 2,
     "RefreshTime": {
-      "WEEK": 8
+      "DAY": 1086
     },
     "Sequence": 93,
     "StartTime": 1672545600,
@@ -6154,13 +9309,14 @@
     "UnlockLevel": 55
   },
   "10002309": {
+    "EndTime": 1766350800,
     "ItemId": 10002309,
     "ItemType": "Draft",
     "Price": 7500,
     "PriceType": 215,
     "PurchaseLimit": 2,
     "RefreshTime": {
-      "WEEK": 8
+      "DAY": 1086
     },
     "Sequence": 92,
     "StartTime": 1672545600,
@@ -6170,13 +9326,14 @@
     "UnlockLevel": 55
   },
   "10002310": {
+    "EndTime": 1766350800,
     "ItemId": 10002310,
     "ItemType": "Mod",
     "Price": 2000,
     "PriceType": 215,
     "PurchaseLimit": 6,
     "RefreshTime": {
-      "WEEK": 8
+      "DAY": 1086
     },
     "Sequence": 91,
     "StartTime": 1672545600,
@@ -6186,13 +9343,14 @@
     "UnlockLevel": 45
   },
   "10002311": {
+    "EndTime": 1766350800,
     "ItemId": 10002311,
     "ItemType": "Mod",
     "Price": 2000,
     "PriceType": 215,
     "PurchaseLimit": 6,
     "RefreshTime": {
-      "WEEK": 8
+      "DAY": 1086
     },
     "Sequence": 90,
     "StartTime": 1672545600,
@@ -6202,13 +9360,14 @@
     "UnlockLevel": 45
   },
   "10002312": {
+    "EndTime": 1766350800,
     "ItemId": 10002312,
     "ItemType": "Mod",
     "Price": 2000,
     "PriceType": 215,
     "PurchaseLimit": 6,
     "RefreshTime": {
-      "WEEK": 8
+      "DAY": 1086
     },
     "Sequence": 89,
     "StartTime": 1672545600,
@@ -6218,13 +9377,14 @@
     "UnlockLevel": 45
   },
   "10002313": {
+    "EndTime": 1766350800,
     "ItemId": 10002313,
     "ItemType": "Mod",
     "Price": 2000,
     "PriceType": 215,
     "PurchaseLimit": 6,
     "RefreshTime": {
-      "WEEK": 8
+      "DAY": 1086
     },
     "Sequence": 88,
     "StartTime": 1672545600,
@@ -6234,13 +9394,14 @@
     "UnlockLevel": 45
   },
   "10002314": {
+    "EndTime": 1766350800,
     "ItemId": 10002314,
     "ItemType": "Mod",
     "Price": 2000,
     "PriceType": 215,
     "PurchaseLimit": 6,
     "RefreshTime": {
-      "WEEK": 8
+      "DAY": 1086
     },
     "Sequence": 87,
     "StartTime": 1672545600,
@@ -6250,13 +9411,14 @@
     "UnlockLevel": 45
   },
   "10002315": {
+    "EndTime": 1766350800,
     "ItemId": 10002315,
     "ItemType": "Mod",
     "Price": 2000,
     "PriceType": 215,
     "PurchaseLimit": 6,
     "RefreshTime": {
-      "WEEK": 8
+      "DAY": 1086
     },
     "Sequence": 86,
     "StartTime": 1672545600,
@@ -6266,13 +9428,14 @@
     "UnlockLevel": 45
   },
   "10002316": {
+    "EndTime": 1766350800,
     "ItemId": 10002316,
     "ItemType": "Mod",
     "Price": 2000,
     "PriceType": 215,
     "PurchaseLimit": 6,
     "RefreshTime": {
-      "WEEK": 8
+      "DAY": 1086
     },
     "Sequence": 85,
     "StartTime": 1672545600,
@@ -6282,13 +9445,14 @@
     "UnlockLevel": 45
   },
   "10002317": {
+    "EndTime": 1766350800,
     "ItemId": 10002317,
     "ItemType": "Mod",
     "Price": 2000,
     "PriceType": 215,
     "PurchaseLimit": 6,
     "RefreshTime": {
-      "WEEK": 8
+      "DAY": 1086
     },
     "Sequence": 84,
     "StartTime": 1672545600,
@@ -6298,13 +9462,14 @@
     "UnlockLevel": 45
   },
   "10002318": {
+    "EndTime": 1766350800,
     "ItemId": 10002318,
     "ItemType": "Mod",
     "Price": 2000,
     "PriceType": 215,
     "PurchaseLimit": 6,
     "RefreshTime": {
-      "WEEK": 8
+      "DAY": 1086
     },
     "Sequence": 83,
     "StartTime": 1672545600,
@@ -6528,5 +9693,1425 @@
     "TypeId": 25103,
     "TypeNum": 1,
     "UnlockLevel": 15
+  },
+  "10002337": {
+    "ItemId": 10002337,
+    "ItemType": "Draft",
+    "Price": 7500,
+    "PriceType": 215,
+    "PurchaseLimit": 2,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 100,
+    "StartTime": 1766350800,
+    "SubTabId": 100022,
+    "TypeId": 154001,
+    "TypeNum": 1,
+    "UnlockLevel": 55
+  },
+  "10002338": {
+    "ItemId": 10002338,
+    "ItemType": "Draft",
+    "Price": 7500,
+    "PriceType": 215,
+    "PurchaseLimit": 2,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 99,
+    "StartTime": 1766350800,
+    "SubTabId": 100022,
+    "TypeId": 154002,
+    "TypeNum": 1,
+    "UnlockLevel": 55
+  },
+  "10002339": {
+    "ItemId": 10002339,
+    "ItemType": "Draft",
+    "Price": 7500,
+    "PriceType": 215,
+    "PurchaseLimit": 2,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 98,
+    "StartTime": 1766350800,
+    "SubTabId": 100022,
+    "TypeId": 154003,
+    "TypeNum": 1,
+    "UnlockLevel": 55
+  },
+  "10002340": {
+    "ItemId": 10002340,
+    "ItemType": "Draft",
+    "Price": 7500,
+    "PriceType": 215,
+    "PurchaseLimit": 2,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 97,
+    "StartTime": 1766350800,
+    "SubTabId": 100022,
+    "TypeId": 154004,
+    "TypeNum": 1,
+    "UnlockLevel": 55
+  },
+  "10002341": {
+    "ItemId": 10002341,
+    "ItemType": "Draft",
+    "Price": 7500,
+    "PriceType": 215,
+    "PurchaseLimit": 2,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 96,
+    "StartTime": 1766350800,
+    "SubTabId": 100022,
+    "TypeId": 154005,
+    "TypeNum": 1,
+    "UnlockLevel": 55
+  },
+  "10002342": {
+    "ItemId": 10002342,
+    "ItemType": "Draft",
+    "Price": 7500,
+    "PriceType": 215,
+    "PurchaseLimit": 2,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 95,
+    "StartTime": 1766350800,
+    "SubTabId": 100022,
+    "TypeId": 154006,
+    "TypeNum": 1,
+    "UnlockLevel": 55
+  },
+  "10002343": {
+    "ItemId": 10002343,
+    "ItemType": "Draft",
+    "Price": 7500,
+    "PriceType": 215,
+    "PurchaseLimit": 2,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 94,
+    "StartTime": 1766350800,
+    "SubTabId": 100022,
+    "TypeId": 154101,
+    "TypeNum": 1,
+    "UnlockLevel": 55
+  },
+  "10002344": {
+    "ItemId": 10002344,
+    "ItemType": "Draft",
+    "Price": 7500,
+    "PriceType": 215,
+    "PurchaseLimit": 2,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 93,
+    "StartTime": 1766350800,
+    "SubTabId": 100022,
+    "TypeId": 154102,
+    "TypeNum": 1,
+    "UnlockLevel": 55
+  },
+  "10002345": {
+    "ItemId": 10002345,
+    "ItemType": "Draft",
+    "Price": 7500,
+    "PriceType": 215,
+    "PurchaseLimit": 2,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 92,
+    "StartTime": 1766350800,
+    "SubTabId": 100022,
+    "TypeId": 154103,
+    "TypeNum": 1,
+    "UnlockLevel": 55
+  },
+  "10002346": {
+    "ItemId": 10002346,
+    "ItemType": "Mod",
+    "Price": 2000,
+    "PriceType": 215,
+    "PurchaseLimit": 6,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 91,
+    "StartTime": 1766350800,
+    "SubTabId": 100022,
+    "TypeId": 44001,
+    "TypeNum": 1,
+    "UnlockLevel": 45
+  },
+  "10002347": {
+    "ItemId": 10002347,
+    "ItemType": "Mod",
+    "Price": 2000,
+    "PriceType": 215,
+    "PurchaseLimit": 6,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 90,
+    "StartTime": 1766350800,
+    "SubTabId": 100022,
+    "TypeId": 44002,
+    "TypeNum": 1,
+    "UnlockLevel": 45
+  },
+  "10002348": {
+    "ItemId": 10002348,
+    "ItemType": "Mod",
+    "Price": 2000,
+    "PriceType": 215,
+    "PurchaseLimit": 6,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 89,
+    "StartTime": 1766350800,
+    "SubTabId": 100022,
+    "TypeId": 44003,
+    "TypeNum": 1,
+    "UnlockLevel": 45
+  },
+  "10002349": {
+    "ItemId": 10002349,
+    "ItemType": "Mod",
+    "Price": 2000,
+    "PriceType": 215,
+    "PurchaseLimit": 6,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 88,
+    "StartTime": 1766350800,
+    "SubTabId": 100022,
+    "TypeId": 44004,
+    "TypeNum": 1,
+    "UnlockLevel": 45
+  },
+  "10002350": {
+    "ItemId": 10002350,
+    "ItemType": "Mod",
+    "Price": 2000,
+    "PriceType": 215,
+    "PurchaseLimit": 6,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 87,
+    "StartTime": 1766350800,
+    "SubTabId": 100022,
+    "TypeId": 44005,
+    "TypeNum": 1,
+    "UnlockLevel": 45
+  },
+  "10002351": {
+    "ItemId": 10002351,
+    "ItemType": "Mod",
+    "Price": 2000,
+    "PriceType": 215,
+    "PurchaseLimit": 6,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 86,
+    "StartTime": 1766350800,
+    "SubTabId": 100022,
+    "TypeId": 44006,
+    "TypeNum": 1,
+    "UnlockLevel": 45
+  },
+  "10002352": {
+    "ItemId": 10002352,
+    "ItemType": "Mod",
+    "Price": 2000,
+    "PriceType": 215,
+    "PurchaseLimit": 6,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 85,
+    "StartTime": 1766350800,
+    "SubTabId": 100022,
+    "TypeId": 44101,
+    "TypeNum": 1,
+    "UnlockLevel": 45
+  },
+  "10002353": {
+    "ItemId": 10002353,
+    "ItemType": "Mod",
+    "Price": 2000,
+    "PriceType": 215,
+    "PurchaseLimit": 6,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 84,
+    "StartTime": 1766350800,
+    "SubTabId": 100022,
+    "TypeId": 44102,
+    "TypeNum": 1,
+    "UnlockLevel": 45
+  },
+  "10002354": {
+    "ItemId": 10002354,
+    "ItemType": "Mod",
+    "Price": 2000,
+    "PriceType": 215,
+    "PurchaseLimit": 6,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 83,
+    "StartTime": 1766350800,
+    "SubTabId": 100022,
+    "TypeId": 44103,
+    "TypeNum": 1,
+    "UnlockLevel": 45
+  },
+  "10002355": {
+    "ItemId": 10002355,
+    "ItemType": "Draft",
+    "Price": 7500,
+    "PriceType": 215,
+    "PurchaseLimit": 2,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 100,
+    "StartTime": 1766350800,
+    "SubTabId": 100023,
+    "TypeId": 155001,
+    "TypeNum": 1,
+    "UnlockLevel": 55
+  },
+  "10002356": {
+    "ItemId": 10002356,
+    "ItemType": "Draft",
+    "Price": 7500,
+    "PriceType": 215,
+    "PurchaseLimit": 2,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 99,
+    "StartTime": 1766350800,
+    "SubTabId": 100023,
+    "TypeId": 155002,
+    "TypeNum": 1,
+    "UnlockLevel": 55
+  },
+  "10002357": {
+    "ItemId": 10002357,
+    "ItemType": "Draft",
+    "Price": 7500,
+    "PriceType": 215,
+    "PurchaseLimit": 2,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 98,
+    "StartTime": 1766350800,
+    "SubTabId": 100023,
+    "TypeId": 155003,
+    "TypeNum": 1,
+    "UnlockLevel": 55
+  },
+  "10002358": {
+    "ItemId": 10002358,
+    "ItemType": "Draft",
+    "Price": 7500,
+    "PriceType": 215,
+    "PurchaseLimit": 2,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 97,
+    "StartTime": 1766350800,
+    "SubTabId": 100023,
+    "TypeId": 155004,
+    "TypeNum": 1,
+    "UnlockLevel": 55
+  },
+  "10002359": {
+    "ItemId": 10002359,
+    "ItemType": "Draft",
+    "Price": 7500,
+    "PriceType": 215,
+    "PurchaseLimit": 2,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 96,
+    "StartTime": 1766350800,
+    "SubTabId": 100023,
+    "TypeId": 155005,
+    "TypeNum": 1,
+    "UnlockLevel": 55
+  },
+  "10002360": {
+    "ItemId": 10002360,
+    "ItemType": "Draft",
+    "Price": 7500,
+    "PriceType": 215,
+    "PurchaseLimit": 2,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 95,
+    "StartTime": 1766350800,
+    "SubTabId": 100023,
+    "TypeId": 155006,
+    "TypeNum": 1,
+    "UnlockLevel": 55
+  },
+  "10002361": {
+    "ItemId": 10002361,
+    "ItemType": "Draft",
+    "Price": 7500,
+    "PriceType": 215,
+    "PurchaseLimit": 2,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 94,
+    "StartTime": 1766350800,
+    "SubTabId": 100023,
+    "TypeId": 155101,
+    "TypeNum": 1,
+    "UnlockLevel": 55
+  },
+  "10002362": {
+    "ItemId": 10002362,
+    "ItemType": "Draft",
+    "Price": 7500,
+    "PriceType": 215,
+    "PurchaseLimit": 2,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 93,
+    "StartTime": 1766350800,
+    "SubTabId": 100023,
+    "TypeId": 155102,
+    "TypeNum": 1,
+    "UnlockLevel": 55
+  },
+  "10002363": {
+    "ItemId": 10002363,
+    "ItemType": "Draft",
+    "Price": 7500,
+    "PriceType": 215,
+    "PurchaseLimit": 2,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 92,
+    "StartTime": 1766350800,
+    "SubTabId": 100023,
+    "TypeId": 155103,
+    "TypeNum": 1,
+    "UnlockLevel": 55
+  },
+  "10002364": {
+    "ItemId": 10002364,
+    "ItemType": "Mod",
+    "Price": 2000,
+    "PriceType": 215,
+    "PurchaseLimit": 6,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 91,
+    "StartTime": 1766350800,
+    "SubTabId": 100023,
+    "TypeId": 45001,
+    "TypeNum": 1,
+    "UnlockLevel": 45
+  },
+  "10002365": {
+    "ItemId": 10002365,
+    "ItemType": "Mod",
+    "Price": 2000,
+    "PriceType": 215,
+    "PurchaseLimit": 6,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 90,
+    "StartTime": 1766350800,
+    "SubTabId": 100023,
+    "TypeId": 45002,
+    "TypeNum": 1,
+    "UnlockLevel": 45
+  },
+  "10002366": {
+    "ItemId": 10002366,
+    "ItemType": "Mod",
+    "Price": 2000,
+    "PriceType": 215,
+    "PurchaseLimit": 6,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 89,
+    "StartTime": 1766350800,
+    "SubTabId": 100023,
+    "TypeId": 45003,
+    "TypeNum": 1,
+    "UnlockLevel": 45
+  },
+  "10002367": {
+    "ItemId": 10002367,
+    "ItemType": "Mod",
+    "Price": 2000,
+    "PriceType": 215,
+    "PurchaseLimit": 6,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 88,
+    "StartTime": 1766350800,
+    "SubTabId": 100023,
+    "TypeId": 45004,
+    "TypeNum": 1,
+    "UnlockLevel": 45
+  },
+  "10002368": {
+    "ItemId": 10002368,
+    "ItemType": "Mod",
+    "Price": 2000,
+    "PriceType": 215,
+    "PurchaseLimit": 6,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 87,
+    "StartTime": 1766350800,
+    "SubTabId": 100023,
+    "TypeId": 45005,
+    "TypeNum": 1,
+    "UnlockLevel": 45
+  },
+  "10002369": {
+    "ItemId": 10002369,
+    "ItemType": "Mod",
+    "Price": 2000,
+    "PriceType": 215,
+    "PurchaseLimit": 6,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 86,
+    "StartTime": 1766350800,
+    "SubTabId": 100023,
+    "TypeId": 45006,
+    "TypeNum": 1,
+    "UnlockLevel": 45
+  },
+  "10002370": {
+    "ItemId": 10002370,
+    "ItemType": "Mod",
+    "Price": 2000,
+    "PriceType": 215,
+    "PurchaseLimit": 6,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 85,
+    "StartTime": 1766350800,
+    "SubTabId": 100023,
+    "TypeId": 45101,
+    "TypeNum": 1,
+    "UnlockLevel": 45
+  },
+  "10002371": {
+    "ItemId": 10002371,
+    "ItemType": "Mod",
+    "Price": 2000,
+    "PriceType": 215,
+    "PurchaseLimit": 6,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 84,
+    "StartTime": 1766350800,
+    "SubTabId": 100023,
+    "TypeId": 45102,
+    "TypeNum": 1,
+    "UnlockLevel": 45
+  },
+  "10002372": {
+    "ItemId": 10002372,
+    "ItemType": "Mod",
+    "Price": 2000,
+    "PriceType": 215,
+    "PurchaseLimit": 6,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 83,
+    "StartTime": 1766350800,
+    "SubTabId": 100023,
+    "TypeId": 45103,
+    "TypeNum": 1,
+    "UnlockLevel": 45
+  },
+  "10003101": {
+    "ItemId": 10003101,
+    "ItemType": "Draft",
+    "Price": 15,
+    "PriceType": 216,
+    "PurchaseLimit": 2,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 1,
+    "StartTime": 1672545600,
+    "SubTabId": 100031,
+    "TypeId": 151411,
+    "TypeNum": 1
+  },
+  "10003102": {
+    "ItemId": 10003102,
+    "ItemType": "Draft",
+    "Price": 15,
+    "PriceType": 216,
+    "PurchaseLimit": 2,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 1,
+    "StartTime": 1672545600,
+    "SubTabId": 100031,
+    "TypeId": 151412,
+    "TypeNum": 1
+  },
+  "10003103": {
+    "ItemId": 10003103,
+    "ItemType": "Draft",
+    "Price": 15,
+    "PriceType": 216,
+    "PurchaseLimit": 2,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 2,
+    "StartTime": 1672545600,
+    "SubTabId": 100031,
+    "TypeId": 151413,
+    "TypeNum": 1
+  },
+  "10003104": {
+    "ItemId": 10003104,
+    "ItemType": "Draft",
+    "Price": 15,
+    "PriceType": 216,
+    "PurchaseLimit": 2,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 27,
+    "StartTime": 1672545600,
+    "SubTabId": 100031,
+    "TypeId": 151414,
+    "TypeNum": 1
+  },
+  "10003105": {
+    "ItemId": 10003105,
+    "ItemType": "Draft",
+    "Price": 15,
+    "PriceType": 216,
+    "PurchaseLimit": 2,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 26,
+    "StartTime": 1672545600,
+    "SubTabId": 100031,
+    "TypeId": 151415,
+    "TypeNum": 1
+  },
+  "10003106": {
+    "ItemId": 10003106,
+    "ItemType": "Draft",
+    "Price": 15,
+    "PriceType": 216,
+    "PurchaseLimit": 2,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 25,
+    "StartTime": 1672545600,
+    "SubTabId": 100031,
+    "TypeId": 151421,
+    "TypeNum": 1
+  },
+  "10003107": {
+    "ItemId": 10003107,
+    "ItemType": "Draft",
+    "Price": 15,
+    "PriceType": 216,
+    "PurchaseLimit": 2,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 24,
+    "StartTime": 1672545600,
+    "SubTabId": 100031,
+    "TypeId": 151422,
+    "TypeNum": 1
+  },
+  "10003108": {
+    "ItemId": 10003108,
+    "ItemType": "Draft",
+    "Price": 15,
+    "PriceType": 216,
+    "PurchaseLimit": 2,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 23,
+    "StartTime": 1672545600,
+    "SubTabId": 100031,
+    "TypeId": 151423,
+    "TypeNum": 1
+  },
+  "10003109": {
+    "ItemId": 10003109,
+    "ItemType": "Draft",
+    "Price": 15,
+    "PriceType": 216,
+    "PurchaseLimit": 2,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 22,
+    "StartTime": 1672545600,
+    "SubTabId": 100031,
+    "TypeId": 151424,
+    "TypeNum": 1
+  },
+  "10003110": {
+    "ItemId": 10003110,
+    "ItemType": "Draft",
+    "Price": 15,
+    "PriceType": 216,
+    "PurchaseLimit": 2,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 21,
+    "StartTime": 1672545600,
+    "SubTabId": 100031,
+    "TypeId": 151425,
+    "TypeNum": 1
+  },
+  "10003111": {
+    "ItemId": 10003111,
+    "ItemType": "Draft",
+    "Price": 15,
+    "PriceType": 216,
+    "PurchaseLimit": 2,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 20,
+    "StartTime": 1672545600,
+    "SubTabId": 100031,
+    "TypeId": 151431,
+    "TypeNum": 1
+  },
+  "10003112": {
+    "ItemId": 10003112,
+    "ItemType": "Draft",
+    "Price": 15,
+    "PriceType": 216,
+    "PurchaseLimit": 2,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 19,
+    "StartTime": 1672545600,
+    "SubTabId": 100031,
+    "TypeId": 151432,
+    "TypeNum": 1
+  },
+  "10003113": {
+    "ItemId": 10003113,
+    "ItemType": "Draft",
+    "Price": 15,
+    "PriceType": 216,
+    "PurchaseLimit": 2,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 18,
+    "StartTime": 1672545600,
+    "SubTabId": 100031,
+    "TypeId": 151433,
+    "TypeNum": 1
+  },
+  "10003114": {
+    "ItemId": 10003114,
+    "ItemType": "Draft",
+    "Price": 15,
+    "PriceType": 216,
+    "PurchaseLimit": 2,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 17,
+    "StartTime": 1672545600,
+    "SubTabId": 100031,
+    "TypeId": 151434,
+    "TypeNum": 1
+  },
+  "10003115": {
+    "ItemId": 10003115,
+    "ItemType": "Draft",
+    "Price": 15,
+    "PriceType": 216,
+    "PurchaseLimit": 2,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 16,
+    "StartTime": 1672545600,
+    "SubTabId": 100031,
+    "TypeId": 151435,
+    "TypeNum": 1
+  },
+  "10003116": {
+    "ItemId": 10003116,
+    "ItemType": "Draft",
+    "Price": 15,
+    "PriceType": 216,
+    "PurchaseLimit": 2,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 15,
+    "StartTime": 1672545600,
+    "SubTabId": 100031,
+    "TypeId": 151441,
+    "TypeNum": 1
+  },
+  "10003117": {
+    "ItemId": 10003117,
+    "ItemType": "Draft",
+    "Price": 15,
+    "PriceType": 216,
+    "PurchaseLimit": 2,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 14,
+    "StartTime": 1672545600,
+    "SubTabId": 100031,
+    "TypeId": 151442,
+    "TypeNum": 1
+  },
+  "10003118": {
+    "ItemId": 10003118,
+    "ItemType": "Draft",
+    "Price": 15,
+    "PriceType": 216,
+    "PurchaseLimit": 2,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 13,
+    "StartTime": 1672545600,
+    "SubTabId": 100031,
+    "TypeId": 151443,
+    "TypeNum": 1
+  },
+  "10003119": {
+    "ItemId": 10003119,
+    "ItemType": "Draft",
+    "Price": 15,
+    "PriceType": 216,
+    "PurchaseLimit": 2,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 12,
+    "StartTime": 1672545600,
+    "SubTabId": 100031,
+    "TypeId": 151444,
+    "TypeNum": 1
+  },
+  "10003120": {
+    "ItemId": 10003120,
+    "ItemType": "Draft",
+    "Price": 15,
+    "PriceType": 216,
+    "PurchaseLimit": 2,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 11,
+    "StartTime": 1672545600,
+    "SubTabId": 100031,
+    "TypeId": 151445,
+    "TypeNum": 1
+  },
+  "10003121": {
+    "ItemId": 10003121,
+    "ItemType": "Draft",
+    "Price": 15,
+    "PriceType": 216,
+    "PurchaseLimit": 2,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 10,
+    "StartTime": 1672545600,
+    "SubTabId": 100031,
+    "TypeId": 151451,
+    "TypeNum": 1
+  },
+  "10003122": {
+    "ItemId": 10003122,
+    "ItemType": "Draft",
+    "Price": 15,
+    "PriceType": 216,
+    "PurchaseLimit": 2,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 9,
+    "StartTime": 1672545600,
+    "SubTabId": 100031,
+    "TypeId": 151452,
+    "TypeNum": 1
+  },
+  "10003123": {
+    "ItemId": 10003123,
+    "ItemType": "Draft",
+    "Price": 15,
+    "PriceType": 216,
+    "PurchaseLimit": 2,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 8,
+    "StartTime": 1672545600,
+    "SubTabId": 100031,
+    "TypeId": 151453,
+    "TypeNum": 1
+  },
+  "10003124": {
+    "ItemId": 10003124,
+    "ItemType": "Draft",
+    "Price": 15,
+    "PriceType": 216,
+    "PurchaseLimit": 2,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 7,
+    "StartTime": 1672545600,
+    "SubTabId": 100031,
+    "TypeId": 151454,
+    "TypeNum": 1
+  },
+  "10003125": {
+    "ItemId": 10003125,
+    "ItemType": "Draft",
+    "Price": 15,
+    "PriceType": 216,
+    "PurchaseLimit": 2,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 6,
+    "StartTime": 1672545600,
+    "SubTabId": 100031,
+    "TypeId": 151455,
+    "TypeNum": 1
+  },
+  "10003126": {
+    "ItemId": 10003126,
+    "ItemType": "Draft",
+    "Price": 15,
+    "PriceType": 216,
+    "PurchaseLimit": 2,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 5,
+    "StartTime": 1672545600,
+    "SubTabId": 100031,
+    "TypeId": 151461,
+    "TypeNum": 1
+  },
+  "10003127": {
+    "ItemId": 10003127,
+    "ItemType": "Draft",
+    "Price": 15,
+    "PriceType": 216,
+    "PurchaseLimit": 2,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 4,
+    "StartTime": 1672545600,
+    "SubTabId": 100031,
+    "TypeId": 151462,
+    "TypeNum": 1
+  },
+  "10003128": {
+    "ItemId": 10003128,
+    "ItemType": "Draft",
+    "Price": 15,
+    "PriceType": 216,
+    "PurchaseLimit": 2,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 3,
+    "StartTime": 1672545600,
+    "SubTabId": 100031,
+    "TypeId": 151463,
+    "TypeNum": 1
+  },
+  "10003129": {
+    "ItemId": 10003129,
+    "ItemType": "Draft",
+    "Price": 15,
+    "PriceType": 216,
+    "PurchaseLimit": 2,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 2,
+    "StartTime": 1672545600,
+    "SubTabId": 100031,
+    "TypeId": 151464,
+    "TypeNum": 1
+  },
+  "10003130": {
+    "ItemId": 10003130,
+    "ItemType": "Draft",
+    "Price": 15,
+    "PriceType": 216,
+    "PurchaseLimit": 2,
+    "RefreshTime": {
+      "WEEK": 4
+    },
+    "Sequence": 1,
+    "StartTime": 1672545600,
+    "SubTabId": 100031,
+    "TypeId": 151465,
+    "TypeNum": 1
+  },
+  "10004101": {
+    "ItemId": 10004101,
+    "ItemType": "Resource",
+    "Price": 1200,
+    "PriceType": 218,
+    "PurchaseLimit": 3,
+    "Sequence": 104,
+    "StartTime": 1672545600,
+    "SubTabId": 100041,
+    "TypeId": 3016,
+    "TypeNum": 1,
+    "UnlockRaidPoint": 150000
+  },
+  "10004102": {
+    "ItemId": 10004102,
+    "ItemType": "Resource",
+    "Price": 2000,
+    "PriceType": 218,
+    "PurchaseLimit": 2,
+    "Sequence": 101,
+    "StartTime": 1672545600,
+    "SubTabId": 100041,
+    "TypeId": 1006,
+    "TypeNum": 1,
+    "UnlockRaidPoint": 50000
+  },
+  "10004103": {
+    "ItemId": 10004103,
+    "ItemType": "Resource",
+    "Price": 1000,
+    "PriceType": 218,
+    "PurchaseLimit": 2,
+    "Sequence": 94,
+    "StartTime": 1672545600,
+    "SubTabId": 100041,
+    "TypeId": 10100,
+    "TypeNum": 1
+  },
+  "10004104": {
+    "ItemId": 10004104,
+    "ItemType": "Resource",
+    "Price": 2000,
+    "PriceType": 218,
+    "PurchaseLimit": 1,
+    "Sequence": 93,
+    "StartTime": 1672545600,
+    "SubTabId": 100041,
+    "TypeId": 3007,
+    "TypeNum": 1
+  },
+  "10004105": {
+    "ItemId": 10004105,
+    "ItemType": "Resource",
+    "Price": 800,
+    "PriceType": 218,
+    "PurchaseLimit": 3,
+    "Sequence": 92,
+    "StartTime": 1672545600,
+    "SubTabId": 100041,
+    "TypeId": 20027,
+    "TypeNum": 1
+  },
+  "10004106": {
+    "ItemId": 10004106,
+    "ItemType": "Resource",
+    "Price": 800,
+    "PriceType": 218,
+    "PurchaseLimit": 3,
+    "Sequence": 91,
+    "StartTime": 1672545600,
+    "SubTabId": 100041,
+    "TypeId": 20028,
+    "TypeNum": 1
+  },
+  "10004107": {
+    "ItemId": 10004107,
+    "ItemType": "Resource",
+    "Price": 100,
+    "PriceType": 218,
+    "PurchaseLimit": 20,
+    "Sequence": 83,
+    "StartTime": 1672545600,
+    "SubTabId": 100041,
+    "TypeId": 101,
+    "TypeNum": 40000
+  },
+  "10004108": {
+    "ItemId": 10004108,
+    "ItemType": "Resource",
+    "Price": 100,
+    "PriceType": 218,
+    "PurchaseLimit": 20,
+    "Sequence": 87,
+    "StartTime": 1672545600,
+    "SubTabId": 100041,
+    "TypeId": 102,
+    "TypeNum": 1000
+  },
+  "10004109": {
+    "ItemId": 10004109,
+    "ItemType": "Resource",
+    "Price": 100,
+    "PriceType": 218,
+    "PurchaseLimit": 20,
+    "Sequence": 86,
+    "StartTime": 1672545600,
+    "SubTabId": 100041,
+    "TypeId": 2014,
+    "TypeNum": 2
+  },
+  "10004110": {
+    "ItemId": 10004110,
+    "ItemType": "Resource",
+    "Price": 100,
+    "PriceType": 218,
+    "PurchaseLimit": 20,
+    "Sequence": 85,
+    "StartTime": 1672545600,
+    "SubTabId": 100041,
+    "TypeId": 2010,
+    "TypeNum": 2
+  },
+  "10004111": {
+    "ItemId": 10004111,
+    "ItemType": "Resource",
+    "Price": 100,
+    "PriceType": 218,
+    "PurchaseLimit": 20,
+    "Sequence": 88,
+    "StartTime": 1672545600,
+    "SubTabId": 100041,
+    "TypeId": 20013,
+    "TypeNum": 20
+  },
+  "10004112": {
+    "ItemId": 10004112,
+    "ItemType": "Resource",
+    "Price": 100,
+    "PriceType": 218,
+    "PurchaseLimit": 20,
+    "Sequence": 84,
+    "StartTime": 1672545600,
+    "SubTabId": 100041,
+    "TypeId": 3006,
+    "TypeNum": 2
+  },
+  "10004113": {
+    "ItemId": 10004113,
+    "ItemType": "Resource",
+    "Price": 200,
+    "PriceType": 218,
+    "PurchaseLimit": 10,
+    "Sequence": 90,
+    "StartTime": 1672545600,
+    "SubTabId": 100041,
+    "TypeId": 20024,
+    "TypeNum": 5
+  },
+  "10004114": {
+    "ItemId": 10004114,
+    "ItemType": "Resource",
+    "Price": 200,
+    "PriceType": 218,
+    "PurchaseLimit": 10,
+    "Sequence": 89,
+    "StartTime": 1672545600,
+    "SubTabId": 100041,
+    "TypeId": 20021,
+    "TypeNum": 5
+  },
+  "10004115": {
+    "ItemId": 10004115,
+    "ItemType": "Resource",
+    "Price": 100,
+    "PriceType": 218,
+    "Require": 10004107,
+    "Sequence": 79,
+    "StartTime": 1672545600,
+    "SubTabId": 100041,
+    "TypeId": 101,
+    "TypeNum": 20000
+  },
+  "10004116": {
+    "ItemId": 10004116,
+    "ItemType": "Resource",
+    "Price": 100,
+    "PriceType": 218,
+    "Require": 10004108,
+    "Sequence": 82,
+    "StartTime": 1672545600,
+    "SubTabId": 100041,
+    "TypeId": 102,
+    "TypeNum": 500
+  },
+  "10004117": {
+    "ItemId": 10004117,
+    "ItemType": "Resource",
+    "Price": 100,
+    "PriceType": 218,
+    "Require": 10004109,
+    "Sequence": 81,
+    "StartTime": 1672545600,
+    "SubTabId": 100041,
+    "TypeId": 2013,
+    "TypeNum": 2
+  },
+  "10004118": {
+    "ItemId": 10004118,
+    "ItemType": "Resource",
+    "Price": 100,
+    "PriceType": 218,
+    "Require": 10004110,
+    "Sequence": 80,
+    "StartTime": 1672545600,
+    "SubTabId": 100041,
+    "TypeId": 2009,
+    "TypeNum": 2
+  },
+  "10004119": {
+    "ItemId": 10004119,
+    "ItemType": "HeadSculpture",
+    "Price": 100,
+    "PriceType": 218,
+    "PurchaseLimit": 1,
+    "Sequence": 95,
+    "StartTime": 1672545600,
+    "SubTabId": 100041,
+    "TypeId": 30022,
+    "TypeNum": 1,
+    "UnlockRaidPoint": 10000
+  },
+  "10004120": {
+    "ItemId": 10004120,
+    "ItemType": "HeadSculpture",
+    "Price": 100,
+    "PriceType": 218,
+    "PurchaseLimit": 1,
+    "Sequence": 96,
+    "StartTime": 1672545600,
+    "SubTabId": 100041,
+    "TypeId": 30023,
+    "TypeNum": 1,
+    "UnlockRaidPoint": 75000
+  },
+  "10004121": {
+    "ItemId": 10004121,
+    "ItemType": "HeadSculpture",
+    "Price": 100,
+    "PriceType": 218,
+    "PurchaseLimit": 1,
+    "Sequence": 97,
+    "StartTime": 1672545600,
+    "SubTabId": 100041,
+    "TypeId": 30024,
+    "TypeNum": 1,
+    "UnlockRaidPoint": 600000
+  },
+  "10004122": {
+    "ItemId": 10004122,
+    "ItemType": "Title",
+    "Price": 100,
+    "PriceType": 218,
+    "PurchaseLimit": 1,
+    "Sequence": 98,
+    "StartTime": 1672545600,
+    "SubTabId": 100041,
+    "TypeId": 10075,
+    "TypeNum": 1,
+    "UnlockRaidPoint": 200000
+  },
+  "10004123": {
+    "ItemId": 10004123,
+    "ItemType": "Title",
+    "Price": 100,
+    "PriceType": 218,
+    "PurchaseLimit": 1,
+    "Sequence": 99,
+    "StartTime": 1672545600,
+    "SubTabId": 100041,
+    "TypeId": 10076,
+    "TypeNum": 1,
+    "UnlockRaidPoint": 800000
+  },
+  "10004124": {
+    "ItemId": 10004124,
+    "ItemType": "Title",
+    "Price": 100,
+    "PriceType": 218,
+    "PurchaseLimit": 1,
+    "Sequence": 100,
+    "StartTime": 1672545600,
+    "SubTabId": 100041,
+    "TypeId": 10077,
+    "TypeNum": 1,
+    "UnlockRaidPoint": 1200000
+  },
+  "10004125": {
+    "ItemId": 10004125,
+    "ItemType": "Resource",
+    "Price": 800,
+    "PriceType": 218,
+    "PurchaseLimit": 1,
+    "Sequence": 103,
+    "StartTime": 1672545600,
+    "SubTabId": 100041,
+    "TypeId": 3016,
+    "TypeNum": 1,
+    "UnlockRaidPoint": 100000
+  },
+  "10004126": {
+    "ItemId": 10004126,
+    "ItemType": "Resource",
+    "Price": 600,
+    "PriceType": 218,
+    "PurchaseLimit": 1,
+    "Sequence": 102,
+    "StartTime": 1672545600,
+    "SubTabId": 100041,
+    "TypeId": 3016,
+    "TypeNum": 1,
+    "UnlockRaidPoint": 50000
+  },
+  "10005101": {
+    "ItemId": 10005101,
+    "ItemType": "WeaponAccessory",
+    "Price": 45,
+    "PriceType": 29005,
+    "PurchaseLimit": 1,
+    "Sequence": 10,
+    "StartTime": 1672545600,
+    "SubTabId": 100051,
+    "TypeId": 10022,
+    "TypeNum": 1
+  },
+  "10005102": {
+    "ItemId": 10005102,
+    "ItemType": "Resource",
+    "Price": 10,
+    "PriceType": 29005,
+    "PurchaseLimit": 5,
+    "Sequence": 8,
+    "StartTime": 1672545600,
+    "SubTabId": 100051,
+    "TypeId": 211,
+    "TypeNum": 10
+  },
+  "10005103": {
+    "ItemId": 10005103,
+    "ItemType": "Resource",
+    "Price": 10,
+    "PriceType": 29005,
+    "PurchaseLimit": 10,
+    "Sequence": 7,
+    "StartTime": 1672545600,
+    "SubTabId": 100051,
+    "TypeId": 1002,
+    "TypeNum": 2
+  },
+  "10005104": {
+    "ItemId": 10005104,
+    "ItemType": "Resource",
+    "Price": 50,
+    "PriceType": 29005,
+    "PurchaseLimit": 1,
+    "Sequence": 9,
+    "StartTime": 1672545600,
+    "SubTabId": 100051,
+    "TypeId": 10100,
+    "TypeNum": 1
+  },
+  "10005105": {
+    "ItemId": 10005105,
+    "ItemType": "Resource",
+    "Price": 8,
+    "PriceType": 29005,
+    "PurchaseLimit": 6,
+    "Sequence": 6,
+    "StartTime": 1672545600,
+    "SubTabId": 100051,
+    "TypeId": 20013,
+    "TypeNum": 20
+  },
+  "10005106": {
+    "ItemId": 10005106,
+    "ItemType": "Resource",
+    "Price": 8,
+    "PriceType": 29005,
+    "PurchaseLimit": 6,
+    "Sequence": 5,
+    "StartTime": 1672545600,
+    "SubTabId": 100051,
+    "TypeId": 101,
+    "TypeNum": 50000
   }
 }

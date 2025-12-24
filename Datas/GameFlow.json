@@ -1,9 +1,4 @@
 {
-  "AfterEntertainment": {
-    "Channel": "AfterEntertainment",
-    "GameFlow": "AfterEntertainment",
-    "Priority": 100
-  },
   "GetItemPage": {
     "Channel": "GetItemPage",
     "GameFlow": "GetItemPage",
@@ -19,6 +14,11 @@
     "GameFlow": "ImmersiveStory",
     "Priority": 100
   },
+  "LevelDelivery": {
+    "Channel": "LevelDelivery",
+    "GameFlow": "LevelDelivery",
+    "Priority": 200
+  },
   "OpenSystemUI": {
     "Channel": "OpenSystemUI",
     "GameFlow": "OpenSystemUI",
@@ -27,6 +27,11 @@
   "SkillFeature": {
     "Channel": "SkillFeature",
     "GameFlow": "SkillFeature",
+    "Priority": 100
+  },
+  "Sojourn": {
+    "Channel": "Sojourn",
+    "GameFlow": "Sojourn",
     "Priority": 100
   },
   "SystemGuideWithUI": {

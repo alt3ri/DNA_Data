@@ -1,4 +1,169 @@
 {
+  "110": {
+    "CharId": 1101,
+    "CharLevel": 1,
+    "RuleId": 110,
+    "SkillLevel": 1
+  },
+  "111": {
+    "CharId": 111,
+    "CharLevel": 1,
+    "RuleId": 111,
+    "SkillLevel": 1
+  },
+  "112": {
+    "CharId": 112,
+    "CharLevel": 1,
+    "RuleId": 112,
+    "SkillLevel": 1
+  },
+  "201": {
+    "CharId": 201,
+    "CharLevel": 35,
+    "RuleId": 201,
+    "SkillLevel": 1
+  },
+  "202": {
+    "CharId": 202,
+    "CharLevel": 35,
+    "RuleId": 202,
+    "SkillLevel": 1
+  },
+  "203": {
+    "CharId": 5301,
+    "CharLevel": 20,
+    "RuleId": 203,
+    "SkillLevel": 1
+  },
+  "204": {
+    "CharId": 110301,
+    "CharLevel": 45,
+    "RuleId": 204,
+    "SkillLevel": 1
+  },
+  "205": {
+    "CharId": 205,
+    "CharLevel": 45,
+    "RuleId": 205,
+    "SkillLevel": 1
+  },
+  "206": {
+    "CharId": 206,
+    "CharLevel": 45,
+    "RuleId": 206,
+    "SkillLevel": 1
+  },
+  "207": {
+    "CharId": 207,
+    "CharLevel": 45,
+    "RuleId": 207,
+    "SkillLevel": 1
+  },
+  "210": {
+    "CharId": 4201,
+    "CharLevel": 60,
+    "ModId": [
+      31324,
+      31301,
+      41742,
+      41743,
+      41001,
+      41941,
+      51441
+    ],
+    "ModLevel": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "RuleId": 210,
+    "SkillLevel": 6,
+    "SkillTreeUnlock": [
+      [
+        2
+      ],
+      [
+        2
+      ],
+      [
+        2
+      ]
+    ]
+  },
+  "211": {
+    "CharId": 2401,
+    "CharLevel": 60,
+    "ModId": [
+      31322,
+      31301,
+      41723,
+      41724,
+      41001,
+      41922,
+      51424
+    ],
+    "ModLevel": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "RuleId": 211,
+    "SkillLevel": 6,
+    "SkillTreeUnlock": [
+      [
+        2
+      ],
+      [
+        2
+      ],
+      [
+        2
+      ]
+    ]
+  },
+  "212": {
+    "CharId": 1503,
+    "CharLevel": 60,
+    "ModId": [
+      31326,
+      31301,
+      41761,
+      41763,
+      41001,
+      41962,
+      51463
+    ],
+    "ModLevel": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "RuleId": 212,
+    "SkillLevel": 6,
+    "SkillTreeUnlock": [
+      [
+        2
+      ],
+      [
+        2
+      ],
+      [
+        2
+      ]
+    ]
+  },
   "10101": {
     "CharId": 111,
     "CharLevel": 1,
@@ -57,15 +222,32 @@
     "ModId": [
       51002,
       51003,
-      51007
+      51007,
+      51911,
+      51711,
+      51712
     ],
     "ModLevel": [
       10,
       10,
-      10
+      10,
+      5,
+      5,
+      5
     ],
     "RuleId": 110301,
-    "SkillLevel": 3
+    "SkillLevel": 3,
+    "SkillTreeUnlock": [
+      [
+        2
+      ],
+      [
+        2
+      ],
+      [
+        2
+      ]
+    ]
   },
   "110302": {
     "CharId": 1103,
@@ -139,15 +321,56 @@
     "ModId": [
       51002,
       51003,
-      51007
+      51007,
+      51911,
+      51711,
+      51712
     ],
     "ModLevel": [
       10,
       10,
-      10
+      10,
+      5,
+      5,
+      5
     ],
     "RuleId": 110311,
     "SkillLevel": 4,
+    "SkillTreeUnlock": [
+      [
+        2
+      ],
+      [
+        2
+      ],
+      [
+        2
+      ]
+    ]
+  },
+  "160101": {
+    "CharId": 1601,
+    "CharLevel": 60,
+    "ModId": [
+      31326,
+      31301,
+      41761,
+      41763,
+      41001,
+      41962,
+      51463
+    ],
+    "ModLevel": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "RuleId": 160101,
+    "SkillLevel": 6,
     "SkillTreeUnlock": [
       [
         2
@@ -597,6 +820,41 @@
     ],
     "RuleId": 205401,
     "SkillLevel": 1
+  },
+  "240101": {
+    "CharId": 2401,
+    "CharLevel": 60,
+    "ModId": [
+      31322,
+      31301,
+      41723,
+      41724,
+      41001,
+      41922,
+      51424
+    ],
+    "ModLevel": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "RuleId": 240101,
+    "SkillLevel": 6,
+    "SkillTreeUnlock": [
+      [
+        2
+      ],
+      [
+        2
+      ],
+      [
+        2
+      ]
+    ]
   },
   "330101": {
     "CharId": 3301,
@@ -8294,6 +8552,45 @@
       5
     ],
     "RuleId": 70210102,
+    "SkillLevel": 8,
+    "SkillTreeUnlock": [
+      [
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2
+      ]
+    ]
+  },
+  "70240101": {
+    "CharCostumeId": 240101,
+    "CharId": 2401,
+    "CharLevel": 70,
+    "ModId": [
+      31322,
+      41723,
+      41723,
+      41724,
+      41001,
+      41922,
+      51424,
+      51301
+    ],
+    "ModLevel": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "RuleId": 70240101,
     "SkillLevel": 8,
     "SkillTreeUnlock": [
       [

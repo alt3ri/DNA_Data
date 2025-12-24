@@ -1,0 +1,29 @@
+[
+  {
+    "RaidBuffDes": "Raid_Buff_11",
+    "RaidBuffID": 1,
+    "RaidBuffParameter": [
+      "$#GlobalPassiveData[30101].Vars.Divider*100$%",
+      "$#GlobalPassiveData[30101].Vars.Penetration*100$%",
+      "$(#GlobalPassiveData[30101].Vars.MaxSkillInten-1)/(#GlobalPassiveData[30101].Vars.Divider)*(#GlobalPassiveData[30101].Vars.Penetration)*100$%"
+    ]
+  },
+  {
+    "RaidBuffDes": "Raid_Buff_11",
+    "RaidBuffID": 2,
+    "RaidBuffParameter": [
+      "$#GlobalPassiveData[30101].Vars.Divider*100$%",
+      "$#GlobalPassiveData[30101].Vars.Penetration*100$%",
+      "$(#GlobalPassiveData[30101].Vars.MaxSkillInten-1)/(#GlobalPassiveData[30101].Vars.Divider)*(#GlobalPassiveData[30101].Vars.Penetration)*100$%"
+    ]
+  },
+  {
+    "RaidBuffDes": "Raid_Buff_11",
+    "RaidBuffID": 3,
+    "RaidBuffParameter": [
+      "$#GlobalPassiveData[30101].Vars.Divider*100$%",
+      "$#GlobalPassiveData[30101].Vars.Penetration*100$%",
+      "$(#GlobalPassiveData[30101].Vars.MaxSkillInten-1)/(#GlobalPassiveData[30101].Vars.Divider)*(#GlobalPassiveData[30101].Vars.Penetration)*100$%"
+    ]
+  }
+]

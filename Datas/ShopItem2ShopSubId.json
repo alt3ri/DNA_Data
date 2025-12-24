@@ -3,13 +3,20 @@
     "AbyssShop": {},
     "ExploreBadgeShop": {},
     "FishingShop": {},
+    "HuaxuEventShop": {},
+    "HuaxuExploreShop": {},
+    "RaidShopSeason01": {},
     "Rouge": {},
-    "Shop": {}
+    "Shop": {},
+    "WeeklyDungeonShop": {}
   },
   "CharAccessory": {
     "AbyssShop": {},
     "ExploreBadgeShop": {},
     "FishingShop": {},
+    "HuaxuEventShop": {},
+    "HuaxuExploreShop": {},
+    "RaidShopSeason01": {},
     "Rouge": {},
     "Shop": {
       "10009": [
@@ -32,12 +39,12 @@
       ],
       "10013": [
         {
-          "ShopItemId": 140105,
-          "SubTabId": 1402
-        },
-        {
           "ShopItemId": 120203,
           "SubTabId": 1202
+        },
+        {
+          "ShopItemId": 140105,
+          "SubTabId": 1402
         }
       ],
       "10015": [
@@ -73,6 +80,12 @@
       "10035": [
         {
           "ShopItemId": 120217,
+          "SubTabId": 1202
+        }
+      ],
+      "10036": [
+        {
+          "ShopItemId": 120225,
           "SubTabId": 1202
         }
       ],
@@ -148,10 +161,117 @@
           "SubTabId": 1402
         }
       ],
+      "10049": [
+        {
+          "ShopItemId": 120224,
+          "SubTabId": 1202
+        }
+      ],
       "10050": [
         {
           "ShopItemId": 120201,
           "SubTabId": 1202
+        }
+      ],
+      "10053": [
+        {
+          "AccessOrder": 2,
+          "ShopItemId": 140243,
+          "SubTabId": 1401
+        }
+      ],
+      "10054": [
+        {
+          "AccessOrder": 2,
+          "ShopItemId": 140244,
+          "SubTabId": 1401
+        }
+      ],
+      "10055": [
+        {
+          "AccessOrder": 2,
+          "ShopItemId": 140245,
+          "SubTabId": 1401
+        }
+      ],
+      "10056": [
+        {
+          "ShopItemId": 120226,
+          "SubTabId": 1202
+        }
+      ],
+      "10057": [
+        {
+          "ShopItemId": 120230,
+          "SubTabId": 1202
+        }
+      ],
+      "10058": [
+        {
+          "ShopItemId": 120221,
+          "SubTabId": 1202
+        }
+      ],
+      "10059": [
+        {
+          "ShopItemId": 120222,
+          "SubTabId": 1202
+        }
+      ],
+      "10060": [
+        {
+          "ShopItemId": 120223,
+          "SubTabId": 1202
+        }
+      ],
+      "10061": [
+        {
+          "ShopItemId": 120228,
+          "SubTabId": 1202
+        }
+      ],
+      "10062": [
+        {
+          "ShopItemId": 120229,
+          "SubTabId": 1202
+        }
+      ],
+      "10063": [
+        {
+          "ShopItemId": 120227,
+          "SubTabId": 1202
+        }
+      ],
+      "10064": [
+        {
+          "AccessOrder": 2,
+          "ShopItemId": 140246,
+          "SubTabId": 1401
+        }
+      ],
+      "10065": [
+        {
+          "ShopItemId": 120232,
+          "SubTabId": 1202
+        }
+      ],
+      "10066": [
+        {
+          "ShopItemId": 120231,
+          "SubTabId": 1202
+        }
+      ],
+      "11002": [
+        {
+          "ShopItemId": 120702,
+          "SubTabId": 1207
+        }
+      ],
+      "11003": [
+        {
+          "AccessOrder": 2,
+          "ShopItemId": 140242,
+          "SubTabId": 1401
         }
       ],
       "20005": [
@@ -265,6 +385,73 @@
           "SubTabId": 1402
         }
       ],
+      "20040": [
+        {
+          "ShopItemId": 120307,
+          "SubTabId": 1203
+        }
+      ],
+      "20041": [
+        {
+          "ShopItemId": 120311,
+          "SubTabId": 1203
+        }
+      ],
+      "20042": [
+        {
+          "ShopItemId": 120312,
+          "SubTabId": 1203
+        }
+      ],
+      "20045": [
+        {
+          "ShopItemId": 120308,
+          "SubTabId": 1203
+        }
+      ],
+      "20046": [
+        {
+          "ShopItemId": 120309,
+          "SubTabId": 1203
+        }
+      ],
+      "20047": [
+        {
+          "ShopItemId": 120310,
+          "SubTabId": 1203
+        }
+      ],
+      "20049": [
+        {
+          "ShopItemId": 120314,
+          "SubTabId": 1203
+        }
+      ],
+      "20050": [
+        {
+          "ShopItemId": 120315,
+          "SubTabId": 1203
+        }
+      ],
+      "20051": [
+        {
+          "ShopItemId": 120313,
+          "SubTabId": 1203
+        }
+      ],
+      "21002": [
+        {
+          "ShopItemId": 120701,
+          "SubTabId": 1207
+        }
+      ],
+      "21003": [
+        {
+          "AccessOrder": 2,
+          "ShopItemId": 140241,
+          "SubTabId": 1401
+        }
+      ],
       "30002": [
         {
           "ShopItemId": 120401,
@@ -277,9 +464,63 @@
           "SubTabId": 1204
         }
       ],
+      "30016": [
+        {
+          "ShopItemId": 120413,
+          "SubTabId": 1204
+        }
+      ],
       "30017": [
         {
           "ShopItemId": 120403,
+          "SubTabId": 1204
+        }
+      ],
+      "30018": [
+        {
+          "ShopItemId": 120407,
+          "SubTabId": 1204
+        }
+      ],
+      "30019": [
+        {
+          "ShopItemId": 120412,
+          "SubTabId": 1204
+        }
+      ],
+      "30022": [
+        {
+          "ShopItemId": 120404,
+          "SubTabId": 1204
+        }
+      ],
+      "30023": [
+        {
+          "ShopItemId": 120405,
+          "SubTabId": 1204
+        }
+      ],
+      "30024": [
+        {
+          "ShopItemId": 120406,
+          "SubTabId": 1204
+        }
+      ],
+      "30025": [
+        {
+          "ShopItemId": 120408,
+          "SubTabId": 1204
+        }
+      ],
+      "30026": [
+        {
+          "ShopItemId": 120410,
+          "SubTabId": 1204
+        }
+      ],
+      "30027": [
+        {
+          "ShopItemId": 120409,
           "SubTabId": 1204
         }
       ],
@@ -301,10 +542,149 @@
           "SubTabId": 1402
         }
       ],
+      "40009": [
+        {
+          "ShopItemId": 120509,
+          "SubTabId": 1205
+        }
+      ],
+      "40011": [
+        {
+          "ShopItemId": 120411,
+          "SubTabId": 1204
+        }
+      ],
+      "40012": [
+        {
+          "ShopItemId": 120510,
+          "SubTabId": 1205
+        }
+      ],
+      "40014": [
+        {
+          "ShopItemId": 120507,
+          "SubTabId": 1205
+        }
+      ],
+      "40015": [
+        {
+          "ShopItemId": 120508,
+          "SubTabId": 1205
+        }
+      ],
+      "40016": [
+        {
+          "ShopItemId": 120514,
+          "SubTabId": 1205
+        }
+      ],
+      "40017": [
+        {
+          "ShopItemId": 120503,
+          "SubTabId": 1205
+        }
+      ],
+      "40018": [
+        {
+          "ShopItemId": 120504,
+          "SubTabId": 1205
+        }
+      ],
+      "40019": [
+        {
+          "ShopItemId": 120505,
+          "SubTabId": 1205
+        }
+      ],
+      "40020": [
+        {
+          "ShopItemId": 120506,
+          "SubTabId": 1205
+        }
+      ],
+      "40021": [
+        {
+          "ShopItemId": 120512,
+          "SubTabId": 1205
+        }
+      ],
+      "40022": [
+        {
+          "ShopItemId": 120513,
+          "SubTabId": 1205
+        }
+      ],
+      "40023": [
+        {
+          "ShopItemId": 120511,
+          "SubTabId": 1205
+        }
+      ],
+      "40024": [
+        {
+          "ShopItemId": 120516,
+          "SubTabId": 1205
+        }
+      ],
+      "40025": [
+        {
+          "ShopItemId": 120515,
+          "SubTabId": 1205
+        }
+      ],
       "70001": [
         {
           "AccessOrder": 2,
           "ShopItemId": 140219,
+          "SubTabId": 1401
+        }
+      ],
+      "70002": [
+        {
+          "AccessOrder": 2,
+          "ShopItemId": 140237,
+          "SubTabId": 1401
+        }
+      ],
+      "70011": [
+        {
+          "AccessOrder": 2,
+          "ShopItemId": 140224,
+          "SubTabId": 1401
+        }
+      ],
+      "70012": [
+        {
+          "AccessOrder": 2,
+          "ShopItemId": 140225,
+          "SubTabId": 1401
+        }
+      ],
+      "70013": [
+        {
+          "AccessOrder": 2,
+          "ShopItemId": 140226,
+          "SubTabId": 1401
+        }
+      ],
+      "70021": [
+        {
+          "AccessOrder": 2,
+          "ShopItemId": 140238,
+          "SubTabId": 1401
+        }
+      ],
+      "70022": [
+        {
+          "AccessOrder": 2,
+          "ShopItemId": 140239,
+          "SubTabId": 1401
+        }
+      ],
+      "70023": [
+        {
+          "AccessOrder": 2,
+          "ShopItemId": 140240,
           "SubTabId": 1401
         }
       ],
@@ -314,17 +694,74 @@
           "ShopItemId": 140206,
           "SubTabId": 1401
         }
+      ],
+      "80002": [
+        {
+          "AccessOrder": 2,
+          "ShopItemId": 140232,
+          "SubTabId": 1401
+        }
+      ],
+      "80011": [
+        {
+          "AccessOrder": 2,
+          "ShopItemId": 140220,
+          "SubTabId": 1401
+        }
+      ],
+      "80012": [
+        {
+          "AccessOrder": 2,
+          "ShopItemId": 140223,
+          "SubTabId": 1401
+        }
+      ],
+      "80013": [
+        {
+          "AccessOrder": 2,
+          "ShopItemId": 140222,
+          "SubTabId": 1401
+        }
+      ],
+      "80021": [
+        {
+          "AccessOrder": 2,
+          "ShopItemId": 140233,
+          "SubTabId": 1401
+        }
+      ],
+      "80022": [
+        {
+          "AccessOrder": 2,
+          "ShopItemId": 140234,
+          "SubTabId": 1401
+        }
+      ],
+      "80023": [
+        {
+          "AccessOrder": 2,
+          "ShopItemId": 140235,
+          "SubTabId": 1401
+        }
       ]
-    }
+    },
+    "WeeklyDungeonShop": {}
   },
   "Draft": {
     "AbyssShop": {},
     "ExploreBadgeShop": {},
     "FishingShop": {},
+    "HuaxuEventShop": {},
+    "HuaxuExploreShop": {},
+    "RaidShopSeason01": {},
     "Rouge": {
       "154001": [
         {
           "ShopItemId": 10002201,
+          "SubTabId": 100022
+        },
+        {
+          "ShopItemId": 10002337,
           "SubTabId": 100022
         }
       ],
@@ -332,11 +769,19 @@
         {
           "ShopItemId": 10002202,
           "SubTabId": 100022
+        },
+        {
+          "ShopItemId": 10002338,
+          "SubTabId": 100022
         }
       ],
       "154003": [
         {
           "ShopItemId": 10002203,
+          "SubTabId": 100022
+        },
+        {
+          "ShopItemId": 10002339,
           "SubTabId": 100022
         }
       ],
@@ -344,11 +789,19 @@
         {
           "ShopItemId": 10002204,
           "SubTabId": 100022
+        },
+        {
+          "ShopItemId": 10002340,
+          "SubTabId": 100022
         }
       ],
       "154005": [
         {
           "ShopItemId": 10002205,
+          "SubTabId": 100022
+        },
+        {
+          "ShopItemId": 10002341,
           "SubTabId": 100022
         }
       ],
@@ -356,11 +809,19 @@
         {
           "ShopItemId": 10002206,
           "SubTabId": 100022
+        },
+        {
+          "ShopItemId": 10002342,
+          "SubTabId": 100022
         }
       ],
       "154101": [
         {
           "ShopItemId": 10002207,
+          "SubTabId": 100022
+        },
+        {
+          "ShopItemId": 10002343,
           "SubTabId": 100022
         }
       ],
@@ -368,15 +829,27 @@
         {
           "ShopItemId": 10002208,
           "SubTabId": 100022
+        },
+        {
+          "ShopItemId": 10002344,
+          "SubTabId": 100022
         }
       ],
       "154103": [
         {
           "ShopItemId": 10002209,
           "SubTabId": 100022
+        },
+        {
+          "ShopItemId": 10002345,
+          "SubTabId": 100022
         }
       ],
       "155001": [
+        {
+          "ShopItemId": 10002355,
+          "SubTabId": 100023
+        },
         {
           "ShopItemId": 10002301,
           "SubTabId": 100023
@@ -384,11 +857,19 @@
       ],
       "155002": [
         {
+          "ShopItemId": 10002356,
+          "SubTabId": 100023
+        },
+        {
           "ShopItemId": 10002302,
           "SubTabId": 100023
         }
       ],
       "155003": [
+        {
+          "ShopItemId": 10002357,
+          "SubTabId": 100023
+        },
         {
           "ShopItemId": 10002303,
           "SubTabId": 100023
@@ -396,11 +877,19 @@
       ],
       "155004": [
         {
+          "ShopItemId": 10002358,
+          "SubTabId": 100023
+        },
+        {
           "ShopItemId": 10002304,
           "SubTabId": 100023
         }
       ],
       "155005": [
+        {
+          "ShopItemId": 10002359,
+          "SubTabId": 100023
+        },
         {
           "ShopItemId": 10002305,
           "SubTabId": 100023
@@ -408,11 +897,19 @@
       ],
       "155006": [
         {
+          "ShopItemId": 10002360,
+          "SubTabId": 100023
+        },
+        {
           "ShopItemId": 10002306,
           "SubTabId": 100023
         }
       ],
       "155101": [
+        {
+          "ShopItemId": 10002361,
+          "SubTabId": 100023
+        },
         {
           "ShopItemId": 10002307,
           "SubTabId": 100023
@@ -420,39 +917,303 @@
       ],
       "155102": [
         {
+          "ShopItemId": 10002362,
+          "SubTabId": 100023
+        },
+        {
           "ShopItemId": 10002308,
           "SubTabId": 100023
         }
       ],
       "155103": [
         {
+          "ShopItemId": 10002363,
+          "SubTabId": 100023
+        },
+        {
           "ShopItemId": 10002309,
           "SubTabId": 100023
         }
       ]
     },
-    "Shop": {}
+    "Shop": {},
+    "WeeklyDungeonShop": {
+      "151411": [
+        {
+          "ShopItemId": 10003101,
+          "SubTabId": 100031
+        }
+      ],
+      "151412": [
+        {
+          "ShopItemId": 10003102,
+          "SubTabId": 100031
+        }
+      ],
+      "151413": [
+        {
+          "ShopItemId": 10003103,
+          "SubTabId": 100031
+        }
+      ],
+      "151414": [
+        {
+          "ShopItemId": 10003104,
+          "SubTabId": 100031
+        }
+      ],
+      "151415": [
+        {
+          "ShopItemId": 10003105,
+          "SubTabId": 100031
+        }
+      ],
+      "151421": [
+        {
+          "ShopItemId": 10003106,
+          "SubTabId": 100031
+        }
+      ],
+      "151422": [
+        {
+          "ShopItemId": 10003107,
+          "SubTabId": 100031
+        }
+      ],
+      "151423": [
+        {
+          "ShopItemId": 10003108,
+          "SubTabId": 100031
+        }
+      ],
+      "151424": [
+        {
+          "ShopItemId": 10003109,
+          "SubTabId": 100031
+        }
+      ],
+      "151425": [
+        {
+          "ShopItemId": 10003110,
+          "SubTabId": 100031
+        }
+      ],
+      "151431": [
+        {
+          "ShopItemId": 10003111,
+          "SubTabId": 100031
+        }
+      ],
+      "151432": [
+        {
+          "ShopItemId": 10003112,
+          "SubTabId": 100031
+        }
+      ],
+      "151433": [
+        {
+          "ShopItemId": 10003113,
+          "SubTabId": 100031
+        }
+      ],
+      "151434": [
+        {
+          "ShopItemId": 10003114,
+          "SubTabId": 100031
+        }
+      ],
+      "151435": [
+        {
+          "ShopItemId": 10003115,
+          "SubTabId": 100031
+        }
+      ],
+      "151441": [
+        {
+          "ShopItemId": 10003116,
+          "SubTabId": 100031
+        }
+      ],
+      "151442": [
+        {
+          "ShopItemId": 10003117,
+          "SubTabId": 100031
+        }
+      ],
+      "151443": [
+        {
+          "ShopItemId": 10003118,
+          "SubTabId": 100031
+        }
+      ],
+      "151444": [
+        {
+          "ShopItemId": 10003119,
+          "SubTabId": 100031
+        }
+      ],
+      "151445": [
+        {
+          "ShopItemId": 10003120,
+          "SubTabId": 100031
+        }
+      ],
+      "151451": [
+        {
+          "ShopItemId": 10003121,
+          "SubTabId": 100031
+        }
+      ],
+      "151452": [
+        {
+          "ShopItemId": 10003122,
+          "SubTabId": 100031
+        }
+      ],
+      "151453": [
+        {
+          "ShopItemId": 10003123,
+          "SubTabId": 100031
+        }
+      ],
+      "151454": [
+        {
+          "ShopItemId": 10003124,
+          "SubTabId": 100031
+        }
+      ],
+      "151455": [
+        {
+          "ShopItemId": 10003125,
+          "SubTabId": 100031
+        }
+      ],
+      "151461": [
+        {
+          "ShopItemId": 10003126,
+          "SubTabId": 100031
+        }
+      ],
+      "151462": [
+        {
+          "ShopItemId": 10003127,
+          "SubTabId": 100031
+        }
+      ],
+      "151463": [
+        {
+          "ShopItemId": 10003128,
+          "SubTabId": 100031
+        }
+      ],
+      "151464": [
+        {
+          "ShopItemId": 10003129,
+          "SubTabId": 100031
+        }
+      ],
+      "151465": [
+        {
+          "ShopItemId": 10003130,
+          "SubTabId": 100031
+        }
+      ]
+    }
   },
   "Drop": {
     "AbyssShop": {},
     "ExploreBadgeShop": {},
     "FishingShop": {},
+    "HuaxuEventShop": {},
+    "HuaxuExploreShop": {},
+    "RaidShopSeason01": {},
     "Rouge": {},
-    "Shop": {}
+    "Shop": {},
+    "WeeklyDungeonShop": {}
   },
   "HeadFrame": {
     "AbyssShop": {},
     "ExploreBadgeShop": {},
     "FishingShop": {},
+    "HuaxuEventShop": {},
+    "HuaxuExploreShop": {},
+    "RaidShopSeason01": {},
     "Rouge": {},
-    "Shop": {}
+    "Shop": {},
+    "WeeklyDungeonShop": {}
   },
   "HeadSculpture": {
     "AbyssShop": {},
     "ExploreBadgeShop": {},
     "FishingShop": {},
+    "HuaxuEventShop": {},
+    "HuaxuExploreShop": {},
+    "RaidShopSeason01": {
+      "30022": [
+        {
+          "ShopItemId": 10004119,
+          "SubTabId": 100041
+        }
+      ],
+      "30023": [
+        {
+          "ShopItemId": 10004120,
+          "SubTabId": 100041
+        }
+      ],
+      "30024": [
+        {
+          "ShopItemId": 10004121,
+          "SubTabId": 100041
+        }
+      ]
+    },
     "Rouge": {},
-    "Shop": {}
+    "Shop": {
+      "30089": [
+        {
+          "AccessOrder": 2,
+          "ShopItemId": 140253,
+          "SubTabId": 1401
+        }
+      ],
+      "30090": [
+        {
+          "AccessOrder": 2,
+          "ShopItemId": 140254,
+          "SubTabId": 1401
+        }
+      ],
+      "30091": [
+        {
+          "AccessOrder": 2,
+          "ShopItemId": 140255,
+          "SubTabId": 1401
+        }
+      ],
+      "30092": [
+        {
+          "AccessOrder": 2,
+          "ShopItemId": 140256,
+          "SubTabId": 1401
+        }
+      ],
+      "30093": [
+        {
+          "AccessOrder": 2,
+          "ShopItemId": 140257,
+          "SubTabId": 1401
+        }
+      ],
+      "30094": [
+        {
+          "AccessOrder": 2,
+          "ShopItemId": 140258,
+          "SubTabId": 1401
+        }
+      ]
+    },
+    "WeeklyDungeonShop": {}
   },
   "Mod": {
     "AbyssShop": {
@@ -557,6 +1318,9 @@
         }
       ]
     },
+    "HuaxuEventShop": {},
+    "HuaxuExploreShop": {},
+    "RaidShopSeason01": {},
     "Rouge": {
       "24001": [
         {
@@ -778,11 +1542,19 @@
         {
           "ShopItemId": 10002210,
           "SubTabId": 100022
+        },
+        {
+          "ShopItemId": 10002346,
+          "SubTabId": 100022
         }
       ],
       "44002": [
         {
           "ShopItemId": 10002211,
+          "SubTabId": 100022
+        },
+        {
+          "ShopItemId": 10002347,
           "SubTabId": 100022
         }
       ],
@@ -790,11 +1562,19 @@
         {
           "ShopItemId": 10002212,
           "SubTabId": 100022
+        },
+        {
+          "ShopItemId": 10002348,
+          "SubTabId": 100022
         }
       ],
       "44004": [
         {
           "ShopItemId": 10002213,
+          "SubTabId": 100022
+        },
+        {
+          "ShopItemId": 10002349,
           "SubTabId": 100022
         }
       ],
@@ -802,11 +1582,19 @@
         {
           "ShopItemId": 10002214,
           "SubTabId": 100022
+        },
+        {
+          "ShopItemId": 10002350,
+          "SubTabId": 100022
         }
       ],
       "44006": [
         {
           "ShopItemId": 10002215,
+          "SubTabId": 100022
+        },
+        {
+          "ShopItemId": 10002351,
           "SubTabId": 100022
         }
       ],
@@ -814,11 +1602,19 @@
         {
           "ShopItemId": 10002216,
           "SubTabId": 100022
+        },
+        {
+          "ShopItemId": 10002352,
+          "SubTabId": 100022
         }
       ],
       "44102": [
         {
           "ShopItemId": 10002217,
+          "SubTabId": 100022
+        },
+        {
+          "ShopItemId": 10002353,
           "SubTabId": 100022
         }
       ],
@@ -826,9 +1622,17 @@
         {
           "ShopItemId": 10002218,
           "SubTabId": 100022
+        },
+        {
+          "ShopItemId": 10002354,
+          "SubTabId": 100022
         }
       ],
       "45001": [
+        {
+          "ShopItemId": 10002364,
+          "SubTabId": 100023
+        },
         {
           "ShopItemId": 10002310,
           "SubTabId": 100023
@@ -836,11 +1640,19 @@
       ],
       "45002": [
         {
+          "ShopItemId": 10002365,
+          "SubTabId": 100023
+        },
+        {
           "ShopItemId": 10002311,
           "SubTabId": 100023
         }
       ],
       "45003": [
+        {
+          "ShopItemId": 10002366,
+          "SubTabId": 100023
+        },
         {
           "ShopItemId": 10002312,
           "SubTabId": 100023
@@ -848,17 +1660,29 @@
       ],
       "45004": [
         {
+          "ShopItemId": 10002367,
+          "SubTabId": 100023
+        },
+        {
           "ShopItemId": 10002313,
           "SubTabId": 100023
         }
       ],
       "45005": [
         {
+          "ShopItemId": 10002368,
+          "SubTabId": 100023
+        },
+        {
           "ShopItemId": 10002314,
           "SubTabId": 100023
         }
       ],
       "45006": [
+        {
+          "ShopItemId": 10002369,
+          "SubTabId": 100023
+        },
         {
           "ShopItemId": 10002315,
           "SubTabId": 100023
@@ -868,17 +1692,29 @@
         {
           "ShopItemId": 10002316,
           "SubTabId": 100023
+        },
+        {
+          "ShopItemId": 10002370,
+          "SubTabId": 100023
         }
       ],
       "45102": [
         {
           "ShopItemId": 10002317,
           "SubTabId": 100023
+        },
+        {
+          "ShopItemId": 10002371,
+          "SubTabId": 100023
         }
       ],
       "45103": [
         {
           "ShopItemId": 10002318,
+          "SubTabId": 100023
+        },
+        {
+          "ShopItemId": 10002372,
           "SubTabId": 100023
         }
       ],
@@ -905,16 +1741,40 @@
           "ShopItemId": 10002107,
           "SubTabId": 100021
         }
+      ],
+      "104003": [
+        {
+          "ShopItemId": 10002110,
+          "SubTabId": 100021
+        }
       ]
     },
-    "Shop": {}
+    "Shop": {},
+    "WeeklyDungeonShop": {}
   },
   "Pet": {
     "AbyssShop": {},
     "ExploreBadgeShop": {},
-    "FishingShop": {},
+    "FishingShop": {
+      "4942": [
+        {
+          "ShopItemId": 802005,
+          "SubTabId": 8020
+        }
+      ],
+      "4943": [
+        {
+          "ShopItemId": 802006,
+          "SubTabId": 8020
+        }
+      ]
+    },
+    "HuaxuEventShop": {},
+    "HuaxuExploreShop": {},
+    "RaidShopSeason01": {},
     "Rouge": {},
-    "Shop": {}
+    "Shop": {},
+    "WeeklyDungeonShop": {}
   },
   "Resource": {
     "AbyssShop": {
@@ -926,9 +1786,21 @@
         {
           "ShopItemId": 10000107,
           "SubTabId": 100001
+        },
+        {
+          "ShopItemId": 10000607,
+          "SubTabId": 100001
+        },
+        {
+          "ShopItemId": 10000604,
+          "SubTabId": 100001
         }
       ],
       "102": [
+        {
+          "ShopItemId": 10000605,
+          "SubTabId": 100001
+        },
         {
           "ShopItemId": 10000105,
           "SubTabId": 100001
@@ -938,11 +1810,19 @@
         {
           "ShopItemId": 10000102,
           "SubTabId": 100001
+        },
+        {
+          "ShopItemId": 10000602,
+          "SubTabId": 100001
         }
       ],
       "2013": [
         {
           "ShopItemId": 10000101,
+          "SubTabId": 100001
+        },
+        {
+          "ShopItemId": 10000601,
           "SubTabId": 100001
         }
       ],
@@ -950,11 +1830,19 @@
         {
           "ShopItemId": 10000103,
           "SubTabId": 100001
+        },
+        {
+          "ShopItemId": 10000603,
+          "SubTabId": 100001
         }
       ],
       "3007": [
         {
           "ShopItemId": 10000106,
+          "SubTabId": 100001
+        },
+        {
+          "ShopItemId": 10000606,
           "SubTabId": 100001
         }
       ],
@@ -962,17 +1850,29 @@
         {
           "ShopItemId": 10000110,
           "SubTabId": 100001
+        },
+        {
+          "ShopItemId": 10000608,
+          "SubTabId": 100001
         }
       ],
       "20028": [
         {
           "ShopItemId": 10000111,
           "SubTabId": 100001
+        },
+        {
+          "ShopItemId": 10000609,
+          "SubTabId": 100001
         }
       ]
     },
     "ExploreBadgeShop": {
       "201": [
+        {
+          "ShopItemId": 704002,
+          "SubTabId": 7040
+        },
         {
           "ShopItemId": 703002,
           "SubTabId": 7030
@@ -988,12 +1888,16 @@
       ],
       "202": [
         {
-          "ShopItemId": 702006,
-          "SubTabId": 7020
+          "ShopItemId": 704003,
+          "SubTabId": 7040
         },
         {
           "ShopItemId": 703003,
           "SubTabId": 7030
+        },
+        {
+          "ShopItemId": 702006,
+          "SubTabId": 7020
         },
         {
           "ShopItemId": 701002,
@@ -1014,8 +1918,8 @@
       ],
       "10100": [
         {
-          "ShopItemId": 702002,
-          "SubTabId": 7020
+          "ShopItemId": 704001,
+          "SubTabId": 7040
         },
         {
           "ShopItemId": 703001,
@@ -1024,21 +1928,17 @@
         {
           "ShopItemId": 702001,
           "SubTabId": 7020
+        },
+        {
+          "ShopItemId": 702002,
+          "SubTabId": 7020
         }
       ]
     },
     "FishingShop": {
       "101": [
         {
-          "ShopItemId": 801140,
-          "SubTabId": 8011
-        },
-        {
-          "ShopItemId": 801104,
-          "SubTabId": 8011
-        },
-        {
-          "ShopItemId": 801109,
+          "ShopItemId": 801118,
           "SubTabId": 8011
         },
         {
@@ -1046,21 +1946,53 @@
           "SubTabId": 8011
         },
         {
-          "ShopItemId": 801118,
+          "ShopItemId": 801140,
+          "SubTabId": 8011
+        },
+        {
+          "ShopItemId": 802119,
+          "SubTabId": 8021
+        },
+        {
+          "ShopItemId": 802109,
+          "SubTabId": 8021
+        },
+        {
+          "ShopItemId": 802104,
+          "SubTabId": 8021
+        },
+        {
+          "ShopItemId": 801109,
+          "SubTabId": 8011
+        },
+        {
+          "ShopItemId": 801104,
           "SubTabId": 8011
         }
       ],
       "102": [
         {
-          "ShopItemId": 801141,
-          "SubTabId": 8011
-        },
-        {
           "ShopItemId": 801130,
           "SubTabId": 8011
         },
         {
-          "ShopItemId": 801105,
+          "ShopItemId": 801141,
+          "SubTabId": 8011
+        },
+        {
+          "ShopItemId": 802120,
+          "SubTabId": 8021
+        },
+        {
+          "ShopItemId": 802110,
+          "SubTabId": 8021
+        },
+        {
+          "ShopItemId": 802105,
+          "SubTabId": 8021
+        },
+        {
+          "ShopItemId": 801119,
           "SubTabId": 8011
         },
         {
@@ -1068,11 +2000,15 @@
           "SubTabId": 8011
         },
         {
-          "ShopItemId": 801119,
+          "ShopItemId": 801105,
           "SubTabId": 8011
         }
       ],
       "201": [
+        {
+          "ShopItemId": 801123,
+          "SubTabId": 8011
+        },
         {
           "ShopItemId": 801134,
           "SubTabId": 8011
@@ -1080,13 +2016,13 @@
         {
           "ShopItemId": 801145,
           "SubTabId": 8011
-        },
-        {
-          "ShopItemId": 801123,
-          "SubTabId": 8011
         }
       ],
       "202": [
+        {
+          "ShopItemId": 801124,
+          "SubTabId": 8011
+        },
         {
           "ShopItemId": 801135,
           "SubTabId": 8011
@@ -1094,38 +2030,50 @@
         {
           "ShopItemId": 801146,
           "SubTabId": 8011
-        },
-        {
-          "ShopItemId": 801124,
-          "SubTabId": 8011
         }
       ],
       "211": [
-        {
-          "ShopItemId": 801136,
-          "SubTabId": 8011
-        },
         {
           "ShopItemId": 801125,
           "SubTabId": 8011
         },
         {
-          "ShopItemId": 801114,
+          "ShopItemId": 801136,
           "SubTabId": 8011
         },
         {
           "ShopItemId": 801147,
           "SubTabId": 8011
+        },
+        {
+          "ShopItemId": 802125,
+          "SubTabId": 8021
+        },
+        {
+          "ShopItemId": 802115,
+          "SubTabId": 8021
+        },
+        {
+          "ShopItemId": 801114,
+          "SubTabId": 8011
         }
       ],
       "1001": [
+        {
+          "ShopItemId": 801132,
+          "SubTabId": 8011
+        },
         {
           "ShopItemId": 801143,
           "SubTabId": 8011
         },
         {
-          "ShopItemId": 801132,
-          "SubTabId": 8011
+          "ShopItemId": 802122,
+          "SubTabId": 8021
+        },
+        {
+          "ShopItemId": 802112,
+          "SubTabId": 8021
         },
         {
           "ShopItemId": 801121,
@@ -1136,13 +2084,27 @@
           "SubTabId": 8011
         }
       ],
+      "1002": [
+        {
+          "ShopItemId": 802123,
+          "SubTabId": 8021
+        },
+        {
+          "ShopItemId": 802113,
+          "SubTabId": 8021
+        }
+      ],
       "2008": [
         {
-          "ShopItemId": 801102,
-          "SubTabId": 8011
+          "ShopItemId": 802102,
+          "SubTabId": 8021
         },
         {
           "ShopItemId": 801107,
+          "SubTabId": 8011
+        },
+        {
+          "ShopItemId": 801102,
           "SubTabId": 8011
         }
       ],
@@ -1150,6 +2112,10 @@
         {
           "ShopItemId": 801127,
           "SubTabId": 8011
+        },
+        {
+          "ShopItemId": 802107,
+          "SubTabId": 8021
         },
         {
           "ShopItemId": 801116,
@@ -1160,15 +2126,23 @@
         {
           "ShopItemId": 801138,
           "SubTabId": 8011
+        },
+        {
+          "ShopItemId": 802117,
+          "SubTabId": 8021
         }
       ],
       "2012": [
         {
-          "ShopItemId": 801101,
-          "SubTabId": 8011
+          "ShopItemId": 802101,
+          "SubTabId": 8021
         },
         {
           "ShopItemId": 801106,
+          "SubTabId": 8011
+        },
+        {
+          "ShopItemId": 801101,
           "SubTabId": 8011
         }
       ],
@@ -1176,6 +2150,10 @@
         {
           "ShopItemId": 801126,
           "SubTabId": 8011
+        },
+        {
+          "ShopItemId": 802106,
+          "SubTabId": 8021
         },
         {
           "ShopItemId": 801115,
@@ -1186,16 +2164,28 @@
         {
           "ShopItemId": 801137,
           "SubTabId": 8011
+        },
+        {
+          "ShopItemId": 802116,
+          "SubTabId": 8021
         }
       ],
       "3001": [
+        {
+          "ShopItemId": 801133,
+          "SubTabId": 8011
+        },
         {
           "ShopItemId": 801144,
           "SubTabId": 8011
         },
         {
-          "ShopItemId": 801133,
-          "SubTabId": 8011
+          "ShopItemId": 802124,
+          "SubTabId": 8021
+        },
+        {
+          "ShopItemId": 802114,
+          "SubTabId": 8021
         },
         {
           "ShopItemId": 801122,
@@ -1208,21 +2198,25 @@
       ],
       "3005": [
         {
-          "ShopItemId": 801103,
+          "ShopItemId": 801203,
           "SubTabId": 8011
+        },
+        {
+          "ShopItemId": 802103,
+          "SubTabId": 8021
         },
         {
           "ShopItemId": 801108,
           "SubTabId": 8011
         },
         {
-          "ShopItemId": 801203,
+          "ShopItemId": 801103,
           "SubTabId": 8011
         }
       ],
       "3006": [
         {
-          "ShopItemId": 801139,
+          "ShopItemId": 801117,
           "SubTabId": 8011
         },
         {
@@ -1230,18 +2224,34 @@
           "SubTabId": 8011
         },
         {
-          "ShopItemId": 801117,
+          "ShopItemId": 801139,
           "SubTabId": 8011
+        },
+        {
+          "ShopItemId": 802118,
+          "SubTabId": 8021
+        },
+        {
+          "ShopItemId": 802108,
+          "SubTabId": 8021
         }
       ],
       "10100": [
+        {
+          "ShopItemId": 801131,
+          "SubTabId": 8011
+        },
         {
           "ShopItemId": 801142,
           "SubTabId": 8011
         },
         {
-          "ShopItemId": 801131,
-          "SubTabId": 8011
+          "ShopItemId": 802121,
+          "SubTabId": 8021
+        },
+        {
+          "ShopItemId": 802111,
+          "SubTabId": 8021
         },
         {
           "ShopItemId": 801120,
@@ -1284,11 +2294,19 @@
       ],
       "5210100": [
         {
+          "ShopItemId": 802001,
+          "SubTabId": 8020
+        },
+        {
           "ShopItemId": 801001,
           "SubTabId": 8010
         }
       ],
       "5210200": [
+        {
+          "ShopItemId": 802002,
+          "SubTabId": 8020
+        },
         {
           "ShopItemId": 801002,
           "SubTabId": 8010
@@ -1296,25 +2314,205 @@
       ],
       "5210300": [
         {
+          "ShopItemId": 802003,
+          "SubTabId": 8020
+        },
+        {
           "ShopItemId": 801003,
           "SubTabId": 8010
         }
       ],
       "5210400": [
         {
+          "ShopItemId": 802004,
+          "SubTabId": 8020
+        },
+        {
           "ShopItemId": 801004,
           "SubTabId": 8010
+        }
+      ]
+    },
+    "HuaxuEventShop": {
+      "101": [
+        {
+          "ShopItemId": 10001104,
+          "SubTabId": 100011
+        }
+      ],
+      "102": [
+        {
+          "ShopItemId": 10001103,
+          "SubTabId": 100011
+        }
+      ],
+      "2013": [
+        {
+          "ShopItemId": 10001102,
+          "SubTabId": 100011
+        }
+      ],
+      "10100": [
+        {
+          "ShopItemId": 10001101,
+          "SubTabId": 100011
+        }
+      ]
+    },
+    "HuaxuExploreShop": {
+      "101": [
+        {
+          "ShopItemId": 10005106,
+          "SubTabId": 100051
+        }
+      ],
+      "211": [
+        {
+          "ShopItemId": 10005102,
+          "SubTabId": 100051
+        }
+      ],
+      "1002": [
+        {
+          "ShopItemId": 10005103,
+          "SubTabId": 100051
+        }
+      ],
+      "10100": [
+        {
+          "ShopItemId": 10005104,
+          "SubTabId": 100051
+        }
+      ],
+      "20013": [
+        {
+          "ShopItemId": 10005105,
+          "SubTabId": 100051
+        }
+      ]
+    },
+    "RaidShopSeason01": {
+      "101": [
+        {
+          "ShopItemId": 10004107,
+          "SubTabId": 100041
+        },
+        {
+          "ShopItemId": 10004115,
+          "SubTabId": 100041
+        }
+      ],
+      "102": [
+        {
+          "ShopItemId": 10004116,
+          "SubTabId": 100041
+        },
+        {
+          "ShopItemId": 10004108,
+          "SubTabId": 100041
+        }
+      ],
+      "1006": [
+        {
+          "ShopItemId": 10004102,
+          "SubTabId": 100041
+        }
+      ],
+      "2009": [
+        {
+          "ShopItemId": 10004118,
+          "SubTabId": 100041
+        }
+      ],
+      "2010": [
+        {
+          "ShopItemId": 10004110,
+          "SubTabId": 100041
+        }
+      ],
+      "2013": [
+        {
+          "ShopItemId": 10004117,
+          "SubTabId": 100041
+        }
+      ],
+      "2014": [
+        {
+          "ShopItemId": 10004109,
+          "SubTabId": 100041
+        }
+      ],
+      "3006": [
+        {
+          "ShopItemId": 10004112,
+          "SubTabId": 100041
+        }
+      ],
+      "3007": [
+        {
+          "ShopItemId": 10004104,
+          "SubTabId": 100041
+        }
+      ],
+      "3016": [
+        {
+          "ShopItemId": 10004101,
+          "SubTabId": 100041
+        },
+        {
+          "ShopItemId": 10004126,
+          "SubTabId": 100041
+        },
+        {
+          "ShopItemId": 10004125,
+          "SubTabId": 100041
+        }
+      ],
+      "10100": [
+        {
+          "ShopItemId": 10004103,
+          "SubTabId": 100041
+        }
+      ],
+      "20013": [
+        {
+          "ShopItemId": 10004111,
+          "SubTabId": 100041
+        }
+      ],
+      "20021": [
+        {
+          "ShopItemId": 10004114,
+          "SubTabId": 100041
+        }
+      ],
+      "20024": [
+        {
+          "ShopItemId": 10004113,
+          "SubTabId": 100041
+        }
+      ],
+      "20027": [
+        {
+          "ShopItemId": 10004105,
+          "SubTabId": 100041
+        }
+      ],
+      "20028": [
+        {
+          "ShopItemId": 10004106,
+          "SubTabId": 100041
         }
       ]
     },
     "Rouge": {
       "101": [
         {
-          "ShopItemId": 10002103,
+          "ShopItemId": 10002105,
           "SubTabId": 100021
         },
         {
-          "ShopItemId": 10002105,
+          "ShopItemId": 10002103,
           "SubTabId": 100021
         }
       ],
@@ -1362,10 +2560,24 @@
         {
           "ShopItemId": 110106,
           "SubTabId": 1101
+        },
+        {
+          "ShopItemId": 110107,
+          "SubTabId": 1101
+        },
+        {
+          "ShopItemId": 110108,
+          "SubTabId": 1101
         }
       ],
       "101": [
         {
+          "AccessOrder": 1,
+          "ShopItemId": 150303,
+          "SubTabId": 1500
+        },
+        {
+          "AccessOrder": 2,
           "ShopItemId": 140136,
           "SubTabId": 1402
         }
@@ -1378,28 +2590,40 @@
       ],
       "201": [
         {
+          "ShopItemId": 150104,
+          "SubTabId": 1501
+        },
+        {
           "ShopItemId": 140143,
           "SubTabId": 1402
         },
         {
-          "ShopItemId": 150104,
-          "SubTabId": 1501
+          "ShopItemId": 140149,
+          "SubTabId": 1402
         }
       ],
       "202": [
+        {
+          "ShopItemId": 150105,
+          "SubTabId": 1501
+        },
         {
           "ShopItemId": 140144,
           "SubTabId": 1402
         },
         {
-          "ShopItemId": 150105,
-          "SubTabId": 1501
+          "ShopItemId": 140150,
+          "SubTabId": 1402
         }
       ],
       "207": [
         {
           "ShopItemId": 150101,
           "SubTabId": 1500
+        },
+        {
+          "ShopItemId": 150301,
+          "SubTabId": 1501
         }
       ],
       "208": [
@@ -1416,34 +2640,42 @@
       ],
       "1001": [
         {
-          "ShopItemId": 140145,
+          "ShopItemId": 140151,
           "SubTabId": 1402
         },
         {
           "AccessOrder": 1,
           "ShopItemId": 150106,
           "SubTabId": 1501
+        },
+        {
+          "ShopItemId": 140145,
+          "SubTabId": 1402
         }
       ],
       "1002": [
         {
-          "ShopItemId": 140142,
-          "SubTabId": 1402
-        },
-        {
           "ShopItemId": 150115,
           "SubTabId": 1501
+        },
+        {
+          "ShopItemId": 140142,
+          "SubTabId": 1402
         }
       ],
       "1003": [
         {
-          "ShopItemId": 140146,
+          "ShopItemId": 140152,
           "SubTabId": 1402
         },
         {
           "AccessOrder": 1,
           "ShopItemId": 150107,
           "SubTabId": 1500
+        },
+        {
+          "ShopItemId": 140146,
+          "SubTabId": 1402
         }
       ],
       "2009": [
@@ -1458,7 +2690,25 @@
           "SubTabId": 1402
         }
       ],
+      "3016": [
+        {
+          "AccessOrder": 1,
+          "ShopItemId": 150302,
+          "SubTabId": 1500
+        }
+      ],
+      "20013": [
+        {
+          "AccessOrder": 1,
+          "ShopItemId": 150304,
+          "SubTabId": 1500
+        }
+      ],
       "30101": [
+        {
+          "ShopItemId": 140153,
+          "SubTabId": 1402
+        },
         {
           "AccessOrder": 2,
           "ShopItemId": 140213,
@@ -1506,6 +2756,10 @@
         }
       ],
       "30108": [
+        {
+          "ShopItemId": 140154,
+          "SubTabId": 1402
+        },
         {
           "AccessOrder": 2,
           "ShopItemId": 140214,
@@ -1582,6 +2836,34 @@
           "SubTabId": 1401
         }
       ],
+      "41019": [
+        {
+          "AccessOrder": 2,
+          "ShopItemId": 140236,
+          "SubTabId": 1401
+        }
+      ],
+      "41020": [
+        {
+          "AccessOrder": 2,
+          "ShopItemId": 140227,
+          "SubTabId": 1401
+        }
+      ],
+      "41021": [
+        {
+          "AccessOrder": 2,
+          "ShopItemId": 140228,
+          "SubTabId": 1401
+        }
+      ],
+      "41022": [
+        {
+          "AccessOrder": 2,
+          "ShopItemId": 140229,
+          "SubTabId": 1401
+        }
+      ],
       "110006": [
         {
           "ShopItemId": 120105,
@@ -1593,6 +2875,20 @@
         },
         {
           "ShopItemId": 120107,
+          "SubTabId": 1201
+        }
+      ],
+      "110012": [
+        {
+          "ShopItemId": 120109,
+          "SubTabId": 1201
+        },
+        {
+          "ShopItemId": 120110,
+          "SubTabId": 1201
+        },
+        {
+          "ShopItemId": 120111,
           "SubTabId": 1201
         }
       ],
@@ -1620,6 +2916,12 @@
           "SubTabId": 1502
         }
       ],
+      "1001503": [
+        {
+          "ShopItemId": 150120,
+          "SubTabId": 1502
+        }
+      ],
       "1001801": [
         {
           "ShopItemId": 150122,
@@ -1635,6 +2937,12 @@
       "1002301": [
         {
           "ShopItemId": 150124,
+          "SubTabId": 1502
+        }
+      ],
+      "1002401": [
+        {
+          "ShopItemId": 150125,
           "SubTabId": 1502
         }
       ],
@@ -1704,12 +3012,16 @@
           "SubTabId": 1502
         }
       ]
-    }
+    },
+    "WeeklyDungeonShop": {}
   },
   "Reward": {
     "AbyssShop": {},
     "ExploreBadgeShop": {},
     "FishingShop": {},
+    "HuaxuEventShop": {},
+    "HuaxuExploreShop": {},
+    "RaidShopSeason01": {},
     "Rouge": {},
     "Shop": {
       "12001": [
@@ -1906,6 +3218,30 @@
           "SubTabId": 1605
         }
       ],
+      "12057": [
+        {
+          "ShopItemId": 160214,
+          "SubTabId": 1605
+        }
+      ],
+      "12058": [
+        {
+          "ShopItemId": 160215,
+          "SubTabId": 1605
+        }
+      ],
+      "12059": [
+        {
+          "ShopItemId": 160216,
+          "SubTabId": 1605
+        }
+      ],
+      "12060": [
+        {
+          "ShopItemId": 160217,
+          "SubTabId": 1605
+        }
+      ],
       "12101": [
         {
           "ShopItemId": 160101,
@@ -1944,22 +3280,113 @@
       ],
       "12107": [
         {
+          "ShopItemId": 160316,
+          "SubTabId": 1606
+        },
+        {
           "ShopItemId": 160111,
+          "SubTabId": 1601
+        }
+      ],
+      "12110": [
+        {
+          "ShopItemId": 160112,
+          "SubTabId": 1601
+        }
+      ],
+      "12111": [
+        {
+          "ShopItemId": 160113,
+          "SubTabId": 1601
+        }
+      ],
+      "12112": [
+        {
+          "ShopItemId": 160114,
+          "SubTabId": 1601
+        }
+      ],
+      "12113": [
+        {
+          "ShopItemId": 160115,
+          "SubTabId": 1601
+        }
+      ],
+      "12114": [
+        {
+          "ShopItemId": 160116,
+          "SubTabId": 1601
+        }
+      ],
+      "12115": [
+        {
+          "ShopItemId": 160117,
+          "SubTabId": 1601
+        }
+      ],
+      "12116": [
+        {
+          "ShopItemId": 160317,
+          "SubTabId": 1606
+        },
+        {
+          "ShopItemId": 160118,
+          "SubTabId": 1601
+        }
+      ],
+      "12119": [
+        {
+          "ShopItemId": 160121,
           "SubTabId": 1601
         },
         {
-          "ShopItemId": 160316,
-          "SubTabId": 1606
+          "ShopItemId": 160120,
+          "SubTabId": 1601
+        },
+        {
+          "ShopItemId": 160119,
+          "SubTabId": 1601
+        }
+      ],
+      "12120": [
+        {
+          "ShopItemId": 160124,
+          "SubTabId": 1601
+        },
+        {
+          "ShopItemId": 160123,
+          "SubTabId": 1601
+        },
+        {
+          "ShopItemId": 160122,
+          "SubTabId": 1601
+        }
+      ],
+      "12121": [
+        {
+          "ShopItemId": 160125,
+          "SubTabId": 1601
         }
       ]
-    }
+    },
+    "WeeklyDungeonShop": {}
   },
   "Skin": {
     "AbyssShop": {},
     "ExploreBadgeShop": {},
     "FishingShop": {},
+    "HuaxuEventShop": {},
+    "HuaxuExploreShop": {},
+    "RaidShopSeason01": {},
     "Rouge": {},
     "Shop": {
+      "240101": [
+        {
+          "AccessOrder": 2,
+          "ShopItemId": 140230,
+          "SubTabId": 1401
+        }
+      ],
       "530101": [
         {
           "AccessOrder": 2,
@@ -1967,21 +3394,68 @@
           "SubTabId": 1401
         }
       ]
-    }
+    },
+    "WeeklyDungeonShop": {}
   },
   "Title": {
     "AbyssShop": {},
     "ExploreBadgeShop": {},
-    "FishingShop": {},
+    "FishingShop": {
+      "10022": [
+        {
+          "ShopItemId": 802126,
+          "SubTabId": 8021
+        }
+      ],
+      "20061": [
+        {
+          "ShopItemId": 802127,
+          "SubTabId": 8021
+        }
+      ],
+      "20065": [
+        {
+          "ShopItemId": 802128,
+          "SubTabId": 8021
+        }
+      ]
+    },
+    "HuaxuEventShop": {},
+    "HuaxuExploreShop": {},
+    "RaidShopSeason01": {
+      "10075": [
+        {
+          "ShopItemId": 10004122,
+          "SubTabId": 100041
+        }
+      ],
+      "10076": [
+        {
+          "ShopItemId": 10004123,
+          "SubTabId": 100041
+        }
+      ],
+      "10077": [
+        {
+          "ShopItemId": 10004124,
+          "SubTabId": 100041
+        }
+      ]
+    },
     "Rouge": {},
-    "Shop": {}
+    "Shop": {},
+    "WeeklyDungeonShop": {}
   },
   "TitleFrame": {
     "AbyssShop": {},
     "ExploreBadgeShop": {},
     "FishingShop": {},
+    "HuaxuEventShop": {},
+    "HuaxuExploreShop": {},
+    "RaidShopSeason01": {},
     "Rouge": {},
-    "Shop": {}
+    "Shop": {},
+    "WeeklyDungeonShop": {}
   },
   "Walnut": {
     "AbyssShop": {
@@ -1992,6 +3466,26 @@
         },
         {
           "ShopItemId": 10000109,
+          "SubTabId": 100001
+        }
+      ],
+      "2047": [
+        {
+          "ShopItemId": 10000114,
+          "SubTabId": 100001
+        },
+        {
+          "ShopItemId": 10000115,
+          "SubTabId": 100001
+        }
+      ],
+      "2049": [
+        {
+          "ShopItemId": 10000116,
+          "SubTabId": 100001
+        },
+        {
+          "ShopItemId": 10000117,
           "SubTabId": 100001
         }
       ],
@@ -2008,11 +3502,20 @@
     },
     "ExploreBadgeShop": {},
     "FishingShop": {},
+    "HuaxuEventShop": {},
+    "HuaxuExploreShop": {},
+    "RaidShopSeason01": {},
     "Rouge": {},
     "Shop": {
       "1000": [
         {
           "ShopItemId": 151000,
+          "SubTabId": 1801
+        }
+      ],
+      "1002": [
+        {
+          "ShopItemId": 151002,
           "SubTabId": 1801
         }
       ],
@@ -2028,6 +3531,12 @@
           "SubTabId": 1801
         }
       ],
+      "1007": [
+        {
+          "ShopItemId": 151007,
+          "SubTabId": 1801
+        }
+      ],
       "1009": [
         {
           "ShopItemId": 151009,
@@ -2037,6 +3546,12 @@
       "1014": [
         {
           "ShopItemId": 151014,
+          "SubTabId": 1801
+        }
+      ],
+      "1015": [
+        {
+          "ShopItemId": 151015,
           "SubTabId": 1801
         }
       ],
@@ -2211,6 +3726,36 @@
       "2025": [
         {
           "ShopItemId": 152025,
+          "SubTabId": 1802
+        }
+      ],
+      "2026": [
+        {
+          "ShopItemId": 152026,
+          "SubTabId": 1802
+        }
+      ],
+      "2028": [
+        {
+          "ShopItemId": 152028,
+          "SubTabId": 1802
+        }
+      ],
+      "2040": [
+        {
+          "ShopItemId": 152040,
+          "SubTabId": 1802
+        }
+      ],
+      "2042": [
+        {
+          "ShopItemId": 152042,
+          "SubTabId": 1802
+        }
+      ],
+      "2044": [
+        {
+          "ShopItemId": 152044,
           "SubTabId": 1802
         }
       ],
@@ -2406,6 +3951,18 @@
           "SubTabId": 1803
         }
       ],
+      "151755": [
+        {
+          "ShopItemId": 651755,
+          "SubTabId": 1803
+        }
+      ],
+      "151756": [
+        {
+          "ShopItemId": 651756,
+          "SubTabId": 1803
+        }
+      ],
       "151761": [
         {
           "ShopItemId": 651761,
@@ -2484,12 +4041,16 @@
           "SubTabId": 1803
         }
       ]
-    }
+    },
+    "WeeklyDungeonShop": {}
   },
   "Weapon": {
     "AbyssShop": {},
     "ExploreBadgeShop": {},
     "FishingShop": {},
+    "HuaxuEventShop": {},
+    "HuaxuExploreShop": {},
+    "RaidShopSeason01": {},
     "Rouge": {},
     "Shop": {
       "10101": [
@@ -2555,6 +4116,13 @@
           "SubTabId": 1503
         }
       ],
+      "10208": [
+        {
+          "AccessOrder": 2,
+          "ShopItemId": 159155,
+          "SubTabId": 1503
+        }
+      ],
       "10301": [
         {
           "AccessOrder": 2,
@@ -2601,6 +4169,13 @@
         {
           "AccessOrder": 2,
           "ShopItemId": 159122,
+          "SubTabId": 1503
+        }
+      ],
+      "10502": [
+        {
+          "AccessOrder": 2,
+          "ShopItemId": 159123,
           "SubTabId": 1503
         }
       ],
@@ -2765,6 +4340,13 @@
           "SubTabId": 1503
         }
       ],
+      "20506": [
+        {
+          "AccessOrder": 2,
+          "ShopItemId": 159156,
+          "SubTabId": 1503
+        }
+      ],
       "20507": [
         {
           "AccessOrder": 2,
@@ -2776,6 +4358,13 @@
         {
           "AccessOrder": 2,
           "ShopItemId": 159150,
+          "SubTabId": 1503
+        }
+      ],
+      "20510": [
+        {
+          "AccessOrder": 2,
+          "ShopItemId": 159149,
           "SubTabId": 1503
         }
       ],
@@ -2807,12 +4396,36 @@
           "SubTabId": 1503
         }
       ]
-    }
+    },
+    "WeeklyDungeonShop": {}
   },
   "WeaponAccessory": {
     "AbyssShop": {},
-    "ExploreBadgeShop": {},
+    "ExploreBadgeShop": {
+      "10017": [
+        {
+          "ShopItemId": 704004,
+          "SubTabId": 7040
+        }
+      ],
+      "10021": [
+        {
+          "ShopItemId": 704005,
+          "SubTabId": 7040
+        }
+      ]
+    },
     "FishingShop": {},
+    "HuaxuEventShop": {},
+    "HuaxuExploreShop": {
+      "10022": [
+        {
+          "ShopItemId": 10005101,
+          "SubTabId": 100051
+        }
+      ]
+    },
+    "RaidShopSeason01": {},
     "Rouge": {},
     "Shop": {
       "10001": [
@@ -2914,18 +4527,88 @@
           "ShopItemId": 140131,
           "SubTabId": 1402
         }
+      ],
+      "10024": [
+        {
+          "AccessOrder": 2,
+          "ShopItemId": 140247,
+          "SubTabId": 1401
+        }
+      ],
+      "10025": [
+        {
+          "AccessOrder": 2,
+          "ShopItemId": 140248,
+          "SubTabId": 1401
+        }
+      ],
+      "10026": [
+        {
+          "AccessOrder": 2,
+          "ShopItemId": 140249,
+          "SubTabId": 1401
+        }
+      ],
+      "10027": [
+        {
+          "AccessOrder": 2,
+          "ShopItemId": 140250,
+          "SubTabId": 1401
+        }
+      ],
+      "10028": [
+        {
+          "AccessOrder": 2,
+          "ShopItemId": 140251,
+          "SubTabId": 1401
+        }
+      ],
+      "10029": [
+        {
+          "AccessOrder": 2,
+          "ShopItemId": 140252,
+          "SubTabId": 1401
+        }
       ]
-    }
+    },
+    "WeeklyDungeonShop": {}
   },
   "WeaponSkin": {
     "AbyssShop": {},
     "ExploreBadgeShop": {},
     "FishingShop": {},
+    "HuaxuEventShop": {},
+    "HuaxuExploreShop": {},
+    "RaidShopSeason01": {},
     "Rouge": {},
     "Shop": {
       "3010101": [
         {
           "ShopItemId": 120103,
+          "SubTabId": 1201
+        }
+      ],
+      "3010102": [
+        {
+          "ShopItemId": 120108,
+          "SubTabId": 1201
+        }
+      ],
+      "3010104": [
+        {
+          "ShopItemId": 120119,
+          "SubTabId": 1201
+        }
+      ],
+      "3010105": [
+        {
+          "ShopItemId": 120130,
+          "SubTabId": 1201
+        }
+      ],
+      "3010106": [
+        {
+          "ShopItemId": 120114,
           "SubTabId": 1201
         }
       ],
@@ -2941,13 +4624,141 @@
           "SubTabId": 1201
         }
       ],
+      "3010203": [
+        {
+          "ShopItemId": 120132,
+          "SubTabId": 1201
+        }
+      ],
+      "3010204": [
+        {
+          "ShopItemId": 120112,
+          "SubTabId": 1201
+        }
+      ],
+      "3010302": [
+        {
+          "ShopItemId": 120125,
+          "SubTabId": 1201
+        }
+      ],
+      "3010303": [
+        {
+          "ShopItemId": 120129,
+          "SubTabId": 1201
+        }
+      ],
       "3010401": [
         {
           "AccessOrder": 2,
           "ShopItemId": 140202,
           "SubTabId": 1401
         }
+      ],
+      "3010403": [
+        {
+          "ShopItemId": 120118,
+          "SubTabId": 1201
+        }
+      ],
+      "3010404": [
+        {
+          "ShopItemId": 120133,
+          "SubTabId": 1201
+        }
+      ],
+      "3010405": [
+        {
+          "ShopItemId": 120113,
+          "SubTabId": 1201
+        }
+      ],
+      "3010501": [
+        {
+          "AccessOrder": 2,
+          "ShopItemId": 140231,
+          "SubTabId": 1401
+        }
+      ],
+      "3010502": [
+        {
+          "ShopItemId": 120124,
+          "SubTabId": 1201
+        }
+      ],
+      "3010601": [
+        {
+          "ShopItemId": 120122,
+          "SubTabId": 1201
+        }
+      ],
+      "3010603": [
+        {
+          "ShopItemId": 120131,
+          "SubTabId": 1201
+        }
+      ],
+      "3010605": [
+        {
+          "ShopItemId": 120117,
+          "SubTabId": 1201
+        }
+      ],
+      "3010701": [
+        {
+          "ShopItemId": 120120,
+          "SubTabId": 1201
+        }
+      ],
+      "3010703": [
+        {
+          "ShopItemId": 120134,
+          "SubTabId": 1201
+        }
+      ],
+      "3010705": [
+        {
+          "ShopItemId": 120115,
+          "SubTabId": 1201
+        }
+      ],
+      "3010801": [
+        {
+          "ShopItemId": 120121,
+          "SubTabId": 1201
+        }
+      ],
+      "3010802": [
+        {
+          "ShopItemId": 120135,
+          "SubTabId": 1201
+        }
+      ],
+      "3010901": [
+        {
+          "ShopItemId": 120126,
+          "SubTabId": 1201
+        }
+      ],
+      "3011001": [
+        {
+          "ShopItemId": 120128,
+          "SubTabId": 1201
+        }
+      ],
+      "3011101": [
+        {
+          "ShopItemId": 120123,
+          "SubTabId": 1201
+        }
+      ],
+      "3011201": [
+        {
+          "ShopItemId": 120127,
+          "SubTabId": 1201
+        }
       ]
-    }
+    },
+    "WeeklyDungeonShop": {}
   }
 }

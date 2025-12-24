@@ -1,9 +1,10 @@
 {
   "index": 0,
   "script": "hotfix_data",
-  "client_version": [
-    "0"
-  ],
+  "client_version": {
+    "ForceUpdateCheck": "1"
+  },
+  "force_update_version": "1",
   "patch_version": [
     "0"
   ]

@@ -122,14 +122,14 @@
     "VoiceName": "voice/$Locale$/story/1001/10002/0280FF7A"
   },
   "6100101": {
-    "Content": "篝火附近不知为何涌出一片长满水仙花的水域。\n一个人正低头端详着水面上的倒影。那倒影模糊不清，却美丽动人，似乎连星空也沉醉其中。",
+    "ContentFR": "Près du feu de camp surgit une étendue d’eau, tapissée de narcisses en fleurs.\nUne femme contemple son reflet sur la surface trouble.\nBien que floue, cette image est si envoûtante qu’elle semble charmer jusqu’aux étoiles elles-mêmes.",
     "DialogueId": 6100101,
     "GUID": "0F455DD2",
     "NextDialogue": 6100102,
     "RougeTalkActorType": 3
   },
   "6100102": {
-    "Content": "“我心爱的人啊，究竟在何方？”\n“我踏遍了阿特拉西亚，在卢卡的蔚蓝群岛和华胥的苍翠幽谷找寻，在伊瑟尔微风停驻的林梢找寻，在埃斯加特峡湾春天里破碎的薄冰找寻。”",
+    "ContentFR": "« Ô mon bien-aimé, où donc erres-tu ? »\n« J’ai parcouru toute l’Atlasia, les îles azurées de Luca, les vallées émeraude de Huaxu, les cimes où s’attardent les souffles d’Aethyrie, et le Fjord d’Askard, où la glace printanière se brise en éclats fragiles. »",
     "DialogueId": 6100102,
     "GUID": "0F455DFC",
     "NextDialogue": 6100103,
@@ -138,7 +138,7 @@
     "SpeakNpcName": "RougeLike_Room301_Char01"
   },
   "6100103": {
-    "Content": "“可是我始终未曾寻得一位心爱之人。”\n“我想与我美貌相配的佳人，正被困在这艾利西安圣湖的湖水之中。”\n那人径自对着湖面的倒影喃喃自言。",
+    "ContentFR": "« Et pourtant... je n’ai jamais trouvé celui que je chéris. »\n« La beauté qui m’égale doit être prisonnière des eaux du Lac Sacré d’Elysium... »\nMurmures adressés à son propre reflet.",
     "DialogueId": 6100103,
     "GUID": "0F455E26",
     "NextOptions": [
@@ -150,16 +150,15 @@
     "SpeakNpcName": "RougeLike_Room301_Char01"
   },
   "6100104": {
-    "Content": "“那只是你的倒影而已。”",
+    "ContentFR": "Révéler qu’il ne s’agit que de son reflet",
     "DialogueId": 6100104,
     "GUID": "0F455E50",
     "IsKeyOption": true,
     "NextDialogue": 6100105,
-    "RougeTalkActorType": 2,
-    "SpeakNpcId": 910004
+    "RougeTalkActorType": 2
   },
   "6100105": {
-    "Content": "“你是谁？路过的旅人吗？”\n那人看了你一眼。\n“若你能找到解救她的办法，再来见我吧。”",
+    "ContentFR": "« Qui es-tu ? {性别:Un voyageur|Une voyageuse} de passage ? » \nElle lève les yeux, t’adresse un bref regard.\n« Si tu découvres un moyen de la délivrer, reviens me voir. »",
     "DialogueId": 6100105,
     "GUID": "0F455E7A",
     "RougeTalkActorType": 1,
@@ -167,22 +166,21 @@
     "SpeakNpcName": "RougeLike_Room301_Char01"
   },
   "6100106": {
-    "Content": "尝试摘取湖中的水仙花。",
+    "ContentFR": "Tenter de cueillir les narcisses du lac",
     "DialogueId": 6100106,
     "GUID": "0F455EA4",
     "IsKeyOption": true,
-    "RougeTalkActorType": 2,
-    "SpeakNpcId": 910004
+    "RougeTalkActorType": 2
   },
   "6100201": {
-    "Content": "不远处，孤独的老人在小山般的武器堆旁不断挥舞着铁锤。\n铁锤敲击一次，万物沉寂。\n铁锤敲击两次，火光迸发。\n你走近，老人却没有抬头。",
+    "ContentFR": "Au loin, un vieillard solitaire martèle son marteau au pied d’une montagne d’armes abandonnées.\nUn coup — et tout devient silence.\nDeux coups — et jaillissent les étincelles.\nTu t’approches, mais l’homme ne lève pas les yeux.",
     "DialogueId": 6100201,
     "GUID": "0F456E3A",
     "NextDialogue": 6100202,
     "RougeTalkActorType": 3
   },
   "6100202": {
-    "Content": "“又一个送死的。”\n“现在是哪一年？”",
+    "ContentFR": "« Encore une âme en route vers la mort... »\n« Dis-moi, quelle année sommes-nous ? »",
     "DialogueId": 6100202,
     "GUID": "0F456E64",
     "NextOptions": [
@@ -193,29 +191,28 @@
     "SpeakNpcName": "RougeLike_Room302_Char01"
   },
   "6100203": {
-    "Content": "尝试回答。",
+    "ContentFR": "Tenter de répondre",
     "DialogueId": 6100203,
     "GUID": "0F456E8E",
     "NextDialogue": 6100204,
-    "RougeTalkActorType": 2,
-    "SpeakNpcId": 910004
+    "RougeTalkActorType": 2
   },
   "6100204": {
-    "Content": "你张了张嘴，试图吐出一个答案。但是——\n现在是哪年……现在应当是哪一年？\n漫长的黑暗中，你早已丢失了测绘时间的尺规。",
+    "ContentFR": "Tu ouvres la bouche... mais aucun son ne sort. Quelle année ? Quelle époque ?\nDans l’obscurité sans fin, tu as depuis longtemps perdu toute mesure du temps.",
     "DialogueId": 6100204,
     "GUID": "0F456EB8",
     "NextDialogue": 6100206,
     "RougeTalkActorType": 3
   },
   "6100206": {
-    "Content": "他没能等到你的回答。",
+    "ContentFR": "Ton silence lui tient lieu de réponse.",
     "DialogueId": 6100206,
     "GUID": "0F456F0C",
     "NextDialogue": 6100207,
     "RougeTalkActorType": 3
   },
   "6100207": {
-    "Content": "“看来你也一样。”他叹了口气。\n“我不知道在这儿困了多久，早就什么也记不得，什么也抓不到了——除了脸上的皱纹和这把铁锤。”",
+    "ContentFR": "Le vieillard soupire.\n« Je vois... tu n’es pas {性别:différent|différente}. Moi non plus je ne sais plus depuis combien de temps je suis prisonnier. Tout s’est effacé... il ne me reste que ces rides et ce marteau. »",
     "DialogueId": 6100207,
     "GUID": "0F456F36",
     "NextDialogue": 6100208,
@@ -224,7 +221,7 @@
     "SpeakNpcName": "RougeLike_Room302_Char01"
   },
   "6100208": {
-    "Content": "“趁着火还没灭……说吧，你想要些什么。”",
+    "ContentFR": "« Tant que le feu brûle encore... dis-moi, que veux-tu ? »",
     "DialogueId": 6100208,
     "GUID": "0F456F60",
     "NextOptions": [
@@ -236,37 +233,35 @@
     "SpeakNpcName": "RougeLike_Room302_Char01"
   },
   "6100209": {
-    "Content": "想要从武器堆中挑选一件。",
+    "ContentFR": "Choisir une arme dans le tas",
     "DialogueId": 6100209,
     "GUID": "0F456F8A",
     "IsKeyOption": true,
-    "RougeTalkActorType": 2,
-    "SpeakNpcId": 910004
+    "RougeTalkActorType": 2
   },
   "6100210": {
-    "Content": "想要请他打造一件武器。",
+    "ContentFR": "Demander de forger une arme",
     "DialogueId": 6100210,
     "GUID": "0F456FB4",
     "IsKeyOption": true,
-    "RougeTalkActorType": 2,
-    "SpeakNpcId": 910004
+    "RougeTalkActorType": 2
   },
   "6100301": {
-    "Content": "歌声在寂寥的篝火畔响起。\n一个女人缓步走来。她步履如羽毛般轻，声音却如啼鸟般悠扬——",
+    "ContentFR": "Auprès du feu solitaire s’élève une chanson.\nUne femme s’avance, ses pas aussi légers qu’une plume, sa voix claire comme le chant d’un oiseau nocturne.",
     "DialogueId": 6100301,
     "GUID": "0F457EA2",
     "NextDialogue": 6100302,
     "RougeTalkActorType": 3
   },
   "6100302": {
-    "Content": "沉沉的睡意涌了上来。\n你眼前的黑暗如纸一般被揉皱，浸湿在水里。\n……",
+    "ContentFR": "Un lourd sommeil t’envahit.\nL’obscurité se froisse comme du papier et se dissout dans l’eau...",
     "DialogueId": 6100302,
     "GUID": "0F457ECC",
     "NextDialogue": 6100303,
     "RougeTalkActorType": 3
   },
   "6100303": {
-    "Content": "你徜徉在午后的林泉。\n流水在绒毯般的草地间作响，阳光从繁茂的叶片挤出缝来，束束倾洒。\n安静啜饮晨露的雪白鼯鼠，海蓝山猫和浅黄野兔，并不会因脚步声惊惧……",
+    "ContentFR": "Te voici errant dans une forêt baignée de lumière.\nLes ruisseaux bruissent sur l’herbe soyeuse, les rayons du soleil percent le feuillage en cascades dorées.\nDes écureuils blancs boivent la rosée du matin, lynx azur et lièvres fauves s’affairent sans crainte à tes côtés.",
     "DialogueId": 6100303,
     "GUID": "0F457EF6",
     "NextOptions": [
@@ -276,46 +271,44 @@
     "RougeTalkActorType": 3
   },
   "6100304": {
-    "Content": "接取一滴露水。",
+    "ContentFR": "Recueillir une goutte de rosée",
     "DialogueId": 6100304,
     "GUID": "0F457F20",
     "IsKeyOption": true,
     "NextDialogue": 6100305,
-    "RougeTalkActorType": 2,
-    "SpeakNpcId": 910004
+    "RougeTalkActorType": 2
   },
   "6100305": {
-    "Content": "你坐在黄昏的小酒馆。\n吟游诗人拉起风琴，归航的水手打起拍子合唱。\n和着咸涩的晚风与香甜的麦芽酒，你走到热闹的人群中央，跳起一支欢欣的舞……",
+    "ContentFR": "Te voilà dans une taverne au crépuscule. \nUn barde tire sur son orgue, les marins de retour frappent dans leurs mains et entonnent un chœur. \nPorté par le vent salé et la bière ambrée, tu te mêles à la foule et danses avec allégresse.",
     "DialogueId": 6100305,
     "GUID": "0F457F4A",
     "NextDialogue": 6100308,
     "RougeTalkActorType": 3
   },
   "6100306": {
-    "Content": "拥抱一束阳光。",
+    "ContentFR": "Étreindre un rayon de soleil",
     "DialogueId": 6100306,
     "GUID": "0F457F74",
     "IsKeyOption": true,
     "NextDialogue": 6100307,
-    "RougeTalkActorType": 2,
-    "SpeakNpcId": 910004
+    "RougeTalkActorType": 2
   },
   "6100307": {
-    "Content": "你匍匐在圣堂的玻璃窗下。\n巨大绘像上的白衣女神慈悲地俯瞰着你，高大、寂静而悲伤。\n满月的神明自斑斓的彩色马赛克走下，她亲吻你的额头，冰凉的珠冠落在你的脸颊……",
+    "ContentFR": "Tu t’agenouilles sous les vitraux d’une grande nef. \nLa déesse en blanc t’observe du haut de son portrait, imposante, silencieuse, empreinte de tristesse. \nElle descend des mosaïques multicolores, t’embrasse le front, et sa couronne glacée effleure ta joue...",
     "DialogueId": 6100307,
     "GUID": "0F457F9E",
     "NextDialogue": 6100308,
     "RougeTalkActorType": 3
   },
   "6100308": {
-    "Content": "咚！\n有人弹了一下你的额头，疼痛让你骤然惊醒。",
+    "ContentFR": "PLOC !\nUn doigt claque sur ton front. La douleur te réveille brusquement.",
     "DialogueId": 6100308,
     "GUID": "0F457FC8",
     "NextDialogue": 6100309,
     "RougeTalkActorType": 3
   },
   "6100309": {
-    "Content": "“我可是艾利西安最优秀的织梦师！我辛辛苦苦地编织着美梦，你却躺在那里睡大觉，甚至一个铜币都没给过我！”",
+    "ContentFR": "Je suis la meilleure Tisseuse de Rêves d’Élysium ! Je me tue à tisser des songes parfaits, et toi, tu dors là sans même me donner une pièce ! »",
     "DialogueId": 6100309,
     "GUID": "0F457FF2",
     "NextDialogue": 6100310,
@@ -324,7 +317,7 @@
     "SpeakNpcName": "RougeLike_Room303_Char01"
   },
   "6100310": {
-    "Content": "“给我起来！不许睡了！”\n她气急败坏，又在你的脑门弹了一记。",
+    "ContentFR": "« Debout ! Plus un instant de sommeil ! »\nFurieuse, elle te frappe à nouveau du bout des doigts.",
     "DialogueId": 6100310,
     "GUID": "0F45801C",
     "RougeTalkActorType": 1,
@@ -332,14 +325,14 @@
     "SpeakNpcName": "RougeLike_Room303_Char01"
   },
   "6100401": {
-    "Content": "一位老者走到篝火旁。你留意到，他手中提着一盏灯。",
+    "ContentFR": "Un vieil homme s’avance vers le feu de camp. Tu remarques qu’il tient une lanterne à la main.",
     "DialogueId": 6100401,
     "GUID": "0F458F0A",
     "NextDialogue": 6100402,
     "RougeTalkActorType": 3
   },
   "6100402": {
-    "Content": "“让我看看……哦！原来您也有一盏灯！”\n“不过，所有灯终究会熄灭的。您知道，若是在深渊中没有灯火照耀，就会永远迷失在黑暗里。”",
+    "ContentFR": "« Voyons voir... Oh ! Vous avez, vous aussi, une lanterne ! »\n« Mais sachez-le : toute flamme finit par s’éteindre. Et dans l’Abysse, sans lumière pour guider vos pas, vous serez à jamais perdu dans les ténèbres. »",
     "DialogueId": 6100402,
     "GUID": "0F458F34",
     "NextDialogue": 6100403,
@@ -348,7 +341,7 @@
     "SpeakNpcName": "RougeLike_Room304_Char01"
   },
   "6100403": {
-    "Content": "“再买一盏灯以备不时之需吧。小小的光芒，也许能在后续的旅途中救下您的性命。”",
+    "ContentFR": "« Achetez donc une lanterne de rechange. Même une lueur infime pourrait bien vous sauver la vie dans les épreuves à venir. »",
     "DialogueId": 6100403,
     "GUID": "0F458F5E",
     "NextOptions": [
@@ -361,16 +354,15 @@
     "SpeakNpcName": "RougeLike_Room304_Char01"
   },
   "6100404": {
-    "Content": "买下提灯。",
+    "ContentFR": "Acheter la lanterne",
     "DialogueId": 6100404,
     "GUID": "0F458F88",
     "IsKeyOption": true,
     "NextDialogue": 6100405,
-    "RougeTalkActorType": 2,
-    "SpeakNpcId": 910004
+    "RougeTalkActorType": 2
   },
   "6100405": {
-    "Content": "“哦……您真是一位慷慨的旅者！愿群星之神的祝福与您同在。”\n他眉开眼笑，脸上的每一道沟壑都展开着。",
+    "ContentFR": "« Ah... quelle générosité, {性别:voyageur|voyageuse} ! Que le Dieu des Étoiles vous bénisse. »\nSon visage se fend d’un large sourire, chaque ride s’illuminant de joie. »",
     "DialogueId": 6100405,
     "GUID": "0F458FB2",
     "RougeTalkActorType": 1,
@@ -378,16 +370,15 @@
     "SpeakNpcName": "RougeLike_Room304_Char01"
   },
   "6100406": {
-    "Content": "询问是否有其他有用的物件。",
+    "ContentFR": "Demander s’il possède d’autres objets utiles",
     "DialogueId": 6100406,
     "GUID": "0F458FDC",
     "IsKeyOption": true,
     "NextDialogue": 6100407,
-    "RougeTalkActorType": 2,
-    "SpeakNpcId": 910004
+    "RougeTalkActorType": 2
   },
   "6100407": {
-    "Content": "“哦……您真是一位慷慨的{性别:先生|女士}！愿群星之神的祝福与您同在。”\n他眉开眼笑，脸上的每一道沟壑都展开着。",
+    "ContentFR": "« Ah... quelle générosité, {性别:voyageur|voyageuse} ! Que le Dieu des Étoiles vous bénisse. »\nSon visage se fend d’un large sourire, chaque ride s’illuminant de joie. »",
     "DialogueId": 6100407,
     "GUID": "0F459006",
     "RougeTalkActorType": 1,
@@ -395,16 +386,15 @@
     "SpeakNpcName": "RougeLike_Room304_Char01"
   },
   "6100408": {
-    "Content": "谢绝交易。",
+    "ContentFR": "Refuser l’offre",
     "DialogueId": 6100408,
     "GUID": "0F459030",
     "IsKeyOption": true,
     "NextDialogue": 6100409,
-    "RougeTalkActorType": 2,
-    "SpeakNpcId": 910004
+    "RougeTalkActorType": 2
   },
   "6100409": {
-    "Content": "“哦……天呐，愿繁荣之神赐福于您，这样您就不会如此穷困潦倒，竟为这一点点小钱，连身家性命都不顾了。”\n他满腹牢骚地离开了。",
+    "ContentFR": "Oh... que le Dieu de l’Abondance vous prenne en pitié, afin que vous ne restiez pas dans une telle misère, risquer votre vie pour si peu de pièces ! »\nGrommelant, il s’éloigne.",
     "DialogueId": 6100409,
     "GUID": "0F45905A",
     "RougeTalkActorType": 1,
@@ -412,7 +402,7 @@
     "SpeakNpcName": "RougeLike_Room304_Char01"
   },
   "6100501": {
-    "Content": "“迷途的游子啊，诸神将为你指引方向。”",
+    "ContentFR": "« Âme égarée, les dieux t’ouvriront la voie. »",
     "DialogueId": 6100501,
     "GUID": "0F459F72",
     "NextDialogue": 6100502,
@@ -421,14 +411,14 @@
     "SpeakNpcName": "RougeLike_Room305_Char01"
   },
   "6100502": {
-    "Content": "孩童的合唱在你脑海中蓦然响起，篝火微弱的光亮逐渐溶解在一片更大的光明之中，你感到身体忽然变得轻盈起来。\n你飘浮在空中，被一千道轻柔的风吹拂，洁白的云朵触手可及，神圣的金色高塔自云层的缝隙间向你发出庄严的邀请。",
+    "ContentFR": "Un chœur d’enfants s’élève dans ton esprit. La faible lueur du feu de camp se dissout dans une clarté immense. Ton corps s’allège, porté par mille souffles invisibles.\nTu flottes dans les airs, caressé par des nuages d’un blanc immaculé. Des tours dorées percent la voûte céleste, solennelles, t’appelant au loin.",
     "DialogueId": 6100502,
     "GUID": "0F459F9C",
     "NextDialogue": 6100503,
     "RougeTalkActorType": 3
   },
   "6100503": {
-    "Content": "“来吧，接受诸神的恩典，升入云彩之上的天空。尘世已不足留恋，无上的幸福等待着你。”",
+    "ContentFR": "« Viens... Reçois la grâce des dieux, élève-toi au-dessus des nuages. Le monde des mortels ne vaut plus tes regrets. Une félicité suprême t’attend. »",
     "DialogueId": 6100503,
     "GUID": "0F459FC6",
     "NextOptions": [
@@ -441,67 +431,64 @@
     "SpeakNpcName": "RougeLike_Room305_Char01"
   },
   "6100504": {
-    "Content": "留在地上。",
+    "ContentFR": "Rester sur la terre ferme",
     "DialogueId": 6100504,
     "GUID": "0F459FF0",
     "IsKeyOption": true,
     "NextDialogue": 6100505,
-    "RougeTalkActorType": 2,
-    "SpeakNpcId": 910004
+    "RougeTalkActorType": 2
   },
   "6100505": {
-    "Content": "你知道，从天而降的幸福背后必然标着相应的价码。\n比起空幻无依的天堂之路，你更愿意相信自己留下的每一个脚步。",
+    "ContentFR": "Tu sais que chaque grâce céleste a son prix. Plutôt que les promesses illusoires du paradis, tu fais confiance à chacun de tes pas.",
     "DialogueId": 6100505,
     "GUID": "0F45A01A",
     "RougeTalkActorType": 3
   },
   "6100506": {
-    "Content": "接受恩典。",
+    "ContentFR": "Accepter la bénédiction",
     "DialogueId": 6100506,
     "GUID": "0F45A044",
     "IsKeyOption": true,
     "NextDialogue": 6100507,
-    "RougeTalkActorType": 2,
-    "SpeakNpcId": 910004
+    "RougeTalkActorType": 2
   },
   "6100507": {
-    "Content": "云朵将你拥入怀抱，温柔一如母亲的爱抚。\n金色的大门缓缓敞开，你似乎窥见神明的掠影从门后一闪而过。云朵散去，你回到了地面上。",
+    "ContentFR": "Les nuages t’enlacent avec la douceur d’une mère. Les portes d’or s’entrouvrent, et tu crois apercevoir l’ombre des dieux. Puis tout s’efface, et tu retombes sur la terre ferme.",
     "DialogueId": 6100507,
     "GUID": "0F45A06E",
     "NextDialogue": 6100510,
     "RougeTalkActorType": 3
   },
   "6100508": {
-    "Content": "尝试抓住一片云彩。",
+    "ContentFR": "Tenter d’attraper un nuage",
     "DialogueId": 6100508,
     "GUID": "0F45A098",
     "IsKeyOption": true,
     "NextDialogue": 6100509,
-    "RougeTalkActorType": 2,
-    "SpeakNpcId": 910004
+    "RougeTalkActorType": 2
   },
   "6100509": {
-    "Content": "你向着天空用力伸手，那看似柔软的云朵却如火焰一般灼伤了你的手指。\n光明消失了，耳边传来呼啸的风声，你意识到自己正在下坠。",
+    "ContentFR": "Tu tends la main vers le ciel, mais cette douceur cotonneuse te brûle les doigts comme une flamme. La lumière disparaît. Le vent hurle à tes oreilles tandis que tu chutes.",
     "DialogueId": 6100509,
     "GUID": "0F45A0C2",
     "NextDialogue": 6100510,
     "RougeTalkActorType": 3
   },
   "6100510": {
-    "Content": "是啊，你忘记了——深渊之中并不存在天空。",
+    "ContentFR": "Rappelle-toi : dans l’Abysse, aucun ciel ne répond.",
     "DialogueId": 6100510,
     "GUID": "0F45A0EC",
     "RougeTalkActorType": 3
   },
   "6100601": {
-    "Content": "一个瘦小的身影走来。\n她走近了，那是一个个头不高的女孩儿。",
+    "ContentFR": "Une silhouette frêle s’approche.\nC’est une fillette de petite taille, tremblante, la robe dégoulinante d’eau.",
     "DialogueId": 6100601,
     "GUID": "0F45AFDA",
     "NextDialogue": 6100602,
     "RougeTalkActorType": 3
   },
   "6100602": {
-    "Content": "“请问……我可以……在这里……烤一下火吗？”\n她瑟缩着。你看到水珠从她的裙摆滴滴滚落——她的连衣裙湿透了。",
+    "ContentFR": "« S’il vous plaît... je peux... me réchauffer ici, près de votre feu ? »\nElle se recroqueville. Tu vois des gouttes d’eau perler de l’ourlet de sa robe, sa robe est trempée.",
     "DialogueId": 6100602,
     "GUID": "0F45B004",
     "NextDialogue": 6100603,
@@ -510,7 +497,7 @@
     "SpeakNpcName": "RougeLike_Room306_Char01"
   },
   "6100603": {
-    "Content": "“我和妈妈走散了……好冷……请让我烤一会儿火吧！一会儿……就好……”",
+    "ContentFR": "« J’ai perdu ma maman... Il fait si froid... Laissez-moi me réchauffer un peu ! Juste un instant... »",
     "DialogueId": 6100603,
     "GUID": "0F45B02E",
     "NextOptions": [
@@ -522,16 +509,15 @@
     "SpeakNpcName": "RougeLike_Room306_Char01"
   },
   "6100604": {
-    "Content": "“我同意。”",
+    "ContentFR": "Accepter",
     "DialogueId": 6100604,
     "GUID": "0F45B058",
     "IsKeyOption": true,
     "NextDialogue": 6100605,
-    "RougeTalkActorType": 2,
-    "SpeakNpcId": 910004
+    "RougeTalkActorType": 2
   },
   "6100605": {
-    "Content": "“谢谢您。”\n她颤抖着，从齿隙中挤出谢意。",
+    "ContentFR": "« M-Merci... »\nSa voix tremble, ses dents claquent sous l’effet du froid.",
     "DialogueId": 6100605,
     "GUID": "0F45B082",
     "NextDialogue": 6100606,
@@ -540,7 +526,7 @@
     "SpeakNpcName": "RougeLike_Room306_Char01"
   },
   "6100606": {
-    "Content": "“为什么会在这里？”",
+    "ContentFR": "Demander pourquoi elle est ici",
     "DialogueId": 6100606,
     "GUID": "0F45B0AC",
     "NextDialogue": 6100607,
@@ -548,7 +534,7 @@
     "SpeakNpcId": 910004
   },
   "6100607": {
-    "Content": "“为……为什么……啊……我……我想起来了……”\n“爸爸……妈妈……是……海伯利亚人……我们……逃了出来……想到……艾利西安去……”\n“在海上……船……掉进……黑色的漩涡……”",
+    "ContentFR": "« P-Pourquoi... Ah... je me souviens... »\n« Papa... Maman... étaient de l’Empire Hyperboréen... Nous nous sommes enfuis... voulions atteindre Élysium... »\n« Sur la mer... notre navire... englouti par un tourbillon noir... »",
     "DialogueId": 6100607,
     "GUID": "0F45B0D6",
     "NextDialogue": 6100608,
@@ -557,14 +543,14 @@
     "SpeakNpcName": "RougeLike_Room306_Char01"
   },
   "6100608": {
-    "Content": "黑色的漩涡——你知道，那是黑潮，是饥肠辘辘的深渊将一切有形之物吞入腹中。",
+    "ContentFR": "Tu comprends aussitôt : ce tourbillon n’était autre que la marée noire, l’Abysse affamé qui dévore toute matière.",
     "DialogueId": 6100608,
     "GUID": "0F45B100",
     "NextDialogue": 6100609,
     "RougeTalkActorType": 3
   },
   "6100609": {
-    "Content": "“为什么要冒险去艾利西安？”",
+    "ContentFR": "Demander pourquoi ils ont tentés d’atteindre Élysium",
     "DialogueId": 6100609,
     "GUID": "0F45B12A",
     "NextDialogue": 6100610,
@@ -572,7 +558,7 @@
     "SpeakNpcId": 910004
   },
   "6100610": {
-    "Content": "“妈妈说……我们是‘恶魔的孩子’……”\n“哪怕是掉进深渊这样最坏最坏的事……也好过……留在海伯利亚……”",
+    "ContentFR": "« Maman disait... que nous étions des \"Enfants du Démon\"... »\n« Même tomber dans l’Abysse... valait mieux... que rester en Hyperborea... »",
     "DialogueId": 6100610,
     "GUID": "0F45B154",
     "NextDialogue": 6100611,
@@ -581,7 +567,7 @@
     "SpeakNpcName": "RougeLike_Room306_Char01"
   },
   "6100611": {
-    "Content": "“谢谢您的篝火……也谢谢您告诉我……我已经不在人世了。”",
+    "ContentFR": "« Merci pour votre feu... et merci de m’avoir révélé... que je n’étais déjà plus de ce monde. »",
     "DialogueId": 6100611,
     "GUID": "0F45B17E",
     "NextDialogue": 6100612,
@@ -590,22 +576,21 @@
     "SpeakNpcName": "RougeLike_Room306_Char01"
   },
   "6100612": {
-    "Content": "她消失了。你身边只剩下毕毕剥剥的篝火，就像从未有人来过。",
+    "ContentFR": "Elle disparaît. Il ne reste que le crépitement du feu, comme si elle n’avait jamais existé.",
     "DialogueId": 6100612,
     "GUID": "0F45B1A8",
     "RougeTalkActorType": 3
   },
   "6100613": {
-    "Content": "“我拒绝。”",
+    "ContentFR": "Refuser",
     "DialogueId": 6100613,
     "GUID": "0F45B1D2",
     "IsKeyOption": true,
     "NextDialogue": 6100614,
-    "RougeTalkActorType": 2,
-    "SpeakNpcId": 910004
+    "RougeTalkActorType": 2
   },
   "6100614": {
-    "Content": "“对……对不起……我不该打扰您的。”",
+    "ContentFR": "« P-Pardon... je n’aurais pas dû vous déranger. »",
     "DialogueId": 6100614,
     "GUID": "0F45B1FC",
     "NextDialogue": 6100615,
@@ -614,13 +599,13 @@
     "SpeakNpcName": "RougeLike_Room306_Char01"
   },
   "6100615": {
-    "Content": "女孩颤抖着走开。你身边只剩下毕毕剥剥的篝火，就像从未有人来过。",
+    "ContentFR": "Elle s’éloigne en tremblant.\nSeul demeure le crépitement du feu, comme si personne n’était venue.",
     "DialogueId": 6100615,
     "GUID": "0F45B226",
     "RougeTalkActorType": 3
   },
   "6100701": {
-    "Content": "“你好！”",
+    "ContentFR": "« Salut ! »",
     "DialogueId": 6100701,
     "GUID": "0F45C042",
     "NextDialogue": 6100702,
@@ -629,14 +614,14 @@
     "SpeakNpcName": "RougeLike_Room307_Char01"
   },
   "6100702": {
-    "Content": "背着行囊的爽朗青年走到篝火旁，大声打了个招呼。",
+    "ContentFR": "Un jeune homme jovial, un sac au dos, s’avance jusqu’au feu de camp et te salue d’une voix éclatante.",
     "DialogueId": 6100702,
     "GUID": "0F45C06C",
     "NextDialogue": 6100703,
     "RougeTalkActorType": 3
   },
   "6100703": {
-    "Content": "“可能有些失礼——但是，你还活着！对吧？”",
+    "ContentFR": "« Excuse mon franc-parler, mais... tu es bien {性别:vivant|vivante}, pas vrai ? »",
     "DialogueId": 6100703,
     "GUID": "0F45C096",
     "NextOptions": [
@@ -648,16 +633,15 @@
     "SpeakNpcName": "RougeLike_Room307_Char01"
   },
   "6100704": {
-    "Content": "向他点头致意。",
+    "ContentFR": "Rendre son salut d’un signe de tête",
     "DialogueId": 6100704,
     "GUID": "0F45C0C0",
     "IsKeyOption": true,
     "NextDialogue": 6100705,
-    "RougeTalkActorType": 2,
-    "SpeakNpcId": 910004
+    "RougeTalkActorType": 2
   },
   "6100705": {
-    "Content": "“真没想到还能在这儿碰见活人。看来你和我一样，也是百里挑一的幸运儿！”",
+    "ContentFR": "« Jamais je n’aurais cru croiser une âme vivante ici. On dirait bien que toi et moi sommes des élus de la chance ! »",
     "DialogueId": 6100705,
     "GUID": "0F45C0EA",
     "NextDialogue": 6100706,
@@ -666,7 +650,7 @@
     "SpeakNpcName": "RougeLike_Room307_Char01"
   },
   "6100706": {
-    "Content": "“我十六岁那年和老爹合写了一首歌谣，被圣裁所判决渎神。”\n“我本应像倒霉老爹一样被处死，却因为刽子手在处刑日被雷劈中得到赦免。”",
+    "ContentFR": "« À seize ans, j’ai écrit une ballade avec mon père. Le Tribunal Sacré y a vu un blasphème. »\n« Comme lui, j’aurais dû finir exécuté... Mais le jour de la sentence, la foudre a frappé le bourreau. Et je fus gracié. »",
     "DialogueId": 6100706,
     "GUID": "0F45C114",
     "NextDialogue": 6100707,
@@ -675,7 +659,7 @@
     "SpeakNpcName": "RougeLike_Room307_Char01"
   },
   "6100707": {
-    "Content": "“二十岁那年我加入了一群游商，在北方森林遭遇洗劫。我们被绑起来，丢在山洞里。”\n“我以为自己会和同伴一样饿死。但第七天的清晨，一头猪把我拱醒，一个女孩给了我食物。我想我见到了天使。”",
+    "ContentFR": "« À vingt ans, j’ai rejoint une caravane de marchands. Nous avons été attaqués dans une forêt du nord. »\n« Ligotés et abandonnés dans une grotte, j’ai regardé mes compagnons mourir de faim... Jusqu’à ce qu’au matin du septième jour, un sanglier me tire de ma torpeur, et qu’une jeune fille me tende de la nourriture. Ce jour-là, j’ai cru voir un ange. »",
     "DialogueId": 6100707,
     "GUID": "0F45C13E",
     "NextDialogue": 6100708,
@@ -684,7 +668,7 @@
     "SpeakNpcName": "RougeLike_Room307_Char01"
   },
   "6100708": {
-    "Content": "“再后来我作为商人跟随骑士团来了深渊。他们手里的灯光一盏盏熄灭，一位骑士老爷摔倒的时候被自己的剑刺穿了喉咙。而我成为了唯一的生还者。”\n“于是我开始相信，我被命运女神所眷顾。她将赐予我无上的幸运与幸福。”",
+    "ContentFR": "« Plus tard, je suis descendu dans l’Abysse aux côtés d’un ordre de chevaliers, simple marchand à leur suite. Leurs lanternes se sont éteintes une à une. L’un d’eux est tombé, et sa propre lame lui a transpercé la gorge. Moi seul en suis sorti vivant. »\n« Alors j’ai compris : la Déesse du Destin veille sur moi. Elle m’accordera bonheur et fortune sans limites. »",
     "DialogueId": 6100708,
     "GUID": "0F45C168",
     "NextDialogue": 6100709,
@@ -693,7 +677,7 @@
     "SpeakNpcName": "RougeLike_Room307_Char01"
   },
   "6100709": {
-    "Content": "“她指引我来此便意味着，这深处一定有独一无二的至宝等待着我。现在，我该动身去寻找它了。”\n他背起沉重的行囊。",
+    "ContentFR": "« Et si elle m’a guidé jusqu’ici, c’est qu’un trésor unique repose en ces profondeurs. Il est temps pour moi de le trouver. »\nIl charge son lourd sac sur ses épaules.",
     "DialogueId": 6100709,
     "GUID": "0F45C192",
     "NextDialogue": 6100710,
@@ -702,7 +686,7 @@
     "SpeakNpcName": "RougeLike_Room307_Char01"
   },
   "6100710": {
-    "Content": "“对了，朋友！既然她也让你活了下来，那么你一定会遇到属于你的，独一无二的好事！”\n他握紧双拳，大笑了起来。\n“为了我们的幸运！”",
+    "ContentFR": "« Toi aussi, mon {性别:ami|amie} ! Puisqu’elle t’a laissé en vie, c’est qu’une bénédiction t’attend, aussi unique que la mienne ! »\nIl rit aux éclats, serrant les poings.\n« À notre chance ! »",
     "DialogueId": 6100710,
     "GUID": "0F45C1BC",
     "RougeTalkActorType": 1,
@@ -710,16 +694,15 @@
     "SpeakNpcName": "RougeLike_Room307_Char01"
   },
   "6100711": {
-    "Content": "躺下装死。",
+    "ContentFR": "Se coucher et feindre la mort",
     "DialogueId": 6100711,
     "GUID": "0F45C1E6",
     "IsKeyOption": true,
     "NextDialogue": 6100712,
-    "RougeTalkActorType": 2,
-    "SpeakNpcId": 910004
+    "RougeTalkActorType": 2
   },
   "6100712": {
-    "Content": "“昏倒了？”\n他蹲了下来，试探了一下你的鼻息。\n“该不会，你也和它们一样——是亡灵？”",
+    "ContentFR": "« {性别:Évanoui|Évanouie} ? »\nIl s’accroupit et vérifie ton souffle.\n« À moins que... tu ne sois déjà un spectre, comme les autres ? »",
     "DialogueId": 6100712,
     "GUID": "0F45C210",
     "NextDialogue": 6100713,
@@ -728,14 +711,14 @@
     "SpeakNpcName": "RougeLike_Room307_Char01"
   },
   "6100713": {
-    "Content": "你沉默无言。\n他放下行囊，掏出水和食物。",
+    "ContentFR": "Tu restes {性别:muet|muette}.\nIl dépose son sac, en sort de l’eau et de la nourriture.",
     "DialogueId": 6100713,
     "GUID": "0F45C23A",
     "NextDialogue": 6100714,
     "RougeTalkActorType": 3
   },
   "6100714": {
-    "Content": "“这些留给你吧，可怜的朋友！愿第一缕日光照射圣塔的时候，你就会醒来，健康如初。”",
+    "ContentFR": "« Tiens, pauvre {性别:ami|amie} ! Puisse la première lueur du soleil, en effleurant la Tour Sacrée, te trouver debout et {性别:sain|saine}. »",
     "DialogueId": 6100714,
     "GUID": "0F45C264",
     "RougeTalkActorType": 1,
@@ -743,21 +726,21 @@
     "SpeakNpcName": "RougeLike_Room307_Char01"
   },
   "6100801": {
-    "Content": "一对并蒂而生的殷红花朵在黑暗中散发着幽幽光芒。\n你举起手中的提灯，灯光映出几缕泛白的金发、几节苍白的脊骨——这是一只人形的秽兽，还是一个即将化为秽兽的人？\n你警惕地握紧了武器，然而它却并没有向你发起攻击，只是用那双嵌在漆黑底色里的殷红眼瞳无声地注视着你。",
+    "ContentFR": "Deux fleurs jumelles, d’un rouge sang, répandent leur lueur spectrale dans l’ombre.\nTu lèves ta lanterne : la lumière dévoile quelques mèches blondes, des vertèbres blêmes... Est-ce un Souillé à l’apparence humaine, ou bien un humain au seuil de sa Dégradation ?\nTu serres ton arme avec méfiance... Mais la créature n’attaque pas. Elle se contente de te fixer de ses yeux écarlates, brillants dans la nuit.",
     "DialogueId": 6100801,
     "GUID": "0F45D0AA",
     "NextDialogue": 6100802,
     "RougeTalkActorType": 3
   },
   "6100802": {
-    "Content": "忽然，它的喉咙中发出了支离破碎的声响，如同尖锐的石块互相摩擦产生的噪音，又似乎遵循着某种节奏。不知为何，你能够理解其中的含义——",
+    "ContentFR": "Soudain, un râle grince dans sa gorge, bruit de pierres qui s’entrechoquent, mais rythmé comme une parole. Contre toute raison, tu comprends son sens.",
     "DialogueId": 6100802,
     "GUID": "0F45D0D4",
     "NextDialogue": 6100803,
     "RougeTalkActorType": 3
   },
   "6100803": {
-    "Content": "“请留步，手执提灯的旅人。恳求您告诉我，我在您灯下所映出的容颜，是否依旧美丽？”",
+    "ContentFR": "« {性别:Voyageur|Voyageuse} à la lanterne... dis-moi : mon reflet dans ta lumière est-il toujours beau ? »",
     "DialogueId": 6100803,
     "GUID": "0F45D0FE",
     "NextDialogue": 6100804,
@@ -766,7 +749,7 @@
     "SpeakNpcName": "RougeLike_Room308_Char01"
   },
   "6100804": {
-    "Content": "“我将发辫梳得柔软光亮，编成秀丽的发辫。”\n它抚摸着脑后绽开的皮肤。\n“我将裙褶熨烫整齐，装点上华贵闪耀的宝石。”\n它抚摸着深嵌体表的结晶。\n“我戴上爱人赠予的项链，怀想他殷切的心意。”\n它抚摸着颈间延伸的骨节。",
+    "ContentFR": "« J’ai tressé mes cheveux pour qu’ils brillent et tombent souples. » Ses doigts frôlent la chair fendue derrière sa nuque.\n« J’ai repassé ma robe et l’ai parée de joyaux étincelants. » Ses doigts caressent les cristaux incrustés dans sa peau.\n« Je porte encore le collier de mon bien-aimé, souvenir de son amour ardent. » Ses doigts effleurent les os jaillissant de sa gorge.",
     "DialogueId": 6100804,
     "GUID": "0F45D128",
     "NextOptions": [
@@ -778,23 +761,22 @@
     "SpeakNpcName": "RougeLike_Room308_Char01"
   },
   "6100805": {
-    "Content": "“是的，你很美丽。”",
+    "ContentFR": "« Oui... tu es belle. »",
     "DialogueId": 6100805,
     "GUID": "0F45D152",
     "IsKeyOption": true,
     "NextDialogue": 6100806,
-    "RougeTalkActorType": 2,
-    "SpeakNpcId": 910004
+    "RougeTalkActorType": 2
   },
   "6100806": {
-    "Content": "那双红色的眼瞳微微颤动，如风中摇曳的花瓣。",
+    "ContentFR": "Ses yeux rouges vacillent, tels des pétales battus par le vent.",
     "DialogueId": 6100806,
     "GUID": "0F45D17C",
     "NextDialogue": 6100807,
     "RougeTalkActorType": 3
   },
   "6100807": {
-    "Content": "“谢谢您，善良的旅人。请收下我的谢礼。”\n“若您见到我的爱人，请告诉他，我会永远爱着他。”",
+    "ContentFR": "« Merci, noble {性别:voyageur|voyageuse}. Accepte ce présent. »\n« Et si tu croises mon amour, dis-lui que je l’aimerai à jamais. »",
     "DialogueId": 6100807,
     "GUID": "0F45D1A6",
     "RougeTalkActorType": 1,
@@ -802,23 +784,22 @@
     "SpeakNpcName": "RougeLike_Room308_Char01"
   },
   "6100808": {
-    "Content": "“你是只可怕的怪物。”",
+    "ContentFR": "« Non... tu n’es qu’un monstre hideux. »",
     "DialogueId": 6100808,
     "GUID": "0F45D1D0",
     "IsKeyOption": true,
     "NextDialogue": 6100809,
-    "RougeTalkActorType": 2,
-    "SpeakNpcId": 910004
+    "RougeTalkActorType": 2
   },
   "6100809": {
-    "Content": "那双红色的眼瞳被狰狞的利爪覆盖。",
+    "ContentFR": "Ses yeux écarlates se voilent sous ses griffes.",
     "DialogueId": 6100809,
     "GUID": "0F45D1FA",
     "NextDialogue": 6100810,
     "RougeTalkActorType": 3
   },
   "6100810": {
-    "Content": "“噢——不！我不愿让爱人见到我这般丑陋的模样。”\n“慈悲的旅人，请您给予我终结。”",
+    "ContentFR": "« Non... jamais je ne voudrais que mon aimé me voie ainsi. »\n« {性别:Voyageur compatissant|Voyageuse compatissante}, accorde-moi le repos. »",
     "DialogueId": 6100810,
     "GUID": "0F45D224",
     "RougeTalkActorType": 1,
@@ -826,7 +807,7 @@
     "SpeakNpcName": "RougeLike_Room308_Char01"
   },
   "6100901": {
-    "Content": "“日安，陌生的旅人。”",
+    "ContentFR": "« Bien le bonjour, {性别:voyageur inconnu|voyageuse inconnue}. »",
     "DialogueId": 6100901,
     "GUID": "0F45E112",
     "NextDialogue": 6100902,
@@ -835,14 +816,14 @@
     "SpeakNpcName": "RougeLike_Room309_Char01"
   },
   "6100902": {
-    "Content": "一位衣着华丽的青年于篝火摇曳的光影中停下脚步，优雅地向你行礼。",
+    "ContentFR": "Un jeune homme richement vêtu s’arrête dans la lumière du feu. Il s’incline avec élégance.",
     "DialogueId": 6100902,
     "GUID": "0F45E13C",
     "NextDialogue": 6100903,
     "RougeTalkActorType": 3
   },
   "6100903": {
-    "Content": "“我在寻找一位拥有红色眼瞳的淑女，请问您是否见过她的倩影？”",
+    "ContentFR": "« Je cherche une dame aux yeux écarlates. Auriez-vous aperçu son ombre ? »",
     "DialogueId": 6100903,
     "GUID": "0F45E166",
     "NextDialogue": 6100904,
@@ -851,7 +832,7 @@
     "SpeakNpcName": "RougeLike_Room309_Char01"
   },
   "6100904": {
-    "Content": "“她有一副世上最动听的歌喉，连夜莺都为之黯然失色。”\n“她有一头柔顺的金色秀发，光洁灿烂如同春日盛开的金盏花。”\n“她身着端庄华贵的连衣裙，裙摆上缀满星辰般闪耀的宝石。”\n“她还戴着我赠予她的项链，殷红的水晶神秘幽邃一如她凝视我时的双眸。”",
+    "ContentFR": "« Elle chante d’une voix si pure que le rossignol lui-même se tait. »\n« Ses cheveux d’or ruissellent comme le soleil du printemps. »\n« Sa robe, noble et majestueuse, est incrustée de gemmes scintillantes tels des astres. »\n« Et à son cou repose mon présent : un pendentif rouge, aussi profond et mystérieux que son regard. »",
     "DialogueId": 6100904,
     "GUID": "0F45E190",
     "NextDialogue": 6100905,
@@ -860,7 +841,7 @@
     "SpeakNpcName": "RougeLike_Room309_Char01"
   },
   "6100905": {
-    "Content": "“我没见过这样的女性。”",
+    "ContentFR": "Dire que tu n’as jamais vu une telle femme",
     "DialogueId": 6100905,
     "GUID": "0F45E1BA",
     "NextDialogue": 6100906,
@@ -868,7 +849,7 @@
     "SpeakNpcId": 910004
   },
   "6100906": {
-    "Content": "“是吗……”\n他黯然垂眸，但很快又恢复优雅的神态。\n“无妨，我会继续寻找。”",
+    "ContentFR": "« Vraiment... »\nSes yeux s’abaissent un instant, puis il retrouve sa prestance.\n« Qu’importe. Je poursuivrai ma quête. »",
     "DialogueId": 6100906,
     "GUID": "0F45E1E4",
     "NextDialogue": 6100907,
@@ -877,14 +858,14 @@
     "SpeakNpcName": "RougeLike_Room309_Char01"
   },
   "6100907": {
-    "Content": "青年在篝火旁坐下，明亮的火焰映在他清澈的眼眸中。",
+    "ContentFR": "Le jeune homme s’assoit près du feu. Les flammes se reflètent dans ses yeux clairs.",
     "DialogueId": 6100907,
     "GUID": "0F45E20E",
     "NextDialogue": 6100908,
     "RougeTalkActorType": 3
   },
   "6100908": {
-    "Content": "“我与她早已定下婚约，待她成年之后就将举办婚礼。奈何她承蒙神恩，额前的圣痕日渐显明，于十四岁前夜被使者接走。”\n“她走前留下一封诀别信，让我另寻佳人。可我早就立下誓言，此生只愿与她一同度过。”\n“等我找到她，便要将她带回人世。满月之神教世人歌颂爱情之美，一定愿意成全我们。”",
+    "ContentFR": "« Elle était ma fiancée. Le mariage devait sceller notre union à sa majorité. Mais les dieux ont gravé leur marque sur son front. »\n« La veille de ses quatorze ans, des émissaires l’ont emmenée. Elle m’a laissé une lettre de rupture, m’enjoignant de trouver une autre compagne. Mais j’ai juré : ma vie n’appartient qu’à elle. »\n« Je la ramènerai parmi les vivants. Le Dieu de la Pleine Lune, qui chante l’amour des mortels, bénira notre union. »",
     "DialogueId": 6100908,
     "GUID": "0F45E238",
     "NextOptions": [
@@ -896,16 +877,15 @@
     "SpeakNpcName": "RougeLike_Room309_Char01"
   },
   "6100909": {
-    "Content": "“祝你早日寻到爱人。”",
+    "ContentFR": "Souhaiter qu’il retrouve celle qu’il aime",
     "DialogueId": 6100909,
     "GUID": "0F45E262",
     "IsKeyOption": true,
     "NextDialogue": 6100910,
-    "RougeTalkActorType": 2,
-    "SpeakNpcId": 910004
+    "RougeTalkActorType": 2
   },
   "6100910": {
-    "Content": "“感谢您，善良的旅人。”\n“请收下这份薄礼，愿您也能得到心中所求。”",
+    "ContentFR": "« Merci à vous, noble {性别:voyageur|voyageuse}. »\n« Acceptez ce modeste présent. Puisse votre propre vœu s’accomplir. »",
     "DialogueId": 6100910,
     "GUID": "0F45E28C",
     "RougeTalkActorType": 1,
@@ -913,16 +893,15 @@
     "SpeakNpcName": "RougeLike_Room309_Char01"
   },
   "6100911": {
-    "Content": "“如果神不同意呢？”",
+    "ContentFR": "« Et si les dieux refusaient ? »",
     "DialogueId": 6100911,
     "GUID": "0F45E2B6",
     "IsKeyOption": true,
     "NextDialogue": 6100912,
-    "RougeTalkActorType": 2,
-    "SpeakNpcId": 910004
+    "RougeTalkActorType": 2
   },
   "6100912": {
-    "Content": "他向你淡淡一笑。\n“那我便将此身献给圣湖，使我的灵魂永远与她同在。”",
+    "ContentFR": "Un sourire discret éclaire ses lèvres.\n« Alors je livrerai mon corps au Lac Sacré, et mon âme rejoindra la sienne pour l’éternité. »",
     "DialogueId": 6100912,
     "GUID": "0F45E2E0",
     "RougeTalkActorType": 1,
@@ -930,14 +909,14 @@
     "SpeakNpcName": "RougeLike_Room309_Char01"
   },
   "6101001": {
-    "Content": "篝火旁浮现出一个女人，她将左手伸进熊熊燃烧的篝火蘸取烟灰，于地面上书写着你无法辨认的文字。",
+    "ContentFR": "Une femme surgit près du feu. Elle plonge sa main gauche dans les flammes, en retire de la suie et trace sur le sol des symboles indéchiffrables.",
     "DialogueId": 6101001,
     "GUID": "0F45F17A",
     "NextDialogue": 6101002,
     "RougeTalkActorType": 3
   },
   "6101002": {
-    "Content": "“啊——反抗时间的旅者，你与绝望为伴，死亡如影随形。”\n她低声吟咏。",
+    "ContentFR": "« Ah... {性别:Voyageur|Voyageuse} rebelle au temps. {性别:Compagnon|Compagne} du désespoir, la mort te suit comme ton ombre. »\nSa voix s’élève en murmure.",
     "DialogueId": 6101002,
     "GUID": "0F45F1A4",
     "NextOptions": [
@@ -949,16 +928,15 @@
     "SpeakNpcName": "RougeLike_Room310_Char01"
   },
   "6101003": {
-    "Content": "“你在做什么？”",
+    "ContentFR": "Demander ce qu’elle fait",
     "DialogueId": 6101003,
     "GUID": "0F45F1CE",
     "IsKeyOption": true,
     "NextDialogue": 6101004,
-    "RougeTalkActorType": 2,
-    "SpeakNpcId": 910004
+    "RougeTalkActorType": 2
   },
   "6101004": {
-    "Content": "“噢，亲爱的朋友。如您所见，我是一位诗人。”\n“我正在创作我的第一千零一首作品——没错，一首为您而写的诗！”",
+    "ContentFR": "« Ah... {性别:Cher ami|Chère amie}. Comme tu le vois, je suis poétesse. »\n« Je compose ma mille et unième œuvre, oui, un poème écrit pour toi ! »",
     "DialogueId": 6101004,
     "GUID": "0F45F1F8",
     "NextDialogue": 6101008,
@@ -967,23 +945,22 @@
     "SpeakNpcName": "RougeLike_Room310_Char01"
   },
   "6101005": {
-    "Content": "“火焰不烫吗？”",
+    "ContentFR": "« Le feu ne brûle donc pas ?",
     "DialogueId": 6101005,
     "GUID": "0F45F222",
     "IsKeyOption": true,
     "NextDialogue": 6101006,
-    "RougeTalkActorType": 2,
-    "SpeakNpcId": 910004
+    "RougeTalkActorType": 2
   },
   "6101006": {
-    "Content": "女人咯咯地笑起来。",
+    "ContentFR": "Elle rit doucement.",
     "DialogueId": 6101006,
     "GUID": "0F45F24C",
     "NextDialogue": 6101007,
     "RougeTalkActorType": 3
   },
   "6101007": {
-    "Content": "“亲爱的朋友，请看。”\n她将手掌平摊在你眼前，白皙的皮肤完好无瑕。\n“如您这般智慧的旅者，应当早就知晓这并非真实的火，我也并非真实的人。”",
+    "ContentFR": "« {性别:Cher ami|Chère amie}, regarde. »\nSa main pâle s’ouvre devant toi, intacte.\n« Au fond de toi, tu le savais : ce feu n’est pas réel, et moi non plus. »",
     "DialogueId": 6101007,
     "GUID": "0F45F276",
     "NextDialogue": 6101008,
@@ -992,14 +969,14 @@
     "SpeakNpcName": "RougeLike_Room310_Char01"
   },
   "6101008": {
-    "Content": "诗人再次伸手搅动篝火，纤细的指尖在火焰中穿梭，灵动如同舞者的双足。",
+    "ContentFR": "La poétesse agite de nouveau les flammes. Ses doigts gracieux y dansent comme les pas d’une ballerine.",
     "DialogueId": 6101008,
     "GUID": "0F45F2A0",
     "NextDialogue": 6101009,
     "RougeTalkActorType": 3
   },
   "6101009": {
-    "Content": "“这真是个美妙的地方，不是吗？”\n“我终于摆脱了肉体之苦，再也不会被无聊琐事打搅我的创作。我获得了无上的自由，以及，永恒的时间——！”\n“旅者啊，感谢您在此驻足，为我带来一线灵光。请收下我的诗篇，愿您终能挣脱这无尽轮回，得偿所愿。”",
+    "ContentFR": "« N’est-ce pas un lieu merveilleux ? »\n« Enfin libérée de la prison de la chair, délivrée des fardeaux mesquins... Je suis infinie désormais, maîtresse du temps ! »\n« Merci, {性别:voyageur|voyageuse}, d’avoir croisé ma route. Ton passage m’offre une étincelle d’inspiration. Voici mes vers. Qu’ils te guident hors de ce cycle sans fin, jusqu’à ton désir le plus cher. »",
     "DialogueId": 6101009,
     "GUID": "0F45F2CA",
     "NextDialogue": 6101010,
@@ -1008,13 +985,13 @@
     "SpeakNpcName": "RougeLike_Room310_Char01"
   },
   "6101010": {
-    "Content": "诗人向你伸手，飞扬的烟灰如风暴般瞬间侵占了你全部的视野。\n当烟灰散去，诗人早已不知所踪。",
+    "ContentFR": "Elle tend la main. La suie s’élève en tempête et envahit ton regard.\nQuand la poussière retombe, elle n’est déjà plus là.",
     "DialogueId": 6101010,
     "GUID": "0F45F2F4",
     "RougeTalkActorType": 3
   },
   "6101101": {
-    "Content": "“您好，请允许我借用您的火光。”",
+    "ContentFR": "« Bonjour... permettez-moi de profiter un peu de votre feu. »",
     "DialogueId": 6101101,
     "GUID": "0F4601E2",
     "NextDialogue": 6101102,
@@ -1023,14 +1000,14 @@
     "SpeakNpcName": "RougeLike_Room311_Char01"
   },
   "6101102": {
-    "Content": "少年迈着故作正经的稚嫩步伐，缓缓在篝火边坐下。\n他穿着一身对他而言过于宽大的礼服，衬得他那瘦小的身躯几乎可怜。他就着火光捧起一本薄薄的书，煞有介事地朗读起来。",
+    "ContentFR": "Le garçon s’approche avec une dignité forcée, mais ses pas maladroits trahissent son jeune âge.\nIl s’assoit lentement près du feu, noyé dans un manteau trop grand pour sa frêle silhouette.\nSous la lumière vacillante, il ouvre un mince livret et se met à lire avec un sérieux cérémonial.",
     "DialogueId": 6101102,
     "GUID": "0F46020C",
     "NextDialogue": 6101103,
     "RougeTalkActorType": 3
   },
   "6101103": {
-    "Content": "“火焰之神，赐予我们智慧……流水之神，赐予我们丰饶……”",
+    "ContentFR": "« Dieu des Flammes, accorde-nous ta sagesse... Dieu des Eaux, offre-nous l’abondance... »",
     "DialogueId": 6101103,
     "GUID": "0F460236",
     "NextOptions": [
@@ -1041,15 +1018,14 @@
     "SpeakNpcName": "RougeLike_Room311_Char01"
   },
   "6101104": {
-    "Content": "“你在读什么？”",
+    "ContentFR": "Demander ce qu’il lit",
     "DialogueId": 6101104,
     "GUID": "0F460260",
     "NextDialogue": 6101105,
-    "RougeTalkActorType": 2,
-    "SpeakNpcId": 910004
+    "RougeTalkActorType": 2
   },
   "6101105": {
-    "Content": "“噢，我在读哥哥们送给我的书呢。”他羞赧地摸了摸脑袋，“我必须要在见到神明大人之前变得更加聪明才行。”\n“我从小就是家里最笨的那个孩子，哥哥们都比我优秀得多。但是神明大人却偏偏选中了我，大家都说这不合理。”\n“哥哥们给了我这本圣歌，嘱咐我一定要在觐见九神前好好熟读，不要给家里丢脸。”",
+    "ContentFR": "« Oh... c’est un livre que mes frères m’ont donné. »\nIl se gratte la tête, un sourire gêné aux lèvres.\n« Je dois devenir plus intelligent avant de rencontrer les dieux. »\n« J’ai toujours été le plus stupide de la famille, mes frères étaient meilleurs que moi en tout. Mais pour une raison que personne ne comprend, c’est moi que les dieux ont choisi. »\n« Ils m’ont offert ce recueil d’hymnes, en me disant de l’apprendre par cœur avant de paraître devant les Neuf. Ils m’ont supplié de ne pas faire honte à la famille. »",
     "DialogueId": 6101105,
     "GUID": "0F46028A",
     "NextDialogue": 6101106,
@@ -1058,14 +1034,14 @@
     "SpeakNpcName": "RougeLike_Room311_Char01"
   },
   "6101106": {
-    "Content": "少年挪动身体，让自己坐得离你更近一些，随后捧起手中的书，向你投来邀请的目光。",
+    "ContentFR": "Le garçon se rapproche encore, levant son petit livre vers toi, t’invitant du regard.",
     "DialogueId": 6101106,
     "GUID": "0F4602B4",
     "NextDialogue": 6101107,
     "RougeTalkActorType": 3
   },
   "6101107": {
-    "Content": "“你要和我一起看吗？”",
+    "ContentFR": "« Tu veux lire avec moi ? »",
     "DialogueId": 6101107,
     "GUID": "0F4602DE",
     "NextOptions": [
@@ -1077,23 +1053,22 @@
     "SpeakNpcName": "RougeLike_Room311_Char01"
   },
   "6101108": {
-    "Content": "和他一起看书。",
+    "ContentFR": "Lire avec lui",
     "DialogueId": 6101108,
     "GUID": "0F460308",
     "IsKeyOption": true,
     "NextDialogue": 6101109,
-    "RougeTalkActorType": 2,
-    "SpeakNpcId": 910004
+    "RougeTalkActorType": 2
   },
   "6101109": {
-    "Content": "你接受了邀请，将目光移过去。你惊讶地发现，有什么人用漆黑的笔触在这本书上写满了你从未想象过的恶毒粗鄙之语。\n瞬息之间，文字化作黑色的荆棘穿出纸面疯长，如捕猎中的毒蛇一般紧紧缠绕你的身体。你的视野越来越暗，越来越模糊。\n出于求生本能，你猛地将身体后仰，让视线挣脱纸面",
+    "ContentFR": "Tu acceptes. Mais dès que tes yeux se posent sur les pages, ton sang se glace.\nDes mots immondes, griffonnés d’une encre noire, recouvrent les lignes.\nLes lettres se tordent, se transforment en ronces noires et barbelées qui se projettent hors du papier, serpentant autour de tes membres.\nTon souffle se fait court, l’obscurité grignote ta vision...\nPar instinct, tu bascules en arrière, arrachant ton regard du livre maudit.",
     "DialogueId": 6101109,
     "GUID": "0F460332",
     "NextDialogue": 6101110,
     "RougeTalkActorType": 3
   },
   "6101110": {
-    "Content": "“咦？你怎么了？书上有什么可怕的东西吗？”\n他困惑地看向你，目光如此清澈。",
+    "ContentFR": "« Hein ? Qu’est-ce qu’il y a ? Tu as vu quelque chose d’effrayant ? »\nIl te regarde, les yeux limpides et pleins d’incompréhension.",
     "DialogueId": 6101110,
     "GUID": "0F46035C",
     "NextDialogue": 6101111,
@@ -1102,29 +1077,28 @@
     "SpeakNpcName": "RougeLike_Room311_Char01"
   },
   "6101111": {
-    "Content": "你张开嘴唇，却无法发出声音。\n黑色的荆棘将少年笼罩、吞噬，直至少年、书和荆棘都消失不见。",
+    "ContentFR": "Tu ouvres la bouche, mais aucun son n’en sort.\nLes ronces noires s’élancent soudain, engloutissant le garçon.\nEn un instant, lui, le livre et les épines disparaissent sans laisser de trace.",
     "DialogueId": 6101111,
     "GUID": "0F460386",
     "RougeTalkActorType": 3
   },
   "6101112": {
-    "Content": "拒绝一起看书。",
+    "ContentFR": "Refuser de lire",
     "DialogueId": 6101112,
     "GUID": "0F4603B0",
     "IsKeyOption": true,
     "NextDialogue": 6101113,
-    "RougeTalkActorType": 2,
-    "SpeakNpcId": 910004
+    "RougeTalkActorType": 2
   },
   "6101113": {
-    "Content": "你不是来这里学习的。",
+    "ContentFR": "Tu n’es pas {性别:venu|venue} ici pour lire.",
     "DialogueId": 6101113,
     "GUID": "0F4603DA",
     "NextDialogue": 6101114,
     "RougeTalkActorType": 3
   },
   "6101114": {
-    "Content": "“好吧，那么，我就自己一个人看吧……”\n他将书收回自己的膝上。",
+    "ContentFR": "« D’accord... alors je lirai seul. »\nIl repose le livre sur ses genoux.",
     "DialogueId": 6101114,
     "GUID": "0F460404",
     "NextDialogue": 6101115,
@@ -1133,20 +1107,20 @@
     "SpeakNpcName": "RougeLike_Room311_Char01"
   },
   "6101115": {
-    "Content": "忽然，书页中伸出了无数扭动的黑色荆棘。\n你甚至没有来得及惊讶，黑色的荆棘便将少年笼罩、吞噬，直至少年、书和荆棘都消失不见。",
+    "ContentFR": "Mais soudain, d’innombrables ronces noires jaillissent des pages.\nAvant même que tu aies le temps de réagir, elles s’enroulent autour de lui, l’engloutissent, et disparaissent avec lui et son livre dans le néant.",
     "DialogueId": 6101115,
     "GUID": "0F46042E",
     "RougeTalkActorType": 3
   },
   "6101201": {
-    "Content": "一位中年女人面色凝重地在篝火前坐下，火光并未照亮她阴沉的双眸。",
+    "ContentFR": "Une femme d’âge mûr s’assoit près du feu, le visage marqué par la gravité. La flamme ne parvient pas à éclairer ses yeux sombres.",
     "DialogueId": 6101201,
     "GUID": "0F46124A",
     "NextDialogue": 6101202,
     "RougeTalkActorType": 3
   },
   "6101202": {
-    "Content": "“你好，陌生人。冒昧一问，这是什么地方？”",
+    "ContentFR": "« Bonjour, {性别:étranger|étrangère}. Pardonnez ma question, mais... où sommes-nous ? »",
     "DialogueId": 6101202,
     "GUID": "0F461274",
     "NextDialogue": 6101203,
@@ -1155,14 +1129,14 @@
     "SpeakNpcName": "RougeLike_Room312_Char01"
   },
   "6101203": {
-    "Content": "你回答了她。",
+    "ContentFR": "Répondre",
     "DialogueId": 6101203,
     "GUID": "0F46129E",
     "NextDialogue": 6101204,
     "RougeTalkActorType": 3
   },
   "6101204": {
-    "Content": "“圣湖……？深渊……？”她的语气充满迷茫与困惑，“可我对这些词语毫无印象……”\n她注视着自己布满沟壑的手掌，“我忘记了自己为何而来。”",
+    "ContentFR": "« Le Lac Sacré... ? L’Abysse... ? » Sa voix vacille de confusion. \n« Ces mots... je n’en ai aucun souvenir... »\nElle contemple ses mains ridées, creusées de sillons.\n« J’ai oublié pourquoi je suis venue ici... »",
     "DialogueId": 6101204,
     "GUID": "0F4612C8",
     "NextOptions": [
@@ -1174,16 +1148,15 @@
     "SpeakNpcName": "RougeLike_Room312_Char01"
   },
   "6101205": {
-    "Content": "告知她圣湖的历史。",
+    "ContentFR": "Proposer de lui raconter l’histoire du Lac Sacré",
     "DialogueId": 6101205,
     "GUID": "0F4612F2",
     "IsKeyOption": true,
     "NextDialogue": 6101206,
-    "RougeTalkActorType": 2,
-    "SpeakNpcId": 910004
+    "RougeTalkActorType": 2
   },
   "6101206": {
-    "Content": "“身上出现圣痕的人……会被带来这里……？”\n“啊……我想起来了。我的孩子就在这里。她的眼角出现了圣痕，就像一只将要振翅起飞的蝴蝶。”",
+    "ContentFR": "« Les porteurs du stigmate sacré... sont amenés en ce lieu... ? »\n« Ah... je me souviens. Ma fille... elle est ici. Un stigmate est apparu au coin de son œil, comme les ailes d’un papillon prêt à s’ouvrir. »",
     "DialogueId": 6101206,
     "GUID": "0F46131C",
     "NextDialogue": 6101210,
@@ -1192,16 +1165,15 @@
     "SpeakNpcName": "RougeLike_Room312_Char01"
   },
   "6101207": {
-    "Content": "建议她翻看随身物品。",
+    "ContentFR": "Suggérer qu’elle fouille ses affaires",
     "DialogueId": 6101207,
     "GUID": "0F461346",
     "IsKeyOption": true,
     "NextDialogue": 6101208,
-    "RougeTalkActorType": 2,
-    "SpeakNpcId": 910004
+    "RougeTalkActorType": 2
   },
   "6101208": {
-    "Content": "“你说得对。”\n她将手伸进口袋，摸出了一枚银色的胸针。",
+    "ContentFR": "« Tu as raison. »\nElle plonge la main dans sa poche et en sort une broche d’argent.",
     "DialogueId": 6101208,
     "GUID": "0F461370",
     "NextDialogue": 6101209,
@@ -1210,7 +1182,7 @@
     "SpeakNpcName": "RougeLike_Room312_Char01"
   },
   "6101209": {
-    "Content": "“啊……我想起来了。”她小心翼翼地用袖口将胸针擦拭干净，“这是我要送给那孩子的礼物。”",
+    "ContentFR": "« Ah... je me souviens. » Elle frotte doucement la broche avec sa manche.\n« C’était un cadeau... pour ma fille. »",
     "DialogueId": 6101209,
     "GUID": "0F46139A",
     "NextDialogue": 6101210,
@@ -1219,14 +1191,14 @@
     "SpeakNpcName": "RougeLike_Room312_Char01"
   },
   "6101210": {
-    "Content": "女人抬起了头，此刻，火光清晰地映在她的眼中。",
+    "ContentFR": "Elle relève enfin la tête. Cette fois, la flamme éclaire pleinement son regard.",
     "DialogueId": 6101210,
     "GUID": "0F4613C4",
     "NextDialogue": 6101211,
     "RougeTalkActorType": 3
   },
   "6101211": {
-    "Content": "“我来这里找我的孩子。”\n“他们趁我不在家的时候，把熟睡的她带走了。可那孩子从小就怕生，如果醒来见不到熟悉的面孔，她一定会非常害怕。”\n“我要陪着她……没错，我是来找她的。”",
+    "ContentFR": "« Je suis venue chercher mon enfant. »\n« Ils l’ont prise dans son sommeil, quand je n’étais pas là. Elle a toujours eu peur des inconnus... Si elle s’est réveillée sans voir un visage familier, elle a dû être terrorisée. »\n« Je dois rester auprès d’elle... Oui, c’est pour ça que je suis ici. »",
     "DialogueId": 6101211,
     "GUID": "0F4613EE",
     "NextDialogue": 6101212,
@@ -1235,7 +1207,7 @@
     "SpeakNpcName": "RougeLike_Room312_Char01"
   },
   "6101212": {
-    "Content": "“她离开多久了？”",
+    "ContentFR": "Demander depuis combien de temps sa fille est partie",
     "DialogueId": 6101212,
     "GUID": "0F461418",
     "NextDialogue": 6101213,
@@ -1243,7 +1215,7 @@
     "SpeakNpcId": 910004
   },
   "6101213": {
-    "Content": "“她是十天前……不，十个月……不，十年……啊……我忘记了。”",
+    "ContentFR": "« Cela fait dix jours... non, dix mois... ou dix ans... Ah... je ne m’en souviens plus... »",
     "DialogueId": 6101213,
     "GUID": "0F461442",
     "NextDialogue": 6101214,
@@ -1252,20 +1224,20 @@
     "SpeakNpcName": "RougeLike_Room312_Char01"
   },
   "6101214": {
-    "Content": "女人不说话了；她陷入了一种异常的呆滞，全身一动不动，似乎连呼吸都一同停止了。\n无论你说什么，她都再也没有任何反应。",
+    "ContentFR": "Sa voix s’éteint. Elle demeure immobile, figée comme une statue.\nTu as beau lui parler, plus rien ne l’atteint.",
     "DialogueId": 6101214,
     "GUID": "0F46146C",
     "RougeTalkActorType": 3
   },
   "6101301": {
-    "Content": "“嘭——”\n忽然间，眼前的篝火烧得更旺了。\n你注意到一位金发少女，她用裙摆兜着一把金黄色的小石子，伸手将它们一颗一颗地丢进篝火中央。",
+    "ContentFR": "« Fwoosh— »\nLes flammes jaillissent soudain plus haut.\nTu remarques une jeune fille blonde, debout près du feu. Elle retient le bas de sa robe pour y porter une brassée de pierres dorées, qu’elle jette une à une dans le brasier.",
     "DialogueId": 6101301,
     "GUID": "0F4622B2",
     "NextDialogue": 6101302,
     "RougeTalkActorType": 3
   },
   "6101302": {
-    "Content": "火焰窜得越来越高，像迎来了生命中第一个春天那般疯狂地抽枝发芽。",
+    "ContentFR": "Le feu s’élève, bouillonnant, comme une forêt au printemps qui bourgeonne dans un élan de vie.",
     "DialogueId": 6101302,
     "GUID": "0F4622DC",
     "NextOptions": [
@@ -1275,16 +1247,15 @@
     "RougeTalkActorType": 3
   },
   "6101303": {
-    "Content": "夸赞火焰的美丽。",
+    "ContentFR": "Admirer la beauté des flammes",
     "DialogueId": 6101303,
     "GUID": "0F462306",
     "IsKeyOption": true,
     "NextDialogue": 6101304,
-    "RougeTalkActorType": 2,
-    "SpeakNpcId": 910004
+    "RougeTalkActorType": 2
   },
   "6101304": {
-    "Content": "“是啊！”她的语气就如火焰一样热烈，“很高兴您与我拥有相同的想法。”",
+    "ContentFR": "« Oui ! » Sa voix brûle de la même ardeur que les flammes. \n« Comme je suis heureuse de voir que tu penses comme moi ! »",
     "DialogueId": 6101304,
     "GUID": "0F462330",
     "NextDialogue": 6101307,
@@ -1293,16 +1264,15 @@
     "SpeakNpcName": "RougeLike_Room313_Char01"
   },
   "6101305": {
-    "Content": "询问少女石头的来历。",
+    "ContentFR": "Demander d’où viennent les pierres",
     "DialogueId": 6101305,
     "GUID": "0F46235A",
     "IsKeyOption": true,
     "NextDialogue": 6101306,
-    "RougeTalkActorType": 2,
-    "SpeakNpcId": 910004
+    "RougeTalkActorType": 2
   },
   "6101306": {
-    "Content": "“这是我在附近捡的石头。”她解释道，“我想它们应该是某种火焰魔法结晶。”",
+    "ContentFR": "« Je les ai ramassées non loin d’ici. Je pense que ce sont des cristaux de magie du feu. »",
     "DialogueId": 6101306,
     "GUID": "0F462384",
     "NextDialogue": 6101307,
@@ -1311,14 +1281,14 @@
     "SpeakNpcName": "RougeLike_Room313_Char01"
   },
   "6101307": {
-    "Content": "少女继续扔着石子，不知是否是你的错觉，火焰似乎离少女越来越近，温柔地舔舐着她金色的发丝。",
+    "ContentFR": "Elle continue à lancer ses pierres, et tu crois voir les flammes s’incliner vers elle, caressant doucement ses cheveux d’or.",
     "DialogueId": 6101307,
     "GUID": "0F4623AE",
     "NextDialogue": 6101308,
     "RougeTalkActorType": 3
   },
   "6101308": {
-    "Content": "“到明天，篝火就会恢复原样，这些小石子也会再次散落在附近。”\n“所以我每天都要把这些石子捡起来重新扔进去。一共一百四十六颗，一颗不多，一颗不少。”",
+    "ContentFR": "« Demain, le feu redeviendra comme avant, et ces pierres se disperseront à nouveau autour du camp. »\n« Alors chaque jour, je les ramasse pour les jeter encore une fois. Toujours cent quarante-six. Pas une de plus, pas une de moins. »",
     "DialogueId": 6101308,
     "GUID": "0F4623D8",
     "NextDialogue": 6101309,
@@ -1327,7 +1297,7 @@
     "SpeakNpcName": "RougeLike_Room313_Char01"
   },
   "6101309": {
-    "Content": "“这不是毫无意义吗？”",
+    "ContentFR": "Dire que tout cela est vain",
     "DialogueId": 6101309,
     "GUID": "0F462402",
     "NextDialogue": 6101310,
@@ -1335,14 +1305,14 @@
     "SpeakNpcId": 910004
   },
   "6101310": {
-    "Content": "少女歪了歪头，眨眨眼睛，露出了天真的笑容。",
+    "ContentFR": "La jeune fille penche la tête, ses yeux brillants d’innocence.",
     "DialogueId": 6101310,
     "GUID": "0F46242C",
     "NextDialogue": 6101311,
     "RougeTalkActorType": 3
   },
   "6101311": {
-    "Content": "“不，我喜欢火。”她说，“我喜欢听它燃烧的声音，喜欢看它跃动的身影。”\n“你知道，在这个地方，空间是混乱的。闭上眼前还在篝火边，一醒来就到了湖水底。”\n“但是这些小石子不一样，不管环境怎么变化，它们总会再次出现。一想到明天还能找到它们，我就能安心地入眠。”",
+    "ContentFR": "« Non. Moi, j’aime le feu. J’aime écouter son crépitement, regarder ses bonds joyeux. »\n« Tu sais... dans cet endroit, l’espace est instable. On ferme les yeux près du feu et on se réveille au fond du lac. »\n« Mais ces petites pierres, elles, ne changent pas. Peu importe où je me retrouve, je sais que demain elles seront encore là. Cette certitude... me permet de dormir paisiblement. »",
     "DialogueId": 6101311,
     "GUID": "0F462456",
     "NextDialogue": 6101312,
@@ -1351,7 +1321,7 @@
     "SpeakNpcName": "RougeLike_Room313_Char01"
   },
   "6101312": {
-    "Content": "“我喜欢确定的东西。”",
+    "ContentFR": "« J’aime ce qui est certain. »",
     "DialogueId": 6101312,
     "GUID": "0F462480",
     "NextDialogue": 6101313,
@@ -1360,13 +1330,13 @@
     "SpeakNpcName": "RougeLike_Room313_Char01"
   },
   "6101313": {
-    "Content": "少女说着扔出了最后一颗石子。\n火光完全笼罩了她，金色的发丝与火焰融为一体，再难分辨边界。",
+    "ContentFR": "Elle jette sa dernière pierre.\nLes flammes l’enveloppent, et sa chevelure dorée se confond avec le brasier, jusqu’à s’y dissoudre entièrement.",
     "DialogueId": 6101313,
     "GUID": "0F4624AA",
     "RougeTalkActorType": 3
   },
   "6101401": {
-    "Content": "“唔……呃……”",
+    "ContentFR": "« Mmm... ugh... »",
     "DialogueId": 6101401,
     "GUID": "0F46331A",
     "NextDialogue": 6101402,
@@ -1375,7 +1345,7 @@
     "SpeakNpcName": "RougeLike_Room314_Char01"
   },
   "6101402": {
-    "Content": "虚弱的呻吟声从低处传来，你注意到一位瘦骨嶙峋的男人倒在篝火边，看起来似乎饿坏了。",
+    "ContentFR": "Des gémissements étouffés montent du sol. Un homme décharné est affalé près du feu, les joues creuses, vidé par la faim.",
     "DialogueId": 6101402,
     "GUID": "0F463344",
     "NextOptions": [
@@ -1385,16 +1355,15 @@
     "RougeTalkActorType": 3
   },
   "6101403": {
-    "Content": "分给他一点食物。",
+    "ContentFR": "Donner un peu de nourriture",
     "DialogueId": 6101403,
     "GUID": "0F46336E",
     "IsKeyOption": true,
     "NextDialogue": 6101404,
-    "RougeTalkActorType": 2,
-    "SpeakNpcId": 910004
+    "RougeTalkActorType": 2
   },
   "6101404": {
-    "Content": "“……谢谢你，好心的孩子。但我已经不需要食物了。”\n“我被黑潮卷了进来。我已经回不去了，吃再多的食物，也回不去了。”\n“你让我想起了一个艾利西安的小姑娘……一个和你一样善良的孩子。”",
+    "ContentFR": "« ... Merci à toi, enfant au cœur pur. Mais je n’ai plus besoin de nourriture. »\n« La marée noire m’a englouti. Je ne peux plus rentrer. Aucun pain au monde ne me ramènera. »\n« Tu me rappelles une fillette d’Élysium... une enfant aussi douce que toi. »",
     "DialogueId": 6101404,
     "GUID": "0F463398",
     "NextDialogue": 6101405,
@@ -1403,7 +1372,7 @@
     "SpeakNpcName": "RougeLike_Room314_Char01"
   },
   "6101405": {
-    "Content": "“她有一头金色的头发，骑着一只粉红色的巨猪。在我饥肠辘辘地走在街头时，她向我递来了一片面包……”\n“可那时的我心高气傲，不愿接受传颂会的施舍。明知小姑娘是善意，却还大声地咒骂了她。”",
+    "ContentFR": "« Elle avait de longs cheveux d’or et chevauchait un sanglier rose. Alors que j’errais, affamé, dans les rues, elle m’a tendu une miche de pain... »\n« Mais mon orgueil était trop grand. J’ai refusé l’aumône de l’Église Élyséenne, et j’ai craché des injures à son geste. »",
     "DialogueId": 6101405,
     "GUID": "0F4633C2",
     "NextDialogue": 6101406,
@@ -1412,7 +1381,7 @@
     "SpeakNpcName": "RougeLike_Room314_Char01"
   },
   "6101406": {
-    "Content": "“如今，回想起我的一生……我才恍然发觉，她也许是唯一真心对待过我的人。”\n“信仰、种族、出身……人们总是用这些东西……粉饰自己……但再多的头衔，都无法盖过真正的善良所发出的光辉……”",
+    "ContentFR": "« Aujourd’hui, repensant à ma vie... je réalise qu’elle fut peut-être la seule à m’avoir traité avec sincérité. »\n« La foi, la race, la naissance... Les hommes se parent de ces artifices... Mais aucun titre ne peut éclipser la lumière d’une véritable bonté... »",
     "DialogueId": 6101406,
     "GUID": "0F4633EC",
     "NextDialogue": 6101407,
@@ -1421,7 +1390,7 @@
     "SpeakNpcName": "RougeLike_Room314_Char01"
   },
   "6101407": {
-    "Content": "“如果还能回去，我想要……亲自向她道歉……只是，已经……没机会了……”",
+    "ContentFR": "« Si je pouvais revenir en arrière... je voudrais... lui demander pardon... Mais il est trop tard... »",
     "DialogueId": 6101407,
     "GUID": "0F463416",
     "NextDialogue": 6101408,
@@ -1430,28 +1399,27 @@
     "SpeakNpcName": "RougeLike_Room314_Char01"
   },
   "6101408": {
-    "Content": "男人的声音逐渐变得越来越轻，你眨了眨眼睛，他的身影消失不见。\n空气中飘来一缕刚出炉的面包的香气。",
+    "ContentFR": "Sa voix s’étiole. Tu clignes des yeux, et sa silhouette s’efface.\nUn parfum de pain chaud flotte dans l’air.",
     "DialogueId": 6101408,
     "GUID": "0F463440",
     "RougeTalkActorType": 3
   },
   "6101409": {
-    "Content": "什么也不做。",
+    "ContentFR": "Ne rien faire",
     "DialogueId": 6101409,
     "GUID": "0F46346A",
     "IsKeyOption": true,
     "NextDialogue": 6101410,
-    "RougeTalkActorType": 2,
-    "SpeakNpcId": 910004
+    "RougeTalkActorType": 2
   },
   "6101410": {
-    "Content": "男人看上去确实非常可怜，但你身上的补给也已经所剩无几。\n在这险恶的深渊中，你必须先确保自己能活下去。",
+    "ContentFR": "L’homme paraît misérable, mais tes provisions sont déjà bien maigres.\nDans cet abysse cruel, il te faut d’abord survivre toi-même.",
     "DialogueId": 6101410,
     "GUID": "0F463494",
     "RougeTalkActorType": 3
   },
   "6101501": {
-    "Content": "一道金光自空中闪现，你恍惚以为是太阳升起，定睛一看，原来那是一只通体金黄的鸟儿。\n它从空中盘旋降落，停落在你身边，优雅地收拢翅膀，聚起的金色羽毛在篝火的映照下熠熠生辉，比贵族少女们珍藏的金饰还要细密精巧。",
+    "ContentFR": "Un éclat d’or fend le ciel. Tu crois voir l’aube apparaître, mais c’est un oiseau doré qui descend en planant.\nIl se pose près de toi avec élégance. Ses plumes étincellent au feu comme un or plus pur que les joyaux des nobles.",
     "DialogueId": 6101501,
     "GUID": "0F464382",
     "NextOptions": [
@@ -1462,80 +1430,77 @@
     "RougeTalkActorType": 3
   },
   "6101502": {
-    "Content": "给鸟儿喂水。",
+    "ContentFR": "Donner de l’eau à l’oiseau",
     "DialogueId": 6101502,
     "GUID": "0F4643AC",
     "IsKeyOption": true,
     "NextDialogue": 6101503,
-    "RougeTalkActorType": 2,
-    "SpeakNpcId": 910004
+    "RougeTalkActorType": 2
   },
   "6101503": {
-    "Content": "你在掌心倒了一些清水，伸手向鸟儿发出邀请。",
+    "ContentFR": "Tu verses un peu d’eau dans ta paume et l’offres à l’oiseau.",
     "DialogueId": 6101503,
     "GUID": "0F4643D6",
     "NextDialogue": 6101504,
     "RougeTalkActorType": 3
   },
   "6101504": {
-    "Content": "鸟儿歪了歪头，警惕地观察着你。片刻之后，它矜持地探出金色的喙，在你的掌心小口啜饮起来。\n喝完水，它愉快地扇了扇美丽的羽毛，向你发出感激的鸣叫，随后飞上天空，盘旋而去。",
+    "ContentFR": "Il penche la tête, hésite, puis avance son bec étincelant. \nIl boit avec retenue, puis pousse un trille joyeux, secoue ses plumes dorées et s’élève, disparaissant dans une spirale lumineuse.",
     "DialogueId": 6101504,
     "GUID": "0F464400",
     "RougeTalkActorType": 3
   },
   "6101505": {
-    "Content": "尝试从鸟儿的尾部拔一根羽毛。",
+    "ContentFR": "Arracher une plume de la queue",
     "DialogueId": 6101505,
     "GUID": "0F46442A",
     "IsKeyOption": true,
     "NextDialogue": 6101506,
-    "RougeTalkActorType": 2,
-    "SpeakNpcId": 910004
+    "RougeTalkActorType": 2
   },
   "6101506": {
-    "Content": "你悄悄伸手，趁鸟儿闭眼休息时，从它的尾巴上拔下了一根羽毛——羽毛的质地如同上等的黄金，一定价值不菲。",
+    "ContentFR": "Profitant de son repos, tu tires discrètement sur une plume de sa queue. Elle brille comme l’or le plus précieux.",
     "DialogueId": 6101506,
     "GUID": "0F464454",
     "NextDialogue": 6101507,
     "RougeTalkActorType": 3
   },
   "6101507": {
-    "Content": "鸟儿发出一声愤怒的鸣叫，扑扇着翅膀向你飞来。它不遗余力的一啄如同滚烫的熔金滴落在你的掌心，留下了一道鲜明的红色印记。",
+    "ContentFR": "L’oiseau s’éveille furieux, fond sur toi, et son bec frappe comme une goutte d’or en fusion. Une marque rouge s’imprime dans ta paume.",
     "DialogueId": 6101507,
     "GUID": "0F46447E",
     "NextDialogue": 6101508,
     "RougeTalkActorType": 3
   },
   "6101508": {
-    "Content": "待你从钻心的痛楚中回过神来，鸟儿早已盘旋飞远。",
+    "ContentFR": "Quand la douleur s’apaise, l’oiseau a disparu dans les hauteurs.",
     "DialogueId": 6101508,
     "GUID": "0F4644A8",
     "RougeTalkActorType": 3
   },
   "6101509": {
-    "Content": "尝试从鸟儿的头部拔一根羽毛。",
+    "ContentFR": "Arracher une plume de la tête",
     "DialogueId": 6101509,
     "GUID": "0F4644D2",
     "IsKeyOption": true,
     "NextDialogue": 6101510,
-    "RougeTalkActorType": 2,
-    "SpeakNpcId": 910004
+    "RougeTalkActorType": 2
   },
   "6101510": {
-    "Content": "你悄悄伸手接近鸟儿的脑袋，但还没来得及用力，它便注意到你的意图，蓦地睁开了眼睛。\n鸟儿发出一声愤怒的鸣叫，扑扇着翅膀向你飞来。它不遗余力的一啄如同滚烫的熔金滴落在你的掌心，留下了一道鲜明的红色印记。",
+    "ContentFR": "Tu tends la main vers sa tête, tes doigts prêts à saisir une plume. Mais soudain, l’oiseau ouvre brusquement les yeux.\nDans un hurlement de fureur, il déploie ses ailes et se jette sur toi. Son bec s’abat dans ta paume comme une goutte d’or en fusion, y imprimant une marque rouge vive, brûlante et irrévocable.",
     "DialogueId": 6101510,
     "GUID": "0F4644FC",
     "NextDialogue": 6101511,
     "RougeTalkActorType": 3
   },
   "6101511": {
-    "Content": "待你从钻心的痛楚中回过神来，鸟儿早已盘旋飞远。",
+    "ContentFR": "Lorsque tu reprends ton souffle, il n’est déjà plus qu’un éclat d’or dans le ciel.",
     "DialogueId": 6101511,
     "GUID": "0F464526",
     "RougeTalkActorType": 3
   },
   "6101601": {
-    "Content": "一股腐败、腥秽的气息从近处传来。\n你看到一个小女孩出现在篝火边。她的脸颊和手臂上都布满了可怕的脓疮，若不是那双眼睛仍在篝火映照下透出生命的光芒，你几乎要怀疑眼前所见的只是一具尸体。",
+    "ContentFR": "Une odeur de pourriture emplit l’air. \nUne petite fille s’approche du feu. Son visage et ses bras sont couverts de plaies purulentes. Sans la lueur qui survit encore dans ses yeux, tu la croirais morte.",
     "DialogueId": 6101601,
     "GUID": "0F4653EA",
     "NextOptions": [
@@ -1546,16 +1511,15 @@
     "RougeTalkActorType": 3
   },
   "6101602": {
-    "Content": "你从背包中找出了一些药品，递给女孩。",
+    "ContentFR": "Tu sors quelques remèdes de ton sac et les tends à la fillette.",
     "DialogueId": 6101602,
     "GUID": "0F465414",
     "IsKeyOption": true,
     "NextDialogue": 6101603,
-    "RougeTalkActorType": 2,
-    "SpeakNpcId": 910004
+    "RougeTalkActorType": 2
   },
   "6101603": {
-    "Content": "“感谢您……善良的旅人……”\n她慢慢地抬起头看向你；你不确定她勾起的嘴角究竟是主动露出的笑容，还是因疼痛而产生的肌肉扭曲。",
+    "ContentFR": "« Merci... {性别:voyageur|voyageuse}... c’est si doux... »\nElle lève lentement la tête. Son sourire tremblant oscille entre gratitude et rictus de douleur.",
     "DialogueId": 6101603,
     "GUID": "0F46543E",
     "NextDialogue": 6101604,
@@ -1564,7 +1528,7 @@
     "SpeakNpcName": "RougeLike_Room316_Char01"
   },
   "6101604": {
-    "Content": "“但是，请……不必帮助我……”她低声说道，“司祭大人说，我染上了诅咒，得了深渊病，这是我的罪孽……”\n“我必须诚心忏悔……然后，我就会好起来的……在那之前，我不可以接近任何人。”",
+    "ContentFR": "« Mais... ne m’aidez pas... » murmure-t-elle d’une voix basse.\n« Le prêtre a dit que cette malédiction, cette maladie de l’Abysse, est mon péché... »\n« Je dois me repentir sincèrement... alors je guérirai... jusque-là, je ne dois approcher personne... »",
     "DialogueId": 6101604,
     "GUID": "0F465468",
     "NextDialogue": 6101605,
@@ -1573,29 +1537,28 @@
     "SpeakNpcName": "RougeLike_Room316_Char01"
   },
   "6101605": {
-    "Content": "女孩摇摇晃晃地撑起身体，转身消失在黑暗中。",
+    "ContentFR": "Elle chancelle et disparaît dans les ténèbres.",
     "DialogueId": 6101605,
     "GUID": "0F465492",
     "RougeTalkActorType": 3
   },
   "6101606": {
-    "Content": "尝试治疗女孩的伤口。",
+    "ContentFR": "Soigner ses blessures",
     "DialogueId": 6101606,
     "GUID": "0F4654BC",
     "IsKeyOption": true,
     "NextDialogue": 6101607,
-    "RougeTalkActorType": 2,
-    "SpeakNpcId": 910004
+    "RougeTalkActorType": 2
   },
   "6101607": {
-    "Content": "你小心地接近女孩，试图查看她身上伤口的情况。",
+    "ContentFR": "Tu t’approches prudemment, examinant ses plaies.",
     "DialogueId": 6101607,
     "GUID": "0F4654E6",
     "NextDialogue": 6101608,
     "RougeTalkActorType": 3
   },
   "6101608": {
-    "Content": "“咳、咳……！”\n她猛烈地咳嗽起来，暗红色的血溅在你伸出的手上，升腾起不祥的黑色烟雾。",
+    "ContentFR": "« Kof... kof ! »\nElle crache un sang sombre qui éclabousse ta main tendue, se changeant en une fumée noire inquiétante.",
     "DialogueId": 6101608,
     "GUID": "0F465510",
     "NextDialogue": 6101609,
@@ -1604,7 +1567,7 @@
     "SpeakNpcName": "RougeLike_Room316_Char01"
   },
   "6101609": {
-    "Content": "“对、对不起……！”\n她摇摇晃晃地撑起身体，想要退后，却又不小心跌倒在地。",
+    "ContentFR": "« Pa... pardon ! »\nElle tente de reculer, mais s’écroule à nouveau.",
     "DialogueId": 6101609,
     "GUID": "0F46553A",
     "NextDialogue": 6101610,
@@ -1613,7 +1576,7 @@
     "SpeakNpcName": "RougeLike_Room316_Char01"
   },
   "6101610": {
-    "Content": "“司祭大人说，我染上了诅咒，得了深渊病，这是我的罪孽……”\n“我必须诚心忏悔……然后，我就会好起来的……在那之前，我不可以接近任何人。”",
+    "ContentFR": "« Le prêtre a dit que cette malédiction, cette maladie de l’Abysse, est mon péché... »\n« Je dois me repentir sincèrement... alors je guérirai... jusque-là, je ne dois approcher personne... »",
     "DialogueId": 6101610,
     "GUID": "0F465564",
     "NextDialogue": 6101611,
@@ -1622,29 +1585,28 @@
     "SpeakNpcName": "RougeLike_Room316_Char01"
   },
   "6101611": {
-    "Content": "女孩再次艰难起身，跌跌撞撞地消失在黑暗中。",
+    "ContentFR": "Elle repart en titubant et s’efface dans l’ombre.",
     "DialogueId": 6101611,
     "GUID": "0F46558E",
     "RougeTalkActorType": 3
   },
   "6101612": {
-    "Content": "远离她。",
+    "ContentFR": "S’éloigner",
     "DialogueId": 6101612,
     "GUID": "0F4655B8",
     "IsKeyOption": true,
     "NextDialogue": 6101613,
-    "RougeTalkActorType": 2,
-    "SpeakNpcId": 910004
+    "RougeTalkActorType": 2
   },
   "6101613": {
-    "Content": "直觉告诉你女孩可能患有某种危险的疫病，于是你起身与她拉开了一段距离。",
+    "ContentFR": "Tout ton être hurle que cette maladie est dangereuse. Tu recules et prends tes distances.",
     "DialogueId": 6101613,
     "GUID": "0F4655E2",
     "NextDialogue": 6101614,
     "RougeTalkActorType": 3
   },
   "6101614": {
-    "Content": "“抱歉……让您受到了惊吓……我、我这就离开……”",
+    "ContentFR": "« Pardonnez-moi... de vous avoir effrayé... je... je m’en vais... »",
     "DialogueId": 6101614,
     "GUID": "0F46560C",
     "NextDialogue": 6101615,
@@ -1653,20 +1615,20 @@
     "SpeakNpcName": "RougeLike_Room316_Char01"
   },
   "6101615": {
-    "Content": "女孩摇摇晃晃地撑起身体，转身消失在黑暗中。",
+    "ContentFR": "Elle se relève et disparaît dans la nuit.",
     "DialogueId": 6101615,
     "GUID": "0F465636",
     "RougeTalkActorType": 3
   },
   "6101701": {
-    "Content": "你在篝火旁坐下休息，顺手将提灯放在脚边。\n就在你的手指离开提灯的瞬间，地面上忽然泛起了水光。你还来不及作出反应，提灯便被水中卷起的漩涡吞没了。",
+    "ContentFR": "Tu poses la lanterne près du feu. Mais à l’instant où tes doigts la quittent, l’eau jaillit du sol. En un souffle, un tourbillon surgit et l’engloutit avant que tu n’aies pu réagir.",
     "DialogueId": 6101701,
     "GUID": "0F466452",
     "NextDialogue": 6101702,
     "RougeTalkActorType": 3
   },
   "6101702": {
-    "Content": "一个戴着滑稽的鸟头面具的人从水里探出半个身体，甩了甩脑袋，然后张开了双臂——三盏形状相同但材质各异的提灯在水面上浮现。",
+    "ContentFR": "Soudain, un être coiffé d’un masque grotesque d’oiseau émerge à moitié, les bras grands ouverts. Trois lanternes flottent sur l’eau : identiques, mais d’or, de bois, et de cuivre.",
     "DialogueId": 6101702,
     "GUID": "0F46647C",
     "NextDialogue": 6101703,
